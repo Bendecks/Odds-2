@@ -6,7 +6,13 @@
       "description": "Full-page Safari PDF where football 1X2 rows appear as home, away, time, odds triple.",
       "required_markers": ["1", "X", "2"],
       "market_type": "1X2",
-      "sport": "football"
+      "sport": "football",
+      "approval_status": "approved_for_phase_1_1",
+      "layout_hashes": [
+        "e9231e60512f025f",
+        "4ec8c1082dbf9b16"
+      ],
+      "approved_reason": "Both layout hashes parsed 90 total observations with high parser confidence and passed duplicate-noise rerun validation."
     }
   ]
 }
