@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-08T09:28:05Z",
+  "generated_at": "2026-05-08T09:46:57Z",
   "phase": "data_integrity_foundation_v1_1",
   "input_dir": "inbox/possible_bets",
   "files": [
     {
-      "file_id": "d591e3f4586bb64e",
+      "file_id": "462431c3e13fcce5",
       "source_file": "inbox/possible_bets/20260508-105030_possible_bets_2863.pdf",
-      "extracted_at": "2026-05-08T09:28:06Z",
+      "extracted_at": "2026-05-08T09:46:58Z",
       "text_extraction": {
         "method": "pypdf",
         "has_text_layer": true,
@@ -16,7 +16,7 @@
         "layout_version": "unknown",
         "extraction_confidence": 0.95,
         "fallback_used": false,
-        "raw_text_debug_path": "output/debug_text/pypdf_d591e3f4586bb64e.txt",
+        "raw_text_debug_path": "output/debug_text/pypdf_462431c3e13fcce5.txt",
         "warnings": []
       },
       "capture": {
@@ -26,13 +26,14 @@
         "timezone": "Europe/Copenhagen",
         "confidence": 0.95,
         "source": "bet365_pdf_text",
+        "trusted_capture_date": true,
         "warnings": []
       }
     },
     {
-      "file_id": "667b69ac393c5706",
+      "file_id": "b755effda92e2ceb",
       "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-      "extracted_at": "2026-05-08T09:28:06Z",
+      "extracted_at": "2026-05-08T09:46:59Z",
       "text_extraction": {
         "method": "pypdf",
         "has_text_layer": true,
@@ -42,7 +43,7 @@
         "layout_version": "unknown",
         "extraction_confidence": 0.95,
         "fallback_used": false,
-        "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
+        "raw_text_debug_path": "output/debug_text/pypdf_b755effda92e2ceb.txt",
         "warnings": []
       },
       "capture": {
@@ -52,6 +53,7 @@
         "timezone": "Europe/Copenhagen",
         "confidence": 0.95,
         "source": "bet365_pdf_text",
+        "trusted_capture_date": true,
         "warnings": []
       }
     }
