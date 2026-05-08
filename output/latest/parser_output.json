@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-05-08T08:51:17Z",
+  "phase": "data_integrity_foundation_v1",
+  "input_dir": "inbox/possible_bets",
+  "files": [
+    {
+      "file_id": "d212fa5ea459d134",
+      "source_file": "inbox/possible_bets/20260508-105030_possible_bets_2863.pdf",
+      "extracted_at": "2026-05-08T08:51:18Z",
+      "text_extraction": {
+        "method": "pypdf",
+        "has_text_layer": true,
+        "text_length": 2911,
+        "line_count": 163,
+        "layout_hash": "e9231e60512f025f",
+        "layout_version": "unknown",
+        "extraction_confidence": 0.95,
+        "fallback_used": false,
+        "raw_text_debug_path": "output/debug_text/pypdf_d212fa5ea459d134.txt",
+        "warnings": []
+      },
+      "capture": {
+        "raw_display": "08.05.2026, 05.12",
+        "local": "2026-05-08T05:12:00+02:00",
+        "utc": "2026-05-08T03:12:00Z",
+        "timezone": "Europe/Copenhagen",
+        "confidence": 0.95,
+        "source": "bet365_pdf_text",
+        "warnings": []
+      }
+    },
+    {
+      "file_id": "c0fab7aa1ec927be",
+      "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
+      "extracted_at": "2026-05-08T08:51:18Z",
+      "text_extraction": {
+        "method": "pypdf",
+        "has_text_layer": true,
+        "text_length": 3050,
+        "line_count": 197,
+        "layout_hash": "4ec8c1082dbf9b16",
+        "layout_version": "unknown",
+        "extraction_confidence": 0.95,
+        "fallback_used": false,
+        "raw_text_debug_path": "output/debug_text/pypdf_c0fab7aa1ec927be.txt",
+        "warnings": []
+      },
+      "capture": {
+        "raw_display": "08.05.2026, 05.40",
+        "local": "2026-05-08T05:40:00+02:00",
+        "utc": "2026-05-08T03:40:00Z",
+        "timezone": "Europe/Copenhagen",
+        "confidence": 0.95,
+        "source": "bet365_pdf_text",
+        "warnings": []
+      }
+    }
+  ],
+  "parser_errors": [],
+  "summary": {
+    "files_processed": 2,
+    "observations_raw": 90,
+    "records_appended": 92,
+    "dedupe_report": {
+      "new_observation": 90,
+      "duplicate_noise": 0,
+      "odds_movement": 0,
+      "significant_odds_change": 0,
+      "parser_conflict": 0
+    }
+  }
+}
