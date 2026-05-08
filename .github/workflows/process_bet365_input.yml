@@ -3,8 +3,16 @@ name: Process bet365 input
 on:
   workflow_dispatch:
     inputs:
-      simulate_research:
-        description: 'Force one simulated research_record to verify Phase 2.1 plumbing'
+      force_research_candidate:
+        description: 'Force one otherwise eligible market into research candidate selection'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
+      simulate_research_write_record:
+        description: 'Write a fake research_record instead of calling Gemini research'
         required: false
         default: 'false'
         type: choice
@@ -66,8 +74,8 @@ jobs:
           GEMINI_RESEARCH_MODEL: gemini-2.5-flash
           MAX_RESEARCH_CALLS: 5
           RESEARCH_ENABLED: true
-          SIMULATE_RESEARCH_TRIGGER: ${{ github.event.inputs.simulate_research }}
-          SIMULATE_RESEARCH_WRITE_RECORD: ${{ github.event.inputs.simulate_research }}
+          SIMULATE_RESEARCH_TRIGGER: ${{ github.event.inputs.force_research_candidate }}
+          SIMULATE_RESEARCH_WRITE_RECORD: ${{ github.event.inputs.simulate_research_write_record }}
 
       - name: Commit data integrity, paper decision and research outputs
         run: |
