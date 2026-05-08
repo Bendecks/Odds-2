@@ -25,8 +25,8 @@ def stable_hash(prefix, *parts, length=16):
     return f'{prefix}_{hashlib.sha256(raw.encode("utf-8")).hexdigest()[:length]}'
 
 
-def heuristic_decision(candidate):
-    """Fallback used when OPENAI_API_KEY is absent. It is intentionally conservative."""
+def heuristic_decision(candidate, fallback_reason=None):
+    """Fallback used when OpenAI is unavailable. It is intentionally conservative."""
     odds = float(candidate.get('odds') or 0)
     change = float(candidate.get('change_pct_from_first') or 0)
     movement = candidate.get('movement_from_first')
@@ -34,6 +34,8 @@ def heuristic_decision(candidate):
     risk_flags = []
     data_flags = []
 
+    if fallback_reason:
+        data_flags.append(fallback_reason)
     if not all(hard.values()):
         data_flags.append('failed_hard_gate')
     if odds < 1.20 or odds > 8.00:
@@ -47,7 +49,10 @@ def heuristic_decision(candidate):
     reasoning_code = 'NO_VALUE_SIGNAL'
     summary = 'No paper bet: no research layer and no meaningful market movement signal.'
 
-    if movement == 'shortened' and change >= 0.10:
+    if fallback_reason:
+        reasoning_code = 'AI_UNAVAILABLE_FALLBACK_PASS'
+        summary = f'OpenAI unavailable ({fallback_reason}). Conservative fallback: PASS.'
+    elif movement == 'shortened' and change >= 0.10:
         decision = 'WATCH'
         confidence = 'medium'
         reasoning_code = 'SIGNIFICANT_STEAM_WATCH'
@@ -111,19 +116,31 @@ def user_prompt(payload):
 def call_openai(payload):
     api_key = os.getenv('OPENAI_API_KEY')
     if not api_key:
-        return None
-    from openai import OpenAI
-    client = OpenAI(api_key=api_key)
-    resp = client.chat.completions.create(
-        model=MODEL,
-        temperature=0,
-        response_format={'type': 'json_object'},
-        messages=[
-            {'role': 'system', 'content': system_prompt()},
-            {'role': 'user', 'content': user_prompt(payload)},
-        ],
-    )
-    return json.loads(resp.choices[0].message.content)
+        return None, 'missing_openai_api_key'
+    try:
+        from openai import OpenAI
+        client = OpenAI(api_key=api_key)
+        resp = client.chat.completions.create(
+            model=MODEL,
+            temperature=0,
+            response_format={'type': 'json_object'},
+            messages=[
+                {'role': 'system', 'content': system_prompt()},
+                {'role': 'user', 'content': user_prompt(payload)},
+            ],
+        )
+        return json.loads(resp.choices[0].message.content), None
+    except Exception as exc:
+        err = str(exc)
+        reason = 'openai_api_error'
+        if 'billing_not_active' in err or 'account is not active' in err:
+            reason = 'openai_billing_not_active'
+        elif 'rate_limit' in err.lower() or 'ratelimit' in err.lower():
+            reason = 'openai_rate_limit'
+        elif 'invalid_api_key' in err.lower() or 'incorrect api key' in err.lower():
+            reason = 'openai_invalid_api_key'
+        print(f'OpenAI unavailable, using conservative fallback: {reason} | {err[:300]}')
+        return None, reason
 
 
 def normalize_ai_output(ai_output, candidates):
@@ -165,7 +182,7 @@ def normalize_ai_output(ai_output, candidates):
     return decisions
 
 
-def build_decision_records(decisions, candidates, engine):
+def build_decision_records(decisions, candidates, engine, fallback_reason=None):
     by_id = {c['market_id']: c for c in candidates}
     now = utc_now()
     records = []
@@ -179,6 +196,7 @@ def build_decision_records(decisions, candidates, engine):
             'model_version': MODEL_VERSION,
             'model': MODEL if engine == 'openai' else 'heuristic_fallback',
             'engine': engine,
+            'fallback_reason': fallback_reason,
             'mode': 'paper_only',
             'market_id': d['market_id'],
             'event_id': c.get('event_id'),
@@ -201,7 +219,7 @@ def build_decision_records(decisions, candidates, engine):
     return records
 
 
-def write_report(records, candidate_payload, engine):
+def write_report(records, candidate_payload, engine, fallback_reason=None):
     counts = {}
     for r in records:
         counts[r['decision']] = counts.get(r['decision'], 0) + 1
@@ -209,6 +227,7 @@ def write_report(records, candidate_payload, engine):
         '# Odds 2 — Phase 2.0 Paper Decision Report', '',
         f'Generated: {utc_now()}',
         f'- Engine: {engine}',
+        f'- Fallback reason: {fallback_reason}',
         f'- Model version: {MODEL_VERSION}',
         f'- Candidates prepared: {candidate_payload.get("candidate_count")}',
         f'- Decisions written: {len(records)}',
@@ -237,18 +256,19 @@ def write_report(records, candidate_payload, engine):
 def main():
     payload = prepare_candidates(MAX_CANDIDATES, MODEL_VERSION)
     candidates = payload.get('candidates') or []
+    fallback_reason = None
     if not candidates:
         records = []
         engine = 'none_no_candidates'
     else:
-        ai_output = call_openai(payload)
+        ai_output, fallback_reason = call_openai(payload)
         if ai_output is None:
             engine = 'heuristic_fallback'
-            decisions = [heuristic_decision(c) | {'market_id': c['market_id']} for c in candidates]
+            decisions = [heuristic_decision(c, fallback_reason=fallback_reason) | {'market_id': c['market_id']} for c in candidates]
         else:
             engine = 'openai'
             decisions = normalize_ai_output(ai_output, candidates)
-        records = build_decision_records(decisions, candidates, engine)
+        records = build_decision_records(decisions, candidates, engine, fallback_reason=fallback_reason)
         append_records(records)
 
     out = {
@@ -256,13 +276,14 @@ def main():
         'model_version': MODEL_VERSION,
         'mode': 'paper_only',
         'engine': engine,
+        'fallback_reason': fallback_reason,
         'candidate_count': len(candidates),
         'decision_count': len(records),
         'decisions': records,
     }
     (OUT_LATEST / 'ai_decisions.json').write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding='utf-8')
-    report_path = write_report(records, payload, engine)
-    print(f'Phase 2.0 paper decisions OK | candidates={len(candidates)} decisions={len(records)} engine={engine} report={report_path}')
+    report_path = write_report(records, payload, engine, fallback_reason=fallback_reason)
+    print(f'Phase 2.0 paper decisions OK | candidates={len(candidates)} decisions={len(records)} engine={engine} fallback_reason={fallback_reason} report={report_path}')
 
 
 if __name__ == '__main__':
