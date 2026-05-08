@@ -1,0 +1,269 @@
+import hashlib
+import json
+import os
+import pathlib
+from datetime import datetime, timezone
+
+from prepare_candidates import prepare_candidates, MODEL_VERSION
+from tracker import append_records
+
+OUT_LATEST = pathlib.Path('output/latest')
+OUT_REPORTS = pathlib.Path('output/reports')
+OUT_LATEST.mkdir(parents=True, exist_ok=True)
+OUT_REPORTS.mkdir(parents=True, exist_ok=True)
+
+MODEL = os.getenv('OPENAI_MODEL', 'gpt-4o-mini')
+MAX_CANDIDATES = int(os.getenv('AI_MAX_CANDIDATES', '90'))
+
+
+def utc_now():
+    return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace('+00:00', 'Z')
+
+
+def stable_hash(prefix, *parts, length=16):
+    raw = '|'.join(str(p or '').strip().lower() for p in parts)
+    return f'{prefix}_{hashlib.sha256(raw.encode("utf-8")).hexdigest()[:length]}'
+
+
+def heuristic_decision(candidate):
+    """Fallback used when OPENAI_API_KEY is absent. It is intentionally conservative."""
+    odds = float(candidate.get('odds') or 0)
+    change = float(candidate.get('change_pct_from_first') or 0)
+    movement = candidate.get('movement_from_first')
+    hard = candidate.get('hard_gates') or {}
+    risk_flags = []
+    data_flags = []
+
+    if not all(hard.values()):
+        data_flags.append('failed_hard_gate')
+    if odds < 1.20 or odds > 8.00:
+        risk_flags.append('odds_outside_phase2_heuristic_range')
+    if candidate.get('league') == 'unknown':
+        data_flags.append('league_unknown')
+
+    decision = 'PASS'
+    confidence = 'low'
+    paper_stake_pct = 0.0
+    reasoning_code = 'NO_VALUE_SIGNAL'
+    summary = 'No paper bet: no research layer and no meaningful market movement signal.'
+
+    if movement == 'shortened' and change >= 0.10:
+        decision = 'WATCH'
+        confidence = 'medium'
+        reasoning_code = 'SIGNIFICANT_STEAM_WATCH'
+        summary = 'Significant shortening detected. Watch candidate for Phase 2.1 research, not a paper bet yet.'
+    elif movement == 'shortened' and change >= 0.03:
+        decision = 'WATCH'
+        confidence = 'low'
+        reasoning_code = 'SMALL_STEAM_WATCH'
+        summary = 'Small odds shortening detected. Watch only.'
+
+    return {
+        'decision': decision,
+        'confidence': confidence,
+        'paper_stake_pct': paper_stake_pct,
+        'reasoning_code': reasoning_code,
+        'reasoning_summary': summary,
+        'risk_flags': risk_flags,
+        'data_flags': data_flags,
+    }
+
+
+def system_prompt():
+    return (
+        'You are the paper-only decision layer for a betting data pipeline. '
+        'You do not place real bets. You must be conservative. '
+        'Use only the JSON data provided. Do not invent injuries, form, news, odds comparisons, or external facts. '
+        'Return valid JSON only. For each candidate return exactly one decision: PAPER_BET, PASS, or WATCH. '
+        'Prefer PASS unless there is a clear reason from market data. WATCH is for candidates that need later research. '
+        'PAPER_BET is allowed only for paper tracking and only when the provided market data supports it. '
+        'Never use real money language. Do not recommend real betting.'
+    )
+
+
+def user_prompt(payload):
+    compact = {
+        'mode': 'paper_only',
+        'model_version': payload.get('model_version'),
+        'instructions': {
+            'allowed_decisions': ['PAPER_BET', 'PASS', 'WATCH'],
+            'no_external_knowledge': True,
+            'return_schema': {
+                'decisions': [
+                    {
+                        'market_id': 'string',
+                        'decision': 'PAPER_BET|PASS|WATCH',
+                        'confidence': 'low|medium|high',
+                        'paper_stake_pct': 'number, 0.0 to 1.0, paper only',
+                        'reasoning_code': 'UPPER_SNAKE_CASE',
+                        'reasoning_summary': 'short string',
+                        'risk_flags': ['string'],
+                        'data_flags': ['string']
+                    }
+                ]
+            }
+        },
+        'candidates': payload.get('candidates') or []
+    }
+    return json.dumps(compact, ensure_ascii=False)
+
+
+def call_openai(payload):
+    api_key = os.getenv('OPENAI_API_KEY')
+    if not api_key:
+        return None
+    from openai import OpenAI
+    client = OpenAI(api_key=api_key)
+    resp = client.chat.completions.create(
+        model=MODEL,
+        temperature=0,
+        response_format={'type': 'json_object'},
+        messages=[
+            {'role': 'system', 'content': system_prompt()},
+            {'role': 'user', 'content': user_prompt(payload)},
+        ],
+    )
+    return json.loads(resp.choices[0].message.content)
+
+
+def normalize_ai_output(ai_output, candidates):
+    by_id = {c['market_id']: c for c in candidates}
+    decisions = []
+    raw_decisions = (ai_output or {}).get('decisions') or []
+    for d in raw_decisions:
+        mid = d.get('market_id')
+        if mid not in by_id:
+            continue
+        decision = str(d.get('decision') or 'PASS').upper()
+        if decision not in {'PAPER_BET', 'PASS', 'WATCH'}:
+            decision = 'PASS'
+        confidence = str(d.get('confidence') or 'low').lower()
+        if confidence not in {'low', 'medium', 'high'}:
+            confidence = 'low'
+        try:
+            stake = float(d.get('paper_stake_pct') or 0.0)
+        except Exception:
+            stake = 0.0
+        if decision != 'PAPER_BET':
+            stake = 0.0
+        stake = max(0.0, min(stake, 1.0))
+        decisions.append({
+            'market_id': mid,
+            'decision': decision,
+            'confidence': confidence,
+            'paper_stake_pct': stake,
+            'reasoning_code': str(d.get('reasoning_code') or 'UNSPECIFIED'),
+            'reasoning_summary': str(d.get('reasoning_summary') or '')[:500],
+            'risk_flags': d.get('risk_flags') if isinstance(d.get('risk_flags'), list) else [],
+            'data_flags': d.get('data_flags') if isinstance(d.get('data_flags'), list) else [],
+        })
+    missing = set(by_id) - {d['market_id'] for d in decisions}
+    for mid in missing:
+        c = by_id[mid]
+        hd = heuristic_decision(c)
+        decisions.append({'market_id': mid, **hd})
+    return decisions
+
+
+def build_decision_records(decisions, candidates, engine):
+    by_id = {c['market_id']: c for c in candidates}
+    now = utc_now()
+    records = []
+    for d in decisions:
+        c = by_id[d['market_id']]
+        decision_id = stable_hash('dec', MODEL_VERSION, d['market_id'], now)
+        records.append({
+            'record_type': 'decision_record',
+            'decision_id': decision_id,
+            'created_at': now,
+            'model_version': MODEL_VERSION,
+            'model': MODEL if engine == 'openai' else 'heuristic_fallback',
+            'engine': engine,
+            'mode': 'paper_only',
+            'market_id': d['market_id'],
+            'event_id': c.get('event_id'),
+            'latest_observation_id': c.get('latest_observation_id'),
+            'event_name': c.get('event_name'),
+            'event_time_utc': c.get('event_time_utc'),
+            'market_type': c.get('market_type'),
+            'line': c.get('line'),
+            'selection': c.get('selection'),
+            'odds_at_decision': c.get('odds'),
+            'decision': d.get('decision'),
+            'confidence': d.get('confidence'),
+            'paper_stake_pct': d.get('paper_stake_pct'),
+            'reasoning_code': d.get('reasoning_code'),
+            'reasoning_summary': d.get('reasoning_summary'),
+            'risk_flags': d.get('risk_flags'),
+            'data_flags': d.get('data_flags'),
+            'source_market_snapshot': c,
+        })
+    return records
+
+
+def write_report(records, candidate_payload, engine):
+    counts = {}
+    for r in records:
+        counts[r['decision']] = counts.get(r['decision'], 0) + 1
+    lines = [
+        '# Odds 2 — Phase 2.0 Paper Decision Report', '',
+        f'Generated: {utc_now()}',
+        f'- Engine: {engine}',
+        f'- Model version: {MODEL_VERSION}',
+        f'- Candidates prepared: {candidate_payload.get("candidate_count")}',
+        f'- Decisions written: {len(records)}',
+        f'- Decision counts: `{json.dumps(counts, ensure_ascii=False)}`', '',
+        '## Decisions',
+    ]
+    if not records:
+        lines.append('No new decisions.')
+    for r in records:
+        lines.extend([
+            '',
+            f'### {r.get("event_name")} — {r.get("line")} / {r.get("selection")} @ {r.get("odds_at_decision")}',
+            f'- Decision: {r.get("decision")}',
+            f'- Confidence: {r.get("confidence")}',
+            f'- Paper stake pct: {r.get("paper_stake_pct")}',
+            f'- Reason code: {r.get("reasoning_code")}',
+            f'- Summary: {r.get("reasoning_summary")}',
+            f'- Risk flags: `{r.get("risk_flags")}`',
+            f'- Data flags: `{r.get("data_flags")}`',
+        ])
+    path = OUT_REPORTS / 'ai_decision_report.md'
+    path.write_text('\n'.join(lines) + '\n', encoding='utf-8')
+    return str(path)
+
+
+def main():
+    payload = prepare_candidates(MAX_CANDIDATES, MODEL_VERSION)
+    candidates = payload.get('candidates') or []
+    if not candidates:
+        records = []
+        engine = 'none_no_candidates'
+    else:
+        ai_output = call_openai(payload)
+        if ai_output is None:
+            engine = 'heuristic_fallback'
+            decisions = [heuristic_decision(c) | {'market_id': c['market_id']} for c in candidates]
+        else:
+            engine = 'openai'
+            decisions = normalize_ai_output(ai_output, candidates)
+        records = build_decision_records(decisions, candidates, engine)
+        append_records(records)
+
+    out = {
+        'generated_at': utc_now(),
+        'model_version': MODEL_VERSION,
+        'mode': 'paper_only',
+        'engine': engine,
+        'candidate_count': len(candidates),
+        'decision_count': len(records),
+        'decisions': records,
+    }
+    (OUT_LATEST / 'ai_decisions.json').write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding='utf-8')
+    report_path = write_report(records, payload, engine)
+    print(f'Phase 2.0 paper decisions OK | candidates={len(candidates)} decisions={len(records)} engine={engine} report={report_path}')
+
+
+if __name__ == '__main__':
+    main()
