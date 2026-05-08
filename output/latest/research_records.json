@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-05-08T21:19:55Z",
-  "research_version": "phase2_1_gemini_research_v1",
+  "generated_at": "2026-05-08T21:25:52Z",
+  "research_version": "phase2_1_gemini_research_v2",
   "records": [
     {
       "record_type": "research_record",
-      "research_id": "res_0feb6d318fda228a",
-      "research_version": "phase2_1_gemini_research_v1",
-      "created_at": "2026-05-08T21:19:55Z",
+      "research_id": "res_ef2bed6d140f0fd6",
+      "research_version": "phase2_1_gemini_research_v2",
+      "created_at": "2026-05-08T21:25:52Z",
       "provider": "gemini",
       "model": "gemini-2.5-flash",
-      "market_id": "mkt_b74acf8a0ab227a0",
-      "event_id": "evt_a252429716930637",
-      "event_name": "Middlesbrough vs Southampton",
-      "selection": "Southampton",
-      "odds": 3.2,
+      "market_id": "mkt_08557185d52a1c17",
+      "event_id": "evt_5241c95dad946db1",
+      "event_name": "Liverpool vs Chelsea",
+      "selection": "Liverpool",
+      "odds": 1.83,
       "trigger_reasons": [
         "simulated_research_trigger"
       ],
@@ -35,46 +35,46 @@
         "contradictions": []
       },
       "confidence": "low",
-      "summary": "Research failed or unavailable: gemini_research_exception",
+      "summary": "Research failed or unavailable: gemini_research_json_parse_error",
       "research_flags": [
-        "gemini_research_exception"
+        "gemini_research_json_parse_error"
       ],
       "error_detail": {
-        "code": "gemini_research_exception",
-        "response_text": "Expecting ',' delimiter: line 59 column 2 (char 8200)",
+        "code": "gemini_research_json_parse_error",
+        "parse_error": "Unterminated string starting at: line 1 column 116 (char 115)",
+        "response_text": "{\"research_status\": \"insufficient_data\", \"source_links\": [\"https://www.google.com/search?q=time+in+Liverpool,+GB\", \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKyDtIy0gnzjBIy1W3TCIgWlZ",
         "request_features": {
           "google_search_enabled": true,
           "response_mime_type": null,
           "model": "gemini-2.5-flash",
-          "endpoint": "v1beta/generateContent"
+          "version": "phase2_1_gemini_research_v2"
         }
       },
       "grounding_chunks": [],
       "source_market_snapshot": {
-        "market_id": "mkt_b74acf8a0ab227a0",
-        "event_id": "evt_a252429716930637",
-        "event_name": "Middlesbrough vs Southampton",
-        "home": "Middlesbrough",
-        "away": "Southampton",
+        "market_id": "mkt_08557185d52a1c17",
+        "event_id": "evt_5241c95dad946db1",
+        "event_name": "Liverpool vs Chelsea",
+        "home": "Liverpool",
+        "away": "Chelsea",
         "league": "unknown",
-        "sport": "football",
         "event_time_utc": "2026-05-08T11:30:00Z",
         "market_type": "1X2",
-        "line": "2",
-        "selection": "Southampton",
-        "odds": 3.2,
+        "line": "1",
+        "selection": "Liverpool",
+        "odds": 1.83,
         "movement_summary": {
-          "first_seen_odds": 3.2,
-          "latest_seen_odds": 3.2,
+          "first_seen_odds": 1.83,
+          "latest_seen_odds": 1.83,
           "first_seen_capture_utc": "2026-05-08T03:40:00Z",
           "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
           "change_pct_from_first": 0.0,
           "movement_from_first": "unchanged",
-          "observation_count": 14,
+          "observation_count": 15,
           "non_duplicate_observation_count": 1,
           "dedupe_counts": {
             "new_observation": 1,
-            "duplicate_noise": 13
+            "duplicate_noise": 14
           }
         },
         "decision": null,
