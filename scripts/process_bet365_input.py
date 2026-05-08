@@ -8,6 +8,7 @@ from normalize_time import parse_capture_time
 from parse_bet365_1x2 import parse_events_from_extraction
 from tracker import read_tracker, append_records
 from dedupe import dedupe_observations
+from market_state import build_market_state, write_market_state
 from report import write_latest_report
 from ids import file_record_id
 
@@ -55,7 +56,7 @@ def main():
     generated_at = utc_now()
     parser_output = {
         'generated_at': generated_at,
-        'phase': 'data_integrity_foundation_v1',
+        'phase': 'data_integrity_foundation_v1_1',
         'input_dir': str(INBOX),
         'files': [],
         'parser_errors': []
@@ -96,11 +97,15 @@ def main():
         'dedupe_report': dedupe_report
     }
 
+    # Build latest market state from previous records + the just-created deduped records.
+    market_state = build_market_state(previous + tracker_records_to_append)
+    write_market_state(market_state)
+
     write_json(OUT_LATEST / 'parser_output.json', parser_output)
     write_json(OUT_LATEST / 'observations.json', deduped)
     write_json(OUT_LATEST / 'dedupe_report.json', dedupe_report)
-    report_path = write_latest_report(parser_output, deduped, dedupe_report)
-    print(f'Odds 2 Data Integrity V1 OK | files={len(files)} observations={len(deduped)} appended={appended} report={report_path}')
+    report_path = write_latest_report(parser_output, deduped, dedupe_report, market_state=market_state)
+    print(f'Odds 2 Data Integrity V1.1 OK | files={len(files)} observations={len(deduped)} appended={appended} markets={market_state["summary"]["markets_total"]} report={report_path}')
 
 
 if __name__ == '__main__':
