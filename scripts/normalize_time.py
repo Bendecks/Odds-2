@@ -25,6 +25,7 @@ def parse_capture_time(text, tz_name='Europe/Copenhagen'):
             'timezone': tz_name,
             'confidence': 0.45,
             'source': 'workflow_now_fallback',
+            'trusted_capture_date': False,
             'warnings': ['capture_time_not_found_using_workflow_now']
         }
     m = matches[-1]
@@ -37,6 +38,7 @@ def parse_capture_time(text, tz_name='Europe/Copenhagen'):
         'timezone': tz_name,
         'confidence': 0.95,
         'source': 'bet365_pdf_text',
+        'trusted_capture_date': True,
         'warnings': []
     }
 
@@ -50,6 +52,7 @@ def normalize_event_time(raw_time, capture, tz_name='Europe/Copenhagen', context
     warnings = []
     raw = str(raw_time or '').strip()
     cap_local = parse_dt(capture['local']).astimezone(tz)
+    trusted_capture_date = bool(capture.get('trusted_capture_date')) and float(capture.get('confidence') or 0) >= 0.90
 
     m_day = TIME_WITH_DAY_RE.fullmatch(raw)
     m_time = TIME_ONLY_RE.fullmatch(raw)
@@ -75,15 +78,15 @@ def normalize_event_time(raw_time, capture, tz_name='Europe/Copenhagen', context
             if context == 'next_24_hours':
                 event_local += timedelta(days=1)
                 rollover_applied = True
-                method = 'same_day_or_next_day_rollover_from_capture_date'
-                confidence = 0.80
+                method = 'trusted_capture_date_next_24h_rollover' if trusted_capture_date else 'same_day_or_next_day_rollover_from_capture_date'
+                confidence = 0.90 if trusted_capture_date else 0.80
             else:
                 method = 'same_day_from_capture_date_time_passed'
                 confidence = 0.25
                 warnings.append('event_time_appears_to_be_in_past')
         else:
-            method = 'same_day_from_capture_date'
-            confidence = 0.75
+            method = 'trusted_capture_date_next_24h_same_day' if trusted_capture_date and context == 'next_24_hours' else 'same_day_from_capture_date'
+            confidence = 0.90 if trusted_capture_date and context == 'next_24_hours' else 0.75
     else:
         return {
             'raw_display': raw,
@@ -116,6 +119,7 @@ def normalize_event_time(raw_time, capture, tz_name='Europe/Copenhagen', context
         'inference_method': method,
         'rollover_applied': rollover_applied,
         'confidence': confidence,
+        'trusted_capture_date_used': trusted_capture_date,
         'checks': {
             'event_time_found': True,
             'timezone_known': True,
