@@ -29,7 +29,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pypdf PyMuPDF
+          pip install pypdf PyMuPDF openai
 
       - name: Run Phase 1.1 dedupe stress tests
         run: python scripts/test_dedupe.py
@@ -40,12 +40,19 @@ jobs:
           ODDS_MAX_FILES: 25
           ODDS_TIMEZONE: Europe/Copenhagen
 
-      - name: Commit data integrity outputs
+      - name: Run Phase 2.0 paper decision layer
+        run: python scripts/ai_decide.py
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: gpt-4o-mini
+          AI_MAX_CANDIDATES: 90
+
+      - name: Commit data integrity and paper decision outputs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git pull --rebase --autostash origin main
           git add -A data/team_alias_suggestions.json data/pick_tracker.jsonl output/latest output/reports output/debug_text || true
           git diff --cached --quiet && exit 0
-          git commit -m "Process bet365 input"
+          git commit -m "Process bet365 input and paper decisions"
           git push
