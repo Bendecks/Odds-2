@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-05-08T21:01:19Z",
+  "generated_at": "2026-05-08T21:05:29Z",
   "research_version": "phase2_1_gemini_research_v1",
   "records": [
     {
       "record_type": "research_record",
-      "research_id": "res_a5a033a4ec6db2cd",
+      "research_id": "res_a96c8002baf5bac2",
       "research_version": "phase2_1_gemini_research_v1",
-      "created_at": "2026-05-08T21:01:19Z",
-      "provider": "simulation",
-      "model": "simulated_research",
-      "market_id": "mkt_ae9a8fb5d1a643d5",
+      "created_at": "2026-05-08T21:05:29Z",
+      "provider": "gemini",
+      "model": "gemini-2.5-flash",
+      "market_id": "mkt_9b66e572dd9b1812",
       "event_id": "evt_5241c95dad946db1",
       "event_name": "Liverpool vs Chelsea",
-      "selection": "Chelsea",
-      "odds": 3.9,
+      "selection": "Draw",
+      "odds": 4.0,
       "trigger_reasons": [
         "simulated_research_trigger"
       ],
       "priority_score": 1,
-      "research_status": "simulated",
+      "research_status": "failed",
       "source_links": [],
       "source_quality": {
         "primary_sources": [],
         "secondary_sources": [],
         "discarded_or_weak_sources": [],
-        "echo_chamber_risk": "none"
+        "echo_chamber_risk": "high"
       },
       "signals": {
         "injuries": [],
@@ -35,14 +35,13 @@
         "contradictions": []
       },
       "confidence": "low",
-      "summary": "Simulated research record. Used only to verify trigger, JSONL append and report plumbing.",
+      "summary": "Research failed or unavailable: gemini_research_http_400",
       "research_flags": [
-        "simulated_research_record",
-        "not_real_research"
+        "gemini_research_http_400"
       ],
       "grounding_chunks": [],
       "source_market_snapshot": {
-        "market_id": "mkt_ae9a8fb5d1a643d5",
+        "market_id": "mkt_9b66e572dd9b1812",
         "event_id": "evt_5241c95dad946db1",
         "event_name": "Liverpool vs Chelsea",
         "home": "Liverpool",
@@ -51,21 +50,21 @@
         "sport": "football",
         "event_time_utc": "2026-05-08T11:30:00Z",
         "market_type": "1X2",
-        "line": "2",
-        "selection": "Chelsea",
-        "odds": 3.9,
+        "line": "X",
+        "selection": "Draw",
+        "odds": 4.0,
         "movement_summary": {
-          "first_seen_odds": 3.9,
-          "latest_seen_odds": 3.9,
+          "first_seen_odds": 4.0,
+          "latest_seen_odds": 4.0,
           "first_seen_capture_utc": "2026-05-08T03:40:00Z",
           "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
           "change_pct_from_first": 0.0,
           "movement_from_first": "unchanged",
-          "observation_count": 11,
+          "observation_count": 12,
           "non_duplicate_observation_count": 1,
           "dedupe_counts": {
             "new_observation": 1,
-            "duplicate_noise": 10
+            "duplicate_noise": 11
           }
         },
         "decision": null,
