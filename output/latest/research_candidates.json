@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-08T21:25:27Z",
-  "research_version": "phase2_1_gemini_research_v2",
+  "generated_at": "2026-05-08T21:35:20Z",
+  "research_version": "phase2_1_gemini_research_v3",
   "candidate_count": 1,
   "all_triggered_count": 1,
   "skipped_count": 90,
@@ -26,11 +26,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 15,
+        "observation_count": 16,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 14
+          "duplicate_noise": 15
         }
       },
       "decision": null,
