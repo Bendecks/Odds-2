@@ -50,12 +50,20 @@ jobs:
           OPENAI_MODEL: gpt-4o-mini
           AI_MAX_CANDIDATES: 90
 
-      - name: Commit data integrity and paper decision outputs
+      - name: Run Phase 2.1 research orchestrator
+        run: python scripts/research_orchestrator.py
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_RESEARCH_MODEL: gemini-2.5-flash
+          MAX_RESEARCH_CALLS: 5
+          RESEARCH_ENABLED: true
+
+      - name: Commit data integrity, paper decision and research outputs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git pull --rebase --autostash origin main
           git add -A data/team_alias_suggestions.json data/pick_tracker.jsonl output/latest output/reports output/debug_text || true
           git diff --cached --quiet && exit 0
-          git commit -m "Process bet365 input and paper decisions"
+          git commit -m "Process bet365 input, paper decisions and research"
           git push
