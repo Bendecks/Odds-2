@@ -197,12 +197,28 @@ def research_prompt(candidate):
         'instruction': (
             'Research this football market for probability-changing information only. '
             'Do not recommend real betting. Do not invent facts. Use current web information if available. '
-            'Focus on injuries, likely lineups, suspensions, motivation, schedule congestion, weather/pitch if relevant, '
-            'and market consensus/odds movement explanations. Return JSON only.'
+            'Prefer primary or near-primary sources: official club websites, official league sites, official competition sites, '
+            'verified club announcements, reputable team-news sources, and established local/national sports media. '
+            'Avoid betting-tip sites, odds-preview articles, affiliate betting pages, and articles whose main evidence is only odds movement. '
+            'Do not double-count market movement as research evidence: if a source is only explaining odds movement, mark it as market_echo risk. '
+            'Focus on concrete probability-changing signals: confirmed injuries, suspensions, likely lineups, goalkeeper changes, fixture congestion, '
+            'motivation with table context, weather/pitch if relevant, and whether market consensus appears meaningfully different from the parsed odds. '
+            'Return JSON only.'
         ),
+        'source_policy': {
+            'preferred_sources': ['official_club', 'official_league', 'official_competition', 'reputable_sports_media', 'credible_local_media'],
+            'discouraged_sources': ['betting_tips', 'affiliate_betting_pages', 'odds_only_previews', 'unsourced_social_media'],
+            'echo_chamber_rule': 'Do not treat an article based only on odds movement as an independent research signal.'
+        },
         'return_schema': {
             'research_status': 'completed|insufficient_data|failed',
             'source_links': ['url string'],
+            'source_quality': {
+                'primary_sources': ['url string'],
+                'secondary_sources': ['url string'],
+                'discarded_or_weak_sources': ['url string or description'],
+                'echo_chamber_risk': 'none|low|medium|high'
+            },
             'signals': {
                 'injuries': ['short factual signal'],
                 'lineups': ['short factual signal'],
@@ -277,6 +293,12 @@ def simulated_research_output(candidate):
     return {
         'research_status': 'simulated',
         'source_links': [],
+        'source_quality': {
+            'primary_sources': [],
+            'secondary_sources': [],
+            'discarded_or_weak_sources': [],
+            'echo_chamber_risk': 'none'
+        },
         'signals': {
             'injuries': [],
             'lineups': [],
@@ -298,6 +320,12 @@ def normalize_research_output(candidate, output, error=None):
         output = {
             'research_status': 'failed',
             'source_links': [],
+            'source_quality': {
+                'primary_sources': [],
+                'secondary_sources': [],
+                'discarded_or_weak_sources': [],
+                'echo_chamber_risk': 'high'
+            },
             'signals': {
                 'injuries': [],
                 'lineups': [],
@@ -311,6 +339,7 @@ def normalize_research_output(candidate, output, error=None):
             'research_flags': [error or 'research_unavailable']
         }
     signals = output.get('signals') if isinstance(output.get('signals'), dict) else {}
+    source_quality = output.get('source_quality') if isinstance(output.get('source_quality'), dict) else {}
     return {
         'record_type': 'research_record',
         'research_id': research_id,
@@ -327,6 +356,12 @@ def normalize_research_output(candidate, output, error=None):
         'priority_score': candidate.get('priority_score'),
         'research_status': output.get('research_status') or 'completed',
         'source_links': output.get('source_links') if isinstance(output.get('source_links'), list) else [],
+        'source_quality': {
+            'primary_sources': source_quality.get('primary_sources') if isinstance(source_quality.get('primary_sources'), list) else [],
+            'secondary_sources': source_quality.get('secondary_sources') if isinstance(source_quality.get('secondary_sources'), list) else [],
+            'discarded_or_weak_sources': source_quality.get('discarded_or_weak_sources') if isinstance(source_quality.get('discarded_or_weak_sources'), list) else [],
+            'echo_chamber_risk': source_quality.get('echo_chamber_risk') if source_quality.get('echo_chamber_risk') in {'none', 'low', 'medium', 'high'} else 'medium',
+        },
         'signals': {
             'injuries': signals.get('injuries') if isinstance(signals.get('injuries'), list) else [],
             'lineups': signals.get('lineups') if isinstance(signals.get('lineups'), list) else [],
@@ -359,14 +394,18 @@ def write_report(candidate_payload, records):
     if not records:
         lines.append('No research records written. No markets met research triggers.')
     for r in records:
+        sq = r.get('source_quality') or {}
         lines.extend([
             '',
             f'### {r.get("event_name")} — {r.get("selection")} @ {r.get("odds")}',
             f'- Status: {r.get("research_status")}',
             f'- Provider: {r.get("provider")}',
             f'- Confidence: {r.get("confidence")}',
+            f'- Echo chamber risk: {sq.get("echo_chamber_risk")}',
             f'- Triggers: `{r.get("trigger_reasons")}`',
             f'- Summary: {r.get("summary")}',
+            f'- Primary sources: `{sq.get("primary_sources")}`',
+            f'- Secondary sources: `{sq.get("secondary_sources")}`',
             f'- Source links: `{r.get("source_links")}`',
             f'- Research flags: `{r.get("research_flags")}`',
         ])
