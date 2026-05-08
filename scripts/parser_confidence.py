@@ -13,7 +13,37 @@ def odds_plausibility(odds):
     return 1.0, f'overround_ok_{overround:.4f}'
 
 
-def calculate_parser_confidence(layout_detected, home_match, away_match, odds, event_time, completeness=True):
+def execution_mode(total, hard_gates, extraction_confidence=1.0, layout_approved=True):
+    failed = [name for name, ok in hard_gates.items() if not ok]
+    if extraction_confidence < 0.90:
+        failed.append('extraction_confidence')
+    # In Phase 1.1, unknown layout blocks real bets but still allows paper/shadow tracking.
+    if not layout_approved:
+        failed.append('layout_approved')
+
+    real_bet_allowed = total >= 0.90 and not failed
+    paper_allowed = total >= 0.75 and all(hard_gates.get(k, False) for k in ['layout_detected', 'canonical_match', 'odds_integrity', 'completeness'])
+
+    if real_bet_allowed:
+        mode = 'real_candidate'
+        reason = 'all_hard_gates_passed'
+    elif paper_allowed:
+        mode = 'paper_or_shadow_only'
+        reason = '|'.join(failed) if failed else 'weighted_score_below_real_threshold'
+    else:
+        mode = 'reject_or_review'
+        reason = '|'.join(failed) if failed else 'weighted_score_too_low'
+
+    return {
+        'real_bet_allowed': real_bet_allowed,
+        'paper_allowed': paper_allowed,
+        'mode': mode,
+        'reason': reason,
+        'failed_hard_gates': failed
+    }
+
+
+def calculate_parser_confidence(layout_detected, home_match, away_match, odds, event_time, completeness=True, extraction_confidence=1.0, layout_approved=True):
     breakdown = {}
 
     layout_score = 1.0 if layout_detected else 0.0
@@ -40,8 +70,9 @@ def calculate_parser_confidence(layout_detected, home_match, away_match, odds, e
     }
 
     odds_sub, odds_reason = odds_plausibility(odds)
+    odds_passed = odds_sub >= 0.95
     breakdown['odds'] = {
-        'passed': odds_sub >= 0.95,
+        'passed': odds_passed,
         'weight': 0.20,
         'subscore': odds_sub,
         'score': round(odds_sub * 0.20, 4),
@@ -67,11 +98,25 @@ def calculate_parser_confidence(layout_detected, home_match, away_match, odds, e
         'reason': 'required_fields_present' if completeness else 'missing_required_fields'
     }
 
-    total = sum(v['score'] for v in breakdown.values())
+    total = round(sum(v['score'] for v in breakdown.values()), 4)
     status = 'high' if total >= 0.90 else 'medium' if total >= 0.75 else 'low'
+    hard_gates = {
+        'layout_detected': bool(layout_detected),
+        'canonical_match': bool(canonical_passed),
+        'odds_integrity': bool(odds_passed),
+        'event_time_verified': bool(time_passed),
+        'completeness': bool(completeness),
+        'layout_approved': bool(layout_approved),
+        'extraction_confidence': extraction_confidence >= 0.90,
+    }
+    mode = execution_mode(total, hard_gates, extraction_confidence=extraction_confidence, layout_approved=layout_approved)
     return {
-        'total': round(total, 4),
+        'total': total,
         'status': status,
         'breakdown': breakdown,
-        'real_bet_allowed': total >= 0.90
+        'hard_gates': hard_gates,
+        'execution_mode': mode,
+        'real_bet_allowed': mode['real_bet_allowed'],
+        'paper_allowed': mode['paper_allowed'],
+        'shadow_reason': None if mode['real_bet_allowed'] else mode['reason']
     }
