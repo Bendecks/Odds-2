@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T09:15:52Z",
+  "generated_at": "2026-05-08T09:28:07Z",
   "source": "data/pick_tracker.jsonl",
   "active_window": {
     "past_hours": 24,
@@ -91,7 +91,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -101,11 +123,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_318be57dc4a02412",
@@ -189,7 +211,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -199,11 +243,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_ac2a58e84d96e4ee",
@@ -287,7 +331,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -297,11 +363,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_85acaa1f4fd3c60b",
@@ -385,7 +451,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -395,11 +483,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_0e631025cd6fb2f2",
@@ -483,7 +571,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -493,11 +603,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_162bcd4533773f54",
@@ -581,7 +691,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -591,11 +723,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_db8a629f896f0737",
@@ -679,7 +811,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -689,11 +843,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_aa0666f6084dcec3",
@@ -777,7 +931,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -787,11 +963,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_0f3ce104a9679d80",
@@ -875,7 +1051,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -885,11 +1083,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_ef5701da8eaa5e6d",
@@ -973,7 +1171,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -983,11 +1203,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_ddbf48127c65634f",
@@ -1071,7 +1291,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -1081,11 +1323,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_9fc69d07483d7d28",
@@ -1169,7 +1411,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -1179,11 +1443,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_099da86a2505745a",
@@ -1267,7 +1531,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -1277,11 +1563,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_5a4dac077d8ed637",
@@ -1365,7 +1651,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -1375,11 +1683,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_fc802546454ce1d3",
@@ -1463,7 +1771,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -1473,11 +1803,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_d041b342eaa75fd0",
@@ -1561,7 +1891,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -1571,11 +1923,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_333cd0ed13631cea",
@@ -1659,7 +2011,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -1669,11 +2043,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_d8900bd3417b87cb",
@@ -1757,7 +2131,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -1767,11 +2163,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_e9994c82c39f87c5",
@@ -1855,7 +2251,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -1865,11 +2283,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_84624652746abb74",
@@ -1953,7 +2371,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -1963,11 +2403,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_964354889c325ca7",
@@ -2051,7 +2491,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -2061,11 +2523,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_9d1fefc466d508af",
@@ -2149,7 +2611,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -2159,11 +2643,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_0ef305d7a9568d49",
@@ -2247,7 +2731,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -2257,11 +2763,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_9495665beb67a1b9",
@@ -2345,7 +2851,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -2355,11 +2883,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_c917e466c9c22867",
@@ -2443,7 +2971,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -2453,11 +3003,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_6d943cb29bfa3b02",
@@ -2541,7 +3091,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -2551,11 +3123,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_e6389106406faf5c",
@@ -2639,7 +3211,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -2649,11 +3243,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_de5e078242616c4f",
@@ -2737,7 +3331,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -2747,11 +3363,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_9e09d5ec46c544e1",
@@ -2835,7 +3451,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -2845,11 +3483,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_44a4eac328f02657",
@@ -2933,7 +3571,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -2943,11 +3603,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_b5fc99af5c79e174",
@@ -3031,7 +3691,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -3041,11 +3723,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_9749899ccbbf34cc",
@@ -3129,7 +3811,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -3139,11 +3843,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_4afb40dc9261535a",
@@ -3227,7 +3931,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -3237,11 +3963,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_77e59f386a90d432",
@@ -3325,7 +4051,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -3335,11 +4083,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_c2beded3effb33a1",
@@ -3423,7 +4171,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -3433,11 +4203,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_759de896f977ee8f",
@@ -3521,7 +4291,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -3531,11 +4323,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_fe566ac242d4e604",
@@ -3619,7 +4411,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -3629,11 +4443,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_7db33a0770dfdab8",
@@ -3717,7 +4531,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -3727,11 +4563,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_e118496ec3f602a7",
@@ -3815,7 +4651,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -3825,11 +4683,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_b23ee7d81135b424",
@@ -3913,7 +4771,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -3923,11 +4803,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_a22120a1ec5a3209",
@@ -4011,7 +4891,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -4021,11 +4923,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_c8c763e8bdc4d347",
@@ -4109,7 +5011,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -4119,11 +5043,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_69ab8e069a0f217d",
@@ -4207,7 +5131,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -4217,11 +5163,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_88fdc9f20e4f4952",
@@ -4305,7 +5251,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -4315,11 +5283,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_268139b0cb5a279d",
@@ -4403,7 +5371,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -4413,11 +5403,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_7c36b3b945070d84",
@@ -4501,7 +5491,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -4511,11 +5523,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_94966477dfbb4b7d",
@@ -4599,7 +5611,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -4609,11 +5643,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_e198485896ff637a",
@@ -4697,7 +5731,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -4707,11 +5763,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_cbfcb2e979933817",
@@ -4795,7 +5851,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -4805,11 +5883,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_9c1127fe1eb4521e",
@@ -4893,7 +5971,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -4903,11 +6003,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_a5a20183960197f9",
@@ -4991,7 +6091,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -5001,11 +6123,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_b64fdb4492239681",
@@ -5089,7 +6211,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -5099,11 +6243,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_ad66c8fbbce30c0f",
@@ -5187,7 +6331,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -5197,11 +6363,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_b6639832c6137bd0",
@@ -5285,7 +6451,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -5295,11 +6483,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_14b6a0c0bb262861",
@@ -5383,7 +6571,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -5393,11 +6603,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_f9f158ca014af191",
@@ -5481,7 +6691,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -5491,11 +6723,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_0f6c9cab6e3ec30d",
@@ -5579,7 +6811,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -5589,11 +6843,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_adc685adbdf5ebe2",
@@ -5677,7 +6931,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -5687,11 +6963,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_5570f07cab335cbe",
@@ -5775,7 +7051,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -5785,11 +7083,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_956be1993345ec72",
@@ -5873,7 +7171,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -5883,11 +7203,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_6df8099d8826e4bd",
@@ -5971,7 +7291,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -5981,11 +7323,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_ac825f1332e47a30",
@@ -6069,7 +7411,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -6079,11 +7443,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_ea774ddc7e4e1efe",
@@ -6167,7 +7531,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -6177,11 +7563,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_2fa1ed9fd3ed1cf1",
@@ -6265,7 +7651,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -6275,11 +7683,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_2348d68f1f11a6e2",
@@ -6363,7 +7771,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -6373,11 +7803,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_34ac0f92c961504d",
@@ -6461,7 +7891,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -6471,11 +7923,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_6f6081783c20cd39",
@@ -6559,7 +8011,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -6569,11 +8043,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_0b2db9294267e93a",
@@ -6657,7 +8131,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -6667,11 +8163,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_165137c78da4838c",
@@ -6755,7 +8251,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -6765,11 +8283,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_b89edba41222bf18",
@@ -6853,7 +8371,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -6863,11 +8403,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_231fc00e66d3097e",
@@ -6951,7 +8491,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -6961,11 +8523,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_3e3504fb2fde47ad",
@@ -7049,7 +8611,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -7059,11 +8643,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_b51004d87a08e339",
@@ -7147,7 +8731,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -7157,11 +8763,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_f4ac91b2d804add3",
@@ -7245,7 +8851,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -7255,11 +8883,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_0dba3af572dddaba",
@@ -7343,7 +8971,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -7353,11 +9003,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_6c53314cb07f62e6",
@@ -7441,7 +9091,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -7451,11 +9123,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_5b2a4aefa1f3ed8a",
@@ -7539,7 +9211,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -7549,11 +9243,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_9819fd30d4390c9f",
@@ -7637,7 +9331,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -7647,11 +9363,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_6ef3a0532c1b6125",
@@ -7735,7 +9451,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -7745,11 +9483,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_38f7d2daea16fe10",
@@ -7833,7 +9571,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -7843,11 +9603,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_a0b24ae9f158c7ed",
@@ -7931,7 +9691,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -7941,11 +9723,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_4ce2812d5882e3f3",
@@ -8029,7 +9811,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -8039,11 +9843,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_e389ec3c05ac3c1b",
@@ -8127,7 +9931,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -8137,11 +9963,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_51cbe3e023e9bfb5",
@@ -8225,7 +10051,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -8235,11 +10083,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_d550ac4f6265e3fe",
@@ -8323,7 +10171,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -8333,11 +10203,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_9d1f62789eee5de3",
@@ -8421,7 +10291,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -8431,11 +10323,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_dca18b9ffe23cd17",
@@ -8519,7 +10411,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -8529,11 +10443,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_78de007af527e85f",
@@ -8617,7 +10531,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -8627,11 +10563,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_e24e9c622631e5fd",
@@ -8715,7 +10651,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -8725,11 +10683,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_d161c3c0c226a114",
@@ -8813,7 +10771,29 @@
             "reason": "required_fields_present"
           }
         },
-        "real_bet_allowed": true
+        "hard_gates": {
+          "layout_detected": true,
+          "canonical_match": true,
+          "odds_integrity": true,
+          "event_time_verified": false,
+          "completeness": true,
+          "layout_approved": false,
+          "extraction_confidence": true
+        },
+        "execution_mode": {
+          "real_bet_allowed": false,
+          "paper_allowed": true,
+          "mode": "paper_or_shadow_only",
+          "reason": "event_time_verified|layout_approved|layout_approved",
+          "failed_hard_gates": [
+            "event_time_verified",
+            "layout_approved",
+            "layout_approved"
+          ]
+        },
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "shadow_reason": "event_time_verified|layout_approved|layout_approved"
       },
       "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
@@ -8823,11 +10803,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_9d2abd97143a59f1",

@@ -1,6 +1,6 @@
 # Odds 2 — Data Integrity Report
 
-Generated: 2026-05-08T09:15:50Z
+Generated: 2026-05-08T09:28:05Z
 
 ## Summary
 - Files processed: 2
@@ -8,7 +8,7 @@ Generated: 2026-05-08T09:15:50Z
 - Dedupe report: `{"new_observation": 0, "duplicate_noise": 90, "new_observation_same_odds": 0, "small_movement": 0, "odds_movement": 0, "significant_odds_change": 0, "parser_conflict": 0}`
 
 ## Counts
-- Status: `{'parsed_candidate': 90}`
+- Status: `{'shadow_only': 90}`
 - Dedupe: `{'duplicate_noise': 90}`
 - Parser confidence: `{'high': 90}`
 
@@ -44,238 +44,238 @@ Generated: 2026-05-08T09:15:50Z
 - Event UTC: 2026-05-08T17:00:00Z
 - Parser confidence: 0.975 (high)
 - Dedupe statuses: `{'duplicate_noise': 3}`
-  - 1 / Viborg @ 1.75 | duplicate_noise | parsed_candidate
-  - X / Draw @ 4.2 | duplicate_noise | parsed_candidate
-  - 2 / Sønderjyske @ 3.8 | duplicate_noise | parsed_candidate
+  - 1 / Viborg @ 1.75 | duplicate_noise | shadow_only
+  - X / Draw @ 4.2 | duplicate_noise | shadow_only
+  - 2 / Sønderjyske @ 3.8 | duplicate_noise | shadow_only
 
 ### FC Nordsjælland vs FC Midtjylland | 14:00
 - Event UTC: 2026-05-08T12:00:00Z
 - Parser confidence: 0.975 (high)
 - Dedupe statuses: `{'duplicate_noise': 3}`
-  - 1 / FC Nordsjælland @ 2.87 | duplicate_noise | parsed_candidate
-  - X / Draw @ 3.8 | duplicate_noise | parsed_candidate
-  - 2 / FC Midtjylland @ 2.2 | duplicate_noise | parsed_candidate
+  - 1 / FC Nordsjælland @ 2.87 | duplicate_noise | shadow_only
+  - X / Draw @ 3.8 | duplicate_noise | shadow_only
+  - 2 / FC Midtjylland @ 2.2 | duplicate_noise | shadow_only
 
 ### Vejle vs FC Fredericia | 14:00
 - Event UTC: 2026-05-08T12:00:00Z
 - Parser confidence: 0.975 (high)
 - Dedupe statuses: `{'duplicate_noise': 3}`
-  - 1 / Vejle @ 3.1 | duplicate_noise | parsed_candidate
-  - X / Draw @ 3.5 | duplicate_noise | parsed_candidate
-  - 2 / FC Fredericia @ 2.2 | duplicate_noise | parsed_candidate
+  - 1 / Vejle @ 3.1 | duplicate_noise | shadow_only
+  - X / Draw @ 3.5 | duplicate_noise | shadow_only
+  - 2 / FC Fredericia @ 2.2 | duplicate_noise | shadow_only
 
 ### Silkeborg IF vs FC København | 16:00
 - Event UTC: 2026-05-08T14:00:00Z
 - Parser confidence: 0.975 (high)
 - Dedupe statuses: `{'duplicate_noise': 3}`
-  - 1 / Silkeborg IF @ 4.2 | duplicate_noise | parsed_candidate
-  - X / Draw @ 4.0 | duplicate_noise | parsed_candidate
-  - 2 / FC København @ 1.72 | duplicate_noise | parsed_candidate
+  - 1 / Silkeborg IF @ 4.2 | duplicate_noise | shadow_only
+  - X / Draw @ 4.0 | duplicate_noise | shadow_only
+  - 2 / FC København @ 1.72 | duplicate_noise | shadow_only
 
 ### Brøndby vs AGF | 18:00
 - Event UTC: 2026-05-08T16:00:00Z
 - Parser confidence: 0.975 (high)
 - Dedupe statuses: `{'duplicate_noise': 3}`
-  - 1 / Brøndby @ 2.87 | duplicate_noise | parsed_candidate
-  - X / Draw @ 3.6 | duplicate_noise | parsed_candidate
-  - 2 / AGF @ 2.3 | duplicate_noise | parsed_candidate
+  - 1 / Brøndby @ 2.87 | duplicate_noise | shadow_only
+  - X / Draw @ 3.6 | duplicate_noise | shadow_only
+  - 2 / AGF @ 2.3 | duplicate_noise | shadow_only
 
 ### Randers FC vs OB | 19:00
 - Event UTC: 2026-05-08T17:00:00Z
 - Parser confidence: 0.975 (high)
 - Dedupe statuses: `{'duplicate_noise': 3}`
-  - 1 / Randers FC @ 2.2 | duplicate_noise | parsed_candidate
-  - X / Draw @ 3.5 | duplicate_noise | parsed_candidate
-  - 2 / OB @ 3.1 | duplicate_noise | parsed_candidate
+  - 1 / Randers FC @ 2.2 | duplicate_noise | shadow_only
+  - X / Draw @ 3.5 | duplicate_noise | shadow_only
+  - 2 / OB @ 3.1 | duplicate_noise | shadow_only
 
 ### Hull vs Millwall | 21:00
 - Event UTC: 2026-05-08T19:00:00Z
 - Parser confidence: 0.975 (high)
 - Dedupe statuses: `{'duplicate_noise': 3}`
-  - 1 / Hull @ 3.0 | duplicate_noise | parsed_candidate
-  - X / Draw @ 3.25 | duplicate_noise | parsed_candidate
-  - 2 / Millwall @ 2.32 | duplicate_noise | parsed_candidate
+  - 1 / Hull @ 3.0 | duplicate_noise | shadow_only
+  - X / Draw @ 3.25 | duplicate_noise | shadow_only
+  - 2 / Millwall @ 2.32 | duplicate_noise | shadow_only
 
 ### Middlesbrough vs Southampton | 13:30
 - Event UTC: 2026-05-08T11:30:00Z
 - Parser confidence: 0.975 (high)
 - Dedupe statuses: `{'duplicate_noise': 3}`
-  - 1 / Middlesbrough @ 2.2 | duplicate_noise | parsed_candidate
-  - X / Draw @ 3.3 | duplicate_noise | parsed_candidate
-  - 2 / Southampton @ 3.2 | duplicate_noise | parsed_candidate
+  - 1 / Middlesbrough @ 2.2 | duplicate_noise | shadow_only
+  - X / Draw @ 3.3 | duplicate_noise | shadow_only
+  - 2 / Southampton @ 3.2 | duplicate_noise | shadow_only
 
 ### Liverpool vs Chelsea | 13:30
 - Event UTC: 2026-05-08T11:30:00Z
 - Parser confidence: 0.975 (high)
 - Dedupe statuses: `{'duplicate_noise': 3}`
-  - 1 / Liverpool @ 1.83 | duplicate_noise | parsed_candidate
-  - X / Draw @ 4.0 | duplicate_noise | parsed_candidate
-  - 2 / Chelsea @ 3.9 | duplicate_noise | parsed_candidate
+  - 1 / Liverpool @ 1.83 | duplicate_noise | shadow_only
+  - X / Draw @ 4.0 | duplicate_noise | shadow_only
+  - 2 / Chelsea @ 3.9 | duplicate_noise | shadow_only
 
 ### Sunderland vs Manchester United | 16:00
 - Event UTC: 2026-05-08T14:00:00Z
 - Parser confidence: 0.975 (high)
 - Dedupe statuses: `{'duplicate_noise': 3}`
-  - 1 / Sunderland @ 3.9 | duplicate_noise | parsed_candidate
-  - X / Draw @ 3.75 | duplicate_noise | parsed_candidate
-  - 2 / Manchester United @ 1.85 | duplicate_noise | parsed_candidate
+  - 1 / Sunderland @ 3.9 | duplicate_noise | shadow_only
+  - X / Draw @ 3.75 | duplicate_noise | shadow_only
+  - 2 / Manchester United @ 1.85 | duplicate_noise | shadow_only
 
 ### Fulham vs Bournemouth | 16:00
 - Event UTC: 2026-05-08T14:00:00Z
 - Parser confidence: 0.975 (high)
 - Dedupe statuses: `{'duplicate_noise': 3}`
-  - 1 / Fulham @ 2.87 | duplicate_noise | parsed_candidate
-  - X / Draw @ 3.6 | duplicate_noise | parsed_candidate
-  - 2 / Bournemouth @ 2.35 | duplicate_noise | parsed_candidate
+  - 1 / Fulham @ 2.87 | duplicate_noise | shadow_only
+  - X / Draw @ 3.6 | duplicate_noise | shadow_only
+  - 2 / Bournemouth @ 2.35 | duplicate_noise | shadow_only
 
 ### Brighton vs Wolverhampton | 16:00
 - Event UTC: 2026-05-08T14:00:00Z
 - Parser confidence: 0.975 (high)
 - Dedupe statuses: `{'duplicate_noise': 3}`
-  - 1 / Brighton @ 1.27 | duplicate_noise | parsed_candidate
-  - X / Draw @ 6.25 | duplicate_noise | parsed_candidate
-  - 2 / Wolverhampton @ 9.5 | duplicate_noise | parsed_candidate
+  - 1 / Brighton @ 1.27 | duplicate_noise | shadow_only
+  - X / Draw @ 6.25 | duplicate_noise | shadow_only
+  - 2 / Wolverhampton @ 9.5 | duplicate_noise | shadow_only
 
 ### Manchester City vs Brentford | 18:30
 - Event UTC: 2026-05-08T16:30:00Z
 - Parser confidence: 0.975 (high)
 - Dedupe statuses: `{'duplicate_noise': 3}`
-  - 1 / Manchester City @ 1.36 | duplicate_noise | parsed_candidate
-  - X / Draw @ 5.75 | duplicate_noise | parsed_candidate
-  - 2 / Brentford @ 7.0 | duplicate_noise | parsed_candidate
+  - 1 / Manchester City @ 1.36 | duplicate_noise | shadow_only
+  - X / Draw @ 5.75 | duplicate_noise | shadow_only
+  - 2 / Brentford @ 7.0 | duplicate_noise | shadow_only
 
 ### Borussia Dortmund vs Eintracht Frankfurt | 20:30
 - Event UTC: 2026-05-08T18:30:00Z
 - Parser confidence: 0.975 (high)
 - Dedupe statuses: `{'duplicate_noise': 3}`
-  - 1 / Borussia Dortmund @ 1.5 | duplicate_noise | parsed_candidate
-  - X / Draw @ 4.75 | duplicate_noise | parsed_candidate
-  - 2 / Eintracht Frankfurt @ 5.5 | duplicate_noise | parsed_candidate
+  - 1 / Borussia Dortmund @ 1.5 | duplicate_noise | shadow_only
+  - X / Draw @ 4.75 | duplicate_noise | shadow_only
+  - 2 / Eintracht Frankfurt @ 5.5 | duplicate_noise | shadow_only
 
 ### VfB Stuttgart vs Bayer Leverkusen | 15:30
 - Event UTC: 2026-05-08T13:30:00Z
 - Parser confidence: 0.975 (high)
 - Dedupe statuses: `{'duplicate_noise': 3}`
-  - 1 / VfB Stuttgart @ 2.15 | duplicate_noise | parsed_candidate
-  - X / Draw @ 4.0 | duplicate_noise | parsed_candidate
-  - 2 / Bayer Leverkusen @ 2.8 | duplicate_noise | parsed_candidate
+  - 1 / VfB Stuttgart @ 2.15 | duplicate_noise | shadow_only
+  - X / Draw @ 4.0 | duplicate_noise | shadow_only
+  - 2 / Bayer Leverkusen @ 2.8 | duplicate_noise | shadow_only
 
 ### RB Leipzig vs St. Pauli | 15:30
 - Event UTC: 2026-05-08T13:30:00Z
 - Parser confidence: 0.975 (high)
 - Dedupe statuses: `{'duplicate_noise': 3}`
-  - 1 / RB Leipzig @ 1.3 | duplicate_noise | parsed_candidate
-  - X / Draw @ 5.5 | duplicate_noise | parsed_candidate
-  - 2 / St. Pauli @ 9.5 | duplicate_noise | parsed_candidate
+  - 1 / RB Leipzig @ 1.3 | duplicate_noise | shadow_only
+  - X / Draw @ 5.5 | duplicate_noise | shadow_only
+  - 2 / St. Pauli @ 9.5 | duplicate_noise | shadow_only
 
 ### TSG Hoffenheim vs Werder Bremen | 15:30
 - Event UTC: 2026-05-08T13:30:00Z
 - Parser confidence: 0.975 (high)
 - Dedupe statuses: `{'duplicate_noise': 3}`
-  - 1 / TSG Hoffenheim @ 1.45 | duplicate_noise | parsed_candidate
-  - X / Draw @ 5.0 | duplicate_noise | parsed_candidate
-  - 2 / Werder Bremen @ 5.75 | duplicate_noise | parsed_candidate
+  - 1 / TSG Hoffenheim @ 1.45 | duplicate_noise | shadow_only
+  - X / Draw @ 5.0 | duplicate_noise | shadow_only
+  - 2 / Werder Bremen @ 5.75 | duplicate_noise | shadow_only
 
 ### Augsburg vs Borussia Mönchengladbach | 15:30
 - Event UTC: 2026-05-08T13:30:00Z
 - Parser confidence: 0.975 (high)
 - Dedupe statuses: `{'duplicate_noise': 3}`
-  - 1 / Augsburg @ 2.05 | duplicate_noise | parsed_candidate
-  - X / Draw @ 3.75 | duplicate_noise | parsed_candidate
-  - 2 / Borussia Mönchengladbach @ 3.3 | duplicate_noise | parsed_candidate
+  - 1 / Augsburg @ 2.05 | duplicate_noise | shadow_only
+  - X / Draw @ 3.75 | duplicate_noise | shadow_only
+  - 2 / Borussia Mönchengladbach @ 3.3 | duplicate_noise | shadow_only
 
 ### Wolfsburg vs Bayern München | 18:30
 - Event UTC: 2026-05-08T16:30:00Z
 - Parser confidence: 0.975 (high)
 - Dedupe statuses: `{'duplicate_noise': 3}`
-  - 1 / Wolfsburg @ 4.5 | duplicate_noise | parsed_candidate
-  - X / Draw @ 4.33 | duplicate_noise | parsed_candidate
-  - 2 / Bayern München @ 1.65 | duplicate_noise | parsed_candidate
+  - 1 / Wolfsburg @ 4.5 | duplicate_noise | shadow_only
+  - X / Draw @ 4.33 | duplicate_noise | shadow_only
+  - 2 / Bayern München @ 1.65 | duplicate_noise | shadow_only
 
 ### Torino vs Sassuolo | 20:45
 - Event UTC: 2026-05-08T18:45:00Z
 - Parser confidence: 0.975 (high)
 - Dedupe statuses: `{'duplicate_noise': 3}`
-  - 1 / Torino @ 2.5 | duplicate_noise | parsed_candidate
-  - X / Draw @ 3.25 | duplicate_noise | parsed_candidate
-  - 2 / Sassuolo @ 2.87 | duplicate_noise | parsed_candidate
+  - 1 / Torino @ 2.5 | duplicate_noise | shadow_only
+  - X / Draw @ 3.25 | duplicate_noise | shadow_only
+  - 2 / Sassuolo @ 2.87 | duplicate_noise | shadow_only
 
 ### Cagliari vs Udinese | 15:00
 - Event UTC: 2026-05-08T13:00:00Z
 - Parser confidence: 0.975 (high)
 - Dedupe statuses: `{'duplicate_noise': 3}`
-  - 1 / Cagliari @ 2.5 | duplicate_noise | parsed_candidate
-  - X / Draw @ 3.2 | duplicate_noise | parsed_candidate
-  - 2 / Udinese @ 2.9 | duplicate_noise | parsed_candidate
+  - 1 / Cagliari @ 2.5 | duplicate_noise | shadow_only
+  - X / Draw @ 3.2 | duplicate_noise | shadow_only
+  - 2 / Udinese @ 2.9 | duplicate_noise | shadow_only
 
 ### Lazio vs Inter Milan | 18:00
 - Event UTC: 2026-05-08T16:00:00Z
 - Parser confidence: 0.975 (high)
 - Dedupe statuses: `{'duplicate_noise': 3}`
-  - 1 / Lazio @ 4.5 | duplicate_noise | parsed_candidate
-  - X / Draw @ 3.7 | duplicate_noise | parsed_candidate
-  - 2 / Inter Milan @ 1.8 | duplicate_noise | parsed_candidate
+  - 1 / Lazio @ 4.5 | duplicate_noise | shadow_only
+  - X / Draw @ 3.7 | duplicate_noise | shadow_only
+  - 2 / Inter Milan @ 1.8 | duplicate_noise | shadow_only
 
 ### Lecce vs Juventus | 20:45
 - Event UTC: 2026-05-08T18:45:00Z
 - Parser confidence: 0.975 (high)
 - Dedupe statuses: `{'duplicate_noise': 3}`
-  - 1 / Lecce @ 6.25 | duplicate_noise | parsed_candidate
-  - X / Draw @ 4.5 | duplicate_noise | parsed_candidate
-  - 2 / Juventus @ 1.45 | duplicate_noise | parsed_candidate
+  - 1 / Lecce @ 6.25 | duplicate_noise | shadow_only
+  - X / Draw @ 4.5 | duplicate_noise | shadow_only
+  - 2 / Juventus @ 1.45 | duplicate_noise | shadow_only
 
 ### Lens vs Nantes | 20:45
 - Event UTC: 2026-05-08T18:45:00Z
 - Parser confidence: 0.975 (high)
 - Dedupe statuses: `{'duplicate_noise': 3}`
-  - 1 / Lens @ 1.44 | duplicate_noise | parsed_candidate
-  - X / Draw @ 4.75 | duplicate_noise | parsed_candidate
-  - 2 / Nantes @ 7.0 | duplicate_noise | parsed_candidate
+  - 1 / Lens @ 1.44 | duplicate_noise | shadow_only
+  - X / Draw @ 4.75 | duplicate_noise | shadow_only
+  - 2 / Nantes @ 7.0 | duplicate_noise | shadow_only
 
 ### Levante vs Osasuna | 21:00
 - Event UTC: 2026-05-08T19:00:00Z
 - Parser confidence: 0.975 (high)
 - Dedupe statuses: `{'duplicate_noise': 3}`
-  - 1 / Levante @ 2.5 | duplicate_noise | parsed_candidate
-  - X / Draw @ 3.3 | duplicate_noise | parsed_candidate
-  - 2 / Osasuna @ 2.8 | duplicate_noise | parsed_candidate
+  - 1 / Levante @ 2.5 | duplicate_noise | shadow_only
+  - X / Draw @ 3.3 | duplicate_noise | shadow_only
+  - 2 / Osasuna @ 2.8 | duplicate_noise | shadow_only
 
 ### Elche vs CD Alaves | 14:00
 - Event UTC: 2026-05-08T12:00:00Z
 - Parser confidence: 0.975 (high)
 - Dedupe statuses: `{'duplicate_noise': 3}`
-  - 1 / Elche @ 2.25 | duplicate_noise | parsed_candidate
-  - X / Draw @ 3.3 | duplicate_noise | parsed_candidate
-  - 2 / CD Alaves @ 3.3 | duplicate_noise | parsed_candidate
+  - 1 / Elche @ 2.25 | duplicate_noise | shadow_only
+  - X / Draw @ 3.3 | duplicate_noise | shadow_only
+  - 2 / CD Alaves @ 3.3 | duplicate_noise | shadow_only
 
 ### Sevilla vs Espanyol | 16:15
 - Event UTC: 2026-05-08T14:15:00Z
 - Parser confidence: 0.975 (high)
 - Dedupe statuses: `{'duplicate_noise': 3}`
-  - 1 / Sevilla @ 2.05 | duplicate_noise | parsed_candidate
-  - X / Draw @ 3.4 | duplicate_noise | parsed_candidate
-  - 2 / Espanyol @ 3.7 | duplicate_noise | parsed_candidate
+  - 1 / Sevilla @ 2.05 | duplicate_noise | shadow_only
+  - X / Draw @ 3.4 | duplicate_noise | shadow_only
+  - 2 / Espanyol @ 3.7 | duplicate_noise | shadow_only
 
 ### Atletico Madrid vs Celta Vigo | 18:30
 - Event UTC: 2026-05-08T16:30:00Z
 - Parser confidence: 0.975 (high)
 - Dedupe statuses: `{'duplicate_noise': 3}`
-  - 1 / Atletico Madrid @ 2.05 | duplicate_noise | parsed_candidate
-  - X / Draw @ 3.5 | duplicate_noise | parsed_candidate
-  - 2 / Celta Vigo @ 3.5 | duplicate_noise | parsed_candidate
+  - 1 / Atletico Madrid @ 2.05 | duplicate_noise | shadow_only
+  - X / Draw @ 3.5 | duplicate_noise | shadow_only
+  - 2 / Celta Vigo @ 3.5 | duplicate_noise | shadow_only
 
 ### Real Sociedad vs Real Betis | 21:00
 - Event UTC: 2026-05-08T19:00:00Z
 - Parser confidence: 0.975 (high)
 - Dedupe statuses: `{'duplicate_noise': 3}`
-  - 1 / Real Sociedad @ 2.55 | duplicate_noise | parsed_candidate
-  - X / Draw @ 3.5 | duplicate_noise | parsed_candidate
-  - 2 / Real Betis @ 2.7 | duplicate_noise | parsed_candidate
+  - 1 / Real Sociedad @ 2.55 | duplicate_noise | shadow_only
+  - X / Draw @ 3.5 | duplicate_noise | shadow_only
+  - 2 / Real Betis @ 2.7 | duplicate_noise | shadow_only
 
 ### Banfield vs San Martin de Tucumán | 02:10
 - Event UTC: 2026-05-09T00:10:00Z
 - Parser confidence: 0.98 (high)
 - Dedupe statuses: `{'duplicate_noise': 3}`
-  - 1 / Banfield @ 2.1 | duplicate_noise | parsed_candidate
-  - X / Draw @ 2.75 | duplicate_noise | parsed_candidate
-  - 2 / San Martin de Tucumán @ 4.2 | duplicate_noise | parsed_candidate
+  - 1 / Banfield @ 2.1 | duplicate_noise | shadow_only
+  - X / Draw @ 2.75 | duplicate_noise | shadow_only
+  - 2 / San Martin de Tucumán @ 4.2 | duplicate_noise | shadow_only

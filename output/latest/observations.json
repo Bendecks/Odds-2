@@ -5,7 +5,7 @@
     "market_id": "mkt_3773c8ab60190d05",
     "observation_id": "obs_2348d68f1f11a6e2",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -117,7 +117,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -128,11 +150,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_2348d68f1f11a6e2"
   },
@@ -142,7 +166,7 @@
     "market_id": "mkt_bbafa81b743dec1f",
     "observation_id": "obs_6f6081783c20cd39",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -254,7 +278,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -265,11 +311,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_6f6081783c20cd39"
   },
@@ -279,7 +327,7 @@
     "market_id": "mkt_f4262b8745b98717",
     "observation_id": "obs_34ac0f92c961504d",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -391,7 +439,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -402,11 +472,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_34ac0f92c961504d"
   },
@@ -416,7 +488,7 @@
     "market_id": "mkt_4b1f4cdae5828b05",
     "observation_id": "obs_ddbf48127c65634f",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -528,7 +600,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -539,11 +633,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_ddbf48127c65634f"
   },
@@ -553,7 +649,7 @@
     "market_id": "mkt_a4581584fd4df69b",
     "observation_id": "obs_099da86a2505745a",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -665,7 +761,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -676,11 +794,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_099da86a2505745a"
   },
@@ -690,7 +810,7 @@
     "market_id": "mkt_929f08748121404f",
     "observation_id": "obs_9fc69d07483d7d28",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -802,7 +922,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -813,11 +955,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_9fc69d07483d7d28"
   },
@@ -827,7 +971,7 @@
     "market_id": "mkt_db60ec03d26dd661",
     "observation_id": "obs_5a4dac077d8ed637",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -939,7 +1083,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -950,11 +1116,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_5a4dac077d8ed637"
   },
@@ -964,7 +1132,7 @@
     "market_id": "mkt_6046f0a52cf6dd35",
     "observation_id": "obs_d041b342eaa75fd0",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -1076,7 +1244,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -1087,11 +1277,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_d041b342eaa75fd0"
   },
@@ -1101,7 +1293,7 @@
     "market_id": "mkt_3c300396e5560711",
     "observation_id": "obs_fc802546454ce1d3",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -1213,7 +1405,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -1224,11 +1438,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_fc802546454ce1d3"
   },
@@ -1238,7 +1454,7 @@
     "market_id": "mkt_4110747f1fea8868",
     "observation_id": "obs_7db33a0770dfdab8",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -1350,7 +1566,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -1361,11 +1599,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_7db33a0770dfdab8"
   },
@@ -1375,7 +1615,7 @@
     "market_id": "mkt_d6e67e3397cc4bd7",
     "observation_id": "obs_b23ee7d81135b424",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -1487,7 +1727,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -1498,11 +1760,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_b23ee7d81135b424"
   },
@@ -1512,7 +1776,7 @@
     "market_id": "mkt_e5a01cecbc5adeca",
     "observation_id": "obs_e118496ec3f602a7",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -1624,7 +1888,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -1635,11 +1921,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_e118496ec3f602a7"
   },
@@ -1649,7 +1937,7 @@
     "market_id": "mkt_b25fc8a40f14fb13",
     "observation_id": "obs_94966477dfbb4b7d",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -1761,7 +2049,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -1772,11 +2082,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_94966477dfbb4b7d"
   },
@@ -1786,7 +2098,7 @@
     "market_id": "mkt_29fe95a4efce7f32",
     "observation_id": "obs_cbfcb2e979933817",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -1898,7 +2210,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -1909,11 +2243,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_cbfcb2e979933817"
   },
@@ -1923,7 +2259,7 @@
     "market_id": "mkt_ab6a38b1e24a0e57",
     "observation_id": "obs_e198485896ff637a",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -2035,7 +2371,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -2046,11 +2404,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_e198485896ff637a"
   },
@@ -2060,7 +2420,7 @@
     "market_id": "mkt_1b0ff62bb0d5bd87",
     "observation_id": "obs_ac825f1332e47a30",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -2172,7 +2532,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -2183,11 +2565,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_ac825f1332e47a30"
   },
@@ -2197,7 +2581,7 @@
     "market_id": "mkt_323b7b60c82c7851",
     "observation_id": "obs_2fa1ed9fd3ed1cf1",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -2309,7 +2693,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -2320,11 +2726,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_2fa1ed9fd3ed1cf1"
   },
@@ -2334,7 +2742,7 @@
     "market_id": "mkt_0c7621ab511e5931",
     "observation_id": "obs_ea774ddc7e4e1efe",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -2446,7 +2854,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -2457,11 +2887,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_ea774ddc7e4e1efe"
   },
@@ -2471,7 +2903,7 @@
     "market_id": "mkt_c8317c92f45e4ba1",
     "observation_id": "obs_38f7d2daea16fe10",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -2583,7 +3015,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -2594,11 +3048,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_38f7d2daea16fe10"
   },
@@ -2608,7 +3064,7 @@
     "market_id": "mkt_9d203f71318cd809",
     "observation_id": "obs_4ce2812d5882e3f3",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -2720,7 +3176,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -2731,11 +3209,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_4ce2812d5882e3f3"
   },
@@ -2745,7 +3225,7 @@
     "market_id": "mkt_0b88eaa3300526e9",
     "observation_id": "obs_a0b24ae9f158c7ed",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -2857,7 +3337,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -2868,11 +3370,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_a0b24ae9f158c7ed"
   },
@@ -2882,7 +3386,7 @@
     "market_id": "mkt_20b3d0896416a339",
     "observation_id": "obs_0e631025cd6fb2f2",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -2995,7 +3499,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -3006,11 +3532,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_0e631025cd6fb2f2"
   },
@@ -3020,7 +3548,7 @@
     "market_id": "mkt_04dc64118a2e9dce",
     "observation_id": "obs_db8a629f896f0737",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -3133,7 +3661,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -3144,11 +3694,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_db8a629f896f0737"
   },
@@ -3158,7 +3710,7 @@
     "market_id": "mkt_b74acf8a0ab227a0",
     "observation_id": "obs_162bcd4533773f54",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -3271,7 +3823,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -3282,11 +3856,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_162bcd4533773f54"
   },
@@ -3296,7 +3872,7 @@
     "market_id": "mkt_08557185d52a1c17",
     "observation_id": "obs_318be57dc4a02412",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -3408,7 +3984,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -3419,11 +4017,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_318be57dc4a02412"
   },
@@ -3433,7 +4033,7 @@
     "market_id": "mkt_9b66e572dd9b1812",
     "observation_id": "obs_85acaa1f4fd3c60b",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -3545,7 +4145,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -3556,11 +4178,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_85acaa1f4fd3c60b"
   },
@@ -3570,7 +4194,7 @@
     "market_id": "mkt_ae9a8fb5d1a643d5",
     "observation_id": "obs_ac2a58e84d96e4ee",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -3682,7 +4306,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -3693,11 +4339,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_ac2a58e84d96e4ee"
   },
@@ -3707,7 +4355,7 @@
     "market_id": "mkt_b7701bd5202e6ed5",
     "observation_id": "obs_a22120a1ec5a3209",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -3820,7 +4468,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -3831,11 +4501,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_a22120a1ec5a3209"
   },
@@ -3845,7 +4517,7 @@
     "market_id": "mkt_5ea5cbb590601d75",
     "observation_id": "obs_69ab8e069a0f217d",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -3958,7 +4630,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -3969,11 +4663,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_69ab8e069a0f217d"
   },
@@ -3983,7 +4679,7 @@
     "market_id": "mkt_773419a2546addc0",
     "observation_id": "obs_c8c763e8bdc4d347",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -4096,7 +4792,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -4107,11 +4825,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_c8c763e8bdc4d347"
   },
@@ -4121,7 +4841,7 @@
     "market_id": "mkt_6d7d0510394d11b6",
     "observation_id": "obs_c2beded3effb33a1",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -4233,7 +4953,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -4244,11 +4986,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_c2beded3effb33a1"
   },
@@ -4258,7 +5002,7 @@
     "market_id": "mkt_15b5c51e41a7393c",
     "observation_id": "obs_fe566ac242d4e604",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -4370,7 +5114,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -4381,11 +5147,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_fe566ac242d4e604"
   },
@@ -4395,7 +5163,7 @@
     "market_id": "mkt_22f7ac19f406ebba",
     "observation_id": "obs_759de896f977ee8f",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -4507,7 +5275,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -4518,11 +5308,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_759de896f977ee8f"
   },
@@ -4532,7 +5324,7 @@
     "market_id": "mkt_2f6ae6287df24b38",
     "observation_id": "obs_9749899ccbbf34cc",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -4644,7 +5436,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -4655,11 +5469,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_9749899ccbbf34cc"
   },
@@ -4669,7 +5485,7 @@
     "market_id": "mkt_e8b29eff12ebdb35",
     "observation_id": "obs_77e59f386a90d432",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -4781,7 +5597,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -4792,11 +5630,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_77e59f386a90d432"
   },
@@ -4806,7 +5646,7 @@
     "market_id": "mkt_565b6309216b06a0",
     "observation_id": "obs_4afb40dc9261535a",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -4918,7 +5758,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -4929,11 +5791,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_4afb40dc9261535a"
   },
@@ -4943,7 +5807,7 @@
     "market_id": "mkt_f691016bf099ac5a",
     "observation_id": "obs_f9f158ca014af191",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -5055,7 +5919,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -5066,11 +5952,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_f9f158ca014af191"
   },
@@ -5080,7 +5968,7 @@
     "market_id": "mkt_aac026fe9798a7ff",
     "observation_id": "obs_adc685adbdf5ebe2",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -5192,7 +6080,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -5203,11 +6113,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_adc685adbdf5ebe2"
   },
@@ -5217,7 +6129,7 @@
     "market_id": "mkt_b267974e0db5fb84",
     "observation_id": "obs_0f6c9cab6e3ec30d",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -5329,7 +6241,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -5340,11 +6274,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_0f6c9cab6e3ec30d"
   },
@@ -5354,7 +6290,7 @@
     "market_id": "mkt_5cf04ff5f243ffde",
     "observation_id": "obs_0b2db9294267e93a",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -5466,7 +6402,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -5477,11 +6435,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_0b2db9294267e93a"
   },
@@ -5491,7 +6451,7 @@
     "market_id": "mkt_7aa99bf3064770a4",
     "observation_id": "obs_b89edba41222bf18",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -5603,7 +6563,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -5614,11 +6596,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_b89edba41222bf18"
   },
@@ -5628,7 +6612,7 @@
     "market_id": "mkt_88edc702b372accc",
     "observation_id": "obs_165137c78da4838c",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -5740,7 +6724,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -5751,11 +6757,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_165137c78da4838c"
   },
@@ -5765,7 +6773,7 @@
     "market_id": "mkt_9b4fca07bdbd442b",
     "observation_id": "obs_9e09d5ec46c544e1",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -5877,7 +6885,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -5888,11 +6918,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_9e09d5ec46c544e1"
   },
@@ -5902,7 +6934,7 @@
     "market_id": "mkt_b969ddd8aa75c08c",
     "observation_id": "obs_b5fc99af5c79e174",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -6014,7 +7046,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -6025,11 +7079,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_b5fc99af5c79e174"
   },
@@ -6039,7 +7095,7 @@
     "market_id": "mkt_5d72d080951119e5",
     "observation_id": "obs_44a4eac328f02657",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -6151,7 +7207,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -6162,11 +7240,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_44a4eac328f02657"
   },
@@ -6176,7 +7256,7 @@
     "market_id": "mkt_3393d7da552e73d3",
     "observation_id": "obs_0ef305d7a9568d49",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -6288,7 +7368,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -6299,11 +7401,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_0ef305d7a9568d49"
   },
@@ -6313,7 +7417,7 @@
     "market_id": "mkt_8454f80daaa35531",
     "observation_id": "obs_c917e466c9c22867",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -6425,7 +7529,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -6436,11 +7562,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_c917e466c9c22867"
   },
@@ -6450,7 +7578,7 @@
     "market_id": "mkt_17fe5032c7edd25d",
     "observation_id": "obs_9495665beb67a1b9",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -6562,7 +7690,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -6573,11 +7723,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_9495665beb67a1b9"
   },
@@ -6587,7 +7739,7 @@
     "market_id": "mkt_4152f231cce21091",
     "observation_id": "obs_6d943cb29bfa3b02",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -6699,7 +7851,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -6710,11 +7884,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_6d943cb29bfa3b02"
   },
@@ -6724,7 +7900,7 @@
     "market_id": "mkt_41a3545b79900584",
     "observation_id": "obs_de5e078242616c4f",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -6836,7 +8012,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -6847,11 +8045,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_de5e078242616c4f"
   },
@@ -6861,7 +8061,7 @@
     "market_id": "mkt_6842dd94e9a7bd79",
     "observation_id": "obs_e6389106406faf5c",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -6973,7 +8173,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -6984,11 +8206,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_e6389106406faf5c"
   },
@@ -6998,7 +8222,7 @@
     "market_id": "mkt_b9949e689417cc15",
     "observation_id": "obs_84624652746abb74",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -7110,7 +8334,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -7121,11 +8367,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_84624652746abb74"
   },
@@ -7135,7 +8383,7 @@
     "market_id": "mkt_f5e5c98870afb3fb",
     "observation_id": "obs_9d1fefc466d508af",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -7247,7 +8495,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -7258,11 +8528,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_9d1fefc466d508af"
   },
@@ -7272,7 +8544,7 @@
     "market_id": "mkt_a9dbf496bd4d8d9f",
     "observation_id": "obs_964354889c325ca7",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -7384,7 +8656,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -7395,11 +8689,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_964354889c325ca7"
   },
@@ -7409,7 +8705,7 @@
     "market_id": "mkt_648fe20a28594ab8",
     "observation_id": "obs_5570f07cab335cbe",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -7521,7 +8817,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -7532,11 +8850,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_5570f07cab335cbe"
   },
@@ -7546,7 +8866,7 @@
     "market_id": "mkt_a4d09779016bc0a0",
     "observation_id": "obs_6df8099d8826e4bd",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -7658,7 +8978,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -7669,11 +9011,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_6df8099d8826e4bd"
   },
@@ -7683,7 +9027,7 @@
     "market_id": "mkt_721eda2d3c89e65b",
     "observation_id": "obs_956be1993345ec72",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -7795,7 +9139,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -7806,11 +9172,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_956be1993345ec72"
   },
@@ -7820,7 +9188,7 @@
     "market_id": "mkt_5cd452c27bd6d285",
     "observation_id": "obs_5b2a4aefa1f3ed8a",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -7932,7 +9300,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -7943,11 +9333,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_5b2a4aefa1f3ed8a"
   },
@@ -7957,7 +9349,7 @@
     "market_id": "mkt_89d70b553bc706c7",
     "observation_id": "obs_6ef3a0532c1b6125",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -8069,7 +9461,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -8080,11 +9494,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_6ef3a0532c1b6125"
   },
@@ -8094,7 +9510,7 @@
     "market_id": "mkt_9ff1f031d76a267d",
     "observation_id": "obs_9819fd30d4390c9f",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -8206,7 +9622,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -8217,11 +9655,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_9819fd30d4390c9f"
   },
@@ -8231,7 +9671,7 @@
     "market_id": "mkt_51a00e9a22d45f5a",
     "observation_id": "obs_333cd0ed13631cea",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -8343,7 +9783,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -8354,11 +9816,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_333cd0ed13631cea"
   },
@@ -8368,7 +9832,7 @@
     "market_id": "mkt_b3ffbd71579fe381",
     "observation_id": "obs_e9994c82c39f87c5",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -8480,7 +9944,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -8491,11 +9977,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_e9994c82c39f87c5"
   },
@@ -8505,7 +9993,7 @@
     "market_id": "mkt_76c4bba000c6672f",
     "observation_id": "obs_d8900bd3417b87cb",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -8617,7 +10105,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -8628,11 +10138,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_d8900bd3417b87cb"
   },
@@ -8642,7 +10154,7 @@
     "market_id": "mkt_e7b43536f8f54bcf",
     "observation_id": "obs_9c1127fe1eb4521e",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -8754,7 +10266,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -8765,11 +10299,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_9c1127fe1eb4521e"
   },
@@ -8779,7 +10315,7 @@
     "market_id": "mkt_23b64adcdd82a0f0",
     "observation_id": "obs_b64fdb4492239681",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -8891,7 +10427,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -8902,11 +10460,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_b64fdb4492239681"
   },
@@ -8916,7 +10476,7 @@
     "market_id": "mkt_34939e678ffab32d",
     "observation_id": "obs_a5a20183960197f9",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -9028,7 +10588,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -9039,11 +10621,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_a5a20183960197f9"
   },
@@ -9053,7 +10637,7 @@
     "market_id": "mkt_4f992d99526695ce",
     "observation_id": "obs_231fc00e66d3097e",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -9165,7 +10749,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -9176,11 +10782,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_231fc00e66d3097e"
   },
@@ -9190,7 +10798,7 @@
     "market_id": "mkt_f64e38cac2ced029",
     "observation_id": "obs_b51004d87a08e339",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -9302,7 +10910,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -9313,11 +10943,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_b51004d87a08e339"
   },
@@ -9327,7 +10959,7 @@
     "market_id": "mkt_d050b43ffb55882e",
     "observation_id": "obs_3e3504fb2fde47ad",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -9439,7 +11071,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -9450,11 +11104,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_3e3504fb2fde47ad"
   },
@@ -9464,7 +11120,7 @@
     "market_id": "mkt_87660d1c1f00b4b6",
     "observation_id": "obs_f4ac91b2d804add3",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -9576,7 +11232,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -9587,11 +11265,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_f4ac91b2d804add3"
   },
@@ -9601,7 +11281,7 @@
     "market_id": "mkt_f06cc8c857d59171",
     "observation_id": "obs_6c53314cb07f62e6",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -9713,7 +11393,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -9724,11 +11426,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_6c53314cb07f62e6"
   },
@@ -9738,7 +11442,7 @@
     "market_id": "mkt_b7795c4c94a143c6",
     "observation_id": "obs_0dba3af572dddaba",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -9850,7 +11554,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -9861,11 +11587,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_0dba3af572dddaba"
   },
@@ -9875,7 +11603,7 @@
     "market_id": "mkt_d04e82d6ab1016eb",
     "observation_id": "obs_e389ec3c05ac3c1b",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -9987,7 +11715,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -9998,11 +11748,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_e389ec3c05ac3c1b"
   },
@@ -10012,7 +11764,7 @@
     "market_id": "mkt_b486adff9a54b4f4",
     "observation_id": "obs_d550ac4f6265e3fe",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -10124,7 +11876,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -10135,11 +11909,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_d550ac4f6265e3fe"
   },
@@ -10149,7 +11925,7 @@
     "market_id": "mkt_c625854690f44f45",
     "observation_id": "obs_51cbe3e023e9bfb5",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -10261,7 +12037,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -10272,11 +12070,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_51cbe3e023e9bfb5"
   },
@@ -10286,7 +12086,7 @@
     "market_id": "mkt_ee92bc12667a02d4",
     "observation_id": "obs_aa0666f6084dcec3",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -10398,7 +12198,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -10409,11 +12231,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_aa0666f6084dcec3"
   },
@@ -10423,7 +12247,7 @@
     "market_id": "mkt_69ceaa0ac25e7be2",
     "observation_id": "obs_ef5701da8eaa5e6d",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -10535,7 +12359,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -10546,11 +12392,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_ef5701da8eaa5e6d"
   },
@@ -10560,7 +12408,7 @@
     "market_id": "mkt_f3ee11dd724be055",
     "observation_id": "obs_0f3ce104a9679d80",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -10672,7 +12520,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -10683,11 +12553,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_0f3ce104a9679d80"
   },
@@ -10697,7 +12569,7 @@
     "market_id": "mkt_bd662f8621fac7f1",
     "observation_id": "obs_88fdc9f20e4f4952",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -10809,7 +12681,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -10820,11 +12714,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_88fdc9f20e4f4952"
   },
@@ -10834,7 +12730,7 @@
     "market_id": "mkt_2a592a5512fe2d43",
     "observation_id": "obs_7c36b3b945070d84",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -10946,7 +12842,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -10957,11 +12875,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_7c36b3b945070d84"
   },
@@ -10971,7 +12891,7 @@
     "market_id": "mkt_db22f09ce2feb56b",
     "observation_id": "obs_268139b0cb5a279d",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -11083,7 +13003,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -11094,11 +13036,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_268139b0cb5a279d"
   },
@@ -11108,7 +13052,7 @@
     "market_id": "mkt_54eb7da548750936",
     "observation_id": "obs_ad66c8fbbce30c0f",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -11220,7 +13164,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -11231,11 +13197,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_ad66c8fbbce30c0f"
   },
@@ -11245,7 +13213,7 @@
     "market_id": "mkt_46cfef09997a5b54",
     "observation_id": "obs_14b6a0c0bb262861",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -11357,7 +13325,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -11368,11 +13358,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_14b6a0c0bb262861"
   },
@@ -11382,7 +13374,7 @@
     "market_id": "mkt_d9d57a384667a868",
     "observation_id": "obs_b6639832c6137bd0",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -11494,7 +13486,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -11505,11 +13519,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_b6639832c6137bd0"
   },
@@ -11519,7 +13535,7 @@
     "market_id": "mkt_5ce620bacc22a5bd",
     "observation_id": "obs_9d1f62789eee5de3",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -11631,7 +13647,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -11642,11 +13680,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_9d1f62789eee5de3"
   },
@@ -11656,7 +13696,7 @@
     "market_id": "mkt_ddc4bacba2807555",
     "observation_id": "obs_78de007af527e85f",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -11768,7 +13808,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -11779,11 +13841,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_78de007af527e85f"
   },
@@ -11793,7 +13857,7 @@
     "market_id": "mkt_37f2c56197739afb",
     "observation_id": "obs_dca18b9ffe23cd17",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -11905,7 +13969,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -11916,11 +14002,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_dca18b9ffe23cd17"
   },
@@ -11930,7 +14018,7 @@
     "market_id": "mkt_224d488aaf464367",
     "observation_id": "obs_e24e9c622631e5fd",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -12042,7 +14130,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -12053,11 +14163,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_e24e9c622631e5fd"
   },
@@ -12067,7 +14179,7 @@
     "market_id": "mkt_22c4476324ac9cd4",
     "observation_id": "obs_9d2abd97143a59f1",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -12179,7 +14291,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -12190,11 +14324,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_9d2abd97143a59f1"
   },
@@ -12204,7 +14340,7 @@
     "market_id": "mkt_b001ee9846084cf3",
     "observation_id": "obs_d161c3c0c226a114",
     "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-    "file_id": "4f0f82f6f79c4b91",
+    "file_id": "667b69ac393c5706",
     "capture": {
       "raw_display": "08.05.2026, 05.40",
       "local": "2026-05-08T05:40:00+02:00",
@@ -12316,7 +14452,29 @@
           "reason": "required_fields_present"
         }
       },
-      "real_bet_allowed": true
+      "hard_gates": {
+        "layout_detected": true,
+        "canonical_match": true,
+        "odds_integrity": true,
+        "event_time_verified": false,
+        "completeness": true,
+        "layout_approved": false,
+        "extraction_confidence": true
+      },
+      "execution_mode": {
+        "real_bet_allowed": false,
+        "paper_allowed": true,
+        "mode": "paper_or_shadow_only",
+        "reason": "event_time_verified|layout_approved|layout_approved",
+        "failed_hard_gates": [
+          "event_time_verified",
+          "layout_approved",
+          "layout_approved"
+        ]
+      },
+      "real_bet_allowed": false,
+      "paper_allowed": true,
+      "shadow_reason": "event_time_verified|layout_approved|layout_approved"
     },
     "text_extraction": {
       "method": "pypdf",
@@ -12327,11 +14485,13 @@
       "layout_version": "unknown",
       "extraction_confidence": 0.95,
       "fallback_used": false,
-      "raw_text_debug_path": "output/debug_text/pypdf_4f0f82f6f79c4b91.txt",
+      "raw_text_debug_path": "output/debug_text/pypdf_667b69ac393c5706.txt",
       "warnings": []
     },
-    "status": "parsed_candidate",
-    "warnings": [],
+    "status": "shadow_only",
+    "warnings": [
+      "unknown_layout_warning"
+    ],
     "dedupe_status": "duplicate_noise",
     "duplicate_of_observation_id": "obs_d161c3c0c226a114"
   }
