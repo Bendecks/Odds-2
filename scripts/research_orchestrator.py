@@ -22,14 +22,8 @@ SIMULATE_RESEARCH_TRIGGER = os.getenv('SIMULATE_RESEARCH_TRIGGER', 'false').lowe
 SIMULATE_RESEARCH_WRITE_RECORD = os.getenv('SIMULATE_RESEARCH_WRITE_RECORD', 'false').lower() == 'true'
 
 PRIORITY_LEAGUES = {
-    'Premier League',
-    'Superligaen',
-    'Bundesliga',
-    'Serie A',
-    'LaLiga',
-    'Ligue 1',
-    'Champions League',
-    'Europa League',
+    'Premier League', 'Superligaen', 'Bundesliga', 'Serie A', 'LaLiga', 'Ligue 1',
+    'Champions League', 'Europa League'
 }
 
 
@@ -43,32 +37,25 @@ def stable_hash(prefix, *parts, length=16):
 
 
 def load_json(path, default):
-    if not pathlib.Path(path).exists():
+    path = pathlib.Path(path)
+    if not path.exists():
         return default
-    return json.loads(pathlib.Path(path).read_text(encoding='utf-8'))
+    return json.loads(path.read_text(encoding='utf-8'))
 
 
 def existing_research_keys(records):
-    keys = set()
-    for r in records:
-        if r.get('record_type') != 'research_record':
-            continue
-        if r.get('research_version') != RESEARCH_VERSION:
-            continue
-        mid = r.get('market_id')
-        if mid:
-            keys.add(mid)
-    return keys
+    return {
+        r.get('market_id')
+        for r in records
+        if r.get('record_type') == 'research_record'
+        and r.get('research_version') == RESEARCH_VERSION
+        and r.get('market_id')
+    }
 
 
 def latest_decisions_by_market():
     data = load_json(AI_DECISIONS_PATH, {'decisions': []})
-    by_market = {}
-    for d in data.get('decisions') or []:
-        mid = d.get('market_id')
-        if mid:
-            by_market[mid] = d
-    return by_market
+    return {d.get('market_id'): d for d in data.get('decisions', []) if d.get('market_id')}
 
 
 def trigger_reasons(market, decision):
@@ -81,16 +68,12 @@ def trigger_reasons(market, decision):
         reasons.append('significant_odds_change_10pct_plus')
     elif change >= 0.03:
         reasons.append('small_odds_movement_3pct_plus')
-
     if decision and decision.get('decision') == 'WATCH':
         reasons.append('ai_decision_watch')
-
     if league in PRIORITY_LEAGUES and change >= 0.03:
         reasons.append('priority_league_with_movement')
-
     if market.get('force_research') is True:
         reasons.append('manual_force_research')
-
     return reasons
 
 
@@ -167,8 +150,6 @@ def select_research_candidates():
             continue
         candidates.append(market_to_research_candidate(market, decision, reasons))
 
-    # Optional manual simulation: used to prove research_record writing without waiting for real odds movement.
-    # It forces exactly one otherwise-eligible market into research selection.
     if SIMULATE_RESEARCH_TRIGGER and not candidates and eligible_without_trigger:
         market, decision = eligible_without_trigger[0]
         candidates.append(market_to_research_candidate(market, decision, ['simulated_research_trigger']))
@@ -203,7 +184,7 @@ def research_prompt(candidate):
             'Do not double-count market movement as research evidence: if a source is only explaining odds movement, mark it as market_echo risk. '
             'Focus on concrete probability-changing signals: confirmed injuries, suspensions, likely lineups, goalkeeper changes, fixture congestion, '
             'motivation with table context, weather/pitch if relevant, and whether market consensus appears meaningfully different from the parsed odds. '
-            'Return JSON only.'
+            'Return only a valid JSON object. Do not include markdown formatting or backticks.'
         ),
         'source_policy': {
             'preferred_sources': ['official_club', 'official_league', 'official_competition', 'reputable_sports_media', 'credible_local_media'],
@@ -253,7 +234,13 @@ def extract_json_object(text):
 def call_gemini_research(candidate):
     api_key = os.getenv('GEMINI_API_KEY')
     if not api_key:
-        return None, 'missing_gemini_api_key'
+        return None, {'code': 'missing_gemini_api_key'}
+    request_features = {
+        'google_search_enabled': True,
+        'response_mime_type': 'application/json',
+        'model': GEMINI_MODEL,
+        'endpoint': 'v1beta/generateContent',
+    }
     try:
         url = f'https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent?key={api_key}'
         body = {
@@ -268,7 +255,12 @@ def call_gemini_research(candidate):
         }
         resp = requests.post(url, json=body, timeout=90)
         if resp.status_code >= 400:
-            return None, f'gemini_research_http_{resp.status_code}'
+            return None, {
+                'code': f'gemini_research_http_{resp.status_code}',
+                'status_code': resp.status_code,
+                'response_text': resp.text[:2000],
+                'request_features': request_features,
+            }
         data = resp.json()
         text = data['candidates'][0]['content']['parts'][0]['text']
         parsed = extract_json_object(text)
@@ -286,7 +278,11 @@ def call_gemini_research(candidate):
         parsed['grounding_chunks'] = grounding_chunks
         return parsed, None
     except Exception as exc:
-        return None, f'gemini_research_error_{str(exc)[:120]}'
+        return None, {
+            'code': 'gemini_research_exception',
+            'response_text': str(exc)[:2000],
+            'request_features': request_features,
+        }
 
 
 def simulated_research_output(candidate):
@@ -313,6 +309,12 @@ def simulated_research_output(candidate):
     }
 
 
+def error_code(error):
+    if isinstance(error, dict):
+        return error.get('code') or 'research_error'
+    return error or 'research_unavailable'
+
+
 def normalize_research_output(candidate, output, error=None):
     now = utc_now()
     research_id = stable_hash('res', RESEARCH_VERSION, candidate.get('market_id'), now)
@@ -335,8 +337,8 @@ def normalize_research_output(candidate, output, error=None):
                 'contradictions': []
             },
             'confidence': 'low',
-            'summary': f'Research failed or unavailable: {error}',
-            'research_flags': [error or 'research_unavailable']
+            'summary': f'Research failed or unavailable: {error_code(error)}',
+            'research_flags': [error_code(error)]
         }
     signals = output.get('signals') if isinstance(output.get('signals'), dict) else {}
     source_quality = output.get('source_quality') if isinstance(output.get('source_quality'), dict) else {}
@@ -373,6 +375,7 @@ def normalize_research_output(candidate, output, error=None):
         'confidence': output.get('confidence') if output.get('confidence') in {'low', 'medium', 'high'} else 'low',
         'summary': str(output.get('summary') or '')[:1000],
         'research_flags': output.get('research_flags') if isinstance(output.get('research_flags'), list) else [],
+        'error_detail': error if isinstance(error, dict) else {'code': error} if error else None,
         'grounding_chunks': output.get('grounding_chunks') if isinstance(output.get('grounding_chunks'), list) else [],
         'source_market_snapshot': candidate,
     }
@@ -395,6 +398,7 @@ def write_report(candidate_payload, records):
         lines.append('No research records written. No markets met research triggers.')
     for r in records:
         sq = r.get('source_quality') or {}
+        err = r.get('error_detail') or {}
         lines.extend([
             '',
             f'### {r.get("event_name")} — {r.get("selection")} @ {r.get("odds")}',
@@ -408,6 +412,8 @@ def write_report(candidate_payload, records):
             f'- Secondary sources: `{sq.get("secondary_sources")}`',
             f'- Source links: `{r.get("source_links")}`',
             f'- Research flags: `{r.get("research_flags")}`',
+            f'- Error code: `{err.get("code") if isinstance(err, dict) else None}`',
+            f'- Error detail: `{(err.get("response_text") if isinstance(err, dict) else None)}`',
         ])
     path = OUT_REPORTS / 'research_report.md'
     path.write_text('\n'.join(lines) + '\n', encoding='utf-8')
