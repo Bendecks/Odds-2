@@ -1,6 +1,6 @@
 # Odds 2 — Phase 2.1 Research Report
 
-Generated: 2026-05-08T21:05:29Z
+Generated: 2026-05-08T21:15:03Z
 - Research version: phase2_1_gemini_research_v1
 - Gemini model: gemini-2.5-flash
 - Research enabled: True
@@ -11,7 +11,7 @@ Generated: 2026-05-08T21:05:29Z
 - Research records written: 1
 
 
-### Liverpool vs Chelsea — Draw @ 4.0
+### Middlesbrough vs Southampton — Middlesbrough @ 2.2
 - Status: failed
 - Provider: gemini
 - Confidence: low
@@ -22,3 +22,12 @@ Generated: 2026-05-08T21:05:29Z
 - Secondary sources: `[]`
 - Source links: `[]`
 - Research flags: `['gemini_research_http_400']`
+- Error code: `gemini_research_http_400`
+- Error detail: `{
+  "error": {
+    "code": 400,
+    "message": "Tool use with a response mime type: 'application/json' is unsupported",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+`
