@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "layouts": [
+    {
+      "layout_version": "bet365_full_page_1x2_inline_v1",
+      "description": "Full-page Safari PDF where football 1X2 rows appear as home, away, time, odds triple.",
+      "required_markers": ["1", "X", "2"],
+      "market_type": "1X2",
+      "sport": "football"
+    }
+  ]
+}
