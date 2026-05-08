@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-05-08T21:15:03Z",
+  "generated_at": "2026-05-08T21:19:55Z",
   "research_version": "phase2_1_gemini_research_v1",
   "records": [
     {
       "record_type": "research_record",
-      "research_id": "res_ececf36103d382f5",
+      "research_id": "res_0feb6d318fda228a",
       "research_version": "phase2_1_gemini_research_v1",
-      "created_at": "2026-05-08T21:15:03Z",
+      "created_at": "2026-05-08T21:19:55Z",
       "provider": "gemini",
       "model": "gemini-2.5-flash",
-      "market_id": "mkt_20b3d0896416a339",
+      "market_id": "mkt_b74acf8a0ab227a0",
       "event_id": "evt_a252429716930637",
       "event_name": "Middlesbrough vs Southampton",
-      "selection": "Middlesbrough",
-      "odds": 2.2,
+      "selection": "Southampton",
+      "odds": 3.2,
       "trigger_reasons": [
         "simulated_research_trigger"
       ],
@@ -35,24 +35,23 @@
         "contradictions": []
       },
       "confidence": "low",
-      "summary": "Research failed or unavailable: gemini_research_http_400",
+      "summary": "Research failed or unavailable: gemini_research_exception",
       "research_flags": [
-        "gemini_research_http_400"
+        "gemini_research_exception"
       ],
       "error_detail": {
-        "code": "gemini_research_http_400",
-        "status_code": 400,
-        "response_text": "{\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Tool use with a response mime type: 'application/json' is unsupported\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n",
+        "code": "gemini_research_exception",
+        "response_text": "Expecting ',' delimiter: line 59 column 2 (char 8200)",
         "request_features": {
           "google_search_enabled": true,
-          "response_mime_type": "application/json",
+          "response_mime_type": null,
           "model": "gemini-2.5-flash",
           "endpoint": "v1beta/generateContent"
         }
       },
       "grounding_chunks": [],
       "source_market_snapshot": {
-        "market_id": "mkt_20b3d0896416a339",
+        "market_id": "mkt_b74acf8a0ab227a0",
         "event_id": "evt_a252429716930637",
         "event_name": "Middlesbrough vs Southampton",
         "home": "Middlesbrough",
@@ -61,21 +60,21 @@
         "sport": "football",
         "event_time_utc": "2026-05-08T11:30:00Z",
         "market_type": "1X2",
-        "line": "1",
-        "selection": "Middlesbrough",
-        "odds": 2.2,
+        "line": "2",
+        "selection": "Southampton",
+        "odds": 3.2,
         "movement_summary": {
-          "first_seen_odds": 2.2,
-          "latest_seen_odds": 2.2,
+          "first_seen_odds": 3.2,
+          "latest_seen_odds": 3.2,
           "first_seen_capture_utc": "2026-05-08T03:40:00Z",
           "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
           "change_pct_from_first": 0.0,
           "movement_from_first": "unchanged",
-          "observation_count": 13,
+          "observation_count": 14,
           "non_duplicate_observation_count": 1,
           "dedupe_counts": {
             "new_observation": 1,
-            "duplicate_noise": 12
+            "duplicate_noise": 13
           }
         },
         "decision": null,

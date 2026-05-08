@@ -1,6 +1,6 @@
 # Odds 2 — Phase 2.1 Research Report
 
-Generated: 2026-05-08T21:15:03Z
+Generated: 2026-05-08T21:19:55Z
 - Research version: phase2_1_gemini_research_v1
 - Gemini model: gemini-2.5-flash
 - Research enabled: True
@@ -11,23 +11,16 @@ Generated: 2026-05-08T21:15:03Z
 - Research records written: 1
 
 
-### Middlesbrough vs Southampton — Middlesbrough @ 2.2
+### Middlesbrough vs Southampton — Southampton @ 3.2
 - Status: failed
 - Provider: gemini
 - Confidence: low
 - Echo chamber risk: high
 - Triggers: `['simulated_research_trigger']`
-- Summary: Research failed or unavailable: gemini_research_http_400
+- Summary: Research failed or unavailable: gemini_research_exception
 - Primary sources: `[]`
 - Secondary sources: `[]`
 - Source links: `[]`
-- Research flags: `['gemini_research_http_400']`
-- Error code: `gemini_research_http_400`
-- Error detail: `{
-  "error": {
-    "code": 400,
-    "message": "Tool use with a response mime type: 'application/json' is unsupported",
-    "status": "INVALID_ARGUMENT"
-  }
-}
-`
+- Research flags: `['gemini_research_exception']`
+- Error code: `gemini_research_exception`
+- Error detail: `Expecting ',' delimiter: line 59 column 2 (char 8200)`
