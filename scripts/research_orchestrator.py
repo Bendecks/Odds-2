@@ -18,6 +18,8 @@ GEMINI_MODEL = os.getenv('GEMINI_RESEARCH_MODEL', os.getenv('GEMINI_MODEL', 'gem
 MAX_RESEARCH_CALLS = int(os.getenv('MAX_RESEARCH_CALLS', '5'))
 RESEARCH_VERSION = os.getenv('RESEARCH_VERSION', 'phase2_1_gemini_research_v1')
 RESEARCH_ENABLED = os.getenv('RESEARCH_ENABLED', 'true').lower() == 'true'
+SIMULATE_RESEARCH_TRIGGER = os.getenv('SIMULATE_RESEARCH_TRIGGER', 'false').lower() == 'true'
+SIMULATE_RESEARCH_WRITE_RECORD = os.getenv('SIMULATE_RESEARCH_WRITE_RECORD', 'false').lower() == 'true'
 
 PRIORITY_LEAGUES = {
     'Premier League',
@@ -73,7 +75,6 @@ def trigger_reasons(market, decision):
     reasons = []
     ms = market.get('movement_summary') or {}
     change = float(ms.get('change_pct_from_first') or 0)
-    movement = ms.get('movement_from_first')
     league = (market.get('event') or {}).get('league')
 
     if change >= 0.10:
@@ -87,7 +88,6 @@ def trigger_reasons(market, decision):
     if league in PRIORITY_LEAGUES and change >= 0.03:
         reasons.append('priority_league_with_movement')
 
-    # Manual override can be added later to market_state records.
     if market.get('force_research') is True:
         reasons.append('manual_force_research')
 
@@ -107,6 +107,8 @@ def market_to_research_candidate(market, decision, reasons):
         priority_score += 35
     if event.get('league') in PRIORITY_LEAGUES:
         priority_score += 10
+    if 'simulated_research_trigger' in reasons:
+        priority_score += 1
 
     return {
         'market_id': market.get('market_id'),
@@ -128,6 +130,15 @@ def market_to_research_candidate(market, decision, reasons):
     }
 
 
+def eligible_market(market):
+    if not market.get('active'):
+        return False, 'inactive_market'
+    pc = market.get('parser_confidence') or {}
+    if not pc.get('real_bet_allowed'):
+        return False, 'data_integrity_not_real_candidate'
+    return True, 'eligible'
+
+
 def select_research_candidates():
     state = load_json(MARKET_STATE_PATH, {'markets': []})
     records = read_tracker()
@@ -135,6 +146,7 @@ def select_research_candidates():
     decisions = latest_decisions_by_market()
     candidates = []
     skipped = []
+    eligible_without_trigger = []
 
     for market in state.get('markets') or []:
         mid = market.get('market_id')
@@ -143,19 +155,23 @@ def select_research_candidates():
         if mid in existing:
             skipped.append({'market_id': mid, 'reason': 'research_exists_for_version'})
             continue
-        if not market.get('active'):
-            skipped.append({'market_id': mid, 'reason': 'inactive_market'})
-            continue
-        pc = market.get('parser_confidence') or {}
-        if not pc.get('real_bet_allowed'):
-            skipped.append({'market_id': mid, 'reason': 'data_integrity_not_real_candidate'})
+        ok, reason = eligible_market(market)
+        if not ok:
+            skipped.append({'market_id': mid, 'reason': reason})
             continue
         decision = decisions.get(mid)
         reasons = trigger_reasons(market, decision)
         if not reasons:
+            eligible_without_trigger.append((market, decision))
             skipped.append({'market_id': mid, 'reason': 'no_research_trigger'})
             continue
         candidates.append(market_to_research_candidate(market, decision, reasons))
+
+    # Optional manual simulation: used to prove research_record writing without waiting for real odds movement.
+    # It forces exactly one otherwise-eligible market into research selection.
+    if SIMULATE_RESEARCH_TRIGGER and not candidates and eligible_without_trigger:
+        market, decision = eligible_without_trigger[0]
+        candidates.append(market_to_research_candidate(market, decision, ['simulated_research_trigger']))
 
     candidates.sort(key=lambda c: (-c.get('priority_score', 0), c.get('event_time_utc') or '', c.get('event_name') or ''))
     selected = candidates[:MAX_RESEARCH_CALLS]
@@ -163,6 +179,8 @@ def select_research_candidates():
         'generated_at': utc_now(),
         'research_version': RESEARCH_VERSION,
         'max_research_calls': MAX_RESEARCH_CALLS,
+        'simulate_research_trigger': SIMULATE_RESEARCH_TRIGGER,
+        'simulate_research_write_record': SIMULATE_RESEARCH_WRITE_RECORD,
         'candidate_count': len(selected),
         'all_triggered_count': len(candidates),
         'skipped_count': len(skipped),
@@ -255,6 +273,24 @@ def call_gemini_research(candidate):
         return None, f'gemini_research_error_{str(exc)[:120]}'
 
 
+def simulated_research_output(candidate):
+    return {
+        'research_status': 'simulated',
+        'source_links': [],
+        'signals': {
+            'injuries': [],
+            'lineups': [],
+            'motivation': [],
+            'form': [],
+            'market_consensus': None,
+            'contradictions': []
+        },
+        'confidence': 'low',
+        'summary': 'Simulated research record. Used only to verify trigger, JSONL append and report plumbing.',
+        'research_flags': ['simulated_research_record', 'not_real_research']
+    }
+
+
 def normalize_research_output(candidate, output, error=None):
     now = utc_now()
     research_id = stable_hash('res', RESEARCH_VERSION, candidate.get('market_id'), now)
@@ -280,8 +316,8 @@ def normalize_research_output(candidate, output, error=None):
         'research_id': research_id,
         'research_version': RESEARCH_VERSION,
         'created_at': now,
-        'provider': 'gemini',
-        'model': GEMINI_MODEL,
+        'provider': 'gemini' if not SIMULATE_RESEARCH_WRITE_RECORD else 'simulation',
+        'model': GEMINI_MODEL if not SIMULATE_RESEARCH_WRITE_RECORD else 'simulated_research',
         'market_id': candidate.get('market_id'),
         'event_id': candidate.get('event_id'),
         'event_name': candidate.get('event_name'),
@@ -314,6 +350,8 @@ def write_report(candidate_payload, records):
         f'- Research version: {RESEARCH_VERSION}',
         f'- Gemini model: {GEMINI_MODEL}',
         f'- Research enabled: {RESEARCH_ENABLED}',
+        f'- Simulate research trigger: {SIMULATE_RESEARCH_TRIGGER}',
+        f'- Simulate research write record: {SIMULATE_RESEARCH_WRITE_RECORD}',
         f'- Research candidates selected: {candidate_payload.get("candidate_count")}',
         f'- All triggered markets: {candidate_payload.get("all_triggered_count")}',
         f'- Research records written: {len(records)}', '',
@@ -325,6 +363,7 @@ def write_report(candidate_payload, records):
             '',
             f'### {r.get("event_name")} — {r.get("selection")} @ {r.get("odds")}',
             f'- Status: {r.get("research_status")}',
+            f'- Provider: {r.get("provider")}',
             f'- Confidence: {r.get("confidence")}',
             f'- Triggers: `{r.get("trigger_reasons")}`',
             f'- Summary: {r.get("summary")}',
@@ -341,7 +380,10 @@ def main():
     records = []
     if RESEARCH_ENABLED:
         for c in payload.get('candidates') or []:
-            output, error = call_gemini_research(c)
+            if SIMULATE_RESEARCH_WRITE_RECORD:
+                output, error = simulated_research_output(c), None
+            else:
+                output, error = call_gemini_research(c)
             records.append(normalize_research_output(c, output, error=error))
         append_records(records)
     (OUT_LATEST / 'research_records.json').write_text(json.dumps({
