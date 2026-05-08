@@ -237,7 +237,7 @@ def call_gemini_research(candidate):
         return None, {'code': 'missing_gemini_api_key'}
     request_features = {
         'google_search_enabled': True,
-        'response_mime_type': 'application/json',
+        'response_mime_type': None,
         'model': GEMINI_MODEL,
         'endpoint': 'v1beta/generateContent',
     }
@@ -249,8 +249,7 @@ def call_gemini_research(candidate):
             ],
             'tools': [{'google_search': {}}],
             'generationConfig': {
-                'temperature': 0,
-                'responseMimeType': 'application/json'
+                'temperature': 0
             }
         }
         resp = requests.post(url, json=body, timeout=90)
