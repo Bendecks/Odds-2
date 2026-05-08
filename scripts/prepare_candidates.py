@@ -7,7 +7,7 @@ MARKET_STATE_PATH = pathlib.Path('output/latest/market_state.json')
 OUT_PATH = pathlib.Path('output/latest/ai_candidates.json')
 OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
 
-MODEL_VERSION = 'phase2_chatgpt_paper_v1'
+MODEL_VERSION = 'phase2_chatgpt_paper_v2'
 
 
 def load_market_state(path=MARKET_STATE_PATH):
