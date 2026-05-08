@@ -1,6 +1,8 @@
 {
-  "new_observation": 90,
-  "duplicate_noise": 0,
+  "new_observation": 0,
+  "duplicate_noise": 90,
+  "new_observation_same_odds": 0,
+  "small_movement": 0,
   "odds_movement": 0,
   "significant_odds_change": 0,
   "parser_conflict": 0
