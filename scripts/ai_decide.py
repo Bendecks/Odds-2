@@ -12,7 +12,9 @@ OUT_REPORTS = pathlib.Path('output/reports')
 OUT_LATEST.mkdir(parents=True, exist_ok=True)
 OUT_REPORTS.mkdir(parents=True, exist_ok=True)
 
-MODEL = os.getenv('OPENAI_MODEL', 'gpt-4o-mini')
+AI_PROVIDER = os.getenv('AI_PROVIDER', 'gemini').lower()
+OPENAI_MODEL = os.getenv('OPENAI_MODEL', 'gpt-4o-mini')
+GEMINI_MODEL = os.getenv('GEMINI_MODEL', 'gemini-2.5-flash')
 MAX_CANDIDATES = int(os.getenv('AI_MAX_CANDIDATES', '90'))
 
 
@@ -26,7 +28,7 @@ def stable_hash(prefix, *parts, length=16):
 
 
 def heuristic_decision(candidate, fallback_reason=None):
-    """Fallback used when OpenAI is unavailable. It is intentionally conservative."""
+    """Fallback used when AI provider is unavailable. It is intentionally conservative."""
     odds = float(candidate.get('odds') or 0)
     change = float(candidate.get('change_pct_from_first') or 0)
     movement = candidate.get('movement_from_first')
@@ -51,7 +53,7 @@ def heuristic_decision(candidate, fallback_reason=None):
 
     if fallback_reason:
         reasoning_code = 'AI_UNAVAILABLE_FALLBACK_PASS'
-        summary = f'OpenAI unavailable ({fallback_reason}). Conservative fallback: PASS.'
+        summary = f'AI provider unavailable ({fallback_reason}). Conservative fallback: PASS.'
     elif movement == 'shortened' and change >= 0.10:
         decision = 'WATCH'
         confidence = 'medium'
@@ -121,7 +123,7 @@ def call_openai(payload):
         from openai import OpenAI
         client = OpenAI(api_key=api_key)
         resp = client.chat.completions.create(
-            model=MODEL,
+            model=OPENAI_MODEL,
             temperature=0,
             response_format={'type': 'json_object'},
             messages=[
@@ -141,6 +143,73 @@ def call_openai(payload):
             reason = 'openai_invalid_api_key'
         print(f'OpenAI unavailable, using conservative fallback: {reason} | {err[:300]}')
         return None, reason
+
+
+def extract_json_object(text):
+    raw = str(text or '').strip()
+    if raw.startswith('```'):
+        raw = raw.strip('`')
+        raw = raw.replace('json\n', '', 1).replace('JSON\n', '', 1).strip()
+    try:
+        return json.loads(raw)
+    except Exception:
+        start = raw.find('{')
+        end = raw.rfind('}')
+        if start >= 0 and end > start:
+            return json.loads(raw[start:end + 1])
+        raise
+
+
+def call_gemini(payload):
+    api_key = os.getenv('GEMINI_API_KEY')
+    if not api_key:
+        return None, 'missing_gemini_api_key'
+    try:
+        import requests
+        url = f'https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent?key={api_key}'
+        prompt = system_prompt() + '\n\nReturn JSON only.\n\n' + user_prompt(payload)
+        body = {
+            'contents': [
+                {
+                    'role': 'user',
+                    'parts': [{'text': prompt}]
+                }
+            ],
+            'generationConfig': {
+                'temperature': 0,
+                'responseMimeType': 'application/json'
+            }
+        }
+        resp = requests.post(url, json=body, timeout=60)
+        if resp.status_code >= 400:
+            err = resp.text[:500]
+            reason = 'gemini_api_error'
+            if resp.status_code == 429:
+                reason = 'gemini_rate_limit'
+            elif resp.status_code in {401, 403}:
+                reason = 'gemini_auth_or_permission_error'
+            print(f'Gemini unavailable, using conservative fallback: {reason} | {err}')
+            return None, reason
+        data = resp.json()
+        text = data['candidates'][0]['content']['parts'][0]['text']
+        return extract_json_object(text), None
+    except Exception as exc:
+        err = str(exc)
+        reason = 'gemini_api_error'
+        if 'api key' in err.lower():
+            reason = 'gemini_invalid_api_key'
+        print(f'Gemini unavailable, using conservative fallback: {reason} | {err[:300]}')
+        return None, reason
+
+
+def call_ai_provider(payload):
+    if AI_PROVIDER == 'openai':
+        output, reason = call_openai(payload)
+        return output, 'openai' if output is not None else 'heuristic_fallback', reason
+    if AI_PROVIDER == 'gemini':
+        output, reason = call_gemini(payload)
+        return output, 'gemini' if output is not None else 'heuristic_fallback', reason
+    return None, 'heuristic_fallback', f'unsupported_ai_provider_{AI_PROVIDER}'
 
 
 def normalize_ai_output(ai_output, candidates):
@@ -189,12 +258,13 @@ def build_decision_records(decisions, candidates, engine, fallback_reason=None):
     for d in decisions:
         c = by_id[d['market_id']]
         decision_id = stable_hash('dec', MODEL_VERSION, d['market_id'], now)
+        model_name = GEMINI_MODEL if engine == 'gemini' else OPENAI_MODEL if engine == 'openai' else 'heuristic_fallback'
         records.append({
             'record_type': 'decision_record',
             'decision_id': decision_id,
             'created_at': now,
             'model_version': MODEL_VERSION,
-            'model': MODEL if engine == 'openai' else 'heuristic_fallback',
+            'model': model_name,
             'engine': engine,
             'fallback_reason': fallback_reason,
             'mode': 'paper_only',
@@ -261,12 +331,10 @@ def main():
         records = []
         engine = 'none_no_candidates'
     else:
-        ai_output, fallback_reason = call_openai(payload)
+        ai_output, engine, fallback_reason = call_ai_provider(payload)
         if ai_output is None:
-            engine = 'heuristic_fallback'
             decisions = [heuristic_decision(c, fallback_reason=fallback_reason) | {'market_id': c['market_id']} for c in candidates]
         else:
-            engine = 'openai'
             decisions = normalize_ai_output(ai_output, candidates)
         records = build_decision_records(decisions, candidates, engine, fallback_reason=fallback_reason)
         append_records(records)
