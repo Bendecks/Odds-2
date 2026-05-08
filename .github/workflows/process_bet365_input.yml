@@ -68,7 +68,7 @@ jobs:
           AI_MAX_CANDIDATES: 90
 
       - name: Run Phase 2.1 research orchestrator
-        run: python scripts/research_orchestrator_v2.py
+        run: python scripts/research_orchestrator_v3.py
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_RESEARCH_MODEL: gemini-2.5-flash
