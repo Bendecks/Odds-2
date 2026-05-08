@@ -1,3 +1,5 @@
+import json
+import pathlib
 import re
 from normalize_time import normalize_event_time
 from canonical_matcher import match_team, add_alias_suggestion
@@ -8,6 +10,7 @@ DECIMAL_ODDS_RE = re.compile(r'^\d{1,2}[\.,]\d{2}$')
 TIME_ONLY_RE = re.compile(r'^\d{1,2}:\d{2}$')
 TIME_WITH_DAY_RE = re.compile(r'^(Man|Tir|Ons|Tor|Fre|Lør|Søn)\s+\d{1,2}:\d{2}$', re.I)
 ODDS_TRIPLE_RE = re.compile(r'^(\d{1,2}[\.,]\d{2})\s+(\d{1,2}[\.,]\d{2})\s+(\d{1,2}[\.,]\d{2})$')
+KNOWN_LAYOUTS_PATH = pathlib.Path('data/known_layouts.json')
 
 NOISE_EXACT = {
     'bet365', 'bet', '365', 'ÅBN', 'Ansvarsfuldt spil', 'Sport', 'Live', 'Casino', 'Væddemål',
@@ -16,6 +19,22 @@ NOISE_EXACT = {
     'Indbetalinger Udbetalinger', 'Fodbold', 'Bedste ligaer', 'KOMMENDE KAMPE Se alle'
 }
 BAD_PREFIXES = ('© ', 'Ved at besøge', 'Denne side er beskyttet', 'StopSpillet', 'Du kan ', 'bet365 er ', 'Server Tid', 'Session ')
+
+
+def load_known_layout_hashes():
+    if not KNOWN_LAYOUTS_PATH.exists():
+        return set()
+    try:
+        data = json.loads(KNOWN_LAYOUTS_PATH.read_text(encoding='utf-8'))
+    except Exception:
+        return set()
+    hashes = set()
+    for layout in data.get('layouts') or []:
+        for h in layout.get('layout_hashes') or []:
+            hashes.add(h)
+        if layout.get('layout_hash'):
+            hashes.add(layout.get('layout_hash'))
+    return hashes
 
 
 def is_decimal_odds(x):
@@ -63,7 +82,6 @@ def looks_like_team(x):
 
 
 def infer_league_context(lines, idx):
-    # Conservative local context: nearby line containing common league/country hints.
     nearby = lines[max(0, idx - 12):idx]
     joined = ' '.join(nearby)
     for key in ['Superligaen', 'Premier League', 'Championship', 'Bundesliga', 'Serie A', 'Ligue 1', 'LaLiga', 'Danmark', 'England', 'Tyskland', 'Italien', 'Spanien', 'Frankrig']:
@@ -72,10 +90,23 @@ def infer_league_context(lines, idx):
     return None
 
 
+def status_from_confidence(confidence):
+    mode = (confidence.get('execution_mode') or {}).get('mode')
+    if mode == 'real_candidate':
+        return 'parsed_candidate'
+    if mode == 'paper_or_shadow_only':
+        return 'shadow_only'
+    return 'requires_review'
+
+
 def parse_events_from_extraction(extraction, capture, timezone_name='Europe/Copenhagen'):
     lines = clean_lines(extraction.get('lines') or [])
     observations = []
     parser_errors = []
+    known_hashes = load_known_layout_hashes()
+    layout_hash = (extraction.get('text_extraction') or {}).get('layout_hash')
+    layout_approved = layout_hash in known_hashes
+    extraction_confidence = float((extraction.get('text_extraction') or {}).get('extraction_confidence') or 0)
     i = 0
     while i <= len(lines) - 6:
         home_raw, away_raw, t_raw = lines[i], lines[i + 1], lines[i + 2]
@@ -95,7 +126,16 @@ def parse_events_from_extraction(extraction, capture, timezone_name='Europe/Cope
             away_canon = away_match.get('canonical_name') or away_raw
             odds = [parse_float(o1), parse_float(ox), parse_float(o2)]
             completeness = bool(home_raw and away_raw and t_raw and len(odds) == 3)
-            confidence = calculate_parser_confidence(True, home_match, away_match, odds, event_time, completeness=completeness)
+            confidence = calculate_parser_confidence(
+                True,
+                home_match,
+                away_match,
+                odds,
+                event_time,
+                completeness=completeness,
+                extraction_confidence=extraction_confidence,
+                layout_approved=layout_approved,
+            )
 
             league = league_hint
             evt_id = event_id(home_canon, away_canon, league, event_time.get('utc'))
@@ -104,6 +144,7 @@ def parse_events_from_extraction(extraction, capture, timezone_name='Europe/Cope
                 ('X', 'Draw', odds[1]),
                 ('2', away_canon, odds[2]),
             ]
+            status = status_from_confidence(confidence)
             for line, selection, price in selections:
                 mkt_id = market_id(evt_id, '1X2', line, selection)
                 obs_id = observation_id(mkt_id, capture.get('utc'), extraction.get('source_file'), price)
@@ -136,8 +177,8 @@ def parse_events_from_extraction(extraction, capture, timezone_name='Europe/Cope
                     },
                     'parser_confidence': confidence,
                     'text_extraction': extraction.get('text_extraction'),
-                    'status': 'parsed_candidate' if confidence.get('total', 0) >= 0.90 else 'shadow_only',
-                    'warnings': list(set((event_time.get('warnings') or []) + (extraction.get('text_extraction') or {}).get('warnings', [])))
+                    'status': status,
+                    'warnings': list(set((event_time.get('warnings') or []) + (extraction.get('text_extraction') or {}).get('warnings', []) + ([] if layout_approved else ['unknown_layout_warning'])))
                 })
             i += 6
         else:
