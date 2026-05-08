@@ -1,0 +1,120 @@
+import json
+import pathlib
+from collections import defaultdict
+from tracker import read_tracker
+
+MARKET_STATE_PATH = pathlib.Path('output/latest/market_state.json')
+OUT_PATH = pathlib.Path('output/latest/ai_candidates.json')
+OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+
+MODEL_VERSION = 'phase2_chatgpt_paper_v1'
+
+
+def load_market_state(path=MARKET_STATE_PATH):
+    if not path.exists():
+        return {'markets': []}
+    return json.loads(path.read_text(encoding='utf-8'))
+
+
+def existing_decision_keys(records, model_version=MODEL_VERSION):
+    keys = set()
+    for r in records:
+        if r.get('record_type') != 'decision_record':
+            continue
+        if r.get('model_version') != model_version:
+            continue
+        market_id = r.get('market_id')
+        if market_id:
+            keys.add(market_id)
+    return keys
+
+
+def event_bundle_key(market):
+    event = market.get('event') or {}
+    return market.get('event_id') or f'{event.get("home")} vs {event.get("away")} | {(market.get("event_time") or {}).get("utc")}'
+
+
+def market_is_eligible(market):
+    if not market.get('active'):
+        return False, 'inactive_market'
+    m = market.get('market') or {}
+    if m.get('type') != '1X2':
+        return False, 'unsupported_market_type'
+    pc = market.get('parser_confidence') or {}
+    if not pc.get('real_bet_allowed'):
+        return False, 'real_bet_not_allowed_by_data_integrity'
+    if market.get('latest_dedupe_status') == 'parser_conflict':
+        return False, 'parser_conflict'
+    return True, 'eligible'
+
+
+def compact_candidate(market):
+    event = market.get('event') or {}
+    m = market.get('market') or {}
+    ms = market.get('movement_summary') or {}
+    pc = market.get('parser_confidence') or {}
+    return {
+        'market_id': market.get('market_id'),
+        'event_id': market.get('event_id'),
+        'event_name': f'{event.get("home")} vs {event.get("away")}',
+        'league': event.get('league'),
+        'sport': event.get('sport'),
+        'event_time_utc': (market.get('event_time') or {}).get('utc'),
+        'market_type': m.get('type'),
+        'line': m.get('line'),
+        'selection': m.get('selection'),
+        'odds': m.get('odds'),
+        'first_seen_odds': ms.get('first_seen_odds'),
+        'latest_seen_odds': ms.get('latest_seen_odds'),
+        'movement_from_first': ms.get('movement_from_first'),
+        'change_pct_from_first': ms.get('change_pct_from_first'),
+        'observation_count': ms.get('observation_count'),
+        'non_duplicate_observation_count': ms.get('non_duplicate_observation_count'),
+        'dedupe_counts': ms.get('dedupe_counts'),
+        'parser_confidence_total': pc.get('total'),
+        'parser_confidence_status': pc.get('status'),
+        'hard_gates': pc.get('hard_gates'),
+        'latest_observation_id': market.get('latest_observation_id'),
+    }
+
+
+def prepare_candidates(max_candidates=90, model_version=MODEL_VERSION):
+    state = load_market_state()
+    records = read_tracker()
+    existing = existing_decision_keys(records, model_version)
+    eligible = []
+    skipped = []
+    for market in state.get('markets') or []:
+        ok, reason = market_is_eligible(market)
+        mid = market.get('market_id')
+        if mid in existing:
+            skipped.append({'market_id': mid, 'reason': 'decision_exists_for_model_version'})
+            continue
+        if not ok:
+            skipped.append({'market_id': mid, 'reason': reason})
+            continue
+        eligible.append(compact_candidate(market))
+
+    # Keep complete event groups as much as possible, then cap.
+    grouped = defaultdict(list)
+    for c in eligible:
+        grouped[c['event_id']].append(c)
+    ordered = []
+    for event_id in sorted(grouped.keys(), key=lambda eid: min(x.get('event_time_utc') or '' for x in grouped[eid])):
+        ordered.extend(sorted(grouped[event_id], key=lambda x: str(x.get('line'))))
+    selected = ordered[:max_candidates]
+    payload = {
+        'model_version': model_version,
+        'mode': 'paper_only',
+        'candidate_count': len(selected),
+        'skipped_count': len(skipped),
+        'candidates': selected,
+        'skipped': skipped[:200]
+    }
+    OUT_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding='utf-8')
+    return payload
+
+
+if __name__ == '__main__':
+    p = prepare_candidates()
+    print(f'Prepared AI candidates: {p["candidate_count"]} | skipped={p["skipped_count"]}')
