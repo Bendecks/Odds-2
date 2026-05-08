@@ -1,7 +1,9 @@
 {
-  "generated_at": "2026-05-08T20:32:29Z",
+  "generated_at": "2026-05-08T20:41:16Z",
   "research_version": "phase2_1_gemini_research_v1",
   "max_research_calls": 5,
+  "simulate_research_trigger": false,
+  "simulate_research_write_record": false,
   "candidate_count": 0,
   "all_triggered_count": 0,
   "skipped_count": 90,
