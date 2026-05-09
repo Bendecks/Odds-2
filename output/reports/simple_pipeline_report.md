@@ -1,6 +1,6 @@
 # Odds 2 — Simple Gemini Pipeline
 
-Generated: 2026-05-09T17:14:44Z
+Generated: 2026-05-09T17:39:18Z
 - Analysis version: simple_decision_v5_deduped_source_audit
 - Files processed: 5
 - Raw matches: 5
@@ -13,7 +13,7 @@ Generated: 2026-05-09T17:14:44Z
 - PAPER_BET logged: 0
 - Blocked decisions: 0
 - Passes returned: 0
-- Decision error: `{'code': 'gemini_decision_exception', 'response_text': "Expecting ',' delimiter: line 61 column 4 (char 3111)"}`
+- Decision error: `{'code': 'gemini_decision_exception', 'response_text': 'Unterminated string starting at: line 20 column 20 (char 964)'}`
 - Grounding sources: 0
 
 No PAPER_BET passed safety gates.

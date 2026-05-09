@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-09T17:14:44Z",
+  "generated_at": "2026-05-09T17:39:18Z",
   "pipeline": "gemini_simple_pipeline_v5_deduped_source_audit",
   "files_processed": 5,
   "raw_match_count": 5,
@@ -10,7 +10,7 @@
   "rejected_match_count": 0,
   "decision_error": {
     "code": "gemini_decision_exception",
-    "response_text": "Expecting ',' delimiter: line 61 column 4 (char 3111)"
+    "response_text": "Unterminated string starting at: line 20 column 20 (char 964)"
   },
   "decision_record_count": 0,
   "paper_bet_count": 0,
@@ -22,14 +22,14 @@
   "decision_response_debug": {},
   "duplicate_matches": [],
   "parser_payload": {
-    "generated_at": "2026-05-09T17:13:13Z",
+    "generated_at": "2026-05-09T17:38:07Z",
     "parser_source": "gemini_pdf_vision",
     "files_processed": 5,
     "files": [
       {
         "source_file": "inbox/possible_bets/20260509-185831_possible_bets_2101.pdf",
         "file_id": "a8a068824767b295",
-        "error": "Expecting ',' delimiter: line 268 column 6 (char 6988)",
+        "error": "Expecting ',' delimiter: line 16 column 6 (char 457)",
         "matches": []
       },
       {
@@ -37,7 +37,7 @@
         "timezone_assumed": "Europe/Copenhagen",
         "matches": [],
         "parser_warnings": [
-          "No football 1X2 match odds were found. All visible markets were identified as basketball."
+          "No football 1X2 match odds were found in the provided document. All visible matches are for Basketball."
         ],
         "file_id": "e8ca6576c0beaf4e",
         "parser_source": "gemini_pdf_vision"
@@ -47,7 +47,7 @@
         "timezone_assumed": "Europe/Copenhagen",
         "matches": [],
         "parser_warnings": [
-          "No football 1X2 match odds were found in the provided document. All listed matches appear to be tennis."
+          "No football 1X2 match odds were found. All visible matches were identified as tennis, which do not have 'X' (draw) odds."
         ],
         "file_id": "fc8664e6446fad1e",
         "parser_source": "gemini_pdf_vision"
@@ -124,7 +124,7 @@
       {
         "source_file": "inbox/possible_bets/20260509-185826_possible_bets_2990.pdf",
         "file_id": "f5b7fe16386b95b7",
-        "error": "Expecting ',' delimiter: line 28 column 6 (char 710)",
+        "error": "Expecting ',' delimiter: line 28 column 6 (char 713)",
         "matches": []
       }
     ],
