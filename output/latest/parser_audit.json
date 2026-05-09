@@ -1,0 +1,856 @@
+{
+  "generated_at": "2026-05-09T08:41:20Z",
+  "audit_version": "parser_audit_v1_1x2_mapping",
+  "events_checked": 59,
+  "events_flagged": 25,
+  "flagged_market_count": 75,
+  "flag_counts": {
+    "underround_below_1_00": 13,
+    "overround_above_1_16": 10,
+    "draw_odds_implausibly_low": 7,
+    "draw_much_shorter_than_both_sides": 8,
+    "draw_shortest_with_high_overround": 6,
+    "overround_high_1_12_plus": 1
+  },
+  "flagged_market_ids": [
+    "mkt_041fd910da7b6ec7",
+    "mkt_0682001891762cad",
+    "mkt_0eeb1a84230a19d7",
+    "mkt_0f4838a72e85df8f",
+    "mkt_135e9ae2956f3a08",
+    "mkt_161aefb5d9e425e4",
+    "mkt_17fbb654dba88e39",
+    "mkt_23e6004abdae613e",
+    "mkt_27f1459d60c4255d",
+    "mkt_29dd38bf6d7c31dc",
+    "mkt_2b162ec6d12111ec",
+    "mkt_312469e16f2d8874",
+    "mkt_38855f05ad8a92e8",
+    "mkt_39889030d295bce5",
+    "mkt_3a318cdc7080cfac",
+    "mkt_3bf7cd5b1b9a191e",
+    "mkt_40995ee3d48b6385",
+    "mkt_41973a7a953c14be",
+    "mkt_4617a33f3b0f5221",
+    "mkt_4fd679d8b241ae48",
+    "mkt_51bf7a785d85c726",
+    "mkt_53afd8c86e261b50",
+    "mkt_54e1bab24ec13e93",
+    "mkt_55048c7378a5db08",
+    "mkt_55f55aa2abeb96dc",
+    "mkt_580a38f7509459d3",
+    "mkt_5847d1100ba9a0c1",
+    "mkt_5bbbe98b89447623",
+    "mkt_5c4fa045c9b3ff70",
+    "mkt_5d26fc97661f8605",
+    "mkt_5fc08e05ee72e6cf",
+    "mkt_62377518745d12e3",
+    "mkt_632ba25378a34048",
+    "mkt_645626645419a65e",
+    "mkt_6f15a566e199d74a",
+    "mkt_76b28eda90e289b5",
+    "mkt_7938960f59abc3c0",
+    "mkt_7a66d7931b83e1b5",
+    "mkt_7abf5cd6a3da2174",
+    "mkt_7c55dd23577b7cff",
+    "mkt_7dd448182404f8a9",
+    "mkt_8233fea6583a651f",
+    "mkt_823f8e0cc79ab521",
+    "mkt_866233ce90a059b8",
+    "mkt_88d6f690f4a4b9d0",
+    "mkt_8da70b522478afb4",
+    "mkt_9b38da1a2bc66c5a",
+    "mkt_a024751c55ab1821",
+    "mkt_a1c64b2ab31bffd4",
+    "mkt_a25300f45b6c0017",
+    "mkt_a28fdb46dc224345",
+    "mkt_a80c770c32760698",
+    "mkt_abd313bb37ae2db8",
+    "mkt_ac530b8426f648ed",
+    "mkt_ac974cce20941213",
+    "mkt_afbbf74a8af5df48",
+    "mkt_b2614a15614e80f4",
+    "mkt_b3fa94e1b65eae23",
+    "mkt_b584d15635fb9035",
+    "mkt_c0353c1c0e496138",
+    "mkt_c74529d4cd86adfd",
+    "mkt_ceab6228c31309f5",
+    "mkt_d4c65e803797f236",
+    "mkt_dc910e787060a38d",
+    "mkt_dd8e427e8da1dda7",
+    "mkt_e26a820ba99d7468",
+    "mkt_e3c289f03e93a4a2",
+    "mkt_e797c3a86aeca024",
+    "mkt_e9105dc687d22a72",
+    "mkt_f25d85ff7f66932a",
+    "mkt_f322824db09b4c4c",
+    "mkt_f58c12cd8259990b",
+    "mkt_f985e99ba6e7a8be",
+    "mkt_fde0a3e07461da61",
+    "mkt_fe4681ceaa94b6a2"
+  ],
+  "events": [
+    {
+      "event_id": "evt_b9152cd6996dfcd1",
+      "event_name": "Randers FC vs OB",
+      "event_time_utc": "2026-05-09T17:00:00Z",
+      "source_file": "inbox/possible_bets/20260509-075325_possible_bets_1486.pdf",
+      "severity": "fail",
+      "odds": {
+        "1": 2.87,
+        "2": 3.9,
+        "X": 3.2
+      },
+      "flags": [
+        {
+          "severity": "fail",
+          "code": "underround_below_1_00",
+          "detail": 0.9173
+        }
+      ],
+      "market_ids": [
+        "mkt_f25d85ff7f66932a",
+        "mkt_4617a33f3b0f5221",
+        "mkt_9b38da1a2bc66c5a"
+      ]
+    },
+    {
+      "event_id": "evt_75c9d43716745142",
+      "event_name": "Arsenal vs Burnley",
+      "event_time_utc": "2026-05-09T19:00:00Z",
+      "source_file": "inbox/possible_bets/20260509-073218_possible_bets_4032.pdf",
+      "severity": "fail",
+      "odds": {
+        "1": 1.95,
+        "2": 2.5,
+        "X": 1.25
+      },
+      "flags": [
+        {
+          "severity": "fail",
+          "code": "overround_above_1_16",
+          "detail": 1.7128
+        },
+        {
+          "severity": "fail",
+          "code": "draw_odds_implausibly_low",
+          "detail": 1.25
+        },
+        {
+          "severity": "fail",
+          "code": "draw_much_shorter_than_both_sides",
+          "detail": {
+            "home": 1.95,
+            "draw": 1.25,
+            "away": 2.5
+          }
+        },
+        {
+          "severity": "warn",
+          "code": "draw_shortest_with_high_overround",
+          "detail": {
+            "overround": 1.7128,
+            "home": 1.95,
+            "draw": 1.25,
+            "away": 2.5
+          }
+        }
+      ],
+      "market_ids": [
+        "mkt_3a318cdc7080cfac",
+        "mkt_39889030d295bce5",
+        "mkt_5d26fc97661f8605"
+      ]
+    },
+    {
+      "event_id": "evt_df732b4d19d65391",
+      "event_name": "Liverpool vs Chelsea",
+      "event_time_utc": "2026-05-11T11:30:00Z",
+      "source_file": "inbox/possible_bets/20260509-073218_possible_bets_4032.pdf",
+      "severity": "fail",
+      "odds": {
+        "1": 1.95,
+        "2": 2.5,
+        "X": 1.25
+      },
+      "flags": [
+        {
+          "severity": "fail",
+          "code": "overround_above_1_16",
+          "detail": 1.7128
+        },
+        {
+          "severity": "fail",
+          "code": "draw_odds_implausibly_low",
+          "detail": 1.25
+        },
+        {
+          "severity": "fail",
+          "code": "draw_much_shorter_than_both_sides",
+          "detail": {
+            "home": 1.95,
+            "draw": 1.25,
+            "away": 2.5
+          }
+        },
+        {
+          "severity": "warn",
+          "code": "draw_shortest_with_high_overround",
+          "detail": {
+            "overround": 1.7128,
+            "home": 1.95,
+            "draw": 1.25,
+            "away": 2.5
+          }
+        }
+      ],
+      "market_ids": [
+        "mkt_b3fa94e1b65eae23",
+        "mkt_7dd448182404f8a9",
+        "mkt_ac974cce20941213"
+      ]
+    },
+    {
+      "event_id": "evt_91ff992feb1893d9",
+      "event_name": "Manchester United vs Nottm Forest",
+      "event_time_utc": "2026-05-11T11:30:00Z",
+      "source_file": "inbox/possible_bets/20260509-073218_possible_bets_4032.pdf",
+      "severity": "fail",
+      "odds": {
+        "1": 3.75,
+        "2": 3.6,
+        "X": 10.0
+      },
+      "flags": [
+        {
+          "severity": "fail",
+          "code": "underround_below_1_00",
+          "detail": 0.6444
+        }
+      ],
+      "market_ids": [
+        "mkt_b2614a15614e80f4",
+        "mkt_f322824db09b4c4c",
+        "mkt_27f1459d60c4255d"
+      ]
+    },
+    {
+      "event_id": "evt_ccaebf360d11d5d4",
+      "event_name": "FC Nordsjælland vs FC Midtjylland",
+      "event_time_utc": "2026-05-11T12:00:00Z",
+      "source_file": "inbox/possible_bets/20260509-075325_possible_bets_1486.pdf",
+      "severity": "fail",
+      "odds": {
+        "1": 2.87,
+        "2": 3.9,
+        "X": 3.2
+      },
+      "flags": [
+        {
+          "severity": "fail",
+          "code": "underround_below_1_00",
+          "detail": 0.9173
+        }
+      ],
+      "market_ids": [
+        "mkt_b584d15635fb9035",
+        "mkt_e797c3a86aeca024",
+        "mkt_4fd679d8b241ae48"
+      ]
+    },
+    {
+      "event_id": "evt_ab02c4a1ae21d5da",
+      "event_name": "Vejle vs FC Fredericia",
+      "event_time_utc": "2026-05-11T12:00:00Z",
+      "source_file": "inbox/possible_bets/20260509-075325_possible_bets_1486.pdf",
+      "severity": "fail",
+      "odds": {
+        "1": 2.87,
+        "2": 3.8,
+        "X": 2.2
+      },
+      "flags": [
+        {
+          "severity": "fail",
+          "code": "draw_much_shorter_than_both_sides",
+          "detail": {
+            "home": 2.87,
+            "draw": 2.2,
+            "away": 3.8
+          }
+        }
+      ],
+      "market_ids": [
+        "mkt_5bbbe98b89447623",
+        "mkt_580a38f7509459d3",
+        "mkt_41973a7a953c14be"
+      ]
+    },
+    {
+      "event_id": "evt_2cd878b375945e81",
+      "event_name": "Crystal Palace vs Everton",
+      "event_time_utc": "2026-05-11T13:00:00Z",
+      "source_file": "inbox/possible_bets/20260509-073218_possible_bets_4032.pdf",
+      "severity": "fail",
+      "odds": {
+        "1": 1.11,
+        "2": 6.5,
+        "X": 3.75
+      },
+      "flags": [
+        {
+          "severity": "fail",
+          "code": "overround_above_1_16",
+          "detail": 1.3214
+        }
+      ],
+      "market_ids": [
+        "mkt_0682001891762cad",
+        "mkt_51bf7a785d85c726",
+        "mkt_17fbb654dba88e39"
+      ]
+    },
+    {
+      "event_id": "evt_ca35b9866ea9d4e2",
+      "event_name": "Nottm Forest vs Newcastle",
+      "event_time_utc": "2026-05-11T13:00:00Z",
+      "source_file": "inbox/possible_bets/20260509-073218_possible_bets_4032.pdf",
+      "severity": "fail",
+      "odds": {
+        "1": 3.3,
+        "2": 5.25,
+        "X": 3.7
+      },
+      "flags": [
+        {
+          "severity": "fail",
+          "code": "underround_below_1_00",
+          "detail": 0.7638
+        }
+      ],
+      "market_ids": [
+        "mkt_a80c770c32760698",
+        "mkt_23e6004abdae613e",
+        "mkt_7938960f59abc3c0"
+      ]
+    },
+    {
+      "event_id": "evt_f17e388bc9c8ac9c",
+      "event_name": "Brighton vs Wolverhampton",
+      "event_time_utc": "2026-05-11T14:00:00Z",
+      "source_file": "inbox/possible_bets/20260509-073218_possible_bets_4032.pdf",
+      "severity": "fail",
+      "odds": {
+        "1": 3.6,
+        "2": 4.75,
+        "X": 1.33
+      },
+      "flags": [
+        {
+          "severity": "fail",
+          "code": "overround_above_1_16",
+          "detail": 1.2402
+        },
+        {
+          "severity": "fail",
+          "code": "draw_odds_implausibly_low",
+          "detail": 1.33
+        },
+        {
+          "severity": "fail",
+          "code": "draw_much_shorter_than_both_sides",
+          "detail": {
+            "home": 3.6,
+            "draw": 1.33,
+            "away": 4.75
+          }
+        },
+        {
+          "severity": "warn",
+          "code": "draw_shortest_with_high_overround",
+          "detail": {
+            "overround": 1.2402,
+            "home": 3.6,
+            "draw": 1.33,
+            "away": 4.75
+          }
+        }
+      ],
+      "market_ids": [
+        "mkt_a024751c55ab1821",
+        "mkt_645626645419a65e",
+        "mkt_0eeb1a84230a19d7"
+      ]
+    },
+    {
+      "event_id": "evt_045aea4a821e9f77",
+      "event_name": "Everton vs Sunderland",
+      "event_time_utc": "2026-05-11T14:00:00Z",
+      "source_file": "inbox/possible_bets/20260509-073218_possible_bets_4032.pdf",
+      "severity": "fail",
+      "odds": {
+        "1": 5.5,
+        "2": 2.6,
+        "X": 1.61
+      },
+      "flags": [
+        {
+          "severity": "fail",
+          "code": "overround_above_1_16",
+          "detail": 1.1876
+        },
+        {
+          "severity": "fail",
+          "code": "draw_odds_implausibly_low",
+          "detail": 1.61
+        },
+        {
+          "severity": "fail",
+          "code": "draw_much_shorter_than_both_sides",
+          "detail": {
+            "home": 5.5,
+            "draw": 1.61,
+            "away": 2.6
+          }
+        },
+        {
+          "severity": "warn",
+          "code": "draw_shortest_with_high_overround",
+          "detail": {
+            "overround": 1.1876,
+            "home": 5.5,
+            "draw": 1.61,
+            "away": 2.6
+          }
+        }
+      ],
+      "market_ids": [
+        "mkt_62377518745d12e3",
+        "mkt_29dd38bf6d7c31dc",
+        "mkt_5c4fa045c9b3ff70"
+      ]
+    },
+    {
+      "event_id": "evt_95e3473d1884168f",
+      "event_name": "Fulham vs Bournemouth",
+      "event_time_utc": "2026-05-11T14:00:00Z",
+      "source_file": "inbox/possible_bets/20260509-073218_possible_bets_4032.pdf",
+      "severity": "fail",
+      "odds": {
+        "1": 2.8,
+        "2": 5.25,
+        "X": 2.7
+      },
+      "flags": [
+        {
+          "severity": "fail",
+          "code": "underround_below_1_00",
+          "detail": 0.918
+        }
+      ],
+      "market_ids": [
+        "mkt_55f55aa2abeb96dc",
+        "mkt_6f15a566e199d74a",
+        "mkt_7abf5cd6a3da2174"
+      ]
+    },
+    {
+      "event_id": "evt_fedb6825f6f907f3",
+      "event_name": "Leeds vs Brighton",
+      "event_time_utc": "2026-05-11T14:00:00Z",
+      "source_file": "inbox/possible_bets/20260509-073218_possible_bets_4032.pdf",
+      "severity": "fail",
+      "odds": {
+        "1": 2.45,
+        "2": 3.7,
+        "X": 1.6
+      },
+      "flags": [
+        {
+          "severity": "fail",
+          "code": "overround_above_1_16",
+          "detail": 1.3034
+        },
+        {
+          "severity": "fail",
+          "code": "draw_odds_implausibly_low",
+          "detail": 1.6
+        },
+        {
+          "severity": "fail",
+          "code": "draw_much_shorter_than_both_sides",
+          "detail": {
+            "home": 2.45,
+            "draw": 1.6,
+            "away": 3.7
+          }
+        },
+        {
+          "severity": "warn",
+          "code": "draw_shortest_with_high_overround",
+          "detail": {
+            "overround": 1.3034,
+            "home": 2.45,
+            "draw": 1.6,
+            "away": 3.7
+          }
+        }
+      ],
+      "market_ids": [
+        "mkt_a25300f45b6c0017",
+        "mkt_0f4838a72e85df8f",
+        "mkt_dd8e427e8da1dda7"
+      ]
+    },
+    {
+      "event_id": "evt_eae7e16c2a816f01",
+      "event_name": "Silkeborg IF vs FC København",
+      "event_time_utc": "2026-05-11T14:00:00Z",
+      "source_file": "inbox/possible_bets/20260509-075325_possible_bets_1486.pdf",
+      "severity": "fail",
+      "odds": {
+        "1": 3.5,
+        "2": 3.6,
+        "X": 3.9
+      },
+      "flags": [
+        {
+          "severity": "fail",
+          "code": "underround_below_1_00",
+          "detail": 0.8199
+        }
+      ],
+      "market_ids": [
+        "mkt_5fc08e05ee72e6cf",
+        "mkt_e26a820ba99d7468",
+        "mkt_d4c65e803797f236"
+      ]
+    },
+    {
+      "event_id": "evt_71aa725ab430bc1c",
+      "event_name": "Sunderland vs Manchester United",
+      "event_time_utc": "2026-05-11T14:00:00Z",
+      "source_file": "inbox/possible_bets/20260509-073218_possible_bets_4032.pdf",
+      "severity": "fail",
+      "odds": {
+        "1": 1.85,
+        "2": 3.6,
+        "X": 1.27
+      },
+      "flags": [
+        {
+          "severity": "fail",
+          "code": "overround_above_1_16",
+          "detail": 1.6057
+        },
+        {
+          "severity": "fail",
+          "code": "draw_odds_implausibly_low",
+          "detail": 1.27
+        },
+        {
+          "severity": "fail",
+          "code": "draw_much_shorter_than_both_sides",
+          "detail": {
+            "home": 1.85,
+            "draw": 1.27,
+            "away": 3.6
+          }
+        },
+        {
+          "severity": "warn",
+          "code": "draw_shortest_with_high_overround",
+          "detail": {
+            "overround": 1.6057,
+            "home": 1.85,
+            "draw": 1.27,
+            "away": 3.6
+          }
+        }
+      ],
+      "market_ids": [
+        "mkt_40995ee3d48b6385",
+        "mkt_e3c289f03e93a4a2",
+        "mkt_e9105dc687d22a72"
+      ]
+    },
+    {
+      "event_id": "evt_9080a378501ede0d",
+      "event_name": "Wolverhampton vs Fulham",
+      "event_time_utc": "2026-05-11T14:00:00Z",
+      "source_file": "inbox/possible_bets/20260509-073218_possible_bets_4032.pdf",
+      "severity": "fail",
+      "odds": {
+        "1": 9.5,
+        "2": 5.25,
+        "X": 1.83
+      },
+      "flags": [
+        {
+          "severity": "fail",
+          "code": "underround_below_1_00",
+          "detail": 0.8422
+        },
+        {
+          "severity": "fail",
+          "code": "draw_much_shorter_than_both_sides",
+          "detail": {
+            "home": 9.5,
+            "draw": 1.83,
+            "away": 5.25
+          }
+        }
+      ],
+      "market_ids": [
+        "mkt_c74529d4cd86adfd",
+        "mkt_135e9ae2956f3a08",
+        "mkt_a1c64b2ab31bffd4"
+      ]
+    },
+    {
+      "event_id": "evt_d06c3c2e94fe7e20",
+      "event_name": "West Ham vs Arsenal",
+      "event_time_utc": "2026-05-11T15:30:00Z",
+      "source_file": "inbox/possible_bets/20260509-073218_possible_bets_4032.pdf",
+      "severity": "fail",
+      "odds": {
+        "1": 4.33,
+        "2": 3.6,
+        "X": 3.3
+      },
+      "flags": [
+        {
+          "severity": "fail",
+          "code": "underround_below_1_00",
+          "detail": 0.8118
+        }
+      ],
+      "market_ids": [
+        "mkt_38855f05ad8a92e8",
+        "mkt_8da70b522478afb4",
+        "mkt_53afd8c86e261b50"
+      ]
+    },
+    {
+      "event_id": "evt_30b125eb17585338",
+      "event_name": "Brøndby vs AGF",
+      "event_time_utc": "2026-05-11T16:00:00Z",
+      "source_file": "inbox/possible_bets/20260509-075325_possible_bets_1486.pdf",
+      "severity": "fail",
+      "odds": {
+        "1": 3.5,
+        "2": 2.15,
+        "X": 2.2
+      },
+      "flags": [
+        {
+          "severity": "fail",
+          "code": "overround_above_1_16",
+          "detail": 1.2054
+        }
+      ],
+      "market_ids": [
+        "mkt_5847d1100ba9a0c1",
+        "mkt_fde0a3e07461da61",
+        "mkt_a28fdb46dc224345"
+      ]
+    },
+    {
+      "event_id": "evt_eb687c21ff8af1e7",
+      "event_name": "Manchester City vs Brentford",
+      "event_time_utc": "2026-05-11T16:30:00Z",
+      "source_file": "inbox/possible_bets/20260509-073218_possible_bets_4032.pdf",
+      "severity": "fail",
+      "odds": {
+        "1": 1.6,
+        "2": 1.72,
+        "X": 1.66
+      },
+      "flags": [
+        {
+          "severity": "fail",
+          "code": "overround_above_1_16",
+          "detail": 1.8088
+        },
+        {
+          "severity": "fail",
+          "code": "draw_odds_implausibly_low",
+          "detail": 1.66
+        }
+      ],
+      "market_ids": [
+        "mkt_afbbf74a8af5df48",
+        "mkt_823f8e0cc79ab521",
+        "mkt_161aefb5d9e425e4"
+      ]
+    },
+    {
+      "event_id": "evt_c47dab316b26b868",
+      "event_name": "Newcastle vs West Ham",
+      "event_time_utc": "2026-05-11T16:30:00Z",
+      "source_file": "inbox/possible_bets/20260509-073218_possible_bets_4032.pdf",
+      "severity": "fail",
+      "odds": {
+        "1": 4.75,
+        "2": 2.25,
+        "X": 4.5
+      },
+      "flags": [
+        {
+          "severity": "fail",
+          "code": "underround_below_1_00",
+          "detail": 0.8772
+        }
+      ],
+      "market_ids": [
+        "mkt_c0353c1c0e496138",
+        "mkt_fe4681ceaa94b6a2",
+        "mkt_866233ce90a059b8"
+      ]
+    },
+    {
+      "event_id": "evt_d3155613b3f8dbe2",
+      "event_name": "Randers FC vs OB",
+      "event_time_utc": "2026-05-11T17:00:00Z",
+      "source_file": "inbox/possible_bets/20260509-075325_possible_bets_1486.pdf",
+      "severity": "fail",
+      "odds": {
+        "1": 1.8,
+        "2": 3.1,
+        "X": 2.3
+      },
+      "flags": [
+        {
+          "severity": "fail",
+          "code": "overround_above_1_16",
+          "detail": 1.3129
+        }
+      ],
+      "market_ids": [
+        "mkt_ac530b8426f648ed",
+        "mkt_54e1bab24ec13e93",
+        "mkt_ceab6228c31309f5"
+      ]
+    },
+    {
+      "event_id": "evt_5ae59de5ae7e6caf",
+      "event_name": "Arsenal vs Burnley",
+      "event_time_utc": "2026-05-11T19:00:00Z",
+      "source_file": "inbox/possible_bets/20260509-073218_possible_bets_4032.pdf",
+      "severity": "fail",
+      "odds": {
+        "1": 1.95,
+        "2": 15.0,
+        "X": 3.4
+      },
+      "flags": [
+        {
+          "severity": "fail",
+          "code": "underround_below_1_00",
+          "detail": 0.8736
+        }
+      ],
+      "market_ids": [
+        "mkt_632ba25378a34048",
+        "mkt_f58c12cd8259990b",
+        "mkt_3bf7cd5b1b9a191e"
+      ]
+    },
+    {
+      "event_id": "evt_7e67787aa38672f3",
+      "event_name": "Aston Villa vs Liverpool",
+      "event_time_utc": "2026-05-11T19:00:00Z",
+      "source_file": "inbox/possible_bets/20260509-073218_possible_bets_4032.pdf",
+      "severity": "fail",
+      "odds": {
+        "1": 3.75,
+        "2": 3.6,
+        "X": 3.6
+      },
+      "flags": [
+        {
+          "severity": "fail",
+          "code": "underround_below_1_00",
+          "detail": 0.8222
+        }
+      ],
+      "market_ids": [
+        "mkt_8233fea6583a651f",
+        "mkt_2b162ec6d12111ec",
+        "mkt_041fd910da7b6ec7"
+      ]
+    },
+    {
+      "event_id": "evt_3e91791fddab5974",
+      "event_name": "Manchester City vs Crystal Palace",
+      "event_time_utc": "2026-05-11T19:00:00Z",
+      "source_file": "inbox/possible_bets/20260509-073218_possible_bets_4032.pdf",
+      "severity": "fail",
+      "odds": {
+        "1": 4.0,
+        "2": 3.9,
+        "X": 4.0
+      },
+      "flags": [
+        {
+          "severity": "fail",
+          "code": "underround_below_1_00",
+          "detail": 0.7564
+        }
+      ],
+      "market_ids": [
+        "mkt_88d6f690f4a4b9d0",
+        "mkt_dc910e787060a38d",
+        "mkt_f985e99ba6e7a8be"
+      ]
+    },
+    {
+      "event_id": "evt_83e2d1426758ce93",
+      "event_name": "Tottenham vs Leeds",
+      "event_time_utc": "2026-05-11T19:00:00Z",
+      "source_file": "inbox/possible_bets/20260509-073218_possible_bets_4032.pdf",
+      "severity": "fail",
+      "odds": {
+        "1": 4.1,
+        "2": 6.0,
+        "X": 4.1
+      },
+      "flags": [
+        {
+          "severity": "fail",
+          "code": "underround_below_1_00",
+          "detail": 0.6545
+        }
+      ],
+      "market_ids": [
+        "mkt_76b28eda90e289b5",
+        "mkt_55048c7378a5db08",
+        "mkt_abd313bb37ae2db8"
+      ]
+    },
+    {
+      "event_id": "evt_59721c55b26c32da",
+      "event_name": "Burnley vs Aston Villa",
+      "event_time_utc": "2026-05-11T13:00:00Z",
+      "source_file": "inbox/possible_bets/20260509-073218_possible_bets_4032.pdf",
+      "severity": "warn",
+      "odds": {
+        "1": 2.9,
+        "2": 2.0,
+        "X": 3.6
+      },
+      "flags": [
+        {
+          "severity": "warn",
+          "code": "overround_high_1_12_plus",
+          "detail": 1.1226
+        }
+      ],
+      "market_ids": [
+        "mkt_7a66d7931b83e1b5",
+        "mkt_312469e16f2d8874",
+        "mkt_7c55dd23577b7cff"
+      ]
+    }
+  ]
+}

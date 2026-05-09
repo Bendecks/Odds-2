@@ -1,97 +1,18 @@
 {
-  "generated_at": "2026-05-09T08:04:09Z",
+  "generated_at": "2026-05-09T08:41:21Z",
   "monitor_version": "market_monitor_v1_consensus",
-  "monitor_window_hours": 168.0,
+  "monitor_window_hours": 87600.0,
   "refresh_hours": 2.0,
-  "candidate_count": 5,
-  "all_triggered_count": 12,
-  "skipped_count": 165,
+  "parser_audit_flagged_market_count": 75,
+  "candidate_count": 0,
+  "all_triggered_count": 0,
+  "skipped_count": 177,
   "skip_reason_counts": {
     "event_expired": 99,
-    "data_integrity_not_real_candidate": 66
+    "parser_audit_flagged_market": 75,
+    "data_integrity_not_real_candidate": 3
   },
-  "candidates": [
-    {
-      "market_id": "mkt_41973a7a953c14be",
-      "event_id": "evt_ab02c4a1ae21d5da",
-      "event_name": "Vejle vs FC Fredericia",
-      "home": "Vejle",
-      "away": "FC Fredericia",
-      "league": "unknown",
-      "event_time_utc": "2026-05-11T12:00:00Z",
-      "hours_until_event": 51.93081953083333,
-      "market_type": "1X2",
-      "line": "X",
-      "selection": "Draw",
-      "bet365_odds": 2.2,
-      "monitor_reason": "fresh_consensus_check",
-      "priority_score": 48.06918046916667
-    },
-    {
-      "market_id": "mkt_580a38f7509459d3",
-      "event_id": "evt_ab02c4a1ae21d5da",
-      "event_name": "Vejle vs FC Fredericia",
-      "home": "Vejle",
-      "away": "FC Fredericia",
-      "league": "unknown",
-      "event_time_utc": "2026-05-11T12:00:00Z",
-      "hours_until_event": 51.9308195325,
-      "market_type": "1X2",
-      "line": "2",
-      "selection": "FC Fredericia",
-      "bet365_odds": 3.8,
-      "monitor_reason": "fresh_consensus_check",
-      "priority_score": 48.0691804675
-    },
-    {
-      "market_id": "mkt_5bbbe98b89447623",
-      "event_id": "evt_ab02c4a1ae21d5da",
-      "event_name": "Vejle vs FC Fredericia",
-      "home": "Vejle",
-      "away": "FC Fredericia",
-      "league": "unknown",
-      "event_time_utc": "2026-05-11T12:00:00Z",
-      "hours_until_event": 51.930819535,
-      "market_type": "1X2",
-      "line": "1",
-      "selection": "Vejle",
-      "bet365_odds": 2.87,
-      "monitor_reason": "fresh_consensus_check",
-      "priority_score": 48.069180465
-    },
-    {
-      "market_id": "mkt_0eeb1a84230a19d7",
-      "event_id": "evt_f17e388bc9c8ac9c",
-      "event_name": "Brighton vs Wolverhampton",
-      "home": "Brighton",
-      "away": "Wolverhampton",
-      "league": "unknown",
-      "event_time_utc": "2026-05-11T14:00:00Z",
-      "hours_until_event": 53.93081952361111,
-      "market_type": "1X2",
-      "line": "X",
-      "selection": "Draw",
-      "bet365_odds": 1.33,
-      "monitor_reason": "fresh_consensus_check",
-      "priority_score": 46.06918047638889
-    },
-    {
-      "market_id": "mkt_645626645419a65e",
-      "event_id": "evt_f17e388bc9c8ac9c",
-      "event_name": "Brighton vs Wolverhampton",
-      "home": "Brighton",
-      "away": "Wolverhampton",
-      "league": "unknown",
-      "event_time_utc": "2026-05-11T14:00:00Z",
-      "hours_until_event": 53.93081952527778,
-      "market_type": "1X2",
-      "line": "2",
-      "selection": "Wolverhampton",
-      "bet365_odds": 4.75,
-      "monitor_reason": "fresh_consensus_check",
-      "priority_score": 46.06918047472222
-    }
-  ],
+  "candidates": [],
   "skipped": [
     {
       "market_id": "mkt_08557185d52a1c17",
@@ -491,99 +412,111 @@
     },
     {
       "market_id": "mkt_f25d85ff7f66932a",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_4617a33f3b0f5221",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_9b38da1a2bc66c5a",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_3a318cdc7080cfac",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_39889030d295bce5",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_5d26fc97661f8605",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_b3fa94e1b65eae23",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_7dd448182404f8a9",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_ac974cce20941213",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_b2614a15614e80f4",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_f322824db09b4c4c",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_27f1459d60c4255d",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_b584d15635fb9035",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_e797c3a86aeca024",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_4fd679d8b241ae48",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
+    },
+    {
+      "market_id": "mkt_5bbbe98b89447623",
+      "reason": "parser_audit_flagged_market"
+    },
+    {
+      "market_id": "mkt_580a38f7509459d3",
+      "reason": "parser_audit_flagged_market"
+    },
+    {
+      "market_id": "mkt_41973a7a953c14be",
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_7a66d7931b83e1b5",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_312469e16f2d8874",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_7c55dd23577b7cff",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_0682001891762cad",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_51bf7a785d85c726",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_17fbb654dba88e39",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_a80c770c32760698",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_23e6004abdae613e",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_7938960f59abc3c0",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_baabb644a7d23c37",
@@ -598,160 +531,196 @@
       "reason": "data_integrity_not_real_candidate"
     },
     {
+      "market_id": "mkt_a024751c55ab1821",
+      "reason": "parser_audit_flagged_market"
+    },
+    {
+      "market_id": "mkt_645626645419a65e",
+      "reason": "parser_audit_flagged_market"
+    },
+    {
+      "market_id": "mkt_0eeb1a84230a19d7",
+      "reason": "parser_audit_flagged_market"
+    },
+    {
       "market_id": "mkt_62377518745d12e3",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_29dd38bf6d7c31dc",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_5c4fa045c9b3ff70",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_55f55aa2abeb96dc",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_6f15a566e199d74a",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_7abf5cd6a3da2174",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_a25300f45b6c0017",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_0f4838a72e85df8f",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_dd8e427e8da1dda7",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_5fc08e05ee72e6cf",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_e26a820ba99d7468",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_d4c65e803797f236",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_40995ee3d48b6385",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_e3c289f03e93a4a2",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_e9105dc687d22a72",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_c74529d4cd86adfd",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_135e9ae2956f3a08",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_a1c64b2ab31bffd4",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_38855f05ad8a92e8",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_8da70b522478afb4",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_53afd8c86e261b50",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
+    },
+    {
+      "market_id": "mkt_5847d1100ba9a0c1",
+      "reason": "parser_audit_flagged_market"
+    },
+    {
+      "market_id": "mkt_fde0a3e07461da61",
+      "reason": "parser_audit_flagged_market"
+    },
+    {
+      "market_id": "mkt_a28fdb46dc224345",
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_afbbf74a8af5df48",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_823f8e0cc79ab521",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_161aefb5d9e425e4",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_c0353c1c0e496138",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_fe4681ceaa94b6a2",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_866233ce90a059b8",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
+    },
+    {
+      "market_id": "mkt_ac530b8426f648ed",
+      "reason": "parser_audit_flagged_market"
+    },
+    {
+      "market_id": "mkt_54e1bab24ec13e93",
+      "reason": "parser_audit_flagged_market"
+    },
+    {
+      "market_id": "mkt_ceab6228c31309f5",
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_632ba25378a34048",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_f58c12cd8259990b",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_3bf7cd5b1b9a191e",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_8233fea6583a651f",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_2b162ec6d12111ec",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_041fd910da7b6ec7",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_88d6f690f4a4b9d0",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_dc910e787060a38d",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_f985e99ba6e7a8be",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_76b28eda90e289b5",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_55048c7378a5db08",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     },
     {
       "market_id": "mkt_abd313bb37ae2db8",
-      "reason": "data_integrity_not_real_candidate"
+      "reason": "parser_audit_flagged_market"
     }
   ]
 }
