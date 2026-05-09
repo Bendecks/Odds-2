@@ -1,15 +1,15 @@
 # Odds 2 — Data Integrity Report
 
-Generated: 2026-05-09T06:03:49Z
+Generated: 2026-05-09T06:29:02Z
 
 ## Summary
 - Files processed: 9
 - Observations parsed this run: 408
-- Dedupe report: `{"new_observation": 81, "duplicate_noise": 327, "new_observation_same_odds": 0, "small_movement": 0, "odds_movement": 0, "significant_odds_change": 0, "parser_conflict": 0}`
+- Dedupe report: `{"new_observation": 0, "duplicate_noise": 408, "new_observation_same_odds": 0, "small_movement": 0, "odds_movement": 0, "significant_odds_change": 0, "parser_conflict": 0}`
 
 ## Counts
 - Status: `{'requires_review': 123, 'parsed_candidate': 285}`
-- Dedupe: `{'duplicate_noise': 327, 'new_observation': 81}`
+- Dedupe: `{'duplicate_noise': 408}`
 - Parser confidence: `{'high': 324, 'medium': 72, 'low': 12}`
 
 ## Latest Market State
@@ -123,50 +123,50 @@ Generated: 2026-05-09T06:03:49Z
 ### FC Nordsjælland vs FC Midtjylland | Man 14:00
 - Event UTC: 2026-05-11T12:00:00Z
 - Parser confidence: 0.905 (high)
-- Dedupe statuses: `{'new_observation': 3}`
-  - 1 / FC Nordsjælland @ 2.87 | new_observation | requires_review
-  - X / Draw @ 3.2 | new_observation | requires_review
-  - 2 / FC Midtjylland @ 3.9 | new_observation | requires_review
+- Dedupe statuses: `{'duplicate_noise': 3}`
+  - 1 / FC Nordsjælland @ 2.87 | duplicate_noise | requires_review
+  - X / Draw @ 3.2 | duplicate_noise | requires_review
+  - 2 / FC Midtjylland @ 3.9 | duplicate_noise | requires_review
 
 ### Vejle vs FC Fredericia | Man 14:00
 - Event UTC: 2026-05-11T12:00:00Z
 - Parser confidence: 0.995 (high)
-- Dedupe statuses: `{'new_observation': 3}`
-  - 1 / Vejle @ 2.87 | new_observation | parsed_candidate
-  - X / Draw @ 2.2 | new_observation | parsed_candidate
-  - 2 / FC Fredericia @ 3.8 | new_observation | parsed_candidate
+- Dedupe statuses: `{'duplicate_noise': 3}`
+  - 1 / Vejle @ 2.87 | duplicate_noise | parsed_candidate
+  - X / Draw @ 2.2 | duplicate_noise | parsed_candidate
+  - 2 / FC Fredericia @ 3.8 | duplicate_noise | parsed_candidate
 
 ### Silkeborg IF vs FC København | Man 16:00
 - Event UTC: 2026-05-11T14:00:00Z
 - Parser confidence: 0.905 (high)
-- Dedupe statuses: `{'new_observation': 3}`
-  - 1 / Silkeborg IF @ 3.5 | new_observation | requires_review
-  - X / Draw @ 3.9 | new_observation | requires_review
-  - 2 / FC København @ 3.6 | new_observation | requires_review
+- Dedupe statuses: `{'duplicate_noise': 3}`
+  - 1 / Silkeborg IF @ 3.5 | duplicate_noise | requires_review
+  - X / Draw @ 3.9 | duplicate_noise | requires_review
+  - 2 / FC København @ 3.6 | duplicate_noise | requires_review
 
 ### Brøndby vs AGF | Man 18:00
 - Event UTC: 2026-05-11T16:00:00Z
 - Parser confidence: 0.995 (high)
-- Dedupe statuses: `{'new_observation': 3}`
-  - 1 / Brøndby @ 3.5 | new_observation | parsed_candidate
-  - X / Draw @ 2.2 | new_observation | parsed_candidate
-  - 2 / AGF @ 2.15 | new_observation | parsed_candidate
+- Dedupe statuses: `{'duplicate_noise': 3}`
+  - 1 / Brøndby @ 3.5 | duplicate_noise | parsed_candidate
+  - X / Draw @ 2.2 | duplicate_noise | parsed_candidate
+  - 2 / AGF @ 2.15 | duplicate_noise | parsed_candidate
 
 ### Randers FC vs OB | Man 19:00
 - Event UTC: 2026-05-11T17:00:00Z
 - Parser confidence: 0.995 (high)
-- Dedupe statuses: `{'new_observation': 3}`
-  - 1 / Randers FC @ 1.8 | new_observation | parsed_candidate
-  - X / Draw @ 2.3 | new_observation | parsed_candidate
-  - 2 / OB @ 3.1 | new_observation | parsed_candidate
+- Dedupe statuses: `{'duplicate_noise': 3}`
+  - 1 / Randers FC @ 1.8 | duplicate_noise | parsed_candidate
+  - X / Draw @ 2.3 | duplicate_noise | parsed_candidate
+  - 2 / OB @ 3.1 | duplicate_noise | parsed_candidate
 
 ### Viborg vs Sønderjyske | 19:00
 - Event UTC: 2026-05-08T17:00:00Z
 - Parser confidence: 0.99 (high)
-- Dedupe statuses: `{'new_observation': 3, 'duplicate_noise': 6}`
-  - 1 / Viborg @ 1.75 | new_observation | parsed_candidate
-  - X / Draw @ 4.2 | new_observation | parsed_candidate
-  - 2 / Sønderjyske @ 3.8 | new_observation | parsed_candidate
+- Dedupe statuses: `{'duplicate_noise': 9}`
+  - 1 / Viborg @ 1.75 | duplicate_noise | parsed_candidate
+  - X / Draw @ 4.2 | duplicate_noise | parsed_candidate
+  - 2 / Sønderjyske @ 3.8 | duplicate_noise | parsed_candidate
   - 1 / Viborg @ 1.75 | duplicate_noise | parsed_candidate
   - X / Draw @ 4.2 | duplicate_noise | parsed_candidate
   - 2 / Sønderjyske @ 3.8 | duplicate_noise | parsed_candidate
@@ -177,10 +177,10 @@ Generated: 2026-05-09T06:03:49Z
 ### FC Nordsjælland vs FC Midtjylland | 14:00
 - Event UTC: 2026-05-08T12:00:00Z
 - Parser confidence: 0.99 (high)
-- Dedupe statuses: `{'new_observation': 3, 'duplicate_noise': 6}`
-  - 1 / FC Nordsjælland @ 2.87 | new_observation | parsed_candidate
-  - X / Draw @ 3.8 | new_observation | parsed_candidate
-  - 2 / FC Midtjylland @ 2.2 | new_observation | parsed_candidate
+- Dedupe statuses: `{'duplicate_noise': 9}`
+  - 1 / FC Nordsjælland @ 2.87 | duplicate_noise | parsed_candidate
+  - X / Draw @ 3.8 | duplicate_noise | parsed_candidate
+  - 2 / FC Midtjylland @ 2.2 | duplicate_noise | parsed_candidate
   - 1 / FC Nordsjælland @ 2.87 | duplicate_noise | parsed_candidate
   - X / Draw @ 3.8 | duplicate_noise | parsed_candidate
   - 2 / FC Midtjylland @ 2.2 | duplicate_noise | parsed_candidate
@@ -191,10 +191,10 @@ Generated: 2026-05-09T06:03:49Z
 ### Vejle vs FC Fredericia | 14:00
 - Event UTC: 2026-05-08T12:00:00Z
 - Parser confidence: 0.99 (high)
-- Dedupe statuses: `{'new_observation': 3, 'duplicate_noise': 6}`
-  - 1 / Vejle @ 3.1 | new_observation | parsed_candidate
-  - X / Draw @ 3.5 | new_observation | parsed_candidate
-  - 2 / FC Fredericia @ 2.2 | new_observation | parsed_candidate
+- Dedupe statuses: `{'duplicate_noise': 9}`
+  - 1 / Vejle @ 3.1 | duplicate_noise | parsed_candidate
+  - X / Draw @ 3.5 | duplicate_noise | parsed_candidate
+  - 2 / FC Fredericia @ 2.2 | duplicate_noise | parsed_candidate
   - 1 / Vejle @ 3.1 | duplicate_noise | parsed_candidate
   - X / Draw @ 3.5 | duplicate_noise | parsed_candidate
   - 2 / FC Fredericia @ 2.2 | duplicate_noise | parsed_candidate
@@ -580,10 +580,10 @@ Generated: 2026-05-09T06:03:49Z
 ### Liverpool vs Chelsea | Man 13:30
 - Event UTC: 2026-05-11T11:30:00Z
 - Parser confidence: 0.905 (high)
-- Dedupe statuses: `{'new_observation': 3, 'duplicate_noise': 3}`
-  - 1 / Liverpool @ 1.95 | new_observation | requires_review
-  - X / Draw @ 1.25 | new_observation | requires_review
-  - 2 / Chelsea @ 2.5 | new_observation | requires_review
+- Dedupe statuses: `{'duplicate_noise': 6}`
+  - 1 / Liverpool @ 1.95 | duplicate_noise | requires_review
+  - X / Draw @ 1.25 | duplicate_noise | requires_review
+  - 2 / Chelsea @ 2.5 | duplicate_noise | requires_review
   - 1 / Liverpool @ 1.95 | duplicate_noise | requires_review
   - X / Draw @ 1.25 | duplicate_noise | requires_review
   - 2 / Chelsea @ 2.5 | duplicate_noise | requires_review
@@ -591,10 +591,10 @@ Generated: 2026-05-09T06:03:49Z
 ### Brighton vs Wolverhampton | Man 16:00
 - Event UTC: 2026-05-11T14:00:00Z
 - Parser confidence: 0.995 (high)
-- Dedupe statuses: `{'new_observation': 3, 'duplicate_noise': 3}`
-  - 1 / Brighton @ 3.6 | new_observation | parsed_candidate
-  - X / Draw @ 1.33 | new_observation | parsed_candidate
-  - 2 / Wolverhampton @ 4.75 | new_observation | parsed_candidate
+- Dedupe statuses: `{'duplicate_noise': 6}`
+  - 1 / Brighton @ 3.6 | duplicate_noise | parsed_candidate
+  - X / Draw @ 1.33 | duplicate_noise | parsed_candidate
+  - 2 / Wolverhampton @ 4.75 | duplicate_noise | parsed_candidate
   - 1 / Brighton @ 3.6 | duplicate_noise | parsed_candidate
   - X / Draw @ 1.33 | duplicate_noise | parsed_candidate
   - 2 / Wolverhampton @ 4.75 | duplicate_noise | parsed_candidate
@@ -602,10 +602,10 @@ Generated: 2026-05-09T06:03:49Z
 ### Fulham vs Bournemouth | Man 16:00
 - Event UTC: 2026-05-11T14:00:00Z
 - Parser confidence: 0.905 (high)
-- Dedupe statuses: `{'new_observation': 3, 'duplicate_noise': 3}`
-  - 1 / Fulham @ 2.8 | new_observation | requires_review
-  - X / Draw @ 2.7 | new_observation | requires_review
-  - 2 / Bournemouth @ 5.25 | new_observation | requires_review
+- Dedupe statuses: `{'duplicate_noise': 6}`
+  - 1 / Fulham @ 2.8 | duplicate_noise | requires_review
+  - X / Draw @ 2.7 | duplicate_noise | requires_review
+  - 2 / Bournemouth @ 5.25 | duplicate_noise | requires_review
   - 1 / Fulham @ 2.8 | duplicate_noise | requires_review
   - X / Draw @ 2.7 | duplicate_noise | requires_review
   - 2 / Bournemouth @ 5.25 | duplicate_noise | requires_review
@@ -613,10 +613,10 @@ Generated: 2026-05-09T06:03:49Z
 ### Sunderland vs Manchester United | Man 16:00
 - Event UTC: 2026-05-11T14:00:00Z
 - Parser confidence: 0.905 (high)
-- Dedupe statuses: `{'new_observation': 3, 'duplicate_noise': 3}`
-  - 1 / Sunderland @ 1.85 | new_observation | requires_review
-  - X / Draw @ 1.27 | new_observation | requires_review
-  - 2 / Manchester United @ 3.6 | new_observation | requires_review
+- Dedupe statuses: `{'duplicate_noise': 6}`
+  - 1 / Sunderland @ 1.85 | duplicate_noise | requires_review
+  - X / Draw @ 1.27 | duplicate_noise | requires_review
+  - 2 / Manchester United @ 3.6 | duplicate_noise | requires_review
   - 1 / Sunderland @ 1.85 | duplicate_noise | requires_review
   - X / Draw @ 1.27 | duplicate_noise | requires_review
   - 2 / Manchester United @ 3.6 | duplicate_noise | requires_review
@@ -624,10 +624,10 @@ Generated: 2026-05-09T06:03:49Z
 ### Manchester City vs Brentford | Man 18:30
 - Event UTC: 2026-05-11T16:30:00Z
 - Parser confidence: 0.905 (high)
-- Dedupe statuses: `{'new_observation': 3, 'duplicate_noise': 3}`
-  - 1 / Manchester City @ 1.6 | new_observation | requires_review
-  - X / Draw @ 1.66 | new_observation | requires_review
-  - 2 / Brentford @ 1.72 | new_observation | requires_review
+- Dedupe statuses: `{'duplicate_noise': 6}`
+  - 1 / Manchester City @ 1.6 | duplicate_noise | requires_review
+  - X / Draw @ 1.66 | duplicate_noise | requires_review
+  - 2 / Brentford @ 1.72 | duplicate_noise | requires_review
   - 1 / Manchester City @ 1.6 | duplicate_noise | requires_review
   - X / Draw @ 1.66 | duplicate_noise | requires_review
   - 2 / Brentford @ 1.72 | duplicate_noise | requires_review
@@ -635,10 +635,10 @@ Generated: 2026-05-09T06:03:49Z
 ### Burnley vs Aston Villa | Man 15:00
 - Event UTC: 2026-05-11T13:00:00Z
 - Parser confidence: 0.8664 (medium)
-- Dedupe statuses: `{'new_observation': 3, 'duplicate_noise': 3}`
-  - 1 / Burnley @ 2.9 | new_observation | requires_review
-  - X / Draw @ 3.6 | new_observation | requires_review
-  - 2 / Aston Villa @ 2.0 | new_observation | requires_review
+- Dedupe statuses: `{'duplicate_noise': 6}`
+  - 1 / Burnley @ 2.9 | duplicate_noise | requires_review
+  - X / Draw @ 3.6 | duplicate_noise | requires_review
+  - 2 / Aston Villa @ 2.0 | duplicate_noise | requires_review
   - 1 / Burnley @ 2.9 | duplicate_noise | requires_review
   - X / Draw @ 3.6 | duplicate_noise | requires_review
   - 2 / Aston Villa @ 2.0 | duplicate_noise | requires_review
@@ -646,10 +646,10 @@ Generated: 2026-05-09T06:03:49Z
 ### Crystal Palace vs Everton | Man 15:00
 - Event UTC: 2026-05-11T13:00:00Z
 - Parser confidence: 0.8586 (medium)
-- Dedupe statuses: `{'new_observation': 3, 'duplicate_noise': 3}`
-  - 1 / Crystal Palace @ 1.11 | new_observation | requires_review
-  - X / Draw @ 3.75 | new_observation | requires_review
-  - 2 / Everton @ 6.5 | new_observation | requires_review
+- Dedupe statuses: `{'duplicate_noise': 6}`
+  - 1 / Crystal Palace @ 1.11 | duplicate_noise | requires_review
+  - X / Draw @ 3.75 | duplicate_noise | requires_review
+  - 2 / Everton @ 6.5 | duplicate_noise | requires_review
   - 1 / Crystal Palace @ 1.11 | duplicate_noise | requires_review
   - X / Draw @ 3.75 | duplicate_noise | requires_review
   - 2 / Everton @ 6.5 | duplicate_noise | requires_review
@@ -657,10 +657,10 @@ Generated: 2026-05-09T06:03:49Z
 ### Nottm Forest vs Newcastle | Man 15:00
 - Event UTC: 2026-05-11T13:00:00Z
 - Parser confidence: 0.7479 (low)
-- Dedupe statuses: `{'new_observation': 3, 'duplicate_noise': 3}`
-  - 1 / Nottm Forest @ 3.3 | new_observation | requires_review
-  - X / Draw @ 3.7 | new_observation | requires_review
-  - 2 / Newcastle @ 5.25 | new_observation | requires_review
+- Dedupe statuses: `{'duplicate_noise': 6}`
+  - 1 / Nottm Forest @ 3.3 | duplicate_noise | requires_review
+  - X / Draw @ 3.7 | duplicate_noise | requires_review
+  - 2 / Newcastle @ 5.25 | duplicate_noise | requires_review
   - 1 / Nottm Forest @ 3.3 | duplicate_noise | requires_review
   - X / Draw @ 3.7 | duplicate_noise | requires_review
   - 2 / Newcastle @ 5.25 | duplicate_noise | requires_review
@@ -668,10 +668,10 @@ Generated: 2026-05-09T06:03:49Z
 ### West Ham vs Arsenal | Man 17:30
 - Event UTC: 2026-05-11T15:30:00Z
 - Parser confidence: 0.7629 (medium)
-- Dedupe statuses: `{'new_observation': 3, 'duplicate_noise': 3}`
-  - 1 / West Ham @ 4.33 | new_observation | requires_review
-  - X / Draw @ 3.3 | new_observation | requires_review
-  - 2 / Arsenal @ 3.6 | new_observation | requires_review
+- Dedupe statuses: `{'duplicate_noise': 6}`
+  - 1 / West Ham @ 4.33 | duplicate_noise | requires_review
+  - X / Draw @ 3.3 | duplicate_noise | requires_review
+  - 2 / Arsenal @ 3.6 | duplicate_noise | requires_review
   - 1 / West Ham @ 4.33 | duplicate_noise | requires_review
   - X / Draw @ 3.3 | duplicate_noise | requires_review
   - 2 / Arsenal @ 3.6 | duplicate_noise | requires_review
@@ -679,10 +679,10 @@ Generated: 2026-05-09T06:03:49Z
 ### Tottenham vs Leeds | Man 21:00
 - Event UTC: 2026-05-11T19:00:00Z
 - Parser confidence: 0.7717 (medium)
-- Dedupe statuses: `{'new_observation': 3, 'duplicate_noise': 3}`
-  - 1 / Tottenham @ 4.1 | new_observation | requires_review
-  - X / Draw @ 4.1 | new_observation | requires_review
-  - 2 / Leeds @ 6.0 | new_observation | requires_review
+- Dedupe statuses: `{'duplicate_noise': 6}`
+  - 1 / Tottenham @ 4.1 | duplicate_noise | requires_review
+  - X / Draw @ 4.1 | duplicate_noise | requires_review
+  - 2 / Leeds @ 6.0 | duplicate_noise | requires_review
   - 1 / Tottenham @ 4.1 | duplicate_noise | requires_review
   - X / Draw @ 4.1 | duplicate_noise | requires_review
   - 2 / Leeds @ 6.0 | duplicate_noise | requires_review
@@ -690,10 +690,10 @@ Generated: 2026-05-09T06:03:49Z
 ### Manchester City vs Crystal Palace | Man 21:00
 - Event UTC: 2026-05-11T19:00:00Z
 - Parser confidence: 0.7686 (medium)
-- Dedupe statuses: `{'new_observation': 3, 'duplicate_noise': 3}`
-  - 1 / Manchester City @ 4.0 | new_observation | requires_review
-  - X / Draw @ 4.0 | new_observation | requires_review
-  - 2 / Crystal Palace @ 3.9 | new_observation | requires_review
+- Dedupe statuses: `{'duplicate_noise': 6}`
+  - 1 / Manchester City @ 4.0 | duplicate_noise | requires_review
+  - X / Draw @ 4.0 | duplicate_noise | requires_review
+  - 2 / Crystal Palace @ 3.9 | duplicate_noise | requires_review
   - 1 / Manchester City @ 4.0 | duplicate_noise | requires_review
   - X / Draw @ 4.0 | duplicate_noise | requires_review
   - 2 / Crystal Palace @ 3.9 | duplicate_noise | requires_review
@@ -701,10 +701,10 @@ Generated: 2026-05-09T06:03:49Z
 ### Aston Villa vs Liverpool | Man 21:00
 - Event UTC: 2026-05-11T19:00:00Z
 - Parser confidence: 0.805 (medium)
-- Dedupe statuses: `{'new_observation': 3, 'duplicate_noise': 3}`
-  - 1 / Aston Villa @ 3.75 | new_observation | requires_review
-  - X / Draw @ 3.6 | new_observation | requires_review
-  - 2 / Liverpool @ 3.6 | new_observation | requires_review
+- Dedupe statuses: `{'duplicate_noise': 6}`
+  - 1 / Aston Villa @ 3.75 | duplicate_noise | requires_review
+  - X / Draw @ 3.6 | duplicate_noise | requires_review
+  - 2 / Liverpool @ 3.6 | duplicate_noise | requires_review
   - 1 / Aston Villa @ 3.75 | duplicate_noise | requires_review
   - X / Draw @ 3.6 | duplicate_noise | requires_review
   - 2 / Liverpool @ 3.6 | duplicate_noise | requires_review
@@ -712,10 +712,10 @@ Generated: 2026-05-09T06:03:49Z
 ### Manchester United vs Nottm Forest | Man 13:30
 - Event UTC: 2026-05-11T11:30:00Z
 - Parser confidence: 0.7479 (low)
-- Dedupe statuses: `{'new_observation': 3, 'duplicate_noise': 3}`
-  - 1 / Manchester United @ 3.75 | new_observation | requires_review
-  - X / Draw @ 10.0 | new_observation | requires_review
-  - 2 / Nottm Forest @ 3.6 | new_observation | requires_review
+- Dedupe statuses: `{'duplicate_noise': 6}`
+  - 1 / Manchester United @ 3.75 | duplicate_noise | requires_review
+  - X / Draw @ 10.0 | duplicate_noise | requires_review
+  - 2 / Nottm Forest @ 3.6 | duplicate_noise | requires_review
   - 1 / Manchester United @ 3.75 | duplicate_noise | requires_review
   - X / Draw @ 10.0 | duplicate_noise | requires_review
   - 2 / Nottm Forest @ 3.6 | duplicate_noise | requires_review
@@ -723,10 +723,10 @@ Generated: 2026-05-09T06:03:49Z
 ### Brentford vs Crystal Palace | Man 16:00
 - Event UTC: 2026-05-11T14:00:00Z
 - Parser confidence: 0.8586 (medium)
-- Dedupe statuses: `{'new_observation': 3, 'duplicate_noise': 3}`
-  - 1 / Brentford @ 10.0 | new_observation | requires_review
-  - X / Draw @ 2.45 | new_observation | requires_review
-  - 2 / Crystal Palace @ 1.95 | new_observation | requires_review
+- Dedupe statuses: `{'duplicate_noise': 6}`
+  - 1 / Brentford @ 10.0 | duplicate_noise | requires_review
+  - X / Draw @ 2.45 | duplicate_noise | requires_review
+  - 2 / Crystal Palace @ 1.95 | duplicate_noise | requires_review
   - 1 / Brentford @ 10.0 | duplicate_noise | requires_review
   - X / Draw @ 2.45 | duplicate_noise | requires_review
   - 2 / Crystal Palace @ 1.95 | duplicate_noise | requires_review
@@ -734,10 +734,10 @@ Generated: 2026-05-09T06:03:49Z
 ### Everton vs Sunderland | Man 16:00
 - Event UTC: 2026-05-11T14:00:00Z
 - Parser confidence: 0.875 (medium)
-- Dedupe statuses: `{'new_observation': 3, 'duplicate_noise': 3}`
-  - 1 / Everton @ 5.5 | new_observation | requires_review
-  - X / Draw @ 1.61 | new_observation | requires_review
-  - 2 / Sunderland @ 2.6 | new_observation | requires_review
+- Dedupe statuses: `{'duplicate_noise': 6}`
+  - 1 / Everton @ 5.5 | duplicate_noise | requires_review
+  - X / Draw @ 1.61 | duplicate_noise | requires_review
+  - 2 / Sunderland @ 2.6 | duplicate_noise | requires_review
   - 1 / Everton @ 5.5 | duplicate_noise | requires_review
   - X / Draw @ 1.61 | duplicate_noise | requires_review
   - 2 / Sunderland @ 2.6 | duplicate_noise | requires_review
@@ -745,10 +745,10 @@ Generated: 2026-05-09T06:03:49Z
 ### Leeds vs Brighton | Man 16:00
 - Event UTC: 2026-05-11T14:00:00Z
 - Parser confidence: 0.895 (medium)
-- Dedupe statuses: `{'new_observation': 3, 'duplicate_noise': 3}`
-  - 1 / Leeds @ 2.45 | new_observation | requires_review
-  - X / Draw @ 1.6 | new_observation | requires_review
-  - 2 / Brighton @ 3.7 | new_observation | requires_review
+- Dedupe statuses: `{'duplicate_noise': 6}`
+  - 1 / Leeds @ 2.45 | duplicate_noise | requires_review
+  - X / Draw @ 1.6 | duplicate_noise | requires_review
+  - 2 / Brighton @ 3.7 | duplicate_noise | requires_review
   - 1 / Leeds @ 2.45 | duplicate_noise | requires_review
   - X / Draw @ 1.6 | duplicate_noise | requires_review
   - 2 / Brighton @ 3.7 | duplicate_noise | requires_review
@@ -756,10 +756,10 @@ Generated: 2026-05-09T06:03:49Z
 ### Wolverhampton vs Fulham | Man 16:00
 - Event UTC: 2026-05-11T14:00:00Z
 - Parser confidence: 0.905 (high)
-- Dedupe statuses: `{'new_observation': 3, 'duplicate_noise': 3}`
-  - 1 / Wolverhampton @ 9.5 | new_observation | requires_review
-  - X / Draw @ 1.83 | new_observation | requires_review
-  - 2 / Fulham @ 5.25 | new_observation | requires_review
+- Dedupe statuses: `{'duplicate_noise': 6}`
+  - 1 / Wolverhampton @ 9.5 | duplicate_noise | requires_review
+  - X / Draw @ 1.83 | duplicate_noise | requires_review
+  - 2 / Fulham @ 5.25 | duplicate_noise | requires_review
   - 1 / Wolverhampton @ 9.5 | duplicate_noise | requires_review
   - X / Draw @ 1.83 | duplicate_noise | requires_review
   - 2 / Fulham @ 5.25 | duplicate_noise | requires_review
@@ -767,10 +767,10 @@ Generated: 2026-05-09T06:03:49Z
 ### Newcastle vs West Ham | Man 18:30
 - Event UTC: 2026-05-11T16:30:00Z
 - Parser confidence: 0.755 (medium)
-- Dedupe statuses: `{'new_observation': 3, 'duplicate_noise': 3}`
-  - 1 / Newcastle @ 4.75 | new_observation | requires_review
-  - X / Draw @ 4.5 | new_observation | requires_review
-  - 2 / West Ham @ 2.25 | new_observation | requires_review
+- Dedupe statuses: `{'duplicate_noise': 6}`
+  - 1 / Newcastle @ 4.75 | duplicate_noise | requires_review
+  - X / Draw @ 4.5 | duplicate_noise | requires_review
+  - 2 / West Ham @ 2.25 | duplicate_noise | requires_review
   - 1 / Newcastle @ 4.75 | duplicate_noise | requires_review
   - X / Draw @ 4.5 | duplicate_noise | requires_review
   - 2 / West Ham @ 2.25 | duplicate_noise | requires_review
@@ -778,10 +778,10 @@ Generated: 2026-05-09T06:03:49Z
 ### Arsenal vs Burnley | Man 21:00
 - Event UTC: 2026-05-11T19:00:00Z
 - Parser confidence: 0.7764 (medium)
-- Dedupe statuses: `{'new_observation': 3, 'duplicate_noise': 3}`
-  - 1 / Arsenal @ 1.95 | new_observation | requires_review
-  - X / Draw @ 3.4 | new_observation | requires_review
-  - 2 / Burnley @ 15.0 | new_observation | requires_review
+- Dedupe statuses: `{'duplicate_noise': 6}`
+  - 1 / Arsenal @ 1.95 | duplicate_noise | requires_review
+  - X / Draw @ 3.4 | duplicate_noise | requires_review
+  - 2 / Burnley @ 15.0 | duplicate_noise | requires_review
   - 1 / Arsenal @ 1.95 | duplicate_noise | requires_review
   - X / Draw @ 3.4 | duplicate_noise | requires_review
   - 2 / Burnley @ 15.0 | duplicate_noise | requires_review

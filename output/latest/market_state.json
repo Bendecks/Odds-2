@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-09T06:03:55Z",
+  "generated_at": "2026-05-09T06:29:08Z",
   "source": "data/pick_tracker.jsonl",
   "active_window": {
     "past_hours": 24,
@@ -120,11 +120,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_318be57dc4a02412",
@@ -237,11 +237,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_ac2a58e84d96e4ee",
@@ -354,11 +354,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_85acaa1f4fd3c60b",
@@ -471,11 +471,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_0e631025cd6fb2f2",
@@ -588,11 +588,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_162bcd4533773f54",
@@ -705,11 +705,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_db8a629f896f0737",
@@ -822,11 +822,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_aa0666f6084dcec3",
@@ -939,11 +939,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_0f3ce104a9679d80",
@@ -1056,11 +1056,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_ef5701da8eaa5e6d",
@@ -1290,11 +1290,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 3,
+        "observation_count": 6,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 2
+          "duplicate_noise": 5
         }
       },
       "latest_observation_id": "obs_1ba7a7374883d209",
@@ -1524,11 +1524,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 3,
+        "observation_count": 6,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 2
+          "duplicate_noise": 5
         }
       },
       "latest_observation_id": "obs_903750dd91d5f631",
@@ -1758,11 +1758,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 3,
+        "observation_count": 6,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 2
+          "duplicate_noise": 5
         }
       },
       "latest_observation_id": "obs_5a12824065b01bd6",
@@ -1992,11 +1992,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 3,
+        "observation_count": 6,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 2
+          "duplicate_noise": 5
         }
       },
       "latest_observation_id": "obs_970387e89dbdbb1d",
@@ -2226,11 +2226,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 3,
+        "observation_count": 6,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 2
+          "duplicate_noise": 5
         }
       },
       "latest_observation_id": "obs_b09d4c75aa165e3e",
@@ -2460,11 +2460,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 3,
+        "observation_count": 6,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 2
+          "duplicate_noise": 5
         }
       },
       "latest_observation_id": "obs_3a2759829468a867",
@@ -2577,11 +2577,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_333cd0ed13631cea",
@@ -2694,11 +2694,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_d8900bd3417b87cb",
@@ -2811,11 +2811,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_e9994c82c39f87c5",
@@ -2928,11 +2928,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_84624652746abb74",
@@ -3045,11 +3045,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_964354889c325ca7",
@@ -3162,11 +3162,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_9d1fefc466d508af",
@@ -3279,11 +3279,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_0ef305d7a9568d49",
@@ -3396,11 +3396,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_9495665beb67a1b9",
@@ -3513,11 +3513,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_c917e466c9c22867",
@@ -3630,11 +3630,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_6d943cb29bfa3b02",
@@ -3747,11 +3747,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_e6389106406faf5c",
@@ -3864,11 +3864,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_de5e078242616c4f",
@@ -3981,11 +3981,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_9e09d5ec46c544e1",
@@ -4098,11 +4098,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_44a4eac328f02657",
@@ -4215,11 +4215,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_b5fc99af5c79e174",
@@ -4332,11 +4332,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_9749899ccbbf34cc",
@@ -4449,11 +4449,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_4afb40dc9261535a",
@@ -4566,11 +4566,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_77e59f386a90d432",
@@ -4683,11 +4683,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_c2beded3effb33a1",
@@ -4800,11 +4800,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_759de896f977ee8f",
@@ -4917,11 +4917,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_fe566ac242d4e604",
@@ -5034,11 +5034,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_7db33a0770dfdab8",
@@ -5151,11 +5151,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_e118496ec3f602a7",
@@ -5268,11 +5268,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_b23ee7d81135b424",
@@ -5385,11 +5385,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_a22120a1ec5a3209",
@@ -5502,11 +5502,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_c8c763e8bdc4d347",
@@ -5619,11 +5619,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_69ab8e069a0f217d",
@@ -5736,11 +5736,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_88fdc9f20e4f4952",
@@ -5853,11 +5853,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_268139b0cb5a279d",
@@ -5970,11 +5970,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_7c36b3b945070d84",
@@ -6087,11 +6087,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_94966477dfbb4b7d",
@@ -6204,11 +6204,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_e198485896ff637a",
@@ -6321,11 +6321,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_cbfcb2e979933817",
@@ -6438,11 +6438,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_9c1127fe1eb4521e",
@@ -6555,11 +6555,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_a5a20183960197f9",
@@ -6672,11 +6672,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_b64fdb4492239681",
@@ -6789,11 +6789,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_ad66c8fbbce30c0f",
@@ -6906,11 +6906,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_b6639832c6137bd0",
@@ -7023,11 +7023,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_14b6a0c0bb262861",
@@ -7140,11 +7140,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_f9f158ca014af191",
@@ -7257,11 +7257,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_0f6c9cab6e3ec30d",
@@ -7374,11 +7374,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_adc685adbdf5ebe2",
@@ -7491,11 +7491,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_5570f07cab335cbe",
@@ -7608,11 +7608,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_956be1993345ec72",
@@ -7725,11 +7725,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_6df8099d8826e4bd",
@@ -7842,11 +7842,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_ac825f1332e47a30",
@@ -7959,11 +7959,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_ea774ddc7e4e1efe",
@@ -8076,11 +8076,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_2fa1ed9fd3ed1cf1",
@@ -8310,11 +8310,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 3,
+        "observation_count": 6,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 2
+          "duplicate_noise": 5
         }
       },
       "latest_observation_id": "obs_75e44002f6b8cd23",
@@ -8544,11 +8544,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 3,
+        "observation_count": 6,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 2
+          "duplicate_noise": 5
         }
       },
       "latest_observation_id": "obs_1db499fff9f8c8f4",
@@ -8778,11 +8778,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 3,
+        "observation_count": 6,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 2
+          "duplicate_noise": 5
         }
       },
       "latest_observation_id": "obs_61bea7bdabff8bd8",
@@ -8895,11 +8895,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_0b2db9294267e93a",
@@ -9012,11 +9012,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_165137c78da4838c",
@@ -9129,11 +9129,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_b89edba41222bf18",
@@ -9246,11 +9246,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_231fc00e66d3097e",
@@ -9363,11 +9363,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_3e3504fb2fde47ad",
@@ -9480,11 +9480,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_b51004d87a08e339",
@@ -9597,11 +9597,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_f4ac91b2d804add3",
@@ -9714,11 +9714,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_0dba3af572dddaba",
@@ -9831,11 +9831,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_6c53314cb07f62e6",
@@ -9948,11 +9948,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_5b2a4aefa1f3ed8a",
@@ -10065,11 +10065,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_9819fd30d4390c9f",
@@ -10182,11 +10182,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_6ef3a0532c1b6125",
@@ -10299,11 +10299,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_38f7d2daea16fe10",
@@ -10416,11 +10416,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_a0b24ae9f158c7ed",
@@ -10533,11 +10533,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_4ce2812d5882e3f3",
@@ -10650,11 +10650,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_e389ec3c05ac3c1b",
@@ -10767,11 +10767,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_51cbe3e023e9bfb5",
@@ -10884,11 +10884,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_d550ac4f6265e3fe",
@@ -11001,11 +11001,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_9d1f62789eee5de3",
@@ -11118,11 +11118,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_dca18b9ffe23cd17",
@@ -11235,11 +11235,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_78de007af527e85f",
@@ -11352,11 +11352,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_e24e9c622631e5fd",
@@ -11469,11 +11469,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_d161c3c0c226a114",
@@ -11586,11 +11586,11 @@
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 35,
+        "observation_count": 38,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 34
+          "duplicate_noise": 37
         }
       },
       "latest_observation_id": "obs_9d2abd97143a59f1",
@@ -11705,11 +11705,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:53:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_e7555197a54c20ba",
@@ -11824,11 +11824,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:53:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_52c1fc2dcb392ac5",
@@ -11943,11 +11943,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:53:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
       "latest_observation_id": "obs_8fa79e916d5df902",
@@ -12063,11 +12063,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 6,
+        "observation_count": 8,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 5
+          "duplicate_noise": 7
         }
       },
       "latest_observation_id": "obs_1b8d52bbd6855629",
@@ -12183,11 +12183,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 6,
+        "observation_count": 8,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 5
+          "duplicate_noise": 7
         }
       },
       "latest_observation_id": "obs_54e12e6aabfe69d9",
@@ -12303,11 +12303,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 6,
+        "observation_count": 8,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 5
+          "duplicate_noise": 7
         }
       },
       "latest_observation_id": "obs_f291a8d90bcd45c2",
@@ -12422,11 +12422,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_a09f9260446394fc",
@@ -12541,11 +12541,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_374559a25d7035e1",
@@ -12660,11 +12660,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_267ef90ab382b301",
@@ -12780,11 +12780,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_6158dab7bb041315",
@@ -12900,11 +12900,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_761bd8481f3eaecd",
@@ -13020,11 +13020,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_b65ce08f19740af7",
@@ -13131,7 +13131,7 @@
         "paper_allowed": false,
         "shadow_reason": "odds_integrity"
       },
-      "latest_dedupe_status": "new_observation",
+      "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
         "first_seen_odds": 2.87,
         "latest_seen_odds": 2.87,
@@ -13139,10 +13139,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:53:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 1,
+        "observation_count": 2,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
-          "new_observation": 1
+          "new_observation": 1,
+          "duplicate_noise": 1
         }
       },
       "latest_observation_id": "obs_bd716b2e977a2ea3",
@@ -13249,7 +13250,7 @@
         "paper_allowed": false,
         "shadow_reason": "odds_integrity"
       },
-      "latest_dedupe_status": "new_observation",
+      "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
         "first_seen_odds": 3.9,
         "latest_seen_odds": 3.9,
@@ -13257,10 +13258,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:53:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 1,
+        "observation_count": 2,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
-          "new_observation": 1
+          "new_observation": 1,
+          "duplicate_noise": 1
         }
       },
       "latest_observation_id": "obs_82bd96005a43e4a3",
@@ -13367,7 +13369,7 @@
         "paper_allowed": false,
         "shadow_reason": "odds_integrity"
       },
-      "latest_dedupe_status": "new_observation",
+      "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
         "first_seen_odds": 3.2,
         "latest_seen_odds": 3.2,
@@ -13375,10 +13377,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:53:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 1,
+        "observation_count": 2,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
-          "new_observation": 1
+          "new_observation": 1,
+          "duplicate_noise": 1
         }
       },
       "latest_observation_id": "obs_fc28ea6e1708bdab",
@@ -13483,7 +13486,7 @@
         "paper_allowed": true,
         "shadow_reason": null
       },
-      "latest_dedupe_status": "new_observation",
+      "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
         "first_seen_odds": 2.87,
         "latest_seen_odds": 2.87,
@@ -13491,10 +13494,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:53:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 1,
+        "observation_count": 2,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
-          "new_observation": 1
+          "new_observation": 1,
+          "duplicate_noise": 1
         }
       },
       "latest_observation_id": "obs_5c3b7be7c3824bb2",
@@ -13599,7 +13603,7 @@
         "paper_allowed": true,
         "shadow_reason": null
       },
-      "latest_dedupe_status": "new_observation",
+      "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
         "first_seen_odds": 3.8,
         "latest_seen_odds": 3.8,
@@ -13607,10 +13611,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:53:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 1,
+        "observation_count": 2,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
-          "new_observation": 1
+          "new_observation": 1,
+          "duplicate_noise": 1
         }
       },
       "latest_observation_id": "obs_fbfbb2eb64bcef2c",
@@ -13715,7 +13720,7 @@
         "paper_allowed": true,
         "shadow_reason": null
       },
-      "latest_dedupe_status": "new_observation",
+      "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
         "first_seen_odds": 2.2,
         "latest_seen_odds": 2.2,
@@ -13723,10 +13728,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:53:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 1,
+        "observation_count": 2,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
-          "new_observation": 1
+          "new_observation": 1,
+          "duplicate_noise": 1
         }
       },
       "latest_observation_id": "obs_1c71a51e2e4441d9",
@@ -13841,11 +13847,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_86f8eb9daa6f594f",
@@ -13960,11 +13966,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_72aa8908794d4b53",
@@ -14079,11 +14085,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_79c20e37e3a36476",
@@ -14198,11 +14204,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_70de6dd243b7e888",
@@ -14317,11 +14323,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_dc8edd78fca3522c",
@@ -14436,11 +14442,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_7d18116d34e5825f",
@@ -14556,11 +14562,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_05c7d245d814bc8b",
@@ -14676,11 +14682,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_61b133bf553421d1",
@@ -14796,11 +14802,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_eb299c973b9d1e6e",
@@ -14915,11 +14921,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_f4200c50fbc3a0a5",
@@ -15034,11 +15040,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_2d18cf7be3e5b010",
@@ -15153,11 +15159,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_40fe55ea8b82925f",
@@ -15270,11 +15276,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_6d2a31caa471d8c8",
@@ -15387,11 +15393,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_6d78e50e781de7cc",
@@ -15504,11 +15510,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_ac5f9f92aadec132",
@@ -15623,11 +15629,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_87258ca453db4da0",
@@ -15742,11 +15748,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_57b08b421c41d5b3",
@@ -15861,11 +15867,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_0262fa648c283f74",
@@ -15980,11 +15986,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_2abe00090039ec47",
@@ -16099,11 +16105,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_09c38bcfc846454e",
@@ -16218,11 +16224,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_0cde49f726ec41e2",
@@ -16337,11 +16343,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_d7df5f40dd4b5b15",
@@ -16456,11 +16462,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_b67ed69b8c5d3f27",
@@ -16575,11 +16581,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_41c422fe968b7aa8",
@@ -16686,7 +16692,7 @@
         "paper_allowed": false,
         "shadow_reason": "odds_integrity"
       },
-      "latest_dedupe_status": "new_observation",
+      "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
         "first_seen_odds": 3.5,
         "latest_seen_odds": 3.5,
@@ -16694,10 +16700,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:53:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 1,
+        "observation_count": 2,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
-          "new_observation": 1
+          "new_observation": 1,
+          "duplicate_noise": 1
         }
       },
       "latest_observation_id": "obs_d72504d78b4ec1ab",
@@ -16804,7 +16811,7 @@
         "paper_allowed": false,
         "shadow_reason": "odds_integrity"
       },
-      "latest_dedupe_status": "new_observation",
+      "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
         "first_seen_odds": 3.6,
         "latest_seen_odds": 3.6,
@@ -16812,10 +16819,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:53:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 1,
+        "observation_count": 2,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
-          "new_observation": 1
+          "new_observation": 1,
+          "duplicate_noise": 1
         }
       },
       "latest_observation_id": "obs_e2bc8cb75410def5",
@@ -16922,7 +16930,7 @@
         "paper_allowed": false,
         "shadow_reason": "odds_integrity"
       },
-      "latest_dedupe_status": "new_observation",
+      "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
         "first_seen_odds": 3.9,
         "latest_seen_odds": 3.9,
@@ -16930,10 +16938,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:53:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 1,
+        "observation_count": 2,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
-          "new_observation": 1
+          "new_observation": 1,
+          "duplicate_noise": 1
         }
       },
       "latest_observation_id": "obs_c489e8e77d2a5963",
@@ -17048,11 +17057,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_9a3f93b5674a1fc0",
@@ -17167,11 +17176,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_f4ff3ea7f09dc3b5",
@@ -17286,11 +17295,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_164e8b3554d14ba4",
@@ -17405,11 +17414,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_81d32b499aefd934",
@@ -17524,11 +17533,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_d14a079e968812b8",
@@ -17643,11 +17652,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_c6faa603da66d637",
@@ -17763,11 +17772,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_608361b8dba2cb27",
@@ -17883,11 +17892,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_5092eaa8253e151c",
@@ -18003,11 +18012,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_411b879d925d739c",
@@ -18112,7 +18121,7 @@
         "paper_allowed": true,
         "shadow_reason": null
       },
-      "latest_dedupe_status": "new_observation",
+      "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
         "first_seen_odds": 3.5,
         "latest_seen_odds": 3.5,
@@ -18120,10 +18129,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:53:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 1,
+        "observation_count": 2,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
-          "new_observation": 1
+          "new_observation": 1,
+          "duplicate_noise": 1
         }
       },
       "latest_observation_id": "obs_d9989cfcbbcd99cb",
@@ -18228,7 +18238,7 @@
         "paper_allowed": true,
         "shadow_reason": null
       },
-      "latest_dedupe_status": "new_observation",
+      "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
         "first_seen_odds": 2.15,
         "latest_seen_odds": 2.15,
@@ -18236,10 +18246,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:53:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 1,
+        "observation_count": 2,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
-          "new_observation": 1
+          "new_observation": 1,
+          "duplicate_noise": 1
         }
       },
       "latest_observation_id": "obs_daf2337646797eff",
@@ -18344,7 +18355,7 @@
         "paper_allowed": true,
         "shadow_reason": null
       },
-      "latest_dedupe_status": "new_observation",
+      "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
         "first_seen_odds": 2.2,
         "latest_seen_odds": 2.2,
@@ -18352,10 +18363,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:53:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 1,
+        "observation_count": 2,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
-          "new_observation": 1
+          "new_observation": 1,
+          "duplicate_noise": 1
         }
       },
       "latest_observation_id": "obs_b3a01ff97d9e96b0",
@@ -18470,11 +18482,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_7f0a52fce35a6d73",
@@ -18589,11 +18601,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_543934535d6e71e6",
@@ -18708,11 +18720,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_0eccd12dbeac6456",
@@ -18828,11 +18840,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_529639c07632fdb0",
@@ -18948,11 +18960,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_3bdceb73f13c493e",
@@ -19068,11 +19080,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_d21e9358e95bf450",
@@ -19177,7 +19189,7 @@
         "paper_allowed": true,
         "shadow_reason": null
       },
-      "latest_dedupe_status": "new_observation",
+      "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
         "first_seen_odds": 1.8,
         "latest_seen_odds": 1.8,
@@ -19185,10 +19197,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:53:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 1,
+        "observation_count": 2,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
-          "new_observation": 1
+          "new_observation": 1,
+          "duplicate_noise": 1
         }
       },
       "latest_observation_id": "obs_28f9cadfd45ff3b6",
@@ -19293,7 +19306,7 @@
         "paper_allowed": true,
         "shadow_reason": null
       },
-      "latest_dedupe_status": "new_observation",
+      "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
         "first_seen_odds": 3.1,
         "latest_seen_odds": 3.1,
@@ -19301,10 +19314,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:53:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 1,
+        "observation_count": 2,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
-          "new_observation": 1
+          "new_observation": 1,
+          "duplicate_noise": 1
         }
       },
       "latest_observation_id": "obs_178c0d81b9a18359",
@@ -19409,7 +19423,7 @@
         "paper_allowed": true,
         "shadow_reason": null
       },
-      "latest_dedupe_status": "new_observation",
+      "latest_dedupe_status": "duplicate_noise",
       "movement_summary": {
         "first_seen_odds": 2.3,
         "latest_seen_odds": 2.3,
@@ -19417,10 +19431,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:53:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 1,
+        "observation_count": 2,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
-          "new_observation": 1
+          "new_observation": 1,
+          "duplicate_noise": 1
         }
       },
       "latest_observation_id": "obs_bea7f26b7b2be644",
@@ -19536,11 +19551,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_f69b7933ae76bd5b",
@@ -19656,11 +19671,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_4fc710d7fc24c2b5",
@@ -19776,11 +19791,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_967943c94ed51049",
@@ -19896,11 +19911,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_f5e7b9a394415fa4",
@@ -20016,11 +20031,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_b03be59dbce2f94c",
@@ -20136,11 +20151,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_8f4558c0afbbf11d",
@@ -20256,11 +20271,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_ad723b4c7f6996f9",
@@ -20376,11 +20391,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_9f223aae1db6fff3",
@@ -20496,11 +20511,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_7e86e7c8271fdc8e",
@@ -20616,11 +20631,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_52c0a454418f6ff8",
@@ -20736,11 +20751,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_96c8f0c4a6825b15",
@@ -20856,11 +20871,11 @@
         "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 4,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 3
         }
       },
       "latest_observation_id": "obs_7d98d06f263bcc01",
