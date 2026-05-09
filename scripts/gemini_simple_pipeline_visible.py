@@ -10,7 +10,7 @@ _old_normalize_picks = base.normalize_picks
 
 def pass_payload(decision_matches, reason, note):
     return {
-        'analysis_version': 'simple_decision_v6_visible_markets_only',
+        'analysis_version': 'simple_decision_v7_concise_grounded_notes',
         'picks': [],
         'passes': [
             {
@@ -24,38 +24,91 @@ def pass_payload(decision_matches, reason, note):
     }
 
 
+def compact_match_list(decision_matches):
+    return [
+        {
+            'match_id': m.get('match_id'),
+            'match': f'{m.get("home_team")} vs {m.get("away_team")}',
+            'league': m.get('league'),
+            'date_display': m.get('date_display'),
+            'time_display': m.get('time_display'),
+            'visible_selections': ['1', 'X', '2'],
+            'odds': {'1': m.get('odds_1'), 'X': m.get('odds_x'), '2': m.get('odds_2')},
+        }
+        for m in decision_matches
+    ]
+
+
 def decision_prompt(decision_matches, total_valid):
-    data = json.loads(_old_decision_prompt(decision_matches, total_valid))
-    data['analysis_version'] = 'simple_decision_v6_visible_markets_only'
-    data['market_policy'] = {
-        'visible_markets_only': True,
-        'allowed_selections': ['1', 'X', '2'],
-        'forbidden_selections': ['1X', 'X2', '12', 'DNB', 'double chance', 'over', 'under', 'handicap'],
-        'rule': 'Only choose a selection that is visible in the supplied odds object. Do not invent safer adjacent markets.'
-    }
-    data['task'] = data.get('task', '') + ' Only 1, X, or 2 may be selected. If the best idea is another market, return PASS.'
-    data['hard_rules'].insert(1, 'Only selections 1, X, and 2 are allowed because these are the only markets parsed and validated from the PDF.')
-    data['hard_rules'].insert(2, 'Never output X2, 1X, 12, DNB, double chance, over/under, handicap, or any non-visible market.')
-    data['return_schema']['analysis_version'] = 'simple_decision_v6_visible_markets_only'
-    data['return_schema']['passes'][0]['reason'] += '|non_visible_market_only|json_not_stable'
-    for m in data.get('validated_matches', []):
-        m['visible_selections'] = ['1', 'X', '2']
-    return json.dumps(data, ensure_ascii=False)
+    return json.dumps({
+        'analysis_version': 'simple_decision_v7_concise_grounded_notes',
+        'role': 'Skeptical paper-only football value analyst. Default is PASS.',
+        'task': 'Use Google Search only to make concise notes. Do NOT return JSON in this first step. Analyze only the supplied visible 1X2 markets. You may choose at most 3 tentative paper-bet candidates, but only from selection 1, X, or 2. If the best idea is X2/1X/DNB/over/under/handicap, mark PASS because that market is not visible.',
+        'source_rules': [
+            'Prefer official club/league sites, BBC, Sky, The Athletic, Reuters/AP, Premier Injuries, Bold.dk, Tipsbladet, Oddsportal, Betfair, Pinnacle.',
+            'Do not use Sportskeeda, CaughtOffside, 90min, Stretty News, GoonersGuide, Sportsgambler, BeSoccer, FCTables, Footlive, FootyStats, APWin, ScoreStrike, WinDrawWin, Sports Mole, tipster/free-picks/prediction/affiliate sites as evidence.',
+            'If useful source quality is weak, say PASS.'
+        ],
+        'output_format': 'Plain text only. For each candidate use: MATCH_ID | MATCH | SELECTION_OR_PASS | ODDS | 2 short evidence bullets | source names | risk flags. Keep total output under 1800 words.',
+        'validated_matches': compact_match_list(decision_matches),
+    }, ensure_ascii=False)
 
 
 def structure_prompt(raw_text, decision_matches, total_valid):
-    prompt_obj = json.loads(decision_prompt(decision_matches, total_valid))
+    schema = {
+        'analysis_version': 'simple_decision_v7_concise_grounded_notes',
+        'picks': [{
+            'match_id': 'string from validated_matches',
+            'match': 'string',
+            'selection': '1|X|2|PASS',
+            'selection_label': 'home|draw|away|pass',
+            'odds': 0.0,
+            'decision': 'PAPER_BET|PASS',
+            'confidence_score': 0.0,
+            'stake_units': 0.0,
+            'value_case': 'short',
+            'evidence_summary': 'short',
+            'evidence_items': [{
+                'type': 'injury|suspension|lineup|motivation|form|market_odds|context|other',
+                'signal': 'short factual signal',
+                'supports_selection': True,
+                'importance': 'low|medium|high',
+                'source_tier': 'tier1|tier2|tier3|prohibited|unknown',
+                'source_type': 'official|sports_media|odds_aggregator|fan_media|prohibited|unknown',
+                'source_name': 'single source only',
+                'source_url': 'https://source-or-grounding-url',
+                'published_or_checked_date': 'string if available'
+            }],
+            'source_quality': {
+                'has_grounded_sources': True,
+                'tier1_source_count': 0,
+                'tier2_source_count': 0,
+                'tier3_source_count': 0,
+                'odds_sources': 0,
+                'prohibited_sources_used': False,
+                'all_evidence_has_urls': True
+            },
+            'risk_flags': ['string'],
+            'why_not_pass': 'short'
+        }],
+        'passes': [{
+            'match_id': 'string',
+            'match': 'string',
+            'reason': 'insufficient_edge|insufficient_evidence|source_policy_failed|non_visible_market_only|json_not_stable',
+            'short_note': 'short'
+        }]
+    }
     return json.dumps({
-        'task': 'Convert the analyst output into strict JSON. If the analyst output is malformed, too vague, or suggests any market other than 1/X/2, return only PASS records. Return JSON only.',
-        'schema': prompt_obj.get('return_schema'),
-        'validated_matches': prompt_obj.get('validated_matches'),
-        'raw_grounded_output': raw_text[:8000]
+        'task': 'Convert the concise analyst notes into strict JSON. Use only match_id values from validated_matches. PAPER_BET is allowed only for selection 1, X, or 2. Any X2/1X/DNB/double chance/over/under/handicap idea must become PASS with reason non_visible_market_only. If source quality is weak or evidence is generic, use PASS. Return JSON only.',
+        'schema': schema,
+        'validated_matches': compact_match_list(decision_matches),
+        'raw_grounded_notes': raw_text[:7000]
     }, ensure_ascii=False)
 
 
 def call_decision(decision_matches, total_valid):
     if not decision_matches:
-        return {'analysis_version': 'simple_decision_v6_visible_markets_only', 'picks': [], 'passes': []}, None, [], {}
+        return {'analysis_version': 'simple_decision_v7_concise_grounded_notes', 'picks': [], 'passes': []}, None, [], {}
     url = base.gemini_url()
     if not url:
         return pass_payload(decision_matches, 'system_error', 'Missing GEMINI_API_KEY; fail-closed PASS.'), None, [], {}
@@ -66,7 +119,7 @@ def call_decision(decision_matches, total_valid):
         grounded_body = {
             'contents': [{'role': 'user', 'parts': [{'text': decision_prompt(decision_matches, total_valid)}]}],
             'tools': [{'google_search': {}}],
-            'generationConfig': {'temperature': 0, 'maxOutputTokens': 8192}
+            'generationConfig': {'temperature': 0, 'maxOutputTokens': 4096}
         }
         grounded_resp = base.requests.post(url, json=grounded_body, timeout=180)
         if grounded_resp.status_code >= 400:
@@ -75,7 +128,7 @@ def call_decision(decision_matches, total_valid):
         grounded_text = grounded_data.get('candidates', [{}])[0].get('content', {}).get('parts', [{}])[0].get('text', '')
         grounding_sources = base.extract_grounding_sources(grounded_data)
         debug = base.compact_response_debug(grounded_data, grounded_text)
-        debug['grounded_text_preview'] = grounded_text[:1200]
+        debug['grounded_text_preview'] = grounded_text[:1800]
 
         structure_body = {
             'contents': [{'role': 'user', 'parts': [{'text': structure_prompt(grounded_text, decision_matches, total_valid)}]}],
@@ -118,12 +171,12 @@ def normalize_picks(decision_payload, decision_matches):
                 patched[0]['stake_units'] = 0.0
                 patched[0]['settlement'] = 'NOT_APPLICABLE'
                 patched[0]['blocked_by_safety'] = f'non_visible_market_selection:{original_selection or "empty"}'
-                patched[0]['analysis_version'] = 'simple_decision_v6_visible_markets_only'
+                patched[0]['analysis_version'] = 'simple_decision_v7_concise_grounded_notes'
                 records.extend(patched)
         else:
             patched = _old_normalize_picks({'picks': [candidate]}, decision_matches)
             for item in patched:
-                item['analysis_version'] = 'simple_decision_v6_visible_markets_only'
+                item['analysis_version'] = 'simple_decision_v7_concise_grounded_notes'
             records.extend(patched)
     return records
 
