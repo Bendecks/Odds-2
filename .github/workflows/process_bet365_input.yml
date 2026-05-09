@@ -57,8 +57,8 @@ jobs:
           ODDS_MAX_FILES: 25
           ODDS_TIMEZONE: Europe/Copenhagen
 
-      - name: Run Decision Layer V3 paper decision layer
-        run: python scripts/ai_decide_v3.py
+      - name: Run Decision Layer V3.1 paper decision layer
+        run: python scripts/ai_decide_v3_1.py
         env:
           AI_PROVIDER: gemini
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -68,6 +68,7 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: gpt-4o-mini
           AI_MAX_CANDIDATES: 90
+          AI_V3_MAX_EVAL_CANDIDATES: 15
 
       - name: Run Phase 2.1 research orchestrator
         run: python scripts/research_orchestrator_v7.py
