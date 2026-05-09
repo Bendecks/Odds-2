@@ -1,13 +1,15 @@
 {
-  "model_version": "phase2_decision_v3_2_strict_safety_gates",
-  "mode": "paper_only",
+  "generated_at": "2026-05-09T07:49:46Z",
+  "monitor_version": "market_monitor_v1_consensus",
+  "monitor_window_hours": 48.0,
+  "refresh_hours": 2.0,
   "candidate_count": 0,
-  "eligible_count": 0,
+  "all_triggered_count": 0,
   "skipped_count": 177,
   "skip_reason_counts": {
     "event_expired": 99,
-    "real_bet_not_allowed_by_data_integrity": 66,
-    "decision_exists_for_market_observation_model": 12
+    "data_integrity_not_real_candidate": 66,
+    "outside_monitor_window": 12
   },
   "candidates": [],
   "skipped": [
@@ -409,327 +411,315 @@
     },
     {
       "market_id": "mkt_f25d85ff7f66932a",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_4617a33f3b0f5221",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_9b38da1a2bc66c5a",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_3a318cdc7080cfac",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_39889030d295bce5",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_5d26fc97661f8605",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_b3fa94e1b65eae23",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_7dd448182404f8a9",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_ac974cce20941213",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_b2614a15614e80f4",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_f322824db09b4c4c",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_27f1459d60c4255d",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_b584d15635fb9035",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_e797c3a86aeca024",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_4fd679d8b241ae48",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_5bbbe98b89447623",
-      "latest_observation_id": "obs_5c3b7be7c3824bb2",
-      "reason": "decision_exists_for_market_observation_model"
+      "reason": "outside_monitor_window"
     },
     {
       "market_id": "mkt_580a38f7509459d3",
-      "latest_observation_id": "obs_fbfbb2eb64bcef2c",
-      "reason": "decision_exists_for_market_observation_model"
+      "reason": "outside_monitor_window"
     },
     {
       "market_id": "mkt_41973a7a953c14be",
-      "latest_observation_id": "obs_1c71a51e2e4441d9",
-      "reason": "decision_exists_for_market_observation_model"
+      "reason": "outside_monitor_window"
     },
     {
       "market_id": "mkt_7a66d7931b83e1b5",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_312469e16f2d8874",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_7c55dd23577b7cff",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_0682001891762cad",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_51bf7a785d85c726",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_17fbb654dba88e39",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_a80c770c32760698",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_23e6004abdae613e",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_7938960f59abc3c0",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_baabb644a7d23c37",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_e2a1a30530f8f9fe",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_41928f70c6ca5b9b",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_a024751c55ab1821",
-      "latest_observation_id": "obs_6d2a31caa471d8c8",
-      "reason": "decision_exists_for_market_observation_model"
+      "reason": "outside_monitor_window"
     },
     {
       "market_id": "mkt_645626645419a65e",
-      "latest_observation_id": "obs_6d78e50e781de7cc",
-      "reason": "decision_exists_for_market_observation_model"
+      "reason": "outside_monitor_window"
     },
     {
       "market_id": "mkt_0eeb1a84230a19d7",
-      "latest_observation_id": "obs_ac5f9f92aadec132",
-      "reason": "decision_exists_for_market_observation_model"
+      "reason": "outside_monitor_window"
     },
     {
       "market_id": "mkt_62377518745d12e3",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_29dd38bf6d7c31dc",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_5c4fa045c9b3ff70",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_55f55aa2abeb96dc",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_6f15a566e199d74a",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_7abf5cd6a3da2174",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_a25300f45b6c0017",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_0f4838a72e85df8f",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_dd8e427e8da1dda7",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_5fc08e05ee72e6cf",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_e26a820ba99d7468",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_d4c65e803797f236",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_40995ee3d48b6385",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_e3c289f03e93a4a2",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_e9105dc687d22a72",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_c74529d4cd86adfd",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_135e9ae2956f3a08",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_a1c64b2ab31bffd4",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_38855f05ad8a92e8",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_8da70b522478afb4",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_53afd8c86e261b50",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_5847d1100ba9a0c1",
-      "latest_observation_id": "obs_d9989cfcbbcd99cb",
-      "reason": "decision_exists_for_market_observation_model"
+      "reason": "outside_monitor_window"
     },
     {
       "market_id": "mkt_fde0a3e07461da61",
-      "latest_observation_id": "obs_daf2337646797eff",
-      "reason": "decision_exists_for_market_observation_model"
+      "reason": "outside_monitor_window"
     },
     {
       "market_id": "mkt_a28fdb46dc224345",
-      "latest_observation_id": "obs_b3a01ff97d9e96b0",
-      "reason": "decision_exists_for_market_observation_model"
+      "reason": "outside_monitor_window"
     },
     {
       "market_id": "mkt_afbbf74a8af5df48",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_823f8e0cc79ab521",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_161aefb5d9e425e4",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_c0353c1c0e496138",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_fe4681ceaa94b6a2",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_866233ce90a059b8",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_ac530b8426f648ed",
-      "latest_observation_id": "obs_28f9cadfd45ff3b6",
-      "reason": "decision_exists_for_market_observation_model"
+      "reason": "outside_monitor_window"
     },
     {
       "market_id": "mkt_54e1bab24ec13e93",
-      "latest_observation_id": "obs_178c0d81b9a18359",
-      "reason": "decision_exists_for_market_observation_model"
+      "reason": "outside_monitor_window"
     },
     {
       "market_id": "mkt_ceab6228c31309f5",
-      "latest_observation_id": "obs_bea7f26b7b2be644",
-      "reason": "decision_exists_for_market_observation_model"
+      "reason": "outside_monitor_window"
     },
     {
       "market_id": "mkt_632ba25378a34048",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_f58c12cd8259990b",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_3bf7cd5b1b9a191e",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_8233fea6583a651f",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_2b162ec6d12111ec",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_041fd910da7b6ec7",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_88d6f690f4a4b9d0",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_dc910e787060a38d",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_f985e99ba6e7a8be",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_76b28eda90e289b5",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_55048c7378a5db08",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     },
     {
       "market_id": "mkt_abd313bb37ae2db8",
-      "reason": "real_bet_not_allowed_by_data_integrity"
+      "reason": "data_integrity_not_real_candidate"
     }
   ]
 }
