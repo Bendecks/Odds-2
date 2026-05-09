@@ -1,17 +1,97 @@
 {
-  "generated_at": "2026-05-09T07:49:46Z",
+  "generated_at": "2026-05-09T08:04:09Z",
   "monitor_version": "market_monitor_v1_consensus",
-  "monitor_window_hours": 48.0,
+  "monitor_window_hours": 168.0,
   "refresh_hours": 2.0,
-  "candidate_count": 0,
-  "all_triggered_count": 0,
-  "skipped_count": 177,
+  "candidate_count": 5,
+  "all_triggered_count": 12,
+  "skipped_count": 165,
   "skip_reason_counts": {
     "event_expired": 99,
-    "data_integrity_not_real_candidate": 66,
-    "outside_monitor_window": 12
+    "data_integrity_not_real_candidate": 66
   },
-  "candidates": [],
+  "candidates": [
+    {
+      "market_id": "mkt_41973a7a953c14be",
+      "event_id": "evt_ab02c4a1ae21d5da",
+      "event_name": "Vejle vs FC Fredericia",
+      "home": "Vejle",
+      "away": "FC Fredericia",
+      "league": "unknown",
+      "event_time_utc": "2026-05-11T12:00:00Z",
+      "hours_until_event": 51.93081953083333,
+      "market_type": "1X2",
+      "line": "X",
+      "selection": "Draw",
+      "bet365_odds": 2.2,
+      "monitor_reason": "fresh_consensus_check",
+      "priority_score": 48.06918046916667
+    },
+    {
+      "market_id": "mkt_580a38f7509459d3",
+      "event_id": "evt_ab02c4a1ae21d5da",
+      "event_name": "Vejle vs FC Fredericia",
+      "home": "Vejle",
+      "away": "FC Fredericia",
+      "league": "unknown",
+      "event_time_utc": "2026-05-11T12:00:00Z",
+      "hours_until_event": 51.9308195325,
+      "market_type": "1X2",
+      "line": "2",
+      "selection": "FC Fredericia",
+      "bet365_odds": 3.8,
+      "monitor_reason": "fresh_consensus_check",
+      "priority_score": 48.0691804675
+    },
+    {
+      "market_id": "mkt_5bbbe98b89447623",
+      "event_id": "evt_ab02c4a1ae21d5da",
+      "event_name": "Vejle vs FC Fredericia",
+      "home": "Vejle",
+      "away": "FC Fredericia",
+      "league": "unknown",
+      "event_time_utc": "2026-05-11T12:00:00Z",
+      "hours_until_event": 51.930819535,
+      "market_type": "1X2",
+      "line": "1",
+      "selection": "Vejle",
+      "bet365_odds": 2.87,
+      "monitor_reason": "fresh_consensus_check",
+      "priority_score": 48.069180465
+    },
+    {
+      "market_id": "mkt_0eeb1a84230a19d7",
+      "event_id": "evt_f17e388bc9c8ac9c",
+      "event_name": "Brighton vs Wolverhampton",
+      "home": "Brighton",
+      "away": "Wolverhampton",
+      "league": "unknown",
+      "event_time_utc": "2026-05-11T14:00:00Z",
+      "hours_until_event": 53.93081952361111,
+      "market_type": "1X2",
+      "line": "X",
+      "selection": "Draw",
+      "bet365_odds": 1.33,
+      "monitor_reason": "fresh_consensus_check",
+      "priority_score": 46.06918047638889
+    },
+    {
+      "market_id": "mkt_645626645419a65e",
+      "event_id": "evt_f17e388bc9c8ac9c",
+      "event_name": "Brighton vs Wolverhampton",
+      "home": "Brighton",
+      "away": "Wolverhampton",
+      "league": "unknown",
+      "event_time_utc": "2026-05-11T14:00:00Z",
+      "hours_until_event": 53.93081952527778,
+      "market_type": "1X2",
+      "line": "2",
+      "selection": "Wolverhampton",
+      "bet365_odds": 4.75,
+      "monitor_reason": "fresh_consensus_check",
+      "priority_score": 46.06918047472222
+    }
+  ],
   "skipped": [
     {
       "market_id": "mkt_08557185d52a1c17",
@@ -470,18 +550,6 @@
       "reason": "data_integrity_not_real_candidate"
     },
     {
-      "market_id": "mkt_5bbbe98b89447623",
-      "reason": "outside_monitor_window"
-    },
-    {
-      "market_id": "mkt_580a38f7509459d3",
-      "reason": "outside_monitor_window"
-    },
-    {
-      "market_id": "mkt_41973a7a953c14be",
-      "reason": "outside_monitor_window"
-    },
-    {
       "market_id": "mkt_7a66d7931b83e1b5",
       "reason": "data_integrity_not_real_candidate"
     },
@@ -528,18 +596,6 @@
     {
       "market_id": "mkt_41928f70c6ca5b9b",
       "reason": "data_integrity_not_real_candidate"
-    },
-    {
-      "market_id": "mkt_a024751c55ab1821",
-      "reason": "outside_monitor_window"
-    },
-    {
-      "market_id": "mkt_645626645419a65e",
-      "reason": "outside_monitor_window"
-    },
-    {
-      "market_id": "mkt_0eeb1a84230a19d7",
-      "reason": "outside_monitor_window"
     },
     {
       "market_id": "mkt_62377518745d12e3",
@@ -626,18 +682,6 @@
       "reason": "data_integrity_not_real_candidate"
     },
     {
-      "market_id": "mkt_5847d1100ba9a0c1",
-      "reason": "outside_monitor_window"
-    },
-    {
-      "market_id": "mkt_fde0a3e07461da61",
-      "reason": "outside_monitor_window"
-    },
-    {
-      "market_id": "mkt_a28fdb46dc224345",
-      "reason": "outside_monitor_window"
-    },
-    {
       "market_id": "mkt_afbbf74a8af5df48",
       "reason": "data_integrity_not_real_candidate"
     },
@@ -660,18 +704,6 @@
     {
       "market_id": "mkt_866233ce90a059b8",
       "reason": "data_integrity_not_real_candidate"
-    },
-    {
-      "market_id": "mkt_ac530b8426f648ed",
-      "reason": "outside_monitor_window"
-    },
-    {
-      "market_id": "mkt_54e1bab24ec13e93",
-      "reason": "outside_monitor_window"
-    },
-    {
-      "market_id": "mkt_ceab6228c31309f5",
-      "reason": "outside_monitor_window"
     },
     {
       "market_id": "mkt_632ba25378a34048",

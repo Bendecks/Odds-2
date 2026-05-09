@@ -1,20 +1,175 @@
 {
-  "generated_at": "2026-05-09T07:49:47Z",
+  "generated_at": "2026-05-09T08:05:19Z",
   "research_version": "phase2_1_gemini_research_v8_autonomous",
-  "candidate_count": 0,
-  "all_triggered_count": 0,
-  "skipped_count": 177,
+  "candidate_count": 5,
+  "all_triggered_count": 12,
+  "skipped_count": 165,
   "skip_reason_counts": {
     "event_expired": 99,
-    "data_integrity_not_real_candidate": 66,
-    "no_research_trigger": 12
+    "data_integrity_not_real_candidate": 66
   },
   "autonomous_research": true,
-  "fresh_window_hours": 48.0,
+  "fresh_window_hours": 168.0,
   "refresh_hours": 6.0,
   "simulate_research_trigger": false,
   "simulate_research_write_record": false,
-  "candidates": [],
+  "candidates": [
+    {
+      "market_id": "mkt_5bbbe98b89447623",
+      "event_id": "evt_ab02c4a1ae21d5da",
+      "event_name": "Vejle vs FC Fredericia",
+      "league": "unknown",
+      "event_time_utc": "2026-05-11T12:00:00Z",
+      "hours_until_event": 51.91112066916667,
+      "market_type": "1X2",
+      "line": "1",
+      "selection": "Vejle",
+      "odds": 2.87,
+      "movement_summary": {
+        "first_seen_odds": 2.87,
+        "latest_seen_odds": 2.87,
+        "first_seen_capture_utc": "2026-05-09T05:53:00Z",
+        "latest_seen_capture_utc": "2026-05-09T05:53:00Z",
+        "change_pct_from_first": 0.0,
+        "movement_from_first": "unchanged",
+        "observation_count": 5,
+        "non_duplicate_observation_count": 1,
+        "dedupe_counts": {
+          "new_observation": 1,
+          "duplicate_noise": 4
+        }
+      },
+      "decision": null,
+      "trigger_reasons": [
+        "fresh_future_candidate"
+      ],
+      "priority_score": 10.0
+    },
+    {
+      "market_id": "mkt_580a38f7509459d3",
+      "event_id": "evt_ab02c4a1ae21d5da",
+      "event_name": "Vejle vs FC Fredericia",
+      "league": "unknown",
+      "event_time_utc": "2026-05-11T12:00:00Z",
+      "hours_until_event": 51.91112066555556,
+      "market_type": "1X2",
+      "line": "2",
+      "selection": "FC Fredericia",
+      "odds": 3.8,
+      "movement_summary": {
+        "first_seen_odds": 3.8,
+        "latest_seen_odds": 3.8,
+        "first_seen_capture_utc": "2026-05-09T05:53:00Z",
+        "latest_seen_capture_utc": "2026-05-09T05:53:00Z",
+        "change_pct_from_first": 0.0,
+        "movement_from_first": "unchanged",
+        "observation_count": 5,
+        "non_duplicate_observation_count": 1,
+        "dedupe_counts": {
+          "new_observation": 1,
+          "duplicate_noise": 4
+        }
+      },
+      "decision": null,
+      "trigger_reasons": [
+        "fresh_future_candidate"
+      ],
+      "priority_score": 10.0
+    },
+    {
+      "market_id": "mkt_41973a7a953c14be",
+      "event_id": "evt_ab02c4a1ae21d5da",
+      "event_name": "Vejle vs FC Fredericia",
+      "league": "unknown",
+      "event_time_utc": "2026-05-11T12:00:00Z",
+      "hours_until_event": 51.911120663333335,
+      "market_type": "1X2",
+      "line": "X",
+      "selection": "Draw",
+      "odds": 2.2,
+      "movement_summary": {
+        "first_seen_odds": 2.2,
+        "latest_seen_odds": 2.2,
+        "first_seen_capture_utc": "2026-05-09T05:53:00Z",
+        "latest_seen_capture_utc": "2026-05-09T05:53:00Z",
+        "change_pct_from_first": 0.0,
+        "movement_from_first": "unchanged",
+        "observation_count": 5,
+        "non_duplicate_observation_count": 1,
+        "dedupe_counts": {
+          "new_observation": 1,
+          "duplicate_noise": 4
+        }
+      },
+      "decision": null,
+      "trigger_reasons": [
+        "fresh_future_candidate"
+      ],
+      "priority_score": 10.0
+    },
+    {
+      "market_id": "mkt_a024751c55ab1821",
+      "event_id": "evt_f17e388bc9c8ac9c",
+      "event_name": "Brighton vs Wolverhampton",
+      "league": "unknown",
+      "event_time_utc": "2026-05-11T14:00:00Z",
+      "hours_until_event": 53.91112065916667,
+      "market_type": "1X2",
+      "line": "1",
+      "selection": "Brighton",
+      "odds": 3.6,
+      "movement_summary": {
+        "first_seen_odds": 3.6,
+        "latest_seen_odds": 3.6,
+        "first_seen_capture_utc": "2026-05-09T05:16:00Z",
+        "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
+        "change_pct_from_first": 0.0,
+        "movement_from_first": "unchanged",
+        "observation_count": 10,
+        "non_duplicate_observation_count": 1,
+        "dedupe_counts": {
+          "new_observation": 1,
+          "duplicate_noise": 9
+        }
+      },
+      "decision": null,
+      "trigger_reasons": [
+        "fresh_future_candidate"
+      ],
+      "priority_score": 10.0
+    },
+    {
+      "market_id": "mkt_645626645419a65e",
+      "event_id": "evt_f17e388bc9c8ac9c",
+      "event_name": "Brighton vs Wolverhampton",
+      "league": "unknown",
+      "event_time_utc": "2026-05-11T14:00:00Z",
+      "hours_until_event": 53.91112065722223,
+      "market_type": "1X2",
+      "line": "2",
+      "selection": "Wolverhampton",
+      "odds": 4.75,
+      "movement_summary": {
+        "first_seen_odds": 4.75,
+        "latest_seen_odds": 4.75,
+        "first_seen_capture_utc": "2026-05-09T05:16:00Z",
+        "latest_seen_capture_utc": "2026-05-09T05:16:00Z",
+        "change_pct_from_first": 0.0,
+        "movement_from_first": "unchanged",
+        "observation_count": 10,
+        "non_duplicate_observation_count": 1,
+        "dedupe_counts": {
+          "new_observation": 1,
+          "duplicate_noise": 9
+        }
+      },
+      "decision": null,
+      "trigger_reasons": [
+        "fresh_future_candidate"
+      ],
+      "priority_score": 10.0
+    }
+  ],
   "skipped": [
     {
       "market_id": "mkt_08557185d52a1c17",
@@ -473,18 +628,6 @@
       "reason": "data_integrity_not_real_candidate"
     },
     {
-      "market_id": "mkt_5bbbe98b89447623",
-      "reason": "no_research_trigger"
-    },
-    {
-      "market_id": "mkt_580a38f7509459d3",
-      "reason": "no_research_trigger"
-    },
-    {
-      "market_id": "mkt_41973a7a953c14be",
-      "reason": "no_research_trigger"
-    },
-    {
       "market_id": "mkt_7a66d7931b83e1b5",
       "reason": "data_integrity_not_real_candidate"
     },
@@ -531,18 +674,6 @@
     {
       "market_id": "mkt_41928f70c6ca5b9b",
       "reason": "data_integrity_not_real_candidate"
-    },
-    {
-      "market_id": "mkt_a024751c55ab1821",
-      "reason": "no_research_trigger"
-    },
-    {
-      "market_id": "mkt_645626645419a65e",
-      "reason": "no_research_trigger"
-    },
-    {
-      "market_id": "mkt_0eeb1a84230a19d7",
-      "reason": "no_research_trigger"
     },
     {
       "market_id": "mkt_62377518745d12e3",
@@ -629,18 +760,6 @@
       "reason": "data_integrity_not_real_candidate"
     },
     {
-      "market_id": "mkt_5847d1100ba9a0c1",
-      "reason": "no_research_trigger"
-    },
-    {
-      "market_id": "mkt_fde0a3e07461da61",
-      "reason": "no_research_trigger"
-    },
-    {
-      "market_id": "mkt_a28fdb46dc224345",
-      "reason": "no_research_trigger"
-    },
-    {
       "market_id": "mkt_afbbf74a8af5df48",
       "reason": "data_integrity_not_real_candidate"
     },
@@ -663,18 +782,6 @@
     {
       "market_id": "mkt_866233ce90a059b8",
       "reason": "data_integrity_not_real_candidate"
-    },
-    {
-      "market_id": "mkt_ac530b8426f648ed",
-      "reason": "no_research_trigger"
-    },
-    {
-      "market_id": "mkt_54e1bab24ec13e93",
-      "reason": "no_research_trigger"
-    },
-    {
-      "market_id": "mkt_ceab6228c31309f5",
-      "reason": "no_research_trigger"
     },
     {
       "market_id": "mkt_632ba25378a34048",

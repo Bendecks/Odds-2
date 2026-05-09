@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-09T07:49:39Z",
+  "generated_at": "2026-05-09T08:04:03Z",
   "phase": "data_integrity_foundation_v1_1",
   "input_dir": "inbox/possible_bets",
   "files": [
     {
-      "file_id": "60984925be227fc0",
+      "file_id": "cd4345b60971b5d1",
       "source_file": "inbox/possible_bets/20260509-075325_possible_bets_1486.pdf",
-      "extracted_at": "2026-05-09T07:49:40Z",
+      "extracted_at": "2026-05-09T08:04:03Z",
       "text_extraction": {
         "method": "pypdf",
         "has_text_layer": true,
@@ -16,7 +16,7 @@
         "layout_version": "unknown",
         "extraction_confidence": 0.95,
         "fallback_used": false,
-        "raw_text_debug_path": "output/debug_text/pypdf_60984925be227fc0.txt",
+        "raw_text_debug_path": "output/debug_text/pypdf_cd4345b60971b5d1.txt",
         "warnings": []
       },
       "capture": {
@@ -31,9 +31,9 @@
       }
     },
     {
-      "file_id": "13da37f275ef9d62",
+      "file_id": "e687fa211cb11f6a",
       "source_file": "inbox/possible_bets/20260509-075324_possible_bets_4871.pdf",
-      "extracted_at": "2026-05-09T07:49:40Z",
+      "extracted_at": "2026-05-09T08:04:03Z",
       "text_extraction": {
         "method": "pypdf",
         "has_text_layer": true,
@@ -43,7 +43,7 @@
         "layout_version": "unknown",
         "extraction_confidence": 0.95,
         "fallback_used": false,
-        "raw_text_debug_path": "output/debug_text/pypdf_13da37f275ef9d62.txt",
+        "raw_text_debug_path": "output/debug_text/pypdf_e687fa211cb11f6a.txt",
         "warnings": []
       },
       "capture": {
@@ -58,9 +58,9 @@
       }
     },
     {
-      "file_id": "af6d70536c3eb6c8",
+      "file_id": "59050e28e71c3977",
       "source_file": "inbox/possible_bets/20260509-075323_possible_bets_1632.pdf",
-      "extracted_at": "2026-05-09T07:49:41Z",
+      "extracted_at": "2026-05-09T08:04:04Z",
       "text_extraction": {
         "method": "pypdf",
         "has_text_layer": true,
@@ -70,7 +70,7 @@
         "layout_version": "unknown",
         "extraction_confidence": 0.95,
         "fallback_used": false,
-        "raw_text_debug_path": "output/debug_text/pypdf_af6d70536c3eb6c8.txt",
+        "raw_text_debug_path": "output/debug_text/pypdf_59050e28e71c3977.txt",
         "warnings": []
       },
       "capture": {
@@ -85,9 +85,9 @@
       }
     },
     {
-      "file_id": "d456da071a664a20",
+      "file_id": "7673f3712d4208a2",
       "source_file": "inbox/possible_bets/20260509-075321_possible_bets_4179.pdf",
-      "extracted_at": "2026-05-09T07:49:42Z",
+      "extracted_at": "2026-05-09T08:04:04Z",
       "text_extraction": {
         "method": "pypdf",
         "has_text_layer": true,
@@ -97,7 +97,7 @@
         "layout_version": "unknown",
         "extraction_confidence": 0.95,
         "fallback_used": false,
-        "raw_text_debug_path": "output/debug_text/pypdf_d456da071a664a20.txt",
+        "raw_text_debug_path": "output/debug_text/pypdf_7673f3712d4208a2.txt",
         "warnings": []
       },
       "capture": {
@@ -112,9 +112,9 @@
       }
     },
     {
-      "file_id": "4993325998fd31cc",
+      "file_id": "78ea3323a17cab9f",
       "source_file": "inbox/possible_bets/20260509-073222_possible_bets_9028.pdf",
-      "extracted_at": "2026-05-09T07:49:42Z",
+      "extracted_at": "2026-05-09T08:04:04Z",
       "text_extraction": {
         "method": "pypdf",
         "has_text_layer": true,
@@ -124,7 +124,7 @@
         "layout_version": "unknown",
         "extraction_confidence": 0.95,
         "fallback_used": false,
-        "raw_text_debug_path": "output/debug_text/pypdf_4993325998fd31cc.txt",
+        "raw_text_debug_path": "output/debug_text/pypdf_78ea3323a17cab9f.txt",
         "warnings": []
       },
       "capture": {
@@ -139,9 +139,9 @@
       }
     },
     {
-      "file_id": "c16a67570aeae3ad",
+      "file_id": "7ef2b17900b05d7c",
       "source_file": "inbox/possible_bets/20260509-073220_possible_bets_8283.pdf",
-      "extracted_at": "2026-05-09T07:49:43Z",
+      "extracted_at": "2026-05-09T08:04:05Z",
       "text_extraction": {
         "method": "pypdf",
         "has_text_layer": true,
@@ -151,7 +151,7 @@
         "layout_version": "unknown",
         "extraction_confidence": 0.95,
         "fallback_used": false,
-        "raw_text_debug_path": "output/debug_text/pypdf_c16a67570aeae3ad.txt",
+        "raw_text_debug_path": "output/debug_text/pypdf_7ef2b17900b05d7c.txt",
         "warnings": []
       },
       "capture": {
@@ -166,9 +166,9 @@
       }
     },
     {
-      "file_id": "a274acebce2a6898",
+      "file_id": "805212a95b115b99",
       "source_file": "inbox/possible_bets/20260509-073218_possible_bets_4032.pdf",
-      "extracted_at": "2026-05-09T07:49:44Z",
+      "extracted_at": "2026-05-09T08:04:06Z",
       "text_extraction": {
         "method": "pypdf",
         "has_text_layer": true,
@@ -178,7 +178,7 @@
         "layout_version": "unknown",
         "extraction_confidence": 0.95,
         "fallback_used": false,
-        "raw_text_debug_path": "output/debug_text/pypdf_a274acebce2a6898.txt",
+        "raw_text_debug_path": "output/debug_text/pypdf_805212a95b115b99.txt",
         "warnings": []
       },
       "capture": {
@@ -193,9 +193,9 @@
       }
     },
     {
-      "file_id": "7757384ed9226667",
+      "file_id": "9889d2794fe95682",
       "source_file": "inbox/possible_bets/20260508-105030_possible_bets_2863.pdf",
-      "extracted_at": "2026-05-09T07:49:44Z",
+      "extracted_at": "2026-05-09T08:04:06Z",
       "text_extraction": {
         "method": "pypdf",
         "has_text_layer": true,
@@ -205,7 +205,7 @@
         "layout_version": "unknown",
         "extraction_confidence": 0.95,
         "fallback_used": false,
-        "raw_text_debug_path": "output/debug_text/pypdf_7757384ed9226667.txt",
+        "raw_text_debug_path": "output/debug_text/pypdf_9889d2794fe95682.txt",
         "warnings": []
       },
       "capture": {
@@ -220,9 +220,9 @@
       }
     },
     {
-      "file_id": "86e9e7f69228bb03",
+      "file_id": "fa8b64bd27f3e61c",
       "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-      "extracted_at": "2026-05-09T07:49:45Z",
+      "extracted_at": "2026-05-09T08:04:06Z",
       "text_extraction": {
         "method": "pypdf",
         "has_text_layer": true,
@@ -232,7 +232,7 @@
         "layout_version": "unknown",
         "extraction_confidence": 0.95,
         "fallback_used": false,
-        "raw_text_debug_path": "output/debug_text/pypdf_86e9e7f69228bb03.txt",
+        "raw_text_debug_path": "output/debug_text/pypdf_fa8b64bd27f3e61c.txt",
         "warnings": []
       },
       "capture": {
