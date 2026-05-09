@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-09T06:29:09Z",
+  "generated_at": "2026-05-09T06:40:35Z",
   "research_version": "phase2_1_gemini_research_v7_twostep",
   "candidate_count": 1,
   "all_triggered_count": 1,
@@ -7,106 +7,37 @@
   "skip_reason_counts": {
     "event_expired": 99,
     "data_integrity_not_real_candidate": 66,
-    "research_exists_for_version": 1,
-    "no_research_trigger": 11
+    "research_exists_for_version": 2,
+    "no_research_trigger": 10
   },
   "simulate_research_trigger": true,
   "simulate_research_write_record": false,
   "candidates": [
     {
-      "market_id": "mkt_580a38f7509459d3",
+      "market_id": "mkt_41973a7a953c14be",
       "event_id": "evt_ab02c4a1ae21d5da",
       "event_name": "Vejle vs FC Fredericia",
       "league": "unknown",
       "event_time_utc": "2026-05-11T12:00:00Z",
       "market_type": "1X2",
-      "line": "2",
-      "selection": "FC Fredericia",
-      "odds": 3.8,
+      "line": "X",
+      "selection": "Draw",
+      "odds": 2.2,
       "movement_summary": {
-        "first_seen_odds": 3.8,
-        "latest_seen_odds": 3.8,
+        "first_seen_odds": 2.2,
+        "latest_seen_odds": 2.2,
         "first_seen_capture_utc": "2026-05-09T05:53:00Z",
         "latest_seen_capture_utc": "2026-05-09T05:53:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 2,
+        "observation_count": 3,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 1
+          "duplicate_noise": 2
         }
       },
-      "decision": {
-        "record_type": "decision_record",
-        "decision_id": "dec_08bf59e35125a06f",
-        "created_at": "2026-05-09T06:04:15Z",
-        "model_version": "phase2_decision_v3_2_expired_event_gate",
-        "model": "gemini-2.5-flash",
-        "engine": "gemini_scoped",
-        "fallback_reason": null,
-        "ai_eval_used": false,
-        "mode": "paper_only",
-        "market_id": "mkt_580a38f7509459d3",
-        "event_id": "evt_ab02c4a1ae21d5da",
-        "latest_observation_id": "obs_fbfbb2eb64bcef2c",
-        "event_name": "Vejle vs FC Fredericia",
-        "event_time_utc": "2026-05-11T12:00:00Z",
-        "is_expired": false,
-        "market_type": "1X2",
-        "line": "2",
-        "selection": "FC Fredericia",
-        "odds_at_decision": 3.8,
-        "decision": "PASS",
-        "confidence": "low",
-        "paper_stake_pct": 0.0,
-        "reasoning_code": "NO_VALID_EDGE_CONTEXT",
-        "reasoning_summary": "PASS: no valid research-backed edge. Paper-only system stays conservative.",
-        "risk_flags": [],
-        "data_flags": [
-          "no_valid_research_context"
-        ],
-        "research_used": false,
-        "research_id": null,
-        "research_status": null,
-        "research_confidence": null,
-        "source_market_snapshot": {
-          "market_id": "mkt_580a38f7509459d3",
-          "event_id": "evt_ab02c4a1ae21d5da",
-          "event_name": "Vejle vs FC Fredericia",
-          "league": "unknown",
-          "sport": "football",
-          "event_time_utc": "2026-05-11T12:00:00Z",
-          "market_type": "1X2",
-          "line": "2",
-          "selection": "FC Fredericia",
-          "odds": 3.8,
-          "first_seen_odds": 3.8,
-          "latest_seen_odds": 3.8,
-          "movement_from_first": "unchanged",
-          "change_pct_from_first": 0.0,
-          "observation_count": 1,
-          "non_duplicate_observation_count": 1,
-          "dedupe_counts": {
-            "new_observation": 1
-          },
-          "parser_confidence_total": 0.995,
-          "parser_confidence_status": "high",
-          "hard_gates": {
-            "layout_detected": true,
-            "canonical_match": true,
-            "odds_integrity": true,
-            "event_time_verified": true,
-            "completeness": true,
-            "layout_approved": true,
-            "extraction_confidence": true
-          },
-          "latest_observation_id": "obs_fbfbb2eb64bcef2c",
-          "is_expired": false,
-          "research_context": null,
-          "has_valid_research": false
-        }
-      },
+      "decision": null,
       "trigger_reasons": [
         "simulated_research_trigger"
       ],
@@ -576,7 +507,7 @@
     },
     {
       "market_id": "mkt_580a38f7509459d3",
-      "reason": "no_research_trigger"
+      "reason": "research_exists_for_version"
     },
     {
       "market_id": "mkt_41973a7a953c14be",
