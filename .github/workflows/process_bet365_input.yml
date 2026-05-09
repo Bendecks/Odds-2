@@ -48,6 +48,14 @@ jobs:
           python -m pip install --upgrade pip
           pip install pypdf PyMuPDF openai requests
 
+      - name: Run Gemini PDF parser smoke test
+        run: python scripts/gemini_pdf_parser.py
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_PDF_MODEL: gemini-2.5-flash
+          ODDS_MAX_FILES: 5
+          ODDS_TIMEZONE: Europe/Copenhagen
+
       - name: Run Phase 1.1 dedupe stress tests
         run: python scripts/test_dedupe.py
 
