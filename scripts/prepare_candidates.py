@@ -10,6 +10,7 @@ OUT_PATH = pathlib.Path('output/latest/ai_candidates.json')
 OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
 
 MODEL_VERSION = 'phase2_chatgpt_paper_v2'
+CONTEXT_RECORD_TYPES = {'research_record', 'market_consensus_record'}
 
 
 def utc_now_dt():
@@ -38,22 +39,35 @@ def load_market_state(path=MARKET_STATE_PATH):
     return json.loads(path.read_text(encoding='utf-8'))
 
 
-def existing_decision_keys(records, model_version=MODEL_VERSION):
-    """Decision dedupe is scoped to a market snapshot, not market forever."""
-    keys = set()
+def decision_and_context_state(records, model_version=MODEL_VERSION):
+    """Decision dedupe is scoped to market snapshot, but new context permits reevaluation."""
+    decision_times = {}
     legacy_market_ids = set()
+    latest_context_time = {}
+    latest_context_type = {}
     for r in records:
-        if r.get('record_type') != 'decision_record':
+        rtype = r.get('record_type')
+        market_id = r.get('market_id')
+        if not market_id:
+            continue
+        created = r.get('created_at') or r.get('generated_at') or ''
+        if rtype in CONTEXT_RECORD_TYPES:
+            if created > latest_context_time.get(market_id, ''):
+                latest_context_time[market_id] = created
+                latest_context_type[market_id] = rtype
+            continue
+        if rtype != 'decision_record':
             continue
         if r.get('model_version') != model_version:
             continue
-        market_id = r.get('market_id')
         latest_observation_id = r.get('latest_observation_id')
         if market_id and latest_observation_id:
-            keys.add((market_id, latest_observation_id))
+            key = (market_id, latest_observation_id)
+            if created > decision_times.get(key, ''):
+                decision_times[key] = created
         elif market_id:
             legacy_market_ids.add(market_id)
-    return keys, legacy_market_ids
+    return decision_times, legacy_market_ids, latest_context_time, latest_context_type
 
 
 def market_is_eligible(market):
@@ -105,7 +119,7 @@ def compact_candidate(market):
 def prepare_candidates(max_candidates=90, model_version=MODEL_VERSION):
     state = load_market_state()
     records = read_tracker()
-    existing_snapshot_keys, legacy_market_ids = existing_decision_keys(records, model_version)
+    decision_times, legacy_market_ids, latest_context_time, latest_context_type = decision_and_context_state(records, model_version)
     eligible = []
     skipped = []
     reason_counts = Counter()
@@ -118,11 +132,16 @@ def prepare_candidates(max_candidates=90, model_version=MODEL_VERSION):
             skipped.append({'market_id': mid, 'reason': reason})
             reason_counts[reason] += 1
             continue
-        if mid and latest_observation_id and (mid, latest_observation_id) in existing_snapshot_keys:
-            skipped.append({'market_id': mid, 'latest_observation_id': latest_observation_id, 'reason': 'decision_exists_for_market_observation_model'})
-            reason_counts['decision_exists_for_market_observation_model'] += 1
+        key = (mid, latest_observation_id)
+        decision_time = decision_times.get(key)
+        context_time = latest_context_time.get(mid)
+        if decision_time and (not context_time or decision_time >= context_time):
+            skipped.append({'market_id': mid, 'latest_observation_id': latest_observation_id, 'reason': 'decision_exists_for_market_observation_model_no_new_context'})
+            reason_counts['decision_exists_for_market_observation_model_no_new_context'] += 1
             continue
-        # Legacy decisions without latest_observation_id should not block new V3+ decisions.
+        if decision_time and context_time and context_time > decision_time:
+            skipped.append({'market_id': mid, 'latest_observation_id': latest_observation_id, 'reason': 'reevaluate_due_to_new_context', 'context_type': latest_context_type.get(mid)})
+            reason_counts['reevaluate_due_to_new_context'] += 1
         if mid in legacy_market_ids:
             skipped.append({'market_id': mid, 'reason': 'legacy_decision_ignored_no_observation_scope'})
             reason_counts['legacy_decision_ignored_no_observation_scope'] += 1
