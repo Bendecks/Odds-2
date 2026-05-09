@@ -1,0 +1,67 @@
+{
+  "source_file": "inbox/possible_bets/20260509-075325_possible_bets_1486.pdf",
+  "timezone_assumed": "Europe/Copenhagen",
+  "matches": [
+    {
+      "home_team": "FC Nordsjælland",
+      "away_team": "FC Midtjylland",
+      "league": "Danmark - Superligaen",
+      "date_display": "Søn 10 maj",
+      "time_display": "14:00",
+      "odds_1": 2.87,
+      "odds_x": 3.8,
+      "odds_2": 2.2,
+      "confidence": "high",
+      "notes": "time normalized from 14:00 6"
+    },
+    {
+      "home_team": "Vejle",
+      "away_team": "FC Fredericia",
+      "league": "Danmark - Superligaen",
+      "date_display": "Søn 10 maj",
+      "time_display": "14:00",
+      "odds_1": 3.2,
+      "odds_x": 3.5,
+      "odds_2": 2.15,
+      "confidence": "high",
+      "notes": "time normalized from 14:00 6"
+    },
+    {
+      "home_team": "Silkeborg IF",
+      "away_team": "FC København",
+      "league": "Danmark - Superligaen",
+      "date_display": "Søn 10 maj",
+      "time_display": "16:00",
+      "odds_1": 3.9,
+      "odds_x": 3.9,
+      "odds_2": 1.8,
+      "confidence": "high",
+      "notes": "time normalized from 16:00 6"
+    },
+    {
+      "home_team": "Brøndby",
+      "away_team": "AGF",
+      "league": "Danmark - Superligaen",
+      "date_display": "Søn 10 maj",
+      "time_display": "18:00",
+      "odds_1": 2.87,
+      "odds_x": 3.6,
+      "odds_2": 2.3,
+      "confidence": "high",
+      "notes": "time normalized from 18:00 6"
+    },
+    {
+      "home_team": "Randers FC",
+      "away_team": "OB",
+      "league": "Danmark - Superligaen",
+      "date_display": "Man 11 maj",
+      "time_display": "19:00",
+      "odds_1": 2.2,
+      "odds_x": 3.5,
+      "odds_2": 3.1,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "parser_warnings": []
+}

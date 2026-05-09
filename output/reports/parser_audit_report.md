@@ -1,6 +1,6 @@
 # Odds 2 — Parser Audit Report
 
-Generated: 2026-05-09T08:41:20Z
+Generated: 2026-05-09T09:05:16Z
 - Audit version: parser_audit_v1_1x2_mapping
 - Events checked: 59
 - Events flagged: 25

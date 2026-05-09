@@ -1,0 +1,344 @@
+{
+  "generated_at": "2026-05-09T09:05:10Z",
+  "parser_source": "gemini_pdf_vision",
+  "model": "gemini-2.5-flash",
+  "files_processed": 5,
+  "files": [
+    {
+      "source_file": "inbox/possible_bets/20260509-075325_possible_bets_1486.pdf",
+      "timezone_assumed": "Europe/Copenhagen",
+      "matches": [
+        {
+          "home_team": "FC Nordsjælland",
+          "away_team": "FC Midtjylland",
+          "league": "Danmark - Superligaen",
+          "date_display": "Søn 10 maj",
+          "time_display": "14:00",
+          "odds_1": 2.87,
+          "odds_x": 3.8,
+          "odds_2": 2.2,
+          "confidence": "high",
+          "notes": "time normalized from 14:00 6"
+        },
+        {
+          "home_team": "Vejle",
+          "away_team": "FC Fredericia",
+          "league": "Danmark - Superligaen",
+          "date_display": "Søn 10 maj",
+          "time_display": "14:00",
+          "odds_1": 3.2,
+          "odds_x": 3.5,
+          "odds_2": 2.15,
+          "confidence": "high",
+          "notes": "time normalized from 14:00 6"
+        },
+        {
+          "home_team": "Silkeborg IF",
+          "away_team": "FC København",
+          "league": "Danmark - Superligaen",
+          "date_display": "Søn 10 maj",
+          "time_display": "16:00",
+          "odds_1": 3.9,
+          "odds_x": 3.9,
+          "odds_2": 1.8,
+          "confidence": "high",
+          "notes": "time normalized from 16:00 6"
+        },
+        {
+          "home_team": "Brøndby",
+          "away_team": "AGF",
+          "league": "Danmark - Superligaen",
+          "date_display": "Søn 10 maj",
+          "time_display": "18:00",
+          "odds_1": 2.87,
+          "odds_x": 3.6,
+          "odds_2": 2.3,
+          "confidence": "high",
+          "notes": "time normalized from 18:00 6"
+        },
+        {
+          "home_team": "Randers FC",
+          "away_team": "OB",
+          "league": "Danmark - Superligaen",
+          "date_display": "Man 11 maj",
+          "time_display": "19:00",
+          "odds_1": 2.2,
+          "odds_x": 3.5,
+          "odds_2": 3.1,
+          "confidence": "high",
+          "notes": ""
+        }
+      ],
+      "parser_warnings": [],
+      "file_id": "e5ab0ec23b80b829",
+      "parser_source": "gemini_pdf_vision"
+    },
+    {
+      "source_file": "inbox/possible_bets/20260509-075324_possible_bets_4871.pdf",
+      "timezone_assumed": "Europe/Copenhagen",
+      "matches": [],
+      "parser_warnings": [
+        "No football 1X2 match odds were found. All visible markets are for Tennis, which are 1-2 markets, not 1X2."
+      ],
+      "file_id": "1fe8232dd7c6c3ba",
+      "parser_source": "gemini_pdf_vision"
+    },
+    {
+      "source_file": "inbox/possible_bets/20260509-075323_possible_bets_1632.pdf",
+      "file_id": "0358b42046da10e1",
+      "error": "Expecting ',' delimiter: line 292 column 6 (char 7289)",
+      "matches": []
+    },
+    {
+      "source_file": "inbox/possible_bets/20260509-075321_possible_bets_4179.pdf",
+      "timezone_assumed": "Europe/Copenhagen",
+      "matches": [
+        {
+          "home_team": "Liverpool",
+          "away_team": "Chelsea",
+          "league": "England - Premier League",
+          "date_display": "Lør 09 maj",
+          "time_display": "13:30",
+          "odds_1": 1.95,
+          "odds_x": 3.75,
+          "odds_2": 3.6,
+          "confidence": "high",
+          "notes": ""
+        },
+        {
+          "home_team": "Brighton",
+          "away_team": "Wolverhampton",
+          "league": "England - Premier League",
+          "date_display": "Lør 09 maj",
+          "time_display": "16:00",
+          "odds_1": 1.25,
+          "odds_x": 6.5,
+          "odds_2": 10.0,
+          "confidence": "high",
+          "notes": ""
+        },
+        {
+          "home_team": "Fulham",
+          "away_team": "Bournemouth",
+          "league": "England - Premier League",
+          "date_display": "Lør 09 maj",
+          "time_display": "16:00",
+          "odds_1": 2.5,
+          "odds_x": 3.3,
+          "odds_2": 2.45,
+          "confidence": "high",
+          "notes": ""
+        },
+        {
+          "home_team": "Sunderland",
+          "away_team": "Man Utd",
+          "league": "England - Premier League",
+          "date_display": "Lør 09 maj",
+          "time_display": "16:00",
+          "odds_1": 3.6,
+          "odds_x": 3.7,
+          "odds_2": 1.95,
+          "confidence": "high",
+          "notes": ""
+        },
+        {
+          "home_team": "Man City",
+          "away_team": "Brentford",
+          "league": "England - Premier League",
+          "date_display": "Lør 09 maj",
+          "time_display": "18:30",
+          "odds_1": 1.33,
+          "odds_x": 5.25,
+          "odds_2": 5.5,
+          "confidence": "high",
+          "notes": ""
+        },
+        {
+          "home_team": "Burnley",
+          "away_team": "Aston Villa",
+          "league": "England - Premier League",
+          "date_display": "Søn 10 maj",
+          "time_display": "15:00",
+          "odds_1": 4.75,
+          "odds_x": 4.33,
+          "odds_2": 1.61,
+          "confidence": "high",
+          "notes": ""
+        },
+        {
+          "home_team": "Crystal Palace",
+          "away_team": "Everton",
+          "league": "England - Premier League",
+          "date_display": "Søn 10 maj",
+          "time_display": "15:00",
+          "odds_1": 2.8,
+          "odds_x": 3.3,
+          "odds_2": 2.6,
+          "confidence": "high",
+          "notes": ""
+        },
+        {
+          "home_team": "Nottm Forest",
+          "away_team": "Newcastle",
+          "league": "England - Premier League",
+          "date_display": "Søn 10 maj",
+          "time_display": "15:00",
+          "odds_1": 2.7,
+          "odds_x": 3.6,
+          "odds_2": 2.45,
+          "confidence": "high",
+          "notes": ""
+        },
+        {
+          "home_team": "West Ham",
+          "away_team": "Arsenal",
+          "league": "England - Premier League",
+          "date_display": "Søn 10 maj",
+          "time_display": "17:30",
+          "odds_1": 5.25,
+          "odds_x": 4.1,
+          "odds_2": 1.6,
+          "confidence": "high",
+          "notes": ""
+        },
+        {
+          "home_team": "Tottenham",
+          "away_team": "Leeds",
+          "league": "England - Premier League",
+          "date_display": "Man 11 maj",
+          "time_display": "21:00",
+          "odds_1": 1.85,
+          "odds_x": 4.1,
+          "odds_2": 3.7,
+          "confidence": "high",
+          "notes": ""
+        },
+        {
+          "home_team": "Man City",
+          "away_team": "Crystal Palace",
+          "league": "England - Premier League",
+          "date_display": "Ons 13 maj",
+          "time_display": "21:00",
+          "odds_1": 1.27,
+          "odds_x": 6.0,
+          "odds_2": 9.5,
+          "confidence": "high",
+          "notes": ""
+        },
+        {
+          "home_team": "Aston Villa",
+          "away_team": "Liverpool",
+          "league": "England - Premier League",
+          "date_display": "Fre 15 maj",
+          "time_display": "21:00",
+          "odds_1": 3.6,
+          "odds_x": 4.0,
+          "odds_2": 1.83,
+          "confidence": "high",
+          "notes": ""
+        },
+        {
+          "home_team": "Man Utd",
+          "away_team": "Nottm Forest",
+          "league": "England - Premier League",
+          "date_display": "Søn 17 maj",
+          "time_display": "13:30",
+          "odds_1": 1.6,
+          "odds_x": 4.0,
+          "odds_2": 5.25,
+          "confidence": "high",
+          "notes": ""
+        },
+        {
+          "home_team": "Brentford",
+          "away_team": "Crystal Palace",
+          "league": "England - Premier League",
+          "date_display": "Søn 17 maj",
+          "time_display": "16:00",
+          "odds_1": 1.66,
+          "odds_x": 3.9,
+          "odds_2": 4.75,
+          "confidence": "high",
+          "notes": ""
+        },
+        {
+          "home_team": "Everton",
+          "away_team": "Sunderland",
+          "league": "England - Premier League",
+          "date_display": "Søn 17 maj",
+          "time_display": "16:00",
+          "odds_1": 1.72,
+          "odds_x": 3.75,
+          "odds_2": 4.5,
+          "confidence": "high",
+          "notes": ""
+        },
+        {
+          "home_team": "Leeds",
+          "away_team": "Brighton",
+          "league": "England - Premier League",
+          "date_display": "Søn 17 maj",
+          "time_display": "16:00",
+          "odds_1": 2.9,
+          "odds_x": 3.6,
+          "odds_2": 2.25,
+          "confidence": "high",
+          "notes": ""
+        },
+        {
+          "home_team": "Wolverhampton",
+          "away_team": "Fulham",
+          "league": "England - Premier League",
+          "date_display": "Søn 17 maj",
+          "time_display": "16:00",
+          "odds_1": 3.6,
+          "odds_x": 3.6,
+          "odds_2": 1.95,
+          "confidence": "high",
+          "notes": ""
+        },
+        {
+          "home_team": "Newcastle",
+          "away_team": "West Ham",
+          "league": "England - Premier League",
+          "date_display": "Søn 17 maj",
+          "time_display": "18:30",
+          "odds_1": 2.0,
+          "odds_x": 3.75,
+          "odds_2": 3.4,
+          "confidence": "high",
+          "notes": ""
+        },
+        {
+          "home_team": "Arsenal",
+          "away_team": "Burnley",
+          "league": "England - Premier League",
+          "date_display": "Man 18 maj",
+          "time_display": "21:00",
+          "odds_1": 1.11,
+          "odds_x": 10.0,
+          "odds_2": 15.0,
+          "confidence": "high",
+          "notes": ""
+        }
+      ],
+      "parser_warnings": [],
+      "file_id": "cb3feae5ffa1316a",
+      "parser_source": "gemini_pdf_vision"
+    },
+    {
+      "source_file": "inbox/possible_bets/20260509-073222_possible_bets_9028.pdf",
+      "timezone_assumed": "Europe/Copenhagen",
+      "matches": [],
+      "parser_warnings": [
+        "No football 1X2 match odds were found. All visible matches are for Tennis."
+      ],
+      "file_id": "1fe8232dd7c6c3ba",
+      "parser_source": "gemini_pdf_vision"
+    }
+  ],
+  "summary": {
+    "matches_total": 24,
+    "files_with_errors": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "source_file": "inbox/possible_bets/20260509-073222_possible_bets_9028.pdf",
+  "timezone_assumed": "Europe/Copenhagen",
+  "matches": [],
+  "parser_warnings": [
+    "No football 1X2 match odds were found. All visible matches are for Tennis."
+  ]
+}
