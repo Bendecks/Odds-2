@@ -25,8 +25,28 @@ FAKE_WRITE = os.getenv('SIMULATE_RESEARCH_WRITE_RECORD', 'false').lower() == 'tr
 PRIORITY_LEAGUES = {'Premier League', 'Superligaen', 'Bundesliga', 'Serie A', 'LaLiga', 'Ligue 1', 'Champions League', 'Europa League'}
 
 
+def now_utc_dt():
+    return datetime.now(timezone.utc)
+
+
 def now_utc():
-    return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace('+00:00', 'Z')
+    return now_utc_dt().replace(microsecond=0).isoformat().replace('+00:00', 'Z')
+
+
+def parse_utc(value):
+    if not value:
+        return None
+    try:
+        return datetime.fromisoformat(str(value).replace('Z', '+00:00'))
+    except Exception:
+        return None
+
+
+def is_expired_market(market):
+    dt = parse_utc((market.get('event_time') or {}).get('utc'))
+    if not dt:
+        return False
+    return dt <= now_utc_dt()
 
 
 def stable_id(prefix, *parts):
@@ -107,6 +127,8 @@ def select_candidates():
         mid = market.get('market_id')
         if not mid:
             continue
+        if is_expired_market(market):
+            skipped.append({'market_id': mid, 'reason': 'event_expired'}); continue
         if mid in existing:
             skipped.append({'market_id': mid, 'reason': 'research_exists_for_version'}); continue
         if not market.get('active'):
@@ -123,7 +145,10 @@ def select_candidates():
         candidates.append(compact_market(market, decision, ['simulated_research_trigger']))
     candidates.sort(key=lambda c: (-c.get('priority_score', 0), c.get('event_time_utc') or ''))
     selected = candidates[:MAX_CALLS]
-    payload = {'generated_at': now_utc(), 'research_version': VERSION, 'candidate_count': len(selected), 'all_triggered_count': len(candidates), 'skipped_count': len(skipped), 'simulate_research_trigger': FORCE_ONE, 'simulate_research_write_record': FAKE_WRITE, 'candidates': selected, 'skipped': skipped[:250]}
+    reason_counts = {}
+    for s in skipped:
+        reason_counts[s['reason']] = reason_counts.get(s['reason'], 0) + 1
+    payload = {'generated_at': now_utc(), 'research_version': VERSION, 'candidate_count': len(selected), 'all_triggered_count': len(candidates), 'skipped_count': len(skipped), 'skip_reason_counts': reason_counts, 'simulate_research_trigger': FORCE_ONE, 'simulate_research_write_record': FAKE_WRITE, 'candidates': selected, 'skipped': skipped[:250]}
     (OUT_LATEST / 'research_candidates.json').write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding='utf-8')
     return payload
 
@@ -168,22 +193,8 @@ def structure_prompt(candidate, raw_text, sources):
         'candidate': candidate,
         'raw_research_text': raw_text[:3000],
         'source_metadata': compact_sources,
-        'rules': [
-            'Return JSON only.',
-            'Do not invent facts not present in raw_research_text.',
-            'Keep all strings short.',
-            'Use hard for injuries, suspensions, lineups, goalkeeper changes.',
-            'Use soft for motivation, form, schedule, weather, market consensus.',
-            'If evidence is weak, use insufficient_data and low confidence.'
-        ],
-        'schema': {
-            'research_status': 'completed|insufficient_data|failed',
-            'source_quality': {'primary_source_count': 0, 'secondary_source_count': 0, 'echo_chamber_risk': 'none|low|medium|high'},
-            'signals': {'hard': [], 'soft': [], 'contradictions': []},
-            'confidence': 'low|medium|high',
-            'summary': 'max 250 chars',
-            'research_flags': []
-        }
+        'rules': ['Return JSON only.', 'Do not invent facts not present in raw_research_text.', 'Keep all strings short.', 'Use hard for injuries, suspensions, lineups, goalkeeper changes.', 'Use soft for motivation, form, schedule, weather, market consensus.', 'If evidence is weak, use insufficient_data and low confidence.'],
+        'schema': {'research_status': 'completed|insufficient_data|failed', 'source_quality': {'primary_source_count': 0, 'secondary_source_count': 0, 'echo_chamber_risk': 'none|low|medium|high'}, 'signals': {'hard': [], 'soft': [], 'contradictions': []}, 'confidence': 'low|medium|high', 'summary': 'max 250 chars', 'research_flags': []}
     }
     return json.dumps(payload, ensure_ascii=False)
 
@@ -205,11 +216,7 @@ def call_research_step(candidate):
     url = gemini_url(RESEARCH_MODEL)
     if not url:
         return None, [], {'code': 'missing_gemini_api_key'}
-    body = {
-        'contents': [{'role': 'user', 'parts': [{'text': research_prompt(candidate)}]}],
-        'tools': [{'google_search': {}}],
-        'generationConfig': {'temperature': 0, 'maxOutputTokens': 1024},
-    }
+    body = {'contents': [{'role': 'user', 'parts': [{'text': research_prompt(candidate)}]}], 'tools': [{'google_search': {}}], 'generationConfig': {'temperature': 0, 'maxOutputTokens': 1024}}
     try:
         resp = requests.post(url, json=body, timeout=90)
         if resp.status_code >= 400:
@@ -225,10 +232,7 @@ def call_structure_step(candidate, raw_text, sources):
     url = gemini_url(STRUCTURE_MODEL)
     if not url:
         return None, {'code': 'missing_gemini_api_key'}
-    body = {
-        'contents': [{'role': 'user', 'parts': [{'text': structure_prompt(candidate, raw_text, sources)}]}],
-        'generationConfig': {'temperature': 0, 'responseMimeType': 'application/json', 'maxOutputTokens': 2048},
-    }
+    body = {'contents': [{'role': 'user', 'parts': [{'text': structure_prompt(candidate, raw_text, sources)}]}], 'generationConfig': {'temperature': 0, 'responseMimeType': 'application/json', 'maxOutputTokens': 2048}}
     try:
         resp = requests.post(url, json=body, timeout=90)
         if resp.status_code >= 400:
@@ -246,17 +250,7 @@ def two_step_research(candidate):
         return None, research_error
     structured, structure_error = call_structure_step(candidate, raw_text or '', sources)
     if structure_error:
-        fallback = {
-            'research_status': 'completed_unstructured',
-            'source_quality': {'primary_source_count': 0, 'secondary_source_count': len(sources), 'echo_chamber_risk': 'medium'},
-            'signals': {'hard': [], 'soft': [raw_text[:300]] if raw_text else [], 'contradictions': []},
-            'confidence': 'low',
-            'summary': 'Grounded research succeeded, but structure step failed.',
-            'research_flags': ['structure_step_failed'],
-        }
-        fallback['raw_research_text'] = raw_text
-        fallback['grounding_chunks'] = sources
-        fallback['source_links'] = [s.get('uri') for s in sources[:3] if s.get('uri')]
+        fallback = {'research_status': 'completed_unstructured', 'source_quality': {'primary_source_count': 0, 'secondary_source_count': len(sources), 'echo_chamber_risk': 'medium'}, 'signals': {'hard': [], 'soft': [raw_text[:300]] if raw_text else [], 'contradictions': []}, 'confidence': 'low', 'summary': 'Grounded research succeeded, but structure step failed.', 'research_flags': ['structure_step_failed'], 'raw_research_text': raw_text, 'grounding_chunks': sources, 'source_links': [s.get('uri') for s in sources[:3] if s.get('uri')]}
         return fallback, structure_error
     structured['raw_research_text'] = raw_text
     structured['grounding_chunks'] = sources
@@ -277,50 +271,11 @@ def normalize(candidate, output, error=None):
         output = {'research_status': 'failed', 'source_links': [], 'source_quality': {'primary_source_count': 0, 'secondary_source_count': 0, 'echo_chamber_risk': 'high'}, 'signals': {'hard': [], 'soft': [], 'contradictions': []}, 'confidence': 'low', 'summary': f'Research failed: {error_code(error)}', 'research_flags': [error_code(error)], 'grounding_chunks': [], 'raw_research_text': ''}
     sq = output.get('source_quality') if isinstance(output.get('source_quality'), dict) else {}
     sig = output.get('signals') if isinstance(output.get('signals'), dict) else {}
-    return {
-        'record_type': 'research_record',
-        'research_id': stable_id('res', VERSION, candidate.get('market_id'), now_utc()),
-        'research_version': VERSION,
-        'created_at': now_utc(),
-        'provider': 'simulation' if FAKE_WRITE else 'gemini_twostep',
-        'research_model': RESEARCH_MODEL,
-        'structure_model': STRUCTURE_MODEL,
-        'market_id': candidate.get('market_id'),
-        'event_id': candidate.get('event_id'),
-        'event_name': candidate.get('event_name'),
-        'selection': candidate.get('selection'),
-        'odds': candidate.get('odds'),
-        'trigger_reasons': candidate.get('trigger_reasons'),
-        'priority_score': candidate.get('priority_score'),
-        'research_status': output.get('research_status') or 'completed',
-        'source_links': output.get('source_links') if isinstance(output.get('source_links'), list) else [],
-        'source_quality': {
-            'primary_source_count': int(sq.get('primary_source_count') or 0),
-            'secondary_source_count': int(sq.get('secondary_source_count') or len(output.get('source_links') or [])),
-            'echo_chamber_risk': sq.get('echo_chamber_risk') if sq.get('echo_chamber_risk') in {'none', 'low', 'medium', 'high'} else 'medium',
-        },
-        'signals': {
-            'hard': sig.get('hard') if isinstance(sig.get('hard'), list) else [],
-            'soft': sig.get('soft') if isinstance(sig.get('soft'), list) else [],
-            'contradictions': sig.get('contradictions') if isinstance(sig.get('contradictions'), list) else [],
-            'injuries': sig.get('hard') if isinstance(sig.get('hard'), list) else [],
-            'lineups': [],
-            'motivation': sig.get('soft') if isinstance(sig.get('soft'), list) else [],
-            'form': [],
-            'market_consensus': None,
-        },
-        'confidence': output.get('confidence') if output.get('confidence') in {'low', 'medium', 'high'} else 'low',
-        'summary': str(output.get('summary') or '')[:1000],
-        'research_flags': output.get('research_flags') if isinstance(output.get('research_flags'), list) else [],
-        'error_detail': error if isinstance(error, dict) else None,
-        'grounding_chunks': output.get('grounding_chunks') if isinstance(output.get('grounding_chunks'), list) else [],
-        'raw_research_text': str(output.get('raw_research_text') or '')[:4000],
-        'source_market_snapshot': candidate,
-    }
+    return {'record_type': 'research_record', 'research_id': stable_id('res', VERSION, candidate.get('market_id'), now_utc()), 'research_version': VERSION, 'created_at': now_utc(), 'provider': 'simulation' if FAKE_WRITE else 'gemini_twostep', 'research_model': RESEARCH_MODEL, 'structure_model': STRUCTURE_MODEL, 'market_id': candidate.get('market_id'), 'event_id': candidate.get('event_id'), 'event_name': candidate.get('event_name'), 'selection': candidate.get('selection'), 'odds': candidate.get('odds'), 'trigger_reasons': candidate.get('trigger_reasons'), 'priority_score': candidate.get('priority_score'), 'research_status': output.get('research_status') or 'completed', 'source_links': output.get('source_links') if isinstance(output.get('source_links'), list) else [], 'source_quality': {'primary_source_count': int(sq.get('primary_source_count') or 0), 'secondary_source_count': int(sq.get('secondary_source_count') or len(output.get('source_links') or [])), 'echo_chamber_risk': sq.get('echo_chamber_risk') if sq.get('echo_chamber_risk') in {'none', 'low', 'medium', 'high'} else 'medium'}, 'signals': {'hard': sig.get('hard') if isinstance(sig.get('hard'), list) else [], 'soft': sig.get('soft') if isinstance(sig.get('soft'), list) else [], 'contradictions': sig.get('contradictions') if isinstance(sig.get('contradictions'), list) else [], 'injuries': sig.get('hard') if isinstance(sig.get('hard'), list) else [], 'lineups': [], 'motivation': sig.get('soft') if isinstance(sig.get('soft'), list) else [], 'form': [], 'market_consensus': None}, 'confidence': output.get('confidence') if output.get('confidence') in {'low', 'medium', 'high'} else 'low', 'summary': str(output.get('summary') or '')[:1000], 'research_flags': output.get('research_flags') if isinstance(output.get('research_flags'), list) else [], 'error_detail': error if isinstance(error, dict) else None, 'grounding_chunks': output.get('grounding_chunks') if isinstance(output.get('grounding_chunks'), list) else [], 'raw_research_text': str(output.get('raw_research_text') or '')[:4000], 'source_market_snapshot': candidate}
 
 
 def write_report(payload, records):
-    lines = ['# Odds 2 — Phase 2.1 Research Report', '', f'Generated: {now_utc()}', f'- Research version: {VERSION}', f'- Research model: {RESEARCH_MODEL}', f'- Structure model: {STRUCTURE_MODEL}', f'- Research enabled: {ENABLED}', f'- Simulate research trigger: {FORCE_ONE}', f'- Simulate research write record: {FAKE_WRITE}', f'- Research candidates selected: {payload.get("candidate_count")}', f'- All triggered markets: {payload.get("all_triggered_count")}', f'- Research records written: {len(records)}', '']
+    lines = ['# Odds 2 — Phase 2.1 Research Report', '', f'Generated: {now_utc()}', f'- Research version: {VERSION}', f'- Research model: {RESEARCH_MODEL}', f'- Structure model: {STRUCTURE_MODEL}', f'- Research enabled: {ENABLED}', f'- Simulate research trigger: {FORCE_ONE}', f'- Simulate research write record: {FAKE_WRITE}', f'- Research candidates selected: {payload.get("candidate_count")}', f'- All triggered markets: {payload.get("all_triggered_count")}', f'- Research records written: {len(records)}', f'- Skip reason counts: `{json.dumps(payload.get("skip_reason_counts", {}), ensure_ascii=False)}`', '']
     if not records:
         lines.append('No research records written. No markets met research triggers.')
     for r in records:
