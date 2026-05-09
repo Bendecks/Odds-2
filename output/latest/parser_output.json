@@ -1,12 +1,39 @@
 {
-  "generated_at": "2026-05-09T05:49:41Z",
+  "generated_at": "2026-05-09T05:54:03Z",
   "phase": "data_integrity_foundation_v1_1",
   "input_dir": "inbox/possible_bets",
   "files": [
     {
-      "file_id": "fad20f5015d02db8",
-      "source_file": "inbox/possible_bets/20260509-073222_possible_bets_9028.pdf",
-      "extracted_at": "2026-05-09T05:49:41Z",
+      "file_id": "c35b064671d1ddb1",
+      "source_file": "inbox/possible_bets/20260509-075325_possible_bets_1486.pdf",
+      "extracted_at": "2026-05-09T05:54:04Z",
+      "text_extraction": {
+        "method": "pypdf",
+        "has_text_layer": true,
+        "text_length": 1712,
+        "line_count": 94,
+        "layout_hash": "4ec8c1082dbf9b16",
+        "layout_version": "unknown",
+        "extraction_confidence": 0.95,
+        "fallback_used": false,
+        "raw_text_debug_path": "output/debug_text/pypdf_c35b064671d1ddb1.txt",
+        "warnings": []
+      },
+      "capture": {
+        "raw_display": "09.05.2026, 07.53",
+        "local": "2026-05-09T07:53:00+02:00",
+        "utc": "2026-05-09T05:53:00Z",
+        "timezone": "Europe/Copenhagen",
+        "confidence": 0.95,
+        "source": "bet365_pdf_text",
+        "trusted_capture_date": true,
+        "warnings": []
+      }
+    },
+    {
+      "file_id": "f29c9c77900a737a",
+      "source_file": "inbox/possible_bets/20260509-075324_possible_bets_4871.pdf",
+      "extracted_at": "2026-05-09T05:54:04Z",
       "text_extraction": {
         "method": "pypdf",
         "has_text_layer": true,
@@ -16,7 +43,7 @@
         "layout_version": "unknown",
         "extraction_confidence": 0.95,
         "fallback_used": false,
-        "raw_text_debug_path": "output/debug_text/pypdf_fad20f5015d02db8.txt",
+        "raw_text_debug_path": "output/debug_text/pypdf_f29c9c77900a737a.txt",
         "warnings": []
       },
       "capture": {
@@ -31,9 +58,9 @@
       }
     },
     {
-      "file_id": "3f88b2cd999ff502",
-      "source_file": "inbox/possible_bets/20260509-073220_possible_bets_8283.pdf",
-      "extracted_at": "2026-05-09T05:49:42Z",
+      "file_id": "a0d4cc02d1a212b8",
+      "source_file": "inbox/possible_bets/20260509-075323_possible_bets_1632.pdf",
+      "extracted_at": "2026-05-09T05:54:04Z",
       "text_extraction": {
         "method": "pypdf",
         "has_text_layer": true,
@@ -43,7 +70,7 @@
         "layout_version": "unknown",
         "extraction_confidence": 0.95,
         "fallback_used": false,
-        "raw_text_debug_path": "output/debug_text/pypdf_3f88b2cd999ff502.txt",
+        "raw_text_debug_path": "output/debug_text/pypdf_a0d4cc02d1a212b8.txt",
         "warnings": []
       },
       "capture": {
@@ -58,9 +85,9 @@
       }
     },
     {
-      "file_id": "b092770fda356884",
-      "source_file": "inbox/possible_bets/20260509-073218_possible_bets_4032.pdf",
-      "extracted_at": "2026-05-09T05:49:43Z",
+      "file_id": "c2ad29c2ae96f5ad",
+      "source_file": "inbox/possible_bets/20260509-075321_possible_bets_4179.pdf",
+      "extracted_at": "2026-05-09T05:54:05Z",
       "text_extraction": {
         "method": "pypdf",
         "has_text_layer": true,
@@ -70,7 +97,7 @@
         "layout_version": "unknown",
         "extraction_confidence": 0.95,
         "fallback_used": false,
-        "raw_text_debug_path": "output/debug_text/pypdf_b092770fda356884.txt",
+        "raw_text_debug_path": "output/debug_text/pypdf_c2ad29c2ae96f5ad.txt",
         "warnings": []
       },
       "capture": {
@@ -85,9 +112,9 @@
       }
     },
     {
-      "file_id": "074b761bc4740f02",
-      "source_file": "inbox/possible_bets/20260508-105030_possible_bets_2863.pdf",
-      "extracted_at": "2026-05-09T05:49:43Z",
+      "file_id": "5ecb374b469108a8",
+      "source_file": "inbox/possible_bets/20260509-073222_possible_bets_9028.pdf",
+      "extracted_at": "2026-05-09T05:54:05Z",
       "text_extraction": {
         "method": "pypdf",
         "has_text_layer": true,
@@ -97,7 +124,7 @@
         "layout_version": "unknown",
         "extraction_confidence": 0.95,
         "fallback_used": false,
-        "raw_text_debug_path": "output/debug_text/pypdf_074b761bc4740f02.txt",
+        "raw_text_debug_path": "output/debug_text/pypdf_5ecb374b469108a8.txt",
         "warnings": []
       },
       "capture": {
@@ -112,9 +139,9 @@
       }
     },
     {
-      "file_id": "248a6ee3c3b66d22",
-      "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-      "extracted_at": "2026-05-09T05:49:44Z",
+      "file_id": "dfc1ba28c86aeb50",
+      "source_file": "inbox/possible_bets/20260509-073220_possible_bets_8283.pdf",
+      "extracted_at": "2026-05-09T05:54:06Z",
       "text_extraction": {
         "method": "pypdf",
         "has_text_layer": true,
@@ -124,7 +151,88 @@
         "layout_version": "unknown",
         "extraction_confidence": 0.95,
         "fallback_used": false,
-        "raw_text_debug_path": "output/debug_text/pypdf_248a6ee3c3b66d22.txt",
+        "raw_text_debug_path": "output/debug_text/pypdf_dfc1ba28c86aeb50.txt",
+        "warnings": []
+      },
+      "capture": {
+        "raw_display": "08.05.2026, 05.40",
+        "local": "2026-05-08T05:40:00+02:00",
+        "utc": "2026-05-08T03:40:00Z",
+        "timezone": "Europe/Copenhagen",
+        "confidence": 0.95,
+        "source": "bet365_pdf_text",
+        "trusted_capture_date": true,
+        "warnings": []
+      }
+    },
+    {
+      "file_id": "14e21d27ab106e4e",
+      "source_file": "inbox/possible_bets/20260509-073218_possible_bets_4032.pdf",
+      "extracted_at": "2026-05-09T05:54:06Z",
+      "text_extraction": {
+        "method": "pypdf",
+        "has_text_layer": true,
+        "text_length": 2614,
+        "line_count": 206,
+        "layout_hash": "4ec8c1082dbf9b16",
+        "layout_version": "unknown",
+        "extraction_confidence": 0.95,
+        "fallback_used": false,
+        "raw_text_debug_path": "output/debug_text/pypdf_14e21d27ab106e4e.txt",
+        "warnings": []
+      },
+      "capture": {
+        "raw_display": "09.05.2026, 07.16",
+        "local": "2026-05-09T07:16:00+02:00",
+        "utc": "2026-05-09T05:16:00Z",
+        "timezone": "Europe/Copenhagen",
+        "confidence": 0.95,
+        "source": "bet365_pdf_text",
+        "trusted_capture_date": true,
+        "warnings": []
+      }
+    },
+    {
+      "file_id": "d27edb4ac0d8fcae",
+      "source_file": "inbox/possible_bets/20260508-105030_possible_bets_2863.pdf",
+      "extracted_at": "2026-05-09T05:54:07Z",
+      "text_extraction": {
+        "method": "pypdf",
+        "has_text_layer": true,
+        "text_length": 2911,
+        "line_count": 163,
+        "layout_hash": "e9231e60512f025f",
+        "layout_version": "unknown",
+        "extraction_confidence": 0.95,
+        "fallback_used": false,
+        "raw_text_debug_path": "output/debug_text/pypdf_d27edb4ac0d8fcae.txt",
+        "warnings": []
+      },
+      "capture": {
+        "raw_display": "08.05.2026, 05.12",
+        "local": "2026-05-08T05:12:00+02:00",
+        "utc": "2026-05-08T03:12:00Z",
+        "timezone": "Europe/Copenhagen",
+        "confidence": 0.95,
+        "source": "bet365_pdf_text",
+        "trusted_capture_date": true,
+        "warnings": []
+      }
+    },
+    {
+      "file_id": "23ccd3ac008426bc",
+      "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
+      "extracted_at": "2026-05-09T05:54:07Z",
+      "text_extraction": {
+        "method": "pypdf",
+        "has_text_layer": true,
+        "text_length": 3050,
+        "line_count": 197,
+        "layout_hash": "4ec8c1082dbf9b16",
+        "layout_version": "unknown",
+        "extraction_confidence": 0.95,
+        "fallback_used": false,
+        "raw_text_debug_path": "output/debug_text/pypdf_23ccd3ac008426bc.txt",
         "warnings": []
       },
       "capture": {
@@ -141,12 +249,12 @@
   ],
   "parser_errors": [],
   "summary": {
-    "files_processed": 5,
-    "observations_raw": 183,
-    "records_appended": 188,
+    "files_processed": 9,
+    "observations_raw": 279,
+    "records_appended": 288,
     "dedupe_report": {
-      "new_observation": 0,
-      "duplicate_noise": 183,
+      "new_observation": 3,
+      "duplicate_noise": 276,
       "new_observation_same_odds": 0,
       "small_movement": 0,
       "odds_movement": 0,

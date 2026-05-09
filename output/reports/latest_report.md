@@ -1,24 +1,60 @@
 # Odds 2 — Data Integrity Report
 
-Generated: 2026-05-09T05:49:41Z
+Generated: 2026-05-09T05:54:03Z
 
 ## Summary
-- Files processed: 5
-- Observations parsed this run: 183
-- Dedupe report: `{"new_observation": 0, "duplicate_noise": 183, "new_observation_same_odds": 0, "small_movement": 0, "odds_movement": 0, "significant_odds_change": 0, "parser_conflict": 0}`
+- Files processed: 9
+- Observations parsed this run: 279
+- Dedupe report: `{"new_observation": 3, "duplicate_noise": 276, "new_observation_same_odds": 0, "small_movement": 0, "odds_movement": 0, "significant_odds_change": 0, "parser_conflict": 0}`
 
 ## Counts
-- Status: `{'parsed_candidate': 180, 'requires_review': 3}`
-- Dedupe: `{'duplicate_noise': 183}`
-- Parser confidence: `{'high': 180, 'medium': 3}`
+- Status: `{'requires_review': 9, 'parsed_candidate': 270}`
+- Dedupe: `{'new_observation': 3, 'duplicate_noise': 276}`
+- Parser confidence: `{'high': 273, 'medium': 6}`
 
 ## Latest Market State
-- Markets total: 93
-- Markets active: 93
+- Markets total: 96
+- Markets active: 96
 - Markets with small-or-larger movement: 0
 - Markets with significant movement: 0
 
 ## Files
+
+### inbox/possible_bets/20260509-075325_possible_bets_1486.pdf
+- Extraction method: pypdf
+- Has text layer: True
+- Line count: 94
+- Layout hash: 4ec8c1082dbf9b16
+- Layout status: known_layout
+- Extraction confidence: 0.95
+- Warnings: []
+
+### inbox/possible_bets/20260509-075324_possible_bets_4871.pdf
+- Extraction method: pypdf
+- Has text layer: True
+- Line count: 163
+- Layout hash: e9231e60512f025f
+- Layout status: known_layout
+- Extraction confidence: 0.95
+- Warnings: []
+
+### inbox/possible_bets/20260509-075323_possible_bets_1632.pdf
+- Extraction method: pypdf
+- Has text layer: True
+- Line count: 197
+- Layout hash: 4ec8c1082dbf9b16
+- Layout status: known_layout
+- Extraction confidence: 0.95
+- Warnings: []
+
+### inbox/possible_bets/20260509-075321_possible_bets_4179.pdf
+- Extraction method: pypdf
+- Has text layer: True
+- Line count: 206
+- Layout hash: 4ec8c1082dbf9b16
+- Layout status: known_layout
+- Extraction confidence: 0.95
+- Warnings: []
 
 ### inbox/possible_bets/20260509-073222_possible_bets_9028.pdf
 - Extraction method: pypdf
@@ -67,10 +103,30 @@ Generated: 2026-05-09T05:49:41Z
 
 ## Parsed observations this run by event
 
+### Randers FC vs OB | 19:00
+- Event UTC: 2026-05-09T17:00:00Z
+- Parser confidence: 0.9 (high)
+- Dedupe statuses: `{'new_observation': 3, 'duplicate_noise': 9}`
+  - 1 / Randers FC @ 2.87 | new_observation | requires_review
+  - X / Draw @ 3.2 | new_observation | requires_review
+  - 2 / OB @ 3.9 | new_observation | requires_review
+  - 1 / Randers FC @ 2.2 | duplicate_noise | parsed_candidate
+  - X / Draw @ 3.5 | duplicate_noise | parsed_candidate
+  - 2 / OB @ 3.1 | duplicate_noise | parsed_candidate
+  - 1 / Randers FC @ 2.2 | duplicate_noise | parsed_candidate
+  - X / Draw @ 3.5 | duplicate_noise | parsed_candidate
+  - 2 / OB @ 3.1 | duplicate_noise | parsed_candidate
+  - 1 / Randers FC @ 2.2 | duplicate_noise | parsed_candidate
+  - X / Draw @ 3.5 | duplicate_noise | parsed_candidate
+  - 2 / OB @ 3.1 | duplicate_noise | parsed_candidate
+
 ### Viborg vs Sønderjyske | 19:00
 - Event UTC: 2026-05-08T17:00:00Z
 - Parser confidence: 0.99 (high)
-- Dedupe statuses: `{'duplicate_noise': 6}`
+- Dedupe statuses: `{'duplicate_noise': 9}`
+  - 1 / Viborg @ 1.75 | duplicate_noise | parsed_candidate
+  - X / Draw @ 4.2 | duplicate_noise | parsed_candidate
+  - 2 / Sønderjyske @ 3.8 | duplicate_noise | parsed_candidate
   - 1 / Viborg @ 1.75 | duplicate_noise | parsed_candidate
   - X / Draw @ 4.2 | duplicate_noise | parsed_candidate
   - 2 / Sønderjyske @ 3.8 | duplicate_noise | parsed_candidate
@@ -81,7 +137,10 @@ Generated: 2026-05-09T05:49:41Z
 ### FC Nordsjælland vs FC Midtjylland | 14:00
 - Event UTC: 2026-05-08T12:00:00Z
 - Parser confidence: 0.99 (high)
-- Dedupe statuses: `{'duplicate_noise': 6}`
+- Dedupe statuses: `{'duplicate_noise': 9}`
+  - 1 / FC Nordsjælland @ 2.87 | duplicate_noise | parsed_candidate
+  - X / Draw @ 3.8 | duplicate_noise | parsed_candidate
+  - 2 / FC Midtjylland @ 2.2 | duplicate_noise | parsed_candidate
   - 1 / FC Nordsjælland @ 2.87 | duplicate_noise | parsed_candidate
   - X / Draw @ 3.8 | duplicate_noise | parsed_candidate
   - 2 / FC Midtjylland @ 2.2 | duplicate_noise | parsed_candidate
@@ -92,7 +151,10 @@ Generated: 2026-05-09T05:49:41Z
 ### Vejle vs FC Fredericia | 14:00
 - Event UTC: 2026-05-08T12:00:00Z
 - Parser confidence: 0.99 (high)
-- Dedupe statuses: `{'duplicate_noise': 6}`
+- Dedupe statuses: `{'duplicate_noise': 9}`
+  - 1 / Vejle @ 3.1 | duplicate_noise | parsed_candidate
+  - X / Draw @ 3.5 | duplicate_noise | parsed_candidate
+  - 2 / FC Fredericia @ 2.2 | duplicate_noise | parsed_candidate
   - 1 / Vejle @ 3.1 | duplicate_noise | parsed_candidate
   - X / Draw @ 3.5 | duplicate_noise | parsed_candidate
   - 2 / FC Fredericia @ 2.2 | duplicate_noise | parsed_candidate
@@ -103,7 +165,10 @@ Generated: 2026-05-09T05:49:41Z
 ### Silkeborg IF vs FC København | 16:00
 - Event UTC: 2026-05-08T14:00:00Z
 - Parser confidence: 0.99 (high)
-- Dedupe statuses: `{'duplicate_noise': 6}`
+- Dedupe statuses: `{'duplicate_noise': 9}`
+  - 1 / Silkeborg IF @ 4.2 | duplicate_noise | parsed_candidate
+  - X / Draw @ 4.0 | duplicate_noise | parsed_candidate
+  - 2 / FC København @ 1.72 | duplicate_noise | parsed_candidate
   - 1 / Silkeborg IF @ 4.2 | duplicate_noise | parsed_candidate
   - X / Draw @ 4.0 | duplicate_noise | parsed_candidate
   - 2 / FC København @ 1.72 | duplicate_noise | parsed_candidate
@@ -114,29 +179,24 @@ Generated: 2026-05-09T05:49:41Z
 ### Brøndby vs AGF | 18:00
 - Event UTC: 2026-05-08T16:00:00Z
 - Parser confidence: 0.99 (high)
-- Dedupe statuses: `{'duplicate_noise': 6}`
+- Dedupe statuses: `{'duplicate_noise': 9}`
   - 1 / Brøndby @ 2.87 | duplicate_noise | parsed_candidate
   - X / Draw @ 3.6 | duplicate_noise | parsed_candidate
   - 2 / AGF @ 2.3 | duplicate_noise | parsed_candidate
   - 1 / Brøndby @ 2.87 | duplicate_noise | parsed_candidate
   - X / Draw @ 3.6 | duplicate_noise | parsed_candidate
   - 2 / AGF @ 2.3 | duplicate_noise | parsed_candidate
-
-### Randers FC vs OB | 19:00
-- Event UTC: 2026-05-08T17:00:00Z
-- Parser confidence: 0.99 (high)
-- Dedupe statuses: `{'duplicate_noise': 6}`
-  - 1 / Randers FC @ 2.2 | duplicate_noise | parsed_candidate
-  - X / Draw @ 3.5 | duplicate_noise | parsed_candidate
-  - 2 / OB @ 3.1 | duplicate_noise | parsed_candidate
-  - 1 / Randers FC @ 2.2 | duplicate_noise | parsed_candidate
-  - X / Draw @ 3.5 | duplicate_noise | parsed_candidate
-  - 2 / OB @ 3.1 | duplicate_noise | parsed_candidate
+  - 1 / Brøndby @ 2.87 | duplicate_noise | parsed_candidate
+  - X / Draw @ 3.6 | duplicate_noise | parsed_candidate
+  - 2 / AGF @ 2.3 | duplicate_noise | parsed_candidate
 
 ### Hull vs Millwall | 21:00
 - Event UTC: 2026-05-08T19:00:00Z
 - Parser confidence: 0.99 (high)
-- Dedupe statuses: `{'duplicate_noise': 6}`
+- Dedupe statuses: `{'duplicate_noise': 9}`
+  - 1 / Hull @ 3.0 | duplicate_noise | parsed_candidate
+  - X / Draw @ 3.25 | duplicate_noise | parsed_candidate
+  - 2 / Millwall @ 2.32 | duplicate_noise | parsed_candidate
   - 1 / Hull @ 3.0 | duplicate_noise | parsed_candidate
   - X / Draw @ 3.25 | duplicate_noise | parsed_candidate
   - 2 / Millwall @ 2.32 | duplicate_noise | parsed_candidate
@@ -147,7 +207,10 @@ Generated: 2026-05-09T05:49:41Z
 ### Middlesbrough vs Southampton | 13:30
 - Event UTC: 2026-05-08T11:30:00Z
 - Parser confidence: 0.99 (high)
-- Dedupe statuses: `{'duplicate_noise': 6}`
+- Dedupe statuses: `{'duplicate_noise': 9}`
+  - 1 / Middlesbrough @ 2.2 | duplicate_noise | parsed_candidate
+  - X / Draw @ 3.3 | duplicate_noise | parsed_candidate
+  - 2 / Southampton @ 3.2 | duplicate_noise | parsed_candidate
   - 1 / Middlesbrough @ 2.2 | duplicate_noise | parsed_candidate
   - X / Draw @ 3.3 | duplicate_noise | parsed_candidate
   - 2 / Southampton @ 3.2 | duplicate_noise | parsed_candidate
@@ -158,7 +221,10 @@ Generated: 2026-05-09T05:49:41Z
 ### Liverpool vs Chelsea | 13:30
 - Event UTC: 2026-05-08T11:30:00Z
 - Parser confidence: 0.99 (high)
-- Dedupe statuses: `{'duplicate_noise': 6}`
+- Dedupe statuses: `{'duplicate_noise': 9}`
+  - 1 / Liverpool @ 1.83 | duplicate_noise | parsed_candidate
+  - X / Draw @ 4.0 | duplicate_noise | parsed_candidate
+  - 2 / Chelsea @ 3.9 | duplicate_noise | parsed_candidate
   - 1 / Liverpool @ 1.83 | duplicate_noise | parsed_candidate
   - X / Draw @ 4.0 | duplicate_noise | parsed_candidate
   - 2 / Chelsea @ 3.9 | duplicate_noise | parsed_candidate
@@ -169,7 +235,10 @@ Generated: 2026-05-09T05:49:41Z
 ### Sunderland vs Manchester United | 16:00
 - Event UTC: 2026-05-08T14:00:00Z
 - Parser confidence: 0.99 (high)
-- Dedupe statuses: `{'duplicate_noise': 6}`
+- Dedupe statuses: `{'duplicate_noise': 9}`
+  - 1 / Sunderland @ 3.9 | duplicate_noise | parsed_candidate
+  - X / Draw @ 3.75 | duplicate_noise | parsed_candidate
+  - 2 / Manchester United @ 1.85 | duplicate_noise | parsed_candidate
   - 1 / Sunderland @ 3.9 | duplicate_noise | parsed_candidate
   - X / Draw @ 3.75 | duplicate_noise | parsed_candidate
   - 2 / Manchester United @ 1.85 | duplicate_noise | parsed_candidate
@@ -180,7 +249,10 @@ Generated: 2026-05-09T05:49:41Z
 ### Fulham vs Bournemouth | 16:00
 - Event UTC: 2026-05-08T14:00:00Z
 - Parser confidence: 0.99 (high)
-- Dedupe statuses: `{'duplicate_noise': 6}`
+- Dedupe statuses: `{'duplicate_noise': 9}`
+  - 1 / Fulham @ 2.87 | duplicate_noise | parsed_candidate
+  - X / Draw @ 3.6 | duplicate_noise | parsed_candidate
+  - 2 / Bournemouth @ 2.35 | duplicate_noise | parsed_candidate
   - 1 / Fulham @ 2.87 | duplicate_noise | parsed_candidate
   - X / Draw @ 3.6 | duplicate_noise | parsed_candidate
   - 2 / Bournemouth @ 2.35 | duplicate_noise | parsed_candidate
@@ -191,7 +263,10 @@ Generated: 2026-05-09T05:49:41Z
 ### Brighton vs Wolverhampton | 16:00
 - Event UTC: 2026-05-08T14:00:00Z
 - Parser confidence: 0.99 (high)
-- Dedupe statuses: `{'duplicate_noise': 6}`
+- Dedupe statuses: `{'duplicate_noise': 9}`
+  - 1 / Brighton @ 1.27 | duplicate_noise | parsed_candidate
+  - X / Draw @ 6.25 | duplicate_noise | parsed_candidate
+  - 2 / Wolverhampton @ 9.5 | duplicate_noise | parsed_candidate
   - 1 / Brighton @ 1.27 | duplicate_noise | parsed_candidate
   - X / Draw @ 6.25 | duplicate_noise | parsed_candidate
   - 2 / Wolverhampton @ 9.5 | duplicate_noise | parsed_candidate
@@ -202,7 +277,10 @@ Generated: 2026-05-09T05:49:41Z
 ### Manchester City vs Brentford | 18:30
 - Event UTC: 2026-05-08T16:30:00Z
 - Parser confidence: 0.99 (high)
-- Dedupe statuses: `{'duplicate_noise': 6}`
+- Dedupe statuses: `{'duplicate_noise': 9}`
+  - 1 / Manchester City @ 1.36 | duplicate_noise | parsed_candidate
+  - X / Draw @ 5.75 | duplicate_noise | parsed_candidate
+  - 2 / Brentford @ 7.0 | duplicate_noise | parsed_candidate
   - 1 / Manchester City @ 1.36 | duplicate_noise | parsed_candidate
   - X / Draw @ 5.75 | duplicate_noise | parsed_candidate
   - 2 / Brentford @ 7.0 | duplicate_noise | parsed_candidate
@@ -213,7 +291,10 @@ Generated: 2026-05-09T05:49:41Z
 ### Borussia Dortmund vs Eintracht Frankfurt | 20:30
 - Event UTC: 2026-05-08T18:30:00Z
 - Parser confidence: 0.99 (high)
-- Dedupe statuses: `{'duplicate_noise': 6}`
+- Dedupe statuses: `{'duplicate_noise': 9}`
+  - 1 / Borussia Dortmund @ 1.5 | duplicate_noise | parsed_candidate
+  - X / Draw @ 4.75 | duplicate_noise | parsed_candidate
+  - 2 / Eintracht Frankfurt @ 5.5 | duplicate_noise | parsed_candidate
   - 1 / Borussia Dortmund @ 1.5 | duplicate_noise | parsed_candidate
   - X / Draw @ 4.75 | duplicate_noise | parsed_candidate
   - 2 / Eintracht Frankfurt @ 5.5 | duplicate_noise | parsed_candidate
@@ -224,7 +305,10 @@ Generated: 2026-05-09T05:49:41Z
 ### VfB Stuttgart vs Bayer Leverkusen | 15:30
 - Event UTC: 2026-05-08T13:30:00Z
 - Parser confidence: 0.99 (high)
-- Dedupe statuses: `{'duplicate_noise': 6}`
+- Dedupe statuses: `{'duplicate_noise': 9}`
+  - 1 / VfB Stuttgart @ 2.15 | duplicate_noise | parsed_candidate
+  - X / Draw @ 4.0 | duplicate_noise | parsed_candidate
+  - 2 / Bayer Leverkusen @ 2.8 | duplicate_noise | parsed_candidate
   - 1 / VfB Stuttgart @ 2.15 | duplicate_noise | parsed_candidate
   - X / Draw @ 4.0 | duplicate_noise | parsed_candidate
   - 2 / Bayer Leverkusen @ 2.8 | duplicate_noise | parsed_candidate
@@ -235,7 +319,10 @@ Generated: 2026-05-09T05:49:41Z
 ### RB Leipzig vs St. Pauli | 15:30
 - Event UTC: 2026-05-08T13:30:00Z
 - Parser confidence: 0.99 (high)
-- Dedupe statuses: `{'duplicate_noise': 6}`
+- Dedupe statuses: `{'duplicate_noise': 9}`
+  - 1 / RB Leipzig @ 1.3 | duplicate_noise | parsed_candidate
+  - X / Draw @ 5.5 | duplicate_noise | parsed_candidate
+  - 2 / St. Pauli @ 9.5 | duplicate_noise | parsed_candidate
   - 1 / RB Leipzig @ 1.3 | duplicate_noise | parsed_candidate
   - X / Draw @ 5.5 | duplicate_noise | parsed_candidate
   - 2 / St. Pauli @ 9.5 | duplicate_noise | parsed_candidate
@@ -246,7 +333,10 @@ Generated: 2026-05-09T05:49:41Z
 ### TSG Hoffenheim vs Werder Bremen | 15:30
 - Event UTC: 2026-05-08T13:30:00Z
 - Parser confidence: 0.99 (high)
-- Dedupe statuses: `{'duplicate_noise': 6}`
+- Dedupe statuses: `{'duplicate_noise': 9}`
+  - 1 / TSG Hoffenheim @ 1.45 | duplicate_noise | parsed_candidate
+  - X / Draw @ 5.0 | duplicate_noise | parsed_candidate
+  - 2 / Werder Bremen @ 5.75 | duplicate_noise | parsed_candidate
   - 1 / TSG Hoffenheim @ 1.45 | duplicate_noise | parsed_candidate
   - X / Draw @ 5.0 | duplicate_noise | parsed_candidate
   - 2 / Werder Bremen @ 5.75 | duplicate_noise | parsed_candidate
@@ -257,7 +347,10 @@ Generated: 2026-05-09T05:49:41Z
 ### Augsburg vs Borussia Mönchengladbach | 15:30
 - Event UTC: 2026-05-08T13:30:00Z
 - Parser confidence: 0.99 (high)
-- Dedupe statuses: `{'duplicate_noise': 6}`
+- Dedupe statuses: `{'duplicate_noise': 9}`
+  - 1 / Augsburg @ 2.05 | duplicate_noise | parsed_candidate
+  - X / Draw @ 3.75 | duplicate_noise | parsed_candidate
+  - 2 / Borussia Mönchengladbach @ 3.3 | duplicate_noise | parsed_candidate
   - 1 / Augsburg @ 2.05 | duplicate_noise | parsed_candidate
   - X / Draw @ 3.75 | duplicate_noise | parsed_candidate
   - 2 / Borussia Mönchengladbach @ 3.3 | duplicate_noise | parsed_candidate
@@ -268,7 +361,10 @@ Generated: 2026-05-09T05:49:41Z
 ### Wolfsburg vs Bayern München | 18:30
 - Event UTC: 2026-05-08T16:30:00Z
 - Parser confidence: 0.99 (high)
-- Dedupe statuses: `{'duplicate_noise': 6}`
+- Dedupe statuses: `{'duplicate_noise': 9}`
+  - 1 / Wolfsburg @ 4.5 | duplicate_noise | parsed_candidate
+  - X / Draw @ 4.33 | duplicate_noise | parsed_candidate
+  - 2 / Bayern München @ 1.65 | duplicate_noise | parsed_candidate
   - 1 / Wolfsburg @ 4.5 | duplicate_noise | parsed_candidate
   - X / Draw @ 4.33 | duplicate_noise | parsed_candidate
   - 2 / Bayern München @ 1.65 | duplicate_noise | parsed_candidate
@@ -279,7 +375,10 @@ Generated: 2026-05-09T05:49:41Z
 ### Torino vs Sassuolo | 20:45
 - Event UTC: 2026-05-08T18:45:00Z
 - Parser confidence: 0.99 (high)
-- Dedupe statuses: `{'duplicate_noise': 6}`
+- Dedupe statuses: `{'duplicate_noise': 9}`
+  - 1 / Torino @ 2.5 | duplicate_noise | parsed_candidate
+  - X / Draw @ 3.25 | duplicate_noise | parsed_candidate
+  - 2 / Sassuolo @ 2.87 | duplicate_noise | parsed_candidate
   - 1 / Torino @ 2.5 | duplicate_noise | parsed_candidate
   - X / Draw @ 3.25 | duplicate_noise | parsed_candidate
   - 2 / Sassuolo @ 2.87 | duplicate_noise | parsed_candidate
@@ -290,7 +389,10 @@ Generated: 2026-05-09T05:49:41Z
 ### Cagliari vs Udinese | 15:00
 - Event UTC: 2026-05-08T13:00:00Z
 - Parser confidence: 0.99 (high)
-- Dedupe statuses: `{'duplicate_noise': 6}`
+- Dedupe statuses: `{'duplicate_noise': 9}`
+  - 1 / Cagliari @ 2.5 | duplicate_noise | parsed_candidate
+  - X / Draw @ 3.2 | duplicate_noise | parsed_candidate
+  - 2 / Udinese @ 2.9 | duplicate_noise | parsed_candidate
   - 1 / Cagliari @ 2.5 | duplicate_noise | parsed_candidate
   - X / Draw @ 3.2 | duplicate_noise | parsed_candidate
   - 2 / Udinese @ 2.9 | duplicate_noise | parsed_candidate
@@ -301,7 +403,10 @@ Generated: 2026-05-09T05:49:41Z
 ### Lazio vs Inter Milan | 18:00
 - Event UTC: 2026-05-08T16:00:00Z
 - Parser confidence: 0.99 (high)
-- Dedupe statuses: `{'duplicate_noise': 6}`
+- Dedupe statuses: `{'duplicate_noise': 9}`
+  - 1 / Lazio @ 4.5 | duplicate_noise | parsed_candidate
+  - X / Draw @ 3.7 | duplicate_noise | parsed_candidate
+  - 2 / Inter Milan @ 1.8 | duplicate_noise | parsed_candidate
   - 1 / Lazio @ 4.5 | duplicate_noise | parsed_candidate
   - X / Draw @ 3.7 | duplicate_noise | parsed_candidate
   - 2 / Inter Milan @ 1.8 | duplicate_noise | parsed_candidate
@@ -312,7 +417,10 @@ Generated: 2026-05-09T05:49:41Z
 ### Lecce vs Juventus | 20:45
 - Event UTC: 2026-05-08T18:45:00Z
 - Parser confidence: 0.99 (high)
-- Dedupe statuses: `{'duplicate_noise': 6}`
+- Dedupe statuses: `{'duplicate_noise': 9}`
+  - 1 / Lecce @ 6.25 | duplicate_noise | parsed_candidate
+  - X / Draw @ 4.5 | duplicate_noise | parsed_candidate
+  - 2 / Juventus @ 1.45 | duplicate_noise | parsed_candidate
   - 1 / Lecce @ 6.25 | duplicate_noise | parsed_candidate
   - X / Draw @ 4.5 | duplicate_noise | parsed_candidate
   - 2 / Juventus @ 1.45 | duplicate_noise | parsed_candidate
@@ -323,7 +431,10 @@ Generated: 2026-05-09T05:49:41Z
 ### Lens vs Nantes | 20:45
 - Event UTC: 2026-05-08T18:45:00Z
 - Parser confidence: 0.99 (high)
-- Dedupe statuses: `{'duplicate_noise': 6}`
+- Dedupe statuses: `{'duplicate_noise': 9}`
+  - 1 / Lens @ 1.44 | duplicate_noise | parsed_candidate
+  - X / Draw @ 4.75 | duplicate_noise | parsed_candidate
+  - 2 / Nantes @ 7.0 | duplicate_noise | parsed_candidate
   - 1 / Lens @ 1.44 | duplicate_noise | parsed_candidate
   - X / Draw @ 4.75 | duplicate_noise | parsed_candidate
   - 2 / Nantes @ 7.0 | duplicate_noise | parsed_candidate
@@ -334,7 +445,10 @@ Generated: 2026-05-09T05:49:41Z
 ### Levante vs Osasuna | 21:00
 - Event UTC: 2026-05-08T19:00:00Z
 - Parser confidence: 0.99 (high)
-- Dedupe statuses: `{'duplicate_noise': 6}`
+- Dedupe statuses: `{'duplicate_noise': 9}`
+  - 1 / Levante @ 2.5 | duplicate_noise | parsed_candidate
+  - X / Draw @ 3.3 | duplicate_noise | parsed_candidate
+  - 2 / Osasuna @ 2.8 | duplicate_noise | parsed_candidate
   - 1 / Levante @ 2.5 | duplicate_noise | parsed_candidate
   - X / Draw @ 3.3 | duplicate_noise | parsed_candidate
   - 2 / Osasuna @ 2.8 | duplicate_noise | parsed_candidate
@@ -345,7 +459,10 @@ Generated: 2026-05-09T05:49:41Z
 ### Elche vs CD Alaves | 14:00
 - Event UTC: 2026-05-08T12:00:00Z
 - Parser confidence: 0.99 (high)
-- Dedupe statuses: `{'duplicate_noise': 6}`
+- Dedupe statuses: `{'duplicate_noise': 9}`
+  - 1 / Elche @ 2.25 | duplicate_noise | parsed_candidate
+  - X / Draw @ 3.3 | duplicate_noise | parsed_candidate
+  - 2 / CD Alaves @ 3.3 | duplicate_noise | parsed_candidate
   - 1 / Elche @ 2.25 | duplicate_noise | parsed_candidate
   - X / Draw @ 3.3 | duplicate_noise | parsed_candidate
   - 2 / CD Alaves @ 3.3 | duplicate_noise | parsed_candidate
@@ -356,7 +473,10 @@ Generated: 2026-05-09T05:49:41Z
 ### Sevilla vs Espanyol | 16:15
 - Event UTC: 2026-05-08T14:15:00Z
 - Parser confidence: 0.99 (high)
-- Dedupe statuses: `{'duplicate_noise': 6}`
+- Dedupe statuses: `{'duplicate_noise': 9}`
+  - 1 / Sevilla @ 2.05 | duplicate_noise | parsed_candidate
+  - X / Draw @ 3.4 | duplicate_noise | parsed_candidate
+  - 2 / Espanyol @ 3.7 | duplicate_noise | parsed_candidate
   - 1 / Sevilla @ 2.05 | duplicate_noise | parsed_candidate
   - X / Draw @ 3.4 | duplicate_noise | parsed_candidate
   - 2 / Espanyol @ 3.7 | duplicate_noise | parsed_candidate
@@ -367,7 +487,10 @@ Generated: 2026-05-09T05:49:41Z
 ### Atletico Madrid vs Celta Vigo | 18:30
 - Event UTC: 2026-05-08T16:30:00Z
 - Parser confidence: 0.99 (high)
-- Dedupe statuses: `{'duplicate_noise': 6}`
+- Dedupe statuses: `{'duplicate_noise': 9}`
+  - 1 / Atletico Madrid @ 2.05 | duplicate_noise | parsed_candidate
+  - X / Draw @ 3.5 | duplicate_noise | parsed_candidate
+  - 2 / Celta Vigo @ 3.5 | duplicate_noise | parsed_candidate
   - 1 / Atletico Madrid @ 2.05 | duplicate_noise | parsed_candidate
   - X / Draw @ 3.5 | duplicate_noise | parsed_candidate
   - 2 / Celta Vigo @ 3.5 | duplicate_noise | parsed_candidate
@@ -378,7 +501,10 @@ Generated: 2026-05-09T05:49:41Z
 ### Real Sociedad vs Real Betis | 21:00
 - Event UTC: 2026-05-08T19:00:00Z
 - Parser confidence: 0.99 (high)
-- Dedupe statuses: `{'duplicate_noise': 6}`
+- Dedupe statuses: `{'duplicate_noise': 9}`
+  - 1 / Real Sociedad @ 2.55 | duplicate_noise | parsed_candidate
+  - X / Draw @ 3.5 | duplicate_noise | parsed_candidate
+  - 2 / Real Betis @ 2.7 | duplicate_noise | parsed_candidate
   - 1 / Real Sociedad @ 2.55 | duplicate_noise | parsed_candidate
   - X / Draw @ 3.5 | duplicate_noise | parsed_candidate
   - 2 / Real Betis @ 2.7 | duplicate_noise | parsed_candidate
@@ -389,7 +515,10 @@ Generated: 2026-05-09T05:49:41Z
 ### Banfield vs San Martin de Tucumán | 02:10
 - Event UTC: 2026-05-09T00:10:00Z
 - Parser confidence: 0.99 (high)
-- Dedupe statuses: `{'duplicate_noise': 6}`
+- Dedupe statuses: `{'duplicate_noise': 9}`
+  - 1 / Banfield @ 2.1 | duplicate_noise | parsed_candidate
+  - X / Draw @ 2.75 | duplicate_noise | parsed_candidate
+  - 2 / San Martin de Tucumán @ 4.2 | duplicate_noise | parsed_candidate
   - 1 / Banfield @ 2.1 | duplicate_noise | parsed_candidate
   - X / Draw @ 2.75 | duplicate_noise | parsed_candidate
   - 2 / San Martin de Tucumán @ 4.2 | duplicate_noise | parsed_candidate
@@ -400,7 +529,10 @@ Generated: 2026-05-09T05:49:41Z
 ### Arsenal vs Burnley | 21:00
 - Event UTC: 2026-05-09T19:00:00Z
 - Parser confidence: 0.7714 (medium)
-- Dedupe statuses: `{'duplicate_noise': 3}`
+- Dedupe statuses: `{'duplicate_noise': 6}`
+  - 1 / Arsenal @ 1.95 | duplicate_noise | requires_review
+  - X / Draw @ 1.25 | duplicate_noise | requires_review
+  - 2 / Burnley @ 2.5 | duplicate_noise | requires_review
   - 1 / Arsenal @ 1.95 | duplicate_noise | requires_review
   - X / Draw @ 1.25 | duplicate_noise | requires_review
   - 2 / Burnley @ 2.5 | duplicate_noise | requires_review

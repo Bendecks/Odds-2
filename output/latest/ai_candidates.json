@@ -3,10 +3,10 @@
   "mode": "paper_only",
   "candidate_count": 0,
   "eligible_count": 0,
-  "skipped_count": 93,
+  "skipped_count": 96,
   "skip_reason_counts": {
     "event_expired": 90,
-    "real_bet_not_allowed_by_data_integrity": 3
+    "real_bet_not_allowed_by_data_integrity": 6
   },
   "candidates": [],
   "skipped": [
@@ -369,6 +369,18 @@
     {
       "market_id": "mkt_22c4476324ac9cd4",
       "reason": "event_expired"
+    },
+    {
+      "market_id": "mkt_f25d85ff7f66932a",
+      "reason": "real_bet_not_allowed_by_data_integrity"
+    },
+    {
+      "market_id": "mkt_4617a33f3b0f5221",
+      "reason": "real_bet_not_allowed_by_data_integrity"
+    },
+    {
+      "market_id": "mkt_9b38da1a2bc66c5a",
+      "reason": "real_bet_not_allowed_by_data_integrity"
     },
     {
       "market_id": "mkt_3a318cdc7080cfac",
