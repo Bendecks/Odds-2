@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-09T18:09:01Z",
+  "generated_at": "2026-05-09T18:52:36Z",
   "pipeline": "gemini_simple_pipeline_v5_deduped_source_audit",
   "files_processed": 5,
   "raw_match_count": 17,
@@ -9,13 +9,26 @@
   "decision_match_count": 12,
   "rejected_match_count": 0,
   "decision_error": null,
-  "decision_record_count": 0,
+  "decision_record_count": 1,
   "paper_bet_count": 0,
-  "blocked_decision_count": 0,
+  "blocked_decision_count": 1,
   "logged_count": 0,
   "pick_count": 0,
   "pass_count": 12,
-  "decision_grounding_sources": [],
+  "decision_grounding_sources": [
+    {
+      "index": 0,
+      "title": "footystats.org",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUFhqTFtOGDZQJl9WH8dKGa1BFIZ-EJWGz_sC6t7ZOkRfkjJfxvQEAveevrV19W688OB1Tvw6WIsiVjWyzHyfdTMw_l3fP2U3nAMm06WqPCQ-uC31h5nnWJK-brGc20R9S_StlZggprrEYLHlHrpN52MSDDQbnrJj-wnfN5MLH5hdO-L1vlA==",
+      "domain": "vertexaisearch.cloud.google.com"
+    },
+    {
+      "index": 1,
+      "title": "fotmob.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDvXZS-bmD1ifCEznq1XeYM64M5JVHwYBFdaNH0hfPyXPEmMGYXagSqmniHXPUvXaaeSPUzOR11BlKL3g2543fUiuvaUcL_ReCg2IoQGupLvshlbb82-y8LwZduxAdmTJGpl_wBfglo6NGc_k1DjSFIKY=",
+      "domain": "vertexaisearch.cloud.google.com"
+    }
+  ],
   "decision_response_debug": {
     "top_level_keys": [
       "candidates",
@@ -31,15 +44,17 @@
     ],
     "grounding_metadata_keys": [
       "searchEntryPoint",
+      "groundingChunks",
+      "groundingSupports",
       "webSearchQueries"
     ],
-    "text_preview": "```json\n{\n \"analysis_version\": \"simple_decision_v6_visible_markets_only\",\n \"picks\": [\n  {\n   \"match_id\": \"match_86535972ce1080e6\",\n   \"match\": \"Vejle vs FC Fredericia\",\n   \"selection\": \"2\",\n   \"selection_label\": \"away\",\n   \"odds\": 2.15,\n   \"decision\": \"PAPER_BET\",\n   \"confidence_score\": 0.75,\n   \"stake_units\": 0.75,\n   \"value_case\": \"Vejle is in very poor form, winless in their last five league matches and conceding many goals. FC Fredericia, despite a tendency for draws, is in a much stronger league position and has avoided defeat in their last three encounters with Vejle. The odds of 2.15 for an away win seem to undervalue Fredericia's superior form and head-to-head advantage against a struggling Vejle side.\",\n   \"evidence_summary\": \"Vejle is winless in their last five league matches (1D, 4L) and has conceded 12 goals in that period. FC Fredericia is in better form (4D, 1L in last five) and is unbeaten in their last three head-to-head matches against Vejle. Fredericia also holds a si",
-    "grounded_text_preview": "```json\n{\n \"analysis_version\": \"simple_decision_v6_visible_markets_only\",\n \"picks\": [\n  {\n   \"match_id\": \"match_86535972ce1080e6\",\n   \"match\": \"Vejle vs FC Fredericia\",\n   \"selection\": \"2\",\n   \"selection_label\": \"away\",\n   \"odds\": 2.15,\n   \"decision\": \"PAPER_BET\",\n   \"confidence_score\": 0.75,\n   \"stake_units\": 0.75,\n   \"value_case\": \"Vejle is in very poor form, winless in their last five league matches and conceding many goals. FC Fredericia, despite a tendency for draws, is in a much stronger league position and has avoided defeat in their last three encounters with Vejle. The odds of 2.15 for an away win seem to undervalue Fredericia's superior form and head-to-head advantage against a struggling Vejle side.\",\n   \"evidence_summary\": \"Vejle is winless in their last five league matches (1D, 4L) and has conceded 12 goals in that period. FC Fredericia is in better form (4D, 1L in last five) and is unbeaten in their last three head-to-head matches against Vejle. Fredericia also holds a significantly higher league position.\",\n   \"evidence_items",
-    "structured_text_preview": "{\n  \"analysis_version\": \"simple_decision_v6_visible_markets_only\",\n  \"picks\": [],\n  \"passes\": [\n    {\n      \"match_id\": \"match_01c571330e7f8dc7\",\n      \"match\": \"FC Nordsjælland vs FC Midtjylland\",\n      \"reason\": \"json_not_stable\",\n      \"short_note\": \"Analyst output was malformed or incomplete, resulting in all picks being passed.\"\n    },\n    {\n      \"match_id\": \"match_86535972ce1080e6\",\n      \"match\": \"Vejle vs FC Fredericia\",\n      \"reason\": \"json_not_stable\",\n      \"short_note\": \"Analyst output was malformed or incomplete, resulting in all picks being passed.\"\n    },\n    {\n      \"match_id\": \"match_0aac60eb0f1f71cd\",\n      \"match\": \"Silkeborg IF vs FC København\",\n      \"reason\": \"json_not_stable\",\n      \"short_note\": \"Analyst output was malformed or incomplete, resulting in all picks being passed.\"\n    },\n    {\n      \"match_id\": \"match_0fdbf7d47e45b8de\",\n      \"match\": \"Brøndby vs AGF\",\n      \"reason\": \"json_not_stable\",\n      \"short_note\": \"Analyst output was malformed or incomplete, resulting in all picks being passed.\"\n    },\n    {\n      \"match_id\": \"match_05e26de40ea79b92\",\n      \"match\": \"Randers FC vs OB\",\n      \"reason\": \"json_not_stable\",\n      \"short_note\": \"Analyst ou"
+    "text_preview": "FC Nordsjælland vs FC Midtjylland\nMATCH_ID: match_01c571330e7f8dc7 | MATCH: FC Nordsjælland vs FC Midtjylland | SELECTION_OR_PASS: 2 | ODDS: 2.15\n*   FC Midtjylland is in better recent form (D-W-W-W-D) compared to FC Nordsjælland (D-W-D-L-D) in their last five league games.\n*   FC Midtjylland has a superior historical head-to-head record against FC Nordsjælland, winning 23 out of ",
+    "grounded_text_preview": "FC Nordsjælland vs FC Midtjylland\nMATCH_ID: match_01c571330e7f8dc7 | MATCH: FC Nordsjælland vs FC Midtjylland | SELECTION_OR_PASS: 2 | ODDS: 2.15\n*   FC Midtjylland is in better recent form (D-W-W-W-D) compared to FC Nordsjælland (D-W-D-L-D) in their last five league games.\n*   FC Midtjylland has a superior historical head-to-head record against FC Nordsjælland, winning 23 out of ",
+    "structured_text_preview": "{\n  \"analysis_version\": \"simple_decision_v7_concise_grounded_notes\",\n  \"picks\": [\n    {\n      \"match_id\": \"match_01c571330e7f8dc7\",\n      \"match\": \"FC Nordsjælland vs FC Midtjylland\",\n      \"selection\": \"2\",\n      \"selection_label\": \"away\",\n      \"odds\": 2.15,\n      \"decision\": \"PAPER_BET\",\n      \"confidence_score\": 0.0,\n      \"stake_units\": 0.0,\n      \"value_case\": \"short\",\n      \"evidence_summary\": \"FC Midtjylland is in better recent form and has a superior historical head-to-head record.\",\n      \"evidence_items\": [\n        {\n          \"type\": \"form\",\n          \"signal\": \"FC Midtjylland is in better recent form (D-W-W-W-D) compared to FC Nordsjælland (D-W-D-L-D) in their last five league games.\",\n          \"supports_selection\": true,\n          \"importance\": \"medium\",\n          \"source_tier\": \"unknown\",\n          \"source_type\": \"unknown\",\n          \"source_name\": \"analyst_notes\",\n          \"source_url\": \"https://example.com/analyst_notes\",\n          \"published_or_checked_date\": \"\"\n        },\n        {\n          \"type\": \"context\",\n          \"signal\": \"FC Midtjylland has a superior historical head-to-head record against FC Nordsjælland, winning 23 out of\",\n          \"supports_select"
   },
   "duplicate_matches": [],
   "parser_payload": {
-    "generated_at": "2026-05-09T18:08:05Z",
+    "generated_at": "2026-05-09T18:51:54Z",
     "parser_source": "gemini_pdf_vision",
     "files_processed": 5,
     "files": [
@@ -283,7 +298,7 @@
       {
         "source_file": "inbox/possible_bets/20260509-185831_possible_bets_2101.pdf",
         "file_id": "a8a068824767b295",
-        "error": "Expecting ',' delimiter: line 268 column 6 (char 6988)",
+        "error": "Expecting ',' delimiter: line 16 column 6 (char 457)",
         "matches": []
       },
       {
@@ -1184,103 +1199,266 @@
   ],
   "rejected_matches": [],
   "decision_payload": {
-    "analysis_version": "simple_decision_v6_visible_markets_only",
-    "picks": [],
-    "passes": [
+    "analysis_version": "simple_decision_v7_concise_grounded_notes",
+    "picks": [
       {
         "match_id": "match_01c571330e7f8dc7",
         "match": "FC Nordsjælland vs FC Midtjylland",
-        "reason": "json_not_stable",
-        "short_note": "Analyst output was malformed or incomplete, resulting in all picks being passed."
-      },
-      {
-        "match_id": "match_86535972ce1080e6",
-        "match": "Vejle vs FC Fredericia",
-        "reason": "json_not_stable",
-        "short_note": "Analyst output was malformed or incomplete, resulting in all picks being passed."
-      },
-      {
-        "match_id": "match_0aac60eb0f1f71cd",
-        "match": "Silkeborg IF vs FC København",
-        "reason": "json_not_stable",
-        "short_note": "Analyst output was malformed or incomplete, resulting in all picks being passed."
-      },
-      {
-        "match_id": "match_0fdbf7d47e45b8de",
-        "match": "Brøndby vs AGF",
-        "reason": "json_not_stable",
-        "short_note": "Analyst output was malformed or incomplete, resulting in all picks being passed."
-      },
-      {
-        "match_id": "match_05e26de40ea79b92",
-        "match": "Randers FC vs OB",
-        "reason": "json_not_stable",
-        "short_note": "Analyst output was malformed or incomplete, resulting in all picks being passed."
-      },
-      {
-        "match_id": "match_58250dc574e577cd",
-        "match": "Burnley vs Aston Villa",
-        "reason": "json_not_stable",
-        "short_note": "Analyst output was malformed or incomplete, resulting in all picks being passed."
-      },
-      {
-        "match_id": "match_79bc38e749bd9a94",
-        "match": "Crystal Palace vs Everton",
-        "reason": "json_not_stable",
-        "short_note": "Analyst output was malformed or incomplete, resulting in all picks being passed."
-      },
-      {
-        "match_id": "match_8377f8c077a73587",
-        "match": "Nottm Forest vs Newcastle",
-        "reason": "json_not_stable",
-        "short_note": "Analyst output was malformed or incomplete, resulting in all picks being passed."
-      },
-      {
-        "match_id": "match_abe1f5593f5d13be",
-        "match": "West Ham vs Arsenal",
-        "reason": "json_not_stable",
-        "short_note": "Analyst output was malformed or incomplete, resulting in all picks being passed."
-      },
-      {
-        "match_id": "match_0c101a0659e4f201",
-        "match": "Tottenham vs Leeds",
-        "reason": "json_not_stable",
-        "short_note": "Analyst output was malformed or incomplete, resulting in all picks being passed."
-      },
-      {
-        "match_id": "match_041dba4cc9e8cf2d",
-        "match": "Millwall vs Hull",
-        "reason": "json_not_stable",
-        "short_note": "Analyst output was malformed or incomplete, resulting in all picks being passed."
-      },
-      {
-        "match_id": "match_caad4e339dc18e37",
-        "match": "Real Sociedad vs Real Betis",
-        "reason": "json_not_stable",
-        "short_note": "Analyst output was malformed or incomplete, resulting in all picks being passed."
+        "selection": "2",
+        "selection_label": "away",
+        "odds": 2.15,
+        "decision": "PAPER_BET",
+        "confidence_score": 0.0,
+        "stake_units": 0.0,
+        "value_case": "short",
+        "evidence_summary": "FC Midtjylland is in better recent form and has a superior historical head-to-head record.",
+        "evidence_items": [
+          {
+            "type": "form",
+            "signal": "FC Midtjylland is in better recent form (D-W-W-W-D) compared to FC Nordsjælland (D-W-D-L-D) in their last five league games.",
+            "supports_selection": true,
+            "importance": "medium",
+            "source_tier": "unknown",
+            "source_type": "unknown",
+            "source_name": "analyst_notes",
+            "source_url": "https://example.com/analyst_notes",
+            "published_or_checked_date": ""
+          },
+          {
+            "type": "context",
+            "signal": "FC Midtjylland has a superior historical head-to-head record against FC Nordsjælland, winning 23 out of",
+            "supports_selection": true,
+            "importance": "medium",
+            "source_tier": "unknown",
+            "source_type": "unknown",
+            "source_name": "analyst_notes",
+            "source_url": "https://example.com/analyst_notes",
+            "published_or_checked_date": ""
+          }
+        ],
+        "source_quality": {
+          "has_grounded_sources": false,
+          "tier1_source_count": 0,
+          "tier2_source_count": 0,
+          "tier3_source_count": 0,
+          "odds_sources": 0,
+          "prohibited_sources_used": false,
+          "all_evidence_has_urls": false
+        },
+        "risk_flags": [],
+        "why_not_pass": "Stronger recent form and superior head-to-head record for FC Midtjylland."
       }
-    ]
+    ],
+    "passes": []
   },
-  "decisions": [],
+  "decisions": [
+    {
+      "record_type": "simple_pick",
+      "pick_id": "pick_0d882b1495366ca6",
+      "created_at": "2026-05-09T18:52:36Z",
+      "mode": "paper_only",
+      "analysis_version": "simple_decision_v7_concise_grounded_notes",
+      "match_id": "match_01c571330e7f8dc7",
+      "match": "FC Nordsjælland vs FC Midtjylland",
+      "league": "Danmark - Superligaen",
+      "date_display": "Søn",
+      "time_display": "14:00",
+      "selection": "PASS",
+      "selection_label": "pass",
+      "odds": null,
+      "decision": "PASS",
+      "confidence_score": 0.0,
+      "stake_units": 0.0,
+      "value_case": "short",
+      "evidence_summary": "FC Midtjylland is in better recent form and has a superior historical head-to-head record.",
+      "evidence_items": [
+        {
+          "type": "form",
+          "signal": "FC Midtjylland is in better recent form (D-W-W-W-D) compared to FC Nordsjælland (D-W-D-L-D) in their last five league games.",
+          "supports_selection": true,
+          "importance": "medium",
+          "source_tier": "unknown",
+          "source_type": "unknown",
+          "source_name": "analyst_notes",
+          "source_url": "https://example.com/analyst_notes",
+          "published_or_checked_date": ""
+        },
+        {
+          "type": "context",
+          "signal": "FC Midtjylland has a superior historical head-to-head record against FC Nordsjælland, winning 23 out of",
+          "supports_selection": true,
+          "importance": "medium",
+          "source_tier": "unknown",
+          "source_type": "unknown",
+          "source_name": "analyst_notes",
+          "source_url": "https://example.com/analyst_notes",
+          "published_or_checked_date": ""
+        }
+      ],
+      "evidence_lines": [
+        "form | analyst_notes | verified=unknown | declared=unknown | https://example.com/analyst_notes | FC Midtjylland is in better recent form (D-W-W-W-D) compared to FC Nordsjælland (D-W-D-L-D) in their last five league games.",
+        "context | analyst_notes | verified=unknown | declared=unknown | https://example.com/analyst_notes | FC Midtjylland has a superior historical head-to-head record against FC Nordsjælland, winning 23 out of"
+      ],
+      "verified_source_tiers": [
+        "unknown",
+        "unknown"
+      ],
+      "source_quality": {
+        "has_grounded_sources": false,
+        "tier1_source_count": 0,
+        "tier2_source_count": 0,
+        "tier3_source_count": 0,
+        "odds_sources": 0,
+        "prohibited_sources_used": false,
+        "all_evidence_has_urls": false
+      },
+      "redirect_source_count": 0,
+      "risk_flags": [],
+      "why_not_pass": "Stronger recent form and superior head-to-head record for FC Midtjylland.",
+      "blocked_by_safety": "no_verified_tier1_source",
+      "short_reason": "FC Midtjylland is in better recent form and has a superior historical head-to-head record.",
+      "source_match": {
+        "home_team": "FC Nordsjælland",
+        "away_team": "FC Midtjylland",
+        "league": "Danmark - Superligaen",
+        "date_display": "Søn",
+        "time_display": "14:00",
+        "odds_1": 3.0,
+        "odds_x": 3.8,
+        "odds_2": 2.15,
+        "confidence": "high",
+        "notes": "",
+        "source_file": "inbox/possible_bets/20260509-200532_possible_bets_8036.pdf",
+        "file_id": "add20df85975c342",
+        "match_key": "fc nordsjælland|fc midtjylland|søn|14 00",
+        "match_id": "match_01c571330e7f8dc7",
+        "overround": 1.0616,
+        "audit_status": "accepted",
+        "audit_reason": "overround_ok"
+      },
+      "settlement": "NOT_APPLICABLE"
+    }
+  ],
   "picks": [],
-  "blocked_decisions": [],
+  "blocked_decisions": [
+    {
+      "record_type": "simple_pick",
+      "pick_id": "pick_0d882b1495366ca6",
+      "created_at": "2026-05-09T18:52:36Z",
+      "mode": "paper_only",
+      "analysis_version": "simple_decision_v7_concise_grounded_notes",
+      "match_id": "match_01c571330e7f8dc7",
+      "match": "FC Nordsjælland vs FC Midtjylland",
+      "league": "Danmark - Superligaen",
+      "date_display": "Søn",
+      "time_display": "14:00",
+      "selection": "PASS",
+      "selection_label": "pass",
+      "odds": null,
+      "decision": "PASS",
+      "confidence_score": 0.0,
+      "stake_units": 0.0,
+      "value_case": "short",
+      "evidence_summary": "FC Midtjylland is in better recent form and has a superior historical head-to-head record.",
+      "evidence_items": [
+        {
+          "type": "form",
+          "signal": "FC Midtjylland is in better recent form (D-W-W-W-D) compared to FC Nordsjælland (D-W-D-L-D) in their last five league games.",
+          "supports_selection": true,
+          "importance": "medium",
+          "source_tier": "unknown",
+          "source_type": "unknown",
+          "source_name": "analyst_notes",
+          "source_url": "https://example.com/analyst_notes",
+          "published_or_checked_date": ""
+        },
+        {
+          "type": "context",
+          "signal": "FC Midtjylland has a superior historical head-to-head record against FC Nordsjælland, winning 23 out of",
+          "supports_selection": true,
+          "importance": "medium",
+          "source_tier": "unknown",
+          "source_type": "unknown",
+          "source_name": "analyst_notes",
+          "source_url": "https://example.com/analyst_notes",
+          "published_or_checked_date": ""
+        }
+      ],
+      "evidence_lines": [
+        "form | analyst_notes | verified=unknown | declared=unknown | https://example.com/analyst_notes | FC Midtjylland is in better recent form (D-W-W-W-D) compared to FC Nordsjælland (D-W-D-L-D) in their last five league games.",
+        "context | analyst_notes | verified=unknown | declared=unknown | https://example.com/analyst_notes | FC Midtjylland has a superior historical head-to-head record against FC Nordsjælland, winning 23 out of"
+      ],
+      "verified_source_tiers": [
+        "unknown",
+        "unknown"
+      ],
+      "source_quality": {
+        "has_grounded_sources": false,
+        "tier1_source_count": 0,
+        "tier2_source_count": 0,
+        "tier3_source_count": 0,
+        "odds_sources": 0,
+        "prohibited_sources_used": false,
+        "all_evidence_has_urls": false
+      },
+      "redirect_source_count": 0,
+      "risk_flags": [],
+      "why_not_pass": "Stronger recent form and superior head-to-head record for FC Midtjylland.",
+      "blocked_by_safety": "no_verified_tier1_source",
+      "short_reason": "FC Midtjylland is in better recent form and has a superior historical head-to-head record.",
+      "source_match": {
+        "home_team": "FC Nordsjælland",
+        "away_team": "FC Midtjylland",
+        "league": "Danmark - Superligaen",
+        "date_display": "Søn",
+        "time_display": "14:00",
+        "odds_1": 3.0,
+        "odds_x": 3.8,
+        "odds_2": 2.15,
+        "confidence": "high",
+        "notes": "",
+        "source_file": "inbox/possible_bets/20260509-200532_possible_bets_8036.pdf",
+        "file_id": "add20df85975c342",
+        "match_key": "fc nordsjælland|fc midtjylland|søn|14 00",
+        "match_id": "match_01c571330e7f8dc7",
+        "overround": 1.0616,
+        "audit_status": "accepted",
+        "audit_reason": "overround_ok"
+      },
+      "settlement": "NOT_APPLICABLE"
+    }
+  ],
   "passes": [
     {
       "match_id": "match_01c571330e7f8dc7",
       "match": "FC Nordsjælland vs FC Midtjylland",
-      "reason": "json_not_stable",
-      "short_note": "Analyst output was malformed or incomplete, resulting in all picks being passed.",
+      "reason": "blocked_by_safety:no_verified_tier1_source",
+      "short_note": "FC Midtjylland is in better recent form and has a superior historical head-to-head record.",
       "odds": {
-        "1": 3.0,
-        "X": 3.8,
-        "2": 2.15
+        "home_team": "FC Nordsjælland",
+        "away_team": "FC Midtjylland",
+        "league": "Danmark - Superligaen",
+        "date_display": "Søn",
+        "time_display": "14:00",
+        "odds_1": 3.0,
+        "odds_x": 3.8,
+        "odds_2": 2.15,
+        "confidence": "high",
+        "notes": "",
+        "source_file": "inbox/possible_bets/20260509-200532_possible_bets_8036.pdf",
+        "file_id": "add20df85975c342",
+        "match_key": "fc nordsjælland|fc midtjylland|søn|14 00",
+        "match_id": "match_01c571330e7f8dc7",
+        "overround": 1.0616,
+        "audit_status": "accepted",
+        "audit_reason": "overround_ok"
       }
     },
     {
       "match_id": "match_86535972ce1080e6",
       "match": "Vejle vs FC Fredericia",
-      "reason": "json_not_stable",
-      "short_note": "Analyst output was malformed or incomplete, resulting in all picks being passed.",
+      "reason": "no_pass_reason_returned",
+      "short_note": "Gemini returned no explicit pass reason for this analyzed match.",
       "odds": {
         "1": 3.2,
         "X": 3.5,
@@ -1290,8 +1468,8 @@
     {
       "match_id": "match_0aac60eb0f1f71cd",
       "match": "Silkeborg IF vs FC København",
-      "reason": "json_not_stable",
-      "short_note": "Analyst output was malformed or incomplete, resulting in all picks being passed.",
+      "reason": "no_pass_reason_returned",
+      "short_note": "Gemini returned no explicit pass reason for this analyzed match.",
       "odds": {
         "1": 3.9,
         "X": 3.9,
@@ -1301,8 +1479,8 @@
     {
       "match_id": "match_0fdbf7d47e45b8de",
       "match": "Brøndby vs AGF",
-      "reason": "json_not_stable",
-      "short_note": "Analyst output was malformed or incomplete, resulting in all picks being passed.",
+      "reason": "no_pass_reason_returned",
+      "short_note": "Gemini returned no explicit pass reason for this analyzed match.",
       "odds": {
         "1": 3.0,
         "X": 3.6,
@@ -1312,8 +1490,8 @@
     {
       "match_id": "match_05e26de40ea79b92",
       "match": "Randers FC vs OB",
-      "reason": "json_not_stable",
-      "short_note": "Analyst output was malformed or incomplete, resulting in all picks being passed.",
+      "reason": "no_pass_reason_returned",
+      "short_note": "Gemini returned no explicit pass reason for this analyzed match.",
       "odds": {
         "1": 2.2,
         "X": 3.5,
@@ -1323,8 +1501,8 @@
     {
       "match_id": "match_58250dc574e577cd",
       "match": "Burnley vs Aston Villa",
-      "reason": "json_not_stable",
-      "short_note": "Analyst output was malformed or incomplete, resulting in all picks being passed.",
+      "reason": "no_pass_reason_returned",
+      "short_note": "Gemini returned no explicit pass reason for this analyzed match.",
       "odds": {
         "1": 5.0,
         "X": 4.2,
@@ -1334,8 +1512,8 @@
     {
       "match_id": "match_79bc38e749bd9a94",
       "match": "Crystal Palace vs Everton",
-      "reason": "json_not_stable",
-      "short_note": "Analyst output was malformed or incomplete, resulting in all picks being passed.",
+      "reason": "no_pass_reason_returned",
+      "short_note": "Gemini returned no explicit pass reason for this analyzed match.",
       "odds": {
         "1": 2.8,
         "X": 3.3,
@@ -1345,8 +1523,8 @@
     {
       "match_id": "match_8377f8c077a73587",
       "match": "Nottm Forest vs Newcastle",
-      "reason": "json_not_stable",
-      "short_note": "Analyst output was malformed or incomplete, resulting in all picks being passed.",
+      "reason": "no_pass_reason_returned",
+      "short_note": "Gemini returned no explicit pass reason for this analyzed match.",
       "odds": {
         "1": 2.7,
         "X": 3.6,
@@ -1356,8 +1534,8 @@
     {
       "match_id": "match_abe1f5593f5d13be",
       "match": "West Ham vs Arsenal",
-      "reason": "json_not_stable",
-      "short_note": "Analyst output was malformed or incomplete, resulting in all picks being passed.",
+      "reason": "no_pass_reason_returned",
+      "short_note": "Gemini returned no explicit pass reason for this analyzed match.",
       "odds": {
         "1": 5.25,
         "X": 4.1,
@@ -1367,8 +1545,8 @@
     {
       "match_id": "match_0c101a0659e4f201",
       "match": "Tottenham vs Leeds",
-      "reason": "json_not_stable",
-      "short_note": "Analyst output was malformed or incomplete, resulting in all picks being passed.",
+      "reason": "no_pass_reason_returned",
+      "short_note": "Gemini returned no explicit pass reason for this analyzed match.",
       "odds": {
         "1": 1.85,
         "X": 4.1,
@@ -1378,8 +1556,8 @@
     {
       "match_id": "match_041dba4cc9e8cf2d",
       "match": "Millwall vs Hull",
-      "reason": "json_not_stable",
-      "short_note": "Analyst output was malformed or incomplete, resulting in all picks being passed.",
+      "reason": "no_pass_reason_returned",
+      "short_note": "Gemini returned no explicit pass reason for this analyzed match.",
       "odds": {
         "1": 1.68,
         "X": 3.7,
@@ -1389,8 +1567,8 @@
     {
       "match_id": "match_caad4e339dc18e37",
       "match": "Real Sociedad vs Real Betis",
-      "reason": "json_not_stable",
-      "short_note": "Analyst output was malformed or incomplete, resulting in all picks being passed.",
+      "reason": "no_pass_reason_returned",
+      "short_note": "Gemini returned no explicit pass reason for this analyzed match.",
       "odds": {
         "1": 2.55,
         "X": 3.5,

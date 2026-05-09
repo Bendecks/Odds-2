@@ -1,6 +1,6 @@
 # Odds 2 — Simple Gemini Pipeline
 
-Generated: 2026-05-09T18:09:01Z
+Generated: 2026-05-09T18:52:36Z
 - Analysis version: simple_decision_v5_deduped_source_audit
 - Files processed: 5
 - Raw matches: 17
@@ -9,33 +9,46 @@ Generated: 2026-05-09T18:09:01Z
 - Duplicate matches removed: 0
 - Decision matches: 12
 - Rejected matches: 0
-- Gemini decision records: 0
+- Gemini decision records: 1
 - PAPER_BET logged: 0
-- Blocked decisions: 0
+- Blocked decisions: 1
 - Passes returned: 12
 - Decision error: `None`
-- Grounding sources: 0
+- Grounding sources: 2
 
 No PAPER_BET passed safety gates.
 
+## Blocked Gemini suggestions
+
+### FC Nordsjælland vs FC Midtjylland
+- Suggested selection: PASS
+- Blocked by safety: `no_verified_tier1_source`
+- Verified source tiers: `['unknown', 'unknown']`
+- Redirect source count: 0
+- Value case: short
+- Evidence sources:
+  - form | analyst_notes | verified=unknown | declared=unknown | https://example.com/analyst_notes | FC Midtjylland is in better recent form (D-W-W-W-D) compared to FC Nordsjælland (D-W-D-L-D) in their last five league games.
+  - context | analyst_notes | verified=unknown | declared=unknown | https://example.com/analyst_notes | FC Midtjylland has a superior historical head-to-head record against FC Nordsjælland, winning 23 out of
+
 ## Pass reasons
-- FC Nordsjælland vs FC Midtjylland: json_not_stable — Analyst output was malformed or incomplete, resulting in all picks being passed.
-- Vejle vs FC Fredericia: json_not_stable — Analyst output was malformed or incomplete, resulting in all picks being passed.
-- Silkeborg IF vs FC København: json_not_stable — Analyst output was malformed or incomplete, resulting in all picks being passed.
-- Brøndby vs AGF: json_not_stable — Analyst output was malformed or incomplete, resulting in all picks being passed.
-- Randers FC vs OB: json_not_stable — Analyst output was malformed or incomplete, resulting in all picks being passed.
-- Burnley vs Aston Villa: json_not_stable — Analyst output was malformed or incomplete, resulting in all picks being passed.
-- Crystal Palace vs Everton: json_not_stable — Analyst output was malformed or incomplete, resulting in all picks being passed.
-- Nottm Forest vs Newcastle: json_not_stable — Analyst output was malformed or incomplete, resulting in all picks being passed.
-- West Ham vs Arsenal: json_not_stable — Analyst output was malformed or incomplete, resulting in all picks being passed.
-- Tottenham vs Leeds: json_not_stable — Analyst output was malformed or incomplete, resulting in all picks being passed.
-- Millwall vs Hull: json_not_stable — Analyst output was malformed or incomplete, resulting in all picks being passed.
-- Real Sociedad vs Real Betis: json_not_stable — Analyst output was malformed or incomplete, resulting in all picks being passed.
+- FC Nordsjælland vs FC Midtjylland: blocked_by_safety:no_verified_tier1_source — FC Midtjylland is in better recent form and has a superior historical head-to-head record.
+- Vejle vs FC Fredericia: no_pass_reason_returned — Gemini returned no explicit pass reason for this analyzed match.
+- Silkeborg IF vs FC København: no_pass_reason_returned — Gemini returned no explicit pass reason for this analyzed match.
+- Brøndby vs AGF: no_pass_reason_returned — Gemini returned no explicit pass reason for this analyzed match.
+- Randers FC vs OB: no_pass_reason_returned — Gemini returned no explicit pass reason for this analyzed match.
+- Burnley vs Aston Villa: no_pass_reason_returned — Gemini returned no explicit pass reason for this analyzed match.
+- Crystal Palace vs Everton: no_pass_reason_returned — Gemini returned no explicit pass reason for this analyzed match.
+- Nottm Forest vs Newcastle: no_pass_reason_returned — Gemini returned no explicit pass reason for this analyzed match.
+- West Ham vs Arsenal: no_pass_reason_returned — Gemini returned no explicit pass reason for this analyzed match.
+- Tottenham vs Leeds: no_pass_reason_returned — Gemini returned no explicit pass reason for this analyzed match.
+- Millwall vs Hull: no_pass_reason_returned — Gemini returned no explicit pass reason for this analyzed match.
+- Real Sociedad vs Real Betis: no_pass_reason_returned — Gemini returned no explicit pass reason for this analyzed match.
 
 ## Duplicate matches removed
 
 ## Gemini grounding sources
-No grounding sources returned or parsed.
+- footystats.org — vertexaisearch.cloud.google.com — https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUFhqTFtOGDZQJl9WH8dKGa1BFIZ-EJWGz_sC6t7ZOkRfkjJfxvQEAveevrV19W688OB1Tvw6WIsiVjWyzHyfdTMw_l3fP2U3nAMm06WqPCQ-uC31h5nnWJK-brGc20R9S_StlZggprrEYLHlHrpN52MSDDQbnrJj-wnfN5MLH5hdO-L1vlA==
+- fotmob.com — vertexaisearch.cloud.google.com — https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDvXZS-bmD1ifCEznq1XeYM64M5JVHwYBFdaNH0hfPyXPEmMGYXagSqmniHXPUvXaaeSPUzOR11BlKL3g2543fUiuvaUcL_ReCg2IoQGupLvshlbb82-y8LwZduxAdmTJGpl_wBfglo6NGc_k1DjSFIKY=
 
 ## Grounding debug
-`{"top_level_keys": ["candidates", "usageMetadata", "modelVersion", "responseId"], "candidate_keys": ["content", "finishReason", "index", "groundingMetadata"], "grounding_metadata_keys": ["searchEntryPoint", "webSearchQueries"], "text_preview": "```json\n{\n \"analysis_version\": \"simple_decision_v6_visible_markets_only\",\n \"picks\": [\n  {\n   \"match_id\": \"match_86535972ce1080e6\",\n   \"match\": \"Vejle vs FC Fredericia\",\n   \"selection\": \"2\",\n   \"selection_label\": \"away\",\n   \"odds\": 2.15,\n   \"decision\": \"PAPER_BET\",\n   \"confidence_score\": 0.75,\n   \"stake_units\": 0.75,\n   \"value_case\": \"Vejle is in very poor form, winless in their last five league matches and conceding many goals. FC Fredericia, despite a tendency for draws, is in a much stronger league position and has avoided defeat in their last three encounters with Vejle. The odds of 2.15 for an away win seem to undervalue Fredericia's superior form and head-to-head advantage against a struggling Vejle side.\",\n   \"evidence_summary\": \"Vejle is winless in their last five league matches (1D, 4L) and has conceded 12 goals in that period. FC Fredericia is in better form (4D, 1L in last five) and is unbeaten in their last three head-to-head matches against Vejle. Fredericia also holds a si", "grounded_text_preview": "```json\n{\n \"analysis_version\": \"simple_decision_v6_visible_markets_only\",\n \"picks\": [\n  {\n   \"match_id\": \"match_86535972ce1080e6\",\n   \"match\": \"Vejle vs FC Fredericia\",\n   \"selection\": \"2\",\n   \"selection_label\": \"away\",\n   \"odds\": 2.15,\n   \"decision\": \"PAPER_BET\",\n   \"confidence_score\": 0.75,\n   \"stake_units\": 0.75,\n   \"value_case\": \"Vejle is in very poor form, winless in their last five league matches and conceding many goals. FC Fredericia, despite a tendency for draws, is in a much stronger league position and has avoided defeat in their last three encounters with Vejle. The odds of 2.15 for an away win seem to undervalue Fredericia's superior form and head-to-head advantage against a struggling Vejle side.\",\n   \"evidence_summary\": \"Vejle is winless in their last five league matches (1D, 4L) and has conceded 12 goals in that period. FC Fredericia is in better form (4D, 1L in last five) and is unbeaten in their last three head-to-head matches against Vejle. Fredericia also holds a significantly higher league position.\",\n   \"evidence_items", "structured_text_preview": "{\n  \"analysis_version\": \"simple_decision_v6_visible_markets_only\",\n  \"picks\": [],\n  \"passes\": [\n    {\n      \"match_id\": \"match_01c571330e7f8dc7\",\n      \"match\": \"FC Nordsjælland vs FC Midtjylland\",\n      \"reason\": \"json_not_stable\",\n      \"short_note\": \"Analyst output was malformed or incomplete, resulting in all picks being passed.\"\n    },\n    {\n      \"match_id\": \"match_86535972ce1080e6\",\n      \"match\": \"Vejle vs FC Fredericia\",\n      \"reason\": \"json_not_stable\",\n      \"short_note\": \"Analyst output was malformed or incomplete, resulting in all picks being passed.\"\n    },\n    {\n      \"match_id\": \"match_0aac60eb0f1f71cd\",\n      \"match\": \"Silkeborg IF vs FC København\",\n      \"reason\": \"json_not_stable\",\n      \"short_note\": \"Analyst output was malformed or incomplete, resulting in all picks being passed.\"\n    },\n    {\n      \"match_id\": \"match_0fdbf7d47e45b8de\",\n      \"match\": \"Brøndby vs AGF\",\n      \"reason\": \"json_not_stable\",\n      \"short_note\": \"Analyst output was malformed or incomplete, resulting in all picks being passed.\"\n    },\n    {\n      \"match_id\": \"match_05e26de40ea79b92\",\n      \"match\": \"Randers FC vs OB\",\n      \"reason\": \"json_not_stable\",\n      \"short_note\": \"Analyst ou"}`
+`{"top_level_keys": ["candidates", "usageMetadata", "modelVersion", "responseId"], "candidate_keys": ["content", "finishReason", "index", "groundingMetadata"], "grounding_metadata_keys": ["searchEntryPoint", "groundingChunks", "groundingSupports", "webSearchQueries"], "text_preview": "FC Nordsjælland vs FC Midtjylland\nMATCH_ID: match_01c571330e7f8dc7 | MATCH: FC Nordsjælland vs FC Midtjylland | SELECTION_OR_PASS: 2 | ODDS: 2.15\n*   FC Midtjylland is in better recent form (D-W-W-W-D) compared to FC Nordsjælland (D-W-D-L-D) in their last five league games.\n*   FC Midtjylland has a superior historical head-to-head record against FC Nordsjælland, winning 23 out of ", "grounded_text_preview": "FC Nordsjælland vs FC Midtjylland\nMATCH_ID: match_01c571330e7f8dc7 | MATCH: FC Nordsjælland vs FC Midtjylland | SELECTION_OR_PASS: 2 | ODDS: 2.15\n*   FC Midtjylland is in better recent form (D-W-W-W-D) compared to FC Nordsjælland (D-W-D-L-D) in their last five league games.\n*   FC Midtjylland has a superior historical head-to-head record against FC Nordsjælland, winning 23 out of ", "structured_text_preview": "{\n  \"analysis_version\": \"simple_decision_v7_concise_grounded_notes\",\n  \"picks\": [\n    {\n      \"match_id\": \"match_01c571330e7f8dc7\",\n      \"match\": \"FC Nordsjælland vs FC Midtjylland\",\n      \"selection\": \"2\",\n      \"selection_label\": \"away\",\n      \"odds\": 2.15,\n      \"decision\": \"PAPER_BET\",\n      \"confidence_score\": 0.0,\n      \"stake_units\": 0.0,\n      \"value_case\": \"short\",\n      \"evidence_summary\": \"FC Midtjylland is in better recent form and has a superior historical head-to-head record.\",\n      \"evidence_items\": [\n        {\n          \"type\": \"form\",\n          \"signal\": \"FC Midtjylland is in better recent form (D-W-W-W-D) compared to FC Nordsjælland (D-W-D-L-D) in their last five league games.\",\n          \"supports_selection\": true,\n          \"importance\": \"medium\",\n          \"source_tier\": \"unknown\",\n          \"source_type\": \"unknown\",\n          \"source_name\": \"analyst_notes\",\n          \"source_url\": \"https://example.com/analyst_notes\",\n          \"published_or_checked_date\": \"\"\n        },\n        {\n          \"type\": \"context\",\n          \"signal\": \"FC Midtjylland has a superior historical head-to-head record against FC Nordsjælland, winning 23 out of\",\n          \"supports_select"}`
