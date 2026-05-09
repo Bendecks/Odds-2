@@ -1,116 +1,75 @@
 {
-  "generated_at": "2026-05-09T05:03:49Z",
+  "generated_at": "2026-05-09T05:06:06Z",
   "research_version": "phase2_1_gemini_research_v6",
   "records": [
     {
       "record_type": "research_record",
-      "research_id": "res_7b6bbe14ba6d1c28",
+      "research_id": "res_2149d7a8c9485fd5",
       "research_version": "phase2_1_gemini_research_v6",
-      "created_at": "2026-05-09T05:03:49Z",
+      "created_at": "2026-05-09T05:06:06Z",
       "provider": "gemini",
       "model": "gemini-2.5-flash",
-      "market_id": "mkt_08557185d52a1c17",
+      "market_id": "mkt_ae9a8fb5d1a643d5",
       "event_id": "evt_5241c95dad946db1",
       "event_name": "Liverpool vs Chelsea",
-      "selection": "Liverpool",
-      "odds": 1.83,
+      "selection": "Chelsea",
+      "odds": 3.9,
       "trigger_reasons": [
         "simulated_research_trigger"
       ],
       "priority_score": 1,
       "research_status": "completed",
-      "source_links": [
-        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF60ASmQHtuwREghuNZ7-izD2Br8QT9dZYxt9zbLMyiNcQ7O3yXpQ-7fjlgToonsfcYri8cKxOahgY5fAttztKievPaHhiY6A8jS9vZ1qDHM1mJ8D8Yz7e4FE6SMOghdcYw-NHeUGbEfmcdWyXxDIIMkz0sqkP146qpUOk=",
-        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVxS2J55SCsKV52m7ljfmvJAyqoTQu9bRR_tIu9QNvaf9l6RVZVjLda3w2sbhggsOVwiBeAl2Yw0OZx5hRJv3wM2UPSnjKbhPF9jV8w3-kNHps7cscy-LdmtJyKy8yBpWlwa4F-cICDLLnrGDWbD2iSchGm6tmgDhj5aUfb4SxKdrFKRnaFiXnsUS9UbRbTOkfzIT-iixpnA-PST90UBx3t-hN_xYBFvZCexSJ6sOp3QzC7ZReHpMNY8wdQmvCvTDsreWjxpkMZ6lDOOj0EzcOlMvso_U=",
-        "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgufSXGL4Gj5_SWfm0nwrnILZpOu6n4awwu86AOv89g9e5-wKh26MjLdkGddJooCdcYrGsq0NWJ9Hm2uYzLekvkrpHkHNy6WOTM1LDufH_Ct_4AaooUDXL2Zjv6wRifYe3Ryv0M4LgMmQwM11Zvi6BmRUrdT4wyM7zvzs_5opZY_AeYksqo03Y8Mu0MyIE5OVunF5P-bFOQqiuy22BnKGD0-_vGZvaH5N0TT45uUL_xl7ozZE7NKu3jhVQ7O7RwHx2RUcavt6cn9A="
-      ],
+      "source_links": [],
       "source_quality": {
         "primary_source_count": 0,
-        "secondary_source_count": 3,
-        "echo_chamber_risk": "low"
+        "secondary_source_count": 0,
+        "echo_chamber_risk": "none"
       },
       "signals": {
         "hard": [
-          "Liverpool: Alisson, Salah, Ekitike, Bajcetic, Bradley, Endo, Leoni out. Isak, Mamardashvili, Konate, Wirtz returning/doubtful. Chelsea: Sanchez, Mudryk (ban), Estevao, Gittens, Derry out. Neto, Garnacho doubtful. Colwill, James returning."
+          "Match already played on 2026-05-08."
         ],
         "soft": [
-          "Liverpool: 4th in league, 3-game win streak broken by Man Utd loss. Chelsea: 9th in league, lost 6 consecutive PL matches, very poor form under interim coach."
+          "Match already played on 2026-05-08."
         ],
         "contradictions": [],
         "injuries": [
-          "Liverpool: Alisson, Salah, Ekitike, Bajcetic, Bradley, Endo, Leoni out. Isak, Mamardashvili, Konate, Wirtz returning/doubtful. Chelsea: Sanchez, Mudryk (ban), Estevao, Gittens, Derry out. Neto, Garnacho doubtful. Colwill, James returning."
+          "Match already played on 2026-05-08."
         ],
         "lineups": [],
         "motivation": [
-          "Liverpool: 4th in league, 3-game win streak broken by Man Utd loss. Chelsea: 9th in league, lost 6 consecutive PL matches, very poor form under interim coach."
+          "Match already played on 2026-05-08."
         ],
         "form": [],
         "market_consensus": null
       },
       "confidence": "high",
-      "summary": "Liverpool without Alisson, Salah, Ekitike; Isak, Mamardashvili, Konate, Wirtz returning. Chelsea missing Sanchez, Mudryk (ban), Estevao, Gittens, Derry; Neto, Garnacho doubtful. Chelsea in poor form with 6 straight losses.",
+      "summary": "The match between Liverpool and Chelsea was scheduled for 2026-05-08 and has already been played. Current probability-changing information is not applicable.",
       "research_flags": [],
       "error_detail": null,
-      "grounding_chunks": [
-        {
-          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF60ASmQHtuwREghuNZ7-izD2Br8QT9dZYxt9zbLMyiNcQ7O3yXpQ-7fjlgToonsfcYri8cKxOahgY5fAttztKievPaHhiY6A8jS9vZ1qDHM1mJ8D8Yz7e4FE6SMOghdcYw-NHeUGbEfmcdWyXxDIIMkz0sqkP146qpUOk=",
-          "title": "liverpoolfc.com"
-        },
-        {
-          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVxS2J55SCsKV52m7ljfmvJAyqoTQu9bRR_tIu9QNvaf9l6RVZVjLda3w2sbhggsOVwiBeAl2Yw0OZx5hRJv3wM2UPSnjKbhPF9jV8w3-kNHps7cscy-LdmtJyKy8yBpWlwa4F-cICDLLnrGDWbD2iSchGm6tmgDhj5aUfb4SxKdrFKRnaFiXnsUS9UbRbTOkfzIT-iixpnA-PST90UBx3t-hN_xYBFvZCexSJ6sOp3QzC7ZReHpMNY8wdQmvCvTDsreWjxpkMZ6lDOOj0EzcOlMvso_U=",
-          "title": "standard.co.uk"
-        },
-        {
-          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgufSXGL4Gj5_SWfm0nwrnILZpOu6n4awwu86AOv89g9e5-wKh26MjLdkGddJooCdcYrGsq0NWJ9Hm2uYzLekvkrpHkHNy6WOTM1LDufH_Ct_4AaooUDXL2Zjv6wRifYe3Ryv0M4LgMmQwM11Zvi6BmRUrdT4wyM7zvzs_5opZY_AeYksqo03Y8Mu0MyIE5OVunF5P-bFOQqiuy22BnKGD0-_vGZvaH5N0TT45uUL_xl7ozZE7NKu3jhVQ7O7RwHx2RUcavt6cn9A=",
-          "title": "sportsmole.co.uk"
-        },
-        {
-          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-CVSxiDSOQRNP52B3Id_8tylkBRS25cX-FgpAHYE--uRHBJ2hSPnJ1VUcTwq8iuAu_yVTEVkcEibAzDKzdRMJg-2IEs_uAE54d8hiAfKL3rQsxnyG2ytEovPhksjVZRJ9GA5sYBRaOVqWARhuKrQb3mF9A66sbMtiJaX4y4ERvq7mjyelsmcE_KhK",
-          "title": "football365.com"
-        },
-        {
-          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjd270-H4Ng38_ddjID84CKT_Naa2qG2uiK5i-6ckxq_HzysDJWQJbKXe3dAG_J_hQ1yD8vLhGZm--LpBqE6OLE8k2fQzoCsr5SoVQPlsK07_SxlaEnExfSA_zzitrE_C6PRBlR5eqh3EqzN04SFrGc08gcwrqnced6kFiymTzmCWj_lk6fmuCM8OoagqbA7OxkbHSZBANvGb1bWzQTCwpMNdC21sqAxDAMbSZb_C9Rw==",
-          "title": "readliverpoolfc.com"
-        },
-        {
-          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnlUn03WgoYgwVDxFpOMASk1PFBEVoFr-rE-_-eoYu5yJeFTvj6UNC17XYGiM3wbYyBdBGcBXGlKGlVrlNlMMGU4JN_Zh7RpT8eWzaOMcAoPKxY0H7MiKwIjBwwzp3rpMe_VvyBzo3gaHBtzFbPbRRO-3Z-DwkWftKk-J_aqjEhh-rXoTN2H64AmB6ZwIBqIUiae-k6Q-_QTm6t8oZ_xJNIg==",
-          "title": "lastwordonsports.com"
-        },
-        {
-          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQJj3wStM7U2iqBgOkv_T62Ah7AtwRomqOuP_6fnCn877S92ltzVno7ory8925L59MZ7RlUSyNR60cNGFQpOTLw0FEOBo_0wP_i6vPvIIfpu_IJHR96bGgcNI70EiJfhW8sK2UnfWWJT6IlypEBQ3vHrWCu_BhmWWh5Rc9T8tDZHhC_JaEeF9JxF2fTQ==",
-          "title": "tribuna.com"
-        },
-        {
-          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEUXF2HwG21nzg7tQKFAUo_OyASxWeagTH10i3dZbbYt_AzDAGV7zMuqbwI7yX0EDYDfghmzMB3QO8A2WNpovSz-nHmHAEZrnRAjxDaT2rEm_sh2yYANYu3fPXA3ZiaUszT8RnE15XXDo26JZ3j8WFBHfjJSY6jIRo0AYa75M=",
-          "title": "skysports.com"
-        },
-        {
-          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8jiRkzlgh6rRY8upI5VBAGzRa5MYBgEhSNXrItz5Pv05FM-Q2ppuSRkW0KXu8bAt_jG6ktuq53-QL1iPndkqXLPnRWQ5QVKdImcKO4f7JODfMG-YW7XI9eaCOVyRcLbkjx2cKjlah2t0HnrSPi4P6UsjGfwrA5phzurRkJ8-FpNzjLsjr1bQ8HuiVHAzUBeezpSycsmY5uTMFGd9mWxVkrw==",
-          "title": "independent.co.uk"
-        }
-      ],
+      "grounding_chunks": [],
       "source_market_snapshot": {
-        "market_id": "mkt_08557185d52a1c17",
+        "market_id": "mkt_ae9a8fb5d1a643d5",
         "event_id": "evt_5241c95dad946db1",
         "event_name": "Liverpool vs Chelsea",
         "league": "unknown",
         "event_time_utc": "2026-05-08T11:30:00Z",
         "market_type": "1X2",
-        "line": "1",
-        "selection": "Liverpool",
-        "odds": 1.83,
+        "line": "2",
+        "selection": "Chelsea",
+        "odds": 3.9,
         "movement_summary": {
-          "first_seen_odds": 1.83,
-          "latest_seen_odds": 1.83,
+          "first_seen_odds": 3.9,
+          "latest_seen_odds": 3.9,
           "first_seen_capture_utc": "2026-05-08T03:40:00Z",
           "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
           "change_pct_from_first": 0.0,
           "movement_from_first": "unchanged",
-          "observation_count": 20,
+          "observation_count": 21,
           "non_duplicate_observation_count": 1,
           "dedupe_counts": {
             "new_observation": 1,
-            "duplicate_noise": 19
+            "duplicate_noise": 20
           }
         },
         "decision": null,
