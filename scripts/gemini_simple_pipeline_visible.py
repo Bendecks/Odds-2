@@ -8,6 +8,22 @@ _old_decision_prompt = base.decision_prompt
 _old_normalize_picks = base.normalize_picks
 
 
+def pass_payload(decision_matches, reason, note):
+    return {
+        'analysis_version': 'simple_decision_v6_visible_markets_only',
+        'picks': [],
+        'passes': [
+            {
+                'match_id': m.get('match_id'),
+                'match': f'{m.get("home_team")} vs {m.get("away_team")}',
+                'reason': reason,
+                'short_note': note,
+            }
+            for m in decision_matches
+        ],
+    }
+
+
 def decision_prompt(decision_matches, total_valid):
     data = json.loads(_old_decision_prompt(decision_matches, total_valid))
     data['analysis_version'] = 'simple_decision_v6_visible_markets_only'
@@ -21,19 +37,19 @@ def decision_prompt(decision_matches, total_valid):
     data['hard_rules'].insert(1, 'Only selections 1, X, and 2 are allowed because these are the only markets parsed and validated from the PDF.')
     data['hard_rules'].insert(2, 'Never output X2, 1X, 12, DNB, double chance, over/under, handicap, or any non-visible market.')
     data['return_schema']['analysis_version'] = 'simple_decision_v6_visible_markets_only'
-    data['return_schema']['passes'][0]['reason'] += '|non_visible_market_only'
+    data['return_schema']['passes'][0]['reason'] += '|non_visible_market_only|json_not_stable'
     for m in data.get('validated_matches', []):
         m['visible_selections'] = ['1', 'X', '2']
     return json.dumps(data, ensure_ascii=False)
 
 
 def structure_prompt(raw_text, decision_matches, total_valid):
-    schema = json.loads(decision_prompt(decision_matches, total_valid)).get('return_schema')
+    prompt_obj = json.loads(decision_prompt(decision_matches, total_valid))
     return json.dumps({
-        'task': 'Convert the grounded analyst output into strict JSON. Preserve only selections that are 1, X, 2, or PASS. If a suggestion is X2, 1X, DNB, double chance, over/under, handicap, or any non-visible market, convert it to PASS with reason non_visible_market_only. Return JSON only.',
-        'schema': schema,
-        'validated_matches': json.loads(decision_prompt(decision_matches, total_valid)).get('validated_matches'),
-        'raw_grounded_output': raw_text[:12000]
+        'task': 'Convert the analyst output into strict JSON. If the analyst output is malformed, too vague, or suggests any market other than 1/X/2, return only PASS records. Return JSON only.',
+        'schema': prompt_obj.get('return_schema'),
+        'validated_matches': prompt_obj.get('validated_matches'),
+        'raw_grounded_output': raw_text[:8000]
     }, ensure_ascii=False)
 
 
@@ -42,8 +58,10 @@ def call_decision(decision_matches, total_valid):
         return {'analysis_version': 'simple_decision_v6_visible_markets_only', 'picks': [], 'passes': []}, None, [], {}
     url = base.gemini_url()
     if not url:
-        return None, {'code': 'missing_gemini_api_key'}, [], {}
+        return pass_payload(decision_matches, 'system_error', 'Missing GEMINI_API_KEY; fail-closed PASS.'), None, [], {}
 
+    grounding_sources = []
+    debug = {}
     try:
         grounded_body = {
             'contents': [{'role': 'user', 'parts': [{'text': decision_prompt(decision_matches, total_valid)}]}],
@@ -52,7 +70,7 @@ def call_decision(decision_matches, total_valid):
         }
         grounded_resp = base.requests.post(url, json=grounded_body, timeout=180)
         if grounded_resp.status_code >= 400:
-            return None, {'code': f'gemini_grounded_http_{grounded_resp.status_code}', 'response_text': grounded_resp.text[:2000]}, [], {}
+            return pass_payload(decision_matches, 'system_error', f'Grounded call failed HTTP {grounded_resp.status_code}; fail-closed PASS.'), None, [], {'grounded_http_status': grounded_resp.status_code, 'response_text': grounded_resp.text[:1000]}
         grounded_data = grounded_resp.json()
         grounded_text = grounded_data.get('candidates', [{}])[0].get('content', {}).get('parts', [{}])[0].get('text', '')
         grounding_sources = base.extract_grounding_sources(grounded_data)
@@ -61,17 +79,22 @@ def call_decision(decision_matches, total_valid):
 
         structure_body = {
             'contents': [{'role': 'user', 'parts': [{'text': structure_prompt(grounded_text, decision_matches, total_valid)}]}],
-            'generationConfig': {'temperature': 0, 'responseMimeType': 'application/json', 'maxOutputTokens': 8192}
+            'generationConfig': {'temperature': 0, 'responseMimeType': 'application/json', 'maxOutputTokens': 4096}
         }
         structure_resp = base.requests.post(url, json=structure_body, timeout=120)
         if structure_resp.status_code >= 400:
-            return None, {'code': f'gemini_structure_http_{structure_resp.status_code}', 'response_text': structure_resp.text[:2000]}, grounding_sources, debug
+            return pass_payload(decision_matches, 'json_not_stable', f'Structure call failed HTTP {structure_resp.status_code}; fail-closed PASS.'), None, grounding_sources, debug
         structure_data = structure_resp.json()
         structured_text = structure_data.get('candidates', [{}])[0].get('content', {}).get('parts', [{}])[0].get('text', '')
         debug['structured_text_preview'] = structured_text[:1200]
-        return base.extract_json(structured_text), None, grounding_sources, debug
+        try:
+            return base.extract_json(structured_text), None, grounding_sources, debug
+        except Exception as exc:
+            debug['structure_parse_error'] = str(exc)[:500]
+            return pass_payload(decision_matches, 'json_not_stable', 'Gemini structure output was not valid JSON; fail-closed PASS.'), None, grounding_sources, debug
     except Exception as exc:
-        return None, {'code': 'gemini_decision_exception', 'response_text': str(exc)[:2000]}, [], {}
+        debug['exception'] = str(exc)[:500]
+        return pass_payload(decision_matches, 'system_error', 'Decision step hit an exception; fail-closed PASS.'), None, grounding_sources, debug
 
 
 def normalize_selection(value):
