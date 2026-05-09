@@ -324,15 +324,15 @@ def normalize_picks(decision_payload, decision_matches):
     return out
 
 
-def normalize_passes(decision_payload, decision_matches, picks):
+def normalize_passes(decision_payload, decision_matches, decision_records):
     by_id = {m['match_id']: m for m in decision_matches}
-    pick_ids = {p.get('match_id') for p in picks}
+    paper_ids = {p.get('match_id') for p in decision_records if p.get('decision') == 'PAPER_BET'}
     out = []
     raw_passes = (decision_payload or {}).get('passes') or []
     seen = set()
     for p in raw_passes:
         mid = p.get('match_id')
-        if mid not in by_id or mid in pick_ids or mid in seen:
+        if mid not in by_id or mid in paper_ids or mid in seen:
             continue
         seen.add(mid)
         m = by_id[mid]
@@ -343,8 +343,19 @@ def normalize_passes(decision_payload, decision_matches, picks):
             'short_note': str(p.get('short_note') or '').strip()[:300],
             'odds': {'1': m.get('odds_1'), 'X': m.get('odds_x'), '2': m.get('odds_2')},
         })
+    for d in decision_records:
+        mid = d.get('match_id')
+        if d.get('decision') == 'PASS' and d.get('blocked_by_safety') and mid not in seen:
+            seen.add(mid)
+            out.append({
+                'match_id': mid,
+                'match': d.get('match'),
+                'reason': f'blocked_by_safety:{d.get("blocked_by_safety")}',
+                'short_note': d.get('short_reason') or d.get('value_case') or '',
+                'odds': d.get('source_match', {}),
+            })
     for mid, m in by_id.items():
-        if mid not in pick_ids and mid not in seen:
+        if mid not in paper_ids and mid not in seen:
             out.append({
                 'match_id': mid,
                 'match': f'{m.get("home_team")} vs {m.get("away_team")}',
@@ -361,22 +372,29 @@ def write_json(path, data):
 
 
 def append_log(records):
-    if not records:
+    paper_records = [r for r in records if r.get('decision') == 'PAPER_BET']
+    if not paper_records:
         return 0
     with PICKS_LOG.open('a', encoding='utf-8') as f:
-        for r in records:
+        for r in paper_records:
             f.write(json.dumps(r, ensure_ascii=False) + '\n')
-    return len(records)
+    return len(paper_records)
 
 
 def write_report(payload):
-    lines = ['# Odds 2 — Simple Gemini Pipeline', '', f'Generated: {payload.get("generated_at")}', f'- Analysis version: simple_decision_v4_verified_sources', f'- Files processed: {payload.get("files_processed")}', f'- Raw matches: {payload.get("raw_match_count")}', f'- Valid matches: {payload.get("valid_match_count")}', f'- Decision matches: {payload.get("decision_match_count")}', f'- Rejected matches: {payload.get("rejected_match_count")}', f'- Picks logged: {payload.get("pick_count")}', f'- Passes returned: {len(payload.get("passes") or [])}', f'- Decision error: `{payload.get("decision_error")}`', f'- Grounding sources: {len(payload.get("decision_grounding_sources") or [])}', '']
-    if payload.get('picks'):
-        lines.append('## Picks / Decisions')
-        for p in payload.get('picks'):
-            lines += ['', f'### {p.get("match")}', f'- Decision: {p.get("decision")}', f'- Selection: {p.get("selection")}', f'- Odds: {p.get("odds")}', f'- Stake units: {p.get("stake_units")}', f'- Confidence: {p.get("confidence_score")}', f'- Blocked by safety: `{p.get("blocked_by_safety")}`', f'- Verified source tiers: `{p.get("verified_source_tiers")}`', f'- Redirect source count: {p.get("redirect_source_count")}', f'- Value case: {p.get("value_case")}', f'- Evidence: {p.get("evidence_summary")}', f'- Evidence items: `{json.dumps(p.get("evidence_items"), ensure_ascii=False)}`', f'- Source quality: `{json.dumps(p.get("source_quality"), ensure_ascii=False)}`', f'- Risk flags: `{p.get("risk_flags")}`', f'- Why not pass: {p.get("why_not_pass")}']
+    lines = ['# Odds 2 — Simple Gemini Pipeline', '', f'Generated: {payload.get("generated_at")}', f'- Analysis version: simple_decision_v4_verified_sources', f'- Files processed: {payload.get("files_processed")}', f'- Raw matches: {payload.get("raw_match_count")}', f'- Valid matches: {payload.get("valid_match_count")}', f'- Decision matches: {payload.get("decision_match_count")}', f'- Rejected matches: {payload.get("rejected_match_count")}', f'- Gemini decision records: {payload.get("decision_record_count")}', f'- PAPER_BET logged: {payload.get("paper_bet_count")}', f'- Blocked decisions: {payload.get("blocked_decision_count")}', f'- Passes returned: {len(payload.get("passes") or [])}', f'- Decision error: `{payload.get("decision_error")}`', f'- Grounding sources: {len(payload.get("decision_grounding_sources") or [])}', '']
+    paper_bets = [p for p in (payload.get('decisions') or []) if p.get('decision') == 'PAPER_BET']
+    blocked = [p for p in (payload.get('decisions') or []) if p.get('blocked_by_safety')]
+    if paper_bets:
+        lines.append('## PAPER_BET')
+        for p in paper_bets:
+            lines += ['', f'### {p.get("match")}', f'- Selection: {p.get("selection")}', f'- Odds: {p.get("odds")}', f'- Stake units: {p.get("stake_units")}', f'- Confidence: {p.get("confidence_score")}', f'- Verified source tiers: `{p.get("verified_source_tiers")}`', f'- Value case: {p.get("value_case")}', f'- Evidence: {p.get("evidence_summary")}']
     else:
-        lines.append('No picks returned.')
+        lines.append('No PAPER_BET passed safety gates.')
+    if blocked:
+        lines += ['', '## Blocked Gemini suggestions']
+        for p in blocked:
+            lines += ['', f'### {p.get("match")}', f'- Suggested selection: {p.get("selection")}', f'- Blocked by safety: `{p.get("blocked_by_safety")}`', f'- Verified source tiers: `{p.get("verified_source_tiers")}`', f'- Redirect source count: {p.get("redirect_source_count")}', f'- Value case: {p.get("value_case")}', f'- Evidence items: `{json.dumps(p.get("evidence_items"), ensure_ascii=False)}`']
     lines += ['', '## Pass reasons']
     for p in (payload.get('passes') or [])[:MAX_DECISION_MATCHES]:
         lines.append(f'- {p.get("match")}: {p.get("reason")} — {p.get("short_note") or ""}')
@@ -398,13 +416,15 @@ def main():
     valid, rejected = flatten_matches(parser_payload)
     decision_matches = valid[:MAX_DECISION_MATCHES]
     decision_payload, decision_error, decision_grounding_sources = call_decision(decision_matches, len(valid))
-    picks = normalize_picks(decision_payload, decision_matches) if decision_payload else []
-    passes = normalize_passes(decision_payload, decision_matches, picks) if decision_payload else []
-    append_log(picks)
-    output = {'generated_at': now_utc(), 'pipeline': 'gemini_simple_pipeline_v4_verified_sources', 'files_processed': len(files), 'raw_match_count': parser_payload['summary']['matches_total'], 'valid_match_count': len(valid), 'decision_match_count': len(decision_matches), 'rejected_match_count': len(rejected), 'decision_error': decision_error, 'pick_count': len(picks), 'pass_count': len(passes), 'decision_grounding_sources': decision_grounding_sources, 'parser_payload': parser_payload, 'valid_matches': valid, 'decision_matches': decision_matches, 'rejected_matches': rejected, 'decision_payload': decision_payload, 'picks': picks, 'passes': passes}
+    decisions = normalize_picks(decision_payload, decision_matches) if decision_payload else []
+    passes = normalize_passes(decision_payload, decision_matches, decisions) if decision_payload else []
+    logged_count = append_log(decisions)
+    paper_bets = [d for d in decisions if d.get('decision') == 'PAPER_BET']
+    blocked = [d for d in decisions if d.get('blocked_by_safety')]
+    output = {'generated_at': now_utc(), 'pipeline': 'gemini_simple_pipeline_v4_verified_sources', 'files_processed': len(files), 'raw_match_count': parser_payload['summary']['matches_total'], 'valid_match_count': len(valid), 'decision_match_count': len(decision_matches), 'rejected_match_count': len(rejected), 'decision_error': decision_error, 'decision_record_count': len(decisions), 'paper_bet_count': len(paper_bets), 'blocked_decision_count': len(blocked), 'logged_count': logged_count, 'pick_count': len(paper_bets), 'pass_count': len(passes), 'decision_grounding_sources': decision_grounding_sources, 'parser_payload': parser_payload, 'valid_matches': valid, 'decision_matches': decision_matches, 'rejected_matches': rejected, 'decision_payload': decision_payload, 'decisions': decisions, 'picks': paper_bets, 'blocked_decisions': blocked, 'passes': passes}
     write_json(OUT_LATEST / 'simple_pipeline_output.json', output)
     report = write_report(output)
-    print(f'Simple Gemini pipeline v4 OK | files={len(files)} raw={output["raw_match_count"]} valid={len(valid)} decision_matches={len(decision_matches)} rejected={len(rejected)} picks={len(picks)} passes={len(passes)} grounding_sources={len(decision_grounding_sources)} report={report}')
+    print(f'Simple Gemini pipeline v4 OK | files={len(files)} raw={output["raw_match_count"]} valid={len(valid)} decision_matches={len(decision_matches)} rejected={len(rejected)} paper_bets={len(paper_bets)} blocked={len(blocked)} passes={len(passes)} grounding_sources={len(decision_grounding_sources)} report={report}')
 
 
 if __name__ == '__main__':
