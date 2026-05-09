@@ -49,7 +49,7 @@ jobs:
           pip install pypdf PyMuPDF openai requests
 
       - name: Run simplified Gemini paper-pick pipeline
-        run: python scripts/gemini_simple_pipeline.py
+        run: python scripts/gemini_simple_pipeline_visible.py
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_PDF_MODEL: gemini-2.5-flash
