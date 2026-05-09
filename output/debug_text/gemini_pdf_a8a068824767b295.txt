@@ -3,25 +3,29 @@
   "timezone_assumed": "Europe/Copenhagen",
   "matches": [
     {
-      "home_team": "Man City",
-      "away_team": "Brentford",
-      "league": "unknown",
-      "date_display": "Lør 09 maj",
-      "time_display": "27:50",
-      "odds_1": 1.44,
-      "odds_x": 4.50,
-      "odds_2": 6.50,
-      "confidence": "medium",
-      "notes": "Live match, time is elapsed time."
+      "home_team": "FC København",
+      "away_team": "FC Nordsjælland",
+      "league": "Superligaen",
+      "date_display": "I dag",
+      "time_display": "18:00",
+      "odds_1": 1.90,
+      "odds_x": 3.60,
+      "odds_2": 3.75,
+      "confidence": "high",
+      "notes": ""
     },
     {
-      "home_team": "Lazio",
-      "away_team": "Inter Milan",
-      "league": "unknown",
-      "date_display": "Lør 09 maj",
-      "time_display": "45:00",
-      "odds_1": 41.00,
-      "odds_x": 15.00,
-      "odds_2": 1.04,
-      "confidence": "medium",
-      "notes": "Live match, time is elapsed time."
+      "home_team": "Manchester City",
+      "away_team": "Real Madrid",
+      "league": "Champions League",
+      "date_display": "I morgen",
+      "time_display": "21:00",
+      "odds_1": 1.72,
+      "odds_x": 4.00,
+      "odds_2": 4.33,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "home_team": "Bayern München",
+      

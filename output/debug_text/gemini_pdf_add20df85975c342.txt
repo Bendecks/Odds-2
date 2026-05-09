@@ -23,8 +23,8 @@
       "odds_1": 3.20,
       "odds_x": 3.50,
       "odds_2": 2.15,
-      "confidence": "high",
-      "notes": "time normalized from '14:00 6'"
+      "confidence": "medium",
+      "notes": "Time '14:00 6' normalized to '14:00'."
     },
     {
       "home_team": "Silkeborg IF",
@@ -47,8 +47,8 @@
       "odds_1": 3.00,
       "odds_x": 3.60,
       "odds_2": 2.25,
-      "confidence": "high",
-      "notes": "time normalized from '18:00 6'"
+      "confidence": "medium",
+      "notes": "Time '18:00 6' normalized to '18:00'."
     },
     {
       "home_team": "Randers FC",
@@ -63,6 +63,30 @@
       "notes": ""
     },
     {
+      "home_team": "Esbjerg",
+      "away_team": "Kolding IF",
+      "league": "Danmark - 1. division",
+      "date_display": "",
+      "time_display": "",
+      "odds_1": 1.28,
+      "odds_x": 5.00,
+      "odds_2": 12.00,
+      "confidence": "medium",
+      "notes": "Inferred as in-play due to '47:47' and score display."
+    },
+    {
+      "home_team": "Man City",
+      "away_team": "Brentford",
+      "league": "England - Premier League",
+      "date_display": "",
+      "time_display": "",
+      "odds_1": 1.006,
+      "odds_x": 29.00,
+      "odds_2": 101.00,
+      "confidence": "medium",
+      "notes": "Inferred as in-play due to '77:44' and score display."
+    },
+    {
       "home_team": "Burnley",
       "away_team": "Aston Villa",
       "league": "England - Premier League",
@@ -71,8 +95,8 @@
       "odds_1": 5.00,
       "odds_x": 4.20,
       "odds_2": 1.61,
-      "confidence": "medium",
-      "notes": "date and time inferred from subsequent matches"
+      "confidence": "high",
+      "notes": ""
     },
     {
       "home_team": "Crystal Palace",
@@ -83,8 +107,8 @@
       "odds_1": 2.80,
       "odds_x": 3.30,
       "odds_2": 2.55,
-      "confidence": "high",
-      "notes": "time normalized from '15:00 61'"
+      "confidence": "medium",
+      "notes": "Time '15:00 61' normalized to '15:00'."
     },
     {
       "home_team": "Nottm Forest",
@@ -95,8 +119,8 @@
       "odds_1": 2.70,
       "odds_x": 3.60,
       "odds_2": 2.45,
-      "confidence": "high",
-      "notes": "time normalized from '15:00 6'"
+      "confidence": "medium",
+      "notes": "Time '15:00 6' normalized to '15:00'."
     },
     {
       "home_team": "West Ham",
@@ -107,8 +131,8 @@
       "odds_1": 5.25,
       "odds_x": 4.10,
       "odds_2": 1.60,
-      "confidence": "high",
-      "notes": "time normalized from '17:30 61'"
+      "confidence": "medium",
+      "notes": "Time '17:30 61' normalized to '17:30'."
     },
     {
       "home_team": "Tottenham",
@@ -119,8 +143,8 @@
       "odds_1": 1.85,
       "odds_x": 4.10,
       "odds_2": 3.70,
-      "confidence": "medium",
-      "notes": "date and time inferred from subsequent matches"
+      "confidence": "high",
+      "notes": ""
     },
     {
       "home_team": "Millwall",
@@ -131,8 +155,20 @@
       "odds_1": 1.68,
       "odds_x": 3.70,
       "odds_2": 4.75,
-      "confidence": "high",
-      "notes": ""
+      "confidence": "medium",
+      "notes": "Inferred as in-play due to score display."
+    },
+    {
+      "home_team": "Atletico Madrid",
+      "away_team": "Celta Vigo",
+      "league": "Spanien - La Liga",
+      "date_display": "",
+      "time_display": "",
+      "odds_1": 11.00,
+      "odds_x": 3.10,
+      "odds_2": 1.53,
+      "confidence": "medium",
+      "notes": "Inferred as in-play due to '74:48' and score display."
     },
     {
       "home_team": "Real Sociedad",
@@ -144,7 +180,7 @@
       "odds_x": 3.50,
       "odds_2": 2.70,
       "confidence": "high",
-      "notes": "time normalized from '21:00 6>'"
+      "notes": ""
     },
     {
       "home_team": "Mallorca",
@@ -168,7 +204,7 @@
       "odds_x": 3.75,
       "odds_2": 5.00,
       "confidence": "high",
-      "notes": "time normalized from '16:15 6'"
+      "notes": ""
     },
     {
       "home_team": "Real Oviedo",
@@ -180,7 +216,7 @@
       "odds_x": 3.20,
       "odds_2": 2.55,
       "confidence": "high",
-      "notes": "time normalized from '18:30 6'"
+      "notes": ""
     },
     {
       "home_team": "Barcelona",
@@ -192,7 +228,7 @@
       "odds_x": 5.00,
       "odds_2": 4.33,
       "confidence": "high",
-      "notes": "time normalized from '21:00 61'"
+      "notes": ""
     },
     {
       "home_team": "Rayo Vallecano",
@@ -208,16 +244,10 @@
     }
   ],
   "parser_warnings": [
-    "Time '14:00 6' normalized to '14:00' for Vejle vs FC Fredericia.",
-    "Time '18:00 6' normalized to '18:00' for Brøndby vs AGF.",
-    "Date and time for Burnley vs Aston Villa inferred from surrounding matches.",
-    "Time '15:00 61' normalized to '15:00' for Crystal Palace vs Everton.",
-    "Time '15:00 6' normalized to '15:00' for Nottm Forest vs Newcastle.",
-    "Time '17:30 61' normalized to '17:30' for West Ham vs Arsenal.",
-    "Date and time for Tottenham vs Leeds inferred from surrounding matches.",
-    "Time '21:00 6>' normalized to '21:00' for Real Sociedad vs Real Betis.",
-    "Time '16:15 6' normalized to '16:15' for Athletic Bilbao vs Valencia.",
-    "Time '18:30 6' normalized to '18:30' for Real Oviedo vs Getafe.",
-    "Time '21:00 61' normalized to '21:00' for Barcelona vs Real Madrid."
+    "Time '14:00 6' normalized to '14:00'.",
+    "Time '18:00 6' normalized to '18:00'.",
+    "Time '15:00 61' normalized to '15:00'.",
+    "Time '15:00 6' normalized to '15:00'.",
+    "Time '17:30 61' normalized to '17:30'."
   ]
 }

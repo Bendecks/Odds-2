@@ -24,7 +24,7 @@
       "odds_x": 4.10,
       "odds_2": 3.70,
       "confidence": "high",
-      "notes": "Away team inferred from leading '↑' symbol."
+      "notes": ""
     },
     {
       "home_team": "Man City",
@@ -36,7 +36,7 @@
       "odds_x": 6.00,
       "odds_2": 9.50,
       "confidence": "high",
-      "notes": "Away team inferred from leading '↑' symbol."
+      "notes": ""
     },
     {
       "home_team": "Aston Villa",
@@ -48,7 +48,7 @@
       "odds_x": 4.00,
       "odds_2": 1.90,
       "confidence": "high",
-      "notes": "Away team inferred from leading '↑' symbol."
+      "notes": ""
     },
     {
       "home_team": "Millwall",
@@ -84,7 +84,7 @@
       "odds_x": 3.50,
       "odds_2": 3.00,
       "confidence": "high",
-      "notes": "Away team inferred from leading '↑' symbol."
+      "notes": ""
     },
     {
       "home_team": "Celta Vigo",
@@ -95,11 +95,129 @@
       "odds_1": 1.70,
       "odds_x": 3.75,
       "odds_2": 4.50,
-      "confidence": "medium",
-      "notes": "Home team inferred despite leading '↑' symbol."
+      "confidence": "high",
+      "notes": ""
     },
     {
       "home_team": "Real Betis",
       "away_team": "Elche",
       "league": "Spanien - La Liga",
-      "date_display":
+      "date_display": "Tir",
+      "time_display": "20:00",
+      "odds_1": 1.65,
+      "odds_x": 3.75,
+      "odds_2": 5.00,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "home_team": "Osasuna",
+      "away_team": "Atletico Madrid",
+      "league": "Spanien - La Liga",
+      "date_display": "Tir",
+      "time_display": "21:30",
+      "odds_1": 2.55,
+      "odds_x": 3.30,
+      "odds_2": 2.62,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "home_team": "Espanyol",
+      "away_team": "Athletic Bilbao",
+      "league": "Spanien - La Liga",
+      "date_display": "Ons",
+      "time_display": "19:00",
+      "odds_1": 2.70,
+      "odds_x": 3.30,
+      "odds_2": 2.50,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "home_team": "Villarreal",
+      "away_team": "Sevilla",
+      "league": "Spanien - La Liga",
+      "date_display": "Ons",
+      "time_display": "19:00",
+      "odds_1": 1.95,
+      "odds_x": 3.40,
+      "odds_2": 3.70,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "home_team": "CD Alaves",
+      "away_team": "Barcelona",
+      "league": "Spanien - La Liga",
+      "date_display": "Ons",
+      "time_display": "21:30",
+      "odds_1": 3.40,
+      "odds_x": 3.60,
+      "odds_2": 2.00,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "home_team": "Getafe",
+      "away_team": "Mallorca",
+      "league": "Spanien - La Liga",
+      "date_display": "Ons",
+      "time_display": "21:30",
+      "odds_1": 2.10,
+      "odds_x": 3.10,
+      "odds_2": 3.60,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "home_team": "Valencia",
+      "away_team": "Rayo Vallecano",
+      "league": "Spanien - La Liga",
+      "date_display": "Tor",
+      "time_display": "19:00",
+      "odds_1": 2.20,
+      "odds_x": 3.40,
+      "odds_2": 3.10,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "home_team": "Girona",
+      "away_team": "Real Sociedad",
+      "league": "Spanien - La Liga",
+      "date_display": "Tor",
+      "time_display": "20:00",
+      "odds_1": 2.05,
+      "odds_x": 3.70,
+      "odds_2": 3.20,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "home_team": "Real Madrid",
+      "away_team": "Real Oviedo",
+      "league": "Spanien - La Liga",
+      "date_display": "Tor",
+      "time_display": "21:30",
+      "odds_1": 1.22,
+      "odds_x": 6.50,
+      "odds_2": 9.50,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "home_team": "Napoli",
+      "away_team": "Bologna",
+      "league": "Italien - Serie A",
+      "date_display": "Man",
+      "time_display": "20:45",
+      "odds_1": 1.53,
+      "odds_x": 4.20,
+      "odds_2": 6.00,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "parser_warnings": []
+}
