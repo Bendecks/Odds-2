@@ -90,6 +90,7 @@ def research_context_for(research):
         'provider': research.get('provider'),
         'confidence': research.get('confidence'),
         'summary': research.get('summary'),
+        'trigger_reasons': research.get('trigger_reasons') or [],
         'source_quality': {
             'primary_source_count': sq.get('primary_source_count', 0),
             'secondary_source_count': sq.get('secondary_source_count', 0),
@@ -121,16 +122,38 @@ def enrich_candidates(candidates):
     return enriched
 
 
+def has_market_signal(candidate):
+    try:
+        change = float(candidate.get('change_pct_from_first') or 0)
+    except Exception:
+        change = 0.0
+    return candidate.get('movement_from_first') == 'shortened' and change >= 0.03
+
+
+def has_research_sources(research_context):
+    if not research_context:
+        return False
+    sq = research_context.get('source_quality') or {}
+    total = int(sq.get('primary_source_count') or 0) + int(sq.get('secondary_source_count') or 0) + int(research_context.get('source_links_count') or 0)
+    return total > 0
+
+
+def is_forced_only_research(research_context):
+    reasons = (research_context or {}).get('trigger_reasons') or []
+    return reasons == ['simulated_research_trigger']
+
+
 def is_interesting_for_ai(candidate):
     if candidate.get('is_expired'):
         return False
-    change = float(candidate.get('change_pct_from_first') or 0)
-    movement = candidate.get('movement_from_first')
-    return bool(candidate.get('has_valid_research') or (movement == 'shortened' and change >= 0.03))
+    return bool(candidate.get('has_valid_research') or has_market_signal(candidate))
 
 
 def candidate_priority(candidate):
-    change = float(candidate.get('change_pct_from_first') or 0)
+    try:
+        change = float(candidate.get('change_pct_from_first') or 0)
+    except Exception:
+        change = 0.0
     score = change
     if candidate.get('has_valid_research'):
         score += 1.0
@@ -140,8 +163,6 @@ def candidate_priority(candidate):
 
 
 def conservative_decision(candidate, fallback_reason=None):
-    change = float(candidate.get('change_pct_from_first') or 0)
-    movement = candidate.get('movement_from_first')
     research = candidate.get('research_context')
     data_flags = []
     risk_flags = []
@@ -156,6 +177,10 @@ def conservative_decision(candidate, fallback_reason=None):
         data_flags.append('no_valid_research_context')
     elif research.get('research_status') == 'insufficient_data':
         data_flags.append('research_insufficient_data')
+    if research and not has_research_sources(research):
+        data_flags.append('research_has_no_sources')
+    if research and is_forced_only_research(research):
+        data_flags.append('forced_research_not_real_trigger')
 
     decision, confidence, stake = 'PASS', 'low', 0.0
     code = 'NO_VALID_EDGE_CONTEXT'
@@ -164,12 +189,10 @@ def conservative_decision(candidate, fallback_reason=None):
         code = 'AI_UNAVAILABLE_FALLBACK_PASS'; summary = f'PASS: AI unavailable ({fallback_reason}); conservative fallback.'
     elif research and research.get('research_status') == 'insufficient_data':
         code = 'RESEARCH_INSUFFICIENT_DATA_PASS'; summary = 'PASS: research layer returned insufficient data.'
-    elif research and movement == 'shortened' and change >= 0.10:
-        decision = 'WATCH'; confidence = 'medium'; code = 'RESEARCH_BACKED_SIGNIFICANT_MOVEMENT_WATCH'; summary = 'WATCH: valid research plus significant shortening. Needs calibration before PAPER_BET.'
-    elif research and movement == 'shortened' and change >= 0.03:
-        decision = 'WATCH'; confidence = 'low'; code = 'RESEARCH_BACKED_SMALL_MOVEMENT_WATCH'; summary = 'WATCH: valid research plus small shortening.'
-    elif movement == 'shortened' and change >= 0.03:
-        decision = 'WATCH'; confidence = 'low'; code = 'MOVEMENT_WITHOUT_RESEARCH_WATCH'; summary = 'WATCH: market movement detected but valid research missing.'
+    elif research and has_market_signal(candidate) and has_research_sources(research) and not is_forced_only_research(research):
+        decision = 'WATCH'; confidence = 'medium'; code = 'RESEARCH_BACKED_MARKET_SIGNAL_WATCH'; summary = 'WATCH: valid sourced research plus market signal. Calibration required before PAPER_BET.'
+    elif has_market_signal(candidate):
+        decision = 'WATCH'; confidence = 'low'; code = 'MOVEMENT_WITHOUT_RESEARCH_WATCH'; summary = 'WATCH: market movement detected but valid sourced research missing.'
     return {'decision': decision, 'confidence': confidence, 'paper_stake_pct': stake, 'reasoning_code': code, 'reasoning_summary': summary, 'risk_flags': risk_flags, 'data_flags': data_flags}
 
 
@@ -179,7 +202,7 @@ def compact_for_ai(candidate):
 
 
 def system_prompt():
-    return 'Decision Layer V3.2. Paper-only. Use only provided JSON. Return JSON only. If is_expired is true, decision must be PASS. PAPER_BET requires valid research + market signal + no contradictions. Use PASS if unsure.'
+    return 'Decision Layer V3.2. Paper-only. Use only provided JSON. Return JSON only. If is_expired is true, decision must be PASS. PAPER_BET requires valid sourced research + real market signal + no contradictions + non-forced research trigger. Use PASS if unsure.'
 
 
 def user_prompt(candidates):
@@ -189,7 +212,9 @@ def user_prompt(candidates):
             'allowed_decisions': ['PAPER_BET', 'PASS', 'WATCH'],
             'max_paper_stake_pct': 1.0,
             'paper_bet_requires_valid_research': True,
+            'paper_bet_requires_research_sources': True,
             'paper_bet_requires_market_signal': True,
+            'paper_bet_forbidden_if_only_forced_research': True,
             'pass_if_is_expired': True,
             'pass_if_research_status': ['insufficient_data'],
             'pass_if_echo_chamber_risk': ['high'],
@@ -254,11 +279,27 @@ def normalize_ai_output(ai_output, candidates):
         rc = c.get('research_context') or {}
         sq = rc.get('source_quality') or {}
         contradictions = (rc.get('signals') or {}).get('contradictions') or []
-        if decision == 'PAPER_BET' and (c.get('is_expired') or not c.get('has_valid_research') or rc.get('research_status') == 'insufficient_data' or sq.get('echo_chamber_risk') == 'high' or contradictions):
+        safety_block = (
+            c.get('is_expired')
+            or not c.get('has_valid_research')
+            or rc.get('research_status') == 'insufficient_data'
+            or sq.get('echo_chamber_risk') == 'high'
+            or contradictions
+            or not has_market_signal(c)
+            or not has_research_sources(rc)
+            or is_forced_only_research(rc)
+        )
+        if decision == 'PAPER_BET' and safety_block:
             decision = 'PASS'; stake = 0.0
             if not isinstance(d.get('data_flags'), list):
                 d['data_flags'] = []
             d['data_flags'].append('paper_bet_blocked_by_v3_2_safety_gate')
+            if not has_market_signal(c):
+                d['data_flags'].append('missing_market_signal')
+            if not has_research_sources(rc):
+                d['data_flags'].append('research_has_no_sources')
+            if is_forced_only_research(rc):
+                d['data_flags'].append('forced_research_not_real_trigger')
         out.append({'market_id': mid, 'decision': decision, 'confidence': confidence, 'paper_stake_pct': max(0.0, min(stake, 1.0)), 'reasoning_code': str(d.get('reasoning_code') or 'UNSPECIFIED'), 'reasoning_summary': str(d.get('reasoning_summary') or '')[:700], 'risk_flags': d.get('risk_flags') if isinstance(d.get('risk_flags'), list) else [], 'data_flags': d.get('data_flags') if isinstance(d.get('data_flags'), list) else []})
     missing = set(by_id) - {d['market_id'] for d in out}
     for mid in missing:
