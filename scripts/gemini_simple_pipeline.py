@@ -20,6 +20,7 @@ DATA_DIR.mkdir(parents=True, exist_ok=True)
 GEMINI_MODEL = os.getenv('GEMINI_DECISION_MODEL', os.getenv('GEMINI_MODEL', 'gemini-2.5-flash'))
 MAX_FILES = int(os.getenv('ODDS_MAX_FILES', '5'))
 MAX_PICKS = int(os.getenv('SIMPLE_MAX_PICKS', '3'))
+MAX_DECISION_MATCHES = int(os.getenv('SIMPLE_MAX_DECISION_MATCHES', '12'))
 MIN_OVERROUND = float(os.getenv('SIMPLE_MIN_OVERROUND', '1.00'))
 MAX_OVERROUND = float(os.getenv('SIMPLE_MAX_OVERROUND', '1.20'))
 PICKS_LOG = DATA_DIR / 'simple_picks_log.jsonl'
@@ -29,18 +30,15 @@ PROHIBITED_SOURCE_TERMS = [
     'free tips', 'prediction', 'predictions', 'expert picks', 'best bet', 'betting tips',
     'tipster', 'forebet', 'bettingexpert', 'footballwhispers'
 ]
-
 TIER1_DOMAINS = [
     'premierinjuries.com', 'bbc.com', 'bbc.co.uk', 'skysports.com', 'theathletic.com',
     'reuters.com', 'apnews.com', 'premierleague.com', 'uefa.com', 'fifa.com',
     'bold.dk', 'tipsbladet.dk', 'superliga.dk', '3fsuperliga.dk',
     'oddsportal.com', 'betfair.com', 'pinnacle.com'
 ]
-
 TIER2_DOMAINS = [
     'espn.com', 'theguardian.com', 'tv2.dk', 'dr.dk', 'flashscore.com', 'oddschecker.com',
-    'liverpoolfc.com', 'chelseafc.com', 'manutd.com', 'arsenal.com', 'avfc.co.uk',
-    'premierinjuries.com'
+    'liverpoolfc.com', 'chelseafc.com', 'manutd.com', 'arsenal.com', 'avfc.co.uk'
 ]
 
 
@@ -75,11 +73,9 @@ def overround(match):
 
 
 def flatten_matches(parser_payload):
-    matches = []
-    rejected = []
+    matches, rejected = [], []
     for file_obj in parser_payload.get('files') or []:
-        source_file = file_obj.get('source_file')
-        file_id = file_obj.get('file_id')
+        source_file, file_id = file_obj.get('source_file'), file_obj.get('file_id')
         for m in file_obj.get('matches') or []:
             item = dict(m)
             item['source_file'] = source_file
@@ -88,50 +84,26 @@ def flatten_matches(parser_payload):
             ov = overround(item)
             item['overround'] = round(ov, 4) if ov is not None else None
             if ov is None:
-                item['audit_status'] = 'rejected'
-                item['audit_reason'] = 'invalid_odds'
-                rejected.append(item)
+                item['audit_status'] = 'rejected'; item['audit_reason'] = 'invalid_odds'; rejected.append(item)
             elif not (MIN_OVERROUND <= ov <= MAX_OVERROUND):
-                item['audit_status'] = 'rejected'
-                item['audit_reason'] = f'overround_outside_{MIN_OVERROUND}_{MAX_OVERROUND}'
-                rejected.append(item)
+                item['audit_status'] = 'rejected'; item['audit_reason'] = f'overround_outside_{MIN_OVERROUND}_{MAX_OVERROUND}'; rejected.append(item)
             else:
-                item['audit_status'] = 'accepted'
-                item['audit_reason'] = 'overround_ok'
-                matches.append(item)
+                item['audit_status'] = 'accepted'; item['audit_reason'] = 'overround_ok'; matches.append(item)
     return matches, rejected
 
 
 def source_policy_block():
     return {
         'title': 'STRICT SOURCE POLICY SOP-01',
-        'goal': 'Avoid low-quality noise. Every PAPER_BET must be backed by documented evidence from acceptable sources.',
-        'tier_1_gold': [
-            'Official club or league websites', 'Official competition websites', 'BBC Sport', 'Sky Sports',
-            'The Athletic', 'Reuters', 'AP', 'Premier Injuries for Premier League injuries',
-            'Bold.dk and Tipsbladet for Danish football', 'Betfair Exchange, Pinnacle, Oddsportal for raw market odds'
-        ],
-        'tier_2_silver': [
-            'Established sports desks: Guardian, ESPN, TV2 Sport, DR Sport',
-            'Official club social media if directly verifiable', 'Flashscore or Oddschecker for odds/results context'
-        ],
-        'tier_3_context_only': [
-            'Fan-led media or club blogs may only be context. They cannot alone support PAPER_BET.'
-        ],
-        'prohibited_instant_pass': [
-            'Sportskeeda', 'CaughtOffside', '90min', 'Stretty News', 'GoonersGuide',
-            'any site offering free tips, predictions, expert picks, best bets, or affiliate betting previews'
-        ],
-        'paper_bet_requirements': [
-            'At least 2 evidence_items', 'At least 1 evidence_item must be Tier 1',
-            'Every evidence_item must include source_url', 'No URL means no PAPER_BET',
-            'If evidence is conflicting, stale, vague, or Tier 3 only, PASS',
-            'Prohibited sources may not be used as evidence for PAPER_BET'
-        ]
+        'tier_1_gold': ['Official club/league/competition websites', 'BBC Sport', 'Sky Sports', 'The Athletic', 'Reuters', 'AP', 'Premier Injuries', 'Bold.dk', 'Tipsbladet', 'Betfair Exchange', 'Pinnacle', 'Oddsportal'],
+        'tier_2_silver': ['Guardian', 'ESPN', 'TV2 Sport', 'DR Sport', 'official club social media if verifiable', 'Flashscore', 'Oddschecker'],
+        'tier_3_context_only': ['Fan-led media or club blogs may only be context and cannot alone support PAPER_BET'],
+        'prohibited_instant_pass': ['Sportskeeda', 'CaughtOffside', '90min', 'Stretty News', 'GoonersGuide', 'free tips', 'predictions', 'expert picks', 'best bets', 'affiliate betting previews'],
+        'paper_bet_requirements': ['At least 2 evidence_items', 'At least 1 Tier 1 evidence_item', 'Every evidence_item must include source_url', 'No URL means no PAPER_BET', 'If evidence is conflicting/stale/vague/Tier 3 only: PASS']
     }
 
 
-def decision_prompt(valid_matches):
+def compact_matches(valid_matches):
     compact = []
     for m in valid_matches:
         compact.append({
@@ -143,10 +115,14 @@ def decision_prompt(valid_matches):
             'odds': {'1': m.get('odds_1'), 'X': m.get('odds_x'), '2': m.get('odds_2')},
             'overround': m.get('overround'),
         })
+    return compact
+
+
+def decision_prompt(decision_matches, total_valid):
     return json.dumps({
         'analysis_version': 'simple_decision_v3_source_policy',
         'persona': 'Odds-2 Analyst: skeptical paper-only football value analyst. Default action is PASS. You are not trying to predict winners; you are looking for documented bookmaker mispricing.',
-        'task': 'Scan the validated 1X2 odds list, shortlist at most 5-8 interesting matches, use Google Search grounding for current team news and market context, and return 0-3 paper-only picks. Return PASS when evidence is insufficient.',
+        'task': f'Analyze only the {len(decision_matches)} supplied matches out of {total_valid} valid matches. Use Google Search grounding for current team news and market context. Return 0-{MAX_PICKS} paper-only picks. PASS when evidence is insufficient.',
         'source_policy': source_policy_block(),
         'hard_rules': [
             'Paper-only. Never imply real-money betting advice.',
@@ -154,57 +130,32 @@ def decision_prompt(valid_matches):
             'PAPER_BET requires at least 2 concrete evidence_items.',
             'PAPER_BET requires at least 1 Tier 1 evidence_item.',
             'Every evidence_item must include a direct source_url.',
-            'PAPER_BET requires a value_case explaining why the Bet365 odds may be wrong. Generic better-team/favorite reasoning is not enough.',
+            'PAPER_BET requires a value_case explaining why the Bet365 odds may be wrong; generic favorite reasoning is not enough.',
             'If you cannot find current useful information from Tier 1/Tier 2 sources, PASS.',
-            'If the reason is only strong form, better squad, home advantage, or famous club, PASS.',
             'Do not use prohibited sources as evidence. If only prohibited or Tier 3 sources exist, PASS.',
             'Low odds under 1.50 require exceptional evidence. Draw picks require exceptional evidence.',
             'Stake units: PASS=0; weak edge=0.25; moderate=0.5; strong=0.75; max=1.0.',
-            'Return JSON only. Do not use markdown fences.'
+            'Return strict JSON only. Do not use markdown fences.'
         ],
         'return_schema': {
             'analysis_version': 'simple_decision_v3_source_policy',
             'picks': [{
-                'match_id': 'string',
-                'match': 'string',
-                'selection': '1|X|2|PASS',
-                'selection_label': 'home|draw|away|pass',
-                'odds': 0.0,
-                'decision': 'PAPER_BET|PASS',
-                'confidence_score': 0.0,
-                'stake_units': 0.0,
-                'value_case': 'short explanation of why price may be wrong',
-                'evidence_summary': 'short summary',
+                'match_id': 'string', 'match': 'string', 'selection': '1|X|2|PASS', 'selection_label': 'home|draw|away|pass',
+                'odds': 0.0, 'decision': 'PAPER_BET|PASS', 'confidence_score': 0.0, 'stake_units': 0.0,
+                'value_case': 'short explanation of why price may be wrong', 'evidence_summary': 'short summary',
                 'evidence_items': [{
                     'type': 'injury|suspension|lineup|motivation|form|market_odds|context|other',
-                    'signal': 'short factual signal',
-                    'supports_selection': True,
-                    'importance': 'low|medium|high',
-                    'source_tier': 'tier1|tier2|tier3|prohibited|unknown',
-                    'source_type': 'official|sports_media|odds_aggregator|fan_media|prohibited|unknown',
-                    'source_name': 'string',
-                    'source_url': 'direct URL',
-                    'published_or_checked_date': 'string if available'
+                    'signal': 'short factual signal', 'supports_selection': True, 'importance': 'low|medium|high',
+                    'source_tier': 'tier1|tier2|tier3|prohibited|unknown', 'source_type': 'official|sports_media|odds_aggregator|fan_media|prohibited|unknown',
+                    'source_name': 'string', 'source_url': 'direct URL', 'published_or_checked_date': 'string if available'
                 }],
-                'source_quality': {
-                    'has_grounded_sources': True,
-                    'tier1_source_count': 0,
-                    'tier2_source_count': 0,
-                    'tier3_source_count': 0,
-                    'odds_sources': 0,
-                    'prohibited_sources_used': False,
-                    'all_evidence_has_urls': True
-                },
+                'source_quality': {'has_grounded_sources': True, 'tier1_source_count': 0, 'tier2_source_count': 0, 'tier3_source_count': 0, 'odds_sources': 0, 'prohibited_sources_used': False, 'all_evidence_has_urls': True},
                 'risk_flags': ['low_confidence|insufficient_sources|possible_rotation|odds_too_short|market_not_verified|tier3_only|no_source_url'],
                 'why_not_pass': 'why this is stronger than simply passing'
             }],
-            'passes': [{
-                'match_id': 'string',
-                'match': 'string',
-                'reason': 'insufficient edge|insufficient evidence|odds too low|conflicting signals|generic favorite only|source_policy_failed'
-            }]
+            'passes': [{'match_id': 'string', 'match': 'string', 'reason': 'insufficient edge|insufficient evidence|odds too low|conflicting signals|generic favorite only|source_policy_failed'}]
         },
-        'validated_matches': compact,
+        'validated_matches': compact_matches(decision_matches),
     }, ensure_ascii=False)
 
 
@@ -221,16 +172,16 @@ def extract_json(text):
         raise
 
 
-def call_decision(valid_matches):
-    if not valid_matches:
+def call_decision(decision_matches, total_valid):
+    if not decision_matches:
         return {'analysis_version': 'simple_decision_v3_source_policy', 'picks': [], 'passes': []}, None
     url = gemini_url()
     if not url:
         return None, {'code': 'missing_gemini_api_key'}
     body = {
-        'contents': [{'role': 'user', 'parts': [{'text': decision_prompt(valid_matches)}]}],
+        'contents': [{'role': 'user', 'parts': [{'text': decision_prompt(decision_matches, total_valid)}]}],
         'tools': [{'google_search': {}}],
-        'generationConfig': {'temperature': 0, 'maxOutputTokens': 8192}
+        'generationConfig': {'temperature': 0, 'maxOutputTokens': 16384}
     }
     try:
         resp = requests.post(url, json=body, timeout=180)
@@ -296,17 +247,16 @@ def evidence_ok(p):
         return False, 'no_grounded_sources'
     if sq.get('all_evidence_has_urls') is False:
         return False, 'source_quality_missing_urls'
-    text = f"{p.get('value_case') or ''} {p.get('evidence_summary') or ''} {p.get('why_not_pass') or ''}".lower()
+    generic_text = f"{p.get('value_case') or ''} {p.get('evidence_summary') or ''} {p.get('why_not_pass') or ''}".lower()
     generic = ['strong form', 'better team', 'superior squad', 'home record', 'title-contending', 'inconsistent']
-    if any(g in text for g in generic) and len(items) < 3:
+    if any(g in generic_text for g in generic) and len(items) < 3:
         return False, 'generic_reasoning_without_enough_evidence'
     return True, None
 
 
-def normalize_picks(decision_payload, valid_matches):
-    by_id = {m['match_id']: m for m in valid_matches}
-    out = []
-    paper_count = 0
+def normalize_picks(decision_payload, decision_matches):
+    by_id = {m['match_id']: m for m in decision_matches}
+    out, paper_count = [], 0
     for p in (decision_payload or {}).get('picks') or []:
         mid = p.get('match_id')
         if mid not in by_id:
@@ -318,21 +268,13 @@ def normalize_picks(decision_payload, valid_matches):
         if decision == 'PAPER_BET':
             ok, block_reason = evidence_ok(p)
             if not ok:
-                decision = 'PASS'
-                selection = 'PASS'
+                decision, selection = 'PASS', 'PASS'
         if decision != 'PAPER_BET' or selection not in {'1', 'X', '2'}:
-            decision = 'PASS'
-            selection = 'PASS'
-            stake = 0.0
-            odds = None
+            decision, selection, stake, odds = 'PASS', 'PASS', 0.0, None
         else:
             paper_count += 1
             if paper_count > MAX_PICKS:
-                decision = 'PASS'
-                selection = 'PASS'
-                stake = 0.0
-                odds = None
-                block_reason = 'max_picks_exceeded'
+                decision, selection, stake, odds, block_reason = 'PASS', 'PASS', 0.0, None, 'max_picks_exceeded'
             else:
                 stake = min(max(float(p.get('stake_units') or 0), 0.0), 1.0)
                 odds = {'1': m.get('odds_1'), 'X': m.get('odds_x'), '2': m.get('odds_2')}[selection]
@@ -341,32 +283,19 @@ def normalize_picks(decision_payload, valid_matches):
         except Exception:
             confidence = 0.0
         out.append({
-            'record_type': 'simple_pick',
-            'pick_id': stable_id('pick', mid, now_utc(), selection, odds),
-            'created_at': now_utc(),
-            'mode': 'paper_only',
-            'analysis_version': 'simple_decision_v3_source_policy',
-            'match_id': mid,
-            'match': f'{m.get("home_team")} vs {m.get("away_team")}',
-            'league': m.get('league'),
-            'date_display': m.get('date_display'),
-            'time_display': m.get('time_display'),
-            'selection': selection,
-            'selection_label': p.get('selection_label') if decision == 'PAPER_BET' else 'pass',
-            'odds': odds,
-            'decision': decision,
-            'confidence_score': confidence,
-            'stake_units': stake,
-            'value_case': str(p.get('value_case') or '')[:700],
-            'evidence_summary': str(p.get('evidence_summary') or '')[:700],
+            'record_type': 'simple_pick', 'pick_id': stable_id('pick', mid, now_utc(), selection, odds),
+            'created_at': now_utc(), 'mode': 'paper_only', 'analysis_version': 'simple_decision_v3_source_policy',
+            'match_id': mid, 'match': f'{m.get("home_team")} vs {m.get("away_team")}', 'league': m.get('league'),
+            'date_display': m.get('date_display'), 'time_display': m.get('time_display'),
+            'selection': selection, 'selection_label': p.get('selection_label') if decision == 'PAPER_BET' else 'pass',
+            'odds': odds, 'decision': decision, 'confidence_score': confidence, 'stake_units': stake,
+            'value_case': str(p.get('value_case') or '')[:700], 'evidence_summary': str(p.get('evidence_summary') or '')[:700],
             'evidence_items': p.get('evidence_items') if isinstance(p.get('evidence_items'), list) else [],
             'source_quality': p.get('source_quality') if isinstance(p.get('source_quality'), dict) else {},
             'risk_flags': p.get('risk_flags') if isinstance(p.get('risk_flags'), list) else [],
-            'why_not_pass': str(p.get('why_not_pass') or '')[:500],
-            'blocked_by_safety': block_reason,
+            'why_not_pass': str(p.get('why_not_pass') or '')[:500], 'blocked_by_safety': block_reason,
             'short_reason': str(p.get('evidence_summary') or p.get('value_case') or '')[:500],
-            'source_match': m,
-            'settlement': 'PENDING' if decision == 'PAPER_BET' else 'NOT_APPLICABLE'
+            'source_match': m, 'settlement': 'PENDING' if decision == 'PAPER_BET' else 'NOT_APPLICABLE'
         })
     return out
 
@@ -386,16 +315,13 @@ def append_log(records):
 
 
 def write_report(payload):
-    lines = ['# Odds 2 — Simple Gemini Pipeline', '', f'Generated: {payload.get("generated_at")}', f'- Analysis version: simple_decision_v3_source_policy', f'- Files processed: {payload.get("files_processed")}', f'- Raw matches: {payload.get("raw_match_count")}', f'- Valid matches: {payload.get("valid_match_count")}', f'- Rejected matches: {payload.get("rejected_match_count")}', f'- Picks logged: {payload.get("pick_count")}', f'- Decision error: `{payload.get("decision_error")}`', '']
+    lines = ['# Odds 2 — Simple Gemini Pipeline', '', f'Generated: {payload.get("generated_at")}', f'- Analysis version: simple_decision_v3_source_policy', f'- Files processed: {payload.get("files_processed")}', f'- Raw matches: {payload.get("raw_match_count")}', f'- Valid matches: {payload.get("valid_match_count")}', f'- Decision matches: {payload.get("decision_match_count")}', f'- Rejected matches: {payload.get("rejected_match_count")}', f'- Picks logged: {payload.get("pick_count")}', f'- Decision error: `{payload.get("decision_error")}`', '']
     if payload.get('picks'):
         lines.append('## Picks / Decisions')
         for p in payload.get('picks'):
             lines += ['', f'### {p.get("match")}', f'- Decision: {p.get("decision")}', f'- Selection: {p.get("selection")}', f'- Odds: {p.get("odds")}', f'- Stake units: {p.get("stake_units")}', f'- Confidence: {p.get("confidence_score")}', f'- Blocked by safety: `{p.get("blocked_by_safety")}`', f'- Value case: {p.get("value_case")}', f'- Evidence: {p.get("evidence_summary")}', f'- Evidence items: `{json.dumps(p.get("evidence_items"), ensure_ascii=False)}`', f'- Source quality: `{json.dumps(p.get("source_quality"), ensure_ascii=False)}`', f'- Risk flags: `{p.get("risk_flags")}`', f'- Why not pass: {p.get("why_not_pass")}']
     else:
         lines.append('No picks returned.')
-    lines += ['', '## Rejected examples']
-    for r in (payload.get('rejected_matches') or [])[:10]:
-        lines.append(f'- {r.get("home_team")} vs {r.get("away_team")}: {r.get("audit_reason")} overround={r.get("overround")}')
     path = OUT_REPORTS / 'simple_pipeline_report.md'
     path.write_text('\n'.join(lines) + '\n', encoding='utf-8')
     return str(path)
@@ -404,38 +330,17 @@ def write_report(payload):
 def main():
     files = list_pdfs()[:MAX_FILES]
     parsed_files = [parse_pdf(p) for p in files]
-    parser_payload = {
-        'generated_at': now_utc(),
-        'parser_source': 'gemini_pdf_vision',
-        'files_processed': len(files),
-        'files': parsed_files,
-        'summary': {
-            'matches_total': sum(len(f.get('matches') or []) for f in parsed_files),
-            'files_with_errors': sum(1 for f in parsed_files if f.get('error')),
-        }
-    }
+    parser_payload = {'generated_at': now_utc(), 'parser_source': 'gemini_pdf_vision', 'files_processed': len(files), 'files': parsed_files, 'summary': {'matches_total': sum(len(f.get('matches') or []) for f in parsed_files), 'files_with_errors': sum(1 for f in parsed_files if f.get('error'))}}
     valid, rejected = flatten_matches(parser_payload)
-    decision_payload, decision_error = call_decision(valid)
-    picks = normalize_picks(decision_payload, valid) if decision_payload else []
+    # Keep grounded decision stable: analyze only a compact subset. User controls relevance by uploaded PDFs/order.
+    decision_matches = valid[:MAX_DECISION_MATCHES]
+    decision_payload, decision_error = call_decision(decision_matches, len(valid))
+    picks = normalize_picks(decision_payload, decision_matches) if decision_payload else []
     append_log(picks)
-    output = {
-        'generated_at': now_utc(),
-        'pipeline': 'gemini_simple_pipeline_v3_source_policy',
-        'files_processed': len(files),
-        'raw_match_count': parser_payload['summary']['matches_total'],
-        'valid_match_count': len(valid),
-        'rejected_match_count': len(rejected),
-        'decision_error': decision_error,
-        'pick_count': len(picks),
-        'parser_payload': parser_payload,
-        'valid_matches': valid,
-        'rejected_matches': rejected,
-        'decision_payload': decision_payload,
-        'picks': picks,
-    }
+    output = {'generated_at': now_utc(), 'pipeline': 'gemini_simple_pipeline_v3_source_policy', 'files_processed': len(files), 'raw_match_count': parser_payload['summary']['matches_total'], 'valid_match_count': len(valid), 'decision_match_count': len(decision_matches), 'rejected_match_count': len(rejected), 'decision_error': decision_error, 'pick_count': len(picks), 'parser_payload': parser_payload, 'valid_matches': valid, 'decision_matches': decision_matches, 'rejected_matches': rejected, 'decision_payload': decision_payload, 'picks': picks}
     write_json(OUT_LATEST / 'simple_pipeline_output.json', output)
     report = write_report(output)
-    print(f'Simple Gemini pipeline v3 OK | files={len(files)} raw={output["raw_match_count"]} valid={len(valid)} rejected={len(rejected)} picks={len(picks)} report={report}')
+    print(f'Simple Gemini pipeline v3 OK | files={len(files)} raw={output["raw_match_count"]} valid={len(valid)} decision_matches={len(decision_matches)} rejected={len(rejected)} picks={len(picks)} report={report}')
 
 
 if __name__ == '__main__':
