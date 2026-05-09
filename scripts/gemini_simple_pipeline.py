@@ -117,7 +117,7 @@ def decision_prompt(decision_matches, total_valid):
     return json.dumps({
         'analysis_version': 'simple_decision_v4_verified_sources',
         'persona': 'Odds-2 Analyst: skeptical paper-only football value analyst. Default action is PASS.',
-        'task': f'Analyze only the {len(decision_matches)} supplied matches out of {total_valid} valid matches. Use Google Search grounding. Return 0-{MAX_PICKS} paper-only picks. PASS when evidence is insufficient.',
+        'task': f'Analyze only the {len(decision_matches)} supplied matches out of {total_valid} valid matches. Use Google Search grounding. Return 0-{MAX_PICKS} paper-only picks. PASS when evidence is insufficient. Always return pass records for all analyzed matches not selected.',
         'source_policy': source_policy_block(),
         'hard_rules': [
             'Paper-only. Never imply real-money betting advice.',
@@ -147,7 +147,7 @@ def decision_prompt(decision_matches, total_valid):
                 'risk_flags': ['low_confidence|insufficient_sources|possible_rotation|odds_too_short|market_not_verified|tier3_only|no_source_url'],
                 'why_not_pass': 'why this is stronger than simply passing'
             }],
-            'passes': [{'match_id': 'string', 'match': 'string', 'reason': 'insufficient edge|insufficient evidence|odds too low|conflicting signals|generic favorite only|source_policy_failed'}]
+            'passes': [{'match_id': 'string', 'match': 'string', 'reason': 'insufficient edge|insufficient evidence|odds too low|conflicting signals|generic favorite only|source_policy_failed', 'short_note': 'max 220 chars'}]
         },
         'validated_matches': compact_matches(decision_matches),
     }, ensure_ascii=False)
@@ -233,7 +233,6 @@ def source_is_redirect(item):
 
 
 def source_tier(item):
-    # Do not trust Gemini's self-declared tier. Classify from source_name and URL/domain.
     domain = domain_from_url(item.get('source_url'))
     text = item_text(item)
     if any(d in domain for d in TIER1_DOMAINS) or any(t in text for t in TIER1_TERMS):
@@ -325,6 +324,37 @@ def normalize_picks(decision_payload, decision_matches):
     return out
 
 
+def normalize_passes(decision_payload, decision_matches, picks):
+    by_id = {m['match_id']: m for m in decision_matches}
+    pick_ids = {p.get('match_id') for p in picks}
+    out = []
+    raw_passes = (decision_payload or {}).get('passes') or []
+    seen = set()
+    for p in raw_passes:
+        mid = p.get('match_id')
+        if mid not in by_id or mid in pick_ids or mid in seen:
+            continue
+        seen.add(mid)
+        m = by_id[mid]
+        out.append({
+            'match_id': mid,
+            'match': p.get('match') or f'{m.get("home_team")} vs {m.get("away_team")}',
+            'reason': str(p.get('reason') or 'pass').strip()[:120],
+            'short_note': str(p.get('short_note') or '').strip()[:300],
+            'odds': {'1': m.get('odds_1'), 'X': m.get('odds_x'), '2': m.get('odds_2')},
+        })
+    for mid, m in by_id.items():
+        if mid not in pick_ids and mid not in seen:
+            out.append({
+                'match_id': mid,
+                'match': f'{m.get("home_team")} vs {m.get("away_team")}',
+                'reason': 'no_pass_reason_returned',
+                'short_note': 'Gemini returned no explicit pass reason for this analyzed match.',
+                'odds': {'1': m.get('odds_1'), 'X': m.get('odds_x'), '2': m.get('odds_2')},
+            })
+    return out
+
+
 def write_json(path, data):
     pathlib.Path(path).parent.mkdir(parents=True, exist_ok=True)
     pathlib.Path(path).write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding='utf-8')
@@ -340,15 +370,21 @@ def append_log(records):
 
 
 def write_report(payload):
-    lines = ['# Odds 2 — Simple Gemini Pipeline', '', f'Generated: {payload.get("generated_at")}', f'- Analysis version: simple_decision_v4_verified_sources', f'- Files processed: {payload.get("files_processed")}', f'- Raw matches: {payload.get("raw_match_count")}', f'- Valid matches: {payload.get("valid_match_count")}', f'- Decision matches: {payload.get("decision_match_count")}', f'- Rejected matches: {payload.get("rejected_match_count")}', f'- Picks logged: {payload.get("pick_count")}', f'- Decision error: `{payload.get("decision_error")}`', f'- Grounding sources: {len(payload.get("decision_grounding_sources") or [])}', '']
+    lines = ['# Odds 2 — Simple Gemini Pipeline', '', f'Generated: {payload.get("generated_at")}', f'- Analysis version: simple_decision_v4_verified_sources', f'- Files processed: {payload.get("files_processed")}', f'- Raw matches: {payload.get("raw_match_count")}', f'- Valid matches: {payload.get("valid_match_count")}', f'- Decision matches: {payload.get("decision_match_count")}', f'- Rejected matches: {payload.get("rejected_match_count")}', f'- Picks logged: {payload.get("pick_count")}', f'- Passes returned: {len(payload.get("passes") or [])}', f'- Decision error: `{payload.get("decision_error")}`', f'- Grounding sources: {len(payload.get("decision_grounding_sources") or [])}', '']
     if payload.get('picks'):
         lines.append('## Picks / Decisions')
         for p in payload.get('picks'):
             lines += ['', f'### {p.get("match")}', f'- Decision: {p.get("decision")}', f'- Selection: {p.get("selection")}', f'- Odds: {p.get("odds")}', f'- Stake units: {p.get("stake_units")}', f'- Confidence: {p.get("confidence_score")}', f'- Blocked by safety: `{p.get("blocked_by_safety")}`', f'- Verified source tiers: `{p.get("verified_source_tiers")}`', f'- Redirect source count: {p.get("redirect_source_count")}', f'- Value case: {p.get("value_case")}', f'- Evidence: {p.get("evidence_summary")}', f'- Evidence items: `{json.dumps(p.get("evidence_items"), ensure_ascii=False)}`', f'- Source quality: `{json.dumps(p.get("source_quality"), ensure_ascii=False)}`', f'- Risk flags: `{p.get("risk_flags")}`', f'- Why not pass: {p.get("why_not_pass")}']
     else:
         lines.append('No picks returned.')
+    lines += ['', '## Pass reasons']
+    for p in (payload.get('passes') or [])[:MAX_DECISION_MATCHES]:
+        lines.append(f'- {p.get("match")}: {p.get("reason")} — {p.get("short_note") or ""}')
     lines += ['', '## Gemini grounding sources']
-    for s in (payload.get('decision_grounding_sources') or [])[:25]:
+    sources = payload.get('decision_grounding_sources') or []
+    if not sources:
+        lines.append('No grounding sources returned or parsed.')
+    for s in sources[:25]:
         lines.append(f'- {s.get("title") or "Untitled"} — {s.get("domain") or "unknown"} — {s.get("uri")}')
     path = OUT_REPORTS / 'simple_pipeline_report.md'
     path.write_text('\n'.join(lines) + '\n', encoding='utf-8')
@@ -363,11 +399,12 @@ def main():
     decision_matches = valid[:MAX_DECISION_MATCHES]
     decision_payload, decision_error, decision_grounding_sources = call_decision(decision_matches, len(valid))
     picks = normalize_picks(decision_payload, decision_matches) if decision_payload else []
+    passes = normalize_passes(decision_payload, decision_matches, picks) if decision_payload else []
     append_log(picks)
-    output = {'generated_at': now_utc(), 'pipeline': 'gemini_simple_pipeline_v4_verified_sources', 'files_processed': len(files), 'raw_match_count': parser_payload['summary']['matches_total'], 'valid_match_count': len(valid), 'decision_match_count': len(decision_matches), 'rejected_match_count': len(rejected), 'decision_error': decision_error, 'pick_count': len(picks), 'decision_grounding_sources': decision_grounding_sources, 'parser_payload': parser_payload, 'valid_matches': valid, 'decision_matches': decision_matches, 'rejected_matches': rejected, 'decision_payload': decision_payload, 'picks': picks}
+    output = {'generated_at': now_utc(), 'pipeline': 'gemini_simple_pipeline_v4_verified_sources', 'files_processed': len(files), 'raw_match_count': parser_payload['summary']['matches_total'], 'valid_match_count': len(valid), 'decision_match_count': len(decision_matches), 'rejected_match_count': len(rejected), 'decision_error': decision_error, 'pick_count': len(picks), 'pass_count': len(passes), 'decision_grounding_sources': decision_grounding_sources, 'parser_payload': parser_payload, 'valid_matches': valid, 'decision_matches': decision_matches, 'rejected_matches': rejected, 'decision_payload': decision_payload, 'picks': picks, 'passes': passes}
     write_json(OUT_LATEST / 'simple_pipeline_output.json', output)
     report = write_report(output)
-    print(f'Simple Gemini pipeline v4 OK | files={len(files)} raw={output["raw_match_count"]} valid={len(valid)} decision_matches={len(decision_matches)} rejected={len(rejected)} picks={len(picks)} grounding_sources={len(decision_grounding_sources)} report={report}')
+    print(f'Simple Gemini pipeline v4 OK | files={len(files)} raw={output["raw_match_count"]} valid={len(valid)} decision_matches={len(decision_matches)} rejected={len(rejected)} picks={len(picks)} passes={len(passes)} grounding_sources={len(decision_grounding_sources)} report={report}')
 
 
 if __name__ == '__main__':
