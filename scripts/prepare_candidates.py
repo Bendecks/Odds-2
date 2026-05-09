@@ -1,6 +1,8 @@
 import json
 import pathlib
-from collections import defaultdict
+from collections import Counter, defaultdict
+from datetime import datetime, timezone
+
 from tracker import read_tracker
 
 MARKET_STATE_PATH = pathlib.Path('output/latest/market_state.json')
@@ -10,6 +12,26 @@ OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
 MODEL_VERSION = 'phase2_chatgpt_paper_v2'
 
 
+def utc_now_dt():
+    return datetime.now(timezone.utc)
+
+
+def parse_utc(value):
+    if not value:
+        return None
+    try:
+        return datetime.fromisoformat(str(value).replace('Z', '+00:00'))
+    except Exception:
+        return None
+
+
+def is_expired_market(market):
+    dt = parse_utc((market.get('event_time') or {}).get('utc'))
+    if not dt:
+        return False
+    return dt <= utc_now_dt()
+
+
 def load_market_state(path=MARKET_STATE_PATH):
     if not path.exists():
         return {'markets': []}
@@ -17,26 +39,28 @@ def load_market_state(path=MARKET_STATE_PATH):
 
 
 def existing_decision_keys(records, model_version=MODEL_VERSION):
+    """Decision dedupe is scoped to a market snapshot, not market forever."""
     keys = set()
+    legacy_market_ids = set()
     for r in records:
         if r.get('record_type') != 'decision_record':
             continue
         if r.get('model_version') != model_version:
             continue
         market_id = r.get('market_id')
-        if market_id:
-            keys.add(market_id)
-    return keys
-
-
-def event_bundle_key(market):
-    event = market.get('event') or {}
-    return market.get('event_id') or f'{event.get("home")} vs {event.get("away")} | {(market.get("event_time") or {}).get("utc")}'
+        latest_observation_id = r.get('latest_observation_id')
+        if market_id and latest_observation_id:
+            keys.add((market_id, latest_observation_id))
+        elif market_id:
+            legacy_market_ids.add(market_id)
+    return keys, legacy_market_ids
 
 
 def market_is_eligible(market):
     if not market.get('active'):
         return False, 'inactive_market'
+    if is_expired_market(market):
+        return False, 'event_expired'
     m = market.get('market') or {}
     if m.get('type') != '1X2':
         return False, 'unsupported_market_type'
@@ -81,21 +105,29 @@ def compact_candidate(market):
 def prepare_candidates(max_candidates=90, model_version=MODEL_VERSION):
     state = load_market_state()
     records = read_tracker()
-    existing = existing_decision_keys(records, model_version)
+    existing_snapshot_keys, legacy_market_ids = existing_decision_keys(records, model_version)
     eligible = []
     skipped = []
+    reason_counts = Counter()
+
     for market in state.get('markets') or []:
-        ok, reason = market_is_eligible(market)
         mid = market.get('market_id')
-        if mid in existing:
-            skipped.append({'market_id': mid, 'reason': 'decision_exists_for_model_version'})
-            continue
+        latest_observation_id = market.get('latest_observation_id')
+        ok, reason = market_is_eligible(market)
         if not ok:
             skipped.append({'market_id': mid, 'reason': reason})
+            reason_counts[reason] += 1
             continue
+        if mid and latest_observation_id and (mid, latest_observation_id) in existing_snapshot_keys:
+            skipped.append({'market_id': mid, 'latest_observation_id': latest_observation_id, 'reason': 'decision_exists_for_market_observation_model'})
+            reason_counts['decision_exists_for_market_observation_model'] += 1
+            continue
+        # Legacy decisions without latest_observation_id should not block new V3+ decisions.
+        if mid in legacy_market_ids:
+            skipped.append({'market_id': mid, 'reason': 'legacy_decision_ignored_no_observation_scope'})
+            reason_counts['legacy_decision_ignored_no_observation_scope'] += 1
         eligible.append(compact_candidate(market))
 
-    # Keep complete event groups as much as possible, then cap.
     grouped = defaultdict(list)
     for c in eligible:
         grouped[c['event_id']].append(c)
@@ -107,9 +139,11 @@ def prepare_candidates(max_candidates=90, model_version=MODEL_VERSION):
         'model_version': model_version,
         'mode': 'paper_only',
         'candidate_count': len(selected),
+        'eligible_count': len(eligible),
         'skipped_count': len(skipped),
+        'skip_reason_counts': dict(reason_counts),
         'candidates': selected,
-        'skipped': skipped[:200]
+        'skipped': skipped[:300]
     }
     OUT_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding='utf-8')
     return payload
@@ -117,4 +151,4 @@ def prepare_candidates(max_candidates=90, model_version=MODEL_VERSION):
 
 if __name__ == '__main__':
     p = prepare_candidates()
-    print(f'Prepared AI candidates: {p["candidate_count"]} | skipped={p["skipped_count"]}')
+    print(f'Prepared AI candidates: {p["candidate_count"]} | eligible={p["eligible_count"]} | skipped={p["skipped_count"]} | reasons={p["skip_reason_counts"]}')
