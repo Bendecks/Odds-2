@@ -1,0 +1,30 @@
+{
+  "source_file": "inbox/possible_bets/20260509-185826_possible_bets_2990.pdf",
+  "timezone_assumed": "Europe/Copenhagen",
+  "matches": [
+    {
+      "home_team": "Toronto FC",
+      "away_team": "Inter Miami",
+      "league": "USA - MLS",
+      "date_display": "09 maj",
+      "time_display": "19:00",
+      "odds_1": 4.5,
+      "odds_x": 4.75,
+      "odds_2": 1.57,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "home_team": "Esbjerg",
+      "away_team": "Kolding IF",
+      "league": "Danmark - 1. division",
+      "date_display": "09 maj",
+      "time_display": "19:00",
+      "odds_1": 2.15,
+      "odds_x": 3.6,
+      "odds_2": 3.0,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "home_team": "Alanyaspor

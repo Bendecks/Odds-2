@@ -1,5 +1,5 @@
 {
-  "source_file": "inbox/possible_bets/20260509-075325_possible_bets_1486.pdf",
+  "source_file": "inbox/possible_bets/20260509-185827_possible_bets_1569.pdf",
   "timezone_assumed": "Europe/Copenhagen",
   "matches": [
     {
@@ -12,7 +12,7 @@
       "odds_x": 3.8,
       "odds_2": 2.2,
       "confidence": "high",
-      "notes": "time normalized from 14:00 6"
+      "notes": ""
     },
     {
       "home_team": "Vejle",
@@ -24,7 +24,7 @@
       "odds_x": 3.5,
       "odds_2": 2.15,
       "confidence": "high",
-      "notes": "time normalized from 14:00 6"
+      "notes": ""
     },
     {
       "home_team": "Silkeborg IF",
@@ -36,7 +36,7 @@
       "odds_x": 3.9,
       "odds_2": 1.8,
       "confidence": "high",
-      "notes": "time normalized from 16:00 6"
+      "notes": ""
     },
     {
       "home_team": "Brøndby",
@@ -48,7 +48,7 @@
       "odds_x": 3.6,
       "odds_2": 2.3,
       "confidence": "high",
-      "notes": "time normalized from 18:00 6"
+      "notes": ""
     },
     {
       "home_team": "Randers FC",

@@ -1,0 +1,8 @@
+{
+  "source_file": "inbox/possible_bets/20260509-185830_possible_bets_5383.pdf",
+  "timezone_assumed": "Europe/Copenhagen",
+  "matches": [],
+  "parser_warnings": [
+    "No football 1X2 match odds were found. All visible markets were identified as basketball."
+  ]
+}
