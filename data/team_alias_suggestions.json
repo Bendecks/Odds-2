@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-05-09T05:36:07Z",
+  "updated_at": "2026-05-09T06:03:51Z",
   "suggestions": [
     {
       "raw_name": "Arsenal",
@@ -21,6 +21,86 @@
       "source_event": "Arsenal vs Burnley",
       "status": "pending_review",
       "created_at": "2026-05-09T05:36:07Z"
+    },
+    {
+      "raw_name": "Aston Villa",
+      "suggested_canonical": "Sevilla",
+      "reason": "low_confidence_or_unknown_team",
+      "confidence": 0.6667,
+      "match_method": "direct_or_fuzzy",
+      "source_event": "Burnley vs Aston Villa",
+      "status": "pending_review",
+      "created_at": "2026-05-09T06:03:51Z"
+    },
+    {
+      "raw_name": "Crystal Palace",
+      "suggested_canonical": "St. Pauli",
+      "reason": "low_confidence_or_unknown_team",
+      "confidence": 0.5455,
+      "match_method": "direct_or_fuzzy",
+      "source_event": "Crystal Palace vs Everton",
+      "status": "pending_review",
+      "created_at": "2026-05-09T06:03:51Z"
+    },
+    {
+      "raw_name": "Everton",
+      "suggested_canonical": "Wolverhampton",
+      "reason": "low_confidence_or_unknown_team",
+      "confidence": 0.6,
+      "match_method": "direct_or_fuzzy",
+      "source_event": "Crystal Palace vs Everton",
+      "status": "pending_review",
+      "created_at": "2026-05-09T06:03:51Z"
+    },
+    {
+      "raw_name": "Nottm Forest",
+      "suggested_canonical": "Brentford",
+      "reason": "low_confidence_or_unknown_team",
+      "confidence": 0.4762,
+      "match_method": "direct_or_fuzzy",
+      "source_event": "Nottm Forest vs Newcastle",
+      "status": "pending_review",
+      "created_at": "2026-05-09T06:03:51Z"
+    },
+    {
+      "raw_name": "Newcastle",
+      "suggested_canonical": "Udinese",
+      "reason": "low_confidence_or_unknown_team",
+      "confidence": 0.5,
+      "match_method": "direct_or_fuzzy",
+      "source_event": "Nottm Forest vs Newcastle",
+      "status": "pending_review",
+      "created_at": "2026-05-09T06:03:51Z"
+    },
+    {
+      "raw_name": "West Ham",
+      "suggested_canonical": "Southampton",
+      "reason": "low_confidence_or_unknown_team",
+      "confidence": 0.5263,
+      "match_method": "direct_or_fuzzy",
+      "source_event": "West Ham vs Arsenal",
+      "status": "pending_review",
+      "created_at": "2026-05-09T06:03:51Z"
+    },
+    {
+      "raw_name": "Tottenham",
+      "suggested_canonical": "FC København",
+      "reason": "low_confidence_or_unknown_team",
+      "confidence": 0.5556,
+      "match_method": "direct_or_fuzzy",
+      "source_event": "Tottenham vs Leeds",
+      "status": "pending_review",
+      "created_at": "2026-05-09T06:03:51Z"
+    },
+    {
+      "raw_name": "Leeds",
+      "suggested_canonical": "Lens",
+      "reason": "low_confidence_or_unknown_team",
+      "confidence": 0.6667,
+      "match_method": "direct_or_fuzzy",
+      "source_event": "Tottenham vs Leeds",
+      "status": "pending_review",
+      "created_at": "2026-05-09T06:03:51Z"
     }
   ]
 }
