@@ -57,8 +57,8 @@ jobs:
           ODDS_MAX_FILES: 25
           ODDS_TIMEZONE: Europe/Copenhagen
 
-      - name: Run Phase 2.1 research orchestrator
-        run: python scripts/research_orchestrator_v7.py
+      - name: Run Phase 2.1 autonomous research orchestrator
+        run: python scripts/research_orchestrator_v8.py
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_RESEARCH_MODEL: gemini-2.5-flash
@@ -66,6 +66,9 @@ jobs:
           GEMINI_REVIEW_MODEL: gemini-2.5-pro
           MAX_RESEARCH_CALLS: 5
           RESEARCH_ENABLED: true
+          RESEARCH_FRESH_WINDOW_HOURS: 48
+          RESEARCH_REFRESH_HOURS: 6
+          RESEARCH_REFRESH_WINDOW_HOURS: 24
           SIMULATE_RESEARCH_TRIGGER: ${{ github.event.inputs.force_research_candidate }}
           SIMULATE_RESEARCH_WRITE_RECORD: ${{ github.event.inputs.simulate_research_write_record }}
 
