@@ -1,0 +1,30 @@
+{
+  "source_file": "inbox/possible_bets/20260509-195529_possible_bets_3139.pdf",
+  "timezone_assumed": "Europe/Copenhagen",
+  "matches": [
+    {
+      "home_team": "Annecy",
+      "away_team": "Rodez",
+      "league": "Frankrig - Ligue 2",
+      "date_display": "09 maj",
+      "time_display": "20:00",
+      "odds_1": 2.3,
+      "odds_x": 3.5,
+      "odds_2": 2.9,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "home_team": "SC Bastia",
+      "away_team": "Le Mans",
+      "league": "Frankrig - Ligue 2",
+      "date_display": "09 maj",
+      "time_display": "20:00",
+      "odds_1": 3.2,
+      "odds_x": 3.5,
+      "odds_2": 2.2,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "home_team": "Clermont Foot",

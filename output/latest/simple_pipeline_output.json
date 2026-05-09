@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-09T17:50:45Z",
+  "generated_at": "2026-05-09T17:58:15Z",
   "pipeline": "gemini_simple_pipeline_v5_deduped_source_audit",
   "files_processed": 5,
   "raw_match_count": 5,
@@ -9,62 +9,13 @@
   "decision_match_count": 5,
   "rejected_match_count": 0,
   "decision_error": null,
-  "decision_record_count": 0,
+  "decision_record_count": 1,
   "paper_bet_count": 0,
-  "blocked_decision_count": 0,
+  "blocked_decision_count": 1,
   "logged_count": 0,
   "pick_count": 0,
   "pass_count": 5,
-  "decision_grounding_sources": [
-    {
-      "index": 0,
-      "title": "plbold.dk",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPyPkyY1iJ7mHQyfV9l6Dn6RkuiUlntbGznq8qm1BDzYQRRpYq0nRZgmkN8SY4tTYOLVEOQ_ISuEIei45uRUBjxQBdIzbtxhSgpc7pe6757fKH9_m3qRU_egPg4sSoMqrtNPa8OYjkBrlnC2qN_dGlzaVRgFh0UKUASXc5WVb4gtl-mFwUrG0e",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "index": 1,
-      "title": "fcm.dk",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3A6fMpd9Ywdwx7gmYwZQHU1Mjqj6gf_jIxa2LoLoxpm3WrlzJqlLkSMlgUrlNq7YrBS6W1yMQOBV2sT-dPNMCmiG9vIwNTLlbd6MZlFTVRFnYS6GyAxLbRZ-QyvGb9xQn316VCzXC",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "index": 2,
-      "title": "fcm.dk",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjQkKl0mcGm6jGkre_JXzLsePFkPywPFc54Yz6TEluC5_LIokbDcPiAwx2A11C6EPjdemz4amQ34ItwXA_k_OOBODiJ1Z97UAb4duuXu-3Wq18JrmVu8NSOpI6GBVBQkkKagDBrBHEk7oUsBL4yIKDshc=",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "index": 3,
-      "title": "fcm.dk",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEynxAmZrb9-8gKaFU7jI9WUm4-XFrCTjv7dkyDypAuCRCcx9LnIhXZ2W4aYQeJzh7h7EYJA9-tE-h45tqrjCHMK_Zkrnh8mAhhdAOsQ5DbbKF378rpk1fKrRgd0deB2oUCxrFGozju-W3UopX1benvTa4U4SoiAQJx8Inl",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "index": 4,
-      "title": "brondby.com",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH65IS54kgNP8dUof2iESH27x8KjoNrL5dMewkApYaK3yHpvDeRQcVo61AzcBZanMC8YuZnzof-iMOMdhpgLlkqjur0AOtX_SWx7U-cL1g_9IX_BTPKiw_IasPLaknn83Y0Zj_-YFJVpMIKxEjCx-0z_N9PnsBA0uQjCNaPKbshFWbIvkKBG-L7wVgRRajtrNqSNS-ASQ==",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "index": 5,
-      "title": "campo.dk",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHelLO1fW_O2pa4GuMxHtMAbRHCVBAZAw0E5s7uMS37L4l6hIfXNjbkm5mQQPPaPk9t_JIgUY2yOwjv4uW8pQV1YyUm6xoLVe9zEpoh02-Z354sVAy2tNlt3bmC95ir23xGwqx3WOCzYOGE4vhfN7RIkytxDKk1J3h7MQEkQC6JpulWKp9xLqU=",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "index": 6,
-      "title": "tipsbladet.dk",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6Ykr348a8boAXKqj3yUa1wIHWIe2B8ex4w20PJz_FBJ5Em2UL1nSFDgfMpK7gbU8_IDcsgJmiQ1_2yjJ2J4lMZ5w6idHfPNTNUWAzOo3N4uEDtXb8Lypf6BsbMkMVOJczjLQhl46CBk0R",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "index": 7,
-      "title": "spilxperten.com",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErBOX2299WUD_LxhVxa8L8MLghQn3diBjRx6KQIslst8OGhSJiCrw1BGeuWsIjMOTTUfI-Ol17cEZJt-_4Wpj5eA--4ca918AvzF3tZ1XT1CRmALZIDkHBvsOm-XymJOfW5b_Y573IfrFFQ65QWeogoo-plX1Z3EY_3Xr2j4yOSMV31bCob_KjqhUYnODThUSS_GOIrQ==",
-      "domain": "vertexaisearch.cloud.google.com"
-    }
-  ],
+  "decision_grounding_sources": [],
   "decision_response_debug": {
     "top_level_keys": [
       "candidates",
@@ -80,21 +31,24 @@
     ],
     "grounding_metadata_keys": [
       "searchEntryPoint",
-      "groundingChunks",
-      "groundingSupports",
       "webSearchQueries"
     ],
-    "text_preview": "```json\n{\n \"analysis_version\": \"simple_decision_v6_visible_markets_only\",\n \"picks\": [\n  {\n   \"match_id\": \"match_30ab4dd80c4e3756\",\n   \"match\": \"FC Nordsjælland vs FC Midtjylland\",\n   \"selection\": \"1\",\n   \"selection_label\": \"home\",\n   \"odds\": 2.87,\n   \"decision\": \"PAPER_BET\",\n   \"confidence_score\": 0.5,\n   \"stake_units\": 0.5,\n   \"value_case\": \"FC Midtjylland is severely hampered by an extensive injury list, particularly in their attacking department, with key players like Mikael Uhre out for the season and Franculino not fully fit, among others. Despite FC Nordsjælland also having some injuries, they boast a strong home record against FC Midtjylland, being unbeaten in their last nine home encounters and having secured two home wins against them this season. The odds of 2.87 for a home win appear to undervalue FC Nordsjælland's historical home dominance in this fixture and FC Midtjylland's current weakened state.\",\n   \"evidence_summary\": \"FCM has a significant injury crisis, especially i",
-    "grounded_text_preview": "```json\n{\n \"analysis_version\": \"simple_decision_v6_visible_markets_only\",\n \"picks\": [\n  {\n   \"match_id\": \"match_30ab4dd80c4e3756\",\n   \"match\": \"FC Nordsjælland vs FC Midtjylland\",\n   \"selection\": \"1\",\n   \"selection_label\": \"home\",\n   \"odds\": 2.87,\n   \"decision\": \"PAPER_BET\",\n   \"confidence_score\": 0.5,\n   \"stake_units\": 0.5,\n   \"value_case\": \"FC Midtjylland is severely hampered by an extensive injury list, particularly in their attacking department, with key players like Mikael Uhre out for the season and Franculino not fully fit, among others. Despite FC Nordsjælland also having some injuries, they boast a strong home record against FC Midtjylland, being unbeaten in their last nine home encounters and having secured two home wins against them this season. The odds of 2.87 for a home win appear to undervalue FC Nordsjælland's historical home dominance in this fixture and FC Midtjylland's current weakened state.\",\n   \"evidence_summary\": \"FCM has a significant injury crisis, especially in attack, while FCN has a strong home H2H record against FCM.\",\n   \"evidence_items\": [\n    {\n     \"type\": \"injury\",\n     \"signal\": \"FC Midtjylland has an extensive injury list including Denil Castillo",
-    "structured_text_preview": "{\n  \"analysis_version\": \"simple_decision_v6_visible_markets_only\",\n  \"picks\": [],\n  \"passes\": [\n    {\n      \"match_id\": \"match_30ab4dd80c4e3756\",\n      \"match\": \"FC Nordsjælland vs FC Midtjylland\",\n      \"reason\": \"json_not_stable\",\n      \"short_note\": \"Analyst output was malformed, all matches passed.\"\n    },\n    {\n      \"match_id\": \"match_fa7f1b2dd0fbe2c6\",\n      \"match\": \"Vejle vs FC Freder",
-    "structure_parse_error": "Expecting ',' delimiter: line 10 column 6 (char 310)"
+    "text_preview": "```json\n{\n \"analysis_version\": \"simple_decision_v6_visible_markets_only\",\n \"picks\": [\n  {\n   \"match_id\": \"match_fa7f1b2dd0fbe2c6\",\n   \"match\": \"Vejle vs FC Fredericia\",\n   \"selection\": \"2\",\n   \"selection_label\": \"away\",\n   \"odds\": 2.15,\n   \"decision\": \"PAPER_BET\",\n   \"confidence_score\": 0.5,\n   \"stake_units\": 0.5,\n   \"value_case\": \"Vejle is in very poor form, having lost 4 of their last 5 matches, and is significantly impacted by multiple key injuries. In contrast, FC Fredericia has no reported unavailable players and has shown better recent form, making the odds for an away win appear undervalued.\",\n   \"evidence_summary\": \"Vejle has lost 4 of their last 5 matches and has several key players out due to injury. FC Fredericia has no reported injuries and has shown better recent form.\",\n   \"evidence_items\": [\n    {\n     \"type\": \"form\",\n     \"signal\": \"Vejle has lost 4 of their last 5 matches in the Superligaen Relegation Group, including a 1-0 loss to Randers FC and a 3-0 loss to FC Køben",
+    "grounded_text_preview": "```json\n{\n \"analysis_version\": \"simple_decision_v6_visible_markets_only\",\n \"picks\": [\n  {\n   \"match_id\": \"match_fa7f1b2dd0fbe2c6\",\n   \"match\": \"Vejle vs FC Fredericia\",\n   \"selection\": \"2\",\n   \"selection_label\": \"away\",\n   \"odds\": 2.15,\n   \"decision\": \"PAPER_BET\",\n   \"confidence_score\": 0.5,\n   \"stake_units\": 0.5,\n   \"value_case\": \"Vejle is in very poor form, having lost 4 of their last 5 matches, and is significantly impacted by multiple key injuries. In contrast, FC Fredericia has no reported unavailable players and has shown better recent form, making the odds for an away win appear undervalued.\",\n   \"evidence_summary\": \"Vejle has lost 4 of their last 5 matches and has several key players out due to injury. FC Fredericia has no reported injuries and has shown better recent form.\",\n   \"evidence_items\": [\n    {\n     \"type\": \"form\",\n     \"signal\": \"Vejle has lost 4 of their last 5 matches in the Superligaen Relegation Group, including a 1-0 loss to Randers FC and a 3-0 loss to FC København.\",\n     \"supports_selection\": true,\n     \"importance\": \"high\",\n     \"source_tier\": \"tier2\",\n     \"source_type\": \"sports_media\",\n     \"source_name\": \"FotMob\",\n     \"source_url\": \"https://vertexais",
+    "structured_text_preview": "{\n \"analysis_version\": \"simple_decision_v6_visible_markets_only\",\n \"picks\": [\n  {\n   \"match_id\": \"match_fa7f1b2dd0fbe2c6\",\n   \"match\": \"Vejle vs FC Fredericia\",\n   \"selection\": \"2\",\n   \"selection_label\": \"away\",\n   \"odds\": 2.15,\n   \"decision\": \"PAPER_BET\",\n   \"confidence_score\": 0.5,\n   \"stake_units\": 0.5,\n   \"value_case\": \"Vejle is in very poor form, having lost 4 of their last 5 matches, and is significantly impacted by multiple key injuries. In contrast, FC Fredericia has no reported unavailable players and has shown better recent form, making the odds for an away win appear undervalued.\",\n   \"evidence_summary\": \"Vejle has lost 4 of their last 5 matches and has several key players out due to injury. FC Fredericia has no reported injuries and has shown better recent form.\",\n   \"evidence_items\": [\n    {\n     \"type\": \"form\",\n     \"signal\": \"Vejle has lost 4 of their last 5 matches in the Superligaen Relegation Group, including a 1-0 loss to Randers FC and a 3-0 loss to FC København.\",\n     \"supports_selection\": true,\n     \"importance\": \"high\",\n     \"source_tier\": \"tier2\",\n     \"source_type\": \"sports_media\",\n     \"source_name\": \"FotMob\",\n     \"source_url\": \"https://vertexaisearch.cl"
   },
   "duplicate_matches": [],
   "parser_payload": {
-    "generated_at": "2026-05-09T17:49:04Z",
+    "generated_at": "2026-05-09T17:57:24Z",
     "parser_source": "gemini_pdf_vision",
     "files_processed": 5,
     "files": [
+      {
+        "source_file": "inbox/possible_bets/20260509-195529_possible_bets_3139.pdf",
+        "file_id": "bb146e8268d3b004",
+        "error": "Expecting ',' delimiter: line 28 column 6 (char 702)",
+        "matches": []
+      },
       {
         "source_file": "inbox/possible_bets/20260509-185831_possible_bets_2101.pdf",
         "file_id": "a8a068824767b295",
@@ -106,7 +60,7 @@
         "timezone_assumed": "Europe/Copenhagen",
         "matches": [],
         "parser_warnings": [
-          "No football 1X2 match odds were found. All visible markets were identified as basketball."
+          "No football 1X2 match odds were found in the provided document. The visible content primarily displays basketball odds."
         ],
         "file_id": "e8ca6576c0beaf4e",
         "parser_source": "gemini_pdf_vision"
@@ -116,7 +70,7 @@
         "timezone_assumed": "Europe/Copenhagen",
         "matches": [],
         "parser_warnings": [
-          "No football 1X2 match odds were found. All visible matches were identified as tennis, which do not have 'X' (draw) odds."
+          "No football 1X2 match odds were found in the provided document. All listed matches appear to be tennis."
         ],
         "file_id": "fc8664e6446fad1e",
         "parser_source": "gemini_pdf_vision"
@@ -189,12 +143,6 @@
         "parser_warnings": [],
         "file_id": "e5ab0ec23b80b829",
         "parser_source": "gemini_pdf_vision"
-      },
-      {
-        "source_file": "inbox/possible_bets/20260509-185826_possible_bets_2990.pdf",
-        "file_id": "f5b7fe16386b95b7",
-        "error": "Expecting ',' delimiter: line 28 column 6 (char 710)",
-        "matches": []
       }
     ],
     "summary": {
@@ -496,49 +444,302 @@
   "rejected_matches": [],
   "decision_payload": {
     "analysis_version": "simple_decision_v6_visible_markets_only",
-    "picks": [],
+    "picks": [
+      {
+        "match_id": "match_fa7f1b2dd0fbe2c6",
+        "match": "Vejle vs FC Fredericia",
+        "selection": "2",
+        "selection_label": "away",
+        "odds": 2.15,
+        "decision": "PAPER_BET",
+        "confidence_score": 0.5,
+        "stake_units": 0.5,
+        "value_case": "Vejle is in very poor form, having lost 4 of their last 5 matches, and is significantly impacted by multiple key injuries. In contrast, FC Fredericia has no reported unavailable players and has shown better recent form, making the odds for an away win appear undervalued.",
+        "evidence_summary": "Vejle has lost 4 of their last 5 matches and has several key players out due to injury. FC Fredericia has no reported injuries and has shown better recent form.",
+        "evidence_items": [
+          {
+            "type": "form",
+            "signal": "Vejle has lost 4 of their last 5 matches in the Superligaen Relegation Group, including a 1-0 loss to Randers FC and a 3-0 loss to FC København.",
+            "supports_selection": true,
+            "importance": "high",
+            "source_tier": "tier2",
+            "source_type": "sports_media",
+            "source_name": "FotMob",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRFgV-AFp7cSpH_7YvvoNmRdhyVgE0xUWTq6_Tp48TnbD8m9VDO1TjfvmrXtBlqY5ZW85ZahDN1yuqWQA9unDAk-RCHF1ZpD2QP8GVZIri49XNHGQYwyzZZ4qxnO6mzd2aJLIuaH7rDEMxdxD60pEthW9t",
+            "published_or_checked_date": "May 9, 2026"
+          },
+          {
+            "type": "injury",
+            "signal": "Vejle Boldklub has several unavailable players due to injury, including Damian van Bruggen, Stefan Velkov, Lundrim Hetemi, Tobias Lauritsen, Anders K. Jacobsen, and Ransford Amoo.",
+            "supports_selection": true,
+            "importance": "high",
+            "source_tier": "tier2",
+            "source_type": "sports_media",
+            "source_name": "FotMob",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEALu4yUC7ck1wbGPB9TG9FaqAMYbMhOHJzR57wWP93tpQyEdhRnaNMWmqBp0A8oiXsRd-rmylqxpOYLvk0dKvXu3Em55FN1SMwCGaEOwEcNDpefMsUHN_SZgS1Whfq31u11EexmQxNwnQoudXkisQA4en4JbXnxS_vgAm4",
+            "published_or_checked_date": "May 9, 2026"
+          },
+          {
+            "type": "lineup",
+            "signal": "FC Fredericia has no unavailable players reported.",
+            "supports_selection": true,
+            "importance": "medium",
+            "source_tier": "tier2",
+            "source_type": "sports_media",
+            "source_name": "FotMob",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEALu4yUC7ck1wbGPB9TG9FaqAMYbMhOHJzR57wWP93tpQyEdhRnaNMWmqBp0A8oiXsRd-rmylqxpOYLvk0dKvXu3Em55FN1SMwCGaEOwEcNDpefMsUHN_SZgS1Whfq31u11EexmQxNwnQoudXkisQA4en4JbXnxS_vgAm4",
+            "published_or_checked_date": "May 9, 2026"
+          }
+        ],
+        "source_quality": {
+          "has_grounded_sources": true,
+          "tier1_source_count": 0,
+          "tier2_source_count": 3,
+          "tier3_source_count": 0,
+          "odds_sources": 0,
+          "prohibited_sources_used": false,
+          "all_evidence_has_urls": true
+        },
+        "risk_flags": [],
+        "why_not_pass": "Strong evidence of Vejle's poor form and significant injury list, coupled with Fredericia's clean bill of health and relatively better form, suggests value in the away win odds."
+      }
+    ],
     "passes": [
       {
         "match_id": "match_30ab4dd80c4e3756",
         "match": "FC Nordsjælland vs FC Midtjylland",
-        "reason": "json_not_stable",
-        "short_note": "Gemini structure output was not valid JSON; fail-closed PASS."
-      },
-      {
-        "match_id": "match_fa7f1b2dd0fbe2c6",
-        "match": "Vejle vs FC Fredericia",
-        "reason": "json_not_stable",
-        "short_note": "Gemini structure output was not valid JSON; fail-closed PASS."
+        "reason": "conflicting signals",
+        "short_note": "Conflicting injury reports for FC Midtjylland from different source tiers, making it difficult to assess their true strength. Insufficient clear edge."
       },
       {
         "match_id": "match_121bcba470e2b2d5",
         "match": "Silkeborg IF vs FC København",
-        "reason": "json_not_stable",
-        "short_note": "Gemini structure output was not valid JSON; fail-closed PASS."
+        "reason": "odds too low",
+        "short_note": "FC København's odds are too low (1.8) given Silkeborg's recent good form, despite FCK's dominant head-to-head win. Injury status for FCK not clearly established from Tier 2 sources."
       },
       {
         "match_id": "match_76892c3b89ef207d",
         "match": "Brøndby vs AGF",
-        "reason": "json_not_stable",
-        "short_note": "Gemini structure output was not valid JSON; fail-closed PASS."
+        "reason": "insufficient evidence",
+        "short_note": "Mixed recent form for both teams and while Brøndby has a good home head-to-head record, there isn't enough strong, verifiable evidence to confidently back a selection."
       },
       {
         "match_id": "match_896ed38f36252862",
         "match": "Randers FC vs OB",
-        "reason": "json_not_stable",
-        "short_note": "Gemini structure output was not valid JSON; fail-closed PASS."
+        "reason": "insufficient evidence",
+        "short_note": "Lack of strong form indicators, recent head-to-head data, or significant injury news from Tier 2 sources for either team to make a confident pick."
       }
     ]
   },
-  "decisions": [],
+  "decisions": [
+    {
+      "record_type": "simple_pick",
+      "pick_id": "pick_71b043b1fd701a93",
+      "created_at": "2026-05-09T17:58:15Z",
+      "mode": "paper_only",
+      "analysis_version": "simple_decision_v6_visible_markets_only",
+      "match_id": "match_fa7f1b2dd0fbe2c6",
+      "match": "Vejle vs FC Fredericia",
+      "league": "Danmark - Superligaen",
+      "date_display": "Søn 10 maj",
+      "time_display": "14:00",
+      "selection": "PASS",
+      "selection_label": "pass",
+      "odds": null,
+      "decision": "PASS",
+      "confidence_score": 0.5,
+      "stake_units": 0.0,
+      "value_case": "Vejle is in very poor form, having lost 4 of their last 5 matches, and is significantly impacted by multiple key injuries. In contrast, FC Fredericia has no reported unavailable players and has shown better recent form, making the odds for an away win appear undervalued.",
+      "evidence_summary": "Vejle has lost 4 of their last 5 matches and has several key players out due to injury. FC Fredericia has no reported injuries and has shown better recent form.",
+      "evidence_items": [
+        {
+          "type": "form",
+          "signal": "Vejle has lost 4 of their last 5 matches in the Superligaen Relegation Group, including a 1-0 loss to Randers FC and a 3-0 loss to FC København.",
+          "supports_selection": true,
+          "importance": "high",
+          "source_tier": "tier2",
+          "source_type": "sports_media",
+          "source_name": "FotMob",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRFgV-AFp7cSpH_7YvvoNmRdhyVgE0xUWTq6_Tp48TnbD8m9VDO1TjfvmrXtBlqY5ZW85ZahDN1yuqWQA9unDAk-RCHF1ZpD2QP8GVZIri49XNHGQYwyzZZ4qxnO6mzd2aJLIuaH7rDEMxdxD60pEthW9t",
+          "published_or_checked_date": "May 9, 2026"
+        },
+        {
+          "type": "injury",
+          "signal": "Vejle Boldklub has several unavailable players due to injury, including Damian van Bruggen, Stefan Velkov, Lundrim Hetemi, Tobias Lauritsen, Anders K. Jacobsen, and Ransford Amoo.",
+          "supports_selection": true,
+          "importance": "high",
+          "source_tier": "tier2",
+          "source_type": "sports_media",
+          "source_name": "FotMob",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEALu4yUC7ck1wbGPB9TG9FaqAMYbMhOHJzR57wWP93tpQyEdhRnaNMWmqBp0A8oiXsRd-rmylqxpOYLvk0dKvXu3Em55FN1SMwCGaEOwEcNDpefMsUHN_SZgS1Whfq31u11EexmQxNwnQoudXkisQA4en4JbXnxS_vgAm4",
+          "published_or_checked_date": "May 9, 2026"
+        },
+        {
+          "type": "lineup",
+          "signal": "FC Fredericia has no unavailable players reported.",
+          "supports_selection": true,
+          "importance": "medium",
+          "source_tier": "tier2",
+          "source_type": "sports_media",
+          "source_name": "FotMob",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEALu4yUC7ck1wbGPB9TG9FaqAMYbMhOHJzR57wWP93tpQyEdhRnaNMWmqBp0A8oiXsRd-rmylqxpOYLvk0dKvXu3Em55FN1SMwCGaEOwEcNDpefMsUHN_SZgS1Whfq31u11EexmQxNwnQoudXkisQA4en4JbXnxS_vgAm4",
+          "published_or_checked_date": "May 9, 2026"
+        }
+      ],
+      "evidence_lines": [
+        "form | FotMob | verified=unknown | declared=tier2 | https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRFgV-AFp7cSpH_7YvvoNmRdhyVgE0xUWTq6_Tp48TnbD8m9VDO1TjfvmrXtBlqY5ZW85ZahDN1yuqWQA9unDAk-RCHF1ZpD2QP8GVZIri49XNHGQYwyzZZ4qxnO6mzd2aJLIuaH7rDEMxdxD60pEthW9t | Vejle has lost 4 of their last 5 matches in the Superligaen Relegation Group, including a 1-0 loss to Randers FC and a 3-0 loss to FC København.",
+        "injury | FotMob | verified=unknown | declared=tier2 | https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEALu4yUC7ck1wbGPB9TG9FaqAMYbMhOHJzR57wWP93tpQyEdhRnaNMWmqBp0A8oiXsRd-rmylqxpOYLvk0dKvXu3Em55FN1SMwCGaEOwEcNDpefMsUHN_SZgS1Whfq31u11EexmQxNwnQoudXkisQA4en4JbXnxS_vgAm4 | Vejle Boldklub has several unavailable players due to injury, including Damian van Bruggen, Stefan Velkov, Lundrim Hetemi, Tobias Lauritsen, Anders K. Jacobsen, and Ransford Amoo.",
+        "lineup | FotMob | verified=unknown | declared=tier2 | https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEALu4yUC7ck1wbGPB9TG9FaqAMYbMhOHJzR57wWP93tpQyEdhRnaNMWmqBp0A8oiXsRd-rmylqxpOYLvk0dKvXu3Em55FN1SMwCGaEOwEcNDpefMsUHN_SZgS1Whfq31u11EexmQxNwnQoudXkisQA4en4JbXnxS_vgAm4 | FC Fredericia has no unavailable players reported."
+      ],
+      "verified_source_tiers": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "source_quality": {
+        "has_grounded_sources": true,
+        "tier1_source_count": 0,
+        "tier2_source_count": 3,
+        "tier3_source_count": 0,
+        "odds_sources": 0,
+        "prohibited_sources_used": false,
+        "all_evidence_has_urls": true
+      },
+      "redirect_source_count": 3,
+      "risk_flags": [],
+      "why_not_pass": "Strong evidence of Vejle's poor form and significant injury list, coupled with Fredericia's clean bill of health and relatively better form, suggests value in the away win odds.",
+      "blocked_by_safety": "no_verified_tier1_source",
+      "short_reason": "Vejle has lost 4 of their last 5 matches and has several key players out due to injury. FC Fredericia has no reported injuries and has shown better recent form.",
+      "source_match": {
+        "home_team": "Vejle",
+        "away_team": "FC Fredericia",
+        "league": "Danmark - Superligaen",
+        "date_display": "Søn 10 maj",
+        "time_display": "14:00",
+        "odds_1": 3.2,
+        "odds_x": 3.5,
+        "odds_2": 2.15,
+        "confidence": "high",
+        "notes": "",
+        "source_file": "inbox/possible_bets/20260509-185827_possible_bets_1569.pdf",
+        "file_id": "e5ab0ec23b80b829",
+        "match_key": "vejle|fc fredericia|søn 10 maj|14 00",
+        "match_id": "match_fa7f1b2dd0fbe2c6",
+        "overround": 1.0633,
+        "audit_status": "accepted",
+        "audit_reason": "overround_ok"
+      },
+      "settlement": "NOT_APPLICABLE"
+    }
+  ],
   "picks": [],
-  "blocked_decisions": [],
+  "blocked_decisions": [
+    {
+      "record_type": "simple_pick",
+      "pick_id": "pick_71b043b1fd701a93",
+      "created_at": "2026-05-09T17:58:15Z",
+      "mode": "paper_only",
+      "analysis_version": "simple_decision_v6_visible_markets_only",
+      "match_id": "match_fa7f1b2dd0fbe2c6",
+      "match": "Vejle vs FC Fredericia",
+      "league": "Danmark - Superligaen",
+      "date_display": "Søn 10 maj",
+      "time_display": "14:00",
+      "selection": "PASS",
+      "selection_label": "pass",
+      "odds": null,
+      "decision": "PASS",
+      "confidence_score": 0.5,
+      "stake_units": 0.0,
+      "value_case": "Vejle is in very poor form, having lost 4 of their last 5 matches, and is significantly impacted by multiple key injuries. In contrast, FC Fredericia has no reported unavailable players and has shown better recent form, making the odds for an away win appear undervalued.",
+      "evidence_summary": "Vejle has lost 4 of their last 5 matches and has several key players out due to injury. FC Fredericia has no reported injuries and has shown better recent form.",
+      "evidence_items": [
+        {
+          "type": "form",
+          "signal": "Vejle has lost 4 of their last 5 matches in the Superligaen Relegation Group, including a 1-0 loss to Randers FC and a 3-0 loss to FC København.",
+          "supports_selection": true,
+          "importance": "high",
+          "source_tier": "tier2",
+          "source_type": "sports_media",
+          "source_name": "FotMob",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRFgV-AFp7cSpH_7YvvoNmRdhyVgE0xUWTq6_Tp48TnbD8m9VDO1TjfvmrXtBlqY5ZW85ZahDN1yuqWQA9unDAk-RCHF1ZpD2QP8GVZIri49XNHGQYwyzZZ4qxnO6mzd2aJLIuaH7rDEMxdxD60pEthW9t",
+          "published_or_checked_date": "May 9, 2026"
+        },
+        {
+          "type": "injury",
+          "signal": "Vejle Boldklub has several unavailable players due to injury, including Damian van Bruggen, Stefan Velkov, Lundrim Hetemi, Tobias Lauritsen, Anders K. Jacobsen, and Ransford Amoo.",
+          "supports_selection": true,
+          "importance": "high",
+          "source_tier": "tier2",
+          "source_type": "sports_media",
+          "source_name": "FotMob",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEALu4yUC7ck1wbGPB9TG9FaqAMYbMhOHJzR57wWP93tpQyEdhRnaNMWmqBp0A8oiXsRd-rmylqxpOYLvk0dKvXu3Em55FN1SMwCGaEOwEcNDpefMsUHN_SZgS1Whfq31u11EexmQxNwnQoudXkisQA4en4JbXnxS_vgAm4",
+          "published_or_checked_date": "May 9, 2026"
+        },
+        {
+          "type": "lineup",
+          "signal": "FC Fredericia has no unavailable players reported.",
+          "supports_selection": true,
+          "importance": "medium",
+          "source_tier": "tier2",
+          "source_type": "sports_media",
+          "source_name": "FotMob",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEALu4yUC7ck1wbGPB9TG9FaqAMYbMhOHJzR57wWP93tpQyEdhRnaNMWmqBp0A8oiXsRd-rmylqxpOYLvk0dKvXu3Em55FN1SMwCGaEOwEcNDpefMsUHN_SZgS1Whfq31u11EexmQxNwnQoudXkisQA4en4JbXnxS_vgAm4",
+          "published_or_checked_date": "May 9, 2026"
+        }
+      ],
+      "evidence_lines": [
+        "form | FotMob | verified=unknown | declared=tier2 | https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRFgV-AFp7cSpH_7YvvoNmRdhyVgE0xUWTq6_Tp48TnbD8m9VDO1TjfvmrXtBlqY5ZW85ZahDN1yuqWQA9unDAk-RCHF1ZpD2QP8GVZIri49XNHGQYwyzZZ4qxnO6mzd2aJLIuaH7rDEMxdxD60pEthW9t | Vejle has lost 4 of their last 5 matches in the Superligaen Relegation Group, including a 1-0 loss to Randers FC and a 3-0 loss to FC København.",
+        "injury | FotMob | verified=unknown | declared=tier2 | https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEALu4yUC7ck1wbGPB9TG9FaqAMYbMhOHJzR57wWP93tpQyEdhRnaNMWmqBp0A8oiXsRd-rmylqxpOYLvk0dKvXu3Em55FN1SMwCGaEOwEcNDpefMsUHN_SZgS1Whfq31u11EexmQxNwnQoudXkisQA4en4JbXnxS_vgAm4 | Vejle Boldklub has several unavailable players due to injury, including Damian van Bruggen, Stefan Velkov, Lundrim Hetemi, Tobias Lauritsen, Anders K. Jacobsen, and Ransford Amoo.",
+        "lineup | FotMob | verified=unknown | declared=tier2 | https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEALu4yUC7ck1wbGPB9TG9FaqAMYbMhOHJzR57wWP93tpQyEdhRnaNMWmqBp0A8oiXsRd-rmylqxpOYLvk0dKvXu3Em55FN1SMwCGaEOwEcNDpefMsUHN_SZgS1Whfq31u11EexmQxNwnQoudXkisQA4en4JbXnxS_vgAm4 | FC Fredericia has no unavailable players reported."
+      ],
+      "verified_source_tiers": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "source_quality": {
+        "has_grounded_sources": true,
+        "tier1_source_count": 0,
+        "tier2_source_count": 3,
+        "tier3_source_count": 0,
+        "odds_sources": 0,
+        "prohibited_sources_used": false,
+        "all_evidence_has_urls": true
+      },
+      "redirect_source_count": 3,
+      "risk_flags": [],
+      "why_not_pass": "Strong evidence of Vejle's poor form and significant injury list, coupled with Fredericia's clean bill of health and relatively better form, suggests value in the away win odds.",
+      "blocked_by_safety": "no_verified_tier1_source",
+      "short_reason": "Vejle has lost 4 of their last 5 matches and has several key players out due to injury. FC Fredericia has no reported injuries and has shown better recent form.",
+      "source_match": {
+        "home_team": "Vejle",
+        "away_team": "FC Fredericia",
+        "league": "Danmark - Superligaen",
+        "date_display": "Søn 10 maj",
+        "time_display": "14:00",
+        "odds_1": 3.2,
+        "odds_x": 3.5,
+        "odds_2": 2.15,
+        "confidence": "high",
+        "notes": "",
+        "source_file": "inbox/possible_bets/20260509-185827_possible_bets_1569.pdf",
+        "file_id": "e5ab0ec23b80b829",
+        "match_key": "vejle|fc fredericia|søn 10 maj|14 00",
+        "match_id": "match_fa7f1b2dd0fbe2c6",
+        "overround": 1.0633,
+        "audit_status": "accepted",
+        "audit_reason": "overround_ok"
+      },
+      "settlement": "NOT_APPLICABLE"
+    }
+  ],
   "passes": [
     {
       "match_id": "match_30ab4dd80c4e3756",
       "match": "FC Nordsjælland vs FC Midtjylland",
-      "reason": "json_not_stable",
-      "short_note": "Gemini structure output was not valid JSON; fail-closed PASS.",
+      "reason": "conflicting signals",
+      "short_note": "Conflicting injury reports for FC Midtjylland from different source tiers, making it difficult to assess their true strength. Insufficient clear edge.",
       "odds": {
         "1": 2.87,
         "X": 3.8,
@@ -546,21 +747,10 @@
       }
     },
     {
-      "match_id": "match_fa7f1b2dd0fbe2c6",
-      "match": "Vejle vs FC Fredericia",
-      "reason": "json_not_stable",
-      "short_note": "Gemini structure output was not valid JSON; fail-closed PASS.",
-      "odds": {
-        "1": 3.2,
-        "X": 3.5,
-        "2": 2.15
-      }
-    },
-    {
       "match_id": "match_121bcba470e2b2d5",
       "match": "Silkeborg IF vs FC København",
-      "reason": "json_not_stable",
-      "short_note": "Gemini structure output was not valid JSON; fail-closed PASS.",
+      "reason": "odds too low",
+      "short_note": "FC København's odds are too low (1.8) given Silkeborg's recent good form, despite FCK's dominant head-to-head win. Injury status for FCK not clearly established from Tier 2 sources.",
       "odds": {
         "1": 3.9,
         "X": 3.9,
@@ -570,8 +760,8 @@
     {
       "match_id": "match_76892c3b89ef207d",
       "match": "Brøndby vs AGF",
-      "reason": "json_not_stable",
-      "short_note": "Gemini structure output was not valid JSON; fail-closed PASS.",
+      "reason": "insufficient evidence",
+      "short_note": "Mixed recent form for both teams and while Brøndby has a good home head-to-head record, there isn't enough strong, verifiable evidence to confidently back a selection.",
       "odds": {
         "1": 2.87,
         "X": 3.6,
@@ -581,12 +771,37 @@
     {
       "match_id": "match_896ed38f36252862",
       "match": "Randers FC vs OB",
-      "reason": "json_not_stable",
-      "short_note": "Gemini structure output was not valid JSON; fail-closed PASS.",
+      "reason": "insufficient evidence",
+      "short_note": "Lack of strong form indicators, recent head-to-head data, or significant injury news from Tier 2 sources for either team to make a confident pick.",
       "odds": {
         "1": 2.2,
         "X": 3.5,
         "2": 3.1
+      }
+    },
+    {
+      "match_id": "match_fa7f1b2dd0fbe2c6",
+      "match": "Vejle vs FC Fredericia",
+      "reason": "blocked_by_safety:no_verified_tier1_source",
+      "short_note": "Vejle has lost 4 of their last 5 matches and has several key players out due to injury. FC Fredericia has no reported injuries and has shown better recent form.",
+      "odds": {
+        "home_team": "Vejle",
+        "away_team": "FC Fredericia",
+        "league": "Danmark - Superligaen",
+        "date_display": "Søn 10 maj",
+        "time_display": "14:00",
+        "odds_1": 3.2,
+        "odds_x": 3.5,
+        "odds_2": 2.15,
+        "confidence": "high",
+        "notes": "",
+        "source_file": "inbox/possible_bets/20260509-185827_possible_bets_1569.pdf",
+        "file_id": "e5ab0ec23b80b829",
+        "match_key": "vejle|fc fredericia|søn 10 maj|14 00",
+        "match_id": "match_fa7f1b2dd0fbe2c6",
+        "overround": 1.0633,
+        "audit_status": "accepted",
+        "audit_reason": "overround_ok"
       }
     }
   ]

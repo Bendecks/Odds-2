@@ -3,6 +3,6 @@
   "timezone_assumed": "Europe/Copenhagen",
   "matches": [],
   "parser_warnings": [
-    "No football 1X2 match odds were found. All visible markets were identified as basketball."
+    "No football 1X2 match odds were found in the provided document. The visible content primarily displays basketball odds."
   ]
 }

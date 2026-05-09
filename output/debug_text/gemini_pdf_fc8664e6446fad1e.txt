@@ -3,6 +3,6 @@
   "timezone_assumed": "Europe/Copenhagen",
   "matches": [],
   "parser_warnings": [
-    "No football 1X2 match odds were found. All visible matches were identified as tennis, which do not have 'X' (draw) odds."
+    "No football 1X2 match odds were found in the provided document. All listed matches appear to be tennis."
   ]
 }
