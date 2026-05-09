@@ -1,15 +1,15 @@
 # Odds 2 — Data Integrity Report
 
-Generated: 2026-05-09T05:36:05Z
+Generated: 2026-05-09T05:49:41Z
 
 ## Summary
 - Files processed: 5
 - Observations parsed this run: 183
-- Dedupe report: `{"new_observation": 3, "duplicate_noise": 180, "new_observation_same_odds": 0, "small_movement": 0, "odds_movement": 0, "significant_odds_change": 0, "parser_conflict": 0}`
+- Dedupe report: `{"new_observation": 0, "duplicate_noise": 183, "new_observation_same_odds": 0, "small_movement": 0, "odds_movement": 0, "significant_odds_change": 0, "parser_conflict": 0}`
 
 ## Counts
 - Status: `{'parsed_candidate': 180, 'requires_review': 3}`
-- Dedupe: `{'duplicate_noise': 180, 'new_observation': 3}`
+- Dedupe: `{'duplicate_noise': 183}`
 - Parser confidence: `{'high': 180, 'medium': 3}`
 
 ## Latest Market State
@@ -400,7 +400,7 @@ Generated: 2026-05-09T05:36:05Z
 ### Arsenal vs Burnley | 21:00
 - Event UTC: 2026-05-09T19:00:00Z
 - Parser confidence: 0.7714 (medium)
-- Dedupe statuses: `{'new_observation': 3}`
-  - 1 / Arsenal @ 1.95 | new_observation | requires_review
-  - X / Draw @ 1.25 | new_observation | requires_review
-  - 2 / Burnley @ 2.5 | new_observation | requires_review
+- Dedupe statuses: `{'duplicate_noise': 3}`
+  - 1 / Arsenal @ 1.95 | duplicate_noise | requires_review
+  - X / Draw @ 1.25 | duplicate_noise | requires_review
+  - 2 / Burnley @ 2.5 | duplicate_noise | requires_review

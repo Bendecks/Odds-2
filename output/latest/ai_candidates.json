@@ -2,368 +2,373 @@
   "model_version": "phase2_decision_v3_2_expired_event_gate",
   "mode": "paper_only",
   "candidate_count": 0,
+  "eligible_count": 0,
   "skipped_count": 93,
+  "skip_reason_counts": {
+    "event_expired": 90,
+    "real_bet_not_allowed_by_data_integrity": 3
+  },
   "candidates": [],
   "skipped": [
     {
       "market_id": "mkt_08557185d52a1c17",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_ae9a8fb5d1a643d5",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_9b66e572dd9b1812",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_20b3d0896416a339",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_b74acf8a0ab227a0",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_04dc64118a2e9dce",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_ee92bc12667a02d4",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_f3ee11dd724be055",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_69ceaa0ac25e7be2",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_4b1f4cdae5828b05",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_929f08748121404f",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_a4581584fd4df69b",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_db60ec03d26dd661",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_3c300396e5560711",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_6046f0a52cf6dd35",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_51a00e9a22d45f5a",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_76c4bba000c6672f",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_b3ffbd71579fe381",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_b9949e689417cc15",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_a9dbf496bd4d8d9f",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_f5e5c98870afb3fb",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_3393d7da552e73d3",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_17fe5032c7edd25d",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_8454f80daaa35531",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_4152f231cce21091",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_6842dd94e9a7bd79",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_41a3545b79900584",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_9b4fca07bdbd442b",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_5d72d080951119e5",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_b969ddd8aa75c08c",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_2f6ae6287df24b38",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_565b6309216b06a0",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_e8b29eff12ebdb35",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_6d7d0510394d11b6",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_22f7ac19f406ebba",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_15b5c51e41a7393c",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_4110747f1fea8868",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_e5a01cecbc5adeca",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_d6e67e3397cc4bd7",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_b7701bd5202e6ed5",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_773419a2546addc0",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_5ea5cbb590601d75",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_bd662f8621fac7f1",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_db22f09ce2feb56b",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_2a592a5512fe2d43",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_b25fc8a40f14fb13",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_ab6a38b1e24a0e57",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_29fe95a4efce7f32",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_e7b43536f8f54bcf",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_34939e678ffab32d",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_23b64adcdd82a0f0",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_54eb7da548750936",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_d9d57a384667a868",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_46cfef09997a5b54",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_f691016bf099ac5a",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_b267974e0db5fb84",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_aac026fe9798a7ff",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_648fe20a28594ab8",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_721eda2d3c89e65b",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_a4d09779016bc0a0",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_1b0ff62bb0d5bd87",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_0c7621ab511e5931",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_323b7b60c82c7851",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_3773c8ab60190d05",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_f4262b8745b98717",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_bbafa81b743dec1f",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_5cf04ff5f243ffde",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_88edc702b372accc",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_7aa99bf3064770a4",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_4f992d99526695ce",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_d050b43ffb55882e",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_f64e38cac2ced029",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_87660d1c1f00b4b6",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_b7795c4c94a143c6",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_f06cc8c857d59171",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_5cd452c27bd6d285",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_9ff1f031d76a267d",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_89d70b553bc706c7",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_c8317c92f45e4ba1",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_0b88eaa3300526e9",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_9d203f71318cd809",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_d04e82d6ab1016eb",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_c625854690f44f45",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_b486adff9a54b4f4",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_5ce620bacc22a5bd",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_37f2c56197739afb",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_ddc4bacba2807555",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_224d488aaf464367",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_b001ee9846084cf3",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_22c4476324ac9cd4",
-      "reason": "decision_exists_for_model_version"
+      "reason": "event_expired"
     },
     {
       "market_id": "mkt_3a318cdc7080cfac",

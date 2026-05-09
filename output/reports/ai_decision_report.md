@@ -1,6 +1,6 @@
 # Odds 2 — Decision Layer V3.2 Report
 
-Generated: 2026-05-09T05:36:09Z
+Generated: 2026-05-09T05:49:45Z
 - Engine: heuristic_scoped
 - Fallback reason: None
 - Model version: phase2_decision_v3_2_expired_event_gate

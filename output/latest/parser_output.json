@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-09T05:36:05Z",
+  "generated_at": "2026-05-09T05:49:41Z",
   "phase": "data_integrity_foundation_v1_1",
   "input_dir": "inbox/possible_bets",
   "files": [
     {
-      "file_id": "4034d2d1913b2494",
+      "file_id": "fad20f5015d02db8",
       "source_file": "inbox/possible_bets/20260509-073222_possible_bets_9028.pdf",
-      "extracted_at": "2026-05-09T05:36:05Z",
+      "extracted_at": "2026-05-09T05:49:41Z",
       "text_extraction": {
         "method": "pypdf",
         "has_text_layer": true,
@@ -16,7 +16,7 @@
         "layout_version": "unknown",
         "extraction_confidence": 0.95,
         "fallback_used": false,
-        "raw_text_debug_path": "output/debug_text/pypdf_4034d2d1913b2494.txt",
+        "raw_text_debug_path": "output/debug_text/pypdf_fad20f5015d02db8.txt",
         "warnings": []
       },
       "capture": {
@@ -31,9 +31,9 @@
       }
     },
     {
-      "file_id": "e1df522605e4c696",
+      "file_id": "3f88b2cd999ff502",
       "source_file": "inbox/possible_bets/20260509-073220_possible_bets_8283.pdf",
-      "extracted_at": "2026-05-09T05:36:06Z",
+      "extracted_at": "2026-05-09T05:49:42Z",
       "text_extraction": {
         "method": "pypdf",
         "has_text_layer": true,
@@ -43,7 +43,7 @@
         "layout_version": "unknown",
         "extraction_confidence": 0.95,
         "fallback_used": false,
-        "raw_text_debug_path": "output/debug_text/pypdf_e1df522605e4c696.txt",
+        "raw_text_debug_path": "output/debug_text/pypdf_3f88b2cd999ff502.txt",
         "warnings": []
       },
       "capture": {
@@ -58,9 +58,9 @@
       }
     },
     {
-      "file_id": "9bc75bebc1954c67",
+      "file_id": "b092770fda356884",
       "source_file": "inbox/possible_bets/20260509-073218_possible_bets_4032.pdf",
-      "extracted_at": "2026-05-09T05:36:07Z",
+      "extracted_at": "2026-05-09T05:49:43Z",
       "text_extraction": {
         "method": "pypdf",
         "has_text_layer": true,
@@ -70,7 +70,7 @@
         "layout_version": "unknown",
         "extraction_confidence": 0.95,
         "fallback_used": false,
-        "raw_text_debug_path": "output/debug_text/pypdf_9bc75bebc1954c67.txt",
+        "raw_text_debug_path": "output/debug_text/pypdf_b092770fda356884.txt",
         "warnings": []
       },
       "capture": {
@@ -85,9 +85,9 @@
       }
     },
     {
-      "file_id": "5a1ed0207ca276ce",
+      "file_id": "074b761bc4740f02",
       "source_file": "inbox/possible_bets/20260508-105030_possible_bets_2863.pdf",
-      "extracted_at": "2026-05-09T05:36:07Z",
+      "extracted_at": "2026-05-09T05:49:43Z",
       "text_extraction": {
         "method": "pypdf",
         "has_text_layer": true,
@@ -97,7 +97,7 @@
         "layout_version": "unknown",
         "extraction_confidence": 0.95,
         "fallback_used": false,
-        "raw_text_debug_path": "output/debug_text/pypdf_5a1ed0207ca276ce.txt",
+        "raw_text_debug_path": "output/debug_text/pypdf_074b761bc4740f02.txt",
         "warnings": []
       },
       "capture": {
@@ -112,9 +112,9 @@
       }
     },
     {
-      "file_id": "c1669ba5f64b00ce",
+      "file_id": "248a6ee3c3b66d22",
       "source_file": "inbox/possible_bets/20260508-105028_possible_bets_6128.pdf",
-      "extracted_at": "2026-05-09T05:36:08Z",
+      "extracted_at": "2026-05-09T05:49:44Z",
       "text_extraction": {
         "method": "pypdf",
         "has_text_layer": true,
@@ -124,7 +124,7 @@
         "layout_version": "unknown",
         "extraction_confidence": 0.95,
         "fallback_used": false,
-        "raw_text_debug_path": "output/debug_text/pypdf_c1669ba5f64b00ce.txt",
+        "raw_text_debug_path": "output/debug_text/pypdf_248a6ee3c3b66d22.txt",
         "warnings": []
       },
       "capture": {
@@ -145,8 +145,8 @@
     "observations_raw": 183,
     "records_appended": 188,
     "dedupe_report": {
-      "new_observation": 3,
-      "duplicate_noise": 180,
+      "new_observation": 0,
+      "duplicate_noise": 183,
       "new_observation_same_odds": 0,
       "small_movement": 0,
       "odds_movement": 0,

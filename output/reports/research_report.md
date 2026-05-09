@@ -1,28 +1,15 @@
 # Odds 2 — Phase 2.1 Research Report
 
-Generated: 2026-05-09T05:36:27Z
+Generated: 2026-05-09T05:49:45Z
 - Research version: phase2_1_gemini_research_v7_twostep
 - Research model: gemini-2.5-flash
 - Structure model: gemini-2.5-flash
 - Research enabled: True
 - Simulate research trigger: True
 - Simulate research write record: False
-- Research candidates selected: 1
-- All triggered markets: 1
-- Research records written: 1
+- Research candidates selected: 0
+- All triggered markets: 0
+- Research records written: 0
+- Skip reason counts: `{"event_expired": 90, "data_integrity_not_real_candidate": 3}`
 
-
-### Middlesbrough vs Southampton — Southampton @ 3.2
-- Status: completed
-- Provider: gemini_twostep
-- Confidence: high
-- Echo chamber risk: none
-- Source counts: primary=0, secondary=0
-- Triggers: `['simulated_research_trigger']`
-- Hard signals: `[{'signal_type': 'player_availability', 'entity': 'Flynn Downes', 'team': 'Southampton', 'impact': 'positive', 'reason': 'suspension_return', 'confidence': 'high', 'source_citation_count': 1}]`
-- Soft signals: `[]`
-- Summary: Southampton's Flynn Downes returns from a three-match suspension, bolstering their midfield.
-- Source links: `[]`
-- Research flags: `[]`
-- Error code: `None`
-- Error detail: `None`
+No research records written. No markets met research triggers.
