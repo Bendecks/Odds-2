@@ -71,8 +71,8 @@
       "odds_1": 2.2,
       "odds_x": 3.5,
       "odds_2": 3.1,
-      "confidence": "medium",
-      "notes": "Away team 'Tov' inferred as 'OB' from visual inspection."
+      "confidence": "high",
+      "notes": ""
     },
     {
       "home_team": "Hull",
@@ -208,15 +208,15 @@
     },
     {
       "home_team": "Augsburg",
-      "away_team": "Borussia M'gladbach",
+      "away_team": "Borussia M'gladb...",
       "league": "Tyskland - Bundesliga",
       "date_display": "Lør 09 maj",
       "time_display": "15:30",
       "odds_1": 2.05,
       "odds_x": 3.75,
       "odds_2": 3.3,
-      "confidence": "medium",
-      "notes": "Away team 'Borussia M'gladb...' inferred as 'Borussia M'gladbach'."
+      "confidence": "high",
+      "notes": ""
     },
     {
       "home_team": "Wolfsburg",
@@ -228,7 +228,7 @@
       "odds_x": 4.33,
       "odds_2": 1.66,
       "confidence": "high",
-      "notes": ""
+      "notes": "Odds_2 visually 1.66, OCR 1.88"
     },
     {
       "home_team": "Torino",
@@ -294,4 +294,74 @@
       "home_team": "Levante",
       "away_team": "Osasuna",
       "league": "Spanien - La Liga",
-      "
+      "date_display": "Fre 08 maj",
+      "time_display": "21:00",
+      "odds_1": 2.5,
+      "odds_x": 3.3,
+      "odds_2": 2.8,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "home_team": "Elche",
+      "away_team": "CD Alaves",
+      "league": "Spanien - La Liga",
+      "date_display": "Lør 09 maj",
+      "time_display": "14:00",
+      "odds_1": 2.25,
+      "odds_x": 3.3,
+      "odds_2": 3.3,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "home_team": "Sevilla",
+      "away_team": "Espanyol",
+      "league": "Spanien - La Liga",
+      "date_display": "Lør 09 maj",
+      "time_display": "16:15",
+      "odds_1": 2.05,
+      "odds_x": 3.4,
+      "odds_2": 3.7,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "home_team": "Atletico Madrid",
+      "away_team": "Celta Vigo",
+      "league": "Spanien - La Liga",
+      "date_display": "Lør 09 maj",
+      "time_display": "18:30",
+      "odds_1": 2.05,
+      "odds_x": 3.5,
+      "odds_2": 3.5,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "home_team": "Real Sociedad",
+      "away_team": "Real Betis",
+      "league": "Spanien - La Liga",
+      "date_display": "Lør 09 maj",
+      "time_display": "21:00",
+      "odds_1": 2.55,
+      "odds_x": 3.5,
+      "odds_2": 2.7,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "home_team": "Banfield",
+      "away_team": "San Martin de Tucum...",
+      "league": "Argentina - Pokal",
+      "date_display": "Lør 09 maj",
+      "time_display": "02:10",
+      "odds_1": 2.1,
+      "odds_x": 2.75,
+      "odds_2": 4.2,
+      "confidence": "high",
+      "notes": ""
+    }
+  ],
+  "parser_warnings": []
+}
