@@ -5,230 +5,230 @@
     {
       "home_team": "Liverpool",
       "away_team": "Chelsea",
-      "league": "England - Premier League",
+      "league": "Premier League",
       "date_display": "Lør 09 maj",
       "time_display": "13:30",
       "odds_1": 1.95,
       "odds_x": 3.75,
       "odds_2": 3.6,
       "confidence": "high",
-      "notes": "Date inferred from header"
+      "notes": ""
     },
     {
       "home_team": "Brighton",
       "away_team": "Wolverhampton",
-      "league": "England - Premier League",
+      "league": "Premier League",
       "date_display": "Lør 09 maj",
       "time_display": "16:00",
       "odds_1": 1.25,
       "odds_x": 6.5,
       "odds_2": 10.0,
       "confidence": "high",
-      "notes": "Date inferred from header"
+      "notes": ""
     },
     {
       "home_team": "Fulham",
       "away_team": "Bournemouth",
-      "league": "England - Premier League",
+      "league": "Premier League",
       "date_display": "Lør 09 maj",
       "time_display": "16:00",
       "odds_1": 2.5,
       "odds_x": 3.3,
       "odds_2": 2.45,
       "confidence": "high",
-      "notes": "Date inferred from header"
+      "notes": ""
     },
     {
       "home_team": "Sunderland",
       "away_team": "Man Utd",
-      "league": "England - Premier League",
+      "league": "Premier League",
       "date_display": "Lør 09 maj",
       "time_display": "16:00",
       "odds_1": 3.6,
       "odds_x": 3.7,
       "odds_2": 1.95,
       "confidence": "high",
-      "notes": "Date inferred from header"
+      "notes": ""
     },
     {
       "home_team": "Man City",
       "away_team": "Brentford",
-      "league": "England - Premier League",
+      "league": "Premier League",
       "date_display": "Lør 09 maj",
       "time_display": "18:30",
       "odds_1": 1.33,
       "odds_x": 5.25,
       "odds_2": 5.5,
       "confidence": "high",
-      "notes": "Date inferred from header"
+      "notes": ""
     },
     {
       "home_team": "Burnley",
       "away_team": "Aston Villa",
-      "league": "England - Premier League",
+      "league": "Premier League",
       "date_display": "Søn 10 maj",
       "time_display": "15:00",
       "odds_1": 4.75,
       "odds_x": 4.33,
       "odds_2": 1.61,
       "confidence": "high",
-      "notes": "Date inferred from header"
+      "notes": ""
     },
     {
       "home_team": "Crystal Palace",
       "away_team": "Everton",
-      "league": "England - Premier League",
+      "league": "Premier League",
       "date_display": "Søn 10 maj",
       "time_display": "15:00",
       "odds_1": 2.8,
       "odds_x": 3.3,
       "odds_2": 2.6,
       "confidence": "high",
-      "notes": "Date inferred from header"
+      "notes": ""
     },
     {
       "home_team": "Nottm Forest",
       "away_team": "Newcastle",
-      "league": "England - Premier League",
+      "league": "Premier League",
       "date_display": "Søn 10 maj",
       "time_display": "15:00",
       "odds_1": 2.7,
       "odds_x": 3.6,
       "odds_2": 2.45,
       "confidence": "high",
-      "notes": "Date inferred from header"
+      "notes": ""
     },
     {
       "home_team": "West Ham",
       "away_team": "Arsenal",
-      "league": "England - Premier League",
+      "league": "Premier League",
       "date_display": "Søn 10 maj",
       "time_display": "17:30",
       "odds_1": 5.25,
       "odds_x": 4.1,
       "odds_2": 1.6,
       "confidence": "high",
-      "notes": "Date inferred from header"
+      "notes": ""
     },
     {
       "home_team": "Tottenham",
       "away_team": "Leeds",
-      "league": "England - Premier League",
+      "league": "Premier League",
       "date_display": "Man 11 maj",
       "time_display": "21:00",
       "odds_1": 1.85,
       "odds_x": 4.1,
       "odds_2": 3.7,
       "confidence": "high",
-      "notes": "Date inferred from header"
+      "notes": ""
     },
     {
       "home_team": "Man City",
       "away_team": "Crystal Palace",
-      "league": "England - Premier League",
+      "league": "Premier League",
       "date_display": "Ons 13 maj",
       "time_display": "21:00",
       "odds_1": 1.27,
       "odds_x": 6.0,
       "odds_2": 9.5,
       "confidence": "high",
-      "notes": "Date inferred from header"
+      "notes": ""
     },
     {
       "home_team": "Aston Villa",
       "away_team": "Liverpool",
-      "league": "England - Premier League",
+      "league": "Premier League",
       "date_display": "Fre 15 maj",
       "time_display": "21:00",
       "odds_1": 3.6,
       "odds_x": 4.0,
       "odds_2": 1.83,
       "confidence": "high",
-      "notes": "Date inferred from header"
+      "notes": ""
     },
     {
       "home_team": "Man Utd",
       "away_team": "Nottm Forest",
-      "league": "England - Premier League",
+      "league": "Premier League",
       "date_display": "Søn 17 maj",
       "time_display": "13:30",
       "odds_1": 1.6,
       "odds_x": 4.0,
       "odds_2": 5.25,
       "confidence": "high",
-      "notes": "Date inferred from header"
+      "notes": ""
     },
     {
       "home_team": "Brentford",
       "away_team": "Crystal Palace",
-      "league": "England - Premier League",
+      "league": "Premier League",
       "date_display": "Søn 17 maj",
       "time_display": "16:00",
       "odds_1": 1.66,
       "odds_x": 3.9,
       "odds_2": 4.75,
       "confidence": "high",
-      "notes": "Date inferred from header"
+      "notes": ""
     },
     {
       "home_team": "Everton",
       "away_team": "Sunderland",
-      "league": "England - Premier League",
+      "league": "Premier League",
       "date_display": "Søn 17 maj",
       "time_display": "16:00",
       "odds_1": 1.72,
       "odds_x": 3.75,
       "odds_2": 4.5,
       "confidence": "high",
-      "notes": "Date inferred from header"
+      "notes": ""
     },
     {
       "home_team": "Leeds",
       "away_team": "Brighton",
-      "league": "England - Premier League",
+      "league": "Premier League",
       "date_display": "Søn 17 maj",
       "time_display": "16:00",
       "odds_1": 2.9,
       "odds_x": 3.6,
       "odds_2": 2.25,
       "confidence": "high",
-      "notes": "Date inferred from header"
+      "notes": ""
     },
     {
       "home_team": "Wolverhampton",
       "away_team": "Fulham",
-      "league": "England - Premier League",
+      "league": "Premier League",
       "date_display": "Søn 17 maj",
       "time_display": "16:00",
       "odds_1": 3.6,
       "odds_x": 3.6,
       "odds_2": 1.95,
       "confidence": "high",
-      "notes": "Date inferred from header"
+      "notes": ""
     },
     {
       "home_team": "Newcastle",
       "away_team": "West Ham",
-      "league": "England - Premier League",
+      "league": "Premier League",
       "date_display": "Søn 17 maj",
       "time_display": "18:30",
       "odds_1": 2.0,
       "odds_x": 3.75,
       "odds_2": 3.4,
       "confidence": "high",
-      "notes": "Date inferred from header"
+      "notes": ""
     },
     {
       "home_team": "Arsenal",
       "away_team": "Burnley",
-      "league": "England - Premier League",
+      "league": "Premier League",
       "date_display": "Man 18 maj",
       "time_display": "21:00",
       "odds_1": 1.11,
       "odds_x": 10.0,
       "odds_2": 15.0,
       "confidence": "high",
-      "notes": "Date inferred from header"
+      "notes": ""
     }
   ],
   "parser_warnings": []
