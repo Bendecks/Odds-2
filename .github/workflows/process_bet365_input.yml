@@ -57,6 +57,18 @@ jobs:
           ODDS_MAX_FILES: 25
           ODDS_TIMEZONE: Europe/Copenhagen
 
+      - name: Run Phase 2.1 research orchestrator
+        run: python scripts/research_orchestrator_v7.py
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_RESEARCH_MODEL: gemini-2.5-flash
+          GEMINI_STRUCTURE_MODEL: gemini-2.5-flash
+          GEMINI_REVIEW_MODEL: gemini-2.5-pro
+          MAX_RESEARCH_CALLS: 5
+          RESEARCH_ENABLED: true
+          SIMULATE_RESEARCH_TRIGGER: ${{ github.event.inputs.force_research_candidate }}
+          SIMULATE_RESEARCH_WRITE_RECORD: ${{ github.event.inputs.simulate_research_write_record }}
+
       - name: Run Decision Layer V3.2 paper decision layer
         run: python scripts/ai_decide_v3_2.py
         env:
@@ -69,18 +81,6 @@ jobs:
           OPENAI_MODEL: gpt-4o-mini
           AI_MAX_CANDIDATES: 90
           AI_V3_MAX_EVAL_CANDIDATES: 15
-
-      - name: Run Phase 2.1 research orchestrator
-        run: python scripts/research_orchestrator_v7.py
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_RESEARCH_MODEL: gemini-2.5-flash
-          GEMINI_STRUCTURE_MODEL: gemini-2.5-flash
-          GEMINI_REVIEW_MODEL: gemini-2.5-pro
-          MAX_RESEARCH_CALLS: 5
-          RESEARCH_ENABLED: true
-          SIMULATE_RESEARCH_TRIGGER: ${{ github.event.inputs.force_research_candidate }}
-          SIMULATE_RESEARCH_WRITE_RECORD: ${{ github.event.inputs.simulate_research_write_record }}
 
       - name: Commit data integrity, paper decision and research outputs
         run: |
