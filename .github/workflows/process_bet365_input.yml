@@ -48,73 +48,24 @@ jobs:
           python -m pip install --upgrade pip
           pip install pypdf PyMuPDF openai requests
 
-      - name: Run Gemini PDF parser smoke test
-        run: python scripts/gemini_pdf_parser.py
+      - name: Run simplified Gemini paper-pick pipeline
+        run: python scripts/gemini_simple_pipeline.py
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_PDF_MODEL: gemini-2.5-flash
+          GEMINI_DECISION_MODEL: gemini-2.5-flash
           ODDS_MAX_FILES: 5
           ODDS_TIMEZONE: Europe/Copenhagen
+          SIMPLE_MAX_PICKS: 3
+          SIMPLE_MIN_OVERROUND: 1.00
+          SIMPLE_MAX_OVERROUND: 1.20
 
-      - name: Run Phase 1.1 dedupe stress tests
-        run: python scripts/test_dedupe.py
-
-      - name: Run data integrity foundation
-        run: python scripts/process_bet365_input.py
-        env:
-          ODDS_MAX_FILES: 25
-          ODDS_TIMEZONE: Europe/Copenhagen
-
-      - name: Run parser audit
-        run: python scripts/parser_audit.py
-
-      - name: Run Market Monitor V1 consensus layer
-        run: python scripts/market_monitor_v1.py
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_MARKET_MODEL: gemini-2.5-flash
-          GEMINI_MARKET_STRUCTURE_MODEL: gemini-2.5-flash
-          MARKET_MONITOR_ENABLED: true
-          MAX_MARKET_MONITOR_CALLS: 5
-          MARKET_MONITOR_WINDOW_HOURS: 87600
-          CONSENSUS_REFRESH_HOURS: 2
-          MARKET_OUTLIER_THRESHOLD: 0.05
-
-      - name: Run Phase 2.1 autonomous research orchestrator
-        run: python scripts/research_orchestrator_v8.py
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_RESEARCH_MODEL: gemini-2.5-flash
-          GEMINI_STRUCTURE_MODEL: gemini-2.5-flash
-          GEMINI_REVIEW_MODEL: gemini-2.5-pro
-          MAX_RESEARCH_CALLS: 5
-          RESEARCH_ENABLED: true
-          RESEARCH_FRESH_WINDOW_HOURS: 87600
-          RESEARCH_REFRESH_HOURS: 6
-          RESEARCH_REFRESH_WINDOW_HOURS: 87600
-          SIMULATE_RESEARCH_TRIGGER: ${{ github.event.inputs.force_research_candidate }}
-          SIMULATE_RESEARCH_WRITE_RECORD: ${{ github.event.inputs.simulate_research_write_record }}
-
-      - name: Run Decision Layer V3.2 paper decision layer
-        run: python scripts/ai_decide_v3_2.py
-        env:
-          AI_PROVIDER: gemini
-          AI_DECISION_VERSION: phase2_decision_v3_2_strict_safety_gates
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_MODEL: gemini-2.5-flash
-          GEMINI_DECISION_MODEL: gemini-2.5-flash
-          GEMINI_REVIEW_MODEL: gemini-2.5-pro
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_MODEL: gpt-4o-mini
-          AI_MAX_CANDIDATES: 90
-          AI_V3_MAX_EVAL_CANDIDATES: 15
-
-      - name: Commit data integrity, parser audit, market monitor, research and decision outputs
+      - name: Commit simplified pipeline outputs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git pull --rebase --autostash origin main
-          git add -A data/team_alias_suggestions.json data/pick_tracker.jsonl output/latest output/reports output/debug_text || true
+          git add -A data/simple_picks_log.jsonl output/latest/simple_pipeline_output.json output/reports/simple_pipeline_report.md output/debug_text || true
           git diff --cached --quiet && exit 0
-          git commit -m "Process bet365 input, parser audit, market monitor, research and decisions"
+          git commit -m "Run simplified Gemini paper-pick pipeline"
           git push
