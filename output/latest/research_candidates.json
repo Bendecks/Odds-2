@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-09T05:18:41Z",
+  "generated_at": "2026-05-09T05:24:03Z",
   "research_version": "phase2_1_gemini_research_v7_twostep",
   "candidate_count": 1,
   "all_triggered_count": 1,
@@ -8,80 +8,82 @@
   "simulate_research_write_record": false,
   "candidates": [
     {
-      "market_id": "mkt_ae9a8fb5d1a643d5",
+      "market_id": "mkt_9b66e572dd9b1812",
       "event_id": "evt_5241c95dad946db1",
       "event_name": "Liverpool vs Chelsea",
       "league": "unknown",
       "event_time_utc": "2026-05-08T11:30:00Z",
       "market_type": "1X2",
-      "line": "2",
-      "selection": "Chelsea",
-      "odds": 3.9,
+      "line": "X",
+      "selection": "Draw",
+      "odds": 4.0,
       "movement_summary": {
-        "first_seen_odds": 3.9,
-        "latest_seen_odds": 3.9,
+        "first_seen_odds": 4.0,
+        "latest_seen_odds": 4.0,
         "first_seen_capture_utc": "2026-05-08T03:40:00Z",
         "latest_seen_capture_utc": "2026-05-08T03:40:00Z",
         "change_pct_from_first": 0.0,
         "movement_from_first": "unchanged",
-        "observation_count": 23,
+        "observation_count": 24,
         "non_duplicate_observation_count": 1,
         "dedupe_counts": {
           "new_observation": 1,
-          "duplicate_noise": 22
+          "duplicate_noise": 23
         }
       },
       "decision": {
         "record_type": "decision_record",
-        "decision_id": "dec_6f972cbc9fb7753f",
-        "created_at": "2026-05-09T05:18:41Z",
-        "model_version": "phase2_decision_v3_research_context",
+        "decision_id": "dec_24c96d94dac4625b",
+        "created_at": "2026-05-09T05:24:02Z",
+        "model_version": "phase2_decision_v3_1_scoped_research_context",
         "model": "heuristic_fallback",
-        "engine": "heuristic_fallback",
-        "fallback_reason": "gemini_exception_Expecting ',' delimiter: line 602 column 6 (char 19297)",
+        "engine": "gemini_scoped",
+        "fallback_reason": null,
+        "ai_eval_used": false,
         "mode": "paper_only",
-        "market_id": "mkt_ae9a8fb5d1a643d5",
+        "market_id": "mkt_9b66e572dd9b1812",
         "event_id": "evt_5241c95dad946db1",
-        "latest_observation_id": "obs_ac2a58e84d96e4ee",
+        "latest_observation_id": "obs_85acaa1f4fd3c60b",
         "event_name": "Liverpool vs Chelsea",
         "event_time_utc": "2026-05-08T11:30:00Z",
         "market_type": "1X2",
-        "line": "2",
-        "selection": "Chelsea",
-        "odds_at_decision": 3.9,
+        "line": "X",
+        "selection": "Draw",
+        "odds_at_decision": 4.0,
         "decision": "PASS",
         "confidence": "low",
         "paper_stake_pct": 0.0,
-        "reasoning_code": "AI_UNAVAILABLE_FALLBACK_PASS",
-        "reasoning_summary": "PASS: AI unavailable (gemini_exception_Expecting ',' delimiter: line 602 column 6 (char 19297)); conservative fallback.",
+        "reasoning_code": "NO_VALID_EDGE_CONTEXT",
+        "reasoning_summary": "PASS: no valid research-backed edge. Paper-only system stays conservative.",
         "risk_flags": [],
         "data_flags": [
-          "gemini_exception_Expecting ',' delimiter: line 602 column 6 (char 19297)"
+          "ignored_invalid_research",
+          "no_valid_research_context"
         ],
-        "research_used": true,
-        "research_id": "res_2149d7a8c9485fd5",
-        "research_status": "completed",
-        "research_confidence": "high",
+        "research_used": false,
+        "research_id": null,
+        "research_status": null,
+        "research_confidence": null,
         "source_market_snapshot": {
-          "market_id": "mkt_ae9a8fb5d1a643d5",
+          "market_id": "mkt_9b66e572dd9b1812",
           "event_id": "evt_5241c95dad946db1",
           "event_name": "Liverpool vs Chelsea",
           "league": "unknown",
           "sport": "football",
           "event_time_utc": "2026-05-08T11:30:00Z",
           "market_type": "1X2",
-          "line": "2",
-          "selection": "Chelsea",
-          "odds": 3.9,
-          "first_seen_odds": 3.9,
-          "latest_seen_odds": 3.9,
+          "line": "X",
+          "selection": "Draw",
+          "odds": 4.0,
+          "first_seen_odds": 4.0,
+          "latest_seen_odds": 4.0,
           "movement_from_first": "unchanged",
           "change_pct_from_first": 0.0,
-          "observation_count": 23,
+          "observation_count": 24,
           "non_duplicate_observation_count": 1,
           "dedupe_counts": {
             "new_observation": 1,
-            "duplicate_noise": 22
+            "duplicate_noise": 23
           },
           "parser_confidence_total": 0.99,
           "parser_confidence_status": "high",
@@ -94,35 +96,14 @@
             "layout_approved": true,
             "extraction_confidence": true
           },
-          "latest_observation_id": "obs_ac2a58e84d96e4ee",
-          "research_context": {
-            "research_id": "res_2149d7a8c9485fd5",
-            "research_version": "phase2_1_gemini_research_v6",
-            "research_status": "completed",
-            "created_at": "2026-05-09T05:06:06Z",
-            "provider": "gemini",
-            "research_model": "gemini-2.5-flash",
-            "structure_model": null,
-            "confidence": "high",
-            "summary": "The match between Liverpool and Chelsea was scheduled for 2026-05-08 and has already been played. Current probability-changing information is not applicable.",
-            "source_quality": {
-              "primary_source_count": 0,
-              "secondary_source_count": 0,
-              "echo_chamber_risk": "none"
-            },
-            "signals": {
-              "hard": [
-                "Match already played on 2026-05-08."
-              ],
-              "soft": [
-                "Match already played on 2026-05-08."
-              ],
-              "contradictions": []
-            },
-            "research_flags": [],
-            "source_links_count": 0
-          },
-          "has_valid_research": true
+          "latest_observation_id": "obs_85acaa1f4fd3c60b",
+          "research_context": null,
+          "has_valid_research": false,
+          "ignored_research": {
+            "reason": "invalid_or_simulated_research",
+            "status": "failed",
+            "provider": "gemini"
+          }
         }
       },
       "trigger_reasons": [
@@ -138,7 +119,7 @@
     },
     {
       "market_id": "mkt_ae9a8fb5d1a643d5",
-      "reason": "no_research_trigger"
+      "reason": "research_exists_for_version"
     },
     {
       "market_id": "mkt_9b66e572dd9b1812",

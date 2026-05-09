@@ -1,6 +1,6 @@
 # Odds 2 — Phase 2.1 Research Report
 
-Generated: 2026-05-09T05:18:56Z
+Generated: 2026-05-09T05:24:08Z
 - Research version: phase2_1_gemini_research_v7_twostep
 - Research model: gemini-2.5-flash
 - Structure model: gemini-2.5-flash
@@ -12,16 +12,16 @@ Generated: 2026-05-09T05:18:56Z
 - Research records written: 1
 
 
-### Liverpool vs Chelsea — Chelsea @ 3.9
-- Status: completed
+### Liverpool vs Chelsea — Draw @ 4.0
+- Status: insufficient_data
 - Provider: gemini_twostep
-- Confidence: high
+- Confidence: low
 - Echo chamber risk: none
 - Source counts: primary=0, secondary=0
 - Triggers: `['simulated_research_trigger']`
-- Hard signals: `['Liverpool faces significant absences, with Alisson Becker, Mohamed Salah, Hugo Ekit']`
+- Hard signals: `[]`
 - Soft signals: `[]`
-- Summary: Liverpool has significant player absences, including Alisson Becker, Mohamed Salah, and Hugo Ekit.
+- Summary: Insufficient data: Match concluded, impossible to gather current pre-match probability-changing facts.
 - Source links: `[]`
 - Research flags: `[]`
 - Error code: `None`
