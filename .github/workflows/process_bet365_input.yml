@@ -57,6 +57,18 @@ jobs:
           ODDS_MAX_FILES: 25
           ODDS_TIMEZONE: Europe/Copenhagen
 
+      - name: Run Market Monitor V1 consensus layer
+        run: python scripts/market_monitor_v1.py
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MARKET_MODEL: gemini-2.5-flash
+          GEMINI_MARKET_STRUCTURE_MODEL: gemini-2.5-flash
+          MARKET_MONITOR_ENABLED: true
+          MAX_MARKET_MONITOR_CALLS: 5
+          MARKET_MONITOR_WINDOW_HOURS: 48
+          CONSENSUS_REFRESH_HOURS: 2
+          MARKET_OUTLIER_THRESHOLD: 0.05
+
       - name: Run Phase 2.1 autonomous research orchestrator
         run: python scripts/research_orchestrator_v8.py
         env:
@@ -86,12 +98,12 @@ jobs:
           AI_MAX_CANDIDATES: 90
           AI_V3_MAX_EVAL_CANDIDATES: 15
 
-      - name: Commit data integrity, paper decision and research outputs
+      - name: Commit data integrity, market monitor, research and decision outputs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git pull --rebase --autostash origin main
           git add -A data/team_alias_suggestions.json data/pick_tracker.jsonl output/latest output/reports output/debug_text || true
           git diff --cached --quiet && exit 0
-          git commit -m "Process bet365 input, paper decisions and research"
+          git commit -m "Process bet365 input, market monitor, research and decisions"
           git push
