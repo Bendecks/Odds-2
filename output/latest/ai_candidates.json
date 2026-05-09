@@ -1,5 +1,5 @@
 {
-  "model_version": "phase2_decision_v3_1_scoped_research_context",
+  "model_version": "phase2_decision_v3_2_expired_event_gate",
   "mode": "paper_only",
   "candidate_count": 90,
   "skipped_count": 0,
@@ -19,11 +19,11 @@
       "latest_seen_odds": 1.83,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -53,11 +53,11 @@
       "latest_seen_odds": 3.9,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -87,11 +87,11 @@
       "latest_seen_odds": 4.0,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -121,11 +121,11 @@
       "latest_seen_odds": 2.2,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -155,11 +155,11 @@
       "latest_seen_odds": 3.2,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -189,11 +189,11 @@
       "latest_seen_odds": 3.3,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -223,11 +223,11 @@
       "latest_seen_odds": 2.25,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -257,11 +257,11 @@
       "latest_seen_odds": 3.3,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -291,11 +291,11 @@
       "latest_seen_odds": 3.3,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -325,11 +325,11 @@
       "latest_seen_odds": 2.87,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -359,11 +359,11 @@
       "latest_seen_odds": 2.2,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -393,11 +393,11 @@
       "latest_seen_odds": 3.8,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -427,11 +427,11 @@
       "latest_seen_odds": 3.1,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -461,11 +461,11 @@
       "latest_seen_odds": 2.2,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -495,11 +495,11 @@
       "latest_seen_odds": 3.5,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -529,11 +529,11 @@
       "latest_seen_odds": 2.5,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -563,11 +563,11 @@
       "latest_seen_odds": 2.9,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -597,11 +597,11 @@
       "latest_seen_odds": 3.2,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -631,11 +631,11 @@
       "latest_seen_odds": 2.05,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -665,11 +665,11 @@
       "latest_seen_odds": 3.3,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -699,11 +699,11 @@
       "latest_seen_odds": 3.75,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -733,11 +733,11 @@
       "latest_seen_odds": 1.3,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -767,11 +767,11 @@
       "latest_seen_odds": 9.5,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -801,11 +801,11 @@
       "latest_seen_odds": 5.5,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -835,11 +835,11 @@
       "latest_seen_odds": 1.45,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -869,11 +869,11 @@
       "latest_seen_odds": 5.75,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -903,11 +903,11 @@
       "latest_seen_odds": 5.0,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -937,11 +937,11 @@
       "latest_seen_odds": 2.15,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -971,11 +971,11 @@
       "latest_seen_odds": 2.8,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -1005,11 +1005,11 @@
       "latest_seen_odds": 4.0,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -1039,11 +1039,11 @@
       "latest_seen_odds": 1.27,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -1073,11 +1073,11 @@
       "latest_seen_odds": 9.5,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -1107,11 +1107,11 @@
       "latest_seen_odds": 6.25,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -1141,11 +1141,11 @@
       "latest_seen_odds": 2.87,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -1175,11 +1175,11 @@
       "latest_seen_odds": 2.35,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -1209,11 +1209,11 @@
       "latest_seen_odds": 3.6,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -1243,11 +1243,11 @@
       "latest_seen_odds": 4.2,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -1277,11 +1277,11 @@
       "latest_seen_odds": 1.72,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -1311,11 +1311,11 @@
       "latest_seen_odds": 4.0,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -1345,11 +1345,11 @@
       "latest_seen_odds": 3.9,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -1379,11 +1379,11 @@
       "latest_seen_odds": 1.85,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -1413,11 +1413,11 @@
       "latest_seen_odds": 3.75,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -1447,11 +1447,11 @@
       "latest_seen_odds": 2.05,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -1481,11 +1481,11 @@
       "latest_seen_odds": 3.7,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -1515,11 +1515,11 @@
       "latest_seen_odds": 3.4,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -1549,11 +1549,11 @@
       "latest_seen_odds": 2.87,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -1583,11 +1583,11 @@
       "latest_seen_odds": 2.3,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -1617,11 +1617,11 @@
       "latest_seen_odds": 3.6,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -1651,11 +1651,11 @@
       "latest_seen_odds": 4.5,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -1685,11 +1685,11 @@
       "latest_seen_odds": 1.8,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -1719,11 +1719,11 @@
       "latest_seen_odds": 3.7,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -1753,11 +1753,11 @@
       "latest_seen_odds": 2.05,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -1787,11 +1787,11 @@
       "latest_seen_odds": 3.5,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -1821,11 +1821,11 @@
       "latest_seen_odds": 3.5,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -1855,11 +1855,11 @@
       "latest_seen_odds": 1.36,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -1889,11 +1889,11 @@
       "latest_seen_odds": 7.0,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -1923,11 +1923,11 @@
       "latest_seen_odds": 5.75,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -1957,11 +1957,11 @@
       "latest_seen_odds": 4.5,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -1991,11 +1991,11 @@
       "latest_seen_odds": 1.65,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -2025,11 +2025,11 @@
       "latest_seen_odds": 4.33,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -2059,11 +2059,11 @@
       "latest_seen_odds": 2.2,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -2093,11 +2093,11 @@
       "latest_seen_odds": 3.1,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -2127,11 +2127,11 @@
       "latest_seen_odds": 3.5,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -2161,11 +2161,11 @@
       "latest_seen_odds": 1.75,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -2195,11 +2195,11 @@
       "latest_seen_odds": 3.8,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -2229,11 +2229,11 @@
       "latest_seen_odds": 4.2,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -2263,11 +2263,11 @@
       "latest_seen_odds": 1.5,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -2297,11 +2297,11 @@
       "latest_seen_odds": 5.5,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -2331,11 +2331,11 @@
       "latest_seen_odds": 4.75,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -2365,11 +2365,11 @@
       "latest_seen_odds": 6.25,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -2399,11 +2399,11 @@
       "latest_seen_odds": 1.45,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -2433,11 +2433,11 @@
       "latest_seen_odds": 4.5,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -2467,11 +2467,11 @@
       "latest_seen_odds": 1.44,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -2501,11 +2501,11 @@
       "latest_seen_odds": 7.0,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -2535,11 +2535,11 @@
       "latest_seen_odds": 4.75,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -2569,11 +2569,11 @@
       "latest_seen_odds": 2.5,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -2603,11 +2603,11 @@
       "latest_seen_odds": 2.87,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -2637,11 +2637,11 @@
       "latest_seen_odds": 3.25,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -2671,11 +2671,11 @@
       "latest_seen_odds": 3.0,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -2705,11 +2705,11 @@
       "latest_seen_odds": 2.32,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -2739,11 +2739,11 @@
       "latest_seen_odds": 3.25,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -2773,11 +2773,11 @@
       "latest_seen_odds": 2.5,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -2807,11 +2807,11 @@
       "latest_seen_odds": 2.8,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -2841,11 +2841,11 @@
       "latest_seen_odds": 3.3,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -2875,11 +2875,11 @@
       "latest_seen_odds": 2.55,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -2909,11 +2909,11 @@
       "latest_seen_odds": 2.7,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -2943,11 +2943,11 @@
       "latest_seen_odds": 3.5,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -2977,11 +2977,11 @@
       "latest_seen_odds": 2.1,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -3011,11 +3011,11 @@
       "latest_seen_odds": 4.2,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",
@@ -3045,11 +3045,11 @@
       "latest_seen_odds": 2.75,
       "movement_from_first": "unchanged",
       "change_pct_from_first": 0.0,
-      "observation_count": 24,
+      "observation_count": 25,
       "non_duplicate_observation_count": 1,
       "dedupe_counts": {
         "new_observation": 1,
-        "duplicate_noise": 23
+        "duplicate_noise": 24
       },
       "parser_confidence_total": 0.99,
       "parser_confidence_status": "high",

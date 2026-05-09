@@ -1,1092 +1,1182 @@
-# Odds 2 — Decision Layer V3.1 Report
+# Odds 2 — Decision Layer V3.2 Report
 
-Generated: 2026-05-09T05:24:02Z
-- Engine: gemini_scoped
+Generated: 2026-05-09T05:29:28Z
+- Engine: heuristic_scoped
 - Fallback reason: None
-- Model version: phase2_decision_v3_1_scoped_research_context
+- Model version: phase2_decision_v3_2_expired_event_gate
 - Candidates prepared: 90
-- AI-evaluated candidates: 2
+- AI-evaluated candidates: 0
 - Decisions written: 90
-- Decision counts: `{"PASS": 89, "PAPER_BET": 1}`
+- Decision counts: `{"PASS": 90}`
 
 ## Decisions
 
 ### Liverpool vs Chelsea — 1 / Liverpool @ 1.83
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: INSUFFICIENT_RESEARCH_DATA
-- Summary: Research status is insufficient data, triggering a PASS.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: True
 - Research status: insufficient_data
-- AI eval used: True
+- AI eval used: False
 - Risk flags: `[]`
-- Data flags: `[]`
+- Data flags: `['event_expired']`
 
 ### Liverpool vs Chelsea — 2 / Chelsea @ 3.9
-- Decision: PAPER_BET
+- Decision: PASS
 - Confidence: high
-- Paper stake pct: 1.0
-- Reason code: VALID_RESEARCH_AND_SIGNAL
-- Summary: Valid research, clear market signal (Liverpool absences supporting Chelsea), and no contradictions.
+- Paper stake pct: 0.0
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: True
 - Research status: completed
-- AI eval used: True
+- AI eval used: False
 - Risk flags: `[]`
-- Data flags: `[]`
+- Data flags: `['event_expired']`
 
 ### Liverpool vs Chelsea — X / Draw @ 4.0
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
-- Research used: False
-- Research status: None
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
+- Research used: True
+- Research status: insufficient_data
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['ignored_invalid_research', 'no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Middlesbrough vs Southampton — 1 / Middlesbrough @ 2.2
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['ignored_invalid_research', 'no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Middlesbrough vs Southampton — 2 / Southampton @ 3.2
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['ignored_invalid_research', 'no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Middlesbrough vs Southampton — X / Draw @ 3.3
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Elche vs CD Alaves — 1 / Elche @ 2.25
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Elche vs CD Alaves — 2 / CD Alaves @ 3.3
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Elche vs CD Alaves — X / Draw @ 3.3
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### FC Nordsjælland vs FC Midtjylland — 1 / FC Nordsjælland @ 2.87
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### FC Nordsjælland vs FC Midtjylland — 2 / FC Midtjylland @ 2.2
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### FC Nordsjælland vs FC Midtjylland — X / Draw @ 3.8
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Vejle vs FC Fredericia — 1 / Vejle @ 3.1
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Vejle vs FC Fredericia — 2 / FC Fredericia @ 2.2
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Vejle vs FC Fredericia — X / Draw @ 3.5
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Cagliari vs Udinese — 1 / Cagliari @ 2.5
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Cagliari vs Udinese — 2 / Udinese @ 2.9
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Cagliari vs Udinese — X / Draw @ 3.2
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Augsburg vs Borussia Mönchengladbach — 1 / Augsburg @ 2.05
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Augsburg vs Borussia Mönchengladbach — 2 / Borussia Mönchengladbach @ 3.3
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Augsburg vs Borussia Mönchengladbach — X / Draw @ 3.75
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### RB Leipzig vs St. Pauli — 1 / RB Leipzig @ 1.3
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### RB Leipzig vs St. Pauli — 2 / St. Pauli @ 9.5
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### RB Leipzig vs St. Pauli — X / Draw @ 5.5
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### TSG Hoffenheim vs Werder Bremen — 1 / TSG Hoffenheim @ 1.45
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### TSG Hoffenheim vs Werder Bremen — 2 / Werder Bremen @ 5.75
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### TSG Hoffenheim vs Werder Bremen — X / Draw @ 5.0
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### VfB Stuttgart vs Bayer Leverkusen — 1 / VfB Stuttgart @ 2.15
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### VfB Stuttgart vs Bayer Leverkusen — 2 / Bayer Leverkusen @ 2.8
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### VfB Stuttgart vs Bayer Leverkusen — X / Draw @ 4.0
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Brighton vs Wolverhampton — 1 / Brighton @ 1.27
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Brighton vs Wolverhampton — 2 / Wolverhampton @ 9.5
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Brighton vs Wolverhampton — X / Draw @ 6.25
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Fulham vs Bournemouth — 1 / Fulham @ 2.87
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Fulham vs Bournemouth — 2 / Bournemouth @ 2.35
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Fulham vs Bournemouth — X / Draw @ 3.6
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Silkeborg IF vs FC København — 1 / Silkeborg IF @ 4.2
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Silkeborg IF vs FC København — 2 / FC København @ 1.72
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Silkeborg IF vs FC København — X / Draw @ 4.0
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Sunderland vs Manchester United — 1 / Sunderland @ 3.9
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Sunderland vs Manchester United — 2 / Manchester United @ 1.85
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Sunderland vs Manchester United — X / Draw @ 3.75
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Sevilla vs Espanyol — 1 / Sevilla @ 2.05
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Sevilla vs Espanyol — 2 / Espanyol @ 3.7
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Sevilla vs Espanyol — X / Draw @ 3.4
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Brøndby vs AGF — 1 / Brøndby @ 2.87
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Brøndby vs AGF — 2 / AGF @ 2.3
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Brøndby vs AGF — X / Draw @ 3.6
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Lazio vs Inter Milan — 1 / Lazio @ 4.5
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Lazio vs Inter Milan — 2 / Inter Milan @ 1.8
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Lazio vs Inter Milan — X / Draw @ 3.7
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Atletico Madrid vs Celta Vigo — 1 / Atletico Madrid @ 2.05
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Atletico Madrid vs Celta Vigo — 2 / Celta Vigo @ 3.5
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Atletico Madrid vs Celta Vigo — X / Draw @ 3.5
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Manchester City vs Brentford — 1 / Manchester City @ 1.36
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Manchester City vs Brentford — 2 / Brentford @ 7.0
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Manchester City vs Brentford — X / Draw @ 5.75
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Wolfsburg vs Bayern München — 1 / Wolfsburg @ 4.5
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Wolfsburg vs Bayern München — 2 / Bayern München @ 1.65
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Wolfsburg vs Bayern München — X / Draw @ 4.33
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Randers FC vs OB — 1 / Randers FC @ 2.2
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Randers FC vs OB — 2 / OB @ 3.1
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Randers FC vs OB — X / Draw @ 3.5
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Viborg vs Sønderjyske — 1 / Viborg @ 1.75
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Viborg vs Sønderjyske — 2 / Sønderjyske @ 3.8
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Viborg vs Sønderjyske — X / Draw @ 4.2
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Borussia Dortmund vs Eintracht Frankfurt — 1 / Borussia Dortmund @ 1.5
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Borussia Dortmund vs Eintracht Frankfurt — 2 / Eintracht Frankfurt @ 5.5
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Borussia Dortmund vs Eintracht Frankfurt — X / Draw @ 4.75
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Lecce vs Juventus — 1 / Lecce @ 6.25
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Lecce vs Juventus — 2 / Juventus @ 1.45
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Lecce vs Juventus — X / Draw @ 4.5
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Lens vs Nantes — 1 / Lens @ 1.44
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Lens vs Nantes — 2 / Nantes @ 7.0
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Lens vs Nantes — X / Draw @ 4.75
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Torino vs Sassuolo — 1 / Torino @ 2.5
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Torino vs Sassuolo — 2 / Sassuolo @ 2.87
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Torino vs Sassuolo — X / Draw @ 3.25
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Hull vs Millwall — 1 / Hull @ 3.0
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Hull vs Millwall — 2 / Millwall @ 2.32
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Hull vs Millwall — X / Draw @ 3.25
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Levante vs Osasuna — 1 / Levante @ 2.5
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Levante vs Osasuna — 2 / Osasuna @ 2.8
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Levante vs Osasuna — X / Draw @ 3.3
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Real Sociedad vs Real Betis — 1 / Real Sociedad @ 2.55
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Real Sociedad vs Real Betis — 2 / Real Betis @ 2.7
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Real Sociedad vs Real Betis — X / Draw @ 3.5
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Banfield vs San Martin de Tucumán — 1 / Banfield @ 2.1
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Banfield vs San Martin de Tucumán — 2 / San Martin de Tucumán @ 4.2
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
 
 ### Banfield vs San Martin de Tucumán — X / Draw @ 2.75
 - Decision: PASS
-- Confidence: low
+- Confidence: high
 - Paper stake pct: 0.0
-- Reason code: NO_VALID_EDGE_CONTEXT
-- Summary: PASS: no valid research-backed edge. Paper-only system stays conservative.
+- Reason code: EVENT_EXPIRED_PASS
+- Summary: PASS: event time has passed. No paper decision allowed.
+- Is expired: True
 - Research used: False
 - Research status: None
 - AI eval used: False
 - Risk flags: `[]`
-- Data flags: `['no_valid_research_context']`
+- Data flags: `['event_expired']`
