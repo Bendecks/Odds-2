@@ -12,6 +12,7 @@ from tracker import append_records, read_tracker
 OUT_LATEST = pathlib.Path('output/latest')
 OUT_REPORTS = pathlib.Path('output/reports')
 MARKET_STATE_PATH = OUT_LATEST / 'market_state.json'
+PARSER_AUDIT_PATH = OUT_LATEST / 'parser_audit.json'
 OUT_LATEST.mkdir(parents=True, exist_ok=True)
 OUT_REPORTS.mkdir(parents=True, exist_ok=True)
 
@@ -21,7 +22,7 @@ STRUCTURE_MODEL = os.getenv('GEMINI_MARKET_STRUCTURE_MODEL', os.getenv('GEMINI_M
 MAX_CALLS = int(os.getenv('MAX_MARKET_MONITOR_CALLS', '5'))
 MONITOR_ENABLED = os.getenv('MARKET_MONITOR_ENABLED', 'true').lower() == 'true'
 CONSENSUS_REFRESH_HOURS = float(os.getenv('CONSENSUS_REFRESH_HOURS', '2'))
-MONITOR_WINDOW_HOURS = float(os.getenv('MARKET_MONITOR_WINDOW_HOURS', '48'))
+MONITOR_WINDOW_HOURS = float(os.getenv('MARKET_MONITOR_WINDOW_HOURS', '87600'))
 OUTLIER_THRESHOLD = float(os.getenv('MARKET_OUTLIER_THRESHOLD', '0.05'))
 
 BLOCKED_SOURCE_WORDS = ['prediction', 'predictions', 'tips', 'free tips', 'best bet', 'bettingexpert', 'forebet', 'sportsmole']
@@ -62,6 +63,11 @@ def load_json(path, default):
     if not p.exists():
         return default
     return json.loads(p.read_text(encoding='utf-8'))
+
+
+def audit_flagged_market_ids():
+    data = load_json(PARSER_AUDIT_PATH, {})
+    return set(data.get('flagged_market_ids') or [])
 
 
 def latest_consensus_by_market(records):
@@ -121,11 +127,14 @@ def compact_market(market, reason):
 def select_markets():
     state = load_json(MARKET_STATE_PATH, {'markets': []})
     latest = latest_consensus_by_market(read_tracker())
+    flagged_ids = audit_flagged_market_ids()
     candidates, skipped = [], []
     for market in state.get('markets', []):
         mid = market.get('market_id')
         if not mid:
             continue
+        if mid in flagged_ids:
+            skipped.append({'market_id': mid, 'reason': 'parser_audit_flagged_market'}); continue
         if not real_candidate(market):
             skipped.append({'market_id': mid, 'reason': 'data_integrity_not_real_candidate'}); continue
         h = hours_until(event_time_utc(market))
@@ -145,7 +154,7 @@ def select_markets():
     reason_counts = {}
     for s in skipped:
         reason_counts[s['reason']] = reason_counts.get(s['reason'], 0) + 1
-    payload = {'generated_at': now_utc(), 'monitor_version': MONITOR_VERSION, 'monitor_window_hours': MONITOR_WINDOW_HOURS, 'refresh_hours': CONSENSUS_REFRESH_HOURS, 'candidate_count': len(selected), 'all_triggered_count': len(candidates), 'skipped_count': len(skipped), 'skip_reason_counts': reason_counts, 'candidates': selected, 'skipped': skipped[:250]}
+    payload = {'generated_at': now_utc(), 'monitor_version': MONITOR_VERSION, 'monitor_window_hours': MONITOR_WINDOW_HOURS, 'refresh_hours': CONSENSUS_REFRESH_HOURS, 'parser_audit_flagged_market_count': len(flagged_ids), 'candidate_count': len(selected), 'all_triggered_count': len(candidates), 'skipped_count': len(skipped), 'skip_reason_counts': reason_counts, 'candidates': selected, 'skipped': skipped[:250]}
     (OUT_LATEST / 'market_monitor_candidates.json').write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding='utf-8')
     return payload
 
@@ -344,7 +353,7 @@ def monitor_one(c):
 
 
 def write_report(payload, records):
-    lines = ['# Odds 2 — Market Monitor V1 Report', '', f'Generated: {now_utc()}', f'- Monitor version: {MONITOR_VERSION}', f'- Gemini model: {GEMINI_MODEL}', f'- Structure model: {STRUCTURE_MODEL}', f'- Enabled: {MONITOR_ENABLED}', f'- Candidates selected: {payload.get("candidate_count")}', f'- All triggered markets: {payload.get("all_triggered_count")}', f'- Records written: {len(records)}', f'- Skip reason counts: `{json.dumps(payload.get("skip_reason_counts", {}), ensure_ascii=False)}`', '']
+    lines = ['# Odds 2 — Market Monitor V1 Report', '', f'Generated: {now_utc()}', f'- Monitor version: {MONITOR_VERSION}', f'- Gemini model: {GEMINI_MODEL}', f'- Structure model: {STRUCTURE_MODEL}', f'- Enabled: {MONITOR_ENABLED}', f'- Candidates selected: {payload.get("candidate_count")}', f'- All triggered markets: {payload.get("all_triggered_count")}', f'- Records written: {len(records)}', f'- Skip reason counts: `{json.dumps(payload.get("skip_reason_counts", {}), ensure_ascii=False)}`', f'- Parser-audit flagged markets: {payload.get("parser_audit_flagged_market_count")}', '']
     if not records:
         lines.append('No market consensus records written.')
     for r in records:
