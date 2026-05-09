@@ -73,6 +73,7 @@ jobs:
         run: python scripts/ai_decide_v3_2.py
         env:
           AI_PROVIDER: gemini
+          AI_DECISION_VERSION: phase2_decision_v3_2_strict_safety_gates
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: gemini-2.5-flash
           GEMINI_DECISION_MODEL: gemini-2.5-flash
