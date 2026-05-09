@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-09T18:52:36Z",
+  "generated_at": "2026-05-09T19:01:16Z",
   "pipeline": "gemini_simple_pipeline_v5_deduped_source_audit",
   "files_processed": 5,
   "raw_match_count": 17,
@@ -9,26 +9,13 @@
   "decision_match_count": 12,
   "rejected_match_count": 0,
   "decision_error": null,
-  "decision_record_count": 1,
+  "decision_record_count": 0,
   "paper_bet_count": 0,
-  "blocked_decision_count": 1,
+  "blocked_decision_count": 0,
   "logged_count": 0,
   "pick_count": 0,
   "pass_count": 12,
-  "decision_grounding_sources": [
-    {
-      "index": 0,
-      "title": "footystats.org",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUFhqTFtOGDZQJl9WH8dKGa1BFIZ-EJWGz_sC6t7ZOkRfkjJfxvQEAveevrV19W688OB1Tvw6WIsiVjWyzHyfdTMw_l3fP2U3nAMm06WqPCQ-uC31h5nnWJK-brGc20R9S_StlZggprrEYLHlHrpN52MSDDQbnrJj-wnfN5MLH5hdO-L1vlA==",
-      "domain": "vertexaisearch.cloud.google.com"
-    },
-    {
-      "index": 1,
-      "title": "fotmob.com",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDvXZS-bmD1ifCEznq1XeYM64M5JVHwYBFdaNH0hfPyXPEmMGYXagSqmniHXPUvXaaeSPUzOR11BlKL3g2543fUiuvaUcL_ReCg2IoQGupLvshlbb82-y8LwZduxAdmTJGpl_wBfglo6NGc_k1DjSFIKY=",
-      "domain": "vertexaisearch.cloud.google.com"
-    }
-  ],
+  "decision_grounding_sources": [],
   "decision_response_debug": {
     "top_level_keys": [
       "candidates",
@@ -44,20 +31,24 @@
     ],
     "grounding_metadata_keys": [
       "searchEntryPoint",
-      "groundingChunks",
-      "groundingSupports",
       "webSearchQueries"
     ],
-    "text_preview": "FC Nordsjælland vs FC Midtjylland\nMATCH_ID: match_01c571330e7f8dc7 | MATCH: FC Nordsjælland vs FC Midtjylland | SELECTION_OR_PASS: 2 | ODDS: 2.15\n*   FC Midtjylland is in better recent form (D-W-W-W-D) compared to FC Nordsjælland (D-W-D-L-D) in their last five league games.\n*   FC Midtjylland has a superior historical head-to-head record against FC Nordsjælland, winning 23 out of ",
-    "grounded_text_preview": "FC Nordsjælland vs FC Midtjylland\nMATCH_ID: match_01c571330e7f8dc7 | MATCH: FC Nordsjælland vs FC Midtjylland | SELECTION_OR_PASS: 2 | ODDS: 2.15\n*   FC Midtjylland is in better recent form (D-W-W-W-D) compared to FC Nordsjælland (D-W-D-L-D) in their last five league games.\n*   FC Midtjylland has a superior historical head-to-head record against FC Nordsjælland, winning 23 out of ",
-    "structured_text_preview": "{\n  \"analysis_version\": \"simple_decision_v7_concise_grounded_notes\",\n  \"picks\": [\n    {\n      \"match_id\": \"match_01c571330e7f8dc7\",\n      \"match\": \"FC Nordsjælland vs FC Midtjylland\",\n      \"selection\": \"2\",\n      \"selection_label\": \"away\",\n      \"odds\": 2.15,\n      \"decision\": \"PAPER_BET\",\n      \"confidence_score\": 0.0,\n      \"stake_units\": 0.0,\n      \"value_case\": \"short\",\n      \"evidence_summary\": \"FC Midtjylland is in better recent form and has a superior historical head-to-head record.\",\n      \"evidence_items\": [\n        {\n          \"type\": \"form\",\n          \"signal\": \"FC Midtjylland is in better recent form (D-W-W-W-D) compared to FC Nordsjælland (D-W-D-L-D) in their last five league games.\",\n          \"supports_selection\": true,\n          \"importance\": \"medium\",\n          \"source_tier\": \"unknown\",\n          \"source_type\": \"unknown\",\n          \"source_name\": \"analyst_notes\",\n          \"source_url\": \"https://example.com/analyst_notes\",\n          \"published_or_checked_date\": \"\"\n        },\n        {\n          \"type\": \"context\",\n          \"signal\": \"FC Midtjylland has a superior historical head-to-head record against FC Nordsjælland, winning 23 out of\",\n          \"supports_select"
+    "text_preview": "**Match Analysis Notes**\n\n**Match 1: FC Nordsjælland vs FC Midtjylland**\n*   **Selection:** PASS\n*   **Odds:** 1: 3.0, X: 3.8, 2: 2.15\n*   **Evidence:**\n    *   Insufficient recent form or head-to-head information from preferred sources.\n    *   No specific injury news available from reliable sources.\n*   **Source Names:** N/A\n*   **Risk Flags:** Lack of information.\n\n**Match 2: Vejle vs FC Fredericia**\n*   **Selection:** PASS\n*   **Odds:** 1: 3.2, X: 3.5, 2:",
+    "grounded_text_preview": "**Match Analysis Notes**\n\n**Match 1: FC Nordsjælland vs FC Midtjylland**\n*   **Selection:** PASS\n*   **Odds:** 1: 3.0, X: 3.8, 2: 2.15\n*   **Evidence:**\n    *   Insufficient recent form or head-to-head information from preferred sources.\n    *   No specific injury news available from reliable sources.\n*   **Source Names:** N/A\n*   **Risk Flags:** Lack of information.\n\n**Match 2: Vejle vs FC Fredericia**\n*   **Selection:** PASS\n*   **Odds:** 1: 3.2, X: 3.5, 2:",
+    "structured_text_preview": "{\n  \"analysis_version\": \"simple_decision_v7_concise_grounded_notes\",\n  \"picks\": [],\n  \"passes\": [\n    {\n      \"match_id\": \"match_01c571330e7f8dc7\",\n      \"match\": \"FC Nordsjælland vs FC Midtjylland\",\n      \"reason\": \"insufficient_evidence\",\n      \"short_note\": \"Insufficient recent form or head-to-head information from preferred sources. No specific injury news available from reliable sources.\"\n    }\n  ]\n}"
   },
   "duplicate_matches": [],
   "parser_payload": {
-    "generated_at": "2026-05-09T18:51:54Z",
+    "generated_at": "2026-05-09T19:00:10Z",
     "parser_source": "gemini_pdf_vision",
     "files_processed": 5,
     "files": [
+      {
+        "source_file": "inbox/possible_bets/20260509-205650_possible_bets_3646.pdf",
+        "file_id": "72c23c8ccf620751",
+        "error": "Expecting ',' delimiter: line 100 column 6 (char 2677)",
+        "matches": []
+      },
       {
         "source_file": "inbox/possible_bets/20260509-200533_possible_bets_7700.pdf",
         "file_id": "bb146e8268d3b004",
@@ -292,29 +283,19 @@
       {
         "source_file": "inbox/possible_bets/20260509-195529_possible_bets_3139.pdf",
         "file_id": "bb146e8268d3b004",
-        "error": "Expecting ',' delimiter: line 28 column 6 (char 702)",
+        "error": "Expecting ',' delimiter: line 196 column 6 (char 5506)",
         "matches": []
       },
       {
         "source_file": "inbox/possible_bets/20260509-185831_possible_bets_2101.pdf",
         "file_id": "a8a068824767b295",
-        "error": "Expecting ',' delimiter: line 16 column 6 (char 457)",
+        "error": "Expecting ',' delimiter: line 16 column 6 (char 454)",
         "matches": []
-      },
-      {
-        "source_file": "inbox/possible_bets/20260509-185830_possible_bets_5383.pdf",
-        "timezone_assumed": "Europe/Copenhagen",
-        "matches": [],
-        "parser_warnings": [
-          "No football 1X2 match odds were found in the provided document. All visible matches are for Basketball."
-        ],
-        "file_id": "e8ca6576c0beaf4e",
-        "parser_source": "gemini_pdf_vision"
       }
     ],
     "summary": {
       "matches_total": 17,
-      "files_with_errors": 3
+      "files_with_errors": 4
     }
   },
   "valid_matches": [
@@ -1200,258 +1181,29 @@
   "rejected_matches": [],
   "decision_payload": {
     "analysis_version": "simple_decision_v7_concise_grounded_notes",
-    "picks": [
+    "picks": [],
+    "passes": [
       {
         "match_id": "match_01c571330e7f8dc7",
         "match": "FC Nordsjælland vs FC Midtjylland",
-        "selection": "2",
-        "selection_label": "away",
-        "odds": 2.15,
-        "decision": "PAPER_BET",
-        "confidence_score": 0.0,
-        "stake_units": 0.0,
-        "value_case": "short",
-        "evidence_summary": "FC Midtjylland is in better recent form and has a superior historical head-to-head record.",
-        "evidence_items": [
-          {
-            "type": "form",
-            "signal": "FC Midtjylland is in better recent form (D-W-W-W-D) compared to FC Nordsjælland (D-W-D-L-D) in their last five league games.",
-            "supports_selection": true,
-            "importance": "medium",
-            "source_tier": "unknown",
-            "source_type": "unknown",
-            "source_name": "analyst_notes",
-            "source_url": "https://example.com/analyst_notes",
-            "published_or_checked_date": ""
-          },
-          {
-            "type": "context",
-            "signal": "FC Midtjylland has a superior historical head-to-head record against FC Nordsjælland, winning 23 out of",
-            "supports_selection": true,
-            "importance": "medium",
-            "source_tier": "unknown",
-            "source_type": "unknown",
-            "source_name": "analyst_notes",
-            "source_url": "https://example.com/analyst_notes",
-            "published_or_checked_date": ""
-          }
-        ],
-        "source_quality": {
-          "has_grounded_sources": false,
-          "tier1_source_count": 0,
-          "tier2_source_count": 0,
-          "tier3_source_count": 0,
-          "odds_sources": 0,
-          "prohibited_sources_used": false,
-          "all_evidence_has_urls": false
-        },
-        "risk_flags": [],
-        "why_not_pass": "Stronger recent form and superior head-to-head record for FC Midtjylland."
+        "reason": "insufficient_evidence",
+        "short_note": "Insufficient recent form or head-to-head information from preferred sources. No specific injury news available from reliable sources."
       }
-    ],
-    "passes": []
+    ]
   },
-  "decisions": [
-    {
-      "record_type": "simple_pick",
-      "pick_id": "pick_0d882b1495366ca6",
-      "created_at": "2026-05-09T18:52:36Z",
-      "mode": "paper_only",
-      "analysis_version": "simple_decision_v7_concise_grounded_notes",
-      "match_id": "match_01c571330e7f8dc7",
-      "match": "FC Nordsjælland vs FC Midtjylland",
-      "league": "Danmark - Superligaen",
-      "date_display": "Søn",
-      "time_display": "14:00",
-      "selection": "PASS",
-      "selection_label": "pass",
-      "odds": null,
-      "decision": "PASS",
-      "confidence_score": 0.0,
-      "stake_units": 0.0,
-      "value_case": "short",
-      "evidence_summary": "FC Midtjylland is in better recent form and has a superior historical head-to-head record.",
-      "evidence_items": [
-        {
-          "type": "form",
-          "signal": "FC Midtjylland is in better recent form (D-W-W-W-D) compared to FC Nordsjælland (D-W-D-L-D) in their last five league games.",
-          "supports_selection": true,
-          "importance": "medium",
-          "source_tier": "unknown",
-          "source_type": "unknown",
-          "source_name": "analyst_notes",
-          "source_url": "https://example.com/analyst_notes",
-          "published_or_checked_date": ""
-        },
-        {
-          "type": "context",
-          "signal": "FC Midtjylland has a superior historical head-to-head record against FC Nordsjælland, winning 23 out of",
-          "supports_selection": true,
-          "importance": "medium",
-          "source_tier": "unknown",
-          "source_type": "unknown",
-          "source_name": "analyst_notes",
-          "source_url": "https://example.com/analyst_notes",
-          "published_or_checked_date": ""
-        }
-      ],
-      "evidence_lines": [
-        "form | analyst_notes | verified=unknown | declared=unknown | https://example.com/analyst_notes | FC Midtjylland is in better recent form (D-W-W-W-D) compared to FC Nordsjælland (D-W-D-L-D) in their last five league games.",
-        "context | analyst_notes | verified=unknown | declared=unknown | https://example.com/analyst_notes | FC Midtjylland has a superior historical head-to-head record against FC Nordsjælland, winning 23 out of"
-      ],
-      "verified_source_tiers": [
-        "unknown",
-        "unknown"
-      ],
-      "source_quality": {
-        "has_grounded_sources": false,
-        "tier1_source_count": 0,
-        "tier2_source_count": 0,
-        "tier3_source_count": 0,
-        "odds_sources": 0,
-        "prohibited_sources_used": false,
-        "all_evidence_has_urls": false
-      },
-      "redirect_source_count": 0,
-      "risk_flags": [],
-      "why_not_pass": "Stronger recent form and superior head-to-head record for FC Midtjylland.",
-      "blocked_by_safety": "no_verified_tier1_source",
-      "short_reason": "FC Midtjylland is in better recent form and has a superior historical head-to-head record.",
-      "source_match": {
-        "home_team": "FC Nordsjælland",
-        "away_team": "FC Midtjylland",
-        "league": "Danmark - Superligaen",
-        "date_display": "Søn",
-        "time_display": "14:00",
-        "odds_1": 3.0,
-        "odds_x": 3.8,
-        "odds_2": 2.15,
-        "confidence": "high",
-        "notes": "",
-        "source_file": "inbox/possible_bets/20260509-200532_possible_bets_8036.pdf",
-        "file_id": "add20df85975c342",
-        "match_key": "fc nordsjælland|fc midtjylland|søn|14 00",
-        "match_id": "match_01c571330e7f8dc7",
-        "overround": 1.0616,
-        "audit_status": "accepted",
-        "audit_reason": "overround_ok"
-      },
-      "settlement": "NOT_APPLICABLE"
-    }
-  ],
+  "decisions": [],
   "picks": [],
-  "blocked_decisions": [
-    {
-      "record_type": "simple_pick",
-      "pick_id": "pick_0d882b1495366ca6",
-      "created_at": "2026-05-09T18:52:36Z",
-      "mode": "paper_only",
-      "analysis_version": "simple_decision_v7_concise_grounded_notes",
-      "match_id": "match_01c571330e7f8dc7",
-      "match": "FC Nordsjælland vs FC Midtjylland",
-      "league": "Danmark - Superligaen",
-      "date_display": "Søn",
-      "time_display": "14:00",
-      "selection": "PASS",
-      "selection_label": "pass",
-      "odds": null,
-      "decision": "PASS",
-      "confidence_score": 0.0,
-      "stake_units": 0.0,
-      "value_case": "short",
-      "evidence_summary": "FC Midtjylland is in better recent form and has a superior historical head-to-head record.",
-      "evidence_items": [
-        {
-          "type": "form",
-          "signal": "FC Midtjylland is in better recent form (D-W-W-W-D) compared to FC Nordsjælland (D-W-D-L-D) in their last five league games.",
-          "supports_selection": true,
-          "importance": "medium",
-          "source_tier": "unknown",
-          "source_type": "unknown",
-          "source_name": "analyst_notes",
-          "source_url": "https://example.com/analyst_notes",
-          "published_or_checked_date": ""
-        },
-        {
-          "type": "context",
-          "signal": "FC Midtjylland has a superior historical head-to-head record against FC Nordsjælland, winning 23 out of",
-          "supports_selection": true,
-          "importance": "medium",
-          "source_tier": "unknown",
-          "source_type": "unknown",
-          "source_name": "analyst_notes",
-          "source_url": "https://example.com/analyst_notes",
-          "published_or_checked_date": ""
-        }
-      ],
-      "evidence_lines": [
-        "form | analyst_notes | verified=unknown | declared=unknown | https://example.com/analyst_notes | FC Midtjylland is in better recent form (D-W-W-W-D) compared to FC Nordsjælland (D-W-D-L-D) in their last five league games.",
-        "context | analyst_notes | verified=unknown | declared=unknown | https://example.com/analyst_notes | FC Midtjylland has a superior historical head-to-head record against FC Nordsjælland, winning 23 out of"
-      ],
-      "verified_source_tiers": [
-        "unknown",
-        "unknown"
-      ],
-      "source_quality": {
-        "has_grounded_sources": false,
-        "tier1_source_count": 0,
-        "tier2_source_count": 0,
-        "tier3_source_count": 0,
-        "odds_sources": 0,
-        "prohibited_sources_used": false,
-        "all_evidence_has_urls": false
-      },
-      "redirect_source_count": 0,
-      "risk_flags": [],
-      "why_not_pass": "Stronger recent form and superior head-to-head record for FC Midtjylland.",
-      "blocked_by_safety": "no_verified_tier1_source",
-      "short_reason": "FC Midtjylland is in better recent form and has a superior historical head-to-head record.",
-      "source_match": {
-        "home_team": "FC Nordsjælland",
-        "away_team": "FC Midtjylland",
-        "league": "Danmark - Superligaen",
-        "date_display": "Søn",
-        "time_display": "14:00",
-        "odds_1": 3.0,
-        "odds_x": 3.8,
-        "odds_2": 2.15,
-        "confidence": "high",
-        "notes": "",
-        "source_file": "inbox/possible_bets/20260509-200532_possible_bets_8036.pdf",
-        "file_id": "add20df85975c342",
-        "match_key": "fc nordsjælland|fc midtjylland|søn|14 00",
-        "match_id": "match_01c571330e7f8dc7",
-        "overround": 1.0616,
-        "audit_status": "accepted",
-        "audit_reason": "overround_ok"
-      },
-      "settlement": "NOT_APPLICABLE"
-    }
-  ],
+  "blocked_decisions": [],
   "passes": [
     {
       "match_id": "match_01c571330e7f8dc7",
       "match": "FC Nordsjælland vs FC Midtjylland",
-      "reason": "blocked_by_safety:no_verified_tier1_source",
-      "short_note": "FC Midtjylland is in better recent form and has a superior historical head-to-head record.",
+      "reason": "insufficient_evidence",
+      "short_note": "Insufficient recent form or head-to-head information from preferred sources. No specific injury news available from reliable sources.",
       "odds": {
-        "home_team": "FC Nordsjælland",
-        "away_team": "FC Midtjylland",
-        "league": "Danmark - Superligaen",
-        "date_display": "Søn",
-        "time_display": "14:00",
-        "odds_1": 3.0,
-        "odds_x": 3.8,
-        "odds_2": 2.15,
-        "confidence": "high",
-        "notes": "",
-        "source_file": "inbox/possible_bets/20260509-200532_possible_bets_8036.pdf",
-        "file_id": "add20df85975c342",
-        "match_key": "fc nordsjælland|fc midtjylland|søn|14 00",
-        "match_id": "match_01c571330e7f8dc7",
-        "overround": 1.0616,
-        "audit_status": "accepted",
-        "audit_reason": "overround_ok"
+        "1": 3.0,
+        "X": 3.8,
+        "2": 2.15
       }
     },
     {

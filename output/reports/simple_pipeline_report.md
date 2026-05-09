@@ -1,6 +1,6 @@
 # Odds 2 — Simple Gemini Pipeline
 
-Generated: 2026-05-09T18:52:36Z
+Generated: 2026-05-09T19:01:16Z
 - Analysis version: simple_decision_v5_deduped_source_audit
 - Files processed: 5
 - Raw matches: 17
@@ -9,29 +9,17 @@ Generated: 2026-05-09T18:52:36Z
 - Duplicate matches removed: 0
 - Decision matches: 12
 - Rejected matches: 0
-- Gemini decision records: 1
+- Gemini decision records: 0
 - PAPER_BET logged: 0
-- Blocked decisions: 1
+- Blocked decisions: 0
 - Passes returned: 12
 - Decision error: `None`
-- Grounding sources: 2
+- Grounding sources: 0
 
 No PAPER_BET passed safety gates.
 
-## Blocked Gemini suggestions
-
-### FC Nordsjælland vs FC Midtjylland
-- Suggested selection: PASS
-- Blocked by safety: `no_verified_tier1_source`
-- Verified source tiers: `['unknown', 'unknown']`
-- Redirect source count: 0
-- Value case: short
-- Evidence sources:
-  - form | analyst_notes | verified=unknown | declared=unknown | https://example.com/analyst_notes | FC Midtjylland is in better recent form (D-W-W-W-D) compared to FC Nordsjælland (D-W-D-L-D) in their last five league games.
-  - context | analyst_notes | verified=unknown | declared=unknown | https://example.com/analyst_notes | FC Midtjylland has a superior historical head-to-head record against FC Nordsjælland, winning 23 out of
-
 ## Pass reasons
-- FC Nordsjælland vs FC Midtjylland: blocked_by_safety:no_verified_tier1_source — FC Midtjylland is in better recent form and has a superior historical head-to-head record.
+- FC Nordsjælland vs FC Midtjylland: insufficient_evidence — Insufficient recent form or head-to-head information from preferred sources. No specific injury news available from reliable sources.
 - Vejle vs FC Fredericia: no_pass_reason_returned — Gemini returned no explicit pass reason for this analyzed match.
 - Silkeborg IF vs FC København: no_pass_reason_returned — Gemini returned no explicit pass reason for this analyzed match.
 - Brøndby vs AGF: no_pass_reason_returned — Gemini returned no explicit pass reason for this analyzed match.
@@ -47,8 +35,7 @@ No PAPER_BET passed safety gates.
 ## Duplicate matches removed
 
 ## Gemini grounding sources
-- footystats.org — vertexaisearch.cloud.google.com — https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUFhqTFtOGDZQJl9WH8dKGa1BFIZ-EJWGz_sC6t7ZOkRfkjJfxvQEAveevrV19W688OB1Tvw6WIsiVjWyzHyfdTMw_l3fP2U3nAMm06WqPCQ-uC31h5nnWJK-brGc20R9S_StlZggprrEYLHlHrpN52MSDDQbnrJj-wnfN5MLH5hdO-L1vlA==
-- fotmob.com — vertexaisearch.cloud.google.com — https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDvXZS-bmD1ifCEznq1XeYM64M5JVHwYBFdaNH0hfPyXPEmMGYXagSqmniHXPUvXaaeSPUzOR11BlKL3g2543fUiuvaUcL_ReCg2IoQGupLvshlbb82-y8LwZduxAdmTJGpl_wBfglo6NGc_k1DjSFIKY=
+No grounding sources returned or parsed.
 
 ## Grounding debug
-`{"top_level_keys": ["candidates", "usageMetadata", "modelVersion", "responseId"], "candidate_keys": ["content", "finishReason", "index", "groundingMetadata"], "grounding_metadata_keys": ["searchEntryPoint", "groundingChunks", "groundingSupports", "webSearchQueries"], "text_preview": "FC Nordsjælland vs FC Midtjylland\nMATCH_ID: match_01c571330e7f8dc7 | MATCH: FC Nordsjælland vs FC Midtjylland | SELECTION_OR_PASS: 2 | ODDS: 2.15\n*   FC Midtjylland is in better recent form (D-W-W-W-D) compared to FC Nordsjælland (D-W-D-L-D) in their last five league games.\n*   FC Midtjylland has a superior historical head-to-head record against FC Nordsjælland, winning 23 out of ", "grounded_text_preview": "FC Nordsjælland vs FC Midtjylland\nMATCH_ID: match_01c571330e7f8dc7 | MATCH: FC Nordsjælland vs FC Midtjylland | SELECTION_OR_PASS: 2 | ODDS: 2.15\n*   FC Midtjylland is in better recent form (D-W-W-W-D) compared to FC Nordsjælland (D-W-D-L-D) in their last five league games.\n*   FC Midtjylland has a superior historical head-to-head record against FC Nordsjælland, winning 23 out of ", "structured_text_preview": "{\n  \"analysis_version\": \"simple_decision_v7_concise_grounded_notes\",\n  \"picks\": [\n    {\n      \"match_id\": \"match_01c571330e7f8dc7\",\n      \"match\": \"FC Nordsjælland vs FC Midtjylland\",\n      \"selection\": \"2\",\n      \"selection_label\": \"away\",\n      \"odds\": 2.15,\n      \"decision\": \"PAPER_BET\",\n      \"confidence_score\": 0.0,\n      \"stake_units\": 0.0,\n      \"value_case\": \"short\",\n      \"evidence_summary\": \"FC Midtjylland is in better recent form and has a superior historical head-to-head record.\",\n      \"evidence_items\": [\n        {\n          \"type\": \"form\",\n          \"signal\": \"FC Midtjylland is in better recent form (D-W-W-W-D) compared to FC Nordsjælland (D-W-D-L-D) in their last five league games.\",\n          \"supports_selection\": true,\n          \"importance\": \"medium\",\n          \"source_tier\": \"unknown\",\n          \"source_type\": \"unknown\",\n          \"source_name\": \"analyst_notes\",\n          \"source_url\": \"https://example.com/analyst_notes\",\n          \"published_or_checked_date\": \"\"\n        },\n        {\n          \"type\": \"context\",\n          \"signal\": \"FC Midtjylland has a superior historical head-to-head record against FC Nordsjælland, winning 23 out of\",\n          \"supports_select"}`
+`{"top_level_keys": ["candidates", "usageMetadata", "modelVersion", "responseId"], "candidate_keys": ["content", "finishReason", "index", "groundingMetadata"], "grounding_metadata_keys": ["searchEntryPoint", "webSearchQueries"], "text_preview": "**Match Analysis Notes**\n\n**Match 1: FC Nordsjælland vs FC Midtjylland**\n*   **Selection:** PASS\n*   **Odds:** 1: 3.0, X: 3.8, 2: 2.15\n*   **Evidence:**\n    *   Insufficient recent form or head-to-head information from preferred sources.\n    *   No specific injury news available from reliable sources.\n*   **Source Names:** N/A\n*   **Risk Flags:** Lack of information.\n\n**Match 2: Vejle vs FC Fredericia**\n*   **Selection:** PASS\n*   **Odds:** 1: 3.2, X: 3.5, 2:", "grounded_text_preview": "**Match Analysis Notes**\n\n**Match 1: FC Nordsjælland vs FC Midtjylland**\n*   **Selection:** PASS\n*   **Odds:** 1: 3.0, X: 3.8, 2: 2.15\n*   **Evidence:**\n    *   Insufficient recent form or head-to-head information from preferred sources.\n    *   No specific injury news available from reliable sources.\n*   **Source Names:** N/A\n*   **Risk Flags:** Lack of information.\n\n**Match 2: Vejle vs FC Fredericia**\n*   **Selection:** PASS\n*   **Odds:** 1: 3.2, X: 3.5, 2:", "structured_text_preview": "{\n  \"analysis_version\": \"simple_decision_v7_concise_grounded_notes\",\n  \"picks\": [],\n  \"passes\": [\n    {\n      \"match_id\": \"match_01c571330e7f8dc7\",\n      \"match\": \"FC Nordsjælland vs FC Midtjylland\",\n      \"reason\": \"insufficient_evidence\",\n      \"short_note\": \"Insufficient recent form or head-to-head information from preferred sources. No specific injury news available from reliable sources.\"\n    }\n  ]\n}"}`

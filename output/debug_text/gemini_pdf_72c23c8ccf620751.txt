@@ -1,0 +1,105 @@
+{
+  "source_file": "inbox/possible_bets/20260509-205650_possible_bets_3646.pdf",
+  "timezone_assumed": "Europe/Copenhagen",
+  "matches": [
+    {
+      "home_team": "Randers FC",
+      "away_team": "OB",
+      "league": "Danmark - Superligaen",
+      "date_display": "Man",
+      "time_display": "19:00",
+      "odds_1": 2.20,
+      "odds_x": 3.50,
+      "odds_2": 3.10,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "home_team": "Tottenham",
+      "away_team": "Leeds",
+      "league": "England - Premier League",
+      "date_display": "Man",
+      "time_display": "21:00",
+      "odds_1": 1.85,
+      "odds_x": 4.10,
+      "odds_2": 3.70,
+      "confidence": "high",
+      "notes": "Away team inferred from leading '↑' symbol."
+    },
+    {
+      "home_team": "Man City",
+      "away_team": "Crystal Palace",
+      "league": "England - Premier League",
+      "date_display": "Ons",
+      "time_display": "21:00",
+      "odds_1": 1.27,
+      "odds_x": 6.00,
+      "odds_2": 9.50,
+      "confidence": "high",
+      "notes": "Away team inferred from leading '↑' symbol."
+    },
+    {
+      "home_team": "Aston Villa",
+      "away_team": "Liverpool",
+      "league": "England - Premier League",
+      "date_display": "Fre",
+      "time_display": "21:00",
+      "odds_1": 3.50,
+      "odds_x": 4.00,
+      "odds_2": 1.90,
+      "confidence": "high",
+      "notes": "Away team inferred from leading '↑' symbol."
+    },
+    {
+      "home_team": "Millwall",
+      "away_team": "Hull",
+      "league": "England - Championship",
+      "date_display": "Man",
+      "time_display": "21:00",
+      "odds_1": 1.68,
+      "odds_x": 3.70,
+      "odds_2": 4.75,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "home_team": "Southampton",
+      "away_team": "Middlesbrough",
+      "league": "England - Championship",
+      "date_display": "Tir",
+      "time_display": "21:00",
+      "odds_1": 2.10,
+      "odds_x": 3.50,
+      "odds_2": 3.10,
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "home_team": "Rayo Vallecano",
+      "away_team": "Girona",
+      "league": "Spanien - La Liga",
+      "date_display": "Man",
+      "time_display": "21:00",
+      "odds_1": 2.30,
+      "odds_x": 3.50,
+      "odds_2": 3.00,
+      "confidence": "high",
+      "notes": "Away team inferred from leading '↑' symbol."
+    },
+    {
+      "home_team": "Celta Vigo",
+      "away_team": "Levante",
+      "league": "Spanien - La Liga",
+      "date_display": "Tir",
+      "time_display": "19:00",
+      "odds_1": 1.70,
+      "odds_x": 3.75,
+      "odds_2": 4.50,
+      "confidence": "medium",
+      "notes": "Home team inferred despite leading '↑' symbol."
+    },
+    {
+      "home_team": "Real Betis",
+      "away_team": "Elche",
+      "league": "Spanien - La Liga",
+      "date_display":

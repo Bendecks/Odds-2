@@ -12,7 +12,7 @@
       "odds_x": 3.5,
       "odds_2": 2.9,
       "confidence": "high",
-      "notes": ""
+      "notes": "Home/away teams inferred from display order."
     },
     {
       "home_team": "SC Bastia",
@@ -24,7 +24,176 @@
       "odds_x": 3.5,
       "odds_2": 2.2,
       "confidence": "high",
-      "notes": ""
+      "notes": "Home/away teams inferred from display order."
     },
     {
       "home_team": "Clermont Foot",
+      "away_team": "Guingamp",
+      "league": "Frankrig - Ligue 2",
+      "date_display": "09 maj",
+      "time_display": "20:00",
+      "odds_1": 2.5,
+      "odds_x": 3.75,
+      "odds_2": 2.5,
+      "confidence": "high",
+      "notes": "Home/away teams inferred from display order."
+    },
+    {
+      "home_team": "Grenoble",
+      "away_team": "Troyes",
+      "league": "Frankrig - Ligue 2",
+      "date_display": "09 maj",
+      "time_display": "20:00",
+      "odds_1": 3.4,
+      "odds_x": 3.8,
+      "odds_2": 1.95,
+      "confidence": "high",
+      "notes": "Home/away teams inferred from display order."
+    },
+    {
+      "home_team": "Laval",
+      "away_team": "Boulogne",
+      "league": "Frankrig - Ligue 2",
+      "date_display": "09 maj",
+      "time_display": "20:00",
+      "odds_1": 1.75,
+      "odds_x": 3.6,
+      "odds_2": 4.5,
+      "confidence": "high",
+      "notes": "Home/away teams inferred from display order."
+    },
+    {
+      "home_team": "Nancy",
+      "away_team": "Dunkerque",
+      "league": "Frankrig - Ligue 2",
+      "date_display": "09 maj",
+      "time_display": "20:00",
+      "odds_1": 2.75,
+      "odds_x": 3.4,
+      "odds_2": 2.5,
+      "confidence": "high",
+      "notes": "Home/away teams inferred from display order."
+    },
+    {
+      "home_team": "Red Star FC 93",
+      "away_team": "Montpellier",
+      "league": "Frankrig - Ligue 2",
+      "date_display": "09 maj",
+      "time_display": "20:00",
+      "odds_1": 1.75,
+      "odds_x": 3.7,
+      "odds_2": 4.5,
+      "confidence": "high",
+      "notes": "Home/away teams inferred from display order."
+    },
+    {
+      "home_team": "Reims",
+      "away_team": "Pau",
+      "league": "Frankrig - Ligue 2",
+      "date_display": "09 maj",
+      "time_display": "20:00",
+      "odds_1": 1.36,
+      "odds_x": 5.5,
+      "odds_2": 7.0,
+      "confidence": "high",
+      "notes": "Home/away teams inferred from display order."
+    },
+    {
+      "home_team": "St Etienne",
+      "away_team": "Amiens",
+      "league": "Frankrig - Ligue 2",
+      "date_display": "09 maj",
+      "time_display": "20:00",
+      "odds_1": 1.18,
+      "odds_x": 7.0,
+      "odds_2": 12.0,
+      "confidence": "high",
+      "notes": "Home/away teams inferred from display order."
+    },
+    {
+      "home_team": "CD Moron",
+      "away_team": "Los Andes",
+      "league": "Argentina - Nacional B",
+      "date_display": "09 maj",
+      "time_display": "20:00",
+      "odds_1": 1.79,
+      "odds_x": 2.85,
+      "odds_2": 5.5,
+      "confidence": "high",
+      "notes": "Home/away teams inferred from display order."
+    },
+    {
+      "home_team": "CA San Telmo",
+      "away_team": "Club Atletico Mitre",
+      "league": "Argentina - Nacional B",
+      "date_display": "09 maj",
+      "time_display": "20:00",
+      "odds_1": 2.4,
+      "odds_x": 2.75,
+      "odds_2": 3.4,
+      "confidence": "high",
+      "notes": "Home/away teams inferred from display order."
+    },
+    {
+      "home_team": "Tristan Suarez",
+      "away_team": "Ferrocarril Midland",
+      "league": "Argentina - Nacional B",
+      "date_display": "09 maj",
+      "time_display": "20:00",
+      "odds_1": 2.25,
+      "odds_x": 3.2,
+      "odds_2": 3.2,
+      "confidence": "high",
+      "notes": "Home/away teams inferred from display order."
+    },
+    {
+      "home_team": "Deportivo Moquegua",
+      "away_team": "AD Tarma",
+      "league": "Peru - Liga 1",
+      "date_display": "09 maj",
+      "time_display": "20:00",
+      "odds_1": 2.2,
+      "odds_x": 3.1,
+      "odds_2": 3.2,
+      "confidence": "high",
+      "notes": "Home/away teams inferred from display order."
+    },
+    {
+      "home_team": "Universitatea Cluj",
+      "away_team": "Rapid Bukarest",
+      "league": "Rumænien - Liga I",
+      "date_display": "09 maj",
+      "time_display": "20:00",
+      "odds_1": 1.72,
+      "odds_x": 3.4,
+      "odds_2": 4.5,
+      "confidence": "high",
+      "notes": "Home/away teams inferred from display order."
+    },
+    {
+      "home_team": "Al Feiha",
+      "away_team": "Al Qadisiya Al Khubar",
+      "league": "Saudi-Arabien - Pro League",
+      "date_display": "09 maj",
+      "time_display": "20:00",
+      "odds_1": 7.0,
+      "odds_x": 5.0,
+      "odds_2": 1.3,
+      "confidence": "high",
+      "notes": "Home/away teams inferred from display order."
+    },
+    {
+      "home_team": "Magesi FC",
+      "away_team": "Orlando Pirates",
+      "league": "Sydafrika - Premier",
+      "date_display": "09 maj",
+      "time_display": "20:00",
+      "odds_1": 15.0,
+      "odds_x": 5.25,
+      "odds_2": 1.18,
+      "confidence": "high",
+      "notes": "Home/away teams inferred from display order."
+    },
+    {
+      "home_team": "De Graafschap (1)",
+      

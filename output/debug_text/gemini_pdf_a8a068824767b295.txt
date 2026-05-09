@@ -11,8 +11,8 @@
       "odds_1": 1.44,
       "odds_x": 4.50,
       "odds_2": 6.50,
-      "confidence": "high",
-      "notes": "Time is elapsed time for a live match."
+      "confidence": "medium",
+      "notes": "Live match, time is elapsed time."
     },
     {
       "home_team": "Lazio",
@@ -23,6 +23,5 @@
       "odds_1": 41.00,
       "odds_x": 15.00,
       "odds_2": 1.04,
-      "confidence": "high",
-      "notes": "Time is elapsed time for a live match."
-    
+      "confidence": "medium",
+      "notes": "Live match, time is elapsed time."
