@@ -5,6 +5,7 @@ import gemini_simple_pipeline as base
 ALLOWED_SELECTIONS = {'1', 'X', '2'}
 
 _old_decision_prompt = base.decision_prompt
+_old_normalize_picks = base.normalize_picks
 
 
 def decision_prompt(decision_matches, total_valid):
@@ -26,6 +27,53 @@ def decision_prompt(decision_matches, total_valid):
     return json.dumps(data, ensure_ascii=False)
 
 
+def structure_prompt(raw_text, decision_matches, total_valid):
+    schema = json.loads(decision_prompt(decision_matches, total_valid)).get('return_schema')
+    return json.dumps({
+        'task': 'Convert the grounded analyst output into strict JSON. Preserve only selections that are 1, X, 2, or PASS. If a suggestion is X2, 1X, DNB, double chance, over/under, handicap, or any non-visible market, convert it to PASS with reason non_visible_market_only. Return JSON only.',
+        'schema': schema,
+        'validated_matches': json.loads(decision_prompt(decision_matches, total_valid)).get('validated_matches'),
+        'raw_grounded_output': raw_text[:12000]
+    }, ensure_ascii=False)
+
+
+def call_decision(decision_matches, total_valid):
+    if not decision_matches:
+        return {'analysis_version': 'simple_decision_v6_visible_markets_only', 'picks': [], 'passes': []}, None, [], {}
+    url = base.gemini_url()
+    if not url:
+        return None, {'code': 'missing_gemini_api_key'}, [], {}
+
+    try:
+        grounded_body = {
+            'contents': [{'role': 'user', 'parts': [{'text': decision_prompt(decision_matches, total_valid)}]}],
+            'tools': [{'google_search': {}}],
+            'generationConfig': {'temperature': 0, 'maxOutputTokens': 8192}
+        }
+        grounded_resp = base.requests.post(url, json=grounded_body, timeout=180)
+        if grounded_resp.status_code >= 400:
+            return None, {'code': f'gemini_grounded_http_{grounded_resp.status_code}', 'response_text': grounded_resp.text[:2000]}, [], {}
+        grounded_data = grounded_resp.json()
+        grounded_text = grounded_data.get('candidates', [{}])[0].get('content', {}).get('parts', [{}])[0].get('text', '')
+        grounding_sources = base.extract_grounding_sources(grounded_data)
+        debug = base.compact_response_debug(grounded_data, grounded_text)
+        debug['grounded_text_preview'] = grounded_text[:1200]
+
+        structure_body = {
+            'contents': [{'role': 'user', 'parts': [{'text': structure_prompt(grounded_text, decision_matches, total_valid)}]}],
+            'generationConfig': {'temperature': 0, 'responseMimeType': 'application/json', 'maxOutputTokens': 8192}
+        }
+        structure_resp = base.requests.post(url, json=structure_body, timeout=120)
+        if structure_resp.status_code >= 400:
+            return None, {'code': f'gemini_structure_http_{structure_resp.status_code}', 'response_text': structure_resp.text[:2000]}, grounding_sources, debug
+        structure_data = structure_resp.json()
+        structured_text = structure_data.get('candidates', [{}])[0].get('content', {}).get('parts', [{}])[0].get('text', '')
+        debug['structured_text_preview'] = structured_text[:1200]
+        return base.extract_json(structured_text), None, grounding_sources, debug
+    except Exception as exc:
+        return None, {'code': 'gemini_decision_exception', 'response_text': str(exc)[:2000]}, [], {}
+
+
 def normalize_selection(value):
     return str(value or '').upper().strip()
 
@@ -36,20 +84,21 @@ def normalize_picks(decision_payload, decision_matches):
         selection = normalize_selection(candidate.get('selection'))
         if str(candidate.get('decision') or '').upper() == 'PAPER_BET' and selection not in ALLOWED_SELECTIONS:
             candidate = dict(candidate)
+            original_selection = selection
             candidate['decision'] = 'PAPER_BET'
             candidate['selection'] = '1'
-            patched = base.normalize_picks({'picks': [candidate]}, decision_matches)
+            patched = _old_normalize_picks({'picks': [candidate]}, decision_matches)
             if patched:
                 patched[0]['decision'] = 'PASS'
                 patched[0]['selection'] = 'PASS'
                 patched[0]['odds'] = None
                 patched[0]['stake_units'] = 0.0
                 patched[0]['settlement'] = 'NOT_APPLICABLE'
-                patched[0]['blocked_by_safety'] = f'non_visible_market_selection:{selection or "empty"}'
+                patched[0]['blocked_by_safety'] = f'non_visible_market_selection:{original_selection or "empty"}'
                 patched[0]['analysis_version'] = 'simple_decision_v6_visible_markets_only'
                 records.extend(patched)
         else:
-            patched = base.normalize_picks({'picks': [candidate]}, decision_matches)
+            patched = _old_normalize_picks({'picks': [candidate]}, decision_matches)
             for item in patched:
                 item['analysis_version'] = 'simple_decision_v6_visible_markets_only'
             records.extend(patched)
@@ -57,5 +106,6 @@ def normalize_picks(decision_payload, decision_matches):
 
 
 base.decision_prompt = decision_prompt
+base.call_decision = call_decision
 base.normalize_picks = normalize_picks
 base.main()
