@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-10T20:36:09.775451+00:00`
-GitHub run: `116` attempt `1`
-GitHub SHA: `c9129a24eef2a861390d865b7f174060af340298`
+Generated UTC: `2026-05-10T20:44:06.539063+00:00`
+GitHub run: `117` attempt `1`
+GitHub SHA: `9f8872166667e04b6ce880d27e44eea618ad7df2`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -26,7 +26,7 @@ Readiness: research-only
 Recommendation: NO REAL MONEY - continue research
 Total predictions: 189
 Historical candidate predictions: 86
-Current candidate bets: 3
+Current candidate bets: 1
 Settled predictions: 189
 Wins: 63
 Total ROI units: -1.8
@@ -49,29 +49,19 @@ Settled predictions: 189
 
 # Daily Betting Card
 Status: research/paper-test only. No real-money recommendation yet.
-## Ipswich vs West Ham
-- Date/time: 25/05/2025 2026-05-10 16:00:00
-- Selection: AWAY
-- Market: 1X2
-- Market odds: 3.19
-- Fair odds: 2.38
-- Model probability: 0.4193
-- EV: 0.3376
-- Signal strength: 0.3134
-- Prediction ID: 7a7c016acf0ca75970ca
-## Southampton vs Arsenal
-- Date/time: 25/05/2025 2026-05-10 16:00:00
-- Selection: AWAY
-- Market: 1X2
-- Market odds: 2.52
-- Fair odds: 1.98
-- Model probability: 0.5062
-- EV: 0.2756
-- Signal strength: 0.3078
-- Prediction ID: c894c78151f27783e8a3
 ## Liverpool vs Crystal Palace
 - Date/time: 25/05/2025 2026-05-10 16:00:00
 - Selection: HOME
+- Market: 1X2
+- Market odds: 2.67
+- Fair odds: 2.3
+- Model probability: 0.4344
+- EV: 0.1598
+- Signal strength: 0.2359
+- Prediction ID: 1e63a316578345cf188d
+## Snapshot summary
+Snapshot rows: 21
+Candidate rows: 1
 
 ## market_alignment
 

@@ -5,7 +5,7 @@ System status: experimental_betting_ready
 ## Reasoning
 
 - Average alignment gap: 0.0946
-- Candidate bets: 3
+- Candidate bets: 1
 
 ## Current interpretation
 
