@@ -11,7 +11,7 @@ Status: research/paper-test only. No real-money recommendation yet.
 - Fair odds: 2.17
 - Model probability: 0.4611
 - EV: 0.2311
-- Signal strength: 0.1303
+- Signal strength: 0.2842
 - Prediction ID: 1e63a316578345cf188d
 
 ## Snapshot summary

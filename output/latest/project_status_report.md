@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-10T17:39:05.763249+00:00`
-GitHub run: `82` attempt `1`
-GitHub SHA: `69bd46028e31cfdc91dd7879c06cdec8cd1d5eb1`
+Generated UTC: `2026-05-10T17:40:26.243173+00:00`
+GitHub run: `83` attempt `1`
+GitHub SHA: `33744cc4c073c84b2bb758df7fc8fef99f664650`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -57,7 +57,7 @@ Status: research/paper-test only. No real-money recommendation yet.
 - Fair odds: 2.17
 - Model probability: 0.4611
 - EV: 0.2311
-- Signal strength: 0.1303
+- Signal strength: 0.2842
 - Prediction ID: 1e63a316578345cf188d
 ## Snapshot summary
 Snapshot rows: 21
