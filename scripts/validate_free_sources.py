@@ -67,6 +67,18 @@ add_check(
     required_columns=['home_ev', 'draw_ev', 'away_ev'],
 )
 
+add_check(
+    'Prediction log output',
+    'output/latest/prediction_log_latest.parquet',
+    required_columns=['prediction_id', 'event_id', 'market', 'selection'],
+)
+
+add_check(
+    'Settled predictions output',
+    'output/latest/settled_predictions.parquet',
+    required_columns=['prediction_id', 'settlement_status'],
+)
+
 run_number = os.getenv('GITHUB_RUN_NUMBER', 'local')
 run_attempt = os.getenv('GITHUB_RUN_ATTEMPT', 'local')
 run_id = os.getenv('GITHUB_RUN_ID', 'local')
