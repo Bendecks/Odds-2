@@ -44,76 +44,18 @@ def add_check(name, path, required_columns=None, file_type='parquet', allow_empt
     checks.append(result)
 
 
-add_check(
-    'football-data.co.uk Premier League 24/25',
-    'data/raw/premier_league_2425.parquet',
-    required_columns=['HomeTeam', 'AwayTeam', 'FTHG', 'FTAG'],
-)
-
-add_check(
-    'ClubElo latest snapshot',
-    'data/raw/clubelo_latest.parquet',
-    required_columns=['Club', 'Elo'],
-)
-
-add_check(
-    'Basic team strength model',
-    'data/model/team_strengths.parquet',
-    required_columns=['attack_strength', 'defense_strength'],
-)
-
-add_check(
-    'Poisson predictions',
-    'output/latest/poisson_predictions.parquet',
-    required_columns=['home_team', 'away_team', 'fair_home_odds'],
-)
-
-add_check(
-    'Expected value calculations',
-    'output/latest/ev_results.parquet',
-    required_columns=['home_ev', 'draw_ev', 'away_ev'],
-)
-
-add_check(
-    'Prediction log output',
-    'output/latest/prediction_log_latest.parquet',
-    required_columns=['prediction_id', 'event_id', 'market', 'selection'],
-)
-
-add_check(
-    'Settled predictions output',
-    'output/latest/settled_predictions.parquet',
-    required_columns=['prediction_id', 'settlement_status'],
-)
-
-add_check(
-    'CLV results output',
-    'output/latest/clv_results.parquet',
-    required_columns=['prediction_id', 'clv_delta', 'beat_closing_line', 'sample_phase'],
-)
-
-add_check(
-    'Candidate bets output',
-    'output/latest/candidate_bets.parquet',
-    required_columns=['prediction_id', 'probability_band', 'suppression_action', 'rejection_reason'],
-    allow_empty=True,
-)
-
-add_check(
-    'CLV band diagnostics',
-    'output/latest/clv_band_report.csv',
-    required_columns=['probability_band', 'rows', 'avg_clv_delta', 'beat_closing_line_rate'],
-    file_type='csv',
-    allow_empty=True,
-)
-
-add_check(
-    'Signal suppression rules',
-    'output/latest/signal_suppression_rules.csv',
-    required_columns=['rule_type', 'target', 'action', 'reason'],
-    file_type='csv',
-    allow_empty=True,
-)
+add_check('football-data.co.uk Premier League 24/25', 'data/raw/premier_league_2425.parquet', required_columns=['HomeTeam', 'AwayTeam', 'FTHG', 'FTAG'])
+add_check('ClubElo latest snapshot', 'data/raw/clubelo_latest.parquet', required_columns=['Club', 'Elo'])
+add_check('Basic team strength model', 'data/model/team_strengths.parquet', required_columns=['attack_strength', 'defense_strength'])
+add_check('Poisson predictions', 'output/latest/poisson_predictions.parquet', required_columns=['home_team', 'away_team', 'fair_home_odds'])
+add_check('Expected value calculations', 'output/latest/ev_results.parquet', required_columns=['home_ev', 'draw_ev', 'away_ev'])
+add_check('Prediction log output', 'output/latest/prediction_log_latest.parquet', required_columns=['prediction_id', 'event_id', 'market', 'selection'])
+add_check('Settled predictions output', 'output/latest/settled_predictions.parquet', required_columns=['prediction_id', 'settlement_status'])
+add_check('CLV results output', 'output/latest/clv_results.parquet', required_columns=['prediction_id', 'clv_delta', 'beat_closing_line', 'sample_phase'])
+add_check('Candidate bets output', 'output/latest/candidate_bets.parquet', required_columns=['prediction_id', 'probability_band', 'suppression_action', 'rejection_reason'], allow_empty=True)
+add_check('CLV band diagnostics', 'output/latest/clv_band_report.csv', required_columns=['probability_band', 'rows', 'avg_clv_delta', 'beat_closing_line_rate'], file_type='csv', allow_empty=True)
+add_check('Signal suppression rules', 'output/latest/signal_suppression_rules.csv', required_columns=['rule_type', 'target', 'action', 'reason'], file_type='csv', allow_empty=True)
+add_check('Sample phase performance', 'output/latest/phase_performance_report.csv', required_columns=['sample_phase', 'settled_rows', 'clv_rows', 'recommended_usage'], file_type='csv', allow_empty=True)
 
 run_number = os.getenv('GITHUB_RUN_NUMBER', 'local')
 run_attempt = os.getenv('GITHUB_RUN_ATTEMPT', 'local')
