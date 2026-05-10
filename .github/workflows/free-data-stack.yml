@@ -86,6 +86,9 @@ jobs:
       - name: Build signal suppression rules
         run: python scripts/build_signal_suppression_rules.py
 
+      - name: Build rule action summary
+        run: python scripts/build_rule_action_summary.py
+
       - name: Build candidate bets
         run: python scripts/build_candidate_bets.py
 
