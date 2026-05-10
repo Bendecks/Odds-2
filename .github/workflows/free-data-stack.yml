@@ -98,6 +98,9 @@ jobs:
       - name: Build candidate bets
         run: python scripts/build_candidate_bets.py
 
+      - name: Build paper test picks
+        run: python scripts/build_paper_test_picks.py
+
       - name: Build edge quality diagnostics
         run: python scripts/build_edge_quality_report.py
 
