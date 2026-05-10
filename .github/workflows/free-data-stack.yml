@@ -113,6 +113,12 @@ jobs:
       - name: Build market alignment diagnostics
         run: python scripts/build_market_alignment_report.py
 
+      - name: Build consolidated project status report
+        run: python scripts/build_project_status_report.py
+
+      - name: Build operational decision report
+        run: python scripts/build_operational_decision_report.py
+
       - name: Validate free sources
         run: python scripts/validate_free_sources.py
 
