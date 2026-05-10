@@ -1,12 +1,14 @@
 import json
 import os
+import urllib.error
 import urllib.request
 from pathlib import Path
 
 output_dir = Path('output/latest')
+output_dir.mkdir(parents=True, exist_ok=True)
 
 api_key = os.getenv('GEMINI_API_KEY')
-model = os.getenv('GEMINI_MODEL', 'gemini-2.0-flash')
+model = os.getenv('GEMINI_MODEL', 'gemini-1.5-flash')
 
 source_files = [
     output_dir / 'project_status_report.md',
@@ -20,9 +22,9 @@ context_parts = []
 
 for path in source_files:
     if path.exists():
-        context_parts.append(f'## {path.name}\n{path.read_text(encoding="utf-8")[:4000]}')
+        context_parts.append(f'## {path.name}\n{path.read_text(encoding="utf-8")[:3000]}')
 
-context = '\n\n'.join(context_parts)
+context = '\n\n'.join(context_parts) or 'No project status context available.'
 
 fallback = [
     '# Gemini AI Review',
@@ -40,17 +42,17 @@ if not api_key:
 prompt = f"""
 You are reviewing an automated football betting research system.
 
-Important constraints:
+Rules:
 - Do not recommend real-money betting unless evidence is strong.
 - Focus on model quality, CLV, calibration, market alignment, sample size and operational risks.
 - Be concise and practical.
-- Return Markdown.
+- Return Markdown only.
 
-Review this project state and produce:
+Produce:
 1. Current system status
 2. Biggest weakness
 3. Best next development step
-4. Whether this is observe-only, paper-test ready, or experimental-ready
+4. Readiness: observe-only, paper-test-ready, or experimental-ready
 5. One concrete change to prioritize next
 
 Project state:
@@ -60,34 +62,71 @@ Project state:
 payload = {
     'contents': [
         {
+            'role': 'user',
             'parts': [
                 {'text': prompt}
-            ]
+            ],
         }
-    ]
+    ],
+    'generationConfig': {
+        'temperature': 0.2,
+        'maxOutputTokens': 800,
+    },
 }
 
-url = f'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}'
+candidate_models = [
+    model,
+    'gemini-1.5-flash',
+    'gemini-2.0-flash',
+]
 
-try:
-    req = urllib.request.Request(
-        url,
-        data=json.dumps(payload).encode('utf-8'),
-        headers={'Content-Type': 'application/json'},
-        method='POST',
-    )
+seen = set()
+errors = []
 
-    with urllib.request.urlopen(req, timeout=30) as response:
-        data = json.loads(response.read().decode('utf-8'))
+for candidate_model in candidate_models:
+    if candidate_model in seen:
+        continue
+    seen.add(candidate_model)
 
-    text = data['candidates'][0]['content']['parts'][0]['text']
+    url = f'https://generativelanguage.googleapis.com/v1beta/models/{candidate_model}:generateContent?key={api_key}'
 
-    (output_dir / 'gemini_ai_review.md').write_text(text, encoding='utf-8')
+    try:
+        req = urllib.request.Request(
+            url,
+            data=json.dumps(payload).encode('utf-8'),
+            headers={'Content-Type': 'application/json'},
+            method='POST',
+        )
 
-    print('Gemini AI review generated.')
+        with urllib.request.urlopen(req, timeout=30) as response:
+            data = json.loads(response.read().decode('utf-8'))
 
-except Exception as exc:
-    fallback.append(f'Reason: Gemini request failed: {repr(exc)}')
-    (output_dir / 'gemini_ai_review.md').write_text('\n'.join(fallback), encoding='utf-8')
-    print(f'Gemini review failed: {exc}')
-    raise SystemExit(0)
+        text = data.get('candidates', [{}])[0].get('content', {}).get('parts', [{}])[0].get('text')
+
+        if not text:
+            errors.append(f'{candidate_model}: empty response')
+            continue
+
+        final_text = f'# Gemini AI Review\n\nModel used: `{candidate_model}`\n\n{text.strip()}\n'
+        (output_dir / 'gemini_ai_review.md').write_text(final_text, encoding='utf-8')
+        print(f'Gemini AI review generated with {candidate_model}.')
+        raise SystemExit(0)
+
+    except urllib.error.HTTPError as exc:
+        try:
+            body = exc.read().decode('utf-8')[:1000]
+        except Exception:
+            body = ''
+        errors.append(f'{candidate_model}: HTTP {exc.code} {body}')
+    except Exception as exc:
+        errors.append(f'{candidate_model}: {repr(exc)}')
+
+fallback.append('Reason: Gemini request failed or returned no usable text.')
+fallback.append('')
+fallback.append('Errors:')
+for error in errors:
+    fallback.append(f'- {error}')
+
+(output_dir / 'gemini_ai_review.md').write_text('\n'.join(fallback), encoding='utf-8')
+print('Gemini review failed; wrote fallback report.')
+raise SystemExit(0)
