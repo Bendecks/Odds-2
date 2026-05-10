@@ -5,9 +5,9 @@ import pandas as pd
 output_dir = Path('output/latest')
 
 predictions = pd.read_parquet(output_dir / 'poisson_predictions.parquet')
-market = pd.read_parquet('data/raw/premier_league_2425.parquet')
+market_snapshot = pd.read_parquet(output_dir / 'market_snapshot_latest.parquet')
 
-latest_market = market.tail(len(predictions)).copy()
+latest_market = market_snapshot.tail(len(predictions)).copy()
 latest_market = latest_market.reset_index(drop=True)
 predictions = predictions.reset_index(drop=True)
 
@@ -25,6 +25,8 @@ for idx, row in predictions.iterrows():
     away_ev = (row['away_win_probability'] * away_odds) - 1
 
     results.append({
+        'snapshot_created_at_utc': market_row.get('snapshot_created_at_utc'),
+        'snapshot_source': market_row.get('snapshot_source'),
         'home_team': row['home_team'],
         'away_team': row['away_team'],
         'home_win_probability': row['home_win_probability'],
