@@ -53,7 +53,29 @@ Reason:
 - scripts/fetch_football_data.py
 - scripts/fetch_clubelo.py
 - scripts/build_fair_odds.py
+- scripts/generate_poisson_predictions.py
+- scripts/calculate_ev.py
 - scripts/validate_free_sources.py
+
+---
+
+## Major milestone reached
+
+The project now:
+
+1. Downloads historical odds automatically
+2. Downloads ClubElo ratings automatically
+3. Builds basic strength ratings
+4. Generates Poisson predictions
+5. Calculates expected value against bookmaker odds
+6. Persists machine-readable validation history
+7. Commits workflow outputs back into the repository automatically
+
+This means the repository itself now acts as:
+- persistent AI memory
+- workflow telemetry
+- validation archive
+- historical debugging system
 
 ---
 
@@ -64,37 +86,53 @@ Workflow now validates:
 1. football-data parquet generation
 2. ClubElo parquet generation
 3. Team strength model generation
-4. Required columns
-5. Row counts
+4. Poisson prediction generation
+5. EV calculation generation
+6. Required columns
+7. Row counts
 
 Validation output:
 
 - output/latest/free_data_status.json
 - output/latest/free_data_status.md
+- output/history/
 
 ---
 
-## Next milestones
+## Current roadmap
 
 ### High priority
 
-- Proper Poisson model
-- Team-name canonical mapping
-- EV calculations
+- Better Poisson calibration
+- Proper attack/defense weighting
+- Home advantage modelling
 - CLV tracker
 - Telegram alerts
+- Market snapshot ingestion
 
 ### Medium priority
 
 - Betfair integration
 - Pinnacle snapshot logic
+- Asian handicap support
+- Kelly Criterion sizing
 - Streamlit dashboard
 
-### Avoid for now
+### Long-term
+
+- Multi-model ensemble
+- Injury/news ingestion
+- AI-assisted pick explanations
+- Automated bankroll management
+
+---
+
+## Avoid for now
 
 - Heavy live scraping
 - Selenium/Playwright systems
 - High-frequency polling
+- Broad live arbitrage systems
 
 ---
 
@@ -105,3 +143,4 @@ After workflow completion:
 - inspect validation reports
 - inspect failures before next commits
 - batch multiple fixes into single commits when possible
+- minimize required human intervention
