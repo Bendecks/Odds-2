@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-10T22:05:13.505928+00:00`
-GitHub run: `145` attempt `1`
-GitHub SHA: `393103637a6202021703cc5a850b7d789c977177`
+Generated UTC: `2026-05-10T22:09:37.672288+00:00`
+GitHub run: `149` attempt `1`
+GitHub SHA: `67d5b0ebebf72d1d03a71308fce17778c8e7d5f1`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -15,6 +15,8 @@ Overall status: `OK`
 | ClubElo latest snapshot | True | 630 |  |  |
 | Basic team strength model | True | 119 |  |  |
 | Poisson predictions | True | 7 |  |  |
+| Probability calibration adjustments | True | 21 |  |  |
+| Probability calibration rules | True | 4 |  |  |
 | Expected value calculations | True | 7 |  |  |
 | Prediction log output | True | 210 |  |  |
 | Settled predictions output | True | 210 |  |  |
@@ -71,6 +73,14 @@ Band rules available: 4
 - 0.35-0.45 | monitor_hold | adjustments=6
 - 0.45-0.50 | none | adjustments=1
 - 0.50-0.55 | none | adjustments=1
+
+## probability_calibration_impact
+
+# Probability Calibration Impact Report
+- 0.00-0.35 | action=strong_shrink | rows=13 | avg_raw_prob=0.2798 | avg_multiplier=0.88
+- 0.35-0.45 | action=monitor_hold | rows=6 | avg_raw_prob=0.4002 | avg_multiplier=1.01
+- 0.45-0.50 | action=none | rows=1 | avg_raw_prob=0.4554 | avg_multiplier=1.0
+- 0.50-0.55 | action=none | rows=1 | avg_raw_prob=0.5062 | avg_multiplier=1.0
 
 ## clv_trend
 
