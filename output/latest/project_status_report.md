@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-10T22:09:37.672288+00:00`
-GitHub run: `149` attempt `1`
-GitHub SHA: `67d5b0ebebf72d1d03a71308fce17778c8e7d5f1`
+Generated UTC: `2026-05-10T22:17:03.679476+00:00`
+GitHub run: `154` attempt `1`
+GitHub SHA: `f45ab3a1486e5ee7e1a8928c3800a35b8f8debb5`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -17,6 +17,7 @@ Overall status: `OK`
 | Poisson predictions | True | 7 |  |  |
 | Probability calibration adjustments | True | 21 |  |  |
 | Probability calibration rules | True | 4 |  |  |
+| Probability calibration impact | True | 4 |  |  |
 | Expected value calculations | True | 7 |  |  |
 | Prediction log output | True | 210 |  |  |
 | Settled predictions output | True | 210 |  |  |
@@ -57,12 +58,34 @@ Settled predictions: 210
 
 # Daily Betting Card
 Status: research/paper-test only. No real-money recommendation yet.
-Current card is suppression-aware and must not be used for real-money betting.
-No qualifying bets today.
-## Snapshot summary
-Snapshot rows: 21
-Candidate rows: 0
-Active suppression rules: 2
+Candidate bets remain the stricter real-money-gated list.
+Paper-test picks are observation-only and must not be staked.
+## Candidate Bets
+No qualifying candidate bets today.
+## Paper-Test Picks
+### Fulham vs Man City
+- Date/time: 25/05/2025 2026-05-10 16:00:00
+- League/phase: premier_league / historical_proxy_research
+- Selection: AWAY
+- Market odds: 2.3
+- Fair odds: 2.25
+- Model probability: 0.4442
+- Probability band: 0.35-0.45
+- EV: 0.0217
+- Probability edge: 0.0094
+- Alignment penalty: 0.0217
+- Suppression action: monitor
+- Paper tier: priority_observation
+- Paper score: 0.2745
+- Prediction ID: a79498dae79d1c08828e
+### Southampton vs Arsenal
+- Date/time: 25/05/2025 2026-05-10 16:00:00
+- League/phase: premier_league / historical_proxy_research
+- Selection: AWAY
+- Market odds: 2.52
+- Fair odds: 1.86
+- Model probability: 0.5381
+- Probability band: 0.50-0.55
 
 ## probability_calibration_layer
 
