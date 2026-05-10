@@ -55,6 +55,18 @@ add_check(
     required_columns=['attack_strength', 'defense_strength'],
 )
 
+add_check(
+    'Poisson predictions',
+    'output/latest/poisson_predictions.parquet',
+    required_columns=['home_team', 'away_team', 'fair_home_odds'],
+)
+
+add_check(
+    'Expected value calculations',
+    'output/latest/ev_results.parquet',
+    required_columns=['home_ev', 'draw_ev', 'away_ev'],
+)
+
 run_number = os.getenv('GITHUB_RUN_NUMBER', 'local')
 run_attempt = os.getenv('GITHUB_RUN_ATTEMPT', 'local')
 run_id = os.getenv('GITHUB_RUN_ID', 'local')
