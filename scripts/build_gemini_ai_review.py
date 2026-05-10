@@ -15,9 +15,12 @@ source_files = [
     output_dir / 'operational_decision_report.md',
     output_dir / 'human_action_report.md',
     output_dir / 'market_alignment_report.md',
+    output_dir / 'probability_calibration_layer.md',
+    output_dir / 'probability_calibration_rules.csv',
     output_dir / 'clv_trend_report.md',
     output_dir / 'clv_band_report.md',
     output_dir / 'signal_suppression_rules.md',
+    output_dir / 'rule_action_summary.md',
     output_dir / 'phase_performance_report.md',
     output_dir / 'calibration_action_plan.md',
     output_dir / 'daily_betting_card.md',
@@ -61,7 +64,8 @@ Produce:
 4. Readiness: observe-only, paper-test-ready, or experimental-ready
 5. One concrete change to prioritize next
 6. Whether the current suppression rules look too strict, too loose, or reasonable
-7. Which probability band should be protected, suppressed, or monitored next
+7. Whether the probability calibration layer looks too aggressive, too weak, or reasonable
+8. Which probability band should be protected, suppressed, or monitored next
 
 Project state:
 {context}
@@ -78,7 +82,7 @@ payload = {
     ],
     'generationConfig': {
         'temperature': 0.2,
-        'maxOutputTokens': 1000,
+        'maxOutputTokens': 1100,
     },
 }
 
