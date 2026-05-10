@@ -27,6 +27,9 @@ for idx, row in predictions.iterrows():
     results.append({
         'home_team': row['home_team'],
         'away_team': row['away_team'],
+        'home_win_probability': row['home_win_probability'],
+        'draw_probability': row['draw_probability'],
+        'away_win_probability': row['away_win_probability'],
         'market_home_odds': home_odds,
         'market_draw_odds': draw_odds,
         'market_away_odds': away_odds,
