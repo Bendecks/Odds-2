@@ -71,6 +71,9 @@ jobs:
       - name: Build manual forward snapshots
         run: python scripts/build_manual_forward_snapshots.py
 
+      - name: Build forward input status
+        run: python scripts/build_forward_input_status.py
+
       - name: Build probability calibration impact diagnostics
         run: python scripts/build_probability_calibration_impact_report.py
 
