@@ -9,6 +9,10 @@ report_files = {
     'betting_performance': output_dir / 'betting_performance_report.md',
     'model_health': output_dir / 'model_health_report.md',
     'daily_betting_card': output_dir / 'daily_betting_card.md',
+    'clv_trend': output_dir / 'clv_trend_report.md',
+    'clv_probability_bands': output_dir / 'clv_band_report.md',
+    'signal_suppression_rules': output_dir / 'signal_suppression_rules.md',
+    'model_adjustment': output_dir / 'model_adjustment_recommendation.md',
     'market_alignment': output_dir / 'market_alignment_report.md',
     'market_proxy_quality': output_dir / 'market_proxy_quality_report.md',
     'probability_distribution': output_dir / 'probability_distribution_report.md',
@@ -30,18 +34,18 @@ for label, path in report_files.items():
 
     if path.exists():
         text = path.read_text(encoding='utf-8').strip()
-        # Keep this compact so new chats can read it fast.
         lines = [line for line in text.splitlines() if line.strip()]
-        markdown.extend(lines[:25])
+        markdown.extend(lines[:30])
     else:
         markdown.append('Report not available yet.')
 
     markdown.append('')
 
-# Machine-readable simple status.
 status = {
     'reports_checked': len(report_files),
     'reports_available': sum(1 for path in report_files.values() if path.exists()),
+    'includes_clv_band_report': (output_dir / 'clv_band_report.md').exists(),
+    'includes_signal_suppression_rules': (output_dir / 'signal_suppression_rules.md').exists(),
 }
 
 pd.DataFrame([status]).to_csv(output_dir / 'project_status_summary.csv', index=False)
