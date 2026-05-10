@@ -5,7 +5,8 @@ import pandas as pd
 predictions_dir = Path('data/predictions')
 output_dir = Path('output/latest')
 
-files = sorted(predictions_dir.glob('*.parquet'))
+parquet_files = sorted(predictions_dir.glob('*.parquet'))
+jsonl_files = sorted(predictions_dir.glob('*.jsonl'))
 
 markdown = [
     '# Prediction Stability Report',
@@ -14,7 +15,7 @@ markdown = [
 
 frames = []
 
-for file in files:
+for file in parquet_files:
     try:
         df = pd.read_parquet(file)
 
@@ -24,8 +25,25 @@ for file in files:
     except Exception:
         continue
 
+for file in jsonl_files:
+    try:
+        df = pd.read_json(file, lines=True)
+
+        if 'prediction_id' in df.columns:
+            frames.append(df)
+
+    except Exception:
+        continue
+
 if frames:
     merged = pd.concat(frames, ignore_index=True)
+
+    for col in ['ev', 'probability']:
+        if col not in merged.columns:
+            merged[col] = 0.0
+
+    merged['ev'] = pd.to_numeric(merged['ev'], errors='coerce')
+    merged['probability'] = pd.to_numeric(merged['probability'], errors='coerce')
 
     stability = (
         merged.groupby('prediction_id')
