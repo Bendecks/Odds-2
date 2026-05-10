@@ -71,6 +71,12 @@ jobs:
       - name: Build edge quality diagnostics
         run: python scripts/build_edge_quality_report.py
 
+      - name: Build signal performance diagnostics
+        run: python scripts/build_signal_performance_report.py
+
+      - name: Build filter feedback diagnostics
+        run: python scripts/build_filter_feedback_report.py
+
       - name: Build daily betting card
         run: python scripts/build_daily_betting_card.py
 
