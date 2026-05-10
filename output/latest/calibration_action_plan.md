@@ -10,4 +10,3 @@
 
 - Keep shrinkage active and evaluate calibration by probability band.
 - Prioritize CLV-improving calibration before any real-money use.
-- Evaluate simple calibration layer before adding more model features.
