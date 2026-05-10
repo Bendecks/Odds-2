@@ -1,0 +1,2 @@
+file,rows,timestamp_column,first_snapshot,last_snapshot
+market_snapshot_latest.parquet,10,snapshot_created_at_utc,2026-05-10 15:41:45.304486+00:00,2026-05-10 15:41:45.304486+00:00
