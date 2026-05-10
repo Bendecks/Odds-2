@@ -7,8 +7,8 @@ output_dir = Path('output/latest')
 log_dir = Path('data/predictions')
 log_dir.mkdir(parents=True, exist_ok=True)
 
+manual_forward_path = output_dir / 'manual_forward_snapshots.parquet'
 snapshot_path = output_dir / 'prediction_snapshots_latest.parquet'
-prediction_log_path = output_dir / 'prediction_log_latest.parquet'
 rules_path = output_dir / 'signal_suppression_rules.csv'
 paper_log_path = log_dir / 'paper_test_log.jsonl'
 
@@ -52,37 +52,6 @@ def probability_band(probability: float) -> str:
     return 'unknown'
 
 
-def attach_metadata(df: pd.DataFrame) -> pd.DataFrame:
-    log = safe_read_parquet(prediction_log_path)
-    if len(df) == 0 or len(log) == 0 or 'prediction_id' not in df.columns or 'prediction_id' not in log.columns:
-        return df
-
-    metadata_cols = [
-        'prediction_id', 'match_date', 'match_time', 'home_team', 'away_team',
-        'league', 'season', 'sample_phase', 'selection'
-    ]
-    metadata_cols = [col for col in metadata_cols if col in log.columns]
-    if len(metadata_cols) <= 1:
-        return df
-
-    merged = df.merge(
-        log[metadata_cols].drop_duplicates('prediction_id'),
-        on='prediction_id',
-        how='left',
-        suffixes=('', '_log')
-    )
-    for col in metadata_cols:
-        if col == 'prediction_id':
-            continue
-        log_col = f'{col}_log'
-        if log_col in merged.columns:
-            if col in merged.columns:
-                merged[col] = merged[col].fillna(merged[log_col])
-            else:
-                merged[col] = merged[log_col]
-    return merged
-
-
 def existing_logged_ids() -> set:
     if not paper_log_path.exists() or paper_log_path.stat().st_size == 0:
         return set()
@@ -99,13 +68,22 @@ def empty_paper() -> pd.DataFrame:
     return pd.DataFrame(columns=expected_columns)
 
 
-snapshots = attach_metadata(safe_read_parquet(snapshot_path))
+manual_forward = safe_read_parquet(manual_forward_path)
+historical_snapshots = safe_read_parquet(snapshot_path)
 rules = safe_read_csv(rules_path)
 reason = ''
+source_used = 'manual_forward_snapshots'
+
+if len(manual_forward):
+    snapshots = manual_forward.copy()
+else:
+    # Fallback only to confirm there are no forward rows. Historical proxy rows remain excluded.
+    snapshots = historical_snapshots.copy()
+    source_used = 'prediction_snapshots_latest_forward_only'
 
 if len(snapshots) == 0:
     paper = empty_paper()
-    reason = 'No prediction snapshots available.'
+    reason = 'No snapshot rows available. Fill manual odds template to build forward snapshots.'
 else:
     for col, default in {
         'ev': 0.0,
@@ -224,6 +202,7 @@ markdown = [
     'Observation-only picks. These are not real-money recommendations.',
     'Historical proxy rows are excluded. Only forward-eligible snapshots may become paper-test picks.',
     '',
+    f'Source used: {source_used}',
     f'Current paper-test picks: {len(paper)}',
     f'Newly logged paper-test picks: {len(new_rows)}',
     f'Total logged paper-test picks: {len(paper_log)}',
