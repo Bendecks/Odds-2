@@ -12,6 +12,8 @@ report_files = {
     'clv_trend': output_dir / 'clv_trend_report.md',
     'clv_probability_bands': output_dir / 'clv_band_report.md',
     'signal_suppression_rules': output_dir / 'signal_suppression_rules.md',
+    'rule_action_summary': output_dir / 'rule_action_summary.md',
+    'phase_performance': output_dir / 'phase_performance_report.md',
     'model_adjustment': output_dir / 'model_adjustment_recommendation.md',
     'market_alignment': output_dir / 'market_alignment_report.md',
     'market_proxy_quality': output_dir / 'market_proxy_quality_report.md',
@@ -46,6 +48,8 @@ status = {
     'reports_available': sum(1 for path in report_files.values() if path.exists()),
     'includes_clv_band_report': (output_dir / 'clv_band_report.md').exists(),
     'includes_signal_suppression_rules': (output_dir / 'signal_suppression_rules.md').exists(),
+    'includes_rule_action_summary': (output_dir / 'rule_action_summary.md').exists(),
+    'includes_phase_performance': (output_dir / 'phase_performance_report.md').exists(),
 }
 
 pd.DataFrame([status]).to_csv(output_dir / 'project_status_summary.csv', index=False)
