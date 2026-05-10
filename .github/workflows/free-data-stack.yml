@@ -92,6 +92,15 @@ jobs:
       - name: Build dataset quality diagnostics
         run: python scripts/build_dataset_quality_report.py
 
+      - name: Build snapshot timing diagnostics
+        run: python scripts/build_snapshot_timing_report.py
+
+      - name: Build prediction stability diagnostics
+        run: python scripts/build_prediction_stability_report.py
+
+      - name: Build market alignment diagnostics
+        run: python scripts/build_market_alignment_report.py
+
       - name: Validate free sources
         run: python scripts/validate_free_sources.py
 
