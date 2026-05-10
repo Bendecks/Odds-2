@@ -15,6 +15,7 @@ source_files = [
     output_dir / 'operational_decision_report.md',
     output_dir / 'human_action_report.md',
     output_dir / 'market_alignment_report.md',
+    output_dir / 'paper_test_picks.md',
     output_dir / 'probability_calibration_layer.md',
     output_dir / 'probability_calibration_rules.csv',
     output_dir / 'probability_calibration_impact_report.md',
@@ -53,7 +54,7 @@ You are reviewing an automated football betting research system.
 
 Rules:
 - Do not recommend real-money betting.
-- Treat historical proxy research, paper forward-testing and real-money readiness as separate states.
+- Treat candidate bets, paper-test picks, historical proxy research and real-money readiness as separate states.
 - Focus on model quality, CLV, calibration, market alignment, sample size, signal suppression and operational risks.
 - Be concise and practical.
 - Return Markdown only.
@@ -66,8 +67,9 @@ Produce:
 5. One concrete change to prioritize next
 6. Whether the current suppression rules look too strict, too loose, or reasonable
 7. Whether the probability calibration layer looks too aggressive, too weak, or reasonable
-8. Which probability band should be protected, suppressed, or monitored next
-9. Whether calibration impact should be increased, reduced, or left unchanged
+8. Whether the paper-test pick filter is too strict, too loose, or reasonable
+9. Which probability band should be protected, suppressed, or monitored next
+10. Whether calibration impact should be increased, reduced, or left unchanged
 
 Project state:
 {context}
