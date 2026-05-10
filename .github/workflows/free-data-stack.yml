@@ -59,6 +59,9 @@ jobs:
       - name: Log predictions
         run: python scripts/log_predictions.py
 
+      - name: Build candidate bets
+        run: python scripts/build_candidate_bets.py
+
       - name: Cleanup prediction archive
         run: python scripts/cleanup_prediction_log.py
 
