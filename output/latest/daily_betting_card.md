@@ -8,4 +8,4 @@ No qualifying bets today.
 
 Snapshot rows: 21
 Candidate rows: 0
-Active suppression rules: 1
+Active suppression rules: 2

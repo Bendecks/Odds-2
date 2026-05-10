@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-10T21:40:05.109016+00:00`
-GitHub run: `134` attempt `1`
-GitHub SHA: `3f3d669d73d26f8b330d8e6dd18967e22dc50955`
+Generated UTC: `2026-05-10T21:47:41.662311+00:00`
+GitHub run: `137` attempt `1`
+GitHub SHA: `84325151fe4befa67edcde69ac6f40b42b638001`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -59,7 +59,7 @@ No qualifying bets today.
 ## Snapshot summary
 Snapshot rows: 21
 Candidate rows: 0
-Active suppression rules: 1
+Active suppression rules: 2
 
 ## clv_trend
 
@@ -84,6 +84,20 @@ CLV interpretation: negative_clv_signal
 # Signal Suppression Rules
 Research-only guardrails generated from settled proxy/paper diagnostics.
 - probability_band=0.00-0.35 | action=suppress | avg_clv_delta=-1.5456 with rows=39
+- probability_band=0.35-0.45 | action=monitor | healthier watchlist band: avg_clv_delta=-0.0739, beat_rate=0.6111, rows=18
+
+## rule_action_summary
+
+# Rule Action Summary
+- monitor: 1 rule(s) | targets=0.35-0.45
+- suppress: 1 rule(s) | targets=0.00-0.35
+
+## phase_performance
+
+# Sample Phase Performance Report
+Separates historical proxy research from paper forward-testing diagnostics.
+- historical_proxy_research | settled=21 | avg_roi=-0.0786 | clv_rows=21 | avg_clv=-1.3638 | beat_rate=0.3333 | usage=diagnostics_only_not_forward_validation
+- unknown | settled=189 | avg_roi=-0.0095 | clv_rows=189 | avg_clv=-0.7976 | beat_rate=0.4286 | usage=diagnostics_only
 
 ## model_adjustment
 

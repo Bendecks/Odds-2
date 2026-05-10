@@ -1,2 +1,2 @@
-reports_checked,reports_available,includes_clv_band_report,includes_signal_suppression_rules
-12,12,True,True
+reports_checked,reports_available,includes_clv_band_report,includes_signal_suppression_rules,includes_rule_action_summary,includes_phase_performance
+14,14,True,True,True,True

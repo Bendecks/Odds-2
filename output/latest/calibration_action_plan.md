@@ -23,5 +23,4 @@
 - Reduce EV aggressiveness and avoid low-probability false edges.
 - Keep suppressing CLV-toxic probability bands in candidate selection.
 - Use healthier probability bands as paper-watchlist zones, not betting recommendations.
-- Current suppression rules active: 1.
-- Evaluate simple calibration layer before adding more model features.
+- Current suppression rules active: 2.
