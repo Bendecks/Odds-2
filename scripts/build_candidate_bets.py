@@ -139,6 +139,8 @@ else:
                     predictions.loc[mask, 'suppression_action'] = 'suppress'
                 elif action == 'downweight':
                     predictions.loc[mask & (predictions['suppression_action'] != 'suppress'), 'suppression_action'] = 'downweight'
+                elif action == 'monitor':
+                    predictions.loc[mask & (predictions['suppression_action'] == 'none'), 'suppression_action'] = 'monitor'
 
         sane = predictions[
             (predictions['suppression_action'] != 'suppress')
@@ -153,9 +155,10 @@ else:
         if len(rejected):
             rejected['rejection_reason'] = 'outside_suppression_aware_quality_filters'
             rejected.loc[rejected['suppression_action'] == 'suppress', 'rejection_reason'] = 'suppressed_by_signal_suppression_rules'
+            rejected.loc[rejected['suppression_action'] == 'monitor', 'rejection_reason'] = rejected['rejection_reason'].fillna('monitor_zone_filtered_by_quality_rules')
 
         if len(sane):
-            downweight_multiplier = sane['suppression_action'].map({'downweight': 0.60}).fillna(1.0)
+            downweight_multiplier = sane['suppression_action'].map({'downweight': 0.60, 'monitor': 0.90}).fillna(1.0)
             sane['signal_strength'] = (
                 ((sane['ev'].fillna(0) * 0.28)
                 + (sane['probability_edge'].fillna(0) * 0.28)
@@ -169,7 +172,7 @@ else:
                 (sane['signal_strength'] >= 0.18)
                 & (sane['alignment_penalty'] <= 0.12)
                 & (sane['probability'] < 0.50)
-                & (sane['suppression_action'] == 'none'),
+                & (sane['suppression_action'].isin(['none', 'monitor'])),
                 'confidence_tier'
             ] = 'medium'
             filtered = sane.sort_values(['confidence_tier', 'signal_strength'], ascending=[False, False]).head(5)
