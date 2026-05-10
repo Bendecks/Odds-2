@@ -1,2 +1,2 @@
-flags,recommendations,top_recommendation
-6,4,Reduce confidence in favorites and add extra shrinkage above 0.50 probability.
+flags,recommendations,suppression_targets,top_recommendation
+7,5,1,Reduce confidence in favorites and add extra shrinkage above 0.50 probability.

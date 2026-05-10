@@ -7,7 +7,8 @@
 - Probability calibration gap is material.
 - Best league so far: premier_league avg_roi=-0.0786
 - Worst league so far: premier_league avg_roi=-0.0786
-- CLV beat rate below 50%: 0.3333
+- CLV beat rate below 50%: 0.419
+- CLV trend materially negative: -0.8542
 
 ## Recommended model changes
 
@@ -15,3 +16,8 @@
 - Investigate underdog/moderate-price markets before expanding favorite exposure.
 - Prioritize probability calibration before adding complex model features.
 - Treat all recommendations as paper-tracking until CLV improves above neutral.
+- Reduce EV aggressiveness and tighten market-alignment filters.
+
+## Suggested suppression targets
+
+- probability_above_0.50

@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-10T21:10:30.625019+00:00`
-GitHub run: `119` attempt `1`
-GitHub SHA: `2a9617cda798498ffbd74ff58b9ef3f9b733aa91`
+Generated UTC: `2026-05-10T21:15:20.454951+00:00`
+GitHub run: `121` attempt `1`
+GitHub SHA: `35d5a33298813e0170519f1664d71cbada518cd4`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -16,7 +16,7 @@ Overall status: `OK`
 | Basic team strength model | True | 119 |  |  |
 | Poisson predictions | True | 7 |  |  |
 | Expected value calculations | True | 7 |  |  |
-| Prediction log output | True | 21 |  |  |
+| Prediction log output | True | 210 |  |  |
 | Settled predictions output | True | 210 |  |  |
 
 ## betting_performance
