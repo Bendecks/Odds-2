@@ -17,82 +17,86 @@ markdown = [
 score = 0
 reasons = []
 
-if alignment_path.exists():
-    alignment = pd.read_csv(alignment_path)
 
-    if len(alignment):
-        gap = alignment.iloc[0].get('average_alignment_gap')
+def safe_read_csv(path: Path) -> pd.DataFrame:
+    if not path.exists() or path.stat().st_size == 0:
+        return pd.DataFrame()
+    try:
+        return pd.read_csv(path)
+    except pd.errors.EmptyDataError:
+        return pd.DataFrame()
 
-        if pd.notna(gap):
-            if gap < 0.08:
-                score += 30
-                reasons.append('Excellent market alignment.')
-            elif gap < 0.14:
-                score += 20
-                reasons.append('Moderate market alignment.')
-            else:
-                score += 10
-                reasons.append('Weak market alignment.')
+alignment = safe_read_csv(alignment_path)
+if len(alignment):
+    gap = alignment.iloc[0].get('average_alignment_gap')
 
-if sample_path.exists():
-    sample = pd.read_csv(sample_path)
-
-    if len(sample):
-        settled = sample.iloc[0].get('settled_predictions', 0)
-
-        if settled >= 1500:
+    if pd.notna(gap):
+        if gap < 0.08:
             score += 30
-            reasons.append('Large settlement sample.')
-        elif settled >= 750:
+            reasons.append('Excellent market alignment.')
+        elif gap < 0.14:
             score += 20
-            reasons.append('Moderate settlement sample.')
-        elif settled >= 250:
-            score += 12
-            reasons.append('Early settlement sample.')
+            reasons.append('Moderate market alignment.')
         else:
-            score += 5
-            reasons.append('Very small settlement sample.')
-
-if clv_path.exists():
-    clv = pd.read_csv(clv_path)
-
-    if len(clv):
-        beat_rate = clv.iloc[0].get('beat_closing_line_rate')
-
-        if pd.notna(beat_rate):
-            if beat_rate >= 0.56:
-                score += 25
-                reasons.append('Strong CLV performance.')
-            elif beat_rate >= 0.51:
-                score += 15
-                reasons.append('Positive CLV performance.')
-            elif beat_rate >= 0.48:
-                score += 8
-                reasons.append('Neutral CLV performance.')
-            else:
-                score += 2
-                reasons.append('Weak CLV performance.')
-
-if risk_path.exists():
-    risk = pd.read_csv(risk_path)
-
-    if len(risk):
-        risk_level = str(risk.iloc[0].get('risk_level', 'high'))
-
-        if risk_level == 'controlled':
-            score += 15
-            reasons.append('Controlled volatility profile.')
-        elif risk_level == 'moderate':
             score += 10
-            reasons.append('Moderate volatility profile.')
+            reasons.append('Weak market alignment.')
+
+sample = safe_read_csv(sample_path)
+if len(sample):
+    settled = sample.iloc[0].get('settled_predictions', 0)
+
+    if settled >= 1500:
+        score += 30
+        reasons.append('Large settlement sample.')
+    elif settled >= 750:
+        score += 20
+        reasons.append('Moderate settlement sample.')
+    elif settled >= 250:
+        score += 12
+        reasons.append('Early settlement sample.')
+    else:
+        score += 5
+        reasons.append('Very small settlement sample.')
+
+clv = safe_read_csv(clv_path)
+if len(clv):
+    beat_rate = clv.iloc[0].get('beat_closing_line_rate')
+
+    if pd.notna(beat_rate):
+        if beat_rate >= 0.56:
+            score += 25
+            reasons.append('Strong CLV performance.')
+        elif beat_rate >= 0.51:
+            score += 15
+            reasons.append('Positive CLV performance.')
+        elif beat_rate >= 0.48:
+            score += 8
+            reasons.append('Neutral CLV performance.')
         else:
-            score += 3
-            reasons.append('High volatility profile.')
+            score += 2
+            reasons.append('Weak CLV performance.')
+
+risk = safe_read_csv(risk_path)
+if len(risk):
+    risk_level = str(risk.iloc[0].get('risk_level', 'high'))
+
+    if risk_level == 'controlled':
+        score += 15
+        reasons.append('Controlled volatility profile.')
+    elif risk_level == 'moderate':
+        score += 10
+        reasons.append('Moderate volatility profile.')
+    else:
+        score += 3
+        reasons.append('High volatility profile.')
 
 candidate_path = output_dir / 'candidate_bets.parquet'
 
 if candidate_path.exists():
-    candidates = pd.read_parquet(candidate_path)
+    try:
+        candidates = pd.read_parquet(candidate_path)
+    except Exception:
+        candidates = pd.DataFrame()
 
     if 1 <= len(candidates) <= 15:
         score += 10
@@ -103,6 +107,9 @@ if candidate_path.exists():
     else:
         score += 5
         reasons.append('Candidate volume may still be noisy.')
+
+if not reasons:
+    reasons.append('Not enough diagnostics available yet.')
 
 if score >= 85:
     readiness = 'controlled_experimental_ready'
