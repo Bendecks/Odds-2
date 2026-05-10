@@ -24,7 +24,8 @@ else:
 league_home_avg = matches['FTHG'].mean()
 league_away_avg = matches['FTAG'].mean()
 
-home_advantage_multiplier = league_home_avg / max(league_away_avg, 0.01)
+# Reduced home advantage to avoid systematic overconfidence.
+home_advantage_multiplier = 1 + ((league_home_avg / max(league_away_avg, 0.01)) - 1) * 0.35
 
 latest_round = matches.tail(10).copy()
 
@@ -40,24 +41,29 @@ for _, row in latest_round.iterrows():
     home_row = team_strengths.loc[home]
     away_row = team_strengths.loc[away]
 
+    # More conservative weighting.
     home_attack = (
-        home_row['home_attack_strength'] * 0.5
-        + home_row['recent_attack_strength'] * 0.5
+        home_row['home_attack_strength'] * 0.4
+        + home_row['recent_attack_strength'] * 0.3
+        + 0.3
     )
 
     away_attack = (
-        away_row['away_attack_strength'] * 0.5
-        + away_row['recent_attack_strength'] * 0.5
+        away_row['away_attack_strength'] * 0.4
+        + away_row['recent_attack_strength'] * 0.3
+        + 0.3
     )
 
     home_defense = (
-        home_row['home_defense_strength'] * 0.5
-        + home_row['recent_defense_strength'] * 0.5
+        home_row['home_defense_strength'] * 0.4
+        + home_row['recent_defense_strength'] * 0.3
+        + 0.3
     )
 
     away_defense = (
-        away_row['away_defense_strength'] * 0.5
-        + away_row['recent_defense_strength'] * 0.5
+        away_row['away_defense_strength'] * 0.4
+        + away_row['recent_defense_strength'] * 0.3
+        + 0.3
     )
 
     expected_home_goals = (
@@ -73,8 +79,12 @@ for _, row in latest_round.iterrows():
         * home_defense
     )
 
-    expected_home_goals = max(expected_home_goals, 0.2)
-    expected_away_goals = max(expected_away_goals, 0.2)
+    # Stronger shrinkage toward league averages.
+    expected_home_goals = (expected_home_goals * 0.65) + (league_home_avg * 0.35)
+    expected_away_goals = (expected_away_goals * 0.65) + (league_away_avg * 0.35)
+
+    expected_home_goals = max(min(expected_home_goals, 3.2), 0.45)
+    expected_away_goals = max(min(expected_away_goals, 2.8), 0.35)
 
     home_win = 0
     draw = 0
@@ -98,6 +108,17 @@ for _, row in latest_round.iterrows():
         draw /= normalization
         away_win /= normalization
 
+    # Final probability shrinkage toward efficient-market assumptions.
+    home_win = (home_win * 0.75) + (0.33 * 0.25)
+    draw = (draw * 0.75) + (0.33 * 0.25)
+    away_win = (away_win * 0.75) + (0.33 * 0.25)
+
+    total = home_win + draw + away_win
+
+    home_win /= total
+    draw /= total
+    away_win /= total
+
     predictions.append({
         'home_team': home,
         'away_team': away,
@@ -118,4 +139,4 @@ predictions_df.to_parquet(output_dir / 'poisson_predictions.parquet', index=Fals
 predictions_df.to_csv(output_dir / 'poisson_predictions.csv', index=False)
 
 print(predictions_df.head())
-print(f'Generated {len(predictions_df)} improved Poisson predictions')
+print(f'Generated {len(predictions_df)} calibrated Poisson predictions')
