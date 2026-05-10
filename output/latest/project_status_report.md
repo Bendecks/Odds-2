@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-10T23:06:55.419890+00:00`
-GitHub run: `173` attempt `1`
-GitHub SHA: `099bb74d46edeb4dae70456645f022802e017ee5`
+Generated UTC: `2026-05-10T23:10:02.637947+00:00`
+GitHub run: `175` attempt `1`
+GitHub SHA: `6c35a793e02f135c51796e318177c2f659b3c780`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -32,6 +32,41 @@ Overall status: `OK`
 | Signal suppression rules | True | 2 |  |  |
 | Rule action summary | True | 2 |  |  |
 | Sample phase performance | True | 2 |  |  |
+
+## forward_input_status
+
+# Forward Input Status
+Upcoming fixtures: 1
+Manual template rows: 1
+Rows with complete odds: 0
+Rows missing odds: 1
+Manual forward snapshot rows: 0
+Ready for forward paper generation: False
+## Rows needing odds
+- 2026-05-11 19:00:00 | Tottenham Hotspur vs Leeds United
+
+## upcoming_fixtures
+
+# Upcoming Fixtures
+Fixture source: TheSportsDB eventsnextleague API.
+Odds source: not included. Bet365/manual odds snapshot is required for forward paper-test picks.
+Fixtures found: 1
+- 2026-05-11 19:00:00 | Tottenham Hotspur vs Leeds United | premier_league
+
+## manual_odds_template
+
+# Manual Odds Template
+Use this only for forward paper-testing. Do not use for real-money betting.
+Fill the three 1X2 odds columns from Bet365 before kickoff, then commit/update the CSV if paper-testing manually.
+Template rows: 1
+- 2026-05-11 19:00:00 | Tottenham Hotspur vs Leeds United | bookmaker=bet365_manual
+
+## manual_forward_snapshots
+
+# Manual Forward Snapshots
+Built from manually captured pre-match odds. Observation-only; not real-money recommendations.
+Forward snapshot rows: 0
+No manual forward snapshots built. Fill data/manual/manual_odds_template.csv with pre-match 1X2 odds first.
 
 ## betting_performance
 
