@@ -1,11 +1,11 @@
 # Project Handoff Report
 
-Generated UTC: 2026-05-10T22:36:14.777143+00:00
+Generated UTC: 2026-05-10T22:45:45.082999+00:00
 
 ## Core system status
 
-- system_readiness_report.csv: readiness_score=33, readiness_status=observation_only
-- forward_test_readiness_report.csv: forward_test_status=observe_only, leakage_risk=medium, sample_usage=paper_tracking_only, system_readiness=observation_only
+- system_readiness_report.csv: readiness_score=40, readiness_status=observation_only
+- forward_test_readiness_report.csv: forward_test_status=no_forward_picks_available, leakage_risk=medium, sample_usage=paper_tracking_only, system_readiness=observation_only, forward_paper_picks=0
 - clv_trend_report.csv: rows=210, avg_clv_delta=-0.8542, beat_closing_line_rate=0.419, positive_clv_rows=88, negative_clv_rows=122, interpretation=negative_clv_signal
 - clv_band_report.csv: probability_band=0.00-0.35, rows=39, avg_clv_delta=-1.5456, beat_closing_line_rate=0.2564, avg_ev=-0.007
 - probability_calibration_rules.csv: probability_band=0.00-0.35, calibration_action=very_strong_shrink, adjustments=13

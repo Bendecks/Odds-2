@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-10T22:30:53.034555+00:00`
-GitHub run: `160` attempt `1`
-GitHub SHA: `87659224cc64757e6a683364d0aff2c93e5d8342`
+Generated UTC: `2026-05-10T22:36:24.781687+00:00`
+GitHub run: `163` attempt `1`
+GitHub SHA: `b1187f6c6222db4445f72898a847ec7d5e68857f`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -22,8 +22,9 @@ Overall status: `OK`
 | Prediction log output | True | 210 |  |  |
 | Settled predictions output | True | 210 |  |  |
 | CLV results output | True | 210 |  |  |
-| Candidate bets output | True | 0 |  |  |
+| Candidate bets output | True | 1 |  |  |
 | Paper test picks output | True | 3 |  |  |
+| Paper test log output | True | 3 |  |  |
 | CLV band diagnostics | True | 4 |  |  |
 | Signal suppression rules | True | 2 |  |  |
 | Rule action summary | True | 2 |  |  |
@@ -74,31 +75,22 @@ Paper-test picks are observation-only and must not be staked.
 - Calibration risk: normal
 - Prediction ID: a79498dae79d1c08828e
 ## Paper-Test Picks
-### Liverpool vs Crystal Palace
-- Date/time: 25/05/2025 2026-05-10 16:00:00
-- League/phase: premier_league / historical_proxy_research
-- Selection: HOME
-- Market odds: 2.67
-- Fair odds: 2.06
-- Model probability: 0.4861
-- Probability band: 0.45-0.50
-- EV: 0.2979
-- Probability edge: 0.1116
-- Alignment penalty: 0.2979
-- Suppression action: none
-- Paper tier: priority_observation
+No paper-test picks passed the loose observation filter today.
+## Snapshot summary
+Snapshot rows: 21
+Candidate rows: 1
+Paper-test rows: 0
+Active suppression rules: 2
 
 ## paper_test_picks
 
 # Paper Test Picks
 Observation-only picks. These are not real-money recommendations.
-Purpose: collect forward-test CLV and settlement evidence quickly without weakening real-money guardrails.
-Current paper-test picks: 3
-Newly logged paper-test picks: 3
+Historical proxy rows are excluded. Only forward-eligible snapshots may become paper-test picks.
+Current paper-test picks: 0
+Newly logged paper-test picks: 0
 Total logged paper-test picks: 3
-- Liverpool vs Crystal Palace | selection=HOME | odds=2.67 | prob=0.4861 | EV=0.2979 | edge=0.1116 | penalty=0.2979 | band=0.45-0.50 | rule=none | tier=priority_observation
-- Fulham vs Man City | selection=AWAY | odds=2.3 | prob=0.4617 | EV=0.0619 | edge=0.0269 | penalty=0.0619 | band=0.45-0.50 | rule=none | tier=priority_observation
-- Southampton vs Arsenal | selection=AWAY | odds=2.52 | prob=0.5455 | EV=0.3747 | edge=0.1487 | penalty=0.3747 | band=0.50-0.55 | rule=none | tier=observation
+No forward-eligible rows. Historical proxy rows are excluded from paper-test picks.
 
 ## probability_calibration_layer
 

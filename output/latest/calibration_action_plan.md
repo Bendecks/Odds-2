@@ -2,7 +2,7 @@
 
 ## Current calibration issues
 
-- Market alignment is moderate: gap=0.1049
+- Market alignment is moderate: gap=0.1107
 - CLV beat rate below target: 0.419
 - Average CLV delta: -0.8542
 - CLV-toxic probability band: 0.00-0.35 avg_clv=-1.5456 rows=39
