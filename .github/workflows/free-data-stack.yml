@@ -59,6 +59,12 @@ jobs:
       - name: Settle predictions
         run: python scripts/settle_predictions.py
 
+      - name: Calculate CLV
+        run: python scripts/calculate_clv.py
+
+      - name: Build performance analytics
+        run: python scripts/build_performance_report.py
+
       - name: Validate free sources
         run: python scripts/validate_free_sources.py
 
