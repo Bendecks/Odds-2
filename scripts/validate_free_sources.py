@@ -1,4 +1,5 @@
 import json
+import os
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -54,24 +55,42 @@ add_check(
     required_columns=['attack_strength', 'defense_strength'],
 )
 
+run_number = os.getenv('GITHUB_RUN_NUMBER', 'local')
+run_attempt = os.getenv('GITHUB_RUN_ATTEMPT', 'local')
+run_id = os.getenv('GITHUB_RUN_ID', 'local')
+sha = os.getenv('GITHUB_SHA', 'local')
+ref = os.getenv('GITHUB_REF_NAME', 'local')
+
 status = {
     'generated_at_utc': datetime.now(timezone.utc).isoformat(),
+    'github_run_number': run_number,
+    'github_run_attempt': run_attempt,
+    'github_run_id': run_id,
+    'github_sha': sha,
+    'github_ref': ref,
     'overall_ok': all(c['ok'] for c in checks),
     'checks': checks,
 }
 
 output_dir = Path('output/latest')
+history_dir = Path('output/history')
 output_dir.mkdir(parents=True, exist_ok=True)
+history_dir.mkdir(parents=True, exist_ok=True)
 
+json_text = json.dumps(status, indent=2)
 json_path = output_dir / 'free_data_status.json'
 md_path = output_dir / 'free_data_status.md'
+history_json_path = history_dir / f'free_data_status_run_{run_number}_attempt_{run_attempt}.json'
 
-json_path.write_text(json.dumps(status, indent=2), encoding='utf-8')
+json_path.write_text(json_text, encoding='utf-8')
+history_json_path.write_text(json_text, encoding='utf-8')
 
 lines = [
     '# Free Data Source Status',
     '',
     f"Generated UTC: `{status['generated_at_utc']}`",
+    f"GitHub run: `{run_number}` attempt `{run_attempt}`",
+    f"GitHub SHA: `{sha}`",
     '',
     f"Overall status: `{'OK' if status['overall_ok'] else 'FAILED'}`",
     '',
@@ -86,9 +105,11 @@ for check in checks:
         f"{check['error'] or ''} |"
     )
 
-md_path.write_text('\n'.join(lines) + '\n', encoding='utf-8')
+md_text = '\n'.join(lines) + '\n'
+md_path.write_text(md_text, encoding='utf-8')
+(history_dir / f'free_data_status_run_{run_number}_attempt_{run_attempt}.md').write_text(md_text, encoding='utf-8')
 
-print(json.dumps(status, indent=2))
+print(json_text)
 
 if not status['overall_ok']:
     raise SystemExit(1)
