@@ -17,6 +17,9 @@ jobs:
   build-model:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+
     env:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
@@ -46,6 +49,14 @@ jobs:
       - name: Validate free sources
         run: python scripts/validate_free_sources.py
 
+      - name: Commit validation artifacts
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/latest output/history data/raw data/model
+          git diff --cached --quiet || git commit -m "Auto-update workflow validation artifacts"
+          git push
+
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
@@ -54,3 +65,4 @@ jobs:
             data/raw/
             data/model/
             output/latest/
+            output/history/
