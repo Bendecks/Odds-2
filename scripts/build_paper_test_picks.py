@@ -1,11 +1,16 @@
+import json
 from pathlib import Path
 
 import pandas as pd
 
 output_dir = Path('output/latest')
+log_dir = Path('data/predictions')
+log_dir.mkdir(parents=True, exist_ok=True)
+
 snapshot_path = output_dir / 'prediction_snapshots_latest.parquet'
 prediction_log_path = output_dir / 'prediction_log_latest.parquet'
 rules_path = output_dir / 'signal_suppression_rules.csv'
+paper_log_path = log_dir / 'paper_test_log.jsonl'
 
 expected_columns = [
     'snapshot_id', 'prediction_id', 'event_id', 'created_at_utc',
@@ -58,7 +63,12 @@ def attach_metadata(df: pd.DataFrame) -> pd.DataFrame:
     if len(metadata_cols) <= 1:
         return df
 
-    merged = df.merge(log[metadata_cols].drop_duplicates('prediction_id'), on='prediction_id', how='left', suffixes=('', '_log'))
+    merged = df.merge(
+        log[metadata_cols].drop_duplicates('prediction_id'),
+        on='prediction_id',
+        how='left',
+        suffixes=('', '_log')
+    )
     for col in metadata_cols:
         if col == 'prediction_id':
             continue
@@ -69,6 +79,18 @@ def attach_metadata(df: pd.DataFrame) -> pd.DataFrame:
             else:
                 merged[col] = merged[log_col]
     return merged
+
+
+def existing_logged_ids() -> set:
+    if not paper_log_path.exists() or paper_log_path.stat().st_size == 0:
+        return set()
+    try:
+        existing = pd.read_json(paper_log_path, lines=True)
+    except Exception:
+        return set()
+    if 'prediction_id' not in existing.columns:
+        return set()
+    return set(existing['prediction_id'].astype(str).tolist())
 
 
 snapshots = attach_metadata(safe_read_parquet(snapshot_path))
@@ -105,8 +127,8 @@ else:
 
     snapshots['calibration_risk'] = 'normal'
     snapshots.loc[snapshots['probability'].fillna(0) >= 0.50, 'calibration_risk'] = 'high_probability_band'
-    snapshots.loc[snapshots['probability_edge'].fillna(0).abs() >= 0.14, 'calibration_risk'] = 'large_probability_edge'
-    snapshots.loc[snapshots['alignment_penalty'].fillna(0) >= 0.22, 'calibration_risk'] = 'market_misalignment'
+    snapshots.loc[snapshots['probability_edge'].fillna(0).abs() >= 0.16, 'calibration_risk'] = 'large_probability_edge'
+    snapshots.loc[snapshots['alignment_penalty'].fillna(0) >= 0.45, 'calibration_risk'] = 'market_misalignment'
 
     snapshots['suppression_action'] = 'none'
     if len(rules):
@@ -127,34 +149,34 @@ else:
             elif action == 'monitor':
                 snapshots.loc[mask & (snapshots['suppression_action'] == 'none'), 'suppression_action'] = 'monitor'
 
-    # Paper-test is intentionally looser than candidate_bets but still excludes
-    # suppressed bands and extreme model-market disagreement. It is observation-only.
     paper = snapshots[
         (snapshots['suppression_action'] != 'suppress')
-        & (snapshots['market_odds'].fillna(0).between(1.55, 6.00))
-        & (snapshots['probability'].fillna(0).between(0.34, 0.55))
-        & (snapshots['probability_edge'].fillna(0).between(0.005, 0.16))
-        & (snapshots['ev'].fillna(0).between(0.01, 0.45))
-        & (snapshots['alignment_penalty'].fillna(1).between(0.00, 0.40))
+        & (snapshots['market_odds'].fillna(0).between(1.45, 7.50))
+        & (snapshots['probability'].fillna(0).between(0.32, 0.57))
+        & (snapshots['probability_edge'].fillna(0).between(0.000, 0.18))
+        & (snapshots['ev'].fillna(0).between(0.00, 0.60))
+        & (snapshots['alignment_penalty'].fillna(1).between(0.00, 0.48))
     ].copy()
 
     if len(paper):
         action_weight = paper['suppression_action'].map({'monitor': 0.92, 'downweight': 0.65}).fillna(1.0)
+        risk_weight = paper['calibration_risk'].map({'market_misalignment': 0.70, 'large_probability_edge': 0.78, 'high_probability_band': 0.85}).fillna(1.0)
         paper['paper_test_score'] = (
-            ((paper['ev'].fillna(0) * 0.30)
-             + (paper['probability_edge'].fillna(0) * 0.30)
-             + ((1 - paper['alignment_penalty'].fillna(1)) * 0.25)
+            ((paper['ev'].fillna(0) * 0.28)
+             + (paper['probability_edge'].fillna(0) * 0.26)
+             + ((1 - paper['alignment_penalty'].fillna(1)) * 0.28)
              + (paper['probability'].fillna(0) * 0.10))
             * action_weight
+            * risk_weight
         ).round(4)
         paper['paper_test_tier'] = 'observation'
         paper.loc[
             (paper['paper_test_score'] >= 0.18)
-            & (paper['alignment_penalty'] <= 0.25),
+            & (paper['alignment_penalty'] <= 0.30),
             'paper_test_tier'
         ] = 'priority_observation'
         paper['paper_test_reason'] = 'loose_paper_tracking_not_real_money'
-        paper = paper.sort_values(['paper_test_tier', 'paper_test_score'], ascending=[False, False]).head(5)
+        paper = paper.sort_values(['paper_test_tier', 'paper_test_score'], ascending=[False, False]).head(7)
     else:
         paper = pd.DataFrame(columns=expected_columns)
 
@@ -166,11 +188,33 @@ paper = paper[expected_columns]
 paper.to_parquet(output_dir / 'paper_test_picks.parquet', index=False)
 paper.to_csv(output_dir / 'paper_test_picks.csv', index=False)
 
+logged_ids = existing_logged_ids()
+new_rows = paper[~paper['prediction_id'].astype(str).isin(logged_ids)].copy() if len(paper) else pd.DataFrame(columns=expected_columns)
+
+if len(new_rows):
+    with paper_log_path.open('a', encoding='utf-8') as handle:
+        for record in new_rows.to_dict(orient='records'):
+            handle.write(json.dumps(record, ensure_ascii=False, default=str) + '\n')
+
+if paper_log_path.exists() and paper_log_path.stat().st_size > 0:
+    try:
+        paper_log = pd.read_json(paper_log_path, lines=True)
+    except Exception:
+        paper_log = pd.DataFrame(columns=expected_columns)
+else:
+    paper_log = pd.DataFrame(columns=expected_columns)
+
+paper_log.to_csv(output_dir / 'paper_test_log_latest.csv', index=False)
+
 markdown = [
     '# Paper Test Picks',
     '',
     'Observation-only picks. These are not real-money recommendations.',
     'Purpose: collect forward-test CLV and settlement evidence quickly without weakening real-money guardrails.',
+    '',
+    f'Current paper-test picks: {len(paper)}',
+    f'Newly logged paper-test picks: {len(new_rows)}',
+    f'Total logged paper-test picks: {len(paper_log)}',
     '',
 ]
 
@@ -189,4 +233,6 @@ else:
 (output_dir / 'paper_test_picks.md').write_text('\n'.join(markdown), encoding='utf-8')
 
 print(f'Generated {len(paper)} paper-test picks')
+print(f'Logged {len(new_rows)} new paper-test picks')
+print(f'Total logged paper-test picks: {len(paper_log)}')
 print(paper.head())
