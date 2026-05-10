@@ -1,7 +1,6 @@
 import json
 from pathlib import Path
 
-import numpy as np
 import pandas as pd
 from scipy.stats import poisson
 
@@ -25,6 +24,8 @@ else:
 league_home_avg = matches['FTHG'].mean()
 league_away_avg = matches['FTAG'].mean()
 
+home_advantage_multiplier = league_home_avg / max(league_away_avg, 0.01)
+
 latest_round = matches.tail(10).copy()
 
 predictions = []
@@ -37,10 +38,23 @@ for _, row in latest_round.iterrows():
         continue
 
     home_attack = team_strengths.loc[home, 'attack_strength']
+    away_attack = team_strengths.loc[away, 'attack_strength']
+
+    home_defense = team_strengths.loc[home, 'defense_strength']
     away_defense = team_strengths.loc[away, 'defense_strength']
 
-    expected_home_goals = league_home_avg * home_attack * away_defense
-    expected_away_goals = league_away_avg
+    expected_home_goals = (
+        league_home_avg
+        * home_attack
+        * away_defense
+        * home_advantage_multiplier
+    )
+
+    expected_away_goals = (
+        league_away_avg
+        * away_attack
+        * home_defense
+    )
 
     home_win = 0
     draw = 0
@@ -49,6 +63,7 @@ for _, row in latest_round.iterrows():
     for h in range(6):
         for a in range(6):
             p = poisson.pmf(h, expected_home_goals) * poisson.pmf(a, expected_away_goals)
+
             if h > a:
                 home_win += p
             elif h == a:
@@ -61,6 +76,7 @@ for _, row in latest_round.iterrows():
         'away_team': away,
         'expected_home_goals': round(expected_home_goals, 3),
         'expected_away_goals': round(expected_away_goals, 3),
+        'home_advantage_multiplier': round(home_advantage_multiplier, 3),
         'home_win_probability': round(home_win, 4),
         'draw_probability': round(draw, 4),
         'away_win_probability': round(away_win, 4),
