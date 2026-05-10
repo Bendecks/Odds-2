@@ -3,6 +3,7 @@
 Observation-only picks. These are not real-money recommendations.
 Historical proxy rows are excluded. Only forward-eligible snapshots may become paper-test picks.
 
+Source used: prediction_snapshots_latest_forward_only
 Current paper-test picks: 0
 Newly logged paper-test picks: 0
 Total logged paper-test picks: 3
