@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-10T22:17:03.679476+00:00`
-GitHub run: `154` attempt `1`
-GitHub SHA: `f45ab3a1486e5ee7e1a8928c3800a35b8f8debb5`
+Generated UTC: `2026-05-10T22:27:41.235720+00:00`
+GitHub run: `158` attempt `1`
+GitHub SHA: `03b9f244fca23591616be44058f6737170f0d140`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -23,6 +23,7 @@ Overall status: `OK`
 | Settled predictions output | True | 210 |  |  |
 | CLV results output | True | 210 |  |  |
 | Candidate bets output | True | 0 |  |  |
+| Paper test picks output | True | 3 |  |  |
 | CLV band diagnostics | True | 4 |  |  |
 | Signal suppression rules | True | 2 |  |  |
 | Rule action summary | True | 2 |  |  |
@@ -86,6 +87,15 @@ No qualifying candidate bets today.
 - Fair odds: 1.86
 - Model probability: 0.5381
 - Probability band: 0.50-0.55
+
+## paper_test_picks
+
+# Paper Test Picks
+Observation-only picks. These are not real-money recommendations.
+Purpose: collect forward-test CLV and settlement evidence quickly without weakening real-money guardrails.
+- Fulham vs Man City | selection=AWAY | odds=2.3 | prob=0.4442 | EV=0.0217 | edge=0.0094 | penalty=0.0217 | band=0.35-0.45 | rule=monitor | tier=priority_observation
+- Southampton vs Arsenal | selection=AWAY | odds=2.52 | prob=0.5381 | EV=0.356 | edge=0.1413 | penalty=0.356 | band=0.50-0.55 | rule=none | tier=observation
+- Liverpool vs Crystal Palace | selection=HOME | odds=2.67 | prob=0.4685 | EV=0.2509 | edge=0.094 | penalty=0.2509 | band=0.45-0.50 | rule=none | tier=observation
 
 ## probability_calibration_layer
 
