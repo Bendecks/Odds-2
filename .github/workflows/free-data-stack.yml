@@ -65,15 +65,6 @@ jobs:
       - name: Log predictions
         run: python scripts/log_predictions.py
 
-      - name: Build candidate bets
-        run: python scripts/build_candidate_bets.py
-
-      - name: Build edge quality diagnostics
-        run: python scripts/build_edge_quality_report.py
-
-      - name: Build daily betting card
-        run: python scripts/build_daily_betting_card.py
-
       - name: Cleanup prediction archive
         run: python scripts/cleanup_prediction_log.py
 
@@ -85,6 +76,21 @@ jobs:
 
       - name: Build CLV band diagnostics
         run: python scripts/build_clv_band_report.py
+
+      - name: Build league performance diagnostics
+        run: python scripts/build_league_performance_report.py
+
+      - name: Build signal suppression rules
+        run: python scripts/build_signal_suppression_rules.py
+
+      - name: Build candidate bets
+        run: python scripts/build_candidate_bets.py
+
+      - name: Build edge quality diagnostics
+        run: python scripts/build_edge_quality_report.py
+
+      - name: Build daily betting card
+        run: python scripts/build_daily_betting_card.py
 
       - name: Build performance analytics
         run: python scripts/build_performance_report.py
@@ -100,9 +106,6 @@ jobs:
 
       - name: Build strategy risk diagnostics
         run: python scripts/build_strategy_risk_report.py
-
-      - name: Build league performance diagnostics
-        run: python scripts/build_league_performance_report.py
 
       - name: Build probability band diagnostics
         run: python scripts/build_probability_band_report.py
