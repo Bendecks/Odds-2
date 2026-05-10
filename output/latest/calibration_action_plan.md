@@ -2,7 +2,7 @@
 
 ## Current calibration issues
 
-- Market alignment is moderate: gap=0.0946
+- Market alignment is moderate: gap=0.1049
 - CLV beat rate below target: 0.419
 - Average CLV delta: -0.8542
 - CLV-toxic probability band: 0.00-0.35 avg_clv=-1.5456 rows=39
@@ -24,4 +24,3 @@
 - Keep suppressing CLV-toxic probability bands in candidate selection.
 - Use healthier probability bands as paper-watchlist zones, not betting recommendations.
 - Current suppression rules active: 2.
-- Evaluate simple calibration layer before adding more model features.

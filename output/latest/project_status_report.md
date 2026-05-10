@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-10T22:02:29.265029+00:00`
-GitHub run: `144` attempt `1`
-GitHub SHA: `3624c6f62da6f104fe3521f00e268c7cc8d7b465`
+Generated UTC: `2026-05-10T22:05:13.505928+00:00`
+GitHub run: `145` attempt `1`
+GitHub SHA: `393103637a6202021703cc5a850b7d789c977177`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -61,6 +61,16 @@ No qualifying bets today.
 Snapshot rows: 21
 Candidate rows: 0
 Active suppression rules: 2
+
+## probability_calibration_layer
+
+# Probability Calibration Layer
+Prediction rows: 7
+Band rules available: 4
+- 0.00-0.35 | strong_shrink | adjustments=13
+- 0.35-0.45 | monitor_hold | adjustments=6
+- 0.45-0.50 | none | adjustments=1
+- 0.50-0.55 | none | adjustments=1
 
 ## clv_trend
 
