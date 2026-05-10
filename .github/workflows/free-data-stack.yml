@@ -150,7 +150,7 @@ jobs:
         run: python scripts/build_system_readiness_report.py
 
       - name: Build calibration action plan
-        run: python scripts/build_calibration_actionPlan.py
+        run: python scripts/build_calibration_action_plan.py
 
       - name: Build snapshot timing diagnostics
         run: python scripts/build_snapshot_timing_report.py
