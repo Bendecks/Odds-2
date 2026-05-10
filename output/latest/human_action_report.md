@@ -2,5 +2,5 @@
 
 ## Recommended actions
 
-- Paper-tracking recommended before real usage.
-- 1 candidate bets currently available.
+- Model alignment acceptable for controlled experiments.
+- 3 candidate bets currently available.

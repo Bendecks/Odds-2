@@ -1,12 +1,12 @@
 # Operational Decision Report
 
-System status: paper_tracking_ready
+System status: experimental_betting_ready
 
 ## Reasoning
 
-- Average alignment gap: 0.1052
-- Candidate bets: 1
+- Average alignment gap: 0.0946
+- Candidate bets: 3
 
 ## Current interpretation
 
-Model is suitable for paper-tracking and controlled monitoring.
+Model is stable enough for small-scale experimental evaluation.

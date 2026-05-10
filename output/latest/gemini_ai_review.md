@@ -2,24 +2,12 @@
 
 Model used: `gemini-2.0-flash`
 
-```markdown
-## System Status
+1.  **Current system status:** The system is in a research phase, not yet suitable for real-money betting. It generates predictions and calculates expected value (EV), but the overall ROI is negative, and the beat-closing-line rate is low. Market alignment is good, and the probability distribution is within guardrails.
 
-The system is currently in a research phase, showing negative ROI and moderate market alignment. Data sources are healthy, and the system is generating candidate bets, but not at a level for real-money deployment.
+2.  **Biggest weakness:** Negative CLV. The model consistently fails to beat the closing line, indicating poor timing or inaccurate probability assessment.
 
-## Biggest Weakness
+3.  **Best next development step:** Improve calibration. The model's probabilities need to better reflect actual outcomes. This will likely improve CLV.
 
-Negative CLV. The model consistently fails to beat the closing line, indicating a lack of predictive power or inefficient use of market information.
+4.  **Readiness:** Paper-test-ready. The system can generate betting cards for paper testing and analysis, but real-money betting is not advised.
 
-## Best Next Development Step
-
-Improve model calibration. A miscalibrated model will produce inaccurate probabilities, leading to poor EV calculations and negative CLV.
-
-## Readiness
-
-Paper-test-ready
-
-## Concrete Change to Prioritize Next
-
-Implement a calibration technique (e.g., Platt scaling or isotonic regression) and evaluate its impact on CLV using backtesting.
-```
+5.  **One concrete change to prioritize next:** Implement a Brier score calculation and use it to actively recalibrate the model's probability outputs.
