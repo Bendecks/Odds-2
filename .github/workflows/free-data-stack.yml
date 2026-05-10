@@ -116,6 +116,9 @@ jobs:
       - name: Build forward test readiness diagnostics
         run: python scripts/build_forward_test_readiness_report.py
 
+      - name: Build daily decision diagnostics
+        run: python scripts/build_daily_decision_report.py
+
       - name: Build project handoff diagnostics
         run: python scripts/build_project_handoff_report.py
 
