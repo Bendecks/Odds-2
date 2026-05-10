@@ -15,6 +15,11 @@ source_files = [
     output_dir / 'operational_decision_report.md',
     output_dir / 'human_action_report.md',
     output_dir / 'market_alignment_report.md',
+    output_dir / 'clv_trend_report.md',
+    output_dir / 'clv_band_report.md',
+    output_dir / 'signal_suppression_rules.md',
+    output_dir / 'phase_performance_report.md',
+    output_dir / 'calibration_action_plan.md',
     output_dir / 'daily_betting_card.md',
 ]
 
@@ -22,7 +27,7 @@ context_parts = []
 
 for path in source_files:
     if path.exists():
-        context_parts.append(f'## {path.name}\n{path.read_text(encoding="utf-8")[:3000]}')
+        context_parts.append(f'## {path.name}\n{path.read_text(encoding="utf-8")[:4000]}')
 
 context = '\n\n'.join(context_parts) or 'No project status context available.'
 
@@ -43,8 +48,9 @@ prompt = f"""
 You are reviewing an automated football betting research system.
 
 Rules:
-- Do not recommend real-money betting unless evidence is strong.
-- Focus on model quality, CLV, calibration, market alignment, sample size and operational risks.
+- Do not recommend real-money betting.
+- Treat historical proxy research, paper forward-testing and real-money readiness as separate states.
+- Focus on model quality, CLV, calibration, market alignment, sample size, signal suppression and operational risks.
 - Be concise and practical.
 - Return Markdown only.
 
@@ -54,6 +60,8 @@ Produce:
 3. Best next development step
 4. Readiness: observe-only, paper-test-ready, or experimental-ready
 5. One concrete change to prioritize next
+6. Whether the current suppression rules look too strict, too loose, or reasonable
+7. Which probability band should be protected, suppressed, or monitored next
 
 Project state:
 {context}
@@ -70,7 +78,7 @@ payload = {
     ],
     'generationConfig': {
         'temperature': 0.2,
-        'maxOutputTokens': 800,
+        'maxOutputTokens': 1000,
     },
 }
 
