@@ -3,4 +3,4 @@
 ## Recommended actions
 
 - Model alignment acceptable for controlled experiments.
-- 1 candidate bets currently available.
+- No candidate bets currently pass filtering.

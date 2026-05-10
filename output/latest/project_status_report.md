@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-10T21:15:20.454951+00:00`
-GitHub run: `121` attempt `1`
-GitHub SHA: `35d5a33298813e0170519f1664d71cbada518cd4`
+Generated UTC: `2026-05-10T21:20:45.619277+00:00`
+GitHub run: `122` attempt `1`
+GitHub SHA: `cef1793c6afbac2c64d66a4aeb850db38dade058`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -26,7 +26,7 @@ Readiness: research-only
 Recommendation: NO REAL MONEY - continue research
 Total predictions: 210
 Historical candidate predictions: 91
-Current candidate bets: 1
+Current candidate bets: 0
 Settled predictions: 210
 Wins: 70
 Total ROI units: -3.45
@@ -49,19 +49,12 @@ Settled predictions: 210
 
 # Daily Betting Card
 Status: research/paper-test only. No real-money recommendation yet.
-## Liverpool vs Crystal Palace
-- Date/time: 25/05/2025 2026-05-10 16:00:00
-- Selection: HOME
-- Market: 1X2
-- Market odds: 2.67
-- Fair odds: 2.3
-- Model probability: 0.4344
-- EV: 0.1598
-- Signal strength: 0.2359
-- Prediction ID: 49985c29d4a6e6f8a3c3
+Current card is suppression-aware and must not be used for real-money betting.
+No qualifying bets today.
 ## Snapshot summary
 Snapshot rows: 21
-Candidate rows: 1
+Candidate rows: 0
+Active suppression rules: 1
 
 ## market_alignment
 
