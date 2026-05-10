@@ -2,6 +2,13 @@ name: Free Betting Data Stack
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/**'
+      - 'requirements.txt'
+      - '.github/workflows/free-data-stack.yml'
   schedule:
     - cron: '0 */12 * * *'
 
