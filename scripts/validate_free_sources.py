@@ -7,7 +7,8 @@ import pandas as pd
 
 checks = []
 
-def add_check(name, path, required_columns=None):
+
+def add_check(name, path, required_columns=None, file_type='parquet', allow_empty=False):
     path = Path(path)
     result = {
         'name': name,
@@ -18,6 +19,7 @@ def add_check(name, path, required_columns=None):
         'columns': [],
         'missing_columns': [],
         'error': None,
+        'allow_empty': allow_empty,
     }
 
     if not path.exists():
@@ -26,16 +28,21 @@ def add_check(name, path, required_columns=None):
         return
 
     try:
-        df = pd.read_parquet(path)
+        if file_type == 'csv':
+            df = pd.read_csv(path)
+        else:
+            df = pd.read_parquet(path)
+
         result['rows'] = int(len(df))
         result['columns'] = list(df.columns)
         if required_columns:
             result['missing_columns'] = [c for c in required_columns if c not in df.columns]
-        result['ok'] = result['rows'] > 0 and not result['missing_columns']
+        result['ok'] = (allow_empty or result['rows'] > 0) and not result['missing_columns']
     except Exception as exc:
         result['error'] = repr(exc)
 
     checks.append(result)
+
 
 add_check(
     'football-data.co.uk Premier League 24/25',
@@ -77,6 +84,35 @@ add_check(
     'Settled predictions output',
     'output/latest/settled_predictions.parquet',
     required_columns=['prediction_id', 'settlement_status'],
+)
+
+add_check(
+    'CLV results output',
+    'output/latest/clv_results.parquet',
+    required_columns=['prediction_id', 'clv_delta', 'beat_closing_line', 'sample_phase'],
+)
+
+add_check(
+    'Candidate bets output',
+    'output/latest/candidate_bets.parquet',
+    required_columns=['prediction_id', 'probability_band', 'suppression_action', 'rejection_reason'],
+    allow_empty=True,
+)
+
+add_check(
+    'CLV band diagnostics',
+    'output/latest/clv_band_report.csv',
+    required_columns=['probability_band', 'rows', 'avg_clv_delta', 'beat_closing_line_rate'],
+    file_type='csv',
+    allow_empty=True,
+)
+
+add_check(
+    'Signal suppression rules',
+    'output/latest/signal_suppression_rules.csv',
+    required_columns=['rule_type', 'target', 'action', 'reason'],
+    file_type='csv',
+    allow_empty=True,
 )
 
 run_number = os.getenv('GITHUB_RUN_NUMBER', 'local')
