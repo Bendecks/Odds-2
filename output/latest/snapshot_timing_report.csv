@@ -1,3 +1,4 @@
 file,rows,timestamp_column,first_snapshot,last_snapshot
 market_snapshot_20260510_171045.parquet,30,snapshot_created_at_utc,2026-05-10 17:10:45.036026+00:00,2026-05-10 17:10:45.036026+00:00
-market_snapshot_latest.parquet,30,snapshot_created_at_utc,2026-05-10 17:10:45.036026+00:00,2026-05-10 17:10:45.036026+00:00
+market_snapshot_20260510_171423.parquet,30,snapshot_created_at_utc,2026-05-10 17:14:23.506291+00:00,2026-05-10 17:14:23.506291+00:00
+market_snapshot_latest.parquet,30,snapshot_created_at_utc,2026-05-10 17:14:23.506291+00:00,2026-05-10 17:14:23.506291+00:00
