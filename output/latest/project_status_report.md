@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-10T20:44:06.539063+00:00`
-GitHub run: `117` attempt `1`
-GitHub SHA: `9f8872166667e04b6ce880d27e44eea618ad7df2`
+Generated UTC: `2026-05-10T20:57:48.690072+00:00`
+GitHub run: `118` attempt `1`
+GitHub SHA: `938f5a4ee1d8f23e50552f44eb666812e640a684`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -24,15 +24,15 @@ Overall status: `OK`
 # Betting Performance Report
 Readiness: research-only
 Recommendation: NO REAL MONEY - continue research
-Total predictions: 189
-Historical candidate predictions: 86
+Total predictions: 210
+Historical candidate predictions: 91
 Current candidate bets: 1
-Settled predictions: 189
-Wins: 63
-Total ROI units: -1.8
-Average ROI per bet: -0.0095
-Beat closing line rate: 0.4286
-Average CLV delta: -0.7976
+Settled predictions: 210
+Wins: 70
+Total ROI units: -3.45
+Average ROI per bet: -0.0164
+Beat closing line rate: 0.3333
+Average CLV delta: -1.3638
 ## Interpretation
 The model is not ready for real-money betting. Focus remains on CLV improvement, calibration and realistic market snapshots.
 
@@ -42,15 +42,15 @@ The model is not ready for real-money betting. Focus remains on CLV improvement,
 Model state: not_beating_market
 Largest problem: negative_clv
 Recommended focus: improve calibration and snapshots
-Tracked CLV rows: 189
-Settled predictions: 189
+Tracked CLV rows: 21
+Settled predictions: 210
 
 ## daily_betting_card
 
 # Daily Betting Card
 Status: research/paper-test only. No real-money recommendation yet.
 ## Liverpool vs Crystal Palace
-- Date/time: 25/05/2025 2026-05-10 16:00:00
+- Date/time: 25/05/2025 16:00
 - Selection: HOME
 - Market: 1X2
 - Market odds: 2.67
@@ -58,7 +58,7 @@ Status: research/paper-test only. No real-money recommendation yet.
 - Model probability: 0.4344
 - EV: 0.1598
 - Signal strength: 0.2359
-- Prediction ID: 1e63a316578345cf188d
+- Prediction ID: 49985c29d4a6e6f8a3c3
 ## Snapshot summary
 Snapshot rows: 21
 Candidate rows: 1

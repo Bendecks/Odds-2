@@ -27,4 +27,5 @@ market_snapshot_20260510_200644.parquet,30,snapshot_created_at_utc,2026-05-10 20
 market_snapshot_20260510_203548.parquet,30,snapshot_created_at_utc,2026-05-10 20:35:48.008425+00:00,2026-05-10 20:35:48.008425+00:00
 market_snapshot_20260510_204344.parquet,30,snapshot_created_at_utc,2026-05-10 20:43:44.400884+00:00,2026-05-10 20:43:44.400884+00:00
 market_snapshot_20260510_205726.parquet,30,snapshot_created_at_utc,2026-05-10 20:57:26.415398+00:00,2026-05-10 20:57:26.415398+00:00
-market_snapshot_latest.parquet,30,snapshot_created_at_utc,2026-05-10 20:57:26.415398+00:00,2026-05-10 20:57:26.415398+00:00
+market_snapshot_20260510_211009.parquet,30,snapshot_created_at_utc,2026-05-10 21:10:09.189451+00:00,2026-05-10 21:10:09.189451+00:00
+market_snapshot_latest.parquet,30,snapshot_created_at_utc,2026-05-10 21:10:09.189451+00:00,2026-05-10 21:10:09.189451+00:00

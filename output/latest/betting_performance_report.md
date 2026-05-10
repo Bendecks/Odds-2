@@ -3,15 +3,15 @@
 Readiness: research-only
 Recommendation: NO REAL MONEY - continue research
 
-Total predictions: 189
-Historical candidate predictions: 86
+Total predictions: 210
+Historical candidate predictions: 91
 Current candidate bets: 1
-Settled predictions: 189
-Wins: 63
-Total ROI units: -1.8
-Average ROI per bet: -0.0095
-Beat closing line rate: 0.4286
-Average CLV delta: -0.7976
+Settled predictions: 210
+Wins: 70
+Total ROI units: -3.45
+Average ROI per bet: -0.0164
+Beat closing line rate: 0.3333
+Average CLV delta: -1.3638
 
 ## Interpretation
 

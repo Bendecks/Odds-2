@@ -1,8 +1,8 @@
 # Bankroll Simulation Report
 
 Starting bankroll: 100.0
-Ending bankroll: 98.2
-Profit units: -1.8
-ROI percent: -1.8
-Max drawdown: 10.85
-Settled bets: 189
+Ending bankroll: 96.55
+Profit units: -3.45
+ROI percent: -3.45
+Max drawdown: 11.81
+Settled bets: 210

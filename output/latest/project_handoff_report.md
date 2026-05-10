@@ -1,6 +1,6 @@
 # Project Handoff Report
 
-Generated UTC: 2026-05-10T20:57:38.898415+00:00
+Generated UTC: 2026-05-10T21:10:21.213836+00:00
 
 ## Core system status
 
@@ -9,7 +9,7 @@ Generated UTC: 2026-05-10T20:57:38.898415+00:00
 - clv_trend_report.csv: rows=189, avg_clv_delta=-0.7976, beat_closing_line_rate=0.4286, positive_clv_rows=81, negative_clv_rows=108
 - probability_band_report.csv: band=0.30-0.40, bets=11, actual_win_rate=0.3636, avg_probability=0.3447, avg_roi=0.1727
 - model_adjustment_recommendation.csv: flags=6, recommendations=4, top_recommendation=Reduce confidence in favorites and add extra shrinkage above 0.50 probability.
-- sample_reliability_report.csv: settled_predictions=189, reliability_level=low, recommended_usage=paper_tracking_only
+- sample_reliability_report.csv: settled_predictions=210, reliability_level=low, recommended_usage=paper_tracking_only
 
 ## Current strategic focus
 
