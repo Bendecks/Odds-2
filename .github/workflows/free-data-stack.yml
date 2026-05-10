@@ -9,6 +9,7 @@ on:
       - 'scripts/**'
       - 'requirements.txt'
       - '.github/workflows/free-data-stack.yml'
+      - 'DEVLOG.md'
   schedule:
     - cron: '0 */12 * * *'
 
@@ -42,6 +43,9 @@ jobs:
       - name: Build fair odds scaffold
         run: python scripts/build_fair_odds.py
 
+      - name: Validate free sources
+        run: python scripts/validate_free_sources.py
+
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
@@ -49,3 +53,4 @@ jobs:
           path: |
             data/raw/
             data/model/
+            output/latest/
