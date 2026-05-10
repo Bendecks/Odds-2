@@ -83,6 +83,9 @@ jobs:
       - name: Calculate CLV
         run: python scripts/calculate_clv.py
 
+      - name: Build CLV band diagnostics
+        run: python scripts/build_clv_band_report.py
+
       - name: Build performance analytics
         run: python scripts/build_performance_report.py
 
