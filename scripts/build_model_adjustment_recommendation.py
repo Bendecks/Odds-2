@@ -6,6 +6,7 @@ output_dir = Path('output/latest')
 prob_path = output_dir / 'probability_band_report.csv'
 league_path = output_dir / 'league_performance_report.csv'
 clv_path = output_dir / 'clv_trend_report.csv'
+clv_band_path = output_dir / 'clv_band_report.csv'
 
 markdown = [
     '# Model Adjustment Recommendation',
@@ -14,6 +15,7 @@ markdown = [
 
 recommendations = []
 flags = []
+suppression_targets = []
 
 
 def safe_read(path: Path) -> pd.DataFrame:
@@ -23,6 +25,7 @@ def safe_read(path: Path) -> pd.DataFrame:
         return pd.read_csv(path)
     except Exception:
         return pd.DataFrame()
+
 
 prob = safe_read(prob_path)
 if len(prob):
@@ -36,6 +39,7 @@ if len(prob):
     if len(high_prob) and high_prob['avg_roi'].mean() < 0:
         flags.append('High probability bands are currently negative ROI.')
         recommendations.append('Reduce confidence in favorites and add extra shrinkage above 0.50 probability.')
+        suppression_targets.append('probability_above_0.50')
 
     if len(low_prob) and low_prob['avg_roi'].mean() > 0:
         flags.append('Lower probability bands are currently performing better.')
@@ -46,6 +50,28 @@ if len(prob):
     if prob['calibration_gap'].mean() > 0.08:
         flags.append('Probability calibration gap is material.')
         recommendations.append('Prioritize probability calibration before adding complex model features.')
+
+clv_band = safe_read(clv_band_path)
+if len(clv_band):
+    clv_band['avg_clv_delta'] = pd.to_numeric(clv_band.get('avg_clv_delta'), errors='coerce')
+    clv_band['beat_closing_line_rate'] = pd.to_numeric(clv_band.get('beat_closing_line_rate'), errors='coerce')
+
+    toxic_bands = clv_band[
+        (clv_band['avg_clv_delta'] < -0.25)
+        | (clv_band['beat_closing_line_rate'] < 0.40)
+    ]
+
+    for _, row in toxic_bands.iterrows():
+        band = row.get('probability_band')
+        flags.append(
+            f'Toxic CLV probability band detected: {band} '
+            f'clv={row.get("avg_clv_delta")}, '
+            f'beat_rate={row.get("beat_closing_line_rate")}'
+        )
+        suppression_targets.append(str(band))
+
+    if len(toxic_bands):
+        recommendations.append('Suppress or heavily downweight toxic probability bands during candidate selection.')
 
 league = safe_read(league_path)
 if len(league):
@@ -61,9 +87,15 @@ if len(league):
 clv = safe_read(clv_path)
 if len(clv):
     beat_rate = clv.iloc[0].get('beat_closing_line_rate')
+    avg_clv = clv.iloc[0].get('avg_clv_delta')
+
     if pd.notna(beat_rate) and float(beat_rate) < 0.50:
         flags.append(f'CLV beat rate below 50%: {round(float(beat_rate),4)}')
         recommendations.append('Treat all recommendations as paper-tracking until CLV improves above neutral.')
+
+    if pd.notna(avg_clv) and float(avg_clv) < -0.25:
+        flags.append(f'CLV trend materially negative: {round(float(avg_clv),4)}')
+        recommendations.append('Reduce EV aggressiveness and tighten market-alignment filters.')
 
 if not recommendations:
     recommendations.append('Continue collecting data before changing model behavior.')
@@ -76,9 +108,17 @@ markdown.extend(['', '## Recommended model changes', ''])
 for rec in dict.fromkeys(recommendations):
     markdown.append(f'- {rec}')
 
+markdown.extend(['', '## Suggested suppression targets', ''])
+if suppression_targets:
+    for target in dict.fromkeys(suppression_targets):
+        markdown.append(f'- {target}')
+else:
+    markdown.append('- none')
+
 summary = {
     'flags': len(flags),
     'recommendations': len(set(recommendations)),
+    'suppression_targets': len(set(suppression_targets)),
     'top_recommendation': list(dict.fromkeys(recommendations))[0],
 }
 
