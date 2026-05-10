@@ -6,6 +6,10 @@ output_dir = Path('output/latest')
 
 report_files = {
     'free_data_status': output_dir / 'free_data_status.md',
+    'forward_input_status': output_dir / 'forward_input_status.md',
+    'upcoming_fixtures': output_dir / 'upcoming_fixtures.md',
+    'manual_odds_template': output_dir / 'manual_odds_template.md',
+    'manual_forward_snapshots': output_dir / 'manual_forward_snapshots.md',
     'betting_performance': output_dir / 'betting_performance_report.md',
     'model_health': output_dir / 'model_health_report.md',
     'daily_betting_card': output_dir / 'daily_betting_card.md',
@@ -49,6 +53,10 @@ for label, path in report_files.items():
 status = {
     'reports_checked': len(report_files),
     'reports_available': sum(1 for path in report_files.values() if path.exists()),
+    'includes_forward_input_status': (output_dir / 'forward_input_status.md').exists(),
+    'includes_upcoming_fixtures': (output_dir / 'upcoming_fixtures.md').exists(),
+    'includes_manual_odds_template': (output_dir / 'manual_odds_template.md').exists(),
+    'includes_manual_forward_snapshots': (output_dir / 'manual_forward_snapshots.md').exists(),
     'includes_paper_test_picks': (output_dir / 'paper_test_picks.md').exists(),
     'includes_probability_calibration_layer': (output_dir / 'probability_calibration_layer.md').exists(),
     'includes_probability_calibration_impact': (output_dir / 'probability_calibration_impact_report.md').exists(),
