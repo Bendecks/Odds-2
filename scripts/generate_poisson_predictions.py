@@ -25,11 +25,42 @@ league_home_avg = matches['FTHG'].mean()
 league_away_avg = matches['FTAG'].mean()
 
 # Reduced home advantage to avoid systematic overconfidence.
-home_advantage_multiplier = 1 + ((league_home_avg / max(league_away_avg, 0.01)) - 1) * 0.35
+home_advantage_multiplier = 1 + ((league_home_avg / max(league_away_avg, 0.01)) - 1) * 0.30
 
 latest_round = matches.tail(10).copy()
 
 predictions = []
+
+
+def calibrate_three_way_probabilities(home_win: float, draw: float, away_win: float) -> tuple[float, float, float]:
+    """Apply conservative probability calibration without relying on future results.
+
+    The current system is research-only with negative CLV and evidence of overconfidence.
+    This transform deliberately reduces extreme 1X2 views before EV calculation.
+    """
+    probs = pd.Series([home_win, draw, away_win], dtype='float64')
+
+    # Base shrinkage toward a neutral 1X2 prior.
+    neutral = pd.Series([1 / 3, 1 / 3, 1 / 3], dtype='float64')
+    probs = (probs * 0.68) + (neutral * 0.32)
+
+    # Extra compression for any selection above 0.50. This directly addresses the
+    # probability-band diagnostics where the highest band is performing poorly.
+    max_idx = probs.idxmax()
+    if probs.iloc[max_idx] > 0.50:
+        excess = probs.iloc[max_idx] - 0.50
+        reduction = excess * 0.55
+        probs.iloc[max_idx] -= reduction
+        other_idx = [i for i in probs.index if i != max_idx]
+        probs.iloc[other_idx] += reduction / 2
+
+    # Hard guardrail: no current probability should imply more certainty than the
+    # diagnostics support. Renormalise after clipping.
+    probs = probs.clip(lower=0.18, upper=0.54)
+    probs = probs / probs.sum()
+
+    return tuple(probs.tolist())
+
 
 for _, row in latest_round.iterrows():
     home = mappings.get(row['HomeTeam'], row['HomeTeam'])
@@ -43,27 +74,27 @@ for _, row in latest_round.iterrows():
 
     # More conservative weighting.
     home_attack = (
-        home_row['home_attack_strength'] * 0.4
-        + home_row['recent_attack_strength'] * 0.3
-        + 0.3
+        home_row['home_attack_strength'] * 0.35
+        + home_row['recent_attack_strength'] * 0.25
+        + 0.40
     )
 
     away_attack = (
-        away_row['away_attack_strength'] * 0.4
-        + away_row['recent_attack_strength'] * 0.3
-        + 0.3
+        away_row['away_attack_strength'] * 0.35
+        + away_row['recent_attack_strength'] * 0.25
+        + 0.40
     )
 
     home_defense = (
-        home_row['home_defense_strength'] * 0.4
-        + home_row['recent_defense_strength'] * 0.3
-        + 0.3
+        home_row['home_defense_strength'] * 0.35
+        + home_row['recent_defense_strength'] * 0.25
+        + 0.40
     )
 
     away_defense = (
-        away_row['away_defense_strength'] * 0.4
-        + away_row['recent_defense_strength'] * 0.3
-        + 0.3
+        away_row['away_defense_strength'] * 0.35
+        + away_row['recent_defense_strength'] * 0.25
+        + 0.40
     )
 
     expected_home_goals = (
@@ -80,11 +111,11 @@ for _, row in latest_round.iterrows():
     )
 
     # Stronger shrinkage toward league averages.
-    expected_home_goals = (expected_home_goals * 0.65) + (league_home_avg * 0.35)
-    expected_away_goals = (expected_away_goals * 0.65) + (league_away_avg * 0.35)
+    expected_home_goals = (expected_home_goals * 0.60) + (league_home_avg * 0.40)
+    expected_away_goals = (expected_away_goals * 0.60) + (league_away_avg * 0.40)
 
-    expected_home_goals = max(min(expected_home_goals, 3.2), 0.45)
-    expected_away_goals = max(min(expected_away_goals, 2.8), 0.35)
+    expected_home_goals = max(min(expected_home_goals, 3.0), 0.55)
+    expected_away_goals = max(min(expected_away_goals, 2.6), 0.45)
 
     home_win = 0
     draw = 0
@@ -108,16 +139,7 @@ for _, row in latest_round.iterrows():
         draw /= normalization
         away_win /= normalization
 
-    # Final probability shrinkage toward efficient-market assumptions.
-    home_win = (home_win * 0.75) + (0.33 * 0.25)
-    draw = (draw * 0.75) + (0.33 * 0.25)
-    away_win = (away_win * 0.75) + (0.33 * 0.25)
-
-    total = home_win + draw + away_win
-
-    home_win /= total
-    draw /= total
-    away_win /= total
+    home_win, draw, away_win = calibrate_three_way_probabilities(home_win, draw, away_win)
 
     predictions.append({
         'home_team': home,
@@ -139,4 +161,4 @@ predictions_df.to_parquet(output_dir / 'poisson_predictions.parquet', index=Fals
 predictions_df.to_csv(output_dir / 'poisson_predictions.csv', index=False)
 
 print(predictions_df.head())
-print(f'Generated {len(predictions_df)} calibrated Poisson predictions')
+print(f'Generated {len(predictions_df)} conservatively calibrated Poisson predictions')
