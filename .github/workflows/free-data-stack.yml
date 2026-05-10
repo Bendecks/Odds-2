@@ -95,6 +95,9 @@ jobs:
       - name: Build market sanity diagnostics
         run: python scripts/build_market_sanity_report.py
 
+      - name: Build market proxy quality diagnostics
+        run: python scripts/build_market_proxy_quality_report.py
+
       - name: Build dataset quality diagnostics
         run: python scripts/build_dataset_quality_report.py
 
