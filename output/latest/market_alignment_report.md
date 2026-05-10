@@ -1,7 +1,7 @@
 # Market Alignment Report
 
 Total usable rows: 21
-Average alignment gap: 0.0946
-Median alignment gap: 0.0600
+Average alignment gap: 0.1049
+Median alignment gap: 0.0928
 
-Market alignment status: good_alignment
+Market alignment status: moderate_alignment

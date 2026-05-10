@@ -2,5 +2,5 @@
 
 ## Recommended actions
 
-- Model alignment acceptable for controlled experiments.
+- Paper-tracking recommended before real usage.
 - No candidate bets currently pass filtering.

@@ -1,0 +1,22 @@
+home_team,away_team,probability_column,raw_probability,probability_band,calibration_action,multiplier
+Bournemouth,Leicester,home_win_probability,0.4554,0.45-0.50,none,1.0
+Bournemouth,Leicester,draw_probability,0.262,0.00-0.35,strong_shrink,0.88
+Bournemouth,Leicester,away_win_probability,0.2826,0.00-0.35,strong_shrink,0.88
+Fulham,Man City,home_win_probability,0.3167,0.00-0.35,strong_shrink,0.88
+Fulham,Man City,draw_probability,0.2728,0.00-0.35,strong_shrink,0.88
+Fulham,Man City,away_win_probability,0.4105,0.35-0.45,monitor_hold,1.01
+Ipswich,West Ham,home_win_probability,0.3126,0.00-0.35,strong_shrink,0.88
+Ipswich,West Ham,draw_probability,0.2681,0.00-0.35,strong_shrink,0.88
+Ipswich,West Ham,away_win_probability,0.4193,0.35-0.45,monitor_hold,1.01
+Liverpool,Crystal Palace,home_win_probability,0.4344,0.35-0.45,monitor_hold,1.01
+Liverpool,Crystal Palace,draw_probability,0.2634,0.00-0.35,strong_shrink,0.88
+Liverpool,Crystal Palace,away_win_probability,0.3023,0.00-0.35,strong_shrink,0.88
+Newcastle,Everton,home_win_probability,0.3939,0.35-0.45,monitor_hold,1.01
+Newcastle,Everton,draw_probability,0.2797,0.00-0.35,strong_shrink,0.88
+Newcastle,Everton,away_win_probability,0.3264,0.00-0.35,strong_shrink,0.88
+Southampton,Arsenal,home_win_probability,0.2413,0.00-0.35,strong_shrink,0.88
+Southampton,Arsenal,draw_probability,0.2525,0.00-0.35,strong_shrink,0.88
+Southampton,Arsenal,away_win_probability,0.5062,0.50-0.55,none,1.0
+Tottenham,Brighton,home_win_probability,0.3609,0.35-0.45,monitor_hold,1.01
+Tottenham,Brighton,draw_probability,0.2568,0.00-0.35,strong_shrink,0.88
+Tottenham,Brighton,away_win_probability,0.3822,0.35-0.45,monitor_hold,1.01

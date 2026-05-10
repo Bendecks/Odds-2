@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-10T21:59:02.075840+00:00`
-GitHub run: `143` attempt `1`
-GitHub SHA: `781546f5a26e3b504a24069a47aa4f6dc8a77dac`
+Generated UTC: `2026-05-10T22:02:29.265029+00:00`
+GitHub run: `144` attempt `1`
+GitHub SHA: `3624c6f62da6f104fe3521f00e268c7cc8d7b465`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -129,9 +129,9 @@ Separates historical proxy research from paper forward-testing diagnostics.
 
 # Market Alignment Report
 Total usable rows: 21
-Average alignment gap: 0.0946
-Median alignment gap: 0.0600
-Market alignment status: good_alignment
+Average alignment gap: 0.1049
+Median alignment gap: 0.0928
+Market alignment status: moderate_alignment
 
 ## market_proxy_quality
 
@@ -148,9 +148,9 @@ Market proxy quality: reasonable_market_proxy
 # Probability Distribution Report
 Count: 21
 Mean probability: 0.3333
-Max probability: 0.5062
-Min probability: 0.2413
-Std probability: 0.0778
+Max probability: 0.5381
+Min probability: 0.2257
+Std probability: 0.0996
 Probability distribution is within conservative guardrails.
 
 ## historical_coverage
