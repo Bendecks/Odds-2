@@ -5,15 +5,16 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-10T23:00:47.710891+00:00`
-GitHub run: `172` attempt `1`
-GitHub SHA: `73906b40091caa5332aeece72b63fe62da991667`
+Generated UTC: `2026-05-10T23:06:55.419890+00:00`
+GitHub run: `173` attempt `1`
+GitHub SHA: `099bb74d46edeb4dae70456645f022802e017ee5`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
 | football-data.co.uk Premier League 24/25 | True | 380 |  |  |
 | Upcoming fixtures | True | 1 |  |  |
 | Manual odds template | True | 1 |  |  |
+| Manual forward snapshots | True | 0 |  |  |
 | ClubElo latest snapshot | True | 630 |  |  |
 | Basic team strength model | True | 119 |  |  |
 | Poisson predictions | True | 7 |  |  |
