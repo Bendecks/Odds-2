@@ -113,6 +113,12 @@ jobs:
       - name: Build sample reliability diagnostics
         run: python scripts/build_sample_reliability_report.py
 
+      - name: Build forward test readiness diagnostics
+        run: python scripts/build_forward_test_readiness_report.py
+
+      - name: Build project handoff diagnostics
+        run: python scripts/build_project_handoff_report.py
+
       - name: Build model health diagnostics
         run: python scripts/build_model_health_report.py
 
@@ -144,7 +150,7 @@ jobs:
         run: python scripts/build_system_readiness_report.py
 
       - name: Build calibration action plan
-        run: python scripts/build_calibration_action_plan.py
+        run: python scripts/build_calibration_actionPlan.py
 
       - name: Build snapshot timing diagnostics
         run: python scripts/build_snapshot_timing_report.py
