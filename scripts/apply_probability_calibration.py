@@ -48,14 +48,17 @@ def load_band_multipliers() -> dict:
         action = 'none'
 
         if rows >= 5 and pd.notna(avg_clv) and float(avg_clv) < -0.75:
-            multiplier = 0.88
-            action = 'strong_shrink'
+            multiplier = 0.82
+            action = 'very_strong_shrink'
         elif rows >= 5 and pd.notna(avg_clv) and float(avg_clv) < -0.25:
+            multiplier = 0.92
+            action = 'strong_shrink'
+        elif rows >= 5 and pd.notna(beat_rate) and float(beat_rate) < 0.40:
             multiplier = 0.94
             action = 'mild_shrink'
-        elif rows >= 5 and pd.notna(beat_rate) and float(beat_rate) < 0.40:
-            multiplier = 0.95
-            action = 'mild_shrink'
+        elif rows >= 3 and pd.notna(avg_clv) and float(avg_clv) < -0.25 and pd.notna(beat_rate) and float(beat_rate) < 0.50:
+            multiplier = 0.96
+            action = 'small_sample_shrink'
         elif rows >= 10 and pd.notna(beat_rate) and float(beat_rate) >= 0.55 and pd.notna(avg_clv) and float(avg_clv) > -0.10:
             multiplier = 1.01
             action = 'monitor_hold'
