@@ -5,7 +5,7 @@ Recommendation: NO REAL MONEY - continue research
 
 Total predictions: 210
 Historical candidate predictions: 91
-Current candidate bets: 1
+Current candidate bets: 0
 Settled predictions: 210
 Wins: 70
 Total ROI units: -3.45

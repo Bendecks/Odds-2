@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-10T23:10:02.637947+00:00`
-GitHub run: `175` attempt `1`
-GitHub SHA: `6c35a793e02f135c51796e318177c2f659b3c780`
+Generated UTC: `2026-05-10T23:19:46.704859+00:00`
+GitHub run: `177` attempt `1`
+GitHub SHA: `391c5bf09366f1eae9abcfaea0dfa651b4b9aa0c`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -75,7 +75,7 @@ Readiness: research-only
 Recommendation: NO REAL MONEY - continue research
 Total predictions: 210
 Historical candidate predictions: 91
-Current candidate bets: 1
+Current candidate bets: 0
 Settled predictions: 210
 Wins: 70
 Total ROI units: -3.45
@@ -101,22 +101,12 @@ Status: research/paper-test only. No real-money recommendation yet.
 Candidate bets remain the stricter real-money-gated list.
 Paper-test picks are observation-only and must not be staked.
 ## Candidate Bets
-### Fulham vs Man City
-- Date/time: 25/05/2025 2026-05-10 16:00:00
-- League/phase: premier_league / historical_proxy_research
-- Selection: AWAY
-- Market odds: 2.3
-- Fair odds: 2.17
-- Model probability: 0.4617
-- EV: 0.0619
-- Suppression action: none
-- Calibration risk: normal
-- Prediction ID: a79498dae79d1c08828e
+No qualifying candidate bets today.
 ## Paper-Test Picks
 No paper-test picks passed the loose observation filter today.
 ## Snapshot summary
 Snapshot rows: 21
-Candidate rows: 1
+Candidate rows: 0
 Paper-test rows: 0
 Active suppression rules: 2
 
