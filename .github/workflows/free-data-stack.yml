@@ -62,6 +62,9 @@ jobs:
       - name: Apply probability calibration
         run: python scripts/apply_probability_calibration.py
 
+      - name: Build probability calibration impact diagnostics
+        run: python scripts/build_probability_calibration_impact_report.py
+
       - name: Calculate expected value
         run: python scripts/calculate_ev.py
 
