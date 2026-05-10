@@ -137,6 +137,9 @@ jobs:
       - name: Build human action report
         run: python scripts/build_human_action_report.py
 
+      - name: Build Gemini AI review
+        run: python scripts/build_gemini_ai_review.py
+
       - name: Validate free sources
         run: python scripts/validate_free_sources.py
 
