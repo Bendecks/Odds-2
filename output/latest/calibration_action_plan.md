@@ -3,8 +3,8 @@
 ## Current calibration issues
 
 - Market alignment is moderate: gap=0.0946
-- CLV beat rate below target: 0.3333
-- Average CLV delta: -1.3638
+- CLV beat rate below target: 0.419
+- Average CLV delta: -0.8542
 
 ## Next actions
 

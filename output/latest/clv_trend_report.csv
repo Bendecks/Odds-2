@@ -1,2 +1,2 @@
 rows,avg_clv_delta,beat_closing_line_rate,positive_clv_rows,negative_clv_rows,interpretation
-21,-1.3638,0.3333,7,14,negative_clv_signal
+210,-0.8542,0.419,88,122,negative_clv_signal

@@ -1,9 +1,9 @@
 # CLV Trend Report
 
-Rows: 21
-Average CLV delta: -1.3638
-Beat closing line rate: 0.3333
-Positive CLV rows: 7
-Negative CLV rows: 14
+Rows: 210
+Average CLV delta: -0.8542
+Beat closing line rate: 0.419
+Positive CLV rows: 88
+Negative CLV rows: 122
 
 CLV interpretation: negative_clv_signal

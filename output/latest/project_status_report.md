@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-10T20:57:48.690072+00:00`
-GitHub run: `118` attempt `1`
-GitHub SHA: `938f5a4ee1d8f23e50552f44eb666812e640a684`
+Generated UTC: `2026-05-10T21:10:30.625019+00:00`
+GitHub run: `119` attempt `1`
+GitHub SHA: `2a9617cda798498ffbd74ff58b9ef3f9b733aa91`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -16,8 +16,8 @@ Overall status: `OK`
 | Basic team strength model | True | 119 |  |  |
 | Poisson predictions | True | 7 |  |  |
 | Expected value calculations | True | 7 |  |  |
-| Prediction log output | True | 189 |  |  |
-| Settled predictions output | True | 189 |  |  |
+| Prediction log output | True | 21 |  |  |
+| Settled predictions output | True | 210 |  |  |
 
 ## betting_performance
 
@@ -31,8 +31,8 @@ Settled predictions: 210
 Wins: 70
 Total ROI units: -3.45
 Average ROI per bet: -0.0164
-Beat closing line rate: 0.3333
-Average CLV delta: -1.3638
+Beat closing line rate: 0.419
+Average CLV delta: -0.8542
 ## Interpretation
 The model is not ready for real-money betting. Focus remains on CLV improvement, calibration and realistic market snapshots.
 
@@ -42,7 +42,7 @@ The model is not ready for real-money betting. Focus remains on CLV improvement,
 Model state: not_beating_market
 Largest problem: negative_clv
 Recommended focus: improve calibration and snapshots
-Tracked CLV rows: 21
+Tracked CLV rows: 210
 Settled predictions: 210
 
 ## daily_betting_card
@@ -50,7 +50,7 @@ Settled predictions: 210
 # Daily Betting Card
 Status: research/paper-test only. No real-money recommendation yet.
 ## Liverpool vs Crystal Palace
-- Date/time: 25/05/2025 16:00
+- Date/time: 25/05/2025 2026-05-10 16:00:00
 - Selection: HOME
 - Market: 1X2
 - Market odds: 2.67

@@ -1,22 +1,211 @@
-prediction_id,home_team,away_team,selection,opening_odds,closing_odds,clv_delta,beat_closing_line
-5e14a0e07921dbe57977,Bournemouth,Leicester,home,1.44,1.34,0.1,True
-d4c7d95ddd46c8f821b2,Bournemouth,Leicester,draw,4.95,5.67,-0.72,False
-3a51a0ea316953a9a15a,Bournemouth,Leicester,away,7.43,9.01,-1.58,False
-c14387c02a2e84ec8f8d,Fulham,Man City,home,3.16,6.32,-3.16,False
-ba5a5a8311fcce0e29c7,Fulham,Man City,draw,3.62,4.57,-0.95,False
-a79498dae79d1c08828e,Fulham,Man City,away,2.3,1.52,0.78,True
-884f4e22e71c0d5427b3,Ipswich,West Ham,home,2.85,3.28,-0.43,False
-4c3a7c89e126f3623e1e,Ipswich,West Ham,draw,2.76,3.63,-0.87,False
-20b43f013272dfdba143,Ipswich,West Ham,away,3.19,2.23,0.96,True
-49985c29d4a6e6f8a3c3,Liverpool,Crystal Palace,home,2.67,1.38,1.29,True
-3ce3e7250b47075d9a06,Liverpool,Crystal Palace,draw,3.18,6.04,-2.86,False
-52e0caf2881fa2589c17,Liverpool,Crystal Palace,away,2.95,7.14,-4.19,False
-83d0a4717b0a32774c62,Newcastle,Everton,home,5.32,1.28,4.04,True
-0f9bc35e6ed838a7d568,Newcastle,Everton,draw,3.86,6.19,-2.33,False
-b88c4bcea85ef4c47f50,Newcastle,Everton,away,1.71,10.36,-8.65,False
-6c3b759bdd0f6fe4fa93,Southampton,Arsenal,home,3.14,11.73,-8.59,False
-6877c3f6f7f796674df6,Southampton,Arsenal,draw,3.21,6.54,-3.33,False
-78a30856b1e30277940a,Southampton,Arsenal,away,2.52,1.25,1.27,True
-d94828aaebf5abde81cb,Tottenham,Brighton,home,1.82,3.83,-2.01,False
-9d2f80087abbcb11ccf5,Tottenham,Brighton,draw,3.56,4.06,-0.5,False
-78247b9e81bc5e54d8c5,Tottenham,Brighton,away,5.01,1.92,3.09,True
+prediction_id,home_team,away_team,league,season,sample_phase,selection,opening_probability,opening_ev,opening_odds,closing_odds,clv_delta,beat_closing_line
+f1c3952fa3a03128902c,Bournemouth,Leicester,,,,home,,-0.7018,1.4,1.34,0.06,True
+b6a87338be5ccbb90695,Bournemouth,Leicester,,,,draw,,0.6296,6.0,5.67,0.33,True
+137de8a6e92bec9433cd,Bournemouth,Leicester,,,,away,,1.9428,5.75,9.01,-3.26,False
+72b5509a7adb367d068c,Fulham,Man City,,,,home,,0.7142000000000001,4.33,6.32,-1.99,False
+8211b5b58374a23e04c2,Fulham,Man City,,,,draw,,0.029400000000000003,4.2,4.57,-0.37,False
+fb0e898c60571c8583bd,Fulham,Man City,,,,away,,-0.4038,1.7000000000000002,1.52,0.18,True
+b78506735ef11f04ab44,Ipswich,West Ham,,,,home,,-0.7815000000000001,1.33,3.28,-1.95,False
+c726c0e8249a21cc8e46,Ipswich,West Ham,,,,draw,,0.49710000000000004,5.5,3.63,1.87,True
+04a8c5cd7e78af0e3de8,Ipswich,West Ham,,,,away,,3.76,8.5,2.23,6.27,True
+51e3869b718ed76bd37b,Liverpool,Crystal Palace,,,,home,,0.5873,3.0,1.38,1.62,True
+3e98cd446358f70b5af9,Liverpool,Crystal Palace,,,,draw,,-0.23950000000000002,3.75,6.04,-2.29,False
+5bc904e8a7244a734762,Liverpool,Crystal Palace,,,,away,,-0.4733,2.2,7.14,-4.94,False
+e082201f130006e80d1b,Newcastle,Everton,,,,home,,1.7939,8.5,1.28,7.22,True
+dab0d48d0da846ec115e,Newcastle,Everton,,,,draw,,0.5528000000000001,6.0,6.19,-0.19,False
+029a8aa3111dca228d91,Newcastle,Everton,,,,away,,-0.47050000000000003,1.3,10.36,-9.06,False
+39e6a7c20d4484ad96b6,Southampton,Arsenal,,,,home,,-0.0437,4.2,11.73,-7.53,False
+1c3ec7ee5637b3be1a7a,Southampton,Arsenal,,,,draw,,0.1726,4.33,6.54,-2.21,False
+ab6ba78a4a5355253728,Southampton,Arsenal,,,,away,,-0.1537,1.7000000000000002,1.25,0.45,True
+f6207dc1034cd563e93d,Tottenham,Brighton,,,,home,,0.5206000000000001,2.7,3.83,-1.13,False
+8fea144f2a59232f7897,Tottenham,Brighton,,,,draw,,-0.30960000000000004,3.7,4.06,-0.36,False
+b54e69c02f2753c1e118,Tottenham,Brighton,,,,away,,-0.49110000000000004,2.45,1.92,0.53,True
+25853abbb5d6f3cd0440,Bournemouth,Leicester,,,,home,,-0.7018,1.4,1.34,0.06,True
+f85afc7d63637ba7d39e,Bournemouth,Leicester,,,,draw,,0.6296,6.0,5.67,0.33,True
+066852f8eb603216b0a5,Bournemouth,Leicester,,,,away,,1.9428,5.75,9.01,-3.26,False
+1b02824343e39e6e3f7e,Fulham,Man City,,,,home,,0.7142000000000001,4.33,6.32,-1.99,False
+7bf6480e68170c127120,Fulham,Man City,,,,draw,,0.029400000000000003,4.2,4.57,-0.37,False
+792d3973113f8267b2c7,Fulham,Man City,,,,away,,-0.4038,1.7000000000000002,1.52,0.18,True
+e47c603f5a45d8b22e64,Ipswich,West Ham,,,,home,,-0.7815000000000001,1.33,3.28,-1.95,False
+775080e421bb8d51d076,Ipswich,West Ham,,,,draw,,0.49710000000000004,5.5,3.63,1.87,True
+10a5e60fc9e193ab499f,Ipswich,West Ham,,,,away,,3.76,8.5,2.23,6.27,True
+f4c67d4429bffd20f4e6,Liverpool,Crystal Palace,,,,home,,0.5873,3.0,1.38,1.62,True
+c478e9df9e15af113f7f,Liverpool,Crystal Palace,,,,draw,,-0.23950000000000002,3.75,6.04,-2.29,False
+3be4b3a5afa4e570d75d,Liverpool,Crystal Palace,,,,away,,-0.4733,2.2,7.14,-4.94,False
+a0b8000ebc17deb6459b,Newcastle,Everton,,,,home,,1.7939,8.5,1.28,7.22,True
+3a19fd72c2debc4ce0c2,Newcastle,Everton,,,,draw,,0.5528000000000001,6.0,6.19,-0.19,False
+98041b40a7c920bb039d,Newcastle,Everton,,,,away,,-0.47050000000000003,1.3,10.36,-9.06,False
+4d9fecd6ea242a41886c,Southampton,Arsenal,,,,home,,-0.0437,4.2,11.73,-7.53,False
+53bce6693bafab1c92ea,Southampton,Arsenal,,,,draw,,0.1726,4.33,6.54,-2.21,False
+8f0e52941b73cbcade6a,Southampton,Arsenal,,,,away,,-0.1537,1.7000000000000002,1.25,0.45,True
+cd6fd45b5ff9f68ea16a,Tottenham,Brighton,,,,home,,0.5206000000000001,2.7,3.83,-1.13,False
+c0976fa8763bfb412049,Tottenham,Brighton,,,,draw,,-0.30960000000000004,3.7,4.06,-0.36,False
+89ac8cae73fddce76d66,Tottenham,Brighton,,,,away,,-0.49110000000000004,2.45,1.92,0.53,True
+a3d985e02b9c0846f8ed,Bournemouth,Leicester,,,,home,,-0.7018,1.4,1.34,0.06,True
+6459977983d184611c28,Bournemouth,Leicester,,,,draw,,0.6296,6.0,5.67,0.33,True
+d675b43751aeed2fb5bd,Bournemouth,Leicester,,,,away,,1.9428,5.75,9.01,-3.26,False
+d5bf98828dc79e4b768b,Fulham,Man City,,,,home,,0.7142000000000001,4.33,6.32,-1.99,False
+94ab6c286f75cfd3453d,Fulham,Man City,,,,draw,,0.029400000000000003,4.2,4.57,-0.37,False
+37df3ffcf78a6503d1f5,Fulham,Man City,,,,away,,-0.4038,1.7000000000000002,1.52,0.18,True
+a39a9ccd8c154d1f168b,Ipswich,West Ham,,,,home,,-0.7815000000000001,1.33,3.28,-1.95,False
+1f19c0eb49f13d8bae68,Ipswich,West Ham,,,,draw,,0.49710000000000004,5.5,3.63,1.87,True
+6e25f9d74c1079e7257d,Ipswich,West Ham,,,,away,,3.76,8.5,2.23,6.27,True
+db587e09fa0299e7f879,Liverpool,Crystal Palace,,,,home,,0.5873,3.0,1.38,1.62,True
+7b037863917d86822bd7,Liverpool,Crystal Palace,,,,draw,,-0.23950000000000002,3.75,6.04,-2.29,False
+b44c9e0725e891df3176,Liverpool,Crystal Palace,,,,away,,-0.4733,2.2,7.14,-4.94,False
+67e3c0a6aa519759e713,Newcastle,Everton,,,,home,,1.7939,8.5,1.28,7.22,True
+9715a491c349fdeff6a0,Newcastle,Everton,,,,draw,,0.5528000000000001,6.0,6.19,-0.19,False
+7eedf222ca85f3a2c790,Newcastle,Everton,,,,away,,-0.47050000000000003,1.3,10.36,-9.06,False
+b1903b76e8a73e0ece9e,Southampton,Arsenal,,,,home,,-0.0437,4.2,11.73,-7.53,False
+154a27ef87e3fc04d0dc,Southampton,Arsenal,,,,draw,,0.1726,4.33,6.54,-2.21,False
+ab738c0a1ef770c575e2,Southampton,Arsenal,,,,away,,-0.1537,1.7000000000000002,1.25,0.45,True
+6e2b91d27d435206cfb4,Tottenham,Brighton,,,,home,,0.5206000000000001,2.7,3.83,-1.13,False
+0f51702ffc1081d036cf,Tottenham,Brighton,,,,draw,,-0.30960000000000004,3.7,4.06,-0.36,False
+c5c9604ae97764ea5d64,Tottenham,Brighton,,,,away,,-0.49110000000000004,2.45,1.92,0.53,True
+1e8df45eaec35ac968c2,Bournemouth,Leicester,,,,home,,-0.5673,1.4,1.34,0.06,True
+f0874073259f12a24234,Bournemouth,Leicester,,,,draw,,0.9560000000000001,6.0,5.67,0.33,True
+66cfed187f4c09940afe,Bournemouth,Leicester,,,,away,,1.0942,5.75,9.01,-3.26,False
+ff1d0637f90ec20633c7,Fulham,Man City,,,,home,,0.2596,4.33,6.32,-1.99,False
+7ddcbd4b1c8660f5e532,Fulham,Man City,,,,draw,,-0.12510000000000002,4.2,4.57,-0.37,False
+92fd7356003ed290f00a,Fulham,Man City,,,,away,,-0.1961,1.7000000000000002,1.52,0.18,True
+22e656e651094e3f1427,Ipswich,West Ham,,,,home,,-0.6655,1.33,3.28,-1.95,False
+e066e67d95e0bea5fbe7,Ipswich,West Ham,,,,draw,,0.9222,5.5,3.63,1.87,True
+d3bc250ec0793433bd18,Ipswich,West Ham,,,,away,,2.3873,8.5,2.23,6.27,True
+53625cb2ceffd7ddf829,Liverpool,Crystal Palace,,,,home,,0.3428,3.0,1.38,1.62,True
+2cfc9f561df30d2f921c,Liverpool,Crystal Palace,,,,draw,,-0.2669,3.75,6.04,-2.29,False
+0ea7fd0d396a03fa23f8,Liverpool,Crystal Palace,,,,away,,-0.3178,2.2,7.14,-4.94,False
+4edfb64b03a3a5f39354,Newcastle,Everton,,,,home,,2.1136,8.5,1.28,7.22,True
+87fb95db1da82e6c99e1,Newcastle,Everton,,,,draw,,0.5624,6.0,6.19,-0.19,False
+8489e461f59d0c7affe0,Newcastle,Everton,,,,away,,-0.5212,1.3,10.36,-9.06,False
+8193480ff4353ada45ab,Southampton,Arsenal,,,,home,,0.4948,4.2,11.73,-7.53,False
+9483a752161c57046cbb,Southampton,Arsenal,,,,draw,,0.44670000000000004,4.33,6.54,-2.21,False
+e29aebe08c6fdde0e67a,Southampton,Arsenal,,,,away,,-0.47400000000000003,1.7000000000000002,1.25,0.45,True
+b971c9dd586a946f2763,Tottenham,Brighton,,,,home,,0.4753,2.7,3.83,-1.13,False
+e43d42d3b2a8c07e9b95,Tottenham,Brighton,,,,draw,,-0.33290000000000003,3.7,4.06,-0.36,False
+b14bc27c4a8673c5f79e,Tottenham,Brighton,,,,away,,-0.4671,2.45,1.92,0.53,True
+67afd8de1b199fcbcdc5,Bournemouth,Leicester,,,,home,,-0.5673,1.4,1.34,0.06,True
+006cb95947b031497b4b,Bournemouth,Leicester,,,,draw,,0.9560000000000001,6.0,5.67,0.33,True
+c935bb04040f4906cc2d,Bournemouth,Leicester,,,,away,,1.0942,5.75,9.01,-3.26,False
+f97846c5be5b395703ed,Fulham,Man City,,,,home,,0.2596,4.33,6.32,-1.99,False
+93b9f5858df1b9ff2db1,Fulham,Man City,,,,draw,,-0.12510000000000002,4.2,4.57,-0.37,False
+46ab9cf59e960d280d65,Fulham,Man City,,,,away,,-0.1961,1.7000000000000002,1.52,0.18,True
+8f2ecc1cc27cbb58982c,Ipswich,West Ham,,,,home,,-0.6655,1.33,3.28,-1.95,False
+c4ad7137cf08a93d6e06,Ipswich,West Ham,,,,draw,,0.9222,5.5,3.63,1.87,True
+773749c987f136c51a46,Ipswich,West Ham,,,,away,,2.3873,8.5,2.23,6.27,True
+447113ff7d597fc5d0f7,Liverpool,Crystal Palace,,,,home,,0.3428,3.0,1.38,1.62,True
+84010b2c708d3ae18022,Liverpool,Crystal Palace,,,,draw,,-0.2669,3.75,6.04,-2.29,False
+34b439633377eca3cfcd,Liverpool,Crystal Palace,,,,away,,-0.3178,2.2,7.14,-4.94,False
+66309c6be69f5e7fa285,Newcastle,Everton,,,,home,,2.1136,8.5,1.28,7.22,True
+1eb80dc8db733ca45287,Newcastle,Everton,,,,draw,,0.5624,6.0,6.19,-0.19,False
+66ac8b9911ac83b317b7,Newcastle,Everton,,,,away,,-0.5212,1.3,10.36,-9.06,False
+a8d2fd9adf23460e69e4,Southampton,Arsenal,,,,home,,0.4948,4.2,11.73,-7.53,False
+cc962f03bb1a534bb5f3,Southampton,Arsenal,,,,draw,,0.44670000000000004,4.33,6.54,-2.21,False
+d5c5debe74b62e983fc2,Southampton,Arsenal,,,,away,,-0.47400000000000003,1.7000000000000002,1.25,0.45,True
+4a9e7b7adb5407c2f6ba,Tottenham,Brighton,,,,home,,0.4753,2.7,3.83,-1.13,False
+99a2202b999a9fdbb12d,Tottenham,Brighton,,,,draw,,-0.33290000000000003,3.7,4.06,-0.36,False
+5baeda71ac8dae71034d,Tottenham,Brighton,,,,away,,-0.4671,2.45,1.92,0.53,True
+bde390b601eb57de7de9,Bournemouth,Leicester,,,,home,,-0.5673,1.4,1.34,0.06,True
+4c1ae88958a043b0c8c6,Bournemouth,Leicester,,,,draw,,0.9560000000000001,6.0,5.67,0.33,True
+c7142a956d4f452abd1b,Bournemouth,Leicester,,,,away,,1.0942,5.75,9.01,-3.26,False
+3ea2444290e6b87149b0,Fulham,Man City,,,,home,,0.2596,4.33,6.32,-1.99,False
+c26d425248c5a49b0eeb,Fulham,Man City,,,,draw,,-0.12510000000000002,4.2,4.57,-0.37,False
+99bf8bbbab588952e2a0,Fulham,Man City,,,,away,,-0.1961,1.7000000000000002,1.52,0.18,True
+628db382e7047491eefa,Ipswich,West Ham,,,,home,,-0.6655,1.33,3.28,-1.95,False
+a1e333baa5128ba787aa,Ipswich,West Ham,,,,draw,,0.9222,5.5,3.63,1.87,True
+0676b1c5010020fc4f5e,Ipswich,West Ham,,,,away,,2.3873,8.5,2.23,6.27,True
+f4c2f078be5a0f48c559,Liverpool,Crystal Palace,,,,home,,0.3428,3.0,1.38,1.62,True
+03edadb6e822fc1f9c82,Liverpool,Crystal Palace,,,,draw,,-0.2669,3.75,6.04,-2.29,False
+673d443ea9a7950734b1,Liverpool,Crystal Palace,,,,away,,-0.3178,2.2,7.14,-4.94,False
+20a422033586f2f3f687,Newcastle,Everton,,,,home,,2.1136,8.5,1.28,7.22,True
+3a8170fa608f7ec7a3ef,Newcastle,Everton,,,,draw,,0.5624,6.0,6.19,-0.19,False
+124263760bf0306f75f3,Newcastle,Everton,,,,away,,-0.5212,1.3,10.36,-9.06,False
+de3681aa4b563653593d,Southampton,Arsenal,,,,home,,0.4948,4.2,11.73,-7.53,False
+01ddc7e00c9719d48aba,Southampton,Arsenal,,,,draw,,0.44670000000000004,4.33,6.54,-2.21,False
+d7eca6f1297d2a6b2606,Southampton,Arsenal,,,,away,,-0.47400000000000003,1.7000000000000002,1.25,0.45,True
+942cbddd9883a5f87615,Tottenham,Brighton,,,,home,,0.4753,2.7,3.83,-1.13,False
+3141e6a4f0c5ff033d2e,Tottenham,Brighton,,,,draw,,-0.33290000000000003,3.7,4.06,-0.36,False
+2b1da5e382055813162f,Tottenham,Brighton,,,,away,,-0.4671,2.45,1.92,0.53,True
+f16941a3a79708ef7730,Bournemouth,Leicester,,,,home,,-0.5673,1.4,1.34,0.06,True
+f1a8c0bcd8d175840ae4,Bournemouth,Leicester,,,,draw,,0.9560000000000001,6.0,5.67,0.33,True
+517dd1b37a1779a66fc9,Bournemouth,Leicester,,,,away,,1.0942,5.75,9.01,-3.26,False
+a2e44438e43cffb58250,Fulham,Man City,,,,home,,0.2596,4.33,6.32,-1.99,False
+32014f725e94f9201c7f,Fulham,Man City,,,,draw,,-0.12510000000000002,4.2,4.57,-0.37,False
+75cc9ccb0206ccf6a6af,Fulham,Man City,,,,away,,-0.1961,1.7000000000000002,1.52,0.18,True
+a3602b459e91923ba0d8,Ipswich,West Ham,,,,home,,-0.6655,1.33,3.28,-1.95,False
+65ca3e5889ec50a1870c,Ipswich,West Ham,,,,draw,,0.9222,5.5,3.63,1.87,True
+5764f94257b11146aac2,Ipswich,West Ham,,,,away,,2.3873,8.5,2.23,6.27,True
+1f4760497a6b2c538b9f,Liverpool,Crystal Palace,,,,home,,0.3428,3.0,1.38,1.62,True
+471f89d6c8a0b8930003,Liverpool,Crystal Palace,,,,draw,,-0.2669,3.75,6.04,-2.29,False
+edd7653ab5b40567f996,Liverpool,Crystal Palace,,,,away,,-0.3178,2.2,7.14,-4.94,False
+8623f48ca228554b5868,Newcastle,Everton,,,,home,,2.1136,8.5,1.28,7.22,True
+949c1a41b5572d00c130,Newcastle,Everton,,,,draw,,0.5624,6.0,6.19,-0.19,False
+a0e3d113f8b527b03d52,Newcastle,Everton,,,,away,,-0.5212,1.3,10.36,-9.06,False
+ad93940b798bd54f474c,Southampton,Arsenal,,,,home,,0.4948,4.2,11.73,-7.53,False
+70725d3eddda29a7398e,Southampton,Arsenal,,,,draw,,0.44670000000000004,4.33,6.54,-2.21,False
+62ee3f445d8eca96be3d,Southampton,Arsenal,,,,away,,-0.47400000000000003,1.7000000000000002,1.25,0.45,True
+06c25df182c882233bfa,Tottenham,Brighton,,,,home,,0.4753,2.7,3.83,-1.13,False
+c3370be947bfe260fd0c,Tottenham,Brighton,,,,draw,,-0.33290000000000003,3.7,4.06,-0.36,False
+9824dd164df2e3749168,Tottenham,Brighton,,,,away,,-0.4671,2.45,1.92,0.53,True
+776a06c4de5f69de86c5,Bournemouth,Leicester,,,,home,0.30910000000000004,-0.5673,1.4,1.34,0.06,True
+161aafb6d0b48ab44b8b,Bournemouth,Leicester,,,,draw,0.326,0.9560000000000001,6.0,5.67,0.33,True
+bc71cdd4db510b378d4f,Bournemouth,Leicester,,,,away,0.3642,1.0942,5.75,9.01,-3.26,False
+130e7dbfa8ab7ec806db,Fulham,Man City,,,,home,0.2909,0.2596,4.33,6.32,-1.99,False
+1fb593f0e40993b870cc,Fulham,Man City,,,,draw,0.2083,-0.12510000000000002,4.2,4.57,-0.37,False
+561520a5b2c93e434dcf,Fulham,Man City,,,,away,0.47290000000000004,-0.1961,1.7000000000000002,1.52,0.18,True
+2437b20d5b5d0dde569b,Ipswich,West Ham,,,,home,0.2515,-0.6655,1.33,3.28,-1.95,False
+4ed59d28d6f5e9c6f098,Ipswich,West Ham,,,,draw,0.34950000000000003,0.9222,5.5,3.63,1.87,True
+b627b01b1e7a4d08b77f,Ipswich,West Ham,,,,away,0.3985,2.3873,8.5,2.23,6.27,True
+c1c58d6d2d4874ddfcd4,Liverpool,Crystal Palace,,,,home,0.4476,0.3428,3.0,1.38,1.62,True
+4aa9d87ed06900a6d1c9,Liverpool,Crystal Palace,,,,draw,0.1955,-0.2669,3.75,6.04,-2.29,False
+88eafc642b0af131f516,Liverpool,Crystal Palace,,,,away,0.31010000000000004,-0.3178,2.2,7.14,-4.94,False
+6b3e13794881073e5250,Newcastle,Everton,,,,home,0.3663,2.1136,8.5,1.28,7.22,True
+f55701cecb6e4ba775a5,Newcastle,Everton,,,,draw,0.2604,0.5624,6.0,6.19,-0.19,False
+881f928a2f370dddfb6c,Newcastle,Everton,,,,away,0.3683,-0.5212,1.3,10.36,-9.06,False
+291d0e66def9c116169f,Southampton,Arsenal,,,,home,0.3559,0.4948,4.2,11.73,-7.53,False
+c56199e2ec68c74796e2,Southampton,Arsenal,,,,draw,0.3341,0.44670000000000004,4.33,6.54,-2.21,False
+019d31cdcc8412fa6e8e,Southampton,Arsenal,,,,away,0.3094,-0.47400000000000003,1.7000000000000002,1.25,0.45,True
+ae76428f2915b9d4f259,Tottenham,Brighton,,,,home,0.5464,0.4753,2.7,3.83,-1.13,False
+889e6e2ed0a474d6e8c9,Tottenham,Brighton,,,,draw,0.18030000000000002,-0.33290000000000003,3.7,4.06,-0.36,False
+d9a61afee080ff6b1d45,Tottenham,Brighton,,,,away,0.2175,-0.4671,2.45,1.92,0.53,True
+6f9ea05e4d9c02412b38,Bournemouth,Leicester,,,,home,0.30910000000000004,-0.5673,1.4,1.34,0.06,True
+48808e13ae85169ced7a,Bournemouth,Leicester,,,,draw,0.326,0.9560000000000001,6.0,5.67,0.33,True
+cdf0f04885ef18d9b489,Bournemouth,Leicester,,,,away,0.3642,1.0942,5.75,9.01,-3.26,False
+247074a27c25f706e1b4,Fulham,Man City,,,,home,0.2909,0.2596,4.33,6.32,-1.99,False
+40d516656187e95448fc,Fulham,Man City,,,,draw,0.2083,-0.12510000000000002,4.2,4.57,-0.37,False
+d0276be553a615726986,Fulham,Man City,,,,away,0.47290000000000004,-0.1961,1.7000000000000002,1.52,0.18,True
+6f71e3e6e73803415cf1,Ipswich,West Ham,,,,home,0.2515,-0.6655,1.33,3.28,-1.95,False
+86b8ff3e620a764e8acc,Ipswich,West Ham,,,,draw,0.34950000000000003,0.9222,5.5,3.63,1.87,True
+7a7c016acf0ca75970ca,Ipswich,West Ham,,,,away,0.3985,2.3873,8.5,2.23,6.27,True
+1e63a316578345cf188d,Liverpool,Crystal Palace,,,,home,0.4476,0.3428,3.0,1.38,1.62,True
+099f4db783ef6617091b,Liverpool,Crystal Palace,,,,draw,0.1955,-0.2669,3.75,6.04,-2.29,False
+dabade25b86f7c483e1d,Liverpool,Crystal Palace,,,,away,0.31010000000000004,-0.3178,2.2,7.14,-4.94,False
+6c566bf3520308d5c673,Newcastle,Everton,,,,home,0.3663,2.1136,8.5,1.28,7.22,True
+b323fce401dcd4fc471e,Newcastle,Everton,,,,draw,0.2604,0.5624,6.0,6.19,-0.19,False
+d31c73e4b76f2f4affac,Newcastle,Everton,,,,away,0.3683,-0.5212,1.3,10.36,-9.06,False
+0812a199b234b7ea920f,Southampton,Arsenal,,,,home,0.3559,0.4948,4.2,11.73,-7.53,False
+fc1f479ff1b26e7289bf,Southampton,Arsenal,,,,draw,0.3341,0.44670000000000004,4.33,6.54,-2.21,False
+c894c78151f27783e8a3,Southampton,Arsenal,,,,away,0.3094,-0.47400000000000003,1.7000000000000002,1.25,0.45,True
+6fdefc849e0899a5af0f,Tottenham,Brighton,,,,home,0.5464,0.4753,2.7,3.83,-1.13,False
+3d6a31fdd4f5c75a3281,Tottenham,Brighton,,,,draw,0.18030000000000002,-0.33290000000000003,3.7,4.06,-0.36,False
+e3d1e0260c185140fd29,Tottenham,Brighton,,,,away,0.2175,-0.4671,2.45,1.92,0.53,True
+5e14a0e07921dbe57977,Bournemouth,Leicester,premier_league,2425.0,historical_proxy_research,home,0.4554,-0.3442,1.44,1.34,0.1,True
+d4c7d95ddd46c8f821b2,Bournemouth,Leicester,premier_league,2425.0,historical_proxy_research,draw,0.262,0.2969,4.95,5.67,-0.72,False
+3a51a0ea316953a9a15a,Bournemouth,Leicester,premier_league,2425.0,historical_proxy_research,away,0.2826,1.0997,7.43,9.01,-1.58,False
+c14387c02a2e84ec8f8d,Fulham,Man City,premier_league,2425.0,historical_proxy_research,home,0.31670000000000004,0.0008,3.16,6.32,-3.16,False
+ba5a5a8311fcce0e29c7,Fulham,Man City,premier_league,2425.0,historical_proxy_research,draw,0.2728,-0.0125,3.62,4.57,-0.95,False
+a79498dae79d1c08828e,Fulham,Man City,premier_league,2425.0,historical_proxy_research,away,0.41050000000000003,-0.055900000000000005,2.3,1.52,0.78,True
+884f4e22e71c0d5427b3,Ipswich,West Ham,premier_league,2425.0,historical_proxy_research,home,0.3126,-0.1091,2.85,3.28,-0.43,False
+4c3a7c89e126f3623e1e,Ipswich,West Ham,premier_league,2425.0,historical_proxy_research,draw,0.2681,-0.26,2.76,3.63,-0.87,False
+20b43f013272dfdba143,Ipswich,West Ham,premier_league,2425.0,historical_proxy_research,away,0.4193,0.3376,3.19,2.23,0.96,True
+49985c29d4a6e6f8a3c3,Liverpool,Crystal Palace,premier_league,2425.0,historical_proxy_research,home,0.4344,0.1598,2.67,1.38,1.29,True
+3ce3e7250b47075d9a06,Liverpool,Crystal Palace,premier_league,2425.0,historical_proxy_research,draw,0.2634,-0.16240000000000002,3.18,6.04,-2.86,False
+52e0caf2881fa2589c17,Liverpool,Crystal Palace,premier_league,2425.0,historical_proxy_research,away,0.3023,-0.1082,2.95,7.14,-4.19,False
+83d0a4717b0a32774c62,Newcastle,Everton,premier_league,2425.0,historical_proxy_research,home,0.39390000000000003,1.0955,5.32,1.28,4.04,True
+0f9bc35e6ed838a7d568,Newcastle,Everton,premier_league,2425.0,historical_proxy_research,draw,0.2797,0.0796,3.86,6.19,-2.33,False
+b88c4bcea85ef4c47f50,Newcastle,Everton,premier_league,2425.0,historical_proxy_research,away,0.3264,-0.4419,1.71,10.36,-8.65,False
+6c3b759bdd0f6fe4fa93,Southampton,Arsenal,premier_league,2425.0,historical_proxy_research,home,0.24130000000000001,-0.24230000000000002,3.14,11.73,-8.59,False
+6877c3f6f7f796674df6,Southampton,Arsenal,premier_league,2425.0,historical_proxy_research,draw,0.2525,-0.1895,3.21,6.54,-3.33,False
+78a30856b1e30277940a,Southampton,Arsenal,premier_league,2425.0,historical_proxy_research,away,0.5062,0.2756,2.52,1.25,1.27,True
+d94828aaebf5abde81cb,Tottenham,Brighton,premier_league,2425.0,historical_proxy_research,home,0.3609,-0.3432,1.82,3.83,-2.01,False
+9d2f80087abbcb11ccf5,Tottenham,Brighton,premier_league,2425.0,historical_proxy_research,draw,0.25680000000000003,-0.0858,3.56,4.06,-0.5,False
+78247b9e81bc5e54d8c5,Tottenham,Brighton,premier_league,2425.0,historical_proxy_research,away,0.38220000000000004,0.9148000000000001,5.01,1.92,3.09,True

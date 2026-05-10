@@ -2,24 +2,12 @@
 
 Model used: `gemini-2.0-flash`
 
-```markdown
-## System Status
+1.  **Current system status:** The system is showing good market alignment but negative CLV and ROI. It's generating candidate bets but is not ready for real-money betting. The model is considered stable enough for small-scale experimental evaluation.
 
-The system is currently in a research phase. Data sources are healthy. Model performance is poor (negative ROI, low beat closing line rate, negative CLV). Market alignment is acceptable.
+2.  **Biggest weakness:** Negative CLV. The model consistently fails to beat the closing line, indicating poor calibration or information leakage.
 
-## Biggest Weakness
+3.  **Best next development step:** Improve calibration and market snapshots. Focus on features that better predict line movement and ensure the model's probabilities are well-calibrated.
 
-Negative CLV indicates the model is consistently finding worse value than the closing line, suggesting miscalibration or inefficient market integration.
+4.  **Readiness:** Paper-test-ready.
 
-## Best Next Development Step
-
-Improve model calibration. This involves ensuring the predicted probabilities align with observed outcomes. Techniques include isotonic regression or Platt scaling.
-
-## Readiness
-
-Paper-test-ready.
-
-## Concrete Change to Prioritize Next
-
-Implement and evaluate a calibration method (e.g., isotonic regression) on historical data to improve CLV.
-```
+5.  **Concrete change to prioritize next:** Implement a calibration technique (e.g., Platt scaling or isotonic regression) on the model's output probabilities using historical data.

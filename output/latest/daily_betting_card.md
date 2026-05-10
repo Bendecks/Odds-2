@@ -4,7 +4,7 @@ Status: research/paper-test only. No real-money recommendation yet.
 
 ## Liverpool vs Crystal Palace
 
-- Date/time: 25/05/2025 16:00
+- Date/time: 25/05/2025 2026-05-10 16:00:00
 - Selection: HOME
 - Market: 1X2
 - Market odds: 2.67

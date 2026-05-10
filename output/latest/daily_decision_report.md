@@ -6,7 +6,7 @@ Daily decision: ignore_picks_proxy_research_only
 
 - Forward test status: observe_only
 - Readiness: observation_only score=40
-- CLV beat rate: 0.4286; avg delta: -0.7976
+- CLV beat rate: 0.3333; avg delta: -1.3638
 - Leakage risk: medium
 - Candidate bets: 1
 

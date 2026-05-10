@@ -10,8 +10,8 @@ Settled predictions: 210
 Wins: 70
 Total ROI units: -3.45
 Average ROI per bet: -0.0164
-Beat closing line rate: 0.3333
-Average CLV delta: -1.3638
+Beat closing line rate: 0.419
+Average CLV delta: -0.8542
 
 ## Interpretation
 
