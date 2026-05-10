@@ -1,2 +1,2 @@
-reports_checked,reports_available
-8,8
+reports_checked,reports_available,includes_clv_band_report,includes_signal_suppression_rules
+12,12,True,True

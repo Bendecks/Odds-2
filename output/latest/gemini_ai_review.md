@@ -2,24 +2,12 @@
 
 Model used: `gemini-2.0-flash`
 
-```markdown
-## System Status
+1.  Current system status: Negative ROI, negative CLV, poor calibration, research-only. Suppression rules are active. Market alignment is acceptable for experiments.
 
-The system is currently in an experimental phase, showing reasonable market alignment but negative ROI and CLV. No bets are currently recommended due to suppression rules. Data sources are healthy.
+2.  Biggest weakness: Negative CLV and poor calibration, indicating the model consistently misprices bets relative to the closing line and true probabilities.
 
-## Biggest Weakness
+3.  Best next development step: Improve calibration by recalibrating probabilities, potentially using isotonic regression or Platt scaling.
 
-Negative CLV indicates the model is consistently finding worse odds than the closing line, suggesting a flaw in odds assessment or timing.
+4.  Readiness: Paper-test-ready.
 
-## Best Next Development Step
-
-Improve CLV by focusing on better odds sourcing and timing, or refining the model to identify bets earlier in the market cycle.
-
-## Readiness
-
-Paper-test-ready
-
-## Concrete Change to Prioritize Next
-
-Implement a backtesting framework that simulates betting at different times before the match to identify the optimal betting window and improve CLV.
-```
+5.  Concrete change to prioritize next: Implement isotonic regression to recalibrate predicted probabilities.
