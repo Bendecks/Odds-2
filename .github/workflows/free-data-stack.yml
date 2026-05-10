@@ -83,6 +83,9 @@ jobs:
       - name: Build probability calibration diagnostics
         run: python scripts/build_probability_calibration_report.py
 
+      - name: Build market sanity diagnostics
+        run: python scripts/build_market_sanity_report.py
+
       - name: Validate free sources
         run: python scripts/validate_free_sources.py
 
