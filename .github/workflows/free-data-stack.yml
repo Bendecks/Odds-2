@@ -98,6 +98,12 @@ jobs:
       - name: Build strategy risk diagnostics
         run: python scripts/build_strategy_risk_report.py
 
+      - name: Build league performance diagnostics
+        run: python scripts/build_league_performance_report.py
+
+      - name: Build probability band diagnostics
+        run: python scripts/build_probability_band_report.py
+
       - name: Build model health diagnostics
         run: python scripts/build_model_health_report.py
 
