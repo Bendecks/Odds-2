@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-10T18:05:54.254783+00:00`
-GitHub run: `97` attempt `1`
-GitHub SHA: `6b08be4595620bdf5bab28eaf10b14d4a8724a28`
+Generated UTC: `2026-05-10T18:10:39.195395+00:00`
+GitHub run: `99` attempt `1`
+GitHub SHA: `7134eb407ebabfe2f9769ef7b03f3681f00475c6`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
