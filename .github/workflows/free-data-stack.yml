@@ -41,6 +41,12 @@ jobs:
       - name: Fetch football-data.co.uk data
         run: python scripts/fetch_football_data.py
 
+      - name: Fetch upcoming fixtures
+        run: python scripts/fetch_upcoming_fixtures.py
+
+      - name: Build manual odds template
+        run: python scripts/build_manual_odds_template.py
+
       - name: Fetch multi-league data
         run: python scripts/fetch_multileague_data.py
 
@@ -207,7 +213,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add output/latest output/history data/raw data/model data/predictions data/market_snapshots
+          git add output/latest output/history data/raw data/model data/predictions data/market_snapshots data/manual
           git diff --cached --quiet || git commit -m "Auto-update workflow validation artifacts"
           git push
 
@@ -220,5 +226,6 @@ jobs:
             data/model/
             data/predictions/
             data/market_snapshots/
+            data/manual/
             output/latest/
             output/history/
