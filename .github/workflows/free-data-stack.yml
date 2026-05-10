@@ -107,6 +107,12 @@ jobs:
       - name: Build model adjustment recommendations
         run: python scripts/build_model_adjustment_recommendation.py
 
+      - name: Build data leakage diagnostics
+        run: python scripts/build_data_leakage_report.py
+
+      - name: Build sample reliability diagnostics
+        run: python scripts/build_sample_reliability_report.py
+
       - name: Build model health diagnostics
         run: python scripts/build_model_health_report.py
 
