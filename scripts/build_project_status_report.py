@@ -9,6 +9,7 @@ report_files = {
     'betting_performance': output_dir / 'betting_performance_report.md',
     'model_health': output_dir / 'model_health_report.md',
     'daily_betting_card': output_dir / 'daily_betting_card.md',
+    'probability_calibration_layer': output_dir / 'probability_calibration_layer.md',
     'clv_trend': output_dir / 'clv_trend_report.md',
     'clv_probability_bands': output_dir / 'clv_band_report.md',
     'signal_suppression_rules': output_dir / 'signal_suppression_rules.md',
@@ -46,6 +47,7 @@ for label, path in report_files.items():
 status = {
     'reports_checked': len(report_files),
     'reports_available': sum(1 for path in report_files.values() if path.exists()),
+    'includes_probability_calibration_layer': (output_dir / 'probability_calibration_layer.md').exists(),
     'includes_clv_band_report': (output_dir / 'clv_band_report.md').exists(),
     'includes_signal_suppression_rules': (output_dir / 'signal_suppression_rules.md').exists(),
     'includes_rule_action_summary': (output_dir / 'rule_action_summary.md').exists(),
