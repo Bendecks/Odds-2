@@ -3,9 +3,11 @@ from pathlib import Path
 import pandas as pd
 
 output_dir = Path('output/latest')
+manual_forward_path = output_dir / 'manual_forward_snapshots.parquet'
 snapshot_path = output_dir / 'prediction_snapshots_latest.parquet'
-prediction_log_path = output_dir / 'prediction_log_latest.parquet'
 suppression_rules_path = output_dir / 'signal_suppression_rules.csv'
+
+FORWARD_PHASES = {'paper_forward_test', 'live_forward_snapshot', 'upcoming_fixture'}
 
 expected_columns = [
     'snapshot_id', 'prediction_id', 'event_id', 'created_at_utc',
@@ -46,68 +48,50 @@ def probability_band(probability: float) -> str:
     return 'unknown'
 
 
-def attach_match_metadata(df: pd.DataFrame) -> pd.DataFrame:
-    log = safe_read_parquet(prediction_log_path)
-    if len(df) == 0 or len(log) == 0 or 'prediction_id' not in df.columns or 'prediction_id' not in log.columns:
-        return df
+manual_forward = safe_read_parquet(manual_forward_path)
+historical_snapshots = safe_read_parquet(snapshot_path)
+rules = safe_read_csv(suppression_rules_path)
+source_used = 'manual_forward_snapshots'
+reason = ''
 
-    metadata_cols = [
-        'prediction_id', 'match_date', 'match_time', 'home_team', 'away_team',
-        'league', 'season', 'sample_phase', 'selection'
-    ]
-    metadata_cols = [col for col in metadata_cols if col in log.columns]
-    if len(metadata_cols) <= 1:
-        return df
+if len(manual_forward):
+    predictions = manual_forward.copy()
+else:
+    # Fallback only checks for already forward-labelled rows. Historical proxy rows remain excluded.
+    predictions = historical_snapshots.copy()
+    source_used = 'prediction_snapshots_latest_forward_only'
 
-    merged = df.merge(
-        log[metadata_cols].drop_duplicates('prediction_id'),
-        on='prediction_id',
-        how='left',
-        suffixes=('', '_log'),
-    )
-
-    for col in metadata_cols:
-        if col == 'prediction_id':
-            continue
-        log_col = f'{col}_log'
-        if log_col in merged.columns:
-            if col in merged.columns:
-                merged[col] = merged[col].fillna(merged[log_col])
-            else:
-                merged[col] = merged[log_col]
-
-    return merged
-
-
-if not snapshot_path.exists():
+if len(predictions) == 0:
     filtered = pd.DataFrame(columns=expected_columns)
     rejected = pd.DataFrame(columns=expected_columns)
+    reason = 'No forward snapshot rows available. Fill manual odds template to build manual forward snapshots.'
 else:
-    predictions = safe_read_parquet(snapshot_path)
-    predictions = attach_match_metadata(predictions)
+    defaults = {
+        'ev': 0.0,
+        'probability': 0.0,
+        'market_odds': 0.0,
+        'fair_odds': 0.0,
+        'match_date': '',
+        'match_time': '',
+        'home_team': 'unknown',
+        'away_team': 'unknown',
+        'league': 'unknown',
+        'season': 'unknown',
+        'sample_phase': 'historical_proxy_research',
+        'selection': 'unknown',
+    }
+    for col, default in defaults.items():
+        if col not in predictions.columns:
+            predictions[col] = default
+
+    predictions['sample_phase'] = predictions['sample_phase'].fillna('unknown').astype(str)
+    predictions = predictions[predictions['sample_phase'].isin(FORWARD_PHASES)].copy()
 
     if len(predictions) == 0:
         filtered = pd.DataFrame(columns=expected_columns)
         rejected = pd.DataFrame(columns=expected_columns)
+        reason = 'No forward-eligible rows. Historical proxy rows are excluded from candidate bets.'
     else:
-        defaults = {
-            'ev': 0.0,
-            'probability': 0.0,
-            'market_odds': 0.0,
-            'fair_odds': 0.0,
-            'match_date': '',
-            'match_time': '',
-            'home_team': 'unknown',
-            'away_team': 'unknown',
-            'league': 'unknown',
-            'season': 'unknown',
-            'sample_phase': 'historical_proxy_research',
-            'selection': 'unknown',
-        }
-        for col, default in defaults.items():
-            if col not in predictions.columns:
-                predictions[col] = default
-
         for col in ['ev', 'probability', 'market_odds', 'fair_odds']:
             predictions[col] = pd.to_numeric(predictions[col], errors='coerce')
 
@@ -123,7 +107,6 @@ else:
         predictions.loc[predictions['alignment_penalty'].fillna(0) >= 0.18, 'calibration_risk'] = 'market_misalignment'
 
         predictions['suppression_action'] = 'none'
-        rules = safe_read_csv(suppression_rules_path)
         if len(rules):
             for _, rule in rules.iterrows():
                 rule_type = str(rule.get('rule_type'))
@@ -153,18 +136,17 @@ else:
 
         rejected = predictions[~predictions.index.isin(sane.index)].copy()
         if len(rejected):
-            rejected['rejection_reason'] = 'outside_suppression_aware_quality_filters'
+            rejected['rejection_reason'] = 'outside_forward_candidate_quality_filters'
             rejected.loc[rejected['suppression_action'] == 'suppress', 'rejection_reason'] = 'suppressed_by_signal_suppression_rules'
-            rejected.loc[rejected['suppression_action'] == 'monitor', 'rejection_reason'] = rejected['rejection_reason'].fillna('monitor_zone_filtered_by_quality_rules')
 
         if len(sane):
             downweight_multiplier = sane['suppression_action'].map({'downweight': 0.60, 'monitor': 0.90}).fillna(1.0)
             sane['signal_strength'] = (
                 ((sane['ev'].fillna(0) * 0.28)
-                + (sane['probability_edge'].fillna(0) * 0.28)
-                + (sane['probability'].fillna(0) * 0.08)
-                + ((1 - sane['alignment_penalty'].fillna(1)) * 0.20)
-                - (sane['alignment_penalty'].fillna(1) * 0.16))
+                 + (sane['probability_edge'].fillna(0) * 0.28)
+                 + (sane['probability'].fillna(0) * 0.08)
+                 + ((1 - sane['alignment_penalty'].fillna(1)) * 0.20)
+                 - (sane['alignment_penalty'].fillna(1) * 0.16))
                 * downweight_multiplier
             ).round(4)
             sane['confidence_tier'] = 'watchlist'
@@ -190,9 +172,9 @@ filtered.to_parquet(output_dir / 'candidate_bets.parquet', index=False)
 filtered.to_csv(output_dir / 'candidate_bets.csv', index=False)
 rejected.to_csv(output_dir / 'rejected_candidate_signals.csv', index=False)
 
-markdown = ['# Candidate Bets', '']
+markdown = ['# Candidate Bets', '', 'Forward-eligible only. Historical proxy rows are excluded.', '', f'Source used: {source_used}', '']
 if len(filtered) == 0:
-    markdown.append('No candidate bets passed the current suppression-aware quality filters.')
+    markdown.append(reason or 'No candidate bets passed the current forward-only quality filters.')
 else:
     markdown.append('Research/paper-test only. No real-money recommendation.')
     markdown.append('')
@@ -207,6 +189,7 @@ else:
 markdown.extend(['', f'Rejected signals: {len(rejected)}'])
 (output_dir / 'candidate_bets.md').write_text('\n'.join(markdown), encoding='utf-8')
 
-print(f'Generated {len(filtered)} suppression-aware candidate bets')
-print(f'Rejected {len(rejected)} lower-quality signals')
+print(f'Generated {len(filtered)} forward-only candidate bets')
+print(f'Rejected {len(rejected)} lower-quality forward signals')
+print(reason)
 print(filtered.head())
