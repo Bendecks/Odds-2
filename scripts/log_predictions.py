@@ -26,7 +26,7 @@ snapshot_log_path = log_dir / 'prediction_snapshots.jsonl'
 
 existing_prediction_ids = set()
 
-if prediction_log_path.exists():
+if prediction_log_path.exists() and prediction_log_path.stat().st_size > 0:
     existing_df = pd.read_json(prediction_log_path, lines=True)
     if 'prediction_id' in existing_df.columns:
         existing_prediction_ids = set(existing_df['prediction_id'].astype(str).tolist())
@@ -40,8 +40,16 @@ for idx, row in predictions.iterrows():
     match_time = str(market_row.get('Time', ''))
     home_team = row['home_team']
     away_team = row['away_team']
+    league = str(market_row.get('league', market_row.get('League', 'premier_league')))
+    season = str(market_row.get('season', market_row.get('Season', '2425')))
 
-    event_base = f'{match_date}|{match_time}|{home_team}|{away_team}'
+    # Current setup still uses historical/proxy rows. This explicit phase metadata
+    # prevents downstream reports from accidentally treating it as true forward validation.
+    sample_phase = 'historical_proxy_research'
+    if pd.notna(row.get('snapshot_source')) and 'live' in str(row.get('snapshot_source')).lower():
+        sample_phase = 'paper_forward_test'
+
+    event_base = f'{season}|{league}|{match_date}|{match_time}|{home_team}|{away_team}'
     event_id = hashlib.sha256(event_base.encode('utf-8')).hexdigest()[:16]
 
     markets = [
@@ -72,22 +80,36 @@ for idx, row in predictions.iterrows():
         prediction_key = f"{event_id}|1x2|{market_prediction['selection']}"
         prediction_id = hashlib.sha256(prediction_key.encode('utf-8')).hexdigest()[:20]
 
+        market_odds = pd.to_numeric(market_prediction['market_odds'], errors='coerce')
+        fair_odds = pd.to_numeric(market_prediction['fair_odds'], errors='coerce')
+        probability = pd.to_numeric(market_prediction['probability'], errors='coerce')
+        ev = pd.to_numeric(market_prediction['ev'], errors='coerce')
+
+        if pd.isna(market_odds) or pd.isna(fair_odds) or pd.isna(probability) or pd.isna(ev):
+            continue
+
         snapshot_key = (
             f"{prediction_id}|{run_number}|{sha}|"
-            f"{round(float(market_prediction['market_odds']), 4)}|"
-            f"{round(float(market_prediction['fair_odds']), 4)}"
+            f"{round(float(market_odds), 4)}|"
+            f"{round(float(fair_odds), 4)}"
         )
         snapshot_id = hashlib.sha256(snapshot_key.encode('utf-8')).hexdigest()[:20]
 
         ev_threshold = 0.08
         probability_threshold = 0.35
 
-        is_candidate = bool(
-            market_prediction['ev'] > ev_threshold
-            and market_prediction['probability'] > probability_threshold
-        )
+        is_candidate = bool(ev > ev_threshold and probability > probability_threshold)
+
+        common_record = {
+            'league': league,
+            'season': season,
+            'sample_phase': sample_phase,
+            'market': '1x2',
+            'selection': market_prediction['selection'],
+        }
 
         snapshot_records.append({
+            **common_record,
             'snapshot_id': snapshot_id,
             'prediction_id': prediction_id,
             'event_id': event_id,
@@ -95,10 +117,10 @@ for idx, row in predictions.iterrows():
             'github_run_number': run_number,
             'github_run_id': run_id,
             'github_sha': sha,
-            'market_odds': market_prediction['market_odds'],
-            'fair_odds': market_prediction['fair_odds'],
-            'probability': market_prediction['probability'],
-            'ev': market_prediction['ev'],
+            'market_odds': float(market_odds),
+            'fair_odds': float(fair_odds),
+            'probability': float(probability),
+            'ev': float(ev),
             'is_candidate': is_candidate,
         })
 
@@ -106,6 +128,7 @@ for idx, row in predictions.iterrows():
             continue
 
         prediction_records.append({
+            **common_record,
             'prediction_id': prediction_id,
             'event_id': event_id,
             'created_at_utc': created_at,
@@ -116,12 +139,10 @@ for idx, row in predictions.iterrows():
             'match_time': match_time,
             'home_team': home_team,
             'away_team': away_team,
-            'market': '1x2',
-            'selection': market_prediction['selection'],
-            'opening_market_odds': market_prediction['market_odds'],
-            'opening_fair_odds': market_prediction['fair_odds'],
-            'opening_probability': market_prediction['probability'],
-            'opening_ev': market_prediction['ev'],
+            'opening_market_odds': float(market_odds),
+            'opening_fair_odds': float(fair_odds),
+            'opening_probability': float(probability),
+            'opening_ev': float(ev),
             'is_candidate': is_candidate,
             'settlement_status': 'pending',
         })
@@ -135,7 +156,7 @@ snapshot_df.to_csv(output_dir / 'prediction_snapshots_latest.csv', index=False)
 
 if len(prediction_df) == 0:
     # If no new predictions, expose current known predictions for downstream reporting.
-    if prediction_log_path.exists():
+    if prediction_log_path.exists() and prediction_log_path.stat().st_size > 0:
         existing_df = pd.read_json(prediction_log_path, lines=True)
         existing_df.to_parquet(output_dir / 'prediction_log_latest.parquet', index=False)
         existing_df.to_csv(output_dir / 'prediction_log_latest.csv', index=False)
