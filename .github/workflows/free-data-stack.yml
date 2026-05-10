@@ -119,6 +119,12 @@ jobs:
       - name: Build operational decision report
         run: python scripts/build_operational_decision_report.py
 
+      - name: Build automation monitor report
+        run: python scripts/build_automation_monitor_report.py
+
+      - name: Build human action report
+        run: python scripts/build_human_action_report.py
+
       - name: Validate free sources
         run: python scripts/validate_free_sources.py
 
