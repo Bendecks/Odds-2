@@ -22,6 +22,8 @@ expected_columns = [
     'paper_test_tier', 'paper_test_score', 'paper_test_reason',
 ]
 
+FORWARD_PHASES = {'paper_forward_test', 'live_forward_snapshot', 'upcoming_fixture'}
+
 
 def safe_read_parquet(path: Path) -> pd.DataFrame:
     if not path.exists() or path.stat().st_size == 0:
@@ -93,11 +95,17 @@ def existing_logged_ids() -> set:
     return set(existing['prediction_id'].astype(str).tolist())
 
 
+def empty_paper() -> pd.DataFrame:
+    return pd.DataFrame(columns=expected_columns)
+
+
 snapshots = attach_metadata(safe_read_parquet(snapshot_path))
 rules = safe_read_csv(rules_path)
+reason = ''
 
 if len(snapshots) == 0:
-    paper = pd.DataFrame(columns=expected_columns)
+    paper = empty_paper()
+    reason = 'No prediction snapshots available.'
 else:
     for col, default in {
         'ev': 0.0,
@@ -116,69 +124,73 @@ else:
         if col not in snapshots.columns:
             snapshots[col] = default
 
-    for col in ['ev', 'probability', 'market_odds', 'fair_odds']:
-        snapshots[col] = pd.to_numeric(snapshots[col], errors='coerce')
+    snapshots['sample_phase'] = snapshots['sample_phase'].fillna('unknown').astype(str)
+    forward_snapshots = snapshots[snapshots['sample_phase'].isin(FORWARD_PHASES)].copy()
 
-    snapshots['market_implied_probability'] = 1 / snapshots['market_odds'].replace(0, pd.NA)
-    snapshots['probability_edge'] = snapshots['probability'].fillna(0) - snapshots['market_implied_probability'].fillna(0)
-    snapshots['model_market_ratio'] = snapshots['probability'].fillna(0) / snapshots['market_implied_probability'].replace(0, pd.NA)
-    snapshots['alignment_penalty'] = (snapshots['model_market_ratio'].fillna(1) - 1).abs()
-    snapshots['probability_band'] = snapshots['probability'].apply(probability_band)
-
-    snapshots['calibration_risk'] = 'normal'
-    snapshots.loc[snapshots['probability'].fillna(0) >= 0.50, 'calibration_risk'] = 'high_probability_band'
-    snapshots.loc[snapshots['probability_edge'].fillna(0).abs() >= 0.16, 'calibration_risk'] = 'large_probability_edge'
-    snapshots.loc[snapshots['alignment_penalty'].fillna(0) >= 0.45, 'calibration_risk'] = 'market_misalignment'
-
-    snapshots['suppression_action'] = 'none'
-    if len(rules):
-        for _, rule in rules.iterrows():
-            rule_type = str(rule.get('rule_type'))
-            target = str(rule.get('target'))
-            action = str(rule.get('action'))
-            if rule_type == 'probability_band':
-                mask = snapshots['probability_band'].astype(str) == target
-            elif rule_type == 'league':
-                mask = snapshots['league'].astype(str) == target
-            else:
-                continue
-            if action == 'suppress':
-                snapshots.loc[mask, 'suppression_action'] = 'suppress'
-            elif action == 'downweight':
-                snapshots.loc[mask & (snapshots['suppression_action'] != 'suppress'), 'suppression_action'] = 'downweight'
-            elif action == 'monitor':
-                snapshots.loc[mask & (snapshots['suppression_action'] == 'none'), 'suppression_action'] = 'monitor'
-
-    paper = snapshots[
-        (snapshots['suppression_action'] != 'suppress')
-        & (snapshots['market_odds'].fillna(0).between(1.45, 7.50))
-        & (snapshots['probability'].fillna(0).between(0.32, 0.57))
-        & (snapshots['probability_edge'].fillna(0).between(0.000, 0.18))
-        & (snapshots['ev'].fillna(0).between(0.00, 0.60))
-        & (snapshots['alignment_penalty'].fillna(1).between(0.00, 0.48))
-    ].copy()
-
-    if len(paper):
-        action_weight = paper['suppression_action'].map({'monitor': 0.92, 'downweight': 0.65}).fillna(1.0)
-        risk_weight = paper['calibration_risk'].map({'market_misalignment': 0.70, 'large_probability_edge': 0.78, 'high_probability_band': 0.85}).fillna(1.0)
-        paper['paper_test_score'] = (
-            ((paper['ev'].fillna(0) * 0.28)
-             + (paper['probability_edge'].fillna(0) * 0.26)
-             + ((1 - paper['alignment_penalty'].fillna(1)) * 0.28)
-             + (paper['probability'].fillna(0) * 0.10))
-            * action_weight
-            * risk_weight
-        ).round(4)
-        paper['paper_test_tier'] = 'observation'
-        paper.loc[
-            (paper['paper_test_score'] >= 0.18)
-            & (paper['alignment_penalty'] <= 0.30),
-            'paper_test_tier'
-        ] = 'priority_observation'
-        paper['paper_test_reason'] = 'loose_paper_tracking_not_real_money'
-        paper = paper.sort_values(['paper_test_tier', 'paper_test_score'], ascending=[False, False]).head(7)
+    if len(forward_snapshots) == 0:
+        paper = empty_paper()
+        reason = 'No forward-eligible rows. Historical proxy rows are excluded from paper-test picks.'
     else:
-        paper = pd.DataFrame(columns=expected_columns)
+        for col in ['ev', 'probability', 'market_odds', 'fair_odds']:
+            forward_snapshots[col] = pd.to_numeric(forward_snapshots[col], errors='coerce')
+
+        forward_snapshots['market_implied_probability'] = 1 / forward_snapshots['market_odds'].replace(0, pd.NA)
+        forward_snapshots['probability_edge'] = forward_snapshots['probability'].fillna(0) - forward_snapshots['market_implied_probability'].fillna(0)
+        forward_snapshots['model_market_ratio'] = forward_snapshots['probability'].fillna(0) / forward_snapshots['market_implied_probability'].replace(0, pd.NA)
+        forward_snapshots['alignment_penalty'] = (forward_snapshots['model_market_ratio'].fillna(1) - 1).abs()
+        forward_snapshots['probability_band'] = forward_snapshots['probability'].apply(probability_band)
+
+        forward_snapshots['calibration_risk'] = 'normal'
+        forward_snapshots.loc[forward_snapshots['probability'].fillna(0) >= 0.50, 'calibration_risk'] = 'high_probability_band'
+        forward_snapshots.loc[forward_snapshots['probability_edge'].fillna(0).abs() >= 0.16, 'calibration_risk'] = 'large_probability_edge'
+        forward_snapshots.loc[forward_snapshots['alignment_penalty'].fillna(0) >= 0.45, 'calibration_risk'] = 'market_misalignment'
+
+        forward_snapshots['suppression_action'] = 'none'
+        if len(rules):
+            for _, rule in rules.iterrows():
+                rule_type = str(rule.get('rule_type'))
+                target = str(rule.get('target'))
+                action = str(rule.get('action'))
+                if rule_type == 'probability_band':
+                    mask = forward_snapshots['probability_band'].astype(str) == target
+                elif rule_type == 'league':
+                    mask = forward_snapshots['league'].astype(str) == target
+                else:
+                    continue
+                if action == 'suppress':
+                    forward_snapshots.loc[mask, 'suppression_action'] = 'suppress'
+                elif action == 'downweight':
+                    forward_snapshots.loc[mask & (forward_snapshots['suppression_action'] != 'suppress'), 'suppression_action'] = 'downweight'
+                elif action == 'monitor':
+                    forward_snapshots.loc[mask & (forward_snapshots['suppression_action'] == 'none'), 'suppression_action'] = 'monitor'
+
+        paper = forward_snapshots[
+            (forward_snapshots['suppression_action'] != 'suppress')
+            & (forward_snapshots['market_odds'].fillna(0).between(1.45, 7.50))
+            & (forward_snapshots['probability'].fillna(0).between(0.32, 0.57))
+            & (forward_snapshots['probability_edge'].fillna(0).between(0.000, 0.18))
+            & (forward_snapshots['ev'].fillna(0).between(0.00, 0.60))
+            & (forward_snapshots['alignment_penalty'].fillna(1).between(0.00, 0.48))
+        ].copy()
+
+        if len(paper):
+            action_weight = paper['suppression_action'].map({'monitor': 0.92, 'downweight': 0.65}).fillna(1.0)
+            risk_weight = paper['calibration_risk'].map({'market_misalignment': 0.70, 'large_probability_edge': 0.78, 'high_probability_band': 0.85}).fillna(1.0)
+            paper['paper_test_score'] = (
+                ((paper['ev'].fillna(0) * 0.28)
+                 + (paper['probability_edge'].fillna(0) * 0.26)
+                 + ((1 - paper['alignment_penalty'].fillna(1)) * 0.28)
+                 + (paper['probability'].fillna(0) * 0.10))
+                * action_weight
+                * risk_weight
+            ).round(4)
+            paper['paper_test_tier'] = 'observation'
+            paper.loc[(paper['paper_test_score'] >= 0.18) & (paper['alignment_penalty'] <= 0.30), 'paper_test_tier'] = 'priority_observation'
+            paper['paper_test_reason'] = 'forward_observation_not_real_money'
+            paper = paper.sort_values(['paper_test_tier', 'paper_test_score'], ascending=[False, False]).head(7)
+        else:
+            paper = empty_paper()
+            reason = 'Forward-eligible rows exist, but none passed paper-test observation filters.'
 
 for col in expected_columns:
     if col not in paper.columns:
@@ -189,7 +201,7 @@ paper.to_parquet(output_dir / 'paper_test_picks.parquet', index=False)
 paper.to_csv(output_dir / 'paper_test_picks.csv', index=False)
 
 logged_ids = existing_logged_ids()
-new_rows = paper[~paper['prediction_id'].astype(str).isin(logged_ids)].copy() if len(paper) else pd.DataFrame(columns=expected_columns)
+new_rows = paper[~paper['prediction_id'].astype(str).isin(logged_ids)].copy() if len(paper) else empty_paper()
 
 if len(new_rows):
     with paper_log_path.open('a', encoding='utf-8') as handle:
@@ -200,9 +212,9 @@ if paper_log_path.exists() and paper_log_path.stat().st_size > 0:
     try:
         paper_log = pd.read_json(paper_log_path, lines=True)
     except Exception:
-        paper_log = pd.DataFrame(columns=expected_columns)
+        paper_log = empty_paper()
 else:
-    paper_log = pd.DataFrame(columns=expected_columns)
+    paper_log = empty_paper()
 
 paper_log.to_csv(output_dir / 'paper_test_log_latest.csv', index=False)
 
@@ -210,7 +222,7 @@ markdown = [
     '# Paper Test Picks',
     '',
     'Observation-only picks. These are not real-money recommendations.',
-    'Purpose: collect forward-test CLV and settlement evidence quickly without weakening real-money guardrails.',
+    'Historical proxy rows are excluded. Only forward-eligible snapshots may become paper-test picks.',
     '',
     f'Current paper-test picks: {len(paper)}',
     f'Newly logged paper-test picks: {len(new_rows)}',
@@ -219,7 +231,7 @@ markdown = [
 ]
 
 if len(paper) == 0:
-    markdown.append('No paper-test picks passed the loose observation filter.')
+    markdown.append(reason or 'No paper-test picks passed the forward observation filter.')
 else:
     for _, row in paper.iterrows():
         markdown.append(
@@ -232,7 +244,8 @@ else:
 
 (output_dir / 'paper_test_picks.md').write_text('\n'.join(markdown), encoding='utf-8')
 
-print(f'Generated {len(paper)} paper-test picks')
+print(f'Generated {len(paper)} forward-eligible paper-test picks')
 print(f'Logged {len(new_rows)} new paper-test picks')
 print(f'Total logged paper-test picks: {len(paper_log)}')
+print(reason)
 print(paper.head())
