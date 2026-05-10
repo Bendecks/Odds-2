@@ -45,7 +45,8 @@ for _, pred in predictions.iterrows():
     elif pred['selection'] == 'away' and result == 'A':
         won = True
 
-    roi = pred['market_odds'] - 1 if won else -1
+    opening_odds = pred.get('opening_market_odds', 0)
+    roi = opening_odds - 1 if won else -1
 
     updated = pred.to_dict()
     updated['settlement_status'] = 'settled'
