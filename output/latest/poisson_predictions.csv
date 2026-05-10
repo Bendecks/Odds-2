@@ -1,8 +1,8 @@
 home_team,away_team,expected_home_goals,expected_away_goals,home_advantage_multiplier,home_win_probability,draw_probability,away_win_probability,fair_home_odds,fair_draw_odds,fair_away_odds
-Bournemouth,Leicester,2.296,0.803,1.065,0.7073,0.177,0.1158,1.41,5.65,8.64
-Fulham,Man City,0.636,1.329,1.065,0.1785,0.2863,0.5351,5.6,3.49,1.87
-Ipswich,West Ham,1.065,2.294,1.065,0.1642,0.1899,0.646,6.09,5.27,1.55
-Liverpool,Crystal Palace,2.852,1.397,1.065,0.6675,0.1647,0.1678,1.5,6.07,5.96
-Newcastle,Everton,1.054,0.783,1.065,0.413,0.3205,0.2664,2.42,3.12,3.75
-Southampton,Arsenal,0.463,3.356,1.065,0.0262,0.0759,0.8978,38.14,13.17,1.11
-Tottenham,Brighton,1.758,3.42,1.065,0.1735,0.1501,0.6764,5.76,6.66,1.48
+Bournemouth,Leicester,1.837,1.121,1.023,0.4888,0.2548,0.2564,2.05,3.92,3.9
+Fulham,Man City,1.128,1.419,1.023,0.3081,0.2812,0.4107,3.25,3.56,2.43
+Ipswich,West Ham,1.278,1.817,1.023,0.2857,0.256,0.4583,3.5,3.91,2.18
+Liverpool,Crystal Palace,2.017,1.384,1.023,0.4737,0.2456,0.2807,2.11,4.07,3.56
+Newcastle,Everton,1.341,1.114,1.023,0.3975,0.2865,0.3161,2.52,3.49,3.16
+Southampton,Arsenal,0.99,2.262,1.023,0.1978,0.2251,0.577,5.05,4.44,1.73
+Tottenham,Brighton,1.637,2.236,1.023,0.2963,0.2364,0.4673,3.37,4.23,2.14

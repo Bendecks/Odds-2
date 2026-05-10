@@ -1,1 +1,2 @@
 snapshot_id,prediction_id,event_id,created_at_utc,github_run_number,github_run_id,github_sha,market_odds,fair_odds,probability,market_implied_probability,probability_edge,ev,is_candidate,signal_strength,rejection_reason
+a53fb41b830489bc14c9,e3d1e0260c185140fd29,be0df45f963eaff0,2026-05-10T15:49:54.366629+00:00,63,25632999207,d5f57ec59016284b0a5b1867859b0b10edffe794,2.45,2.14,0.4673,0.4081632653061224,0.05913673469387759,0.1449,True,0.109,
