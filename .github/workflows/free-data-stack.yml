@@ -68,6 +68,9 @@ jobs:
       - name: Build candidate bets
         run: python scripts/build_candidate_bets.py
 
+      - name: Build edge quality diagnostics
+        run: python scripts/build_edge_quality_report.py
+
       - name: Build daily betting card
         run: python scripts/build_daily_betting_card.py
 
