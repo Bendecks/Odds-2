@@ -1,2 +1,2 @@
-rows,avg_clv_home,avg_clv_draw,avg_clv_away
-189,,,
+rows,avg_clv_delta,beat_closing_line_rate,positive_clv_rows,negative_clv_rows,interpretation
+189,-0.7976,0.4286,81,108,negative_clv_signal
