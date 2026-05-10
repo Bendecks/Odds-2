@@ -37,11 +37,28 @@ for _, row in latest_round.iterrows():
     if home not in team_strengths.index or away not in team_strengths.index:
         continue
 
-    home_attack = team_strengths.loc[home, 'attack_strength']
-    away_attack = team_strengths.loc[away, 'attack_strength']
+    home_row = team_strengths.loc[home]
+    away_row = team_strengths.loc[away]
 
-    home_defense = team_strengths.loc[home, 'defense_strength']
-    away_defense = team_strengths.loc[away, 'defense_strength']
+    home_attack = (
+        home_row['home_attack_strength'] * 0.5
+        + home_row['recent_attack_strength'] * 0.5
+    )
+
+    away_attack = (
+        away_row['away_attack_strength'] * 0.5
+        + away_row['recent_attack_strength'] * 0.5
+    )
+
+    home_defense = (
+        home_row['home_defense_strength'] * 0.5
+        + home_row['recent_defense_strength'] * 0.5
+    )
+
+    away_defense = (
+        away_row['away_defense_strength'] * 0.5
+        + away_row['recent_defense_strength'] * 0.5
+    )
 
     expected_home_goals = (
         league_home_avg
@@ -56,12 +73,15 @@ for _, row in latest_round.iterrows():
         * home_defense
     )
 
+    expected_home_goals = max(expected_home_goals, 0.2)
+    expected_away_goals = max(expected_away_goals, 0.2)
+
     home_win = 0
     draw = 0
     away_win = 0
 
-    for h in range(6):
-        for a in range(6):
+    for h in range(7):
+        for a in range(7):
             p = poisson.pmf(h, expected_home_goals) * poisson.pmf(a, expected_away_goals)
 
             if h > a:
@@ -70,6 +90,13 @@ for _, row in latest_round.iterrows():
                 draw += p
             else:
                 away_win += p
+
+    normalization = home_win + draw + away_win
+
+    if normalization > 0:
+        home_win /= normalization
+        draw /= normalization
+        away_win /= normalization
 
     predictions.append({
         'home_team': home,
@@ -91,4 +118,4 @@ predictions_df.to_parquet(output_dir / 'poisson_predictions.parquet', index=Fals
 predictions_df.to_csv(output_dir / 'poisson_predictions.csv', index=False)
 
 print(predictions_df.head())
-print(f'Generated {len(predictions_df)} Poisson predictions')
+print(f'Generated {len(predictions_df)} improved Poisson predictions')
