@@ -36,7 +36,6 @@ if len(clv_band):
         avg_clv = row.get('avg_clv_delta')
         beat_rate = row.get('beat_closing_line_rate')
 
-        # Low sample rules are soft. Larger samples can trigger stricter suppression.
         if rows >= 5 and pd.notna(avg_clv) and float(avg_clv) < -0.25:
             rules.append({
                 'rule_type': 'probability_band',
@@ -50,6 +49,15 @@ if len(clv_band):
                 'target': band,
                 'action': 'downweight',
                 'reason': f'beat_closing_line_rate={round(float(beat_rate),4)} with rows={rows}',
+            })
+        elif rows >= 10 and pd.notna(beat_rate) and float(beat_rate) >= 0.55 and pd.notna(avg_clv) and float(avg_clv) > -0.10:
+            # This is not an approval signal. It only marks the band as worth observing
+            # while the whole system remains research-only.
+            rules.append({
+                'rule_type': 'probability_band',
+                'target': band,
+                'action': 'monitor',
+                'reason': f'healthier watchlist band: avg_clv_delta={round(float(avg_clv),4)}, beat_rate={round(float(beat_rate),4)}, rows={rows}',
             })
 
 league = safe_read(league_path)
