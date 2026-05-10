@@ -17,6 +17,7 @@ source_files = [
     output_dir / 'market_alignment_report.md',
     output_dir / 'probability_calibration_layer.md',
     output_dir / 'probability_calibration_rules.csv',
+    output_dir / 'probability_calibration_impact_report.md',
     output_dir / 'clv_trend_report.md',
     output_dir / 'clv_band_report.md',
     output_dir / 'signal_suppression_rules.md',
@@ -66,6 +67,7 @@ Produce:
 6. Whether the current suppression rules look too strict, too loose, or reasonable
 7. Whether the probability calibration layer looks too aggressive, too weak, or reasonable
 8. Which probability band should be protected, suppressed, or monitored next
+9. Whether calibration impact should be increased, reduced, or left unchanged
 
 Project state:
 {context}
@@ -82,7 +84,7 @@ payload = {
     ],
     'generationConfig': {
         'temperature': 0.2,
-        'maxOutputTokens': 1100,
+        'maxOutputTokens': 1200,
     },
 }
 
