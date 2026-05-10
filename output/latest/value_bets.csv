@@ -1,8 +1,8 @@
 home_team,away_team,market_home_odds,market_draw_odds,market_away_odds,fair_home_odds,fair_draw_odds,fair_away_odds,home_ev,draw_ev,away_ev
-Bournemouth,Leicester,1.4,6.0,5.75,4.7,3.68,1.95,-0.7018,0.6296,1.9428
-Fulham,Man City,4.33,4.2,1.7,2.53,4.08,2.85,0.7142,0.0294,-0.4038
-Ipswich,West Ham,1.33,5.5,8.5,6.09,3.67,1.79,-0.7815,0.4971,3.76
-Liverpool,Crystal Palace,3.0,3.75,2.2,1.89,4.93,4.18,0.5873,-0.2395,-0.4733
-Newcastle,Everton,8.5,6.0,1.3,3.04,3.86,2.46,1.7939,0.5528,-0.4705
-Southampton,Arsenal,4.2,4.33,1.7,4.39,3.69,2.01,-0.0437,0.1726,-0.1537
-Tottenham,Brighton,2.7,3.7,2.45,1.78,5.36,4.81,0.5206,-0.3096,-0.4911
+Bournemouth,Leicester,1.4,6.0,5.75,3.24,3.07,2.75,-0.5673,0.956,1.0942
+Fulham,Man City,4.33,4.2,1.7,3.44,4.8,2.11,0.2596,-0.1251,-0.1961
+Ipswich,West Ham,1.33,5.5,8.5,3.98,2.86,2.51,-0.6655,0.9222,2.3873
+Liverpool,Crystal Palace,3.0,3.75,2.2,2.23,5.11,3.22,0.3428,-0.2669,-0.3178
+Newcastle,Everton,8.5,6.0,1.3,2.73,3.84,2.72,2.1136,0.5624,-0.5212
+Southampton,Arsenal,4.2,4.33,1.7,2.81,2.99,3.23,0.4948,0.4467,-0.474
+Tottenham,Brighton,2.7,3.7,2.45,1.83,5.55,4.6,0.4753,-0.3329,-0.4671
