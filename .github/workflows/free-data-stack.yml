@@ -44,6 +44,9 @@ jobs:
       - name: Fetch multi-league data
         run: python scripts/fetch_multileague_data.py
 
+      - name: Fetch multi-season data
+        run: python scripts/fetch_multiseason_data.py
+
       - name: Fetch ClubElo ratings
         run: python scripts/fetch_clubelo.py
 
@@ -94,6 +97,9 @@ jobs:
 
       - name: Build dataset quality diagnostics
         run: python scripts/build_dataset_quality_report.py
+
+      - name: Build historical coverage diagnostics
+        run: python scripts/build_historical_coverage_report.py
 
       - name: Build snapshot timing diagnostics
         run: python scripts/build_snapshot_timing_report.py
