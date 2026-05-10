@@ -56,6 +56,7 @@ add_check('Prediction log output', 'output/latest/prediction_log_latest.parquet'
 add_check('Settled predictions output', 'output/latest/settled_predictions.parquet', required_columns=['prediction_id', 'settlement_status'])
 add_check('CLV results output', 'output/latest/clv_results.parquet', required_columns=['prediction_id', 'clv_delta', 'beat_closing_line', 'sample_phase'])
 add_check('Candidate bets output', 'output/latest/candidate_bets.parquet', required_columns=['prediction_id', 'probability_band', 'suppression_action', 'rejection_reason'], allow_empty=True)
+add_check('Paper test picks output', 'output/latest/paper_test_picks.parquet', required_columns=['prediction_id', 'paper_test_tier', 'paper_test_score', 'paper_test_reason'], allow_empty=True)
 add_check('CLV band diagnostics', 'output/latest/clv_band_report.csv', required_columns=['probability_band', 'rows', 'avg_clv_delta', 'beat_closing_line_rate'], file_type='csv', allow_empty=True)
 add_check('Signal suppression rules', 'output/latest/signal_suppression_rules.csv', required_columns=['rule_type', 'target', 'action', 'reason'], file_type='csv', allow_empty=True)
 add_check('Rule action summary', 'output/latest/rule_action_summary.csv', required_columns=['action', 'rules', 'targets'], file_type='csv', allow_empty=True)
