@@ -1,5 +1,5 @@
 probability_band,calibration_action,rows,avg_raw_probability,avg_multiplier
-0.00-0.35,strong_shrink,13,0.2798,0.88
+0.00-0.35,very_strong_shrink,13,0.2798,0.82
 0.35-0.45,monitor_hold,6,0.4002,1.01
 0.45-0.50,none,1,0.4554,1.0
-0.50-0.55,none,1,0.5062,1.0
+0.50-0.55,small_sample_shrink,1,0.5062,0.96

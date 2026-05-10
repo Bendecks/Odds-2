@@ -1,6 +1,6 @@
 # System Readiness Report
 
-Readiness score: 33/110
+Readiness score: 40/110
 Readiness status: observation_only
 
 ## Reasons
@@ -9,4 +9,4 @@ Readiness status: observation_only
 - Very small settlement sample.
 - Weak CLV performance.
 - High volatility profile.
-- No candidate bets available.
+- Candidate volume appears realistic.

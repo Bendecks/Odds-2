@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-10T22:27:41.235720+00:00`
-GitHub run: `158` attempt `1`
-GitHub SHA: `03b9f244fca23591616be44058f6737170f0d140`
+Generated UTC: `2026-05-10T22:30:53.034555+00:00`
+GitHub run: `160` attempt `1`
+GitHub SHA: `87659224cc64757e6a683364d0aff2c93e5d8342`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -36,7 +36,7 @@ Readiness: research-only
 Recommendation: NO REAL MONEY - continue research
 Total predictions: 210
 Historical candidate predictions: 91
-Current candidate bets: 0
+Current candidate bets: 1
 Settled predictions: 210
 Wins: 70
 Total ROI units: -3.45
@@ -62,58 +62,61 @@ Status: research/paper-test only. No real-money recommendation yet.
 Candidate bets remain the stricter real-money-gated list.
 Paper-test picks are observation-only and must not be staked.
 ## Candidate Bets
-No qualifying candidate bets today.
-## Paper-Test Picks
 ### Fulham vs Man City
 - Date/time: 25/05/2025 2026-05-10 16:00:00
 - League/phase: premier_league / historical_proxy_research
 - Selection: AWAY
 - Market odds: 2.3
-- Fair odds: 2.25
-- Model probability: 0.4442
-- Probability band: 0.35-0.45
-- EV: 0.0217
-- Probability edge: 0.0094
-- Alignment penalty: 0.0217
-- Suppression action: monitor
-- Paper tier: priority_observation
-- Paper score: 0.2745
+- Fair odds: 2.17
+- Model probability: 0.4617
+- EV: 0.0619
+- Suppression action: none
+- Calibration risk: normal
 - Prediction ID: a79498dae79d1c08828e
-### Southampton vs Arsenal
+## Paper-Test Picks
+### Liverpool vs Crystal Palace
 - Date/time: 25/05/2025 2026-05-10 16:00:00
 - League/phase: premier_league / historical_proxy_research
-- Selection: AWAY
-- Market odds: 2.52
-- Fair odds: 1.86
-- Model probability: 0.5381
-- Probability band: 0.50-0.55
+- Selection: HOME
+- Market odds: 2.67
+- Fair odds: 2.06
+- Model probability: 0.4861
+- Probability band: 0.45-0.50
+- EV: 0.2979
+- Probability edge: 0.1116
+- Alignment penalty: 0.2979
+- Suppression action: none
+- Paper tier: priority_observation
 
 ## paper_test_picks
 
 # Paper Test Picks
 Observation-only picks. These are not real-money recommendations.
 Purpose: collect forward-test CLV and settlement evidence quickly without weakening real-money guardrails.
-- Fulham vs Man City | selection=AWAY | odds=2.3 | prob=0.4442 | EV=0.0217 | edge=0.0094 | penalty=0.0217 | band=0.35-0.45 | rule=monitor | tier=priority_observation
-- Southampton vs Arsenal | selection=AWAY | odds=2.52 | prob=0.5381 | EV=0.356 | edge=0.1413 | penalty=0.356 | band=0.50-0.55 | rule=none | tier=observation
-- Liverpool vs Crystal Palace | selection=HOME | odds=2.67 | prob=0.4685 | EV=0.2509 | edge=0.094 | penalty=0.2509 | band=0.45-0.50 | rule=none | tier=observation
+Current paper-test picks: 3
+Newly logged paper-test picks: 3
+Total logged paper-test picks: 3
+- Liverpool vs Crystal Palace | selection=HOME | odds=2.67 | prob=0.4861 | EV=0.2979 | edge=0.1116 | penalty=0.2979 | band=0.45-0.50 | rule=none | tier=priority_observation
+- Fulham vs Man City | selection=AWAY | odds=2.3 | prob=0.4617 | EV=0.0619 | edge=0.0269 | penalty=0.0619 | band=0.45-0.50 | rule=none | tier=priority_observation
+- Southampton vs Arsenal | selection=AWAY | odds=2.52 | prob=0.5455 | EV=0.3747 | edge=0.1487 | penalty=0.3747 | band=0.50-0.55 | rule=none | tier=observation
 
 ## probability_calibration_layer
 
 # Probability Calibration Layer
 Prediction rows: 7
 Band rules available: 4
-- 0.00-0.35 | strong_shrink | adjustments=13
+- 0.00-0.35 | very_strong_shrink | adjustments=13
 - 0.35-0.45 | monitor_hold | adjustments=6
 - 0.45-0.50 | none | adjustments=1
-- 0.50-0.55 | none | adjustments=1
+- 0.50-0.55 | small_sample_shrink | adjustments=1
 
 ## probability_calibration_impact
 
 # Probability Calibration Impact Report
-- 0.00-0.35 | action=strong_shrink | rows=13 | avg_raw_prob=0.2798 | avg_multiplier=0.88
+- 0.00-0.35 | action=very_strong_shrink | rows=13 | avg_raw_prob=0.2798 | avg_multiplier=0.82
 - 0.35-0.45 | action=monitor_hold | rows=6 | avg_raw_prob=0.4002 | avg_multiplier=1.01
 - 0.45-0.50 | action=none | rows=1 | avg_raw_prob=0.4554 | avg_multiplier=1.0
-- 0.50-0.55 | action=none | rows=1 | avg_raw_prob=0.5062 | avg_multiplier=1.0
+- 0.50-0.55 | action=small_sample_shrink | rows=1 | avg_raw_prob=0.5062 | avg_multiplier=0.96
 
 ## clv_trend
 
@@ -182,8 +185,8 @@ Separates historical proxy research from paper forward-testing diagnostics.
 
 # Market Alignment Report
 Total usable rows: 21
-Average alignment gap: 0.1049
-Median alignment gap: 0.0928
+Average alignment gap: 0.1107
+Median alignment gap: 0.0964
 Market alignment status: moderate_alignment
 
 ## market_proxy_quality
@@ -201,9 +204,9 @@ Market proxy quality: reasonable_market_proxy
 # Probability Distribution Report
 Count: 21
 Mean probability: 0.3333
-Max probability: 0.5381
-Min probability: 0.2257
-Std probability: 0.0996
+Max probability: 0.5455
+Min probability: 0.2191
+Std probability: 0.1099
 Probability distribution is within conservative guardrails.
 
 ## historical_coverage

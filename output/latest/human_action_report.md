@@ -3,4 +3,4 @@
 ## Recommended actions
 
 - Paper-tracking recommended before real usage.
-- No candidate bets currently pass filtering.
+- 1 candidate bets currently available.
