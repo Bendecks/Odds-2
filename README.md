@@ -4,45 +4,80 @@ Data Integrity Foundation V1 for iPhone → bet365 PDF → GitHub Actions.
 
 This repo intentionally starts with data quality, not betting rules.
 
-## Phase 1 goal
+## Strategic shift
 
-1. Receive bet365 PDF/text input from iPhone.
-2. Extract raw text and layout metadata.
-3. Parse football 1X2 market observations.
-4. Normalize all times to UTC while preserving local Denmark display time.
-5. Canonical-match team names with alias/truncation/fuzzy logic.
-6. Calculate deterministic parser confidence.
-7. Generate stable event/market/observation IDs.
-8. Detect duplicates, odds movement and parser conflicts.
-9. Append an audit trail to `data/pick_tracker.jsonl`.
-10. Write human-readable reports and debug text.
+The project now prioritizes:
 
-## Key outputs
+- Pre-match value betting
+- Closing Line Value (CLV) tracking
+- Historical modelling
+- Free and stable data sources
+- GitHub-native automation
 
-- `output/latest/parser_output.json`
-- `output/latest/observations.json`
-- `output/latest/dedupe_report.json`
-- `output/reports/latest_report.md`
-- `data/pick_tracker.jsonl`
-- `data/team_alias_suggestions.json`
+The project intentionally avoids fragile live scraping architectures in the MVP.
+
+## Primary data stack
+
+### Historical odds
+
+- football-data.co.uk
+- Pinnacle closing odds
+- Asian handicap datasets
+- Over/Under datasets
+
+### Team strength and modelling
+
+- ClubElo
+- FBRef
+- Understat
+- soccerdata
+
+### Infrastructure
+
+- Python
+- GitHub Actions
+- Parquet
+- DuckDB
+- Pandas
+
+## Current MVP goals
+
+1. Download historical football odds.
+2. Download ClubElo ratings.
+3. Build fair odds scaffolding.
+4. Track CLV against Pinnacle closing prices.
+5. Build deterministic data pipelines.
+6. Archive snapshots for future modelling.
 
 ## Workflow
 
-Run GitHub Action: **Process bet365 input**.
-
-Input folder:
+Run GitHub Action:
 
 ```text
-inbox/possible_bets/
+Free Betting Data Stack
 ```
 
-Supported files in V1:
+## Current scripts
 
 ```text
-.pdf
-.txt
-.md
-.json
+scripts/fetch_football_data.py
+scripts/fetch_clubelo.py
+scripts/build_fair_odds.py
 ```
 
-PDF extraction uses pypdf first, then PyMuPDF fallback. OCR/Gemini Vision is intentionally not active in Phase 1; files without a useful text layer are logged as extraction failures/shadow-only.
+## Key outputs
+
+```text
+data/raw/
+data/model/
+```
+
+## Planned next phase
+
+- Poisson goal models
+- EV calculations
+- Telegram alerts
+- Team-name canonical mapping
+- CLV dashboards
+- Betfair integration
+- Selective Pinnacle snapshots
