@@ -1,22 +1,22 @@
 prediction_id,home_team,away_team,selection,opening_odds,closing_odds,clv_delta,beat_closing_line
-f16941a3a79708ef7730,Bournemouth,Leicester,home,1.4,1.34,0.06,True
-f1a8c0bcd8d175840ae4,Bournemouth,Leicester,draw,6.0,5.67,0.33,True
-517dd1b37a1779a66fc9,Bournemouth,Leicester,away,5.75,9.01,-3.26,False
-a2e44438e43cffb58250,Fulham,Man City,home,4.33,6.32,-1.99,False
-32014f725e94f9201c7f,Fulham,Man City,draw,4.2,4.57,-0.37,False
-75cc9ccb0206ccf6a6af,Fulham,Man City,away,1.7,1.52,0.18,True
-a3602b459e91923ba0d8,Ipswich,West Ham,home,1.33,3.28,-1.95,False
-65ca3e5889ec50a1870c,Ipswich,West Ham,draw,5.5,3.63,1.87,True
-5764f94257b11146aac2,Ipswich,West Ham,away,8.5,2.23,6.27,True
-1f4760497a6b2c538b9f,Liverpool,Crystal Palace,home,3.0,1.38,1.62,True
-471f89d6c8a0b8930003,Liverpool,Crystal Palace,draw,3.75,6.04,-2.29,False
-edd7653ab5b40567f996,Liverpool,Crystal Palace,away,2.2,7.14,-4.94,False
-8623f48ca228554b5868,Newcastle,Everton,home,8.5,1.28,7.22,True
-949c1a41b5572d00c130,Newcastle,Everton,draw,6.0,6.19,-0.19,False
-a0e3d113f8b527b03d52,Newcastle,Everton,away,1.3,10.36,-9.06,False
-ad93940b798bd54f474c,Southampton,Arsenal,home,4.2,11.73,-7.53,False
-70725d3eddda29a7398e,Southampton,Arsenal,draw,4.33,6.54,-2.21,False
-62ee3f445d8eca96be3d,Southampton,Arsenal,away,1.7,1.25,0.45,True
-06c25df182c882233bfa,Tottenham,Brighton,home,2.7,3.83,-1.13,False
-c3370be947bfe260fd0c,Tottenham,Brighton,draw,3.7,4.06,-0.36,False
-9824dd164df2e3749168,Tottenham,Brighton,away,2.45,1.92,0.53,True
+776a06c4de5f69de86c5,Bournemouth,Leicester,home,1.4,1.34,0.06,True
+161aafb6d0b48ab44b8b,Bournemouth,Leicester,draw,6.0,5.67,0.33,True
+bc71cdd4db510b378d4f,Bournemouth,Leicester,away,5.75,9.01,-3.26,False
+130e7dbfa8ab7ec806db,Fulham,Man City,home,4.33,6.32,-1.99,False
+1fb593f0e40993b870cc,Fulham,Man City,draw,4.2,4.57,-0.37,False
+561520a5b2c93e434dcf,Fulham,Man City,away,1.7,1.52,0.18,True
+2437b20d5b5d0dde569b,Ipswich,West Ham,home,1.33,3.28,-1.95,False
+4ed59d28d6f5e9c6f098,Ipswich,West Ham,draw,5.5,3.63,1.87,True
+b627b01b1e7a4d08b77f,Ipswich,West Ham,away,8.5,2.23,6.27,True
+c1c58d6d2d4874ddfcd4,Liverpool,Crystal Palace,home,3.0,1.38,1.62,True
+4aa9d87ed06900a6d1c9,Liverpool,Crystal Palace,draw,3.75,6.04,-2.29,False
+88eafc642b0af131f516,Liverpool,Crystal Palace,away,2.2,7.14,-4.94,False
+6b3e13794881073e5250,Newcastle,Everton,home,8.5,1.28,7.22,True
+f55701cecb6e4ba775a5,Newcastle,Everton,draw,6.0,6.19,-0.19,False
+881f928a2f370dddfb6c,Newcastle,Everton,away,1.3,10.36,-9.06,False
+291d0e66def9c116169f,Southampton,Arsenal,home,4.2,11.73,-7.53,False
+c56199e2ec68c74796e2,Southampton,Arsenal,draw,4.33,6.54,-2.21,False
+019d31cdcc8412fa6e8e,Southampton,Arsenal,away,1.7,1.25,0.45,True
+ae76428f2915b9d4f259,Tottenham,Brighton,home,2.7,3.83,-1.13,False
+889e6e2ed0a474d6e8c9,Tottenham,Brighton,draw,3.7,4.06,-0.36,False
+d9a61afee080ff6b1d45,Tottenham,Brighton,away,2.45,1.92,0.53,True
