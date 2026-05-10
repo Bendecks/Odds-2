@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-10T21:36:55.113378+00:00`
-GitHub run: `132` attempt `1`
-GitHub SHA: `59e9868e3ec3a89efae7ac77dc99c03f975a626a`
+Generated UTC: `2026-05-10T21:40:05.109016+00:00`
+GitHub run: `134` attempt `1`
+GitHub SHA: `3f3d669d73d26f8b330d8e6dd18967e22dc50955`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -22,6 +22,7 @@ Overall status: `OK`
 | Candidate bets output | True | 0 |  |  |
 | CLV band diagnostics | True | 4 |  |  |
 | Signal suppression rules | True | 1 |  |  |
+| Sample phase performance | True | 2 |  |  |
 
 ## betting_performance
 
