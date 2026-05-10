@@ -55,6 +55,7 @@ add_check('CLV results output', 'output/latest/clv_results.parquet', required_co
 add_check('Candidate bets output', 'output/latest/candidate_bets.parquet', required_columns=['prediction_id', 'probability_band', 'suppression_action', 'rejection_reason'], allow_empty=True)
 add_check('CLV band diagnostics', 'output/latest/clv_band_report.csv', required_columns=['probability_band', 'rows', 'avg_clv_delta', 'beat_closing_line_rate'], file_type='csv', allow_empty=True)
 add_check('Signal suppression rules', 'output/latest/signal_suppression_rules.csv', required_columns=['rule_type', 'target', 'action', 'reason'], file_type='csv', allow_empty=True)
+add_check('Rule action summary', 'output/latest/rule_action_summary.csv', required_columns=['action', 'rules', 'targets'], file_type='csv', allow_empty=True)
 add_check('Sample phase performance', 'output/latest/phase_performance_report.csv', required_columns=['sample_phase', 'settled_rows', 'clv_rows', 'recommended_usage'], file_type='csv', allow_empty=True)
 
 run_number = os.getenv('GITHUB_RUN_NUMBER', 'local')
