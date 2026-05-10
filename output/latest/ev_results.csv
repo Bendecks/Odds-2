@@ -1,8 +1,8 @@
 snapshot_created_at_utc,snapshot_source,market_overround,home_team,away_team,home_win_probability,draw_probability,away_win_probability,market_home_odds,market_draw_odds,market_away_odds,fair_home_odds,fair_draw_odds,fair_away_odds,home_ev,draw_ev,away_ev
-2026-05-10T21:56:40.130102+00:00,football-data.co.uk-closing-market-proxy,1.0311,Bournemouth,Leicester,0.4554,0.262,0.2826,1.44,4.95,7.43,2.2,3.82,3.54,-0.3442,0.2969,1.0997
-2026-05-10T21:56:40.130102+00:00,football-data.co.uk-closing-market-proxy,1.0275,Fulham,Man City,0.3167,0.2728,0.4105,3.16,3.62,2.3,3.16,3.67,2.44,0.0008,-0.0125,-0.0559
-2026-05-10T21:56:40.130102+00:00,football-data.co.uk-closing-market-proxy,1.0267,Ipswich,West Ham,0.3126,0.2681,0.4193,2.85,2.76,3.19,3.2,3.73,2.38,-0.1091,-0.26,0.3376
-2026-05-10T21:56:40.130102+00:00,football-data.co.uk-closing-market-proxy,1.028,Liverpool,Crystal Palace,0.4344,0.2634,0.3023,2.67,3.18,2.95,2.3,3.8,3.31,0.1598,-0.1624,-0.1082
-2026-05-10T21:56:40.130102+00:00,football-data.co.uk-closing-market-proxy,1.0318,Newcastle,Everton,0.3939,0.2797,0.3264,5.32,3.86,1.71,2.54,3.58,3.06,1.0955,0.0796,-0.4419
-2026-05-10T21:56:40.130102+00:00,football-data.co.uk-closing-market-proxy,1.0268,Southampton,Arsenal,0.2413,0.2525,0.5062,3.14,3.21,2.52,4.14,3.96,1.98,-0.2423,-0.1895,0.2756
-2026-05-10T21:56:40.130102+00:00,football-data.co.uk-closing-market-proxy,1.03,Tottenham,Brighton,0.3609,0.2568,0.3822,1.82,3.56,5.01,2.77,3.89,2.62,-0.3432,-0.0858,0.9148
+2026-05-10T21:58:38.544914+00:00,football-data.co.uk-closing-market-proxy,1.0311,Bournemouth,Leicester,0.4554,0.262,0.2826,1.44,4.95,7.43,2.2,3.82,3.54,-0.3442,0.2969,1.0997
+2026-05-10T21:58:38.544914+00:00,football-data.co.uk-closing-market-proxy,1.0275,Fulham,Man City,0.3167,0.2728,0.4105,3.16,3.62,2.3,3.16,3.67,2.44,0.0008,-0.0125,-0.0559
+2026-05-10T21:58:38.544914+00:00,football-data.co.uk-closing-market-proxy,1.0267,Ipswich,West Ham,0.3126,0.2681,0.4193,2.85,2.76,3.19,3.2,3.73,2.38,-0.1091,-0.26,0.3376
+2026-05-10T21:58:38.544914+00:00,football-data.co.uk-closing-market-proxy,1.028,Liverpool,Crystal Palace,0.4344,0.2634,0.3023,2.67,3.18,2.95,2.3,3.8,3.31,0.1598,-0.1624,-0.1082
+2026-05-10T21:58:38.544914+00:00,football-data.co.uk-closing-market-proxy,1.0318,Newcastle,Everton,0.3939,0.2797,0.3264,5.32,3.86,1.71,2.54,3.58,3.06,1.0955,0.0796,-0.4419
+2026-05-10T21:58:38.544914+00:00,football-data.co.uk-closing-market-proxy,1.0268,Southampton,Arsenal,0.2413,0.2525,0.5062,3.14,3.21,2.52,4.14,3.96,1.98,-0.2423,-0.1895,0.2756
+2026-05-10T21:58:38.544914+00:00,football-data.co.uk-closing-market-proxy,1.03,Tottenham,Brighton,0.3609,0.2568,0.3822,1.82,3.56,5.01,2.77,3.89,2.62,-0.3432,-0.0858,0.9148
