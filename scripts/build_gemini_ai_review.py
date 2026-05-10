@@ -12,6 +12,10 @@ model = os.getenv('GEMINI_MODEL', 'gemini-1.5-flash')
 
 source_files = [
     output_dir / 'project_status_report.md',
+    output_dir / 'forward_input_status.md',
+    output_dir / 'upcoming_fixtures.md',
+    output_dir / 'manual_odds_template.md',
+    output_dir / 'manual_forward_snapshots.md',
     output_dir / 'operational_decision_report.md',
     output_dir / 'human_action_report.md',
     output_dir / 'market_alignment_report.md',
@@ -70,6 +74,7 @@ Produce:
 8. Whether the paper-test pick filter is too strict, too loose, or reasonable
 9. Which probability band should be protected, suppressed, or monitored next
 10. Whether calibration impact should be increased, reduced, or left unchanged
+11. What is blocking true forward paper-testing right now: fixtures, manual odds, model matching, or filters?
 
 Project state:
 {context}
@@ -86,7 +91,7 @@ payload = {
     ],
     'generationConfig': {
         'temperature': 0.2,
-        'maxOutputTokens': 1200,
+        'maxOutputTokens': 1300,
     },
 }
 
