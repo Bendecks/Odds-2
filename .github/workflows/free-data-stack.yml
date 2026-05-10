@@ -104,6 +104,15 @@ jobs:
       - name: Build historical coverage diagnostics
         run: python scripts/build_historical_coverage_report.py
 
+      - name: Build sample size diagnostics
+        run: python scripts/build_sample_size_report.py
+
+      - name: Build CLV trend diagnostics
+        run: python scripts/build_clv_trend_report.py
+
+      - name: Build system readiness diagnostics
+        run: python scripts/build_system_readiness_report.py
+
       - name: Build snapshot timing diagnostics
         run: python scripts/build_snapshot_timing_report.py
 
