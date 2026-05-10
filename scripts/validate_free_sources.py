@@ -45,6 +45,8 @@ def add_check(name, path, required_columns=None, file_type='parquet', allow_empt
 
 
 add_check('football-data.co.uk Premier League 24/25', 'data/raw/premier_league_2425.parquet', required_columns=['HomeTeam', 'AwayTeam', 'FTHG', 'FTAG'])
+add_check('Upcoming fixtures', 'data/raw/upcoming/upcoming_fixtures.parquet', required_columns=['fixture_id', 'match_date', 'home_team', 'away_team'], allow_empty=True)
+add_check('Manual odds template', 'output/latest/manual_odds_template.csv', required_columns=['fixture_id', 'home_team', 'away_team', 'market_home_odds', 'market_draw_odds', 'market_away_odds'], file_type='csv', allow_empty=True)
 add_check('ClubElo latest snapshot', 'data/raw/clubelo_latest.parquet', required_columns=['Club', 'Elo'])
 add_check('Basic team strength model', 'data/model/team_strengths.parquet', required_columns=['attack_strength', 'defense_strength'])
 add_check('Poisson predictions', 'output/latest/poisson_predictions.parquet', required_columns=['home_team', 'away_team', 'fair_home_odds'])
