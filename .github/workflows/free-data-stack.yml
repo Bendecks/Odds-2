@@ -10,6 +10,7 @@ on:
       - 'requirements.txt'
       - '.github/workflows/free-data-stack.yml'
       - 'DEVLOG.md'
+      - 'data/config/**'
   schedule:
     - cron: '0 */12 * * *'
 
@@ -45,6 +46,12 @@ jobs:
 
       - name: Build fair odds scaffold
         run: python scripts/build_fair_odds.py
+
+      - name: Generate Poisson predictions
+        run: python scripts/generate_poisson_predictions.py
+
+      - name: Calculate expected value
+        run: python scripts/calculate_ev.py
 
       - name: Validate free sources
         run: python scripts/validate_free_sources.py
