@@ -37,6 +37,7 @@ calls_used = 0
 fetched_at = datetime.now(timezone.utc).isoformat()
 today = datetime.now(timezone.utc).date()
 discovery_mode = 'targeted_events_search_then_single_event_odds'
+parse_mode = 'bookmakers_market_odds_schema'
 
 
 def get_json(url: str, label: str):
@@ -140,7 +141,48 @@ def eligible(fixtures):
     ]
 
 
+def number(value):
+    parsed = pd.to_numeric(value, errors='coerce')
+    if pd.isna(parsed):
+        return None
+    return float(parsed)
+
+
+def market_is_match_winner(name: str) -> bool:
+    text = str(name or '').strip().lower()
+    return text in {'ml', 'moneyline', 'match winner', 'match_winner', 'full time result', 'fulltime result', '1x2'}
+
+
 def extract_three_way_odds(odds_payload):
+    # Documented schema: EventResponse.bookmakers = {BookmakerName: [MultiMarketDto]}
+    bookmaker_payload = odds_payload.get('bookmakers') if isinstance(odds_payload, dict) else None
+    if isinstance(bookmaker_payload, dict):
+        requested = [item.strip().lower() for item in bookmakers.split(',') if item.strip()]
+        ordered_bookmakers = []
+        for wanted in requested:
+            ordered_bookmakers.extend([name for name in bookmaker_payload.keys() if str(name).lower() == wanted])
+        ordered_bookmakers.extend([name for name in bookmaker_payload.keys() if name not in ordered_bookmakers])
+
+        for bookmaker_name in ordered_bookmakers:
+            markets = bookmaker_payload.get(bookmaker_name) or []
+            if not isinstance(markets, list):
+                continue
+            preferred_markets = [m for m in markets if market_is_match_winner(m.get('name'))]
+            preferred_markets.extend([m for m in markets if m not in preferred_markets])
+            for market in preferred_markets:
+                odds_items = market.get('odds') or []
+                if isinstance(odds_items, dict):
+                    odds_items = [odds_items]
+                for odds_item in odds_items:
+                    if not isinstance(odds_item, dict):
+                        continue
+                    h = number(odds_item.get('home'))
+                    d = number(odds_item.get('draw'))
+                    a = number(odds_item.get('away'))
+                    if h and d and a and min(h, d, a) > 1:
+                        return h, d, a, bookmaker_name, market.get('name')
+
+    # Fallback for undocumented variants.
     candidates = []
 
     def walk(obj):
@@ -150,14 +192,11 @@ def extract_three_way_odds(odds_payload):
             has_draw = any(k in lower_keys for k in ['draw', 'x'])
             has_away = any(k in lower_keys for k in ['away', '2', 'a'])
             if has_home and has_draw and has_away:
-                h = obj.get(lower_keys.get('home')) or obj.get(lower_keys.get('1')) or obj.get(lower_keys.get('h'))
-                d = obj.get(lower_keys.get('draw')) or obj.get(lower_keys.get('x'))
-                a = obj.get(lower_keys.get('away')) or obj.get(lower_keys.get('2')) or obj.get(lower_keys.get('a'))
-                h = pd.to_numeric(h, errors='coerce')
-                d = pd.to_numeric(d, errors='coerce')
-                a = pd.to_numeric(a, errors='coerce')
-                if pd.notna(h) and pd.notna(d) and pd.notna(a) and min(h, d, a) > 1:
-                    candidates.append((float(h), float(d), float(a)))
+                h = number(obj.get(lower_keys.get('home')) or obj.get(lower_keys.get('1')) or obj.get(lower_keys.get('h')))
+                d = number(obj.get(lower_keys.get('draw')) or obj.get(lower_keys.get('x')))
+                a = number(obj.get(lower_keys.get('away')) or obj.get(lower_keys.get('2')) or obj.get(lower_keys.get('a')))
+                if h and d and a and min(h, d, a) > 1:
+                    candidates.append((h, d, a, 'unknown_bookmaker', 'unknown_market'))
             for value in obj.values():
                 walk(value)
         elif isinstance(obj, list):
@@ -165,10 +204,12 @@ def extract_three_way_odds(odds_payload):
                 walk(value)
 
     walk(odds_payload)
-    return candidates[0] if candidates else (None, None, None)
+    return candidates[0] if candidates else (None, None, None, None, None)
 
 eligible_rows = []
 used_search_query = None
+selected_bookmaker = None
+selected_market = None
 
 if not api_key:
     errors.append({'stage': 'config', 'error': 'ODDS_API_IO_KEY missing'})
@@ -197,7 +238,7 @@ else:
                 }
                 odds_url = f"{base_url}/odds?" + urllib.parse.urlencode(params)
                 odds_payload = get_json(odds_url, f"odds_{meta['raw_event_id']}")
-                home_odds, draw_odds, away_odds = extract_three_way_odds(odds_payload)
+                home_odds, draw_odds, away_odds, selected_bookmaker, selected_market = extract_three_way_odds(odds_payload)
                 if home_odds:
                     rows.append({
                         'fixture_id': meta.get('fixture_id'),
@@ -206,7 +247,7 @@ else:
                         'home_team': meta.get('home_team'),
                         'away_team': meta.get('away_team'),
                         'league': meta.get('league'),
-                        'source_name': 'odds_api_io_single_event_proxy',
+                        'source_name': f'odds_api_io_{selected_bookmaker}_{selected_market}',
                         'source_type': 'free_api_market_proxy',
                         'market_home_odds': round(home_odds, 4),
                         'market_draw_odds': round(draw_odds, 4),
@@ -216,7 +257,7 @@ else:
                         'raw_source_url': 'https://api.odds-api.io/v3/odds',
                     })
                 else:
-                    errors.append({'stage': 'odds_parse', 'error': 'No 1X2 odds found in single-event odds response'})
+                    errors.append({'stage': 'odds_parse', 'error': 'No 1X2 odds found in EventResponse.bookmakers market odds response'})
             except Exception as exc:
                 errors.append({'stage': 'odds_request_or_parse', 'error': repr(exc)})
     except Exception as exc:
@@ -252,6 +293,9 @@ summary = {
     'bookmakers_param_mode': 'explicit_selected_bookmakers',
     'bookmakers_requested': bookmakers,
     'odds_endpoint_mode': 'single_event_documented_endpoint',
+    'odds_parse_mode': parse_mode,
+    'selected_bookmaker': selected_bookmaker,
+    'selected_market': selected_market,
     'source_quality': 'free_api_market_proxy_capped_calls',
 }
 pd.DataFrame([summary]).to_csv(output_dir / 'odds_api_io_forward_price_status.csv', index=False)
@@ -261,6 +305,7 @@ markdown = [
     '',
     'Cautious optional API source. Hard-capped by ODDS_API_IO_MAX_CALLS and ODDS_API_IO_MAX_EVENTS.',
     'Uses documented /v3/events/search first because docs specify it searches upcoming events, then /v3/odds for one eligible future event.',
+    'Parses documented EventResponse.bookmakers -> markets -> odds -> home/draw/away schema.',
     'Not real-money ready until validated against forward results and other sources.',
     '',
     f"Enabled: {summary['enabled']}",
@@ -271,6 +316,9 @@ markdown = [
     f"Bookmakers parameter mode: {summary['bookmakers_param_mode']}",
     f"Bookmakers requested: {summary['bookmakers_requested']}",
     f"Odds endpoint mode: {summary['odds_endpoint_mode']}",
+    f"Odds parse mode: {summary['odds_parse_mode']}",
+    f"Selected bookmaker: {summary['selected_bookmaker']}",
+    f"Selected market: {summary['selected_market']}",
     f"Fixture rows: {summary['fixture_rows']}",
     f"Eligible future fixture rows: {summary['eligible_future_fixture_rows']}",
     f"Price rows: {summary['price_rows']}",
@@ -279,7 +327,7 @@ markdown = [
 ]
 if len(prices):
     for _, row in prices.head(20).iterrows():
-        markdown.append(f"- {row['match_date']} {row['match_time']} | {row['home_team']} vs {row['away_team']} | {row['market_home_odds']}/{row['market_draw_odds']}/{row['market_away_odds']}")
+        markdown.append(f"- {row['match_date']} {row['match_time']} | {row['home_team']} vs {row['away_team']} | {row['source_name']} | {row['market_home_odds']}/{row['market_draw_odds']}/{row['market_away_odds']}")
 if errors:
     markdown.extend(['', '## Errors / Status', ''])
     for error in errors[:10]:
