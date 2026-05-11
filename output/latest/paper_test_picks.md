@@ -6,13 +6,13 @@ Suppressed historical bands may be tracked only as proxy observation and remain 
 
 Source used: automatic_forward_value_snapshots
 Current paper-test picks: 7
-Newly logged paper-test picks: 0
-Total logged paper-test rows: 16
+Newly logged paper-test picks: 7
+Total logged paper-test rows: 23
 
-- Tottenham vs Leeds | selection=AWAY | odds=4.1 | prob=0.3152 | EV=0.2923 | edge=0.0713 | penalty=0.2923 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
-- Tottenham vs Leeds | selection=AWAY | odds=3.92 | prob=0.3152 | EV=0.2356 | edge=0.0601 | penalty=0.2356 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
-- Tottenham vs Leeds | selection=AWAY | odds=3.75 | prob=0.3152 | EV=0.182 | edge=0.0485 | penalty=0.182 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
-- Napoli vs Bologna | selection=DRAW | odds=4.2 | prob=0.2843 | EV=0.1941 | edge=0.0462 | penalty=0.1941 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
-- Napoli vs Bologna | selection=DRAW | odds=4.2 | prob=0.2843 | EV=0.1941 | edge=0.0462 | penalty=0.1941 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
-- Napoli vs Bologna | selection=DRAW | odds=4.01 | prob=0.2843 | EV=0.14 | edge=0.0349 | penalty=0.14 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
-- Vallecano vs Girona | selection=AWAY | odds=3.05 | prob=0.3376 | EV=0.0297 | edge=0.0097 | penalty=0.0297 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
+- Estrela vs Famalicao | selection=HOME | odds=3.7 | prob=0.3772 | EV=0.3956 | edge=0.1069 | penalty=0.3956 | band=0.35-0.45 | rule=monitor | tier=proxy_observation
+- Estrela vs Famalicao | selection=HOME | odds=3.51 | prob=0.3772 | EV=0.324 | edge=0.0923 | penalty=0.324 | band=0.35-0.45 | rule=monitor | tier=priority_proxy_observation
+- Estrela vs Famalicao | selection=HOME | odds=3.5 | prob=0.3772 | EV=0.3202 | edge=0.0915 | penalty=0.3202 | band=0.35-0.45 | rule=monitor | tier=priority_proxy_observation
+- Tondela vs Moreirense | selection=AWAY | odds=4.1 | prob=0.3488 | EV=0.4301 | edge=0.1049 | penalty=0.4301 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
+- Tondela vs Moreirense | selection=AWAY | odds=4.1 | prob=0.3488 | EV=0.4301 | edge=0.1049 | penalty=0.4301 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
+- Huesca vs Sociedad B | selection=AWAY | odds=4.0 | prob=0.3488 | EV=0.3952 | edge=0.0988 | penalty=0.3952 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
+- Huesca vs Sociedad B | selection=AWAY | odds=3.8 | prob=0.3488 | EV=0.3254 | edge=0.0856 | penalty=0.3254 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation

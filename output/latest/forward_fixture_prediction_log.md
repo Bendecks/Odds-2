@@ -2,12 +2,28 @@
 
 Probability-only forward prediction log. This is not a betting log and contains no stake or real-money signal.
 
-Current forward fixture predictions: 3
-New forward fixture predictions logged: 0
-Total forward fixture predictions logged: 4
+Current forward fixture predictions: 80
+New forward fixture predictions logged: 80
+Total forward fixture predictions logged: 84
 Log type: probability_only_no_market_prices
 
-- 2026-05-11 2026-05-11 19:00:00 | Tottenham Hotspur vs Leeds United | H=0.4257 D=0.259 A=0.31520000000000004
-- 2026-05-11 2026-05-11 20:00:00 | Tottenham vs Leeds | H=0.4257 D=0.259 A=0.31520000000000004
-- 2026-05-11 2026-05-11 19:45:00 | Napoli vs Bologna | H=0.4007 D=0.2843 A=0.3149
-- 2026-05-11 2026-05-11 20:00:00 | Vallecano vs Girona | H=0.38330000000000003 D=0.279 A=0.3376
+- 2026-05-12 2026-05-11 14:00:00 | URA FC vs Calvary | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-12 2026-05-11 14:10:00 | AL Ittihad Kalba vs AL Nasr | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-12 2026-05-11 14:10:00 | AL Wasl vs AL Jazira | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-12 2026-05-11 14:45:00 | PFC Cherno More Varna vs PFC Lokomotiv Plovdiv | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-12 2026-05-11 15:00:00 | AL Faisaly (Jor) vs Ramtha SC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-12 2026-05-11 15:00:00 | FK Liepaja vs Ogre United | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-12 2026-05-11 15:00:00 | JS Omrane vs Avenir S Marsa | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-12 2026-05-11 15:00:00 | FC Metalist 1925 Kharkiv vs Karpaty Lviv | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-12 2026-05-11 15:00:00 | MFK Chrudim vs FK Pribram | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-12 2026-05-11 15:00:00 | Veres Rivne vs FC Kryvbas Kriviy Rih | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-12 2026-05-11 15:00:00 | Zaglebie Lubin II vs Mkp Carina Gubin | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-12 2026-05-11 15:30:00 | 1. FC Slovacko Uherske Hradiste vs FC Banik Ostrava | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-12 2026-05-11 15:30:00 | AL Wahda FC vs Khorfakkan | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-12 2026-05-11 15:30:00 | FK Mlada Boleslav vs Dukla Prague | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-12 2026-05-11 15:30:00 | FC Zlin vs FK Teplice | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-12 2026-05-11 16:00:00 | AE Kifisia FC vs Atromitos Athinon | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-12 2026-05-11 16:00:00 | Asteras Tripolis vs Panserraikos FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-12 2026-05-11 16:00:00 | FC Elva vs Paide Linnameeskond | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-12 2026-05-11 16:00:00 | Panaitolikos Agrinio vs AE Larissa FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-12 2026-05-11 16:00:00 | Rayon Sports FC vs Gorilla FC | H=0.37720000000000004 D=0.274 A=0.3488

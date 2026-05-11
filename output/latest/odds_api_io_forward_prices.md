@@ -7,13 +7,13 @@ Captures provider rate-limit headers from each authenticated API response.
 Not real-money ready until validated against forward results and other sources.
 
 Enabled: True
-Calls used: 5 / 8
+Calls used: 5 / 10
 Events bookmaker: Bet365
 Events discovery rows: 129
 Events max pages: 3
 Events lookahead days: 14
 Max events per page/search: 100
-Max priced events: 5
+Max priced events: 10
 Minimum event match confidence: 0.72
 Discovery mode: bookmaker_filtered_events_then_search_fallback_then_multi_odds
 Query source: forward_fixture_predictions
@@ -35,7 +35,7 @@ Errors/status rows: 3
 
 Header rows captured: 5
 Latest x-ratelimit-limit: 100
-Latest x-ratelimit-remaining: 78
+Latest x-ratelimit-remaining: 68
 Latest x-ratelimit-reset: 2026-05-11T21:17:32Z
 Latest retry-after: None
 

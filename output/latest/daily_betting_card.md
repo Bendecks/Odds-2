@@ -10,124 +10,124 @@ No qualifying candidate bets today.
 
 ## Paper-Test Picks
 
-### Tottenham vs Leeds
+### Estrela vs Famalicao
 
-- Date/time: 2026-05-11 20:00
-- League/phase: premier_league / automatic_forward_price_proxy
+- Date/time: 2026-05-11 20:15
+- League/phase: P1 / automatic_forward_price_proxy
+- Selection: HOME
+- Market odds: 3.7
+- Fair odds: 2.65
+- Model probability: 0.3772
+- Probability band: 0.35-0.45
+- EV: 0.3956
+- Probability edge: 0.1069
+- Alignment penalty: 0.3956
+- Suppression action: monitor
+- Paper tier: proxy_observation
+- Paper score: 0.2607
+- Prediction ID: f3a5bbf9203d8903e4e0
+
+### Estrela vs Famalicao
+
+- Date/time: 2026-05-11 20:15
+- League/phase: P1 / automatic_forward_price_proxy
+- Selection: HOME
+- Market odds: 3.51
+- Fair odds: 2.65
+- Model probability: 0.3772
+- Probability band: 0.35-0.45
+- EV: 0.324
+- Probability edge: 0.0923
+- Alignment penalty: 0.324
+- Suppression action: monitor
+- Paper tier: priority_proxy_observation
+- Paper score: 0.2578
+- Prediction ID: f3a5bbf9203d8903e4e0
+
+### Estrela vs Famalicao
+
+- Date/time: 2026-05-11 20:15
+- League/phase: P1 / automatic_forward_price_proxy
+- Selection: HOME
+- Market odds: 3.5
+- Fair odds: 2.65
+- Model probability: 0.3772
+- Probability band: 0.35-0.45
+- EV: 0.3202
+- Probability edge: 0.0915
+- Alignment penalty: 0.3202
+- Suppression action: monitor
+- Paper tier: priority_proxy_observation
+- Paper score: 0.2576
+- Prediction ID: f3a5bbf9203d8903e4e0
+
+### Tondela vs Moreirense
+
+- Date/time: 2026-05-11 20:15
+- League/phase: P1 / automatic_forward_price_proxy
 - Selection: AWAY
 - Market odds: 4.1
-- Fair odds: 3.17
-- Model probability: 0.3152
+- Fair odds: 2.87
+- Model probability: 0.3488
 - Probability band: 0.00-0.35
-- EV: 0.2923
-- Probability edge: 0.0713
-- Alignment penalty: 0.2923
+- EV: 0.4301
+- Probability edge: 0.1049
+- Alignment penalty: 0.4301
 - Suppression action: proxy_suppressed_band_observe_only
 - Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.1299
-- Prediction ID: 7b65a9bf28de71b10d96
+- Paper score: 0.1347
+- Prediction ID: 000d2cafec9775046209
 
-### Tottenham vs Leeds
+### Tondela vs Moreirense
 
-- Date/time: 2026-05-11 20:00
-- League/phase: premier_league / automatic_forward_price_proxy
+- Date/time: 2026-05-11 20:15
+- League/phase: P1 / automatic_forward_price_proxy
 - Selection: AWAY
-- Market odds: 3.92
-- Fair odds: 3.17
-- Model probability: 0.3152
+- Market odds: 4.1
+- Fair odds: 2.87
+- Model probability: 0.3488
 - Probability band: 0.00-0.35
-- EV: 0.2356
-- Probability edge: 0.0601
-- Alignment penalty: 0.2356
+- EV: 0.4301
+- Probability edge: 0.1049
+- Alignment penalty: 0.4301
 - Suppression action: proxy_suppressed_band_observe_only
 - Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.1288
-- Prediction ID: 7b65a9bf28de71b10d96
+- Paper score: 0.1347
+- Prediction ID: 000d2cafec9775046209
 
-### Tottenham vs Leeds
+### Huesca vs Sociedad B
 
-- Date/time: 2026-05-11 20:00
-- League/phase: premier_league / automatic_forward_price_proxy
+- Date/time: 2026-05-11 19:30
+- League/phase: SP2 / automatic_forward_price_proxy
 - Selection: AWAY
-- Market odds: 3.75
-- Fair odds: 3.17
-- Model probability: 0.3152
+- Market odds: 4.0
+- Fair odds: 2.87
+- Model probability: 0.3488
 - Probability band: 0.00-0.35
-- EV: 0.182
-- Probability edge: 0.0485
-- Alignment penalty: 0.182
+- EV: 0.3952
+- Probability edge: 0.0988
+- Alignment penalty: 0.3952
 - Suppression action: proxy_suppressed_band_observe_only
 - Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.1276
-- Prediction ID: 7b65a9bf28de71b10d96
+- Paper score: 0.134
+- Prediction ID: 6b4ceff3fd2c55b8db6b
 
-### Napoli vs Bologna
+### Huesca vs Sociedad B
 
-- Date/time: 2026-05-11 19:45
-- League/phase: serie_a / automatic_forward_price_proxy
-- Selection: DRAW
-- Market odds: 4.2
-- Fair odds: 3.52
-- Model probability: 0.2843
-- Probability band: 0.00-0.35
-- EV: 0.1941
-- Probability edge: 0.0462
-- Alignment penalty: 0.1941
-- Suppression action: proxy_suppressed_band_observe_only
-- Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.1261
-- Prediction ID: 450dc1ddc6eecf2c644e
-
-### Napoli vs Bologna
-
-- Date/time: 2026-05-11 19:45
-- League/phase: serie_a / automatic_forward_price_proxy
-- Selection: DRAW
-- Market odds: 4.2
-- Fair odds: 3.52
-- Model probability: 0.2843
-- Probability band: 0.00-0.35
-- EV: 0.1941
-- Probability edge: 0.0462
-- Alignment penalty: 0.1941
-- Suppression action: proxy_suppressed_band_observe_only
-- Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.1261
-- Prediction ID: 450dc1ddc6eecf2c644e
-
-### Napoli vs Bologna
-
-- Date/time: 2026-05-11 19:45
-- League/phase: serie_a / automatic_forward_price_proxy
-- Selection: DRAW
-- Market odds: 4.01
-- Fair odds: 3.52
-- Model probability: 0.2843
-- Probability band: 0.00-0.35
-- EV: 0.14
-- Probability edge: 0.0349
-- Alignment penalty: 0.14
-- Suppression action: proxy_suppressed_band_observe_only
-- Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.125
-- Prediction ID: 450dc1ddc6eecf2c644e
-
-### Vallecano vs Girona
-
-- Date/time: 2026-05-11 20:00
-- League/phase: la_liga / automatic_forward_price_proxy
+- Date/time: 2026-05-11 19:30
+- League/phase: SP2 / automatic_forward_price_proxy
 - Selection: AWAY
-- Market odds: 3.05
-- Fair odds: 2.96
-- Model probability: 0.3376
+- Market odds: 3.8
+- Fair odds: 2.87
+- Model probability: 0.3488
 - Probability band: 0.00-0.35
-- EV: 0.0297
-- Probability edge: 0.0097
-- Alignment penalty: 0.0297
+- EV: 0.3254
+- Probability edge: 0.0856
+- Alignment penalty: 0.3254
 - Suppression action: proxy_suppressed_band_observe_only
 - Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.1245
-- Prediction ID: 3d5a5edc82ec8d726575
+- Paper score: 0.1327
+- Prediction ID: 6b4ceff3fd2c55b8db6b
 
 ## Snapshot summary
 

@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T21:00:50.311054+00:00`
-GitHub run: `296` attempt `1`
-GitHub SHA: `8851097558fd6a2f6566f55cf3ab18b6cb84516d`
+Generated UTC: `2026-05-11T21:06:47.625697+00:00`
+GitHub run: `297` attempt `1`
+GitHub SHA: `b93781ba6190818cf6fe33ce523a76e977a82344`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -18,7 +18,7 @@ Overall status: `OK`
 | Football-Data upcoming odds proxy | True | 33 |  |  |
 | Football-Data upcoming odds status | True | 1 |  |  |
 | odds-api.io forward prices | True | 0 |  |  |
-| odds-api.io forward fixtures | True | 21 |  |  |
+| odds-api.io forward fixtures | True | 140 |  |  |
 | odds-api.io forward price status | True | 1 |  |  |
 | API-Football forward prices | True | 0 |  |  |
 | API-Football forward fixtures | True | 0 |  |  |
@@ -40,13 +40,13 @@ Overall status: `OK`
 # Project Goal Readiness Report
 Overall project stage: `proxy_paper_testing_started`
 ## Current counts
-- Forward fixture predictions: 3
-- Automatic value snapshots: 27
-- Positive EV proxy rows: 13
+- Forward fixture predictions: 80
+- Automatic value snapshots: 99
+- Positive EV proxy rows: 49
 - Proxy observation rows: 7
-- Valid forward/proxy log rows: 13
-- Deduped forward/proxy log rows: 4
-- Duplicate forward/proxy log rows identified: 9
+- Valid forward/proxy log rows: 20
+- Deduped forward/proxy log rows: 7
+- Duplicate forward/proxy log rows identified: 13
 - Fresh API match coverage rate: 0.0
 - Matches with fresh API price: 0
 - Settled forward rows: 0
@@ -60,12 +60,12 @@ Done when: Use only for model diagnostics, not betting decisions.
 ### automatic_proxy_odds_ingestion
 Status: `working`
 Target: Free automatic odds proxy exists and validates.
-Current: 27 value snapshots; fresh API coverage rate 0.0.
+Current: 99 value snapshots; fresh API coverage rate 0.0.
 Done when: Keep Football-Data as baseline; improve odds-api.io/API-Football coverage carefully.
 ### paper_forward_testing
 Status: `started_not_mature`
 Target: At least 50-100 deduped proxy observations across several matchdays.
-Current: 4 deduped forward/proxy rows; 9 duplicate raw rows identified.
+Current: 7 deduped forward/proxy rows; 13 duplicate raw rows identified.
 Done when: Minimum 50 deduped observations before drawing early conclusions; 100+ preferred.
 
 ## football_data_upcoming_odds
@@ -139,23 +139,33 @@ Next development step: add_team_aliases_for_upcoming_fixtures
 # Forward Price Coverage Report
 Measures automatic price coverage for forward predictions.
 Fresh API price means odds-api.io or API-Football. This is still paper/proxy-only and not real-money ready.
-Forward prediction rows: 3
+Forward prediction rows: 80
 Automatic price rows: 33
-Value snapshot rows: 27
-Matches with any automatic price: 3
+Value snapshot rows: 99
+Matches with any automatic price: 11
 Matches with fresh API price: 0
 Matches with odds-api.io price: 0
 Fresh API match coverage rate: 0.0
 odds-api.io match coverage rate: 0.0
 Real-money ready: False
 ## Match coverage
+- 2026-05-11 | Huesca vs Sociedad B | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
 - 2026-05-11 | Napoli vs Bologna | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
 - 2026-05-11 | Tottenham vs Leeds | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
 - 2026-05-11 | Vallecano vs Girona | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
-## Source summary
-- football_data_average_market_proxy | delayed_market_proxy | rows=11
-- football_data_bet365_proxy | delayed_market_proxy | rows=11
-- football_data_max_market_proxy | delayed_market_proxy | rows=11
+- 2026-05-11 | Benfica vs Sp Braga | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
+- 2026-05-11 | Estrela vs Famalicao | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
+- 2026-05-11 | Gil Vicente vs Arouca | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
+- 2026-05-11 | Guimaraes vs Casa Pia | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
+- 2026-05-11 | Rio Ave vs Sp Lisbon | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
+- 2026-05-11 | Santa Clara vs Nacional | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
+- 2026-05-11 | Tondela vs Moreirense | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
+- 2026-05-11 | CDP Junior FC vs Independiente Santa Fe | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-11 | Millonarios FC vs America de Cali Sa | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-11 | CR Flamengo RJ vs Ferroviaria SP | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-11 | Deportivo Saprissa vs Sporting FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-11 | Loud SC vs Funkbol Clube | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-11 | Piaui PI vs Ferroviario AC CE | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 
 ## automatic_forward_value_snapshots
 
@@ -163,32 +173,32 @@ Real-money ready: False
 Combined automatic forward market proxy joined to forward probability predictions.
 Includes Football-Data delayed proxy and capped odds-api.io single-event proxy when available.
 Not live/full-market coverage and not real-money ready.
-Forward prediction rows: 3
+Forward prediction rows: 80
 Proxy price rows: 33
-Matched prediction rows: 3
-Value snapshot rows: 27
+Matched prediction rows: 11
+Value snapshot rows: 99
 odds-api.io snapshot rows: 0
-Positive EV rows: 13
-Source counts: {'football_data_bet365_proxy': 9, 'football_data_max_market_proxy': 9, 'football_data_average_market_proxy': 9}
+Positive EV rows: 49
+Source counts: {'football_data_bet365_proxy': 33, 'football_data_max_market_proxy': 33, 'football_data_average_market_proxy': 33}
+- 2026-05-11 | Rio Ave vs Sp Lisbon | sel=HOME | src=football_data_max_market_proxy | odds=11.0 | prob=0.3772 | EV=3.1492 | match=1.0
+- 2026-05-11 | Rio Ave vs Sp Lisbon | sel=HOME | src=football_data_bet365_proxy | odds=10.0 | prob=0.3772 | EV=2.772 | match=1.0
+- 2026-05-11 | Rio Ave vs Sp Lisbon | sel=HOME | src=football_data_average_market_proxy | odds=9.64 | prob=0.3772 | EV=2.636208 | match=1.0
+- 2026-05-11 | Benfica vs Sp Braga | sel=AWAY | src=football_data_max_market_proxy | odds=7.5 | prob=0.3488 | EV=1.616 | match=1.0
+- 2026-05-11 | Benfica vs Sp Braga | sel=AWAY | src=football_data_bet365_proxy | odds=7.0 | prob=0.3488 | EV=1.4416 | match=1.0
+- 2026-05-11 | Benfica vs Sp Braga | sel=AWAY | src=football_data_average_market_proxy | odds=6.61 | prob=0.3488 | EV=1.305568 | match=1.0
 - 2026-05-11 | Napoli vs Bologna | sel=AWAY | src=football_data_max_market_proxy | odds=6.5 | prob=0.3149 | EV=1.04685 | match=1.0
 - 2026-05-11 | Napoli vs Bologna | sel=AWAY | src=football_data_average_market_proxy | odds=6.06 | prob=0.3149 | EV=0.908294 | match=1.0
 - 2026-05-11 | Napoli vs Bologna | sel=AWAY | src=football_data_bet365_proxy | odds=6.0 | prob=0.3149 | EV=0.8894 | match=1.0
-- 2026-05-11 | Tottenham vs Leeds | sel=AWAY | src=football_data_max_market_proxy | odds=4.1 | prob=0.3152 | EV=0.29232 | match=1.0
-- 2026-05-11 | Tottenham vs Leeds | sel=AWAY | src=football_data_average_market_proxy | odds=3.92 | prob=0.3152 | EV=0.235584 | match=1.0
-- 2026-05-11 | Napoli vs Bologna | sel=DRAW | src=football_data_max_market_proxy | odds=4.2 | prob=0.2843 | EV=0.19406 | match=1.0
-- 2026-05-11 | Napoli vs Bologna | sel=DRAW | src=football_data_bet365_proxy | odds=4.2 | prob=0.2843 | EV=0.19406 | match=1.0
-- 2026-05-11 | Tottenham vs Leeds | sel=AWAY | src=football_data_bet365_proxy | odds=3.75 | prob=0.3152 | EV=0.182 | match=1.0
-- 2026-05-11 | Napoli vs Bologna | sel=DRAW | src=football_data_average_market_proxy | odds=4.01 | prob=0.2843 | EV=0.140043 | match=1.0
-- 2026-05-11 | Tottenham vs Leeds | sel=DRAW | src=football_data_max_market_proxy | odds=4.1 | prob=0.259 | EV=0.0619 | match=1.0
-- 2026-05-11 | Tottenham vs Leeds | sel=DRAW | src=football_data_bet365_proxy | odds=4.1 | prob=0.259 | EV=0.0619 | match=1.0
-- 2026-05-11 | Vallecano vs Girona | sel=AWAY | src=football_data_max_market_proxy | odds=3.05 | prob=0.3376 | EV=0.02968 | match=1.0
-- 2026-05-11 | Vallecano vs Girona | sel=AWAY | src=football_data_bet365_proxy | odds=3.0 | prob=0.3376 | EV=0.0128 | match=1.0
-- 2026-05-11 | Tottenham vs Leeds | sel=DRAW | src=football_data_average_market_proxy | odds=3.82 | prob=0.259 | EV=-0.01062 | match=1.0
-- 2026-05-11 | Vallecano vs Girona | sel=AWAY | src=football_data_average_market_proxy | odds=2.92 | prob=0.3376 | EV=-0.014208 | match=1.0
-- 2026-05-11 | Vallecano vs Girona | sel=DRAW | src=football_data_max_market_proxy | odds=3.5 | prob=0.279 | EV=-0.0235 | match=1.0
-- 2026-05-11 | Vallecano vs Girona | sel=DRAW | src=football_data_bet365_proxy | odds=3.5 | prob=0.279 | EV=-0.0235 | match=1.0
-- 2026-05-11 | Vallecano vs Girona | sel=DRAW | src=football_data_average_market_proxy | odds=3.39 | prob=0.279 | EV=-0.05419 | match=1.0
-- 2026-05-11 | Vallecano vs Girona | sel=HOME | src=football_data_max_market_proxy | odds=2.38 | prob=0.3833 | EV=-0.087746 | match=1.0
+- 2026-05-11 | Rio Ave vs Sp Lisbon | sel=DRAW | src=football_data_max_market_proxy | odds=6.4 | prob=0.274 | EV=0.7536 | match=1.0
+- 2026-05-11 | Gil Vicente vs Arouca | sel=AWAY | src=football_data_max_market_proxy | odds=4.9 | prob=0.3488 | EV=0.70912 | match=1.0
+- 2026-05-11 | Guimaraes vs Casa Pia | sel=AWAY | src=football_data_max_market_proxy | odds=4.75 | prob=0.3488 | EV=0.6568 | match=1.0
+- 2026-05-11 | Gil Vicente vs Arouca | sel=AWAY | src=football_data_bet365_proxy | odds=4.75 | prob=0.3488 | EV=0.6568 | match=1.0
+- 2026-05-11 | Rio Ave vs Sp Lisbon | sel=DRAW | src=football_data_average_market_proxy | odds=5.89 | prob=0.274 | EV=0.61386 | match=1.0
+- 2026-05-11 | Gil Vicente vs Arouca | sel=AWAY | src=football_data_average_market_proxy | odds=4.55 | prob=0.3488 | EV=0.58704 | match=1.0
+- 2026-05-11 | Guimaraes vs Casa Pia | sel=AWAY | src=football_data_bet365_proxy | odds=4.33 | prob=0.3488 | EV=0.510304 | match=1.0
+- 2026-05-11 | Rio Ave vs Sp Lisbon | sel=DRAW | src=football_data_bet365_proxy | odds=5.5 | prob=0.274 | EV=0.507 | match=1.0
+- 2026-05-11 | Guimaraes vs Casa Pia | sel=AWAY | src=football_data_average_market_proxy | odds=4.3 | prob=0.3488 | EV=0.49984 | match=1.0
+- 2026-05-11 | Tondela vs Moreirense | sel=AWAY | src=football_data_bet365_proxy | odds=4.1 | prob=0.3488 | EV=0.43008 | match=1.0
 
 ## proxy_candidate_observations
 
@@ -196,83 +206,137 @@ Source counts: {'football_data_bet365_proxy': 9, 'football_data_max_market_proxy
 Intermediate layer between paper-test picks and real candidate bets.
 These rows are proxy/paper observations only and must not be treated as real-money candidates.
 Deduplicated by match date, normalized teams, and selection; best proxy score is kept.
-Automatic value rows: 27
-Pre-dedupe proxy candidate observation rows: 10
-Proxy candidate observation rows: 4
+Automatic value rows: 99
+Pre-dedupe proxy candidate observation rows: 36
+Proxy candidate observation rows: 12
 Proxy candidate-like rows: 0
-Suppressed proxy watchlist rows: 4
+Suppressed proxy watchlist rows: 11
 Dedupe strategy: match_date_normalized_teams_selection_keep_best_score
 Real-money ready: False
+- 2026-05-11 | Estrela vs Famalicao | selection=HOME | source=football_data_max_market_proxy | odds=3.7 | prob=0.3772 | EV=0.39564 | edge=0.10693 | penalty=0.39564139564139555 | tier=proxy_watchlist | score=0.2243
+- 2026-05-11 | Tondela vs Moreirense | selection=AWAY | source=football_data_bet365_proxy | odds=4.1 | prob=0.3488 | EV=0.43008 | edge=0.104898 | penalty=0.4300825741486334 | tier=suppressed_proxy_watchlist | score=0.1066
+- 2026-05-11 | Huesca vs Sociedad B | selection=AWAY | source=football_data_max_market_proxy | odds=4.0 | prob=0.3488 | EV=0.3952 | edge=0.0988 | penalty=0.3952 | tier=suppressed_proxy_watchlist | score=0.1054
+- 2026-05-11 | Santa Clara vs Nacional | selection=AWAY | source=football_data_max_market_proxy | odds=3.75 | prob=0.3488 | EV=0.308 | edge=0.082133 | penalty=0.3079983650020437 | tier=suppressed_proxy_watchlist | score=0.1023
 - 2026-05-11 | Tottenham vs Leeds | selection=AWAY | source=football_data_max_market_proxy | odds=4.1 | prob=0.3152 | EV=0.29232 | edge=0.071298 | penalty=0.29232232618018705 | tier=suppressed_proxy_watchlist | score=0.1
+- 2026-05-11 | Benfica vs Sp Braga | selection=DRAW | source=football_data_max_market_proxy | odds=4.8 | prob=0.274 | EV=0.3152 | edge=0.065667 | penalty=0.31520210432336704 | tier=suppressed_proxy_watchlist | score=0.0986
 - 2026-05-11 | Napoli vs Bologna | selection=DRAW | source=football_data_bet365_proxy | odds=4.2 | prob=0.2843 | EV=0.19406 | edge=0.046205 | penalty=0.19406119406119404 | tier=suppressed_proxy_watchlist | score=0.095
+- 2026-05-11 | Guimaraes vs Casa Pia | selection=DRAW | source=football_data_max_market_proxy | odds=4.0 | prob=0.274 | EV=0.096 | edge=0.024 | penalty=0.09600000000000009 | tier=suppressed_proxy_watchlist | score=0.0908
 - 2026-05-11 | Vallecano vs Girona | selection=AWAY | source=football_data_max_market_proxy | odds=3.05 | prob=0.3376 | EV=0.02968 | edge=0.009731 | penalty=0.029679536644208415 | tier=suppressed_proxy_watchlist | score=0.0904
 - 2026-05-11 | Tottenham vs Leeds | selection=DRAW | source=football_data_bet365_proxy | odds=4.1 | prob=0.259 | EV=0.0619 | edge=0.015098 | penalty=0.06190191142344048 | tier=suppressed_proxy_watchlist | score=0.0889
+- 2026-05-11 | Gil Vicente vs Arouca | selection=DRAW | source=football_data_bet365_proxy | odds=3.8 | prob=0.274 | EV=0.0412 | edge=0.010842 | penalty=0.041199583520166616 | tier=suppressed_proxy_watchlist | score=0.0886
+- 2026-05-11 | Gil Vicente vs Arouca | selection=AWAY | source=football_data_average_market_proxy | odds=4.55 | prob=0.3488 | EV=0.58704 | edge=0.12902 | penalty=0.587041587041587 | tier=suppressed_proxy_watchlist | score=0.0883
 
 ## proxy_candidate_explanations
 
 # Proxy Candidate Explanation Report
 Explains why proxy candidate observations are not promoted to real candidate bets.
 This report is paper/proxy-only and never real-money ready.
-Proxy candidate rows: 4
-Explained rows: 4
+Proxy candidate rows: 12
+Explained rows: 12
 Distinct blockers: 6
-Top blocker: probability_or_league_rule_suppressed
+Top blocker: delayed_football_data_proxy_not_fresh_api_price
 Real-money ready: False
 ## Blocker summary
-- probability_or_league_rule_suppressed: 4
-- low_probability_band_under_0_35: 4
-- delayed_football_data_proxy_not_fresh_api_price: 4
-- ev_above_real_candidate_cap_possible_overconfidence: 2
-- market_alignment_penalty_too_high_for_real_candidate: 2
-- edge_below_candidate_threshold: 2
+- delayed_football_data_proxy_not_fresh_api_price: 12
+- probability_or_league_rule_suppressed: 11
+- low_probability_band_under_0_35: 11
+- ev_above_real_candidate_cap_possible_overconfidence: 8
+- market_alignment_penalty_too_high_for_real_candidate: 8
+- edge_below_candidate_threshold: 3
 ## Row explanations
+- 2026-05-11 | Estrela vs Famalicao | sel=HOME | score=0.2243 | blockers=ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate; delayed_football_data_proxy_not_fresh_api_price | improve=calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration; prefer odds-api.io/API-Football fresh price where available
+- 2026-05-11 | Tondela vs Moreirense | sel=AWAY | score=0.1066 | blockers=probability_or_league_rule_suppressed; low_probability_band_under_0_35; ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate; delayed_football_data_proxy_not_fresh_api_price | improve=collect settled forward results before trusting low-probability selections; calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration; prefer odds-api.io/API-Football fresh price where available
+- 2026-05-11 | Huesca vs Sociedad B | sel=AWAY | score=0.1054 | blockers=probability_or_league_rule_suppressed; low_probability_band_under_0_35; ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate; delayed_football_data_proxy_not_fresh_api_price | improve=collect settled forward results before trusting low-probability selections; calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration; prefer odds-api.io/API-Football fresh price where available
+- 2026-05-11 | Santa Clara vs Nacional | sel=AWAY | score=0.1023 | blockers=probability_or_league_rule_suppressed; low_probability_band_under_0_35; ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate; delayed_football_data_proxy_not_fresh_api_price | improve=collect settled forward results before trusting low-probability selections; calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration; prefer odds-api.io/API-Football fresh price where available
 - 2026-05-11 | Tottenham vs Leeds | sel=AWAY | score=0.1 | blockers=probability_or_league_rule_suppressed; low_probability_band_under_0_35; ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate; delayed_football_data_proxy_not_fresh_api_price | improve=collect settled forward results before trusting low-probability selections; calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration; prefer odds-api.io/API-Football fresh price where available
+- 2026-05-11 | Benfica vs Sp Braga | sel=DRAW | score=0.0986 | blockers=probability_or_league_rule_suppressed; low_probability_band_under_0_35; ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate; delayed_football_data_proxy_not_fresh_api_price | improve=collect settled forward results before trusting low-probability selections; calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration; prefer odds-api.io/API-Football fresh price where available
 - 2026-05-11 | Napoli vs Bologna | sel=DRAW | score=0.095 | blockers=probability_or_league_rule_suppressed; low_probability_band_under_0_35; ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate; delayed_football_data_proxy_not_fresh_api_price | improve=collect settled forward results before trusting low-probability selections; calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration; prefer odds-api.io/API-Football fresh price where available
+- 2026-05-11 | Guimaraes vs Casa Pia | sel=DRAW | score=0.0908 | blockers=probability_or_league_rule_suppressed; low_probability_band_under_0_35; delayed_football_data_proxy_not_fresh_api_price | improve=collect settled forward results before trusting low-probability selections; prefer odds-api.io/API-Football fresh price where available
 - 2026-05-11 | Vallecano vs Girona | sel=AWAY | score=0.0904 | blockers=probability_or_league_rule_suppressed; low_probability_band_under_0_35; edge_below_candidate_threshold; delayed_football_data_proxy_not_fresh_api_price | improve=collect settled forward results before trusting low-probability selections; needs stronger model-vs-market edge; prefer odds-api.io/API-Football fresh price where available
 - 2026-05-11 | Tottenham vs Leeds | sel=DRAW | score=0.0889 | blockers=probability_or_league_rule_suppressed; low_probability_band_under_0_35; edge_below_candidate_threshold; delayed_football_data_proxy_not_fresh_api_price | improve=collect settled forward results before trusting low-probability selections; needs stronger model-vs-market edge; prefer odds-api.io/API-Football fresh price where available
+- 2026-05-11 | Gil Vicente vs Arouca | sel=DRAW | score=0.0886 | blockers=probability_or_league_rule_suppressed; low_probability_band_under_0_35; edge_below_candidate_threshold; delayed_football_data_proxy_not_fresh_api_price | improve=collect settled forward results before trusting low-probability selections; needs stronger model-vs-market edge; prefer odds-api.io/API-Football fresh price where available
+- 2026-05-11 | Gil Vicente vs Arouca | sel=AWAY | score=0.0883 | blockers=probability_or_league_rule_suppressed; low_probability_band_under_0_35; ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate; delayed_football_data_proxy_not_fresh_api_price | improve=collect settled forward results before trusting low-probability selections; calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration; prefer odds-api.io/API-Football fresh price where available
 
 ## proxy_observation_quality
 
 # Proxy Observation Quality Report
 Quality diagnostics for automatic delayed-market proxy paper observations.
 This is not real-money ready and does not override suppression rules for candidate bets.
-Value snapshot rows: 27
+Value snapshot rows: 99
 Paper proxy observation rows: 7
-Positive EV value rows: 13
-Suppressed-band observation rows: 7
+Positive EV value rows: 49
+Suppressed-band observation rows: 4
 Distinct matches: 3
 Distinct sources: 0
-Max EV: 0.29232
-Average EV: 0.181107
-Max probability edge: 0.071298
+Max EV: 0.43008
+Average EV: 0.374373
+Max probability edge: 0.10693
 Average match confidence: None
 ## By selection
-- away: rows=4, avg_ev=0.1849, max_ev=0.2923
-- draw: rows=3, avg_ev=0.1761, max_ev=0.1941
+- away: rows=4, avg_ev=0.3952, max_ev=0.4301
+- home: rows=3, avg_ev=0.3466, max_ev=0.3956
 
 ## forward_fixture_predictions
 
 # Forward Fixture Predictions
 Probability-only forward fixture model output. Not a betting card and not a real-money recommendation.
+Full model rows use matched team-strength data. Baseline rows are conservative league-average placeholders used to increase odds-matching coverage only.
 Upcoming fixture rows: 150
-Forward fixture prediction rows: 3
+Forward fixture prediction rows: 80
+Full model prediction rows: 3
+Baseline prediction rows: 77
+Max forward predictions: 80
 Ready for price join: True
-- 2026-05-11 19:45 | Napoli vs Bologna | H=0.4007 D=0.2843 A=0.3149 | fair=2.5/3.52/3.18
-- 2026-05-11 20:00 | Tottenham vs Leeds | H=0.4257 D=0.259 A=0.3152 | fair=2.35/3.86/3.17
-- 2026-05-11 20:00 | Vallecano vs Girona | H=0.3833 D=0.279 A=0.3376 | fair=2.61/3.58/2.96
+- 2026-05-11 19:30 | Huesca vs Sociedad B | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-11 19:45 | Napoli vs Bologna | coverage=full_team_strength_match | H=0.4007 D=0.2843 A=0.3149 | fair=2.5/3.52/3.18
+- 2026-05-11 20:00 | Tottenham vs Leeds | coverage=full_team_strength_match | H=0.4257 D=0.259 A=0.3152 | fair=2.35/3.86/3.17
+- 2026-05-11 20:00 | Vallecano vs Girona | coverage=full_team_strength_match | H=0.3833 D=0.279 A=0.3376 | fair=2.61/3.58/2.96
+- 2026-05-11 20:15 | Benfica vs Sp Braga | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-11 20:15 | Estrela vs Famalicao | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-11 20:15 | Gil Vicente vs Arouca | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-11 20:15 | Guimaraes vs Casa Pia | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-11 20:15 | Rio Ave vs Sp Lisbon | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-11 20:15 | Santa Clara vs Nacional | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-11 20:15 | Tondela vs Moreirense | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-11 21:30 | CDP Junior FC vs Independiente Santa Fe | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-11 21:45 | Millonarios FC vs America de Cali Sa | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-11 22:00 | CR Flamengo RJ vs Ferroviaria SP | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-11 22:00 | Deportivo Saprissa vs Sporting FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-11 22:00 | Loud SC vs Funkbol Clube | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-11 22:00 | Piaui PI vs Ferroviario AC CE | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-11 22:30 | Sol de America Villa Elisa vs Guairena FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-11 23:00 | Cerro Porteno vs Club Guarani Asuncion | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-11 23:00 | Deportivo Cali vs CA Bucaramanga | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-11 23:00 | G3X FC vs Capim FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 
 ## forward_fixture_prediction_log
 
 # Forward Fixture Prediction Log
 Probability-only forward prediction log. This is not a betting log and contains no stake or real-money signal.
-Current forward fixture predictions: 3
-New forward fixture predictions logged: 0
-Total forward fixture predictions logged: 4
+Current forward fixture predictions: 80
+New forward fixture predictions logged: 80
+Total forward fixture predictions logged: 84
 Log type: probability_only_no_market_prices
-- 2026-05-11 2026-05-11 19:00:00 | Tottenham Hotspur vs Leeds United | H=0.4257 D=0.259 A=0.31520000000000004
-- 2026-05-11 2026-05-11 20:00:00 | Tottenham vs Leeds | H=0.4257 D=0.259 A=0.31520000000000004
-- 2026-05-11 2026-05-11 19:45:00 | Napoli vs Bologna | H=0.4007 D=0.2843 A=0.3149
-- 2026-05-11 2026-05-11 20:00:00 | Vallecano vs Girona | H=0.38330000000000003 D=0.279 A=0.3376
+- 2026-05-12 2026-05-11 14:00:00 | URA FC vs Calvary | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-12 2026-05-11 14:10:00 | AL Ittihad Kalba vs AL Nasr | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-12 2026-05-11 14:10:00 | AL Wasl vs AL Jazira | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-12 2026-05-11 14:45:00 | PFC Cherno More Varna vs PFC Lokomotiv Plovdiv | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-12 2026-05-11 15:00:00 | AL Faisaly (Jor) vs Ramtha SC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-12 2026-05-11 15:00:00 | FK Liepaja vs Ogre United | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-12 2026-05-11 15:00:00 | JS Omrane vs Avenir S Marsa | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-12 2026-05-11 15:00:00 | FC Metalist 1925 Kharkiv vs Karpaty Lviv | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-12 2026-05-11 15:00:00 | MFK Chrudim vs FK Pribram | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-12 2026-05-11 15:00:00 | Veres Rivne vs FC Kryvbas Kriviy Rih | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-12 2026-05-11 15:00:00 | Zaglebie Lubin II vs Mkp Carina Gubin | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-12 2026-05-11 15:30:00 | 1. FC Slovacko Uherske Hradiste vs FC Banik Ostrava | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-12 2026-05-11 15:30:00 | AL Wahda FC vs Khorfakkan | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-12 2026-05-11 15:30:00 | FK Mlada Boleslav vs Dukla Prague | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-12 2026-05-11 15:30:00 | FC Zlin vs FK Teplice | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-12 2026-05-11 16:00:00 | AE Kifisia FC vs Atromitos Athinon | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-12 2026-05-11 16:00:00 | Asteras Tripolis vs Panserraikos FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-12 2026-05-11 16:00:00 | FC Elva vs Paide Linnameeskond | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-12 2026-05-11 16:00:00 | Panaitolikos Agrinio vs AE Larissa FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-12 2026-05-11 16:00:00 | Rayon Sports FC vs Gorilla FC | H=0.37720000000000004 D=0.274 A=0.3488
 
 ## forward_fixture_results
 
@@ -437,15 +501,18 @@ No manual forward snapshots built. Fill data/manual/manual_odds_template.csv wit
 ## paper_test_log_status
 
 # Paper Test Log Status
-Raw log rows: 16
-Valid forward/proxy log rows: 13
-Deduped forward/proxy observation rows: 4
-Duplicate forward/proxy log rows: 9
-Valid automatic proxy observation rows: 13
-Deduped automatic proxy observation rows: 4
+Raw log rows: 23
+Valid forward/proxy log rows: 20
+Deduped forward/proxy observation rows: 7
+Duplicate forward/proxy log rows: 13
+Valid automatic proxy observation rows: 20
+Deduped automatic proxy observation rows: 7
 Invalid historical/proxy log rows excluded: 3
 Has valid forward log: True
 ## Deduped valid rows
+- 2026-05-11 | Estrela vs Famalicao | selection=home | phase=automatic_forward_price_proxy | tier=proxy_observation | score=0.2607
+- 2026-05-11 | Tondela vs Moreirense | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.13470000000000001
+- 2026-05-11 | Huesca vs Sociedad B | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.134
 - 2026-05-11 | Tottenham vs Leeds | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.1313
 - 2026-05-11 | Napoli vs Bologna | selection=draw | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.12610000000000002
 - 2026-05-11 | Vallecano vs Girona | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.1245
@@ -463,9 +530,6 @@ Has valid forward log: True
 - 2026-05-11 | Napoli vs Bologna | selection=draw | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
 - 2026-05-11 | Napoli vs Bologna | selection=draw | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
 - 2026-05-11 | Vallecano vs Girona | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
-- 2026-05-11 | Tottenham vs Leeds | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
-## Invalid rows excluded
-- 25/05/2025 | Liverpool vs Crystal Palace | phase=historical_proxy_research
 
 ## betting_performance
 
@@ -502,29 +566,29 @@ Paper-test picks are observation-only and must not be staked.
 ## Candidate Bets
 No qualifying candidate bets today.
 ## Paper-Test Picks
-### Tottenham vs Leeds
-- Date/time: 2026-05-11 20:00
-- League/phase: premier_league / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 4.1
-- Fair odds: 3.17
-- Model probability: 0.3152
-- Probability band: 0.00-0.35
-- EV: 0.2923
-- Probability edge: 0.0713
-- Alignment penalty: 0.2923
-- Suppression action: proxy_suppressed_band_observe_only
-- Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.1299
-- Prediction ID: 7b65a9bf28de71b10d96
-### Tottenham vs Leeds
-- Date/time: 2026-05-11 20:00
-- League/phase: premier_league / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 3.92
-- Fair odds: 3.17
-- Model probability: 0.3152
-- Probability band: 0.00-0.35
+### Estrela vs Famalicao
+- Date/time: 2026-05-11 20:15
+- League/phase: P1 / automatic_forward_price_proxy
+- Selection: HOME
+- Market odds: 3.7
+- Fair odds: 2.65
+- Model probability: 0.3772
+- Probability band: 0.35-0.45
+- EV: 0.3956
+- Probability edge: 0.1069
+- Alignment penalty: 0.3956
+- Suppression action: monitor
+- Paper tier: proxy_observation
+- Paper score: 0.2607
+- Prediction ID: f3a5bbf9203d8903e4e0
+### Estrela vs Famalicao
+- Date/time: 2026-05-11 20:15
+- League/phase: P1 / automatic_forward_price_proxy
+- Selection: HOME
+- Market odds: 3.51
+- Fair odds: 2.65
+- Model probability: 0.3772
+- Probability band: 0.35-0.45
 
 ## paper_test_picks
 
@@ -534,15 +598,15 @@ Automatic proxy prices are delayed/free market proxies, not live bookmaker odds.
 Suppressed historical bands may be tracked only as proxy observation and remain excluded from real-money readiness.
 Source used: automatic_forward_value_snapshots
 Current paper-test picks: 7
-Newly logged paper-test picks: 0
-Total logged paper-test rows: 16
-- Tottenham vs Leeds | selection=AWAY | odds=4.1 | prob=0.3152 | EV=0.2923 | edge=0.0713 | penalty=0.2923 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
-- Tottenham vs Leeds | selection=AWAY | odds=3.92 | prob=0.3152 | EV=0.2356 | edge=0.0601 | penalty=0.2356 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
-- Tottenham vs Leeds | selection=AWAY | odds=3.75 | prob=0.3152 | EV=0.182 | edge=0.0485 | penalty=0.182 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
-- Napoli vs Bologna | selection=DRAW | odds=4.2 | prob=0.2843 | EV=0.1941 | edge=0.0462 | penalty=0.1941 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
-- Napoli vs Bologna | selection=DRAW | odds=4.2 | prob=0.2843 | EV=0.1941 | edge=0.0462 | penalty=0.1941 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
-- Napoli vs Bologna | selection=DRAW | odds=4.01 | prob=0.2843 | EV=0.14 | edge=0.0349 | penalty=0.14 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
-- Vallecano vs Girona | selection=AWAY | odds=3.05 | prob=0.3376 | EV=0.0297 | edge=0.0097 | penalty=0.0297 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
+Newly logged paper-test picks: 7
+Total logged paper-test rows: 23
+- Estrela vs Famalicao | selection=HOME | odds=3.7 | prob=0.3772 | EV=0.3956 | edge=0.1069 | penalty=0.3956 | band=0.35-0.45 | rule=monitor | tier=proxy_observation
+- Estrela vs Famalicao | selection=HOME | odds=3.51 | prob=0.3772 | EV=0.324 | edge=0.0923 | penalty=0.324 | band=0.35-0.45 | rule=monitor | tier=priority_proxy_observation
+- Estrela vs Famalicao | selection=HOME | odds=3.5 | prob=0.3772 | EV=0.3202 | edge=0.0915 | penalty=0.3202 | band=0.35-0.45 | rule=monitor | tier=priority_proxy_observation
+- Tondela vs Moreirense | selection=AWAY | odds=4.1 | prob=0.3488 | EV=0.4301 | edge=0.1049 | penalty=0.4301 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
+- Tondela vs Moreirense | selection=AWAY | odds=4.1 | prob=0.3488 | EV=0.4301 | edge=0.1049 | penalty=0.4301 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
+- Huesca vs Sociedad B | selection=AWAY | odds=4.0 | prob=0.3488 | EV=0.3952 | edge=0.0988 | penalty=0.3952 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
+- Huesca vs Sociedad B | selection=AWAY | odds=3.8 | prob=0.3488 | EV=0.3254 | edge=0.0856 | penalty=0.3254 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
 
 ## probability_calibration_layer
 
