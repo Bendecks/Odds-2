@@ -5,14 +5,16 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T07:19:51.848910+00:00`
-GitHub run: `211` attempt `1`
-GitHub SHA: `af8f8e16575ed8c4766bc102956d3ec38d8a84e1`
+Generated UTC: `2026-05-11T07:23:39.429008+00:00`
+GitHub run: `214` attempt `1`
+GitHub SHA: `810efe68e1ff3db9059d3c34ce2a70d02ce7eb78`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
 | football-data.co.uk Premier League 24/25 | True | 380 |  |  |
 | Upcoming fixtures | True | 1 |  |  |
+| Forward fixture results | True | 1 |  |  |
+| Forward fixture result status | True | 1 |  |  |
 | Automatic forward source report | True | 1 |  |  |
 | Automatic forward prices | True | 0 |  |  |
 | Forward price source adapter | True | 1 |  |  |
@@ -32,8 +34,6 @@ Overall status: `OK`
 | Probability calibration rules | True | 4 |  |  |
 | Probability calibration impact | True | 4 |  |  |
 | Expected value calculations | True | 7 |  |  |
-| Prediction log output | True | 210 |  |  |
-| Settled predictions output | True | 210 |  |  |
 
 ## automatic_forward_source
 
