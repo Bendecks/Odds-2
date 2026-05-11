@@ -1,2 +1,2 @@
-enabled,calls_used,max_calls,max_events,fixture_rows,price_rows,errors,bookmakers_param_mode,bookmakers_requested,source_quality
-True,2,2,8,8,0,0,explicit_selected_bookmakers,"Bet365,1xbet",free_api_market_proxy_capped_calls
+enabled,calls_used,max_calls,max_events,fixture_rows,price_rows,errors,bookmakers_param_mode,bookmakers_requested,odds_endpoint_mode,source_quality
+True,2,2,8,8,0,1,explicit_selected_bookmakers,"Bet365,1xbet",single_event_documented_endpoint,free_api_market_proxy_capped_calls
