@@ -1,0 +1,220 @@
+import json
+import os
+import urllib.parse
+import urllib.request
+from datetime import datetime, timezone
+from pathlib import Path
+
+import pandas as pd
+
+output_dir = Path('output/latest')
+raw_dir = Path('data/raw/odds_api_io')
+raw_dir.mkdir(parents=True, exist_ok=True)
+output_dir.mkdir(parents=True, exist_ok=True)
+
+api_key = os.getenv('ODDS_API_IO_KEY')
+base_url = 'https://api.odds-api.io/v3'
+max_events = int(os.getenv('ODDS_API_IO_MAX_EVENTS', '8'))
+max_calls = int(os.getenv('ODDS_API_IO_MAX_CALLS', '2'))
+bookmakers = os.getenv('ODDS_API_IO_BOOKMAKERS', 'Bet365,Unibet,William Hill,Betfair')
+
+price_columns = [
+    'fixture_id', 'match_date', 'match_time', 'home_team', 'away_team', 'league',
+    'source_name', 'source_type', 'market_home_odds', 'market_draw_odds',
+    'market_away_odds', 'price_captured_at_utc', 'source_quality', 'raw_source_url'
+]
+fixture_columns = [
+    'fixture_id', 'league', 'league_id', 'season', 'match_date', 'match_time',
+    'home_team', 'away_team', 'source', 'fetched_at_utc'
+]
+
+rows = []
+fixture_rows = []
+errors = []
+calls_used = 0
+fetched_at = datetime.now(timezone.utc).isoformat()
+
+
+def get_json(url: str):
+    global calls_used
+    if calls_used >= max_calls:
+        raise RuntimeError('ODDS_API_IO_MAX_CALLS reached')
+    with urllib.request.urlopen(url, timeout=30) as response:
+        calls_used += 1
+        return json.loads(response.read().decode('utf-8'))
+
+
+def parse_date(value):
+    parsed = pd.to_datetime(value, errors='coerce', utc=True)
+    if pd.isna(parsed):
+        return None, None
+    return parsed.date().isoformat(), parsed.time().isoformat(timespec='minutes')
+
+
+def event_items(payload):
+    if isinstance(payload, list):
+        return payload
+    if isinstance(payload, dict):
+        for key in ['events', 'data', 'results']:
+            if isinstance(payload.get(key), list):
+                return payload.get(key)
+    return []
+
+
+def extract_three_way_odds(odds_payload):
+    candidates = []
+    def walk(obj):
+        if isinstance(obj, dict):
+            lower_keys = {str(k).lower(): k for k in obj.keys()}
+            has_home = any(k in lower_keys for k in ['home', '1', 'h'])
+            has_draw = any(k in lower_keys for k in ['draw', 'x'])
+            has_away = any(k in lower_keys for k in ['away', '2', 'a'])
+            if has_home and has_draw and has_away:
+                h = obj.get(lower_keys.get('home')) or obj.get(lower_keys.get('1')) or obj.get(lower_keys.get('h'))
+                d = obj.get(lower_keys.get('draw')) or obj.get(lower_keys.get('x'))
+                a = obj.get(lower_keys.get('away')) or obj.get(lower_keys.get('2')) or obj.get(lower_keys.get('a'))
+                h = pd.to_numeric(h, errors='coerce')
+                d = pd.to_numeric(d, errors='coerce')
+                a = pd.to_numeric(a, errors='coerce')
+                if pd.notna(h) and pd.notna(d) and pd.notna(a) and min(h, d, a) > 1:
+                    candidates.append((float(h), float(d), float(a)))
+            for value in obj.values():
+                walk(value)
+        elif isinstance(obj, list):
+            for value in obj:
+                walk(value)
+    walk(odds_payload)
+    return candidates[0] if candidates else (None, None, None)
+
+if not api_key:
+    errors.append({'stage': 'config', 'error': 'ODDS_API_IO_KEY missing'})
+else:
+    try:
+        events_url = f"{base_url}/events?" + urllib.parse.urlencode({
+            'apiKey': api_key,
+            'sport': 'football',
+            'limit': max_events,
+        })
+        events_payload = get_json(events_url)
+        (raw_dir / 'events_latest.json').write_text(json.dumps(events_payload, indent=2), encoding='utf-8')
+        events = event_items(events_payload)[:max_events]
+
+        event_ids = []
+        event_meta = {}
+        for event in events:
+            event_id = event.get('id') or event.get('eventId') or event.get('event_id')
+            if event_id is None:
+                continue
+            event_id = str(event_id)
+            home = event.get('home') or event.get('homeTeam') or event.get('home_team')
+            away = event.get('away') or event.get('awayTeam') or event.get('away_team')
+            date_value = event.get('date') or event.get('startTime') or event.get('commence_time') or event.get('start_time')
+            match_date, match_time = parse_date(date_value)
+            league = None
+            if isinstance(event.get('league'), dict):
+                league = event['league'].get('slug') or event['league'].get('name')
+            league = league or event.get('league') or 'football'
+            event_ids.append(event_id)
+            event_meta[event_id] = {
+                'fixture_id': f'odds_api_io_{event_id}',
+                'league': league,
+                'league_id': league,
+                'season': 'upcoming',
+                'match_date': match_date,
+                'match_time': match_time,
+                'home_team': home,
+                'away_team': away,
+                'source': 'odds_api_io_events',
+                'fetched_at_utc': fetched_at,
+            }
+
+        if event_ids and calls_used < max_calls:
+            multi_url = f"{base_url}/odds/multi?" + urllib.parse.urlencode({
+                'apiKey': api_key,
+                'eventIds': ','.join(event_ids[:10]),
+                'bookmakers': bookmakers,
+            })
+            odds_payload = get_json(multi_url)
+            (raw_dir / 'odds_latest.json').write_text(json.dumps(odds_payload, indent=2), encoding='utf-8')
+            odds_items = odds_payload if isinstance(odds_payload, list) else odds_payload.get('data') or odds_payload.get('events') or []
+            for item in odds_items:
+                event_id = str(item.get('id') or item.get('eventId') or item.get('event_id'))
+                meta = event_meta.get(event_id, {})
+                if not meta:
+                    continue
+                home_odds, draw_odds, away_odds = extract_three_way_odds(item)
+                if not home_odds:
+                    continue
+                rows.append({
+                    'fixture_id': meta.get('fixture_id'),
+                    'match_date': meta.get('match_date'),
+                    'match_time': meta.get('match_time'),
+                    'home_team': meta.get('home_team'),
+                    'away_team': meta.get('away_team'),
+                    'league': meta.get('league'),
+                    'source_name': 'odds_api_io_multi_proxy',
+                    'source_type': 'free_api_market_proxy',
+                    'market_home_odds': round(home_odds, 4),
+                    'market_draw_odds': round(draw_odds, 4),
+                    'market_away_odds': round(away_odds, 4),
+                    'price_captured_at_utc': fetched_at,
+                    'source_quality': 'free_api_market_proxy_capped_calls',
+                    'raw_source_url': 'https://api.odds-api.io/v3/odds/multi',
+                })
+
+        fixture_rows = [meta for meta in event_meta.values() if meta.get('home_team') and meta.get('away_team')]
+    except Exception as exc:
+        errors.append({'stage': 'request_or_parse', 'error': repr(exc)})
+
+prices = pd.DataFrame(rows)
+for col in price_columns:
+    if col not in prices.columns:
+        prices[col] = None
+prices = prices[price_columns]
+prices.to_csv(raw_dir / 'odds_api_io_forward_prices.csv', index=False)
+prices.to_csv(output_dir / 'odds_api_io_forward_prices.csv', index=False)
+
+fixtures = pd.DataFrame(fixture_rows)
+for col in fixture_columns:
+    if col not in fixtures.columns:
+        fixtures[col] = None
+fixtures = fixtures[fixture_columns]
+fixtures.to_csv(raw_dir / 'odds_api_io_forward_fixtures.csv', index=False)
+fixtures.to_csv(output_dir / 'odds_api_io_forward_fixtures.csv', index=False)
+
+summary = {
+    'enabled': bool(api_key),
+    'calls_used': calls_used,
+    'max_calls': max_calls,
+    'max_events': max_events,
+    'fixture_rows': int(len(fixtures)),
+    'price_rows': int(len(prices)),
+    'errors': int(len(errors)),
+    'source_quality': 'free_api_market_proxy_capped_calls',
+}
+pd.DataFrame([summary]).to_csv(output_dir / 'odds_api_io_forward_price_status.csv', index=False)
+
+markdown = [
+    '# odds-api.io Forward Price Fetch',
+    '',
+    'Cautious optional API source. Hard-capped by ODDS_API_IO_MAX_CALLS and ODDS_API_IO_MAX_EVENTS.',
+    'Not real-money ready until validated against forward results and other sources.',
+    '',
+    f"Enabled: {summary['enabled']}",
+    f"Calls used: {summary['calls_used']} / {summary['max_calls']}",
+    f"Max events: {summary['max_events']}",
+    f"Fixture rows: {summary['fixture_rows']}",
+    f"Price rows: {summary['price_rows']}",
+    f"Errors: {summary['errors']}",
+    '',
+]
+if len(prices):
+    for _, row in prices.head(20).iterrows():
+        markdown.append(f"- {row['match_date']} {row['match_time']} | {row['home_team']} vs {row['away_team']} | {row['market_home_odds']}/{row['market_draw_odds']}/{row['market_away_odds']}")
+if errors:
+    markdown.extend(['', '## Errors', ''])
+    for error in errors[:10]:
+        markdown.append(f"- {error['stage']}: {error['error']}")
+
+(output_dir / 'odds_api_io_forward_prices.md').write_text('\n'.join(markdown), encoding='utf-8')
+print(summary)
