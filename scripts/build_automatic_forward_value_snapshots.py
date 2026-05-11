@@ -7,7 +7,8 @@ import pandas as pd
 output_dir = Path('output/latest')
 
 predictions_path = output_dir / 'forward_fixture_predictions.csv'
-prices_path = output_dir / 'football_data_upcoming_odds.csv'
+prices_path = output_dir / 'automatic_forward_prices.csv'
+fallback_prices_path = output_dir / 'football_data_upcoming_odds.csv'
 value_path = output_dir / 'automatic_forward_value_snapshots.csv'
 
 expected_columns = [
@@ -70,6 +71,8 @@ def similarity(a, b) -> float:
 
 predictions = safe_read_csv(predictions_path)
 prices = safe_read_csv(prices_path)
+if len(prices) == 0:
+    prices = safe_read_csv(fallback_prices_path)
 rows = []
 match_diagnostics = []
 
@@ -95,6 +98,7 @@ if len(predictions) and len(prices):
             'best_away_team': None,
             'best_match_confidence': 0.0,
             'matched_rows': 0,
+            'matched_odds_api_io_rows': 0,
         }
 
         for _, price in candidates.iterrows():
@@ -111,6 +115,7 @@ if len(predictions) and len(prices):
                 best_price_rows.append((match_confidence, price))
 
         best_diag['matched_rows'] = int(len(best_price_rows))
+        best_diag['matched_odds_api_io_rows'] = int(sum(1 for _, p in best_price_rows if 'odds_api_io' in str(p.get('source_name'))))
         match_diagnostics.append(best_diag)
 
         for match_confidence, price in best_price_rows:
@@ -169,13 +174,17 @@ snapshots.to_parquet(output_dir / 'automatic_forward_value_snapshots.parquet', i
 match_diag = pd.DataFrame(match_diagnostics)
 match_diag.to_csv(output_dir / 'automatic_forward_value_match_diagnostics.csv', index=False)
 
+source_counts = snapshots['source_name'].value_counts().to_dict() if len(snapshots) and 'source_name' in snapshots.columns else {}
+odds_api_io_snapshot_rows = int(snapshots['source_name'].astype(str).str.contains('odds_api_io', na=False).sum()) if len(snapshots) else 0
 summary = {
     'forward_prediction_rows': int(len(predictions)),
     'proxy_price_rows': int(len(prices)),
     'value_snapshot_rows': int(len(snapshots)),
     'positive_ev_rows': int((pd.to_numeric(snapshots['ev'], errors='coerce') > 0).sum()) if len(snapshots) else 0,
     'matched_prediction_rows': int((match_diag['matched_rows'] > 0).sum()) if len(match_diag) and 'matched_rows' in match_diag.columns else 0,
-    'source_type': 'delayed_market_proxy',
+    'odds_api_io_snapshot_rows': odds_api_io_snapshot_rows,
+    'source_counts': str(source_counts),
+    'source_type': 'combined_automatic_forward_market_proxy',
     'real_money_ready': False,
 }
 pd.DataFrame([summary]).to_csv(output_dir / 'automatic_forward_value_snapshot_summary.csv', index=False)
@@ -183,14 +192,17 @@ pd.DataFrame([summary]).to_csv(output_dir / 'automatic_forward_value_snapshot_su
 markdown = [
     '# Automatic Forward Value Snapshots',
     '',
-    'Delayed/free market proxy joined to forward probability predictions.',
-    'Not live odds, not Bet365 direct, and not real-money ready.',
+    'Combined automatic forward market proxy joined to forward probability predictions.',
+    'Includes Football-Data delayed proxy and capped odds-api.io single-event proxy when available.',
+    'Not live/full-market coverage and not real-money ready.',
     '',
     f"Forward prediction rows: {summary['forward_prediction_rows']}",
     f"Proxy price rows: {summary['proxy_price_rows']}",
     f"Matched prediction rows: {summary['matched_prediction_rows']}",
     f"Value snapshot rows: {summary['value_snapshot_rows']}",
+    f"odds-api.io snapshot rows: {summary['odds_api_io_snapshot_rows']}",
     f"Positive EV rows: {summary['positive_ev_rows']}",
+    f"Source counts: {summary['source_counts']}",
     '',
 ]
 
