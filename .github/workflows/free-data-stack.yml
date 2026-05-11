@@ -47,6 +47,9 @@ jobs:
       - name: Build manual odds template
         run: python scripts/build_manual_odds_template.py
 
+      - name: Build manual odds instructions
+        run: python scripts/build_manual_odds_instructions.py
+
       - name: Fetch multi-league data
         run: python scripts/fetch_multileague_data.py
 
