@@ -3,7 +3,7 @@ import os
 import urllib.error
 import urllib.parse
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from difflib import SequenceMatcher
 from pathlib import Path
 
@@ -16,11 +16,14 @@ output_dir.mkdir(parents=True, exist_ok=True)
 
 api_key = os.getenv('ODDS_API_IO_KEY')
 base_url = 'https://api.odds-api.io/v3'
-max_events = int(os.getenv('ODDS_API_IO_MAX_EVENTS', '10'))
+max_events = int(os.getenv('ODDS_API_IO_MAX_EVENTS', '50'))
+max_event_pages = int(os.getenv('ODDS_API_IO_EVENTS_MAX_PAGES', '1'))
 max_calls = int(os.getenv('ODDS_API_IO_MAX_CALLS', '6'))
 max_price_events = int(os.getenv('ODDS_API_IO_MAX_PRICE_EVENTS', '3'))
 min_event_match_confidence = float(os.getenv('ODDS_API_IO_MIN_EVENT_MATCH_CONFIDENCE', '0.72'))
+events_lookahead_days = int(os.getenv('ODDS_API_IO_EVENTS_LOOKAHEAD_DAYS', '14'))
 bookmakers = os.getenv('ODDS_API_IO_BOOKMAKERS', 'Bet365,1xbet').strip()
+primary_bookmaker = os.getenv('ODDS_API_IO_EVENTS_BOOKMAKER', bookmakers.split(',')[0].strip() if bookmakers else 'Bet365').strip()
 search_query = os.getenv('ODDS_API_IO_SEARCH_QUERY', '').strip()
 
 price_columns = [
@@ -33,7 +36,7 @@ fixture_columns = [
     'home_team', 'away_team', 'source', 'fetched_at_utc', 'event_status'
 ]
 selection_diag_columns = [
-    'query', 'target_home_team', 'target_away_team', 'target_match_date',
+    'discovery_source', 'query', 'target_home_team', 'target_away_team', 'target_match_date',
     'candidate_event_id', 'candidate_home_team', 'candidate_away_team', 'candidate_match_date',
     'event_match_confidence', 'selected', 'rejection_reason'
 ]
@@ -46,9 +49,11 @@ selection_diag_rows = []
 calls_used = 0
 fetched_at = datetime.now(timezone.utc).isoformat()
 today = datetime.now(timezone.utc).date()
-discovery_mode = 'model_covered_search_then_match_confidence_then_multi_odds'
+discovery_mode = 'bookmaker_filtered_events_then_search_fallback_then_multi_odds'
 parse_mode = 'bookmakers_market_odds_schema'
 query_source = 'unknown'
+events_discovery_rows = 0
+search_fallback_used = False
 
 
 def record_rate_limit_headers(label: str, status_code, headers):
@@ -256,11 +261,28 @@ def eligible(fixtures):
         meta for meta in fixtures
         if meta.get('parsed_date') is not None
         and meta['parsed_date'].date() >= today
-        and meta.get('event_status') not in {'settled', 'cancelled', 'finished', 'closed'}
+        and meta.get('event_status') not in {'settled', 'cancelled', 'finished', 'closed', 'canceled'}
     ]
 
 
-def choose_best_event_for_target(target, event_rows, seen_event_ids):
+def add_diag(discovery_source, target, row, adjusted, selected=False, rejection_reason=''):
+    selection_diag_rows.append({
+        'discovery_source': discovery_source,
+        'query': target.get('query'),
+        'target_home_team': target.get('home_team'),
+        'target_away_team': target.get('away_team'),
+        'target_match_date': target.get('match_date'),
+        'candidate_event_id': row.get('raw_event_id'),
+        'candidate_home_team': row.get('home_team'),
+        'candidate_away_team': row.get('away_team'),
+        'candidate_match_date': row.get('match_date'),
+        'event_match_confidence': adjusted,
+        'selected': selected,
+        'rejection_reason': rejection_reason,
+    })
+
+
+def choose_best_event_for_target(target, event_rows, seen_event_ids, discovery_source):
     candidates = [row for row in eligible(event_rows) if row.get('raw_event_id') not in seen_event_ids]
     best = None
     best_score = 0.0
@@ -270,36 +292,63 @@ def choose_best_event_for_target(target, event_rows, seen_event_ids):
         if target.get('match_date') and row.get('match_date') and target.get('match_date') != row.get('match_date'):
             date_penalty = 0.08
         adjusted = round(max(score - date_penalty, 0), 4)
-        selected = False
-        rejection_reason = ''
-        if adjusted < min_event_match_confidence:
-            rejection_reason = 'below_min_event_match_confidence'
-        selection_diag_rows.append({
-            'query': target.get('query'),
-            'target_home_team': target.get('home_team'),
-            'target_away_team': target.get('away_team'),
-            'target_match_date': target.get('match_date'),
-            'candidate_event_id': row.get('raw_event_id'),
-            'candidate_home_team': row.get('home_team'),
-            'candidate_away_team': row.get('away_team'),
-            'candidate_match_date': row.get('match_date'),
-            'event_match_confidence': adjusted,
-            'selected': selected,
-            'rejection_reason': rejection_reason,
-        })
+        rejection_reason = '' if adjusted >= min_event_match_confidence else 'below_min_event_match_confidence'
+        add_diag(discovery_source, target, row, adjusted, selected=False, rejection_reason=rejection_reason)
         if adjusted > best_score:
             best = row
             best_score = adjusted
     if best is None or best_score < min_event_match_confidence:
         return None, best_score
     for diag in selection_diag_rows:
-        if diag.get('candidate_event_id') == best.get('raw_event_id') and diag.get('query') == target.get('query'):
+        if diag.get('candidate_event_id') == best.get('raw_event_id') and diag.get('target_home_team') == target.get('home_team'):
             diag['selected'] = True
             diag['rejection_reason'] = ''
     best['event_match_confidence'] = best_score
     best['target_home_team'] = target.get('home_team')
     best['target_away_team'] = target.get('away_team')
     return best, best_score
+
+
+def fetch_bookmaker_filtered_events(targets):
+    global events_discovery_rows
+    if not api_key or not targets or calls_used >= max_calls:
+        return []
+    target_dates = [t.get('match_date') for t in targets if t.get('match_date')]
+    if target_dates:
+        parsed_dates = [pd.to_datetime(d, errors='coerce').date() for d in target_dates]
+        parsed_dates = [d for d in parsed_dates if pd.notna(pd.Timestamp(d))]
+        start_date = (min(parsed_dates) - timedelta(days=1)).isoformat() if parsed_dates else today.isoformat()
+        end_date = (max(parsed_dates) + timedelta(days=1)).isoformat() if parsed_dates else (today + timedelta(days=events_lookahead_days)).isoformat()
+    else:
+        start_date = today.isoformat()
+        end_date = (today + timedelta(days=events_lookahead_days)).isoformat()
+
+    all_events = []
+    for page in range(max_event_pages):
+        if calls_used >= max_calls:
+            break
+        params = {
+            'apiKey': api_key,
+            'sport': 'football',
+            'status': 'pending',
+            'bookmaker': primary_bookmaker,
+            'from': start_date,
+            'to': end_date,
+            'limit': max_events,
+            'skip': page * max_events,
+        }
+        url = f"{base_url}/events?" + urllib.parse.urlencode(params)
+        try:
+            payload = get_json(url, f'events_bookmaker_filtered_{page + 1}')
+            rows_ = normalize_events(event_items(payload), 'odds_api_io_events_bookmaker_filtered')
+            all_events.extend(rows_)
+            if len(rows_) < max_events:
+                break
+        except Exception as exc:
+            errors.append({'stage': 'events_bookmaker_filtered', 'error': repr(exc)})
+            break
+    events_discovery_rows = len(all_events)
+    return all_events
 
 
 def number(value):
@@ -371,14 +420,32 @@ selected_markets = []
 seen_event_ids = set()
 selected_events = []
 
+targets = choose_search_targets()
+
 if not api_key:
     errors.append({'stage': 'config', 'error': 'ODDS_API_IO_KEY missing'})
 else:
-    for target in choose_search_targets():
+    bookmaker_events = fetch_bookmaker_filtered_events(targets)
+    fixture_rows.extend(bookmaker_events)
+    for target in targets:
+        if len(selected_events) >= max_price_events:
+            break
+        selected, score = choose_best_event_for_target(target, bookmaker_events, seen_event_ids, 'events_bookmaker_filtered')
+        if selected is not None:
+            seen_event_ids.add(selected['raw_event_id'])
+            selected_events.append(selected)
+
+    unmatched_targets = [
+        t for t in targets
+        if not any(sel.get('target_home_team') == t.get('home_team') and sel.get('target_away_team') == t.get('away_team') for sel in selected_events)
+    ]
+
+    for target in unmatched_targets:
         if calls_used >= max_calls or len(selected_events) >= max_price_events:
             break
         query = target.get('query')
         try:
+            search_fallback_used = True
             search_queries_used.append(str(query))
             search_url = f"{base_url}/events/search?" + urllib.parse.urlencode({
                 'apiKey': api_key,
@@ -387,7 +454,7 @@ else:
             search_payload = get_json(search_url, f"events_search_{len(search_queries_used)}")
             search_rows = normalize_events(event_items(search_payload)[:max_events], 'odds_api_io_events_search')
             fixture_rows.extend(search_rows)
-            selected, score = choose_best_event_for_target(target, search_rows, seen_event_ids)
+            selected, score = choose_best_event_for_target(target, search_rows, seen_event_ids, 'events_search_fallback')
             if selected is None:
                 errors.append({'stage': 'event_selection', 'error': f'No event above confidence {min_event_match_confidence} for query {query!r}; best={score}'})
                 continue
@@ -477,10 +544,15 @@ summary = {
     'calls_used': calls_used,
     'max_calls': max_calls,
     'max_events': max_events,
+    'events_max_pages': max_event_pages,
+    'events_lookahead_days': events_lookahead_days,
+    'events_bookmaker': primary_bookmaker,
     'max_price_events': max_price_events,
     'min_event_match_confidence': min_event_match_confidence,
     'discovery_mode': discovery_mode,
     'query_source': query_source,
+    'events_discovery_rows': events_discovery_rows,
+    'search_fallback_used': search_fallback_used,
     'search_queries_used': ', '.join(search_queries_used),
     'selected_event_ids': ', '.join([meta['raw_event_id'] for meta in selected_events]),
     'fixture_rows': int(len(fixtures)),
@@ -508,24 +580,27 @@ markdown = [
     '# odds-api.io Forward Price Fetch',
     '',
     'Cautious optional API source. Hard-capped by ODDS_API_IO_MAX_CALLS, ODDS_API_IO_MAX_EVENTS, and ODDS_API_IO_MAX_PRICE_EVENTS.',
-    'Prioritizes model-covered forward fixtures, selects searched events by home/away match confidence, then uses documented /v3/odds/multi for selected events.',
-    'Parses documented EventResponse.bookmakers -> markets -> odds -> home/draw/away schema.',
+    'Primary discovery uses /events with sport=football, status=pending, bookmaker filter, from/to, limit and skip; /events/search is fallback only.',
+    'Selected events are matched to model-covered forward fixtures by home/away/date confidence, then priced through documented /v3/odds/multi.',
     'Captures provider rate-limit headers from each authenticated API response.',
     'Not real-money ready until validated against forward results and other sources.',
     '',
     f"Enabled: {summary['enabled']}",
     f"Calls used: {summary['calls_used']} / {summary['max_calls']}",
-    f"Max events per search: {summary['max_events']}",
+    f"Events bookmaker: {summary['events_bookmaker']}",
+    f"Events discovery rows: {summary['events_discovery_rows']}",
+    f"Events max pages: {summary['events_max_pages']}",
+    f"Events lookahead days: {summary['events_lookahead_days']}",
+    f"Max events per page/search: {summary['max_events']}",
     f"Max priced events: {summary['max_price_events']}",
     f"Minimum event match confidence: {summary['min_event_match_confidence']}",
     f"Discovery mode: {summary['discovery_mode']}",
     f"Query source: {summary['query_source']}",
+    f"Search fallback used: {summary['search_fallback_used']}",
     f"Search queries used: {summary['search_queries_used']}",
     f"Selected event IDs: {summary['selected_event_ids']}",
-    f"Bookmakers parameter mode: {summary['bookmakers_param_mode']}",
     f"Bookmakers requested: {summary['bookmakers_requested']}",
     f"Odds endpoint mode: {summary['odds_endpoint_mode']}",
-    f"Odds parse mode: {summary['odds_parse_mode']}",
     f"Selected bookmakers: {summary['selected_bookmakers']}",
     f"Selected markets: {summary['selected_markets']}",
     f"Fixture rows: {summary['fixture_rows']}",
@@ -551,7 +626,7 @@ if len(selection_diag):
     markdown.extend(['', '## Event selection diagnostics', ''])
     for _, row in selection_diag.sort_values('event_match_confidence', ascending=False).head(20).iterrows():
         markdown.append(
-            f"- query={row['query']} | target={row['target_home_team']} vs {row['target_away_team']} | "
+            f"- src={row['discovery_source']} | query={row['query']} | target={row['target_home_team']} vs {row['target_away_team']} | "
             f"candidate={row['candidate_home_team']} vs {row['candidate_away_team']} | confidence={row['event_match_confidence']} | selected={row['selected']} | reason={row['rejection_reason']}"
         )
 if errors:
