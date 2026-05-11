@@ -37,8 +37,9 @@ errors = []
 calls_used = 0
 fetched_at = datetime.now(timezone.utc).isoformat()
 today = datetime.now(timezone.utc).date()
-discovery_mode = 'multi_targeted_events_search_then_single_event_odds'
+discovery_mode = 'model_covered_multi_targeted_events_search_then_single_event_odds'
 parse_mode = 'bookmakers_market_odds_schema'
+query_source = 'unknown'
 
 
 def get_json(url: str, label: str):
@@ -67,29 +68,48 @@ def safe_read_csv(path: Path) -> pd.DataFrame:
         return pd.DataFrame()
 
 
-def choose_search_queries() -> list[str]:
-    if search_query:
-        return [q.strip() for q in search_query.split(',') if len(q.strip()) >= 3][:max_price_events]
-    fixtures = safe_read_csv(output_dir / 'football_data_upcoming_fixtures.csv')
-    queries = []
-    if len(fixtures):
-        fixtures['parsed_date'] = pd.to_datetime(fixtures.get('match_date'), errors='coerce', utc=True)
-        upcoming = fixtures[fixtures['parsed_date'].dt.date >= today].copy()
-        if 'match_time' in upcoming.columns:
-            upcoming = upcoming.sort_values(['parsed_date', 'match_time'], na_position='last')
-        else:
-            upcoming = upcoming.sort_values(['parsed_date'], na_position='last')
-        for _, fixture in upcoming.iterrows():
-            for col in ['home_team', 'away_team']:
-                value = str(fixture.get(col) or '').strip()
-                if len(value) >= 3 and value.lower() not in {q.lower() for q in queries}:
-                    queries.append(value)
-                    break
-            if len(queries) >= max_price_events:
+def add_fixture_queries(frame: pd.DataFrame, queries: list[str]) -> list[str]:
+    if not len(frame):
+        return queries
+    df = frame.copy()
+    if 'match_date' in df.columns:
+        df['parsed_date'] = pd.to_datetime(df.get('match_date'), errors='coerce', utc=True)
+        df = df[(df['parsed_date'].isna()) | (df['parsed_date'].dt.date >= today)].copy()
+    sort_cols = [col for col in ['parsed_date', 'match_time'] if col in df.columns]
+    if sort_cols:
+        df = df.sort_values(sort_cols, na_position='last')
+    for _, fixture in df.iterrows():
+        for col in ['home_team', 'away_team']:
+            value = str(fixture.get(col) or '').strip()
+            if len(value) >= 3 and value.lower() not in {q.lower() for q in queries}:
+                queries.append(value)
                 break
-    if not queries:
-        queries = ['Tottenham']
-    return queries[:max_price_events]
+        if len(queries) >= max_price_events:
+            break
+    return queries
+
+
+def choose_search_queries() -> list[str]:
+    global query_source
+    if search_query:
+        query_source = 'env_override'
+        return [q.strip() for q in search_query.split(',') if len(q.strip()) >= 3][:max_price_events]
+
+    queries = []
+    predictions = safe_read_csv(output_dir / 'forward_fixture_predictions.csv')
+    queries = add_fixture_queries(predictions, queries)
+    if queries:
+        query_source = 'forward_fixture_predictions'
+        return queries[:max_price_events]
+
+    fixtures = safe_read_csv(output_dir / 'football_data_upcoming_fixtures.csv')
+    queries = add_fixture_queries(fixtures, queries)
+    if queries:
+        query_source = 'football_data_upcoming_fixtures_fallback'
+        return queries[:max_price_events]
+
+    query_source = 'static_fallback'
+    return ['Tottenham']
 
 
 def parse_datetime(value):
@@ -305,6 +325,7 @@ summary = {
     'max_events': max_events,
     'max_price_events': max_price_events,
     'discovery_mode': discovery_mode,
+    'query_source': query_source,
     'search_queries_used': ', '.join(search_queries_used),
     'fixture_rows': int(len(fixtures)),
     'priced_event_rows': int(len(prices)),
@@ -324,7 +345,7 @@ markdown = [
     '# odds-api.io Forward Price Fetch',
     '',
     'Cautious optional API source. Hard-capped by ODDS_API_IO_MAX_CALLS, ODDS_API_IO_MAX_EVENTS, and ODDS_API_IO_MAX_PRICE_EVENTS.',
-    'Uses documented /v3/events/search for multiple targeted upcoming-event queries, then /v3/odds for at most one event per query.',
+    'Prioritizes model-covered forward fixtures for search queries, then uses /v3/odds for at most one event per query.',
     'Parses documented EventResponse.bookmakers -> markets -> odds -> home/draw/away schema.',
     'Not real-money ready until validated against forward results and other sources.',
     '',
@@ -333,6 +354,7 @@ markdown = [
     f"Max events per search: {summary['max_events']}",
     f"Max priced events: {summary['max_price_events']}",
     f"Discovery mode: {summary['discovery_mode']}",
+    f"Query source: {summary['query_source']}",
     f"Search queries used: {summary['search_queries_used']}",
     f"Bookmakers parameter mode: {summary['bookmakers_param_mode']}",
     f"Bookmakers requested: {summary['bookmakers_requested']}",
