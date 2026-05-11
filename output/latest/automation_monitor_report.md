@@ -1,11 +1,11 @@
 # Automation Monitor Report
 
-Generated UTC: 2026-05-11T14:04:22.456129+00:00
-GitHub run number: 249
-GitHub run id: 25675005874
+Generated UTC: 2026-05-11T14:24:57.883906+00:00
+GitHub run number: 250
+GitHub run id: 25676098815
 GitHub run attempt: 1
-GitHub event: workflow_dispatch
-GitHub SHA: 99cd0d31b5a0ee6a7230ed7cf201d130de97cab2
+GitHub event: push
+GitHub SHA: c6fe2bf5b866abfe8b91e014b47b24885f901511
 GitHub ref: main
 
 ## Schedule
@@ -16,4 +16,4 @@ GitHub ref: main
 
 ## Interpretation
 
-This was manually triggered.
+This was triggered by a code/data change.

@@ -1,0 +1,1 @@
+{"error":"Betfair is not a valid bookmaker, use /v3/bookmakers to get a list of valid bookmakers"}
