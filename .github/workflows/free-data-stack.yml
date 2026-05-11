@@ -113,6 +113,9 @@ jobs:
       - name: Build paper test picks
         run: python scripts/build_paper_test_picks.py
 
+      - name: Build paper test log status
+        run: python scripts/build_paper_test_log_status.py
+
       - name: Build edge quality diagnostics
         run: python scripts/build_edge_quality_report.py
 
