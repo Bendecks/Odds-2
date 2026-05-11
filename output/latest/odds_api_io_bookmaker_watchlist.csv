@@ -1,0 +1,7 @@
+requested_name,found,canonical_name,active,is_configured
+Bet365,True,Bet365,True,True
+1xbet,True,1xbet,True,True
+Unibet,True,Unibet,True,False
+SingBet,True,SingBet,True,False
+Pinnacle,False,,,False
+Betfair,False,,,False
