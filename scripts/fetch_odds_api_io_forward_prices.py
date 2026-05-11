@@ -37,7 +37,7 @@ errors = []
 calls_used = 0
 fetched_at = datetime.now(timezone.utc).isoformat()
 today = datetime.now(timezone.utc).date()
-discovery_mode = 'model_covered_multi_targeted_events_search_then_single_event_odds'
+discovery_mode = 'model_covered_search_then_multi_odds'
 parse_mode = 'bookmakers_market_odds_schema'
 query_source = 'unknown'
 
@@ -78,11 +78,13 @@ def add_fixture_queries(frame: pd.DataFrame, queries: list[str]) -> list[str]:
     sort_cols = [col for col in ['parsed_date', 'match_time'] if col in df.columns]
     if sort_cols:
         df = df.sort_values(sort_cols, na_position='last')
+    existing_lower = {q.lower() for q in queries}
     for _, fixture in df.iterrows():
         for col in ['home_team', 'away_team']:
             value = str(fixture.get(col) or '').strip()
-            if len(value) >= 3 and value.lower() not in {q.lower() for q in queries}:
+            if len(value) >= 3 and value.lower() not in existing_lower:
                 queries.append(value)
+                existing_lower.add(value.lower())
                 break
         if len(queries) >= max_price_events:
             break
@@ -126,6 +128,21 @@ def event_items(payload):
         for key in ['events', 'data', 'results']:
             if isinstance(payload.get(key), list):
                 return payload.get(key)
+    return []
+
+
+def odds_response_items(payload):
+    if isinstance(payload, list):
+        return payload
+    if isinstance(payload, dict):
+        if 'bookmakers' in payload and 'id' in payload:
+            return [payload]
+        for key in ['events', 'data', 'results', 'odds']:
+            if isinstance(payload.get(key), list):
+                return payload.get(key)
+        values = [v for v in payload.values() if isinstance(v, dict) and 'bookmakers' in v]
+        if values:
+            return values
     return []
 
 
@@ -239,12 +256,13 @@ search_queries_used = []
 selected_bookmakers = []
 selected_markets = []
 seen_event_ids = set()
+selected_events = []
 
 if not api_key:
     errors.append({'stage': 'config', 'error': 'ODDS_API_IO_KEY missing'})
 else:
     for query in choose_search_queries():
-        if calls_used >= max_calls or len(rows) >= max_price_events:
+        if calls_used >= max_calls or len(selected_events) >= max_price_events:
             break
         try:
             search_queries_used.append(query)
@@ -258,21 +276,35 @@ else:
             eligible_rows = [row for row in eligible(search_rows) if row.get('raw_event_id') not in seen_event_ids]
 
             if not eligible_rows:
-                errors.append({'stage': 'event_selection', 'error': f'No future non-settled event available from targeted search query {query!r}; skipped odds call'})
+                errors.append({'stage': 'event_selection', 'error': f'No future non-settled event available from targeted search query {query!r}; skipped'})
                 continue
 
-            if calls_used >= max_calls:
-                break
             meta = eligible_rows[0]
             seen_event_ids.add(meta['raw_event_id'])
-            try:
-                params = {
-                    'apiKey': api_key,
-                    'eventId': meta['raw_event_id'],
-                    'bookmakers': bookmakers,
-                }
-                odds_url = f"{base_url}/odds?" + urllib.parse.urlencode(params)
-                odds_payload = get_json(odds_url, f"odds_{meta['raw_event_id']}")
+            selected_events.append(meta)
+        except Exception as exc:
+            errors.append({'stage': 'events_search_or_parse', 'error': repr(exc)})
+
+    if selected_events and calls_used < max_calls:
+        try:
+            event_ids = ','.join([meta['raw_event_id'] for meta in selected_events[:10]])
+            params = {
+                'apiKey': api_key,
+                'eventIds': event_ids,
+                'bookmakers': bookmakers,
+            }
+            multi_url = f"{base_url}/odds/multi?" + urllib.parse.urlencode(params)
+            multi_payload = get_json(multi_url, 'odds_multi')
+            odds_items = odds_response_items(multi_payload)
+            odds_by_id = {str(item.get('id') or item.get('eventId') or item.get('event_id')): item for item in odds_items if isinstance(item, dict)}
+
+            for meta in selected_events:
+                odds_payload = odds_by_id.get(str(meta['raw_event_id']))
+                if odds_payload is None and len(selected_events) == 1 and isinstance(multi_payload, dict) and 'bookmakers' in multi_payload:
+                    odds_payload = multi_payload
+                if odds_payload is None:
+                    errors.append({'stage': 'multi_odds_match', 'error': f'No multi-odds payload matched event {meta.get("raw_event_id")}'})
+                    continue
                 home_odds, draw_odds, away_odds, selected_bookmaker, selected_market = extract_three_way_odds(odds_payload)
                 if home_odds:
                     selected_bookmakers.append(str(selected_bookmaker))
@@ -290,15 +322,13 @@ else:
                         'market_draw_odds': round(draw_odds, 4),
                         'market_away_odds': round(away_odds, 4),
                         'price_captured_at_utc': fetched_at,
-                        'source_quality': 'free_api_market_proxy_capped_single_event_call',
-                        'raw_source_url': 'https://api.odds-api.io/v3/odds',
+                        'source_quality': 'free_api_market_proxy_capped_multi_event_call',
+                        'raw_source_url': 'https://api.odds-api.io/v3/odds/multi',
                     })
                 else:
-                    errors.append({'stage': 'odds_parse', 'error': f'No 1X2 odds found for event {meta.get("raw_event_id")} from query {query!r}'})
-            except Exception as exc:
-                errors.append({'stage': 'odds_request_or_parse', 'error': repr(exc)})
+                    errors.append({'stage': 'odds_parse', 'error': f'No 1X2 odds found in multi-odds payload for event {meta.get("raw_event_id")}'})
         except Exception as exc:
-            errors.append({'stage': 'events_search_or_parse', 'error': repr(exc)})
+            errors.append({'stage': 'multi_odds_request_or_parse', 'error': repr(exc)})
 
 prices = pd.DataFrame(rows)
 for col in price_columns:
@@ -327,17 +357,19 @@ summary = {
     'discovery_mode': discovery_mode,
     'query_source': query_source,
     'search_queries_used': ', '.join(search_queries_used),
+    'selected_event_ids': ', '.join([meta['raw_event_id'] for meta in selected_events]),
     'fixture_rows': int(len(fixtures)),
+    'selected_event_rows': int(len(selected_events)),
     'priced_event_rows': int(len(prices)),
     'price_rows': int(len(prices)),
     'errors': int(len(errors)),
     'bookmakers_param_mode': 'explicit_selected_bookmakers',
     'bookmakers_requested': bookmakers,
-    'odds_endpoint_mode': 'single_event_documented_endpoint',
+    'odds_endpoint_mode': 'multi_event_documented_endpoint',
     'odds_parse_mode': parse_mode,
     'selected_bookmakers': ', '.join(sorted(set(selected_bookmakers))),
     'selected_markets': ', '.join(sorted(set(selected_markets))),
-    'source_quality': 'free_api_market_proxy_capped_calls',
+    'source_quality': 'free_api_market_proxy_capped_multi_call',
 }
 pd.DataFrame([summary]).to_csv(output_dir / 'odds_api_io_forward_price_status.csv', index=False)
 
@@ -345,7 +377,7 @@ markdown = [
     '# odds-api.io Forward Price Fetch',
     '',
     'Cautious optional API source. Hard-capped by ODDS_API_IO_MAX_CALLS, ODDS_API_IO_MAX_EVENTS, and ODDS_API_IO_MAX_PRICE_EVENTS.',
-    'Prioritizes model-covered forward fixtures for search queries, then uses /v3/odds for at most one event per query.',
+    'Prioritizes model-covered forward fixtures for search queries, then uses documented /v3/odds/multi for selected events.',
     'Parses documented EventResponse.bookmakers -> markets -> odds -> home/draw/away schema.',
     'Not real-money ready until validated against forward results and other sources.',
     '',
@@ -356,6 +388,7 @@ markdown = [
     f"Discovery mode: {summary['discovery_mode']}",
     f"Query source: {summary['query_source']}",
     f"Search queries used: {summary['search_queries_used']}",
+    f"Selected event IDs: {summary['selected_event_ids']}",
     f"Bookmakers parameter mode: {summary['bookmakers_param_mode']}",
     f"Bookmakers requested: {summary['bookmakers_requested']}",
     f"Odds endpoint mode: {summary['odds_endpoint_mode']}",
@@ -363,6 +396,7 @@ markdown = [
     f"Selected bookmakers: {summary['selected_bookmakers']}",
     f"Selected markets: {summary['selected_markets']}",
     f"Fixture rows: {summary['fixture_rows']}",
+    f"Selected event rows: {summary['selected_event_rows']}",
     f"Priced event rows: {summary['priced_event_rows']}",
     f"Price rows: {summary['price_rows']}",
     f"Errors/status rows: {summary['errors']}",
