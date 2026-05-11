@@ -1,4 +1,5 @@
 import hashlib
+import runpy
 from pathlib import Path
 
 import pandas as pd
@@ -88,10 +89,10 @@ if len(fixtures) and len(match_report) and len(team_strengths):
         home_row = team_strengths.loc[home_model]
         away_row = team_strengths.loc[away_model]
 
-        home_attack = (home_row['home_attack_strength'] * 0.35 + home_row['recent_attack_strength'] * 0.25 + 0.40)
-        away_attack = (away_row['away_attack_strength'] * 0.35 + away_row['recent_attack_strength'] * 0.25 + 0.40)
-        home_defense = (home_row['home_defense_strength'] * 0.35 + home_row['recent_defense_strength'] * 0.25 + 0.40)
-        away_defense = (away_row['away_defense_strength'] * 0.35 + away_row['recent_defense_strength'] * 0.25 + 0.40)
+        home_attack = home_row['home_attack_strength'] * 0.35 + home_row['recent_attack_strength'] * 0.25 + 0.40
+        away_attack = away_row['away_attack_strength'] * 0.35 + away_row['recent_attack_strength'] * 0.25 + 0.40
+        home_defense = home_row['home_defense_strength'] * 0.35 + home_row['recent_defense_strength'] * 0.25 + 0.40
+        away_defense = away_row['away_defense_strength'] * 0.35 + away_row['recent_defense_strength'] * 0.25 + 0.40
 
         expected_home_goals = league_home_avg * home_attack * away_defense * home_advantage_multiplier
         expected_away_goals = league_away_avg * away_attack * home_defense
@@ -118,7 +119,6 @@ if len(fixtures) and len(match_report) and len(team_strengths):
             away_win /= normalization
 
         home_win, draw, away_win = calibrate_three_way_probabilities(home_win, draw, away_win)
-
         prediction_key = f"{fixture_id}|{fixture.get('match_date')}|{fixture.get('home_team')}|{fixture.get('away_team')}|forward_fixture_model"
         prediction_id = hashlib.sha256(prediction_key.encode('utf-8')).hexdigest()[:20]
 
@@ -182,4 +182,12 @@ else:
     markdown.append('No forward fixture predictions built. Check fixture/model team matching first.')
 
 (output_dir / 'forward_fixture_predictions.md').write_text('\n'.join(markdown), encoding='utf-8')
+
+logger = Path('scripts/log_forward_fixture_predictions.py')
+if logger.exists():
+    try:
+        runpy.run_path(str(logger), run_name='__main__')
+    except Exception as exc:
+        print(f'Forward fixture prediction logger skipped: {exc!r}')
+
 print(summary)
