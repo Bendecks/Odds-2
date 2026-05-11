@@ -2,17 +2,15 @@
 
 Model used: `gemini-2.0-flash`
 
-```markdown
-1. **Current system status:** Paper-tracking ready, but no candidate bets or paper-test picks are currently generated due to incomplete fixture/model matching and suppression rules. Negative CLV trend.
-2. **Biggest weakness:** Incomplete fixture/model matching blocking forward testing and negative CLV trend.
-3. **Best next development step:** Fix fixture/model team matching to enable automatic forward testing.
-4. **Readiness:** observe-only
-5. **One concrete change to prioritize next:** Implement team aliases for upcoming fixtures.
-6. **Suppression rules:** Reasonable
-7. **Probability calibration layer:** Reasonable
-8. **Paper-test pick filter:** Too strict
-9. **Probability band to monitor next:** 0.35-0.45
-10. **Calibration impact:** Left unchanged
-11. **Blocking true forward paper-testing:** Model matching
-12. **Manual odds instructions:** Sufficient
-```
+1.  Current system status: Paper-tracking ready, but no candidate bets or paper-test picks are currently being generated due to team matching issues and lack of forward odds. Negative CLV signal.
+2.  Biggest weakness: Inability to generate forward paper-test picks due to fixture/model team matching and lack of automatic forward odds.
+3.  Best next development step: Fix fixture/model team matching to enable automatic forward odds processing.
+4.  Readiness: observe-only
+5.  One concrete change to prioritize next: Add team aliases for upcoming fixtures.
+6.  Current suppression rules look: reasonable
+7.  Probability calibration layer looks: reasonable
+8.  Paper-test pick filter is: too strict (no picks are passing)
+9.  Probability band to be protected, suppressed, or monitored next: Monitor 0.35-0.45
+10. Calibration impact should be: left unchanged
+11. Blocking true forward paper-testing right now: model matching
+12. Manual odds instructions are: sufficient for the next human action.
