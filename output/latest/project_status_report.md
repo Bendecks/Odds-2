@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T13:24:32.282974+00:00`
-GitHub run: `241` attempt `1`
-GitHub SHA: `426f34b73acd0d83c2fa8acda6b955cb77deb40b`
+Generated UTC: `2026-05-11T13:26:29.112358+00:00`
+GitHub run: `242` attempt `1`
+GitHub SHA: `f27f7de5893b918abbf28952905262138b30202f`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -105,14 +105,13 @@ Errors: 0
 
 # Automatic Forward Source Report
 Purpose: distinguish true automatic forward inputs from historical market proxy and paused manual fallback.
-Football-Data fixture odds are treated as delayed/free proxy prices: paper-test only, never real-money ready.
+Football-Data and odds-api.io prices are treated as paper-test proxy prices until validated.
 Upcoming fixture rows: 11
-Fixture team rows checked: 22
 Fixture team rows unmatched: 16
 Ready for model-fixture join: False
-Configured forward sources: 1
-Enabled forward sources: 1
 Automatic forward price rows: 33
+odds-api.io price rows: 0
+Football-Data price rows: 33
 Automatic forward status: automatic_forward_not_ready
 Blocker: fixture_model_team_matching_incomplete
 Next development step: add_team_aliases_for_upcoming_fixtures
@@ -133,6 +132,7 @@ Next development step: add_team_aliases_for_upcoming_fixtures
 - Nacional | suggestion=nan | type=unmatched
 - Tondela | suggestion=nan | type=unmatched
 - Moreirense | suggestion=nan | type=unmatched
+## Interpretation
 
 ## automatic_forward_value_snapshots
 

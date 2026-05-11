@@ -1,15 +1,14 @@
 # Automatic Forward Source Report
 
 Purpose: distinguish true automatic forward inputs from historical market proxy and paused manual fallback.
-Football-Data fixture odds are treated as delayed/free proxy prices: paper-test only, never real-money ready.
+Football-Data and odds-api.io prices are treated as paper-test proxy prices until validated.
 
 Upcoming fixture rows: 11
-Fixture team rows checked: 22
 Fixture team rows unmatched: 16
 Ready for model-fixture join: False
-Configured forward sources: 1
-Enabled forward sources: 1
 Automatic forward price rows: 33
+odds-api.io price rows: 0
+Football-Data price rows: 33
 Automatic forward status: automatic_forward_not_ready
 Blocker: fixture_model_team_matching_incomplete
 Next development step: add_team_aliases_for_upcoming_fixtures
