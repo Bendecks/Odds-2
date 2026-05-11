@@ -30,7 +30,6 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-11 19:30 | Huesca vs Sociedad B
 - 2026-05-11 22:00 | Loud SC vs Funkbol Clube
 - 2026-05-11 23:00 | Maringa FC PR vs Guarani FC SP
-- 2026-05-11 21:45 | Millonarios FC vs America de Cali Sa
 - 2026-05-11 19:45 | Napoli vs Bologna
 - 2026-05-11 22:00 | Piaui PI vs Ferroviario AC CE
 - 2026-05-11 20:15 | Rio Ave vs Sp Lisbon
@@ -65,6 +64,7 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-12 00:00 | CD Palestino vs Deportes Limache
 - 2026-05-12 20:00 | CD Real Santander vs Boca Juniors de Cali
 - 2026-05-12 17:00 | Central Espanol Reserve vs Defensor Sporting
+- 2026-05-12 18:30 | Cerro Largo FC vs Boston River
 - 2026-05-12 10:30 | Cerro Porteno Asuncion vs Guarani Asuncion
 - 2026-05-12 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers
 - 2026-05-12 18:45 | Clyde FC vs Hamilton Academical FC
@@ -168,7 +168,6 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-15 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers
 - 2026-05-15 23:15 | Louisville Bats vs Indianapolis Indians
 - 2026-05-16 09:00 | Cagliari Calcio vs SSC Napoli
-- 2026-05-16 11:00 | FC Porto B vs SL Benfica B
 
 ## After filling odds
 

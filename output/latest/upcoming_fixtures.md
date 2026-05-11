@@ -4,8 +4,8 @@ Fixture sources: TheSportsDB, Football-Data fixtures proxy, cautious odds-api.io
 Duplicate fixtures are deduplicated by date and normalized teams, preferring odds-api.io then Football-Data for odds alignment.
 Primary development target: automatic/free market proxy, not manual Bet365.
 
-Fixtures found: 152
-Source counts: {'odds_api_io_events_bookmaker_filtered': 126, 'odds_api_io_events_search': 15, 'football_data_fixtures_proxy': 11}
+Fixtures found: 151
+Source counts: {'odds_api_io_events_bookmaker_filtered': 126, 'odds_api_io_events_search': 14, 'football_data_fixtures_proxy': 11}
 Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 
 - 2026-05-11 20:15 | Benfica vs Sp Braga | P1 | football_data_fixtures_proxy
@@ -21,7 +21,6 @@ Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 - 2026-05-11 19:30 | Huesca vs Sociedad B | SP2 | football_data_fixtures_proxy
 - 2026-05-11 22:00 | Loud SC vs Funkbol Clube | soccerspecials-kings-league-brazil | odds_api_io_events_bookmaker_filtered
 - 2026-05-11 23:00 | Maringa FC PR vs Guarani FC SP | brazil-brasileiro-serie-c | odds_api_io_events_bookmaker_filtered
-- 2026-05-11 21:45 | Millonarios FC vs America de Cali Sa | colombia-liga-femenina | odds_api_io_events_bookmaker_filtered
 - 2026-05-11 19:45 | Napoli vs Bologna | serie_a | football_data_fixtures_proxy
 - 2026-05-11 22:00 | Piaui PI vs Ferroviario AC CE | brazil-brasileiro-serie-d | odds_api_io_events_bookmaker_filtered
 - 2026-05-11 20:15 | Rio Ave vs Sp Lisbon | P1 | football_data_fixtures_proxy
@@ -56,6 +55,7 @@ Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 - 2026-05-12 00:00 | CD Palestino vs Deportes Limache | chile-copa-de-la-liga | odds_api_io_events_bookmaker_filtered
 - 2026-05-12 20:00 | CD Real Santander vs Boca Juniors de Cali | colombia-copa-colombia | odds_api_io_events_bookmaker_filtered
 - 2026-05-12 17:00 | Central Espanol Reserve vs Defensor Sporting | uruguay-tercera-division-reserves | odds_api_io_events_bookmaker_filtered
+- 2026-05-12 18:30 | Cerro Largo FC vs Boston River | uruguay-tercera-division-reserves | odds_api_io_events_bookmaker_filtered
 - 2026-05-12 10:30 | Cerro Porteno Asuncion vs Guarani Asuncion | paraguay-primera-division-reserve-apertura | odds_api_io_events_bookmaker_filtered
 - 2026-05-12 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers | usa-single-a-carolina-league | odds_api_io_events_search
 - 2026-05-12 18:45 | Clyde FC vs Hamilton Academical FC | scotland-league-1 | odds_api_io_events_bookmaker_filtered

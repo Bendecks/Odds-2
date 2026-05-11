@@ -4,7 +4,7 @@ Use this only for forward paper-testing. Do not use for real-money betting.
 Existing filled odds are preserved when fixtures refresh.
 Fill the three 1X2 odds columns from Bet365 before kickoff, then commit/update the CSV or run the workflow manually.
 
-Template rows: 152
+Template rows: 151
 Rows with complete odds: 0
 
 - 2026-05-11 20:15 | Benfica vs Sp Braga | bookmaker=bet365_manual
@@ -20,7 +20,6 @@ Rows with complete odds: 0
 - 2026-05-11 19:30 | Huesca vs Sociedad B | bookmaker=bet365_manual
 - 2026-05-11 22:00 | Loud SC vs Funkbol Clube | bookmaker=bet365_manual
 - 2026-05-11 23:00 | Maringa FC PR vs Guarani FC SP | bookmaker=bet365_manual
-- 2026-05-11 21:45 | Millonarios FC vs America de Cali Sa | bookmaker=bet365_manual
 - 2026-05-11 19:45 | Napoli vs Bologna | bookmaker=bet365_manual
 - 2026-05-11 22:00 | Piaui PI vs Ferroviario AC CE | bookmaker=bet365_manual
 - 2026-05-11 20:15 | Rio Ave vs Sp Lisbon | bookmaker=bet365_manual
@@ -55,6 +54,7 @@ Rows with complete odds: 0
 - 2026-05-12 00:00 | CD Palestino vs Deportes Limache | bookmaker=bet365_manual
 - 2026-05-12 20:00 | CD Real Santander vs Boca Juniors de Cali | bookmaker=bet365_manual
 - 2026-05-12 17:00 | Central Espanol Reserve vs Defensor Sporting | bookmaker=bet365_manual
+- 2026-05-12 18:30 | Cerro Largo FC vs Boston River | bookmaker=bet365_manual
 - 2026-05-12 10:30 | Cerro Porteno Asuncion vs Guarani Asuncion | bookmaker=bet365_manual
 - 2026-05-12 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers | bookmaker=bet365_manual
 - 2026-05-12 18:45 | Clyde FC vs Hamilton Academical FC | bookmaker=bet365_manual
@@ -158,4 +158,3 @@ Rows with complete odds: 0
 - 2026-05-15 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers | bookmaker=bet365_manual
 - 2026-05-15 23:15 | Louisville Bats vs Indianapolis Indians | bookmaker=bet365_manual
 - 2026-05-16 09:00 | Cagliari Calcio vs SSC Napoli | bookmaker=bet365_manual
-- 2026-05-16 11:00 | FC Porto B vs SL Benfica B | bookmaker=bet365_manual

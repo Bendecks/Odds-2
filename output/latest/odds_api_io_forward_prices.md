@@ -11,7 +11,7 @@ Enabled: True
 Calls used: 10 / 10
 Max discovery calls: 9
 Events bookmaker: Bet365
-Events discovery rows: 128
+Events discovery rows: 127
 Events max pages: 3
 Events lookahead days: 14
 Max events per page/search: 100
@@ -28,8 +28,8 @@ Bookmakers requested: Bet365,1xbet
 Odds endpoint mode: multi_event_documented_endpoint
 Selected bookmakers: 1xbet
 Selected markets: 3-Way Result
-Fixture rows: 142
-Event selection diagnostic rows: 1295
+Fixture rows: 141
+Event selection diagnostic rows: 1284
 Selected event rows: 1
 Priced event rows: 1
 Price rows: 1
@@ -39,7 +39,7 @@ Errors/status rows: 6
 
 Header rows captured: 10
 Latest x-ratelimit-limit: 100
-Latest x-ratelimit-remaining: 30
+Latest x-ratelimit-remaining: 2
 Latest x-ratelimit-reset: 2026-05-11T22:22:15Z
 Latest retry-after: None
 
@@ -48,7 +48,6 @@ Latest retry-after: None
 ## Event selection diagnostics
 
 - src=events_search_fallback | query=Benfica | target=Benfica vs Sp Braga | candidate=SC Braga vs Benfica Lisboa | confidence=0.8175 | selected=True | reason=
-- src=events_search_fallback | query=Benfica | target=Benfica vs Sp Braga | candidate=FC Porto B vs SL Benfica B | confidence=0.58 | selected=False | reason=below_min_event_match_confidence
 - src=events_bookmaker_filtered | query=Santa Clara | target=Santa Clara vs Nacional | candidate=SC Internacional RS vs Athletic Club Sjdr MG | confidence=0.5675 | selected=False | reason=below_min_event_match_confidence
 - src=events_bookmaker_filtered | query=Guimaraes | target=Guimaraes vs Casa Pia | candidate=Maringa FC PR vs Guarani FC SP | confidence=0.538 | selected=False | reason=below_min_event_match_confidence
 - src=events_bookmaker_filtered | query=Santa Clara | target=Santa Clara vs Nacional | candidate=Atletico Nacional Medellin vs Internacional de Bogota. | confidence=0.5271 | selected=False | reason=below_min_event_match_confidence
@@ -57,16 +56,17 @@ Latest retry-after: None
 - src=events_search_fallback | query=Napoli | target=Napoli vs Bologna | candidate=Louisville Bats vs Indianapolis Indians | confidence=0.5164 | selected=False | reason=below_min_event_match_confidence
 - src=events_search_fallback | query=Napoli | target=Napoli vs Bologna | candidate=Louisville Bats vs Indianapolis Indians | confidence=0.5164 | selected=False | reason=below_min_event_match_confidence
 - src=events_search_fallback | query=Napoli | target=Napoli vs Bologna | candidate=Louisville Bats vs Indianapolis Indians | confidence=0.5164 | selected=False | reason=below_min_event_match_confidence
-- src=events_search_fallback | query=Benfica | target=Benfica vs Sp Braga | candidate=Quinta Dos Lombos vs SL Benfica | confidence=0.5 | selected=False | reason=below_min_event_match_confidence
 - src=events_bookmaker_filtered | query=Vallecano | target=Vallecano vs Girona | candidate=Sol de America Villa Elisa vs Guairena FC | confidence=0.5 | selected=False | reason=below_min_event_match_confidence
+- src=events_search_fallback | query=Benfica | target=Benfica vs Sp Braga | candidate=Quinta Dos Lombos vs SL Benfica | confidence=0.5 | selected=False | reason=below_min_event_match_confidence
 - src=events_search_fallback | query=Napoli | target=Napoli vs Bologna | candidate=Charleston Riverdogs vs Kannapolis Cannon Ballers | confidence=0.4911 | selected=False | reason=below_min_event_match_confidence
 - src=events_search_fallback | query=Napoli | target=Napoli vs Bologna | candidate=Charleston Riverdogs vs Kannapolis Cannon Ballers | confidence=0.4911 | selected=False | reason=below_min_event_match_confidence
 - src=events_search_fallback | query=Napoli | target=Napoli vs Bologna | candidate=Charleston Riverdogs vs Kannapolis Cannon Ballers | confidence=0.4911 | selected=False | reason=below_min_event_match_confidence
 - src=events_search_fallback | query=Napoli | target=Napoli vs Bologna | candidate=Charleston Riverdogs vs Kannapolis Cannon Ballers | confidence=0.4911 | selected=False | reason=below_min_event_match_confidence
 - src=events_search_fallback | query=Napoli | target=Napoli vs Bologna | candidate=Vila Nova FC GO vs Anapolis FC GO | confidence=0.4853 | selected=False | reason=below_min_event_match_confidence
 - src=events_bookmaker_filtered | query=Santa Clara | target=Santa Clara vs Nacional | candidate=Penarol Montevideo vs Nacional de Montevideo | confidence=0.4834 | selected=False | reason=below_min_event_match_confidence
-- src=events_bookmaker_filtered | query=Santa Clara | target=Santa Clara vs Nacional | candidate=Penarol Montevideo vs Nacional de Montevideo | confidence=0.4834 | selected=False | reason=below_min_event_match_confidence
 - src=events_bookmaker_filtered | query=Benfica | target=Benfica vs Sp Braga | candidate=Deportivo Cali vs CA Bucaramanga | confidence=0.4632 | selected=False | reason=below_min_event_match_confidence
+- src=events_bookmaker_filtered | query=Vallecano | target=Vallecano vs Girona | candidate=Millonarios FC vs Llaneros FC | confidence=0.4494 | selected=False | reason=below_min_event_match_confidence
+- src=events_bookmaker_filtered | query=Guimaraes | target=Guimaraes vs Casa Pia | candidate=Piaui PI vs Ferroviario AC CE | confidence=0.4423 | selected=False | reason=below_min_event_match_confidence
 
 ## Errors / Status
 
