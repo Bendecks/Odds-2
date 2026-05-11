@@ -10,23 +10,6 @@ No qualifying candidate bets today.
 
 ## Paper-Test Picks
 
-### Tottenham Hotspur vs Leeds United
-
-- Date/time: 2026-05-11 19:00:00
-- League/phase: premier_league / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 4.1
-- Fair odds: 3.17
-- Model probability: 0.3152
-- Probability band: 0.00-0.35
-- EV: 0.2923
-- Probability edge: 0.0713
-- Alignment penalty: 0.2923
-- Suppression action: proxy_suppressed_band_observe_only
-- Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.1299
-- Prediction ID: a34fb57cd5c2b5199b69
-
 ### Tottenham vs Leeds
 
 - Date/time: 2026-05-11 20:00
@@ -44,23 +27,6 @@ No qualifying candidate bets today.
 - Paper score: 0.1299
 - Prediction ID: 7b65a9bf28de71b10d96
 
-### Tottenham Hotspur vs Leeds United
-
-- Date/time: 2026-05-11 19:00:00
-- League/phase: premier_league / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 3.92
-- Fair odds: 3.17
-- Model probability: 0.3152
-- Probability band: 0.00-0.35
-- EV: 0.2356
-- Probability edge: 0.0601
-- Alignment penalty: 0.2356
-- Suppression action: proxy_suppressed_band_observe_only
-- Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.1288
-- Prediction ID: a34fb57cd5c2b5199b69
-
 ### Tottenham vs Leeds
 
 - Date/time: 2026-05-11 20:00
@@ -77,23 +43,6 @@ No qualifying candidate bets today.
 - Paper tier: suppressed_band_proxy_observation
 - Paper score: 0.1288
 - Prediction ID: 7b65a9bf28de71b10d96
-
-### Tottenham Hotspur vs Leeds United
-
-- Date/time: 2026-05-11 19:00:00
-- League/phase: premier_league / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 3.75
-- Fair odds: 3.17
-- Model probability: 0.3152
-- Probability band: 0.00-0.35
-- EV: 0.182
-- Probability edge: 0.0485
-- Alignment penalty: 0.182
-- Suppression action: proxy_suppressed_band_observe_only
-- Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.1276
-- Prediction ID: a34fb57cd5c2b5199b69
 
 ### Tottenham vs Leeds
 
@@ -128,6 +77,57 @@ No qualifying candidate bets today.
 - Paper tier: suppressed_band_proxy_observation
 - Paper score: 0.1261
 - Prediction ID: 450dc1ddc6eecf2c644e
+
+### Napoli vs Bologna
+
+- Date/time: 2026-05-11 19:45
+- League/phase: serie_a / automatic_forward_price_proxy
+- Selection: DRAW
+- Market odds: 4.2
+- Fair odds: 3.52
+- Model probability: 0.2843
+- Probability band: 0.00-0.35
+- EV: 0.1941
+- Probability edge: 0.0462
+- Alignment penalty: 0.1941
+- Suppression action: proxy_suppressed_band_observe_only
+- Paper tier: suppressed_band_proxy_observation
+- Paper score: 0.1261
+- Prediction ID: 450dc1ddc6eecf2c644e
+
+### Napoli vs Bologna
+
+- Date/time: 2026-05-11 19:45
+- League/phase: serie_a / automatic_forward_price_proxy
+- Selection: DRAW
+- Market odds: 4.01
+- Fair odds: 3.52
+- Model probability: 0.2843
+- Probability band: 0.00-0.35
+- EV: 0.14
+- Probability edge: 0.0349
+- Alignment penalty: 0.14
+- Suppression action: proxy_suppressed_band_observe_only
+- Paper tier: suppressed_band_proxy_observation
+- Paper score: 0.125
+- Prediction ID: 450dc1ddc6eecf2c644e
+
+### Vallecano vs Girona
+
+- Date/time: 2026-05-11 20:00
+- League/phase: la_liga / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 3.05
+- Fair odds: 2.96
+- Model probability: 0.3376
+- Probability band: 0.00-0.35
+- EV: 0.0297
+- Probability edge: 0.0097
+- Alignment penalty: 0.0297
+- Suppression action: proxy_suppressed_band_observe_only
+- Paper tier: suppressed_band_proxy_observation
+- Paper score: 0.1245
+- Prediction ID: 3d5a5edc82ec8d726575
 
 ## Snapshot summary
 

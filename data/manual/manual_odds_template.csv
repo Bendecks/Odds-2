@@ -1,13 +1,12 @@
 fixture_id,match_date,match_time,home_team,away_team,league,bookmaker,market_home_odds,market_draw_odds,market_away_odds,odds_captured_at_utc,odds_source_note
-2267431,2026-05-11,19:00:00,Tottenham Hotspur,Leeds United,premier_league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-fd_E0_2026-05-11_Tottenham_Leeds,2026-05-11,20:00,Tottenham,Leeds,premier_league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-fd_I1_2026-05-11_Napoli_Bologna,2026-05-11,19:45,Napoli,Bologna,serie_a,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_P1_2026-05-11_Benfica_Sp_Braga,2026-05-11,20:15,Benfica,Sp Braga,P1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_P1_2026-05-11_Estrela_Famalicao,2026-05-11,20:15,Estrela,Famalicao,P1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_P1_2026-05-11_Gil_Vicente_Arouca,2026-05-11,20:15,Gil Vicente,Arouca,P1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_P1_2026-05-11_Guimaraes_Casa_Pia,2026-05-11,20:15,Guimaraes,Casa Pia,P1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+fd_SP2_2026-05-11_Huesca_Sociedad_B,2026-05-11,19:30,Huesca,Sociedad B,SP2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+fd_I1_2026-05-11_Napoli_Bologna,2026-05-11,19:45,Napoli,Bologna,serie_a,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_P1_2026-05-11_Rio_Ave_Sp_Lisbon,2026-05-11,20:15,Rio Ave,Sp Lisbon,P1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_P1_2026-05-11_Santa_Clara_Nacional,2026-05-11,20:15,Santa Clara,Nacional,P1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_P1_2026-05-11_Tondela_Moreirense,2026-05-11,20:15,Tondela,Moreirense,P1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+fd_E0_2026-05-11_Tottenham_Leeds,2026-05-11,20:00,Tottenham,Leeds,premier_league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_SP1_2026-05-11_Vallecano_Girona,2026-05-11,20:00,Vallecano,Girona,la_liga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-fd_SP2_2026-05-11_Huesca_Sociedad_B,2026-05-11,19:30,Huesca,Sociedad B,SP2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.

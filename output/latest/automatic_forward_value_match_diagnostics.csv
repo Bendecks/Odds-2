@@ -1,5 +1,4 @@
 prediction_id,match_date,home_team,away_team,candidate_rows,best_home_team,best_away_team,best_match_confidence,matched_rows
-a34fb57cd5c2b5199b69,2026-05-11,Tottenham Hotspur,Leeds United,33,Tottenham,Leeds,1.0,3
-7b65a9bf28de71b10d96,2026-05-11,Tottenham,Leeds,33,Tottenham,Leeds,1.0,3
 450dc1ddc6eecf2c644e,2026-05-11,Napoli,Bologna,33,Napoli,Bologna,1.0,3
+7b65a9bf28de71b10d96,2026-05-11,Tottenham,Leeds,33,Tottenham,Leeds,1.0,3
 3d5a5edc82ec8d726575,2026-05-11,Vallecano,Girona,33,Vallecano,Girona,1.0,3

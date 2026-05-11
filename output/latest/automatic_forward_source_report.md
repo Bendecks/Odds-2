@@ -3,8 +3,8 @@
 Purpose: distinguish true automatic forward inputs from historical market proxy and paused manual fallback.
 Football-Data fixture odds are treated as delayed/free proxy prices: paper-test only, never real-money ready.
 
-Upcoming fixture rows: 12
-Fixture team rows checked: 24
+Upcoming fixture rows: 11
+Fixture team rows checked: 22
 Fixture team rows unmatched: 16
 Ready for model-fixture join: False
 Configured forward sources: 1
@@ -24,14 +24,14 @@ Next development step: add_team_aliases_for_upcoming_fixtures
 - Arouca | suggestion=nan | type=unmatched
 - Guimaraes | suggestion=nan | type=unmatched
 - Casa Pia | suggestion=nan | type=unmatched
+- Huesca | suggestion=nan | type=unmatched
+- Sociedad B | suggestion=Sociedad | type=suggested_alias_needed
 - Rio Ave | suggestion=nan | type=unmatched
 - Sp Lisbon | suggestion=nan | type=unmatched
 - Santa Clara | suggestion=nan | type=unmatched
 - Nacional | suggestion=nan | type=unmatched
 - Tondela | suggestion=nan | type=unmatched
 - Moreirense | suggestion=nan | type=unmatched
-- Huesca | suggestion=nan | type=unmatched
-- Sociedad B | suggestion=Sociedad | type=suggested_alias_needed
 
 ## Interpretation
 

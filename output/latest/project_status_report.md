@@ -5,13 +5,14 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T09:38:58.794201+00:00`
-GitHub run: `235` attempt `1`
-GitHub SHA: `fd1f064e587ac26463e5c74aa572f939636b9252`
+Generated UTC: `2026-05-11T09:45:38.968142+00:00`
+GitHub run: `236` attempt `1`
+GitHub SHA: `2da2abdef93ce125d2b33787c798081aa557adbd`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
 | football-data.co.uk Premier League 24/25 | True | 380 |  |  |
+| Football-Data upcoming fixtures proxy | True | 11 |  |  |
 | Football-Data upcoming odds proxy | True | 33 |  |  |
 | Football-Data upcoming odds status | True | 1 |  |  |
 | Automatic forward value snapshots | True | 36 |  |  |
@@ -33,7 +34,6 @@ Overall status: `OK`
 | Forward fixture prediction summary | True | 1 |  |  |
 | Forward fixture prediction log | True | 4 |  |  |
 | Forward fixture prediction log status | True | 1 |  |  |
-| Manual odds template | True | 12 |  |  |
 
 ## football_data_upcoming_odds
 
@@ -73,8 +73,8 @@ Errors: 0
 # Automatic Forward Source Report
 Purpose: distinguish true automatic forward inputs from historical market proxy and paused manual fallback.
 Football-Data fixture odds are treated as delayed/free proxy prices: paper-test only, never real-money ready.
-Upcoming fixture rows: 12
-Fixture team rows checked: 24
+Upcoming fixture rows: 11
+Fixture team rows checked: 22
 Fixture team rows unmatched: 16
 Ready for model-fixture join: False
 Configured forward sources: 1
@@ -92,84 +92,83 @@ Next development step: add_team_aliases_for_upcoming_fixtures
 - Arouca | suggestion=nan | type=unmatched
 - Guimaraes | suggestion=nan | type=unmatched
 - Casa Pia | suggestion=nan | type=unmatched
+- Huesca | suggestion=nan | type=unmatched
+- Sociedad B | suggestion=Sociedad | type=suggested_alias_needed
 - Rio Ave | suggestion=nan | type=unmatched
 - Sp Lisbon | suggestion=nan | type=unmatched
 - Santa Clara | suggestion=nan | type=unmatched
 - Nacional | suggestion=nan | type=unmatched
 - Tondela | suggestion=nan | type=unmatched
 - Moreirense | suggestion=nan | type=unmatched
-- Huesca | suggestion=nan | type=unmatched
-- Sociedad B | suggestion=Sociedad | type=suggested_alias_needed
 
 ## automatic_forward_value_snapshots
 
 # Automatic Forward Value Snapshots
 Delayed/free market proxy joined to forward probability predictions.
 Not live odds, not Bet365 direct, and not real-money ready.
-Forward prediction rows: 4
+Forward prediction rows: 3
 Proxy price rows: 33
-Matched prediction rows: 4
-Value snapshot rows: 36
-Positive EV rows: 18
+Matched prediction rows: 3
+Value snapshot rows: 27
+Positive EV rows: 13
 - 2026-05-11 | Napoli vs Bologna | sel=AWAY | src=football_data_max_market_proxy | odds=6.5 | prob=0.3149 | EV=1.04685 | match=1.0
 - 2026-05-11 | Napoli vs Bologna | sel=AWAY | src=football_data_average_market_proxy | odds=6.06 | prob=0.3149 | EV=0.908294 | match=1.0
 - 2026-05-11 | Napoli vs Bologna | sel=AWAY | src=football_data_bet365_proxy | odds=6.0 | prob=0.3149 | EV=0.8894 | match=1.0
-- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=AWAY | src=football_data_max_market_proxy | odds=4.1 | prob=0.3152 | EV=0.29232 | match=1.0
 - 2026-05-11 | Tottenham vs Leeds | sel=AWAY | src=football_data_max_market_proxy | odds=4.1 | prob=0.3152 | EV=0.29232 | match=1.0
 - 2026-05-11 | Tottenham vs Leeds | sel=AWAY | src=football_data_average_market_proxy | odds=3.92 | prob=0.3152 | EV=0.235584 | match=1.0
-- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=AWAY | src=football_data_average_market_proxy | odds=3.92 | prob=0.3152 | EV=0.235584 | match=1.0
-- 2026-05-11 | Napoli vs Bologna | sel=DRAW | src=football_data_bet365_proxy | odds=4.2 | prob=0.2843 | EV=0.19406 | match=1.0
 - 2026-05-11 | Napoli vs Bologna | sel=DRAW | src=football_data_max_market_proxy | odds=4.2 | prob=0.2843 | EV=0.19406 | match=1.0
+- 2026-05-11 | Napoli vs Bologna | sel=DRAW | src=football_data_bet365_proxy | odds=4.2 | prob=0.2843 | EV=0.19406 | match=1.0
 - 2026-05-11 | Tottenham vs Leeds | sel=AWAY | src=football_data_bet365_proxy | odds=3.75 | prob=0.3152 | EV=0.182 | match=1.0
-- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=AWAY | src=football_data_bet365_proxy | odds=3.75 | prob=0.3152 | EV=0.182 | match=1.0
 - 2026-05-11 | Napoli vs Bologna | sel=DRAW | src=football_data_average_market_proxy | odds=4.01 | prob=0.2843 | EV=0.140043 | match=1.0
 - 2026-05-11 | Tottenham vs Leeds | sel=DRAW | src=football_data_max_market_proxy | odds=4.1 | prob=0.259 | EV=0.0619 | match=1.0
-- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=DRAW | src=football_data_max_market_proxy | odds=4.1 | prob=0.259 | EV=0.0619 | match=1.0
-- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=DRAW | src=football_data_bet365_proxy | odds=4.1 | prob=0.259 | EV=0.0619 | match=1.0
 - 2026-05-11 | Tottenham vs Leeds | sel=DRAW | src=football_data_bet365_proxy | odds=4.1 | prob=0.259 | EV=0.0619 | match=1.0
 - 2026-05-11 | Vallecano vs Girona | sel=AWAY | src=football_data_max_market_proxy | odds=3.05 | prob=0.3376 | EV=0.02968 | match=1.0
 - 2026-05-11 | Vallecano vs Girona | sel=AWAY | src=football_data_bet365_proxy | odds=3.0 | prob=0.3376 | EV=0.0128 | match=1.0
 - 2026-05-11 | Tottenham vs Leeds | sel=DRAW | src=football_data_average_market_proxy | odds=3.82 | prob=0.259 | EV=-0.01062 | match=1.0
-- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=DRAW | src=football_data_average_market_proxy | odds=3.82 | prob=0.259 | EV=-0.01062 | match=1.0
 - 2026-05-11 | Vallecano vs Girona | sel=AWAY | src=football_data_average_market_proxy | odds=2.92 | prob=0.3376 | EV=-0.014208 | match=1.0
 - 2026-05-11 | Vallecano vs Girona | sel=DRAW | src=football_data_max_market_proxy | odds=3.5 | prob=0.279 | EV=-0.0235 | match=1.0
+- 2026-05-11 | Vallecano vs Girona | sel=DRAW | src=football_data_bet365_proxy | odds=3.5 | prob=0.279 | EV=-0.0235 | match=1.0
+- 2026-05-11 | Vallecano vs Girona | sel=DRAW | src=football_data_average_market_proxy | odds=3.39 | prob=0.279 | EV=-0.05419 | match=1.0
+- 2026-05-11 | Vallecano vs Girona | sel=HOME | src=football_data_max_market_proxy | odds=2.38 | prob=0.3833 | EV=-0.087746 | match=1.0
+- 2026-05-11 | Vallecano vs Girona | sel=HOME | src=football_data_bet365_proxy | odds=2.3 | prob=0.3833 | EV=-0.11841 | match=1.0
+- 2026-05-11 | Vallecano vs Girona | sel=HOME | src=football_data_average_market_proxy | odds=2.3 | prob=0.3833 | EV=-0.11841 | match=1.0
+- 2026-05-11 | Tottenham vs Leeds | sel=HOME | src=football_data_max_market_proxy | odds=1.86 | prob=0.4257 | EV=-0.208198 | match=1.0
 
 ## proxy_observation_quality
 
 # Proxy Observation Quality Report
 Quality diagnostics for automatic delayed-market proxy paper observations.
 This is not real-money ready and does not override suppression rules for candidate bets.
-Value snapshot rows: 36
+Value snapshot rows: 27
 Paper proxy observation rows: 7
-Positive EV value rows: 18
+Positive EV value rows: 13
 Suppressed-band observation rows: 7
 Distinct matches: 3
 Distinct sources: 0
 Max EV: 0.29232
-Average EV: 0.230553
+Average EV: 0.181107
 Max probability edge: 0.071298
 Average match confidence: None
 ## By selection
-- away: rows=6, avg_ev=0.2366, max_ev=0.2923
-- draw: rows=1, avg_ev=0.1941, max_ev=0.1941
+- away: rows=4, avg_ev=0.1849, max_ev=0.2923
+- draw: rows=3, avg_ev=0.1761, max_ev=0.1941
 
 ## forward_fixture_predictions
 
 # Forward Fixture Predictions
 Probability-only forward fixture model output. Not a betting card and not a real-money recommendation.
-Upcoming fixture rows: 12
-Forward fixture prediction rows: 4
+Upcoming fixture rows: 11
+Forward fixture prediction rows: 3
 Ready for price join: True
-- 2026-05-11 19:00:00 | Tottenham Hotspur vs Leeds United | H=0.4257 D=0.259 A=0.3152 | fair=2.35/3.86/3.17
-- 2026-05-11 20:00 | Tottenham vs Leeds | H=0.4257 D=0.259 A=0.3152 | fair=2.35/3.86/3.17
 - 2026-05-11 19:45 | Napoli vs Bologna | H=0.4007 D=0.2843 A=0.3149 | fair=2.5/3.52/3.18
+- 2026-05-11 20:00 | Tottenham vs Leeds | H=0.4257 D=0.259 A=0.3152 | fair=2.35/3.86/3.17
 - 2026-05-11 20:00 | Vallecano vs Girona | H=0.3833 D=0.279 A=0.3376 | fair=2.61/3.58/2.96
 
 ## forward_fixture_prediction_log
 
 # Forward Fixture Prediction Log
 Probability-only forward prediction log. This is not a betting log and contains no stake or real-money signal.
-Current forward fixture predictions: 4
+Current forward fixture predictions: 3
 New forward fixture predictions logged: 0
 Total forward fixture predictions logged: 4
 Log type: probability_only_no_market_prices
@@ -204,10 +203,10 @@ Average Brier score: None
 # Forward Input Status
 Manual Bet365 odds input is parked as an optional fallback. It is not an active development blocker.
 Current priority: automatic/free-data forward-testing sources and robust fixture/model matching.
-Upcoming fixtures: 12
-Manual template rows: 12
+Upcoming fixtures: 11
+Manual template rows: 11
 Rows with complete manual odds: 0
-Rows missing manual odds: 12
+Rows missing manual odds: 11
 Manual forward snapshot rows: 0
 Manual odds mode: optional_fallback_paused
 Manual odds is blocker: False
@@ -216,38 +215,38 @@ Automatic forward source needed: True
 Upcoming fixtures exist, but no automatic odds/proxy forward snapshot source is active yet.
 ## Optional manual fallback status
 Manual odds are not required in the current phase. These rows are only kept for later fallback use:
-- 2026-05-11 19:00:00 | Tottenham Hotspur vs Leeds United
-- 2026-05-11 20:00 | Tottenham vs Leeds
-- 2026-05-11 19:45 | Napoli vs Bologna
 - 2026-05-11 20:15 | Benfica vs Sp Braga
 - 2026-05-11 20:15 | Estrela vs Famalicao
 - 2026-05-11 20:15 | Gil Vicente vs Arouca
 - 2026-05-11 20:15 | Guimaraes vs Casa Pia
+- 2026-05-11 19:30 | Huesca vs Sociedad B
+- 2026-05-11 19:45 | Napoli vs Bologna
 - 2026-05-11 20:15 | Rio Ave vs Sp Lisbon
 - 2026-05-11 20:15 | Santa Clara vs Nacional
 - 2026-05-11 20:15 | Tondela vs Moreirense
+- 2026-05-11 20:00 | Tottenham vs Leeds
 - 2026-05-11 20:00 | Vallecano vs Girona
-- 2026-05-11 19:30 | Huesca vs Sociedad B
 
 ## upcoming_fixtures
 
 # Upcoming Fixtures
 Fixture sources: TheSportsDB plus Football-Data fixtures proxy where available.
+Duplicate fixtures are deduplicated by date and normalized teams, preferring Football-Data for odds alignment.
 Primary development target: automatic/free delayed market proxy, not manual Bet365.
-Fixtures found: 12
-Source counts: {'football_data_fixtures_proxy': 11, 'thesportsdb_eventsnextleague': 1}
-- 2026-05-11 19:00:00 | Tottenham Hotspur vs Leeds United | premier_league | thesportsdb_eventsnextleague
-- 2026-05-11 20:00 | Tottenham vs Leeds | premier_league | football_data_fixtures_proxy
-- 2026-05-11 19:45 | Napoli vs Bologna | serie_a | football_data_fixtures_proxy
+Fixtures found: 11
+Source counts: {'football_data_fixtures_proxy': 11}
+Dedupe strategy: date_normalized_home_away_prefer_football_data
 - 2026-05-11 20:15 | Benfica vs Sp Braga | P1 | football_data_fixtures_proxy
 - 2026-05-11 20:15 | Estrela vs Famalicao | P1 | football_data_fixtures_proxy
 - 2026-05-11 20:15 | Gil Vicente vs Arouca | P1 | football_data_fixtures_proxy
 - 2026-05-11 20:15 | Guimaraes vs Casa Pia | P1 | football_data_fixtures_proxy
+- 2026-05-11 19:30 | Huesca vs Sociedad B | SP2 | football_data_fixtures_proxy
+- 2026-05-11 19:45 | Napoli vs Bologna | serie_a | football_data_fixtures_proxy
 - 2026-05-11 20:15 | Rio Ave vs Sp Lisbon | P1 | football_data_fixtures_proxy
 - 2026-05-11 20:15 | Santa Clara vs Nacional | P1 | football_data_fixtures_proxy
 - 2026-05-11 20:15 | Tondela vs Moreirense | P1 | football_data_fixtures_proxy
+- 2026-05-11 20:00 | Tottenham vs Leeds | premier_league | football_data_fixtures_proxy
 - 2026-05-11 20:00 | Vallecano vs Girona | la_liga | football_data_fixtures_proxy
-- 2026-05-11 19:30 | Huesca vs Sociedad B | SP2 | football_data_fixtures_proxy
 
 ## manual_odds_template
 
@@ -255,20 +254,19 @@ Source counts: {'football_data_fixtures_proxy': 11, 'thesportsdb_eventsnextleagu
 Use this only for forward paper-testing. Do not use for real-money betting.
 Existing filled odds are preserved when fixtures refresh.
 Fill the three 1X2 odds columns from Bet365 before kickoff, then commit/update the CSV or run the workflow manually.
-Template rows: 12
+Template rows: 11
 Rows with complete odds: 0
-- 2026-05-11 19:00:00 | Tottenham Hotspur vs Leeds United | bookmaker=bet365_manual
-- 2026-05-11 20:00 | Tottenham vs Leeds | bookmaker=bet365_manual
-- 2026-05-11 19:45 | Napoli vs Bologna | bookmaker=bet365_manual
 - 2026-05-11 20:15 | Benfica vs Sp Braga | bookmaker=bet365_manual
 - 2026-05-11 20:15 | Estrela vs Famalicao | bookmaker=bet365_manual
 - 2026-05-11 20:15 | Gil Vicente vs Arouca | bookmaker=bet365_manual
 - 2026-05-11 20:15 | Guimaraes vs Casa Pia | bookmaker=bet365_manual
+- 2026-05-11 19:30 | Huesca vs Sociedad B | bookmaker=bet365_manual
+- 2026-05-11 19:45 | Napoli vs Bologna | bookmaker=bet365_manual
 - 2026-05-11 20:15 | Rio Ave vs Sp Lisbon | bookmaker=bet365_manual
 - 2026-05-11 20:15 | Santa Clara vs Nacional | bookmaker=bet365_manual
 - 2026-05-11 20:15 | Tondela vs Moreirense | bookmaker=bet365_manual
+- 2026-05-11 20:00 | Tottenham vs Leeds | bookmaker=bet365_manual
 - 2026-05-11 20:00 | Vallecano vs Girona | bookmaker=bet365_manual
-- 2026-05-11 19:30 | Huesca vs Sociedad B | bookmaker=bet365_manual
 
 ## manual_odds_instructions
 
@@ -283,18 +281,17 @@ Open `data/manual/manual_odds_template.csv` and fill these columns only:
 - `odds_captured_at_utc`
 Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 ## Current rows needing odds
-- 2026-05-11 19:00:00 | Tottenham Hotspur vs Leeds United
-- 2026-05-11 20:00 | Tottenham vs Leeds
-- 2026-05-11 19:45 | Napoli vs Bologna
 - 2026-05-11 20:15 | Benfica vs Sp Braga
 - 2026-05-11 20:15 | Estrela vs Famalicao
 - 2026-05-11 20:15 | Gil Vicente vs Arouca
 - 2026-05-11 20:15 | Guimaraes vs Casa Pia
+- 2026-05-11 19:30 | Huesca vs Sociedad B
+- 2026-05-11 19:45 | Napoli vs Bologna
 - 2026-05-11 20:15 | Rio Ave vs Sp Lisbon
 - 2026-05-11 20:15 | Santa Clara vs Nacional
 - 2026-05-11 20:15 | Tondela vs Moreirense
+- 2026-05-11 20:00 | Tottenham vs Leeds
 - 2026-05-11 20:00 | Vallecano vs Girona
-- 2026-05-11 19:30 | Huesca vs Sociedad B
 ## After filling odds
 Run the workflow again. Expected result:
 - `manual_forward_snapshots` becomes greater than 0
@@ -311,9 +308,9 @@ No manual forward snapshots built. Fill data/manual/manual_odds_template.csv wit
 ## paper_test_log_status
 
 # Paper Test Log Status
-Raw log rows: 12
-Valid forward/proxy log rows: 9
-Valid automatic proxy observation rows: 9
+Raw log rows: 15
+Valid forward/proxy log rows: 12
+Valid automatic proxy observation rows: 12
 Invalid historical/proxy log rows excluded: 3
 Has valid forward log: True
 ## Valid rows
@@ -326,6 +323,9 @@ Has valid forward log: True
 - 2026-05-11 | Tottenham vs Leeds | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
 - 2026-05-11 | Tottenham vs Leeds | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
 - 2026-05-11 | Napoli vs Bologna | selection=draw | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
+- 2026-05-11 | Napoli vs Bologna | selection=draw | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
+- 2026-05-11 | Napoli vs Bologna | selection=draw | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
+- 2026-05-11 | Vallecano vs Girona | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
 ## Invalid rows excluded
 - 25/05/2025 | Liverpool vs Crystal Palace | phase=historical_proxy_research
 - 25/05/2025 | Fulham vs Man City | phase=historical_proxy_research
@@ -366,8 +366,8 @@ Paper-test picks are observation-only and must not be staked.
 ## Candidate Bets
 No qualifying candidate bets today.
 ## Paper-Test Picks
-### Tottenham Hotspur vs Leeds United
-- Date/time: 2026-05-11 19:00:00
+### Tottenham vs Leeds
+- Date/time: 2026-05-11 20:00
 - League/phase: premier_league / automatic_forward_price_proxy
 - Selection: AWAY
 - Market odds: 4.1
@@ -380,12 +380,12 @@ No qualifying candidate bets today.
 - Suppression action: proxy_suppressed_band_observe_only
 - Paper tier: suppressed_band_proxy_observation
 - Paper score: 0.1299
-- Prediction ID: a34fb57cd5c2b5199b69
+- Prediction ID: 7b65a9bf28de71b10d96
 ### Tottenham vs Leeds
 - Date/time: 2026-05-11 20:00
 - League/phase: premier_league / automatic_forward_price_proxy
 - Selection: AWAY
-- Market odds: 4.1
+- Market odds: 3.92
 - Fair odds: 3.17
 - Model probability: 0.3152
 - Probability band: 0.00-0.35
@@ -398,15 +398,15 @@ Automatic proxy prices are delayed/free market proxies, not live bookmaker odds.
 Suppressed historical bands may be tracked only as proxy observation and remain excluded from real-money readiness.
 Source used: automatic_forward_value_snapshots
 Current paper-test picks: 7
-Newly logged paper-test picks: 0
-Total logged paper-test rows: 12
-- Tottenham Hotspur vs Leeds United | selection=AWAY | odds=4.1 | prob=0.3152 | EV=0.2923 | edge=0.0713 | penalty=0.2923 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
+Newly logged paper-test picks: 3
+Total logged paper-test rows: 15
 - Tottenham vs Leeds | selection=AWAY | odds=4.1 | prob=0.3152 | EV=0.2923 | edge=0.0713 | penalty=0.2923 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
-- Tottenham Hotspur vs Leeds United | selection=AWAY | odds=3.92 | prob=0.3152 | EV=0.2356 | edge=0.0601 | penalty=0.2356 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
 - Tottenham vs Leeds | selection=AWAY | odds=3.92 | prob=0.3152 | EV=0.2356 | edge=0.0601 | penalty=0.2356 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
-- Tottenham Hotspur vs Leeds United | selection=AWAY | odds=3.75 | prob=0.3152 | EV=0.182 | edge=0.0485 | penalty=0.182 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
 - Tottenham vs Leeds | selection=AWAY | odds=3.75 | prob=0.3152 | EV=0.182 | edge=0.0485 | penalty=0.182 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
 - Napoli vs Bologna | selection=DRAW | odds=4.2 | prob=0.2843 | EV=0.1941 | edge=0.0462 | penalty=0.1941 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
+- Napoli vs Bologna | selection=DRAW | odds=4.2 | prob=0.2843 | EV=0.1941 | edge=0.0462 | penalty=0.1941 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
+- Napoli vs Bologna | selection=DRAW | odds=4.01 | prob=0.2843 | EV=0.14 | edge=0.0349 | penalty=0.14 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
+- Vallecano vs Girona | selection=AWAY | odds=3.05 | prob=0.3376 | EV=0.0297 | edge=0.0097 | penalty=0.0297 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
 
 ## probability_calibration_layer
 

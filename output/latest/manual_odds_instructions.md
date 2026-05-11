@@ -17,18 +17,17 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 
 ## Current rows needing odds
 
-- 2026-05-11 19:00:00 | Tottenham Hotspur vs Leeds United
-- 2026-05-11 20:00 | Tottenham vs Leeds
-- 2026-05-11 19:45 | Napoli vs Bologna
 - 2026-05-11 20:15 | Benfica vs Sp Braga
 - 2026-05-11 20:15 | Estrela vs Famalicao
 - 2026-05-11 20:15 | Gil Vicente vs Arouca
 - 2026-05-11 20:15 | Guimaraes vs Casa Pia
+- 2026-05-11 19:30 | Huesca vs Sociedad B
+- 2026-05-11 19:45 | Napoli vs Bologna
 - 2026-05-11 20:15 | Rio Ave vs Sp Lisbon
 - 2026-05-11 20:15 | Santa Clara vs Nacional
 - 2026-05-11 20:15 | Tondela vs Moreirense
+- 2026-05-11 20:00 | Tottenham vs Leeds
 - 2026-05-11 20:00 | Vallecano vs Girona
-- 2026-05-11 19:30 | Huesca vs Sociedad B
 
 ## After filling odds
 

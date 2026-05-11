@@ -1,2 +1,2 @@
 forward_prediction_rows,proxy_price_rows,value_snapshot_rows,positive_ev_rows,matched_prediction_rows,source_type,real_money_ready
-4,33,36,18,4,delayed_market_proxy,False
+3,33,27,13,3,delayed_market_proxy,False
