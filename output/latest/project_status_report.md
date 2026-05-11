@@ -5,21 +5,21 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T09:32:14.697700+00:00`
-GitHub run: `234` attempt `1`
-GitHub SHA: `7964ab397c6ffac4a4ed5a1e2a011eec2d60f5c9`
+Generated UTC: `2026-05-11T09:38:58.794201+00:00`
+GitHub run: `235` attempt `1`
+GitHub SHA: `fd1f064e587ac26463e5c74aa572f939636b9252`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
 | football-data.co.uk Premier League 24/25 | True | 380 |  |  |
 | Football-Data upcoming odds proxy | True | 33 |  |  |
 | Football-Data upcoming odds status | True | 1 |  |  |
-| Automatic forward value snapshots | True | 9 |  |  |
+| Automatic forward value snapshots | True | 36 |  |  |
 | Automatic forward value snapshot summary | True | 1 |  |  |
-| Automatic forward value match diagnostics | True | 1 |  |  |
+| Automatic forward value match diagnostics | True | 4 |  |  |
 | Proxy observation quality report | True | 1 |  |  |
 | Proxy observation by selection | True | 2 |  |  |
-| Upcoming fixtures | True | 1 |  |  |
+| Upcoming fixtures | True | 12 |  |  |
 | Forward fixture results | True | 1 |  |  |
 | Forward fixture result status | True | 1 |  |  |
 | Forward probability calibration report | True | 1 |  |  |
@@ -27,13 +27,13 @@ Overall status: `OK`
 | Automatic forward source report | True | 1 |  |  |
 | Automatic forward prices | True | 33 |  |  |
 | Forward price source adapter | True | 1 |  |  |
-| Fixture model match report | True | 2 |  |  |
+| Fixture model match report | True | 24 |  |  |
 | Fixture model match summary | True | 1 |  |  |
-| Forward fixture predictions | True | 1 |  |  |
+| Forward fixture predictions | True | 4 |  |  |
 | Forward fixture prediction summary | True | 1 |  |  |
-| Forward fixture prediction log | True | 1 |  |  |
+| Forward fixture prediction log | True | 4 |  |  |
 | Forward fixture prediction log status | True | 1 |  |  |
-| Manual odds template | True | 1 |  |  |
+| Manual odds template | True | 12 |  |  |
 
 ## football_data_upcoming_odds
 
@@ -170,7 +170,7 @@ Ready for price join: True
 # Forward Fixture Prediction Log
 Probability-only forward prediction log. This is not a betting log and contains no stake or real-money signal.
 Current forward fixture predictions: 4
-New forward fixture predictions logged: 3
+New forward fixture predictions logged: 0
 Total forward fixture predictions logged: 4
 Log type: probability_only_no_market_prices
 - 2026-05-11 2026-05-11 19:00:00 | Tottenham Hotspur vs Leeds United | H=0.4257 D=0.259 A=0.31520000000000004
@@ -398,7 +398,7 @@ Automatic proxy prices are delayed/free market proxies, not live bookmaker odds.
 Suppressed historical bands may be tracked only as proxy observation and remain excluded from real-money readiness.
 Source used: automatic_forward_value_snapshots
 Current paper-test picks: 7
-Newly logged paper-test picks: 4
+Newly logged paper-test picks: 0
 Total logged paper-test rows: 12
 - Tottenham Hotspur vs Leeds United | selection=AWAY | odds=4.1 | prob=0.3152 | EV=0.2923 | edge=0.0713 | penalty=0.2923 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
 - Tottenham vs Leeds | selection=AWAY | odds=4.1 | prob=0.3152 | EV=0.2923 | edge=0.0713 | penalty=0.2923 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
