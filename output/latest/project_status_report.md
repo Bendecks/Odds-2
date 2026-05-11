@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T07:45:33.281225+00:00`
-GitHub run: `220` attempt `1`
-GitHub SHA: `43012677c799a89dfcb2e4faf916900a09f0dcb8`
+Generated UTC: `2026-05-11T07:48:50.560787+00:00`
+GitHub run: `221` attempt `1`
+GitHub SHA: `fb9f06453163a288a12f6b7a9005d91f66b36bec`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -217,11 +217,12 @@ Active suppression rules: 2
 
 # Paper Test Picks
 Observation-only picks. These are not real-money recommendations.
-Historical proxy rows are excluded. Only forward-eligible snapshots may become paper-test picks.
+Automatic proxy prices are delayed/free market proxies, not live bookmaker odds.
+Historical proxy rows are excluded from forward paper-test picks.
 Source used: prediction_snapshots_latest_forward_only
 Current paper-test picks: 0
 Newly logged paper-test picks: 0
-Total logged paper-test picks: 3
+Total logged paper-test rows: 3
 No forward-eligible rows. Historical proxy rows are excluded from paper-test picks.
 
 ## probability_calibration_layer
