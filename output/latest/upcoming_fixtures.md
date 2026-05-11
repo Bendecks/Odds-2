@@ -1,7 +1,7 @@
 # Upcoming Fixtures
 
 Fixture source: TheSportsDB eventsnextleague API.
-Odds source: not included. Bet365/manual odds snapshot is required for forward paper-test picks.
+Odds source: not included. Manual odds fallback is parked; automatic forward price source remains the active target.
 
 Fixtures found: 1
 

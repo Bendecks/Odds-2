@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T07:13:35.963608+00:00`
-GitHub run: `208` attempt `1`
-GitHub SHA: `aa54044275eaa5c52fc404fb11c8671065f64841`
+Generated UTC: `2026-05-11T07:17:48.895407+00:00`
+GitHub run: `210` attempt `1`
+GitHub SHA: `d51761b9b99a3c9ec2d16d2e18f46fa8f2ec0f3a`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -20,6 +20,8 @@ Overall status: `OK`
 | Fixture model match summary | True | 1 |  |  |
 | Forward fixture predictions | True | 1 |  |  |
 | Forward fixture prediction summary | True | 1 |  |  |
+| Forward fixture prediction log | True | 1 |  |  |
+| Forward fixture prediction log status | True | 1 |  |  |
 | Manual odds template | True | 1 |  |  |
 | Manual odds instructions | True | 17 |  |  |
 | Manual forward snapshots | True | 0 |  |  |
@@ -32,8 +34,6 @@ Overall status: `OK`
 | Expected value calculations | True | 7 |  |  |
 | Prediction log output | True | 210 |  |  |
 | Settled predictions output | True | 210 |  |  |
-| CLV results output | True | 210 |  |  |
-| Candidate bets output | True | 0 |  |  |
 
 ## automatic_forward_source
 
@@ -87,7 +87,7 @@ Manual odds are not required in the current phase. These rows are only kept for 
 
 # Upcoming Fixtures
 Fixture source: TheSportsDB eventsnextleague API.
-Odds source: not included. Bet365/manual odds snapshot is required for forward paper-test picks.
+Odds source: not included. Manual odds fallback is parked; automatic forward price source remains the active target.
 Fixtures found: 1
 - 2026-05-11 19:00:00 | Tottenham Hotspur vs Leeds United | premier_league
 
