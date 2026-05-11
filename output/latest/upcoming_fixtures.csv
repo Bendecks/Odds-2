@@ -1,20 +1,20 @@
 fixture_id,league,league_id,season,match_date,match_time,home_team,away_team,source,fetched_at_utc
-odds_api_io_61399043,poland-i-liga,poland-i-liga,upcoming,2026-05-09,17:30,FKS Stal Mielec,Puszcza Niepolomice,odds_api_io_events,2026-05-11T17:18:00.982734+00:00
-odds_api_io_62117344,france-national,france-national,upcoming,2026-05-09,17:30,Football Bourg-En-Bresse Peronnas 01,Valenciennes FC,odds_api_io_events,2026-05-11T17:18:00.982734+00:00
-odds_api_io_62036246,poland-iii-liga-group-4,poland-iii-liga-group-4,upcoming,2026-05-09,17:29,KSZO Ostrowiec Swietokrzyski,Wisla II Krakow,odds_api_io_events,2026-05-11T17:18:00.982734+00:00
-odds_api_io_62117342,france-national,france-national,upcoming,2026-05-09,17:30,LB Chateauroux,Sochaux-Montbeliard,odds_api_io_events,2026-05-11T17:18:00.982734+00:00
-odds_api_io_62117348,france-national,france-national,upcoming,2026-05-09,17:30,Le Puy Foot 43 Auvergne,Dijon FCO,odds_api_io_events,2026-05-11T17:18:00.982734+00:00
-odds_api_io_70812560,israel-premier-league,israel-premier-league,upcoming,2026-05-09,17:15,Maccabi Bney Reine,Hapoel Ironi Kiryat Shmona FC,odds_api_io_events,2026-05-11T17:18:00.982734+00:00
-odds_api_io_61399041,poland-i-liga,poland-i-liga,upcoming,2026-05-09,17:30,MKS Znicz Pruszkow,Polonia Bytom,odds_api_io_events,2026-05-11T17:18:00.982734+00:00
-odds_api_io_61399037,poland-i-liga,poland-i-liga,upcoming,2026-05-09,17:30,Wieczysta Krakow,Miedz Legnica,odds_api_io_events,2026-05-11T17:18:00.982734+00:00
-fd_P1_2026-05-11_Benfica_Sp_Braga,P1,P1,upcoming,2026-05-11,20:15,Benfica,Sp Braga,football_data_fixtures_proxy,2026-05-11T17:18:00.235684+00:00
-fd_P1_2026-05-11_Estrela_Famalicao,P1,P1,upcoming,2026-05-11,20:15,Estrela,Famalicao,football_data_fixtures_proxy,2026-05-11T17:18:00.235684+00:00
-fd_P1_2026-05-11_Gil_Vicente_Arouca,P1,P1,upcoming,2026-05-11,20:15,Gil Vicente,Arouca,football_data_fixtures_proxy,2026-05-11T17:18:00.235684+00:00
-fd_P1_2026-05-11_Guimaraes_Casa_Pia,P1,P1,upcoming,2026-05-11,20:15,Guimaraes,Casa Pia,football_data_fixtures_proxy,2026-05-11T17:18:00.235684+00:00
-fd_SP2_2026-05-11_Huesca_Sociedad_B,SP2,SP2,upcoming,2026-05-11,19:30,Huesca,Sociedad B,football_data_fixtures_proxy,2026-05-11T17:18:00.235684+00:00
-fd_I1_2026-05-11_Napoli_Bologna,serie_a,I1,upcoming,2026-05-11,19:45,Napoli,Bologna,football_data_fixtures_proxy,2026-05-11T17:18:00.235684+00:00
-fd_P1_2026-05-11_Rio_Ave_Sp_Lisbon,P1,P1,upcoming,2026-05-11,20:15,Rio Ave,Sp Lisbon,football_data_fixtures_proxy,2026-05-11T17:18:00.235684+00:00
-fd_P1_2026-05-11_Santa_Clara_Nacional,P1,P1,upcoming,2026-05-11,20:15,Santa Clara,Nacional,football_data_fixtures_proxy,2026-05-11T17:18:00.235684+00:00
-fd_P1_2026-05-11_Tondela_Moreirense,P1,P1,upcoming,2026-05-11,20:15,Tondela,Moreirense,football_data_fixtures_proxy,2026-05-11T17:18:00.235684+00:00
-fd_E0_2026-05-11_Tottenham_Leeds,premier_league,E0,upcoming,2026-05-11,20:00,Tottenham,Leeds,football_data_fixtures_proxy,2026-05-11T17:18:00.235684+00:00
-fd_SP1_2026-05-11_Vallecano_Girona,la_liga,SP1,upcoming,2026-05-11,20:00,Vallecano,Girona,football_data_fixtures_proxy,2026-05-11T17:18:00.235684+00:00
+odds_api_io_61399043,poland-i-liga,poland-i-liga,upcoming,2026-05-09,17:30,FKS Stal Mielec,Puszcza Niepolomice,odds_api_io_events,2026-05-11T17:22:02.241846+00:00
+odds_api_io_62117344,france-national,france-national,upcoming,2026-05-09,17:30,Football Bourg-En-Bresse Peronnas 01,Valenciennes FC,odds_api_io_events,2026-05-11T17:22:02.241846+00:00
+odds_api_io_62036246,poland-iii-liga-group-4,poland-iii-liga-group-4,upcoming,2026-05-09,17:29,KSZO Ostrowiec Swietokrzyski,Wisla II Krakow,odds_api_io_events,2026-05-11T17:22:02.241846+00:00
+odds_api_io_62117342,france-national,france-national,upcoming,2026-05-09,17:30,LB Chateauroux,Sochaux-Montbeliard,odds_api_io_events,2026-05-11T17:22:02.241846+00:00
+odds_api_io_62117348,france-national,france-national,upcoming,2026-05-09,17:30,Le Puy Foot 43 Auvergne,Dijon FCO,odds_api_io_events,2026-05-11T17:22:02.241846+00:00
+odds_api_io_70812560,israel-premier-league,israel-premier-league,upcoming,2026-05-09,17:15,Maccabi Bney Reine,Hapoel Ironi Kiryat Shmona FC,odds_api_io_events,2026-05-11T17:22:02.241846+00:00
+odds_api_io_61399041,poland-i-liga,poland-i-liga,upcoming,2026-05-09,17:30,MKS Znicz Pruszkow,Polonia Bytom,odds_api_io_events,2026-05-11T17:22:02.241846+00:00
+odds_api_io_61399037,poland-i-liga,poland-i-liga,upcoming,2026-05-09,17:30,Wieczysta Krakow,Miedz Legnica,odds_api_io_events,2026-05-11T17:22:02.241846+00:00
+fd_P1_2026-05-11_Benfica_Sp_Braga,P1,P1,upcoming,2026-05-11,20:15,Benfica,Sp Braga,football_data_fixtures_proxy,2026-05-11T17:22:01.389338+00:00
+fd_P1_2026-05-11_Estrela_Famalicao,P1,P1,upcoming,2026-05-11,20:15,Estrela,Famalicao,football_data_fixtures_proxy,2026-05-11T17:22:01.389338+00:00
+fd_P1_2026-05-11_Gil_Vicente_Arouca,P1,P1,upcoming,2026-05-11,20:15,Gil Vicente,Arouca,football_data_fixtures_proxy,2026-05-11T17:22:01.389338+00:00
+fd_P1_2026-05-11_Guimaraes_Casa_Pia,P1,P1,upcoming,2026-05-11,20:15,Guimaraes,Casa Pia,football_data_fixtures_proxy,2026-05-11T17:22:01.389338+00:00
+fd_SP2_2026-05-11_Huesca_Sociedad_B,SP2,SP2,upcoming,2026-05-11,19:30,Huesca,Sociedad B,football_data_fixtures_proxy,2026-05-11T17:22:01.389338+00:00
+fd_I1_2026-05-11_Napoli_Bologna,serie_a,I1,upcoming,2026-05-11,19:45,Napoli,Bologna,football_data_fixtures_proxy,2026-05-11T17:22:01.389338+00:00
+fd_P1_2026-05-11_Rio_Ave_Sp_Lisbon,P1,P1,upcoming,2026-05-11,20:15,Rio Ave,Sp Lisbon,football_data_fixtures_proxy,2026-05-11T17:22:01.389338+00:00
+fd_P1_2026-05-11_Santa_Clara_Nacional,P1,P1,upcoming,2026-05-11,20:15,Santa Clara,Nacional,football_data_fixtures_proxy,2026-05-11T17:22:01.389338+00:00
+fd_P1_2026-05-11_Tondela_Moreirense,P1,P1,upcoming,2026-05-11,20:15,Tondela,Moreirense,football_data_fixtures_proxy,2026-05-11T17:22:01.389338+00:00
+fd_E0_2026-05-11_Tottenham_Leeds,premier_league,E0,upcoming,2026-05-11,20:00,Tottenham,Leeds,football_data_fixtures_proxy,2026-05-11T17:22:01.389338+00:00
+fd_SP1_2026-05-11_Vallecano_Girona,la_liga,SP1,upcoming,2026-05-11,20:00,Vallecano,Girona,football_data_fixtures_proxy,2026-05-11T17:22:01.389338+00:00
