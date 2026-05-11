@@ -54,6 +54,10 @@ def add_check(name, path, required_columns=None, file_type='parquet', allow_empt
 
 
 add_check('football-data.co.uk Premier League 24/25', 'data/raw/premier_league_2425.parquet', required_columns=['HomeTeam', 'AwayTeam', 'FTHG', 'FTAG'])
+add_check('Football-Data upcoming odds proxy', 'output/latest/football_data_upcoming_odds.csv', required_columns=['fixture_id', 'home_team', 'away_team', 'market_home_odds', 'market_draw_odds', 'market_away_odds', 'source_quality'], file_type='csv', allow_empty=True)
+add_check('Football-Data upcoming odds status', 'output/latest/football_data_upcoming_odds_status.csv', required_columns=['raw_rows', 'proxy_price_rows', 'sources_attempted', 'errors', 'source_quality'], file_type='csv', allow_empty=False)
+add_check('Automatic forward value snapshots', 'output/latest/automatic_forward_value_snapshots.parquet', required_columns=['snapshot_id', 'prediction_id', 'selection', 'market_odds', 'probability', 'ev', 'sample_phase'], allow_empty=True)
+add_check('Automatic forward value snapshot summary', 'output/latest/automatic_forward_value_snapshot_summary.csv', required_columns=['forward_prediction_rows', 'proxy_price_rows', 'value_snapshot_rows', 'positive_ev_rows', 'source_type', 'real_money_ready'], file_type='csv', allow_empty=False)
 add_check('Upcoming fixtures', 'data/raw/upcoming/upcoming_fixtures.parquet', required_columns=['fixture_id', 'match_date', 'home_team', 'away_team'], allow_empty=True)
 add_check('Forward fixture results', 'output/latest/forward_fixture_results.csv', required_columns=['fixture_id', 'home_team', 'away_team', 'home_score', 'away_score', 'result_status'], file_type='csv', allow_empty=True)
 add_check('Forward fixture result status', 'output/latest/forward_fixture_result_status.csv', required_columns=['fixture_rows_checked', 'result_rows', 'settled_result_rows', 'errors'], file_type='csv', allow_empty=False)
