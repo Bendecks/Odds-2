@@ -1,6 +1,6 @@
 # Historical Coverage Report
 
-Total matches: 5330
+Total matches: 4950
 Total leagues: 5
 Total seasons: 3
 
@@ -19,5 +19,4 @@ Total seasons: 3
 - 2425 | bundesliga | matches=306
 - 2425 | la_liga | matches=380
 - 2425 | ligue_1 | matches=306
-- 2425 | premier_league | matches=380
 - 2425 | serie_a | matches=380

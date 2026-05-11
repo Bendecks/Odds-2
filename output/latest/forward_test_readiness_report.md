@@ -1,14 +1,14 @@
 # Forward Test Readiness Report
 
-Forward test status: no_forward_picks_available
+Forward test status: observe_only_with_forward_picks
 
 ## Reasons
 
 - Data leakage risk: medium
 - Sample recommendation: paper_tracking_only
 - System readiness: observation_only
-- Forward-eligible paper-test picks: 0
+- Forward-eligible paper-test picks: 5
 
 ## Interpretation
 
-No current paper-test picks are forward-eligible. Historical proxy rows must not be counted as paper-test picks.
+Forward paper picks exist, but the system is still observation-only.

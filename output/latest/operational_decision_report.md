@@ -4,7 +4,7 @@ System status: paper_tracking_ready
 
 ## Reasoning
 
-- Average alignment gap: 0.1107
+- Average alignment gap: 0.1258
 - Candidate bets: 0
 
 ## Current interpretation
