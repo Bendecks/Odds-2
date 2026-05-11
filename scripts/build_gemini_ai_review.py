@@ -16,6 +16,7 @@ source_files = [
     output_dir / 'upcoming_fixtures.md',
     output_dir / 'manual_odds_template.md',
     output_dir / 'manual_forward_snapshots.md',
+    output_dir / 'paper_test_log_status.md',
     output_dir / 'operational_decision_report.md',
     output_dir / 'human_action_report.md',
     output_dir / 'market_alignment_report.md',
@@ -58,7 +59,7 @@ You are reviewing an automated football betting research system.
 
 Rules:
 - Do not recommend real-money betting.
-- Treat candidate bets, paper-test picks, historical proxy research and real-money readiness as separate states.
+- Treat candidate bets, paper-test picks, paper-test logs, historical proxy research and real-money readiness as separate states.
 - Focus on model quality, CLV, calibration, market alignment, sample size, signal suppression and operational risks.
 - Be concise and practical.
 - Return Markdown only.
@@ -74,7 +75,7 @@ Produce:
 8. Whether the paper-test pick filter is too strict, too loose, or reasonable
 9. Which probability band should be protected, suppressed, or monitored next
 10. Whether calibration impact should be increased, reduced, or left unchanged
-11. What is blocking true forward paper-testing right now: fixtures, manual odds, model matching, or filters?
+11. What is blocking true forward paper-testing right now: fixtures, manual odds, model matching, filters, or invalid historical logs?
 
 Project state:
 {context}
