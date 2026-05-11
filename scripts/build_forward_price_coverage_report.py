@@ -19,11 +19,7 @@ def safe_read_csv(path: Path) -> pd.DataFrame:
 
 def norm_team(value) -> str:
     text = str(value or '').lower().strip()
-    replacements = {
-        'hotspur': '', 'united': '', 'utd': '', 'town': '', 'city': '',
-        'fc': '', 'afc': '', 'cf': '', '.', ',', '&'
-    }
-    for token in replacements:
+    for token in ['hotspur', 'united', 'utd', 'town', 'city', 'fc', 'afc', 'cf', '.', ',', '&']:
         text = text.replace(token, ' ')
     return ' '.join(text.split())
 
@@ -51,18 +47,18 @@ for df in [prices, predictions, values]:
             df['coverage_away'] = df['away_team'].apply(norm_team)
 
 if len(prices):
+    if 'source_name' not in prices.columns:
+        prices['source_name'] = ''
     prices['is_fresh_api_price'] = prices['source_name'].astype(str).str.contains('odds_api_io|api_football', case=False, na=False)
     prices['is_odds_api_io'] = prices['source_name'].astype(str).str.contains('odds_api_io', case=False, na=False)
     prices['coverage_key'] = prices['coverage_match_date'].astype(str) + '|' + prices['coverage_home'].astype(str) + '|' + prices['coverage_away'].astype(str)
 else:
-    prices['is_fresh_api_price'] = []
-    prices['is_odds_api_io'] = []
-    prices['coverage_key'] = []
+    prices = pd.DataFrame(columns=['is_fresh_api_price', 'is_odds_api_io', 'coverage_key', 'source_name', 'source_type', 'source_quality'])
 
 if len(predictions):
     predictions['coverage_key'] = predictions['coverage_match_date'].astype(str) + '|' + predictions['coverage_home'].astype(str) + '|' + predictions['coverage_away'].astype(str)
 else:
-    predictions['coverage_key'] = []
+    predictions = pd.DataFrame(columns=['coverage_key'])
 
 price_keys = set(prices['coverage_key'].dropna().astype(str)) if len(prices) else set()
 fresh_keys = set(prices.loc[prices['is_fresh_api_price'], 'coverage_key'].dropna().astype(str)) if len(prices) else set()
@@ -99,8 +95,11 @@ for col in coverage_columns:
 coverage = coverage[coverage_columns]
 coverage.to_csv(output_dir / 'forward_price_coverage_report.csv', index=False)
 
-source_summary = pd.DataFrame()
+source_summary = pd.DataFrame(columns=['source_name', 'source_type', 'source_quality', 'price_rows'])
 if len(prices) and 'source_name' in prices.columns:
+    for col in ['source_type', 'source_quality']:
+        if col not in prices.columns:
+            prices[col] = ''
     source_summary = prices.groupby(['source_name', 'source_type', 'source_quality'], dropna=False).size().reset_index(name='price_rows')
 source_summary.to_csv(output_dir / 'forward_price_source_summary.csv', index=False)
 
