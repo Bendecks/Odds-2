@@ -3,9 +3,15 @@ from pathlib import Path
 import pandas as pd
 
 output_dir = Path('output/latest')
+config_dir = Path('data/config')
+config_dir.mkdir(parents=True, exist_ok=True)
+
 fixtures_path = output_dir / 'upcoming_fixtures.csv'
 market_snapshot_path = output_dir / 'market_snapshot_latest.csv'
 manual_forward_path = output_dir / 'manual_forward_snapshots.csv'
+source_config_path = config_dir / 'forward_price_sources.csv'
+automatic_prices_path = output_dir / 'automatic_forward_prices.csv'
+adapter_status_path = output_dir / 'forward_price_source_adapter.csv'
 
 markdown = [
     '# Automatic Forward Source Report',
@@ -13,6 +19,13 @@ markdown = [
     'Purpose: distinguish true automatic forward inputs from historical market proxy and paused manual fallback.',
     'Manual odds are optional fallback only and are not treated as a blocker in this development phase.',
     '',
+]
+
+source_columns = ['source_name', 'source_type', 'enabled', 'requires_key', 'status', 'notes']
+price_columns = [
+    'fixture_id', 'match_date', 'match_time', 'home_team', 'away_team', 'league',
+    'source_name', 'source_type', 'market_home_odds', 'market_draw_odds',
+    'market_away_odds', 'price_captured_at_utc', 'source_quality'
 ]
 
 
@@ -29,14 +42,39 @@ fixtures = safe_read_csv(fixtures_path)
 market_snapshot = safe_read_csv(market_snapshot_path)
 manual_forward = safe_read_csv(manual_forward_path)
 
+if source_config_path.exists():
+    sources = safe_read_csv(source_config_path)
+else:
+    sources = pd.DataFrame([
+        {
+            'source_name': 'none_configured',
+            'source_type': 'placeholder',
+            'enabled': False,
+            'requires_key': False,
+            'status': 'not_configured',
+            'notes': 'Add free automatic forward price sources here when identified.',
+        }
+    ])
+
+for col in source_columns:
+    if col not in sources.columns:
+        sources[col] = None
+sources = sources[source_columns]
+sources.to_csv(source_config_path, index=False)
+
+prices = pd.DataFrame(columns=price_columns)
+prices.to_csv(automatic_prices_path, index=False)
+
 market_proxy_types = []
 if len(market_snapshot) and 'snapshot_type' in market_snapshot.columns:
     market_proxy_types = sorted(set(market_snapshot['snapshot_type'].dropna().astype(str).tolist()))
 
 has_upcoming_fixtures = len(fixtures) > 0
-has_automatic_forward_odds = False
+has_automatic_forward_odds = len(prices) > 0
 has_historical_market_proxy = any('proxy' in item for item in market_proxy_types) or len(market_snapshot) > 0
 has_manual_forward = len(manual_forward) > 0
+
+enabled_sources = int((sources['enabled'].astype(str).str.lower() == 'true').sum()) if len(sources) else 0
 
 status = 'automatic_forward_not_ready'
 blocker = 'automatic_forward_odds_or_price_proxy_missing'
@@ -57,10 +95,22 @@ elif has_historical_market_proxy:
     blocker = 'only_historical_market_proxy_available_not_forward_valid'
     next_development_step = 'replace_historical_market_proxy_for_forward_testing'
 
+adapter_summary = {
+    'fixture_rows': int(len(fixtures)),
+    'configured_sources': int(len(sources)),
+    'enabled_sources': enabled_sources,
+    'automatic_price_rows': int(len(prices)),
+    'adapter_status': 'ready_no_sources_enabled' if enabled_sources == 0 else 'sources_configured_no_prices',
+}
+pd.DataFrame([adapter_summary]).to_csv(adapter_status_path, index=False)
+
 summary = {
     'upcoming_fixture_rows': int(len(fixtures)),
     'historical_market_proxy_rows': int(len(market_snapshot)),
     'manual_forward_rows': int(len(manual_forward)),
+    'configured_forward_sources': int(len(sources)),
+    'enabled_forward_sources': enabled_sources,
+    'automatic_forward_price_rows': int(len(prices)),
     'has_upcoming_fixtures': bool(has_upcoming_fixtures),
     'has_automatic_forward_odds': bool(has_automatic_forward_odds),
     'has_historical_market_proxy': bool(has_historical_market_proxy),
@@ -76,6 +126,9 @@ markdown.extend([
     f"Upcoming fixture rows: {summary['upcoming_fixture_rows']}",
     f"Historical market proxy rows: {summary['historical_market_proxy_rows']}",
     f"Manual forward rows: {summary['manual_forward_rows']}",
+    f"Configured forward sources: {summary['configured_forward_sources']}",
+    f"Enabled forward sources: {summary['enabled_forward_sources']}",
+    f"Automatic forward price rows: {summary['automatic_forward_price_rows']}",
     f"Has upcoming fixtures: {summary['has_upcoming_fixtures']}",
     f"Has automatic forward odds/proxy: {summary['has_automatic_forward_odds']}",
     f"Has historical market proxy: {summary['has_historical_market_proxy']}",
