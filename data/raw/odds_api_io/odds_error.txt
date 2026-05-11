@@ -1,1 +1,1 @@
-{"error":"Access denied. You're allowed max 2 bookmakers. Allowed: Bet365, 1xbet. To reset your selections, use PUT /bookmakers/selected/clear?apiKey=YOUR_API_KEY or visit https://docs.odds-api.io/api-reference/bookmakers/clear-selected-bookmakers. Upgrade your plan at https://odds-api.io/manage"}
+{"error":"Missing bookmakers"}
