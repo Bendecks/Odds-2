@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T07:17:48.895407+00:00`
-GitHub run: `210` attempt `1`
-GitHub SHA: `d51761b9b99a3c9ec2d16d2e18f46fa8f2ec0f3a`
+Generated UTC: `2026-05-11T07:19:51.848910+00:00`
+GitHub run: `211` attempt `1`
+GitHub SHA: `af8f8e16575ed8c4766bc102956d3ec38d8a84e1`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -63,6 +63,26 @@ Upcoming fixture rows: 1
 Forward fixture prediction rows: 1
 Ready for price join: True
 - 2026-05-11 19:00:00 | Tottenham Hotspur vs Leeds United | H=0.4257 D=0.259 A=0.3152 | fair=2.35/3.86/3.17
+
+## forward_fixture_prediction_log
+
+# Forward Fixture Prediction Log
+Probability-only forward prediction log. This is not a betting log and contains no stake or real-money signal.
+Current forward fixture predictions: 1
+New forward fixture predictions logged: 0
+Total forward fixture predictions logged: 1
+Log type: probability_only_no_market_prices
+- 2026-05-11 2026-05-11 19:00:00 | Tottenham Hotspur vs Leeds United | H=0.4257 D=0.259 A=0.31520000000000004
+
+## forward_fixture_results
+
+# Forward Fixture Results
+Results for probability-only forward fixture predictions. Used for future calibration checks, not betting settlement.
+Fixture rows checked: 1
+Result rows: 1
+Settled result rows: 0
+Errors: 0
+- 2026-05-11 19:00:00 | Tottenham Hotspur vs Leeds United | score=not available | status=not_started_or_result_unavailable
 
 ## forward_input_status
 
