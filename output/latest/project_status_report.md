@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T07:56:41.322373+00:00`
-GitHub run: `224` attempt `1`
-GitHub SHA: `c629955c002aa1751e47af184815658c9e01c78c`
+Generated UTC: `2026-05-11T08:00:39.476615+00:00`
+GitHub run: `225` attempt `1`
+GitHub SHA: `2c80e4eb5c74e831fae63aaaf70d5452b432cb1d`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -95,9 +95,18 @@ Delayed/free market proxy joined to forward probability predictions.
 Not live odds, not Bet365 direct, and not real-money ready.
 Forward prediction rows: 1
 Proxy price rows: 405
-Value snapshot rows: 0
-Positive EV rows: 0
-No automatic forward value snapshots were built. Check proxy odds availability and team/date matching.
+Matched prediction rows: 1
+Value snapshot rows: 9
+Positive EV rows: 5
+- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=AWAY | src=football_data_max_market_proxy | odds=4.1 | prob=0.3152 | EV=0.29232 | match=1.0
+- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=AWAY | src=football_data_average_market_proxy | odds=3.92 | prob=0.3152 | EV=0.235584 | match=1.0
+- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=AWAY | src=football_data_bet365_proxy | odds=3.75 | prob=0.3152 | EV=0.182 | match=1.0
+- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=DRAW | src=football_data_max_market_proxy | odds=4.1 | prob=0.259 | EV=0.0619 | match=1.0
+- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=DRAW | src=football_data_bet365_proxy | odds=4.1 | prob=0.259 | EV=0.0619 | match=1.0
+- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=DRAW | src=football_data_average_market_proxy | odds=3.82 | prob=0.259 | EV=-0.01062 | match=1.0
+- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=HOME | src=football_data_max_market_proxy | odds=1.86 | prob=0.4257 | EV=-0.208198 | match=1.0
+- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=HOME | src=football_data_bet365_proxy | odds=1.83 | prob=0.4257 | EV=-0.220969 | match=1.0
+- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=HOME | src=football_data_average_market_proxy | odds=1.82 | prob=0.4257 | EV=-0.225226 | match=1.0
 
 ## forward_fixture_predictions
 
@@ -263,11 +272,11 @@ Active suppression rules: 2
 Observation-only picks. These are not real-money recommendations.
 Automatic proxy prices are delayed/free market proxies, not live bookmaker odds.
 Historical proxy rows are excluded from forward paper-test picks.
-Source used: prediction_snapshots_latest_forward_only
+Source used: automatic_forward_value_snapshots
 Current paper-test picks: 0
 Newly logged paper-test picks: 0
 Total logged paper-test rows: 3
-No forward-eligible rows. Historical proxy rows are excluded from paper-test picks.
+Forward proxy rows exist, but none passed paper-test observation filters.
 
 ## probability_calibration_layer
 

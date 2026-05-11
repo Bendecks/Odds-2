@@ -5,7 +5,16 @@ Not live odds, not Bet365 direct, and not real-money ready.
 
 Forward prediction rows: 1
 Proxy price rows: 405
-Value snapshot rows: 0
-Positive EV rows: 0
+Matched prediction rows: 1
+Value snapshot rows: 9
+Positive EV rows: 5
 
-No automatic forward value snapshots were built. Check proxy odds availability and team/date matching.
+- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=AWAY | src=football_data_max_market_proxy | odds=4.1 | prob=0.3152 | EV=0.29232 | match=1.0
+- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=AWAY | src=football_data_average_market_proxy | odds=3.92 | prob=0.3152 | EV=0.235584 | match=1.0
+- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=AWAY | src=football_data_bet365_proxy | odds=3.75 | prob=0.3152 | EV=0.182 | match=1.0
+- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=DRAW | src=football_data_max_market_proxy | odds=4.1 | prob=0.259 | EV=0.0619 | match=1.0
+- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=DRAW | src=football_data_bet365_proxy | odds=4.1 | prob=0.259 | EV=0.0619 | match=1.0
+- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=DRAW | src=football_data_average_market_proxy | odds=3.82 | prob=0.259 | EV=-0.01062 | match=1.0
+- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=HOME | src=football_data_max_market_proxy | odds=1.86 | prob=0.4257 | EV=-0.208198 | match=1.0
+- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=HOME | src=football_data_bet365_proxy | odds=1.83 | prob=0.4257 | EV=-0.220969 | match=1.0
+- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=HOME | src=football_data_average_market_proxy | odds=1.82 | prob=0.4257 | EV=-0.225226 | match=1.0
