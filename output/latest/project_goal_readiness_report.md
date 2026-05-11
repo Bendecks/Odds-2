@@ -5,10 +5,10 @@ Overall project stage: `proxy_paper_testing_started`
 ## Current counts
 
 - Forward fixture predictions: 3
-- Automatic value snapshots: 27
-- Positive EV proxy rows: 13
+- Automatic value snapshots: 30
+- Positive EV proxy rows: 15
 - Proxy observation rows: 7
-- Valid forward/proxy log rows: 12
+- Valid forward/proxy log rows: 13
 - Settled forward rows: 0
 - Real-money ready: False
 
@@ -23,13 +23,13 @@ Done when: Use only for model diagnostics, not betting decisions.
 ### automatic_proxy_odds_ingestion
 Status: `working`
 Target: Free automatic odds proxy exists and validates.
-Current: 27 value snapshots from delayed proxy prices.
+Current: 30 value snapshots from delayed proxy prices.
 Done when: Keep Football-Data as baseline; add optional API source for fresher odds.
 
 ### paper_forward_testing
 Status: `started_not_mature`
 Target: At least 50-100 logged proxy observations across several matchdays.
-Current: 12 valid forward/proxy log rows.
+Current: 13 valid forward/proxy log rows.
 Done when: Minimum 50 observations before drawing early conclusions; 100+ preferred.
 
 ### forward_probability_calibration

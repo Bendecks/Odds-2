@@ -28,6 +28,7 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-11 20:15 | Tondela vs Moreirense
 - 2026-05-11 20:00 | Tottenham vs Leeds
 - 2026-05-11 20:00 | Vallecano vs Girona
+- 2026-05-16 12:00 | Brighton and Hove Albion WFC vs Tottenham Hotspur FC
 
 ## After filling odds
 

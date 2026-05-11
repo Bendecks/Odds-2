@@ -16,8 +16,8 @@ Odds endpoint mode: single_event_documented_endpoint
 Odds parse mode: bookmakers_market_odds_schema
 Selected bookmaker: Bet365
 Selected market: ML
-Fixture rows: 1
-Eligible future fixture rows: 1
+Fixture rows: 2
+Eligible future fixture rows: 2
 Price rows: 1
 Errors/status rows: 0
 

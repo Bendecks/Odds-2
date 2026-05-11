@@ -3,10 +3,10 @@
 Manual Bet365 odds input is parked as an optional fallback. It is not an active development blocker.
 Current priority: automatic/free-data forward-testing sources and robust fixture/model matching.
 
-Upcoming fixtures: 11
-Manual template rows: 11
+Upcoming fixtures: 12
+Manual template rows: 12
 Rows with complete manual odds: 0
-Rows missing manual odds: 11
+Rows missing manual odds: 12
 Manual forward snapshot rows: 0
 Manual odds mode: optional_fallback_paused
 Manual odds is blocker: False
@@ -30,3 +30,4 @@ Manual odds are not required in the current phase. These rows are only kept for 
 - 2026-05-11 20:15 | Tondela vs Moreirense
 - 2026-05-11 20:00 | Tottenham vs Leeds
 - 2026-05-11 20:00 | Vallecano vs Girona
+- 2026-05-16 12:00 | Brighton and Hove Albion WFC vs Tottenham Hotspur FC

@@ -1,6 +1,6 @@
 stage,status,target,current,done_when
 historical_proxy_research,complete_but_negative_clv,Historical pipeline runs and exposes calibration/CLV weaknesses.,Historical outputs exist; CLV trend remains negative.,"Use only for model diagnostics, not betting decisions."
-automatic_proxy_odds_ingestion,working,Free automatic odds proxy exists and validates.,27 value snapshots from delayed proxy prices.,Keep Football-Data as baseline; add optional API source for fresher odds.
-paper_forward_testing,started_not_mature,At least 50-100 logged proxy observations across several matchdays.,12 valid forward/proxy log rows.,Minimum 50 observations before drawing early conclusions; 100+ preferred.
+automatic_proxy_odds_ingestion,working,Free automatic odds proxy exists and validates.,30 value snapshots from delayed proxy prices.,Keep Football-Data as baseline; add optional API source for fresher odds.
+paper_forward_testing,started_not_mature,At least 50-100 logged proxy observations across several matchdays.,13 valid forward/proxy log rows.,Minimum 50 observations before drawing early conclusions; 100+ preferred.
 forward_probability_calibration,not_ready,Settled forward rows available for Brier/accuracy/calibration review.,0 settled forward rows.,20+ settled rows for first weak signal; 100+ for meaningful calibration.
 real_money_readiness,not_ready,"Stable positive CLV, calibrated probabilities and reliable fresh odds.",No real-money gate is open; candidate bets remain 0.,"Positive/neutral CLV over forward sample, stable calibration, and fresh odds source verified."
