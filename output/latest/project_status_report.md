@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T15:08:10.029577+00:00`
-GitHub run: `261` attempt `1`
-GitHub SHA: `b6a8b5146c15662626c83ba1a5565541f999e72c`
+Generated UTC: `2026-05-11T16:21:37.740295+00:00`
+GitHub run: `262` attempt `1`
+GitHub SHA: `17f906271af97339b408c8f6a8e0991d7cfe8ac3`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -24,7 +24,7 @@ Overall status: `OK`
 | API-Football forward fixtures | True | 0 |  |  |
 | API-Football forward price status | True | 1 |  |  |
 | Automatic forward value snapshots | True | 27 |  |  |
-| Proxy candidate observations | True | 10 |  |  |
+| Proxy candidate observations | True | 4 |  |  |
 | Proxy candidate observation summary | True | 1 |  |  |
 | Automatic forward value snapshot summary | True | 1 |  |  |
 | Automatic forward value match diagnostics | True | 3 |  |  |
