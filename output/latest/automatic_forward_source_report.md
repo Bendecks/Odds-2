@@ -15,22 +15,22 @@ Next development step: add_team_aliases_for_upcoming_fixtures
 
 ## Team matching
 
-- Besiktas Istanbul | suggestion=nan | type=unmatched
-- Trabzonspor | suggestion=nan | type=unmatched
-- Eyupspor | suggestion=nan | type=unmatched
-- Caykur Rizespor | suggestion=nan | type=unmatched
-- Galatasaray Istanbul | suggestion=nan | type=unmatched
-- Antalyaspor | suggestion=nan | type=unmatched
-- Genclerbirligi SK | suggestion=nan | type=unmatched
-- Kasimpasa Istanbul | suggestion=nan | type=unmatched
-- Goztepe Izmir | suggestion=nan | type=unmatched
-- Gaziantep FK | suggestion=nan | type=unmatched
-- Istanbul Basaksehir | suggestion=nan | type=unmatched
-- Samsunspor | suggestion=nan | type=unmatched
-- Kocaelispor | suggestion=nan | type=unmatched
-- Fatih Karagumruk Istanbul | suggestion=nan | type=unmatched
-- Konyaspor | suggestion=nan | type=unmatched
-- Fenerbahce Istanbul | suggestion=nan | type=unmatched
+- FKS Stal Mielec | suggestion=nan | type=unmatched
+- Puszcza Niepolomice | suggestion=nan | type=unmatched
+- Football Bourg-En-Bresse Peronnas 01 | suggestion=nan | type=unmatched
+- Valenciennes FC | suggestion=nan | type=unmatched
+- KSZO Ostrowiec Swietokrzyski | suggestion=nan | type=unmatched
+- Wisla II Krakow | suggestion=nan | type=unmatched
+- LB Chateauroux | suggestion=nan | type=unmatched
+- Sochaux-Montbeliard | suggestion=nan | type=unmatched
+- Le Puy Foot 43 Auvergne | suggestion=nan | type=unmatched
+- Dijon FCO | suggestion=nan | type=unmatched
+- Maccabi Bney Reine | suggestion=nan | type=unmatched
+- Hapoel Ironi Kiryat Shmona FC | suggestion=nan | type=unmatched
+- MKS Znicz Pruszkow | suggestion=nan | type=unmatched
+- Polonia Bytom | suggestion=nan | type=unmatched
+- Wieczysta Krakow | suggestion=nan | type=unmatched
+- Miedz Legnica | suggestion=nan | type=unmatched
 - Benfica | suggestion=nan | type=unmatched
 - Sp Braga | suggestion=nan | type=unmatched
 - Estrela | suggestion=nan | type=unmatched

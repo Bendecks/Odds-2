@@ -19,14 +19,14 @@ Upcoming fixtures exist, but no automatic odds/proxy forward snapshot source is 
 ## Optional manual fallback status
 
 Manual odds are not required in the current phase. These rows are only kept for later fallback use:
-- 2026-05-09 17:00 | Besiktas Istanbul vs Trabzonspor
-- 2026-05-09 17:00 | Eyupspor vs Caykur Rizespor
-- 2026-05-09 17:00 | Galatasaray Istanbul vs Antalyaspor
-- 2026-05-09 17:00 | Genclerbirligi SK vs Kasimpasa Istanbul
-- 2026-05-09 17:00 | Goztepe Izmir vs Gaziantep FK
-- 2026-05-09 17:00 | Istanbul Basaksehir vs Samsunspor
-- 2026-05-09 17:00 | Kocaelispor vs Fatih Karagumruk Istanbul
-- 2026-05-09 17:00 | Konyaspor vs Fenerbahce Istanbul
+- 2026-05-09 17:30 | FKS Stal Mielec vs Puszcza Niepolomice
+- 2026-05-09 17:30 | Football Bourg-En-Bresse Peronnas 01 vs Valenciennes FC
+- 2026-05-09 17:29 | KSZO Ostrowiec Swietokrzyski vs Wisla II Krakow
+- 2026-05-09 17:30 | LB Chateauroux vs Sochaux-Montbeliard
+- 2026-05-09 17:30 | Le Puy Foot 43 Auvergne vs Dijon FCO
+- 2026-05-09 17:15 | Maccabi Bney Reine vs Hapoel Ironi Kiryat Shmona FC
+- 2026-05-09 17:30 | MKS Znicz Pruszkow vs Polonia Bytom
+- 2026-05-09 17:30 | Wieczysta Krakow vs Miedz Legnica
 - 2026-05-11 20:15 | Benfica vs Sp Braga
 - 2026-05-11 20:15 | Estrela vs Famalicao
 - 2026-05-11 20:15 | Gil Vicente vs Arouca

@@ -1,12 +1,12 @@
 fixture_id,match_date,match_time,home_team,away_team,league,bookmaker,market_home_odds,market_draw_odds,market_away_odds,odds_captured_at_utc,odds_source_note
-odds_api_io_61730226,2026-05-09,17:00,Besiktas Istanbul,Trabzonspor,turkiye-super-lig,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_61730220,2026-05-09,17:00,Eyupspor,Caykur Rizespor,turkiye-super-lig,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_61730224,2026-05-09,17:00,Galatasaray Istanbul,Antalyaspor,turkiye-super-lig,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_61730222,2026-05-09,17:00,Genclerbirligi SK,Kasimpasa Istanbul,turkiye-super-lig,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_61730232,2026-05-09,17:00,Goztepe Izmir,Gaziantep FK,turkiye-super-lig,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_61730228,2026-05-09,17:00,Istanbul Basaksehir,Samsunspor,turkiye-super-lig,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_61730230,2026-05-09,17:00,Kocaelispor,Fatih Karagumruk Istanbul,turkiye-super-lig,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_61730234,2026-05-09,17:00,Konyaspor,Fenerbahce Istanbul,turkiye-super-lig,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_61399043,2026-05-09,17:30,FKS Stal Mielec,Puszcza Niepolomice,poland-i-liga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_62117344,2026-05-09,17:30,Football Bourg-En-Bresse Peronnas 01,Valenciennes FC,france-national,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_62036246,2026-05-09,17:29,KSZO Ostrowiec Swietokrzyski,Wisla II Krakow,poland-iii-liga-group-4,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_62117342,2026-05-09,17:30,LB Chateauroux,Sochaux-Montbeliard,france-national,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_62117348,2026-05-09,17:30,Le Puy Foot 43 Auvergne,Dijon FCO,france-national,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_70812560,2026-05-09,17:15,Maccabi Bney Reine,Hapoel Ironi Kiryat Shmona FC,israel-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_61399041,2026-05-09,17:30,MKS Znicz Pruszkow,Polonia Bytom,poland-i-liga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_61399037,2026-05-09,17:30,Wieczysta Krakow,Miedz Legnica,poland-i-liga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_P1_2026-05-11_Benfica_Sp_Braga,2026-05-11,20:15,Benfica,Sp Braga,P1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_P1_2026-05-11_Estrela_Famalicao,2026-05-11,20:15,Estrela,Famalicao,P1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_P1_2026-05-11_Gil_Vicente_Arouca,2026-05-11,20:15,Gil Vicente,Arouca,P1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.

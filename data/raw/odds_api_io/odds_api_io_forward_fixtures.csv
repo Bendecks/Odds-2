@@ -1,9 +1,9 @@
 fixture_id,league,league_id,season,match_date,match_time,home_team,away_team,source,fetched_at_utc,event_status
-odds_api_io_61730220,turkiye-super-lig,turkiye-super-lig,upcoming,2026-05-09,17:00,Eyupspor,Caykur Rizespor,odds_api_io_events,2026-05-11T17:08:16.735732+00:00,settled
-odds_api_io_61730222,turkiye-super-lig,turkiye-super-lig,upcoming,2026-05-09,17:00,Genclerbirligi SK,Kasimpasa Istanbul,odds_api_io_events,2026-05-11T17:08:16.735732+00:00,settled
-odds_api_io_61730224,turkiye-super-lig,turkiye-super-lig,upcoming,2026-05-09,17:00,Galatasaray Istanbul,Antalyaspor,odds_api_io_events,2026-05-11T17:08:16.735732+00:00,settled
-odds_api_io_61730226,turkiye-super-lig,turkiye-super-lig,upcoming,2026-05-09,17:00,Besiktas Istanbul,Trabzonspor,odds_api_io_events,2026-05-11T17:08:16.735732+00:00,settled
-odds_api_io_61730228,turkiye-super-lig,turkiye-super-lig,upcoming,2026-05-09,17:00,Istanbul Basaksehir,Samsunspor,odds_api_io_events,2026-05-11T17:08:16.735732+00:00,settled
-odds_api_io_61730230,turkiye-super-lig,turkiye-super-lig,upcoming,2026-05-09,17:00,Kocaelispor,Fatih Karagumruk Istanbul,odds_api_io_events,2026-05-11T17:08:16.735732+00:00,settled
-odds_api_io_61730232,turkiye-super-lig,turkiye-super-lig,upcoming,2026-05-09,17:00,Goztepe Izmir,Gaziantep FK,odds_api_io_events,2026-05-11T17:08:16.735732+00:00,settled
-odds_api_io_61730234,turkiye-super-lig,turkiye-super-lig,upcoming,2026-05-09,17:00,Konyaspor,Fenerbahce Istanbul,odds_api_io_events,2026-05-11T17:08:16.735732+00:00,settled
+odds_api_io_70812560,israel-premier-league,israel-premier-league,upcoming,2026-05-09,17:15,Maccabi Bney Reine,Hapoel Ironi Kiryat Shmona FC,odds_api_io_events,2026-05-11T17:18:00.982734+00:00,settled
+odds_api_io_62036246,poland-iii-liga-group-4,poland-iii-liga-group-4,upcoming,2026-05-09,17:29,KSZO Ostrowiec Swietokrzyski,Wisla II Krakow,odds_api_io_events,2026-05-11T17:18:00.982734+00:00,settled
+odds_api_io_61399037,poland-i-liga,poland-i-liga,upcoming,2026-05-09,17:30,Wieczysta Krakow,Miedz Legnica,odds_api_io_events,2026-05-11T17:18:00.982734+00:00,settled
+odds_api_io_61399041,poland-i-liga,poland-i-liga,upcoming,2026-05-09,17:30,MKS Znicz Pruszkow,Polonia Bytom,odds_api_io_events,2026-05-11T17:18:00.982734+00:00,settled
+odds_api_io_61399043,poland-i-liga,poland-i-liga,upcoming,2026-05-09,17:30,FKS Stal Mielec,Puszcza Niepolomice,odds_api_io_events,2026-05-11T17:18:00.982734+00:00,settled
+odds_api_io_62117342,france-national,france-national,upcoming,2026-05-09,17:30,LB Chateauroux,Sochaux-Montbeliard,odds_api_io_events,2026-05-11T17:18:00.982734+00:00,settled
+odds_api_io_62117344,france-national,france-national,upcoming,2026-05-09,17:30,Football Bourg-En-Bresse Peronnas 01,Valenciennes FC,odds_api_io_events,2026-05-11T17:18:00.982734+00:00,settled
+odds_api_io_62117348,france-national,france-national,upcoming,2026-05-09,17:30,Le Puy Foot 43 Auvergne,Dijon FCO,odds_api_io_events,2026-05-11T17:18:00.982734+00:00,settled

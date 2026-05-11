@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T16:37:11.414167+00:00`
-GitHub run: `266` attempt `1`
-GitHub SHA: `0100205a820fb10657b01984c09c95a9f6a4b8e7`
+Generated UTC: `2026-05-11T17:09:13.024260+00:00`
+GitHub run: `268` attempt `1`
+GitHub SHA: `9ff17aff38da5c741b36962bfc7c2901b3a047ac`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -17,8 +17,8 @@ Overall status: `OK`
 | Football-Data upcoming fixtures proxy | True | 11 |  |  |
 | Football-Data upcoming odds proxy | True | 33 |  |  |
 | Football-Data upcoming odds status | True | 1 |  |  |
-| odds-api.io forward prices | True | 1 |  |  |
-| odds-api.io forward fixtures | True | 1 |  |  |
+| odds-api.io forward prices | True | 0 |  |  |
+| odds-api.io forward fixtures | True | 8 |  |  |
 | odds-api.io forward price status | True | 1 |  |  |
 | API-Football forward prices | True | 0 |  |  |
 | API-Football forward fixtures | True | 0 |  |  |
@@ -33,7 +33,7 @@ Overall status: `OK`
 | Automatic forward value match diagnostics | True | 3 |  |  |
 | Proxy observation quality report | True | 1 |  |  |
 | Proxy observation by selection | True | 2 |  |  |
-| Upcoming fixtures | True | 11 |  |  |
+| Upcoming fixtures | True | 19 |  |  |
 
 ## project_goal_readiness
 
@@ -116,22 +116,22 @@ Automatic forward status: automatic_forward_not_ready
 Blocker: fixture_model_team_matching_incomplete
 Next development step: add_team_aliases_for_upcoming_fixtures
 ## Team matching
-- Besiktas Istanbul | suggestion=nan | type=unmatched
-- Trabzonspor | suggestion=nan | type=unmatched
-- Eyupspor | suggestion=nan | type=unmatched
-- Caykur Rizespor | suggestion=nan | type=unmatched
-- Galatasaray Istanbul | suggestion=nan | type=unmatched
-- Antalyaspor | suggestion=nan | type=unmatched
-- Genclerbirligi SK | suggestion=nan | type=unmatched
-- Kasimpasa Istanbul | suggestion=nan | type=unmatched
-- Goztepe Izmir | suggestion=nan | type=unmatched
-- Gaziantep FK | suggestion=nan | type=unmatched
-- Istanbul Basaksehir | suggestion=nan | type=unmatched
-- Samsunspor | suggestion=nan | type=unmatched
-- Kocaelispor | suggestion=nan | type=unmatched
-- Fatih Karagumruk Istanbul | suggestion=nan | type=unmatched
-- Konyaspor | suggestion=nan | type=unmatched
-- Fenerbahce Istanbul | suggestion=nan | type=unmatched
+- FKS Stal Mielec | suggestion=nan | type=unmatched
+- Puszcza Niepolomice | suggestion=nan | type=unmatched
+- Football Bourg-En-Bresse Peronnas 01 | suggestion=nan | type=unmatched
+- Valenciennes FC | suggestion=nan | type=unmatched
+- KSZO Ostrowiec Swietokrzyski | suggestion=nan | type=unmatched
+- Wisla II Krakow | suggestion=nan | type=unmatched
+- LB Chateauroux | suggestion=nan | type=unmatched
+- Sochaux-Montbeliard | suggestion=nan | type=unmatched
+- Le Puy Foot 43 Auvergne | suggestion=nan | type=unmatched
+- Dijon FCO | suggestion=nan | type=unmatched
+- Maccabi Bney Reine | suggestion=nan | type=unmatched
+- Hapoel Ironi Kiryat Shmona FC | suggestion=nan | type=unmatched
+- MKS Znicz Pruszkow | suggestion=nan | type=unmatched
+- Polonia Bytom | suggestion=nan | type=unmatched
+- Wieczysta Krakow | suggestion=nan | type=unmatched
+- Miedz Legnica | suggestion=nan | type=unmatched
 - Benfica | suggestion=nan | type=unmatched
 
 ## automatic_forward_value_snapshots
@@ -289,14 +289,14 @@ Automatic forward source needed: True
 Upcoming fixtures exist, but no automatic odds/proxy forward snapshot source is active yet.
 ## Optional manual fallback status
 Manual odds are not required in the current phase. These rows are only kept for later fallback use:
-- 2026-05-09 17:00 | Besiktas Istanbul vs Trabzonspor
-- 2026-05-09 17:00 | Eyupspor vs Caykur Rizespor
-- 2026-05-09 17:00 | Galatasaray Istanbul vs Antalyaspor
-- 2026-05-09 17:00 | Genclerbirligi SK vs Kasimpasa Istanbul
-- 2026-05-09 17:00 | Goztepe Izmir vs Gaziantep FK
-- 2026-05-09 17:00 | Istanbul Basaksehir vs Samsunspor
-- 2026-05-09 17:00 | Kocaelispor vs Fatih Karagumruk Istanbul
-- 2026-05-09 17:00 | Konyaspor vs Fenerbahce Istanbul
+- 2026-05-09 17:30 | FKS Stal Mielec vs Puszcza Niepolomice
+- 2026-05-09 17:30 | Football Bourg-En-Bresse Peronnas 01 vs Valenciennes FC
+- 2026-05-09 17:29 | KSZO Ostrowiec Swietokrzyski vs Wisla II Krakow
+- 2026-05-09 17:30 | LB Chateauroux vs Sochaux-Montbeliard
+- 2026-05-09 17:30 | Le Puy Foot 43 Auvergne vs Dijon FCO
+- 2026-05-09 17:15 | Maccabi Bney Reine vs Hapoel Ironi Kiryat Shmona FC
+- 2026-05-09 17:30 | MKS Znicz Pruszkow vs Polonia Bytom
+- 2026-05-09 17:30 | Wieczysta Krakow vs Miedz Legnica
 - 2026-05-11 20:15 | Benfica vs Sp Braga
 - 2026-05-11 20:15 | Estrela vs Famalicao
 - 2026-05-11 20:15 | Gil Vicente vs Arouca
@@ -314,14 +314,14 @@ Primary development target: automatic/free market proxy, not manual Bet365.
 Fixtures found: 19
 Source counts: {'football_data_fixtures_proxy': 11, 'odds_api_io_events': 8}
 Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
-- 2026-05-09 17:00 | Besiktas Istanbul vs Trabzonspor | turkiye-super-lig | odds_api_io_events
-- 2026-05-09 17:00 | Eyupspor vs Caykur Rizespor | turkiye-super-lig | odds_api_io_events
-- 2026-05-09 17:00 | Galatasaray Istanbul vs Antalyaspor | turkiye-super-lig | odds_api_io_events
-- 2026-05-09 17:00 | Genclerbirligi SK vs Kasimpasa Istanbul | turkiye-super-lig | odds_api_io_events
-- 2026-05-09 17:00 | Goztepe Izmir vs Gaziantep FK | turkiye-super-lig | odds_api_io_events
-- 2026-05-09 17:00 | Istanbul Basaksehir vs Samsunspor | turkiye-super-lig | odds_api_io_events
-- 2026-05-09 17:00 | Kocaelispor vs Fatih Karagumruk Istanbul | turkiye-super-lig | odds_api_io_events
-- 2026-05-09 17:00 | Konyaspor vs Fenerbahce Istanbul | turkiye-super-lig | odds_api_io_events
+- 2026-05-09 17:30 | FKS Stal Mielec vs Puszcza Niepolomice | poland-i-liga | odds_api_io_events
+- 2026-05-09 17:30 | Football Bourg-En-Bresse Peronnas 01 vs Valenciennes FC | france-national | odds_api_io_events
+- 2026-05-09 17:29 | KSZO Ostrowiec Swietokrzyski vs Wisla II Krakow | poland-iii-liga-group-4 | odds_api_io_events
+- 2026-05-09 17:30 | LB Chateauroux vs Sochaux-Montbeliard | france-national | odds_api_io_events
+- 2026-05-09 17:30 | Le Puy Foot 43 Auvergne vs Dijon FCO | france-national | odds_api_io_events
+- 2026-05-09 17:15 | Maccabi Bney Reine vs Hapoel Ironi Kiryat Shmona FC | israel-premier-league | odds_api_io_events
+- 2026-05-09 17:30 | MKS Znicz Pruszkow vs Polonia Bytom | poland-i-liga | odds_api_io_events
+- 2026-05-09 17:30 | Wieczysta Krakow vs Miedz Legnica | poland-i-liga | odds_api_io_events
 - 2026-05-11 20:15 | Benfica vs Sp Braga | P1 | football_data_fixtures_proxy
 - 2026-05-11 20:15 | Estrela vs Famalicao | P1 | football_data_fixtures_proxy
 - 2026-05-11 20:15 | Gil Vicente vs Arouca | P1 | football_data_fixtures_proxy
@@ -342,14 +342,14 @@ Existing filled odds are preserved when fixtures refresh.
 Fill the three 1X2 odds columns from Bet365 before kickoff, then commit/update the CSV or run the workflow manually.
 Template rows: 19
 Rows with complete odds: 0
-- 2026-05-09 17:00 | Besiktas Istanbul vs Trabzonspor | bookmaker=bet365_manual
-- 2026-05-09 17:00 | Eyupspor vs Caykur Rizespor | bookmaker=bet365_manual
-- 2026-05-09 17:00 | Galatasaray Istanbul vs Antalyaspor | bookmaker=bet365_manual
-- 2026-05-09 17:00 | Genclerbirligi SK vs Kasimpasa Istanbul | bookmaker=bet365_manual
-- 2026-05-09 17:00 | Goztepe Izmir vs Gaziantep FK | bookmaker=bet365_manual
-- 2026-05-09 17:00 | Istanbul Basaksehir vs Samsunspor | bookmaker=bet365_manual
-- 2026-05-09 17:00 | Kocaelispor vs Fatih Karagumruk Istanbul | bookmaker=bet365_manual
-- 2026-05-09 17:00 | Konyaspor vs Fenerbahce Istanbul | bookmaker=bet365_manual
+- 2026-05-09 17:30 | FKS Stal Mielec vs Puszcza Niepolomice | bookmaker=bet365_manual
+- 2026-05-09 17:30 | Football Bourg-En-Bresse Peronnas 01 vs Valenciennes FC | bookmaker=bet365_manual
+- 2026-05-09 17:29 | KSZO Ostrowiec Swietokrzyski vs Wisla II Krakow | bookmaker=bet365_manual
+- 2026-05-09 17:30 | LB Chateauroux vs Sochaux-Montbeliard | bookmaker=bet365_manual
+- 2026-05-09 17:30 | Le Puy Foot 43 Auvergne vs Dijon FCO | bookmaker=bet365_manual
+- 2026-05-09 17:15 | Maccabi Bney Reine vs Hapoel Ironi Kiryat Shmona FC | bookmaker=bet365_manual
+- 2026-05-09 17:30 | MKS Znicz Pruszkow vs Polonia Bytom | bookmaker=bet365_manual
+- 2026-05-09 17:30 | Wieczysta Krakow vs Miedz Legnica | bookmaker=bet365_manual
 - 2026-05-11 20:15 | Benfica vs Sp Braga | bookmaker=bet365_manual
 - 2026-05-11 20:15 | Estrela vs Famalicao | bookmaker=bet365_manual
 - 2026-05-11 20:15 | Gil Vicente vs Arouca | bookmaker=bet365_manual
@@ -375,14 +375,14 @@ Open `data/manual/manual_odds_template.csv` and fill these columns only:
 - `odds_captured_at_utc`
 Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 ## Current rows needing odds
-- 2026-05-09 17:00 | Besiktas Istanbul vs Trabzonspor
-- 2026-05-09 17:00 | Eyupspor vs Caykur Rizespor
-- 2026-05-09 17:00 | Galatasaray Istanbul vs Antalyaspor
-- 2026-05-09 17:00 | Genclerbirligi SK vs Kasimpasa Istanbul
-- 2026-05-09 17:00 | Goztepe Izmir vs Gaziantep FK
-- 2026-05-09 17:00 | Istanbul Basaksehir vs Samsunspor
-- 2026-05-09 17:00 | Kocaelispor vs Fatih Karagumruk Istanbul
-- 2026-05-09 17:00 | Konyaspor vs Fenerbahce Istanbul
+- 2026-05-09 17:30 | FKS Stal Mielec vs Puszcza Niepolomice
+- 2026-05-09 17:30 | Football Bourg-En-Bresse Peronnas 01 vs Valenciennes FC
+- 2026-05-09 17:29 | KSZO Ostrowiec Swietokrzyski vs Wisla II Krakow
+- 2026-05-09 17:30 | LB Chateauroux vs Sochaux-Montbeliard
+- 2026-05-09 17:30 | Le Puy Foot 43 Auvergne vs Dijon FCO
+- 2026-05-09 17:15 | Maccabi Bney Reine vs Hapoel Ironi Kiryat Shmona FC
+- 2026-05-09 17:30 | MKS Znicz Pruszkow vs Polonia Bytom
+- 2026-05-09 17:30 | Wieczysta Krakow vs Miedz Legnica
 - 2026-05-11 20:15 | Benfica vs Sp Braga
 - 2026-05-11 20:15 | Estrela vs Famalicao
 - 2026-05-11 20:15 | Gil Vicente vs Arouca
