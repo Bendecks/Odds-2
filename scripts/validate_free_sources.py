@@ -54,6 +54,8 @@ def add_check(name, path, required_columns=None, file_type='parquet', allow_empt
 
 
 add_check('football-data.co.uk Premier League 24/25', 'data/raw/premier_league_2425.parquet', required_columns=['HomeTeam', 'AwayTeam', 'FTHG', 'FTAG'])
+add_check('Project goal readiness summary', 'output/latest/project_goal_readiness_summary.csv', required_columns=['overall_project_stage', 'forward_predictions', 'value_snapshots', 'valid_forward_log_rows', 'settled_forward_rows', 'real_money_ready', 'next_goal'], file_type='csv', allow_empty=False)
+add_check('Project goal readiness stages', 'output/latest/project_goal_readiness_stages.csv', required_columns=['stage', 'status', 'target', 'current', 'done_when'], file_type='csv', allow_empty=False)
 add_check('Football-Data upcoming fixtures proxy', 'output/latest/football_data_upcoming_fixtures.csv', required_columns=['fixture_id', 'match_date', 'home_team', 'away_team', 'source'], file_type='csv', allow_empty=True)
 add_check('Football-Data upcoming odds proxy', 'output/latest/football_data_upcoming_odds.csv', required_columns=['fixture_id', 'home_team', 'away_team', 'market_home_odds', 'market_draw_odds', 'market_away_odds', 'source_quality'], file_type='csv', allow_empty=True)
 add_check('Football-Data upcoming odds status', 'output/latest/football_data_upcoming_odds_status.csv', required_columns=['raw_rows', 'upcoming_fixture_rows', 'proxy_price_rows', 'sources_attempted', 'errors', 'source_quality'], file_type='csv', allow_empty=False)
