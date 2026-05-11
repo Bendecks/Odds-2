@@ -1,4 +1,4 @@
 market,positive_edges,avg_ev,avg_probability
-home_ev,3,0.8346,0.4869
-draw_ev,0,,
-away_ev,3,0.5309,0.4584
+home_ev,2,0.8316,0.4653
+draw_ev,1,0.1791,0.2382
+away_ev,5,0.5718,0.4273

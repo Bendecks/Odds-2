@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T08:04:40.519837+00:00`
-GitHub run: `227` attempt `1`
-GitHub SHA: `02aa392fc3bf9acb9a3faf4f524fe0159bb27499`
+Generated UTC: `2026-05-11T09:02:18.589192+00:00`
+GitHub run: `228` attempt `1`
+GitHub SHA: `38dc13233348bcc7f0f2ce4d5de36b88331219a2`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -98,15 +98,15 @@ Proxy price rows: 405
 Matched prediction rows: 1
 Value snapshot rows: 9
 Positive EV rows: 5
-- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=AWAY | src=football_data_max_market_proxy | odds=4.1 | prob=0.3029 | EV=0.24189 | match=1.0
-- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=AWAY | src=football_data_average_market_proxy | odds=3.92 | prob=0.3029 | EV=0.187368 | match=1.0
-- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=AWAY | src=football_data_bet365_proxy | odds=3.75 | prob=0.3029 | EV=0.135875 | match=1.0
-- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=DRAW | src=football_data_max_market_proxy | odds=4.1 | prob=0.2565 | EV=0.05165 | match=1.0
-- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=DRAW | src=football_data_bet365_proxy | odds=4.1 | prob=0.2565 | EV=0.05165 | match=1.0
-- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=DRAW | src=football_data_average_market_proxy | odds=3.82 | prob=0.2565 | EV=-0.02017 | match=1.0
-- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=HOME | src=football_data_max_market_proxy | odds=1.86 | prob=0.4406 | EV=-0.180484 | match=1.0
-- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=HOME | src=football_data_bet365_proxy | odds=1.83 | prob=0.4406 | EV=-0.193702 | match=1.0
-- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=HOME | src=football_data_average_market_proxy | odds=1.82 | prob=0.4406 | EV=-0.198108 | match=1.0
+- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=AWAY | src=football_data_max_market_proxy | odds=4.1 | prob=0.3152 | EV=0.29232 | match=1.0
+- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=AWAY | src=football_data_average_market_proxy | odds=3.92 | prob=0.3152 | EV=0.235584 | match=1.0
+- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=AWAY | src=football_data_bet365_proxy | odds=3.75 | prob=0.3152 | EV=0.182 | match=1.0
+- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=DRAW | src=football_data_max_market_proxy | odds=4.1 | prob=0.259 | EV=0.0619 | match=1.0
+- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=DRAW | src=football_data_bet365_proxy | odds=4.1 | prob=0.259 | EV=0.0619 | match=1.0
+- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=DRAW | src=football_data_average_market_proxy | odds=3.82 | prob=0.259 | EV=-0.01062 | match=1.0
+- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=HOME | src=football_data_max_market_proxy | odds=1.86 | prob=0.4257 | EV=-0.208198 | match=1.0
+- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=HOME | src=football_data_bet365_proxy | odds=1.83 | prob=0.4257 | EV=-0.220969 | match=1.0
+- 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=HOME | src=football_data_average_market_proxy | odds=1.82 | prob=0.4257 | EV=-0.225226 | match=1.0
 
 ## forward_fixture_predictions
 
@@ -115,7 +115,7 @@ Probability-only forward fixture model output. Not a betting card and not a real
 Upcoming fixture rows: 1
 Forward fixture prediction rows: 1
 Ready for price join: True
-- 2026-05-11 19:00:00 | Tottenham Hotspur vs Leeds United | H=0.4406 D=0.2565 A=0.3029 | fair=2.27/3.9/3.3
+- 2026-05-11 19:00:00 | Tottenham Hotspur vs Leeds United | H=0.4257 D=0.259 A=0.3152 | fair=2.35/3.86/3.17
 
 ## forward_fixture_prediction_log
 
@@ -216,18 +216,20 @@ No manual forward snapshots built. Fill data/manual/manual_odds_template.csv wit
 
 # Paper Test Log Status
 Raw log rows: 8
-Valid forward log rows: 0
-Invalid historical/proxy log rows excluded: 8
-Has valid forward log: False
+Valid forward/proxy log rows: 5
+Valid automatic proxy observation rows: 5
+Invalid historical/proxy log rows excluded: 3
+Has valid forward log: True
+## Valid rows
+- 2026-05-11 | Tottenham Hotspur vs Leeds United | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
+- 2026-05-11 | Tottenham Hotspur vs Leeds United | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
+- 2026-05-11 | Tottenham Hotspur vs Leeds United | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
+- 2026-05-11 | Tottenham Hotspur vs Leeds United | selection=draw | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
+- 2026-05-11 | Tottenham Hotspur vs Leeds United | selection=draw | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
 ## Invalid rows excluded
 - 25/05/2025 | Liverpool vs Crystal Palace | phase=historical_proxy_research
 - 25/05/2025 | Fulham vs Man City | phase=historical_proxy_research
 - 25/05/2025 | Southampton vs Arsenal | phase=historical_proxy_research
-- 2026-05-11 | Tottenham Hotspur vs Leeds United | phase=automatic_forward_price_proxy
-- 2026-05-11 | Tottenham Hotspur vs Leeds United | phase=automatic_forward_price_proxy
-- 2026-05-11 | Tottenham Hotspur vs Leeds United | phase=automatic_forward_price_proxy
-- 2026-05-11 | Tottenham Hotspur vs Leeds United | phase=automatic_forward_price_proxy
-- 2026-05-11 | Tottenham Hotspur vs Leeds United | phase=automatic_forward_price_proxy
 
 ## betting_performance
 
@@ -269,23 +271,23 @@ No qualifying candidate bets today.
 - League/phase: premier_league / automatic_forward_price_proxy
 - Selection: AWAY
 - Market odds: 4.1
-- Fair odds: 3.3
-- Model probability: 0.3029
+- Fair odds: 3.17
+- Model probability: 0.3152
 - Probability band: 0.00-0.35
-- EV: 0.2419
-- Probability edge: 0.059
-- Alignment penalty: 0.2419
+- EV: 0.2923
+- Probability edge: 0.0713
+- Alignment penalty: 0.2923
 - Suppression action: proxy_suppressed_band_observe_only
 - Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.1282
+- Paper score: 0.1299
 - Prediction ID: a34fb57cd5c2b5199b69
 ### Tottenham Hotspur vs Leeds United
 - Date/time: 2026-05-11 19:00:00
 - League/phase: premier_league / automatic_forward_price_proxy
 - Selection: AWAY
 - Market odds: 3.92
-- Fair odds: 3.3
-- Model probability: 0.3029
+- Fair odds: 3.17
+- Model probability: 0.3152
 - Probability band: 0.00-0.35
 
 ## paper_test_picks
@@ -296,31 +298,31 @@ Automatic proxy prices are delayed/free market proxies, not live bookmaker odds.
 Suppressed historical bands may be tracked only as proxy observation and remain excluded from real-money readiness.
 Source used: automatic_forward_value_snapshots
 Current paper-test picks: 5
-Newly logged paper-test picks: 5
+Newly logged paper-test picks: 0
 Total logged paper-test rows: 8
-- Tottenham Hotspur vs Leeds United | selection=AWAY | odds=4.1 | prob=0.3029 | EV=0.2419 | edge=0.059 | penalty=0.2419 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
-- Tottenham Hotspur vs Leeds United | selection=AWAY | odds=3.92 | prob=0.3029 | EV=0.1874 | edge=0.0478 | penalty=0.1874 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
-- Tottenham Hotspur vs Leeds United | selection=AWAY | odds=3.75 | prob=0.3029 | EV=0.1359 | edge=0.0362 | penalty=0.1359 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
-- Tottenham Hotspur vs Leeds United | selection=DRAW | odds=4.1 | prob=0.2565 | EV=0.0517 | edge=0.0126 | penalty=0.0517 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
-- Tottenham Hotspur vs Leeds United | selection=DRAW | odds=4.1 | prob=0.2565 | EV=0.0517 | edge=0.0126 | penalty=0.0517 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
+- Tottenham Hotspur vs Leeds United | selection=AWAY | odds=4.1 | prob=0.3152 | EV=0.2923 | edge=0.0713 | penalty=0.2923 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
+- Tottenham Hotspur vs Leeds United | selection=AWAY | odds=3.92 | prob=0.3152 | EV=0.2356 | edge=0.0601 | penalty=0.2356 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
+- Tottenham Hotspur vs Leeds United | selection=AWAY | odds=3.75 | prob=0.3152 | EV=0.182 | edge=0.0485 | penalty=0.182 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
+- Tottenham Hotspur vs Leeds United | selection=DRAW | odds=4.1 | prob=0.259 | EV=0.0619 | edge=0.0151 | penalty=0.0619 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
+- Tottenham Hotspur vs Leeds United | selection=DRAW | odds=4.1 | prob=0.259 | EV=0.0619 | edge=0.0151 | penalty=0.0619 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
 
 ## probability_calibration_layer
 
 # Probability Calibration Layer
-Prediction rows: 6
+Prediction rows: 7
 Band rules available: 4
-- 0.00-0.35 | very_strong_shrink | adjustments=12
-- 0.35-0.45 | monitor_hold | adjustments=3
-- 0.45-0.50 | none | adjustments=2
+- 0.00-0.35 | very_strong_shrink | adjustments=13
+- 0.35-0.45 | monitor_hold | adjustments=6
+- 0.45-0.50 | none | adjustments=1
 - 0.50-0.55 | small_sample_shrink | adjustments=1
 
 ## probability_calibration_impact
 
 # Probability Calibration Impact Report
-- 0.00-0.35 | action=very_strong_shrink | rows=12 | avg_raw_prob=0.2778 | avg_multiplier=0.82
-- 0.35-0.45 | action=monitor_hold | rows=3 | avg_raw_prob=0.4076 | avg_multiplier=1.01
-- 0.45-0.50 | action=none | rows=2 | avg_raw_prob=0.4636 | avg_multiplier=1.0
-- 0.50-0.55 | action=small_sample_shrink | rows=1 | avg_raw_prob=0.5168 | avg_multiplier=0.96
+- 0.00-0.35 | action=very_strong_shrink | rows=13 | avg_raw_prob=0.2798 | avg_multiplier=0.82
+- 0.35-0.45 | action=monitor_hold | rows=6 | avg_raw_prob=0.4002 | avg_multiplier=1.01
+- 0.45-0.50 | action=none | rows=1 | avg_raw_prob=0.4554 | avg_multiplier=1.0
+- 0.50-0.55 | action=small_sample_shrink | rows=1 | avg_raw_prob=0.5062 | avg_multiplier=0.96
 
 ## clv_trend
 
@@ -388,9 +390,9 @@ Separates historical proxy research from paper forward-testing diagnostics.
 ## market_alignment
 
 # Market Alignment Report
-Total usable rows: 18
-Average alignment gap: 0.1258
-Median alignment gap: 0.1126
+Total usable rows: 21
+Average alignment gap: 0.1107
+Median alignment gap: 0.0964
 Market alignment status: moderate_alignment
 
 ## market_proxy_quality
@@ -398,25 +400,25 @@ Market alignment status: moderate_alignment
 # Market Proxy Quality Report
 Rows: 30
 Average overround: 1.0294
-Median overround: 1.0288
-Min overround: 1.026
+Median overround: 1.0291
+Min overround: 1.0266
 Max overround: 1.0375
 Market proxy quality: reasonable_market_proxy
 
 ## probability_distribution
 
 # Probability Distribution Report
-Count: 18
+Count: 21
 Mean probability: 0.3333
-Max probability: 0.556
-Min probability: 0.2151
-Std probability: 0.122
+Max probability: 0.5455
+Min probability: 0.2191
+Std probability: 0.1099
 Probability distribution is within conservative guardrails.
 
 ## historical_coverage
 
 # Historical Coverage Report
-Total matches: 4950
+Total matches: 5330
 Total leagues: 5
 Total seasons: 3
 ## Coverage
@@ -433,4 +435,5 @@ Total seasons: 3
 - 2425 | bundesliga | matches=306
 - 2425 | la_liga | matches=380
 - 2425 | ligue_1 | matches=306
+- 2425 | premier_league | matches=380
 - 2425 | serie_a | matches=380
