@@ -9,6 +9,7 @@ Source counts: {'football_data_fixtures_proxy': 11, 'odds_api_io_events': 8}
 Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 
 - 2026-05-09 23:30 | Guapore  RO vs Galvez EC AC | brazil-brasileiro-serie-d | odds_api_io_events
+- 2026-05-09 18:00 | SC Bastia vs Le Mans FC | france-ligue-2 | odds_api_io_events
 - 2026-05-10 20:00 | Aguia de Maraba FC PA vs Oratorio RC AP | brazil-brasileiro-serie-d | odds_api_io_events
 - 2026-05-10 12:00 | FC Aktobe vs Kaisar Kyzylorda | kazakhstan-premier-league | odds_api_io_events
 - 2026-05-10 07:30 | Kwun Tong vs Hoi King | hong-kong-china-1-division | odds_api_io_events
@@ -26,4 +27,3 @@ Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 - 2026-05-11 20:15 | Tondela vs Moreirense | P1 | football_data_fixtures_proxy
 - 2026-05-11 20:00 | Tottenham vs Leeds | premier_league | football_data_fixtures_proxy
 - 2026-05-11 20:00 | Vallecano vs Girona | la_liga | football_data_fixtures_proxy
-- 2026-05-11 07:00 | Vietnam vs Australia | international-youth-u17-afc-asian-cup-women | odds_api_io_events

@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T14:28:29.759893+00:00`
-GitHub run: `251` attempt `1`
-GitHub SHA: `77a5fac94aec1f4390fe58379bf5629040a9bd46`
+Generated UTC: `2026-05-11T14:33:25.896498+00:00`
+GitHub run: `253` attempt `1`
+GitHub SHA: `5f866cbd5a30d878780b0eccac2e4c5c14324b5b`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -118,6 +118,8 @@ Next development step: add_team_aliases_for_upcoming_fixtures
 ## Team matching
 - Guapore  RO | suggestion=nan | type=unmatched
 - Galvez EC AC | suggestion=nan | type=unmatched
+- SC Bastia | suggestion=nan | type=unmatched
+- Le Mans FC | suggestion=nan | type=unmatched
 - Aguia de Maraba FC PA | suggestion=nan | type=unmatched
 - Oratorio RC AP | suggestion=nan | type=unmatched
 - FC Aktobe | suggestion=nan | type=unmatched
@@ -131,8 +133,6 @@ Next development step: add_team_aliases_for_upcoming_fixtures
 - Yokohama F Marinos | suggestion=nan | type=unmatched
 - Kashima Antlers | suggestion=nan | type=unmatched
 - Benfica | suggestion=nan | type=unmatched
-- Sp Braga | suggestion=nan | type=unmatched
-- Estrela | suggestion=nan | type=unmatched
 
 ## automatic_forward_value_snapshots
 
@@ -249,6 +249,7 @@ Upcoming fixtures exist, but no automatic odds/proxy forward snapshot source is 
 ## Optional manual fallback status
 Manual odds are not required in the current phase. These rows are only kept for later fallback use:
 - 2026-05-09 23:30 | Guapore  RO vs Galvez EC AC
+- 2026-05-09 18:00 | SC Bastia vs Le Mans FC
 - 2026-05-10 20:00 | Aguia de Maraba FC PA vs Oratorio RC AP
 - 2026-05-10 12:00 | FC Aktobe vs Kaisar Kyzylorda
 - 2026-05-10 07:30 | Kwun Tong vs Hoi King
@@ -262,7 +263,6 @@ Manual odds are not required in the current phase. These rows are only kept for 
 - 2026-05-11 19:30 | Huesca vs Sociedad B
 - 2026-05-11 19:45 | Napoli vs Bologna
 - 2026-05-11 20:15 | Rio Ave vs Sp Lisbon
-- 2026-05-11 20:15 | Santa Clara vs Nacional
 
 ## upcoming_fixtures
 
@@ -274,6 +274,7 @@ Fixtures found: 19
 Source counts: {'football_data_fixtures_proxy': 11, 'odds_api_io_events': 8}
 Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 - 2026-05-09 23:30 | Guapore  RO vs Galvez EC AC | brazil-brasileiro-serie-d | odds_api_io_events
+- 2026-05-09 18:00 | SC Bastia vs Le Mans FC | france-ligue-2 | odds_api_io_events
 - 2026-05-10 20:00 | Aguia de Maraba FC PA vs Oratorio RC AP | brazil-brasileiro-serie-d | odds_api_io_events
 - 2026-05-10 12:00 | FC Aktobe vs Kaisar Kyzylorda | kazakhstan-premier-league | odds_api_io_events
 - 2026-05-10 07:30 | Kwun Tong vs Hoi King | hong-kong-china-1-division | odds_api_io_events
@@ -291,7 +292,6 @@ Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 - 2026-05-11 20:15 | Tondela vs Moreirense | P1 | football_data_fixtures_proxy
 - 2026-05-11 20:00 | Tottenham vs Leeds | premier_league | football_data_fixtures_proxy
 - 2026-05-11 20:00 | Vallecano vs Girona | la_liga | football_data_fixtures_proxy
-- 2026-05-11 07:00 | Vietnam vs Australia | international-youth-u17-afc-asian-cup-women | odds_api_io_events
 
 ## manual_odds_template
 
@@ -302,6 +302,7 @@ Fill the three 1X2 odds columns from Bet365 before kickoff, then commit/update t
 Template rows: 19
 Rows with complete odds: 0
 - 2026-05-09 23:30 | Guapore  RO vs Galvez EC AC | bookmaker=bet365_manual
+- 2026-05-09 18:00 | SC Bastia vs Le Mans FC | bookmaker=bet365_manual
 - 2026-05-10 20:00 | Aguia de Maraba FC PA vs Oratorio RC AP | bookmaker=bet365_manual
 - 2026-05-10 12:00 | FC Aktobe vs Kaisar Kyzylorda | bookmaker=bet365_manual
 - 2026-05-10 07:30 | Kwun Tong vs Hoi King | bookmaker=bet365_manual
@@ -319,7 +320,6 @@ Rows with complete odds: 0
 - 2026-05-11 20:15 | Tondela vs Moreirense | bookmaker=bet365_manual
 - 2026-05-11 20:00 | Tottenham vs Leeds | bookmaker=bet365_manual
 - 2026-05-11 20:00 | Vallecano vs Girona | bookmaker=bet365_manual
-- 2026-05-11 07:00 | Vietnam vs Australia | bookmaker=bet365_manual
 
 ## manual_odds_instructions
 
@@ -335,6 +335,7 @@ Open `data/manual/manual_odds_template.csv` and fill these columns only:
 Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 ## Current rows needing odds
 - 2026-05-09 23:30 | Guapore  RO vs Galvez EC AC
+- 2026-05-09 18:00 | SC Bastia vs Le Mans FC
 - 2026-05-10 20:00 | Aguia de Maraba FC PA vs Oratorio RC AP
 - 2026-05-10 12:00 | FC Aktobe vs Kaisar Kyzylorda
 - 2026-05-10 07:30 | Kwun Tong vs Hoi King
@@ -352,7 +353,6 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-11 20:15 | Tondela vs Moreirense
 - 2026-05-11 20:00 | Tottenham vs Leeds
 - 2026-05-11 20:00 | Vallecano vs Girona
-- 2026-05-11 07:00 | Vietnam vs Australia
 
 ## manual_forward_snapshots
 

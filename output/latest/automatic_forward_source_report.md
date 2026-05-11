@@ -17,6 +17,8 @@ Next development step: add_team_aliases_for_upcoming_fixtures
 
 - Guapore  RO | suggestion=nan | type=unmatched
 - Galvez EC AC | suggestion=nan | type=unmatched
+- SC Bastia | suggestion=nan | type=unmatched
+- Le Mans FC | suggestion=nan | type=unmatched
 - Aguia de Maraba FC PA | suggestion=nan | type=unmatched
 - Oratorio RC AP | suggestion=nan | type=unmatched
 - FC Aktobe | suggestion=nan | type=unmatched
@@ -43,8 +45,6 @@ Next development step: add_team_aliases_for_upcoming_fixtures
 - Sp Lisbon | suggestion=nan | type=unmatched
 - Santa Clara | suggestion=nan | type=unmatched
 - Nacional | suggestion=nan | type=unmatched
-- Tondela | suggestion=nan | type=unmatched
-- Moreirense | suggestion=nan | type=unmatched
 
 ## Interpretation
 

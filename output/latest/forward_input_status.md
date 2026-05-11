@@ -20,6 +20,7 @@ Upcoming fixtures exist, but no automatic odds/proxy forward snapshot source is 
 
 Manual odds are not required in the current phase. These rows are only kept for later fallback use:
 - 2026-05-09 23:30 | Guapore  RO vs Galvez EC AC
+- 2026-05-09 18:00 | SC Bastia vs Le Mans FC
 - 2026-05-10 20:00 | Aguia de Maraba FC PA vs Oratorio RC AP
 - 2026-05-10 12:00 | FC Aktobe vs Kaisar Kyzylorda
 - 2026-05-10 07:30 | Kwun Tong vs Hoi King
@@ -37,4 +38,3 @@ Manual odds are not required in the current phase. These rows are only kept for 
 - 2026-05-11 20:15 | Tondela vs Moreirense
 - 2026-05-11 20:00 | Tottenham vs Leeds
 - 2026-05-11 20:00 | Vallecano vs Girona
-- 2026-05-11 07:00 | Vietnam vs Australia

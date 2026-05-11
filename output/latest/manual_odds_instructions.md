@@ -18,6 +18,7 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 ## Current rows needing odds
 
 - 2026-05-09 23:30 | Guapore  RO vs Galvez EC AC
+- 2026-05-09 18:00 | SC Bastia vs Le Mans FC
 - 2026-05-10 20:00 | Aguia de Maraba FC PA vs Oratorio RC AP
 - 2026-05-10 12:00 | FC Aktobe vs Kaisar Kyzylorda
 - 2026-05-10 07:30 | Kwun Tong vs Hoi King
@@ -35,7 +36,6 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-11 20:15 | Tondela vs Moreirense
 - 2026-05-11 20:00 | Tottenham vs Leeds
 - 2026-05-11 20:00 | Vallecano vs Girona
-- 2026-05-11 07:00 | Vietnam vs Australia
 
 ## After filling odds
 
