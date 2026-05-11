@@ -1,2 +1,2 @@
 input_price_rows,accepted_price_rows,rejected_price_rows,forward_prediction_rows,quality_rule
-1,0,1,80,accept_only_direct_home_away_match_against_forward_fixture_predictions
+0,0,0,11,accept_only_direct_home_away_match_against_forward_fixture_predictions
