@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T07:25:26.866384+00:00`
-GitHub run: `215` attempt `1`
-GitHub SHA: `25e771841f92d1932e9f94371547753ae73e3071`
+Generated UTC: `2026-05-11T07:29:39.624608+00:00`
+GitHub run: `216` attempt `1`
+GitHub SHA: `05df8bed42a83d27e93561dd67a563e8a3dc75d2`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -15,6 +15,8 @@ Overall status: `OK`
 | Upcoming fixtures | True | 1 |  |  |
 | Forward fixture results | True | 1 |  |  |
 | Forward fixture result status | True | 1 |  |  |
+| Forward probability calibration report | True | 1 |  |  |
+| Forward probability calibration summary | True | 1 |  |  |
 | Automatic forward source report | True | 1 |  |  |
 | Automatic forward prices | True | 0 |  |  |
 | Forward price source adapter | True | 1 |  |  |
@@ -32,8 +34,6 @@ Overall status: `OK`
 | Poisson predictions | True | 7 |  |  |
 | Probability calibration adjustments | True | 21 |  |  |
 | Probability calibration rules | True | 4 |  |  |
-| Probability calibration impact | True | 4 |  |  |
-| Expected value calculations | True | 7 |  |  |
 
 ## automatic_forward_source
 
@@ -83,6 +83,17 @@ Result rows: 1
 Settled result rows: 0
 Errors: 0
 - 2026-05-11 19:00:00 | Tottenham Hotspur vs Leeds United | score=not available | status=not_started_or_result_unavailable
+
+## forward_probability_calibration
+
+# Forward Probability Calibration Report
+Probability-only forward calibration. No odds, no stakes, no real-money signal.
+Forward probability rows: 1
+Settled rows: 0
+Unsettled rows: 1
+Accuracy: None
+Average Brier score: None
+- 2026-05-11 | Tottenham Hotspur vs Leeds United | pred=home (0.4257) | actual=None | status=unsettled
 
 ## forward_input_status
 
