@@ -9,7 +9,7 @@ Fixture team rows unmatched: 0
 Ready for model-fixture join: True
 Configured forward sources: 1
 Enabled forward sources: 1
-Automatic forward price rows: 405
+Automatic forward price rows: 33
 Automatic forward status: automatic_forward_proxy_available
 Blocker: none_for_proxy_testing
 Next development step: evaluate_proxy_value_snapshots_and_paper_filters

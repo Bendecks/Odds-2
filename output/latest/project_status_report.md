@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T09:19:38.789236+00:00`
-GitHub run: `232` attempt `1`
-GitHub SHA: `9b32185e40733efb4709eb8aab8bd61d11ec8cda`
+Generated UTC: `2026-05-11T09:23:22.027116+00:00`
+GitHub run: `233` attempt `1`
+GitHub SHA: `11947e5235b934f335cc856069e4bb62afe85428`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -40,33 +40,33 @@ Overall status: `OK`
 # Football-Data Upcoming Odds Proxy
 Free delayed market proxy. Not live odds and not real-money ready.
 Raw rows: 135
-Proxy price rows: 405
+Upcoming fixture rows: 11
+Proxy price rows: 33
 Sources attempted: 1
 Errors: 0
-- 08/05/2026 19:45 | Standard vs Oud-Heverlee Leuven | football_data_bet365_proxy | 2.0/3.5/3.5
-- 08/05/2026 19:45 | Standard vs Oud-Heverlee Leuven | football_data_max_market_proxy | 2.07/3.5/3.66
-- 08/05/2026 19:45 | Standard vs Oud-Heverlee Leuven | football_data_average_market_proxy | 2.01/3.41/3.48
-- 09/05/2026 15:00 | RAAL La Louviere vs Cercle Brugge | football_data_bet365_proxy | 3.1/3.3/2.15
-- 09/05/2026 15:00 | RAAL La Louviere vs Cercle Brugge | football_data_max_market_proxy | 3.2/3.6/2.2
-- 09/05/2026 15:00 | RAAL La Louviere vs Cercle Brugge | football_data_average_market_proxy | 3.06/3.45/2.16
-- 09/05/2026 15:00 | Waregem vs Dender | football_data_bet365_proxy | 1.55/3.9/5.5
-- 09/05/2026 15:00 | Waregem vs Dender | football_data_max_market_proxy | 1.6/4.35/5.8
-- 09/05/2026 15:00 | Waregem vs Dender | football_data_average_market_proxy | 1.54/4.1/5.38
-- 09/05/2026 19:45 | Club Brugge vs St Truiden | football_data_bet365_proxy | 1.45/4.5/5.5
-- 09/05/2026 19:45 | Club Brugge vs St Truiden | football_data_max_market_proxy | 1.53/4.75/6.0
-- 09/05/2026 19:45 | Club Brugge vs St Truiden | football_data_average_market_proxy | 1.47/4.6/5.5
-- 10/05/2026 12:30 | Gent vs Anderlecht | football_data_bet365_proxy | 2.3/3.4/2.75
-- 10/05/2026 12:30 | Gent vs Anderlecht | football_data_max_market_proxy | 2.45/3.6/2.9
-- 10/05/2026 12:30 | Gent vs Anderlecht | football_data_average_market_proxy | 2.34/3.43/2.75
-- 10/05/2026 15:00 | Antwerp vs Charleroi | football_data_bet365_proxy | 2.3/3.2/2.9
-- 10/05/2026 15:00 | Antwerp vs Charleroi | football_data_max_market_proxy | 2.37/3.35/3.2
-- 10/05/2026 15:00 | Antwerp vs Charleroi | football_data_average_market_proxy | 2.28/3.25/2.97
-- 10/05/2026 17:30 | St. Gilloise vs Mechelen | football_data_bet365_proxy | 1.33/4.5/8.0
-- 10/05/2026 17:30 | St. Gilloise vs Mechelen | football_data_max_market_proxy | 1.36/5.5/11.5
-- 10/05/2026 17:30 | St. Gilloise vs Mechelen | football_data_average_market_proxy | 1.31/5.06/8.7
-- 10/05/2026 18:15 | Genk vs Westerlo | football_data_bet365_proxy | 1.6/4.0/4.5
-- 10/05/2026 18:15 | Genk vs Westerlo | football_data_max_market_proxy | 1.67/4.5/5.2
-- 10/05/2026 18:15 | Genk vs Westerlo | football_data_average_market_proxy | 1.6/4.16/4.63
+- 2026-05-11 20:00 | Tottenham vs Leeds | football_data_bet365_proxy | 1.83/4.1/3.75
+- 2026-05-11 20:00 | Tottenham vs Leeds | football_data_max_market_proxy | 1.86/4.1/4.1
+- 2026-05-11 20:00 | Tottenham vs Leeds | football_data_average_market_proxy | 1.82/3.82/3.92
+- 2026-05-11 19:45 | Napoli vs Bologna | football_data_bet365_proxy | 1.53/4.2/6.0
+- 2026-05-11 19:45 | Napoli vs Bologna | football_data_max_market_proxy | 1.57/4.2/6.5
+- 2026-05-11 19:45 | Napoli vs Bologna | football_data_average_market_proxy | 1.52/4.01/6.06
+- 2026-05-11 20:15 | Benfica vs Sp Braga | football_data_bet365_proxy | 1.39/4.33/7.0
+- 2026-05-11 20:15 | Benfica vs Sp Braga | football_data_max_market_proxy | 1.44/4.8/7.5
+- 2026-05-11 20:15 | Benfica vs Sp Braga | football_data_average_market_proxy | 1.4/4.45/6.61
+- 2026-05-11 20:15 | Estrela vs Famalicao | football_data_bet365_proxy | 3.5/3.6/1.96
+- 2026-05-11 20:15 | Estrela vs Famalicao | football_data_max_market_proxy | 3.7/3.6/2.0
+- 2026-05-11 20:15 | Estrela vs Famalicao | football_data_average_market_proxy | 3.51/3.42/1.96
+- 2026-05-11 20:15 | Gil Vicente vs Arouca | football_data_bet365_proxy | 1.66/3.8/4.75
+- 2026-05-11 20:15 | Gil Vicente vs Arouca | football_data_max_market_proxy | 1.73/3.8/4.9
+- 2026-05-11 20:15 | Gil Vicente vs Arouca | football_data_average_market_proxy | 1.69/3.67/4.55
+- 2026-05-11 20:15 | Guimaraes vs Casa Pia | football_data_bet365_proxy | 1.71/3.75/4.33
+- 2026-05-11 20:15 | Guimaraes vs Casa Pia | football_data_max_market_proxy | 1.78/4.0/4.75
+- 2026-05-11 20:15 | Guimaraes vs Casa Pia | football_data_average_market_proxy | 1.72/3.67/4.3
+- 2026-05-11 20:15 | Rio Ave vs Sp Lisbon | football_data_bet365_proxy | 10.0/5.5/1.24
+- 2026-05-11 20:15 | Rio Ave vs Sp Lisbon | football_data_max_market_proxy | 11.0/6.4/1.28
+- 2026-05-11 20:15 | Rio Ave vs Sp Lisbon | football_data_average_market_proxy | 9.64/5.89/1.23
+- 2026-05-11 20:15 | Santa Clara vs Nacional | football_data_bet365_proxy | 2.05/3.4/3.5
+- 2026-05-11 20:15 | Santa Clara vs Nacional | football_data_max_market_proxy | 2.12/3.4/3.75
 
 ## automatic_forward_source
 
@@ -79,7 +79,7 @@ Fixture team rows unmatched: 0
 Ready for model-fixture join: True
 Configured forward sources: 1
 Enabled forward sources: 1
-Automatic forward price rows: 405
+Automatic forward price rows: 33
 Automatic forward status: automatic_forward_proxy_available
 Blocker: none_for_proxy_testing
 Next development step: evaluate_proxy_value_snapshots_and_paper_filters
@@ -94,7 +94,7 @@ Automatic delayed proxy prices are available. Use only for paper-test/proxy obse
 Delayed/free market proxy joined to forward probability predictions.
 Not live odds, not Bet365 direct, and not real-money ready.
 Forward prediction rows: 1
-Proxy price rows: 405
+Proxy price rows: 33
 Matched prediction rows: 1
 Value snapshot rows: 9
 Positive EV rows: 5

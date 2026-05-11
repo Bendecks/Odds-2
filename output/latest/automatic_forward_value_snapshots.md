@@ -4,7 +4,7 @@ Delayed/free market proxy joined to forward probability predictions.
 Not live odds, not Bet365 direct, and not real-money ready.
 
 Forward prediction rows: 1
-Proxy price rows: 405
+Proxy price rows: 33
 Matched prediction rows: 1
 Value snapshot rows: 9
 Positive EV rows: 5

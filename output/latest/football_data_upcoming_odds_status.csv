@@ -1,2 +1,2 @@
-raw_rows,proxy_price_rows,sources_attempted,errors,source_quality
-135,405,1,0,free_delayed_market_proxy
+raw_rows,upcoming_fixture_rows,proxy_price_rows,sources_attempted,errors,source_quality
+135,11,33,1,0,free_delayed_market_proxy
