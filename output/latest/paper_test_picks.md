@@ -6,7 +6,7 @@ Suppressed historical bands may be tracked only as proxy observation and remain 
 
 Source used: automatic_forward_value_snapshots
 Current paper-test picks: 7
-Newly logged paper-test picks: 3
+Newly logged paper-test picks: 0
 Total logged paper-test rows: 15
 
 - Tottenham vs Leeds | selection=AWAY | odds=4.1 | prob=0.3152 | EV=0.2923 | edge=0.0713 | penalty=0.2923 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation

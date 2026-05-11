@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T09:45:38.968142+00:00`
-GitHub run: `236` attempt `1`
-GitHub SHA: `2da2abdef93ce125d2b33787c798081aa557adbd`
+Generated UTC: `2026-05-11T10:22:02.219558+00:00`
+GitHub run: `237` attempt `1`
+GitHub SHA: `e91a7e6e13ae93e581c244080644edeb671602dd`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -15,12 +15,12 @@ Overall status: `OK`
 | Football-Data upcoming fixtures proxy | True | 11 |  |  |
 | Football-Data upcoming odds proxy | True | 33 |  |  |
 | Football-Data upcoming odds status | True | 1 |  |  |
-| Automatic forward value snapshots | True | 36 |  |  |
+| Automatic forward value snapshots | True | 27 |  |  |
 | Automatic forward value snapshot summary | True | 1 |  |  |
-| Automatic forward value match diagnostics | True | 4 |  |  |
+| Automatic forward value match diagnostics | True | 3 |  |  |
 | Proxy observation quality report | True | 1 |  |  |
 | Proxy observation by selection | True | 2 |  |  |
-| Upcoming fixtures | True | 12 |  |  |
+| Upcoming fixtures | True | 11 |  |  |
 | Forward fixture results | True | 1 |  |  |
 | Forward fixture result status | True | 1 |  |  |
 | Forward probability calibration report | True | 1 |  |  |
@@ -28,9 +28,9 @@ Overall status: `OK`
 | Automatic forward source report | True | 1 |  |  |
 | Automatic forward prices | True | 33 |  |  |
 | Forward price source adapter | True | 1 |  |  |
-| Fixture model match report | True | 24 |  |  |
+| Fixture model match report | True | 22 |  |  |
 | Fixture model match summary | True | 1 |  |  |
-| Forward fixture predictions | True | 4 |  |  |
+| Forward fixture predictions | True | 3 |  |  |
 | Forward fixture prediction summary | True | 1 |  |  |
 | Forward fixture prediction log | True | 4 |  |  |
 | Forward fixture prediction log status | True | 1 |  |  |
@@ -398,7 +398,7 @@ Automatic proxy prices are delayed/free market proxies, not live bookmaker odds.
 Suppressed historical bands may be tracked only as proxy observation and remain excluded from real-money readiness.
 Source used: automatic_forward_value_snapshots
 Current paper-test picks: 7
-Newly logged paper-test picks: 3
+Newly logged paper-test picks: 0
 Total logged paper-test rows: 15
 - Tottenham vs Leeds | selection=AWAY | odds=4.1 | prob=0.3152 | EV=0.2923 | edge=0.0713 | penalty=0.2923 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
 - Tottenham vs Leeds | selection=AWAY | odds=3.92 | prob=0.3152 | EV=0.2356 | edge=0.0601 | penalty=0.2356 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
