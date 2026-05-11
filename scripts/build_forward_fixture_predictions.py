@@ -183,11 +183,14 @@ else:
 
 (output_dir / 'forward_fixture_predictions.md').write_text('\n'.join(markdown), encoding='utf-8')
 
-logger = Path('scripts/log_forward_fixture_predictions.py')
-if logger.exists():
-    try:
-        runpy.run_path(str(logger), run_name='__main__')
-    except Exception as exc:
-        print(f'Forward fixture prediction logger skipped: {exc!r}')
+for script in [
+    Path('scripts/log_forward_fixture_predictions.py'),
+    Path('scripts/build_automatic_forward_value_snapshots.py'),
+]:
+    if script.exists():
+        try:
+            runpy.run_path(str(script), run_name='__main__')
+        except Exception as exc:
+            print(f'{script} skipped: {exc!r}')
 
 print(summary)
