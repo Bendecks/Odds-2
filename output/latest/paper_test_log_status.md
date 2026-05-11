@@ -1,8 +1,8 @@
 # Paper Test Log Status
 
-Raw log rows: 8
-Valid forward/proxy log rows: 5
-Valid automatic proxy observation rows: 5
+Raw log rows: 12
+Valid forward/proxy log rows: 9
+Valid automatic proxy observation rows: 9
 Invalid historical/proxy log rows excluded: 3
 Has valid forward log: True
 
@@ -13,6 +13,10 @@ Has valid forward log: True
 - 2026-05-11 | Tottenham Hotspur vs Leeds United | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
 - 2026-05-11 | Tottenham Hotspur vs Leeds United | selection=draw | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
 - 2026-05-11 | Tottenham Hotspur vs Leeds United | selection=draw | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
+- 2026-05-11 | Tottenham vs Leeds | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
+- 2026-05-11 | Tottenham vs Leeds | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
+- 2026-05-11 | Tottenham vs Leeds | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
+- 2026-05-11 | Napoli vs Bologna | selection=draw | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
 
 ## Invalid rows excluded
 
