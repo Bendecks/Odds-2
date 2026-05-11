@@ -47,12 +47,12 @@ def norm_team(value) -> str:
 
 
 def source_priority(source) -> int:
-    # Prefer Football-Data rows when the same fixture exists in multiple sources,
-    # because those rows use the same naming/date basis as the delayed odds proxy.
-    if str(source) == 'football_data_fixtures_proxy':
+    if str(source) == 'odds_api_io_events':
         return 0
-    if str(source) == 'thesportsdb_eventsnextleague':
+    if str(source) == 'football_data_fixtures_proxy':
         return 1
+    if str(source) == 'thesportsdb_eventsnextleague':
+        return 2
     return 9
 
 
@@ -79,23 +79,29 @@ for league, cfg in LEAGUES.items():
             'fetched_at_utc': fetched_at,
         })
 
-football_data_script = Path('scripts/fetch_football_data_upcoming_odds.py')
-if football_data_script.exists():
-    try:
-        runpy.run_path(str(football_data_script), run_name='__main__')
-    except Exception as exc:
-        print(f'{football_data_script} skipped: {exc!r}')
+for script in [
+    Path('scripts/fetch_football_data_upcoming_odds.py'),
+    Path('scripts/fetch_odds_api_io_forward_prices.py'),
+]:
+    if script.exists():
+        try:
+            runpy.run_path(str(script), run_name='__main__')
+        except Exception as exc:
+            print(f'{script} skipped: {exc!r}')
 
-football_data_fixtures_path = output_dir / 'football_data_upcoming_fixtures.csv'
-if football_data_fixtures_path.exists() and football_data_fixtures_path.stat().st_size > 0:
-    try:
-        fd_fixtures = pd.read_csv(football_data_fixtures_path)
-        for col in expected_columns:
-            if col not in fd_fixtures.columns:
-                fd_fixtures[col] = None
-        rows.extend(fd_fixtures[expected_columns].to_dict(orient='records'))
-    except Exception as exc:
-        errors.append({'league': 'football_data_fixtures_proxy', 'error': repr(exc)})
+for path, label in [
+    (output_dir / 'football_data_upcoming_fixtures.csv', 'football_data_fixtures_proxy'),
+    (output_dir / 'odds_api_io_forward_fixtures.csv', 'odds_api_io_events'),
+]:
+    if path.exists() and path.stat().st_size > 0:
+        try:
+            source_fixtures = pd.read_csv(path)
+            for col in expected_columns:
+                if col not in source_fixtures.columns:
+                    source_fixtures[col] = None
+            rows.extend(source_fixtures[expected_columns].to_dict(orient='records'))
+        except Exception as exc:
+            errors.append({'league': label, 'error': repr(exc)})
 
 fixtures = pd.DataFrame(rows)
 for col in expected_columns:
@@ -121,16 +127,16 @@ summary = {
     'fixture_rows': int(len(fixtures)),
     'source_counts': json.dumps(source_counts, sort_keys=True),
     'errors': int(len(errors)),
-    'dedupe_strategy': 'date_normalized_home_away_prefer_football_data',
+    'dedupe_strategy': 'date_normalized_home_away_prefer_odds_api_then_football_data',
 }
 pd.DataFrame([summary]).to_csv(output_dir / 'upcoming_fixture_source_summary.csv', index=False)
 
 markdown = [
     '# Upcoming Fixtures',
     '',
-    'Fixture sources: TheSportsDB plus Football-Data fixtures proxy where available.',
-    'Duplicate fixtures are deduplicated by date and normalized teams, preferring Football-Data for odds alignment.',
-    'Primary development target: automatic/free delayed market proxy, not manual Bet365.',
+    'Fixture sources: TheSportsDB, Football-Data fixtures proxy, and cautious odds-api.io events where configured.',
+    'Duplicate fixtures are deduplicated by date and normalized teams, preferring odds-api.io then Football-Data for odds alignment.',
+    'Primary development target: automatic/free market proxy, not manual Bet365.',
     '',
     f'Fixtures found: {len(fixtures)}',
     f'Source counts: {source_counts}',
