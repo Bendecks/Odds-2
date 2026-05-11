@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T06:39:39.974302+00:00`
-GitHub run: `195` attempt `1`
-GitHub SHA: `94f898270d8cb72994111854c10d63a720db0b09`
+Generated UTC: `2026-05-11T06:42:20.873697+00:00`
+GitHub run: `197` attempt `1`
+GitHub SHA: `9dcd6ac5ed068ccd0284cf898661dc1fc2c125e1`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -43,6 +43,9 @@ Manual odds are optional fallback only and are not treated as a blocker in this 
 Upcoming fixture rows: 1
 Historical market proxy rows: 30
 Manual forward rows: 0
+Configured forward sources: 1
+Enabled forward sources: 0
+Automatic forward price rows: 0
 Has upcoming fixtures: True
 Has automatic forward odds/proxy: False
 Has historical market proxy: True

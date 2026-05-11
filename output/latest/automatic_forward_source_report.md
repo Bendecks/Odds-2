@@ -6,6 +6,9 @@ Manual odds are optional fallback only and are not treated as a blocker in this 
 Upcoming fixture rows: 1
 Historical market proxy rows: 30
 Manual forward rows: 0
+Configured forward sources: 1
+Enabled forward sources: 0
+Automatic forward price rows: 0
 Has upcoming fixtures: True
 Has automatic forward odds/proxy: False
 Has historical market proxy: True
