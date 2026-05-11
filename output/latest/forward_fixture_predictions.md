@@ -2,7 +2,7 @@
 
 Probability-only forward fixture model output. Not a betting card and not a real-money recommendation.
 
-Upcoming fixture rows: 32
+Upcoming fixture rows: 150
 Forward fixture prediction rows: 3
 Ready for price join: True
 
