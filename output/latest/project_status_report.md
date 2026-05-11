@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T06:58:55.387481+00:00`
-GitHub run: `203` attempt `1`
-GitHub SHA: `9a6005a8e97b200bd4408a72c624debfcfe4a4d9`
+Generated UTC: `2026-05-11T07:03:01.177803+00:00`
+GitHub run: `205` attempt `1`
+GitHub SHA: `a69ccefe296db01689585854ebbb1a5d9492fa07`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -18,6 +18,8 @@ Overall status: `OK`
 | Forward price source adapter | True | 1 |  |  |
 | Fixture model match report | True | 2 |  |  |
 | Fixture model match summary | True | 1 |  |  |
+| Forward fixture predictions | True | 1 |  |  |
+| Forward fixture prediction summary | True | 1 |  |  |
 | Manual odds template | True | 1 |  |  |
 | Manual odds instructions | True | 17 |  |  |
 | Manual forward snapshots | True | 0 |  |  |
@@ -32,8 +34,6 @@ Overall status: `OK`
 | Settled predictions output | True | 210 |  |  |
 | CLV results output | True | 210 |  |  |
 | Candidate bets output | True | 0 |  |  |
-| Paper test picks output | True | 0 |  |  |
-| Valid forward paper test log | True | 0 |  |  |
 
 ## automatic_forward_source
 
@@ -54,6 +54,15 @@ Next development step: replace_historical_market_proxy_for_forward_testing
 All fixture teams match the model team table.
 ## Interpretation
 Fixtures and model matching are available, but there is no automatic forward price source yet.
+
+## forward_fixture_predictions
+
+# Forward Fixture Predictions
+Probability-only forward fixture model output. Not a betting card and not a real-money recommendation.
+Upcoming fixture rows: 1
+Forward fixture prediction rows: 1
+Ready for price join: True
+- 2026-05-11 19:00:00 | Tottenham Hotspur vs Leeds United | H=0.4257 D=0.259 A=0.3152 | fair=2.35/3.86/3.17
 
 ## forward_input_status
 
