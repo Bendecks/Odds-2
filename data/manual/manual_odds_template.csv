@@ -1,6 +1,5 @@
 fixture_id,match_date,match_time,home_team,away_team,league,bookmaker,market_home_odds,market_draw_odds,market_away_odds,odds_captured_at_utc,odds_source_note
 fd_P1_2026-05-11_Benfica_Sp_Braga,2026-05-11,20:15,Benfica,Sp Braga,P1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_70263304,2026-05-11,21:30,CDP Junior FC,Independiente Santa Fe,colombia-liga-femenina,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71311376,2026-05-11,23:30,Cerro Largo FC,CA Penarol Montevideo,uruguay-primera-division,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68042470,2026-05-11,23:00,Cerro Porteno,Club Guarani Asuncion,paraguay-division-de-honor-apertura,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68215816,2026-05-11,22:00,CR Flamengo RJ,Ferroviaria SP,brazil-campeonato-brasileiro-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.

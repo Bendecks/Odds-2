@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T21:23:15.885666+00:00`
-GitHub run: `300` attempt `1`
-GitHub SHA: `4dd2c38eb267e496d2f8e62b8f57ea59078a9583`
+Generated UTC: `2026-05-11T21:29:22.629863+00:00`
+GitHub run: `301` attempt `1`
+GitHub SHA: `6965df0f9505df6c0d346d29ea51ef5fec8af3fa`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -106,11 +106,11 @@ Errors: 0
 # Automatic Forward Source Report
 Purpose: distinguish true automatic forward inputs from historical market proxy and paused manual fallback.
 Football-Data and odds-api.io prices are treated as paper-test proxy prices until validated.
-Upcoming fixture rows: 154
-Fixture team rows unmatched: 298
+Upcoming fixture rows: 153
+Fixture team rows unmatched: 296
 Ready for model-fixture join: False
-Automatic forward price rows: 33
-odds-api.io price rows: 0
+Automatic forward price rows: 34
+odds-api.io price rows: 1
 Football-Data price rows: 33
 Automatic forward status: automatic_forward_not_ready
 Blocker: fixture_model_team_matching_incomplete
@@ -118,8 +118,6 @@ Next development step: add_team_aliases_for_upcoming_fixtures
 ## Team matching
 - Benfica | suggestion=nan | type=unmatched
 - Sp Braga | suggestion=nan | type=unmatched
-- CDP Junior FC | suggestion=nan | type=unmatched
-- Independiente Santa Fe | suggestion=nan | type=unmatched
 - Cerro Largo FC | suggestion=nan | type=unmatched
 - CA Penarol Montevideo | suggestion=nan | type=unmatched
 - Cerro Porteno | suggestion=nan | type=unmatched
@@ -133,6 +131,8 @@ Next development step: add_team_aliases_for_upcoming_fixtures
 - Estrela | suggestion=nan | type=unmatched
 - Famalicao | suggestion=nan | type=unmatched
 - G3X FC | suggestion=nan | type=unmatched
+- Capim FC | suggestion=nan | type=unmatched
+- Gil Vicente | suggestion=nan | type=unmatched
 
 ## forward_price_coverage
 
@@ -140,7 +140,7 @@ Next development step: add_team_aliases_for_upcoming_fixtures
 Measures automatic price coverage for forward predictions.
 Fresh API price means odds-api.io or API-Football. This is still paper/proxy-only and not real-money ready.
 Forward prediction rows: 80
-Automatic price rows: 33
+Automatic price rows: 34
 Value snapshot rows: 99
 Matches with any automatic price: 11
 Matches with fresh API price: 0
@@ -160,12 +160,12 @@ Real-money ready: False
 - 2026-05-11 | Rio Ave vs Sp Lisbon | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
 - 2026-05-11 | Santa Clara vs Nacional | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
 - 2026-05-11 | Tondela vs Moreirense | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
-- 2026-05-11 | CDP Junior FC vs Independiente Santa Fe | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-11 | Millonarios FC vs America de Cali Sa | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-11 | CR Flamengo RJ vs Ferroviaria SP | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-11 | Deportivo Saprissa vs Sporting FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-11 | Loud SC vs Funkbol Clube | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-11 | Piaui PI vs Ferroviario AC CE | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-11 | Sol de America Villa Elisa vs Guairena FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 
 ## automatic_forward_value_snapshots
 
@@ -281,7 +281,7 @@ Average match confidence: None
 # Forward Fixture Predictions
 Probability-only forward fixture model output. Not a betting card and not a real-money recommendation.
 Full model rows use matched team-strength data. Baseline rows are conservative league-average placeholders used to increase odds-matching coverage only.
-Upcoming fixture rows: 154
+Upcoming fixture rows: 153
 Forward fixture prediction rows: 80
 Full model prediction rows: 3
 Baseline prediction rows: 77
@@ -298,7 +298,6 @@ Ready for price join: True
 - 2026-05-11 20:15 | Rio Ave vs Sp Lisbon | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-11 20:15 | Santa Clara vs Nacional | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-11 20:15 | Tondela vs Moreirense | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
-- 2026-05-11 21:30 | CDP Junior FC vs Independiente Santa Fe | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-11 21:45 | Millonarios FC vs America de Cali Sa | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-11 22:00 | CR Flamengo RJ vs Ferroviaria SP | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-11 22:00 | Deportivo Saprissa vs Sporting FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
@@ -308,6 +307,7 @@ Ready for price join: True
 - 2026-05-11 23:00 | Cerro Porteno vs Club Guarani Asuncion | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-11 23:00 | Deportivo Cali vs CA Bucaramanga | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-11 23:00 | G3X FC vs Capim FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-11 23:00 | Maringa FC PR vs Guarani FC SP | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 
 ## forward_fixture_prediction_log
 
@@ -315,9 +315,8 @@ Ready for price join: True
 Probability-only forward prediction log. This is not a betting log and contains no stake or real-money signal.
 Current forward fixture predictions: 80
 New forward fixture predictions logged: 0
-Total forward fixture predictions logged: 84
+Total forward fixture predictions logged: 85
 Log type: probability_only_no_market_prices
-- 2026-05-12 2026-05-11 14:00:00 | URA FC vs Calvary | H=0.37720000000000004 D=0.274 A=0.3488
 - 2026-05-12 2026-05-11 14:10:00 | AL Ittihad Kalba vs AL Nasr | H=0.37720000000000004 D=0.274 A=0.3488
 - 2026-05-12 2026-05-11 14:10:00 | AL Wasl vs AL Jazira | H=0.37720000000000004 D=0.274 A=0.3488
 - 2026-05-12 2026-05-11 14:45:00 | PFC Cherno More Varna vs PFC Lokomotiv Plovdiv | H=0.37720000000000004 D=0.274 A=0.3488
@@ -337,6 +336,7 @@ Log type: probability_only_no_market_prices
 - 2026-05-12 2026-05-11 16:00:00 | FC Elva vs Paide Linnameeskond | H=0.37720000000000004 D=0.274 A=0.3488
 - 2026-05-12 2026-05-11 16:00:00 | Panaitolikos Agrinio vs AE Larissa FC | H=0.37720000000000004 D=0.274 A=0.3488
 - 2026-05-12 2026-05-11 16:00:00 | Rayon Sports FC vs Gorilla FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-12 2026-05-11 16:00:00 | Riga FC vs FK Auda Riga | H=0.37720000000000004 D=0.274 A=0.3488
 
 ## forward_fixture_results
 
@@ -364,10 +364,10 @@ Average Brier score: None
 # Forward Input Status
 Manual Bet365 odds input is parked as an optional fallback. It is not an active development blocker.
 Current priority: automatic/free-data forward-testing sources and robust fixture/model matching.
-Upcoming fixtures: 154
-Manual template rows: 154
+Upcoming fixtures: 153
+Manual template rows: 153
 Rows with complete manual odds: 0
-Rows missing manual odds: 154
+Rows missing manual odds: 153
 Manual forward snapshot rows: 0
 Manual odds mode: optional_fallback_paused
 Manual odds is blocker: False
@@ -377,7 +377,6 @@ Upcoming fixtures exist, but no automatic odds/proxy forward snapshot source is 
 ## Optional manual fallback status
 Manual odds are not required in the current phase. These rows are only kept for later fallback use:
 - 2026-05-11 20:15 | Benfica vs Sp Braga
-- 2026-05-11 21:30 | CDP Junior FC vs Independiente Santa Fe
 - 2026-05-11 23:30 | Cerro Largo FC vs CA Penarol Montevideo
 - 2026-05-11 23:00 | Cerro Porteno vs Club Guarani Asuncion
 - 2026-05-11 22:00 | CR Flamengo RJ vs Ferroviaria SP
@@ -391,6 +390,7 @@ Manual odds are not required in the current phase. These rows are only kept for 
 - 2026-05-11 22:00 | Loud SC vs Funkbol Clube
 - 2026-05-11 23:00 | Maringa FC PR vs Guarani FC SP
 - 2026-05-11 21:45 | Millonarios FC vs America de Cali Sa
+- 2026-05-11 19:45 | Napoli vs Bologna
 
 ## upcoming_fixtures
 
@@ -398,11 +398,10 @@ Manual odds are not required in the current phase. These rows are only kept for 
 Fixture sources: TheSportsDB, Football-Data fixtures proxy, cautious odds-api.io events, and disabled-by-default API-Football status.
 Duplicate fixtures are deduplicated by date and normalized teams, preferring odds-api.io then Football-Data for odds alignment.
 Primary development target: automatic/free market proxy, not manual Bet365.
-Fixtures found: 154
-Source counts: {'odds_api_io_events_bookmaker_filtered': 128, 'odds_api_io_events_search': 15, 'football_data_fixtures_proxy': 11}
+Fixtures found: 153
+Source counts: {'odds_api_io_events_bookmaker_filtered': 127, 'odds_api_io_events_search': 15, 'football_data_fixtures_proxy': 11}
 Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 - 2026-05-11 20:15 | Benfica vs Sp Braga | P1 | football_data_fixtures_proxy
-- 2026-05-11 21:30 | CDP Junior FC vs Independiente Santa Fe | colombia-liga-femenina | odds_api_io_events_bookmaker_filtered
 - 2026-05-11 23:30 | Cerro Largo FC vs CA Penarol Montevideo | uruguay-primera-division | odds_api_io_events_bookmaker_filtered
 - 2026-05-11 23:00 | Cerro Porteno vs Club Guarani Asuncion | paraguay-division-de-honor-apertura | odds_api_io_events_bookmaker_filtered
 - 2026-05-11 22:00 | CR Flamengo RJ vs Ferroviaria SP | brazil-campeonato-brasileiro-women | odds_api_io_events_bookmaker_filtered
@@ -424,6 +423,7 @@ Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 - 2026-05-11 23:00 | Sportivo Trinidense vs Sportivo Luqueno | paraguay-camopeonato-femenino-women | odds_api_io_events_bookmaker_filtered
 - 2026-05-11 20:15 | Tondela vs Moreirense | P1 | football_data_fixtures_proxy
 - 2026-05-11 20:00 | Tottenham vs Leeds | premier_league | football_data_fixtures_proxy
+- 2026-05-11 20:00 | Vallecano vs Girona | la_liga | football_data_fixtures_proxy
 
 ## manual_odds_template
 
@@ -431,10 +431,9 @@ Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 Use this only for forward paper-testing. Do not use for real-money betting.
 Existing filled odds are preserved when fixtures refresh.
 Fill the three 1X2 odds columns from Bet365 before kickoff, then commit/update the CSV or run the workflow manually.
-Template rows: 154
+Template rows: 153
 Rows with complete odds: 0
 - 2026-05-11 20:15 | Benfica vs Sp Braga | bookmaker=bet365_manual
-- 2026-05-11 21:30 | CDP Junior FC vs Independiente Santa Fe | bookmaker=bet365_manual
 - 2026-05-11 23:30 | Cerro Largo FC vs CA Penarol Montevideo | bookmaker=bet365_manual
 - 2026-05-11 23:00 | Cerro Porteno vs Club Guarani Asuncion | bookmaker=bet365_manual
 - 2026-05-11 22:00 | CR Flamengo RJ vs Ferroviaria SP | bookmaker=bet365_manual
@@ -457,6 +456,7 @@ Rows with complete odds: 0
 - 2026-05-11 20:15 | Tondela vs Moreirense | bookmaker=bet365_manual
 - 2026-05-11 20:00 | Tottenham vs Leeds | bookmaker=bet365_manual
 - 2026-05-11 20:00 | Vallecano vs Girona | bookmaker=bet365_manual
+- 2026-05-12 15:30 | 1. FC Slovacko Uherske Hradiste vs FC Banik Ostrava | bookmaker=bet365_manual
 
 ## manual_odds_instructions
 
@@ -472,7 +472,6 @@ Open `data/manual/manual_odds_template.csv` and fill these columns only:
 Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 ## Current rows needing odds
 - 2026-05-11 20:15 | Benfica vs Sp Braga
-- 2026-05-11 21:30 | CDP Junior FC vs Independiente Santa Fe
 - 2026-05-11 23:30 | Cerro Largo FC vs CA Penarol Montevideo
 - 2026-05-11 23:00 | Cerro Porteno vs Club Guarani Asuncion
 - 2026-05-11 22:00 | CR Flamengo RJ vs Ferroviaria SP
@@ -490,6 +489,7 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-11 22:00 | Piaui PI vs Ferroviario AC CE
 - 2026-05-11 20:15 | Rio Ave vs Sp Lisbon
 - 2026-05-11 20:15 | Santa Clara vs Nacional
+- 2026-05-11 22:30 | Sol de America Villa Elisa vs Guairena FC
 
 ## manual_forward_snapshots
 

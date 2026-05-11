@@ -4,7 +4,7 @@ Measures automatic price coverage for forward predictions.
 Fresh API price means odds-api.io or API-Football. This is still paper/proxy-only and not real-money ready.
 
 Forward prediction rows: 80
-Automatic price rows: 33
+Automatic price rows: 34
 Value snapshot rows: 99
 Matches with any automatic price: 11
 Matches with fresh API price: 0
@@ -26,7 +26,6 @@ Real-money ready: False
 - 2026-05-11 | Rio Ave vs Sp Lisbon | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
 - 2026-05-11 | Santa Clara vs Nacional | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
 - 2026-05-11 | Tondela vs Moreirense | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
-- 2026-05-11 | CDP Junior FC vs Independiente Santa Fe | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-11 | Millonarios FC vs America de Cali Sa | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-11 | CR Flamengo RJ vs Ferroviaria SP | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-11 | Deportivo Saprissa vs Sporting FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
@@ -95,9 +94,11 @@ Real-money ready: False
 - 2026-05-12 | FC Elva vs Paide Linnameeskond | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-12 | Panaitolikos Agrinio vs AE Larissa FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-12 | Rayon Sports FC vs Gorilla FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-12 | Riga FC vs FK Auda Riga | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 
 ## Source summary
 
 - football_data_average_market_proxy | delayed_market_proxy | rows=11
 - football_data_bet365_proxy | delayed_market_proxy | rows=11
 - football_data_max_market_proxy | delayed_market_proxy | rows=11
+- odds_api_io_1xbet_3-Way Result | free_api_market_proxy | rows=1

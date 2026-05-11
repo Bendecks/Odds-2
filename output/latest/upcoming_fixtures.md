@@ -4,12 +4,11 @@ Fixture sources: TheSportsDB, Football-Data fixtures proxy, cautious odds-api.io
 Duplicate fixtures are deduplicated by date and normalized teams, preferring odds-api.io then Football-Data for odds alignment.
 Primary development target: automatic/free market proxy, not manual Bet365.
 
-Fixtures found: 154
-Source counts: {'odds_api_io_events_bookmaker_filtered': 128, 'odds_api_io_events_search': 15, 'football_data_fixtures_proxy': 11}
+Fixtures found: 153
+Source counts: {'odds_api_io_events_bookmaker_filtered': 127, 'odds_api_io_events_search': 15, 'football_data_fixtures_proxy': 11}
 Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 
 - 2026-05-11 20:15 | Benfica vs Sp Braga | P1 | football_data_fixtures_proxy
-- 2026-05-11 21:30 | CDP Junior FC vs Independiente Santa Fe | colombia-liga-femenina | odds_api_io_events_bookmaker_filtered
 - 2026-05-11 23:30 | Cerro Largo FC vs CA Penarol Montevideo | uruguay-primera-division | odds_api_io_events_bookmaker_filtered
 - 2026-05-11 23:00 | Cerro Porteno vs Club Guarani Asuncion | paraguay-division-de-honor-apertura | odds_api_io_events_bookmaker_filtered
 - 2026-05-11 22:00 | CR Flamengo RJ vs Ferroviaria SP | brazil-campeonato-brasileiro-women | odds_api_io_events_bookmaker_filtered
@@ -88,3 +87,4 @@ Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 - 2026-05-12 17:00 | IFK Varnamo vs Orebro SK | sweden-superettan | odds_api_io_events_bookmaker_filtered
 - 2026-05-12 10:30 | Incheon United FC vs FC Pohang Steelers | republic-of-korea-k-league-1 | odds_api_io_events_bookmaker_filtered
 - 2026-05-12 14:00 | FC Inter Turku vs JS Hercules | finland-suomen-cup | odds_api_io_events_bookmaker_filtered
+- 2026-05-12 19:00 | Itagui Leones FC vs Orsomarso SC | colombia-copa-colombia | odds_api_io_events_bookmaker_filtered

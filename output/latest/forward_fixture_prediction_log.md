@@ -4,10 +4,9 @@ Probability-only forward prediction log. This is not a betting log and contains 
 
 Current forward fixture predictions: 80
 New forward fixture predictions logged: 0
-Total forward fixture predictions logged: 84
+Total forward fixture predictions logged: 85
 Log type: probability_only_no_market_prices
 
-- 2026-05-12 2026-05-11 14:00:00 | URA FC vs Calvary | H=0.37720000000000004 D=0.274 A=0.3488
 - 2026-05-12 2026-05-11 14:10:00 | AL Ittihad Kalba vs AL Nasr | H=0.37720000000000004 D=0.274 A=0.3488
 - 2026-05-12 2026-05-11 14:10:00 | AL Wasl vs AL Jazira | H=0.37720000000000004 D=0.274 A=0.3488
 - 2026-05-12 2026-05-11 14:45:00 | PFC Cherno More Varna vs PFC Lokomotiv Plovdiv | H=0.37720000000000004 D=0.274 A=0.3488
@@ -27,3 +26,4 @@ Log type: probability_only_no_market_prices
 - 2026-05-12 2026-05-11 16:00:00 | FC Elva vs Paide Linnameeskond | H=0.37720000000000004 D=0.274 A=0.3488
 - 2026-05-12 2026-05-11 16:00:00 | Panaitolikos Agrinio vs AE Larissa FC | H=0.37720000000000004 D=0.274 A=0.3488
 - 2026-05-12 2026-05-11 16:00:00 | Rayon Sports FC vs Gorilla FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-12 2026-05-11 16:00:00 | Riga FC vs FK Auda Riga | H=0.37720000000000004 D=0.274 A=0.3488

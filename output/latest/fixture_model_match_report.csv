@@ -1,8 +1,6 @@
 fixture_id,match_date,match_time,side,source_team,normalized_source_team,matched_model_team,match_type,suggested_model_team
 fd_P1_2026-05-11_Benfica_Sp_Braga,2026-05-11,20:15,home_team,Benfica,benfica,,unmatched,
 fd_P1_2026-05-11_Benfica_Sp_Braga,2026-05-11,20:15,away_team,Sp Braga,sp braga,,unmatched,
-odds_api_io_70263304,2026-05-11,21:30,home_team,CDP Junior FC,cdp junior,,unmatched,
-odds_api_io_70263304,2026-05-11,21:30,away_team,Independiente Santa Fe,independiente santa fe,,unmatched,
 odds_api_io_71311376,2026-05-11,23:30,home_team,Cerro Largo FC,cerro largo,,unmatched,
 odds_api_io_71311376,2026-05-11,23:30,away_team,CA Penarol Montevideo,ca penarol montevideo,,unmatched,
 odds_api_io_68042470,2026-05-11,23:00,home_team,Cerro Porteno,cerro porteno,,unmatched,

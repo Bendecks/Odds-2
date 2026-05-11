@@ -18,7 +18,6 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 ## Current rows needing odds
 
 - 2026-05-11 20:15 | Benfica vs Sp Braga
-- 2026-05-11 21:30 | CDP Junior FC vs Independiente Santa Fe
 - 2026-05-11 23:30 | Cerro Largo FC vs CA Penarol Montevideo
 - 2026-05-11 23:00 | Cerro Porteno vs Club Guarani Asuncion
 - 2026-05-11 22:00 | CR Flamengo RJ vs Ferroviaria SP

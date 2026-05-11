@@ -3,11 +3,11 @@
 Purpose: distinguish true automatic forward inputs from historical market proxy and paused manual fallback.
 Football-Data and odds-api.io prices are treated as paper-test proxy prices until validated.
 
-Upcoming fixture rows: 154
-Fixture team rows unmatched: 298
+Upcoming fixture rows: 153
+Fixture team rows unmatched: 296
 Ready for model-fixture join: False
-Automatic forward price rows: 33
-odds-api.io price rows: 0
+Automatic forward price rows: 34
+odds-api.io price rows: 1
 Football-Data price rows: 33
 Automatic forward status: automatic_forward_not_ready
 Blocker: fixture_model_team_matching_incomplete
@@ -17,8 +17,6 @@ Next development step: add_team_aliases_for_upcoming_fixtures
 
 - Benfica | suggestion=nan | type=unmatched
 - Sp Braga | suggestion=nan | type=unmatched
-- CDP Junior FC | suggestion=nan | type=unmatched
-- Independiente Santa Fe | suggestion=nan | type=unmatched
 - Cerro Largo FC | suggestion=nan | type=unmatched
 - CA Penarol Montevideo | suggestion=nan | type=unmatched
 - Cerro Porteno | suggestion=nan | type=unmatched
@@ -45,6 +43,8 @@ Next development step: add_team_aliases_for_upcoming_fixtures
 - Guarani FC SP | suggestion=nan | type=unmatched
 - Millonarios FC | suggestion=nan | type=unmatched
 - America de Cali Sa | suggestion=nan | type=unmatched
+- Piaui PI | suggestion=nan | type=unmatched
+- Ferroviario AC CE | suggestion=nan | type=unmatched
 
 ## Interpretation
 

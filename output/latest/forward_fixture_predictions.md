@@ -3,7 +3,7 @@
 Probability-only forward fixture model output. Not a betting card and not a real-money recommendation.
 Full model rows use matched team-strength data. Baseline rows are conservative league-average placeholders used to increase odds-matching coverage only.
 
-Upcoming fixture rows: 154
+Upcoming fixture rows: 153
 Forward fixture prediction rows: 80
 Full model prediction rows: 3
 Baseline prediction rows: 77
@@ -21,7 +21,6 @@ Ready for price join: True
 - 2026-05-11 20:15 | Rio Ave vs Sp Lisbon | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-11 20:15 | Santa Clara vs Nacional | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-11 20:15 | Tondela vs Moreirense | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
-- 2026-05-11 21:30 | CDP Junior FC vs Independiente Santa Fe | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-11 21:45 | Millonarios FC vs America de Cali Sa | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-11 22:00 | CR Flamengo RJ vs Ferroviaria SP | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-11 22:00 | Deportivo Saprissa vs Sporting FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
@@ -90,3 +89,4 @@ Ready for price join: True
 - 2026-05-12 16:00 | FC Elva vs Paide Linnameeskond | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-12 16:00 | Panaitolikos Agrinio vs AE Larissa FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-12 16:00 | Rayon Sports FC vs Gorilla FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-12 16:00 | Riga FC vs FK Auda Riga | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
