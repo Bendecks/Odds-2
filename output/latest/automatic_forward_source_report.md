@@ -3,11 +3,11 @@
 Purpose: distinguish true automatic forward inputs from historical market proxy and paused manual fallback.
 Football-Data and odds-api.io prices are treated as paper-test proxy prices until validated.
 
-Upcoming fixture rows: 12
-Fixture team rows unmatched: 17
+Upcoming fixture rows: 11
+Fixture team rows unmatched: 16
 Ready for model-fixture join: False
-Automatic forward price rows: 34
-odds-api.io price rows: 1
+Automatic forward price rows: 33
+odds-api.io price rows: 0
 Football-Data price rows: 33
 Automatic forward status: automatic_forward_not_ready
 Blocker: fixture_model_team_matching_incomplete
@@ -31,7 +31,6 @@ Next development step: add_team_aliases_for_upcoming_fixtures
 - Nacional | suggestion=nan | type=unmatched
 - Tondela | suggestion=nan | type=unmatched
 - Moreirense | suggestion=nan | type=unmatched
-- Brighton and Hove Albion WFC | suggestion=nan | type=unmatched
 
 ## Interpretation
 

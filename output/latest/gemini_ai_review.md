@@ -4,13 +4,13 @@ Model used: `gemini-2.0-flash`
 
 1.  Current system status: `proxy_paper_testing_started`
 2.  Biggest weakness: Negative CLV trend.
-3.  Best next development step: Improve calibration to increase CLV.
+3.  Best next development step: Improve calibration to address negative CLV.
 4.  Readiness: paper-test-ready
-5.  One concrete change to prioritize next: Improve calibration of the 0.00-0.35 probability band.
-6.  Whether the current suppression rules look too strict, too loose, or reasonable: Reasonable.
-7.  Whether the probability calibration layer looks too aggressive, too weak, or reasonable: Reasonable.
-8.  Whether the paper-test pick filter is too strict, too loose, or reasonable: Too strict.
-9.  Which probability band should be protected, suppressed, or monitored next: Monitor 0.35-0.45.
-10. Whether calibration impact should be increased, reduced, or left unchanged: Left unchanged.
-11. What is blocking true forward paper-testing right now: Model matching.
-12. Whether the manual odds instructions are sufficient for the next human action: Sufficient.
+5.  One concrete change to prioritize next: Implement a more aggressive calibration strategy for the 0.00-0.35 probability band.
+6.  Current suppression rules look: reasonable
+7.  Probability calibration layer looks: too weak
+8.  Paper-test pick filter is: too strict
+9.  Probability band to be protected, suppressed, or monitored next: Monitor 0.35-0.45 band closely.
+10. Calibration impact should be: increased
+11. Blocking true forward paper-testing right now: filters
+12. Manual odds instructions are: sufficient

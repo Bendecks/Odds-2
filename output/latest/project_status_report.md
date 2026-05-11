@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T18:07:14.708797+00:00`
-GitHub run: `273` attempt `1`
-GitHub SHA: `d4d244182ab03483b641e589d07b606fe657597a`
+Generated UTC: `2026-05-11T18:12:21.477991+00:00`
+GitHub run: `274` attempt `1`
+GitHub SHA: `f1912b108a912e698e5de728910cf100b7b21414`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -18,12 +18,12 @@ Overall status: `OK`
 | Football-Data upcoming odds proxy | True | 33 |  |  |
 | Football-Data upcoming odds status | True | 1 |  |  |
 | odds-api.io forward prices | True | 1 |  |  |
-| odds-api.io forward fixtures | True | 1 |  |  |
+| odds-api.io forward fixtures | True | 2 |  |  |
 | odds-api.io forward price status | True | 1 |  |  |
 | API-Football forward prices | True | 0 |  |  |
 | API-Football forward fixtures | True | 0 |  |  |
 | API-Football forward price status | True | 1 |  |  |
-| Automatic forward value snapshots | True | 27 |  |  |
+| Automatic forward value snapshots | True | 30 |  |  |
 | Proxy candidate observations | True | 4 |  |  |
 | Proxy candidate observation summary | True | 1 |  |  |
 | Proxy candidate explanation report | True | 4 |  |  |
@@ -33,7 +33,7 @@ Overall status: `OK`
 | Automatic forward value match diagnostics | True | 3 |  |  |
 | Proxy observation quality report | True | 1 |  |  |
 | Proxy observation by selection | True | 2 |  |  |
-| Upcoming fixtures | True | 11 |  |  |
+| Upcoming fixtures | True | 12 |  |  |
 
 ## project_goal_readiness
 
@@ -41,8 +41,8 @@ Overall status: `OK`
 Overall project stage: `proxy_paper_testing_started`
 ## Current counts
 - Forward fixture predictions: 3
-- Automatic value snapshots: 30
-- Positive EV proxy rows: 15
+- Automatic value snapshots: 27
+- Positive EV proxy rows: 13
 - Proxy observation rows: 7
 - Valid forward/proxy log rows: 13
 - Settled forward rows: 0
@@ -56,7 +56,7 @@ Done when: Use only for model diagnostics, not betting decisions.
 ### automatic_proxy_odds_ingestion
 Status: `working`
 Target: Free automatic odds proxy exists and validates.
-Current: 30 value snapshots from delayed proxy prices.
+Current: 27 value snapshots from delayed proxy prices.
 Done when: Keep Football-Data as baseline; add optional API source for fresher odds.
 ### paper_forward_testing
 Status: `started_not_mature`
@@ -106,11 +106,11 @@ Errors: 0
 # Automatic Forward Source Report
 Purpose: distinguish true automatic forward inputs from historical market proxy and paused manual fallback.
 Football-Data and odds-api.io prices are treated as paper-test proxy prices until validated.
-Upcoming fixture rows: 12
-Fixture team rows unmatched: 17
+Upcoming fixture rows: 11
+Fixture team rows unmatched: 16
 Ready for model-fixture join: False
-Automatic forward price rows: 34
-odds-api.io price rows: 1
+Automatic forward price rows: 33
+odds-api.io price rows: 0
 Football-Data price rows: 33
 Automatic forward status: automatic_forward_not_ready
 Blocker: fixture_model_team_matching_incomplete
@@ -132,7 +132,7 @@ Next development step: add_team_aliases_for_upcoming_fixtures
 - Nacional | suggestion=nan | type=unmatched
 - Tondela | suggestion=nan | type=unmatched
 - Moreirense | suggestion=nan | type=unmatched
-- Brighton and Hove Albion WFC | suggestion=nan | type=unmatched
+## Interpretation
 
 ## automatic_forward_value_snapshots
 
@@ -141,16 +141,15 @@ Combined automatic forward market proxy joined to forward probability prediction
 Includes Football-Data delayed proxy and capped odds-api.io single-event proxy when available.
 Not live/full-market coverage and not real-money ready.
 Forward prediction rows: 3
-Proxy price rows: 34
+Proxy price rows: 33
 Matched prediction rows: 3
-Value snapshot rows: 30
-odds-api.io snapshot rows: 3
-Positive EV rows: 15
-Source counts: {'football_data_bet365_proxy': 9, 'football_data_max_market_proxy': 9, 'football_data_average_market_proxy': 9, 'odds_api_io_Bet365_ML': 3}
+Value snapshot rows: 27
+odds-api.io snapshot rows: 0
+Positive EV rows: 13
+Source counts: {'football_data_bet365_proxy': 9, 'football_data_max_market_proxy': 9, 'football_data_average_market_proxy': 9}
 - 2026-05-11 | Napoli vs Bologna | sel=AWAY | src=football_data_max_market_proxy | odds=6.5 | prob=0.3149 | EV=1.04685 | match=1.0
 - 2026-05-11 | Napoli vs Bologna | sel=AWAY | src=football_data_average_market_proxy | odds=6.06 | prob=0.3149 | EV=0.908294 | match=1.0
 - 2026-05-11 | Napoli vs Bologna | sel=AWAY | src=football_data_bet365_proxy | odds=6.0 | prob=0.3149 | EV=0.8894 | match=1.0
-- 2026-05-11 | Tottenham vs Leeds | sel=AWAY | src=odds_api_io_Bet365_ML | odds=4.333 | prob=0.3152 | EV=0.365762 | match=1.0
 - 2026-05-11 | Tottenham vs Leeds | sel=AWAY | src=football_data_max_market_proxy | odds=4.1 | prob=0.3152 | EV=0.29232 | match=1.0
 - 2026-05-11 | Tottenham vs Leeds | sel=AWAY | src=football_data_average_market_proxy | odds=3.92 | prob=0.3152 | EV=0.235584 | match=1.0
 - 2026-05-11 | Napoli vs Bologna | sel=DRAW | src=football_data_max_market_proxy | odds=4.2 | prob=0.2843 | EV=0.19406 | match=1.0
@@ -161,11 +160,12 @@ Source counts: {'football_data_bet365_proxy': 9, 'football_data_max_market_proxy
 - 2026-05-11 | Tottenham vs Leeds | sel=DRAW | src=football_data_bet365_proxy | odds=4.1 | prob=0.259 | EV=0.0619 | match=1.0
 - 2026-05-11 | Vallecano vs Girona | sel=AWAY | src=football_data_max_market_proxy | odds=3.05 | prob=0.3376 | EV=0.02968 | match=1.0
 - 2026-05-11 | Vallecano vs Girona | sel=AWAY | src=football_data_bet365_proxy | odds=3.0 | prob=0.3376 | EV=0.0128 | match=1.0
-- 2026-05-11 | Tottenham vs Leeds | sel=DRAW | src=odds_api_io_Bet365_ML | odds=3.9 | prob=0.259 | EV=0.0101 | match=1.0
 - 2026-05-11 | Tottenham vs Leeds | sel=DRAW | src=football_data_average_market_proxy | odds=3.82 | prob=0.259 | EV=-0.01062 | match=1.0
 - 2026-05-11 | Vallecano vs Girona | sel=AWAY | src=football_data_average_market_proxy | odds=2.92 | prob=0.3376 | EV=-0.014208 | match=1.0
 - 2026-05-11 | Vallecano vs Girona | sel=DRAW | src=football_data_max_market_proxy | odds=3.5 | prob=0.279 | EV=-0.0235 | match=1.0
 - 2026-05-11 | Vallecano vs Girona | sel=DRAW | src=football_data_bet365_proxy | odds=3.5 | prob=0.279 | EV=-0.0235 | match=1.0
+- 2026-05-11 | Vallecano vs Girona | sel=DRAW | src=football_data_average_market_proxy | odds=3.39 | prob=0.279 | EV=-0.05419 | match=1.0
+- 2026-05-11 | Vallecano vs Girona | sel=HOME | src=football_data_max_market_proxy | odds=2.38 | prob=0.3833 | EV=-0.087746 | match=1.0
 
 ## proxy_candidate_observations
 
@@ -173,17 +173,17 @@ Source counts: {'football_data_bet365_proxy': 9, 'football_data_max_market_proxy
 Intermediate layer between paper-test picks and real candidate bets.
 These rows are proxy/paper observations only and must not be treated as real-money candidates.
 Deduplicated by match date, normalized teams, and selection; best proxy score is kept.
-Automatic value rows: 30
-Pre-dedupe proxy candidate observation rows: 12
+Automatic value rows: 27
+Pre-dedupe proxy candidate observation rows: 10
 Proxy candidate observation rows: 4
 Proxy candidate-like rows: 0
 Suppressed proxy watchlist rows: 4
 Dedupe strategy: match_date_normalized_teams_selection_keep_best_score
 Real-money ready: False
-- 2026-05-11 | Tottenham vs Leeds | selection=AWAY | source=odds_api_io_Bet365_ML | odds=4.333 | prob=0.3152 | EV=0.365762 | edge=0.084413 | penalty=0.36576150303093335 | tier=suppressed_proxy_watchlist | score=0.1196
-- 2026-05-11 | Tottenham vs Leeds | selection=DRAW | source=odds_api_io_Bet365_ML | odds=3.9 | prob=0.259 | EV=0.0101 | edge=0.00259 | penalty=0.010101010101009944 | tier=suppressed_proxy_watchlist | score=0.1013
+- 2026-05-11 | Tottenham vs Leeds | selection=AWAY | source=football_data_max_market_proxy | odds=4.1 | prob=0.3152 | EV=0.29232 | edge=0.071298 | penalty=0.29232232618018705 | tier=suppressed_proxy_watchlist | score=0.1
 - 2026-05-11 | Napoli vs Bologna | selection=DRAW | source=football_data_bet365_proxy | odds=4.2 | prob=0.2843 | EV=0.19406 | edge=0.046205 | penalty=0.19406119406119404 | tier=suppressed_proxy_watchlist | score=0.095
 - 2026-05-11 | Vallecano vs Girona | selection=AWAY | source=football_data_max_market_proxy | odds=3.05 | prob=0.3376 | EV=0.02968 | edge=0.009731 | penalty=0.029679536644208415 | tier=suppressed_proxy_watchlist | score=0.0904
+- 2026-05-11 | Tottenham vs Leeds | selection=DRAW | source=football_data_bet365_proxy | odds=4.1 | prob=0.259 | EV=0.0619 | edge=0.015098 | penalty=0.06190191142344048 | tier=suppressed_proxy_watchlist | score=0.0889
 
 ## proxy_candidate_explanations
 
@@ -198,40 +198,40 @@ Real-money ready: False
 ## Blocker summary
 - probability_or_league_rule_suppressed: 4
 - low_probability_band_under_0_35: 4
+- delayed_football_data_proxy_not_fresh_api_price: 4
 - ev_above_real_candidate_cap_possible_overconfidence: 2
 - market_alignment_penalty_too_high_for_real_candidate: 2
 - edge_below_candidate_threshold: 2
-- delayed_football_data_proxy_not_fresh_api_price: 2
 ## Row explanations
-- 2026-05-11 | Tottenham vs Leeds | sel=AWAY | score=0.1196 | blockers=probability_or_league_rule_suppressed; low_probability_band_under_0_35; ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate | improve=collect settled forward results before trusting low-probability selections; calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration
-- 2026-05-11 | Tottenham vs Leeds | sel=DRAW | score=0.1013 | blockers=probability_or_league_rule_suppressed; low_probability_band_under_0_35; edge_below_candidate_threshold | improve=collect settled forward results before trusting low-probability selections; needs stronger model-vs-market edge
+- 2026-05-11 | Tottenham vs Leeds | sel=AWAY | score=0.1 | blockers=probability_or_league_rule_suppressed; low_probability_band_under_0_35; ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate; delayed_football_data_proxy_not_fresh_api_price | improve=collect settled forward results before trusting low-probability selections; calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration; prefer odds-api.io/API-Football fresh price where available
 - 2026-05-11 | Napoli vs Bologna | sel=DRAW | score=0.095 | blockers=probability_or_league_rule_suppressed; low_probability_band_under_0_35; ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate; delayed_football_data_proxy_not_fresh_api_price | improve=collect settled forward results before trusting low-probability selections; calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration; prefer odds-api.io/API-Football fresh price where available
 - 2026-05-11 | Vallecano vs Girona | sel=AWAY | score=0.0904 | blockers=probability_or_league_rule_suppressed; low_probability_band_under_0_35; edge_below_candidate_threshold; delayed_football_data_proxy_not_fresh_api_price | improve=collect settled forward results before trusting low-probability selections; needs stronger model-vs-market edge; prefer odds-api.io/API-Football fresh price where available
+- 2026-05-11 | Tottenham vs Leeds | sel=DRAW | score=0.0889 | blockers=probability_or_league_rule_suppressed; low_probability_band_under_0_35; edge_below_candidate_threshold; delayed_football_data_proxy_not_fresh_api_price | improve=collect settled forward results before trusting low-probability selections; needs stronger model-vs-market edge; prefer odds-api.io/API-Football fresh price where available
 
 ## proxy_observation_quality
 
 # Proxy Observation Quality Report
 Quality diagnostics for automatic delayed-market proxy paper observations.
 This is not real-money ready and does not override suppression rules for candidate bets.
-Value snapshot rows: 30
+Value snapshot rows: 27
 Paper proxy observation rows: 7
-Positive EV value rows: 15
+Positive EV value rows: 13
 Suppressed-band observation rows: 7
-Distinct matches: 2
+Distinct matches: 3
 Distinct sources: 0
-Max EV: 0.365762
-Average EV: 0.229118
-Max probability edge: 0.084413
+Max EV: 0.29232
+Average EV: 0.181107
+Max probability edge: 0.071298
 Average match confidence: None
 ## By selection
-- away: rows=4, avg_ev=0.2689, max_ev=0.3658
+- away: rows=4, avg_ev=0.1849, max_ev=0.2923
 - draw: rows=3, avg_ev=0.1761, max_ev=0.1941
 
 ## forward_fixture_predictions
 
 # Forward Fixture Predictions
 Probability-only forward fixture model output. Not a betting card and not a real-money recommendation.
-Upcoming fixture rows: 12
+Upcoming fixture rows: 11
 Forward fixture prediction rows: 3
 Ready for price join: True
 - 2026-05-11 19:45 | Napoli vs Bologna | H=0.4007 D=0.2843 A=0.3149 | fair=2.5/3.52/3.18
@@ -277,10 +277,10 @@ Average Brier score: None
 # Forward Input Status
 Manual Bet365 odds input is parked as an optional fallback. It is not an active development blocker.
 Current priority: automatic/free-data forward-testing sources and robust fixture/model matching.
-Upcoming fixtures: 12
-Manual template rows: 12
+Upcoming fixtures: 11
+Manual template rows: 11
 Rows with complete manual odds: 0
-Rows missing manual odds: 12
+Rows missing manual odds: 11
 Manual forward snapshot rows: 0
 Manual odds mode: optional_fallback_paused
 Manual odds is blocker: False
@@ -300,7 +300,6 @@ Manual odds are not required in the current phase. These rows are only kept for 
 - 2026-05-11 20:15 | Tondela vs Moreirense
 - 2026-05-11 20:00 | Tottenham vs Leeds
 - 2026-05-11 20:00 | Vallecano vs Girona
-- 2026-05-16 12:00 | Brighton and Hove Albion WFC vs Tottenham Hotspur FC
 
 ## upcoming_fixtures
 
@@ -308,8 +307,8 @@ Manual odds are not required in the current phase. These rows are only kept for 
 Fixture sources: TheSportsDB, Football-Data fixtures proxy, cautious odds-api.io events, and disabled-by-default API-Football status.
 Duplicate fixtures are deduplicated by date and normalized teams, preferring odds-api.io then Football-Data for odds alignment.
 Primary development target: automatic/free market proxy, not manual Bet365.
-Fixtures found: 12
-Source counts: {'football_data_fixtures_proxy': 11, 'odds_api_io_events_search': 1}
+Fixtures found: 11
+Source counts: {'football_data_fixtures_proxy': 11}
 Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 - 2026-05-11 20:15 | Benfica vs Sp Braga | P1 | football_data_fixtures_proxy
 - 2026-05-11 20:15 | Estrela vs Famalicao | P1 | football_data_fixtures_proxy
@@ -322,7 +321,6 @@ Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 - 2026-05-11 20:15 | Tondela vs Moreirense | P1 | football_data_fixtures_proxy
 - 2026-05-11 20:00 | Tottenham vs Leeds | premier_league | football_data_fixtures_proxy
 - 2026-05-11 20:00 | Vallecano vs Girona | la_liga | football_data_fixtures_proxy
-- 2026-05-16 12:00 | Brighton and Hove Albion WFC vs Tottenham Hotspur FC | england-amateur-super-league-women | odds_api_io_events_search
 
 ## manual_odds_template
 
@@ -330,7 +328,7 @@ Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 Use this only for forward paper-testing. Do not use for real-money betting.
 Existing filled odds are preserved when fixtures refresh.
 Fill the three 1X2 odds columns from Bet365 before kickoff, then commit/update the CSV or run the workflow manually.
-Template rows: 12
+Template rows: 11
 Rows with complete odds: 0
 - 2026-05-11 20:15 | Benfica vs Sp Braga | bookmaker=bet365_manual
 - 2026-05-11 20:15 | Estrela vs Famalicao | bookmaker=bet365_manual
@@ -343,7 +341,6 @@ Rows with complete odds: 0
 - 2026-05-11 20:15 | Tondela vs Moreirense | bookmaker=bet365_manual
 - 2026-05-11 20:00 | Tottenham vs Leeds | bookmaker=bet365_manual
 - 2026-05-11 20:00 | Vallecano vs Girona | bookmaker=bet365_manual
-- 2026-05-16 12:00 | Brighton and Hove Albion WFC vs Tottenham Hotspur FC | bookmaker=bet365_manual
 
 ## manual_odds_instructions
 
@@ -369,7 +366,6 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-11 20:15 | Tondela vs Moreirense
 - 2026-05-11 20:00 | Tottenham vs Leeds
 - 2026-05-11 20:00 | Vallecano vs Girona
-- 2026-05-16 12:00 | Brighton and Hove Albion WFC vs Tottenham Hotspur FC
 ## After filling odds
 Run the workflow again. Expected result:
 - `manual_forward_snapshots` becomes greater than 0
@@ -449,22 +445,22 @@ No qualifying candidate bets today.
 - Date/time: 2026-05-11 20:00
 - League/phase: premier_league / automatic_forward_price_proxy
 - Selection: AWAY
-- Market odds: 4.33
+- Market odds: 4.1
 - Fair odds: 3.17
 - Model probability: 0.3152
 - Probability band: 0.00-0.35
-- EV: 0.3658
-- Probability edge: 0.0844
-- Alignment penalty: 0.3658
+- EV: 0.2923
+- Probability edge: 0.0713
+- Alignment penalty: 0.2923
 - Suppression action: proxy_suppressed_band_observe_only
 - Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.1313
+- Paper score: 0.1299
 - Prediction ID: 7b65a9bf28de71b10d96
 ### Tottenham vs Leeds
 - Date/time: 2026-05-11 20:00
 - League/phase: premier_league / automatic_forward_price_proxy
 - Selection: AWAY
-- Market odds: 4.1
+- Market odds: 3.92
 - Fair odds: 3.17
 - Model probability: 0.3152
 - Probability band: 0.00-0.35
@@ -477,15 +473,15 @@ Automatic proxy prices are delayed/free market proxies, not live bookmaker odds.
 Suppressed historical bands may be tracked only as proxy observation and remain excluded from real-money readiness.
 Source used: automatic_forward_value_snapshots
 Current paper-test picks: 7
-Newly logged paper-test picks: 1
+Newly logged paper-test picks: 0
 Total logged paper-test rows: 16
-- Tottenham vs Leeds | selection=AWAY | odds=4.33 | prob=0.3152 | EV=0.3658 | edge=0.0844 | penalty=0.3658 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
 - Tottenham vs Leeds | selection=AWAY | odds=4.1 | prob=0.3152 | EV=0.2923 | edge=0.0713 | penalty=0.2923 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
 - Tottenham vs Leeds | selection=AWAY | odds=3.92 | prob=0.3152 | EV=0.2356 | edge=0.0601 | penalty=0.2356 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
 - Tottenham vs Leeds | selection=AWAY | odds=3.75 | prob=0.3152 | EV=0.182 | edge=0.0485 | penalty=0.182 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
 - Napoli vs Bologna | selection=DRAW | odds=4.2 | prob=0.2843 | EV=0.1941 | edge=0.0462 | penalty=0.1941 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
 - Napoli vs Bologna | selection=DRAW | odds=4.2 | prob=0.2843 | EV=0.1941 | edge=0.0462 | penalty=0.1941 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
 - Napoli vs Bologna | selection=DRAW | odds=4.01 | prob=0.2843 | EV=0.14 | edge=0.0349 | penalty=0.14 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
+- Vallecano vs Girona | selection=AWAY | odds=3.05 | prob=0.3376 | EV=0.0297 | edge=0.0097 | penalty=0.0297 | band=0.00-0.35 | rule=proxy_suppressed_band_observe_only | tier=suppressed_band_proxy_observation
 
 ## probability_calibration_layer
 

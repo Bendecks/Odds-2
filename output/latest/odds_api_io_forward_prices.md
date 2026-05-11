@@ -6,7 +6,7 @@ Parses documented EventResponse.bookmakers -> markets -> odds -> home/draw/away 
 Not real-money ready until validated against forward results and other sources.
 
 Enabled: True
-Calls used: 2 / 2
+Calls used: 1 / 2
 Max events: 8
 Discovery mode: targeted_events_search_then_single_event_odds
 Search query used: Tottenham
@@ -14,11 +14,14 @@ Bookmakers parameter mode: explicit_selected_bookmakers
 Bookmakers requested: Bet365,1xbet
 Odds endpoint mode: single_event_documented_endpoint
 Odds parse mode: bookmakers_market_odds_schema
-Selected bookmaker: Bet365
-Selected market: ML
-Fixture rows: 2
-Eligible future fixture rows: 2
-Price rows: 1
-Errors/status rows: 0
+Selected bookmaker: None
+Selected market: None
+Fixture rows: 0
+Eligible future fixture rows: 0
+Price rows: 0
+Errors/status rows: 1
 
-- 2026-05-11 19:00 | Tottenham Hotspur vs Leeds United | odds_api_io_Bet365_ML | 1.75/3.9/4.333
+
+## Errors / Status
+
+- event_selection: No future non-settled event available from targeted search query 'Tottenham'; skipped odds call

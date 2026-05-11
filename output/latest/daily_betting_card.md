@@ -15,23 +15,6 @@ No qualifying candidate bets today.
 - Date/time: 2026-05-11 20:00
 - League/phase: premier_league / automatic_forward_price_proxy
 - Selection: AWAY
-- Market odds: 4.33
-- Fair odds: 3.17
-- Model probability: 0.3152
-- Probability band: 0.00-0.35
-- EV: 0.3658
-- Probability edge: 0.0844
-- Alignment penalty: 0.3658
-- Suppression action: proxy_suppressed_band_observe_only
-- Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.1313
-- Prediction ID: 7b65a9bf28de71b10d96
-
-### Tottenham vs Leeds
-
-- Date/time: 2026-05-11 20:00
-- League/phase: premier_league / automatic_forward_price_proxy
-- Selection: AWAY
 - Market odds: 4.1
 - Fair odds: 3.17
 - Model probability: 0.3152
@@ -128,6 +111,23 @@ No qualifying candidate bets today.
 - Paper tier: suppressed_band_proxy_observation
 - Paper score: 0.125
 - Prediction ID: 450dc1ddc6eecf2c644e
+
+### Vallecano vs Girona
+
+- Date/time: 2026-05-11 20:00
+- League/phase: la_liga / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 3.05
+- Fair odds: 2.96
+- Model probability: 0.3376
+- Probability band: 0.00-0.35
+- EV: 0.0297
+- Probability edge: 0.0097
+- Alignment penalty: 0.0297
+- Suppression action: proxy_suppressed_band_observe_only
+- Paper tier: suppressed_band_proxy_observation
+- Paper score: 0.1245
+- Prediction ID: 3d5a5edc82ec8d726575
 
 ## Snapshot summary
 
