@@ -9,6 +9,7 @@ history_dir = Path('output/history')
 history_dir.mkdir(parents=True, exist_ok=True)
 
 status_path = output_dir / 'odds_api_io_forward_price_status.csv'
+headers_path = output_dir / 'odds_api_io_rate_limit_headers.csv'
 usage_log_path = history_dir / 'odds_api_io_usage_log.csv'
 
 
@@ -22,12 +23,15 @@ def safe_read_csv(path: Path) -> pd.DataFrame:
 
 
 status = safe_read_csv(status_path)
+headers = safe_read_csv(headers_path)
 log = safe_read_csv(usage_log_path)
 now = datetime.now(timezone.utc)
 run_number = os.getenv('GITHUB_RUN_NUMBER', 'local')
 run_attempt = os.getenv('GITHUB_RUN_ATTEMPT', 'local')
 run_id = os.getenv('GITHUB_RUN_ID', 'local')
 sha = os.getenv('GITHUB_SHA', 'local')
+
+latest_header = headers.iloc[-1].to_dict() if len(headers) else {}
 
 new_row = None
 if len(status):
@@ -53,6 +57,10 @@ if len(status):
         'odds_endpoint_mode': row.get('odds_endpoint_mode'),
         'selected_bookmakers': row.get('selected_bookmakers'),
         'selected_markets': row.get('selected_markets'),
+        'provider_rate_limit_limit': row.get('latest_rate_limit_limit') or latest_header.get('x_ratelimit_limit'),
+        'provider_rate_limit_remaining': row.get('latest_rate_limit_remaining') or latest_header.get('x_ratelimit_remaining'),
+        'provider_rate_limit_reset': row.get('latest_rate_limit_reset') or latest_header.get('x_ratelimit_reset'),
+        'provider_retry_after': row.get('latest_retry_after') or latest_header.get('retry_after'),
     }
 
 if new_row is not None:
@@ -111,12 +119,33 @@ latest_endpoint_mode = new_row.get('odds_endpoint_mode') if new_row is not None 
 latest_queries = new_row.get('search_queries_used') if new_row is not None else None
 latest_priced = int(new_row['priced_event_rows']) if new_row is not None else 0
 latest_errors = int(new_row['errors']) if new_row is not None else 0
+provider_limit = new_row.get('provider_rate_limit_limit') if new_row is not None else None
+provider_remaining = new_row.get('provider_rate_limit_remaining') if new_row is not None else None
+provider_reset = new_row.get('provider_rate_limit_reset') if new_row is not None else None
+provider_retry_after = new_row.get('provider_retry_after') if new_row is not None else None
+
+remaining_ratio = None
+try:
+    remaining_ratio = round(float(provider_remaining) / float(provider_limit), 6) if provider_limit and float(provider_limit) > 0 else None
+except Exception:
+    remaining_ratio = None
+
+latest_summary = {
+    'latest_run_calls_used': latest_calls,
+    'latest_max_calls': latest_max_calls,
+    'provider_rate_limit_limit': provider_limit,
+    'provider_rate_limit_remaining': provider_remaining,
+    'provider_rate_limit_remaining_ratio': remaining_ratio,
+    'provider_rate_limit_reset': provider_reset,
+    'provider_retry_after': provider_retry_after,
+    'repo_usage_log_rows': int(len(export_log)),
+}
+pd.DataFrame([latest_summary]).to_csv(output_dir / 'odds_api_io_provider_usage_summary.csv', index=False)
 
 markdown = [
     '# Odds-API.io Usage Report',
     '',
-    'This report estimates Odds-API.io request usage from this repository workflow only.',
-    'It does not read the Odds-API.io dashboard total unless a provider usage endpoint is added later.',
+    'This report combines repo-estimated Odds-API.io usage with provider rate-limit headers when available.',
     '',
     f"Generated UTC: {now.isoformat()}",
     f"Latest run calls used: {latest_calls} / {latest_max_calls}",
@@ -124,6 +153,14 @@ markdown = [
     f"Latest search queries: {latest_queries}",
     f"Latest priced event rows: {latest_priced}",
     f"Latest errors/status rows: {latest_errors}",
+    '',
+    '## Provider rate-limit headers',
+    '',
+    f"x-ratelimit-limit: {provider_limit}",
+    f"x-ratelimit-remaining: {provider_remaining}",
+    f"remaining ratio: {remaining_ratio}",
+    f"x-ratelimit-reset: {provider_reset}",
+    f"retry-after: {provider_retry_after}",
     '',
     '## Estimated repo-driven req/hr',
     '',
@@ -139,8 +176,8 @@ markdown.extend([
     '',
     '## Interpretation',
     '',
-    '- This is a lower-bound view of total account usage because it only knows calls made by this GitHub workflow.',
-    '- If Odds-API.io exposes a usage/quota/account endpoint, add it later to compare provider-reported usage with repo-estimated usage.',
+    '- Provider headers are the best available source for current API-window limit/remaining/reset.',
+    '- Repo req/hr is still useful for estimating what this workflow alone consumes over time.',
     '- Current workflow remains capped by ODDS_API_IO_MAX_CALLS and ODDS_API_IO_MAX_PRICE_EVENTS.',
 ])
 
@@ -148,6 +185,8 @@ markdown.extend([
 print({
     'latest_calls_used': latest_calls,
     'latest_max_calls': latest_max_calls,
+    'provider_limit': provider_limit,
+    'provider_remaining': provider_remaining,
     'usage_log_rows': int(len(export_log)),
     'summary_rows': int(len(summary_df)),
 })
