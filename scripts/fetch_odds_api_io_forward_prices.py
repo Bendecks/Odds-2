@@ -3,7 +3,7 @@ import os
 import urllib.error
 import urllib.parse
 import urllib.request
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, time, timezone, timedelta
 from difflib import SequenceMatcher
 from pathlib import Path
 
@@ -54,6 +54,14 @@ parse_mode = 'bookmakers_market_odds_schema'
 query_source = 'unknown'
 events_discovery_rows = 0
 search_fallback_used = False
+
+
+def rfc3339_day_start(day):
+    return datetime.combine(day, time.min, tzinfo=timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+
+
+def rfc3339_day_end(day):
+    return datetime.combine(day, time.max, tzinfo=timezone.utc).replace(microsecond=0).strftime('%Y-%m-%dT%H:%M:%SZ')
 
 
 def record_rate_limit_headers(label: str, status_code, headers):
@@ -317,11 +325,14 @@ def fetch_bookmaker_filtered_events(targets):
     if target_dates:
         parsed_dates = [pd.to_datetime(d, errors='coerce').date() for d in target_dates]
         parsed_dates = [d for d in parsed_dates if pd.notna(pd.Timestamp(d))]
-        start_date = (min(parsed_dates) - timedelta(days=1)).isoformat() if parsed_dates else today.isoformat()
-        end_date = (max(parsed_dates) + timedelta(days=1)).isoformat() if parsed_dates else (today + timedelta(days=events_lookahead_days)).isoformat()
+        start_day = min(parsed_dates) - timedelta(days=1) if parsed_dates else today
+        end_day = max(parsed_dates) + timedelta(days=1) if parsed_dates else today + timedelta(days=events_lookahead_days)
     else:
-        start_date = today.isoformat()
-        end_date = (today + timedelta(days=events_lookahead_days)).isoformat()
+        start_day = today
+        end_day = today + timedelta(days=events_lookahead_days)
+
+    start_date = rfc3339_day_start(start_day)
+    end_date = rfc3339_day_end(end_day)
 
     all_events = []
     for page in range(max_event_pages):
@@ -580,7 +591,7 @@ markdown = [
     '# odds-api.io Forward Price Fetch',
     '',
     'Cautious optional API source. Hard-capped by ODDS_API_IO_MAX_CALLS, ODDS_API_IO_MAX_EVENTS, and ODDS_API_IO_MAX_PRICE_EVENTS.',
-    'Primary discovery uses /events with sport=football, status=pending, bookmaker filter, from/to, limit and skip; /events/search is fallback only.',
+    'Primary discovery uses /events with sport=football, status=pending, bookmaker filter, from/to RFC3339, limit and skip; /events/search is fallback only.',
     'Selected events are matched to model-covered forward fixtures by home/away/date confidence, then priced through documented /v3/odds/multi.',
     'Captures provider rate-limit headers from each authenticated API response.',
     'Not real-money ready until validated against forward results and other sources.',
