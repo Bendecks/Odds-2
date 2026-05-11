@@ -18,13 +18,23 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 ## Current rows needing odds
 
 - 2026-05-11 20:15 | Benfica vs Sp Braga
+- 2026-05-11 21:30 | CDP Junior FC vs Independiente Santa Fe
+- 2026-05-11 22:00 | CR Flamengo RJ vs Ferroviaria SP
+- 2026-05-11 22:00 | Deportivo Saprissa vs Sporting FC
 - 2026-05-11 20:15 | Estrela vs Famalicao
 - 2026-05-11 20:15 | Gil Vicente vs Arouca
 - 2026-05-11 20:15 | Guimaraes vs Casa Pia
 - 2026-05-11 19:30 | Huesca vs Sociedad B
+- 2026-05-11 21:00 | Independiente Medellin vs Fortaleza FC
+- 2026-05-11 22:00 | Loud SC vs Funkbol Clube
+- 2026-05-11 21:45 | Millonarios FC vs America de Cali Sa
 - 2026-05-11 19:45 | Napoli vs Bologna
+- 2026-05-11 21:00 | Once Caldas Sa vs Orsomarso SC
+- 2026-05-11 22:00 | Piaui PI vs Ferroviario AC CE
 - 2026-05-11 20:15 | Rio Ave vs Sp Lisbon
 - 2026-05-11 20:15 | Santa Clara vs Nacional
+- 2026-05-11 21:00 | SC Internacional RS vs Botafogo Fr RJ
+- 2026-05-11 22:30 | Sol de America Villa Elisa vs Guairena FC
 - 2026-05-11 20:15 | Tondela vs Moreirense
 - 2026-05-11 20:00 | Tottenham vs Leeds
 - 2026-05-11 20:00 | Vallecano vs Girona

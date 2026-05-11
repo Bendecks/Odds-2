@@ -4,17 +4,27 @@ Use this only for forward paper-testing. Do not use for real-money betting.
 Existing filled odds are preserved when fixtures refresh.
 Fill the three 1X2 odds columns from Bet365 before kickoff, then commit/update the CSV or run the workflow manually.
 
-Template rows: 22
+Template rows: 32
 Rows with complete odds: 0
 
 - 2026-05-11 20:15 | Benfica vs Sp Braga | bookmaker=bet365_manual
+- 2026-05-11 21:30 | CDP Junior FC vs Independiente Santa Fe | bookmaker=bet365_manual
+- 2026-05-11 22:00 | CR Flamengo RJ vs Ferroviaria SP | bookmaker=bet365_manual
+- 2026-05-11 22:00 | Deportivo Saprissa vs Sporting FC | bookmaker=bet365_manual
 - 2026-05-11 20:15 | Estrela vs Famalicao | bookmaker=bet365_manual
 - 2026-05-11 20:15 | Gil Vicente vs Arouca | bookmaker=bet365_manual
 - 2026-05-11 20:15 | Guimaraes vs Casa Pia | bookmaker=bet365_manual
 - 2026-05-11 19:30 | Huesca vs Sociedad B | bookmaker=bet365_manual
+- 2026-05-11 21:00 | Independiente Medellin vs Fortaleza FC | bookmaker=bet365_manual
+- 2026-05-11 22:00 | Loud SC vs Funkbol Clube | bookmaker=bet365_manual
+- 2026-05-11 21:45 | Millonarios FC vs America de Cali Sa | bookmaker=bet365_manual
 - 2026-05-11 19:45 | Napoli vs Bologna | bookmaker=bet365_manual
+- 2026-05-11 21:00 | Once Caldas Sa vs Orsomarso SC | bookmaker=bet365_manual
+- 2026-05-11 22:00 | Piaui PI vs Ferroviario AC CE | bookmaker=bet365_manual
 - 2026-05-11 20:15 | Rio Ave vs Sp Lisbon | bookmaker=bet365_manual
 - 2026-05-11 20:15 | Santa Clara vs Nacional | bookmaker=bet365_manual
+- 2026-05-11 21:00 | SC Internacional RS vs Botafogo Fr RJ | bookmaker=bet365_manual
+- 2026-05-11 22:30 | Sol de America Villa Elisa vs Guairena FC | bookmaker=bet365_manual
 - 2026-05-11 20:15 | Tondela vs Moreirense | bookmaker=bet365_manual
 - 2026-05-11 20:00 | Tottenham vs Leeds | bookmaker=bet365_manual
 - 2026-05-11 20:00 | Vallecano vs Girona | bookmaker=bet365_manual

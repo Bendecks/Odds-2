@@ -1,8 +1,7 @@
 # Snapshot Timing Report
 
-Total snapshot files: 136
+Total snapshot files: 137
 
-- market_snapshot_20260511_173833.parquet | rows=30 | ts_col=snapshot_created_at_utc | first=2026-05-11 17:38:33.209204+00:00 | last=2026-05-11 17:38:33.209204+00:00
 - market_snapshot_20260511_180645.parquet | rows=30 | ts_col=snapshot_created_at_utc | first=2026-05-11 18:06:45.643500+00:00 | last=2026-05-11 18:06:45.643500+00:00
 - market_snapshot_20260511_181151.parquet | rows=30 | ts_col=snapshot_created_at_utc | first=2026-05-11 18:11:51.364219+00:00 | last=2026-05-11 18:11:51.364219+00:00
 - market_snapshot_20260511_191338.parquet | rows=30 | ts_col=snapshot_created_at_utc | first=2026-05-11 19:13:38.040774+00:00 | last=2026-05-11 19:13:38.040774+00:00
@@ -11,4 +10,5 @@ Total snapshot files: 136
 - market_snapshot_20260511_204457.parquet | rows=30 | ts_col=snapshot_created_at_utc | first=2026-05-11 20:44:57.591153+00:00 | last=2026-05-11 20:44:57.591153+00:00
 - market_snapshot_20260511_204646.parquet | rows=30 | ts_col=snapshot_created_at_utc | first=2026-05-11 20:46:46.783658+00:00 | last=2026-05-11 20:46:46.783658+00:00
 - market_snapshot_20260511_205422.parquet | rows=30 | ts_col=snapshot_created_at_utc | first=2026-05-11 20:54:22.131374+00:00 | last=2026-05-11 20:54:22.131374+00:00
-- market_snapshot_latest.parquet | rows=30 | ts_col=snapshot_created_at_utc | first=2026-05-11 20:54:22.131374+00:00 | last=2026-05-11 20:54:22.131374+00:00
+- market_snapshot_20260511_210015.parquet | rows=30 | ts_col=snapshot_created_at_utc | first=2026-05-11 21:00:15.026925+00:00 | last=2026-05-11 21:00:15.026925+00:00
+- market_snapshot_latest.parquet | rows=30 | ts_col=snapshot_created_at_utc | first=2026-05-11 21:00:15.026925+00:00 | last=2026-05-11 21:00:15.026925+00:00

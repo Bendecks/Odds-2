@@ -1,4 +1,34 @@
 discovery_source,query,target_home_team,target_away_team,target_match_date,candidate_event_id,candidate_home_team,candidate_away_team,candidate_match_date,event_match_confidence,selected,rejection_reason
+events_bookmaker_filtered,Napoli,Napoli,Bologna,2026-05-11,71335008,Independiente Medellin,Fortaleza FC,2026-05-11,0.3304,False,below_min_event_match_confidence
+events_bookmaker_filtered,Napoli,Napoli,Bologna,2026-05-11,68215820,SC Internacional RS,Botafogo Fr RJ,2026-05-11,0.3505,False,below_min_event_match_confidence
+events_bookmaker_filtered,Napoli,Napoli,Bologna,2026-05-11,70263302,Once Caldas Sa,Orsomarso SC,2026-05-11,0.3079,False,below_min_event_match_confidence
+events_bookmaker_filtered,Napoli,Napoli,Bologna,2026-05-11,70263304,CDP Junior FC,Independiente Santa Fe,2026-05-11,0.194,False,below_min_event_match_confidence
+events_bookmaker_filtered,Napoli,Napoli,Bologna,2026-05-11,70263306,Millonarios FC,America de Cali Sa,2026-05-11,0.3472,False,below_min_event_match_confidence
+events_bookmaker_filtered,Napoli,Napoli,Bologna,2026-05-11,71288970,Piaui PI,Ferroviario AC CE,2026-05-11,0.3393,False,below_min_event_match_confidence
+events_bookmaker_filtered,Napoli,Napoli,Bologna,2026-05-11,71310294,Loud SC,Funkbol Clube,2026-05-11,0.3008,False,below_min_event_match_confidence
+events_bookmaker_filtered,Napoli,Napoli,Bologna,2026-05-11,68215816,CR Flamengo RJ,Ferroviaria SP,2026-05-11,0.1952,False,below_min_event_match_confidence
+events_bookmaker_filtered,Napoli,Napoli,Bologna,2026-05-11,71382664,Deportivo Saprissa,Sporting FC,2026-05-11,0.3343,False,below_min_event_match_confidence
+events_bookmaker_filtered,Napoli,Napoli,Bologna,2026-05-11,71166720,Sol de America Villa Elisa,Guairena FC,2026-05-11,0.2938,False,below_min_event_match_confidence
+events_bookmaker_filtered,Tottenham,Tottenham,Leeds,2026-05-11,71335008,Independiente Medellin,Fortaleza FC,2026-05-11,0.2778,False,below_min_event_match_confidence
+events_bookmaker_filtered,Tottenham,Tottenham,Leeds,2026-05-11,68215820,SC Internacional RS,Botafogo Fr RJ,2026-05-11,0.2138,False,below_min_event_match_confidence
+events_bookmaker_filtered,Tottenham,Tottenham,Leeds,2026-05-11,70263302,Once Caldas Sa,Orsomarso SC,2026-05-11,0.2531,False,below_min_event_match_confidence
+events_bookmaker_filtered,Tottenham,Tottenham,Leeds,2026-05-11,70263304,CDP Junior FC,Independiente Santa Fe,2026-05-11,0.2008,False,below_min_event_match_confidence
+events_bookmaker_filtered,Tottenham,Tottenham,Leeds,2026-05-11,70263306,Millonarios FC,America de Cali Sa,2026-05-11,0.237,False,below_min_event_match_confidence
+events_bookmaker_filtered,Tottenham,Tottenham,Leeds,2026-05-11,71288970,Piaui PI,Ferroviario AC CE,2026-05-11,0.1497,False,below_min_event_match_confidence
+events_bookmaker_filtered,Tottenham,Tottenham,Leeds,2026-05-11,71310294,Loud SC,Funkbol Clube,2026-05-11,0.3409,False,below_min_event_match_confidence
+events_bookmaker_filtered,Tottenham,Tottenham,Leeds,2026-05-11,68215816,CR Flamengo RJ,Ferroviaria SP,2026-05-11,0.1922,False,below_min_event_match_confidence
+events_bookmaker_filtered,Tottenham,Tottenham,Leeds,2026-05-11,71382664,Deportivo Saprissa,Sporting FC,2026-05-11,0.2046,False,below_min_event_match_confidence
+events_bookmaker_filtered,Tottenham,Tottenham,Leeds,2026-05-11,71166720,Sol de America Villa Elisa,Guairena FC,2026-05-11,0.3055,False,below_min_event_match_confidence
+events_bookmaker_filtered,Vallecano,Vallecano,Girona,2026-05-11,71335008,Independiente Medellin,Fortaleza FC,2026-05-11,0.2937,False,below_min_event_match_confidence
+events_bookmaker_filtered,Vallecano,Vallecano,Girona,2026-05-11,68215820,SC Internacional RS,Botafogo Fr RJ,2026-05-11,0.287,False,below_min_event_match_confidence
+events_bookmaker_filtered,Vallecano,Vallecano,Girona,2026-05-11,70263302,Once Caldas Sa,Orsomarso SC,2026-05-11,0.2971,False,below_min_event_match_confidence
+events_bookmaker_filtered,Vallecano,Vallecano,Girona,2026-05-11,70263304,CDP Junior FC,Independiente Santa Fe,2026-05-11,0.265,False,below_min_event_match_confidence
+events_bookmaker_filtered,Vallecano,Vallecano,Girona,2026-05-11,70263306,Millonarios FC,America de Cali Sa,2026-05-11,0.3464,False,below_min_event_match_confidence
+events_bookmaker_filtered,Vallecano,Vallecano,Girona,2026-05-11,71288970,Piaui PI,Ferroviario AC CE,2026-05-11,0.2582,False,below_min_event_match_confidence
+events_bookmaker_filtered,Vallecano,Vallecano,Girona,2026-05-11,71310294,Loud SC,Funkbol Clube,2026-05-11,0.2133,False,below_min_event_match_confidence
+events_bookmaker_filtered,Vallecano,Vallecano,Girona,2026-05-11,68215816,CR Flamengo RJ,Ferroviaria SP,2026-05-11,0.3239,False,below_min_event_match_confidence
+events_bookmaker_filtered,Vallecano,Vallecano,Girona,2026-05-11,71382664,Deportivo Saprissa,Sporting FC,2026-05-11,0.1838,False,below_min_event_match_confidence
+events_bookmaker_filtered,Vallecano,Vallecano,Girona,2026-05-11,71166720,Sol de America Villa Elisa,Guairena FC,2026-05-11,0.5,False,below_min_event_match_confidence
 events_search_fallback,Napoli,Napoli,Bologna,2026-05-11,69057010,Louisville Bats,Indianapolis Indians,2026-05-12,0.5164,False,below_min_event_match_confidence
 events_search_fallback,Napoli,Napoli,Bologna,2026-05-11,69061794,Charleston Riverdogs,Kannapolis Cannon Ballers,2026-05-12,0.4911,False,below_min_event_match_confidence
 events_search_fallback,Napoli,Napoli,Bologna,2026-05-11,69057018,Louisville Bats,Indianapolis Indians,2026-05-13,0.5164,False,below_min_event_match_confidence

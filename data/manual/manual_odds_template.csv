@@ -1,12 +1,22 @@
 fixture_id,match_date,match_time,home_team,away_team,league,bookmaker,market_home_odds,market_draw_odds,market_away_odds,odds_captured_at_utc,odds_source_note
 fd_P1_2026-05-11_Benfica_Sp_Braga,2026-05-11,20:15,Benfica,Sp Braga,P1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_70263304,2026-05-11,21:30,CDP Junior FC,Independiente Santa Fe,colombia-liga-femenina,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_68215816,2026-05-11,22:00,CR Flamengo RJ,Ferroviaria SP,brazil-campeonato-brasileiro-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_71382664,2026-05-11,22:00,Deportivo Saprissa,Sporting FC,costa-rica-primera-division-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_P1_2026-05-11_Estrela_Famalicao,2026-05-11,20:15,Estrela,Famalicao,P1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_P1_2026-05-11_Gil_Vicente_Arouca,2026-05-11,20:15,Gil Vicente,Arouca,P1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_P1_2026-05-11_Guimaraes_Casa_Pia,2026-05-11,20:15,Guimaraes,Casa Pia,P1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_SP2_2026-05-11_Huesca_Sociedad_B,2026-05-11,19:30,Huesca,Sociedad B,SP2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_71335008,2026-05-11,21:00,Independiente Medellin,Fortaleza FC,colombia-copa-colombia,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_71310294,2026-05-11,22:00,Loud SC,Funkbol Clube,soccerspecials-kings-league-brazil,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_70263306,2026-05-11,21:45,Millonarios FC,America de Cali Sa,colombia-liga-femenina,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_I1_2026-05-11_Napoli_Bologna,2026-05-11,19:45,Napoli,Bologna,serie_a,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_70263302,2026-05-11,21:00,Once Caldas Sa,Orsomarso SC,colombia-liga-femenina,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_71288970,2026-05-11,22:00,Piaui PI,Ferroviario AC CE,brazil-brasileiro-serie-d,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_P1_2026-05-11_Rio_Ave_Sp_Lisbon,2026-05-11,20:15,Rio Ave,Sp Lisbon,P1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_P1_2026-05-11_Santa_Clara_Nacional,2026-05-11,20:15,Santa Clara,Nacional,P1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_68215820,2026-05-11,21:00,SC Internacional RS,Botafogo Fr RJ,brazil-campeonato-brasileiro-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_71166720,2026-05-11,22:30,Sol de America Villa Elisa,Guairena FC,paraguay-segunda-division,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_P1_2026-05-11_Tondela_Moreirense,2026-05-11,20:15,Tondela,Moreirense,P1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_E0_2026-05-11_Tottenham_Leeds,2026-05-11,20:00,Tottenham,Leeds,premier_league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_SP1_2026-05-11_Vallecano_Girona,2026-05-11,20:00,Vallecano,Girona,la_liga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.

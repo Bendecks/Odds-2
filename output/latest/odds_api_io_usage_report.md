@@ -2,29 +2,29 @@
 
 This report combines repo-estimated Odds-API.io usage with provider rate-limit headers when available.
 
-Generated UTC: 2026-05-11T20:54:34.890048+00:00
+Generated UTC: 2026-05-11T21:00:28.976705+00:00
 Latest run calls used: 4 / 6
 Latest endpoint mode: multi_event_documented_endpoint
 Latest search queries: Napoli, Tottenham, Vallecano
 Latest priced event rows: 0
-Latest errors/status rows: 4
+Latest errors/status rows: 3
 
 ## Provider rate-limit headers
 
 x-ratelimit-limit: 100
-x-ratelimit-remaining: 87
-remaining ratio: 0.87
+x-ratelimit-remaining: 83
+remaining ratio: 0.83
 x-ratelimit-reset: 2026-05-11T21:17:32Z
 retry-after: None
 
 ## Estimated repo-driven req/hr
 
-- Last 1h: 17 calls across 5 runs => 17.0 req/hr
-- Last 6h: 17 calls across 5 runs => 2.8333 req/hr
-- Last 12h: 17 calls across 5 runs => 1.4167 req/hr
-- Last 24h: 17 calls across 5 runs => 0.7083 req/hr
-- Last 72h: 17 calls across 5 runs => 0.2361 req/hr
-- Last 168h: 17 calls across 5 runs => 0.1012 req/hr
+- Last 1h: 21 calls across 6 runs => 21.0 req/hr
+- Last 6h: 21 calls across 6 runs => 3.5 req/hr
+- Last 12h: 21 calls across 6 runs => 1.75 req/hr
+- Last 24h: 21 calls across 6 runs => 0.875 req/hr
+- Last 72h: 21 calls across 6 runs => 0.2917 req/hr
+- Last 168h: 21 calls across 6 runs => 0.125 req/hr
 
 ## Interpretation
 

@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T20:47:16.972870+00:00`
-GitHub run: `294` attempt `1`
-GitHub SHA: `7c2ff61cf3e06db4e18b2365b74c1d2b26fb870b`
+Generated UTC: `2026-05-11T20:54:53.974967+00:00`
+GitHub run: `295` attempt `1`
+GitHub SHA: `d02f246ccafc362e00a8589bfb6ad1e53bad6e5c`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -106,8 +106,8 @@ Errors: 0
 # Automatic Forward Source Report
 Purpose: distinguish true automatic forward inputs from historical market proxy and paused manual fallback.
 Football-Data and odds-api.io prices are treated as paper-test proxy prices until validated.
-Upcoming fixture rows: 22
-Fixture team rows unmatched: 37
+Upcoming fixture rows: 32
+Fixture team rows unmatched: 57
 Ready for model-fixture join: False
 Automatic forward price rows: 33
 odds-api.io price rows: 0
@@ -118,6 +118,12 @@ Next development step: add_team_aliases_for_upcoming_fixtures
 ## Team matching
 - Benfica | suggestion=nan | type=unmatched
 - Sp Braga | suggestion=nan | type=unmatched
+- CDP Junior FC | suggestion=nan | type=unmatched
+- Independiente Santa Fe | suggestion=nan | type=unmatched
+- CR Flamengo RJ | suggestion=nan | type=unmatched
+- Ferroviaria SP | suggestion=nan | type=unmatched
+- Deportivo Saprissa | suggestion=nan | type=unmatched
+- Sporting FC | suggestion=nan | type=unmatched
 - Estrela | suggestion=nan | type=unmatched
 - Famalicao | suggestion=nan | type=unmatched
 - Gil Vicente | suggestion=nan | type=unmatched
@@ -126,13 +132,7 @@ Next development step: add_team_aliases_for_upcoming_fixtures
 - Casa Pia | suggestion=nan | type=unmatched
 - Huesca | suggestion=nan | type=unmatched
 - Sociedad B | suggestion=Sociedad | type=suggested_alias_needed
-- Rio Ave | suggestion=nan | type=unmatched
-- Sp Lisbon | suggestion=nan | type=unmatched
-- Santa Clara | suggestion=nan | type=unmatched
-- Nacional | suggestion=nan | type=unmatched
-- Tondela | suggestion=nan | type=unmatched
-- Moreirense | suggestion=nan | type=unmatched
-- Charleston Riverdogs | suggestion=nan | type=unmatched
+- Independiente Medellin | suggestion=nan | type=unmatched
 
 ## forward_price_coverage
 
@@ -254,7 +254,7 @@ Average match confidence: None
 
 # Forward Fixture Predictions
 Probability-only forward fixture model output. Not a betting card and not a real-money recommendation.
-Upcoming fixture rows: 22
+Upcoming fixture rows: 32
 Forward fixture prediction rows: 3
 Ready for price join: True
 - 2026-05-11 19:45 | Napoli vs Bologna | H=0.4007 D=0.2843 A=0.3149 | fair=2.5/3.52/3.18
@@ -300,10 +300,10 @@ Average Brier score: None
 # Forward Input Status
 Manual Bet365 odds input is parked as an optional fallback. It is not an active development blocker.
 Current priority: automatic/free-data forward-testing sources and robust fixture/model matching.
-Upcoming fixtures: 22
-Manual template rows: 22
+Upcoming fixtures: 32
+Manual template rows: 32
 Rows with complete manual odds: 0
-Rows missing manual odds: 22
+Rows missing manual odds: 32
 Manual forward snapshot rows: 0
 Manual odds mode: optional_fallback_paused
 Manual odds is blocker: False
@@ -313,20 +313,20 @@ Upcoming fixtures exist, but no automatic odds/proxy forward snapshot source is 
 ## Optional manual fallback status
 Manual odds are not required in the current phase. These rows are only kept for later fallback use:
 - 2026-05-11 20:15 | Benfica vs Sp Braga
+- 2026-05-11 21:30 | CDP Junior FC vs Independiente Santa Fe
+- 2026-05-11 22:00 | CR Flamengo RJ vs Ferroviaria SP
+- 2026-05-11 22:00 | Deportivo Saprissa vs Sporting FC
 - 2026-05-11 20:15 | Estrela vs Famalicao
 - 2026-05-11 20:15 | Gil Vicente vs Arouca
 - 2026-05-11 20:15 | Guimaraes vs Casa Pia
 - 2026-05-11 19:30 | Huesca vs Sociedad B
+- 2026-05-11 21:00 | Independiente Medellin vs Fortaleza FC
+- 2026-05-11 22:00 | Loud SC vs Funkbol Clube
+- 2026-05-11 21:45 | Millonarios FC vs America de Cali Sa
 - 2026-05-11 19:45 | Napoli vs Bologna
+- 2026-05-11 21:00 | Once Caldas Sa vs Orsomarso SC
+- 2026-05-11 22:00 | Piaui PI vs Ferroviario AC CE
 - 2026-05-11 20:15 | Rio Ave vs Sp Lisbon
-- 2026-05-11 20:15 | Santa Clara vs Nacional
-- 2026-05-11 20:15 | Tondela vs Moreirense
-- 2026-05-11 20:00 | Tottenham vs Leeds
-- 2026-05-11 20:00 | Vallecano vs Girona
-- 2026-05-12 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers
-- 2026-05-12 22:05 | Louisville Bats vs Indianapolis Indians
-- 2026-05-13 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers
-- 2026-05-13 15:05 | Louisville Bats vs Indianapolis Indians
 
 ## upcoming_fixtures
 
@@ -334,31 +334,32 @@ Manual odds are not required in the current phase. These rows are only kept for 
 Fixture sources: TheSportsDB, Football-Data fixtures proxy, cautious odds-api.io events, and disabled-by-default API-Football status.
 Duplicate fixtures are deduplicated by date and normalized teams, preferring odds-api.io then Football-Data for odds alignment.
 Primary development target: automatic/free market proxy, not manual Bet365.
-Fixtures found: 22
-Source counts: {'football_data_fixtures_proxy': 11, 'odds_api_io_events_search': 11}
+Fixtures found: 32
+Source counts: {'football_data_fixtures_proxy': 11, 'odds_api_io_events_search': 11, 'odds_api_io_events_bookmaker_filtered': 10}
 Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 - 2026-05-11 20:15 | Benfica vs Sp Braga | P1 | football_data_fixtures_proxy
+- 2026-05-11 21:30 | CDP Junior FC vs Independiente Santa Fe | colombia-liga-femenina | odds_api_io_events_bookmaker_filtered
+- 2026-05-11 22:00 | CR Flamengo RJ vs Ferroviaria SP | brazil-campeonato-brasileiro-women | odds_api_io_events_bookmaker_filtered
+- 2026-05-11 22:00 | Deportivo Saprissa vs Sporting FC | costa-rica-primera-division-women | odds_api_io_events_bookmaker_filtered
 - 2026-05-11 20:15 | Estrela vs Famalicao | P1 | football_data_fixtures_proxy
 - 2026-05-11 20:15 | Gil Vicente vs Arouca | P1 | football_data_fixtures_proxy
 - 2026-05-11 20:15 | Guimaraes vs Casa Pia | P1 | football_data_fixtures_proxy
 - 2026-05-11 19:30 | Huesca vs Sociedad B | SP2 | football_data_fixtures_proxy
+- 2026-05-11 21:00 | Independiente Medellin vs Fortaleza FC | colombia-copa-colombia | odds_api_io_events_bookmaker_filtered
+- 2026-05-11 22:00 | Loud SC vs Funkbol Clube | soccerspecials-kings-league-brazil | odds_api_io_events_bookmaker_filtered
+- 2026-05-11 21:45 | Millonarios FC vs America de Cali Sa | colombia-liga-femenina | odds_api_io_events_bookmaker_filtered
 - 2026-05-11 19:45 | Napoli vs Bologna | serie_a | football_data_fixtures_proxy
+- 2026-05-11 21:00 | Once Caldas Sa vs Orsomarso SC | colombia-liga-femenina | odds_api_io_events_bookmaker_filtered
+- 2026-05-11 22:00 | Piaui PI vs Ferroviario AC CE | brazil-brasileiro-serie-d | odds_api_io_events_bookmaker_filtered
 - 2026-05-11 20:15 | Rio Ave vs Sp Lisbon | P1 | football_data_fixtures_proxy
 - 2026-05-11 20:15 | Santa Clara vs Nacional | P1 | football_data_fixtures_proxy
+- 2026-05-11 21:00 | SC Internacional RS vs Botafogo Fr RJ | brazil-campeonato-brasileiro-women | odds_api_io_events_bookmaker_filtered
+- 2026-05-11 22:30 | Sol de America Villa Elisa vs Guairena FC | paraguay-segunda-division | odds_api_io_events_bookmaker_filtered
 - 2026-05-11 20:15 | Tondela vs Moreirense | P1 | football_data_fixtures_proxy
 - 2026-05-11 20:00 | Tottenham vs Leeds | premier_league | football_data_fixtures_proxy
 - 2026-05-11 20:00 | Vallecano vs Girona | la_liga | football_data_fixtures_proxy
 - 2026-05-12 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers | usa-single-a-carolina-league | odds_api_io_events_search
 - 2026-05-12 22:05 | Louisville Bats vs Indianapolis Indians | usa-triple-a-international-league | odds_api_io_events_search
-- 2026-05-13 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers | usa-single-a-carolina-league | odds_api_io_events_search
-- 2026-05-13 15:05 | Louisville Bats vs Indianapolis Indians | usa-triple-a-international-league | odds_api_io_events_search
-- 2026-05-13 22:00 | Vila Nova FC GO vs Anapolis FC GO | brazil-copa-verde | odds_api_io_events_search
-- 2026-05-14 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers | usa-single-a-carolina-league | odds_api_io_events_search
-- 2026-05-14 22:35 | Louisville Bats vs Indianapolis Indians | usa-triple-a-international-league | odds_api_io_events_search
-- 2026-05-14 17:00 | Valencia CF vs Rayo Vallecano | spain-laliga | odds_api_io_events_search
-- 2026-05-15 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers | usa-single-a-carolina-league | odds_api_io_events_search
-- 2026-05-15 23:15 | Louisville Bats vs Indianapolis Indians | usa-triple-a-international-league | odds_api_io_events_search
-- 2026-05-16 09:00 | Cagliari Calcio vs SSC Napoli | italy-primavera-1 | odds_api_io_events_search
 
 ## manual_odds_template
 
@@ -366,30 +367,32 @@ Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 Use this only for forward paper-testing. Do not use for real-money betting.
 Existing filled odds are preserved when fixtures refresh.
 Fill the three 1X2 odds columns from Bet365 before kickoff, then commit/update the CSV or run the workflow manually.
-Template rows: 22
+Template rows: 32
 Rows with complete odds: 0
 - 2026-05-11 20:15 | Benfica vs Sp Braga | bookmaker=bet365_manual
+- 2026-05-11 21:30 | CDP Junior FC vs Independiente Santa Fe | bookmaker=bet365_manual
+- 2026-05-11 22:00 | CR Flamengo RJ vs Ferroviaria SP | bookmaker=bet365_manual
+- 2026-05-11 22:00 | Deportivo Saprissa vs Sporting FC | bookmaker=bet365_manual
 - 2026-05-11 20:15 | Estrela vs Famalicao | bookmaker=bet365_manual
 - 2026-05-11 20:15 | Gil Vicente vs Arouca | bookmaker=bet365_manual
 - 2026-05-11 20:15 | Guimaraes vs Casa Pia | bookmaker=bet365_manual
 - 2026-05-11 19:30 | Huesca vs Sociedad B | bookmaker=bet365_manual
+- 2026-05-11 21:00 | Independiente Medellin vs Fortaleza FC | bookmaker=bet365_manual
+- 2026-05-11 22:00 | Loud SC vs Funkbol Clube | bookmaker=bet365_manual
+- 2026-05-11 21:45 | Millonarios FC vs America de Cali Sa | bookmaker=bet365_manual
 - 2026-05-11 19:45 | Napoli vs Bologna | bookmaker=bet365_manual
+- 2026-05-11 21:00 | Once Caldas Sa vs Orsomarso SC | bookmaker=bet365_manual
+- 2026-05-11 22:00 | Piaui PI vs Ferroviario AC CE | bookmaker=bet365_manual
 - 2026-05-11 20:15 | Rio Ave vs Sp Lisbon | bookmaker=bet365_manual
 - 2026-05-11 20:15 | Santa Clara vs Nacional | bookmaker=bet365_manual
+- 2026-05-11 21:00 | SC Internacional RS vs Botafogo Fr RJ | bookmaker=bet365_manual
+- 2026-05-11 22:30 | Sol de America Villa Elisa vs Guairena FC | bookmaker=bet365_manual
 - 2026-05-11 20:15 | Tondela vs Moreirense | bookmaker=bet365_manual
 - 2026-05-11 20:00 | Tottenham vs Leeds | bookmaker=bet365_manual
 - 2026-05-11 20:00 | Vallecano vs Girona | bookmaker=bet365_manual
 - 2026-05-12 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers | bookmaker=bet365_manual
 - 2026-05-12 22:05 | Louisville Bats vs Indianapolis Indians | bookmaker=bet365_manual
 - 2026-05-13 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers | bookmaker=bet365_manual
-- 2026-05-13 15:05 | Louisville Bats vs Indianapolis Indians | bookmaker=bet365_manual
-- 2026-05-13 22:00 | Vila Nova FC GO vs Anapolis FC GO | bookmaker=bet365_manual
-- 2026-05-14 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers | bookmaker=bet365_manual
-- 2026-05-14 22:35 | Louisville Bats vs Indianapolis Indians | bookmaker=bet365_manual
-- 2026-05-14 17:00 | Valencia CF vs Rayo Vallecano | bookmaker=bet365_manual
-- 2026-05-15 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers | bookmaker=bet365_manual
-- 2026-05-15 23:15 | Louisville Bats vs Indianapolis Indians | bookmaker=bet365_manual
-- 2026-05-16 09:00 | Cagliari Calcio vs SSC Napoli | bookmaker=bet365_manual
 
 ## manual_odds_instructions
 
@@ -405,24 +408,24 @@ Open `data/manual/manual_odds_template.csv` and fill these columns only:
 Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 ## Current rows needing odds
 - 2026-05-11 20:15 | Benfica vs Sp Braga
+- 2026-05-11 21:30 | CDP Junior FC vs Independiente Santa Fe
+- 2026-05-11 22:00 | CR Flamengo RJ vs Ferroviaria SP
+- 2026-05-11 22:00 | Deportivo Saprissa vs Sporting FC
 - 2026-05-11 20:15 | Estrela vs Famalicao
 - 2026-05-11 20:15 | Gil Vicente vs Arouca
 - 2026-05-11 20:15 | Guimaraes vs Casa Pia
 - 2026-05-11 19:30 | Huesca vs Sociedad B
+- 2026-05-11 21:00 | Independiente Medellin vs Fortaleza FC
+- 2026-05-11 22:00 | Loud SC vs Funkbol Clube
+- 2026-05-11 21:45 | Millonarios FC vs America de Cali Sa
 - 2026-05-11 19:45 | Napoli vs Bologna
+- 2026-05-11 21:00 | Once Caldas Sa vs Orsomarso SC
+- 2026-05-11 22:00 | Piaui PI vs Ferroviario AC CE
 - 2026-05-11 20:15 | Rio Ave vs Sp Lisbon
 - 2026-05-11 20:15 | Santa Clara vs Nacional
+- 2026-05-11 21:00 | SC Internacional RS vs Botafogo Fr RJ
+- 2026-05-11 22:30 | Sol de America Villa Elisa vs Guairena FC
 - 2026-05-11 20:15 | Tondela vs Moreirense
-- 2026-05-11 20:00 | Tottenham vs Leeds
-- 2026-05-11 20:00 | Vallecano vs Girona
-- 2026-05-12 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers
-- 2026-05-12 22:05 | Louisville Bats vs Indianapolis Indians
-- 2026-05-13 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers
-- 2026-05-13 15:05 | Louisville Bats vs Indianapolis Indians
-- 2026-05-13 22:00 | Vila Nova FC GO vs Anapolis FC GO
-- 2026-05-14 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers
-- 2026-05-14 22:35 | Louisville Bats vs Indianapolis Indians
-- 2026-05-14 17:00 | Valencia CF vs Rayo Vallecano
 
 ## manual_forward_snapshots
 
