@@ -1,4 +1,5 @@
 import json
+import runpy
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
@@ -123,4 +124,12 @@ if errors:
         markdown.append(f"- {error['fixture_id']}: {error['error']}")
 
 (output_dir / 'forward_fixture_results.md').write_text('\n'.join(markdown), encoding='utf-8')
+
+calibration_script = Path('scripts/build_forward_probability_calibration_report.py')
+if calibration_script.exists():
+    try:
+        runpy.run_path(str(calibration_script), run_name='__main__')
+    except Exception as exc:
+        print(f'Forward probability calibration skipped: {exc!r}')
+
 print(summary)
