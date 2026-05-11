@@ -63,7 +63,7 @@ markdown = [
     '# Upcoming Fixtures',
     '',
     'Fixture source: TheSportsDB eventsnextleague API.',
-    'Odds source: not included. Manual odds fallback is parked; automatic forward price source remains the active target.',
+    'Primary development target: automatic/free delayed market proxy, not manual Bet365.',
     '',
     f'Fixtures found: {len(fixtures)}',
     '',
@@ -84,11 +84,14 @@ if errors:
 
 (output_dir / 'upcoming_fixtures.md').write_text('\n'.join(markdown), encoding='utf-8')
 
-result_script = Path('scripts/fetch_forward_fixture_results.py')
-if result_script.exists():
-    try:
-        runpy.run_path(str(result_script), run_name='__main__')
-    except Exception as exc:
-        print(f'Forward fixture result fetch skipped: {exc!r}')
+for script_path in [
+    Path('scripts/fetch_football_data_upcoming_odds.py'),
+    Path('scripts/fetch_forward_fixture_results.py'),
+]:
+    if script_path.exists():
+        try:
+            runpy.run_path(str(script_path), run_name='__main__')
+        except Exception as exc:
+            print(f'{script_path} skipped: {exc!r}')
 
 print(f'Fetched {len(fixtures)} upcoming fixtures')
