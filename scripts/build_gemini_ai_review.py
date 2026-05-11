@@ -15,6 +15,7 @@ source_files = [
     output_dir / 'forward_input_status.md',
     output_dir / 'upcoming_fixtures.md',
     output_dir / 'manual_odds_template.md',
+    output_dir / 'manual_odds_instructions.md',
     output_dir / 'manual_forward_snapshots.md',
     output_dir / 'paper_test_log_status.md',
     output_dir / 'operational_decision_report.md',
@@ -76,6 +77,7 @@ Produce:
 9. Which probability band should be protected, suppressed, or monitored next
 10. Whether calibration impact should be increased, reduced, or left unchanged
 11. What is blocking true forward paper-testing right now: fixtures, manual odds, model matching, filters, or invalid historical logs?
+12. Whether the manual odds instructions are sufficient for the next human action.
 
 Project state:
 {context}
@@ -92,7 +94,7 @@ payload = {
     ],
     'generationConfig': {
         'temperature': 0.2,
-        'maxOutputTokens': 1300,
+        'maxOutputTokens': 1400,
     },
 }
 
