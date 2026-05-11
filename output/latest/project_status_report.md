@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T04:26:08.658855+00:00`
-GitHub run: `186` attempt `1`
-GitHub SHA: `dc8902cf7e221ec8522c3227cb170945a712a8ff`
+Generated UTC: `2026-05-11T04:30:38.552080+00:00`
+GitHub run: `187` attempt `1`
+GitHub SHA: `9de1fb3a62b4e10a4da61f0ffc69b5ae868c0432`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -64,6 +64,26 @@ Fill the three 1X2 odds columns from Bet365 before kickoff, then commit/update t
 Template rows: 1
 Rows with complete odds: 0
 - 2026-05-11 19:00:00 | Tottenham Hotspur vs Leeds United | bookmaker=bet365_manual
+
+## manual_odds_instructions
+
+# Manual Odds Entry Instructions
+Purpose: create real forward paper-test snapshots from Bet365 pre-match 1X2 odds.
+Do not stake real money from this system.
+## What to fill
+Open `data/manual/manual_odds_template.csv` and fill these columns only:
+- `market_home_odds`
+- `market_draw_odds`
+- `market_away_odds`
+- `odds_captured_at_utc`
+Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
+## Current rows needing odds
+- 2026-05-11 19:00:00 | Tottenham Hotspur vs Leeds United
+## After filling odds
+Run the workflow again. Expected result:
+- `manual_forward_snapshots` becomes greater than 0
+- `paper_test_picks` may become greater than 0
+- `candidate_bets` may still remain 0, which is acceptable
 
 ## manual_forward_snapshots
 
