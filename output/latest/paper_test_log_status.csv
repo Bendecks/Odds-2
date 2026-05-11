@@ -1,0 +1,2 @@
+raw_log_rows,valid_forward_log_rows,invalid_historical_proxy_log_rows,has_valid_forward_log
+3,0,3,False

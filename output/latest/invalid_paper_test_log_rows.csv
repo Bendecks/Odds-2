@@ -1,0 +1,4 @@
+prediction_id,match_date,home_team,away_team,sample_phase,selection,market_odds,probability,ev,paper_test_tier,paper_test_score,paper_test_reason
+49985c29d4a6e6f8a3c3,25/05/2025,Liverpool,Crystal Palace,historical_proxy_research,home,2.67,0.48610000000000003,0.2979,priority_observation,0.35760000000000003,loose_paper_tracking_not_real_money
+a79498dae79d1c08828e,25/05/2025,Fulham,Man City,historical_proxy_research,away,2.3,0.4617,0.061900000000000004,priority_observation,0.3332,loose_paper_tracking_not_real_money
+78a30856b1e30277940a,25/05/2025,Southampton,Arsenal,historical_proxy_research,away,2.52,0.5455,0.37470000000000003,observation,0.31720000000000004,loose_paper_tracking_not_real_money
