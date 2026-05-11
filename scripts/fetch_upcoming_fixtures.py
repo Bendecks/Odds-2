@@ -82,6 +82,7 @@ for league, cfg in LEAGUES.items():
 for script in [
     Path('scripts/fetch_football_data_upcoming_odds.py'),
     Path('scripts/fetch_odds_api_io_forward_prices.py'),
+    Path('scripts/fetch_api_football_forward_prices.py'),
 ]:
     if script.exists():
         try:
@@ -134,7 +135,7 @@ pd.DataFrame([summary]).to_csv(output_dir / 'upcoming_fixture_source_summary.csv
 markdown = [
     '# Upcoming Fixtures',
     '',
-    'Fixture sources: TheSportsDB, Football-Data fixtures proxy, and cautious odds-api.io events where configured.',
+    'Fixture sources: TheSportsDB, Football-Data fixtures proxy, cautious odds-api.io events, and disabled-by-default API-Football status.',
     'Duplicate fixtures are deduplicated by date and normalized teams, preferring odds-api.io then Football-Data for odds alignment.',
     'Primary development target: automatic/free market proxy, not manual Bet365.',
     '',
