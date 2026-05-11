@@ -5,7 +5,7 @@ Includes Football-Data delayed proxy and capped odds-api.io single-event proxy w
 Not live/full-market coverage and not real-money ready.
 
 Forward prediction rows: 80
-Proxy price rows: 33
+Proxy price rows: 34
 Matched prediction rows: 11
 Value snapshot rows: 99
 odds-api.io snapshot rows: 0

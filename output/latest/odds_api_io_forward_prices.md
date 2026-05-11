@@ -28,7 +28,7 @@ Bookmakers requested: Bet365,1xbet
 Odds endpoint mode: multi_event_documented_endpoint
 Selected bookmakers: 1xbet
 Selected markets: 3-Way Result
-Fixture rows: 143
+Fixture rows: 142
 Event selection diagnostic rows: 1295
 Selected event rows: 1
 Priced event rows: 1
@@ -39,7 +39,7 @@ Errors/status rows: 6
 
 Header rows captured: 10
 Latest x-ratelimit-limit: 100
-Latest x-ratelimit-remaining: 50
+Latest x-ratelimit-remaining: 30
 Latest x-ratelimit-reset: 2026-05-11T22:22:15Z
 Latest retry-after: None
 
@@ -65,8 +65,8 @@ Latest retry-after: None
 - src=events_search_fallback | query=Napoli | target=Napoli vs Bologna | candidate=Charleston Riverdogs vs Kannapolis Cannon Ballers | confidence=0.4911 | selected=False | reason=below_min_event_match_confidence
 - src=events_search_fallback | query=Napoli | target=Napoli vs Bologna | candidate=Vila Nova FC GO vs Anapolis FC GO | confidence=0.4853 | selected=False | reason=below_min_event_match_confidence
 - src=events_bookmaker_filtered | query=Santa Clara | target=Santa Clara vs Nacional | candidate=Penarol Montevideo vs Nacional de Montevideo | confidence=0.4834 | selected=False | reason=below_min_event_match_confidence
+- src=events_bookmaker_filtered | query=Santa Clara | target=Santa Clara vs Nacional | candidate=Penarol Montevideo vs Nacional de Montevideo | confidence=0.4834 | selected=False | reason=below_min_event_match_confidence
 - src=events_bookmaker_filtered | query=Benfica | target=Benfica vs Sp Braga | candidate=Deportivo Cali vs CA Bucaramanga | confidence=0.4632 | selected=False | reason=below_min_event_match_confidence
-- src=events_bookmaker_filtered | query=Vallecano | target=Vallecano vs Girona | candidate=Millonarios FC vs Llaneros FC | confidence=0.4494 | selected=False | reason=below_min_event_match_confidence
 
 ## Errors / Status
 

@@ -4,7 +4,7 @@ Use this only for forward paper-testing. Do not use for real-money betting.
 Existing filled odds are preserved when fixtures refresh.
 Fill the three 1X2 odds columns from Bet365 before kickoff, then commit/update the CSV or run the workflow manually.
 
-Template rows: 153
+Template rows: 152
 Rows with complete odds: 0
 
 - 2026-05-11 20:15 | Benfica vs Sp Braga | bookmaker=bet365_manual
@@ -55,7 +55,6 @@ Rows with complete odds: 0
 - 2026-05-12 00:00 | CD Palestino vs Deportes Limache | bookmaker=bet365_manual
 - 2026-05-12 20:00 | CD Real Santander vs Boca Juniors de Cali | bookmaker=bet365_manual
 - 2026-05-12 17:00 | Central Espanol Reserve vs Defensor Sporting | bookmaker=bet365_manual
-- 2026-05-12 18:30 | Cerro Largo FC vs Boston River | bookmaker=bet365_manual
 - 2026-05-12 10:30 | Cerro Porteno Asuncion vs Guarani Asuncion | bookmaker=bet365_manual
 - 2026-05-12 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers | bookmaker=bet365_manual
 - 2026-05-12 18:45 | Clyde FC vs Hamilton Academical FC | bookmaker=bet365_manual

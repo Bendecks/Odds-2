@@ -65,7 +65,6 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-12 00:00 | CD Palestino vs Deportes Limache
 - 2026-05-12 20:00 | CD Real Santander vs Boca Juniors de Cali
 - 2026-05-12 17:00 | Central Espanol Reserve vs Defensor Sporting
-- 2026-05-12 18:30 | Cerro Largo FC vs Boston River
 - 2026-05-12 10:30 | Cerro Porteno Asuncion vs Guarani Asuncion
 - 2026-05-12 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers
 - 2026-05-12 18:45 | Clyde FC vs Hamilton Academical FC

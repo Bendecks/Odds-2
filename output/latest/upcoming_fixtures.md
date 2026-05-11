@@ -4,8 +4,8 @@ Fixture sources: TheSportsDB, Football-Data fixtures proxy, cautious odds-api.io
 Duplicate fixtures are deduplicated by date and normalized teams, preferring odds-api.io then Football-Data for odds alignment.
 Primary development target: automatic/free market proxy, not manual Bet365.
 
-Fixtures found: 153
-Source counts: {'odds_api_io_events_bookmaker_filtered': 127, 'odds_api_io_events_search': 15, 'football_data_fixtures_proxy': 11}
+Fixtures found: 152
+Source counts: {'odds_api_io_events_bookmaker_filtered': 126, 'odds_api_io_events_search': 15, 'football_data_fixtures_proxy': 11}
 Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 
 - 2026-05-11 20:15 | Benfica vs Sp Braga | P1 | football_data_fixtures_proxy
@@ -56,7 +56,6 @@ Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 - 2026-05-12 00:00 | CD Palestino vs Deportes Limache | chile-copa-de-la-liga | odds_api_io_events_bookmaker_filtered
 - 2026-05-12 20:00 | CD Real Santander vs Boca Juniors de Cali | colombia-copa-colombia | odds_api_io_events_bookmaker_filtered
 - 2026-05-12 17:00 | Central Espanol Reserve vs Defensor Sporting | uruguay-tercera-division-reserves | odds_api_io_events_bookmaker_filtered
-- 2026-05-12 18:30 | Cerro Largo FC vs Boston River | uruguay-tercera-division-reserves | odds_api_io_events_bookmaker_filtered
 - 2026-05-12 10:30 | Cerro Porteno Asuncion vs Guarani Asuncion | paraguay-primera-division-reserve-apertura | odds_api_io_events_bookmaker_filtered
 - 2026-05-12 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers | usa-single-a-carolina-league | odds_api_io_events_search
 - 2026-05-12 18:45 | Clyde FC vs Hamilton Academical FC | scotland-league-1 | odds_api_io_events_bookmaker_filtered
@@ -88,3 +87,4 @@ Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 - 2026-05-12 10:30 | Incheon United FC vs FC Pohang Steelers | republic-of-korea-k-league-1 | odds_api_io_events_bookmaker_filtered
 - 2026-05-12 14:00 | FC Inter Turku vs JS Hercules | finland-suomen-cup | odds_api_io_events_bookmaker_filtered
 - 2026-05-12 19:00 | Itagui Leones FC vs Orsomarso SC | colombia-copa-colombia | odds_api_io_events_bookmaker_filtered
+- 2026-05-12 15:00 | JS Omrane vs Avenir S Marsa | tunisia-ligue-1 | odds_api_io_events_bookmaker_filtered
