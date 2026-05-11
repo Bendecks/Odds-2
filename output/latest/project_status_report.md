@@ -5,14 +5,15 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T06:36:12.954501+00:00`
-GitHub run: `192` attempt `1`
-GitHub SHA: `57ae35993e6fb44f0080243222be32535f8265ab`
+Generated UTC: `2026-05-11T06:39:39.974302+00:00`
+GitHub run: `195` attempt `1`
+GitHub SHA: `94f898270d8cb72994111854c10d63a720db0b09`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
 | football-data.co.uk Premier League 24/25 | True | 380 |  |  |
 | Upcoming fixtures | True | 1 |  |  |
+| Automatic forward source report | True | 1 |  |  |
 | Manual odds template | True | 1 |  |  |
 | Manual odds instructions | True | 17 |  |  |
 | Manual forward snapshots | True | 0 |  |  |
@@ -33,22 +34,24 @@ Overall status: `OK`
 | Paper test log status | True | 1 |  |  |
 | CLV band diagnostics | True | 4 |  |  |
 | Signal suppression rules | True | 2 |  |  |
-| Rule action summary | True | 2 |  |  |
 
 ## automatic_forward_source
 
 # Automatic Forward Source Report
-Purpose: distinguish true automatic forward sources from historical market proxy and paused manual fallback.
+Purpose: distinguish true automatic forward inputs from historical market proxy and paused manual fallback.
+Manual odds are optional fallback only and are not treated as a blocker in this development phase.
 Upcoming fixture rows: 1
 Historical market proxy rows: 30
 Manual forward rows: 0
 Has upcoming fixtures: True
-Has automatic forward odds: False
+Has automatic forward odds/proxy: False
 Has historical market proxy: True
+Manual fallback mode: parked_optional_fallback
 Automatic forward status: automatic_forward_not_ready
-Blocker: only historical market proxy available; not valid for forward picks
+Blocker: only_historical_market_proxy_available_not_forward_valid
+Next development step: replace_historical_market_proxy_for_forward_testing
 ## Interpretation
-Fixtures are available, but there is no automatic forward odds/source yet. Historical closing-market proxy must remain research-only.
+Fixtures are available, but there is no automatic forward price source yet. Historical closing-market proxy must remain research-only.
 
 ## forward_input_status
 
