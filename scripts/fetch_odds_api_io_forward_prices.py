@@ -34,12 +34,27 @@ fixture_columns = [
 rows = []
 fixture_rows = []
 errors = []
+rate_limit_rows = []
 calls_used = 0
 fetched_at = datetime.now(timezone.utc).isoformat()
 today = datetime.now(timezone.utc).date()
 discovery_mode = 'model_covered_search_then_multi_odds'
 parse_mode = 'bookmakers_market_odds_schema'
 query_source = 'unknown'
+
+
+def record_rate_limit_headers(label: str, status_code, headers):
+    row = {
+        'captured_at_utc': datetime.now(timezone.utc).isoformat(),
+        'label': label,
+        'status_code': status_code,
+        'x_ratelimit_limit': headers.get('x-ratelimit-limit') if headers else None,
+        'x_ratelimit_remaining': headers.get('x-ratelimit-remaining') if headers else None,
+        'x_ratelimit_reset': headers.get('x-ratelimit-reset') if headers else None,
+        'retry_after': headers.get('retry-after') if headers else None,
+    }
+    rate_limit_rows.append(row)
+    (raw_dir / f'{label}_headers_latest.json').write_text(json.dumps(row, indent=2), encoding='utf-8')
 
 
 def get_json(url: str, label: str):
@@ -49,11 +64,13 @@ def get_json(url: str, label: str):
     try:
         with urllib.request.urlopen(url, timeout=30) as response:
             calls_used += 1
+            record_rate_limit_headers(label, response.status, response.headers)
             text = response.read().decode('utf-8')
             (raw_dir / f'{label}_latest.json').write_text(text, encoding='utf-8')
             return json.loads(text)
     except urllib.error.HTTPError as exc:
         calls_used += 1
+        record_rate_limit_headers(label, exc.code, exc.headers)
         body = exc.read().decode('utf-8', errors='replace')
         (raw_dir / f'{label}_error.txt').write_text(body, encoding='utf-8')
         raise RuntimeError(f'HTTP {exc.code}: {body[:300]}')
@@ -348,6 +365,11 @@ fixtures = fixtures[fixture_columns]
 fixtures.to_csv(raw_dir / 'odds_api_io_forward_fixtures.csv', index=False)
 fixtures.to_csv(output_dir / 'odds_api_io_forward_fixtures.csv', index=False)
 
+rate_df = pd.DataFrame(rate_limit_rows)
+rate_df.to_csv(raw_dir / 'odds_api_io_rate_limit_headers.csv', index=False)
+rate_df.to_csv(output_dir / 'odds_api_io_rate_limit_headers.csv', index=False)
+latest_rate = rate_limit_rows[-1] if rate_limit_rows else {}
+
 summary = {
     'enabled': bool(api_key),
     'calls_used': calls_used,
@@ -369,6 +391,11 @@ summary = {
     'odds_parse_mode': parse_mode,
     'selected_bookmakers': ', '.join(sorted(set(selected_bookmakers))),
     'selected_markets': ', '.join(sorted(set(selected_markets))),
+    'rate_limit_header_rows': int(len(rate_limit_rows)),
+    'latest_rate_limit_limit': latest_rate.get('x_ratelimit_limit'),
+    'latest_rate_limit_remaining': latest_rate.get('x_ratelimit_remaining'),
+    'latest_rate_limit_reset': latest_rate.get('x_ratelimit_reset'),
+    'latest_retry_after': latest_rate.get('retry_after'),
     'source_quality': 'free_api_market_proxy_capped_multi_call',
 }
 pd.DataFrame([summary]).to_csv(output_dir / 'odds_api_io_forward_price_status.csv', index=False)
@@ -379,6 +406,7 @@ markdown = [
     'Cautious optional API source. Hard-capped by ODDS_API_IO_MAX_CALLS, ODDS_API_IO_MAX_EVENTS, and ODDS_API_IO_MAX_PRICE_EVENTS.',
     'Prioritizes model-covered forward fixtures for search queries, then uses documented /v3/odds/multi for selected events.',
     'Parses documented EventResponse.bookmakers -> markets -> odds -> home/draw/away schema.',
+    'Captures provider rate-limit headers from each authenticated API response.',
     'Not real-money ready until validated against forward results and other sources.',
     '',
     f"Enabled: {summary['enabled']}",
@@ -400,6 +428,14 @@ markdown = [
     f"Priced event rows: {summary['priced_event_rows']}",
     f"Price rows: {summary['price_rows']}",
     f"Errors/status rows: {summary['errors']}",
+    '',
+    '## Provider rate-limit headers',
+    '',
+    f"Header rows captured: {summary['rate_limit_header_rows']}",
+    f"Latest x-ratelimit-limit: {summary['latest_rate_limit_limit']}",
+    f"Latest x-ratelimit-remaining: {summary['latest_rate_limit_remaining']}",
+    f"Latest x-ratelimit-reset: {summary['latest_rate_limit_reset']}",
+    f"Latest retry-after: {summary['latest_retry_after']}",
     '',
 ]
 if len(prices):
