@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T21:06:47.625697+00:00`
-GitHub run: `297` attempt `1`
-GitHub SHA: `b93781ba6190818cf6fe33ce523a76e977a82344`
+Generated UTC: `2026-05-11T21:16:57.058385+00:00`
+GitHub run: `299` attempt `1`
+GitHub SHA: `431edde7aed30375c1199c79f34023fe10f91b8b`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -23,17 +23,17 @@ Overall status: `OK`
 | API-Football forward prices | True | 0 |  |  |
 | API-Football forward fixtures | True | 0 |  |  |
 | API-Football forward price status | True | 1 |  |  |
-| Automatic forward value snapshots | True | 27 |  |  |
-| Forward price coverage report | True | 3 |  |  |
+| Automatic forward value snapshots | True | 99 |  |  |
+| Forward price coverage report | True | 80 |  |  |
 | Forward price coverage summary | True | 1 |  |  |
 | Forward price source summary | True | 3 |  |  |
-| Proxy candidate observations | True | 4 |  |  |
+| Proxy candidate observations | True | 12 |  |  |
 | Proxy candidate observation summary | True | 1 |  |  |
-| Proxy candidate explanation report | True | 4 |  |  |
+| Proxy candidate explanation report | True | 12 |  |  |
 | Proxy candidate explanation summary | True | 1 |  |  |
 | Proxy candidate blocker summary | True | 6 |  |  |
 | Automatic forward value snapshot summary | True | 1 |  |  |
-| Automatic forward value match diagnostics | True | 3 |  |  |
+| Automatic forward value match diagnostics | True | 80 |  |  |
 
 ## project_goal_readiness
 
@@ -106,8 +106,8 @@ Errors: 0
 # Automatic Forward Source Report
 Purpose: distinguish true automatic forward inputs from historical market proxy and paused manual fallback.
 Football-Data and odds-api.io prices are treated as paper-test proxy prices until validated.
-Upcoming fixture rows: 150
-Fixture team rows unmatched: 290
+Upcoming fixture rows: 154
+Fixture team rows unmatched: 298
 Ready for model-fixture join: False
 Automatic forward price rows: 33
 odds-api.io price rows: 0
@@ -281,7 +281,7 @@ Average match confidence: None
 # Forward Fixture Predictions
 Probability-only forward fixture model output. Not a betting card and not a real-money recommendation.
 Full model rows use matched team-strength data. Baseline rows are conservative league-average placeholders used to increase odds-matching coverage only.
-Upcoming fixture rows: 150
+Upcoming fixture rows: 154
 Forward fixture prediction rows: 80
 Full model prediction rows: 3
 Baseline prediction rows: 77
@@ -314,7 +314,7 @@ Ready for price join: True
 # Forward Fixture Prediction Log
 Probability-only forward prediction log. This is not a betting log and contains no stake or real-money signal.
 Current forward fixture predictions: 80
-New forward fixture predictions logged: 80
+New forward fixture predictions logged: 0
 Total forward fixture predictions logged: 84
 Log type: probability_only_no_market_prices
 - 2026-05-12 2026-05-11 14:00:00 | URA FC vs Calvary | H=0.37720000000000004 D=0.274 A=0.3488
@@ -364,10 +364,10 @@ Average Brier score: None
 # Forward Input Status
 Manual Bet365 odds input is parked as an optional fallback. It is not an active development blocker.
 Current priority: automatic/free-data forward-testing sources and robust fixture/model matching.
-Upcoming fixtures: 150
-Manual template rows: 150
+Upcoming fixtures: 154
+Manual template rows: 154
 Rows with complete manual odds: 0
-Rows missing manual odds: 150
+Rows missing manual odds: 154
 Manual forward snapshot rows: 0
 Manual odds mode: optional_fallback_paused
 Manual odds is blocker: False
@@ -398,8 +398,8 @@ Manual odds are not required in the current phase. These rows are only kept for 
 Fixture sources: TheSportsDB, Football-Data fixtures proxy, cautious odds-api.io events, and disabled-by-default API-Football status.
 Duplicate fixtures are deduplicated by date and normalized teams, preferring odds-api.io then Football-Data for odds alignment.
 Primary development target: automatic/free market proxy, not manual Bet365.
-Fixtures found: 150
-Source counts: {'odds_api_io_events_bookmaker_filtered': 128, 'football_data_fixtures_proxy': 11, 'odds_api_io_events_search': 11}
+Fixtures found: 154
+Source counts: {'odds_api_io_events_bookmaker_filtered': 128, 'odds_api_io_events_search': 15, 'football_data_fixtures_proxy': 11}
 Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 - 2026-05-11 20:15 | Benfica vs Sp Braga | P1 | football_data_fixtures_proxy
 - 2026-05-11 21:30 | CDP Junior FC vs Independiente Santa Fe | colombia-liga-femenina | odds_api_io_events_bookmaker_filtered
@@ -431,7 +431,7 @@ Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 Use this only for forward paper-testing. Do not use for real-money betting.
 Existing filled odds are preserved when fixtures refresh.
 Fill the three 1X2 odds columns from Bet365 before kickoff, then commit/update the CSV or run the workflow manually.
-Template rows: 150
+Template rows: 154
 Rows with complete odds: 0
 - 2026-05-11 20:15 | Benfica vs Sp Braga | bookmaker=bet365_manual
 - 2026-05-11 21:30 | CDP Junior FC vs Independiente Santa Fe | bookmaker=bet365_manual
@@ -598,7 +598,7 @@ Automatic proxy prices are delayed/free market proxies, not live bookmaker odds.
 Suppressed historical bands may be tracked only as proxy observation and remain excluded from real-money readiness.
 Source used: automatic_forward_value_snapshots
 Current paper-test picks: 7
-Newly logged paper-test picks: 7
+Newly logged paper-test picks: 0
 Total logged paper-test rows: 23
 - Estrela vs Famalicao | selection=HOME | odds=3.7 | prob=0.3772 | EV=0.3956 | edge=0.1069 | penalty=0.3956 | band=0.35-0.45 | rule=monitor | tier=proxy_observation
 - Estrela vs Famalicao | selection=HOME | odds=3.51 | prob=0.3772 | EV=0.324 | edge=0.0923 | penalty=0.324 | band=0.35-0.45 | rule=monitor | tier=priority_proxy_observation

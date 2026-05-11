@@ -6,7 +6,7 @@ Suppressed historical bands may be tracked only as proxy observation and remain 
 
 Source used: automatic_forward_value_snapshots
 Current paper-test picks: 7
-Newly logged paper-test picks: 7
+Newly logged paper-test picks: 0
 Total logged paper-test rows: 23
 
 - Estrela vs Famalicao | selection=HOME | odds=3.7 | prob=0.3772 | EV=0.3956 | edge=0.1069 | penalty=0.3956 | band=0.35-0.45 | rule=monitor | tier=proxy_observation

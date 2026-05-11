@@ -160,13 +160,17 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-12 15:30 | FC Zlin vs FK Teplice
 - 2026-05-13 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers
 - 2026-05-13 15:05 | Louisville Bats vs Indianapolis Indians
+- 2026-05-13 18:00 | SC Braga vs Benfica Lisboa
 - 2026-05-13 22:00 | Vila Nova FC GO vs Anapolis FC GO
 - 2026-05-14 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers
+- 2026-05-14 20:15 | Electrico FC vs SL Benfica
 - 2026-05-14 22:35 | Louisville Bats vs Indianapolis Indians
+- 2026-05-14 20:00 | Quinta Dos Lombos vs SL Benfica
 - 2026-05-14 17:00 | Valencia CF vs Rayo Vallecano
 - 2026-05-15 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers
 - 2026-05-15 23:15 | Louisville Bats vs Indianapolis Indians
 - 2026-05-16 09:00 | Cagliari Calcio vs SSC Napoli
+- 2026-05-16 11:00 | FC Porto B vs SL Benfica B
 
 ## After filling odds
 

@@ -4,8 +4,8 @@ Fixture sources: TheSportsDB, Football-Data fixtures proxy, cautious odds-api.io
 Duplicate fixtures are deduplicated by date and normalized teams, preferring odds-api.io then Football-Data for odds alignment.
 Primary development target: automatic/free market proxy, not manual Bet365.
 
-Fixtures found: 150
-Source counts: {'odds_api_io_events_bookmaker_filtered': 128, 'football_data_fixtures_proxy': 11, 'odds_api_io_events_search': 11}
+Fixtures found: 154
+Source counts: {'odds_api_io_events_bookmaker_filtered': 128, 'odds_api_io_events_search': 15, 'football_data_fixtures_proxy': 11}
 Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 
 - 2026-05-11 20:15 | Benfica vs Sp Braga | P1 | football_data_fixtures_proxy
