@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T07:54:41.122852+00:00`
-GitHub run: `223` attempt `1`
-GitHub SHA: `e4a0f7c4c10c706745a22604e8eb44fbe125f1c7`
+Generated UTC: `2026-05-11T07:56:41.322373+00:00`
+GitHub run: `224` attempt `1`
+GitHub SHA: `c629955c002aa1751e47af184815658c9e01c78c`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -22,7 +22,7 @@ Overall status: `OK`
 | Forward probability calibration report | True | 1 |  |  |
 | Forward probability calibration summary | True | 1 |  |  |
 | Automatic forward source report | True | 1 |  |  |
-| Automatic forward prices | True | 0 |  |  |
+| Automatic forward prices | True | 405 |  |  |
 | Forward price source adapter | True | 1 |  |  |
 | Fixture model match report | True | 2 |  |  |
 | Fixture model match summary | True | 1 |  |  |
@@ -34,6 +34,39 @@ Overall status: `OK`
 | Manual odds instructions | True | 17 |  |  |
 | Manual forward snapshots | True | 0 |  |  |
 | ClubElo latest snapshot | True | 630 |  |  |
+
+## football_data_upcoming_odds
+
+# Football-Data Upcoming Odds Proxy
+Free delayed market proxy. Not live odds and not real-money ready.
+Raw rows: 135
+Proxy price rows: 405
+Sources attempted: 1
+Errors: 0
+- 08/05/2026 19:45 | Standard vs Oud-Heverlee Leuven | football_data_bet365_proxy | 2.0/3.5/3.5
+- 08/05/2026 19:45 | Standard vs Oud-Heverlee Leuven | football_data_max_market_proxy | 2.07/3.5/3.66
+- 08/05/2026 19:45 | Standard vs Oud-Heverlee Leuven | football_data_average_market_proxy | 2.01/3.41/3.48
+- 09/05/2026 15:00 | RAAL La Louviere vs Cercle Brugge | football_data_bet365_proxy | 3.1/3.3/2.15
+- 09/05/2026 15:00 | RAAL La Louviere vs Cercle Brugge | football_data_max_market_proxy | 3.2/3.6/2.2
+- 09/05/2026 15:00 | RAAL La Louviere vs Cercle Brugge | football_data_average_market_proxy | 3.06/3.45/2.16
+- 09/05/2026 15:00 | Waregem vs Dender | football_data_bet365_proxy | 1.55/3.9/5.5
+- 09/05/2026 15:00 | Waregem vs Dender | football_data_max_market_proxy | 1.6/4.35/5.8
+- 09/05/2026 15:00 | Waregem vs Dender | football_data_average_market_proxy | 1.54/4.1/5.38
+- 09/05/2026 19:45 | Club Brugge vs St Truiden | football_data_bet365_proxy | 1.45/4.5/5.5
+- 09/05/2026 19:45 | Club Brugge vs St Truiden | football_data_max_market_proxy | 1.53/4.75/6.0
+- 09/05/2026 19:45 | Club Brugge vs St Truiden | football_data_average_market_proxy | 1.47/4.6/5.5
+- 10/05/2026 12:30 | Gent vs Anderlecht | football_data_bet365_proxy | 2.3/3.4/2.75
+- 10/05/2026 12:30 | Gent vs Anderlecht | football_data_max_market_proxy | 2.45/3.6/2.9
+- 10/05/2026 12:30 | Gent vs Anderlecht | football_data_average_market_proxy | 2.34/3.43/2.75
+- 10/05/2026 15:00 | Antwerp vs Charleroi | football_data_bet365_proxy | 2.3/3.2/2.9
+- 10/05/2026 15:00 | Antwerp vs Charleroi | football_data_max_market_proxy | 2.37/3.35/3.2
+- 10/05/2026 15:00 | Antwerp vs Charleroi | football_data_average_market_proxy | 2.28/3.25/2.97
+- 10/05/2026 17:30 | St. Gilloise vs Mechelen | football_data_bet365_proxy | 1.33/4.5/8.0
+- 10/05/2026 17:30 | St. Gilloise vs Mechelen | football_data_max_market_proxy | 1.36/5.5/11.5
+- 10/05/2026 17:30 | St. Gilloise vs Mechelen | football_data_average_market_proxy | 1.31/5.06/8.7
+- 10/05/2026 18:15 | Genk vs Westerlo | football_data_bet365_proxy | 1.6/4.0/4.5
+- 10/05/2026 18:15 | Genk vs Westerlo | football_data_max_market_proxy | 1.67/4.5/5.2
+- 10/05/2026 18:15 | Genk vs Westerlo | football_data_average_market_proxy | 1.6/4.16/4.63
 
 ## automatic_forward_source
 
@@ -54,6 +87,17 @@ Next development step: evaluate_proxy_value_snapshots_and_paper_filters
 All fixture teams match the model team table.
 ## Interpretation
 Automatic delayed proxy prices are available. Use only for paper-test/proxy observation, not real money.
+
+## automatic_forward_value_snapshots
+
+# Automatic Forward Value Snapshots
+Delayed/free market proxy joined to forward probability predictions.
+Not live odds, not Bet365 direct, and not real-money ready.
+Forward prediction rows: 1
+Proxy price rows: 405
+Value snapshot rows: 0
+Positive EV rows: 0
+No automatic forward value snapshots were built. Check proxy odds availability and team/date matching.
 
 ## forward_fixture_predictions
 
