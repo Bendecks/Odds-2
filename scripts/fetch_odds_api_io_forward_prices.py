@@ -19,6 +19,7 @@ base_url = 'https://api.odds-api.io/v3'
 max_events = int(os.getenv('ODDS_API_IO_MAX_EVENTS', '50'))
 max_event_pages = int(os.getenv('ODDS_API_IO_EVENTS_MAX_PAGES', '1'))
 max_calls = int(os.getenv('ODDS_API_IO_MAX_CALLS', '6'))
+max_discovery_calls = max(max_calls - 1, 0)
 max_price_events = int(os.getenv('ODDS_API_IO_MAX_PRICE_EVENTS', '3'))
 min_event_match_confidence = float(os.getenv('ODDS_API_IO_MIN_EVENT_MATCH_CONFIDENCE', '0.72'))
 events_lookahead_days = int(os.getenv('ODDS_API_IO_EVENTS_LOOKAHEAD_DAYS', '14'))
@@ -49,11 +50,13 @@ selection_diag_rows = []
 calls_used = 0
 fetched_at = datetime.now(timezone.utc).isoformat()
 today = datetime.now(timezone.utc).date()
-discovery_mode = 'bookmaker_filtered_events_then_search_fallback_then_multi_odds'
+discovery_mode = 'bookmaker_filtered_events_then_search_fallback_then_reserved_multi_odds'
 parse_mode = 'bookmakers_market_odds_schema'
 query_source = 'unknown'
 events_discovery_rows = 0
 search_fallback_used = False
+multi_odds_attempted = False
+multi_odds_skipped_reason = ''
 
 
 def rfc3339_day_start(day):
@@ -62,6 +65,10 @@ def rfc3339_day_start(day):
 
 def rfc3339_day_end(day):
     return datetime.combine(day, time.max, tzinfo=timezone.utc).replace(microsecond=0).strftime('%Y-%m-%dT%H:%M:%SZ')
+
+
+def discovery_capacity_remaining() -> bool:
+    return calls_used < max_discovery_calls
 
 
 def record_rate_limit_headers(label: str, status_code, headers):
@@ -319,7 +326,7 @@ def choose_best_event_for_target(target, event_rows, seen_event_ids, discovery_s
 
 def fetch_bookmaker_filtered_events(targets):
     global events_discovery_rows
-    if not api_key or not targets or calls_used >= max_calls:
+    if not api_key or not targets or not discovery_capacity_remaining():
         return []
     target_dates = [t.get('match_date') for t in targets if t.get('match_date')]
     if target_dates:
@@ -336,7 +343,7 @@ def fetch_bookmaker_filtered_events(targets):
 
     all_events = []
     for page in range(max_event_pages):
-        if calls_used >= max_calls:
+        if not discovery_capacity_remaining():
             break
         params = {
             'apiKey': api_key,
@@ -452,7 +459,9 @@ else:
     ]
 
     for target in unmatched_targets:
-        if calls_used >= max_calls or len(selected_events) >= max_price_events:
+        if not discovery_capacity_remaining() or len(selected_events) >= max_price_events:
+            break
+        if selected_events and calls_used >= max_discovery_calls:
             break
         query = target.get('query')
         try:
@@ -476,6 +485,7 @@ else:
 
     if selected_events and calls_used < max_calls:
         try:
+            multi_odds_attempted = True
             event_ids = ','.join([meta['raw_event_id'] for meta in selected_events[:10]])
             params = {
                 'apiKey': api_key,
@@ -518,6 +528,11 @@ else:
                     errors.append({'stage': 'odds_parse', 'error': f'No 1X2 odds found in multi-odds payload for event {meta.get("raw_event_id")}'})
         except Exception as exc:
             errors.append({'stage': 'multi_odds_request_or_parse', 'error': repr(exc)})
+    elif selected_events and calls_used >= max_calls:
+        multi_odds_skipped_reason = 'call_cap_reached_before_multi_odds'
+        errors.append({'stage': 'multi_odds_skipped', 'error': multi_odds_skipped_reason})
+    else:
+        multi_odds_skipped_reason = 'no_selected_events'
 
 prices = pd.DataFrame(rows)
 for col in price_columns:
@@ -532,7 +547,7 @@ if len(fixtures):
     fixtures = fixtures.drop_duplicates(['fixture_id'], keep='first')
 for col in fixture_columns:
     if col not in fixtures.columns:
-        fixtures[col] = None
+    	fixtures[col] = None
 fixtures = fixtures[fixture_columns]
 fixtures.to_csv(raw_dir / 'odds_api_io_forward_fixtures.csv', index=False)
 fixtures.to_csv(output_dir / 'odds_api_io_forward_fixtures.csv', index=False)
@@ -554,6 +569,7 @@ summary = {
     'enabled': bool(api_key),
     'calls_used': calls_used,
     'max_calls': max_calls,
+    'max_discovery_calls': max_discovery_calls,
     'max_events': max_events,
     'events_max_pages': max_event_pages,
     'events_lookahead_days': events_lookahead_days,
@@ -566,6 +582,8 @@ summary = {
     'search_fallback_used': search_fallback_used,
     'search_queries_used': ', '.join(search_queries_used),
     'selected_event_ids': ', '.join([meta['raw_event_id'] for meta in selected_events]),
+    'multi_odds_attempted': multi_odds_attempted,
+    'multi_odds_skipped_reason': multi_odds_skipped_reason,
     'fixture_rows': int(len(fixtures)),
     'event_selection_diagnostic_rows': int(len(selection_diag)),
     'selected_event_rows': int(len(selected_events)),
@@ -593,11 +611,13 @@ markdown = [
     'Cautious optional API source. Hard-capped by ODDS_API_IO_MAX_CALLS, ODDS_API_IO_MAX_EVENTS, and ODDS_API_IO_MAX_PRICE_EVENTS.',
     'Primary discovery uses /events with sport=football, status=pending, bookmaker filter, from/to RFC3339, limit and skip; /events/search is fallback only.',
     'Selected events are matched to model-covered forward fixtures by home/away/date confidence, then priced through documented /v3/odds/multi.',
+    'At least one API call is reserved for /odds/multi when any selected event exists.',
     'Captures provider rate-limit headers from each authenticated API response.',
     'Not real-money ready until validated against forward results and other sources.',
     '',
     f"Enabled: {summary['enabled']}",
     f"Calls used: {summary['calls_used']} / {summary['max_calls']}",
+    f"Max discovery calls: {summary['max_discovery_calls']}",
     f"Events bookmaker: {summary['events_bookmaker']}",
     f"Events discovery rows: {summary['events_discovery_rows']}",
     f"Events max pages: {summary['events_max_pages']}",
@@ -610,6 +630,8 @@ markdown = [
     f"Search fallback used: {summary['search_fallback_used']}",
     f"Search queries used: {summary['search_queries_used']}",
     f"Selected event IDs: {summary['selected_event_ids']}",
+    f"Multi-odds attempted: {summary['multi_odds_attempted']}",
+    f"Multi-odds skipped reason: {summary['multi_odds_skipped_reason']}",
     f"Bookmakers requested: {summary['bookmakers_requested']}",
     f"Odds endpoint mode: {summary['odds_endpoint_mode']}",
     f"Selected bookmakers: {summary['selected_bookmakers']}",
