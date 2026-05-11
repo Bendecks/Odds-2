@@ -1,0 +1,2 @@
+upcoming_fixture_rows,historical_market_proxy_rows,manual_forward_rows,has_upcoming_fixtures,has_automatic_forward_odds,has_historical_market_proxy,automatic_forward_status,blocker
+1,30,0,True,False,True,automatic_forward_not_ready,only historical market proxy available; not valid for forward picks

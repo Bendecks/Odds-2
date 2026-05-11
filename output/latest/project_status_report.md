@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T05:05:22.196532+00:00`
-GitHub run: `190` attempt `1`
-GitHub SHA: `ae424661d69bec35c60e825864b2642036f34c5f`
+Generated UTC: `2026-05-11T06:36:12.954501+00:00`
+GitHub run: `192` attempt `1`
+GitHub SHA: `57ae35993e6fb44f0080243222be32535f8265ab`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -34,6 +34,21 @@ Overall status: `OK`
 | CLV band diagnostics | True | 4 |  |  |
 | Signal suppression rules | True | 2 |  |  |
 | Rule action summary | True | 2 |  |  |
+
+## automatic_forward_source
+
+# Automatic Forward Source Report
+Purpose: distinguish true automatic forward sources from historical market proxy and paused manual fallback.
+Upcoming fixture rows: 1
+Historical market proxy rows: 30
+Manual forward rows: 0
+Has upcoming fixtures: True
+Has automatic forward odds: False
+Has historical market proxy: True
+Automatic forward status: automatic_forward_not_ready
+Blocker: only historical market proxy available; not valid for forward picks
+## Interpretation
+Fixtures are available, but there is no automatic forward odds/source yet. Historical closing-market proxy must remain research-only.
 
 ## forward_input_status
 
