@@ -27,6 +27,35 @@ rows = []
 errors = []
 fetched_at = datetime.now(timezone.utc).isoformat()
 
+
+def norm_team(value) -> str:
+    text = str(value or '').lower().strip()
+    replacements = {
+        'hotspur': '',
+        'united': '',
+        'utd': '',
+        'fc': '',
+        'afc': '',
+        'cf': '',
+        '.': '',
+        ',': '',
+        '&': 'and',
+    }
+    for old, new in replacements.items():
+        text = text.replace(old, new)
+    return ' '.join(text.split())
+
+
+def source_priority(source) -> int:
+    # Prefer Football-Data rows when the same fixture exists in multiple sources,
+    # because those rows use the same naming/date basis as the delayed odds proxy.
+    if str(source) == 'football_data_fixtures_proxy':
+        return 0
+    if str(source) == 'thesportsdb_eventsnextleague':
+        return 1
+    return 9
+
+
 for league, cfg in LEAGUES.items():
     try:
         with urllib.request.urlopen(cfg['url'], timeout=30) as response:
@@ -50,7 +79,6 @@ for league, cfg in LEAGUES.items():
             'fetched_at_utc': fetched_at,
         })
 
-# Run Football-Data proxy fetcher before merging its fixture output.
 football_data_script = Path('scripts/fetch_football_data_upcoming_odds.py')
 if football_data_script.exists():
     try:
@@ -74,7 +102,15 @@ for col in expected_columns:
     if col not in fixtures.columns:
         fixtures[col] = None
 fixtures = fixtures[expected_columns]
-fixtures = fixtures.dropna(subset=['home_team', 'away_team', 'match_date']).drop_duplicates(['match_date', 'home_team', 'away_team'])
+fixtures = fixtures.dropna(subset=['home_team', 'away_team', 'match_date']).copy()
+
+if len(fixtures):
+    fixtures['dedupe_home'] = fixtures['home_team'].apply(norm_team)
+    fixtures['dedupe_away'] = fixtures['away_team'].apply(norm_team)
+    fixtures['dedupe_source_priority'] = fixtures['source'].apply(source_priority)
+    fixtures = fixtures.sort_values(['match_date', 'dedupe_home', 'dedupe_away', 'dedupe_source_priority'])
+    fixtures = fixtures.drop_duplicates(['match_date', 'dedupe_home', 'dedupe_away'], keep='first')
+    fixtures = fixtures[expected_columns]
 
 fixtures.to_parquet(raw_dir / 'upcoming_fixtures.parquet', index=False)
 fixtures.to_csv(raw_dir / 'upcoming_fixtures.csv', index=False)
@@ -85,6 +121,7 @@ summary = {
     'fixture_rows': int(len(fixtures)),
     'source_counts': json.dumps(source_counts, sort_keys=True),
     'errors': int(len(errors)),
+    'dedupe_strategy': 'date_normalized_home_away_prefer_football_data',
 }
 pd.DataFrame([summary]).to_csv(output_dir / 'upcoming_fixture_source_summary.csv', index=False)
 
@@ -92,10 +129,12 @@ markdown = [
     '# Upcoming Fixtures',
     '',
     'Fixture sources: TheSportsDB plus Football-Data fixtures proxy where available.',
+    'Duplicate fixtures are deduplicated by date and normalized teams, preferring Football-Data for odds alignment.',
     'Primary development target: automatic/free delayed market proxy, not manual Bet365.',
     '',
     f'Fixtures found: {len(fixtures)}',
     f'Source counts: {source_counts}',
+    f"Dedupe strategy: {summary['dedupe_strategy']}",
     '',
 ]
 
@@ -114,9 +153,7 @@ if errors:
 
 (output_dir / 'upcoming_fixtures.md').write_text('\n'.join(markdown), encoding='utf-8')
 
-for script_path in [
-    Path('scripts/fetch_forward_fixture_results.py'),
-]:
+for script_path in [Path('scripts/fetch_forward_fixture_results.py')]:
     if script_path.exists():
         try:
             runpy.run_path(str(script_path), run_name='__main__')
