@@ -4,6 +4,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
+from difflib import SequenceMatcher
 from pathlib import Path
 
 import pandas as pd
@@ -18,6 +19,7 @@ base_url = 'https://api.odds-api.io/v3'
 max_events = int(os.getenv('ODDS_API_IO_MAX_EVENTS', '10'))
 max_calls = int(os.getenv('ODDS_API_IO_MAX_CALLS', '6'))
 max_price_events = int(os.getenv('ODDS_API_IO_MAX_PRICE_EVENTS', '3'))
+min_event_match_confidence = float(os.getenv('ODDS_API_IO_MIN_EVENT_MATCH_CONFIDENCE', '0.72'))
 bookmakers = os.getenv('ODDS_API_IO_BOOKMAKERS', 'Bet365,1xbet').strip()
 search_query = os.getenv('ODDS_API_IO_SEARCH_QUERY', '').strip()
 
@@ -30,15 +32,21 @@ fixture_columns = [
     'fixture_id', 'league', 'league_id', 'season', 'match_date', 'match_time',
     'home_team', 'away_team', 'source', 'fetched_at_utc', 'event_status'
 ]
+selection_diag_columns = [
+    'query', 'target_home_team', 'target_away_team', 'target_match_date',
+    'candidate_event_id', 'candidate_home_team', 'candidate_away_team', 'candidate_match_date',
+    'event_match_confidence', 'selected', 'rejection_reason'
+]
 
 rows = []
 fixture_rows = []
 errors = []
 rate_limit_rows = []
+selection_diag_rows = []
 calls_used = 0
 fetched_at = datetime.now(timezone.utc).isoformat()
 today = datetime.now(timezone.utc).date()
-discovery_mode = 'model_covered_search_then_multi_odds'
+discovery_mode = 'model_covered_search_then_match_confidence_then_multi_odds'
 parse_mode = 'bookmakers_market_odds_schema'
 query_source = 'unknown'
 
@@ -85,50 +93,29 @@ def safe_read_csv(path: Path) -> pd.DataFrame:
         return pd.DataFrame()
 
 
-def add_fixture_queries(frame: pd.DataFrame, queries: list[str]) -> list[str]:
-    if not len(frame):
-        return queries
-    df = frame.copy()
-    if 'match_date' in df.columns:
-        df['parsed_date'] = pd.to_datetime(df.get('match_date'), errors='coerce', utc=True)
-        df = df[(df['parsed_date'].isna()) | (df['parsed_date'].dt.date >= today)].copy()
-    sort_cols = [col for col in ['parsed_date', 'match_time'] if col in df.columns]
-    if sort_cols:
-        df = df.sort_values(sort_cols, na_position='last')
-    existing_lower = {q.lower() for q in queries}
-    for _, fixture in df.iterrows():
-        for col in ['home_team', 'away_team']:
-            value = str(fixture.get(col) or '').strip()
-            if len(value) >= 3 and value.lower() not in existing_lower:
-                queries.append(value)
-                existing_lower.add(value.lower())
-                break
-        if len(queries) >= max_price_events:
-            break
-    return queries
+def norm_team(value) -> str:
+    text = str(value or '').lower().strip()
+    for token in ['hotspur', 'united', 'utd', 'town', 'city', 'fc', 'afc', 'cf', '.', ',', '&']:
+        text = text.replace(token, ' ')
+    return ' '.join(text.split())
 
 
-def choose_search_queries() -> list[str]:
-    global query_source
-    if search_query:
-        query_source = 'env_override'
-        return [q.strip() for q in search_query.split(',') if len(q.strip()) >= 3][:max_price_events]
+def team_similarity(a, b) -> float:
+    left = norm_team(a)
+    right = norm_team(b)
+    if not left or not right:
+        return 0.0
+    if left == right:
+        return 1.0
+    if left in right or right in left:
+        return 0.92
+    return SequenceMatcher(None, left, right).ratio()
 
-    queries = []
-    predictions = safe_read_csv(output_dir / 'forward_fixture_predictions.csv')
-    queries = add_fixture_queries(predictions, queries)
-    if queries:
-        query_source = 'forward_fixture_predictions'
-        return queries[:max_price_events]
 
-    fixtures = safe_read_csv(output_dir / 'football_data_upcoming_fixtures.csv')
-    queries = add_fixture_queries(fixtures, queries)
-    if queries:
-        query_source = 'football_data_upcoming_fixtures_fallback'
-        return queries[:max_price_events]
-
-    query_source = 'static_fallback'
-    return ['Tottenham']
+def fixture_confidence(target_home, target_away, candidate_home, candidate_away) -> float:
+    direct = (team_similarity(target_home, candidate_home) + team_similarity(target_away, candidate_away)) / 2
+    swapped = (team_similarity(target_home, candidate_away) + team_similarity(target_away, candidate_home)) / 2
+    return round(max(direct, swapped), 4)
 
 
 def parse_datetime(value):
@@ -136,6 +123,73 @@ def parse_datetime(value):
     if pd.isna(parsed):
         return None, None, None
     return parsed, parsed.date().isoformat(), parsed.time().isoformat(timespec='minutes')
+
+
+def parse_date(value):
+    parsed = pd.to_datetime(value, errors='coerce', utc=True)
+    if pd.isna(parsed):
+        parsed = pd.to_datetime(value, errors='coerce')
+    if pd.isna(parsed):
+        return None
+    return parsed.date().isoformat()
+
+
+def add_fixture_targets(frame: pd.DataFrame, targets: list[dict]) -> list[dict]:
+    if not len(frame):
+        return targets
+    df = frame.copy()
+    if 'match_date' in df.columns:
+        df['parsed_date'] = pd.to_datetime(df.get('match_date'), errors='coerce', utc=True)
+        df = df[(df['parsed_date'].isna()) | (df['parsed_date'].dt.date >= today)].copy()
+    sort_cols = [col for col in ['parsed_date', 'match_time'] if col in df.columns]
+    if sort_cols:
+        df = df.sort_values(sort_cols, na_position='last')
+
+    existing_keys = {(str(t.get('home_team')).lower(), str(t.get('away_team')).lower()) for t in targets}
+    for _, fixture in df.iterrows():
+        home = str(fixture.get('home_team') or '').strip()
+        away = str(fixture.get('away_team') or '').strip()
+        if len(home) < 3 or len(away) < 3:
+            continue
+        key = (home.lower(), away.lower())
+        if key in existing_keys:
+            continue
+        targets.append({
+            'query': home,
+            'home_team': home,
+            'away_team': away,
+            'match_date': parse_date(fixture.get('match_date')),
+        })
+        existing_keys.add(key)
+        if len(targets) >= max_price_events:
+            break
+    return targets
+
+
+def choose_search_targets() -> list[dict]:
+    global query_source
+    if search_query:
+        query_source = 'env_override'
+        targets = []
+        for q in [q.strip() for q in search_query.split(',') if len(q.strip()) >= 3][:max_price_events]:
+            targets.append({'query': q, 'home_team': q, 'away_team': '', 'match_date': None})
+        return targets
+
+    targets = []
+    predictions = safe_read_csv(output_dir / 'forward_fixture_predictions.csv')
+    targets = add_fixture_targets(predictions, targets)
+    if targets:
+        query_source = 'forward_fixture_predictions'
+        return targets[:max_price_events]
+
+    fixtures = safe_read_csv(output_dir / 'football_data_upcoming_fixtures.csv')
+    targets = add_fixture_targets(fixtures, targets)
+    if targets:
+        query_source = 'football_data_upcoming_fixtures_fallback'
+        return targets[:max_price_events]
+
+    query_source = 'static_fallback'
+    return [{'query': 'Tottenham', 'home_team': 'Tottenham', 'away_team': '', 'match_date': None}]
 
 
 def event_items(payload):
@@ -204,6 +258,48 @@ def eligible(fixtures):
         and meta['parsed_date'].date() >= today
         and meta.get('event_status') not in {'settled', 'cancelled', 'finished', 'closed'}
     ]
+
+
+def choose_best_event_for_target(target, event_rows, seen_event_ids):
+    candidates = [row for row in eligible(event_rows) if row.get('raw_event_id') not in seen_event_ids]
+    best = None
+    best_score = 0.0
+    for row in candidates:
+        score = fixture_confidence(target.get('home_team'), target.get('away_team'), row.get('home_team'), row.get('away_team'))
+        date_penalty = 0.0
+        if target.get('match_date') and row.get('match_date') and target.get('match_date') != row.get('match_date'):
+            date_penalty = 0.08
+        adjusted = round(max(score - date_penalty, 0), 4)
+        selected = False
+        rejection_reason = ''
+        if adjusted < min_event_match_confidence:
+            rejection_reason = 'below_min_event_match_confidence'
+        selection_diag_rows.append({
+            'query': target.get('query'),
+            'target_home_team': target.get('home_team'),
+            'target_away_team': target.get('away_team'),
+            'target_match_date': target.get('match_date'),
+            'candidate_event_id': row.get('raw_event_id'),
+            'candidate_home_team': row.get('home_team'),
+            'candidate_away_team': row.get('away_team'),
+            'candidate_match_date': row.get('match_date'),
+            'event_match_confidence': adjusted,
+            'selected': selected,
+            'rejection_reason': rejection_reason,
+        })
+        if adjusted > best_score:
+            best = row
+            best_score = adjusted
+    if best is None or best_score < min_event_match_confidence:
+        return None, best_score
+    for diag in selection_diag_rows:
+        if diag.get('candidate_event_id') == best.get('raw_event_id') and diag.get('query') == target.get('query'):
+            diag['selected'] = True
+            diag['rejection_reason'] = ''
+    best['event_match_confidence'] = best_score
+    best['target_home_team'] = target.get('home_team')
+    best['target_away_team'] = target.get('away_team')
+    return best, best_score
 
 
 def number(value):
@@ -278,11 +374,12 @@ selected_events = []
 if not api_key:
     errors.append({'stage': 'config', 'error': 'ODDS_API_IO_KEY missing'})
 else:
-    for query in choose_search_queries():
+    for target in choose_search_targets():
         if calls_used >= max_calls or len(selected_events) >= max_price_events:
             break
+        query = target.get('query')
         try:
-            search_queries_used.append(query)
+            search_queries_used.append(str(query))
             search_url = f"{base_url}/events/search?" + urllib.parse.urlencode({
                 'apiKey': api_key,
                 'query': query,
@@ -290,15 +387,12 @@ else:
             search_payload = get_json(search_url, f"events_search_{len(search_queries_used)}")
             search_rows = normalize_events(event_items(search_payload)[:max_events], 'odds_api_io_events_search')
             fixture_rows.extend(search_rows)
-            eligible_rows = [row for row in eligible(search_rows) if row.get('raw_event_id') not in seen_event_ids]
-
-            if not eligible_rows:
-                errors.append({'stage': 'event_selection', 'error': f'No future non-settled event available from targeted search query {query!r}; skipped'})
+            selected, score = choose_best_event_for_target(target, search_rows, seen_event_ids)
+            if selected is None:
+                errors.append({'stage': 'event_selection', 'error': f'No event above confidence {min_event_match_confidence} for query {query!r}; best={score}'})
                 continue
-
-            meta = eligible_rows[0]
-            seen_event_ids.add(meta['raw_event_id'])
-            selected_events.append(meta)
+            seen_event_ids.add(selected['raw_event_id'])
+            selected_events.append(selected)
         except Exception as exc:
             errors.append({'stage': 'events_search_or_parse', 'error': repr(exc)})
 
@@ -365,6 +459,14 @@ fixtures = fixtures[fixture_columns]
 fixtures.to_csv(raw_dir / 'odds_api_io_forward_fixtures.csv', index=False)
 fixtures.to_csv(output_dir / 'odds_api_io_forward_fixtures.csv', index=False)
 
+selection_diag = pd.DataFrame(selection_diag_rows)
+for col in selection_diag_columns:
+    if col not in selection_diag.columns:
+        selection_diag[col] = None
+selection_diag = selection_diag[selection_diag_columns]
+selection_diag.to_csv(raw_dir / 'odds_api_io_event_selection_diagnostics.csv', index=False)
+selection_diag.to_csv(output_dir / 'odds_api_io_event_selection_diagnostics.csv', index=False)
+
 rate_df = pd.DataFrame(rate_limit_rows)
 rate_df.to_csv(raw_dir / 'odds_api_io_rate_limit_headers.csv', index=False)
 rate_df.to_csv(output_dir / 'odds_api_io_rate_limit_headers.csv', index=False)
@@ -376,11 +478,13 @@ summary = {
     'max_calls': max_calls,
     'max_events': max_events,
     'max_price_events': max_price_events,
+    'min_event_match_confidence': min_event_match_confidence,
     'discovery_mode': discovery_mode,
     'query_source': query_source,
     'search_queries_used': ', '.join(search_queries_used),
     'selected_event_ids': ', '.join([meta['raw_event_id'] for meta in selected_events]),
     'fixture_rows': int(len(fixtures)),
+    'event_selection_diagnostic_rows': int(len(selection_diag)),
     'selected_event_rows': int(len(selected_events)),
     'priced_event_rows': int(len(prices)),
     'price_rows': int(len(prices)),
@@ -404,7 +508,7 @@ markdown = [
     '# odds-api.io Forward Price Fetch',
     '',
     'Cautious optional API source. Hard-capped by ODDS_API_IO_MAX_CALLS, ODDS_API_IO_MAX_EVENTS, and ODDS_API_IO_MAX_PRICE_EVENTS.',
-    'Prioritizes model-covered forward fixtures for search queries, then uses documented /v3/odds/multi for selected events.',
+    'Prioritizes model-covered forward fixtures, selects searched events by home/away match confidence, then uses documented /v3/odds/multi for selected events.',
     'Parses documented EventResponse.bookmakers -> markets -> odds -> home/draw/away schema.',
     'Captures provider rate-limit headers from each authenticated API response.',
     'Not real-money ready until validated against forward results and other sources.',
@@ -413,6 +517,7 @@ markdown = [
     f"Calls used: {summary['calls_used']} / {summary['max_calls']}",
     f"Max events per search: {summary['max_events']}",
     f"Max priced events: {summary['max_price_events']}",
+    f"Minimum event match confidence: {summary['min_event_match_confidence']}",
     f"Discovery mode: {summary['discovery_mode']}",
     f"Query source: {summary['query_source']}",
     f"Search queries used: {summary['search_queries_used']}",
@@ -424,6 +529,7 @@ markdown = [
     f"Selected bookmakers: {summary['selected_bookmakers']}",
     f"Selected markets: {summary['selected_markets']}",
     f"Fixture rows: {summary['fixture_rows']}",
+    f"Event selection diagnostic rows: {summary['event_selection_diagnostic_rows']}",
     f"Selected event rows: {summary['selected_event_rows']}",
     f"Priced event rows: {summary['priced_event_rows']}",
     f"Price rows: {summary['price_rows']}",
@@ -441,6 +547,13 @@ markdown = [
 if len(prices):
     for _, row in prices.head(20).iterrows():
         markdown.append(f"- {row['match_date']} {row['match_time']} | {row['home_team']} vs {row['away_team']} | {row['source_name']} | {row['market_home_odds']}/{row['market_draw_odds']}/{row['market_away_odds']}")
+if len(selection_diag):
+    markdown.extend(['', '## Event selection diagnostics', ''])
+    for _, row in selection_diag.sort_values('event_match_confidence', ascending=False).head(20).iterrows():
+        markdown.append(
+            f"- query={row['query']} | target={row['target_home_team']} vs {row['target_away_team']} | "
+            f"candidate={row['candidate_home_team']} vs {row['candidate_away_team']} | confidence={row['event_match_confidence']} | selected={row['selected']} | reason={row['rejection_reason']}"
+        )
 if errors:
     markdown.extend(['', '## Errors / Status', ''])
     for error in errors[:10]:
