@@ -125,6 +125,9 @@ jobs:
       - name: Build proxy candidate observations
         run: python scripts/build_proxy_candidate_observations.py
 
+      - name: Build proxy candidate explanation report
+        run: python scripts/build_proxy_candidate_explanation_report.py
+
       - name: Build paper test picks
         run: python scripts/build_paper_test_picks.py
 
