@@ -62,6 +62,9 @@ jobs:
       - name: Create market snapshot
         run: python scripts/create_market_snapshot.py
 
+      - name: Build automatic forward source diagnostics
+        run: python scripts/build_automatic_forward_source_report.py
+
       - name: Build fair odds scaffold
         run: python scripts/build_fair_odds.py
 
