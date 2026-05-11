@@ -17,7 +17,7 @@ api_key = os.getenv('ODDS_API_IO_KEY')
 base_url = 'https://api.odds-api.io/v3'
 max_events = int(os.getenv('ODDS_API_IO_MAX_EVENTS', '8'))
 max_calls = int(os.getenv('ODDS_API_IO_MAX_CALLS', '2'))
-bookmakers = os.getenv('ODDS_API_IO_BOOKMAKERS', 'Bet365,Unibet,Betfair')
+bookmakers = os.getenv('ODDS_API_IO_BOOKMAKERS', 'Bet365,Unibet')
 
 price_columns = [
     'fixture_id', 'match_date', 'match_time', 'home_team', 'away_team', 'league',
@@ -99,7 +99,6 @@ if not api_key:
     errors.append({'stage': 'config', 'error': 'ODDS_API_IO_KEY missing'})
 else:
     try:
-        # Docs show only apiKey + sport for this endpoint. Avoid unsupported query params.
         events_url = f"{base_url}/events?" + urllib.parse.urlencode({
             'apiKey': api_key,
             'sport': 'football',
@@ -135,43 +134,45 @@ else:
                 'source': 'odds_api_io_events',
                 'fetched_at_utc': fetched_at,
             }
+        fixture_rows = [meta for meta in event_meta.values() if meta.get('home_team') and meta.get('away_team')]
 
         if event_ids and calls_used < max_calls:
-            multi_url = f"{base_url}/odds/multi?" + urllib.parse.urlencode({
-                'apiKey': api_key,
-                'eventIds': ','.join(event_ids[:10]),
-                'bookmakers': bookmakers,
-            })
-            odds_payload = get_json(multi_url, 'odds')
-            odds_items = odds_payload if isinstance(odds_payload, list) else odds_payload.get('data') or odds_payload.get('events') or []
-            for item in odds_items:
-                event_id = str(item.get('id') or item.get('eventId') or item.get('event_id'))
-                meta = event_meta.get(event_id, {})
-                if not meta:
-                    continue
-                home_odds, draw_odds, away_odds = extract_three_way_odds(item)
-                if not home_odds:
-                    continue
-                rows.append({
-                    'fixture_id': meta.get('fixture_id'),
-                    'match_date': meta.get('match_date'),
-                    'match_time': meta.get('match_time'),
-                    'home_team': meta.get('home_team'),
-                    'away_team': meta.get('away_team'),
-                    'league': meta.get('league'),
-                    'source_name': 'odds_api_io_multi_proxy',
-                    'source_type': 'free_api_market_proxy',
-                    'market_home_odds': round(home_odds, 4),
-                    'market_draw_odds': round(draw_odds, 4),
-                    'market_away_odds': round(away_odds, 4),
-                    'price_captured_at_utc': fetched_at,
-                    'source_quality': 'free_api_market_proxy_capped_calls',
-                    'raw_source_url': 'https://api.odds-api.io/v3/odds/multi',
+            try:
+                multi_url = f"{base_url}/odds/multi?" + urllib.parse.urlencode({
+                    'apiKey': api_key,
+                    'eventIds': ','.join(event_ids[:10]),
+                    'bookmakers': bookmakers,
                 })
-
-        fixture_rows = [meta for meta in event_meta.values() if meta.get('home_team') and meta.get('away_team')]
+                odds_payload = get_json(multi_url, 'odds')
+                odds_items = odds_payload if isinstance(odds_payload, list) else odds_payload.get('data') or odds_payload.get('events') or []
+                for item in odds_items:
+                    event_id = str(item.get('id') or item.get('eventId') or item.get('event_id'))
+                    meta = event_meta.get(event_id, {})
+                    if not meta:
+                        continue
+                    home_odds, draw_odds, away_odds = extract_three_way_odds(item)
+                    if not home_odds:
+                        continue
+                    rows.append({
+                        'fixture_id': meta.get('fixture_id'),
+                        'match_date': meta.get('match_date'),
+                        'match_time': meta.get('match_time'),
+                        'home_team': meta.get('home_team'),
+                        'away_team': meta.get('away_team'),
+                        'league': meta.get('league'),
+                        'source_name': 'odds_api_io_multi_proxy',
+                        'source_type': 'free_api_market_proxy',
+                        'market_home_odds': round(home_odds, 4),
+                        'market_draw_odds': round(draw_odds, 4),
+                        'market_away_odds': round(away_odds, 4),
+                        'price_captured_at_utc': fetched_at,
+                        'source_quality': 'free_api_market_proxy_capped_calls',
+                        'raw_source_url': 'https://api.odds-api.io/v3/odds/multi',
+                    })
+            except Exception as exc:
+                errors.append({'stage': 'odds_request_or_parse', 'error': repr(exc)})
     except Exception as exc:
-        errors.append({'stage': 'request_or_parse', 'error': repr(exc)})
+        errors.append({'stage': 'events_request_or_parse', 'error': repr(exc)})
 
 prices = pd.DataFrame(rows)
 for col in price_columns:
