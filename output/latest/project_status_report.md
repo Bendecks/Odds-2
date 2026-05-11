@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T12:23:39.347177+00:00`
-GitHub run: `240` attempt `1`
-GitHub SHA: `b96eeb3555d2bae024b512edaf80fe84bd8f51d9`
+Generated UTC: `2026-05-11T13:24:32.282974+00:00`
+GitHub run: `241` attempt `1`
+GitHub SHA: `426f34b73acd0d83c2fa8acda6b955cb77deb40b`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -263,12 +263,12 @@ Manual odds are not required in the current phase. These rows are only kept for 
 ## upcoming_fixtures
 
 # Upcoming Fixtures
-Fixture sources: TheSportsDB plus Football-Data fixtures proxy where available.
-Duplicate fixtures are deduplicated by date and normalized teams, preferring Football-Data for odds alignment.
-Primary development target: automatic/free delayed market proxy, not manual Bet365.
+Fixture sources: TheSportsDB, Football-Data fixtures proxy, and cautious odds-api.io events where configured.
+Duplicate fixtures are deduplicated by date and normalized teams, preferring odds-api.io then Football-Data for odds alignment.
+Primary development target: automatic/free market proxy, not manual Bet365.
 Fixtures found: 11
 Source counts: {'football_data_fixtures_proxy': 11}
-Dedupe strategy: date_normalized_home_away_prefer_football_data
+Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 - 2026-05-11 20:15 | Benfica vs Sp Braga | P1 | football_data_fixtures_proxy
 - 2026-05-11 20:15 | Estrela vs Famalicao | P1 | football_data_fixtures_proxy
 - 2026-05-11 20:15 | Gil Vicente vs Arouca | P1 | football_data_fixtures_proxy
