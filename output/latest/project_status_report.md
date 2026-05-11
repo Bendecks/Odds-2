@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T20:10:36.334327+00:00`
-GitHub run: `291` attempt `1`
-GitHub SHA: `f905a011e819ad4c431ee5cffdcdb3ecfe475f7e`
+Generated UTC: `2026-05-11T20:18:25.523916+00:00`
+GitHub run: `292` attempt `1`
+GitHub SHA: `01f88c72953e06c04c1350a21e1cd65fc44691bf`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -17,7 +17,7 @@ Overall status: `OK`
 | Football-Data upcoming fixtures proxy | True | 11 |  |  |
 | Football-Data upcoming odds proxy | True | 33 |  |  |
 | Football-Data upcoming odds status | True | 1 |  |  |
-| odds-api.io forward prices | True | 1 |  |  |
+| odds-api.io forward prices | True | 0 |  |  |
 | odds-api.io forward fixtures | True | 11 |  |  |
 | odds-api.io forward price status | True | 1 |  |  |
 | API-Football forward prices | True | 0 |  |  |
@@ -26,7 +26,7 @@ Overall status: `OK`
 | Automatic forward value snapshots | True | 27 |  |  |
 | Forward price coverage report | True | 3 |  |  |
 | Forward price coverage summary | True | 1 |  |  |
-| Forward price source summary | True | 4 |  |  |
+| Forward price source summary | True | 3 |  |  |
 | Proxy candidate observations | True | 4 |  |  |
 | Proxy candidate observation summary | True | 1 |  |  |
 | Proxy candidate explanation report | True | 4 |  |  |
