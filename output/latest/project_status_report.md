@@ -5,13 +5,15 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T10:24:58.152814+00:00`
-GitHub run: `238` attempt `1`
-GitHub SHA: `0a55007bea6e473209fdc8f2ad09567076886a85`
+Generated UTC: `2026-05-11T12:23:39.347177+00:00`
+GitHub run: `240` attempt `1`
+GitHub SHA: `b96eeb3555d2bae024b512edaf80fe84bd8f51d9`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
 | football-data.co.uk Premier League 24/25 | True | 380 |  |  |
+| Project goal readiness summary | True | 1 |  |  |
+| Project goal readiness stages | True | 5 |  |  |
 | Football-Data upcoming fixtures proxy | True | 11 |  |  |
 | Football-Data upcoming odds proxy | True | 33 |  |  |
 | Football-Data upcoming odds status | True | 1 |  |  |
@@ -32,8 +34,6 @@ Overall status: `OK`
 | Fixture model match summary | True | 1 |  |  |
 | Forward fixture predictions | True | 3 |  |  |
 | Forward fixture prediction summary | True | 1 |  |  |
-| Forward fixture prediction log | True | 4 |  |  |
-| Forward fixture prediction log status | True | 1 |  |  |
 
 ## project_goal_readiness
 

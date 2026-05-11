@@ -1,12 +1,12 @@
 fixture_id,league,league_id,season,match_date,match_time,home_team,away_team,source,fetched_at_utc
-fd_E0_2026-05-11_Tottenham_Leeds,premier_league,E0,upcoming,2026-05-11,20:00,Tottenham,Leeds,football_data_fixtures_proxy,2026-05-11T12:22:48.071194+00:00
-fd_I1_2026-05-11_Napoli_Bologna,serie_a,I1,upcoming,2026-05-11,19:45,Napoli,Bologna,football_data_fixtures_proxy,2026-05-11T12:22:48.071194+00:00
-fd_P1_2026-05-11_Benfica_Sp_Braga,P1,P1,upcoming,2026-05-11,20:15,Benfica,Sp Braga,football_data_fixtures_proxy,2026-05-11T12:22:48.071194+00:00
-fd_P1_2026-05-11_Estrela_Famalicao,P1,P1,upcoming,2026-05-11,20:15,Estrela,Famalicao,football_data_fixtures_proxy,2026-05-11T12:22:48.071194+00:00
-fd_P1_2026-05-11_Gil_Vicente_Arouca,P1,P1,upcoming,2026-05-11,20:15,Gil Vicente,Arouca,football_data_fixtures_proxy,2026-05-11T12:22:48.071194+00:00
-fd_P1_2026-05-11_Guimaraes_Casa_Pia,P1,P1,upcoming,2026-05-11,20:15,Guimaraes,Casa Pia,football_data_fixtures_proxy,2026-05-11T12:22:48.071194+00:00
-fd_P1_2026-05-11_Rio_Ave_Sp_Lisbon,P1,P1,upcoming,2026-05-11,20:15,Rio Ave,Sp Lisbon,football_data_fixtures_proxy,2026-05-11T12:22:48.071194+00:00
-fd_P1_2026-05-11_Santa_Clara_Nacional,P1,P1,upcoming,2026-05-11,20:15,Santa Clara,Nacional,football_data_fixtures_proxy,2026-05-11T12:22:48.071194+00:00
-fd_P1_2026-05-11_Tondela_Moreirense,P1,P1,upcoming,2026-05-11,20:15,Tondela,Moreirense,football_data_fixtures_proxy,2026-05-11T12:22:48.071194+00:00
-fd_SP1_2026-05-11_Vallecano_Girona,la_liga,SP1,upcoming,2026-05-11,20:00,Vallecano,Girona,football_data_fixtures_proxy,2026-05-11T12:22:48.071194+00:00
-fd_SP2_2026-05-11_Huesca_Sociedad_B,SP2,SP2,upcoming,2026-05-11,19:30,Huesca,Sociedad B,football_data_fixtures_proxy,2026-05-11T12:22:48.071194+00:00
+fd_E0_2026-05-11_Tottenham_Leeds,premier_league,E0,upcoming,2026-05-11,20:00,Tottenham,Leeds,football_data_fixtures_proxy,2026-05-11T13:23:38.568126+00:00
+fd_I1_2026-05-11_Napoli_Bologna,serie_a,I1,upcoming,2026-05-11,19:45,Napoli,Bologna,football_data_fixtures_proxy,2026-05-11T13:23:38.568126+00:00
+fd_P1_2026-05-11_Benfica_Sp_Braga,P1,P1,upcoming,2026-05-11,20:15,Benfica,Sp Braga,football_data_fixtures_proxy,2026-05-11T13:23:38.568126+00:00
+fd_P1_2026-05-11_Estrela_Famalicao,P1,P1,upcoming,2026-05-11,20:15,Estrela,Famalicao,football_data_fixtures_proxy,2026-05-11T13:23:38.568126+00:00
+fd_P1_2026-05-11_Gil_Vicente_Arouca,P1,P1,upcoming,2026-05-11,20:15,Gil Vicente,Arouca,football_data_fixtures_proxy,2026-05-11T13:23:38.568126+00:00
+fd_P1_2026-05-11_Guimaraes_Casa_Pia,P1,P1,upcoming,2026-05-11,20:15,Guimaraes,Casa Pia,football_data_fixtures_proxy,2026-05-11T13:23:38.568126+00:00
+fd_P1_2026-05-11_Rio_Ave_Sp_Lisbon,P1,P1,upcoming,2026-05-11,20:15,Rio Ave,Sp Lisbon,football_data_fixtures_proxy,2026-05-11T13:23:38.568126+00:00
+fd_P1_2026-05-11_Santa_Clara_Nacional,P1,P1,upcoming,2026-05-11,20:15,Santa Clara,Nacional,football_data_fixtures_proxy,2026-05-11T13:23:38.568126+00:00
+fd_P1_2026-05-11_Tondela_Moreirense,P1,P1,upcoming,2026-05-11,20:15,Tondela,Moreirense,football_data_fixtures_proxy,2026-05-11T13:23:38.568126+00:00
+fd_SP1_2026-05-11_Vallecano_Girona,la_liga,SP1,upcoming,2026-05-11,20:00,Vallecano,Girona,football_data_fixtures_proxy,2026-05-11T13:23:38.568126+00:00
+fd_SP2_2026-05-11_Huesca_Sociedad_B,SP2,SP2,upcoming,2026-05-11,19:30,Huesca,Sociedad B,football_data_fixtures_proxy,2026-05-11T13:23:38.568126+00:00
