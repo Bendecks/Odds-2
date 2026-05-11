@@ -5,13 +5,17 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T07:51:47.279641+00:00`
-GitHub run: `222` attempt `1`
-GitHub SHA: `6809d891a57f3cc2668c5bdd544fd6d42d0f8626`
+Generated UTC: `2026-05-11T07:54:41.122852+00:00`
+GitHub run: `223` attempt `1`
+GitHub SHA: `e4a0f7c4c10c706745a22604e8eb44fbe125f1c7`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
 | football-data.co.uk Premier League 24/25 | True | 380 |  |  |
+| Football-Data upcoming odds proxy | True | 405 |  |  |
+| Football-Data upcoming odds status | True | 1 |  |  |
+| Automatic forward value snapshots | True | 0 |  |  |
+| Automatic forward value snapshot summary | True | 1 |  |  |
 | Upcoming fixtures | True | 1 |  |  |
 | Forward fixture results | True | 1 |  |  |
 | Forward fixture result status | True | 1 |  |  |
@@ -30,30 +34,26 @@ Overall status: `OK`
 | Manual odds instructions | True | 17 |  |  |
 | Manual forward snapshots | True | 0 |  |  |
 | ClubElo latest snapshot | True | 630 |  |  |
-| Basic team strength model | True | 119 |  |  |
-| Poisson predictions | True | 7 |  |  |
-| Probability calibration adjustments | True | 21 |  |  |
-| Probability calibration rules | True | 4 |  |  |
 
 ## automatic_forward_source
 
 # Automatic Forward Source Report
 Purpose: distinguish true automatic forward inputs from historical market proxy and paused manual fallback.
-Manual odds are optional fallback only and are not treated as a blocker in this development phase.
+Football-Data fixture odds are treated as delayed/free proxy prices: paper-test only, never real-money ready.
 Upcoming fixture rows: 1
 Fixture team rows checked: 2
 Fixture team rows unmatched: 0
 Ready for model-fixture join: True
-Historical market proxy rows: 30
 Configured forward sources: 1
-Automatic forward price rows: 0
-Automatic forward status: automatic_forward_not_ready
-Blocker: only_historical_market_proxy_available_not_forward_valid
-Next development step: replace_historical_market_proxy_for_forward_testing
+Enabled forward sources: 1
+Automatic forward price rows: 405
+Automatic forward status: automatic_forward_proxy_available
+Blocker: none_for_proxy_testing
+Next development step: evaluate_proxy_value_snapshots_and_paper_filters
 ## Team matching
 All fixture teams match the model team table.
 ## Interpretation
-Fixtures and model matching are available, but there is no automatic forward price source yet.
+Automatic delayed proxy prices are available. Use only for paper-test/proxy observation, not real money.
 
 ## forward_fixture_predictions
 

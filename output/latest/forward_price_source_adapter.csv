@@ -1,2 +1,2 @@
 fixture_rows,configured_sources,enabled_sources,automatic_price_rows,adapter_status
-1,1,0,0,ready_no_sources_enabled
+1,1,1,405,proxy_prices_available
