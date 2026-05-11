@@ -72,9 +72,6 @@ jobs:
       - name: Create market snapshot
         run: python scripts/create_market_snapshot.py
 
-      - name: Build automatic forward source diagnostics
-        run: python scripts/build_automatic_forward_source_report.py
-
       - name: Build fair odds scaffold
         run: python scripts/build_fair_odds.py
 
@@ -83,6 +80,12 @@ jobs:
 
       - name: Apply probability calibration
         run: python scripts/apply_probability_calibration.py
+
+      - name: Build forward fixture predictions
+        run: python scripts/build_forward_fixture_predictions.py
+
+      - name: Build automatic forward source diagnostics
+        run: python scripts/build_automatic_forward_source_report.py
 
       - name: Build manual forward snapshots
         run: python scripts/build_manual_forward_snapshots.py
