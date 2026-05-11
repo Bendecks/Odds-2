@@ -6,6 +6,7 @@ output_dir = Path('output/latest')
 
 report_files = {
     'free_data_status': output_dir / 'free_data_status.md',
+    'automatic_forward_source': output_dir / 'automatic_forward_source_report.md',
     'forward_input_status': output_dir / 'forward_input_status.md',
     'upcoming_fixtures': output_dir / 'upcoming_fixtures.md',
     'manual_odds_template': output_dir / 'manual_odds_template.md',
@@ -55,6 +56,7 @@ for label, path in report_files.items():
 status = {
     'reports_checked': len(report_files),
     'reports_available': sum(1 for path in report_files.values() if path.exists()),
+    'includes_automatic_forward_source': (output_dir / 'automatic_forward_source_report.md').exists(),
     'includes_forward_input_status': (output_dir / 'forward_input_status.md').exists(),
     'includes_upcoming_fixtures': (output_dir / 'upcoming_fixtures.md').exists(),
     'includes_manual_odds_template': (output_dir / 'manual_odds_template.md').exists(),
