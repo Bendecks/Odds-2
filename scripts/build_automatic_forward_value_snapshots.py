@@ -29,32 +29,89 @@ def safe_read_csv(path: Path) -> pd.DataFrame:
 
 def norm(value) -> str:
     text = str(value or '').lower().strip()
-    for token in ['fc', 'afc', 'cf', '.', ',']:
-        text = text.replace(token, '')
-    text = text.replace('&', 'and')
+    replacements = {
+        'hotspur': '',
+        'united': '',
+        'utd': '',
+        'town': '',
+        'city': '',
+        'fc': '',
+        'afc': '',
+        'cf': '',
+        '.': '',
+        ',': '',
+        '&': 'and',
+    }
+    for old, new in replacements.items():
+        text = text.replace(old, new)
     return ' '.join(text.split())
 
 
+def parse_date(value):
+    parsed = pd.to_datetime(value, errors='coerce', dayfirst=True)
+    if pd.isna(parsed):
+        parsed = pd.to_datetime(value, errors='coerce')
+    if pd.isna(parsed):
+        return None
+    return parsed.date().isoformat()
+
+
 def similarity(a, b) -> float:
-    return SequenceMatcher(None, norm(a), norm(b)).ratio()
+    na = norm(a)
+    nb = norm(b)
+    if not na or not nb:
+        return 0.0
+    if na == nb:
+        return 1.0
+    if na in nb or nb in na:
+        return 0.92
+    return SequenceMatcher(None, na, nb).ratio()
 
 
 predictions = safe_read_csv(predictions_path)
 prices = safe_read_csv(prices_path)
 rows = []
+match_diagnostics = []
 
 if len(predictions) and len(prices):
+    predictions['parsed_match_date'] = predictions['match_date'].apply(parse_date) if 'match_date' in predictions.columns else None
+    prices['parsed_match_date'] = prices['match_date'].apply(parse_date) if 'match_date' in prices.columns else None
+
     for _, pred in predictions.iterrows():
-        pred_date = str(pred.get('match_date'))
-        candidates = prices[prices['match_date'].astype(str) == pred_date].copy() if 'match_date' in prices.columns else prices.copy()
+        pred_date = pred.get('parsed_match_date')
+        candidates = prices[prices['parsed_match_date'] == pred_date].copy() if pred_date else prices.copy()
+
+        if len(candidates) == 0:
+            candidates = prices.copy()
 
         best_price_rows = []
+        best_diag = {
+            'prediction_id': pred.get('prediction_id'),
+            'match_date': pred.get('match_date'),
+            'home_team': pred.get('home_team'),
+            'away_team': pred.get('away_team'),
+            'candidate_rows': int(len(candidates)),
+            'best_home_team': None,
+            'best_away_team': None,
+            'best_match_confidence': 0.0,
+            'matched_rows': 0,
+        }
+
         for _, price in candidates.iterrows():
             home_sim = similarity(pred.get('home_team'), price.get('home_team'))
             away_sim = similarity(pred.get('away_team'), price.get('away_team'))
             match_confidence = round((home_sim + away_sim) / 2, 4)
-            if match_confidence >= 0.74:
+            if match_confidence > best_diag['best_match_confidence']:
+                best_diag.update({
+                    'best_home_team': price.get('home_team'),
+                    'best_away_team': price.get('away_team'),
+                    'best_match_confidence': match_confidence,
+                })
+            if match_confidence >= 0.68:
                 best_price_rows.append((match_confidence, price))
+
+        best_diag['matched_rows'] = int(len(best_price_rows))
+        match_diagnostics.append(best_diag)
 
         for match_confidence, price in best_price_rows:
             markets = [
@@ -109,11 +166,15 @@ snapshots = snapshots[expected_columns]
 snapshots.to_csv(value_path, index=False)
 snapshots.to_parquet(output_dir / 'automatic_forward_value_snapshots.parquet', index=False)
 
+match_diag = pd.DataFrame(match_diagnostics)
+match_diag.to_csv(output_dir / 'automatic_forward_value_match_diagnostics.csv', index=False)
+
 summary = {
     'forward_prediction_rows': int(len(predictions)),
     'proxy_price_rows': int(len(prices)),
     'value_snapshot_rows': int(len(snapshots)),
     'positive_ev_rows': int((pd.to_numeric(snapshots['ev'], errors='coerce') > 0).sum()) if len(snapshots) else 0,
+    'matched_prediction_rows': int((match_diag['matched_rows'] > 0).sum()) if len(match_diag) and 'matched_rows' in match_diag.columns else 0,
     'source_type': 'delayed_market_proxy',
     'real_money_ready': False,
 }
@@ -127,6 +188,7 @@ markdown = [
     '',
     f"Forward prediction rows: {summary['forward_prediction_rows']}",
     f"Proxy price rows: {summary['proxy_price_rows']}",
+    f"Matched prediction rows: {summary['matched_prediction_rows']}",
     f"Value snapshot rows: {summary['value_snapshot_rows']}",
     f"Positive EV rows: {summary['positive_ev_rows']}",
     '',
@@ -142,6 +204,13 @@ if len(snapshots):
         )
 else:
     markdown.append('No automatic forward value snapshots were built. Check proxy odds availability and team/date matching.')
+    if len(match_diag):
+        markdown.extend(['', '## Best match diagnostics', ''])
+        for _, row in match_diag.head(20).iterrows():
+            markdown.append(
+                f"- {row.get('home_team')} vs {row.get('away_team')} | candidates={row.get('candidate_rows')} | "
+                f"best={row.get('best_home_team')} vs {row.get('best_away_team')} | confidence={row.get('best_match_confidence')}"
+            )
 
 (output_dir / 'automatic_forward_value_snapshots.md').write_text('\n'.join(markdown), encoding='utf-8')
 print(summary)
