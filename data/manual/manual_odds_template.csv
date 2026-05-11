@@ -1,12 +1,4 @@
 fixture_id,match_date,match_time,home_team,away_team,league,bookmaker,market_home_odds,market_draw_odds,market_away_odds,odds_captured_at_utc,odds_source_note
-odds_api_io_70318488,2026-05-09,23:30,Guapore  RO,Galvez EC AC,brazil-brasileiro-serie-d,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_61512124,2026-05-09,18:00,SC Bastia,Le Mans FC,france-ligue-2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_70320584,2026-05-10,20:00,Aguia de Maraba FC PA,Oratorio RC AP,brazil-brasileiro-serie-d,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_69342828,2026-05-10,12:00,FC Aktobe,Kaisar Kyzylorda,kazakhstan-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_69546812,2026-05-10,07:30,Kwun Tong,Hoi King,hong-kong-china-1-division,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_70717252,2026-05-10,13:00,Pas Pyrgos,APS Zakynthos,greece-gamma-ethniki,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_69612866,2026-05-10,19:00,Real San Joaquin,Deportes Colina,chile-segunda-division,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67645546,2026-05-10,05:00,Yokohama F Marinos,Kashima Antlers,japan-jleague,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_P1_2026-05-11_Benfica_Sp_Braga,2026-05-11,20:15,Benfica,Sp Braga,P1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_P1_2026-05-11_Estrela_Famalicao,2026-05-11,20:15,Estrela,Famalicao,P1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_P1_2026-05-11_Gil_Vicente_Arouca,2026-05-11,20:15,Gil Vicente,Arouca,P1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
