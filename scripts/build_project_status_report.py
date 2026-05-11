@@ -1,11 +1,20 @@
 from pathlib import Path
+import runpy
 
 import pandas as pd
 
 output_dir = Path('output/latest')
 
+readiness_script = Path('scripts/build_project_goal_readiness_report.py')
+if readiness_script.exists():
+    try:
+        runpy.run_path(str(readiness_script), run_name='__main__')
+    except Exception as exc:
+        print(f'Project goal readiness report skipped: {exc!r}')
+
 report_files = {
     'free_data_status': output_dir / 'free_data_status.md',
+    'project_goal_readiness': output_dir / 'project_goal_readiness_report.md',
     'football_data_upcoming_odds': output_dir / 'football_data_upcoming_odds.md',
     'automatic_forward_source': output_dir / 'automatic_forward_source_report.md',
     'automatic_forward_value_snapshots': output_dir / 'automatic_forward_value_snapshots.md',
@@ -63,6 +72,7 @@ for label, path in report_files.items():
 status = {
     'reports_checked': len(report_files),
     'reports_available': sum(1 for path in report_files.values() if path.exists()),
+    'includes_project_goal_readiness': (output_dir / 'project_goal_readiness_report.md').exists(),
     'includes_football_data_upcoming_odds': (output_dir / 'football_data_upcoming_odds.md').exists(),
     'includes_automatic_forward_source': (output_dir / 'automatic_forward_source_report.md').exists(),
     'includes_automatic_forward_value_snapshots': (output_dir / 'automatic_forward_value_snapshots.md').exists(),
