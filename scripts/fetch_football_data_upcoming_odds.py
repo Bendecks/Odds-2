@@ -8,16 +8,16 @@ output_dir = Path('output/latest')
 raw_dir.mkdir(parents=True, exist_ok=True)
 output_dir.mkdir(parents=True, exist_ok=True)
 
-# Football-Data upcoming fixtures page links to fixtures.csv for upcoming matches.
-# This is a delayed/free market proxy, not live odds and not a real-money source.
-SOURCE_URLS = [
-    'https://www.football-data.co.uk/fixtures.csv',
-]
+SOURCE_URLS = ['https://www.football-data.co.uk/fixtures.csv']
 
-expected_columns = [
+price_columns = [
     'fixture_id', 'match_date', 'match_time', 'home_team', 'away_team', 'league',
     'source_name', 'source_type', 'market_home_odds', 'market_draw_odds',
     'market_away_odds', 'price_captured_at_utc', 'source_quality', 'raw_source_url'
+]
+fixture_columns = [
+    'fixture_id', 'league', 'league_id', 'season', 'match_date', 'match_time',
+    'home_team', 'away_team', 'source', 'fetched_at_utc'
 ]
 
 bookmaker_sets = [
@@ -38,9 +38,19 @@ league_map = {
 }
 
 rows = []
+fixture_rows = []
 errors = []
 fetched_at = datetime.now(timezone.utc).isoformat()
+today = datetime.now(timezone.utc).date()
 raw_frames = []
+
+
+def parse_date(value):
+    parsed = pd.to_datetime(value, errors='coerce', dayfirst=True)
+    if pd.isna(parsed):
+        parsed = pd.to_datetime(value, errors='coerce')
+    return parsed
+
 
 for url in SOURCE_URLS:
     try:
@@ -50,11 +60,7 @@ for url in SOURCE_URLS:
     except Exception as exc:
         errors.append({'url': url, 'error': repr(exc)})
 
-if raw_frames:
-    raw = pd.concat(raw_frames, ignore_index=True)
-else:
-    raw = pd.DataFrame()
-
+raw = pd.concat(raw_frames, ignore_index=True) if raw_frames else pd.DataFrame()
 raw.to_csv(raw_dir / 'football_data_upcoming_raw.csv', index=False)
 
 if len(raw):
@@ -64,6 +70,25 @@ if len(raw):
         date = row.get('Date') or row.get('MatchDate') or row.get('DateTime')
         time = row.get('Time') or row.get('KO') or ''
         div = row.get('Div') or row.get('League') or 'unknown'
+        parsed_date = parse_date(date)
+        if pd.isna(parsed_date) or parsed_date.date() < today:
+            continue
+
+        league = league_map.get(str(div), str(div))
+        fixture_id = f"fd_{div}_{parsed_date.date().isoformat()}_{home}_{away}".replace(' ', '_').replace('/', '-')
+
+        fixture_rows.append({
+            'fixture_id': fixture_id,
+            'league': league,
+            'league_id': str(div),
+            'season': 'upcoming',
+            'match_date': parsed_date.date().isoformat(),
+            'match_time': time,
+            'home_team': home,
+            'away_team': away,
+            'source': 'football_data_fixtures_proxy',
+            'fetched_at_utc': fetched_at,
+        })
 
         for h_col, d_col, a_col, source_name in bookmaker_sets:
             if h_col not in raw.columns or d_col not in raw.columns or a_col not in raw.columns:
@@ -76,14 +101,13 @@ if len(raw):
             if min(home_odds, draw_odds, away_odds) <= 1:
                 continue
 
-            fixture_id = f"fd_{div}_{date}_{home}_{away}".replace(' ', '_').replace('/', '-')
             rows.append({
                 'fixture_id': fixture_id,
-                'match_date': date,
+                'match_date': parsed_date.date().isoformat(),
                 'match_time': time,
                 'home_team': home,
                 'away_team': away,
-                'league': league_map.get(str(div), str(div)),
+                'league': league,
                 'source_name': source_name,
                 'source_type': 'delayed_market_proxy',
                 'market_home_odds': round(float(home_odds), 4),
@@ -95,15 +119,24 @@ if len(raw):
             })
 
 prices = pd.DataFrame(rows)
-for col in expected_columns:
+for col in price_columns:
     if col not in prices.columns:
         prices[col] = None
-prices = prices[expected_columns]
+prices = prices[price_columns]
 prices.to_csv(raw_dir / 'football_data_upcoming_odds.csv', index=False)
 prices.to_csv(output_dir / 'football_data_upcoming_odds.csv', index=False)
 
+fixtures = pd.DataFrame(fixture_rows).drop_duplicates(['fixture_id']) if fixture_rows else pd.DataFrame(columns=fixture_columns)
+for col in fixture_columns:
+    if col not in fixtures.columns:
+        fixtures[col] = None
+fixtures = fixtures[fixture_columns]
+fixtures.to_csv(raw_dir / 'football_data_upcoming_fixtures.csv', index=False)
+fixtures.to_csv(output_dir / 'football_data_upcoming_fixtures.csv', index=False)
+
 summary = {
     'raw_rows': int(len(raw)),
+    'upcoming_fixture_rows': int(len(fixtures)),
     'proxy_price_rows': int(len(prices)),
     'sources_attempted': len(SOURCE_URLS),
     'errors': int(len(errors)),
@@ -117,6 +150,7 @@ markdown = [
     'Free delayed market proxy. Not live odds and not real-money ready.',
     '',
     f"Raw rows: {summary['raw_rows']}",
+    f"Upcoming fixture rows: {summary['upcoming_fixture_rows']}",
     f"Proxy price rows: {summary['proxy_price_rows']}",
     f"Sources attempted: {summary['sources_attempted']}",
     f"Errors: {summary['errors']}",
@@ -138,4 +172,20 @@ if errors:
         markdown.append(f"- {error['url']}: {error['error']}")
 
 (output_dir / 'football_data_upcoming_odds.md').write_text('\n'.join(markdown), encoding='utf-8')
+
+fixture_markdown = [
+    '# Football-Data Upcoming Fixtures',
+    '',
+    'Fixtures derived from Football-Data fixtures.csv. Used for automatic proxy forward modeling.',
+    '',
+    f"Upcoming fixture rows: {len(fixtures)}",
+    '',
+]
+if len(fixtures):
+    for _, item in fixtures.head(50).iterrows():
+        fixture_markdown.append(f"- {item['match_date']} {item['match_time']} | {item['home_team']} vs {item['away_team']} | {item['league']}")
+else:
+    fixture_markdown.append('No upcoming Football-Data fixture rows available.')
+(output_dir / 'football_data_upcoming_fixtures.md').write_text('\n'.join(fixture_markdown), encoding='utf-8')
+
 print(summary)
