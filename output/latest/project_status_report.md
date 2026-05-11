@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T13:32:08.749378+00:00`
-GitHub run: `244` attempt `1`
-GitHub SHA: `a6fc75085ac0f5df0ecfc4f8e12e616cbde5dead`
+Generated UTC: `2026-05-11T13:33:55.574876+00:00`
+GitHub run: `245` attempt `1`
+GitHub SHA: `13ccfb477497e67094ac892af1c728a94c78c0fa`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -263,7 +263,7 @@ Manual odds are not required in the current phase. These rows are only kept for 
 ## upcoming_fixtures
 
 # Upcoming Fixtures
-Fixture sources: TheSportsDB, Football-Data fixtures proxy, and cautious odds-api.io events where configured.
+Fixture sources: TheSportsDB, Football-Data fixtures proxy, cautious odds-api.io events, and disabled-by-default API-Football status.
 Duplicate fixtures are deduplicated by date and normalized teams, preferring odds-api.io then Football-Data for odds alignment.
 Primary development target: automatic/free market proxy, not manual Bet365.
 Fixtures found: 11
