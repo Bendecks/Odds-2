@@ -24,8 +24,9 @@ jobs:
     env:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       ODDS_API_IO_KEY: ${{ secrets.ODDS_API_IO_KEY }}
-      ODDS_API_IO_MAX_CALLS: '2'
-      ODDS_API_IO_MAX_EVENTS: '8'
+      ODDS_API_IO_MAX_CALLS: '6'
+      ODDS_API_IO_MAX_EVENTS: '10'
+      ODDS_API_IO_MAX_PRICE_EVENTS: '3'
       API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
       API_FOOTBALL_MAX_CALLS: '0'
       API_FOOTBALL_MAX_FIXTURES: '5'
