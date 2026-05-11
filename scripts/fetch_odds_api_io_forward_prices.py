@@ -17,9 +17,7 @@ api_key = os.getenv('ODDS_API_IO_KEY')
 base_url = 'https://api.odds-api.io/v3'
 max_events = int(os.getenv('ODDS_API_IO_MAX_EVENTS', '8'))
 max_calls = int(os.getenv('ODDS_API_IO_MAX_CALLS', '2'))
-# Empty by default: odds-api.io then uses the account's selected bookmakers.
-# This avoids free-plan rejection when selected bookmaker slots are already configured in the UI.
-bookmakers = os.getenv('ODDS_API_IO_BOOKMAKERS', '').strip()
+bookmakers = os.getenv('ODDS_API_IO_BOOKMAKERS', 'Bet365,1xbet').strip()
 
 price_columns = [
     'fixture_id', 'match_date', 'match_time', 'home_team', 'away_team', 'league',
@@ -145,9 +143,8 @@ else:
                 params = {
                     'apiKey': api_key,
                     'eventIds': ','.join(event_ids[:10]),
+                    'bookmakers': bookmakers,
                 }
-                if bookmakers:
-                    params['bookmakers'] = bookmakers
                 multi_url = f"{base_url}/odds/multi?" + urllib.parse.urlencode(params)
                 odds_payload = get_json(multi_url, 'odds')
                 odds_items = odds_payload if isinstance(odds_payload, list) else odds_payload.get('data') or odds_payload.get('events') or []
@@ -204,7 +201,8 @@ summary = {
     'fixture_rows': int(len(fixtures)),
     'price_rows': int(len(prices)),
     'errors': int(len(errors)),
-    'bookmakers_param_mode': 'explicit' if bool(bookmakers) else 'account_selected_default',
+    'bookmakers_param_mode': 'explicit_selected_bookmakers',
+    'bookmakers_requested': bookmakers,
     'source_quality': 'free_api_market_proxy_capped_calls',
 }
 pd.DataFrame([summary]).to_csv(output_dir / 'odds_api_io_forward_price_status.csv', index=False)
@@ -219,6 +217,7 @@ markdown = [
     f"Calls used: {summary['calls_used']} / {summary['max_calls']}",
     f"Max events: {summary['max_events']}",
     f"Bookmakers parameter mode: {summary['bookmakers_param_mode']}",
+    f"Bookmakers requested: {summary['bookmakers_requested']}",
     f"Fixture rows: {summary['fixture_rows']}",
     f"Price rows: {summary['price_rows']}",
     f"Errors: {summary['errors']}",
