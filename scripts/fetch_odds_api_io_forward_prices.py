@@ -36,7 +36,7 @@ errors = []
 calls_used = 0
 fetched_at = datetime.now(timezone.utc).isoformat()
 today = datetime.now(timezone.utc).date()
-discovery_mode = 'events_endpoint_then_targeted_search_fallback'
+discovery_mode = 'targeted_events_search_then_single_event_odds'
 
 
 def get_json(url: str, label: str):
@@ -174,29 +174,18 @@ if not api_key:
     errors.append({'stage': 'config', 'error': 'ODDS_API_IO_KEY missing'})
 else:
     try:
-        events_url = f"{base_url}/events?" + urllib.parse.urlencode({
+        used_search_query = choose_search_query()
+        search_url = f"{base_url}/events/search?" + urllib.parse.urlencode({
             'apiKey': api_key,
-            'sport': 'football',
-            'limit': max_events,
+            'query': used_search_query,
         })
-        events_payload = get_json(events_url, 'events')
-        event_rows = normalize_events(event_items(events_payload)[:max_events], 'odds_api_io_events')
-        fixture_rows.extend(event_rows)
-        eligible_rows = eligible(event_rows)
-
-        if not eligible_rows and calls_used < max_calls:
-            used_search_query = choose_search_query()
-            search_url = f"{base_url}/events/search?" + urllib.parse.urlencode({
-                'apiKey': api_key,
-                'query': used_search_query,
-            })
-            search_payload = get_json(search_url, 'events_search_fallback')
-            search_rows = normalize_events(event_items(search_payload)[:max_events], 'odds_api_io_events_search_fallback')
-            fixture_rows.extend(search_rows)
-            eligible_rows = eligible(search_rows)
+        search_payload = get_json(search_url, 'events_search')
+        search_rows = normalize_events(event_items(search_payload)[:max_events], 'odds_api_io_events_search')
+        fixture_rows.extend(search_rows)
+        eligible_rows = eligible(search_rows)
 
         if not eligible_rows:
-            errors.append({'stage': 'event_selection', 'error': 'No future non-settled event available from documented events endpoint or targeted search fallback; skipped odds call'})
+            errors.append({'stage': 'event_selection', 'error': f'No future non-settled event available from targeted search query {used_search_query!r}; skipped odds call'})
 
         if eligible_rows and calls_used < max_calls:
             try:
@@ -231,7 +220,7 @@ else:
             except Exception as exc:
                 errors.append({'stage': 'odds_request_or_parse', 'error': repr(exc)})
     except Exception as exc:
-        errors.append({'stage': 'events_or_parse', 'error': repr(exc)})
+        errors.append({'stage': 'events_search_or_parse', 'error': repr(exc)})
 
 prices = pd.DataFrame(rows)
 for col in price_columns:
@@ -271,7 +260,7 @@ markdown = [
     '# odds-api.io Forward Price Fetch',
     '',
     'Cautious optional API source. Hard-capped by ODDS_API_IO_MAX_CALLS and ODDS_API_IO_MAX_EVENTS.',
-    'Uses documented /v3/events with sport+limit first; if no future event is found, uses one targeted /v3/events/search fallback. With max_calls=2 this prevents odds calls when discovery fails.',
+    'Uses documented /v3/events/search first because docs specify it searches upcoming events, then /v3/odds for one eligible future event.',
     'Not real-money ready until validated against forward results and other sources.',
     '',
     f"Enabled: {summary['enabled']}",
