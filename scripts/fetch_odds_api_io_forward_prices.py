@@ -1,5 +1,6 @@
 import json
 import os
+import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
@@ -16,7 +17,7 @@ api_key = os.getenv('ODDS_API_IO_KEY')
 base_url = 'https://api.odds-api.io/v3'
 max_events = int(os.getenv('ODDS_API_IO_MAX_EVENTS', '8'))
 max_calls = int(os.getenv('ODDS_API_IO_MAX_CALLS', '2'))
-bookmakers = os.getenv('ODDS_API_IO_BOOKMAKERS', 'Bet365,Unibet,William Hill,Betfair')
+bookmakers = os.getenv('ODDS_API_IO_BOOKMAKERS', 'Bet365,Unibet,Betfair')
 
 price_columns = [
     'fixture_id', 'match_date', 'match_time', 'home_team', 'away_team', 'league',
@@ -35,13 +36,21 @@ calls_used = 0
 fetched_at = datetime.now(timezone.utc).isoformat()
 
 
-def get_json(url: str):
+def get_json(url: str, label: str):
     global calls_used
     if calls_used >= max_calls:
         raise RuntimeError('ODDS_API_IO_MAX_CALLS reached')
-    with urllib.request.urlopen(url, timeout=30) as response:
+    try:
+        with urllib.request.urlopen(url, timeout=30) as response:
+            calls_used += 1
+            text = response.read().decode('utf-8')
+            (raw_dir / f'{label}_latest.json').write_text(text, encoding='utf-8')
+            return json.loads(text)
+    except urllib.error.HTTPError as exc:
         calls_used += 1
-        return json.loads(response.read().decode('utf-8'))
+        body = exc.read().decode('utf-8', errors='replace')
+        (raw_dir / f'{label}_error.txt').write_text(body, encoding='utf-8')
+        raise RuntimeError(f'HTTP {exc.code}: {body[:300]}')
 
 
 def parse_date(value):
@@ -90,13 +99,12 @@ if not api_key:
     errors.append({'stage': 'config', 'error': 'ODDS_API_IO_KEY missing'})
 else:
     try:
+        # Docs show only apiKey + sport for this endpoint. Avoid unsupported query params.
         events_url = f"{base_url}/events?" + urllib.parse.urlencode({
             'apiKey': api_key,
             'sport': 'football',
-            'limit': max_events,
         })
-        events_payload = get_json(events_url)
-        (raw_dir / 'events_latest.json').write_text(json.dumps(events_payload, indent=2), encoding='utf-8')
+        events_payload = get_json(events_url, 'events')
         events = event_items(events_payload)[:max_events]
 
         event_ids = []
@@ -134,8 +142,7 @@ else:
                 'eventIds': ','.join(event_ids[:10]),
                 'bookmakers': bookmakers,
             })
-            odds_payload = get_json(multi_url)
-            (raw_dir / 'odds_latest.json').write_text(json.dumps(odds_payload, indent=2), encoding='utf-8')
+            odds_payload = get_json(multi_url, 'odds')
             odds_items = odds_payload if isinstance(odds_payload, list) else odds_payload.get('data') or odds_payload.get('events') or []
             for item in odds_items:
                 event_id = str(item.get('id') or item.get('eventId') or item.get('event_id'))
