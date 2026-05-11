@@ -1,2 +1,2 @@
 enabled,calls_used,max_calls,max_events,fixture_rows,price_rows,errors,source_quality
-False,0,2,8,0,0,1,free_api_market_proxy_capped_calls
+True,1,2,8,0,0,1,free_api_market_proxy_capped_calls

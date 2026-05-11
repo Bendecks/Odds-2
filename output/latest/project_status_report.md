@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T13:46:16.489094+00:00`
-GitHub run: `246` attempt `1`
-GitHub SHA: `b9cd84ebf73e3ad51d2b9cb1f86726fa26655be5`
+Generated UTC: `2026-05-11T13:48:04.865666+00:00`
+GitHub run: `247` attempt `1`
+GitHub SHA: `5390dd5a879e8b993f51f6a2f26de81da162c661`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -20,6 +20,9 @@ Overall status: `OK`
 | odds-api.io forward prices | True | 0 |  |  |
 | odds-api.io forward fixtures | True | 0 |  |  |
 | odds-api.io forward price status | True | 1 |  |  |
+| API-Football forward prices | True | 0 |  |  |
+| API-Football forward fixtures | True | 0 |  |  |
+| API-Football forward price status | True | 1 |  |  |
 | Automatic forward value snapshots | True | 27 |  |  |
 | Automatic forward value snapshot summary | True | 1 |  |  |
 | Automatic forward value match diagnostics | True | 3 |  |  |
@@ -31,9 +34,6 @@ Overall status: `OK`
 | Forward probability calibration report | True | 1 |  |  |
 | Forward probability calibration summary | True | 1 |  |  |
 | Automatic forward source report | True | 1 |  |  |
-| Automatic forward prices | True | 33 |  |  |
-| Forward price source adapter | True | 1 |  |  |
-| Fixture model match report | True | 22 |  |  |
 
 ## project_goal_readiness
 

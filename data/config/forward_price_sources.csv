@@ -1,0 +1,3 @@
+source_name,source_type,enabled,requires_key,status,notes
+football_data_fixtures_proxy,delayed_market_proxy,True,False,enabled_proxy,Free Football-Data fixtures odds proxy. Delayed/non-live; paper-test only.
+odds_api_io_multi_proxy,free_api_market_proxy,True,True,enabled_if_secret_available_capped_calls,Optional odds-api.io source. Calls are capped by ODDS_API_IO_MAX_CALLS.

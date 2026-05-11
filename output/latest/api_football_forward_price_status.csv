@@ -1,2 +1,2 @@
 enabled,calls_used,max_calls,max_fixtures,fixture_rows,price_rows,errors,source_quality
-False,0,0,5,0,0,1,free_api_market_proxy_disabled_by_default
+True,0,0,5,0,0,1,free_api_market_proxy_disabled_by_default
