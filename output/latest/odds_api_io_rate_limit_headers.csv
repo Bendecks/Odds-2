@@ -1,0 +1,5 @@
+captured_at_utc,label,status_code,x_ratelimit_limit,x_ratelimit_remaining,x_ratelimit_reset,retry_after
+2026-05-11T20:09:42.495112+00:00,events_search_1,200,100,34,2026-05-11T20:13:08Z,
+2026-05-11T20:09:42.841963+00:00,events_search_2,200,100,33,2026-05-11T20:13:08Z,
+2026-05-11T20:09:43.162599+00:00,events_search_3,200,100,32,2026-05-11T20:13:08Z,
+2026-05-11T20:09:43.505622+00:00,odds_multi,200,100,31,2026-05-11T20:13:08Z,

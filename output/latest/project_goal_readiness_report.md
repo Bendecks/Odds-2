@@ -9,6 +9,10 @@ Overall project stage: `proxy_paper_testing_started`
 - Positive EV proxy rows: 13
 - Proxy observation rows: 7
 - Valid forward/proxy log rows: 13
+- Deduped forward/proxy log rows: 4
+- Duplicate forward/proxy log rows identified: 9
+- Fresh API match coverage rate: 0.0
+- Matches with fresh API price: 0
 - Settled forward rows: 0
 - Real-money ready: False
 
@@ -23,14 +27,14 @@ Done when: Use only for model diagnostics, not betting decisions.
 ### automatic_proxy_odds_ingestion
 Status: `working`
 Target: Free automatic odds proxy exists and validates.
-Current: 27 value snapshots from delayed proxy prices.
-Done when: Keep Football-Data as baseline; add optional API source for fresher odds.
+Current: 27 value snapshots; fresh API coverage rate 0.0.
+Done when: Keep Football-Data as baseline; improve odds-api.io/API-Football coverage carefully.
 
 ### paper_forward_testing
 Status: `started_not_mature`
-Target: At least 50-100 logged proxy observations across several matchdays.
-Current: 13 valid forward/proxy log rows.
-Done when: Minimum 50 observations before drawing early conclusions; 100+ preferred.
+Target: At least 50-100 deduped proxy observations across several matchdays.
+Current: 4 deduped forward/proxy rows; 9 duplicate raw rows identified.
+Done when: Minimum 50 deduped observations before drawing early conclusions; 100+ preferred.
 
 ### forward_probability_calibration
 Status: `not_ready`
@@ -46,10 +50,10 @@ Done when: Positive/neutral CLV over forward sample, stable calibration, and fre
 
 ## Practical definition of done
 
-The project is not in goal when it can generate one exciting pick. It is in goal when it can repeatedly produce forward observations, settle them, and show that calibration and market alignment are not obviously bad.
+The project is not in goal when it can generate one exciting pick. It is in goal when it can repeatedly produce deduped forward observations, settle them, and show that calibration and market alignment are not obviously bad.
 
 Minimum paper-test goal:
-- 50+ forward/proxy observations logged
+- 50+ deduped forward/proxy observations logged
 - 20+ settled forward observations
 - no duplicate fixture inflation
 - proxy source clearly separated from real-money readiness
@@ -61,4 +65,4 @@ Real-money goal remains much stricter:
 - fresh odds source verified, not only delayed proxy
 - candidate bet gate can remain 0 until these are met
 
-Next goal: Grow forward proxy sample, deduplicate fixtures, improve model-covered league filtering, and add optional odds-api.io/API-Football adapters.
+Next goal: Increase fresh API price coverage carefully, use deduped paper-test counts, settle forward rows, and improve model-covered league filtering.

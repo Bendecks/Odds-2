@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T18:12:21.477991+00:00`
-GitHub run: `274` attempt `1`
-GitHub SHA: `f1912b108a912e698e5de728910cf100b7b21414`
+Generated UTC: `2026-05-11T19:14:07.147088+00:00`
+GitHub run: `275` attempt `1`
+GitHub SHA: `1f282b0d9145330a6a47bacf0f86ea34611c4b51`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -17,13 +17,13 @@ Overall status: `OK`
 | Football-Data upcoming fixtures proxy | True | 11 |  |  |
 | Football-Data upcoming odds proxy | True | 33 |  |  |
 | Football-Data upcoming odds status | True | 1 |  |  |
-| odds-api.io forward prices | True | 1 |  |  |
-| odds-api.io forward fixtures | True | 2 |  |  |
+| odds-api.io forward prices | True | 0 |  |  |
+| odds-api.io forward fixtures | True | 0 |  |  |
 | odds-api.io forward price status | True | 1 |  |  |
 | API-Football forward prices | True | 0 |  |  |
 | API-Football forward fixtures | True | 0 |  |  |
 | API-Football forward price status | True | 1 |  |  |
-| Automatic forward value snapshots | True | 30 |  |  |
+| Automatic forward value snapshots | True | 27 |  |  |
 | Proxy candidate observations | True | 4 |  |  |
 | Proxy candidate observation summary | True | 1 |  |  |
 | Proxy candidate explanation report | True | 4 |  |  |
@@ -33,7 +33,7 @@ Overall status: `OK`
 | Automatic forward value match diagnostics | True | 3 |  |  |
 | Proxy observation quality report | True | 1 |  |  |
 | Proxy observation by selection | True | 2 |  |  |
-| Upcoming fixtures | True | 12 |  |  |
+| Upcoming fixtures | True | 11 |  |  |
 
 ## project_goal_readiness
 
@@ -45,6 +45,10 @@ Overall project stage: `proxy_paper_testing_started`
 - Positive EV proxy rows: 13
 - Proxy observation rows: 7
 - Valid forward/proxy log rows: 13
+- Deduped forward/proxy log rows: 4
+- Duplicate forward/proxy log rows identified: 9
+- Fresh API match coverage rate: 0.0
+- Matches with fresh API price: 0
 - Settled forward rows: 0
 - Real-money ready: False
 ## Stage checklist
@@ -56,17 +60,13 @@ Done when: Use only for model diagnostics, not betting decisions.
 ### automatic_proxy_odds_ingestion
 Status: `working`
 Target: Free automatic odds proxy exists and validates.
-Current: 27 value snapshots from delayed proxy prices.
-Done when: Keep Football-Data as baseline; add optional API source for fresher odds.
+Current: 27 value snapshots; fresh API coverage rate 0.0.
+Done when: Keep Football-Data as baseline; improve odds-api.io/API-Football coverage carefully.
 ### paper_forward_testing
 Status: `started_not_mature`
-Target: At least 50-100 logged proxy observations across several matchdays.
-Current: 13 valid forward/proxy log rows.
-Done when: Minimum 50 observations before drawing early conclusions; 100+ preferred.
-### forward_probability_calibration
-Status: `not_ready`
-Target: Settled forward rows available for Brier/accuracy/calibration review.
-Current: 0 settled forward rows.
+Target: At least 50-100 deduped proxy observations across several matchdays.
+Current: 4 deduped forward/proxy rows; 9 duplicate raw rows identified.
+Done when: Minimum 50 deduped observations before drawing early conclusions; 100+ preferred.
 
 ## football_data_upcoming_odds
 
@@ -106,11 +106,11 @@ Errors: 0
 # Automatic Forward Source Report
 Purpose: distinguish true automatic forward inputs from historical market proxy and paused manual fallback.
 Football-Data and odds-api.io prices are treated as paper-test proxy prices until validated.
-Upcoming fixture rows: 11
-Fixture team rows unmatched: 16
+Upcoming fixture rows: 22
+Fixture team rows unmatched: 37
 Ready for model-fixture join: False
-Automatic forward price rows: 33
-odds-api.io price rows: 0
+Automatic forward price rows: 34
+odds-api.io price rows: 1
 Football-Data price rows: 33
 Automatic forward status: automatic_forward_not_ready
 Blocker: fixture_model_team_matching_incomplete
@@ -132,7 +132,31 @@ Next development step: add_team_aliases_for_upcoming_fixtures
 - Nacional | suggestion=nan | type=unmatched
 - Tondela | suggestion=nan | type=unmatched
 - Moreirense | suggestion=nan | type=unmatched
-## Interpretation
+- Charleston Riverdogs | suggestion=nan | type=unmatched
+
+## forward_price_coverage
+
+# Forward Price Coverage Report
+Measures automatic price coverage for forward predictions.
+Fresh API price means odds-api.io or API-Football. This is still paper/proxy-only and not real-money ready.
+Forward prediction rows: 3
+Automatic price rows: 34
+Value snapshot rows: 27
+Matches with any automatic price: 3
+Matches with fresh API price: 0
+Matches with odds-api.io price: 0
+Fresh API match coverage rate: 0.0
+odds-api.io match coverage rate: 0.0
+Real-money ready: False
+## Match coverage
+- 2026-05-11 | Napoli vs Bologna | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
+- 2026-05-11 | Tottenham vs Leeds | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
+- 2026-05-11 | Vallecano vs Girona | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
+## Source summary
+- football_data_average_market_proxy | delayed_market_proxy | rows=11
+- football_data_bet365_proxy | delayed_market_proxy | rows=11
+- football_data_max_market_proxy | delayed_market_proxy | rows=11
+- odds_api_io_Bet365_ML | free_api_market_proxy | rows=1
 
 ## automatic_forward_value_snapshots
 
@@ -141,7 +165,7 @@ Combined automatic forward market proxy joined to forward probability prediction
 Includes Football-Data delayed proxy and capped odds-api.io single-event proxy when available.
 Not live/full-market coverage and not real-money ready.
 Forward prediction rows: 3
-Proxy price rows: 33
+Proxy price rows: 34
 Matched prediction rows: 3
 Value snapshot rows: 27
 odds-api.io snapshot rows: 0
@@ -231,7 +255,7 @@ Average match confidence: None
 
 # Forward Fixture Predictions
 Probability-only forward fixture model output. Not a betting card and not a real-money recommendation.
-Upcoming fixture rows: 11
+Upcoming fixture rows: 22
 Forward fixture prediction rows: 3
 Ready for price join: True
 - 2026-05-11 19:45 | Napoli vs Bologna | H=0.4007 D=0.2843 A=0.3149 | fair=2.5/3.52/3.18
@@ -277,10 +301,10 @@ Average Brier score: None
 # Forward Input Status
 Manual Bet365 odds input is parked as an optional fallback. It is not an active development blocker.
 Current priority: automatic/free-data forward-testing sources and robust fixture/model matching.
-Upcoming fixtures: 11
-Manual template rows: 11
+Upcoming fixtures: 22
+Manual template rows: 22
 Rows with complete manual odds: 0
-Rows missing manual odds: 11
+Rows missing manual odds: 22
 Manual forward snapshot rows: 0
 Manual odds mode: optional_fallback_paused
 Manual odds is blocker: False
@@ -300,6 +324,10 @@ Manual odds are not required in the current phase. These rows are only kept for 
 - 2026-05-11 20:15 | Tondela vs Moreirense
 - 2026-05-11 20:00 | Tottenham vs Leeds
 - 2026-05-11 20:00 | Vallecano vs Girona
+- 2026-05-12 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers
+- 2026-05-12 22:05 | Louisville Bats vs Indianapolis Indians
+- 2026-05-13 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers
+- 2026-05-13 15:05 | Louisville Bats vs Indianapolis Indians
 
 ## upcoming_fixtures
 
@@ -307,8 +335,8 @@ Manual odds are not required in the current phase. These rows are only kept for 
 Fixture sources: TheSportsDB, Football-Data fixtures proxy, cautious odds-api.io events, and disabled-by-default API-Football status.
 Duplicate fixtures are deduplicated by date and normalized teams, preferring odds-api.io then Football-Data for odds alignment.
 Primary development target: automatic/free market proxy, not manual Bet365.
-Fixtures found: 11
-Source counts: {'football_data_fixtures_proxy': 11}
+Fixtures found: 22
+Source counts: {'football_data_fixtures_proxy': 11, 'odds_api_io_events_search': 11}
 Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 - 2026-05-11 20:15 | Benfica vs Sp Braga | P1 | football_data_fixtures_proxy
 - 2026-05-11 20:15 | Estrela vs Famalicao | P1 | football_data_fixtures_proxy
@@ -321,6 +349,17 @@ Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 - 2026-05-11 20:15 | Tondela vs Moreirense | P1 | football_data_fixtures_proxy
 - 2026-05-11 20:00 | Tottenham vs Leeds | premier_league | football_data_fixtures_proxy
 - 2026-05-11 20:00 | Vallecano vs Girona | la_liga | football_data_fixtures_proxy
+- 2026-05-12 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers | usa-single-a-carolina-league | odds_api_io_events_search
+- 2026-05-12 22:05 | Louisville Bats vs Indianapolis Indians | usa-triple-a-international-league | odds_api_io_events_search
+- 2026-05-13 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers | usa-single-a-carolina-league | odds_api_io_events_search
+- 2026-05-13 15:05 | Louisville Bats vs Indianapolis Indians | usa-triple-a-international-league | odds_api_io_events_search
+- 2026-05-13 22:00 | Vila Nova FC GO vs Anapolis FC GO | brazil-copa-verde | odds_api_io_events_search
+- 2026-05-14 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers | usa-single-a-carolina-league | odds_api_io_events_search
+- 2026-05-14 22:35 | Louisville Bats vs Indianapolis Indians | usa-triple-a-international-league | odds_api_io_events_search
+- 2026-05-14 17:00 | Valencia CF vs Rayo Vallecano | spain-laliga | odds_api_io_events_search
+- 2026-05-15 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers | usa-single-a-carolina-league | odds_api_io_events_search
+- 2026-05-15 23:15 | Louisville Bats vs Indianapolis Indians | usa-triple-a-international-league | odds_api_io_events_search
+- 2026-05-16 09:00 | Cagliari Calcio vs SSC Napoli | italy-primavera-1 | odds_api_io_events_search
 
 ## manual_odds_template
 
@@ -328,7 +367,7 @@ Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 Use this only for forward paper-testing. Do not use for real-money betting.
 Existing filled odds are preserved when fixtures refresh.
 Fill the three 1X2 odds columns from Bet365 before kickoff, then commit/update the CSV or run the workflow manually.
-Template rows: 11
+Template rows: 22
 Rows with complete odds: 0
 - 2026-05-11 20:15 | Benfica vs Sp Braga | bookmaker=bet365_manual
 - 2026-05-11 20:15 | Estrela vs Famalicao | bookmaker=bet365_manual
@@ -341,6 +380,17 @@ Rows with complete odds: 0
 - 2026-05-11 20:15 | Tondela vs Moreirense | bookmaker=bet365_manual
 - 2026-05-11 20:00 | Tottenham vs Leeds | bookmaker=bet365_manual
 - 2026-05-11 20:00 | Vallecano vs Girona | bookmaker=bet365_manual
+- 2026-05-12 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers | bookmaker=bet365_manual
+- 2026-05-12 22:05 | Louisville Bats vs Indianapolis Indians | bookmaker=bet365_manual
+- 2026-05-13 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers | bookmaker=bet365_manual
+- 2026-05-13 15:05 | Louisville Bats vs Indianapolis Indians | bookmaker=bet365_manual
+- 2026-05-13 22:00 | Vila Nova FC GO vs Anapolis FC GO | bookmaker=bet365_manual
+- 2026-05-14 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers | bookmaker=bet365_manual
+- 2026-05-14 22:35 | Louisville Bats vs Indianapolis Indians | bookmaker=bet365_manual
+- 2026-05-14 17:00 | Valencia CF vs Rayo Vallecano | bookmaker=bet365_manual
+- 2026-05-15 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers | bookmaker=bet365_manual
+- 2026-05-15 23:15 | Louisville Bats vs Indianapolis Indians | bookmaker=bet365_manual
+- 2026-05-16 09:00 | Cagliari Calcio vs SSC Napoli | bookmaker=bet365_manual
 
 ## manual_odds_instructions
 
@@ -366,11 +416,14 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-11 20:15 | Tondela vs Moreirense
 - 2026-05-11 20:00 | Tottenham vs Leeds
 - 2026-05-11 20:00 | Vallecano vs Girona
-## After filling odds
-Run the workflow again. Expected result:
-- `manual_forward_snapshots` becomes greater than 0
-- `paper_test_picks` may become greater than 0
-- `candidate_bets` may still remain 0, which is acceptable
+- 2026-05-12 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers
+- 2026-05-12 22:05 | Louisville Bats vs Indianapolis Indians
+- 2026-05-13 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers
+- 2026-05-13 15:05 | Louisville Bats vs Indianapolis Indians
+- 2026-05-13 22:00 | Vila Nova FC GO vs Anapolis FC GO
+- 2026-05-14 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers
+- 2026-05-14 22:35 | Louisville Bats vs Indianapolis Indians
+- 2026-05-14 17:00 | Valencia CF vs Rayo Vallecano
 
 ## manual_forward_snapshots
 
@@ -384,10 +437,18 @@ No manual forward snapshots built. Fill data/manual/manual_odds_template.csv wit
 # Paper Test Log Status
 Raw log rows: 16
 Valid forward/proxy log rows: 13
+Deduped forward/proxy observation rows: 4
+Duplicate forward/proxy log rows: 9
 Valid automatic proxy observation rows: 13
+Deduped automatic proxy observation rows: 4
 Invalid historical/proxy log rows excluded: 3
 Has valid forward log: True
-## Valid rows
+## Deduped valid rows
+- 2026-05-11 | Tottenham vs Leeds | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.1313
+- 2026-05-11 | Napoli vs Bologna | selection=draw | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.12610000000000002
+- 2026-05-11 | Vallecano vs Girona | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.1245
+- 2026-05-11 | Tottenham Hotspur vs Leeds United | selection=draw | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.1216
+## Raw valid rows
 - 2026-05-11 | Tottenham Hotspur vs Leeds United | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
 - 2026-05-11 | Tottenham Hotspur vs Leeds United | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
 - 2026-05-11 | Tottenham Hotspur vs Leeds United | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
@@ -403,8 +464,6 @@ Has valid forward log: True
 - 2026-05-11 | Tottenham vs Leeds | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
 ## Invalid rows excluded
 - 25/05/2025 | Liverpool vs Crystal Palace | phase=historical_proxy_research
-- 25/05/2025 | Fulham vs Man City | phase=historical_proxy_research
-- 25/05/2025 | Southampton vs Arsenal | phase=historical_proxy_research
 
 ## betting_performance
 

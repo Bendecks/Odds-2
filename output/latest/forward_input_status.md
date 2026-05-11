@@ -3,10 +3,10 @@
 Manual Bet365 odds input is parked as an optional fallback. It is not an active development blocker.
 Current priority: automatic/free-data forward-testing sources and robust fixture/model matching.
 
-Upcoming fixtures: 11
-Manual template rows: 11
+Upcoming fixtures: 22
+Manual template rows: 22
 Rows with complete manual odds: 0
-Rows missing manual odds: 11
+Rows missing manual odds: 22
 Manual forward snapshot rows: 0
 Manual odds mode: optional_fallback_paused
 Manual odds is blocker: False
@@ -30,3 +30,12 @@ Manual odds are not required in the current phase. These rows are only kept for 
 - 2026-05-11 20:15 | Tondela vs Moreirense
 - 2026-05-11 20:00 | Tottenham vs Leeds
 - 2026-05-11 20:00 | Vallecano vs Girona
+- 2026-05-12 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers
+- 2026-05-12 22:05 | Louisville Bats vs Indianapolis Indians
+- 2026-05-13 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers
+- 2026-05-13 15:05 | Louisville Bats vs Indianapolis Indians
+- 2026-05-13 22:00 | Vila Nova FC GO vs Anapolis FC GO
+- 2026-05-14 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers
+- 2026-05-14 22:35 | Louisville Bats vs Indianapolis Indians
+- 2026-05-14 17:00 | Valencia CF vs Rayo Vallecano
+- 2026-05-15 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers

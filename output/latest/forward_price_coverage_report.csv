@@ -1,0 +1,4 @@
+prediction_id,match_date,home_team,away_team,league,has_any_automatic_price,has_fresh_api_price,has_odds_api_io_price,automatic_price_rows,fresh_api_price_rows,odds_api_io_price_rows,source_names
+450dc1ddc6eecf2c644e,2026-05-11,Napoli,Bologna,serie_a,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"
+7b65a9bf28de71b10d96,2026-05-11,Tottenham,Leeds,premier_league,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"
+3d5a5edc82ec8d726575,2026-05-11,Vallecano,Girona,la_liga,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"

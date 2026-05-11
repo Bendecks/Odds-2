@@ -1,0 +1,7 @@
+window_hours,runs,calls_used,avg_requests_per_hour_from_repo_runs
+1,1,4,4.0
+6,1,4,0.6667
+12,1,4,0.3333
+24,1,4,0.1667
+72,1,4,0.0556
+168,1,4,0.0238

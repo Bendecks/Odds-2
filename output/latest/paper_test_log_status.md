@@ -2,11 +2,21 @@
 
 Raw log rows: 16
 Valid forward/proxy log rows: 13
+Deduped forward/proxy observation rows: 4
+Duplicate forward/proxy log rows: 9
 Valid automatic proxy observation rows: 13
+Deduped automatic proxy observation rows: 4
 Invalid historical/proxy log rows excluded: 3
 Has valid forward log: True
 
-## Valid rows
+## Deduped valid rows
+
+- 2026-05-11 | Tottenham vs Leeds | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.1313
+- 2026-05-11 | Napoli vs Bologna | selection=draw | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.12610000000000002
+- 2026-05-11 | Vallecano vs Girona | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.1245
+- 2026-05-11 | Tottenham Hotspur vs Leeds United | selection=draw | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.1216
+
+## Raw valid rows
 
 - 2026-05-11 | Tottenham Hotspur vs Leeds United | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
 - 2026-05-11 | Tottenham Hotspur vs Leeds United | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation

@@ -4,7 +4,7 @@ Use this only for forward paper-testing. Do not use for real-money betting.
 Existing filled odds are preserved when fixtures refresh.
 Fill the three 1X2 odds columns from Bet365 before kickoff, then commit/update the CSV or run the workflow manually.
 
-Template rows: 11
+Template rows: 22
 Rows with complete odds: 0
 
 - 2026-05-11 20:15 | Benfica vs Sp Braga | bookmaker=bet365_manual
@@ -18,3 +18,14 @@ Rows with complete odds: 0
 - 2026-05-11 20:15 | Tondela vs Moreirense | bookmaker=bet365_manual
 - 2026-05-11 20:00 | Tottenham vs Leeds | bookmaker=bet365_manual
 - 2026-05-11 20:00 | Vallecano vs Girona | bookmaker=bet365_manual
+- 2026-05-12 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers | bookmaker=bet365_manual
+- 2026-05-12 22:05 | Louisville Bats vs Indianapolis Indians | bookmaker=bet365_manual
+- 2026-05-13 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers | bookmaker=bet365_manual
+- 2026-05-13 15:05 | Louisville Bats vs Indianapolis Indians | bookmaker=bet365_manual
+- 2026-05-13 22:00 | Vila Nova FC GO vs Anapolis FC GO | bookmaker=bet365_manual
+- 2026-05-14 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers | bookmaker=bet365_manual
+- 2026-05-14 22:35 | Louisville Bats vs Indianapolis Indians | bookmaker=bet365_manual
+- 2026-05-14 17:00 | Valencia CF vs Rayo Vallecano | bookmaker=bet365_manual
+- 2026-05-15 23:05 | Charleston Riverdogs vs Kannapolis Cannon Ballers | bookmaker=bet365_manual
+- 2026-05-15 23:15 | Louisville Bats vs Indianapolis Indians | bookmaker=bet365_manual
+- 2026-05-16 09:00 | Cagliari Calcio vs SSC Napoli | bookmaker=bet365_manual
