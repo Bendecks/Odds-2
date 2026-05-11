@@ -87,6 +87,9 @@ jobs:
       - name: Fetch odds-api.io forward prices
         run: python scripts/fetch_odds_api_io_forward_prices.py
 
+      - name: Filter odds-api.io forward price quality
+        run: python scripts/filter_odds_api_io_forward_prices_quality.py
+
       - name: Build automatic forward source diagnostics
         run: python scripts/build_automatic_forward_source_report.py
 
