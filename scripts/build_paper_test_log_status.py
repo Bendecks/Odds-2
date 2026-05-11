@@ -1,3 +1,4 @@
+import runpy
 from pathlib import Path
 
 import pandas as pd
@@ -82,5 +83,12 @@ if len(invalid):
         )
 
 (output_dir / 'paper_test_log_status.md').write_text('\n'.join(markdown), encoding='utf-8')
+
+quality_script = Path('scripts/build_proxy_observation_quality_report.py')
+if quality_script.exists():
+    try:
+        runpy.run_path(str(quality_script), run_name='__main__')
+    except Exception as exc:
+        print(f'Proxy observation quality report skipped: {exc!r}')
 
 print(summary)
