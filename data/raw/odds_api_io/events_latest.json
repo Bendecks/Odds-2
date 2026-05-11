@@ -1,26 +1,5 @@
 [
   {
-    "id": 71035564,
-    "home": "Kengold FC",
-    "away": "Geita Gold FC",
-    "homeId": 776284,
-    "awayId": 587903,
-    "date": "2026-04-27T13:00:00Z",
-    "sport": {
-      "name": "Football",
-      "slug": "football"
-    },
-    "league": {
-      "name": "Tanzania - Championship League",
-      "slug": "tanzania-championship-league"
-    },
-    "status": "pending",
-    "scores": {
-      "home": 0,
-      "away": 0
-    }
-  },
-  {
     "id": 70318488,
     "home": "Guapore  RO",
     "away": "Galvez EC AC",
@@ -56,7 +35,7 @@
       "name": "Japan - J.League",
       "slug": "japan-jleague"
     },
-    "status": "settled",
+    "status": "live",
     "scores": {
       "home": 5,
       "away": 6,
@@ -112,7 +91,7 @@
       "name": "Kazakhstan - Premier League",
       "slug": "kazakhstan-premier-league"
     },
-    "status": "settled",
+    "status": "live",
     "scores": {
       "home": 3,
       "away": 2,
@@ -143,7 +122,7 @@
       "name": "Chile - Segunda Division",
       "slug": "chile-segunda-division"
     },
-    "status": "pending",
+    "status": "settled",
     "scores": {
       "home": 0,
       "away": 1
@@ -164,7 +143,7 @@
       "name": "Brazil - Brasileiro Serie D",
       "slug": "brazil-brasileiro-serie-d"
     },
-    "status": "settled",
+    "status": "live",
     "scores": {
       "home": 5,
       "away": 1,
@@ -203,6 +182,37 @@
         "p1": {
           "home": 0,
           "away": 2
+        }
+      }
+    }
+  },
+  {
+    "id": 70035762,
+    "home": "Japan",
+    "away": "Republic of Korea",
+    "homeId": 36913,
+    "awayId": 36914,
+    "date": "2026-05-11T07:00:00Z",
+    "sport": {
+      "name": "Football",
+      "slug": "football"
+    },
+    "league": {
+      "name": "International Youth - U17 AFC Asian Cup, Women",
+      "slug": "international-youth-u17-afc-asian-cup-women"
+    },
+    "status": "settled",
+    "scores": {
+      "home": 1,
+      "away": 0,
+      "periods": {
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "p1": {
+          "home": 0,
+          "away": 0
         }
       }
     }
