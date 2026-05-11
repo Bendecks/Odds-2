@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T16:28:07.411720+00:00`
-GitHub run: `263` attempt `1`
-GitHub SHA: `51eafef1ece7d57e94ab45341a581e8d04cfdee4`
+Generated UTC: `2026-05-11T16:31:31.129325+00:00`
+GitHub run: `264` attempt `1`
+GitHub SHA: `b2fcbcc9d0c9f0b951f9a50d1c0b8d49f6c3f434`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -184,6 +184,29 @@ Real-money ready: False
 - 2026-05-11 | Napoli vs Bologna | selection=DRAW | source=football_data_bet365_proxy | odds=4.2 | prob=0.2843 | EV=0.19406 | edge=0.046205 | penalty=0.19406119406119404 | tier=suppressed_proxy_watchlist | score=0.095
 - 2026-05-11 | Vallecano vs Girona | selection=AWAY | source=football_data_max_market_proxy | odds=3.05 | prob=0.3376 | EV=0.02968 | edge=0.009731 | penalty=0.029679536644208415 | tier=suppressed_proxy_watchlist | score=0.0904
 - 2026-05-11 | Tottenham vs Leeds | selection=DRAW | source=football_data_bet365_proxy | odds=4.1 | prob=0.259 | EV=0.0619 | edge=0.015098 | penalty=0.06190191142344048 | tier=suppressed_proxy_watchlist | score=0.0889
+
+## proxy_candidate_explanations
+
+# Proxy Candidate Explanation Report
+Explains why proxy candidate observations are not promoted to real candidate bets.
+This report is paper/proxy-only and never real-money ready.
+Proxy candidate rows: 4
+Explained rows: 4
+Distinct blockers: 6
+Top blocker: probability_or_league_rule_suppressed
+Real-money ready: False
+## Blocker summary
+- probability_or_league_rule_suppressed: 4
+- low_probability_band_under_0_35: 4
+- delayed_football_data_proxy_not_fresh_api_price: 4
+- ev_above_real_candidate_cap_possible_overconfidence: 2
+- market_alignment_penalty_too_high_for_real_candidate: 2
+- edge_below_candidate_threshold: 2
+## Row explanations
+- 2026-05-11 | Tottenham vs Leeds | sel=AWAY | score=0.1 | blockers=probability_or_league_rule_suppressed; low_probability_band_under_0_35; ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate; delayed_football_data_proxy_not_fresh_api_price | improve=collect settled forward results before trusting low-probability selections; calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration; prefer odds-api.io/API-Football fresh price where available
+- 2026-05-11 | Napoli vs Bologna | sel=DRAW | score=0.095 | blockers=probability_or_league_rule_suppressed; low_probability_band_under_0_35; ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate; delayed_football_data_proxy_not_fresh_api_price | improve=collect settled forward results before trusting low-probability selections; calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration; prefer odds-api.io/API-Football fresh price where available
+- 2026-05-11 | Vallecano vs Girona | sel=AWAY | score=0.0904 | blockers=probability_or_league_rule_suppressed; low_probability_band_under_0_35; edge_below_candidate_threshold; delayed_football_data_proxy_not_fresh_api_price | improve=collect settled forward results before trusting low-probability selections; needs stronger model-vs-market edge; prefer odds-api.io/API-Football fresh price where available
+- 2026-05-11 | Tottenham vs Leeds | sel=DRAW | score=0.0889 | blockers=probability_or_league_rule_suppressed; low_probability_band_under_0_35; edge_below_candidate_threshold; delayed_football_data_proxy_not_fresh_api_price | improve=collect settled forward results before trusting low-probability selections; needs stronger model-vs-market edge; prefer odds-api.io/API-Football fresh price where available
 
 ## proxy_observation_quality
 
