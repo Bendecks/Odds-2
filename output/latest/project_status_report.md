@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T03:34:48.293005+00:00`
-GitHub run: `181` attempt `1`
-GitHub SHA: `ed28c83aafebd2981ac855966a5838093ae8577f`
+Generated UTC: `2026-05-11T04:01:38.693425+00:00`
+GitHub run: `182` attempt `1`
+GitHub SHA: `d46e1df76e2650a24dd508e61870d0068fbbb8f3`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -27,7 +27,9 @@ Overall status: `OK`
 | CLV results output | True | 210 |  |  |
 | Candidate bets output | True | 0 |  |  |
 | Paper test picks output | True | 0 |  |  |
-| Paper test log output | True | 0 |  |  |
+| Valid forward paper test log | True | 0 |  |  |
+| Invalid paper test log rows | True | 3 |  |  |
+| Paper test log status | True | 1 |  |  |
 | CLV band diagnostics | True | 4 |  |  |
 | Signal suppression rules | True | 2 |  |  |
 | Rule action summary | True | 2 |  |  |
@@ -57,8 +59,10 @@ Fixtures found: 1
 
 # Manual Odds Template
 Use this only for forward paper-testing. Do not use for real-money betting.
-Fill the three 1X2 odds columns from Bet365 before kickoff, then commit/update the CSV if paper-testing manually.
+Existing filled odds are preserved when fixtures refresh.
+Fill the three 1X2 odds columns from Bet365 before kickoff, then commit/update the CSV or run the workflow manually.
 Template rows: 1
+Rows with complete odds: 0
 - 2026-05-11 19:00:00 | Tottenham Hotspur vs Leeds United | bookmaker=bet365_manual
 
 ## manual_forward_snapshots
@@ -67,6 +71,18 @@ Template rows: 1
 Built from manually captured pre-match odds. Observation-only; not real-money recommendations.
 Forward snapshot rows: 0
 No manual forward snapshots built. Fill data/manual/manual_odds_template.csv with pre-match 1X2 odds first.
+
+## paper_test_log_status
+
+# Paper Test Log Status
+Raw log rows: 3
+Valid forward log rows: 0
+Invalid historical/proxy log rows excluded: 3
+Has valid forward log: False
+## Invalid rows excluded
+- 25/05/2025 | Liverpool vs Crystal Palace | phase=historical_proxy_research
+- 25/05/2025 | Fulham vs Man City | phase=historical_proxy_research
+- 25/05/2025 | Southampton vs Arsenal | phase=historical_proxy_research
 
 ## betting_performance
 
