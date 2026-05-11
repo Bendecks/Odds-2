@@ -9,6 +9,7 @@ config_dir = Path('data/config')
 config_dir.mkdir(parents=True, exist_ok=True)
 
 fixtures_path = output_dir / 'upcoming_fixtures.csv'
+football_data_proxy_path = output_dir / 'football_data_upcoming_odds.csv'
 market_snapshot_path = output_dir / 'market_snapshot_latest.csv'
 manual_forward_path = output_dir / 'manual_forward_snapshots.csv'
 ratings_path = model_dir / 'team_strengths.csv'
@@ -44,6 +45,7 @@ def norm(value) -> str:
 
 
 fixtures = safe_read_csv(fixtures_path)
+football_data_proxy = safe_read_csv(football_data_proxy_path)
 market_snapshot = safe_read_csv(market_snapshot_path)
 manual_forward = safe_read_csv(manual_forward_path)
 ratings = safe_read_csv(ratings_path)
@@ -62,12 +64,12 @@ if source_config_path.exists():
 else:
     sources = pd.DataFrame([
         {
-            'source_name': 'none_configured',
-            'source_type': 'placeholder',
-            'enabled': False,
+            'source_name': 'football_data_fixtures_proxy',
+            'source_type': 'delayed_market_proxy',
+            'enabled': True,
             'requires_key': False,
-            'status': 'not_configured',
-            'notes': 'Add free automatic forward price sources here when identified.',
+            'status': 'enabled_proxy',
+            'notes': 'Free Football-Data fixtures odds proxy. Delayed/non-live; paper-test only.',
         }
     ])
 
@@ -75,9 +77,30 @@ for col in source_columns:
     if col not in sources.columns:
         sources[col] = None
 sources = sources[source_columns]
+
+if not (sources['source_name'].astype(str) == 'football_data_fixtures_proxy').any():
+    sources = pd.concat([
+        sources,
+        pd.DataFrame([{
+            'source_name': 'football_data_fixtures_proxy',
+            'source_type': 'delayed_market_proxy',
+            'enabled': True,
+            'requires_key': False,
+            'status': 'enabled_proxy',
+            'notes': 'Free Football-Data fixtures odds proxy. Delayed/non-live; paper-test only.',
+        }])
+    ], ignore_index=True)
+
 sources.to_csv(source_config_path, index=False)
 
-prices = pd.DataFrame(columns=price_columns)
+if len(football_data_proxy):
+    prices = football_data_proxy.copy()
+else:
+    prices = pd.DataFrame(columns=price_columns)
+for col in price_columns:
+    if col not in prices.columns:
+        prices[col] = None
+prices = prices[price_columns]
 prices.to_csv(automatic_prices_path, index=False)
 
 # Fixture-to-model team matching diagnostics.
@@ -131,15 +154,13 @@ match_report.to_csv(output_dir / 'fixture_model_match_report.csv', index=False)
 
 matched_team_rows = int(match_report['matched_model_team'].notna().sum()) if len(match_report) else 0
 unmatched_team_rows = int(match_report['matched_model_team'].isna().sum()) if len(match_report) else 0
-suggested_alias_rows = int((match_report['match_type'] == 'suggested_alias_needed').sum()) if len(match_report) else 0
 ready_for_model_fixture_join = bool(len(match_report) > 0 and unmatched_team_rows == 0)
-
 match_summary = {
     'fixture_rows': int(len(fixtures)),
     'team_rows_checked': int(len(match_report)),
     'matched_team_rows': matched_team_rows,
     'unmatched_team_rows': unmatched_team_rows,
-    'suggested_alias_rows': suggested_alias_rows,
+    'suggested_alias_rows': int((match_report['match_type'] == 'suggested_alias_needed').sum()) if len(match_report) else 0,
     'ready_for_model_fixture_join': ready_for_model_fixture_join,
 }
 pd.DataFrame([match_summary]).to_csv(output_dir / 'fixture_model_match_summary.csv', index=False)
@@ -165,9 +186,9 @@ elif not ready_for_model_fixture_join:
     blocker = 'fixture_model_team_matching_incomplete'
     next_development_step = 'add_team_aliases_for_upcoming_fixtures'
 elif has_automatic_forward_odds:
-    status = 'automatic_forward_ready'
-    blocker = 'none'
-    next_development_step = 'evaluate_forward_pick_filters'
+    status = 'automatic_forward_proxy_available'
+    blocker = 'none_for_proxy_testing'
+    next_development_step = 'evaluate_proxy_value_snapshots_and_paper_filters'
 elif has_manual_forward:
     status = 'manual_forward_available_but_optional'
     blocker = 'automatic_forward_source_still_missing'
@@ -181,7 +202,7 @@ adapter_summary = {
     'configured_sources': int(len(sources)),
     'enabled_sources': enabled_sources,
     'automatic_price_rows': int(len(prices)),
-    'adapter_status': 'ready_no_sources_enabled' if enabled_sources == 0 else 'sources_configured_no_prices',
+    'adapter_status': 'proxy_prices_available' if len(prices) else 'ready_no_proxy_prices_available',
 }
 pd.DataFrame([adapter_summary]).to_csv(adapter_status_path, index=False)
 
@@ -210,14 +231,14 @@ markdown = [
     '# Automatic Forward Source Report',
     '',
     'Purpose: distinguish true automatic forward inputs from historical market proxy and paused manual fallback.',
-    'Manual odds are optional fallback only and are not treated as a blocker in this development phase.',
+    'Football-Data fixture odds are treated as delayed/free proxy prices: paper-test only, never real-money ready.',
     '',
     f"Upcoming fixture rows: {summary['upcoming_fixture_rows']}",
     f"Fixture team rows checked: {summary['fixture_team_rows_checked']}",
     f"Fixture team rows unmatched: {summary['fixture_team_rows_unmatched']}",
     f"Ready for model-fixture join: {summary['ready_for_model_fixture_join']}",
-    f"Historical market proxy rows: {summary['historical_market_proxy_rows']}",
     f"Configured forward sources: {summary['configured_forward_sources']}",
+    f"Enabled forward sources: {summary['enabled_forward_sources']}",
     f"Automatic forward price rows: {summary['automatic_forward_price_rows']}",
     f"Automatic forward status: {summary['automatic_forward_status']}",
     f"Blocker: {summary['blocker']}",
@@ -238,8 +259,8 @@ else:
     markdown.append('No fixture rows available for team matching.')
 
 markdown.extend(['', '## Interpretation', ''])
-if status == 'automatic_forward_ready':
-    markdown.append('The system has an automatic forward source available.')
+if status == 'automatic_forward_proxy_available':
+    markdown.append('Automatic delayed proxy prices are available. Use only for paper-test/proxy observation, not real money.')
 elif has_upcoming_fixtures and ready_for_model_fixture_join:
     markdown.append('Fixtures and model matching are available, but there is no automatic forward price source yet.')
 elif has_upcoming_fixtures:
