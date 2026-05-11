@@ -22,6 +22,32 @@ def safe_read_csv(path: Path) -> pd.DataFrame:
         return pd.DataFrame()
 
 
+def safe_int(value, default: int = 0) -> int:
+    parsed = pd.to_numeric(value, errors='coerce')
+    if pd.isna(parsed):
+        return default
+    try:
+        return int(parsed)
+    except Exception:
+        return default
+
+
+def safe_value(*values):
+    for value in values:
+        if value is None:
+            continue
+        try:
+            if pd.isna(value):
+                continue
+        except Exception:
+            pass
+        text = str(value)
+        if text.lower() in {'nan', 'none', ''}:
+            continue
+        return value
+    return None
+
+
 status = safe_read_csv(status_path)
 headers = safe_read_csv(headers_path)
 log = safe_read_csv(usage_log_path)
@@ -43,24 +69,24 @@ if len(status):
         'github_run_id': run_id,
         'github_sha': sha,
         'enabled': row.get('enabled'),
-        'calls_used': int(pd.to_numeric(row.get('calls_used'), errors='coerce') or 0),
-        'max_calls': int(pd.to_numeric(row.get('max_calls'), errors='coerce') or 0),
-        'max_events': int(pd.to_numeric(row.get('max_events'), errors='coerce') or 0),
-        'max_price_events': int(pd.to_numeric(row.get('max_price_events'), errors='coerce') or 0),
+        'calls_used': safe_int(row.get('calls_used')),
+        'max_calls': safe_int(row.get('max_calls')),
+        'max_events': safe_int(row.get('max_events')),
+        'max_price_events': safe_int(row.get('max_price_events')),
         'discovery_mode': row.get('discovery_mode'),
         'query_source': row.get('query_source'),
         'search_queries_used': row.get('search_queries_used'),
-        'selected_event_rows': int(pd.to_numeric(row.get('selected_event_rows'), errors='coerce') or 0),
-        'priced_event_rows': int(pd.to_numeric(row.get('priced_event_rows'), errors='coerce') or 0),
-        'price_rows': int(pd.to_numeric(row.get('price_rows'), errors='coerce') or 0),
-        'errors': int(pd.to_numeric(row.get('errors'), errors='coerce') or 0),
+        'selected_event_rows': safe_int(row.get('selected_event_rows')),
+        'priced_event_rows': safe_int(row.get('priced_event_rows')),
+        'price_rows': safe_int(row.get('price_rows')),
+        'errors': safe_int(row.get('errors')),
         'odds_endpoint_mode': row.get('odds_endpoint_mode'),
         'selected_bookmakers': row.get('selected_bookmakers'),
         'selected_markets': row.get('selected_markets'),
-        'provider_rate_limit_limit': row.get('latest_rate_limit_limit') or latest_header.get('x_ratelimit_limit'),
-        'provider_rate_limit_remaining': row.get('latest_rate_limit_remaining') or latest_header.get('x_ratelimit_remaining'),
-        'provider_rate_limit_reset': row.get('latest_rate_limit_reset') or latest_header.get('x_ratelimit_reset'),
-        'provider_retry_after': row.get('latest_retry_after') or latest_header.get('retry_after'),
+        'provider_rate_limit_limit': safe_value(row.get('latest_rate_limit_limit'), latest_header.get('x_ratelimit_limit')),
+        'provider_rate_limit_remaining': safe_value(row.get('latest_rate_limit_remaining'), latest_header.get('x_ratelimit_remaining')),
+        'provider_rate_limit_reset': safe_value(row.get('latest_rate_limit_reset'), latest_header.get('x_ratelimit_reset')),
+        'provider_retry_after': safe_value(row.get('latest_retry_after'), latest_header.get('retry_after')),
     }
 
 if new_row is not None:
@@ -87,7 +113,7 @@ if len(log):
     log['calls_used'] = pd.to_numeric(log['calls_used'], errors='coerce').fillna(0)
     log = log.dropna(subset=['recorded_at_utc_parsed']).sort_values('recorded_at_utc_parsed')
 else:
-    log['recorded_at_utc_parsed'] = []
+    log = pd.DataFrame(columns=['recorded_at_utc_parsed', 'calls_used'])
 
 export_log = log.drop(columns=['recorded_at_utc_parsed'], errors='ignore')
 export_log.to_csv(usage_log_path, index=False)
@@ -113,12 +139,12 @@ for hours in windows:
 summary_df = pd.DataFrame(summary_rows)
 summary_df.to_csv(output_dir / 'odds_api_io_usage_summary.csv', index=False)
 
-latest_calls = int(new_row['calls_used']) if new_row is not None else 0
-latest_max_calls = int(new_row['max_calls']) if new_row is not None else 0
+latest_calls = safe_int(new_row.get('calls_used') if new_row is not None else None)
+latest_max_calls = safe_int(new_row.get('max_calls') if new_row is not None else None)
 latest_endpoint_mode = new_row.get('odds_endpoint_mode') if new_row is not None else None
 latest_queries = new_row.get('search_queries_used') if new_row is not None else None
-latest_priced = int(new_row['priced_event_rows']) if new_row is not None else 0
-latest_errors = int(new_row['errors']) if new_row is not None else 0
+latest_priced = safe_int(new_row.get('priced_event_rows') if new_row is not None else None)
+latest_errors = safe_int(new_row.get('errors') if new_row is not None else None)
 provider_limit = new_row.get('provider_rate_limit_limit') if new_row is not None else None
 provider_remaining = new_row.get('provider_rate_limit_remaining') if new_row is not None else None
 provider_reset = new_row.get('provider_rate_limit_reset') if new_row is not None else None
@@ -126,7 +152,9 @@ provider_retry_after = new_row.get('provider_retry_after') if new_row is not Non
 
 remaining_ratio = None
 try:
-    remaining_ratio = round(float(provider_remaining) / float(provider_limit), 6) if provider_limit and float(provider_limit) > 0 else None
+    limit_num = float(provider_limit)
+    remaining_num = float(provider_remaining)
+    remaining_ratio = round(remaining_num / limit_num, 6) if limit_num > 0 else None
 except Exception:
     remaining_ratio = None
 
