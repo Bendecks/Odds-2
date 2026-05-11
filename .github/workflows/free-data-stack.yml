@@ -132,6 +132,9 @@ jobs:
       - name: Build forward price coverage report
         run: python scripts/build_forward_price_coverage_report.py
 
+      - name: Build odds-api.io usage report
+        run: python scripts/build_odds_api_io_usage_report.py
+
       - name: Build paper test picks
         run: python scripts/build_paper_test_picks.py
 
