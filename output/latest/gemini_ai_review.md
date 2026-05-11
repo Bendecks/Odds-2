@@ -2,17 +2,15 @@
 
 Model used: `gemini-2.0-flash`
 
-```markdown
-1. **Current system status:** Paper-tracking ready, but blocked on automatic forward price source. Historical proxy data is available for research, but not for forward validation. Negative CLV signal detected.
-2. **Biggest weakness:** Lack of automatic forward price source, hindering true forward paper-testing.
-3. **Best next development step:** Replace historical market proxy with a live, automatic forward price source.
-4. **Readiness:** observe-only
-5. **One concrete change to prioritize next:** Implement an automatic forward price source.
-6. **Suppression rules:** Reasonable
-7. **Probability calibration layer:** Reasonable
-8. **Paper-test pick filter:** Too strict
-9. **Probability band to monitor next:** 0.35-0.45
-10. **Calibration impact:** Left unchanged
-11. **Blocking true forward paper-testing:** Model matching
-12. **Manual odds instructions:** Sufficient
-```
+1.  Current system status: Paper-tracking ready, but blocked on fixture/model team matching for automatic forward testing. Negative CLV signal detected.
+2.  Biggest weakness: Fixture/model team matching preventing automatic forward testing and negative CLV.
+3.  Best next development step: Add team aliases for upcoming fixtures to enable automatic forward testing.
+4.  Readiness: observe-only
+5.  One concrete change to prioritize next: Add team aliases for upcoming fixtures.
+6.  Whether the current suppression rules look too strict, too loose, or reasonable: Reasonable
+7.  Whether the probability calibration layer looks too aggressive, too weak, or reasonable: Reasonable
+8.  Whether the paper-test pick filter is too strict, too loose, or reasonable: Reasonable
+9.  Which probability band should be protected, suppressed, or monitored next: Monitor 0.35-0.45
+10. Whether calibration impact should be increased, reduced, or left unchanged: Left unchanged
+11. What is blocking true forward paper-testing right now: model matching
+12. Whether the manual odds instructions are sufficient for the next human action: Yes
