@@ -17,6 +17,14 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 
 ## Current rows needing odds
 
+- 2026-05-09 17:00 | Besiktas Istanbul vs Trabzonspor
+- 2026-05-09 17:00 | Eyupspor vs Caykur Rizespor
+- 2026-05-09 17:00 | Galatasaray Istanbul vs Antalyaspor
+- 2026-05-09 17:00 | Genclerbirligi SK vs Kasimpasa Istanbul
+- 2026-05-09 17:00 | Goztepe Izmir vs Gaziantep FK
+- 2026-05-09 17:00 | Istanbul Basaksehir vs Samsunspor
+- 2026-05-09 17:00 | Kocaelispor vs Fatih Karagumruk Istanbul
+- 2026-05-09 17:00 | Konyaspor vs Fenerbahce Istanbul
 - 2026-05-11 20:15 | Benfica vs Sp Braga
 - 2026-05-11 20:15 | Estrela vs Famalicao
 - 2026-05-11 20:15 | Gil Vicente vs Arouca

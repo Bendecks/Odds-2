@@ -3,10 +3,10 @@
 Manual Bet365 odds input is parked as an optional fallback. It is not an active development blocker.
 Current priority: automatic/free-data forward-testing sources and robust fixture/model matching.
 
-Upcoming fixtures: 11
-Manual template rows: 11
+Upcoming fixtures: 19
+Manual template rows: 19
 Rows with complete manual odds: 0
-Rows missing manual odds: 11
+Rows missing manual odds: 19
 Manual forward snapshot rows: 0
 Manual odds mode: optional_fallback_paused
 Manual odds is blocker: False
@@ -19,6 +19,14 @@ Upcoming fixtures exist, but no automatic odds/proxy forward snapshot source is 
 ## Optional manual fallback status
 
 Manual odds are not required in the current phase. These rows are only kept for later fallback use:
+- 2026-05-09 17:00 | Besiktas Istanbul vs Trabzonspor
+- 2026-05-09 17:00 | Eyupspor vs Caykur Rizespor
+- 2026-05-09 17:00 | Galatasaray Istanbul vs Antalyaspor
+- 2026-05-09 17:00 | Genclerbirligi SK vs Kasimpasa Istanbul
+- 2026-05-09 17:00 | Goztepe Izmir vs Gaziantep FK
+- 2026-05-09 17:00 | Istanbul Basaksehir vs Samsunspor
+- 2026-05-09 17:00 | Kocaelispor vs Fatih Karagumruk Istanbul
+- 2026-05-09 17:00 | Konyaspor vs Fenerbahce Istanbul
 - 2026-05-11 20:15 | Benfica vs Sp Braga
 - 2026-05-11 20:15 | Estrela vs Famalicao
 - 2026-05-11 20:15 | Gil Vicente vs Arouca

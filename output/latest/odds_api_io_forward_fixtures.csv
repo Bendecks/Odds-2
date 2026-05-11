@@ -1,2 +1,9 @@
 fixture_id,league,league_id,season,match_date,match_time,home_team,away_team,source,fetched_at_utc,event_status
-odds_api_io_61301243,england-premier-league,england-premier-league,upcoming,2026-05-11,19:00,Tottenham Hotspur,Leeds United,odds_api_io_events_search,2026-05-11T16:36:14.497054+00:00,pending
+odds_api_io_61730220,turkiye-super-lig,turkiye-super-lig,upcoming,2026-05-09,17:00,Eyupspor,Caykur Rizespor,odds_api_io_events,2026-05-11T17:08:16.735732+00:00,settled
+odds_api_io_61730222,turkiye-super-lig,turkiye-super-lig,upcoming,2026-05-09,17:00,Genclerbirligi SK,Kasimpasa Istanbul,odds_api_io_events,2026-05-11T17:08:16.735732+00:00,settled
+odds_api_io_61730224,turkiye-super-lig,turkiye-super-lig,upcoming,2026-05-09,17:00,Galatasaray Istanbul,Antalyaspor,odds_api_io_events,2026-05-11T17:08:16.735732+00:00,settled
+odds_api_io_61730226,turkiye-super-lig,turkiye-super-lig,upcoming,2026-05-09,17:00,Besiktas Istanbul,Trabzonspor,odds_api_io_events,2026-05-11T17:08:16.735732+00:00,settled
+odds_api_io_61730228,turkiye-super-lig,turkiye-super-lig,upcoming,2026-05-09,17:00,Istanbul Basaksehir,Samsunspor,odds_api_io_events,2026-05-11T17:08:16.735732+00:00,settled
+odds_api_io_61730230,turkiye-super-lig,turkiye-super-lig,upcoming,2026-05-09,17:00,Kocaelispor,Fatih Karagumruk Istanbul,odds_api_io_events,2026-05-11T17:08:16.735732+00:00,settled
+odds_api_io_61730232,turkiye-super-lig,turkiye-super-lig,upcoming,2026-05-09,17:00,Goztepe Izmir,Gaziantep FK,odds_api_io_events,2026-05-11T17:08:16.735732+00:00,settled
+odds_api_io_61730234,turkiye-super-lig,turkiye-super-lig,upcoming,2026-05-09,17:00,Konyaspor,Fenerbahce Istanbul,odds_api_io_events,2026-05-11T17:08:16.735732+00:00,settled
