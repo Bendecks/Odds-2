@@ -1,2 +1,2 @@
 generated_at_utc,github_run_number,github_run_id,github_run_attempt,github_sha,github_event_name,github_ref,scheduled_monitoring_enabled,schedule,expected_frequency_hours
-2026-05-11T17:22:53.808314+00:00,270,25685839278,1,2d600e8e3a54c1b7eeeef71e972de1133d5c1d30,push,main,True,0 */12 * * *,12
+2026-05-11T17:31:39.750107+00:00,271,25686299221,1,f19920db0e433d249672fc5965802428cfda6e69,workflow_dispatch,main,True,0 */12 * * *,12
