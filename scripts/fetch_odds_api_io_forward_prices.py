@@ -104,11 +104,11 @@ else:
         events_url = f"{base_url}/events?" + urllib.parse.urlencode({
             'apiKey': api_key,
             'sport': 'football',
+            'limit': max_events,
         })
         events_payload = get_json(events_url, 'events')
         events = event_items(events_payload)[:max_events]
 
-        event_ids = []
         event_meta = {}
         for event in events:
             event_id = event.get('id') or event.get('eventId') or event.get('event_id')
@@ -123,9 +123,9 @@ else:
             if isinstance(event.get('league'), dict):
                 league = event['league'].get('slug') or event['league'].get('name')
             league = league or event.get('league') or 'football'
-            event_ids.append(event_id)
             event_meta[event_id] = {
                 'fixture_id': f'odds_api_io_{event_id}',
+                'raw_event_id': event_id,
                 'league': league,
                 'league_id': league,
                 'season': 'upcoming',
@@ -138,24 +138,19 @@ else:
             }
         fixture_rows = [meta for meta in event_meta.values() if meta.get('home_team') and meta.get('away_team')]
 
-        if event_ids and calls_used < max_calls:
+        # Use documented single-event endpoint. With max_calls=2 this means one events call + one odds call.
+        if fixture_rows and calls_used < max_calls:
             try:
+                meta = fixture_rows[0]
                 params = {
                     'apiKey': api_key,
-                    'eventIds': ','.join(event_ids[:10]),
+                    'eventId': meta['raw_event_id'],
                     'bookmakers': bookmakers,
                 }
-                multi_url = f"{base_url}/odds/multi?" + urllib.parse.urlencode(params)
-                odds_payload = get_json(multi_url, 'odds')
-                odds_items = odds_payload if isinstance(odds_payload, list) else odds_payload.get('data') or odds_payload.get('events') or []
-                for item in odds_items:
-                    event_id = str(item.get('id') or item.get('eventId') or item.get('event_id'))
-                    meta = event_meta.get(event_id, {})
-                    if not meta:
-                        continue
-                    home_odds, draw_odds, away_odds = extract_three_way_odds(item)
-                    if not home_odds:
-                        continue
+                odds_url = f"{base_url}/odds?" + urllib.parse.urlencode(params)
+                odds_payload = get_json(odds_url, f"odds_{meta['raw_event_id']}")
+                home_odds, draw_odds, away_odds = extract_three_way_odds(odds_payload)
+                if home_odds:
                     rows.append({
                         'fixture_id': meta.get('fixture_id'),
                         'match_date': meta.get('match_date'),
@@ -163,15 +158,17 @@ else:
                         'home_team': meta.get('home_team'),
                         'away_team': meta.get('away_team'),
                         'league': meta.get('league'),
-                        'source_name': 'odds_api_io_multi_proxy',
+                        'source_name': 'odds_api_io_single_event_proxy',
                         'source_type': 'free_api_market_proxy',
                         'market_home_odds': round(home_odds, 4),
                         'market_draw_odds': round(draw_odds, 4),
                         'market_away_odds': round(away_odds, 4),
                         'price_captured_at_utc': fetched_at,
-                        'source_quality': 'free_api_market_proxy_capped_calls',
-                        'raw_source_url': 'https://api.odds-api.io/v3/odds/multi',
+                        'source_quality': 'free_api_market_proxy_capped_single_event_call',
+                        'raw_source_url': 'https://api.odds-api.io/v3/odds',
                     })
+                else:
+                    errors.append({'stage': 'odds_parse', 'error': 'No 1X2 odds found in single-event odds response'})
             except Exception as exc:
                 errors.append({'stage': 'odds_request_or_parse', 'error': repr(exc)})
     except Exception as exc:
@@ -203,6 +200,7 @@ summary = {
     'errors': int(len(errors)),
     'bookmakers_param_mode': 'explicit_selected_bookmakers',
     'bookmakers_requested': bookmakers,
+    'odds_endpoint_mode': 'single_event_documented_endpoint',
     'source_quality': 'free_api_market_proxy_capped_calls',
 }
 pd.DataFrame([summary]).to_csv(output_dir / 'odds_api_io_forward_price_status.csv', index=False)
@@ -211,6 +209,7 @@ markdown = [
     '# odds-api.io Forward Price Fetch',
     '',
     'Cautious optional API source. Hard-capped by ODDS_API_IO_MAX_CALLS and ODDS_API_IO_MAX_EVENTS.',
+    'Uses the documented single-event /v3/odds endpoint: one events call plus one odds call by default.',
     'Not real-money ready until validated against forward results and other sources.',
     '',
     f"Enabled: {summary['enabled']}",
@@ -218,6 +217,7 @@ markdown = [
     f"Max events: {summary['max_events']}",
     f"Bookmakers parameter mode: {summary['bookmakers_param_mode']}",
     f"Bookmakers requested: {summary['bookmakers_requested']}",
+    f"Odds endpoint mode: {summary['odds_endpoint_mode']}",
     f"Fixture rows: {summary['fixture_rows']}",
     f"Price rows: {summary['price_rows']}",
     f"Errors: {summary['errors']}",
