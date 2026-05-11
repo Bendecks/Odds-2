@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T14:49:16.017813+00:00`
-GitHub run: `256` attempt `1`
-GitHub SHA: `b14d7e5373eca64b45480a834d276246f1d4a0b2`
+Generated UTC: `2026-05-11T14:53:34.221704+00:00`
+GitHub run: `257` attempt `1`
+GitHub SHA: `6688857c65e4c9d34231ce011d7071c71ee50279`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -17,8 +17,8 @@ Overall status: `OK`
 | Football-Data upcoming fixtures proxy | True | 11 |  |  |
 | Football-Data upcoming odds proxy | True | 33 |  |  |
 | Football-Data upcoming odds status | True | 1 |  |  |
-| odds-api.io forward prices | True | 0 |  |  |
-| odds-api.io forward fixtures | True | 8 |  |  |
+| odds-api.io forward prices | True | 1 |  |  |
+| odds-api.io forward fixtures | True | 1 |  |  |
 | odds-api.io forward price status | True | 1 |  |  |
 | API-Football forward prices | True | 0 |  |  |
 | API-Football forward fixtures | True | 0 |  |  |
@@ -28,7 +28,7 @@ Overall status: `OK`
 | Automatic forward value match diagnostics | True | 3 |  |  |
 | Proxy observation quality report | True | 1 |  |  |
 | Proxy observation by selection | True | 2 |  |  |
-| Upcoming fixtures | True | 19 |  |  |
+| Upcoming fixtures | True | 11 |  |  |
 | Forward fixture results | True | 1 |  |  |
 | Forward fixture result status | True | 1 |  |  |
 | Forward probability calibration report | True | 1 |  |  |
@@ -166,6 +166,27 @@ Positive EV rows: 13
 - 2026-05-11 | Vallecano vs Girona | sel=HOME | src=football_data_bet365_proxy | odds=2.3 | prob=0.3833 | EV=-0.11841 | match=1.0
 - 2026-05-11 | Vallecano vs Girona | sel=HOME | src=football_data_average_market_proxy | odds=2.3 | prob=0.3833 | EV=-0.11841 | match=1.0
 - 2026-05-11 | Tottenham vs Leeds | sel=HOME | src=football_data_max_market_proxy | odds=1.86 | prob=0.4257 | EV=-0.208198 | match=1.0
+
+## proxy_candidate_observations
+
+# Proxy Candidate Observations
+Intermediate layer between paper-test picks and real candidate bets.
+These rows are proxy/paper observations only and must not be treated as real-money candidates.
+Automatic value rows: 27
+Proxy candidate observation rows: 10
+Proxy candidate-like rows: 0
+Suppressed proxy watchlist rows: 10
+Real-money ready: False
+- 2026-05-11 | Tottenham vs Leeds | selection=AWAY | source=football_data_max_market_proxy | odds=4.1 | prob=0.3152 | EV=0.29232 | edge=0.071298 | penalty=0.29232232618018705 | tier=suppressed_proxy_watchlist | score=0.1
+- 2026-05-11 | Tottenham vs Leeds | selection=AWAY | source=football_data_average_market_proxy | odds=3.92 | prob=0.3152 | EV=0.235584 | edge=0.060098 | penalty=0.2355841976934716 | tier=suppressed_proxy_watchlist | score=0.0979
+- 2026-05-11 | Tottenham vs Leeds | selection=AWAY | source=football_data_bet365_proxy | odds=3.75 | prob=0.3152 | EV=0.182 | edge=0.048533 | penalty=0.18199852250184678 | tier=suppressed_proxy_watchlist | score=0.0959
+- 2026-05-11 | Napoli vs Bologna | selection=DRAW | source=football_data_bet365_proxy | odds=4.2 | prob=0.2843 | EV=0.19406 | edge=0.046205 | penalty=0.19406119406119404 | tier=suppressed_proxy_watchlist | score=0.095
+- 2026-05-11 | Napoli vs Bologna | selection=DRAW | source=football_data_max_market_proxy | odds=4.2 | prob=0.2843 | EV=0.19406 | edge=0.046205 | penalty=0.19406119406119404 | tier=suppressed_proxy_watchlist | score=0.095
+- 2026-05-11 | Napoli vs Bologna | selection=DRAW | source=football_data_average_market_proxy | odds=4.01 | prob=0.2843 | EV=0.140043 | edge=0.034923 | penalty=0.14004098212746174 | tier=suppressed_proxy_watchlist | score=0.0929
+- 2026-05-11 | Vallecano vs Girona | selection=AWAY | source=football_data_max_market_proxy | odds=3.05 | prob=0.3376 | EV=0.02968 | edge=0.009731 | penalty=0.029679536644208415 | tier=suppressed_proxy_watchlist | score=0.0904
+- 2026-05-11 | Vallecano vs Girona | selection=AWAY | source=football_data_bet365_proxy | odds=3.0 | prob=0.3376 | EV=0.0128 | edge=0.004267 | penalty=0.012801012801012757 | tier=suppressed_proxy_watchlist | score=0.0896
+- 2026-05-11 | Tottenham vs Leeds | selection=DRAW | source=football_data_max_market_proxy | odds=4.1 | prob=0.259 | EV=0.0619 | edge=0.015098 | penalty=0.06190191142344048 | tier=suppressed_proxy_watchlist | score=0.0889
+- 2026-05-11 | Tottenham vs Leeds | selection=DRAW | source=football_data_bet365_proxy | odds=4.1 | prob=0.259 | EV=0.0619 | edge=0.015098 | penalty=0.06190191142344048 | tier=suppressed_proxy_watchlist | score=0.0889
 
 ## proxy_observation_quality
 
