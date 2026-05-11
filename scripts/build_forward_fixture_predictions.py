@@ -1,4 +1,5 @@
 import hashlib
+import os
 import runpy
 from pathlib import Path
 
@@ -14,11 +15,15 @@ match_report_path = output_dir / 'fixture_model_match_report.csv'
 team_strength_path = model_dir / 'team_strengths.parquet'
 historical_path = raw_dir / 'premier_league_2425.parquet'
 
+max_forward_predictions = int(os.getenv('FORWARD_FIXTURE_MAX_PREDICTIONS', '80'))
+include_baseline_unmatched = os.getenv('FORWARD_FIXTURE_INCLUDE_BASELINE_UNMATCHED', 'true').lower() == 'true'
+
 expected_columns = [
     'prediction_id', 'fixture_id', 'match_date', 'match_time', 'home_team', 'away_team',
     'league', 'sample_phase', 'expected_home_goals', 'expected_away_goals',
     'home_win_probability', 'draw_probability', 'away_win_probability',
     'fair_home_odds', 'fair_draw_odds', 'fair_away_odds', 'model_source',
+    'model_coverage', 'home_model_team', 'away_model_team',
 ]
 
 
@@ -56,6 +61,54 @@ def calibrate_three_way_probabilities(home_win: float, draw: float, away_win: fl
     return tuple(probs.tolist())
 
 
+def poisson_probs(expected_home_goals: float, expected_away_goals: float) -> tuple[float, float, float]:
+    home_win = draw = away_win = 0.0
+    for h in range(7):
+        for a in range(7):
+            p = poisson.pmf(h, expected_home_goals) * poisson.pmf(a, expected_away_goals)
+            if h > a:
+                home_win += p
+            elif h == a:
+                draw += p
+            else:
+                away_win += p
+    normalization = home_win + draw + away_win
+    if normalization > 0:
+        home_win /= normalization
+        draw /= normalization
+        away_win /= normalization
+    return calibrate_three_way_probabilities(home_win, draw, away_win)
+
+
+def make_prediction_row(fixture, expected_home_goals, expected_away_goals, model_source, model_coverage, home_model_team=None, away_model_team=None):
+    home_win, draw, away_win = poisson_probs(expected_home_goals, expected_away_goals)
+    fixture_id = str(fixture.get('fixture_id'))
+    prediction_key = f"{fixture_id}|{fixture.get('match_date')}|{fixture.get('home_team')}|{fixture.get('away_team')}|{model_source}"
+    prediction_id = hashlib.sha256(prediction_key.encode('utf-8')).hexdigest()[:20]
+    return {
+        'prediction_id': prediction_id,
+        'fixture_id': fixture.get('fixture_id'),
+        'match_date': fixture.get('match_date'),
+        'match_time': fixture.get('match_time'),
+        'home_team': fixture.get('home_team'),
+        'away_team': fixture.get('away_team'),
+        'league': fixture.get('league'),
+        'sample_phase': 'upcoming_fixture_probability_only',
+        'expected_home_goals': round(float(expected_home_goals), 3),
+        'expected_away_goals': round(float(expected_away_goals), 3),
+        'home_win_probability': round(float(home_win), 4),
+        'draw_probability': round(float(draw), 4),
+        'away_win_probability': round(float(away_win), 4),
+        'fair_home_odds': round(1 / float(home_win), 2) if home_win > 0 else None,
+        'fair_draw_odds': round(1 / float(draw), 2) if draw > 0 else None,
+        'fair_away_odds': round(1 / float(away_win), 2) if away_win > 0 else None,
+        'model_source': model_source,
+        'model_coverage': model_coverage,
+        'home_model_team': home_model_team,
+        'away_model_team': away_model_team,
+    }
+
+
 fixtures = safe_read_csv(fixtures_path)
 match_report = safe_read_csv(match_report_path)
 team_strengths = safe_read_parquet(team_strength_path)
@@ -69,78 +122,77 @@ else:
     league_home_avg = 1.45
     league_away_avg = 1.20
 
-home_advantage_multiplier = 1 + ((league_home_avg / max(league_away_avg, 0.01)) - 1) * 0.30
+if pd.isna(league_home_avg) or league_home_avg <= 0:
+    league_home_avg = 1.45
+if pd.isna(league_away_avg) or league_away_avg <= 0:
+    league_away_avg = 1.20
 
-if len(fixtures) and len(match_report) and len(team_strengths):
-    match_lookup = {}
+home_advantage_multiplier = 1 + ((league_home_avg / max(league_away_avg, 0.01)) - 1) * 0.30
+baseline_home_goals = (league_home_avg * 0.92) + (league_home_avg * home_advantage_multiplier * 0.08)
+baseline_away_goals = league_away_avg
+
+match_lookup = {}
+if len(match_report):
     for _, row in match_report.dropna(subset=['matched_model_team']).iterrows():
         match_lookup[(str(row.get('fixture_id')), str(row.get('side')))] = row.get('matched_model_team')
 
-    for _, fixture in fixtures.iterrows():
+if len(fixtures):
+    fixtures_work = fixtures.copy()
+    if 'match_date' in fixtures_work.columns:
+        fixtures_work['parsed_date'] = pd.to_datetime(fixtures_work['match_date'], errors='coerce', utc=True)
+        fixtures_work = fixtures_work.sort_values(['parsed_date', 'match_time'], na_position='last') if 'match_time' in fixtures_work.columns else fixtures_work.sort_values(['parsed_date'], na_position='last')
+
+    for _, fixture in fixtures_work.iterrows():
+        if max_forward_predictions > 0 and len(rows) >= max_forward_predictions:
+            break
+
         fixture_id = str(fixture.get('fixture_id'))
         home_model = match_lookup.get((fixture_id, 'home_team'))
         away_model = match_lookup.get((fixture_id, 'away_team'))
 
-        if not home_model or not away_model:
-            continue
-        if home_model not in team_strengths.index or away_model not in team_strengths.index:
-            continue
+        has_full_model = (
+            home_model
+            and away_model
+            and len(team_strengths)
+            and home_model in team_strengths.index
+            and away_model in team_strengths.index
+        )
 
-        home_row = team_strengths.loc[home_model]
-        away_row = team_strengths.loc[away_model]
+        if has_full_model:
+            home_row = team_strengths.loc[home_model]
+            away_row = team_strengths.loc[away_model]
 
-        home_attack = home_row['home_attack_strength'] * 0.35 + home_row['recent_attack_strength'] * 0.25 + 0.40
-        away_attack = away_row['away_attack_strength'] * 0.35 + away_row['recent_attack_strength'] * 0.25 + 0.40
-        home_defense = home_row['home_defense_strength'] * 0.35 + home_row['recent_defense_strength'] * 0.25 + 0.40
-        away_defense = away_row['away_defense_strength'] * 0.35 + away_row['recent_defense_strength'] * 0.25 + 0.40
+            home_attack = home_row['home_attack_strength'] * 0.35 + home_row['recent_attack_strength'] * 0.25 + 0.40
+            away_attack = away_row['away_attack_strength'] * 0.35 + away_row['recent_attack_strength'] * 0.25 + 0.40
+            home_defense = home_row['home_defense_strength'] * 0.35 + home_row['recent_defense_strength'] * 0.25 + 0.40
+            away_defense = away_row['away_defense_strength'] * 0.35 + away_row['recent_defense_strength'] * 0.25 + 0.40
 
-        expected_home_goals = league_home_avg * home_attack * away_defense * home_advantage_multiplier
-        expected_away_goals = league_away_avg * away_attack * home_defense
-        expected_home_goals = (expected_home_goals * 0.60) + (league_home_avg * 0.40)
-        expected_away_goals = (expected_away_goals * 0.60) + (league_away_avg * 0.40)
-        expected_home_goals = max(min(expected_home_goals, 3.0), 0.55)
-        expected_away_goals = max(min(expected_away_goals, 2.6), 0.45)
+            expected_home_goals = league_home_avg * home_attack * away_defense * home_advantage_multiplier
+            expected_away_goals = league_away_avg * away_attack * home_defense
+            expected_home_goals = (expected_home_goals * 0.60) + (league_home_avg * 0.40)
+            expected_away_goals = (expected_away_goals * 0.60) + (league_away_avg * 0.40)
+            expected_home_goals = max(min(expected_home_goals, 3.0), 0.55)
+            expected_away_goals = max(min(expected_away_goals, 2.6), 0.45)
 
-        home_win = draw = away_win = 0.0
-        for h in range(7):
-            for a in range(7):
-                p = poisson.pmf(h, expected_home_goals) * poisson.pmf(a, expected_away_goals)
-                if h > a:
-                    home_win += p
-                elif h == a:
-                    draw += p
-                else:
-                    away_win += p
-
-        normalization = home_win + draw + away_win
-        if normalization > 0:
-            home_win /= normalization
-            draw /= normalization
-            away_win /= normalization
-
-        home_win, draw, away_win = calibrate_three_way_probabilities(home_win, draw, away_win)
-        prediction_key = f"{fixture_id}|{fixture.get('match_date')}|{fixture.get('home_team')}|{fixture.get('away_team')}|forward_fixture_model"
-        prediction_id = hashlib.sha256(prediction_key.encode('utf-8')).hexdigest()[:20]
-
-        rows.append({
-            'prediction_id': prediction_id,
-            'fixture_id': fixture.get('fixture_id'),
-            'match_date': fixture.get('match_date'),
-            'match_time': fixture.get('match_time'),
-            'home_team': fixture.get('home_team'),
-            'away_team': fixture.get('away_team'),
-            'league': fixture.get('league'),
-            'sample_phase': 'upcoming_fixture_probability_only',
-            'expected_home_goals': round(float(expected_home_goals), 3),
-            'expected_away_goals': round(float(expected_away_goals), 3),
-            'home_win_probability': round(float(home_win), 4),
-            'draw_probability': round(float(draw), 4),
-            'away_win_probability': round(float(away_win), 4),
-            'fair_home_odds': round(1 / float(home_win), 2) if home_win > 0 else None,
-            'fair_draw_odds': round(1 / float(draw), 2) if draw > 0 else None,
-            'fair_away_odds': round(1 / float(away_win), 2) if away_win > 0 else None,
-            'model_source': 'conservative_poisson_forward_fixture',
-        })
+            rows.append(make_prediction_row(
+                fixture,
+                expected_home_goals,
+                expected_away_goals,
+                'conservative_poisson_forward_fixture',
+                'full_team_strength_match',
+                home_model,
+                away_model,
+            ))
+        elif include_baseline_unmatched:
+            rows.append(make_prediction_row(
+                fixture,
+                baseline_home_goals,
+                baseline_away_goals,
+                'baseline_league_average_forward_fixture',
+                'baseline_unmatched_fixture',
+                home_model,
+                away_model,
+            ))
 
 predictions = pd.DataFrame(rows)
 for col in expected_columns:
@@ -151,9 +203,15 @@ predictions = predictions[expected_columns]
 predictions.to_csv(output_dir / 'forward_fixture_predictions.csv', index=False)
 predictions.to_parquet(output_dir / 'forward_fixture_predictions.parquet', index=False)
 
+full_model_rows = int((predictions['model_coverage'] == 'full_team_strength_match').sum()) if len(predictions) else 0
+baseline_rows = int((predictions['model_coverage'] == 'baseline_unmatched_fixture').sum()) if len(predictions) else 0
 summary = {
     'upcoming_fixture_rows': int(len(fixtures)),
     'forward_fixture_prediction_rows': int(len(predictions)),
+    'full_model_prediction_rows': full_model_rows,
+    'baseline_prediction_rows': baseline_rows,
+    'max_forward_predictions': max_forward_predictions,
+    'include_baseline_unmatched': include_baseline_unmatched,
     'probability_only': True,
     'has_market_prices': False,
     'ready_for_price_join': bool(len(predictions) > 0),
@@ -164,9 +222,13 @@ markdown = [
     '# Forward Fixture Predictions',
     '',
     'Probability-only forward fixture model output. Not a betting card and not a real-money recommendation.',
+    'Full model rows use matched team-strength data. Baseline rows are conservative league-average placeholders used to increase odds-matching coverage only.',
     '',
     f"Upcoming fixture rows: {summary['upcoming_fixture_rows']}",
     f"Forward fixture prediction rows: {summary['forward_fixture_prediction_rows']}",
+    f"Full model prediction rows: {summary['full_model_prediction_rows']}",
+    f"Baseline prediction rows: {summary['baseline_prediction_rows']}",
+    f"Max forward predictions: {summary['max_forward_predictions']}",
     f"Ready for price join: {summary['ready_for_price_join']}",
     '',
 ]
@@ -175,7 +237,7 @@ if len(predictions):
     for _, row in predictions.iterrows():
         markdown.append(
             f"- {row['match_date']} {row['match_time']} | {row['home_team']} vs {row['away_team']} | "
-            f"H={row['home_win_probability']} D={row['draw_probability']} A={row['away_win_probability']} | "
+            f"coverage={row['model_coverage']} | H={row['home_win_probability']} D={row['draw_probability']} A={row['away_win_probability']} | "
             f"fair={row['fair_home_odds']}/{row['fair_draw_odds']}/{row['fair_away_odds']}"
         )
 else:
