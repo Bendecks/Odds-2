@@ -17,4 +17,4 @@ Eligible future fixture rows: 1
 Price rows: 1
 Errors/status rows: 0
 
-- 2026-05-11 19:00 | Tottenham Hotspur vs Leeds United | 1.84/4.115/4.37
+- 2026-05-11 19:00 | Tottenham Hotspur vs Leeds United | 1.84/3.985/4.525

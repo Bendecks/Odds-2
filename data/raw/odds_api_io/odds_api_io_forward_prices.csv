@@ -1,2 +1,2 @@
 fixture_id,match_date,match_time,home_team,away_team,league,source_name,source_type,market_home_odds,market_draw_odds,market_away_odds,price_captured_at_utc,source_quality,raw_source_url
-odds_api_io_61301243,2026-05-11,19:00,Tottenham Hotspur,Leeds United,england-premier-league,odds_api_io_single_event_proxy,free_api_market_proxy,1.84,4.115,4.37,2026-05-11T15:06:38.906269+00:00,free_api_market_proxy_capped_single_event_call,https://api.odds-api.io/v3/odds
+odds_api_io_61301243,2026-05-11,19:00,Tottenham Hotspur,Leeds United,england-premier-league,odds_api_io_single_event_proxy,free_api_market_proxy,1.84,3.985,4.525,2026-05-11T16:20:45.905579+00:00,free_api_market_proxy_capped_single_event_call,https://api.odds-api.io/v3/odds
