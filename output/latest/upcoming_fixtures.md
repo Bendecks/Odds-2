@@ -1,7 +1,7 @@
 # Upcoming Fixtures
 
 Fixture source: TheSportsDB eventsnextleague API.
-Odds source: not included. Manual odds fallback is parked; automatic forward price source remains the active target.
+Primary development target: automatic/free delayed market proxy, not manual Bet365.
 
 Fixtures found: 1
 

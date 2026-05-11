@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T07:31:13.176109+00:00`
-GitHub run: `217` attempt `1`
-GitHub SHA: `f47b75f3ea95f214e43820354a3afb592d5c0b40`
+Generated UTC: `2026-05-11T07:41:17.121279+00:00`
+GitHub run: `218` attempt `1`
+GitHub SHA: `d0f289c6d84b48a79ef08f7f5366bc551294609c`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -118,7 +118,7 @@ Manual odds are not required in the current phase. These rows are only kept for 
 
 # Upcoming Fixtures
 Fixture source: TheSportsDB eventsnextleague API.
-Odds source: not included. Manual odds fallback is parked; automatic forward price source remains the active target.
+Primary development target: automatic/free delayed market proxy, not manual Bet365.
 Fixtures found: 1
 - 2026-05-11 19:00:00 | Tottenham Hotspur vs Leeds United | premier_league
 
