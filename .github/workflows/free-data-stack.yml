@@ -24,9 +24,9 @@ jobs:
     env:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       ODDS_API_IO_KEY: ${{ secrets.ODDS_API_IO_KEY }}
-      ODDS_API_IO_MAX_CALLS: '10'
+      ODDS_API_IO_MAX_CALLS: '8'
       ODDS_API_IO_MAX_EVENTS: '100'
-      ODDS_API_IO_EVENTS_MAX_PAGES: '3'
+      ODDS_API_IO_EVENTS_MAX_PAGES: '4'
       ODDS_API_IO_MAX_PRICE_EVENTS: '10'
       FORWARD_FIXTURE_MAX_PREDICTIONS: '80'
       FORWARD_FIXTURE_INCLUDE_BASELINE_UNMATCHED: 'true'
@@ -89,6 +89,9 @@ jobs:
 
       - name: Filter odds-api.io forward price quality
         run: python scripts/filter_odds_api_io_forward_prices_quality.py
+
+      - name: Build odds-api.io discovery efficiency diagnostics
+        run: python scripts/build_odds_api_io_discovery_efficiency_report.py
 
       - name: Build automatic forward source diagnostics
         run: python scripts/build_automatic_forward_source_report.py
