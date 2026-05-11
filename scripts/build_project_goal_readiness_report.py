@@ -15,15 +15,14 @@ def read_csv(path: str) -> pd.DataFrame:
         return pd.DataFrame()
 
 
-free_status = read_csv('free_data_status.csv')
 value_summary = read_csv('automatic_forward_value_snapshot_summary.csv')
 paper_status = read_csv('paper_test_log_status.csv')
 proxy_quality = read_csv('proxy_observation_quality_report.csv')
 forward_summary = read_csv('forward_fixture_prediction_summary.csv')
 calibration_summary = read_csv('forward_probability_calibration_summary.csv')
-performance = read_csv('betting_performance_summary.csv')
+price_coverage = read_csv('forward_price_coverage_summary.csv')
 
-# Pull robust scalar values.
+
 def scalar(df: pd.DataFrame, column: str, default=None):
     if len(df) and column in df.columns:
         value = df.iloc[0][column]
@@ -34,13 +33,16 @@ def scalar(df: pd.DataFrame, column: str, default=None):
 forward_predictions = int(scalar(forward_summary, 'forward_fixture_prediction_rows', 0) or 0)
 value_snapshots = int(scalar(value_summary, 'value_snapshot_rows', 0) or 0)
 positive_ev_rows = int(scalar(value_summary, 'positive_ev_rows', 0) or 0)
-paper_log_rows = int(scalar(paper_status, 'valid_forward_log_rows', 0) or 0)
+raw_paper_log_rows = int(scalar(paper_status, 'valid_forward_log_rows', 0) or 0)
+deduped_paper_log_rows = int(scalar(paper_status, 'deduped_forward_log_rows', raw_paper_log_rows) or 0)
+duplicate_paper_log_rows = int(scalar(paper_status, 'duplicate_forward_log_rows', max(raw_paper_log_rows - deduped_paper_log_rows, 0)) or 0)
 proxy_obs_rows = int(scalar(proxy_quality, 'paper_proxy_observation_rows', 0) or 0)
 settled_forward_rows = int(scalar(calibration_summary, 'settled_rows', 0) or 0)
 accuracy = scalar(calibration_summary, 'accuracy', None)
 avg_brier = scalar(calibration_summary, 'avg_brier_score', None)
+fresh_api_coverage = float(scalar(price_coverage, 'fresh_api_match_coverage_rate', 0.0) or 0.0)
+fresh_api_matches = int(scalar(price_coverage, 'matches_with_fresh_api_price', 0) or 0)
 
-# Conservative project milestones.
 stages = [
     {
         'stage': 'historical_proxy_research',
@@ -53,15 +55,15 @@ stages = [
         'stage': 'automatic_proxy_odds_ingestion',
         'status': 'working',
         'target': 'Free automatic odds proxy exists and validates.',
-        'current': f'{value_snapshots} value snapshots from delayed proxy prices.',
-        'done_when': 'Keep Football-Data as baseline; add optional API source for fresher odds.',
+        'current': f'{value_snapshots} value snapshots; fresh API coverage rate {fresh_api_coverage}.',
+        'done_when': 'Keep Football-Data as baseline; improve odds-api.io/API-Football coverage carefully.',
     },
     {
         'stage': 'paper_forward_testing',
         'status': 'started_not_mature',
-        'target': 'At least 50-100 logged proxy observations across several matchdays.',
-        'current': f'{paper_log_rows} valid forward/proxy log rows.',
-        'done_when': 'Minimum 50 observations before drawing early conclusions; 100+ preferred.',
+        'target': 'At least 50-100 deduped proxy observations across several matchdays.',
+        'current': f'{deduped_paper_log_rows} deduped forward/proxy rows; {duplicate_paper_log_rows} duplicate raw rows identified.',
+        'done_when': 'Minimum 50 deduped observations before drawing early conclusions; 100+ preferred.',
     },
     {
         'stage': 'forward_probability_calibration',
@@ -79,16 +81,16 @@ stages = [
     },
 ]
 
-if paper_log_rows >= 50 and settled_forward_rows >= 20:
+if deduped_paper_log_rows >= 50 and settled_forward_rows >= 20:
     overall = 'paper_testing_maturing'
-elif paper_log_rows > 0:
+elif deduped_paper_log_rows > 0:
     overall = 'proxy_paper_testing_started'
 elif value_snapshots > 0:
     overall = 'proxy_value_layer_ready'
 else:
     overall = 'research_only'
 
-next_goal = 'Grow forward proxy sample, deduplicate fixtures, improve model-covered league filtering, and add optional odds-api.io/API-Football adapters.'
+next_goal = 'Increase fresh API price coverage carefully, use deduped paper-test counts, settle forward rows, and improve model-covered league filtering.'
 
 summary = {
     'overall_project_stage': overall,
@@ -96,8 +98,12 @@ summary = {
     'value_snapshots': value_snapshots,
     'positive_ev_rows': positive_ev_rows,
     'proxy_observation_rows': proxy_obs_rows,
-    'valid_forward_log_rows': paper_log_rows,
+    'valid_forward_log_rows': raw_paper_log_rows,
+    'deduped_forward_log_rows': deduped_paper_log_rows,
+    'duplicate_forward_log_rows': duplicate_paper_log_rows,
     'settled_forward_rows': settled_forward_rows,
+    'fresh_api_match_coverage_rate': fresh_api_coverage,
+    'matches_with_fresh_api_price': fresh_api_matches,
     'accuracy': accuracy,
     'avg_brier_score': avg_brier,
     'real_money_ready': False,
@@ -118,7 +124,11 @@ markdown = [
     f"- Automatic value snapshots: {value_snapshots}",
     f"- Positive EV proxy rows: {positive_ev_rows}",
     f"- Proxy observation rows: {proxy_obs_rows}",
-    f"- Valid forward/proxy log rows: {paper_log_rows}",
+    f"- Valid forward/proxy log rows: {raw_paper_log_rows}",
+    f"- Deduped forward/proxy log rows: {deduped_paper_log_rows}",
+    f"- Duplicate forward/proxy log rows identified: {duplicate_paper_log_rows}",
+    f"- Fresh API match coverage rate: {fresh_api_coverage}",
+    f"- Matches with fresh API price: {fresh_api_matches}",
     f"- Settled forward rows: {settled_forward_rows}",
     f"- Real-money ready: False",
     '',
@@ -139,10 +149,10 @@ for stage in stages:
 markdown.extend([
     '## Practical definition of done',
     '',
-    'The project is not in goal when it can generate one exciting pick. It is in goal when it can repeatedly produce forward observations, settle them, and show that calibration and market alignment are not obviously bad.',
+    'The project is not in goal when it can generate one exciting pick. It is in goal when it can repeatedly produce deduped forward observations, settle them, and show that calibration and market alignment are not obviously bad.',
     '',
     'Minimum paper-test goal:',
-    '- 50+ forward/proxy observations logged',
+    '- 50+ deduped forward/proxy observations logged',
     '- 20+ settled forward observations',
     '- no duplicate fixture inflation',
     '- proxy source clearly separated from real-money readiness',
