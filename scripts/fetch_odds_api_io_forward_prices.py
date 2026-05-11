@@ -18,7 +18,6 @@ base_url = 'https://api.odds-api.io/v3'
 max_events = int(os.getenv('ODDS_API_IO_MAX_EVENTS', '8'))
 max_calls = int(os.getenv('ODDS_API_IO_MAX_CALLS', '2'))
 bookmakers = os.getenv('ODDS_API_IO_BOOKMAKERS', 'Bet365,1xbet').strip()
-primary_bookmaker = os.getenv('ODDS_API_IO_PRIMARY_BOOKMAKER', 'Bet365').strip()
 
 price_columns = [
     'fixture_id', 'match_date', 'match_time', 'home_team', 'away_team', 'league',
@@ -36,7 +35,7 @@ errors = []
 calls_used = 0
 fetched_at = datetime.now(timezone.utc).isoformat()
 today = datetime.now(timezone.utc).date()
-discovery_mode = 'events_endpoint_filtered_by_bookmaker'
+discovery_mode = 'events_endpoint_documented_sport_limit'
 
 
 def get_json(url: str, label: str):
@@ -107,10 +106,9 @@ else:
         events_url = f"{base_url}/events?" + urllib.parse.urlencode({
             'apiKey': api_key,
             'sport': 'football',
-            'bookmaker': primary_bookmaker,
             'limit': max_events,
         })
-        events_payload = get_json(events_url, 'events_bookmaker_filtered')
+        events_payload = get_json(events_url, 'events')
         events = event_items(events_payload)[:max_events]
 
         event_meta = {}
@@ -139,7 +137,7 @@ else:
                 'parsed_date': parsed_date,
                 'home_team': home,
                 'away_team': away,
-                'source': 'odds_api_io_events_bookmaker_filtered',
+                'source': 'odds_api_io_events',
                 'event_status': status,
                 'fetched_at_utc': fetched_at,
             }
@@ -152,7 +150,7 @@ else:
         ]
 
         if not eligible_rows:
-            errors.append({'stage': 'event_selection', 'error': f'No future non-settled event available from bookmaker-filtered events for {primary_bookmaker!r}; skipped odds call'})
+            errors.append({'stage': 'event_selection', 'error': 'No future non-settled event available from documented events endpoint; skipped odds call'})
 
         if eligible_rows and calls_used < max_calls:
             try:
@@ -187,7 +185,7 @@ else:
             except Exception as exc:
                 errors.append({'stage': 'odds_request_or_parse', 'error': repr(exc)})
     except Exception as exc:
-        errors.append({'stage': 'events_bookmaker_filtered_or_parse', 'error': repr(exc)})
+        errors.append({'stage': 'events_or_parse', 'error': repr(exc)})
 
 prices = pd.DataFrame(rows)
 for col in price_columns:
@@ -211,7 +209,6 @@ summary = {
     'max_calls': max_calls,
     'max_events': max_events,
     'discovery_mode': discovery_mode,
-    'primary_bookmaker_filter': primary_bookmaker,
     'fixture_rows': int(len(fixtures)),
     'eligible_future_fixture_rows': int(len(eligible_rows)) if 'eligible_rows' in locals() else 0,
     'price_rows': int(len(prices)),
@@ -227,14 +224,13 @@ markdown = [
     '# odds-api.io Forward Price Fetch',
     '',
     'Cautious optional API source. Hard-capped by ODDS_API_IO_MAX_CALLS and ODDS_API_IO_MAX_EVENTS.',
-    'Uses /v3/events filtered by bookmaker to avoid events without the chosen market source, then /v3/odds for one eligible future event.',
+    'Uses documented /v3/events with sport+limit, then /v3/odds for one eligible future event.',
     'Not real-money ready until validated against forward results and other sources.',
     '',
     f"Enabled: {summary['enabled']}",
     f"Calls used: {summary['calls_used']} / {summary['max_calls']}",
     f"Max events: {summary['max_events']}",
     f"Discovery mode: {summary['discovery_mode']}",
-    f"Primary bookmaker filter: {summary['primary_bookmaker_filter']}",
     f"Bookmakers parameter mode: {summary['bookmakers_param_mode']}",
     f"Bookmakers requested: {summary['bookmakers_requested']}",
     f"Odds endpoint mode: {summary['odds_endpoint_mode']}",
