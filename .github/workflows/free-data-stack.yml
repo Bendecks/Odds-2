@@ -84,6 +84,9 @@ jobs:
       - name: Build forward fixture predictions
         run: python scripts/build_forward_fixture_predictions.py
 
+      - name: Fetch odds-api.io forward prices
+        run: python scripts/fetch_odds_api_io_forward_prices.py
+
       - name: Build automatic forward source diagnostics
         run: python scripts/build_automatic_forward_source_report.py
 
