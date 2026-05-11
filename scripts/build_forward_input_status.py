@@ -10,6 +10,9 @@ forward_path = output_dir / 'manual_forward_snapshots.parquet'
 markdown = [
     '# Forward Input Status',
     '',
+    'Manual Bet365 odds input is parked as an optional fallback. It is not an active development blocker.',
+    'Current priority: automatic/free-data forward-testing sources and robust fixture/model matching.',
+    '',
 ]
 
 
@@ -54,7 +57,10 @@ summary = {
     'manual_odds_complete_rows': filled_rows,
     'manual_odds_missing_rows': missing_rows,
     'manual_forward_snapshot_rows': int(len(forward)),
-    'ready_for_forward_paper_generation': bool(len(forward) > 0),
+    'manual_odds_mode': 'optional_fallback_paused',
+    'manual_odds_is_blocker': False,
+    'ready_for_manual_forward_generation': bool(len(forward) > 0),
+    'automatic_forward_source_needed': True,
 }
 
 pd.DataFrame([summary]).to_csv(output_dir / 'forward_input_status.csv', index=False)
@@ -62,23 +68,32 @@ pd.DataFrame([summary]).to_csv(output_dir / 'forward_input_status.csv', index=Fa
 markdown.extend([
     f"Upcoming fixtures: {summary['upcoming_fixtures']}",
     f"Manual template rows: {summary['manual_template_rows']}",
-    f"Rows with complete odds: {summary['manual_odds_complete_rows']}",
-    f"Rows missing odds: {summary['manual_odds_missing_rows']}",
+    f"Rows with complete manual odds: {summary['manual_odds_complete_rows']}",
+    f"Rows missing manual odds: {summary['manual_odds_missing_rows']}",
     f"Manual forward snapshot rows: {summary['manual_forward_snapshot_rows']}",
-    f"Ready for forward paper generation: {summary['ready_for_forward_paper_generation']}",
+    f"Manual odds mode: {summary['manual_odds_mode']}",
+    f"Manual odds is blocker: {summary['manual_odds_is_blocker']}",
+    f"Automatic forward source needed: {summary['automatic_forward_source_needed']}",
     '',
 ])
 
+markdown.extend(['## Current automatic-forward blocker', ''])
+if len(fixtures) == 0:
+    markdown.append('No upcoming fixtures are available from the current free fixture source.')
+else:
+    markdown.append('Upcoming fixtures exist, but no automatic odds/proxy forward snapshot source is active yet.')
+
+markdown.extend(['', '## Optional manual fallback status', ''])
 if len(manual):
-    markdown.extend(['## Rows needing odds', ''])
     incomplete = manual[manual[['market_home_odds', 'market_draw_odds', 'market_away_odds']].isna().any(axis=1)].copy()
     if len(incomplete):
+        markdown.append('Manual odds are not required in the current phase. These rows are only kept for later fallback use:')
         for _, row in incomplete.head(20).iterrows():
             markdown.append(
                 f"- {row.get('match_date')} {row.get('match_time')} | {row.get('home_team')} vs {row.get('away_team')}"
             )
     else:
-        markdown.append('All manual odds rows are complete.')
+        markdown.append('Manual odds rows are complete, but manual flow remains optional fallback only.')
 else:
     markdown.append('No manual odds template rows are available yet.')
 
