@@ -28,16 +28,25 @@ def add_check(name, path, required_columns=None, file_type='parquet', allow_empt
         return
 
     try:
-        if file_type == 'csv':
+        if file_type == 'md':
+            text = path.read_text(encoding='utf-8')
+            result['rows'] = len([line for line in text.splitlines() if line.strip()])
+            result['columns'] = ['markdown_text']
+            result['ok'] = bool(text.strip())
+        elif file_type == 'csv':
             df = pd.read_csv(path)
+            result['rows'] = int(len(df))
+            result['columns'] = list(df.columns)
+            if required_columns:
+                result['missing_columns'] = [c for c in required_columns if c not in df.columns]
+            result['ok'] = (allow_empty or result['rows'] > 0) and not result['missing_columns']
         else:
             df = pd.read_parquet(path)
-
-        result['rows'] = int(len(df))
-        result['columns'] = list(df.columns)
-        if required_columns:
-            result['missing_columns'] = [c for c in required_columns if c not in df.columns]
-        result['ok'] = (allow_empty or result['rows'] > 0) and not result['missing_columns']
+            result['rows'] = int(len(df))
+            result['columns'] = list(df.columns)
+            if required_columns:
+                result['missing_columns'] = [c for c in required_columns if c not in df.columns]
+            result['ok'] = (allow_empty or result['rows'] > 0) and not result['missing_columns']
     except Exception as exc:
         result['error'] = repr(exc)
 
@@ -47,6 +56,7 @@ def add_check(name, path, required_columns=None, file_type='parquet', allow_empt
 add_check('football-data.co.uk Premier League 24/25', 'data/raw/premier_league_2425.parquet', required_columns=['HomeTeam', 'AwayTeam', 'FTHG', 'FTAG'])
 add_check('Upcoming fixtures', 'data/raw/upcoming/upcoming_fixtures.parquet', required_columns=['fixture_id', 'match_date', 'home_team', 'away_team'], allow_empty=True)
 add_check('Manual odds template', 'output/latest/manual_odds_template.csv', required_columns=['fixture_id', 'home_team', 'away_team', 'market_home_odds', 'market_draw_odds', 'market_away_odds'], file_type='csv', allow_empty=True)
+add_check('Manual odds instructions', 'output/latest/manual_odds_instructions.md', file_type='md', allow_empty=False)
 add_check('Manual forward snapshots', 'output/latest/manual_forward_snapshots.parquet', required_columns=['prediction_id', 'sample_phase', 'market_odds', 'probability', 'ev'], allow_empty=True)
 add_check('ClubElo latest snapshot', 'data/raw/clubelo_latest.parquet', required_columns=['Club', 'Elo'])
 add_check('Basic team strength model', 'data/model/team_strengths.parquet', required_columns=['attack_strength', 'defense_strength'])
