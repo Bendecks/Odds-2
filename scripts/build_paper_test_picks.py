@@ -7,6 +7,7 @@ output_dir = Path('output/latest')
 log_dir = Path('data/predictions')
 log_dir.mkdir(parents=True, exist_ok=True)
 
+auto_value_path = output_dir / 'automatic_forward_value_snapshots.parquet'
 manual_forward_path = output_dir / 'manual_forward_snapshots.parquet'
 snapshot_path = output_dir / 'prediction_snapshots_latest.parquet'
 rules_path = output_dir / 'signal_suppression_rules.csv'
@@ -22,7 +23,7 @@ expected_columns = [
     'paper_test_tier', 'paper_test_score', 'paper_test_reason',
 ]
 
-FORWARD_PHASES = {'paper_forward_test', 'live_forward_snapshot', 'upcoming_fixture'}
+FORWARD_PHASES = {'paper_forward_test', 'live_forward_snapshot', 'upcoming_fixture', 'automatic_forward_price_proxy'}
 
 
 def safe_read_parquet(path: Path) -> pd.DataFrame:
@@ -59,31 +60,36 @@ def existing_logged_ids() -> set:
         existing = pd.read_json(paper_log_path, lines=True)
     except Exception:
         return set()
-    if 'prediction_id' not in existing.columns:
-        return set()
-    return set(existing['prediction_id'].astype(str).tolist())
+    if 'snapshot_id' in existing.columns:
+        return set(existing['snapshot_id'].astype(str).tolist())
+    if 'prediction_id' in existing.columns:
+        return set(existing['prediction_id'].astype(str).tolist())
+    return set()
 
 
 def empty_paper() -> pd.DataFrame:
     return pd.DataFrame(columns=expected_columns)
 
 
+auto_value = safe_read_parquet(auto_value_path)
 manual_forward = safe_read_parquet(manual_forward_path)
 historical_snapshots = safe_read_parquet(snapshot_path)
 rules = safe_read_csv(rules_path)
 reason = ''
-source_used = 'manual_forward_snapshots'
+source_used = 'automatic_forward_value_snapshots'
 
-if len(manual_forward):
+if len(auto_value):
+    snapshots = auto_value.copy()
+elif len(manual_forward):
     snapshots = manual_forward.copy()
+    source_used = 'manual_forward_snapshots_optional_fallback'
 else:
-    # Fallback only to confirm there are no forward rows. Historical proxy rows remain excluded.
     snapshots = historical_snapshots.copy()
     source_used = 'prediction_snapshots_latest_forward_only'
 
 if len(snapshots) == 0:
     paper = empty_paper()
-    reason = 'No snapshot rows available. Fill manual odds template to build forward snapshots.'
+    reason = 'No snapshot rows available. Automatic proxy prices or optional manual fallback are needed.'
 else:
     for col, default in {
         'ev': 0.0,
@@ -98,6 +104,7 @@ else:
         'match_time': '',
         'home_team': 'unknown',
         'away_team': 'unknown',
+        'source_quality': 'unknown',
     }.items():
         if col not in snapshots.columns:
             snapshots[col] = default
@@ -112,13 +119,20 @@ else:
         for col in ['ev', 'probability', 'market_odds', 'fair_odds']:
             forward_snapshots[col] = pd.to_numeric(forward_snapshots[col], errors='coerce')
 
-        forward_snapshots['market_implied_probability'] = 1 / forward_snapshots['market_odds'].replace(0, pd.NA)
-        forward_snapshots['probability_edge'] = forward_snapshots['probability'].fillna(0) - forward_snapshots['market_implied_probability'].fillna(0)
+        if 'market_implied_probability' not in forward_snapshots.columns:
+            forward_snapshots['market_implied_probability'] = 1 / forward_snapshots['market_odds'].replace(0, pd.NA)
+        else:
+            forward_snapshots['market_implied_probability'] = pd.to_numeric(forward_snapshots['market_implied_probability'], errors='coerce')
+        if 'probability_edge' not in forward_snapshots.columns:
+            forward_snapshots['probability_edge'] = forward_snapshots['probability'].fillna(0) - forward_snapshots['market_implied_probability'].fillna(0)
+        else:
+            forward_snapshots['probability_edge'] = pd.to_numeric(forward_snapshots['probability_edge'], errors='coerce')
         forward_snapshots['model_market_ratio'] = forward_snapshots['probability'].fillna(0) / forward_snapshots['market_implied_probability'].replace(0, pd.NA)
         forward_snapshots['alignment_penalty'] = (forward_snapshots['model_market_ratio'].fillna(1) - 1).abs()
         forward_snapshots['probability_band'] = forward_snapshots['probability'].apply(probability_band)
 
         forward_snapshots['calibration_risk'] = 'normal'
+        forward_snapshots.loc[forward_snapshots['sample_phase'] == 'automatic_forward_price_proxy', 'calibration_risk'] = 'proxy_price_source'
         forward_snapshots.loc[forward_snapshots['probability'].fillna(0) >= 0.50, 'calibration_risk'] = 'high_probability_band'
         forward_snapshots.loc[forward_snapshots['probability_edge'].fillna(0).abs() >= 0.16, 'calibration_risk'] = 'large_probability_edge'
         forward_snapshots.loc[forward_snapshots['alignment_penalty'].fillna(0) >= 0.45, 'calibration_risk'] = 'market_misalignment'
@@ -145,15 +159,15 @@ else:
         paper = forward_snapshots[
             (forward_snapshots['suppression_action'] != 'suppress')
             & (forward_snapshots['market_odds'].fillna(0).between(1.45, 7.50))
-            & (forward_snapshots['probability'].fillna(0).between(0.32, 0.57))
-            & (forward_snapshots['probability_edge'].fillna(0).between(0.000, 0.18))
-            & (forward_snapshots['ev'].fillna(0).between(0.00, 0.60))
-            & (forward_snapshots['alignment_penalty'].fillna(1).between(0.00, 0.48))
+            & (forward_snapshots['probability'].fillna(0).between(0.30, 0.58))
+            & (forward_snapshots['probability_edge'].fillna(0).between(0.000, 0.20))
+            & (forward_snapshots['ev'].fillna(0).between(0.00, 0.65))
+            & (forward_snapshots['alignment_penalty'].fillna(1).between(0.00, 0.52))
         ].copy()
 
         if len(paper):
             action_weight = paper['suppression_action'].map({'monitor': 0.92, 'downweight': 0.65}).fillna(1.0)
-            risk_weight = paper['calibration_risk'].map({'market_misalignment': 0.70, 'large_probability_edge': 0.78, 'high_probability_band': 0.85}).fillna(1.0)
+            risk_weight = paper['calibration_risk'].map({'market_misalignment': 0.70, 'large_probability_edge': 0.78, 'high_probability_band': 0.85, 'proxy_price_source': 0.82}).fillna(1.0)
             paper['paper_test_score'] = (
                 ((paper['ev'].fillna(0) * 0.28)
                  + (paper['probability_edge'].fillna(0) * 0.26)
@@ -162,13 +176,13 @@ else:
                 * action_weight
                 * risk_weight
             ).round(4)
-            paper['paper_test_tier'] = 'observation'
-            paper.loc[(paper['paper_test_score'] >= 0.18) & (paper['alignment_penalty'] <= 0.30), 'paper_test_tier'] = 'priority_observation'
-            paper['paper_test_reason'] = 'forward_observation_not_real_money'
+            paper['paper_test_tier'] = 'proxy_observation'
+            paper.loc[(paper['paper_test_score'] >= 0.18) & (paper['alignment_penalty'] <= 0.34), 'paper_test_tier'] = 'priority_proxy_observation'
+            paper['paper_test_reason'] = 'automatic_forward_proxy_observation_not_real_money'
             paper = paper.sort_values(['paper_test_tier', 'paper_test_score'], ascending=[False, False]).head(7)
         else:
             paper = empty_paper()
-            reason = 'Forward-eligible rows exist, but none passed paper-test observation filters.'
+            reason = 'Forward proxy rows exist, but none passed paper-test observation filters.'
 
 for col in expected_columns:
     if col not in paper.columns:
@@ -179,7 +193,8 @@ paper.to_parquet(output_dir / 'paper_test_picks.parquet', index=False)
 paper.to_csv(output_dir / 'paper_test_picks.csv', index=False)
 
 logged_ids = existing_logged_ids()
-new_rows = paper[~paper['prediction_id'].astype(str).isin(logged_ids)].copy() if len(paper) else empty_paper()
+id_col = 'snapshot_id' if 'snapshot_id' in paper.columns else 'prediction_id'
+new_rows = paper[~paper[id_col].astype(str).isin(logged_ids)].copy() if len(paper) else empty_paper()
 
 if len(new_rows):
     with paper_log_path.open('a', encoding='utf-8') as handle:
@@ -200,12 +215,13 @@ markdown = [
     '# Paper Test Picks',
     '',
     'Observation-only picks. These are not real-money recommendations.',
-    'Historical proxy rows are excluded. Only forward-eligible snapshots may become paper-test picks.',
+    'Automatic proxy prices are delayed/free market proxies, not live bookmaker odds.',
+    'Historical proxy rows are excluded from forward paper-test picks.',
     '',
     f'Source used: {source_used}',
     f'Current paper-test picks: {len(paper)}',
     f'Newly logged paper-test picks: {len(new_rows)}',
-    f'Total logged paper-test picks: {len(paper_log)}',
+    f'Total logged paper-test rows: {len(paper_log)}',
     '',
 ]
 
@@ -225,6 +241,6 @@ else:
 
 print(f'Generated {len(paper)} forward-eligible paper-test picks')
 print(f'Logged {len(new_rows)} new paper-test picks')
-print(f'Total logged paper-test picks: {len(paper_log)}')
+print(f'Total logged paper-test rows: {len(paper_log)}')
 print(reason)
 print(paper.head())
