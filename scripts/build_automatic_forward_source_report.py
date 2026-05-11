@@ -10,7 +10,8 @@ manual_forward_path = output_dir / 'manual_forward_snapshots.csv'
 markdown = [
     '# Automatic Forward Source Report',
     '',
-    'Purpose: distinguish true automatic forward sources from historical market proxy and paused manual fallback.',
+    'Purpose: distinguish true automatic forward inputs from historical market proxy and paused manual fallback.',
+    'Manual odds are optional fallback only and are not treated as a blocker in this development phase.',
     '',
 ]
 
@@ -38,18 +39,23 @@ has_historical_market_proxy = any('proxy' in item for item in market_proxy_types
 has_manual_forward = len(manual_forward) > 0
 
 status = 'automatic_forward_not_ready'
-blocker = 'automatic odds/proxy source missing'
+blocker = 'automatic_forward_odds_or_price_proxy_missing'
+next_development_step = 'find_or_build_free_automatic_forward_price_source'
 
 if not has_upcoming_fixtures:
-    blocker = 'fixtures missing'
+    blocker = 'automatic_fixture_source_missing'
+    next_development_step = 'add_or_repair_upcoming_fixture_source'
 elif has_automatic_forward_odds:
     status = 'automatic_forward_ready'
     blocker = 'none'
+    next_development_step = 'evaluate_forward_pick_filters'
 elif has_manual_forward:
-    status = 'manual_forward_available_optional'
-    blocker = 'automatic source still missing'
+    status = 'manual_forward_available_but_optional'
+    blocker = 'automatic_forward_source_still_missing'
+    next_development_step = 'continue_automatic_source_research'
 elif has_historical_market_proxy:
-    blocker = 'only historical market proxy available; not valid for forward picks'
+    blocker = 'only_historical_market_proxy_available_not_forward_valid'
+    next_development_step = 'replace_historical_market_proxy_for_forward_testing'
 
 summary = {
     'upcoming_fixture_rows': int(len(fixtures)),
@@ -58,8 +64,10 @@ summary = {
     'has_upcoming_fixtures': bool(has_upcoming_fixtures),
     'has_automatic_forward_odds': bool(has_automatic_forward_odds),
     'has_historical_market_proxy': bool(has_historical_market_proxy),
+    'manual_fallback_mode': 'parked_optional_fallback',
     'automatic_forward_status': status,
     'blocker': blocker,
+    'next_development_step': next_development_step,
 }
 
 pd.DataFrame([summary]).to_csv(output_dir / 'automatic_forward_source_report.csv', index=False)
@@ -69,10 +77,12 @@ markdown.extend([
     f"Historical market proxy rows: {summary['historical_market_proxy_rows']}",
     f"Manual forward rows: {summary['manual_forward_rows']}",
     f"Has upcoming fixtures: {summary['has_upcoming_fixtures']}",
-    f"Has automatic forward odds: {summary['has_automatic_forward_odds']}",
+    f"Has automatic forward odds/proxy: {summary['has_automatic_forward_odds']}",
     f"Has historical market proxy: {summary['has_historical_market_proxy']}",
+    f"Manual fallback mode: {summary['manual_fallback_mode']}",
     f"Automatic forward status: {summary['automatic_forward_status']}",
     f"Blocker: {summary['blocker']}",
+    f"Next development step: {summary['next_development_step']}",
     '',
     '## Interpretation',
     '',
@@ -81,7 +91,7 @@ markdown.extend([
 if status == 'automatic_forward_ready':
     markdown.append('The system has an automatic forward source available.')
 elif has_upcoming_fixtures:
-    markdown.append('Fixtures are available, but there is no automatic forward odds/source yet. Historical closing-market proxy must remain research-only.')
+    markdown.append('Fixtures are available, but there is no automatic forward price source yet. Historical closing-market proxy must remain research-only.')
 else:
     markdown.append('No upcoming fixture source is currently available.')
 
