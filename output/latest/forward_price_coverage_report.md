@@ -4,7 +4,7 @@ Measures automatic price coverage for forward predictions.
 Fresh API price means odds-api.io or API-Football. This is still paper/proxy-only and not real-money ready.
 
 Forward prediction rows: 3
-Automatic price rows: 34
+Automatic price rows: 33
 Value snapshot rows: 27
 Matches with any automatic price: 3
 Matches with fresh API price: 0
@@ -24,4 +24,3 @@ Real-money ready: False
 - football_data_average_market_proxy | delayed_market_proxy | rows=11
 - football_data_bet365_proxy | delayed_market_proxy | rows=11
 - football_data_max_market_proxy | delayed_market_proxy | rows=11
-- odds_api_io_Bet365_ML | free_api_market_proxy | rows=1

@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T19:14:07.147088+00:00`
-GitHub run: `275` attempt `1`
-GitHub SHA: `1f282b0d9145330a6a47bacf0f86ea34611c4b51`
+Generated UTC: `2026-05-11T20:10:36.334327+00:00`
+GitHub run: `291` attempt `1`
+GitHub SHA: `f905a011e819ad4c431ee5cffdcdb3ecfe475f7e`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -17,13 +17,16 @@ Overall status: `OK`
 | Football-Data upcoming fixtures proxy | True | 11 |  |  |
 | Football-Data upcoming odds proxy | True | 33 |  |  |
 | Football-Data upcoming odds status | True | 1 |  |  |
-| odds-api.io forward prices | True | 0 |  |  |
-| odds-api.io forward fixtures | True | 0 |  |  |
+| odds-api.io forward prices | True | 1 |  |  |
+| odds-api.io forward fixtures | True | 11 |  |  |
 | odds-api.io forward price status | True | 1 |  |  |
 | API-Football forward prices | True | 0 |  |  |
 | API-Football forward fixtures | True | 0 |  |  |
 | API-Football forward price status | True | 1 |  |  |
 | Automatic forward value snapshots | True | 27 |  |  |
+| Forward price coverage report | True | 3 |  |  |
+| Forward price coverage summary | True | 1 |  |  |
+| Forward price source summary | True | 4 |  |  |
 | Proxy candidate observations | True | 4 |  |  |
 | Proxy candidate observation summary | True | 1 |  |  |
 | Proxy candidate explanation report | True | 4 |  |  |
@@ -31,9 +34,6 @@ Overall status: `OK`
 | Proxy candidate blocker summary | True | 6 |  |  |
 | Automatic forward value snapshot summary | True | 1 |  |  |
 | Automatic forward value match diagnostics | True | 3 |  |  |
-| Proxy observation quality report | True | 1 |  |  |
-| Proxy observation by selection | True | 2 |  |  |
-| Upcoming fixtures | True | 11 |  |  |
 
 ## project_goal_readiness
 
@@ -109,8 +109,8 @@ Football-Data and odds-api.io prices are treated as paper-test proxy prices unti
 Upcoming fixture rows: 22
 Fixture team rows unmatched: 37
 Ready for model-fixture join: False
-Automatic forward price rows: 34
-odds-api.io price rows: 1
+Automatic forward price rows: 33
+odds-api.io price rows: 0
 Football-Data price rows: 33
 Automatic forward status: automatic_forward_not_ready
 Blocker: fixture_model_team_matching_incomplete
@@ -140,7 +140,7 @@ Next development step: add_team_aliases_for_upcoming_fixtures
 Measures automatic price coverage for forward predictions.
 Fresh API price means odds-api.io or API-Football. This is still paper/proxy-only and not real-money ready.
 Forward prediction rows: 3
-Automatic price rows: 34
+Automatic price rows: 33
 Value snapshot rows: 27
 Matches with any automatic price: 3
 Matches with fresh API price: 0
@@ -156,7 +156,6 @@ Real-money ready: False
 - football_data_average_market_proxy | delayed_market_proxy | rows=11
 - football_data_bet365_proxy | delayed_market_proxy | rows=11
 - football_data_max_market_proxy | delayed_market_proxy | rows=11
-- odds_api_io_Bet365_ML | free_api_market_proxy | rows=1
 
 ## automatic_forward_value_snapshots
 
@@ -165,7 +164,7 @@ Combined automatic forward market proxy joined to forward probability prediction
 Includes Football-Data delayed proxy and capped odds-api.io single-event proxy when available.
 Not live/full-market coverage and not real-money ready.
 Forward prediction rows: 3
-Proxy price rows: 34
+Proxy price rows: 33
 Matched prediction rows: 3
 Value snapshot rows: 27
 odds-api.io snapshot rows: 0

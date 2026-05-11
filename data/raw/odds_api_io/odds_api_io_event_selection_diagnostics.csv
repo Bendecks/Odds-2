@@ -1,0 +1,12 @@
+query,target_home_team,target_away_team,target_match_date,candidate_event_id,candidate_home_team,candidate_away_team,candidate_match_date,event_match_confidence,selected,rejection_reason
+Napoli,Napoli,Bologna,2026-05-11,69057010,Louisville Bats,Indianapolis Indians,2026-05-12,0.5164,False,below_min_event_match_confidence
+Napoli,Napoli,Bologna,2026-05-11,69061794,Charleston Riverdogs,Kannapolis Cannon Ballers,2026-05-12,0.4911,False,below_min_event_match_confidence
+Napoli,Napoli,Bologna,2026-05-11,69057018,Louisville Bats,Indianapolis Indians,2026-05-13,0.5164,False,below_min_event_match_confidence
+Napoli,Napoli,Bologna,2026-05-11,71213190,Vila Nova FC GO,Anapolis FC GO,2026-05-13,0.4853,False,below_min_event_match_confidence
+Napoli,Napoli,Bologna,2026-05-11,69061804,Charleston Riverdogs,Kannapolis Cannon Ballers,2026-05-13,0.4911,False,below_min_event_match_confidence
+Napoli,Napoli,Bologna,2026-05-11,69057028,Louisville Bats,Indianapolis Indians,2026-05-14,0.5164,False,below_min_event_match_confidence
+Napoli,Napoli,Bologna,2026-05-11,69061812,Charleston Riverdogs,Kannapolis Cannon Ballers,2026-05-14,0.4911,False,below_min_event_match_confidence
+Napoli,Napoli,Bologna,2026-05-11,69061824,Charleston Riverdogs,Kannapolis Cannon Ballers,2026-05-15,0.4911,False,below_min_event_match_confidence
+Napoli,Napoli,Bologna,2026-05-11,69057034,Louisville Bats,Indianapolis Indians,2026-05-15,0.5164,False,below_min_event_match_confidence
+Napoli,Napoli,Bologna,2026-05-11,61537656,Cagliari Calcio,SSC Napoli,2026-05-16,0.4255,False,below_min_event_match_confidence
+Vallecano,Vallecano,Girona,2026-05-11,61624652,Valencia CF,Rayo Vallecano,2026-05-14,0.5229,False,below_min_event_match_confidence

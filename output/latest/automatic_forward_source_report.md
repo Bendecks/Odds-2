@@ -6,8 +6,8 @@ Football-Data and odds-api.io prices are treated as paper-test proxy prices unti
 Upcoming fixture rows: 22
 Fixture team rows unmatched: 37
 Ready for model-fixture join: False
-Automatic forward price rows: 34
-odds-api.io price rows: 1
+Automatic forward price rows: 33
+odds-api.io price rows: 0
 Football-Data price rows: 33
 Automatic forward status: automatic_forward_not_ready
 Blocker: fixture_model_team_matching_incomplete
