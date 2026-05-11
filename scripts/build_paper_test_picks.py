@@ -156,17 +156,20 @@ else:
                 elif action == 'monitor':
                     forward_snapshots.loc[mask & (forward_snapshots['suppression_action'] == 'none'), 'suppression_action'] = 'monitor'
 
+        is_proxy = forward_snapshots['sample_phase'] == 'automatic_forward_price_proxy'
+        forward_snapshots.loc[is_proxy & (forward_snapshots['suppression_action'] == 'suppress'), 'suppression_action'] = 'proxy_suppressed_band_observe_only'
+
         paper = forward_snapshots[
             (forward_snapshots['suppression_action'] != 'suppress')
             & (forward_snapshots['market_odds'].fillna(0).between(1.45, 7.50))
-            & (forward_snapshots['probability'].fillna(0).between(0.30, 0.58))
-            & (forward_snapshots['probability_edge'].fillna(0).between(0.000, 0.20))
-            & (forward_snapshots['ev'].fillna(0).between(0.00, 0.65))
-            & (forward_snapshots['alignment_penalty'].fillna(1).between(0.00, 0.52))
+            & (forward_snapshots['probability'].fillna(0).between(0.25, 0.58))
+            & (forward_snapshots['probability_edge'].fillna(0).between(0.000, 0.22))
+            & (forward_snapshots['ev'].fillna(0).between(0.00, 0.70))
+            & (forward_snapshots['alignment_penalty'].fillna(1).between(0.00, 0.56))
         ].copy()
 
         if len(paper):
-            action_weight = paper['suppression_action'].map({'monitor': 0.92, 'downweight': 0.65}).fillna(1.0)
+            action_weight = paper['suppression_action'].map({'monitor': 0.92, 'downweight': 0.65, 'proxy_suppressed_band_observe_only': 0.48}).fillna(1.0)
             risk_weight = paper['calibration_risk'].map({'market_misalignment': 0.70, 'large_probability_edge': 0.78, 'high_probability_band': 0.85, 'proxy_price_source': 0.82}).fillna(1.0)
             paper['paper_test_score'] = (
                 ((paper['ev'].fillna(0) * 0.28)
@@ -177,9 +180,11 @@ else:
                 * risk_weight
             ).round(4)
             paper['paper_test_tier'] = 'proxy_observation'
-            paper.loc[(paper['paper_test_score'] >= 0.18) & (paper['alignment_penalty'] <= 0.34), 'paper_test_tier'] = 'priority_proxy_observation'
+            paper.loc[(paper['suppression_action'] == 'proxy_suppressed_band_observe_only'), 'paper_test_tier'] = 'suppressed_band_proxy_observation'
+            paper.loc[(paper['paper_test_score'] >= 0.18) & (paper['alignment_penalty'] <= 0.34) & (paper['suppression_action'] != 'proxy_suppressed_band_observe_only'), 'paper_test_tier'] = 'priority_proxy_observation'
             paper['paper_test_reason'] = 'automatic_forward_proxy_observation_not_real_money'
-            paper = paper.sort_values(['paper_test_tier', 'paper_test_score'], ascending=[False, False]).head(7)
+            paper.loc[paper['suppression_action'] == 'proxy_suppressed_band_observe_only', 'paper_test_reason'] = 'suppressed_band_proxy_observation_not_real_money'
+            paper = paper.sort_values(['paper_test_score'], ascending=False).head(7)
         else:
             paper = empty_paper()
             reason = 'Forward proxy rows exist, but none passed paper-test observation filters.'
@@ -216,7 +221,7 @@ markdown = [
     '',
     'Observation-only picks. These are not real-money recommendations.',
     'Automatic proxy prices are delayed/free market proxies, not live bookmaker odds.',
-    'Historical proxy rows are excluded from forward paper-test picks.',
+    'Suppressed historical bands may be tracked only as proxy observation and remain excluded from real-money readiness.',
     '',
     f'Source used: {source_used}',
     f'Current paper-test picks: {len(paper)}',
