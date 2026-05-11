@@ -4,10 +4,17 @@ Fixture sources: TheSportsDB, Football-Data fixtures proxy, cautious odds-api.io
 Duplicate fixtures are deduplicated by date and normalized teams, preferring odds-api.io then Football-Data for odds alignment.
 Primary development target: automatic/free market proxy, not manual Bet365.
 
-Fixtures found: 11
-Source counts: {'football_data_fixtures_proxy': 11}
+Fixtures found: 19
+Source counts: {'football_data_fixtures_proxy': 11, 'odds_api_io_events': 8}
 Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 
+- 2026-05-09 23:30 | Guapore  RO vs Galvez EC AC | brazil-brasileiro-serie-d | odds_api_io_events
+- 2026-05-10 20:00 | Aguia de Maraba FC PA vs Oratorio RC AP | brazil-brasileiro-serie-d | odds_api_io_events
+- 2026-05-10 12:00 | FC Aktobe vs Kaisar Kyzylorda | kazakhstan-premier-league | odds_api_io_events
+- 2026-05-10 07:30 | Kwun Tong vs Hoi King | hong-kong-china-1-division | odds_api_io_events
+- 2026-05-10 13:00 | Pas Pyrgos vs APS Zakynthos | greece-gamma-ethniki | odds_api_io_events
+- 2026-05-10 19:00 | Real San Joaquin vs Deportes Colina | chile-segunda-division | odds_api_io_events
+- 2026-05-10 05:00 | Yokohama F Marinos vs Kashima Antlers | japan-jleague | odds_api_io_events
 - 2026-05-11 20:15 | Benfica vs Sp Braga | P1 | football_data_fixtures_proxy
 - 2026-05-11 20:15 | Estrela vs Famalicao | P1 | football_data_fixtures_proxy
 - 2026-05-11 20:15 | Gil Vicente vs Arouca | P1 | football_data_fixtures_proxy
@@ -19,3 +26,4 @@ Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 - 2026-05-11 20:15 | Tondela vs Moreirense | P1 | football_data_fixtures_proxy
 - 2026-05-11 20:00 | Tottenham vs Leeds | premier_league | football_data_fixtures_proxy
 - 2026-05-11 20:00 | Vallecano vs Girona | la_liga | football_data_fixtures_proxy
+- 2026-05-11 07:00 | Vietnam vs Australia | international-youth-u17-afc-asian-cup-women | odds_api_io_events

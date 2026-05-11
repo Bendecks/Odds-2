@@ -1,1 +1,9 @@
 fixture_id,league,league_id,season,match_date,match_time,home_team,away_team,source,fetched_at_utc
+odds_api_io_70318488,brazil-brasileiro-serie-d,brazil-brasileiro-serie-d,upcoming,2026-05-09,23:30,Guapore  RO,Galvez EC AC,odds_api_io_events,2026-05-11T14:27:30.791522+00:00
+odds_api_io_67645546,japan-jleague,japan-jleague,upcoming,2026-05-10,05:00,Yokohama F Marinos,Kashima Antlers,odds_api_io_events,2026-05-11T14:27:30.791522+00:00
+odds_api_io_69546812,hong-kong-china-1-division,hong-kong-china-1-division,upcoming,2026-05-10,07:30,Kwun Tong,Hoi King,odds_api_io_events,2026-05-11T14:27:30.791522+00:00
+odds_api_io_69342828,kazakhstan-premier-league,kazakhstan-premier-league,upcoming,2026-05-10,12:00,FC Aktobe,Kaisar Kyzylorda,odds_api_io_events,2026-05-11T14:27:30.791522+00:00
+odds_api_io_70717252,greece-gamma-ethniki,greece-gamma-ethniki,upcoming,2026-05-10,13:00,Pas Pyrgos,APS Zakynthos,odds_api_io_events,2026-05-11T14:27:30.791522+00:00
+odds_api_io_69612866,chile-segunda-division,chile-segunda-division,upcoming,2026-05-10,19:00,Real San Joaquin,Deportes Colina,odds_api_io_events,2026-05-11T14:27:30.791522+00:00
+odds_api_io_70320584,brazil-brasileiro-serie-d,brazil-brasileiro-serie-d,upcoming,2026-05-10,20:00,Aguia de Maraba FC PA,Oratorio RC AP,odds_api_io_events,2026-05-11T14:27:30.791522+00:00
+odds_api_io_70035760,international-youth-u17-afc-asian-cup-women,international-youth-u17-afc-asian-cup-women,upcoming,2026-05-11,07:00,Vietnam,Australia,odds_api_io_events,2026-05-11T14:27:30.791522+00:00

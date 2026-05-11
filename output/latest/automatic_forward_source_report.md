@@ -3,8 +3,8 @@
 Purpose: distinguish true automatic forward inputs from historical market proxy and paused manual fallback.
 Football-Data and odds-api.io prices are treated as paper-test proxy prices until validated.
 
-Upcoming fixture rows: 11
-Fixture team rows unmatched: 16
+Upcoming fixture rows: 19
+Fixture team rows unmatched: 32
 Ready for model-fixture join: False
 Automatic forward price rows: 33
 odds-api.io price rows: 0
@@ -15,6 +15,20 @@ Next development step: add_team_aliases_for_upcoming_fixtures
 
 ## Team matching
 
+- Guapore  RO | suggestion=nan | type=unmatched
+- Galvez EC AC | suggestion=nan | type=unmatched
+- Aguia de Maraba FC PA | suggestion=nan | type=unmatched
+- Oratorio RC AP | suggestion=nan | type=unmatched
+- FC Aktobe | suggestion=nan | type=unmatched
+- Kaisar Kyzylorda | suggestion=nan | type=unmatched
+- Kwun Tong | suggestion=nan | type=unmatched
+- Hoi King | suggestion=nan | type=unmatched
+- Pas Pyrgos | suggestion=nan | type=unmatched
+- APS Zakynthos | suggestion=nan | type=unmatched
+- Real San Joaquin | suggestion=nan | type=unmatched
+- Deportes Colina | suggestion=nan | type=unmatched
+- Yokohama F Marinos | suggestion=nan | type=unmatched
+- Kashima Antlers | suggestion=nan | type=unmatched
 - Benfica | suggestion=nan | type=unmatched
 - Sp Braga | suggestion=nan | type=unmatched
 - Estrela | suggestion=nan | type=unmatched
