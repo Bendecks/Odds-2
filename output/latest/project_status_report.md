@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T17:22:57.442739+00:00`
-GitHub run: `270` attempt `1`
-GitHub SHA: `2d600e8e3a54c1b7eeeef71e972de1133d5c1d30`
+Generated UTC: `2026-05-11T17:31:43.927432+00:00`
+GitHub run: `271` attempt `1`
+GitHub SHA: `f19920db0e433d249672fc5965802428cfda6e69`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -106,33 +106,33 @@ Errors: 0
 # Automatic Forward Source Report
 Purpose: distinguish true automatic forward inputs from historical market proxy and paused manual fallback.
 Football-Data and odds-api.io prices are treated as paper-test proxy prices until validated.
-Upcoming fixture rows: 19
-Fixture team rows unmatched: 32
+Upcoming fixture rows: 11
+Fixture team rows unmatched: 16
 Ready for model-fixture join: False
-Automatic forward price rows: 33
-odds-api.io price rows: 0
+Automatic forward price rows: 34
+odds-api.io price rows: 1
 Football-Data price rows: 33
 Automatic forward status: automatic_forward_not_ready
 Blocker: fixture_model_team_matching_incomplete
 Next development step: add_team_aliases_for_upcoming_fixtures
 ## Team matching
-- FKS Stal Mielec | suggestion=nan | type=unmatched
-- Puszcza Niepolomice | suggestion=nan | type=unmatched
-- Football Bourg-En-Bresse Peronnas 01 | suggestion=nan | type=unmatched
-- Valenciennes FC | suggestion=nan | type=unmatched
-- KSZO Ostrowiec Swietokrzyski | suggestion=nan | type=unmatched
-- Wisla II Krakow | suggestion=nan | type=unmatched
-- LB Chateauroux | suggestion=nan | type=unmatched
-- Sochaux-Montbeliard | suggestion=nan | type=unmatched
-- Le Puy Foot 43 Auvergne | suggestion=nan | type=unmatched
-- Dijon FCO | suggestion=nan | type=unmatched
-- Maccabi Bney Reine | suggestion=nan | type=unmatched
-- Hapoel Ironi Kiryat Shmona FC | suggestion=nan | type=unmatched
-- MKS Znicz Pruszkow | suggestion=nan | type=unmatched
-- Polonia Bytom | suggestion=nan | type=unmatched
-- Wieczysta Krakow | suggestion=nan | type=unmatched
-- Miedz Legnica | suggestion=nan | type=unmatched
 - Benfica | suggestion=nan | type=unmatched
+- Sp Braga | suggestion=nan | type=unmatched
+- Estrela | suggestion=nan | type=unmatched
+- Famalicao | suggestion=nan | type=unmatched
+- Gil Vicente | suggestion=nan | type=unmatched
+- Arouca | suggestion=nan | type=unmatched
+- Guimaraes | suggestion=nan | type=unmatched
+- Casa Pia | suggestion=nan | type=unmatched
+- Huesca | suggestion=nan | type=unmatched
+- Sociedad B | suggestion=Sociedad | type=suggested_alias_needed
+- Rio Ave | suggestion=nan | type=unmatched
+- Sp Lisbon | suggestion=nan | type=unmatched
+- Santa Clara | suggestion=nan | type=unmatched
+- Nacional | suggestion=nan | type=unmatched
+- Tondela | suggestion=nan | type=unmatched
+- Moreirense | suggestion=nan | type=unmatched
+## Interpretation
 
 ## automatic_forward_value_snapshots
 
@@ -231,7 +231,7 @@ Average match confidence: None
 
 # Forward Fixture Predictions
 Probability-only forward fixture model output. Not a betting card and not a real-money recommendation.
-Upcoming fixture rows: 19
+Upcoming fixture rows: 11
 Forward fixture prediction rows: 3
 Ready for price join: True
 - 2026-05-11 19:45 | Napoli vs Bologna | H=0.4007 D=0.2843 A=0.3149 | fair=2.5/3.52/3.18
@@ -277,10 +277,10 @@ Average Brier score: None
 # Forward Input Status
 Manual Bet365 odds input is parked as an optional fallback. It is not an active development blocker.
 Current priority: automatic/free-data forward-testing sources and robust fixture/model matching.
-Upcoming fixtures: 19
-Manual template rows: 19
+Upcoming fixtures: 11
+Manual template rows: 11
 Rows with complete manual odds: 0
-Rows missing manual odds: 19
+Rows missing manual odds: 11
 Manual forward snapshot rows: 0
 Manual odds mode: optional_fallback_paused
 Manual odds is blocker: False
@@ -289,14 +289,6 @@ Automatic forward source needed: True
 Upcoming fixtures exist, but no automatic odds/proxy forward snapshot source is active yet.
 ## Optional manual fallback status
 Manual odds are not required in the current phase. These rows are only kept for later fallback use:
-- 2026-05-09 17:30 | FKS Stal Mielec vs Puszcza Niepolomice
-- 2026-05-09 17:30 | Football Bourg-En-Bresse Peronnas 01 vs Valenciennes FC
-- 2026-05-09 17:29 | KSZO Ostrowiec Swietokrzyski vs Wisla II Krakow
-- 2026-05-09 17:30 | LB Chateauroux vs Sochaux-Montbeliard
-- 2026-05-09 17:30 | Le Puy Foot 43 Auvergne vs Dijon FCO
-- 2026-05-09 17:15 | Maccabi Bney Reine vs Hapoel Ironi Kiryat Shmona FC
-- 2026-05-09 17:30 | MKS Znicz Pruszkow vs Polonia Bytom
-- 2026-05-09 17:30 | Wieczysta Krakow vs Miedz Legnica
 - 2026-05-11 20:15 | Benfica vs Sp Braga
 - 2026-05-11 20:15 | Estrela vs Famalicao
 - 2026-05-11 20:15 | Gil Vicente vs Arouca
@@ -304,6 +296,10 @@ Manual odds are not required in the current phase. These rows are only kept for 
 - 2026-05-11 19:30 | Huesca vs Sociedad B
 - 2026-05-11 19:45 | Napoli vs Bologna
 - 2026-05-11 20:15 | Rio Ave vs Sp Lisbon
+- 2026-05-11 20:15 | Santa Clara vs Nacional
+- 2026-05-11 20:15 | Tondela vs Moreirense
+- 2026-05-11 20:00 | Tottenham vs Leeds
+- 2026-05-11 20:00 | Vallecano vs Girona
 
 ## upcoming_fixtures
 
@@ -311,17 +307,9 @@ Manual odds are not required in the current phase. These rows are only kept for 
 Fixture sources: TheSportsDB, Football-Data fixtures proxy, cautious odds-api.io events, and disabled-by-default API-Football status.
 Duplicate fixtures are deduplicated by date and normalized teams, preferring odds-api.io then Football-Data for odds alignment.
 Primary development target: automatic/free market proxy, not manual Bet365.
-Fixtures found: 19
-Source counts: {'football_data_fixtures_proxy': 11, 'odds_api_io_events': 8}
+Fixtures found: 11
+Source counts: {'football_data_fixtures_proxy': 11}
 Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
-- 2026-05-09 17:30 | FKS Stal Mielec vs Puszcza Niepolomice | poland-i-liga | odds_api_io_events
-- 2026-05-09 17:30 | Football Bourg-En-Bresse Peronnas 01 vs Valenciennes FC | france-national | odds_api_io_events
-- 2026-05-09 17:29 | KSZO Ostrowiec Swietokrzyski vs Wisla II Krakow | poland-iii-liga-group-4 | odds_api_io_events
-- 2026-05-09 17:30 | LB Chateauroux vs Sochaux-Montbeliard | france-national | odds_api_io_events
-- 2026-05-09 17:30 | Le Puy Foot 43 Auvergne vs Dijon FCO | france-national | odds_api_io_events
-- 2026-05-09 17:15 | Maccabi Bney Reine vs Hapoel Ironi Kiryat Shmona FC | israel-premier-league | odds_api_io_events
-- 2026-05-09 17:30 | MKS Znicz Pruszkow vs Polonia Bytom | poland-i-liga | odds_api_io_events
-- 2026-05-09 17:30 | Wieczysta Krakow vs Miedz Legnica | poland-i-liga | odds_api_io_events
 - 2026-05-11 20:15 | Benfica vs Sp Braga | P1 | football_data_fixtures_proxy
 - 2026-05-11 20:15 | Estrela vs Famalicao | P1 | football_data_fixtures_proxy
 - 2026-05-11 20:15 | Gil Vicente vs Arouca | P1 | football_data_fixtures_proxy
@@ -340,16 +328,8 @@ Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 Use this only for forward paper-testing. Do not use for real-money betting.
 Existing filled odds are preserved when fixtures refresh.
 Fill the three 1X2 odds columns from Bet365 before kickoff, then commit/update the CSV or run the workflow manually.
-Template rows: 19
+Template rows: 11
 Rows with complete odds: 0
-- 2026-05-09 17:30 | FKS Stal Mielec vs Puszcza Niepolomice | bookmaker=bet365_manual
-- 2026-05-09 17:30 | Football Bourg-En-Bresse Peronnas 01 vs Valenciennes FC | bookmaker=bet365_manual
-- 2026-05-09 17:29 | KSZO Ostrowiec Swietokrzyski vs Wisla II Krakow | bookmaker=bet365_manual
-- 2026-05-09 17:30 | LB Chateauroux vs Sochaux-Montbeliard | bookmaker=bet365_manual
-- 2026-05-09 17:30 | Le Puy Foot 43 Auvergne vs Dijon FCO | bookmaker=bet365_manual
-- 2026-05-09 17:15 | Maccabi Bney Reine vs Hapoel Ironi Kiryat Shmona FC | bookmaker=bet365_manual
-- 2026-05-09 17:30 | MKS Znicz Pruszkow vs Polonia Bytom | bookmaker=bet365_manual
-- 2026-05-09 17:30 | Wieczysta Krakow vs Miedz Legnica | bookmaker=bet365_manual
 - 2026-05-11 20:15 | Benfica vs Sp Braga | bookmaker=bet365_manual
 - 2026-05-11 20:15 | Estrela vs Famalicao | bookmaker=bet365_manual
 - 2026-05-11 20:15 | Gil Vicente vs Arouca | bookmaker=bet365_manual
@@ -375,14 +355,6 @@ Open `data/manual/manual_odds_template.csv` and fill these columns only:
 - `odds_captured_at_utc`
 Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 ## Current rows needing odds
-- 2026-05-09 17:30 | FKS Stal Mielec vs Puszcza Niepolomice
-- 2026-05-09 17:30 | Football Bourg-En-Bresse Peronnas 01 vs Valenciennes FC
-- 2026-05-09 17:29 | KSZO Ostrowiec Swietokrzyski vs Wisla II Krakow
-- 2026-05-09 17:30 | LB Chateauroux vs Sochaux-Montbeliard
-- 2026-05-09 17:30 | Le Puy Foot 43 Auvergne vs Dijon FCO
-- 2026-05-09 17:15 | Maccabi Bney Reine vs Hapoel Ironi Kiryat Shmona FC
-- 2026-05-09 17:30 | MKS Znicz Pruszkow vs Polonia Bytom
-- 2026-05-09 17:30 | Wieczysta Krakow vs Miedz Legnica
 - 2026-05-11 20:15 | Benfica vs Sp Braga
 - 2026-05-11 20:15 | Estrela vs Famalicao
 - 2026-05-11 20:15 | Gil Vicente vs Arouca
@@ -394,6 +366,11 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-11 20:15 | Tondela vs Moreirense
 - 2026-05-11 20:00 | Tottenham vs Leeds
 - 2026-05-11 20:00 | Vallecano vs Girona
+## After filling odds
+Run the workflow again. Expected result:
+- `manual_forward_snapshots` becomes greater than 0
+- `paper_test_picks` may become greater than 0
+- `candidate_bets` may still remain 0, which is acceptable
 
 ## manual_forward_snapshots
 

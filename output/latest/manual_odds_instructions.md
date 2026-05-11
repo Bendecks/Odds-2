@@ -17,14 +17,6 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 
 ## Current rows needing odds
 
-- 2026-05-09 17:30 | FKS Stal Mielec vs Puszcza Niepolomice
-- 2026-05-09 17:30 | Football Bourg-En-Bresse Peronnas 01 vs Valenciennes FC
-- 2026-05-09 17:29 | KSZO Ostrowiec Swietokrzyski vs Wisla II Krakow
-- 2026-05-09 17:30 | LB Chateauroux vs Sochaux-Montbeliard
-- 2026-05-09 17:30 | Le Puy Foot 43 Auvergne vs Dijon FCO
-- 2026-05-09 17:15 | Maccabi Bney Reine vs Hapoel Ironi Kiryat Shmona FC
-- 2026-05-09 17:30 | MKS Znicz Pruszkow vs Polonia Bytom
-- 2026-05-09 17:30 | Wieczysta Krakow vs Miedz Legnica
 - 2026-05-11 20:15 | Benfica vs Sp Braga
 - 2026-05-11 20:15 | Estrela vs Famalicao
 - 2026-05-11 20:15 | Gil Vicente vs Arouca
