@@ -5,15 +5,16 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T05:00:24.902527+00:00`
-GitHub run: `189` attempt `1`
-GitHub SHA: `ec798790d9ceb21de3f79d7592cab6c7a7e9f585`
+Generated UTC: `2026-05-11T05:05:22.196532+00:00`
+GitHub run: `190` attempt `1`
+GitHub SHA: `ae424661d69bec35c60e825864b2642036f34c5f`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
 | football-data.co.uk Premier League 24/25 | True | 380 |  |  |
 | Upcoming fixtures | True | 1 |  |  |
 | Manual odds template | True | 1 |  |  |
+| Manual odds instructions | True | 17 |  |  |
 | Manual forward snapshots | True | 0 |  |  |
 | ClubElo latest snapshot | True | 630 |  |  |
 | Basic team strength model | True | 119 |  |  |
@@ -33,18 +34,24 @@ Overall status: `OK`
 | CLV band diagnostics | True | 4 |  |  |
 | Signal suppression rules | True | 2 |  |  |
 | Rule action summary | True | 2 |  |  |
-| Sample phase performance | True | 2 |  |  |
 
 ## forward_input_status
 
 # Forward Input Status
+Manual Bet365 odds input is parked as an optional fallback. It is not an active development blocker.
+Current priority: automatic/free-data forward-testing sources and robust fixture/model matching.
 Upcoming fixtures: 1
 Manual template rows: 1
-Rows with complete odds: 0
-Rows missing odds: 1
+Rows with complete manual odds: 0
+Rows missing manual odds: 1
 Manual forward snapshot rows: 0
-Ready for forward paper generation: False
-## Rows needing odds
+Manual odds mode: optional_fallback_paused
+Manual odds is blocker: False
+Automatic forward source needed: True
+## Current automatic-forward blocker
+Upcoming fixtures exist, but no automatic odds/proxy forward snapshot source is active yet.
+## Optional manual fallback status
+Manual odds are not required in the current phase. These rows are only kept for later fallback use:
 - 2026-05-11 19:00:00 | Tottenham Hotspur vs Leeds United
 
 ## upcoming_fixtures
