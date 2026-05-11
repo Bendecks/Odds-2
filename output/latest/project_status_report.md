@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T09:16:36.306995+00:00`
-GitHub run: `231` attempt `1`
-GitHub SHA: `a21f82474ba34f94087bbac86b0e395e05e59818`
+Generated UTC: `2026-05-11T09:19:38.789236+00:00`
+GitHub run: `232` attempt `1`
+GitHub SHA: `9b32185e40733efb4709eb8aab8bd61d11ec8cda`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -17,6 +17,8 @@ Overall status: `OK`
 | Automatic forward value snapshots | True | 9 |  |  |
 | Automatic forward value snapshot summary | True | 1 |  |  |
 | Automatic forward value match diagnostics | True | 1 |  |  |
+| Proxy observation quality report | True | 1 |  |  |
+| Proxy observation by selection | True | 2 |  |  |
 | Upcoming fixtures | True | 1 |  |  |
 | Forward fixture results | True | 1 |  |  |
 | Forward fixture result status | True | 1 |  |  |
@@ -32,8 +34,6 @@ Overall status: `OK`
 | Forward fixture prediction log | True | 1 |  |  |
 | Forward fixture prediction log status | True | 1 |  |  |
 | Manual odds template | True | 1 |  |  |
-| Manual odds instructions | True | 17 |  |  |
-| Manual forward snapshots | True | 0 |  |  |
 
 ## football_data_upcoming_odds
 
@@ -107,6 +107,25 @@ Positive EV rows: 5
 - 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=HOME | src=football_data_max_market_proxy | odds=1.86 | prob=0.4257 | EV=-0.208198 | match=1.0
 - 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=HOME | src=football_data_bet365_proxy | odds=1.83 | prob=0.4257 | EV=-0.220969 | match=1.0
 - 2026-05-11 | Tottenham Hotspur vs Leeds United | sel=HOME | src=football_data_average_market_proxy | odds=1.82 | prob=0.4257 | EV=-0.225226 | match=1.0
+
+## proxy_observation_quality
+
+# Proxy Observation Quality Report
+Quality diagnostics for automatic delayed-market proxy paper observations.
+This is not real-money ready and does not override suppression rules for candidate bets.
+Value snapshot rows: 9
+Paper proxy observation rows: 5
+Positive EV value rows: 5
+Suppressed-band observation rows: 5
+Distinct matches: 1
+Distinct sources: 0
+Max EV: 0.29232
+Average EV: 0.166741
+Max probability edge: 0.071298
+Average match confidence: None
+## By selection
+- away: rows=3, avg_ev=0.2366, max_ev=0.2923
+- draw: rows=2, avg_ev=0.0619, max_ev=0.0619
 
 ## forward_fixture_predictions
 
