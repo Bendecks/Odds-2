@@ -16,18 +16,40 @@ expected_columns = [
     'odds_captured_at_utc', 'odds_source_note'
 ]
 
-if fixtures_path.exists() and fixtures_path.stat().st_size > 0:
+preserve_columns = [
+    'bookmaker', 'market_home_odds', 'market_draw_odds', 'market_away_odds',
+    'odds_captured_at_utc', 'odds_source_note'
+]
+
+
+def safe_read_csv(path: Path) -> pd.DataFrame:
+    if not path.exists() or path.stat().st_size == 0:
+        return pd.DataFrame()
     try:
-        fixtures = pd.read_csv(fixtures_path)
+        return pd.read_csv(path)
     except Exception:
-        fixtures = pd.DataFrame()
+        return pd.DataFrame()
+
+
+fixtures = safe_read_csv(fixtures_path)
+existing = safe_read_csv(template_path)
+
+if len(existing):
+    for col in expected_columns:
+        if col not in existing.columns:
+            existing[col] = None
+    existing['fixture_id'] = existing['fixture_id'].astype(str)
 else:
-    fixtures = pd.DataFrame()
+    existing = pd.DataFrame(columns=expected_columns)
 
 rows = []
 if len(fixtures):
     for _, row in fixtures.iterrows():
-        rows.append({
+        fixture_id = str(row.get('fixture_id'))
+        preserved = existing[existing['fixture_id'].astype(str) == fixture_id]
+        preserved_row = preserved.iloc[0].to_dict() if len(preserved) else {}
+
+        new_row = {
             'fixture_id': row.get('fixture_id'),
             'match_date': row.get('match_date'),
             'match_time': row.get('match_time'),
@@ -40,7 +62,14 @@ if len(fixtures):
             'market_away_odds': '',
             'odds_captured_at_utc': '',
             'odds_source_note': 'Fill manually from Bet365 pre-match 1X2 odds. Observation only.',
-        })
+        }
+
+        for col in preserve_columns:
+            value = preserved_row.get(col)
+            if pd.notna(value) and str(value).strip() != '':
+                new_row[col] = value
+
+        rows.append(new_row)
 
 template = pd.DataFrame(rows)
 for col in expected_columns:
@@ -51,13 +80,21 @@ template = template[expected_columns]
 template.to_csv(template_path, index=False)
 template.to_csv(latest_template_path, index=False)
 
+complete_rows = 0
+if len(template):
+    odds_cols = ['market_home_odds', 'market_draw_odds', 'market_away_odds']
+    odds = template[odds_cols].apply(pd.to_numeric, errors='coerce')
+    complete_rows = int(odds.notna().all(axis=1).sum())
+
 markdown = [
     '# Manual Odds Template',
     '',
     'Use this only for forward paper-testing. Do not use for real-money betting.',
-    'Fill the three 1X2 odds columns from Bet365 before kickoff, then commit/update the CSV if paper-testing manually.',
+    'Existing filled odds are preserved when fixtures refresh.',
+    'Fill the three 1X2 odds columns from Bet365 before kickoff, then commit/update the CSV or run the workflow manually.',
     '',
     f'Template rows: {len(template)}',
+    f'Rows with complete odds: {complete_rows}',
     '',
 ]
 
@@ -71,4 +108,4 @@ else:
 
 (output_dir / 'manual_odds_template.md').write_text('\n'.join(markdown), encoding='utf-8')
 
-print(f'Generated manual odds template with {len(template)} rows')
+print(f'Generated manual odds template with {len(template)} rows and preserved {complete_rows} complete odds rows')
