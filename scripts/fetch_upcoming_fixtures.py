@@ -1,4 +1,5 @@
 import json
+import runpy
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
@@ -62,7 +63,7 @@ markdown = [
     '# Upcoming Fixtures',
     '',
     'Fixture source: TheSportsDB eventsnextleague API.',
-    'Odds source: not included. Bet365/manual odds snapshot is required for forward paper-test picks.',
+    'Odds source: not included. Manual odds fallback is parked; automatic forward price source remains the active target.',
     '',
     f'Fixtures found: {len(fixtures)}',
     '',
@@ -82,5 +83,12 @@ if errors:
         markdown.append(f"- {error['league']}: {error['error']}")
 
 (output_dir / 'upcoming_fixtures.md').write_text('\n'.join(markdown), encoding='utf-8')
+
+result_script = Path('scripts/fetch_forward_fixture_results.py')
+if result_script.exists():
+    try:
+        runpy.run_path(str(result_script), run_name='__main__')
+    except Exception as exc:
+        print(f'Forward fixture result fetch skipped: {exc!r}')
 
 print(f'Fetched {len(fixtures)} upcoming fixtures')
