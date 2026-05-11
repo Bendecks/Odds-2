@@ -18,6 +18,7 @@ base_url = 'https://api.odds-api.io/v3'
 max_events = int(os.getenv('ODDS_API_IO_MAX_EVENTS', '8'))
 max_calls = int(os.getenv('ODDS_API_IO_MAX_CALLS', '2'))
 bookmakers = os.getenv('ODDS_API_IO_BOOKMAKERS', 'Bet365,1xbet').strip()
+search_query = os.getenv('ODDS_API_IO_SEARCH_QUERY', '').strip()
 
 price_columns = [
     'fixture_id', 'match_date', 'match_time', 'home_team', 'away_team', 'league',
@@ -35,7 +36,7 @@ errors = []
 calls_used = 0
 fetched_at = datetime.now(timezone.utc).isoformat()
 today = datetime.now(timezone.utc).date()
-discovery_mode = 'events_endpoint_documented_sport_limit'
+discovery_mode = 'events_endpoint_then_targeted_search_fallback'
 
 
 def get_json(url: str, label: str):
@@ -55,6 +56,30 @@ def get_json(url: str, label: str):
         raise RuntimeError(f'HTTP {exc.code}: {body[:300]}')
 
 
+def safe_read_csv(path: Path) -> pd.DataFrame:
+    if not path.exists() or path.stat().st_size == 0:
+        return pd.DataFrame()
+    try:
+        return pd.read_csv(path)
+    except Exception:
+        return pd.DataFrame()
+
+
+def choose_search_query() -> str:
+    if search_query:
+        return search_query
+    fixtures = safe_read_csv(output_dir / 'football_data_upcoming_fixtures.csv')
+    if len(fixtures):
+        fixtures['parsed_date'] = pd.to_datetime(fixtures.get('match_date'), errors='coerce', utc=True)
+        upcoming = fixtures[fixtures['parsed_date'].dt.date >= today].copy()
+        if len(upcoming):
+            for col in ['home_team', 'away_team']:
+                value = str(upcoming.iloc[0].get(col) or '').strip()
+                if len(value) >= 3:
+                    return value
+    return 'Tottenham'
+
+
 def parse_datetime(value):
     parsed = pd.to_datetime(value, errors='coerce', utc=True)
     if pd.isna(parsed):
@@ -70,6 +95,49 @@ def event_items(payload):
             if isinstance(payload.get(key), list):
                 return payload.get(key)
     return []
+
+
+def normalize_events(events, source_label):
+    event_meta = {}
+    for event in events:
+        event_id = event.get('id') or event.get('eventId') or event.get('event_id')
+        if event_id is None:
+            continue
+        event_id = str(event_id)
+        home = event.get('home') or event.get('homeTeam') or event.get('home_team')
+        away = event.get('away') or event.get('awayTeam') or event.get('away_team')
+        date_value = event.get('date') or event.get('startTime') or event.get('commence_time') or event.get('start_time')
+        parsed_date, match_date, match_time = parse_datetime(date_value)
+        league = None
+        if isinstance(event.get('league'), dict):
+            league = event['league'].get('slug') or event['league'].get('name')
+        league = league or event.get('league') or 'football'
+        status = str(event.get('status') or 'unknown').lower()
+        event_meta[event_id] = {
+            'fixture_id': f'odds_api_io_{event_id}',
+            'raw_event_id': event_id,
+            'league': league,
+            'league_id': league,
+            'season': 'upcoming',
+            'match_date': match_date,
+            'match_time': match_time,
+            'parsed_date': parsed_date,
+            'home_team': home,
+            'away_team': away,
+            'source': source_label,
+            'event_status': status,
+            'fetched_at_utc': fetched_at,
+        }
+    return [meta for meta in event_meta.values() if meta.get('home_team') and meta.get('away_team')]
+
+
+def eligible(fixtures):
+    return [
+        meta for meta in fixtures
+        if meta.get('parsed_date') is not None
+        and meta['parsed_date'].date() >= today
+        and meta.get('event_status') not in {'settled', 'cancelled', 'finished', 'closed'}
+    ]
 
 
 def extract_three_way_odds(odds_payload):
@@ -99,6 +167,9 @@ def extract_three_way_odds(odds_payload):
     walk(odds_payload)
     return candidates[0] if candidates else (None, None, None)
 
+eligible_rows = []
+used_search_query = None
+
 if not api_key:
     errors.append({'stage': 'config', 'error': 'ODDS_API_IO_KEY missing'})
 else:
@@ -109,48 +180,23 @@ else:
             'limit': max_events,
         })
         events_payload = get_json(events_url, 'events')
-        events = event_items(events_payload)[:max_events]
+        event_rows = normalize_events(event_items(events_payload)[:max_events], 'odds_api_io_events')
+        fixture_rows.extend(event_rows)
+        eligible_rows = eligible(event_rows)
 
-        event_meta = {}
-        for event in events:
-            event_id = event.get('id') or event.get('eventId') or event.get('event_id')
-            if event_id is None:
-                continue
-            event_id = str(event_id)
-            home = event.get('home') or event.get('homeTeam') or event.get('home_team')
-            away = event.get('away') or event.get('awayTeam') or event.get('away_team')
-            date_value = event.get('date') or event.get('startTime') or event.get('commence_time') or event.get('start_time')
-            parsed_date, match_date, match_time = parse_datetime(date_value)
-            league = None
-            if isinstance(event.get('league'), dict):
-                league = event['league'].get('slug') or event['league'].get('name')
-            league = league or event.get('league') or 'football'
-            status = str(event.get('status') or 'unknown').lower()
-            event_meta[event_id] = {
-                'fixture_id': f'odds_api_io_{event_id}',
-                'raw_event_id': event_id,
-                'league': league,
-                'league_id': league,
-                'season': 'upcoming',
-                'match_date': match_date,
-                'match_time': match_time,
-                'parsed_date': parsed_date,
-                'home_team': home,
-                'away_team': away,
-                'source': 'odds_api_io_events',
-                'event_status': status,
-                'fetched_at_utc': fetched_at,
-            }
-        fixture_rows = [meta for meta in event_meta.values() if meta.get('home_team') and meta.get('away_team')]
-        eligible_rows = [
-            meta for meta in fixture_rows
-            if meta.get('parsed_date') is not None
-            and meta['parsed_date'].date() >= today
-            and meta.get('event_status') not in {'settled', 'cancelled', 'finished', 'closed'}
-        ]
+        if not eligible_rows and calls_used < max_calls:
+            used_search_query = choose_search_query()
+            search_url = f"{base_url}/events/search?" + urllib.parse.urlencode({
+                'apiKey': api_key,
+                'query': used_search_query,
+            })
+            search_payload = get_json(search_url, 'events_search_fallback')
+            search_rows = normalize_events(event_items(search_payload)[:max_events], 'odds_api_io_events_search_fallback')
+            fixture_rows.extend(search_rows)
+            eligible_rows = eligible(search_rows)
 
         if not eligible_rows:
-            errors.append({'stage': 'event_selection', 'error': 'No future non-settled event available from documented events endpoint; skipped odds call'})
+            errors.append({'stage': 'event_selection', 'error': 'No future non-settled event available from documented events endpoint or targeted search fallback; skipped odds call'})
 
         if eligible_rows and calls_used < max_calls:
             try:
@@ -209,8 +255,9 @@ summary = {
     'max_calls': max_calls,
     'max_events': max_events,
     'discovery_mode': discovery_mode,
+    'search_query_used': used_search_query,
     'fixture_rows': int(len(fixtures)),
-    'eligible_future_fixture_rows': int(len(eligible_rows)) if 'eligible_rows' in locals() else 0,
+    'eligible_future_fixture_rows': int(len(eligible_rows)),
     'price_rows': int(len(prices)),
     'errors': int(len(errors)),
     'bookmakers_param_mode': 'explicit_selected_bookmakers',
@@ -224,13 +271,14 @@ markdown = [
     '# odds-api.io Forward Price Fetch',
     '',
     'Cautious optional API source. Hard-capped by ODDS_API_IO_MAX_CALLS and ODDS_API_IO_MAX_EVENTS.',
-    'Uses documented /v3/events with sport+limit, then /v3/odds for one eligible future event.',
+    'Uses documented /v3/events with sport+limit first; if no future event is found, uses one targeted /v3/events/search fallback. With max_calls=2 this prevents odds calls when discovery fails.',
     'Not real-money ready until validated against forward results and other sources.',
     '',
     f"Enabled: {summary['enabled']}",
     f"Calls used: {summary['calls_used']} / {summary['max_calls']}",
     f"Max events: {summary['max_events']}",
     f"Discovery mode: {summary['discovery_mode']}",
+    f"Search query used: {summary['search_query_used']}",
     f"Bookmakers parameter mode: {summary['bookmakers_param_mode']}",
     f"Bookmakers requested: {summary['bookmakers_requested']}",
     f"Odds endpoint mode: {summary['odds_endpoint_mode']}",
