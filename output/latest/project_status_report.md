@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T10:22:02.219558+00:00`
-GitHub run: `237` attempt `1`
-GitHub SHA: `e91a7e6e13ae93e581c244080644edeb671602dd`
+Generated UTC: `2026-05-11T10:24:58.152814+00:00`
+GitHub run: `238` attempt `1`
+GitHub SHA: `0a55007bea6e473209fdc8f2ad09567076886a85`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -34,6 +34,39 @@ Overall status: `OK`
 | Forward fixture prediction summary | True | 1 |  |  |
 | Forward fixture prediction log | True | 4 |  |  |
 | Forward fixture prediction log status | True | 1 |  |  |
+
+## project_goal_readiness
+
+# Project Goal Readiness Report
+Overall project stage: `proxy_paper_testing_started`
+## Current counts
+- Forward fixture predictions: 3
+- Automatic value snapshots: 27
+- Positive EV proxy rows: 13
+- Proxy observation rows: 7
+- Valid forward/proxy log rows: 12
+- Settled forward rows: 0
+- Real-money ready: False
+## Stage checklist
+### historical_proxy_research
+Status: `complete_but_negative_clv`
+Target: Historical pipeline runs and exposes calibration/CLV weaknesses.
+Current: Historical outputs exist; CLV trend remains negative.
+Done when: Use only for model diagnostics, not betting decisions.
+### automatic_proxy_odds_ingestion
+Status: `working`
+Target: Free automatic odds proxy exists and validates.
+Current: 27 value snapshots from delayed proxy prices.
+Done when: Keep Football-Data as baseline; add optional API source for fresher odds.
+### paper_forward_testing
+Status: `started_not_mature`
+Target: At least 50-100 logged proxy observations across several matchdays.
+Current: 12 valid forward/proxy log rows.
+Done when: Minimum 50 observations before drawing early conclusions; 100+ preferred.
+### forward_probability_calibration
+Status: `not_ready`
+Target: Settled forward rows available for Brier/accuracy/calibration review.
+Current: 0 settled forward rows.
 
 ## football_data_upcoming_odds
 
