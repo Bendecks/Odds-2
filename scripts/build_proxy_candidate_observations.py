@@ -44,8 +44,17 @@ def probability_band(probability: float) -> str:
     return 'unknown'
 
 
+def norm_team(value) -> str:
+    text = str(value or '').lower().strip()
+    for token in ['hotspur', 'united', 'utd', 'fc', 'afc', 'cf', '.', ',', '&']:
+        text = text.replace(token, ' ')
+    return ' '.join(text.split())
+
+
 value = safe_read_parquet(value_path)
 rules = safe_read_csv(rules_path)
+pre_dedupe_rows = 0
+reason = ''
 
 if len(value) == 0:
     proxy = pd.DataFrame(columns=expected_columns)
@@ -121,6 +130,7 @@ else:
             & df['alignment_penalty'].fillna(1).between(0.00, 0.65)
         )
         proxy = df[base_filter].copy()
+        pre_dedupe_rows = int(len(proxy))
 
         if len(proxy):
             action_weight = proxy['suppression_action'].map({
@@ -151,6 +161,12 @@ else:
             proxy.loc[proxy['suppression_action'].astype(str).str.contains('suppressed', na=False), 'proxy_candidate_tier'] = 'suppressed_proxy_watchlist'
             proxy['proxy_candidate_reason'] = 'proxy_candidate_observation_not_real_money'
             proxy['real_money_ready'] = False
+            proxy['dedupe_home'] = proxy['home_team'].apply(norm_team)
+            proxy['dedupe_away'] = proxy['away_team'].apply(norm_team)
+            proxy['dedupe_selection'] = proxy['selection'].astype(str).str.lower().str.strip()
+            proxy = proxy.sort_values(['proxy_candidate_score', 'ev', 'market_odds'], ascending=False)
+            proxy = proxy.drop_duplicates(['match_date', 'dedupe_home', 'dedupe_away', 'dedupe_selection'], keep='first')
+            proxy = proxy.drop(columns=['dedupe_home', 'dedupe_away', 'dedupe_selection'], errors='ignore')
             proxy = proxy.sort_values(['proxy_candidate_score'], ascending=False).head(12)
             reason = ''
         else:
@@ -166,9 +182,11 @@ proxy.to_parquet(output_dir / 'proxy_candidate_observations.parquet', index=Fals
 
 summary = {
     'automatic_value_rows': int(len(value)),
+    'pre_dedupe_proxy_candidate_observation_rows': pre_dedupe_rows,
     'proxy_candidate_observation_rows': int(len(proxy)),
     'proxy_candidate_like_rows': int((proxy['proxy_candidate_tier'] == 'proxy_candidate_like').sum()) if len(proxy) else 0,
     'suppressed_proxy_watchlist_rows': int((proxy['proxy_candidate_tier'] == 'suppressed_proxy_watchlist').sum()) if len(proxy) else 0,
+    'dedupe_strategy': 'match_date_normalized_teams_selection_keep_best_score',
     'real_money_ready': False,
 }
 pd.DataFrame([summary]).to_csv(output_dir / 'proxy_candidate_observation_summary.csv', index=False)
@@ -178,11 +196,14 @@ markdown = [
     '',
     'Intermediate layer between paper-test picks and real candidate bets.',
     'These rows are proxy/paper observations only and must not be treated as real-money candidates.',
+    'Deduplicated by match date, normalized teams, and selection; best proxy score is kept.',
     '',
     f"Automatic value rows: {summary['automatic_value_rows']}",
+    f"Pre-dedupe proxy candidate observation rows: {summary['pre_dedupe_proxy_candidate_observation_rows']}",
     f"Proxy candidate observation rows: {summary['proxy_candidate_observation_rows']}",
     f"Proxy candidate-like rows: {summary['proxy_candidate_like_rows']}",
     f"Suppressed proxy watchlist rows: {summary['suppressed_proxy_watchlist_rows']}",
+    f"Dedupe strategy: {summary['dedupe_strategy']}",
     f"Real-money ready: {summary['real_money_ready']}",
     '',
 ]
