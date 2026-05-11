@@ -1,1 +1,2 @@
 prediction_id,fixture_id,match_date,match_time,home_team,away_team,league,sample_phase,expected_home_goals,expected_away_goals,home_win_probability,draw_probability,away_win_probability,fair_home_odds,fair_draw_odds,fair_away_odds,model_source
+a34fb57cd5c2b5199b69,2267431,2026-05-11,19:00:00,Tottenham Hotspur,Leeds United,premier_league,upcoming_fixture_probability_only,1.884,1.488,0.4257,0.259,0.3152,2.35,3.86,3.17,conservative_poisson_forward_fixture

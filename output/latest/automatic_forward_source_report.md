@@ -5,20 +5,19 @@ Manual odds are optional fallback only and are not treated as a blocker in this 
 
 Upcoming fixture rows: 1
 Fixture team rows checked: 2
-Fixture team rows unmatched: 2
-Ready for model-fixture join: False
+Fixture team rows unmatched: 0
+Ready for model-fixture join: True
 Historical market proxy rows: 30
 Configured forward sources: 1
 Automatic forward price rows: 0
 Automatic forward status: automatic_forward_not_ready
-Blocker: fixture_model_team_matching_incomplete
-Next development step: add_team_aliases_for_upcoming_fixtures
+Blocker: only_historical_market_proxy_available_not_forward_valid
+Next development step: replace_historical_market_proxy_for_forward_testing
 
 ## Team matching
 
-- Tottenham Hotspur | suggestion=None | type=unmatched
-- Leeds United | suggestion=None | type=unmatched
+All fixture teams match the model team table.
 
 ## Interpretation
 
-Fixtures are available, but team matching must be fixed before forward model snapshots can be generated.
+Fixtures and model matching are available, but there is no automatic forward price source yet.

@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-11T06:54:03.413151+00:00`
-GitHub run: `202` attempt `1`
-GitHub SHA: `a07d8e6e8bae5e261abc337be84c3ba7aa43293f`
+Generated UTC: `2026-05-11T06:58:55.387481+00:00`
+GitHub run: `203` attempt `1`
+GitHub SHA: `9a6005a8e97b200bd4408a72c624debfcfe4a4d9`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -42,19 +42,18 @@ Purpose: distinguish true automatic forward inputs from historical market proxy 
 Manual odds are optional fallback only and are not treated as a blocker in this development phase.
 Upcoming fixture rows: 1
 Fixture team rows checked: 2
-Fixture team rows unmatched: 2
-Ready for model-fixture join: False
+Fixture team rows unmatched: 0
+Ready for model-fixture join: True
 Historical market proxy rows: 30
 Configured forward sources: 1
 Automatic forward price rows: 0
 Automatic forward status: automatic_forward_not_ready
-Blocker: fixture_model_team_matching_incomplete
-Next development step: add_team_aliases_for_upcoming_fixtures
+Blocker: only_historical_market_proxy_available_not_forward_valid
+Next development step: replace_historical_market_proxy_for_forward_testing
 ## Team matching
-- Tottenham Hotspur | suggestion=None | type=unmatched
-- Leeds United | suggestion=None | type=unmatched
+All fixture teams match the model team table.
 ## Interpretation
-Fixtures are available, but team matching must be fixed before forward model snapshots can be generated.
+Fixtures and model matching are available, but there is no automatic forward price source yet.
 
 ## forward_input_status
 
