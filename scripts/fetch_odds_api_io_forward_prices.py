@@ -26,7 +26,7 @@ price_columns = [
 ]
 fixture_columns = [
     'fixture_id', 'league', 'league_id', 'season', 'match_date', 'match_time',
-    'home_team', 'away_team', 'source', 'fetched_at_utc'
+    'home_team', 'away_team', 'source', 'fetched_at_utc', 'event_status'
 ]
 
 rows = []
@@ -34,6 +34,7 @@ fixture_rows = []
 errors = []
 calls_used = 0
 fetched_at = datetime.now(timezone.utc).isoformat()
+today = datetime.now(timezone.utc).date()
 
 
 def get_json(url: str, label: str):
@@ -53,11 +54,11 @@ def get_json(url: str, label: str):
         raise RuntimeError(f'HTTP {exc.code}: {body[:300]}')
 
 
-def parse_date(value):
+def parse_datetime(value):
     parsed = pd.to_datetime(value, errors='coerce', utc=True)
     if pd.isna(parsed):
-        return None, None
-    return parsed.date().isoformat(), parsed.time().isoformat(timespec='minutes')
+        return None, None, None
+    return parsed, parsed.date().isoformat(), parsed.time().isoformat(timespec='minutes')
 
 
 def event_items(payload):
@@ -118,11 +119,12 @@ else:
             home = event.get('home') or event.get('homeTeam') or event.get('home_team')
             away = event.get('away') or event.get('awayTeam') or event.get('away_team')
             date_value = event.get('date') or event.get('startTime') or event.get('commence_time') or event.get('start_time')
-            match_date, match_time = parse_date(date_value)
+            parsed_date, match_date, match_time = parse_datetime(date_value)
             league = None
             if isinstance(event.get('league'), dict):
                 league = event['league'].get('slug') or event['league'].get('name')
             league = league or event.get('league') or 'football'
+            status = str(event.get('status') or 'unknown').lower()
             event_meta[event_id] = {
                 'fixture_id': f'odds_api_io_{event_id}',
                 'raw_event_id': event_id,
@@ -131,17 +133,27 @@ else:
                 'season': 'upcoming',
                 'match_date': match_date,
                 'match_time': match_time,
+                'parsed_date': parsed_date,
                 'home_team': home,
                 'away_team': away,
                 'source': 'odds_api_io_events',
+                'event_status': status,
                 'fetched_at_utc': fetched_at,
             }
         fixture_rows = [meta for meta in event_meta.values() if meta.get('home_team') and meta.get('away_team')]
+        eligible_rows = [
+            meta for meta in fixture_rows
+            if meta.get('parsed_date') is not None
+            and meta['parsed_date'].date() >= today
+            and meta.get('event_status') not in {'settled', 'cancelled', 'finished', 'closed'}
+        ]
 
-        # Use documented single-event endpoint. With max_calls=2 this means one events call + one odds call.
-        if fixture_rows and calls_used < max_calls:
+        if not eligible_rows:
+            errors.append({'stage': 'event_selection', 'error': 'No future non-settled event available in fetched odds-api.io events; skipped odds call'})
+
+        if eligible_rows and calls_used < max_calls:
             try:
-                meta = fixture_rows[0]
+                meta = eligible_rows[0]
                 params = {
                     'apiKey': api_key,
                     'eventId': meta['raw_event_id'],
@@ -196,6 +208,7 @@ summary = {
     'max_calls': max_calls,
     'max_events': max_events,
     'fixture_rows': int(len(fixtures)),
+    'eligible_future_fixture_rows': int(len(eligible_rows)) if 'eligible_rows' in locals() else 0,
     'price_rows': int(len(prices)),
     'errors': int(len(errors)),
     'bookmakers_param_mode': 'explicit_selected_bookmakers',
@@ -209,7 +222,7 @@ markdown = [
     '# odds-api.io Forward Price Fetch',
     '',
     'Cautious optional API source. Hard-capped by ODDS_API_IO_MAX_CALLS and ODDS_API_IO_MAX_EVENTS.',
-    'Uses the documented single-event /v3/odds endpoint: one events call plus one odds call by default.',
+    'Uses the documented single-event /v3/odds endpoint when a future non-settled event is available.',
     'Not real-money ready until validated against forward results and other sources.',
     '',
     f"Enabled: {summary['enabled']}",
@@ -219,15 +232,16 @@ markdown = [
     f"Bookmakers requested: {summary['bookmakers_requested']}",
     f"Odds endpoint mode: {summary['odds_endpoint_mode']}",
     f"Fixture rows: {summary['fixture_rows']}",
+    f"Eligible future fixture rows: {summary['eligible_future_fixture_rows']}",
     f"Price rows: {summary['price_rows']}",
-    f"Errors: {summary['errors']}",
+    f"Errors/status rows: {summary['errors']}",
     '',
 ]
 if len(prices):
     for _, row in prices.head(20).iterrows():
         markdown.append(f"- {row['match_date']} {row['match_time']} | {row['home_team']} vs {row['away_team']} | {row['market_home_odds']}/{row['market_draw_odds']}/{row['market_away_odds']}")
 if errors:
-    markdown.extend(['', '## Errors', ''])
+    markdown.extend(['', '## Errors / Status', ''])
     for error in errors[:10]:
         markdown.append(f"- {error['stage']}: {error['error']}")
 
