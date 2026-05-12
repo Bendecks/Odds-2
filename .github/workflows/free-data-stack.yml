@@ -162,6 +162,9 @@ jobs:
       - name: Build odds-api.io bookmaker diagnostics
         run: python scripts/build_odds_api_io_bookmaker_report.py
 
+      - name: Build odds-api.io market inventory diagnostics
+        run: python scripts/build_odds_api_io_market_inventory_report.py
+
       - name: Build paper test picks
         run: python scripts/build_paper_test_picks.py
 
