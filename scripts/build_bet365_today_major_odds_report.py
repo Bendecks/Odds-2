@@ -16,7 +16,32 @@ BOOKMAKER = 'Bet365'
 TZ = ZoneInfo('Europe/Copenhagen')
 OUTPUT_DIR = Path('output/bet365/latest')
 RAW_DIR = Path('data/raw/odds_api_io/bet365_today_major_report')
-EXCLUDED_PATTERN = re.compile(r'(\bu\s?\d{2}\b|\bunder\s?\d{2}\b|\breserve\b|\breserves\b|\breserver\b|\byouth\b|\bacademy\b|\bb\s?team\b|\bii\b)', re.IGNORECASE)
+
+EXCLUDED_PATTERN = re.compile(
+    r'(\bu\s?\d{2}\b|\bunder\s?\d{2}\b|\breserve\b|\breserves\b|\breserver\b|\byouth\b|\bacademy\b|\bb\s?team\b|\bii\b)',
+    re.IGNORECASE,
+)
+
+MAJOR_LEAGUE_PATTERN = re.compile(
+    r'('
+    r'england - premier league|england - championship|england - fa cup|england - efl cup|'
+    r'spain - laliga|spain - la liga|spain - segunda|spain - copa del rey|'
+    r'italy - serie a|italy - serie b|italy - coppa italia|'
+    r'germany - bundesliga|germany - 2\. bundesliga|germany - dfb pokal|'
+    r'france - ligue 1|france - ligue 2|france - coupe de france|'
+    r'netherlands - eredivisie|netherlands - eerste divisie|'
+    r'portugal - primeira liga|portugal - liga portugal|'
+    r'belgium - pro league|belgium - first division|'
+    r'scotland - premiership|scotland - championship|'
+    r'denmark - superliga|sweden - allsvenskan|sweden - superettan|norway - eliteserien|'
+    r'switzerland - super league|austria - bundesliga|czechia - 1\. liga|'
+    r'greece - super league|turkey - super lig|turkiye - super lig|'
+    r'saudi arabia - saudi pro league|united states - mls|usa - mls|'
+    r'brazil - serie a|argentina - primera|mexico - liga mx|'
+    r'uefa|champions league|europa league|conference league|copa libertadores|copa sudamericana'
+    r')',
+    re.IGNORECASE,
+)
 
 
 def now_dk():
@@ -109,6 +134,10 @@ def is_youth_or_reserve(event):
     return bool(EXCLUDED_PATTERN.search(text))
 
 
+def is_major_league(event):
+    return bool(MAJOR_LEAGUE_PATTERN.search(league(event)))
+
+
 def event_row(event, reason=''):
     return {
         'event_id': event_id(event),
@@ -118,6 +147,7 @@ def event_row(event, reason=''):
         'league': league(event),
         'sport': sport(event),
         'bookmaker_count': bookmaker_count(event),
+        'is_major_league': is_major_league(event),
         'reason': reason,
     }
 
@@ -171,13 +201,15 @@ def fetch_events(api_key, sport_slug, max_events, max_pages, min_bookmaker_count
             seen.add(eid)
             if is_youth_or_reserve(event):
                 excluded.append(event_row(event, 'youth_or_reserve'))
-            elif bookmaker_count(event) < min_bookmaker_count:
-                excluded.append(event_row(event, f'low_coverage_bookmaker_count_below_{min_bookmaker_count}'))
-            else:
+            elif is_major_league(event):
                 kept.append(event)
+            elif min_bookmaker_count > 0 and bookmaker_count(event) >= min_bookmaker_count:
+                kept.append(event)
+            else:
+                excluded.append(event_row(event, 'not_major_league_or_low_coverage'))
         if len(rows) < max_events:
             break
-    kept.sort(key=lambda e: (event_date(e), -bookmaker_count(e)))
+    kept.sort(key=lambda e: (event_date(e), league(e), team(e, 'home')))
     return report_date, kept, excluded
 
 
@@ -314,9 +346,9 @@ def write_html(path, report_date, events, markets, headers_log, args, excluded_c
 body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#f6f6f6;margin:0;padding:16px;color:#111}}h1{{font-size:28px;margin:0 0 8px}}.summary,.card{{background:white;border-radius:14px;padding:16px;margin:12px 0;box-shadow:0 1px 5px rgba(0,0,0,.08)}}h2{{font-size:20px;margin:4px 0 6px}}.time{{font-size:14px;color:#555}}ul{{padding-left:20px}}li{{margin:7px 0;line-height:1.35}}.badge{{display:inline-block;background:#e8f1ff;padding:4px 8px;border-radius:999px;margin:2px}}.small{{color:#666;font-size:13px}}
 </style></head><body>
 <h1>Bet365 odds – større ligaer i dag</h1>
-<div class="summary"><p><span class="badge">Dato: {html.escape(report_date)}</span><span class="badge">Sport: {html.escape(args.sport)}</span><span class="badge">Bookmaker: Bet365</span><span class="badge">Kampe: {len(events)}</span><span class="badge">Markedsrækker: {len(markets)}</span><span class="badge">Min bookmakerCount: {args.min_bookmaker_count}</span><span class="badge">Frasorteret: {excluded_count}</span></p><p class="small">Rent data-overblik. Alle Bet365-markeder fra raw odds-responsen vises/lagres. U-/reservekampe og lavt dækkede kampe sorteres fra før odds hentes.</p><p class="small">Genereret {html.escape(now_dk().strftime('%Y-%m-%d %H:%M'))}. Rate-limit tilbage: {html.escape(str(latest.get('x_ratelimit_remaining','')))} / {html.escape(str(latest.get('x_ratelimit_limit','')))}</p></div>
+<div class="summary"><p><span class="badge">Dato: {html.escape(report_date)}</span><span class="badge">Sport: {html.escape(args.sport)}</span><span class="badge">Bookmaker: Bet365</span><span class="badge">Kampe: {len(events)}</span><span class="badge">Markedsrækker: {len(markets)}</span><span class="badge">Frasorteret: {excluded_count}</span></p><p class="small">Rent data-overblik. Alle Bet365-markeder fra raw odds-responsen vises/lagres. Større ligaer vælges via allowlist. U-/reservekampe sorteres fra før odds hentes.</p><p class="small">Genereret {html.escape(now_dk().strftime('%Y-%m-%d %H:%M'))}. Rate-limit tilbage: {html.escape(str(latest.get('x_ratelimit_remaining','')))} / {html.escape(str(latest.get('x_ratelimit_limit','')))}</p></div>
 <div class="summary"><h2>Markeder fundet</h2><ul>{market_list if market_list else '<li>Ingen markeder fundet</li>'}</ul></div>
-{''.join(cards) if cards else '<div class="card">Ingen større/godt dækkede Bet365-kampe fundet for i dag.</div>'}
+{''.join(cards) if cards else '<div class="card">Ingen større Bet365-kampe fundet for i dag.</div>'}
 </body></html>""", encoding='utf-8')
 
 
@@ -325,7 +357,7 @@ def write_markdown(path, report_date, events, markets, args, excluded_count):
     by_event = {}
     for row in markets:
         by_event.setdefault(row['event_id'], []).append(row)
-    lines = ['# Bet365 odds – større ligaer i dag', '', f'- Dato: **{report_date}**', f'- Sport: **{args.sport}**', '- Bookmaker: **Bet365**', f'- Kampe med odds: **{len(events)}**', f'- Markedsrækker: **{len(markets)}**', f'- Min bookmakerCount: **{args.min_bookmaker_count}**', f'- Frasorteret: **{excluded_count}**', '', '## Markeder fundet', '']
+    lines = ['# Bet365 odds – større ligaer i dag', '', f'- Dato: **{report_date}**', f'- Sport: **{args.sport}**', '- Bookmaker: **Bet365**', f'- Kampe med odds: **{len(events)}**', f'- Markedsrækker: **{len(markets)}**', f'- Frasorteret: **{excluded_count}**', '', '## Markeder fundet', '']
     for name, count in sorted(counts.items(), key=lambda x: (-x[1], x[0]))[:80]:
         lines.append(f'- {name}: {count}')
     if not counts:
@@ -340,12 +372,12 @@ def write_markdown(path, report_date, events, markets, args, excluded_count):
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Build today Bet365 all-market report for major/well-covered football events')
+    parser = argparse.ArgumentParser(description='Build today Bet365 all-market report for major football events')
     parser.add_argument('--sport', default=os.getenv('BET365_REPORT_SPORT', 'football'))
     parser.add_argument('--max-events', type=int, default=int(os.getenv('BET365_REPORT_MAX_EVENTS', '100')))
     parser.add_argument('--max-pages', type=int, default=int(os.getenv('BET365_REPORT_MAX_PAGES', '6')))
     parser.add_argument('--max-price-events', type=int, default=int(os.getenv('BET365_REPORT_MAX_PRICE_EVENTS', '80')))
-    parser.add_argument('--min-bookmaker-count', type=int, default=int(os.getenv('BET365_REPORT_MIN_BOOKMAKER_COUNT', '20')))
+    parser.add_argument('--min-bookmaker-count', type=int, default=int(os.getenv('BET365_REPORT_MIN_BOOKMAKER_COUNT', '0')))
     args = parser.parse_args()
     api_key = os.getenv('ODDS_API_IO_KEY')
     if not api_key:
@@ -368,6 +400,7 @@ def main():
         'report_date_dk': report_date,
         'sport': args.sport,
         'bookmaker': BOOKMAKER,
+        'filter': 'major_league_allowlist_plus_optional_bookmaker_count',
         'min_bookmaker_count': args.min_bookmaker_count,
         'events_after_filters': len(discovered),
         'events_requested_for_odds': len(selected),
