@@ -4,7 +4,7 @@ Use this only for forward paper-testing. Do not use for real-money betting.
 Existing filled odds are preserved when fixtures refresh.
 Fill the three 1X2 odds columns from Bet365 before kickoff, then commit/update the CSV or run the workflow manually.
 
-Template rows: 159
+Template rows: 150
 Rows with complete odds: 0
 
 - 2026-05-12 15:30 | 1. FC Slovacko Uherske Hradiste vs FC Banik Ostrava | bookmaker=bet365_manual
@@ -12,10 +12,8 @@ Rows with complete odds: 0
 - 2026-05-12 16:00 | AE Kifisia FC vs Atromitos Athinon | bookmaker=bet365_manual
 - 2026-05-12 15:00 | AL Faisaly (Jor) vs Ramtha SC | bookmaker=bet365_manual
 - 2026-05-12 17:30 | Al Hussein Irbid vs Al Wehdat | bookmaker=bet365_manual
-- 2026-05-12 14:10 | AL Ittihad Kalba vs AL Nasr | bookmaker=bet365_manual
 - 2026-05-12 18:00 | Al Nassr Club vs Al Hilal SFC | bookmaker=bet365_manual
 - 2026-05-12 15:30 | AL Wahda FC vs Khorfakkan | bookmaker=bet365_manual
-- 2026-05-12 14:10 | AL Wasl vs AL Jazira | bookmaker=bet365_manual
 - 2026-05-12 16:20 | Al-Kholood vs Al-Okhdood Club | bookmaker=bet365_manual
 - 2026-05-12 16:20 | Al-Rustaq vs Ibri | bookmaker=bet365_manual
 - 2026-05-12 17:00 | Asteras Tripolis vs Panserraikos | bookmaker=bet365_manual
@@ -39,7 +37,6 @@ Rows with complete odds: 0
 - 2026-05-12 19:45 | Dundee United vs Livingston | bookmaker=bet365_manual
 - 2026-05-12 18:45 | Dunfermline Athletic FC vs Partick Thistle FC | bookmaker=bet365_manual
 - 2026-05-12 16:00 | FC Elva vs Paide Linnameeskond | bookmaker=bet365_manual
-- 2026-05-12 15:00 | FK Liepaja vs Ogre United | bookmaker=bet365_manual
 - 2026-05-12 15:30 | FK Mlada Boleslav vs Dukla Prague | bookmaker=bet365_manual
 - 2026-05-12 18:00 | Gimnasia de la Plata Reserve vs CA Banfield | bookmaker=bet365_manual
 - 2026-05-12 18:30 | Grasshopper Club Zurich vs FC Winterthur | bookmaker=bet365_manual
@@ -47,7 +44,6 @@ Rows with complete odds: 0
 - 2026-05-12 17:00 | Hapoel Tel Aviv FC vs Hapoel Petah Tikva FC | bookmaker=bet365_manual
 - 2026-05-12 17:00 | IFK Varnamo vs Orebro SK | bookmaker=bet365_manual
 - 2026-05-12 19:00 | Itagui Leones FC vs Orsomarso SC | bookmaker=bet365_manual
-- 2026-05-12 15:00 | JS Omrane vs Avenir S Marsa | bookmaker=bet365_manual
 - 2026-05-12 19:00 | JS Saoura vs CR Belouizdad | bookmaker=bet365_manual
 - 2026-05-12 17:00 | Kifisia vs Atromitos | bookmaker=bet365_manual
 - 2026-05-12 19:45 | Kilmarnock vs Dundee | bookmaker=bet365_manual
@@ -56,8 +52,6 @@ Rows with complete odds: 0
 - 2026-05-12 18:30 | FC Luzern vs FC Zurich | bookmaker=bet365_manual
 - 2026-05-12 23:00 | LVU Rush vs West Chester United SC USL2 | bookmaker=bet365_manual
 - 2026-05-12 23:00 | Mahaut Soca Strikers vs Middleham United FC | bookmaker=bet365_manual
-- 2026-05-12 15:00 | FC Metalist 1925 Kharkiv vs Karpaty Lviv | bookmaker=bet365_manual
-- 2026-05-12 15:00 | MFK Chrudim vs FK Pribram | bookmaker=bet365_manual
 - 2026-05-12 16:45 | Modena FC vs Juve Stabia | bookmaker=bet365_manual
 - 2026-05-12 18:00 | Newells Old Boys vs CA Quilmes Reserve | bookmaker=bet365_manual
 - 2026-05-12 20:30 | Osasuna vs Ath Madrid | bookmaker=bet365_manual
@@ -81,15 +75,12 @@ Rows with complete odds: 0
 - 2026-05-12 18:45 | SP Tre Penne vs SP La Fiorita | bookmaker=bet365_manual
 - 2026-05-12 18:00 | Sparta Prague vs FC Viktoria Plzen | bookmaker=bet365_manual
 - 2026-05-12 23:00 | St Andrew Lions vs Ellerton FC | bookmaker=bet365_manual
-- 2026-05-12 13:50 | Sur SC vs Al-Khaboora | bookmaker=bet365_manual
 - 2026-05-12 17:30 | TS Galaxy FC vs Mamelodi Sundowns | bookmaker=bet365_manual
 - 2026-05-12 23:30 | UCV FC vs Deportivo La Guaira | bookmaker=bet365_manual
 - 2026-05-12 21:00 | Union Magdalena vs Real Cartagena FC | bookmaker=bet365_manual
 - 2026-05-12 19:00 | US Catanzaro vs US Avellino | bookmaker=bet365_manual
-- 2026-05-12 15:00 | Veres Rivne vs FC Kryvbas Kriviy Rih | bookmaker=bet365_manual
 - 2026-05-12 16:00 | Viking FK vs Haugesund | bookmaker=bet365_manual
 - 2026-05-12 17:00 | Wadi Degla SC vs Ismaily SC | bookmaker=bet365_manual
-- 2026-05-12 15:00 | Zaglebie Lubin II vs Mkp Carina Gubin | bookmaker=bet365_manual
 - 2026-05-12 15:30 | FC Zlin vs FK Teplice | bookmaker=bet365_manual
 - 2026-05-13 23:30 | Academia Puerto Cabello vs Portuguesa FC | bookmaker=bet365_manual
 - 2026-05-13 23:00 | AD Pasto vs CD Tolima | bookmaker=bet365_manual
@@ -102,7 +93,7 @@ Rows with complete odds: 0
 - 2026-05-13 21:00 | Bogota FC vs Barranquilla FC | bookmaker=bet365_manual
 - 2026-05-13 18:00 | Brest vs Strasbourg | bookmaker=bet365_manual
 - 2026-05-13 10:30 | Bucheon FC 1995 vs Jeonbuk FC | bookmaker=bet365_manual
-- 2026-05-13 22:15 | CA Rosario Central vs Racing Club Avellaneda | bookmaker=bet365_manual
+- 2026-05-13 21:45 | CA Rosario Central vs Racing Club Avellaneda | bookmaker=bet365_manual
 - 2026-05-13 23:00 | Carabobo FC vs Estudiantes de Merida | bookmaker=bet365_manual
 - 2026-05-13 02:15 | CD Olimpia Tegucigalpa vs Real CD Espana San Pedro Sula | bookmaker=bet365_manual
 - 2026-05-13 23:15 | Charlotte FC vs New York City FC | bookmaker=bet365_manual
@@ -146,6 +137,7 @@ Rows with complete odds: 0
 - 2026-05-13 16:30 | Olympiacos Piraeus vs Panathinaikos Athens | bookmaker=bet365_manual
 - 2026-05-13 17:30 | Olympiakos vs Panathinaikos | bookmaker=bet365_manual
 - 2026-05-13 23:30 | Orlando City SC vs Philadelphia Union | bookmaker=bet365_manual
+- 2026-05-13 17:00 | Osters IF vs Sandvikens IF | bookmaker=bet365_manual
 - 2026-05-13 14:45 | PFC CSKA Sofia vs FC CSKA 1948 | bookmaker=bet365_manual
 - 2026-05-13 17:15 | PFC Ludogorets 1945 Razgrad vs PFC Levski Sofia | bookmaker=bet365_manual
 - 2026-05-13 12:15 | PFC Slavia Sofia vs PFC Dobrudzha Dobrich | bookmaker=bet365_manual
@@ -154,6 +146,7 @@ Rows with complete odds: 0
 - 2026-05-13 19:00 | Racing Club De Lens vs Paris Saint-Germain | bookmaker=bet365_manual
 - 2026-05-13 20:00 | Rangers vs Hibernian | bookmaker=bet365_manual
 - 2026-05-13 18:30 | RKS Rakow Czestochowa vs Jagiellonia Bialystok | bookmaker=bet365_manual
+- 2026-05-13 14:00 | FC Spartak 1918 Varna II vs PFC Cherno More Varna II | bookmaker=bet365_manual
 - 2026-05-13 17:00 | Stade Brest 29 vs Strasbourg Alsace | bookmaker=bet365_manual
 - 2026-05-13 19:00 | Stockport County FC vs Stevenage FC | bookmaker=bet365_manual
 - 2026-05-13 10:30 | Ulsan HD FC vs Jeju SK FC | bookmaker=bet365_manual
@@ -163,6 +156,4 @@ Rows with complete odds: 0
 - 2026-05-13 14:00 | Volos NPS vs Aris Thessaloniki | bookmaker=bet365_manual
 - 2026-05-14 19:00 | Girona vs Sociedad | bookmaker=bet365_manual
 - 2026-05-14 20:30 | Real Madrid vs Oviedo | bookmaker=bet365_manual
-- 2026-05-14 13:00 | TRA United vs Mtibwa Sugar FC | bookmaker=bet365_manual
 - 2026-05-14 18:00 | Valencia vs Vallecano | bookmaker=bet365_manual
-- 2026-05-15 10:00 | Central Coast United FC vs Inner West Hawks FC | bookmaker=bet365_manual

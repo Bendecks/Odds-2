@@ -3,7 +3,7 @@
 Diagnostics for exact bookmaker names and selected bookmaker state.
 This is not a betting signal and does not affect real-money readiness.
 
-Generated UTC: 2026-05-12T14:03:20.568626+00:00
+Generated UTC: 2026-05-12T15:05:39.504767+00:00
 All bookmaker rows: 277
 Active bookmaker rows: 241
 Selected bookmaker rows: 2

@@ -2,12 +2,11 @@
 
 Probability-only forward prediction log. This is not a betting log and contains no stake or real-money signal.
 
-Current forward fixture predictions: 159
+Current forward fixture predictions: 150
 New forward fixture predictions logged: 0
-Total forward fixture predictions logged: 239
+Total forward fixture predictions logged: 240
 Log type: probability_only_no_market_prices
 
-- 2026-05-13 2026-05-12 20:00:00 | Man City vs Crystal Palace | H=0.37720000000000004 D=0.274 A=0.3488
 - 2026-05-13 2026-05-12 20:00:00 | Motherwell vs Celtic | H=0.37720000000000004 D=0.274 A=0.3488
 - 2026-05-13 2026-05-12 20:00:00 | Rangers vs Hibernian | H=0.37720000000000004 D=0.274 A=0.3488
 - 2026-05-13 2026-05-12 20:30:00 | Alaves vs Barcelona | H=0.37720000000000004 D=0.274 A=0.3488
@@ -27,3 +26,4 @@ Log type: probability_only_no_market_prices
 - 2026-05-14 2026-05-12 19:00:00 | Girona vs Sociedad | H=0.3982 D=0.2712 A=0.3305
 - 2026-05-14 2026-05-12 20:30:00 | Real Madrid vs Oviedo | H=0.37720000000000004 D=0.274 A=0.3488
 - 2026-05-15 2026-05-12 10:00:00 | Central Coast United FC vs Inner West Hawks FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-13 2026-05-12 14:00:00 | FC Spartak 1918 Varna II vs PFC Cherno More Varna II | H=0.37720000000000004 D=0.274 A=0.3488

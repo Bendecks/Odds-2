@@ -22,10 +22,8 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-12 16:00 | AE Kifisia FC vs Atromitos Athinon
 - 2026-05-12 15:00 | AL Faisaly (Jor) vs Ramtha SC
 - 2026-05-12 17:30 | Al Hussein Irbid vs Al Wehdat
-- 2026-05-12 14:10 | AL Ittihad Kalba vs AL Nasr
 - 2026-05-12 18:00 | Al Nassr Club vs Al Hilal SFC
 - 2026-05-12 15:30 | AL Wahda FC vs Khorfakkan
-- 2026-05-12 14:10 | AL Wasl vs AL Jazira
 - 2026-05-12 16:20 | Al-Kholood vs Al-Okhdood Club
 - 2026-05-12 16:20 | Al-Rustaq vs Ibri
 - 2026-05-12 17:00 | Asteras Tripolis vs Panserraikos
@@ -49,7 +47,6 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-12 19:45 | Dundee United vs Livingston
 - 2026-05-12 18:45 | Dunfermline Athletic FC vs Partick Thistle FC
 - 2026-05-12 16:00 | FC Elva vs Paide Linnameeskond
-- 2026-05-12 15:00 | FK Liepaja vs Ogre United
 - 2026-05-12 15:30 | FK Mlada Boleslav vs Dukla Prague
 - 2026-05-12 18:00 | Gimnasia de la Plata Reserve vs CA Banfield
 - 2026-05-12 18:30 | Grasshopper Club Zurich vs FC Winterthur
@@ -57,7 +54,6 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-12 17:00 | Hapoel Tel Aviv FC vs Hapoel Petah Tikva FC
 - 2026-05-12 17:00 | IFK Varnamo vs Orebro SK
 - 2026-05-12 19:00 | Itagui Leones FC vs Orsomarso SC
-- 2026-05-12 15:00 | JS Omrane vs Avenir S Marsa
 - 2026-05-12 19:00 | JS Saoura vs CR Belouizdad
 - 2026-05-12 17:00 | Kifisia vs Atromitos
 - 2026-05-12 19:45 | Kilmarnock vs Dundee
@@ -66,8 +62,6 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-12 18:30 | FC Luzern vs FC Zurich
 - 2026-05-12 23:00 | LVU Rush vs West Chester United SC USL2
 - 2026-05-12 23:00 | Mahaut Soca Strikers vs Middleham United FC
-- 2026-05-12 15:00 | FC Metalist 1925 Kharkiv vs Karpaty Lviv
-- 2026-05-12 15:00 | MFK Chrudim vs FK Pribram
 - 2026-05-12 16:45 | Modena FC vs Juve Stabia
 - 2026-05-12 18:00 | Newells Old Boys vs CA Quilmes Reserve
 - 2026-05-12 20:30 | Osasuna vs Ath Madrid
@@ -91,15 +85,12 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-12 18:45 | SP Tre Penne vs SP La Fiorita
 - 2026-05-12 18:00 | Sparta Prague vs FC Viktoria Plzen
 - 2026-05-12 23:00 | St Andrew Lions vs Ellerton FC
-- 2026-05-12 13:50 | Sur SC vs Al-Khaboora
 - 2026-05-12 17:30 | TS Galaxy FC vs Mamelodi Sundowns
 - 2026-05-12 23:30 | UCV FC vs Deportivo La Guaira
 - 2026-05-12 21:00 | Union Magdalena vs Real Cartagena FC
 - 2026-05-12 19:00 | US Catanzaro vs US Avellino
-- 2026-05-12 15:00 | Veres Rivne vs FC Kryvbas Kriviy Rih
 - 2026-05-12 16:00 | Viking FK vs Haugesund
 - 2026-05-12 17:00 | Wadi Degla SC vs Ismaily SC
-- 2026-05-12 15:00 | Zaglebie Lubin II vs Mkp Carina Gubin
 - 2026-05-12 15:30 | FC Zlin vs FK Teplice
 - 2026-05-13 23:30 | Academia Puerto Cabello vs Portuguesa FC
 - 2026-05-13 23:00 | AD Pasto vs CD Tolima
@@ -112,7 +103,7 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-13 21:00 | Bogota FC vs Barranquilla FC
 - 2026-05-13 18:00 | Brest vs Strasbourg
 - 2026-05-13 10:30 | Bucheon FC 1995 vs Jeonbuk FC
-- 2026-05-13 22:15 | CA Rosario Central vs Racing Club Avellaneda
+- 2026-05-13 21:45 | CA Rosario Central vs Racing Club Avellaneda
 - 2026-05-13 23:00 | Carabobo FC vs Estudiantes de Merida
 - 2026-05-13 02:15 | CD Olimpia Tegucigalpa vs Real CD Espana San Pedro Sula
 - 2026-05-13 23:15 | Charlotte FC vs New York City FC
@@ -156,6 +147,7 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-13 16:30 | Olympiacos Piraeus vs Panathinaikos Athens
 - 2026-05-13 17:30 | Olympiakos vs Panathinaikos
 - 2026-05-13 23:30 | Orlando City SC vs Philadelphia Union
+- 2026-05-13 17:00 | Osters IF vs Sandvikens IF
 - 2026-05-13 14:45 | PFC CSKA Sofia vs FC CSKA 1948
 - 2026-05-13 17:15 | PFC Ludogorets 1945 Razgrad vs PFC Levski Sofia
 - 2026-05-13 12:15 | PFC Slavia Sofia vs PFC Dobrudzha Dobrich
@@ -164,6 +156,7 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-13 19:00 | Racing Club De Lens vs Paris Saint-Germain
 - 2026-05-13 20:00 | Rangers vs Hibernian
 - 2026-05-13 18:30 | RKS Rakow Czestochowa vs Jagiellonia Bialystok
+- 2026-05-13 14:00 | FC Spartak 1918 Varna II vs PFC Cherno More Varna II
 - 2026-05-13 17:00 | Stade Brest 29 vs Strasbourg Alsace
 - 2026-05-13 19:00 | Stockport County FC vs Stevenage FC
 - 2026-05-13 10:30 | Ulsan HD FC vs Jeju SK FC
@@ -173,9 +166,7 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-13 14:00 | Volos NPS vs Aris Thessaloniki
 - 2026-05-14 19:00 | Girona vs Sociedad
 - 2026-05-14 20:30 | Real Madrid vs Oviedo
-- 2026-05-14 13:00 | TRA United vs Mtibwa Sugar FC
 - 2026-05-14 18:00 | Valencia vs Vallecano
-- 2026-05-15 10:00 | Central Coast United FC vs Inner West Hawks FC
 
 ## After filling odds
 

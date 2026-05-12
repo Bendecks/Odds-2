@@ -3,10 +3,10 @@
 Manual Bet365 odds input is parked as an optional fallback. It is not an active development blocker.
 Current priority: automatic/free-data forward-testing sources and robust fixture/model matching.
 
-Upcoming fixtures: 159
-Manual template rows: 159
+Upcoming fixtures: 150
+Manual template rows: 150
 Rows with complete manual odds: 0
-Rows missing manual odds: 159
+Rows missing manual odds: 150
 Manual forward snapshot rows: 0
 Manual odds mode: optional_fallback_paused
 Manual odds is blocker: False
@@ -24,10 +24,8 @@ Manual odds are not required in the current phase. These rows are only kept for 
 - 2026-05-12 16:00 | AE Kifisia FC vs Atromitos Athinon
 - 2026-05-12 15:00 | AL Faisaly (Jor) vs Ramtha SC
 - 2026-05-12 17:30 | Al Hussein Irbid vs Al Wehdat
-- 2026-05-12 14:10 | AL Ittihad Kalba vs AL Nasr
 - 2026-05-12 18:00 | Al Nassr Club vs Al Hilal SFC
 - 2026-05-12 15:30 | AL Wahda FC vs Khorfakkan
-- 2026-05-12 14:10 | AL Wasl vs AL Jazira
 - 2026-05-12 16:20 | Al-Kholood vs Al-Okhdood Club
 - 2026-05-12 16:20 | Al-Rustaq vs Ibri
 - 2026-05-12 17:00 | Asteras Tripolis vs Panserraikos
@@ -39,3 +37,5 @@ Manual odds are not required in the current phase. These rows are only kept for 
 - 2026-05-12 17:15 | Botev Plovdiv vs FC Arda Kardzhali
 - 2026-05-12 22:00 | CA Belgrano de Cordoba vs Union de Santa Fe
 - 2026-05-12 19:30 | CA Osasuna vs Atletico Madrid
+- 2026-05-12 20:00 | CD Real Santander vs Boca Juniors de Cali
+- 2026-05-12 18:00 | Celta vs Levante
