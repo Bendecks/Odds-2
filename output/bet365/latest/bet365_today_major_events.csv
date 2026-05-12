@@ -1,0 +1,20 @@
+event_id,sport,league,date_utc,date_denmark,home,away,status
+71401082,Football,Italy - Serie B,2026-05-12T16:45:00Z,2026-05-12 18:45,Modena FC,Juve Stabia,pending
+67126084,Football,Sweden - Superettan,2026-05-12T17:00:00Z,2026-05-12 19:00,Landskrona BoIS,Norrby IF,pending
+71085528,Football,Czechia - 1. Liga,2026-05-12T18:00:00Z,2026-05-12 20:00,Sparta Prague,FC Viktoria Plzen,pending
+64055859,Football,Saudi Arabia - Saudi Pro League,2026-05-12T18:00:00Z,2026-05-12 20:00,Al Nassr Club,Al Hilal SFC,pending
+61624640,Football,Spain - LaLiga,2026-05-12T18:00:00Z,2026-05-12 20:00,Real Betis Seville,Elche CF,pending
+70448540,Football,Switzerland - Super League,2026-05-12T18:30:00Z,2026-05-12 20:30,FC Luzern,FC Zurich,pending
+64055855,Football,Saudi Arabia - Saudi Pro League,2026-05-12T16:20:00Z,2026-05-12 18:20,Al-Kholood,Al-Okhdood Club,pending
+61624642,Football,Spain - LaLiga,2026-05-12T17:00:00Z,2026-05-12 19:00,RC Celta de Vigo,Levante UD,pending
+67126090,Football,Sweden - Superettan,2026-05-12T17:00:00Z,2026-05-12 19:00,IFK Varnamo,Orebro SK,pending
+71411500,Football,France - Ligue 1,2026-05-12T18:30:00Z,2026-05-12 20:30,Red Star FC,Rodez Aveyron Football,pending
+70674932,Football,Scotland - Premiership,2026-05-12T18:45:00Z,2026-05-12 20:45,Kilmarnock FC,Dundee FC,pending
+71401566,Football,Italy - Serie B,2026-05-12T19:00:00Z,2026-05-12 21:00,US Catanzaro,US Avellino,pending
+61624650,Football,Spain - LaLiga,2026-05-12T19:30:00Z,2026-05-12 21:30,CA Osasuna,Atletico Madrid,pending
+70448538,Football,Switzerland - Super League,2026-05-12T18:30:00Z,2026-05-12 20:30,Grasshopper Club Zurich,FC Winterthur,pending
+70448542,Football,Switzerland - Super League,2026-05-12T18:30:00Z,2026-05-12 20:30,Servette Geneva,Lausanne-Sport,pending
+70674930,Football,Scotland - Premiership,2026-05-12T18:45:00Z,2026-05-12 20:45,Dundee United,Livingston FC,pending
+71401830,Football,Scotland - Premiership,2026-05-12T18:45:00Z,2026-05-12 20:45,Dunfermline Athletic FC,Partick Thistle FC,pending
+71240670,Football,England - Championship,2026-05-12T19:00:00Z,2026-05-12 21:00,Southampton FC,Middlesbrough FC,pending
+70674928,Football,Scotland - Premiership,2026-05-12T18:45:00Z,2026-05-12 20:45,Aberdeen FC,St Mirren FC,pending

@@ -1,57 +1,25 @@
-event_id,date_denmark,home,away,league,sport,bookmaker_count,reason
-71338858,2026-05-12 17:30,AL Wahda FC,Khorfakkan,United Arab Emirates - U23 Pro League,Football,0,youth_or_reserve
-71085578,2026-05-12 17:30,FK Mlada Boleslav,Dukla Prague,Czechia - 1. Liga,Football,0,low_coverage_bookmaker_count_below_20
-71085580,2026-05-12 17:30,FC Zlin,FK Teplice,Czechia - 1. Liga,Football,0,low_coverage_bookmaker_count_below_20
-71085582,2026-05-12 17:30,1. FC Slovacko Uherske Hradiste,FC Banik Ostrava,Czechia - 1. Liga,Football,0,low_coverage_bookmaker_count_below_20
-71338146,2026-05-12 18:00,Viking FK,Haugesund,Norway - NM Cup Women,Football,0,low_coverage_bookmaker_count_below_20
-71328286,2026-05-12 18:00,FC Elva,Paide Linnameeskond,"Estonia - Cup, Women",Football,0,low_coverage_bookmaker_count_below_20
-71421816,2026-05-12 18:00,Rayon Sports FC,Gorilla FC,Rwanda - Peace Cup,Football,0,low_coverage_bookmaker_count_below_20
-68492516,2026-05-12 18:00,Riga FC,FK Auda Riga,Latvia - Virsliga,Football,0,low_coverage_bookmaker_count_below_20
-70232094,2026-05-12 18:00,AE Kifisia FC,Atromitos Athinon,Greece - Super League,Football,0,low_coverage_bookmaker_count_below_20
-70232096,2026-05-12 18:00,Panaitolikos Agrinio,AE Larissa FC,Greece - Super League,Football,0,low_coverage_bookmaker_count_below_20
-70430016,2026-05-12 18:00,Asteras Tripolis,Panserraikos FC,Greece - Super League,Football,0,low_coverage_bookmaker_count_below_20
-71216798,2026-05-12 18:00,Sarpsborg 08 FF,Hoenefoss BK,Norway - NM Cup Women,Football,0,low_coverage_bookmaker_count_below_20
-71336690,2026-05-12 18:20,Al-Rustaq,Ibri,Oman - Omani League,Football,0,low_coverage_bookmaker_count_below_20
-64055855,2026-05-12 18:20,Al-Kholood,Al-Okhdood Club,Saudi Arabia - Saudi Pro League,Football,0,low_coverage_bookmaker_count_below_20
-71344696,2026-05-12 18:30,Samger FC,Real de Banjul,Gambia - Division One,Football,0,low_coverage_bookmaker_count_below_20
-71401082,2026-05-12 18:45,Modena FC,Juve Stabia,Italy - Serie B,Football,0,low_coverage_bookmaker_count_below_20
-61624642,2026-05-12 19:00,RC Celta de Vigo,Levante UD,Spain - LaLiga,Football,0,low_coverage_bookmaker_count_below_20
-67126084,2026-05-12 19:00,Landskrona BoIS,Norrby IF,Sweden - Superettan,Football,0,low_coverage_bookmaker_count_below_20
-67126090,2026-05-12 19:00,IFK Varnamo,Orebro SK,Sweden - Superettan,Football,0,low_coverage_bookmaker_count_below_20
-69880310,2026-05-12 19:00,Wadi Degla SC,Ismaily SC,Egypt - Premier League,Football,0,low_coverage_bookmaker_count_below_20
-70812400,2026-05-12 19:00,Hapoel Tel Aviv FC,Hapoel Petah Tikva FC,Israel - Premier League,Football,0,low_coverage_bookmaker_count_below_20
-71338618,2026-05-12 19:00,Real Madrid,Borussia Dortmund,International Youth - U21 Premier League International Cup,Football,0,youth_or_reserve
-71378882,2026-05-12 19:00,Central Espanol Reserve,Defensor Sporting,"Uruguay - Tercera Division, Reserves",Football,0,youth_or_reserve
-70906726,2026-05-12 19:15,Botev Plovdiv,FC Arda Kardzhali,Bulgaria - Parva Liga,Football,0,low_coverage_bookmaker_count_below_20
-71364784,2026-05-12 19:30,Al Hussein Irbid,Al Wehdat,Jordan - Jordan Cup,Football,0,low_coverage_bookmaker_count_below_20
-70812402,2026-05-12 19:30,Beitar Jerusalem FC,Hapoel Be`er Sheva FC,Israel - Premier League,Football,0,low_coverage_bookmaker_count_below_20
-62670417,2026-05-12 19:30,TS Galaxy FC,Mamelodi Sundowns,South Africa - Premiership,Football,0,low_coverage_bookmaker_count_below_20
-61624640,2026-05-12 20:00,Real Betis Seville,Elche CF,Spain - LaLiga,Football,0,low_coverage_bookmaker_count_below_20
-71085528,2026-05-12 20:00,Sparta Prague,FC Viktoria Plzen,Czechia - 1. Liga,Football,0,low_coverage_bookmaker_count_below_20
-64055859,2026-05-12 20:00,Al Nassr Club,Al Hilal SFC,Saudi Arabia - Saudi Pro League,Football,0,low_coverage_bookmaker_count_below_20
-68158760,2026-05-12 20:00,Racing Club Avellaneda,Velez Sarsfield Reserve,"Argentina - Copa Proyeccion Final, Reserves",Football,0,youth_or_reserve
-68158768,2026-05-12 20:00,Gimnasia de la Plata Reserve,CA Banfield,"Argentina - Copa Proyeccion Final, Reserves",Football,0,youth_or_reserve
-68158784,2026-05-12 20:00,Newells Old Boys,CA Quilmes Reserve,"Argentina - Copa Proyeccion Final, Reserves",Football,0,youth_or_reserve
-68158786,2026-05-12 20:00,Defensa Y Justicia Reserve,CA Platense,"Argentina - Copa Proyeccion Final, Reserves",Football,0,youth_or_reserve
-71378884,2026-05-12 20:00,Colon FC Reserve,Liverpool Montevideo,"Uruguay - Tercera Division, Reserves",Football,0,youth_or_reserve
-70448538,2026-05-12 20:30,Grasshopper Club Zurich,FC Winterthur,Switzerland - Super League,Football,0,low_coverage_bookmaker_count_below_20
-70448540,2026-05-12 20:30,FC Luzern,FC Zurich,Switzerland - Super League,Football,0,low_coverage_bookmaker_count_below_20
-70448542,2026-05-12 20:30,Servette Geneva,Lausanne-Sport,Switzerland - Super League,Football,0,low_coverage_bookmaker_count_below_20
-71411500,2026-05-12 20:30,Red Star FC,Rodez Aveyron Football,France - Ligue 1,Football,0,low_coverage_bookmaker_count_below_20
-71378874,2026-05-12 20:30,Cerro Largo FC,Boston River,"Uruguay - Tercera Division, Reserves",Football,0,youth_or_reserve
-71378878,2026-05-12 20:30,Penarol Montevideo,Nacional de Montevideo,"Uruguay - Tercera Division, Reserves",Football,0,youth_or_reserve
-71406954,2026-05-12 20:45,Clyde FC,Hamilton Academical FC,Scotland - League 1,Football,0,low_coverage_bookmaker_count_below_20
-71401830,2026-05-12 20:45,Dunfermline Athletic FC,Partick Thistle FC,Scotland - Premiership,Football,0,low_coverage_bookmaker_count_below_20
-71345226,2026-05-12 20:45,SP Tre Penne,SP La Fiorita,San Marino - Campionato Sammarinese,Football,0,low_coverage_bookmaker_count_below_20
-71345228,2026-05-12 20:45,FC Domagnano,AC Virtus,San Marino - Campionato Sammarinese,Football,0,low_coverage_bookmaker_count_below_20
-70674928,2026-05-12 20:45,Aberdeen FC,St Mirren FC,Scotland - Premiership,Football,0,low_coverage_bookmaker_count_below_20
-70674930,2026-05-12 20:45,Dundee United,Livingston FC,Scotland - Premiership,Football,0,low_coverage_bookmaker_count_below_20
-70674932,2026-05-12 20:45,Kilmarnock FC,Dundee FC,Scotland - Premiership,Football,0,low_coverage_bookmaker_count_below_20
-71240670,2026-05-12 21:00,Southampton FC,Middlesbrough FC,England - Championship,Football,0,low_coverage_bookmaker_count_below_20
-71091672,2026-05-12 21:00,JS Saoura,CR Belouizdad,Algeria - Ligue 1,Football,0,low_coverage_bookmaker_count_below_20
-71335012,2026-05-12 21:00,Itagui Leones FC,Orsomarso SC,Colombia - Copa Colombia,Football,0,low_coverage_bookmaker_count_below_20
-70379154,2026-05-12 21:00,San Antonio Bulo Bulo,FC Universitario de Vinto,Bolivia - Division Profesional,Football,0,low_coverage_bookmaker_count_below_20
-71401566,2026-05-12 21:00,US Catanzaro,US Avellino,Italy - Serie B,Football,0,low_coverage_bookmaker_count_below_20
-61624650,2026-05-12 21:30,CA Osasuna,Atletico Madrid,Spain - LaLiga,Football,0,low_coverage_bookmaker_count_below_20
-71334994,2026-05-12 22:00,CD Real Santander,Boca Juniors de Cali,Colombia - Copa Colombia,Football,0,low_coverage_bookmaker_count_below_20
-71325010,2026-05-12 23:00,Union Magdalena,Real Cartagena FC,Colombia - Primera B,Football,0,low_coverage_bookmaker_count_below_20
+event_id,date_denmark,home,away,league,sport,bookmaker_count,is_major_league,reason
+71336690,2026-05-12 18:20,Al-Rustaq,Ibri,Oman - Omani League,Football,0,False,not_major_league_or_low_coverage
+69880310,2026-05-12 19:00,Wadi Degla SC,Ismaily SC,Egypt - Premier League,Football,0,False,not_major_league_or_low_coverage
+70812400,2026-05-12 19:00,Hapoel Tel Aviv FC,Hapoel Petah Tikva FC,Israel - Premier League,Football,0,False,not_major_league_or_low_coverage
+71338618,2026-05-12 19:00,Real Madrid,Borussia Dortmund,International Youth - U21 Premier League International Cup,Football,0,False,youth_or_reserve
+71378882,2026-05-12 19:00,Central Espanol Reserve,Defensor Sporting,"Uruguay - Tercera Division, Reserves",Football,0,False,youth_or_reserve
+70906726,2026-05-12 19:15,Botev Plovdiv,FC Arda Kardzhali,Bulgaria - Parva Liga,Football,0,False,not_major_league_or_low_coverage
+71364784,2026-05-12 19:30,Al Hussein Irbid,Al Wehdat,Jordan - Jordan Cup,Football,0,False,not_major_league_or_low_coverage
+70812402,2026-05-12 19:30,Beitar Jerusalem FC,Hapoel Be`er Sheva FC,Israel - Premier League,Football,0,False,not_major_league_or_low_coverage
+62670417,2026-05-12 19:30,TS Galaxy FC,Mamelodi Sundowns,South Africa - Premiership,Football,0,False,not_major_league_or_low_coverage
+68158760,2026-05-12 20:00,Racing Club Avellaneda,Velez Sarsfield Reserve,"Argentina - Copa Proyeccion Final, Reserves",Football,0,False,youth_or_reserve
+68158768,2026-05-12 20:00,Gimnasia de la Plata Reserve,CA Banfield,"Argentina - Copa Proyeccion Final, Reserves",Football,0,False,youth_or_reserve
+68158784,2026-05-12 20:00,Newells Old Boys,CA Quilmes Reserve,"Argentina - Copa Proyeccion Final, Reserves",Football,0,False,youth_or_reserve
+68158786,2026-05-12 20:00,Defensa Y Justicia Reserve,CA Platense,"Argentina - Copa Proyeccion Final, Reserves",Football,0,False,youth_or_reserve
+71378884,2026-05-12 20:00,Colon FC Reserve,Liverpool Montevideo,"Uruguay - Tercera Division, Reserves",Football,0,False,youth_or_reserve
+71378874,2026-05-12 20:30,Cerro Largo FC,Boston River,"Uruguay - Tercera Division, Reserves",Football,0,False,youth_or_reserve
+71378878,2026-05-12 20:30,Penarol Montevideo,Nacional de Montevideo,"Uruguay - Tercera Division, Reserves",Football,0,False,youth_or_reserve
+71406954,2026-05-12 20:45,Clyde FC,Hamilton Academical FC,Scotland - League 1,Football,0,False,not_major_league_or_low_coverage
+71345226,2026-05-12 20:45,SP Tre Penne,SP La Fiorita,San Marino - Campionato Sammarinese,Football,0,False,not_major_league_or_low_coverage
+71345228,2026-05-12 20:45,FC Domagnano,AC Virtus,San Marino - Campionato Sammarinese,Football,0,False,not_major_league_or_low_coverage
+71091672,2026-05-12 21:00,JS Saoura,CR Belouizdad,Algeria - Ligue 1,Football,0,False,not_major_league_or_low_coverage
+71335012,2026-05-12 21:00,Itagui Leones FC,Orsomarso SC,Colombia - Copa Colombia,Football,0,False,not_major_league_or_low_coverage
+70379154,2026-05-12 21:00,San Antonio Bulo Bulo,FC Universitario de Vinto,Bolivia - Division Profesional,Football,0,False,not_major_league_or_low_coverage
+71334994,2026-05-12 22:00,CD Real Santander,Boca Juniors de Cali,Colombia - Copa Colombia,Football,0,False,not_major_league_or_low_coverage
+71325010,2026-05-12 23:00,Union Magdalena,Real Cartagena FC,Colombia - Primera B,Football,0,False,not_major_league_or_low_coverage
