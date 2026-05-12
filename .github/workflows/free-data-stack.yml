@@ -96,6 +96,9 @@ jobs:
       - name: Build automatic forward source diagnostics
         run: python scripts/build_automatic_forward_source_report.py
 
+      - name: Rebuild automatic forward value snapshots
+        run: python scripts/build_automatic_forward_value_snapshots.py
+
       - name: Build manual forward snapshots
         run: python scripts/build_manual_forward_snapshots.py
 
