@@ -1,26 +1,26 @@
 discovery_source,query,target_home_team,target_away_team,target_match_date,candidate_event_id,candidate_home_team,candidate_away_team,candidate_match_date,event_match_confidence,selected,rejection_reason,selected_bool,event_match_confidence_num
-events_bookmaker_filtered,Rayon Sports FC,Rayon Sports FC,Gorilla FC,2026-05-12,71421816,Rayon Sports FC,Gorilla FC,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,Samger FC,Samger FC,Real de Banjul,2026-05-12,71344696,Samger FC,Real de Banjul,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,Riga FC,Riga FC,FK Auda Riga,2026-05-12,68492516,Riga FC,FK Auda Riga,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,Landskrona BoIS,Landskrona BoIS,Norrby IF,2026-05-12,67126084,Landskrona BoIS,Norrby IF,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,AL Wahda FC,AL Wahda FC,Khorfakkan,2026-05-12,71338858,AL Wahda FC,Khorfakkan,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,Botev Plovdiv,Botev Plovdiv,FC Arda Kardzhali,2026-05-12,70906726,Botev Plovdiv,FC Arda Kardzhali,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,Sarpsborg 08 FF,Sarpsborg 08 FF,Hoenefoss BK,2026-05-12,71216798,Sarpsborg 08 FF,Hoenefoss BK,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,TS Galaxy FC,TS Galaxy FC,Mamelodi Sundowns,2026-05-12,62670417,TS Galaxy FC,Mamelodi Sundowns,2026-05-12,1.0,True,,True,1.0
 events_bookmaker_filtered,IFK Varnamo,IFK Varnamo,Orebro SK,2026-05-12,67126090,IFK Varnamo,Orebro SK,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,Viking FK,Viking FK,Haugesund,2026-05-12,71338146,Viking FK,Haugesund,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,FC Zlin,FC Zlin,FK Teplice,2026-05-12,71085580,FC Zlin,FK Teplice,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,Panaitolikos Agrinio,Panaitolikos Agrinio,AE Larissa FC,2026-05-12,70232096,Panaitolikos Agrinio,AE Larissa FC,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,Red Star FC,Red Star FC,Rodez Aveyron Football,2026-05-12,71411500,Red Star FC,Rodez Aveyron Football,2026-05-12,1.0,True,,True,1.0
 events_bookmaker_filtered,Hapoel Tel Aviv FC,Hapoel Tel Aviv FC,Hapoel Petah Tikva FC,2026-05-12,70812400,Hapoel Tel Aviv FC,Hapoel Petah Tikva FC,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,Penarol Montevideo,Penarol Montevideo,Nacional de Montevideo,2026-05-12,71378878,Penarol Montevideo,Nacional de Montevideo,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,Beitar Jerusalem FC,Beitar Jerusalem FC,Hapoel Be`er Sheva FC,2026-05-12,70812402,Beitar Jerusalem FC,Hapoel Be`er Sheva FC,2026-05-12,1.0,True,,True,1.0
 events_bookmaker_filtered,RC Celta de Vigo,RC Celta de Vigo,Levante UD,2026-05-12,61624642,RC Celta de Vigo,Levante UD,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,Al Nassr Club,Al Nassr Club,Al Hilal SFC,2026-05-12,64055859,Al Nassr Club,Al Hilal SFC,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,Servette Geneva,Servette Geneva,Lausanne-Sport,2026-05-12,70448542,Servette Geneva,Lausanne-Sport,2026-05-12,1.0,True,,True,1.0
 events_bookmaker_filtered,Modena FC,Modena FC,Juve Stabia,2026-05-12,71401082,Modena FC,Juve Stabia,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,Real Madrid,Real Madrid,Borussia Dortmund,2026-05-12,71338618,Real Madrid,Borussia Dortmund,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,FC Elva,FC Elva,Paide Linnameeskond,2026-05-12,71328286,FC Elva,Paide Linnameeskond,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,Al Hussein Irbid,Al Hussein Irbid,Al Wehdat,2026-05-12,71364784,Al Hussein Irbid,Al Wehdat,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,Al-Kholood,Al-Kholood,Al-Okhdood Club,2026-05-12,64055855,Al-Kholood,Al-Okhdood Club,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,Cerro Largo FC,Cerro Largo FC,Boston River,2026-05-12,71378874,Cerro Largo FC,Boston River,2026-05-12,1.0,True,,True,1.0
 events_bookmaker_filtered,Central Espanol Reserve,Central Espanol Reserve,Defensor Sporting,2026-05-12,71378882,Central Espanol Reserve,Defensor Sporting,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,1. FC Slovacko Uherske Hradiste,1. FC Slovacko Uherske Hradiste,FC Banik Ostrava,2026-05-12,71085582,1. FC Slovacko Uherske Hradiste,FC Banik Ostrava,2026-05-12,1.0,True,,True,1.0
-events_search_fallback,AL Faisaly (Jor),AL Faisaly (Jor),Ramtha SC,2026-05-12,71228890,AL Faisaly (Jor),Ramtha SC,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,FK Mlada Boleslav,FK Mlada Boleslav,Dukla Prague,2026-05-12,71085578,FK Mlada Boleslav,Dukla Prague,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,Real Madrid,Real Madrid,Borussia Dortmund,2026-05-12,71338618,Real Madrid,Borussia Dortmund,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,Sparta Prague,Sparta Prague,FC Viktoria Plzen,2026-05-12,71085528,Sparta Prague,FC Viktoria Plzen,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,Landskrona BoIS,Landskrona BoIS,Norrby IF,2026-05-12,67126084,Landskrona BoIS,Norrby IF,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,FC Luzern,FC Luzern,FC Zurich,2026-05-12,70448540,FC Luzern,FC Zurich,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,Newells Old Boys,Newells Old Boys,CA Quilmes Reserve,2026-05-12,68158784,Newells Old Boys,CA Quilmes Reserve,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,Racing Club Avellaneda,Racing Club Avellaneda,Velez Sarsfield Reserve,2026-05-12,68158760,Racing Club Avellaneda,Velez Sarsfield Reserve,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,Real Betis Seville,Real Betis Seville,Elche CF,2026-05-12,61624640,Real Betis Seville,Elche CF,2026-05-12,1.0,True,,True,1.0
 events_bookmaker_filtered,Wadi Degla SC,Wadi Degla SC,Ismaily SC,2026-05-12,69880310,Wadi Degla SC,Ismaily SC,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,AE Kifisia FC,AE Kifisia FC,Atromitos Athinon,2026-05-12,70232094,AE Kifisia FC,Atromitos Athinon,2026-05-12,1.0,True,,True,1.0
-events_search_fallback,PFC Cherno More Varna,PFC Cherno More Varna,PFC Lokomotiv Plovdiv,2026-05-12,70906728,PFC Cherno More Varna,PFC Lokomotiv Plovdiv,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,Grasshopper Club Zurich,Grasshopper Club Zurich,FC Winterthur,2026-05-12,70448538,Grasshopper Club Zurich,FC Winterthur,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,Botev Plovdiv,Botev Plovdiv,FC Arda Kardzhali,2026-05-12,70906726,Botev Plovdiv,FC Arda Kardzhali,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,Colon FC Reserve,Colon FC Reserve,Liverpool Montevideo,2026-05-12,71378884,Colon FC Reserve,Liverpool Montevideo,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,Gimnasia de la Plata Reserve,Gimnasia de la Plata Reserve,CA Banfield,2026-05-12,68158768,Gimnasia de la Plata Reserve,CA Banfield,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,Defensa Y Justicia Reserve,Defensa Y Justicia Reserve,CA Platense,2026-05-12,68158786,Defensa Y Justicia Reserve,CA Platense,2026-05-12,1.0,True,,True,1.0

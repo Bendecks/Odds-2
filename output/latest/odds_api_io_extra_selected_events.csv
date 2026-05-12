@@ -1,21 +1,21 @@
 raw_event_id,fixture_id,match_date,match_time,home_team,away_team,league,direct_match_confidence
-70906728,odds_api_io_70906728,2026-05-12,14:45,PFC Cherno More Varna,PFC Lokomotiv Plovdiv,bulgaria-parva-liga,1.0
-71228890,odds_api_io_71228890,2026-05-12,15:00,AL Faisaly (Jor),Ramtha SC,jordan-jordan-cup,1.0
-71338146,odds_api_io_71338146,2026-05-12,16:00,Viking FK,Haugesund,norway-nm-cup-women,1.0
-64055855,odds_api_io_64055855,2026-05-12,16:20,Al-Kholood,Al-Okhdood Club,saudi-arabia-saudi-pro-league,1.0
-71336690,odds_api_io_71336690,2026-05-12,16:20,Al-Rustaq,Ibri,oman-omani-league,1.0
-71344696,odds_api_io_71344696,2026-05-12,16:30,Samger FC,Real de Banjul,gambia-division-one,1.0
-71401082,odds_api_io_71401082,2026-05-12,16:45,Modena FC,Juve Stabia,italy-serie-b,1.0
-70430016,odds_api_io_70430016,2026-05-12,16:00,Asteras Tripolis,Panserraikos FC,greece-super-league,1.0
-71378882,odds_api_io_71378882,2026-05-12,17:00,Central Espanol Reserve,Defensor Sporting,uruguay-tercera-division-reserves,1.0
-70812400,odds_api_io_70812400,2026-05-12,17:00,Hapoel Tel Aviv FC,Hapoel Petah Tikva FC,israel-premier-league,1.0
-67126090,odds_api_io_67126090,2026-05-12,17:00,IFK Varnamo,Orebro SK,sweden-superettan,1.0
-67126084,odds_api_io_67126084,2026-05-12,17:00,Landskrona BoIS,Norrby IF,sweden-superettan,1.0
-61624642,odds_api_io_61624642,2026-05-12,17:00,RC Celta de Vigo,Levante UD,spain-laliga,1.0
-71338618,odds_api_io_71338618,2026-05-12,17:00,Real Madrid,Borussia Dortmund,international-youth-u21-premier-league-international-cup,1.0
-69880310,odds_api_io_69880310,2026-05-12,17:00,Wadi Degla SC,Ismaily SC,egypt-premier-league,1.0
-70906726,odds_api_io_70906726,2026-05-12,17:15,Botev Plovdiv,FC Arda Kardzhali,bulgaria-parva-liga,1.0
-71364784,odds_api_io_71364784,2026-05-12,17:30,Al Hussein Irbid,Al Wehdat,jordan-jordan-cup,1.0
 70812402,odds_api_io_70812402,2026-05-12,17:30,Beitar Jerusalem FC,Hapoel Be`er Sheva FC,israel-premier-league,1.0
 62670417,odds_api_io_62670417,2026-05-12,17:30,TS Galaxy FC,Mamelodi Sundowns,south-africa-premiership,1.0
 64055859,odds_api_io_64055859,2026-05-12,18:00,Al Nassr Club,Al Hilal SFC,saudi-arabia-saudi-pro-league,1.0
+71378884,odds_api_io_71378884,2026-05-12,18:00,Colon FC Reserve,Liverpool Montevideo,uruguay-tercera-division-reserves,1.0
+68158786,odds_api_io_68158786,2026-05-12,18:00,Defensa Y Justicia Reserve,CA Platense,argentina-copa-proyeccion-final-reserves,1.0
+68158768,odds_api_io_68158768,2026-05-12,18:00,Gimnasia de la Plata Reserve,CA Banfield,argentina-copa-proyeccion-final-reserves,1.0
+68158784,odds_api_io_68158784,2026-05-12,18:00,Newells Old Boys,CA Quilmes Reserve,argentina-copa-proyeccion-final-reserves,1.0
+68158760,odds_api_io_68158760,2026-05-12,18:00,Racing Club Avellaneda,Velez Sarsfield Reserve,argentina-copa-proyeccion-final-reserves,1.0
+61624640,odds_api_io_61624640,2026-05-12,18:00,Real Betis Seville,Elche CF,spain-laliga,1.0
+71085528,odds_api_io_71085528,2026-05-12,18:00,Sparta Prague,FC Viktoria Plzen,czechia-1-liga,1.0
+71378874,odds_api_io_71378874,2026-05-12,18:30,Cerro Largo FC,Boston River,uruguay-tercera-division-reserves,1.0
+70448538,odds_api_io_70448538,2026-05-12,18:30,Grasshopper Club Zurich,FC Winterthur,switzerland-super-league,1.0
+70448540,odds_api_io_70448540,2026-05-12,18:30,FC Luzern,FC Zurich,switzerland-super-league,1.0
+71378878,odds_api_io_71378878,2026-05-12,18:30,Penarol Montevideo,Nacional de Montevideo,uruguay-tercera-division-reserves,1.0
+71411500,odds_api_io_71411500,2026-05-12,18:30,Red Star FC,Rodez Aveyron Football,france-ligue-1,1.0
+70448542,odds_api_io_70448542,2026-05-12,18:30,Servette Geneva,Lausanne-Sport,switzerland-super-league,1.0
+71406954,odds_api_io_71406954,2026-05-12,18:45,Clyde FC,Hamilton Academical FC,scotland-league-1,1.0
+71345228,odds_api_io_71345228,2026-05-12,18:45,FC Domagnano,AC Virtus,san-marino-campionato-sammarinese,1.0
+71401830,odds_api_io_71401830,2026-05-12,18:45,Dunfermline Athletic FC,Partick Thistle FC,scotland-premiership,1.0
+71345226,odds_api_io_71345226,2026-05-12,18:45,SP Tre Penne,SP La Fiorita,san-marino-campionato-sammarinese,1.0

@@ -17,15 +17,9 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 
 ## Current rows needing odds
 
-- 2026-05-12 15:30 | 1. FC Slovacko Uherske Hradiste vs FC Banik Ostrava
 - 2026-05-12 19:45 | Aberdeen vs St Mirren
-- 2026-05-12 16:00 | AE Kifisia FC vs Atromitos Athinon
-- 2026-05-12 15:00 | AL Faisaly (Jor) vs Ramtha SC
 - 2026-05-12 17:30 | Al Hussein Irbid vs Al Wehdat
 - 2026-05-12 18:00 | Al Nassr Club vs Al Hilal SFC
-- 2026-05-12 15:30 | AL Wahda FC vs Khorfakkan
-- 2026-05-12 16:20 | Al-Kholood vs Al-Okhdood Club
-- 2026-05-12 16:20 | Al-Rustaq vs Ibri
 - 2026-05-12 17:00 | Asteras Tripolis vs Panserraikos
 - 2026-05-12 23:20 | Atletico Nacional Medellin vs Internacional de Bogota.
 - 2026-05-12 23:00 | Banos Ciudad de Fuego vs Delfin SC
@@ -46,8 +40,6 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-12 18:45 | FC Domagnano vs AC Virtus
 - 2026-05-12 19:45 | Dundee United vs Livingston
 - 2026-05-12 18:45 | Dunfermline Athletic FC vs Partick Thistle FC
-- 2026-05-12 16:00 | FC Elva vs Paide Linnameeskond
-- 2026-05-12 15:30 | FK Mlada Boleslav vs Dukla Prague
 - 2026-05-12 18:00 | Gimnasia de la Plata Reserve vs CA Banfield
 - 2026-05-12 18:30 | Grasshopper Club Zurich vs FC Winterthur
 - 2026-05-12 22:00 | GV Club Deportivo San Jose de Oruro vs CD Real Tomayapo
@@ -65,20 +57,14 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-12 16:45 | Modena FC vs Juve Stabia
 - 2026-05-12 18:00 | Newells Old Boys vs CA Quilmes Reserve
 - 2026-05-12 20:30 | Osasuna vs Ath Madrid
-- 2026-05-12 14:45 | PFC Cherno More Varna vs PFC Lokomotiv Plovdiv
-- 2026-05-12 16:00 | Panaitolikos Agrinio vs AE Larissa FC
 - 2026-05-12 17:00 | Panetolikos vs Larisa
 - 2026-05-12 18:30 | Penarol Montevideo vs Nacional de Montevideo
 - 2026-05-12 18:00 | Racing Club Avellaneda vs Velez Sarsfield Reserve
-- 2026-05-12 16:00 | Rayon Sports FC vs Gorilla FC
 - 2026-05-12 17:00 | RC Celta de Vigo vs Levante UD
 - 2026-05-12 18:00 | Real Betis Seville vs Elche CF
 - 2026-05-12 17:00 | Real Madrid vs Borussia Dortmund
 - 2026-05-12 18:30 | Red Star FC vs Rodez Aveyron Football
-- 2026-05-12 16:00 | Riga FC vs FK Auda Riga
-- 2026-05-12 16:30 | Samger FC vs Real de Banjul
 - 2026-05-12 19:00 | San Antonio Bulo Bulo vs FC Universitario de Vinto
-- 2026-05-12 16:00 | Sarpsborg 08 FF vs Hoenefoss BK
 - 2026-05-12 22:30 | SC Internacional RS vs Athletic Club Sjdr MG
 - 2026-05-12 18:30 | Servette Geneva vs Lausanne-Sport
 - 2026-05-12 19:00 | Southampton FC vs Middlesbrough FC
@@ -89,9 +75,7 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-12 23:30 | UCV FC vs Deportivo La Guaira
 - 2026-05-12 21:00 | Union Magdalena vs Real Cartagena FC
 - 2026-05-12 19:00 | US Catanzaro vs US Avellino
-- 2026-05-12 16:00 | Viking FK vs Haugesund
 - 2026-05-12 17:00 | Wadi Degla SC vs Ismaily SC
-- 2026-05-12 15:30 | FC Zlin vs FK Teplice
 - 2026-05-13 23:30 | Academia Puerto Cabello vs Portuguesa FC
 - 2026-05-13 23:00 | AD Pasto vs CD Tolima
 - 2026-05-13 20:30 | Alaves vs Barcelona
@@ -167,6 +151,8 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-14 19:00 | Girona vs Sociedad
 - 2026-05-14 20:30 | Real Madrid vs Oviedo
 - 2026-05-14 18:00 | Valencia vs Vallecano
+- 2026-05-16 08:15 | FK Mlada Boleslav B vs Tj Slovan Velvary
+- 2026-05-16 09:00 | Slavia Prague vs FK Mlada Boleslav
 
 ## After filling odds
 

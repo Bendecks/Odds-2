@@ -78,6 +78,23 @@ No qualifying candidate bets today.
 - Paper score: 0.2394
 - Prediction ID: 15223cd9a65de7bcdbde
 
+### Betis vs Elche
+
+- Date/time: 2026-05-12 19:00
+- League/phase: la_liga / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 5.0
+- Fair odds: 3.52
+- Model probability: 0.2839
+- Probability band: 0.00-0.35
+- EV: 0.4195
+- Probability edge: 0.0839
+- Alignment penalty: 0.4195
+- Suppression action: proxy_suppressed_band_observe_only
+- Paper tier: suppressed_band_proxy_observation
+- Paper score: 0.13
+- Prediction ID: 06c0b8a8cfd48f2f470a
+
 ### Getafe vs Mallorca
 
 - Date/time: 2026-05-13 20:30
@@ -110,23 +127,6 @@ No qualifying candidate bets today.
 - Suppression action: proxy_suppressed_band_observe_only
 - Paper tier: suppressed_band_proxy_observation
 - Paper score: 0.1287
-- Prediction ID: 1a7b8238707be2164ab1
-
-### Villarreal vs Sevilla
-
-- Date/time: 2026-05-13 18:00
-- League/phase: la_liga / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 3.6
-- Fair odds: 3.07
-- Model probability: 0.326
-- Probability band: 0.00-0.35
-- EV: 0.1736
-- Probability edge: 0.0482
-- Alignment penalty: 0.1736
-- Suppression action: proxy_suppressed_band_observe_only
-- Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.128
 - Prediction ID: 1a7b8238707be2164ab1
 
 ## Snapshot summary

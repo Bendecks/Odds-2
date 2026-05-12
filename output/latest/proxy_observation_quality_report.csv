@@ -1,2 +1,2 @@
 value_snapshot_rows,paper_proxy_observation_rows,positive_ev_value_rows,suppressed_band_observation_rows,distinct_matches,distinct_sources,real_money_ready,max_ev,avg_ev,max_probability_edge,avg_match_confidence
-486,7,232,3,4,0,False,0.20916,0.104792,0.05653,
+447,7,217,3,5,0,False,0.4195,0.13992,0.0839,

@@ -3,29 +3,13 @@
 Probability-only forward fixture model output. Not a betting card and not a real-money recommendation.
 Full model rows use matched team-strength data. Baseline rows are conservative league-average placeholders used to increase odds-matching coverage only.
 
-Upcoming fixture rows: 150
-Forward fixture prediction rows: 150
+Upcoming fixture rows: 136
+Forward fixture prediction rows: 136
 Full model prediction rows: 11
-Baseline prediction rows: 139
+Baseline prediction rows: 125
 Max forward predictions: 160
 Ready for price join: True
 
-- 2026-05-12 14:45 | PFC Cherno More Varna vs PFC Lokomotiv Plovdiv | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
-- 2026-05-12 15:00 | AL Faisaly (Jor) vs Ramtha SC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
-- 2026-05-12 15:30 | 1. FC Slovacko Uherske Hradiste vs FC Banik Ostrava | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
-- 2026-05-12 15:30 | AL Wahda FC vs Khorfakkan | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
-- 2026-05-12 15:30 | FK Mlada Boleslav vs Dukla Prague | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
-- 2026-05-12 15:30 | FC Zlin vs FK Teplice | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
-- 2026-05-12 16:00 | AE Kifisia FC vs Atromitos Athinon | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
-- 2026-05-12 16:00 | FC Elva vs Paide Linnameeskond | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
-- 2026-05-12 16:00 | Panaitolikos Agrinio vs AE Larissa FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
-- 2026-05-12 16:00 | Rayon Sports FC vs Gorilla FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
-- 2026-05-12 16:00 | Riga FC vs FK Auda Riga | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
-- 2026-05-12 16:00 | Sarpsborg 08 FF vs Hoenefoss BK | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
-- 2026-05-12 16:00 | Viking FK vs Haugesund | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
-- 2026-05-12 16:20 | Al-Kholood vs Al-Okhdood Club | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
-- 2026-05-12 16:20 | Al-Rustaq vs Ibri | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
-- 2026-05-12 16:30 | Samger FC vs Real de Banjul | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-12 16:45 | Modena FC vs Juve Stabia | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-12 17:00 | Asteras Tripolis vs Panserraikos | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-12 17:00 | Central Espanol Reserve vs Defensor Sporting | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
@@ -160,3 +144,5 @@ Ready for price join: True
 - 2026-05-14 18:00 | Valencia vs Vallecano | coverage=full_team_strength_match | H=0.3922 D=0.2863 A=0.3215 | fair=2.55/3.49/3.11
 - 2026-05-14 19:00 | Girona vs Sociedad | coverage=full_team_strength_match | H=0.3982 D=0.2712 A=0.3305 | fair=2.51/3.69/3.03
 - 2026-05-14 20:30 | Real Madrid vs Oviedo | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-16 08:15 | FK Mlada Boleslav B vs Tj Slovan Velvary | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-16 09:00 | Slavia Prague vs FK Mlada Boleslav | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87

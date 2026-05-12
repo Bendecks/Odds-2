@@ -5,9 +5,9 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 
 ## Kort status
 
-- Aktuelle viste paper picks: **4**
-- Unikke loggede paper picks: **33**
-- Afventer i loggen: **30**
+- Aktuelle viste paper picks: **5**
+- Unikke loggede paper picks: **34**
+- Afventer i loggen: **31**
 - Afgjorte fundet i settled-filen: **210**
 - Skjulte U-/reserve-rækker: **5**
 - Vundne: **70**
@@ -33,6 +33,15 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Status: **Afventer**
 - Type: **priority_proxy_observation**
 - Note: **automatic_forward_proxy_observation_not_real_money**
+
+### Betis vs Elche
+- Dato: **2026-05-12**
+- Kampstart: **19:00**
+- Spil: **Udebanesejr**
+- Odds: **5.00**
+- Status: **Afventer**
+- Type: **suppressed_band_proxy_observation**
+- Note: **suppressed_band_proxy_observation_not_real_money**
 
 ### Getafe vs Mallorca
 - Dato: **2026-05-13**
@@ -338,6 +347,7 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - **2026-05-12 kl. 10:00** – FC Oleksandriya vs FC Zorya Luhansk – Hjemmesejr @ 3.50
 - **2026-05-12 kl. 10:30** – Hellenic Athletic Club vs Darwin Hearts FC – Hjemmesejr @ 3.30
 - **2026-05-12 kl. 20:30** – Osasuna vs Ath Madrid – Udebanesejr @ 2.65
+- **2026-05-12 kl. 19:00** – Betis vs Elche – Udebanesejr @ 5.00
 - **2026-05-12 kl. 09:45** – Sunshine Coast Wanderers FC vs Eastern Suburbs FC – Uafgjort @ 5.00
 - **2026-05-12 kl. 10:30** – Gangwon FC vs Daejeon Citizen FC – Udebanesejr @ 3.10
 - **2026-05-12 kl. 10:30** – Hellenic Athletic Club vs Darwin Hearts FC – Uafgjort @ 4.20
@@ -355,7 +365,6 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - **2026-05-12 kl. 15:00** – AL Faisaly (Jor) vs Ramtha SC – Uafgjort @ 3.80
 - **2026-05-13 kl. 18:00** – Brest vs Strasbourg – Hjemmesejr @ 2.80
 - **2026-05-13 kl. 20:30** – Getafe vs Mallorca – Udebanesejr @ 3.70
-- **2026-05-13 kl. 18:00** – Villarreal vs Sevilla – Udebanesejr @ 3.70
 
 ## Hvad betyder det?
 

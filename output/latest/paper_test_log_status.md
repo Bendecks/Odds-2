@@ -1,11 +1,11 @@
 # Paper Test Log Status
 
-Raw log rows: 64
-Valid forward/proxy log rows: 61
-Deduped forward/proxy observation rows: 34
+Raw log rows: 65
+Valid forward/proxy log rows: 62
+Deduped forward/proxy observation rows: 35
 Duplicate forward/proxy log rows: 27
-Valid automatic proxy observation rows: 61
-Deduped automatic proxy observation rows: 34
+Valid automatic proxy observation rows: 62
+Deduped automatic proxy observation rows: 35
 Invalid historical/proxy log rows excluded: 3
 Has valid forward log: True
 
@@ -34,7 +34,6 @@ Has valid forward log: True
 
 ## Raw valid rows
 
-- 2026-05-12 | Sur SC vs Al-Khaboora | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
 - 2026-05-12 | AL Wasl vs AL Jazira | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
 - 2026-05-12 | El Gouna FC vs Kahrabaa Ismailia | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
 - 2026-05-12 | Hellenic Athletic Club vs Darwin Hearts FC | selection=draw | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
@@ -54,6 +53,7 @@ Has valid forward log: True
 - 2026-05-13 | Getafe vs Mallorca | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
 - 2026-05-13 | Villarreal vs Sevilla | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
 - 2026-05-13 | Villarreal vs Sevilla | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
+- 2026-05-12 | Betis vs Elche | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
 
 ## Invalid rows excluded
 

@@ -4,19 +4,13 @@ Fixture sources: TheSportsDB, Football-Data fixtures proxy, cautious odds-api.io
 Duplicate fixtures are deduplicated by date and normalized teams, preferring odds-api.io then Football-Data for odds alignment.
 Primary development target: automatic/free market proxy, not manual Bet365.
 
-Fixtures found: 150
-Source counts: {'odds_api_io_events_bookmaker_filtered': 120, 'football_data_fixtures_proxy': 26, 'odds_api_io_events_search': 3, 'thesportsdb_eventsnextleague': 1}
+Fixtures found: 136
+Source counts: {'odds_api_io_events_bookmaker_filtered': 106, 'football_data_fixtures_proxy': 26, 'odds_api_io_events_search': 3, 'thesportsdb_eventsnextleague': 1}
 Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 
-- 2026-05-12 15:30 | 1. FC Slovacko Uherske Hradiste vs FC Banik Ostrava | czechia-1-liga | odds_api_io_events_bookmaker_filtered
 - 2026-05-12 19:45 | Aberdeen vs St Mirren | SC0 | football_data_fixtures_proxy
-- 2026-05-12 16:00 | AE Kifisia FC vs Atromitos Athinon | greece-super-league | odds_api_io_events_bookmaker_filtered
-- 2026-05-12 15:00 | AL Faisaly (Jor) vs Ramtha SC | jordan-jordan-cup | odds_api_io_events_search
 - 2026-05-12 17:30 | Al Hussein Irbid vs Al Wehdat | jordan-jordan-cup | odds_api_io_events_bookmaker_filtered
 - 2026-05-12 18:00 | Al Nassr Club vs Al Hilal SFC | saudi-arabia-saudi-pro-league | odds_api_io_events_bookmaker_filtered
-- 2026-05-12 15:30 | AL Wahda FC vs Khorfakkan | united-arab-emirates-u23-pro-league | odds_api_io_events_bookmaker_filtered
-- 2026-05-12 16:20 | Al-Kholood vs Al-Okhdood Club | saudi-arabia-saudi-pro-league | odds_api_io_events_bookmaker_filtered
-- 2026-05-12 16:20 | Al-Rustaq vs Ibri | oman-omani-league | odds_api_io_events_bookmaker_filtered
 - 2026-05-12 17:00 | Asteras Tripolis vs Panserraikos | G1 | football_data_fixtures_proxy
 - 2026-05-12 23:20 | Atletico Nacional Medellin vs Internacional de Bogota. | colombia-primera-a-apertura | odds_api_io_events_bookmaker_filtered
 - 2026-05-12 23:00 | Banos Ciudad de Fuego vs Delfin SC | ecuador-copa-ecuador | odds_api_io_events_bookmaker_filtered
@@ -37,8 +31,6 @@ Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 - 2026-05-12 18:45 | FC Domagnano vs AC Virtus | san-marino-campionato-sammarinese | odds_api_io_events_bookmaker_filtered
 - 2026-05-12 19:45 | Dundee United vs Livingston | SC0 | football_data_fixtures_proxy
 - 2026-05-12 18:45 | Dunfermline Athletic FC vs Partick Thistle FC | scotland-premiership | odds_api_io_events_bookmaker_filtered
-- 2026-05-12 16:00 | FC Elva vs Paide Linnameeskond | estonia-cup-women | odds_api_io_events_bookmaker_filtered
-- 2026-05-12 15:30 | FK Mlada Boleslav vs Dukla Prague | czechia-1-liga | odds_api_io_events_bookmaker_filtered
 - 2026-05-12 18:00 | Gimnasia de la Plata Reserve vs CA Banfield | argentina-copa-proyeccion-final-reserves | odds_api_io_events_bookmaker_filtered
 - 2026-05-12 18:30 | Grasshopper Club Zurich vs FC Winterthur | switzerland-super-league | odds_api_io_events_bookmaker_filtered
 - 2026-05-12 22:00 | GV Club Deportivo San Jose de Oruro vs CD Real Tomayapo | bolivia-division-profesional | odds_api_io_events_bookmaker_filtered
@@ -56,20 +48,14 @@ Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 - 2026-05-12 16:45 | Modena FC vs Juve Stabia | italy-serie-b | odds_api_io_events_bookmaker_filtered
 - 2026-05-12 18:00 | Newells Old Boys vs CA Quilmes Reserve | argentina-copa-proyeccion-final-reserves | odds_api_io_events_bookmaker_filtered
 - 2026-05-12 20:30 | Osasuna vs Ath Madrid | la_liga | football_data_fixtures_proxy
-- 2026-05-12 14:45 | PFC Cherno More Varna vs PFC Lokomotiv Plovdiv | bulgaria-parva-liga | odds_api_io_events_search
-- 2026-05-12 16:00 | Panaitolikos Agrinio vs AE Larissa FC | greece-super-league | odds_api_io_events_bookmaker_filtered
 - 2026-05-12 17:00 | Panetolikos vs Larisa | G1 | football_data_fixtures_proxy
 - 2026-05-12 18:30 | Penarol Montevideo vs Nacional de Montevideo | uruguay-tercera-division-reserves | odds_api_io_events_bookmaker_filtered
 - 2026-05-12 18:00 | Racing Club Avellaneda vs Velez Sarsfield Reserve | argentina-copa-proyeccion-final-reserves | odds_api_io_events_bookmaker_filtered
-- 2026-05-12 16:00 | Rayon Sports FC vs Gorilla FC | rwanda-peace-cup | odds_api_io_events_bookmaker_filtered
 - 2026-05-12 17:00 | RC Celta de Vigo vs Levante UD | spain-laliga | odds_api_io_events_bookmaker_filtered
 - 2026-05-12 18:00 | Real Betis Seville vs Elche CF | spain-laliga | odds_api_io_events_bookmaker_filtered
 - 2026-05-12 17:00 | Real Madrid vs Borussia Dortmund | international-youth-u21-premier-league-international-cup | odds_api_io_events_bookmaker_filtered
 - 2026-05-12 18:30 | Red Star FC vs Rodez Aveyron Football | france-ligue-1 | odds_api_io_events_bookmaker_filtered
-- 2026-05-12 16:00 | Riga FC vs FK Auda Riga | latvia-virsliga | odds_api_io_events_bookmaker_filtered
-- 2026-05-12 16:30 | Samger FC vs Real de Banjul | gambia-division-one | odds_api_io_events_bookmaker_filtered
 - 2026-05-12 19:00 | San Antonio Bulo Bulo vs FC Universitario de Vinto | bolivia-division-profesional | odds_api_io_events_bookmaker_filtered
-- 2026-05-12 16:00 | Sarpsborg 08 FF vs Hoenefoss BK | norway-nm-cup-women | odds_api_io_events_bookmaker_filtered
 - 2026-05-12 22:30 | SC Internacional RS vs Athletic Club Sjdr MG | brazil-copa-do-brasil | odds_api_io_events_bookmaker_filtered
 - 2026-05-12 18:30 | Servette Geneva vs Lausanne-Sport | switzerland-super-league | odds_api_io_events_bookmaker_filtered
 - 2026-05-12 19:00 | Southampton FC vs Middlesbrough FC | england-championship | odds_api_io_events_bookmaker_filtered
@@ -80,11 +66,25 @@ Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 - 2026-05-12 23:30 | UCV FC vs Deportivo La Guaira | venezuela-primera-division | odds_api_io_events_bookmaker_filtered
 - 2026-05-12 21:00 | Union Magdalena vs Real Cartagena FC | colombia-primera-b | odds_api_io_events_bookmaker_filtered
 - 2026-05-12 19:00 | US Catanzaro vs US Avellino | italy-serie-b | odds_api_io_events_bookmaker_filtered
-- 2026-05-12 16:00 | Viking FK vs Haugesund | norway-nm-cup-women | odds_api_io_events_bookmaker_filtered
 - 2026-05-12 17:00 | Wadi Degla SC vs Ismaily SC | egypt-premier-league | odds_api_io_events_bookmaker_filtered
-- 2026-05-12 15:30 | FC Zlin vs FK Teplice | czechia-1-liga | odds_api_io_events_bookmaker_filtered
 - 2026-05-13 23:30 | Academia Puerto Cabello vs Portuguesa FC | venezuela-primera-division | odds_api_io_events_bookmaker_filtered
 - 2026-05-13 23:00 | AD Pasto vs CD Tolima | colombia-primera-a-apertura | odds_api_io_events_bookmaker_filtered
 - 2026-05-13 20:30 | Alaves vs Barcelona | la_liga | football_data_fixtures_proxy
 - 2026-05-13 18:45 | Alloa Athletic FC vs Stenhousemuir FC | scotland-championship | odds_api_io_events_bookmaker_filtered
 - 2026-05-13 10:30 | FC Anyang vs Gimcheon Sangmu FC | republic-of-korea-k-league-1 | odds_api_io_events_bookmaker_filtered
+- 2026-05-13 14:00 | APO Levadiakos FC vs OFI Crete | greece-super-league | odds_api_io_events_bookmaker_filtered
+- 2026-05-13 00:30 | Argentinos Juniors vs CA Huracan | argentina-liga-profesional | odds_api_io_events_bookmaker_filtered
+- 2026-05-13 18:00 | Arsenal WFC vs Everton FC | england-amateur-super-league-women | odds_api_io_events_bookmaker_filtered
+- 2026-05-13 21:00 | Bogota FC vs Barranquilla FC | colombia-primera-b | odds_api_io_events_bookmaker_filtered
+- 2026-05-13 18:00 | Brest vs Strasbourg | ligue_1 | football_data_fixtures_proxy
+- 2026-05-13 10:30 | Bucheon FC 1995 vs Jeonbuk FC | republic-of-korea-k-league-1 | odds_api_io_events_bookmaker_filtered
+- 2026-05-13 21:45 | CA Rosario Central vs Racing Club Avellaneda | argentina-liga-profesional | odds_api_io_events_bookmaker_filtered
+- 2026-05-13 23:00 | Carabobo FC vs Estudiantes de Merida | venezuela-primera-division | odds_api_io_events_bookmaker_filtered
+- 2026-05-13 02:15 | CD Olimpia Tegucigalpa vs Real CD Espana San Pedro Sula | honduras-liga-nacional-clausura | odds_api_io_events_bookmaker_filtered
+- 2026-05-13 23:15 | Charlotte FC vs New York City FC | usa-mls | odds_api_io_events_bookmaker_filtered
+- 2026-05-13 23:30 | FC Cincinnati vs Inter Miami CF | usa-mls | odds_api_io_events_bookmaker_filtered
+- 2026-05-13 00:00 | Club Aurora vs Cdt Real Oruro | bolivia-division-profesional | odds_api_io_events_bookmaker_filtered
+- 2026-05-13 22:30 | Coritiba FC PR vs Santos FC SP | brazil-copa-do-brasil | odds_api_io_events_bookmaker_filtered
+- 2026-05-13 22:00 | CR Vasco da Gama RJ vs Paysandu SC PA | brazil-copa-do-brasil | odds_api_io_events_bookmaker_filtered
+- 2026-05-13 00:30 | Cruzeiro EC MG vs Goias EC GO | brazil-copa-do-brasil | odds_api_io_events_bookmaker_filtered
+- 2026-05-13 23:30 | DC United vs Chicago Fire | usa-mls | odds_api_io_events_bookmaker_filtered
