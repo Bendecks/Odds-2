@@ -1,5 +1,5 @@
 {
-  "generated_at_dk": "2026-05-12 15:28",
+  "generated_at_dk": "2026-05-12 17:00",
   "report_date_dk": "2026-05-12",
   "sport": "football",
   "bookmaker": "Bet365",
@@ -8,7 +8,7 @@
   "events_requested_for_odds": 0,
   "events_with_odds": 0,
   "market_rows": 0,
-  "excluded_events": 72,
-  "latest_rate_limit_remaining": "85",
+  "excluded_events": 56,
+  "latest_rate_limit_remaining": "84",
   "latest_rate_limit_limit": "100"
 }

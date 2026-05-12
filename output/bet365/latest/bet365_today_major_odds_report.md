@@ -6,7 +6,7 @@
 - Kampe med odds: **0**
 - Markedsrækker: **0**
 - Min bookmakerCount: **20**
-- Frasorteret: **72**
+- Frasorteret: **56**
 
 ## Markeder fundet
 

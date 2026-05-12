@@ -1,20 +1,4 @@
 event_id,date_denmark,home,away,league,sport,bookmaker_count,reason
-71336688,2026-05-12 15:50,Sur SC,Al-Khaboora,Oman - Omani League,Football,0,low_coverage_bookmaker_count_below_20
-68746468,2026-05-12 16:00,Mohun Bagan Super Giant,Inter Kashi FC,India - Indian Super League,Football,0,low_coverage_bookmaker_count_below_20
-69880304,2026-05-12 16:00,El Gouna FC,Kahrabaa Ismailia,Egypt - Premier League,Football,0,low_coverage_bookmaker_count_below_20
-69880306,2026-05-12 16:00,Pharco FC,Modern Sport FC,Egypt - Premier League,Football,0,low_coverage_bookmaker_count_below_20
-70316166,2026-05-12 16:00,URA FC,Calvary,Uganda - Premier League,Football,0,low_coverage_bookmaker_count_below_20
-71325988,2026-05-12 16:00,FC Inter Turku,JS Hercules,Finland - Suomen Cup,Football,0,low_coverage_bookmaker_count_below_20
-71338854,2026-05-12 16:10,AL Ittihad Kalba,AL Nasr,United Arab Emirates - U23 Pro League,Football,0,youth_or_reserve
-71338856,2026-05-12 16:10,AL Wasl,AL Jazira,United Arab Emirates - U23 Pro League,Football,0,youth_or_reserve
-70906728,2026-05-12 16:45,PFC Cherno More Varna,PFC Lokomotiv Plovdiv,Bulgaria - Parva Liga,Football,0,low_coverage_bookmaker_count_below_20
-71228890,2026-05-12 17:00,AL Faisaly (Jor),Ramtha SC,Jordan - Jordan Cup,Football,0,low_coverage_bookmaker_count_below_20
-71231390,2026-05-12 17:00,MFK Chrudim,FK Pribram,Czechia - FNL,Football,0,low_coverage_bookmaker_count_below_20
-71372082,2026-05-12 17:00,JS Omrane,Avenir S Marsa,Tunisia - Ligue 1,Football,0,low_coverage_bookmaker_count_below_20
-61651662,2026-05-12 17:00,FC Metalist 1925 Kharkiv,Karpaty Lviv,Ukraine - Premier League,Football,0,low_coverage_bookmaker_count_below_20
-62036882,2026-05-12 17:00,Zaglebie Lubin II,Mkp Carina Gubin,"Poland - III Liga, Group 3",Football,0,youth_or_reserve
-68492514,2026-05-12 17:00,FK Liepaja,Ogre United,Latvia - Virsliga,Football,0,low_coverage_bookmaker_count_below_20
-61651650,2026-05-12 17:00,Veres Rivne,FC Kryvbas Kriviy Rih,Ukraine - Premier League,Football,0,low_coverage_bookmaker_count_below_20
 71338858,2026-05-12 17:30,AL Wahda FC,Khorfakkan,United Arab Emirates - U23 Pro League,Football,0,youth_or_reserve
 71085578,2026-05-12 17:30,FK Mlada Boleslav,Dukla Prague,Czechia - 1. Liga,Football,0,low_coverage_bookmaker_count_below_20
 71085580,2026-05-12 17:30,FC Zlin,FK Teplice,Czechia - 1. Liga,Football,0,low_coverage_bookmaker_count_below_20

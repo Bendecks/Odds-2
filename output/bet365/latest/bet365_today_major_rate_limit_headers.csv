@@ -1,2 +1,2 @@
 label,status_code,x_ratelimit_limit,x_ratelimit_remaining,x_ratelimit_reset,url
-today_major_events_page_1,200,100,85,2026-05-12T13:33:31Z,https://api.odds-api.io/v3/events?apiKey=***&sport=football&status=pending&bookmaker=Bet365&from=2026-05-11T22%3A00%3A00Z&to=2026-05-12T21%3A59%3A59Z&limit=100&skip=0
+today_major_events_page_1,200,100,84,2026-05-12T15:01:13Z,https://api.odds-api.io/v3/events?apiKey=***&sport=football&status=pending&bookmaker=Bet365&from=2026-05-11T22%3A00%3A00Z&to=2026-05-12T21%3A59%3A59Z&limit=100&skip=0
