@@ -257,6 +257,7 @@ def flatten(odds_payloads):
         bookmakers = event.get('bookmakers')
         if not isinstance(bookmakers, dict):
             continue
+        bookmaker_markets = bookmakers.get(BOOKMAKERS) if False else None
         bookmaker_markets = bookmakers.get(BOOKMAKER) or bookmakers.get(BOOKMAKER.lower()) or []
         if not isinstance(bookmaker_markets, list):
             continue
@@ -345,7 +346,7 @@ def write_html(path, report_date, events, markets, headers_log, args, excluded_c
 <title>Bet365 større ligaer i dag</title><style>
 body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#f6f6f6;margin:0;padding:16px;color:#111}}h1{{font-size:28px;margin:0 0 8px}}.summary,.card{{background:white;border-radius:14px;padding:16px;margin:12px 0;box-shadow:0 1px 5px rgba(0,0,0,.08)}}h2{{font-size:20px;margin:4px 0 6px}}.time{{font-size:14px;color:#555}}ul{{padding-left:20px}}li{{margin:7px 0;line-height:1.35}}.badge{{display:inline-block;background:#e8f1ff;padding:4px 8px;border-radius:999px;margin:2px}}.small{{color:#666;font-size:13px}}
 </style></head><body>
-<h1>Bet365 odds – større ligaer i dag</h1>
+<h1>Bet365 odds - større ligaer i dag</h1>
 <div class="summary"><p><span class="badge">Dato: {html.escape(report_date)}</span><span class="badge">Sport: {html.escape(args.sport)}</span><span class="badge">Bookmaker: Bet365</span><span class="badge">Kampe: {len(events)}</span><span class="badge">Markedsrækker: {len(markets)}</span><span class="badge">Frasorteret: {excluded_count}</span></p><p class="small">Rent data-overblik. Alle Bet365-markeder fra raw odds-responsen vises/lagres. Større ligaer vælges via allowlist. U-/reservekampe sorteres fra før odds hentes.</p><p class="small">Genereret {html.escape(now_dk().strftime('%Y-%m-%d %H:%M'))}. Rate-limit tilbage: {html.escape(str(latest.get('x_ratelimit_remaining','')))} / {html.escape(str(latest.get('x_ratelimit_limit','')))}</p></div>
 <div class="summary"><h2>Markeder fundet</h2><ul>{market_list if market_list else '<li>Ingen markeder fundet</li>'}</ul></div>
 {''.join(cards) if cards else '<div class="card">Ingen større Bet365-kampe fundet for i dag.</div>'}
@@ -357,7 +358,7 @@ def write_markdown(path, report_date, events, markets, args, excluded_count):
     by_event = {}
     for row in markets:
         by_event.setdefault(row['event_id'], []).append(row)
-    lines = ['# Bet365 odds – større ligaer i dag', '', f'- Dato: **{report_date}**', f'- Sport: **{args.sport}**', '- Bookmaker: **Bet365**', f'- Kampe med odds: **{len(events)}**', f'- Markedsrækker: **{len(markets)}**', f'- Frasorteret: **{excluded_count}**', '', '## Markeder fundet', '']
+    lines = ['# Bet365 odds - større ligaer i dag', '', f'- Dato: **{report_date}**', f'- Sport: **{args.sport}**', '- Bookmaker: **Bet365**', f'- Kampe med odds: **{len(events)}**', f'- Markedsrækker: **{len(markets)}**', f'- Frasorteret: **{excluded_count}**', '', '## Markeder fundet', '']
     for name, count in sorted(counts.items(), key=lambda x: (-x[1], x[0]))[:80]:
         lines.append(f'- {name}: {count}')
     if not counts:
@@ -369,6 +370,58 @@ def write_markdown(path, report_date, events, markets, args, excluded_count):
             lines.append(f"- **{row['market']}** - {outcome_line(row)}")
         lines.append('')
     path.write_text('\n'.join(lines), encoding='utf-8')
+
+
+def write_pdf(path, report_date, events, markets, args, excluded_count):
+    try:
+        from reportlab.lib import colors
+        from reportlab.lib.pagesizes import A4
+        from reportlab.lib.styles import getSampleStyleSheet
+        from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle
+    except Exception as exc:
+        path.with_suffix('.pdf_error.txt').write_text(f'ReportLab not available: {exc}', encoding='utf-8')
+        return False
+
+    styles = getSampleStyleSheet()
+    doc = SimpleDocTemplate(str(path), pagesize=A4, rightMargin=22, leftMargin=22, topMargin=22, bottomMargin=22)
+    story = [
+        Paragraph('Bet365 odds - stoerre ligaer i dag', styles['Title']),
+        Paragraph(f'Dato: {report_date} | Sport: {args.sport} | Kampe: {len(events)} | Markedsraekker: {len(markets)} | Frasorteret: {excluded_count}', styles['Normal']),
+        Spacer(1, 10),
+    ]
+
+    counts = market_counts(markets)
+    if counts:
+        story.append(Paragraph('Markeder fundet', styles['Heading2']))
+        data = [['Marked', 'Raekker']] + [[name, str(count)] for name, count in sorted(counts.items(), key=lambda x: (-x[1], x[0]))[:30]]
+        table = Table(data, colWidths=[350, 70])
+        table.setStyle(TableStyle([
+            ('BACKGROUND', (0, 0), (-1, 0), colors.lightgrey),
+            ('GRID', (0, 0), (-1, -1), 0.25, colors.grey),
+            ('VALIGN', (0, 0), (-1, -1), 'TOP'),
+        ]))
+        story.extend([table, Spacer(1, 10)])
+
+    by_event = {}
+    for row in markets:
+        by_event.setdefault(row['event_id'], []).append(row)
+
+    for event in events[:40]:
+        story.append(Paragraph(f"{event['home']} vs {event['away']}", styles['Heading2']))
+        story.append(Paragraph(f"Kampstart: {event['date_denmark']} | Liga: {event['league']}", styles['Normal']))
+        rows = [['Marked', 'Odds / outcomes']]
+        for row in by_event.get(event['event_id'], [])[:12]:
+            rows.append([Paragraph(row['market'], styles['BodyText']), Paragraph(outcome_line(row), styles['BodyText'])])
+        table = Table(rows, colWidths=[145, 280])
+        table.setStyle(TableStyle([
+            ('BACKGROUND', (0, 0), (-1, 0), colors.whitesmoke),
+            ('GRID', (0, 0), (-1, -1), 0.25, colors.lightgrey),
+            ('VALIGN', (0, 0), (-1, -1), 'TOP'),
+        ]))
+        story.extend([table, Spacer(1, 9)])
+
+    doc.build(story)
+    return True
 
 
 def main():
@@ -395,6 +448,7 @@ def main():
     write_csv(OUTPUT_DIR / 'bet365_today_major_rate_limit_headers.csv', headers_log)
     write_html(OUTPUT_DIR / 'bet365_today_major_odds_report.html', report_date, events, markets, headers_log, args, len(excluded))
     write_markdown(OUTPUT_DIR / 'bet365_today_major_odds_report.md', report_date, events, markets, args, len(excluded))
+    pdf_ok = write_pdf(OUTPUT_DIR / 'bet365_today_major_odds_report.pdf', report_date, events, markets, args, len(excluded))
     summary = {
         'generated_at_dk': now_dk().strftime('%Y-%m-%d %H:%M'),
         'report_date_dk': report_date,
@@ -407,6 +461,7 @@ def main():
         'events_with_odds': len(events),
         'market_rows': len(markets),
         'excluded_events': len(excluded),
+        'pdf_created': pdf_ok,
         'latest_rate_limit_remaining': headers_log[-1].get('x_ratelimit_remaining', '') if headers_log else '',
         'latest_rate_limit_limit': headers_log[-1].get('x_ratelimit_limit', '') if headers_log else '',
     }
