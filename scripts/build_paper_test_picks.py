@@ -16,7 +16,7 @@ paper_log_path = log_dir / 'paper_test_log.jsonl'
 expected_columns = [
     'snapshot_id', 'prediction_id', 'event_id', 'created_at_utc',
     'match_date', 'match_time', 'home_team', 'away_team',
-    'league', 'season', 'sample_phase', 'selection',
+    'league', 'season', 'sample_phase', 'model_source', 'model_coverage', 'selection',
     'market_odds', 'fair_odds', 'probability', 'probability_band',
     'market_implied_probability', 'probability_edge', 'model_market_ratio',
     'ev', 'alignment_penalty', 'calibration_risk', 'suppression_action',
@@ -99,6 +99,8 @@ else:
         'league': 'unknown',
         'season': 'unknown',
         'sample_phase': 'historical_proxy_research',
+        'model_source': 'unknown',
+        'model_coverage': 'unknown',
         'selection': 'unknown',
         'match_date': '',
         'match_time': '',
@@ -110,6 +112,7 @@ else:
             snapshots[col] = default
 
     snapshots['sample_phase'] = snapshots['sample_phase'].fillna('unknown').astype(str)
+    snapshots['model_coverage'] = snapshots['model_coverage'].fillna('unknown').astype(str)
     forward_snapshots = snapshots[snapshots['sample_phase'].isin(FORWARD_PHASES)].copy()
 
     if len(forward_snapshots) == 0:
@@ -133,9 +136,11 @@ else:
 
         forward_snapshots['calibration_risk'] = 'normal'
         forward_snapshots.loc[forward_snapshots['sample_phase'] == 'automatic_forward_price_proxy', 'calibration_risk'] = 'proxy_price_source'
+        forward_snapshots.loc[forward_snapshots['model_coverage'] == 'baseline_unmatched_fixture', 'calibration_risk'] = 'baseline_coverage_only'
         forward_snapshots.loc[forward_snapshots['probability'].fillna(0) >= 0.50, 'calibration_risk'] = 'high_probability_band'
         forward_snapshots.loc[forward_snapshots['probability_edge'].fillna(0).abs() >= 0.16, 'calibration_risk'] = 'large_probability_edge'
         forward_snapshots.loc[forward_snapshots['alignment_penalty'].fillna(0) >= 0.45, 'calibration_risk'] = 'market_misalignment'
+        forward_snapshots.loc[forward_snapshots['model_coverage'] == 'baseline_unmatched_fixture', 'calibration_risk'] = 'baseline_coverage_only'
 
         forward_snapshots['suppression_action'] = 'none'
         if len(rules):
@@ -157,7 +162,9 @@ else:
                     forward_snapshots.loc[mask & (forward_snapshots['suppression_action'] == 'none'), 'suppression_action'] = 'monitor'
 
         is_proxy = forward_snapshots['sample_phase'] == 'automatic_forward_price_proxy'
+        is_baseline = forward_snapshots['model_coverage'] == 'baseline_unmatched_fixture'
         forward_snapshots.loc[is_proxy & (forward_snapshots['suppression_action'] == 'suppress'), 'suppression_action'] = 'proxy_suppressed_band_observe_only'
+        forward_snapshots.loc[is_baseline & (forward_snapshots['suppression_action'] != 'proxy_suppressed_band_observe_only'), 'suppression_action'] = 'baseline_coverage_observe_only'
 
         paper = forward_snapshots[
             (forward_snapshots['suppression_action'] != 'suppress')
@@ -169,8 +176,8 @@ else:
         ].copy()
 
         if len(paper):
-            action_weight = paper['suppression_action'].map({'monitor': 0.92, 'downweight': 0.65, 'proxy_suppressed_band_observe_only': 0.48}).fillna(1.0)
-            risk_weight = paper['calibration_risk'].map({'market_misalignment': 0.70, 'large_probability_edge': 0.78, 'high_probability_band': 0.85, 'proxy_price_source': 0.82}).fillna(1.0)
+            action_weight = paper['suppression_action'].map({'monitor': 0.92, 'downweight': 0.65, 'proxy_suppressed_band_observe_only': 0.48, 'baseline_coverage_observe_only': 0.36}).fillna(1.0)
+            risk_weight = paper['calibration_risk'].map({'market_misalignment': 0.70, 'large_probability_edge': 0.78, 'high_probability_band': 0.85, 'proxy_price_source': 0.82, 'baseline_coverage_only': 0.45}).fillna(1.0)
             paper['paper_test_score'] = (
                 ((paper['ev'].fillna(0) * 0.28)
                  + (paper['probability_edge'].fillna(0) * 0.26)
@@ -181,9 +188,11 @@ else:
             ).round(4)
             paper['paper_test_tier'] = 'proxy_observation'
             paper.loc[(paper['suppression_action'] == 'proxy_suppressed_band_observe_only'), 'paper_test_tier'] = 'suppressed_band_proxy_observation'
-            paper.loc[(paper['paper_test_score'] >= 0.18) & (paper['alignment_penalty'] <= 0.34) & (paper['suppression_action'] != 'proxy_suppressed_band_observe_only'), 'paper_test_tier'] = 'priority_proxy_observation'
+            paper.loc[(paper['suppression_action'] == 'baseline_coverage_observe_only'), 'paper_test_tier'] = 'baseline_coverage_observation'
+            paper.loc[(paper['paper_test_score'] >= 0.18) & (paper['alignment_penalty'] <= 0.34) & (paper['suppression_action'] != 'proxy_suppressed_band_observe_only') & (paper['suppression_action'] != 'baseline_coverage_observe_only'), 'paper_test_tier'] = 'priority_proxy_observation'
             paper['paper_test_reason'] = 'automatic_forward_proxy_observation_not_real_money'
             paper.loc[paper['suppression_action'] == 'proxy_suppressed_band_observe_only', 'paper_test_reason'] = 'suppressed_band_proxy_observation_not_real_money'
+            paper.loc[paper['suppression_action'] == 'baseline_coverage_observe_only', 'paper_test_reason'] = 'baseline_coverage_observation_not_model_signal_not_real_money'
             paper = paper.sort_values(['paper_test_score'], ascending=False).head(7)
         else:
             paper = empty_paper()
@@ -221,6 +230,7 @@ markdown = [
     '',
     'Observation-only picks. These are not real-money recommendations.',
     'Automatic proxy prices are delayed/free market proxies, not live bookmaker odds.',
+    'Baseline coverage observations are not model signals. They exist only to test the pipeline and collect settlement evidence.',
     'Suppressed historical bands may be tracked only as proxy observation and remain excluded from real-money readiness.',
     '',
     f'Source used: {source_used}',
@@ -235,11 +245,11 @@ if len(paper) == 0:
 else:
     for _, row in paper.iterrows():
         markdown.append(
-            f"- {row['home_team']} vs {row['away_team']} | selection={str(row['selection']).upper()} | "
+            f"- {row['home_team']} vs {row['away_team']} | coverage={row['model_coverage']} | selection={str(row['selection']).upper()} | "
             f"odds={round(float(row['market_odds']),2)} | prob={round(float(row['probability']),4)} | "
             f"EV={round(float(row['ev']),4)} | edge={round(float(row['probability_edge']),4)} | "
             f"penalty={round(float(row['alignment_penalty']),4)} | band={row['probability_band']} | "
-            f"rule={row['suppression_action']} | tier={row['paper_test_tier']}"
+            f"risk={row['calibration_risk']} | rule={row['suppression_action']} | tier={row['paper_test_tier']}"
         )
 
 (output_dir / 'paper_test_picks.md').write_text('\n'.join(markdown), encoding='utf-8')
