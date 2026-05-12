@@ -4,34 +4,34 @@ Measures automatic price coverage for forward predictions.
 Fresh API price means odds-api.io or API-Football. This is still paper/proxy-only and not real-money ready.
 
 Forward prediction rows: 160
-Automatic price rows: 30
-Value snapshot rows: 90
-Matches with any automatic price: 29
-Matches with fresh API price: 29
-Matches with odds-api.io price: 29
-Fresh API match coverage rate: 0.1812
-odds-api.io match coverage rate: 0.1812
+Automatic price rows: 22
+Value snapshot rows: 66
+Matches with any automatic price: 22
+Matches with fresh API price: 22
+Matches with odds-api.io price: 22
+Fresh API match coverage rate: 0.1375
+odds-api.io match coverage rate: 0.1375
 Real-money ready: False
 
 ## Match coverage
 
-- 2026-05-12 | Canberra White Eagles FC vs Queanbeyan City FC | any=True | fresh_api=True | odds_api_io=True | rows=2 | sources=odds_api_io_Bet365_ML
+- 2026-05-12 | Canberra White Eagles FC vs Queanbeyan City FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
 - 2026-05-12 | Brothers Union vs Mohammedan SC Dhaka | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
 - 2026-05-12 | Sunshine Coast Wanderers FC vs Eastern Suburbs FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
 - 2026-05-12 | FC Oleksandriya vs FC Zorya Luhansk | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-12 | Cerro Porteno Asuncion vs Guarani Asuncion | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-12 | Cerro Porteno Asuncion vs Guarani Asuncion | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-12 | Gangwon FC vs Daejeon Citizen FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
 - 2026-05-12 | Gold Coast Knights vs Gold Coast United FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
 - 2026-05-12 | Gwangju FC vs FC Seoul | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
 - 2026-05-12 | Hellenic Athletic Club vs Darwin Hearts FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
 - 2026-05-12 | Incheon United FC vs FC Pohang Steelers | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-12 | Sportivo Ameliano vs Deportivo Recoleta Reserve | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-12 | Gwelup Croatia SC Reserves vs Cockburn City SC Reserves | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-12 | Sportivo Ameliano vs Deportivo Recoleta Reserve | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-12 | Gwelup Croatia SC Reserves vs Cockburn City SC Reserves | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-12 | Singida Black Stars SC vs Namungo FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-12 | Murdoch University Melville FC Reserves vs Joondalup City FC Reserve | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-12 | Murdoch University Melville FC Reserves vs Joondalup City FC Reserve | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-12 | Fardu Ferghana vs Xorazm Fk Urganch | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
 - 2026-05-12 | FC Epitsentr Kamianets-Podilskyi vs FC Polissya Zhytomyr | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-12 | Deportivo Maldonado Reserve vs Racing Club Montevideo | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-12 | Deportivo Maldonado Reserve vs Racing Club Montevideo | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-12 | Namdhari FC vs Gokulam Kerala FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
 - 2026-05-12 | TRA United vs Jkt Tanzania | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
 - 2026-05-12 | Sur SC vs Al-Khaboora | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
@@ -40,8 +40,8 @@ Real-money ready: False
 - 2026-05-12 | Mohun Bagan Super Giant vs Inter Kashi FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
 - 2026-05-12 | Pharco FC vs Modern Sport FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
 - 2026-05-12 | URA FC vs Calvary | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-12 | AL Ittihad Kalba vs AL Nasr | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-12 | AL Wasl vs AL Jazira | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-12 | AL Ittihad Kalba vs AL Nasr | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-12 | AL Wasl vs AL Jazira | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-12 | PFC Cherno More Varna vs PFC Lokomotiv Plovdiv | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
 - 2026-05-12 | AL Faisaly (Jor) vs Ramtha SC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
 - 2026-05-12 | FK Liepaja vs Ogre United | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
@@ -178,5 +178,5 @@ Real-money ready: False
 
 ## Source summary
 
-- odds_api_io_Bet365_ML | free_api_market_proxy | rows=10
-- odds_api_io_Bet365_ML | free_api_market_proxy | rows=20
+- odds_api_io_Bet365_ML | free_api_market_proxy | rows=8
+- odds_api_io_Bet365_ML | free_api_market_proxy | rows=14

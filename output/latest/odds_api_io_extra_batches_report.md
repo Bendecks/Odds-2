@@ -10,7 +10,7 @@ Combined price rows: 30
 Extra calls used: 2 / 3
 Max total price events: 30
 Minimum direct match confidence: 0.72
-Latest rate-limit remaining: 60
+Latest rate-limit remaining: 52
 Errors/status rows: 0
 
 ## New extra prices
@@ -21,7 +21,7 @@ Errors/status rows: 0
 - 2026-05-12 11:00 | Singida Black Stars SC vs Namungo FC | odds_api_io_Bet365_ML | 1.4/3.8/7.5
 - 2026-05-12 11:15 | Murdoch University Melville FC Reserves vs Joondalup City FC Reserve | odds_api_io_Bet365_ML | 2.4/4.333/2.15
 - 2026-05-12 12:00 | Fardu Ferghana vs Xorazm Fk Urganch | odds_api_io_Bet365_ML | 2.5/3.2/2.5
-- 2026-05-12 12:30 | FC Epitsentr Kamianets-Podilskyi vs FC Polissya Zhytomyr | odds_api_io_Bet365_ML | 6.5/3.7/1.444
+- 2026-05-12 12:30 | FC Epitsentr Kamianets-Podilskyi vs FC Polissya Zhytomyr | odds_api_io_Bet365_ML | 6.5/3.75/1.444
 - 2026-05-12 13:00 | Deportivo Maldonado Reserve vs Racing Club Montevideo | odds_api_io_Bet365_ML | 2.7/3.25/2.35
 - 2026-05-12 13:00 | Namdhari FC vs Gokulam Kerala FC | odds_api_io_Bet365_ML | 2.625/3.4/2.3
 - 2026-05-12 13:15 | TRA United vs Jkt Tanzania | odds_api_io_Bet365_ML | 2.05/2.9/3.5

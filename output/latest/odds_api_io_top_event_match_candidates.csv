@@ -1,26 +1,26 @@
 discovery_source,query,target_home_team,target_away_team,target_match_date,candidate_event_id,candidate_home_team,candidate_away_team,candidate_match_date,event_match_confidence,selected,rejection_reason,selected_bool,event_match_confidence_num
-events_bookmaker_filtered,Incheon United FC,Incheon United FC,FC Pohang Steelers,2026-05-12,67817694,Incheon United FC,FC Pohang Steelers,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,Mohun Bagan Super Giant,Mohun Bagan Super Giant,Inter Kashi FC,2026-05-12,68746468,Mohun Bagan Super Giant,Inter Kashi FC,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,Deportivo Maldonado Reserve,Deportivo Maldonado Reserve,Racing Club Montevideo,2026-05-12,71378880,Deportivo Maldonado Reserve,Racing Club Montevideo,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,FC Inter Turku,FC Inter Turku,JS Hercules,2026-05-12,71325988,FC Inter Turku,JS Hercules,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,Fardu Ferghana,Fardu Ferghana,Xorazm Fk Urganch,2026-05-12,71436762,Fardu Ferghana,Xorazm Fk Urganch,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,Gwangju FC,Gwangju FC,FC Seoul,2026-05-12,67817692,Gwangju FC,FC Seoul,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,FC Epitsentr Kamianets-Podilskyi,FC Epitsentr Kamianets-Podilskyi,FC Polissya Zhytomyr,2026-05-12,61651656,FC Epitsentr Kamianets-Podilskyi,FC Polissya Zhytomyr,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,FC Oleksandriya,FC Oleksandriya,FC Zorya Luhansk,2026-05-12,61651664,FC Oleksandriya,FC Zorya Luhansk,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,Sportivo Ameliano,Sportivo Ameliano,Deportivo Recoleta Reserve,2026-05-12,71372284,Sportivo Ameliano,Deportivo Recoleta Reserve,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,Pharco FC,Pharco FC,Modern Sport FC,2026-05-12,69880306,Pharco FC,Modern Sport FC,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,Cerro Porteno Asuncion,Cerro Porteno Asuncion,Guarani Asuncion,2026-05-12,71372286,Cerro Porteno Asuncion,Guarani Asuncion,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,Gangwon FC,Gangwon FC,Daejeon Citizen FC,2026-05-12,67817690,Gangwon FC,Daejeon Citizen FC,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,AL Wasl,AL Wasl,AL Jazira,2026-05-12,71338856,AL Wasl,AL Jazira,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,El Gouna FC,El Gouna FC,Kahrabaa Ismailia,2026-05-12,69880304,El Gouna FC,Kahrabaa Ismailia,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,AL Faisaly (Jor),AL Faisaly (Jor),Ramtha SC,2026-05-12,71228890,AL Faisaly (Jor),Ramtha SC,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,FK Liepaja,FK Liepaja,Ogre United,2026-05-12,68492514,FK Liepaja,Ogre United,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,Gwelup Croatia SC Reserves,Gwelup Croatia SC Reserves,Cockburn City SC Reserves,2026-05-12,71240276,Gwelup Croatia SC Reserves,Cockburn City SC Reserves,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,Sunshine Coast Wanderers FC,Sunshine Coast Wanderers FC,Eastern Suburbs FC,2026-05-12,71111302,Sunshine Coast Wanderers FC,Eastern Suburbs FC,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,Hellenic Athletic Club,Hellenic Athletic Club,Darwin Hearts FC,2026-05-12,71240286,Hellenic Athletic Club,Darwin Hearts FC,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,AL Ittihad Kalba,AL Ittihad Kalba,AL Nasr,2026-05-12,71338854,AL Ittihad Kalba,AL Nasr,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,Namdhari FC,Namdhari FC,Gokulam Kerala FC,2026-05-12,71338142,Namdhari FC,Gokulam Kerala FC,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,Brothers Union,Brothers Union,Mohammedan SC Dhaka,2026-05-12,71325526,Brothers Union,Mohammedan SC Dhaka,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,Sur SC,Sur SC,Al-Khaboora,2026-05-12,71336688,Sur SC,Al-Khaboora,2026-05-12,1.0,True,,True,1.0
 events_bookmaker_filtered,Canberra White Eagles FC,Canberra White Eagles FC,Queanbeyan City FC,2026-05-12,69195816,Canberra White Eagles FC,Queanbeyan City FC,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,Canberra White Eagles FC,Canberra White Eagles FC,Queanbeyan City FC,2026-05-12,69194920,Canberra White Eagles FC,Queanbeyan City FC,2026-05-12,1.0,False,,False,1.0
+events_bookmaker_filtered,Gwangju FC,Gwangju FC,FC Seoul,2026-05-12,67817692,Gwangju FC,FC Seoul,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,FK Liepaja,FK Liepaja,Ogre United,2026-05-12,68492514,FK Liepaja,Ogre United,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,Hellenic Athletic Club,Hellenic Athletic Club,Darwin Hearts FC,2026-05-12,71240286,Hellenic Athletic Club,Darwin Hearts FC,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,Gangwon FC,Gangwon FC,Daejeon Citizen FC,2026-05-12,67817690,Gangwon FC,Daejeon Citizen FC,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,Incheon United FC,Incheon United FC,FC Pohang Steelers,2026-05-12,67817694,Incheon United FC,FC Pohang Steelers,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,Sportivo Ameliano,Sportivo Ameliano,Deportivo Recoleta Reserve,2026-05-12,71372284,Sportivo Ameliano,Deportivo Recoleta Reserve,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,AL Faisaly (Jor),AL Faisaly (Jor),Ramtha SC,2026-05-12,71228890,AL Faisaly (Jor),Ramtha SC,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,Singida Black Stars SC,Singida Black Stars SC,Namungo FC,2026-05-12,70478154,Singida Black Stars SC,Namungo FC,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,Gwelup Croatia SC Reserves,Gwelup Croatia SC Reserves,Cockburn City SC Reserves,2026-05-12,71240276,Gwelup Croatia SC Reserves,Cockburn City SC Reserves,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,Murdoch University Melville FC Reserves,Murdoch University Melville FC Reserves,Joondalup City FC Reserve,2026-05-12,71161224,Murdoch University Melville FC Reserves,Joondalup City FC Reserve,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,Cerro Porteno Asuncion,Cerro Porteno Asuncion,Guarani Asuncion,2026-05-12,71372286,Cerro Porteno Asuncion,Guarani Asuncion,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,PFC Cherno More Varna,PFC Cherno More Varna,PFC Lokomotiv Plovdiv,2026-05-12,70906728,PFC Cherno More Varna,PFC Lokomotiv Plovdiv,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,Deportivo Maldonado Reserve,Deportivo Maldonado Reserve,Racing Club Montevideo,2026-05-12,71378880,Deportivo Maldonado Reserve,Racing Club Montevideo,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,AL Wasl,AL Wasl,AL Jazira,2026-05-12,71338856,AL Wasl,AL Jazira,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,FC Epitsentr Kamianets-Podilskyi,FC Epitsentr Kamianets-Podilskyi,FC Polissya Zhytomyr,2026-05-12,61651656,FC Epitsentr Kamianets-Podilskyi,FC Polissya Zhytomyr,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,Fardu Ferghana,Fardu Ferghana,Xorazm Fk Urganch,2026-05-12,71436762,Fardu Ferghana,Xorazm Fk Urganch,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,Sunshine Coast Wanderers FC,Sunshine Coast Wanderers FC,Eastern Suburbs FC,2026-05-12,71111302,Sunshine Coast Wanderers FC,Eastern Suburbs FC,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,URA FC,URA FC,Calvary,2026-05-12,70316166,URA FC,Calvary,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,El Gouna FC,El Gouna FC,Kahrabaa Ismailia,2026-05-12,69880304,El Gouna FC,Kahrabaa Ismailia,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,Sur SC,Sur SC,Al-Khaboora,2026-05-12,71336688,Sur SC,Al-Khaboora,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,TRA United,TRA United,Jkt Tanzania,2026-05-12,70478164,TRA United,Jkt Tanzania,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,Brothers Union,Brothers Union,Mohammedan SC Dhaka,2026-05-12,71325526,Brothers Union,Mohammedan SC Dhaka,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,AL Ittihad Kalba,AL Ittihad Kalba,AL Nasr,2026-05-12,71338854,AL Ittihad Kalba,AL Nasr,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,FC Oleksandriya,FC Oleksandriya,FC Zorya Luhansk,2026-05-12,61651664,FC Oleksandriya,FC Zorya Luhansk,2026-05-12,1.0,True,,True,1.0

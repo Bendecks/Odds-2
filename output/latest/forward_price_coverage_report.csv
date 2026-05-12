@@ -1,21 +1,21 @@
 prediction_id,match_date,home_team,away_team,league,has_any_automatic_price,has_fresh_api_price,has_odds_api_io_price,automatic_price_rows,fresh_api_price_rows,odds_api_io_price_rows,source_names
-dabb233183cfe864c5d8,2026-05-12,Canberra White Eagles FC,Queanbeyan City FC,australia-u23-capital-npl,True,True,True,2,2,2,odds_api_io_Bet365_ML
+dabb233183cfe864c5d8,2026-05-12,Canberra White Eagles FC,Queanbeyan City FC,australia-u23-capital-npl,True,True,True,1,1,1,odds_api_io_Bet365_ML
 19dab538e00b5ea3a31a,2026-05-12,Brothers Union,Mohammedan SC Dhaka,bangladesh-federation-cup,True,True,True,1,1,1,odds_api_io_Bet365_ML
 ce21558fb1861a710d9e,2026-05-12,Sunshine Coast Wanderers FC,Eastern Suburbs FC,australia-queensland-npl-women,True,True,True,1,1,1,odds_api_io_Bet365_ML
 403bdf4cdf1556c8f708,2026-05-12,FC Oleksandriya,FC Zorya Luhansk,ukraine-premier-league,True,True,True,1,1,1,odds_api_io_Bet365_ML
-81cc742994ee1e88a647,2026-05-12,Cerro Porteno Asuncion,Guarani Asuncion,paraguay-primera-division-reserve-apertura,True,True,True,1,1,1,odds_api_io_Bet365_ML
+81cc742994ee1e88a647,2026-05-12,Cerro Porteno Asuncion,Guarani Asuncion,paraguay-primera-division-reserve-apertura,False,False,False,0,0,0,
 fb5291022f6d38baa0d3,2026-05-12,Gangwon FC,Daejeon Citizen FC,republic-of-korea-k-league-1,True,True,True,1,1,1,odds_api_io_Bet365_ML
 34ce66c8f5877b1d188a,2026-05-12,Gold Coast Knights,Gold Coast United FC,australia-queensland-npl-women,True,True,True,1,1,1,odds_api_io_Bet365_ML
 d27355bf775167c01512,2026-05-12,Gwangju FC,FC Seoul,republic-of-korea-k-league-1,True,True,True,1,1,1,odds_api_io_Bet365_ML
 de3d070ab1a07787588d,2026-05-12,Hellenic Athletic Club,Darwin Hearts FC,australia-northern-territory-premier-league,True,True,True,1,1,1,odds_api_io_Bet365_ML
 e05c0d138da074d85971,2026-05-12,Incheon United FC,FC Pohang Steelers,republic-of-korea-k-league-1,True,True,True,1,1,1,odds_api_io_Bet365_ML
-386769fafb5376f24ba7,2026-05-12,Sportivo Ameliano,Deportivo Recoleta Reserve,paraguay-primera-division-reserve-apertura,True,True,True,1,1,1,odds_api_io_Bet365_ML
-d399acc9939021af8d97,2026-05-12,Gwelup Croatia SC Reserves,Cockburn City SC Reserves,australia-western-australia-state-league-1-reserves,True,True,True,1,1,1,odds_api_io_Bet365_ML
+386769fafb5376f24ba7,2026-05-12,Sportivo Ameliano,Deportivo Recoleta Reserve,paraguay-primera-division-reserve-apertura,False,False,False,0,0,0,
+d399acc9939021af8d97,2026-05-12,Gwelup Croatia SC Reserves,Cockburn City SC Reserves,australia-western-australia-state-league-1-reserves,False,False,False,0,0,0,
 333e5c91e55a6c72deb5,2026-05-12,Singida Black Stars SC,Namungo FC,tanzania-premier-league,True,True,True,1,1,1,odds_api_io_Bet365_ML
-cd51dbf3a22b0d921a96,2026-05-12,Murdoch University Melville FC Reserves,Joondalup City FC Reserve,australia-western-australia-state-league-1-reserves,True,True,True,1,1,1,odds_api_io_Bet365_ML
+cd51dbf3a22b0d921a96,2026-05-12,Murdoch University Melville FC Reserves,Joondalup City FC Reserve,australia-western-australia-state-league-1-reserves,False,False,False,0,0,0,
 e0a19f401cc1a809a53a,2026-05-12,Fardu Ferghana,Xorazm Fk Urganch,uzbekistan-cup,True,True,True,1,1,1,odds_api_io_Bet365_ML
 e7113b9224539950a464,2026-05-12,FC Epitsentr Kamianets-Podilskyi,FC Polissya Zhytomyr,ukraine-premier-league,True,True,True,1,1,1,odds_api_io_Bet365_ML
-96243835bb610a26ac38,2026-05-12,Deportivo Maldonado Reserve,Racing Club Montevideo,uruguay-tercera-division-reserves,True,True,True,1,1,1,odds_api_io_Bet365_ML
+96243835bb610a26ac38,2026-05-12,Deportivo Maldonado Reserve,Racing Club Montevideo,uruguay-tercera-division-reserves,False,False,False,0,0,0,
 6fb40f8e2b541ef03128,2026-05-12,Namdhari FC,Gokulam Kerala FC,india-i-league,True,True,True,1,1,1,odds_api_io_Bet365_ML
 34ef6abfb87a2af70436,2026-05-12,TRA United,Jkt Tanzania,tanzania-premier-league,True,True,True,1,1,1,odds_api_io_Bet365_ML
 2dacd987cdbdfbc80910,2026-05-12,Sur SC,Al-Khaboora,oman-omani-league,True,True,True,1,1,1,odds_api_io_Bet365_ML
@@ -24,8 +24,8 @@ dd1cc38b0a82c5f95154,2026-05-12,El Gouna FC,Kahrabaa Ismailia,egypt-premier-leag
 315fb5151d898e65b715,2026-05-12,Mohun Bagan Super Giant,Inter Kashi FC,india-indian-super-league,True,True,True,1,1,1,odds_api_io_Bet365_ML
 92bc1589b3bce2a4166d,2026-05-12,Pharco FC,Modern Sport FC,egypt-premier-league,True,True,True,1,1,1,odds_api_io_Bet365_ML
 68a3b292d3d8f6c8abcf,2026-05-12,URA FC,Calvary,uganda-premier-league,True,True,True,1,1,1,odds_api_io_Bet365_ML
-0f6a71afcd810550a20a,2026-05-12,AL Ittihad Kalba,AL Nasr,united-arab-emirates-u23-pro-league,True,True,True,1,1,1,odds_api_io_Bet365_ML
-be743004d37f19c1db36,2026-05-12,AL Wasl,AL Jazira,united-arab-emirates-u23-pro-league,True,True,True,1,1,1,odds_api_io_Bet365_ML
+0f6a71afcd810550a20a,2026-05-12,AL Ittihad Kalba,AL Nasr,united-arab-emirates-u23-pro-league,False,False,False,0,0,0,
+be743004d37f19c1db36,2026-05-12,AL Wasl,AL Jazira,united-arab-emirates-u23-pro-league,False,False,False,0,0,0,
 5c33e27f3c4410ed68c4,2026-05-12,PFC Cherno More Varna,PFC Lokomotiv Plovdiv,bulgaria-parva-liga,True,True,True,1,1,1,odds_api_io_Bet365_ML
 963ccde4496269c4b339,2026-05-12,AL Faisaly (Jor),Ramtha SC,jordan-jordan-cup,True,True,True,1,1,1,odds_api_io_Bet365_ML
 aac25a05fd570bf448da,2026-05-12,FK Liepaja,Ogre United,latvia-virsliga,False,False,False,0,0,0,

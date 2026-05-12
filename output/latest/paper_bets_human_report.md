@@ -5,11 +5,11 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 
 ## Kort status
 
-- Aktuelle viste paper picks: **4**
-- Unikke loggede paper picks: **23**
-- Afventer i loggen: **20**
+- Aktuelle viste paper picks: **7**
+- Unikke loggede paper picks: **24**
+- Afventer i loggen: **21**
 - Afgjorte fundet i settled-filen: **210**
-- Skjulte U-/reserve-rækker: **8**
+- Skjulte U-/reserve-rækker: **5**
 - Vundne: **70**
 - Tabte: **140**
 - Samlet ROI i units: **-3.45**
@@ -48,6 +48,33 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Kampstart: **10:30**
 - Spil: **Udebanesejr**
 - Odds: **3.30**
+- Status: **Afventer**
+- Type: **suppressed_band_proxy_observation**
+- Note: **suppressed_band_proxy_observation_not_real_money**
+
+### El Gouna FC vs Kahrabaa Ismailia
+- Dato: **2026-05-12**
+- Kampstart: **14:00**
+- Spil: **Udebanesejr**
+- Odds: **3.20**
+- Status: **Afventer**
+- Type: **suppressed_band_proxy_observation**
+- Note: **suppressed_band_proxy_observation_not_real_money**
+
+### Hellenic Athletic Club vs Darwin Hearts FC
+- Dato: **2026-05-12**
+- Kampstart: **10:30**
+- Spil: **Uafgjort**
+- Odds: **4.50**
+- Status: **Afventer**
+- Type: **suppressed_band_proxy_observation**
+- Note: **suppressed_band_proxy_observation_not_real_money**
+
+### URA FC vs Calvary
+- Dato: **2026-05-12**
+- Kampstart: **14:00**
+- Spil: **Uafgjort**
+- Odds: **4.50**
 - Status: **Afventer**
 - Type: **suppressed_band_proxy_observation**
 - Note: **suppressed_band_proxy_observation_not_real_money**
@@ -344,6 +371,7 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - **2026-05-12 kl. 14:45** – PFC Cherno More Varna vs PFC Lokomotiv Plovdiv – Udebanesejr @ 4.20
 - **2026-05-12 kl. 13:15** – TRA United vs Jkt Tanzania – Udebanesejr @ 3.50
 - **2026-05-12 kl. 14:00** – El Gouna FC vs Kahrabaa Ismailia – Udebanesejr @ 3.30
+- **2026-05-12 kl. 14:00** – URA FC vs Calvary – Uafgjort @ 4.50
 - **2026-05-12 kl. 10:30** – Gwangju FC vs FC Seoul – Uafgjort @ 4.20
 - **2026-05-12 kl. 10:30** – Incheon United FC vs FC Pohang Steelers – Udebanesejr @ 2.88
 

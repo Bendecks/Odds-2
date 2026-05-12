@@ -61,40 +61,6 @@ No qualifying candidate bets today.
 - Paper score: 0.0716
 - Prediction ID: 34ef6abfb87a2af70436
 
-### AL Ittihad Kalba vs AL Nasr
-
-- Date/time: 2026-05-12 14:10
-- League/phase: united-arab-emirates-u23-pro-league / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 3.3
-- Fair odds: 2.87
-- Model probability: 0.3488
-- Probability band: 0.00-0.35
-- EV: 0.151
-- Probability edge: 0.0458
-- Alignment penalty: 0.151
-- Suppression action: proxy_suppressed_band_observe_only
-- Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.0706
-- Prediction ID: 0f6a71afcd810550a20a
-
-### Canberra White Eagles FC vs Queanbeyan City FC
-
-- Date/time: 2026-05-12 07:30
-- League/phase: australia-u23-capital-npl / automatic_forward_price_proxy
-- Selection: DRAW
-- Market odds: 5.0
-- Fair odds: 3.65
-- Model probability: 0.274
-- Probability band: 0.00-0.35
-- EV: 0.37
-- Probability edge: 0.074
-- Alignment penalty: 0.37
-- Suppression action: proxy_suppressed_band_observe_only
-- Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.0706
-- Prediction ID: dabb233183cfe864c5d8
-
 ### Gangwon FC vs Daejeon Citizen FC
 
 - Date/time: 2026-05-12 10:30
@@ -112,22 +78,56 @@ No qualifying candidate bets today.
 - Paper score: 0.0706
 - Prediction ID: fb5291022f6d38baa0d3
 
-### AL Wasl vs AL Jazira
+### El Gouna FC vs Kahrabaa Ismailia
 
-- Date/time: 2026-05-12 14:10
-- League/phase: united-arab-emirates-u23-pro-league / automatic_forward_price_proxy
+- Date/time: 2026-05-12 14:00
+- League/phase: egypt-premier-league / automatic_forward_price_proxy
 - Selection: AWAY
-- Market odds: 3.25
+- Market odds: 3.2
 - Fair odds: 2.87
 - Model probability: 0.3488
 - Probability band: 0.00-0.35
-- EV: 0.1336
-- Probability edge: 0.0411
-- Alignment penalty: 0.1336
+- EV: 0.1162
+- Probability edge: 0.0363
+- Alignment penalty: 0.1162
 - Suppression action: proxy_suppressed_band_observe_only
 - Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.0703
-- Prediction ID: be743004d37f19c1db36
+- Paper score: 0.0701
+- Prediction ID: dd1cc38b0a82c5f95154
+
+### Hellenic Athletic Club vs Darwin Hearts FC
+
+- Date/time: 2026-05-12 10:30
+- League/phase: australia-northern-territory-premier-league / automatic_forward_price_proxy
+- Selection: DRAW
+- Market odds: 4.5
+- Fair odds: 3.65
+- Model probability: 0.274
+- Probability band: 0.00-0.35
+- EV: 0.233
+- Probability edge: 0.0518
+- Alignment penalty: 0.233
+- Suppression action: proxy_suppressed_band_observe_only
+- Paper tier: suppressed_band_proxy_observation
+- Paper score: 0.0693
+- Prediction ID: de3d070ab1a07787588d
+
+### URA FC vs Calvary
+
+- Date/time: 2026-05-12 14:00
+- League/phase: uganda-premier-league / automatic_forward_price_proxy
+- Selection: DRAW
+- Market odds: 4.5
+- Fair odds: 3.65
+- Model probability: 0.274
+- Probability band: 0.00-0.35
+- EV: 0.233
+- Probability edge: 0.0518
+- Alignment penalty: 0.233
+- Suppression action: proxy_suppressed_band_observe_only
+- Paper tier: suppressed_band_proxy_observation
+- Paper score: 0.0693
+- Prediction ID: 68a3b292d3d8f6c8abcf
 
 ## Snapshot summary
 
