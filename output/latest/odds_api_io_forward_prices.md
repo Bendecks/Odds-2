@@ -39,7 +39,7 @@ Errors/status rows: 0
 
 Header rows captured: 3
 Latest x-ratelimit-limit: 100
-Latest x-ratelimit-remaining: 94
+Latest x-ratelimit-remaining: 82
 Latest x-ratelimit-reset: 2026-05-12T04:42:36Z
 Latest retry-after: None
 

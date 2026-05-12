@@ -8,8 +8,8 @@ Overall project stage: `proxy_paper_testing_started`
 - Automatic value snapshots: 30
 - Positive EV proxy rows: 15
 - Proxy observation rows: 7
-- Valid forward/proxy log rows: 27
-- Deduped forward/proxy log rows: 14
+- Valid forward/proxy log rows: 30
+- Deduped forward/proxy log rows: 17
 - Duplicate forward/proxy log rows identified: 13
 - Fresh API match coverage rate: 0.125
 - Matches with fresh API price: 10
@@ -33,7 +33,7 @@ Done when: Keep Football-Data as baseline; improve odds-api.io/API-Football cove
 ### paper_forward_testing
 Status: `started_not_mature`
 Target: At least 50-100 deduped proxy observations across several matchdays.
-Current: 14 deduped forward/proxy rows; 13 duplicate raw rows identified.
+Current: 17 deduped forward/proxy rows; 13 duplicate raw rows identified.
 Done when: Minimum 50 deduped observations before drawing early conclusions; 100+ preferred.
 
 ### forward_probability_calibration

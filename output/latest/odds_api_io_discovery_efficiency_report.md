@@ -13,7 +13,7 @@ Multi-odds attempted: True
 Raw price rows before quality filter: 10
 Accepted price rows after quality filter: 10
 Rejected price rows after quality filter: 0
-Latest rate-limit remaining: 94
+Latest rate-limit remaining: 82
 
 ## By discovery source
 

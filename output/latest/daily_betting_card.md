@@ -10,57 +10,6 @@ No qualifying candidate bets today.
 
 ## Paper-Test Picks
 
-### Brothers Union vs Mohammedan SC Dhaka
-
-- Date/time: 2026-05-12 08:45
-- League/phase: bangladesh-federation-cup / automatic_forward_price_proxy
-- Selection: HOME
-- Market odds: 3.6
-- Fair odds: 2.65
-- Model probability: 0.3772
-- Probability band: 0.35-0.45
-- EV: 0.3579
-- Probability edge: 0.0994
-- Alignment penalty: 0.3579
-- Suppression action: monitor
-- Paper tier: proxy_observation
-- Paper score: 0.2592
-- Prediction ID: 19dab538e00b5ea3a31a
-
-### FC Oleksandriya vs FC Zorya Luhansk
-
-- Date/time: 2026-05-12 10:00
-- League/phase: ukraine-premier-league / automatic_forward_price_proxy
-- Selection: HOME
-- Market odds: 3.5
-- Fair odds: 2.65
-- Model probability: 0.3772
-- Probability band: 0.35-0.45
-- EV: 0.3202
-- Probability edge: 0.0915
-- Alignment penalty: 0.3202
-- Suppression action: monitor
-- Paper tier: priority_proxy_observation
-- Paper score: 0.2576
-- Prediction ID: 403bdf4cdf1556c8f708
-
-### Hellenic Athletic Club vs Darwin Hearts FC
-
-- Date/time: 2026-05-12 10:30
-- League/phase: australia-northern-territory-premier-league / automatic_forward_price_proxy
-- Selection: HOME
-- Market odds: 3.3
-- Fair odds: 2.65
-- Model probability: 0.3772
-- Probability band: 0.35-0.45
-- EV: 0.2448
-- Probability edge: 0.0742
-- Alignment penalty: 0.2448
-- Suppression action: monitor
-- Paper tier: priority_proxy_observation
-- Paper score: 0.2542
-- Prediction ID: de3d070ab1a07787588d
-
 ### Canberra White Eagles FC vs Queanbeyan City FC
 
 - Date/time: 2026-05-12 07:30
@@ -75,7 +24,7 @@ No qualifying candidate bets today.
 - Alignment penalty: 0.37
 - Suppression action: proxy_suppressed_band_observe_only
 - Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.1286
+- Paper score: 0.0706
 - Prediction ID: dabb233183cfe864c5d8
 
 ### Sunshine Coast Wanderers FC vs Eastern Suburbs FC
@@ -92,7 +41,7 @@ No qualifying candidate bets today.
 - Alignment penalty: 0.37
 - Suppression action: proxy_suppressed_band_observe_only
 - Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.1286
+- Paper score: 0.0706
 - Prediction ID: ce21558fb1861a710d9e
 
 ### Gangwon FC vs Daejeon Citizen FC
@@ -109,7 +58,7 @@ No qualifying candidate bets today.
 - Alignment penalty: 0.0813
 - Suppression action: proxy_suppressed_band_observe_only
 - Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.1266
+- Paper score: 0.0695
 - Prediction ID: fb5291022f6d38baa0d3
 
 ### Hellenic Athletic Club vs Darwin Hearts FC
@@ -126,8 +75,59 @@ No qualifying candidate bets today.
 - Alignment penalty: 0.1508
 - Suppression action: proxy_suppressed_band_observe_only
 - Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.1247
+- Paper score: 0.0684
 - Prediction ID: de3d070ab1a07787588d
+
+### Gwangju FC vs FC Seoul
+
+- Date/time: 2026-05-12 10:30
+- League/phase: republic-of-korea-k-league-1 / automatic_forward_price_proxy
+- Selection: DRAW
+- Market odds: 4.2
+- Fair odds: 3.65
+- Model probability: 0.274
+- Probability band: 0.00-0.35
+- EV: 0.1508
+- Probability edge: 0.0359
+- Alignment penalty: 0.1508
+- Suppression action: proxy_suppressed_band_observe_only
+- Paper tier: suppressed_band_proxy_observation
+- Paper score: 0.0684
+- Prediction ID: d27355bf775167c01512
+
+### Incheon United FC vs FC Pohang Steelers
+
+- Date/time: 2026-05-12 10:30
+- League/phase: republic-of-korea-k-league-1 / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 2.88
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.00-0.35
+- EV: 0.0028
+- Probability edge: 0.001
+- Alignment penalty: 0.0028
+- Suppression action: proxy_suppressed_band_observe_only
+- Paper tier: suppressed_band_proxy_observation
+- Paper score: 0.0681
+- Prediction ID: e05c0d138da074d85971
+
+### Cerro Porteno Asuncion vs Guarani Asuncion
+
+- Date/time: 2026-05-12 10:30
+- League/phase: paraguay-primera-division-reserve-apertura / automatic_forward_price_proxy
+- Selection: DRAW
+- Market odds: 3.8
+- Fair odds: 3.65
+- Model probability: 0.274
+- Probability band: 0.00-0.35
+- EV: 0.0412
+- Probability edge: 0.0108
+- Alignment penalty: 0.0412
+- Suppression action: proxy_suppressed_band_observe_only
+- Paper tier: suppressed_band_proxy_observation
+- Paper score: 0.067
+- Prediction ID: 81cc742994ee1e88a647
 
 ## Snapshot summary
 

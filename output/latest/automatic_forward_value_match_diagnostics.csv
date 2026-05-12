@@ -1,81 +1,81 @@
-prediction_id,match_date,home_team,away_team,candidate_rows,best_home_team,best_away_team,best_match_confidence,matched_rows,matched_odds_api_io_rows
-dabb233183cfe864c5d8,2026-05-12,Canberra White Eagles FC,Queanbeyan City FC,10,Canberra White Eagles FC,Queanbeyan City FC,1.0,1,1
-19dab538e00b5ea3a31a,2026-05-12,Brothers Union,Mohammedan SC Dhaka,10,Brothers Union,Mohammedan SC Dhaka,1.0,1,1
-ce21558fb1861a710d9e,2026-05-12,Sunshine Coast Wanderers FC,Eastern Suburbs FC,10,Sunshine Coast Wanderers FC,Eastern Suburbs FC,1.0,1,1
-403bdf4cdf1556c8f708,2026-05-12,FC Oleksandriya,FC Zorya Luhansk,10,FC Oleksandriya,FC Zorya Luhansk,1.0,1,1
-81cc742994ee1e88a647,2026-05-12,Cerro Porteno Asuncion,Guarani Asuncion,10,Cerro Porteno Asuncion,Guarani Asuncion,1.0,1,1
-fb5291022f6d38baa0d3,2026-05-12,Gangwon FC,Daejeon Citizen FC,10,Gangwon FC,Daejeon Citizen FC,1.0,1,1
-34ce66c8f5877b1d188a,2026-05-12,Gold Coast Knights,Gold Coast United FC,10,Gold Coast Knights,Gold Coast United FC,1.0,1,1
-d27355bf775167c01512,2026-05-12,Gwangju FC,FC Seoul,10,Gwangju FC,FC Seoul,1.0,1,1
-de3d070ab1a07787588d,2026-05-12,Hellenic Athletic Club,Darwin Hearts FC,10,Hellenic Athletic Club,Darwin Hearts FC,1.0,1,1
-e05c0d138da074d85971,2026-05-12,Incheon United FC,FC Pohang Steelers,10,Incheon United FC,FC Pohang Steelers,1.0,1,1
-386769fafb5376f24ba7,2026-05-12,Sportivo Ameliano,Deportivo Recoleta Reserve,10,Incheon United FC,FC Pohang Steelers,0.2785,0,0
-d399acc9939021af8d97,2026-05-12,Gwelup Croatia SC Reserves,Cockburn City SC Reserves,10,Sunshine Coast Wanderers FC,Eastern Suburbs FC,0.3714,0,0
-333e5c91e55a6c72deb5,2026-05-12,Singida Black Stars SC,Namungo FC,10,Canberra White Eagles FC,Queanbeyan City FC,0.2927,0,0
-cd51dbf3a22b0d921a96,2026-05-12,Murdoch University Melville FC Reserves,Joondalup City FC Reserve,10,Hellenic Athletic Club,Darwin Hearts FC,0.2874,0,0
-e0a19f401cc1a809a53a,2026-05-12,Fardu Ferghana,Xorazm Fk Urganch,10,FC Oleksandriya,FC Zorya Luhansk,0.3872,0,0
-e7113b9224539950a464,2026-05-12,FC Epitsentr Kamianets-Podilskyi,FC Polissya Zhytomyr,10,FC Oleksandriya,FC Zorya Luhansk,0.3374,0,0
-96243835bb610a26ac38,2026-05-12,Deportivo Maldonado Reserve,Racing Club Montevideo,10,Cerro Porteno Asuncion,Guarani Asuncion,0.362,0,0
-6fb40f8e2b541ef03128,2026-05-12,Namdhari FC,Gokulam Kerala FC,10,Canberra White Eagles FC,Queanbeyan City FC,0.3046,0,0
-34ef6abfb87a2af70436,2026-05-12,TRA United,Jkt Tanzania,10,Canberra White Eagles FC,Queanbeyan City FC,0.2652,0,0
-2dacd987cdbdfbc80910,2026-05-12,Sur SC,Al-Khaboora,10,FC Oleksandriya,FC Zorya Luhansk,0.2778,0,0
-dd1cc38b0a82c5f95154,2026-05-12,El Gouna FC,Kahrabaa Ismailia,10,Gangwon FC,Daejeon Citizen FC,0.325,0,0
-653d2cd5e5c28134e84a,2026-05-12,FC Inter Turku,JS Hercules,10,Sunshine Coast Wanderers FC,Eastern Suburbs FC,0.3637,0,0
-315fb5151d898e65b715,2026-05-12,Mohun Bagan Super Giant,Inter Kashi FC,10,Sunshine Coast Wanderers FC,Eastern Suburbs FC,0.3625,0,0
-92bc1589b3bce2a4166d,2026-05-12,Pharco FC,Modern Sport FC,10,Hellenic Athletic Club,Darwin Hearts FC,0.3471,0,0
-68a3b292d3d8f6c8abcf,2026-05-12,URA FC,Calvary,10,FC Oleksandriya,FC Zorya Luhansk,0.2333,0,0
-0f6a71afcd810550a20a,2026-05-12,AL Ittihad Kalba,AL Nasr,10,Hellenic Athletic Club,Darwin Hearts FC,0.3842,0,0
-be743004d37f19c1db36,2026-05-12,AL Wasl,AL Jazira,10,Hellenic Athletic Club,Darwin Hearts FC,0.3197,0,0
-5c33e27f3c4410ed68c4,2026-05-12,PFC Cherno More Varna,PFC Lokomotiv Plovdiv,10,Brothers Union,Mohammedan SC Dhaka,0.2871,0,0
-963ccde4496269c4b339,2026-05-12,AL Faisaly (Jor),Ramtha SC,10,FC Oleksandriya,FC Zorya Luhansk,0.3701,0,0
-aac25a05fd570bf448da,2026-05-12,FK Liepaja,Ogre United,10,Incheon United FC,FC Pohang Steelers,0.2755,0,0
-fe3c9f842089581bb09c,2026-05-12,JS Omrane,Avenir S Marsa,10,Sunshine Coast Wanderers FC,Eastern Suburbs FC,0.4232,0,0
-cc02a186fd4f883c57de,2026-05-12,FC Metalist 1925 Kharkiv,Karpaty Lviv,10,Cerro Porteno Asuncion,Guarani Asuncion,0.2716,0,0
-82013e7f8aafede7741b,2026-05-12,MFK Chrudim,FK Pribram,10,Sunshine Coast Wanderers FC,Eastern Suburbs FC,0.2057,0,0
-4bec5abfc652e004d9bf,2026-05-12,Veres Rivne,FC Kryvbas Kriviy Rih,10,FC Oleksandriya,FC Zorya Luhansk,0.3352,0,0
-d941d4cdf83735f08e45,2026-05-12,Zaglebie Lubin II,Mkp Carina Gubin,10,Hellenic Athletic Club,Darwin Hearts FC,0.3775,0,0
-4d4fd2808b4a476b2b2d,2026-05-12,1. FC Slovacko Uherske Hradiste,FC Banik Ostrava,10,Incheon United FC,FC Pohang Steelers,0.3025,0,0
-8ec57ce722b1d649f77b,2026-05-12,AL Wahda FC,Khorfakkan,10,FC Oleksandriya,FC Zorya Luhansk,0.3174,0,0
-4641ea651232e39f2e37,2026-05-12,FK Mlada Boleslav,Dukla Prague,10,FC Oleksandriya,FC Zorya Luhansk,0.2924,0,0
-751f4b0060640dff3a25,2026-05-12,FC Zlin,FK Teplice,10,Incheon United FC,FC Pohang Steelers,0.3818,0,0
-435339a4d9ef9dca13a8,2026-05-12,AE Kifisia FC,Atromitos Athinon,10,Cerro Porteno Asuncion,Guarani Asuncion,0.3049,0,0
-40b5a442f9c160c6dc72,2026-05-12,Asteras Tripolis,Panserraikos FC,10,Brothers Union,Mohammedan SC Dhaka,0.3946,0,0
-3e5da74ddd0e91f093c5,2026-05-12,FC Elva,Paide Linnameeskond,10,FC Oleksandriya,FC Zorya Luhansk,0.3125,0,0
-a84685bb097e5668a58c,2026-05-12,Panaitolikos Agrinio,AE Larissa FC,10,Brothers Union,Mohammedan SC Dhaka,0.3489,0,0
-e1b036b71078334cc221,2026-05-12,Rayon Sports FC,Gorilla FC,10,Gold Coast Knights,Gold Coast United FC,0.3686,0,0
-83c1778b5c309c19363a,2026-05-12,Riga FC,FK Auda Riga,10,Gangwon FC,Daejeon Citizen FC,0.33,0,0
-62085f2067ab988afc3a,2026-05-12,Sarpsborg 08 FF,Hoenefoss BK,10,FC Oleksandriya,FC Zorya Luhansk,0.2711,0,0
-dc180bec6c4b3556d19f,2026-05-12,Viking FK,Haugesund,10,Incheon United FC,FC Pohang Steelers,0.3333,0,0
-8737a2e12974f6fae621,2026-05-12,Al-Kholood,Al-Okhdood Club,10,FC Oleksandriya,FC Zorya Luhansk,0.2792,0,0
-d893d082dd357ce11348,2026-05-12,Al-Rustaq,Ibri,10,Sunshine Coast Wanderers FC,Eastern Suburbs FC,0.2265,0,0
-d3a023966893bce4ede5,2026-05-12,Samger FC,Real de Banjul,10,FC Oleksandriya,FC Zorya Luhansk,0.3519,0,0
-f4dcc883e96ac1d50a13,2026-05-12,Modena FC,Juve Stabia,10,Gangwon FC,Daejeon Citizen FC,0.3462,0,0
-9d61543188fef15e4383,2026-05-12,Central Espanol Reserve,Defensor Sporting,10,Sunshine Coast Wanderers FC,Eastern Suburbs FC,0.3577,0,0
-9a3d89ed7e5aea718c81,2026-05-12,Hapoel Tel Aviv FC,Hapoel Petah Tikva FC,10,Hellenic Athletic Club,Darwin Hearts FC,0.286,0,0
-f2a99c956a8e5564f858,2026-05-12,IFK Varnamo,Orebro SK,10,FC Oleksandriya,FC Zorya Luhansk,0.3142,0,0
-c61becea7a60fe3461fa,2026-05-12,Landskrona BoIS,Norrby IF,10,FC Oleksandriya,FC Zorya Luhansk,0.404,0,0
-91ab3a57f9d323dc9bdd,2026-05-12,RC Celta de Vigo,Levante UD,10,Sunshine Coast Wanderers FC,Eastern Suburbs FC,0.39,0,0
-431743411a0bbc1ffec6,2026-05-12,Real Madrid,Borussia Dortmund,10,FC Oleksandriya,FC Zorya Luhansk,0.4174,0,0
-e59c9696b51d6ca2eaf9,2026-05-12,Wadi Degla SC,Ismaily SC,10,Gwangju FC,FC Seoul,0.2833,0,0
-5641eb3f962e05ec642e,2026-05-12,Botev Plovdiv,FC Arda Kardzhali,10,Brothers Union,Mohammedan SC Dhaka,0.404,0,0
-7eda0abb6c538cbd5c54,2026-05-12,Al Hussein Irbid,Al Wehdat,10,Brothers Union,Mohammedan SC Dhaka,0.2762,0,0
-8ba1115e1a802bcb82bf,2026-05-12,Beitar Jerusalem FC,Hapoel Be`er Sheva FC,10,Brothers Union,Mohammedan SC Dhaka,0.3559,0,0
-760e00a57fc0ab489e73,2026-05-12,TS Galaxy FC,Mamelodi Sundowns,10,Brothers Union,Mohammedan SC Dhaka,0.3527,0,0
-10b03b42e60462f3d07f,2026-05-12,Al Nassr Club,Al Hilal SFC,10,Hellenic Athletic Club,Darwin Hearts FC,0.4174,0,0
-6e0401d992e203c3d9c6,2026-05-12,Colon FC Reserve,Liverpool Montevideo,10,Gold Coast Knights,Gold Coast United FC,0.2957,0,0
-1c472734a6fe820c10da,2026-05-12,Defensa Y Justicia Reserve,CA Platense,10,FC Oleksandriya,FC Zorya Luhansk,0.3816,0,0
-6d9b6e6702a6be293ba5,2026-05-12,Gimnasia de la Plata Reserve,CA Banfield,10,Sunshine Coast Wanderers FC,Eastern Suburbs FC,0.3077,0,0
-e4489789a89f15fca2da,2026-05-12,Newells Old Boys,CA Quilmes Reserve,10,Hellenic Athletic Club,Darwin Hearts FC,0.3132,0,0
-4b881c503760f5433e66,2026-05-12,Racing Club Avellaneda,Velez Sarsfield Reserve,10,Sunshine Coast Wanderers FC,Eastern Suburbs FC,0.3318,0,0
-58e704358d7d1ad9764f,2026-05-12,Real Betis Seville,Elche CF,10,Hellenic Athletic Club,Darwin Hearts FC,0.3111,0,0
-835bc0a298d074a464a9,2026-05-12,Sparta Prague,FC Viktoria Plzen,10,FC Oleksandriya,FC Zorya Luhansk,0.3822,0,0
-07782c574bbe3f730c28,2026-05-12,Cerro Largo FC,Boston River,10,Incheon United FC,FC Pohang Steelers,0.3519,0,0
-e1916fb1975644de8a82,2026-05-12,Grasshopper Club Zurich,FC Winterthur,10,Hellenic Athletic Club,Darwin Hearts FC,0.4386,0,0
-e3cdb551ffc064a773c9,2026-05-12,FC Luzern,FC Zurich,10,FC Oleksandriya,FC Zorya Luhansk,0.3246,0,0
-88b8d9bffde445427e87,2026-05-12,Penarol Montevideo,Nacional de Montevideo,10,Cerro Porteno Asuncion,Guarani Asuncion,0.3079,0,0
-12f695b994f47418ac6e,2026-05-12,Red Star FC,Rodez Aveyron Football,10,Gold Coast Knights,Gold Coast United FC,0.3101,0,0
-11e451c9bac0fac67bda,2026-05-12,Servette Geneva,Lausanne-Sport,10,Canberra White Eagles FC,Queanbeyan City FC,0.3611,0,0
-8532ac42b172d8dcd1e9,2026-05-12,Aberdeen FC,St Mirren FC,10,Canberra White Eagles FC,Queanbeyan City FC,0.3122,0,0
-154a0b13c8873b1592c7,2026-05-12,Clyde FC,Hamilton Academical FC,10,Incheon United FC,FC Pohang Steelers,0.2843,0,0
-f09c20e934f053303b29,2026-05-12,FC Domagnano,AC Virtus,10,Gangwon FC,Daejeon Citizen FC,0.4167,0,0
-582ad28afc65213a7329,2026-05-12,Dundee United,Livingston FC,10,Incheon United FC,FC Pohang Steelers,0.3138,0,0
+prediction_id,match_date,home_team,away_team,model_source,model_coverage,candidate_rows,best_home_team,best_away_team,best_match_confidence,matched_rows,matched_odds_api_io_rows
+dabb233183cfe864c5d8,2026-05-12,Canberra White Eagles FC,Queanbeyan City FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Canberra White Eagles FC,Queanbeyan City FC,1.0,1,1
+19dab538e00b5ea3a31a,2026-05-12,Brothers Union,Mohammedan SC Dhaka,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Brothers Union,Mohammedan SC Dhaka,1.0,1,1
+ce21558fb1861a710d9e,2026-05-12,Sunshine Coast Wanderers FC,Eastern Suburbs FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Sunshine Coast Wanderers FC,Eastern Suburbs FC,1.0,1,1
+403bdf4cdf1556c8f708,2026-05-12,FC Oleksandriya,FC Zorya Luhansk,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,FC Oleksandriya,FC Zorya Luhansk,1.0,1,1
+81cc742994ee1e88a647,2026-05-12,Cerro Porteno Asuncion,Guarani Asuncion,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Cerro Porteno Asuncion,Guarani Asuncion,1.0,1,1
+fb5291022f6d38baa0d3,2026-05-12,Gangwon FC,Daejeon Citizen FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Gangwon FC,Daejeon Citizen FC,1.0,1,1
+34ce66c8f5877b1d188a,2026-05-12,Gold Coast Knights,Gold Coast United FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Gold Coast Knights,Gold Coast United FC,1.0,1,1
+d27355bf775167c01512,2026-05-12,Gwangju FC,FC Seoul,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Gwangju FC,FC Seoul,1.0,1,1
+de3d070ab1a07787588d,2026-05-12,Hellenic Athletic Club,Darwin Hearts FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Hellenic Athletic Club,Darwin Hearts FC,1.0,1,1
+e05c0d138da074d85971,2026-05-12,Incheon United FC,FC Pohang Steelers,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Incheon United FC,FC Pohang Steelers,1.0,1,1
+386769fafb5376f24ba7,2026-05-12,Sportivo Ameliano,Deportivo Recoleta Reserve,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Incheon United FC,FC Pohang Steelers,0.2785,0,0
+d399acc9939021af8d97,2026-05-12,Gwelup Croatia SC Reserves,Cockburn City SC Reserves,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Sunshine Coast Wanderers FC,Eastern Suburbs FC,0.3714,0,0
+333e5c91e55a6c72deb5,2026-05-12,Singida Black Stars SC,Namungo FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Canberra White Eagles FC,Queanbeyan City FC,0.2927,0,0
+cd51dbf3a22b0d921a96,2026-05-12,Murdoch University Melville FC Reserves,Joondalup City FC Reserve,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Hellenic Athletic Club,Darwin Hearts FC,0.2874,0,0
+e0a19f401cc1a809a53a,2026-05-12,Fardu Ferghana,Xorazm Fk Urganch,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,FC Oleksandriya,FC Zorya Luhansk,0.3872,0,0
+e7113b9224539950a464,2026-05-12,FC Epitsentr Kamianets-Podilskyi,FC Polissya Zhytomyr,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,FC Oleksandriya,FC Zorya Luhansk,0.3374,0,0
+96243835bb610a26ac38,2026-05-12,Deportivo Maldonado Reserve,Racing Club Montevideo,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Cerro Porteno Asuncion,Guarani Asuncion,0.362,0,0
+6fb40f8e2b541ef03128,2026-05-12,Namdhari FC,Gokulam Kerala FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Canberra White Eagles FC,Queanbeyan City FC,0.3046,0,0
+34ef6abfb87a2af70436,2026-05-12,TRA United,Jkt Tanzania,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Canberra White Eagles FC,Queanbeyan City FC,0.2652,0,0
+2dacd987cdbdfbc80910,2026-05-12,Sur SC,Al-Khaboora,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,FC Oleksandriya,FC Zorya Luhansk,0.2778,0,0
+dd1cc38b0a82c5f95154,2026-05-12,El Gouna FC,Kahrabaa Ismailia,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Gangwon FC,Daejeon Citizen FC,0.325,0,0
+653d2cd5e5c28134e84a,2026-05-12,FC Inter Turku,JS Hercules,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Sunshine Coast Wanderers FC,Eastern Suburbs FC,0.3637,0,0
+315fb5151d898e65b715,2026-05-12,Mohun Bagan Super Giant,Inter Kashi FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Sunshine Coast Wanderers FC,Eastern Suburbs FC,0.3625,0,0
+92bc1589b3bce2a4166d,2026-05-12,Pharco FC,Modern Sport FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Hellenic Athletic Club,Darwin Hearts FC,0.3471,0,0
+68a3b292d3d8f6c8abcf,2026-05-12,URA FC,Calvary,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,FC Oleksandriya,FC Zorya Luhansk,0.2333,0,0
+0f6a71afcd810550a20a,2026-05-12,AL Ittihad Kalba,AL Nasr,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Hellenic Athletic Club,Darwin Hearts FC,0.3842,0,0
+be743004d37f19c1db36,2026-05-12,AL Wasl,AL Jazira,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Hellenic Athletic Club,Darwin Hearts FC,0.3197,0,0
+5c33e27f3c4410ed68c4,2026-05-12,PFC Cherno More Varna,PFC Lokomotiv Plovdiv,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Brothers Union,Mohammedan SC Dhaka,0.2871,0,0
+963ccde4496269c4b339,2026-05-12,AL Faisaly (Jor),Ramtha SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,FC Oleksandriya,FC Zorya Luhansk,0.3701,0,0
+aac25a05fd570bf448da,2026-05-12,FK Liepaja,Ogre United,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Incheon United FC,FC Pohang Steelers,0.2755,0,0
+fe3c9f842089581bb09c,2026-05-12,JS Omrane,Avenir S Marsa,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Sunshine Coast Wanderers FC,Eastern Suburbs FC,0.4232,0,0
+cc02a186fd4f883c57de,2026-05-12,FC Metalist 1925 Kharkiv,Karpaty Lviv,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Cerro Porteno Asuncion,Guarani Asuncion,0.2716,0,0
+82013e7f8aafede7741b,2026-05-12,MFK Chrudim,FK Pribram,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Sunshine Coast Wanderers FC,Eastern Suburbs FC,0.2057,0,0
+4bec5abfc652e004d9bf,2026-05-12,Veres Rivne,FC Kryvbas Kriviy Rih,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,FC Oleksandriya,FC Zorya Luhansk,0.3352,0,0
+d941d4cdf83735f08e45,2026-05-12,Zaglebie Lubin II,Mkp Carina Gubin,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Hellenic Athletic Club,Darwin Hearts FC,0.3775,0,0
+4d4fd2808b4a476b2b2d,2026-05-12,1. FC Slovacko Uherske Hradiste,FC Banik Ostrava,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Incheon United FC,FC Pohang Steelers,0.3025,0,0
+8ec57ce722b1d649f77b,2026-05-12,AL Wahda FC,Khorfakkan,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,FC Oleksandriya,FC Zorya Luhansk,0.3174,0,0
+4641ea651232e39f2e37,2026-05-12,FK Mlada Boleslav,Dukla Prague,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,FC Oleksandriya,FC Zorya Luhansk,0.2924,0,0
+751f4b0060640dff3a25,2026-05-12,FC Zlin,FK Teplice,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Incheon United FC,FC Pohang Steelers,0.3818,0,0
+435339a4d9ef9dca13a8,2026-05-12,AE Kifisia FC,Atromitos Athinon,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Cerro Porteno Asuncion,Guarani Asuncion,0.3049,0,0
+40b5a442f9c160c6dc72,2026-05-12,Asteras Tripolis,Panserraikos FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Brothers Union,Mohammedan SC Dhaka,0.3946,0,0
+3e5da74ddd0e91f093c5,2026-05-12,FC Elva,Paide Linnameeskond,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,FC Oleksandriya,FC Zorya Luhansk,0.3125,0,0
+a84685bb097e5668a58c,2026-05-12,Panaitolikos Agrinio,AE Larissa FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Brothers Union,Mohammedan SC Dhaka,0.3489,0,0
+e1b036b71078334cc221,2026-05-12,Rayon Sports FC,Gorilla FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Gold Coast Knights,Gold Coast United FC,0.3686,0,0
+83c1778b5c309c19363a,2026-05-12,Riga FC,FK Auda Riga,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Gangwon FC,Daejeon Citizen FC,0.33,0,0
+62085f2067ab988afc3a,2026-05-12,Sarpsborg 08 FF,Hoenefoss BK,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,FC Oleksandriya,FC Zorya Luhansk,0.2711,0,0
+dc180bec6c4b3556d19f,2026-05-12,Viking FK,Haugesund,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Incheon United FC,FC Pohang Steelers,0.3333,0,0
+8737a2e12974f6fae621,2026-05-12,Al-Kholood,Al-Okhdood Club,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,FC Oleksandriya,FC Zorya Luhansk,0.2792,0,0
+d893d082dd357ce11348,2026-05-12,Al-Rustaq,Ibri,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Sunshine Coast Wanderers FC,Eastern Suburbs FC,0.2265,0,0
+d3a023966893bce4ede5,2026-05-12,Samger FC,Real de Banjul,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,FC Oleksandriya,FC Zorya Luhansk,0.3519,0,0
+f4dcc883e96ac1d50a13,2026-05-12,Modena FC,Juve Stabia,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Gangwon FC,Daejeon Citizen FC,0.3462,0,0
+9d61543188fef15e4383,2026-05-12,Central Espanol Reserve,Defensor Sporting,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Sunshine Coast Wanderers FC,Eastern Suburbs FC,0.3577,0,0
+9a3d89ed7e5aea718c81,2026-05-12,Hapoel Tel Aviv FC,Hapoel Petah Tikva FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Hellenic Athletic Club,Darwin Hearts FC,0.286,0,0
+f2a99c956a8e5564f858,2026-05-12,IFK Varnamo,Orebro SK,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,FC Oleksandriya,FC Zorya Luhansk,0.3142,0,0
+c61becea7a60fe3461fa,2026-05-12,Landskrona BoIS,Norrby IF,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,FC Oleksandriya,FC Zorya Luhansk,0.404,0,0
+91ab3a57f9d323dc9bdd,2026-05-12,RC Celta de Vigo,Levante UD,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Sunshine Coast Wanderers FC,Eastern Suburbs FC,0.39,0,0
+431743411a0bbc1ffec6,2026-05-12,Real Madrid,Borussia Dortmund,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,FC Oleksandriya,FC Zorya Luhansk,0.4174,0,0
+e59c9696b51d6ca2eaf9,2026-05-12,Wadi Degla SC,Ismaily SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Gwangju FC,FC Seoul,0.2833,0,0
+5641eb3f962e05ec642e,2026-05-12,Botev Plovdiv,FC Arda Kardzhali,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Brothers Union,Mohammedan SC Dhaka,0.404,0,0
+7eda0abb6c538cbd5c54,2026-05-12,Al Hussein Irbid,Al Wehdat,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Brothers Union,Mohammedan SC Dhaka,0.2762,0,0
+8ba1115e1a802bcb82bf,2026-05-12,Beitar Jerusalem FC,Hapoel Be`er Sheva FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Brothers Union,Mohammedan SC Dhaka,0.3559,0,0
+760e00a57fc0ab489e73,2026-05-12,TS Galaxy FC,Mamelodi Sundowns,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Brothers Union,Mohammedan SC Dhaka,0.3527,0,0
+10b03b42e60462f3d07f,2026-05-12,Al Nassr Club,Al Hilal SFC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Hellenic Athletic Club,Darwin Hearts FC,0.4174,0,0
+6e0401d992e203c3d9c6,2026-05-12,Colon FC Reserve,Liverpool Montevideo,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Gold Coast Knights,Gold Coast United FC,0.2957,0,0
+1c472734a6fe820c10da,2026-05-12,Defensa Y Justicia Reserve,CA Platense,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,FC Oleksandriya,FC Zorya Luhansk,0.3816,0,0
+6d9b6e6702a6be293ba5,2026-05-12,Gimnasia de la Plata Reserve,CA Banfield,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Sunshine Coast Wanderers FC,Eastern Suburbs FC,0.3077,0,0
+e4489789a89f15fca2da,2026-05-12,Newells Old Boys,CA Quilmes Reserve,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Hellenic Athletic Club,Darwin Hearts FC,0.3132,0,0
+4b881c503760f5433e66,2026-05-12,Racing Club Avellaneda,Velez Sarsfield Reserve,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Sunshine Coast Wanderers FC,Eastern Suburbs FC,0.3318,0,0
+58e704358d7d1ad9764f,2026-05-12,Real Betis Seville,Elche CF,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Hellenic Athletic Club,Darwin Hearts FC,0.3111,0,0
+835bc0a298d074a464a9,2026-05-12,Sparta Prague,FC Viktoria Plzen,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,FC Oleksandriya,FC Zorya Luhansk,0.3822,0,0
+07782c574bbe3f730c28,2026-05-12,Cerro Largo FC,Boston River,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Incheon United FC,FC Pohang Steelers,0.3519,0,0
+e1916fb1975644de8a82,2026-05-12,Grasshopper Club Zurich,FC Winterthur,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Hellenic Athletic Club,Darwin Hearts FC,0.4386,0,0
+e3cdb551ffc064a773c9,2026-05-12,FC Luzern,FC Zurich,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,FC Oleksandriya,FC Zorya Luhansk,0.3246,0,0
+88b8d9bffde445427e87,2026-05-12,Penarol Montevideo,Nacional de Montevideo,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Cerro Porteno Asuncion,Guarani Asuncion,0.3079,0,0
+12f695b994f47418ac6e,2026-05-12,Red Star FC,Rodez Aveyron Football,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Gold Coast Knights,Gold Coast United FC,0.3101,0,0
+11e451c9bac0fac67bda,2026-05-12,Servette Geneva,Lausanne-Sport,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Canberra White Eagles FC,Queanbeyan City FC,0.3611,0,0
+8532ac42b172d8dcd1e9,2026-05-12,Aberdeen FC,St Mirren FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Canberra White Eagles FC,Queanbeyan City FC,0.3122,0,0
+154a0b13c8873b1592c7,2026-05-12,Clyde FC,Hamilton Academical FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Incheon United FC,FC Pohang Steelers,0.2843,0,0
+f09c20e934f053303b29,2026-05-12,FC Domagnano,AC Virtus,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Gangwon FC,Daejeon Citizen FC,0.4167,0,0
+582ad28afc65213a7329,2026-05-12,Dundee United,Livingston FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,10,Incheon United FC,FC Pohang Steelers,0.3138,0,0
