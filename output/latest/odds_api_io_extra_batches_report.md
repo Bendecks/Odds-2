@@ -5,36 +5,33 @@ Only direct home/away/date matches are selected. Swapped matches are not selecte
 
 Existing price rows before extra: 10
 Extra selected event rows: 20
-Extra price rows: 17
-Combined price rows: 27
+Extra price rows: 20
+Combined price rows: 30
 Extra calls used: 2 / 3
 Max total price events: 30
 Minimum direct match confidence: 0.72
-Latest rate-limit remaining: 28
-Errors/status rows: 3
+Latest rate-limit remaining: 65
+Errors/status rows: 0
 
 ## New extra prices
 
-- 2026-05-12 09:30 | Canberra White Eagles FC vs Queanbeyan City FC | odds_api_io_Bet365_ML | 6.0/6.25/1.3
-- 2026-05-12 10:30 | Sportivo Ameliano vs Deportivo Recoleta Reserve | odds_api_io_Bet365_ML | 1.909/3.9/3.0
-- 2026-05-12 11:00 | Gwelup Croatia SC Reserves vs Cockburn City SC Reserves | odds_api_io_Bet365_ML | 1.45/4.5/4.75
-- 2026-05-12 11:00 | Singida Black Stars SC vs Namungo FC | odds_api_io_Bet365_ML | 1.4/3.8/7.5
-- 2026-05-12 11:15 | Murdoch University Melville FC Reserves vs Joondalup City FC Reserve | odds_api_io_Bet365_ML | 2.4/4.333/2.15
-- 2026-05-12 12:00 | Fardu Ferghana vs Xorazm Fk Urganch | odds_api_io_Bet365_ML | 2.5/3.2/2.5
-- 2026-05-12 12:30 | FC Epitsentr Kamianets-Podilskyi vs FC Polissya Zhytomyr | odds_api_io_Bet365_ML | 7.0/3.75/1.42
-- 2026-05-12 13:00 | Deportivo Maldonado Reserve vs Racing Club Montevideo | odds_api_io_Bet365_ML | 2.7/3.25/2.35
-- 2026-05-12 13:00 | Namdhari FC vs Gokulam Kerala FC | odds_api_io_Bet365_ML | 2.625/3.4/2.3
-- 2026-05-12 13:15 | TRA United vs Jkt Tanzania | odds_api_io_Bet365_ML | 2.05/2.9/3.5
-- 2026-05-12 14:00 | FC Inter Turku vs JS Hercules | odds_api_io_Bet365_ML | 1.025/19.0/41.0
+- 2026-05-12 14:00 | FC Inter Turku vs JS Hercules | odds_api_io_Bet365_ML | 1.015/19.0/34.0
+- 2026-05-12 14:00 | Mohun Bagan Super Giant vs Inter Kashi FC | odds_api_io_Bet365_ML | 1.166/6.25/13.0
 - 2026-05-12 14:00 | Pharco FC vs Modern Sport FC | odds_api_io_Bet365_ML | 3.3/2.625/2.3
 - 2026-05-12 14:00 | URA FC vs Calvary | odds_api_io_Bet365_ML | 1.333/4.5/7.5
-- 2026-05-12 14:10 | AL Ittihad Kalba vs AL Nasr | odds_api_io_Bet365_ML | 1.833/3.8/3.3
-- 2026-05-12 14:10 | AL Wasl vs AL Jazira | odds_api_io_Bet365_ML | 1.95/3.75/3.25
-- 2026-05-12 14:45 | PFC Cherno More Varna vs PFC Lokomotiv Plovdiv | odds_api_io_Bet365_ML | 1.95/3.2/4.2
+- 2026-05-12 14:10 | AL Ittihad Kalba vs AL Nasr | odds_api_io_Bet365_ML | 2.05/3.7/2.8
+- 2026-05-12 14:10 | AL Wasl vs AL Jazira | odds_api_io_Bet365_ML | 2.1/3.6/2.9
+- 2026-05-12 14:45 | PFC Cherno More Varna vs PFC Lokomotiv Plovdiv | odds_api_io_Bet365_ML | 2.0/3.2/4.0
 - 2026-05-12 15:00 | AL Faisaly (Jor) vs Ramtha SC | odds_api_io_Bet365_ML | 1.6/3.8/4.5
-
-## Errors / Status
-
-- extra_multi_odds_match: No odds payload matched event 71336688
-- extra_multi_odds_match: No odds payload matched event 69880304
-- extra_multi_odds_match: No odds payload matched event 68746468
+- 2026-05-12 15:00 | FK Liepaja vs Ogre United | odds_api_io_Bet365_ML | 1.3/5.0/7.0
+- 2026-05-12 15:00 | JS Omrane vs Avenir S Marsa | odds_api_io_Bet365_ML | 2.15/2.8/3.5
+- 2026-05-12 15:00 | FC Metalist 1925 Kharkiv vs Karpaty Lviv | odds_api_io_Bet365_ML | 2.15/3.1/3.0
+- 2026-05-12 15:00 | MFK Chrudim vs FK Pribram | odds_api_io_Bet365_ML | 2.6/3.4/2.3
+- 2026-05-12 15:00 | Veres Rivne vs FC Kryvbas Kriviy Rih | odds_api_io_Bet365_ML | 2.5/3.3/2.4
+- 2026-05-12 15:00 | Zaglebie Lubin II vs Mkp Carina Gubin | odds_api_io_Bet365_ML | 1.666/4.2/3.6
+- 2026-05-12 15:30 | 1. FC Slovacko Uherske Hradiste vs FC Banik Ostrava | odds_api_io_Bet365_ML | 2.55/3.4/2.4
+- 2026-05-12 15:30 | AL Wahda FC vs Khorfakkan | odds_api_io_Bet365_ML | 1.5/4.1/4.75
+- 2026-05-12 15:30 | FK Mlada Boleslav vs Dukla Prague | odds_api_io_Bet365_ML | 1.9/3.5/3.5
+- 2026-05-12 15:30 | FC Zlin vs FK Teplice | odds_api_io_Bet365_ML | 2.45/3.0/2.75
+- 2026-05-12 16:00 | AE Kifisia FC vs Atromitos Athinon | odds_api_io_Bet365_ML | 2.35/3.25/3.1
+- 2026-05-12 16:00 | FC Elva vs Paide Linnameeskond | odds_api_io_Bet365_ML | 41.0/15.0/1.04

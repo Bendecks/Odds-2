@@ -1,2 +1,2 @@
 upcoming_fixture_rows,forward_fixture_prediction_rows,full_model_prediction_rows,baseline_prediction_rows,max_forward_predictions,include_baseline_unmatched,probability_only,has_market_prices,ready_for_price_join
-161,160,1,159,160,True,True,False,True
+173,160,0,160,160,True,True,False,True

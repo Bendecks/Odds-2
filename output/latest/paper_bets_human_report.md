@@ -5,9 +5,9 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 
 ## Kort status
 
-- Aktuelle viste paper picks: **7**
-- Unikke loggede paper picks: **25**
-- Afventer i loggen: **22**
+- Aktuelle viste paper picks: **4**
+- Unikke loggede paper picks: **29**
+- Afventer i loggen: **26**
 - Afgjorte fundet i settled-filen: **210**
 - Skjulte U-/reserve-rækker: **5**
 - Vundne: **70**
@@ -16,65 +16,38 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 
 ## Aktuelle paper picks
 
-### PFC Cherno More Varna vs PFC Lokomotiv Plovdiv
+### Dundee United vs Livingston
 - Dato: **2026-05-12**
-- Kampstart: **14:45**
+- Kampstart: **19:45**
 - Spil: **Udebanesejr**
-- Odds: **4.20**
+- Odds: **4.37**
 - Status: **Afventer**
 - Type: **suppressed_band_proxy_observation**
 - Note: **suppressed_band_proxy_observation_not_real_money**
 
-### TRA United vs Jkt Tanzania
+### Asteras Tripolis vs Panserraikos
 - Dato: **2026-05-12**
-- Kampstart: **13:15**
+- Kampstart: **17:00**
 - Spil: **Udebanesejr**
-- Odds: **3.50**
+- Odds: **4.36**
 - Status: **Afventer**
 - Type: **suppressed_band_proxy_observation**
 - Note: **suppressed_band_proxy_observation_not_real_money**
 
-### Gangwon FC vs Daejeon Citizen FC
+### Celta vs Levante
 - Dato: **2026-05-12**
-- Kampstart: **10:30**
+- Kampstart: **18:00**
 - Spil: **Udebanesejr**
-- Odds: **3.30**
+- Odds: **4.33**
 - Status: **Afventer**
 - Type: **suppressed_band_proxy_observation**
 - Note: **suppressed_band_proxy_observation_not_real_money**
 
-### URA FC vs Calvary
+### RC Celta de Vigo vs Levante UD
 - Dato: **2026-05-12**
-- Kampstart: **14:00**
-- Spil: **Uafgjort**
-- Odds: **4.50**
-- Status: **Afventer**
-- Type: **suppressed_band_proxy_observation**
-- Note: **suppressed_band_proxy_observation_not_real_money**
-
-### Hellenic Athletic Club vs Darwin Hearts FC
-- Dato: **2026-05-12**
-- Kampstart: **10:30**
-- Spil: **Uafgjort**
-- Odds: **4.50**
-- Status: **Afventer**
-- Type: **suppressed_band_proxy_observation**
-- Note: **suppressed_band_proxy_observation_not_real_money**
-
-### Gwangju FC vs FC Seoul
-- Dato: **2026-05-12**
-- Kampstart: **10:30**
-- Spil: **Uafgjort**
-- Odds: **4.20**
-- Status: **Afventer**
-- Type: **suppressed_band_proxy_observation**
-- Note: **suppressed_band_proxy_observation_not_real_money**
-
-### AL Faisaly (Jor) vs Ramtha SC
-- Dato: **2026-05-12**
-- Kampstart: **15:00**
-- Spil: **Uafgjort**
-- Odds: **3.80**
+- Kampstart: **17:00**
+- Spil: **Udebanesejr**
+- Odds: **4.33**
 - Status: **Afventer**
 - Type: **suppressed_band_proxy_observation**
 - Note: **suppressed_band_proxy_observation_not_real_money**
@@ -367,7 +340,11 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - **2026-05-12 kl. 09:45** – Sunshine Coast Wanderers FC vs Eastern Suburbs FC – Uafgjort @ 5.00
 - **2026-05-12 kl. 10:30** – Gangwon FC vs Daejeon Citizen FC – Udebanesejr @ 3.10
 - **2026-05-12 kl. 10:30** – Hellenic Athletic Club vs Darwin Hearts FC – Uafgjort @ 4.20
+- **2026-05-12 kl. 19:45** – Dundee United vs Livingston – Udebanesejr @ 4.37
+- **2026-05-12 kl. 17:00** – Asteras Tripolis vs Panserraikos – Udebanesejr @ 4.36
 - **2026-05-12 kl. 13:50** – Sur SC vs Al-Khaboora – Udebanesejr @ 4.33
+- **2026-05-12 kl. 18:00** – Celta vs Levante – Udebanesejr @ 4.33
+- **2026-05-12 kl. 17:00** – RC Celta de Vigo vs Levante UD – Udebanesejr @ 4.33
 - **2026-05-12 kl. 14:45** – PFC Cherno More Varna vs PFC Lokomotiv Plovdiv – Udebanesejr @ 4.20
 - **2026-05-12 kl. 13:15** – TRA United vs Jkt Tanzania – Udebanesejr @ 3.50
 - **2026-05-12 kl. 14:00** – El Gouna FC vs Kahrabaa Ismailia – Udebanesejr @ 3.30

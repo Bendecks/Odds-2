@@ -3,12 +3,12 @@
 Purpose: distinguish true automatic forward inputs from historical market proxy and paused manual fallback.
 Football-Data and odds-api.io prices are treated as paper-test proxy prices until validated.
 
-Upcoming fixture rows: 161
-Fixture team rows unmatched: 313
+Upcoming fixture rows: 173
+Fixture team rows unmatched: 315
 Ready for model-fixture join: False
-Automatic forward price rows: 19
-odds-api.io price rows: 19
-Football-Data price rows: 0
+Automatic forward price rows: 101
+odds-api.io price rows: 23
+Football-Data price rows: 78
 Automatic forward status: automatic_forward_not_ready
 Blocker: fixture_model_team_matching_incomplete
 Next development step: add_team_aliases_for_upcoming_fixtures
@@ -17,8 +17,8 @@ Next development step: add_team_aliases_for_upcoming_fixtures
 
 - 1. FC Slovacko Uherske Hradiste | suggestion=nan | type=unmatched
 - FC Banik Ostrava | suggestion=nan | type=unmatched
-- Aberdeen FC | suggestion=nan | type=unmatched
-- St Mirren FC | suggestion=nan | type=unmatched
+- Aberdeen | suggestion=nan | type=unmatched
+- St Mirren | suggestion=nan | type=unmatched
 - AE Kifisia FC | suggestion=nan | type=unmatched
 - Atromitos Athinon | suggestion=nan | type=unmatched
 - AL Faisaly (Jor) | suggestion=nan | type=unmatched
@@ -38,7 +38,7 @@ Next development step: add_team_aliases_for_upcoming_fixtures
 - Al-Rustaq | suggestion=nan | type=unmatched
 - Ibri | suggestion=nan | type=unmatched
 - Asteras Tripolis | suggestion=nan | type=unmatched
-- Panserraikos FC | suggestion=nan | type=unmatched
+- Panserraikos | suggestion=nan | type=unmatched
 - Atletico Nacional Medellin | suggestion=nan | type=unmatched
 - Internacional de Bogota. | suggestion=nan | type=unmatched
 - Banos Ciudad de Fuego | suggestion=nan | type=unmatched

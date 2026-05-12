@@ -1,16 +1,4 @@
 raw_event_id,fixture_id,match_date,match_time,home_team,away_team,league,direct_match_confidence
-69194920,odds_api_io_69194920,2026-05-12,09:30,Canberra White Eagles FC,Queanbeyan City FC,australia-capital-npl-1,1.0
-71372284,odds_api_io_71372284,2026-05-12,10:30,Sportivo Ameliano,Deportivo Recoleta Reserve,paraguay-primera-division-reserve-apertura,1.0
-71240276,odds_api_io_71240276,2026-05-12,11:00,Gwelup Croatia SC Reserves,Cockburn City SC Reserves,australia-western-australia-state-league-1-reserves,1.0
-70478154,odds_api_io_70478154,2026-05-12,11:00,Singida Black Stars SC,Namungo FC,tanzania-premier-league,1.0
-71161224,odds_api_io_71161224,2026-05-12,11:15,Murdoch University Melville FC Reserves,Joondalup City FC Reserve,australia-western-australia-state-league-1-reserves,1.0
-71436762,odds_api_io_71436762,2026-05-12,12:00,Fardu Ferghana,Xorazm Fk Urganch,uzbekistan-cup,1.0
-61651656,odds_api_io_61651656,2026-05-12,12:30,FC Epitsentr Kamianets-Podilskyi,FC Polissya Zhytomyr,ukraine-premier-league,1.0
-71378880,odds_api_io_71378880,2026-05-12,13:00,Deportivo Maldonado Reserve,Racing Club Montevideo,uruguay-tercera-division-reserves,1.0
-71338142,odds_api_io_71338142,2026-05-12,13:00,Namdhari FC,Gokulam Kerala FC,india-i-league,1.0
-70478164,odds_api_io_70478164,2026-05-12,13:15,TRA United,Jkt Tanzania,tanzania-premier-league,1.0
-71336688,odds_api_io_71336688,2026-05-12,13:50,Sur SC,Al-Khaboora,oman-omani-league,1.0
-69880304,odds_api_io_69880304,2026-05-12,14:00,El Gouna FC,Kahrabaa Ismailia,egypt-premier-league,1.0
 71325988,odds_api_io_71325988,2026-05-12,14:00,FC Inter Turku,JS Hercules,finland-suomen-cup,1.0
 68746468,odds_api_io_68746468,2026-05-12,14:00,Mohun Bagan Super Giant,Inter Kashi FC,india-indian-super-league,1.0
 69880306,odds_api_io_69880306,2026-05-12,14:00,Pharco FC,Modern Sport FC,egypt-premier-league,1.0
@@ -19,3 +7,15 @@ raw_event_id,fixture_id,match_date,match_time,home_team,away_team,league,direct_
 71338856,odds_api_io_71338856,2026-05-12,14:10,AL Wasl,AL Jazira,united-arab-emirates-u23-pro-league,1.0
 70906728,odds_api_io_70906728,2026-05-12,14:45,PFC Cherno More Varna,PFC Lokomotiv Plovdiv,bulgaria-parva-liga,1.0
 71228890,odds_api_io_71228890,2026-05-12,15:00,AL Faisaly (Jor),Ramtha SC,jordan-jordan-cup,1.0
+68492514,odds_api_io_68492514,2026-05-12,15:00,FK Liepaja,Ogre United,latvia-virsliga,1.0
+71372082,odds_api_io_71372082,2026-05-12,15:00,JS Omrane,Avenir S Marsa,tunisia-ligue-1,1.0
+61651662,odds_api_io_61651662,2026-05-12,15:00,FC Metalist 1925 Kharkiv,Karpaty Lviv,ukraine-premier-league,1.0
+71231390,odds_api_io_71231390,2026-05-12,15:00,MFK Chrudim,FK Pribram,czechia-fnl,1.0
+61651650,odds_api_io_61651650,2026-05-12,15:00,Veres Rivne,FC Kryvbas Kriviy Rih,ukraine-premier-league,1.0
+62036882,odds_api_io_62036882,2026-05-12,15:00,Zaglebie Lubin II,Mkp Carina Gubin,poland-iii-liga-group-3,1.0
+71085582,odds_api_io_71085582,2026-05-12,15:30,1. FC Slovacko Uherske Hradiste,FC Banik Ostrava,czechia-1-liga,1.0
+71338858,odds_api_io_71338858,2026-05-12,15:30,AL Wahda FC,Khorfakkan,united-arab-emirates-u23-pro-league,1.0
+71085578,odds_api_io_71085578,2026-05-12,15:30,FK Mlada Boleslav,Dukla Prague,czechia-1-liga,1.0
+71085580,odds_api_io_71085580,2026-05-12,15:30,FC Zlin,FK Teplice,czechia-1-liga,1.0
+70232094,odds_api_io_70232094,2026-05-12,16:00,AE Kifisia FC,Atromitos Athinon,greece-super-league,1.0
+71328286,odds_api_io_71328286,2026-05-12,16:00,FC Elva,Paide Linnameeskond,estonia-cup-women,1.0
