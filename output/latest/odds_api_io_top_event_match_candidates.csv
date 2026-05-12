@@ -1,15 +1,15 @@
 discovery_source,query,target_home_team,target_away_team,target_match_date,candidate_event_id,candidate_home_team,candidate_away_team,candidate_match_date,event_match_confidence,selected,rejection_reason,selected_bool,event_match_confidence_num
-events_bookmaker_filtered,Cerro Porteno Asuncion,Cerro Porteno Asuncion,Guarani Asuncion,2026-05-12,71372286,Cerro Porteno Asuncion,Guarani Asuncion,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,Brothers Union,Brothers Union,Mohammedan SC Dhaka,2026-05-12,71325526,Brothers Union,Mohammedan SC Dhaka,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,FC Oleksandriya,FC Oleksandriya,FC Zorya Luhansk,2026-05-12,61651664,FC Oleksandriya,FC Zorya Luhansk,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,Gangwon FC,Gangwon FC,Daejeon Citizen FC,2026-05-12,67817690,Gangwon FC,Daejeon Citizen FC,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,Incheon United FC,Incheon United FC,FC Pohang Steelers,2026-05-12,67817694,Incheon United FC,FC Pohang Steelers,2026-05-12,1.0,True,,True,1.0
 events_bookmaker_filtered,Hellenic Athletic Club,Hellenic Athletic Club,Darwin Hearts FC,2026-05-12,71240286,Hellenic Athletic Club,Darwin Hearts FC,2026-05-12,1.0,True,,True,1.0
 events_bookmaker_filtered,Gwangju FC,Gwangju FC,FC Seoul,2026-05-12,67817692,Gwangju FC,FC Seoul,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,Sunshine Coast Wanderers FC,Sunshine Coast Wanderers FC,Eastern Suburbs FC,2026-05-12,71111302,Sunshine Coast Wanderers FC,Eastern Suburbs FC,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,Canberra White Eagles FC,Canberra White Eagles FC,Queanbeyan City FC,2026-05-12,69195816,Canberra White Eagles FC,Queanbeyan City FC,2026-05-12,1.0,True,,True,1.0
 events_bookmaker_filtered,Gold Coast Knights,Gold Coast Knights,Gold Coast United FC,2026-05-12,71348330,Gold Coast Knights,Gold Coast United FC,2026-05-12,1.0,True,,True,1.0
-events_bookmaker_filtered,Incheon United FC,Incheon United FC,FC Pohang Steelers,2026-05-12,67817694,Incheon United FC,FC Pohang Steelers,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,Gangwon FC,Gangwon FC,Daejeon Citizen FC,2026-05-12,67817690,Gangwon FC,Daejeon Citizen FC,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,FC Oleksandriya,FC Oleksandriya,FC Zorya Luhansk,2026-05-12,61651664,FC Oleksandriya,FC Zorya Luhansk,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,Cerro Porteno Asuncion,Cerro Porteno Asuncion,Guarani Asuncion,2026-05-12,71372286,Cerro Porteno Asuncion,Guarani Asuncion,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,Sunshine Coast Wanderers FC,Sunshine Coast Wanderers FC,Eastern Suburbs FC,2026-05-12,71111302,Sunshine Coast Wanderers FC,Eastern Suburbs FC,2026-05-12,1.0,True,,True,1.0
 events_bookmaker_filtered,Canberra White Eagles FC,Canberra White Eagles FC,Queanbeyan City FC,2026-05-12,69194920,Canberra White Eagles FC,Queanbeyan City FC,2026-05-12,1.0,False,,False,1.0
+events_bookmaker_filtered,Canberra White Eagles FC,Canberra White Eagles FC,Queanbeyan City FC,2026-05-12,69195816,Canberra White Eagles FC,Queanbeyan City FC,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,Brothers Union,Brothers Union,Mohammedan SC Dhaka,2026-05-12,71325526,Brothers Union,Mohammedan SC Dhaka,2026-05-12,1.0,True,,True,1.0
 events_bookmaker_filtered,Hellenic Athletic Club,Hellenic Athletic Club,Darwin Hearts FC,2026-05-12,70401284,SC Internacional RS,Athletic Club Sjdr MG,2026-05-12,0.4586,False,below_min_event_match_confidence,False,0.4586
 events_bookmaker_filtered,Brothers Union,Brothers Union,Mohammedan SC Dhaka,2026-05-12,71372286,Cerro Porteno Asuncion,Guarani Asuncion,2026-05-12,0.4492,False,below_min_event_match_confidence,False,0.4492
 events_bookmaker_filtered,Hellenic Athletic Club,Hellenic Athletic Club,Darwin Hearts FC,2026-05-12,64055859,Al Nassr Club,Al Hilal SFC,2026-05-12,0.446,False,below_min_event_match_confidence,False,0.446
@@ -19,8 +19,8 @@ events_bookmaker_filtered,FC Oleksandriya,FC Oleksandriya,FC Zorya Luhansk,2026-
 events_bookmaker_filtered,Incheon United FC,Incheon United FC,FC Pohang Steelers,2026-05-12,61624640,Real Betis Seville,Elche CF,2026-05-12,0.4318,False,below_min_event_match_confidence,False,0.4318
 events_bookmaker_filtered,Hellenic Athletic Club,Hellenic Athletic Club,Darwin Hearts FC,2026-05-12,71401830,Dunfermline Athletic FC,Partick Thistle FC,2026-05-12,0.4286,False,below_min_event_match_confidence,False,0.4286
 events_bookmaker_filtered,Incheon United FC,Incheon United FC,FC Pohang Steelers,2026-05-12,69194920,Canberra White Eagles FC,Queanbeyan City FC,2026-05-12,0.4265,False,below_min_event_match_confidence,False,0.4265
-events_bookmaker_filtered,Canberra White Eagles FC,Canberra White Eagles FC,Queanbeyan City FC,2026-05-12,71372286,Cerro Porteno Asuncion,Guarani Asuncion,2026-05-12,0.4249,False,below_min_event_match_confidence,False,0.4249
 events_bookmaker_filtered,Cerro Porteno Asuncion,Cerro Porteno Asuncion,Guarani Asuncion,2026-05-12,69194920,Canberra White Eagles FC,Queanbeyan City FC,2026-05-12,0.4249,False,below_min_event_match_confidence,False,0.4249
+events_bookmaker_filtered,Canberra White Eagles FC,Canberra White Eagles FC,Queanbeyan City FC,2026-05-12,71372286,Cerro Porteno Asuncion,Guarani Asuncion,2026-05-12,0.4249,False,below_min_event_match_confidence,False,0.4249
 events_bookmaker_filtered,Gangwon FC,Gangwon FC,Daejeon Citizen FC,2026-05-12,70478154,Singida Black Stars SC,Namungo FC,2026-05-12,0.4208,False,below_min_event_match_confidence,False,0.4208
 events_bookmaker_filtered,Canberra White Eagles FC,Canberra White Eagles FC,Queanbeyan City FC,2026-05-12,71428876,CA Belgrano de Cordoba,Union de Santa Fe,2026-05-12,0.4177,False,below_min_event_match_confidence,False,0.4177
-events_bookmaker_filtered,FC Oleksandriya,FC Oleksandriya,FC Zorya Luhansk,2026-05-12,71338618,Real Madrid,Borussia Dortmund,2026-05-12,0.4174,False,below_min_event_match_confidence,False,0.4174
+events_bookmaker_filtered,FC Oleksandriya,FC Oleksandriya,FC Zorya Luhansk,2026-05-12,71338858,AL Wahda FC,Khorfakkan,2026-05-12,0.4174,False,below_min_event_match_confidence,False,0.4174

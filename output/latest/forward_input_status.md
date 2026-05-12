@@ -3,10 +3,10 @@
 Manual Bet365 odds input is parked as an optional fallback. It is not an active development blocker.
 Current priority: automatic/free-data forward-testing sources and robust fixture/model matching.
 
-Upcoming fixtures: 398
-Manual template rows: 398
+Upcoming fixtures: 161
+Manual template rows: 161
 Rows with complete manual odds: 0
-Rows missing manual odds: 398
+Rows missing manual odds: 161
 Manual forward snapshot rows: 0
 Manual odds mode: optional_fallback_paused
 Manual odds is blocker: False

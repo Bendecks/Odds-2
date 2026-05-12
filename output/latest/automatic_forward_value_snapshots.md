@@ -5,34 +5,40 @@ Includes Football-Data delayed proxy and capped odds-api.io single-event proxy w
 Not live/full-market coverage and not real-money ready.
 
 Forward prediction rows: 80
-Proxy price rows: 33
-Matched prediction rows: 0
-Value snapshot rows: 0
-odds-api.io snapshot rows: 0
-Positive EV rows: 0
-Source counts: {}
+Proxy price rows: 10
+Matched prediction rows: 10
+Value snapshot rows: 30
+odds-api.io snapshot rows: 30
+Positive EV rows: 15
+Source counts: {'odds_api_io_Bet365_ML': 30}
 
-No automatic forward value snapshots were built. Check proxy odds availability and team/date matching.
-
-## Best match diagnostics
-
-- Canberra White Eagles FC vs Queanbeyan City FC | candidates=33 | best=Santa Clara vs Nacional | confidence=0.2917
-- Brothers Union vs Mohammedan SC Dhaka | candidates=33 | best=Huesca vs Sociedad B | confidence=0.3224
-- Sunshine Coast Wanderers FC vs Eastern Suburbs FC | candidates=33 | best=Huesca vs Sociedad B | confidence=0.26
-- FC Oleksandriya vs FC Zorya Luhansk | candidates=33 | best=Tondela vs Moreirense | confidence=0.3844
-- Cerro Porteno Asuncion vs Guarani Asuncion | candidates=33 | best=Estrela vs Famalicao | confidence=0.3379
-- Gangwon FC vs Daejeon Citizen FC | candidates=33 | best=Tondela vs Moreirense | confidence=0.3029
-- Gold Coast Knights vs Gold Coast United FC | candidates=33 | best=Napoli vs Bologna | confidence=0.3603
-- Gwangju FC vs FC Seoul | candidates=33 | best=Gil Vicente vs Arouca | confidence=0.2929
-- Hellenic Athletic Club vs Darwin Hearts FC | candidates=33 | best=Santa Clara vs Nacional | confidence=0.342
-- Incheon United FC vs FC Pohang Steelers | candidates=33 | best=Tondela vs Moreirense | confidence=0.3029
-- Sportivo Ameliano vs Deportivo Recoleta Reserve | candidates=33 | best=Tondela vs Moreirense | confidence=0.3611
-- Gwelup Croatia SC Reserves vs Cockburn City SC Reserves | candidates=33 | best=Tondela vs Moreirense | confidence=0.2576
-- Singida Black Stars SC vs Namungo FC | candidates=33 | best=Santa Clara vs Nacional | confidence=0.4121
-- Murdoch University Melville FC Reserves vs Joondalup City FC Reserve | candidates=33 | best=Tondela vs Moreirense | confidence=0.255
-- Fardu Ferghana vs Xorazm Fk Urganch | candidates=33 | best=Vallecano vs Girona | confidence=0.2609
-- FC Epitsentr Kamianets-Podilskyi vs FC Polissya Zhytomyr | candidates=33 | best=Estrela vs Famalicao | confidence=0.2927
-- Deportivo Maldonado Reserve vs Racing Club Montevideo | candidates=33 | best=Rio Ave vs Sp Lisbon | confidence=0.3349
-- Namdhari FC vs Gokulam Kerala FC | candidates=33 | best=Santa Clara vs Nacional | confidence=0.3469
-- TRA United vs Jkt Tanzania | candidates=33 | best=Estrela vs Famalicao | confidence=0.4905
-- Sur SC vs Al-Khaboora | candidates=33 | best=Estrela vs Famalicao | confidence=0.3538
+- 2026-05-12 | Gold Coast Knights vs Gold Coast United FC | sel=AWAY | src=odds_api_io_Bet365_ML | odds=21.0 | prob=0.3488 | EV=6.3248 | match=1.0
+- 2026-05-12 | Sunshine Coast Wanderers FC vs Eastern Suburbs FC | sel=HOME | src=odds_api_io_Bet365_ML | odds=8.0 | prob=0.3772 | EV=2.0176 | match=1.0
+- 2026-05-12 | Gwangju FC vs FC Seoul | sel=HOME | src=odds_api_io_Bet365_ML | odds=8.0 | prob=0.3772 | EV=2.0176 | match=1.0
+- 2026-05-12 | Canberra White Eagles FC vs Queanbeyan City FC | sel=HOME | src=odds_api_io_Bet365_ML | odds=7.0 | prob=0.3772 | EV=1.6404 | match=1.0
+- 2026-05-12 | Gold Coast Knights vs Gold Coast United FC | sel=DRAW | src=odds_api_io_Bet365_ML | odds=9.5 | prob=0.274 | EV=1.603 | match=1.0
+- 2026-05-12 | Sunshine Coast Wanderers FC vs Eastern Suburbs FC | sel=DRAW | src=odds_api_io_Bet365_ML | odds=5.0 | prob=0.274 | EV=0.37 | match=1.0
+- 2026-05-12 | Canberra White Eagles FC vs Queanbeyan City FC | sel=DRAW | src=odds_api_io_Bet365_ML | odds=5.0 | prob=0.274 | EV=0.37 | match=1.0
+- 2026-05-12 | Brothers Union vs Mohammedan SC Dhaka | sel=HOME | src=odds_api_io_Bet365_ML | odds=3.6 | prob=0.3772 | EV=0.35792 | match=1.0
+- 2026-05-12 | FC Oleksandriya vs FC Zorya Luhansk | sel=HOME | src=odds_api_io_Bet365_ML | odds=3.5 | prob=0.3772 | EV=0.3202 | match=1.0
+- 2026-05-12 | Hellenic Athletic Club vs Darwin Hearts FC | sel=HOME | src=odds_api_io_Bet365_ML | odds=3.3 | prob=0.3772 | EV=0.24476 | match=1.0
+- 2026-05-12 | Hellenic Athletic Club vs Darwin Hearts FC | sel=DRAW | src=odds_api_io_Bet365_ML | odds=4.2 | prob=0.274 | EV=0.1508 | match=1.0
+- 2026-05-12 | Gwangju FC vs FC Seoul | sel=DRAW | src=odds_api_io_Bet365_ML | odds=4.2 | prob=0.274 | EV=0.1508 | match=1.0
+- 2026-05-12 | Gangwon FC vs Daejeon Citizen FC | sel=AWAY | src=odds_api_io_Bet365_ML | odds=3.1 | prob=0.3488 | EV=0.08128 | match=1.0
+- 2026-05-12 | Cerro Porteno Asuncion vs Guarani Asuncion | sel=DRAW | src=odds_api_io_Bet365_ML | odds=3.8 | prob=0.274 | EV=0.0412 | match=1.0
+- 2026-05-12 | Incheon United FC vs FC Pohang Steelers | sel=AWAY | src=odds_api_io_Bet365_ML | odds=2.875 | prob=0.3488 | EV=0.0028 | match=1.0
+- 2026-05-12 | Brothers Union vs Mohammedan SC Dhaka | sel=DRAW | src=odds_api_io_Bet365_ML | odds=3.5 | prob=0.274 | EV=-0.041 | match=1.0
+- 2026-05-12 | Cerro Porteno Asuncion vs Guarani Asuncion | sel=AWAY | src=odds_api_io_Bet365_ML | odds=2.7 | prob=0.3488 | EV=-0.05824 | match=1.0
+- 2026-05-12 | Incheon United FC vs FC Pohang Steelers | sel=HOME | src=odds_api_io_Bet365_ML | odds=2.45 | prob=0.3772 | EV=-0.07586 | match=1.0
+- 2026-05-12 | FC Oleksandriya vs FC Zorya Luhansk | sel=DRAW | src=odds_api_io_Bet365_ML | odds=3.2 | prob=0.274 | EV=-0.1232 | match=1.0
+- 2026-05-12 | Gangwon FC vs Daejeon Citizen FC | sel=DRAW | src=odds_api_io_Bet365_ML | odds=3.1 | prob=0.274 | EV=-0.1506 | match=1.0
+- 2026-05-12 | Gangwon FC vs Daejeon Citizen FC | sel=HOME | src=odds_api_io_Bet365_ML | odds=2.2 | prob=0.3772 | EV=-0.17016 | match=1.0
+- 2026-05-12 | Incheon United FC vs FC Pohang Steelers | sel=DRAW | src=odds_api_io_Bet365_ML | odds=3.0 | prob=0.274 | EV=-0.178 | match=1.0
+- 2026-05-12 | Cerro Porteno Asuncion vs Guarani Asuncion | sel=HOME | src=odds_api_io_Bet365_ML | odds=2.1 | prob=0.3772 | EV=-0.20788 | match=1.0
+- 2026-05-12 | FC Oleksandriya vs FC Zorya Luhansk | sel=AWAY | src=odds_api_io_Bet365_ML | odds=1.95 | prob=0.3488 | EV=-0.31984 | match=1.0
+- 2026-05-12 | Brothers Union vs Mohammedan SC Dhaka | sel=AWAY | src=odds_api_io_Bet365_ML | odds=1.8 | prob=0.3488 | EV=-0.37216 | match=1.0
+- 2026-05-12 | Hellenic Athletic Club vs Darwin Hearts FC | sel=AWAY | src=odds_api_io_Bet365_ML | odds=1.75 | prob=0.3488 | EV=-0.3896 | match=1.0
+- 2026-05-12 | Gwangju FC vs FC Seoul | sel=AWAY | src=odds_api_io_Bet365_ML | odds=1.38 | prob=0.3488 | EV=-0.518656 | match=1.0
+- 2026-05-12 | Canberra White Eagles FC vs Queanbeyan City FC | sel=AWAY | src=odds_api_io_Bet365_ML | odds=1.3 | prob=0.3488 | EV=-0.54656 | match=1.0
+- 2026-05-12 | Sunshine Coast Wanderers FC vs Eastern Suburbs FC | sel=AWAY | src=odds_api_io_Bet365_ML | odds=1.27 | prob=0.3488 | EV=-0.557024 | match=1.0
+- 2026-05-12 | Gold Coast Knights vs Gold Coast United FC | sel=HOME | src=odds_api_io_Bet365_ML | odds=1.083 | prob=0.3772 | EV=-0.591492 | match=1.0

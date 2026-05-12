@@ -1,2 +1,2 @@
 forward_prediction_rows,proxy_price_rows,value_snapshot_rows,positive_ev_rows,matched_prediction_rows,odds_api_io_snapshot_rows,source_counts,source_type,real_money_ready
-80,33,0,0,0,0,{},combined_automatic_forward_market_proxy,False
+80,10,30,15,10,30,{'odds_api_io_Bet365_ML': 30},combined_automatic_forward_market_proxy,False

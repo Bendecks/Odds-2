@@ -3,7 +3,7 @@
 Probability-only forward fixture model output. Not a betting card and not a real-money recommendation.
 Full model rows use matched team-strength data. Baseline rows are conservative league-average placeholders used to increase odds-matching coverage only.
 
-Upcoming fixture rows: 398
+Upcoming fixture rows: 161
 Forward fixture prediction rows: 80
 Full model prediction rows: 0
 Baseline prediction rows: 80

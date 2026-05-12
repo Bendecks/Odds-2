@@ -5,7 +5,7 @@ Fresh API price means odds-api.io or API-Football. This is still paper/proxy-onl
 
 Forward prediction rows: 80
 Automatic price rows: 10
-Value snapshot rows: 0
+Value snapshot rows: 30
 Matches with any automatic price: 10
 Matches with fresh API price: 10
 Matches with odds-api.io price: 10

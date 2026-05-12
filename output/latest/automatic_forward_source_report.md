@@ -3,8 +3,8 @@
 Purpose: distinguish true automatic forward inputs from historical market proxy and paused manual fallback.
 Football-Data and odds-api.io prices are treated as paper-test proxy prices until validated.
 
-Upcoming fixture rows: 398
-Fixture team rows unmatched: 760
+Upcoming fixture rows: 161
+Fixture team rows unmatched: 313
 Ready for model-fixture join: False
 Automatic forward price rows: 10
 odds-api.io price rows: 10

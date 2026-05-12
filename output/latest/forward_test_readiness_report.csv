@@ -1,2 +1,2 @@
 forward_test_status,leakage_risk,sample_usage,system_readiness,forward_paper_picks
-no_forward_picks_available,medium,paper_tracking_only,observation_only,0
+observe_only_with_forward_picks,medium,paper_tracking_only,observation_only,7
