@@ -1,0 +1,73 @@
+name: Forward Paper Settlement
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows:
+      - Free Betting Data Stack
+    types:
+      - completed
+
+jobs:
+  settle-forward-paper:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    env:
+      ODDS_API_IO_KEY: ${{ secrets.ODDS_API_IO_KEY }}
+      ODDS_API_IO_SETTLEMENT_MAX_CALLS: '30'
+      ODDS_API_IO_SETTLEMENT_SLEEP_SECONDS: '0.15'
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Settle forward paper test picks
+        run: python scripts/settle_forward_paper_test_picks.py
+
+      - name: Rebuild clean forward paper test report
+        run: python scripts/build_forward_paper_test_report.py
+
+      - name: Commit forward settlement artifacts
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/latest/forward_paper_test_settlements.csv \
+                  output/latest/forward_paper_test_settlement_summary.csv \
+                  output/latest/forward_paper_test_settlement_report.md \
+                  output/latest/forward_paper_test_report.md \
+                  output/latest/forward_paper_test_summary.csv \
+                  data/raw/odds_api_io/forward_settlement
+          if git diff --cached --quiet; then
+            echo "No forward settlement changes to commit"
+          else
+            git commit -m "Update forward paper settlement"
+            git pull --rebase origin main
+            git push
+          fi
+
+      - name: Upload forward settlement artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: forward-paper-settlement
+          path: |
+            output/latest/forward_paper_test_settlements.csv
+            output/latest/forward_paper_test_settlement_summary.csv
+            output/latest/forward_paper_test_settlement_report.md
+            output/latest/forward_paper_test_report.md
+            output/latest/forward_paper_test_summary.csv
