@@ -10,7 +10,7 @@ Combined price rows: 30
 Extra calls used: 2 / 3
 Max total price events: 30
 Minimum direct match confidence: 0.72
-Latest rate-limit remaining: 71
+Latest rate-limit remaining: 55
 Errors/status rows: 0
 
 ## New extra prices
@@ -25,10 +25,10 @@ Errors/status rows: 0
 - 2026-05-12 13:00 | Deportivo Maldonado Reserve vs Racing Club Montevideo | odds_api_io_Bet365_ML | 2.625/3.25/2.4
 - 2026-05-12 13:00 | Namdhari FC vs Gokulam Kerala FC | odds_api_io_Bet365_ML | 2.625/3.4/2.3
 - 2026-05-12 13:15 | TRA United vs Jkt Tanzania | odds_api_io_Bet365_ML | 2.05/2.9/3.5
-- 2026-05-12 13:50 | Sur SC vs Al-Khaboora | odds_api_io_1xbet_ML | 2.41/2.82/3.01
-- 2026-05-12 14:00 | El Gouna FC vs Kahrabaa Ismailia | odds_api_io_Bet365_ML | 2.25/2.75/3.2
+- 2026-05-12 13:50 | Sur SC vs Al-Khaboora | odds_api_io_Bet365_ML | 2.3/2.8/3.1
+- 2026-05-12 14:00 | El Gouna FC vs Kahrabaa Ismailia | odds_api_io_Bet365_ML | 2.2/2.75/3.3
 - 2026-05-12 14:00 | FC Inter Turku vs JS Hercules | odds_api_io_Bet365_ML | 1.03/13.0/29.0
-- 2026-05-12 14:00 | Mohun Bagan Super Giant vs Inter Kashi FC | odds_api_io_1xbet_ML | 1.116/6.8/15.0
+- 2026-05-12 14:00 | Mohun Bagan Super Giant vs Inter Kashi FC | odds_api_io_Bet365_ML | 1.166/6.25/13.0
 - 2026-05-12 14:00 | Pharco FC vs Modern Sport FC | odds_api_io_Bet365_ML | 3.2/2.75/2.25
 - 2026-05-12 14:00 | URA FC vs Calvary | odds_api_io_Bet365_ML | 1.333/4.5/7.5
 - 2026-05-12 14:10 | AL Ittihad Kalba vs AL Nasr | odds_api_io_Bet365_ML | 1.85/3.7/3.3

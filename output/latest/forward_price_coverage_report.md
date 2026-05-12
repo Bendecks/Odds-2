@@ -34,10 +34,10 @@ Real-money ready: False
 - 2026-05-12 | Deportivo Maldonado Reserve vs Racing Club Montevideo | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
 - 2026-05-12 | Namdhari FC vs Gokulam Kerala FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
 - 2026-05-12 | TRA United vs Jkt Tanzania | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-12 | Sur SC vs Al-Khaboora | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_1xbet_ML
+- 2026-05-12 | Sur SC vs Al-Khaboora | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
 - 2026-05-12 | El Gouna FC vs Kahrabaa Ismailia | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
 - 2026-05-12 | FC Inter Turku vs JS Hercules | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-12 | Mohun Bagan Super Giant vs Inter Kashi FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_1xbet_ML
+- 2026-05-12 | Mohun Bagan Super Giant vs Inter Kashi FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
 - 2026-05-12 | Pharco FC vs Modern Sport FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
 - 2026-05-12 | URA FC vs Calvary | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
 - 2026-05-12 | AL Ittihad Kalba vs AL Nasr | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
@@ -161,10 +161,10 @@ Real-money ready: False
 - 2026-05-13 | Deportivo Alaves vs FC Barcelona | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-13 | Getafe CF vs RCD Mallorca | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-13 | Bogota FC vs Barranquilla FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-13 | CA Rosario Central vs Racing Club Avellaneda | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-13 | CR Vasco da Gama RJ vs Paysandu SC PA | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-13 | EC Juventude RS vs Sao Paulo FC SP | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-13 | Coritiba FC PR vs Santos FC SP | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-13 | CA Rosario Central vs Racing Club Avellaneda | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-13 | AD Pasto vs CD Tolima | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-13 | Carabobo FC vs Estudiantes de Merida | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-13 | Charlotte FC vs New York City FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
@@ -178,6 +178,5 @@ Real-money ready: False
 
 ## Source summary
 
-- odds_api_io_1xbet_ML | free_api_market_proxy | rows=2
 - odds_api_io_Bet365_ML | free_api_market_proxy | rows=10
-- odds_api_io_Bet365_ML | free_api_market_proxy | rows=18
+- odds_api_io_Bet365_ML | free_api_market_proxy | rows=20

@@ -61,6 +61,23 @@ No qualifying candidate bets today.
 - Paper score: 0.0706
 - Prediction ID: 386769fafb5376f24ba7
 
+### El Gouna FC vs Kahrabaa Ismailia
+
+- Date/time: 2026-05-12 14:00
+- League/phase: egypt-premier-league / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 3.3
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.00-0.35
+- EV: 0.151
+- Probability edge: 0.0458
+- Alignment penalty: 0.151
+- Suppression action: proxy_suppressed_band_observe_only
+- Paper tier: suppressed_band_proxy_observation
+- Paper score: 0.0706
+- Prediction ID: dd1cc38b0a82c5f95154
+
 ### AL Ittihad Kalba vs AL Nasr
 
 - Date/time: 2026-05-12 14:10
@@ -77,23 +94,6 @@ No qualifying candidate bets today.
 - Paper tier: suppressed_band_proxy_observation
 - Paper score: 0.0706
 - Prediction ID: 0f6a71afcd810550a20a
-
-### Canberra White Eagles FC vs Queanbeyan City FC
-
-- Date/time: 2026-05-12 07:30
-- League/phase: australia-u23-capital-npl / automatic_forward_price_proxy
-- Selection: DRAW
-- Market odds: 5.0
-- Fair odds: 3.65
-- Model probability: 0.274
-- Probability band: 0.00-0.35
-- EV: 0.37
-- Probability edge: 0.074
-- Alignment penalty: 0.37
-- Suppression action: proxy_suppressed_band_observe_only
-- Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.0706
-- Prediction ID: dabb233183cfe864c5d8
 
 ### AL Wasl vs AL Jazira
 
@@ -112,10 +112,10 @@ No qualifying candidate bets today.
 - Paper score: 0.0706
 - Prediction ID: be743004d37f19c1db36
 
-### Sunshine Coast Wanderers FC vs Eastern Suburbs FC
+### Canberra White Eagles FC vs Queanbeyan City FC
 
-- Date/time: 2026-05-12 09:45
-- League/phase: australia-queensland-npl-women / automatic_forward_price_proxy
+- Date/time: 2026-05-12 07:30
+- League/phase: australia-u23-capital-npl / automatic_forward_price_proxy
 - Selection: DRAW
 - Market odds: 5.0
 - Fair odds: 3.65
@@ -127,7 +127,7 @@ No qualifying candidate bets today.
 - Suppression action: proxy_suppressed_band_observe_only
 - Paper tier: suppressed_band_proxy_observation
 - Paper score: 0.0706
-- Prediction ID: ce21558fb1861a710d9e
+- Prediction ID: dabb233183cfe864c5d8
 
 ## Snapshot summary
 
