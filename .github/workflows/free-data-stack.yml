@@ -27,8 +27,9 @@ jobs:
       ODDS_API_IO_MAX_CALLS: '8'
       ODDS_API_IO_MAX_EVENTS: '100'
       ODDS_API_IO_EVENTS_MAX_PAGES: '4'
-      ODDS_API_IO_MAX_PRICE_EVENTS: '10'
-      FORWARD_FIXTURE_MAX_PREDICTIONS: '80'
+      ODDS_API_IO_MAX_PRICE_EVENTS: '30'
+      ODDS_API_IO_EXTRA_MULTI_CALLS: '3'
+      FORWARD_FIXTURE_MAX_PREDICTIONS: '160'
       FORWARD_FIXTURE_INCLUDE_BASELINE_UNMATCHED: 'true'
       API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
       API_FOOTBALL_MAX_CALLS: '0'
@@ -86,6 +87,9 @@ jobs:
 
       - name: Fetch odds-api.io forward prices
         run: python scripts/fetch_odds_api_io_forward_prices.py
+
+      - name: Extend odds-api.io forward prices
+        run: python scripts/extend_odds_api_io_forward_prices.py
 
       - name: Filter odds-api.io forward price quality
         run: python scripts/filter_odds_api_io_forward_prices_quality.py
