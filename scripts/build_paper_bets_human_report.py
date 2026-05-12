@@ -76,6 +76,20 @@ def parse_date(value):
     return parsed.date().isoformat()
 
 
+def nice_time(value):
+    text = clean(value)
+    if not text:
+        return 'Ukendt'
+    parsed = pd.to_datetime(text, errors='coerce', utc=True)
+    if pd.isna(parsed):
+        parsed = pd.to_datetime(text, errors='coerce')
+    if pd.isna(parsed):
+        if len(text) >= 5 and text[2] == ':':
+            return text[:5]
+        return text
+    return parsed.strftime('%H:%M')
+
+
 def make_bet_key(row):
     return '|'.join([
         clean(parse_date(row.get('match_date'))),
@@ -124,7 +138,6 @@ if len(log):
 else:
     pending = pd.DataFrame()
 
-# If current picks exist, prefer showing those as the immediate active list, but keep pending-log count in summary.
 current_display = current.copy()
 if len(current_display):
     current_display['human_bet_key'] = current_display.apply(make_bet_key, axis=1)
@@ -174,6 +187,7 @@ if len(current_display):
         lines.extend([
             f"### {clean(row.get('home_team'), 'Ukendt hjemmehold')} vs {clean(row.get('away_team'), 'Ukendt udehold')}",
             f"- Dato: **{clean(row.get('match_date'), 'Ukendt')}**",
+            f"- Kampstart: **{nice_time(row.get('match_time'))}**",
             f"- Spil: **{nice_selection(row.get('selection'))}**",
             f"- Odds: **{format_number(row.get('market_odds'))}**",
             f"- Status: **Afventer**",
@@ -195,6 +209,7 @@ if len(settled_forward):
         lines.extend([
             f"### {clean(row.get('home_team'), 'Ukendt hjemmehold')} vs {clean(row.get('away_team'), 'Ukendt udehold')}",
             f"- Dato: **{clean(row.get('match_date'), 'Ukendt')}**",
+            f"- Kampstart: **{nice_time(row.get('match_time'))}**",
             f"- Spil: **{nice_selection(row.get('selection'))}**",
             f"- Odds: **{format_number(row.get('market_odds', row.get('opening_market_odds')))}**",
             f"- Resultat: **{nice_status(row)}**",
@@ -214,7 +229,7 @@ if len(pending):
         pending_display = pending_display.sort_values('parsed_date', ascending=True, na_position='last')
     for _, row in pending_display.head(30).iterrows():
         lines.append(
-            f"- **{clean(row.get('match_date'), 'Ukendt dato')}** – {clean(row.get('home_team'), 'Ukendt')} vs {clean(row.get('away_team'), 'Ukendt')} – {nice_selection(row.get('selection'))} @ {format_number(row.get('market_odds'))}"
+            f"- **{clean(row.get('match_date'), 'Ukendt dato')} kl. {nice_time(row.get('match_time'))}** – {clean(row.get('home_team'), 'Ukendt')} vs {clean(row.get('away_team'), 'Ukendt')} – {nice_selection(row.get('selection'))} @ {format_number(row.get('market_odds'))}"
         )
 else:
     lines.append('Ingen afventende loggede paper picks fundet.')
