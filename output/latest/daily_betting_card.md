@@ -15,17 +15,34 @@ No qualifying candidate bets today.
 - Date/time: 2026-05-12 14:45
 - League/phase: bulgaria-parva-liga / automatic_forward_price_proxy
 - Selection: AWAY
-- Market odds: 4.1
+- Market odds: 4.2
 - Fair odds: 2.87
 - Model probability: 0.3488
 - Probability band: 0.00-0.35
-- EV: 0.4301
-- Probability edge: 0.1049
-- Alignment penalty: 0.4301
+- EV: 0.465
+- Probability edge: 0.1107
+- Alignment penalty: 0.465
 - Suppression action: proxy_suppressed_band_observe_only
 - Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.0739
+- Paper score: 0.0742
 - Prediction ID: 5c33e27f3c4410ed68c4
+
+### Sur SC vs Al-Khaboora
+
+- Date/time: 2026-05-12 13:50
+- League/phase: oman-omani-league / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 4.2
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.00-0.35
+- EV: 0.465
+- Probability edge: 0.1107
+- Alignment penalty: 0.465
+- Suppression action: proxy_suppressed_band_observe_only
+- Paper tier: suppressed_band_proxy_observation
+- Paper score: 0.0742
+- Prediction ID: 2dacd987cdbdfbc80910
 
 ### TRA United vs Jkt Tanzania
 
@@ -44,39 +61,39 @@ No qualifying candidate bets today.
 - Paper score: 0.0716
 - Prediction ID: 34ef6abfb87a2af70436
 
+### AL Wasl vs AL Jazira
+
+- Date/time: 2026-05-12 14:10
+- League/phase: united-arab-emirates-u23-pro-league / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 3.4
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.00-0.35
+- EV: 0.1859
+- Probability edge: 0.0547
+- Alignment penalty: 0.1859
+- Suppression action: proxy_suppressed_band_observe_only
+- Paper tier: suppressed_band_proxy_observation
+- Paper score: 0.0711
+- Prediction ID: be743004d37f19c1db36
+
 ### Sportivo Ameliano vs Deportivo Recoleta Reserve
 
 - Date/time: 2026-05-12 10:30
 - League/phase: paraguay-primera-division-reserve-apertura / automatic_forward_price_proxy
 - Selection: AWAY
-- Market odds: 3.3
+- Market odds: 3.4
 - Fair odds: 2.87
 - Model probability: 0.3488
 - Probability band: 0.00-0.35
-- EV: 0.151
-- Probability edge: 0.0458
-- Alignment penalty: 0.151
+- EV: 0.1859
+- Probability edge: 0.0547
+- Alignment penalty: 0.1859
 - Suppression action: proxy_suppressed_band_observe_only
 - Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.0706
+- Paper score: 0.0711
 - Prediction ID: 386769fafb5376f24ba7
-
-### El Gouna FC vs Kahrabaa Ismailia
-
-- Date/time: 2026-05-12 14:00
-- League/phase: egypt-premier-league / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 3.3
-- Fair odds: 2.87
-- Model probability: 0.3488
-- Probability band: 0.00-0.35
-- EV: 0.151
-- Probability edge: 0.0458
-- Alignment penalty: 0.151
-- Suppression action: proxy_suppressed_band_observe_only
-- Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.0706
-- Prediction ID: dd1cc38b0a82c5f95154
 
 ### AL Ittihad Kalba vs AL Nasr
 
@@ -95,10 +112,10 @@ No qualifying candidate bets today.
 - Paper score: 0.0706
 - Prediction ID: 0f6a71afcd810550a20a
 
-### AL Wasl vs AL Jazira
+### Gangwon FC vs Daejeon Citizen FC
 
-- Date/time: 2026-05-12 14:10
-- League/phase: united-arab-emirates-u23-pro-league / automatic_forward_price_proxy
+- Date/time: 2026-05-12 10:30
+- League/phase: republic-of-korea-k-league-1 / automatic_forward_price_proxy
 - Selection: AWAY
 - Market odds: 3.3
 - Fair odds: 2.87
@@ -110,24 +127,7 @@ No qualifying candidate bets today.
 - Suppression action: proxy_suppressed_band_observe_only
 - Paper tier: suppressed_band_proxy_observation
 - Paper score: 0.0706
-- Prediction ID: be743004d37f19c1db36
-
-### Canberra White Eagles FC vs Queanbeyan City FC
-
-- Date/time: 2026-05-12 07:30
-- League/phase: australia-u23-capital-npl / automatic_forward_price_proxy
-- Selection: DRAW
-- Market odds: 5.0
-- Fair odds: 3.65
-- Model probability: 0.274
-- Probability band: 0.00-0.35
-- EV: 0.37
-- Probability edge: 0.074
-- Alignment penalty: 0.37
-- Suppression action: proxy_suppressed_band_observe_only
-- Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.0706
-- Prediction ID: dabb233183cfe864c5d8
+- Prediction ID: fb5291022f6d38baa0d3
 
 ## Snapshot summary
 
