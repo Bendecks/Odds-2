@@ -1,2 +1,2 @@
 candidate_rows,selected_rows,calls_used,max_calls,max_discovery_calls,events_discovery_rows,search_fallback_used,search_queries_used,multi_odds_attempted,raw_price_rows_before_quality_filter,accepted_price_rows_after_quality_filter,rejected_price_rows_after_quality_filter,latest_rate_limit_remaining,recommendation
-4065,30,3,8,7,150,False,,True,30,23,7,67,Prefer bookmaker-filtered events scan; disable broad search fallback when rate-limit remaining is low or when it mostly produces unrelated events.
+3945,30,4,8,7,145,True,FC Epitsentr Kamianets-Podilskyi,True,30,25,5,88,Prefer bookmaker-filtered events scan; disable broad search fallback when rate-limit remaining is low or when it mostly produces unrelated events.

@@ -1,11 +1,11 @@
 # Paper Test Log Status
 
-Raw log rows: 57
-Valid forward/proxy log rows: 54
-Deduped forward/proxy observation rows: 30
-Duplicate forward/proxy log rows: 24
-Valid automatic proxy observation rows: 54
-Deduped automatic proxy observation rows: 30
+Raw log rows: 64
+Valid forward/proxy log rows: 61
+Deduped forward/proxy observation rows: 34
+Duplicate forward/proxy log rows: 27
+Valid automatic proxy observation rows: 61
+Deduped automatic proxy observation rows: 34
 Invalid historical/proxy log rows excluded: 3
 Has valid forward log: True
 
@@ -34,13 +34,6 @@ Has valid forward log: True
 
 ## Raw valid rows
 
-- 2026-05-12 | AL Wasl vs AL Jazira | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
-- 2026-05-12 | El Gouna FC vs Kahrabaa Ismailia | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
-- 2026-05-12 | PFC Cherno More Varna vs PFC Lokomotiv Plovdiv | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
-- 2026-05-12 | Sur SC vs Al-Khaboora | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
-- 2026-05-12 | AL Wasl vs AL Jazira | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
-- 2026-05-12 | Sportivo Ameliano vs Deportivo Recoleta Reserve | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
-- 2026-05-12 | Gangwon FC vs Daejeon Citizen FC | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
 - 2026-05-12 | Sur SC vs Al-Khaboora | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
 - 2026-05-12 | AL Wasl vs AL Jazira | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
 - 2026-05-12 | El Gouna FC vs Kahrabaa Ismailia | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
@@ -54,6 +47,13 @@ Has valid forward log: True
 - 2026-05-12 | Celta vs Levante | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
 - 2026-05-12 | RC Celta de Vigo vs Levante UD | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
 - 2026-05-12 | RC Celta de Vigo vs Levante UD | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
+- 2026-05-12 | Osasuna vs Ath Madrid | selection=away | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
+- 2026-05-12 | Osasuna vs Ath Madrid | selection=away | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
+- 2026-05-12 | Osasuna vs Ath Madrid | selection=away | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
+- 2026-05-13 | Brest vs Strasbourg | selection=home | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
+- 2026-05-13 | Getafe vs Mallorca | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
+- 2026-05-13 | Villarreal vs Sevilla | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
+- 2026-05-13 | Villarreal vs Sevilla | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
 
 ## Invalid rows excluded
 

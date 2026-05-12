@@ -10,124 +10,124 @@ No qualifying candidate bets today.
 
 ## Paper-Test Picks
 
-### Dundee United vs Livingston
+### Osasuna vs Ath Madrid
 
-- Date/time: 2026-05-12 19:45
-- League/phase: SC0 / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 4.37
-- Fair odds: 2.87
-- Model probability: 0.3488
-- Probability band: 0.00-0.35
-- EV: 0.5243
-- Probability edge: 0.12
-- Alignment penalty: 0.5243
-- Suppression action: proxy_suppressed_band_observe_only
-- Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.0748
-- Prediction ID: 2601f0b6cbd752ed0544
-
-### Asteras Tripolis vs Panserraikos
-
-- Date/time: 2026-05-12 17:00
-- League/phase: G1 / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 4.36
-- Fair odds: 2.87
-- Model probability: 0.3488
-- Probability band: 0.00-0.35
-- EV: 0.5208
-- Probability edge: 0.1194
-- Alignment penalty: 0.5208
-- Suppression action: proxy_suppressed_band_observe_only
-- Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.0747
-- Prediction ID: 10058db7a256d1e270ce
-
-### Celta vs Levante
-
-- Date/time: 2026-05-12 18:00
+- Date/time: 2026-05-12 20:30
 - League/phase: la_liga / automatic_forward_price_proxy
 - Selection: AWAY
-- Market odds: 4.33
-- Fair odds: 2.87
-- Model probability: 0.3488
-- Probability band: 0.00-0.35
-- EV: 0.5103
-- Probability edge: 0.1179
-- Alignment penalty: 0.5103
-- Suppression action: proxy_suppressed_band_observe_only
-- Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.0746
-- Prediction ID: 88da7f07edea889cd9db
+- Market odds: 2.65
+- Fair odds: 2.52
+- Model probability: 0.3969
+- Probability band: 0.35-0.45
+- EV: 0.0518
+- Probability edge: 0.0195
+- Alignment penalty: 0.0518
+- Suppression action: monitor
+- Paper tier: priority_proxy_observation
+- Paper score: 0.245
+- Prediction ID: 02dc0137599654306756
 
-### RC Celta de Vigo vs Levante UD
+### Osasuna vs Ath Madrid
 
-- Date/time: 2026-05-12 17:00
-- League/phase: spain-laliga / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 4.33
-- Fair odds: 2.87
-- Model probability: 0.3488
-- Probability band: 0.00-0.35
-- EV: 0.5103
-- Probability edge: 0.1179
-- Alignment penalty: 0.5103
-- Suppression action: proxy_suppressed_band_observe_only
-- Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.0746
-- Prediction ID: 91ab3a57f9d323dc9bdd
-
-### Celta vs Levante
-
-- Date/time: 2026-05-12 18:00
+- Date/time: 2026-05-12 20:30
 - League/phase: la_liga / automatic_forward_price_proxy
 - Selection: AWAY
-- Market odds: 4.2
-- Fair odds: 2.87
-- Model probability: 0.3488
-- Probability band: 0.00-0.35
-- EV: 0.465
-- Probability edge: 0.1107
-- Alignment penalty: 0.465
-- Suppression action: proxy_suppressed_band_observe_only
-- Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.0742
-- Prediction ID: 88da7f07edea889cd9db
+- Market odds: 2.63
+- Fair odds: 2.52
+- Model probability: 0.3969
+- Probability band: 0.35-0.45
+- EV: 0.0438
+- Probability edge: 0.0167
+- Alignment penalty: 0.0438
+- Suppression action: monitor
+- Paper tier: priority_proxy_observation
+- Paper score: 0.2444
+- Prediction ID: 02dc0137599654306756
 
-### RC Celta de Vigo vs Levante UD
+### Osasuna vs Ath Madrid
 
-- Date/time: 2026-05-12 17:00
-- League/phase: spain-laliga / automatic_forward_price_proxy
+- Date/time: 2026-05-12 20:30
+- League/phase: la_liga / automatic_forward_price_proxy
 - Selection: AWAY
-- Market odds: 4.2
-- Fair odds: 2.87
-- Model probability: 0.3488
-- Probability band: 0.00-0.35
-- EV: 0.465
-- Probability edge: 0.1107
-- Alignment penalty: 0.465
-- Suppression action: proxy_suppressed_band_observe_only
-- Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.0742
-- Prediction ID: 91ab3a57f9d323dc9bdd
+- Market odds: 2.61
+- Fair odds: 2.52
+- Model probability: 0.3969
+- Probability band: 0.35-0.45
+- EV: 0.0359
+- Probability edge: 0.0138
+- Alignment penalty: 0.0359
+- Suppression action: monitor
+- Paper tier: priority_proxy_observation
+- Paper score: 0.2439
+- Prediction ID: 02dc0137599654306756
 
-### RC Celta de Vigo vs Levante UD
+### Brest vs Strasbourg
 
-- Date/time: 2026-05-12 17:00
-- League/phase: spain-laliga / automatic_forward_price_proxy
+- Date/time: 2026-05-13 18:00
+- League/phase: ligue_1 / automatic_forward_price_proxy
+- Selection: HOME
+- Market odds: 2.8
+- Fair odds: 2.76
+- Model probability: 0.3618
+- Probability band: 0.35-0.45
+- EV: 0.013
+- Probability edge: 0.0047
+- Alignment penalty: 0.013
+- Suppression action: monitor
+- Paper tier: priority_proxy_observation
+- Paper score: 0.2394
+- Prediction ID: 15223cd9a65de7bcdbde
+
+### Getafe vs Mallorca
+
+- Date/time: 2026-05-13 20:30
+- League/phase: la_liga / automatic_forward_price_proxy
 - Selection: AWAY
-- Market odds: 4.17
-- Fair odds: 2.87
-- Model probability: 0.3488
+- Market odds: 3.7
+- Fair odds: 3.06
+- Model probability: 0.3268
 - Probability band: 0.00-0.35
-- EV: 0.4545
-- Probability edge: 0.109
-- Alignment penalty: 0.4545
+- EV: 0.2092
+- Probability edge: 0.0565
+- Alignment penalty: 0.2092
 - Suppression action: proxy_suppressed_band_observe_only
 - Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.0741
-- Prediction ID: 91ab3a57f9d323dc9bdd
+- Paper score: 0.1289
+- Prediction ID: 512b2aaa4dc6a4610a3d
+
+### Villarreal vs Sevilla
+
+- Date/time: 2026-05-13 18:00
+- League/phase: la_liga / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 3.7
+- Fair odds: 3.07
+- Model probability: 0.326
+- Probability band: 0.00-0.35
+- EV: 0.2062
+- Probability edge: 0.0557
+- Alignment penalty: 0.2062
+- Suppression action: proxy_suppressed_band_observe_only
+- Paper tier: suppressed_band_proxy_observation
+- Paper score: 0.1287
+- Prediction ID: 1a7b8238707be2164ab1
+
+### Villarreal vs Sevilla
+
+- Date/time: 2026-05-13 18:00
+- League/phase: la_liga / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 3.6
+- Fair odds: 3.07
+- Model probability: 0.326
+- Probability band: 0.00-0.35
+- EV: 0.1736
+- Probability edge: 0.0482
+- Alignment penalty: 0.1736
+- Suppression action: proxy_suppressed_band_observe_only
+- Paper tier: suppressed_band_proxy_observation
+- Paper score: 0.128
+- Prediction ID: 1a7b8238707be2164ab1
 
 ## Snapshot summary
 

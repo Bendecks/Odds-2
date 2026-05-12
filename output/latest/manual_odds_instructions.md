@@ -52,13 +52,11 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-12 14:00 | El Gouna FC vs Kahrabaa Ismailia
 - 2026-05-12 16:00 | FC Elva vs Paide Linnameeskond
 - 2026-05-12 12:30 | FC Epitsentr Kamianets-Podilskyi vs FC Polissya Zhytomyr
-- 2026-05-12 12:00 | Fardu Ferghana vs Xorazm Fk Urganch
 - 2026-05-12 15:00 | FK Liepaja vs Ogre United
 - 2026-05-12 15:30 | FK Mlada Boleslav vs Dukla Prague
 - 2026-05-12 18:00 | Gimnasia de la Plata Reserve vs CA Banfield
 - 2026-05-12 18:30 | Grasshopper Club Zurich vs FC Winterthur
 - 2026-05-12 22:00 | GV Club Deportivo San Jose de Oruro vs CD Real Tomayapo
-- 2026-05-12 11:00 | Gwelup Croatia SC Reserves vs Cockburn City SC Reserves
 - 2026-05-12 17:00 | Hapoel Tel Aviv FC vs Hapoel Petah Tikva FC
 - 2026-05-12 17:00 | IFK Varnamo vs Orebro SK
 - 2026-05-12 14:00 | FC Inter Turku vs JS Hercules
@@ -76,7 +74,6 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-12 15:00 | MFK Chrudim vs FK Pribram
 - 2026-05-12 16:45 | Modena FC vs Juve Stabia
 - 2026-05-12 14:00 | Mohun Bagan Super Giant vs Inter Kashi FC
-- 2026-05-12 11:15 | Murdoch University Melville FC Reserves vs Joondalup City FC Reserve
 - 2026-05-12 13:00 | Namdhari FC vs Gokulam Kerala FC
 - 2026-05-12 18:00 | Newells Old Boys vs CA Quilmes Reserve
 - 2026-05-12 20:30 | Osasuna vs Ath Madrid
@@ -97,7 +94,6 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-12 16:00 | Sarpsborg 08 FF vs Hoenefoss BK
 - 2026-05-12 22:30 | SC Internacional RS vs Athletic Club Sjdr MG
 - 2026-05-12 18:30 | Servette Geneva vs Lausanne-Sport
-- 2026-05-12 11:00 | Singida Black Stars SC vs Namungo FC
 - 2026-05-12 19:00 | Southampton FC vs Middlesbrough FC
 - 2026-05-12 18:45 | SP Tre Penne vs SP La Fiorita
 - 2026-05-12 18:00 | Sparta Prague vs FC Viktoria Plzen
@@ -188,8 +184,9 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-14 19:00 | Girona vs Sociedad
 - 2026-05-14 20:30 | Real Madrid vs Oviedo
 - 2026-05-14 18:00 | Valencia vs Vallecano
-- 2026-05-16 07:00 | Gold Coast Knights vs Sunshine Coast Wanderers FC
-- 2026-05-16 08:00 | Sunshine Coast Wanderers vs St George Willawong FC
+- 2026-05-15 15:30 | Young Africans SC vs Singida Black Stars SC
+- 2026-05-16 05:00 | Curtin University SC Reserves vs Murdoch University Melville FC Reserves
+- 2026-05-16 05:00 | Subiaco AFC Reserve vs Gwelup Croatia SC Reserves
 
 ## After filling odds
 

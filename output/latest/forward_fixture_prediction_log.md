@@ -4,18 +4,9 @@ Probability-only forward prediction log. This is not a betting log and contains 
 
 Current forward fixture predictions: 160
 New forward fixture predictions logged: 0
-Total forward fixture predictions logged: 224
+Total forward fixture predictions logged: 233
 Log type: probability_only_no_market_prices
 
-- 2026-05-12 2026-05-12 18:00:00 | Celta vs Levante | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-12 2026-05-12 19:00:00 | Betis vs Elche | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-12 2026-05-12 19:45:00 | Aberdeen vs St Mirren | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-12 2026-05-12 19:45:00 | Dundee United vs Livingston | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-12 2026-05-12 19:45:00 | Kilmarnock vs Dundee | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-12 2026-05-12 20:30:00 | Osasuna vs Ath Madrid | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-13 2026-05-12 15:00:00 | Levadeiakos vs OFI Crete | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-13 2026-05-12 15:00:00 | Volos NFC vs Aris | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-13 2026-05-12 17:30:00 | Olympiakos vs Panathinaikos | H=0.37720000000000004 D=0.274 A=0.3488
 - 2026-05-13 2026-05-12 17:30:00 | PAOK vs AEK | H=0.37720000000000004 D=0.274 A=0.3488
 - 2026-05-13 2026-05-12 18:00:00 | Brest vs Strasbourg | H=0.37720000000000004 D=0.274 A=0.3488
 - 2026-05-13 2026-05-12 18:00:00 | Espanol vs Ath Bilbao | H=0.37720000000000004 D=0.274 A=0.3488
@@ -27,3 +18,12 @@ Log type: probability_only_no_market_prices
 - 2026-05-13 2026-05-12 20:00:00 | Rangers vs Hibernian | H=0.37720000000000004 D=0.274 A=0.3488
 - 2026-05-13 2026-05-12 20:30:00 | Alaves vs Barcelona | H=0.37720000000000004 D=0.274 A=0.3488
 - 2026-05-13 2026-05-12 20:30:00 | Getafe vs Mallorca | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-12 2026-05-12 19:00:00 | Betis vs Elche | H=0.44570000000000004 D=0.27030000000000004 A=0.28390000000000004
+- 2026-05-12 2026-05-12 20:30:00 | Osasuna vs Ath Madrid | H=0.3224 D=0.2807 A=0.39690000000000003
+- 2026-05-13 2026-05-12 18:00:00 | Brest vs Strasbourg | H=0.3618 D=0.27940000000000004 A=0.3588
+- 2026-05-13 2026-05-12 18:00:00 | Espanol vs Ath Bilbao | H=0.34900000000000003 D=0.2922 A=0.3588
+- 2026-05-13 2026-05-12 18:00:00 | Villarreal vs Sevilla | H=0.4041 D=0.26990000000000003 A=0.326
+- 2026-05-13 2026-05-12 20:00:00 | Lens vs Paris SG | H=0.3022 D=0.26380000000000003 A=0.4339
+- 2026-05-13 2026-05-12 20:00:00 | Man City vs Crystal Palace | H=0.4509 D=0.2635 A=0.2857
+- 2026-05-13 2026-05-12 20:30:00 | Alaves vs Barcelona | H=0.29650000000000004 D=0.2757 A=0.4277
+- 2026-05-13 2026-05-12 20:30:00 | Getafe vs Mallorca | H=0.37920000000000004 D=0.2939 A=0.32680000000000003

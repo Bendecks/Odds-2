@@ -4,21 +4,17 @@ Measures automatic price coverage for forward predictions.
 Fresh API price means odds-api.io or API-Football. This is still paper/proxy-only and not real-money ready.
 
 Forward prediction rows: 160
-Automatic price rows: 101
-Value snapshot rows: 441
-Matches with any automatic price: 46
-Matches with fresh API price: 23
-Matches with odds-api.io price: 23
-Fresh API match coverage rate: 0.1437
-odds-api.io match coverage rate: 0.1437
+Automatic price rows: 103
+Value snapshot rows: 450
+Matches with any automatic price: 48
+Matches with fresh API price: 25
+Matches with odds-api.io price: 25
+Fresh API match coverage rate: 0.1562
+odds-api.io match coverage rate: 0.1562
 Real-money ready: False
 
 ## Match coverage
 
-- 2026-05-12 | Gwelup Croatia SC Reserves vs Cockburn City SC Reserves | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-12 | Singida Black Stars SC vs Namungo FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-12 | Murdoch University Melville FC Reserves vs Joondalup City FC Reserve | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-12 | Fardu Ferghana vs Xorazm Fk Urganch | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
 - 2026-05-12 | FC Epitsentr Kamianets-Podilskyi vs FC Polissya Zhytomyr | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
 - 2026-05-12 | Deportivo Maldonado Reserve vs Racing Club Montevideo | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-12 | Namdhari FC vs Gokulam Kerala FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
@@ -45,10 +41,10 @@ Real-money ready: False
 - 2026-05-12 | FC Zlin vs FK Teplice | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
 - 2026-05-12 | AE Kifisia FC vs Atromitos Athinon | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
 - 2026-05-12 | FC Elva vs Paide Linnameeskond | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-12 | Panaitolikos Agrinio vs AE Larissa FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-12 | Rayon Sports FC vs Gorilla FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-12 | Riga FC vs FK Auda Riga | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-12 | Sarpsborg 08 FF vs Hoenefoss BK | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-12 | Panaitolikos Agrinio vs AE Larissa FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-12 | Rayon Sports FC vs Gorilla FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-12 | Riga FC vs FK Auda Riga | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-12 | Sarpsborg 08 FF vs Hoenefoss BK | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
 - 2026-05-12 | Viking FK vs Haugesund | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-12 | Al-Kholood vs Al-Okhdood Club | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-12 | Al-Rustaq vs Ibri | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
@@ -175,11 +171,15 @@ Real-money ready: False
 - 2026-05-13 | AD Pasto vs CD Tolima | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-13 | Carabobo FC vs Estudiantes de Merida | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-13 | Charlotte FC vs New York City FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-13 | Academia Puerto Cabello vs Portuguesa FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-13 | FC Cincinnati vs Inter Miami CF | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-13 | DC United vs Chicago Fire | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-13 | Mirassol FC SP vs Red Bull Bragantino SP | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 
 ## Source summary
 
 - football_data_average_market_proxy | delayed_market_proxy | rows=26
 - football_data_bet365_proxy | delayed_market_proxy | rows=26
 - football_data_max_market_proxy | delayed_market_proxy | rows=26
-- odds_api_io_Bet365_ML | free_api_market_proxy | rows=7
-- odds_api_io_Bet365_ML | free_api_market_proxy | rows=16
+- odds_api_io_Bet365_ML | free_api_market_proxy | rows=8
+- odds_api_io_Bet365_ML | free_api_market_proxy | rows=17

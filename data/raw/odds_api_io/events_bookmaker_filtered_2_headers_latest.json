@@ -1,9 +1,9 @@
 {
-  "captured_at_utc": "2026-05-12T10:54:07.169597+00:00",
+  "captured_at_utc": "2026-05-12T12:34:03.744039+00:00",
   "label": "events_bookmaker_filtered_2",
   "status_code": 200,
   "x_ratelimit_limit": "100",
-  "x_ratelimit_remaining": "68",
-  "x_ratelimit_reset": "2026-05-12T11:43:15Z",
+  "x_ratelimit_remaining": "90",
+  "x_ratelimit_reset": "2026-05-12T13:33:31Z",
   "retry_after": null
 }

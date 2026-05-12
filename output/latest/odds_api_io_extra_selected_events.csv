@@ -1,9 +1,5 @@
 raw_event_id,fixture_id,match_date,match_time,home_team,away_team,league,direct_match_confidence
-71325988,odds_api_io_71325988,2026-05-12,14:00,FC Inter Turku,JS Hercules,finland-suomen-cup,1.0
-68746468,odds_api_io_68746468,2026-05-12,14:00,Mohun Bagan Super Giant,Inter Kashi FC,india-indian-super-league,1.0
-69880306,odds_api_io_69880306,2026-05-12,14:00,Pharco FC,Modern Sport FC,egypt-premier-league,1.0
-70316166,odds_api_io_70316166,2026-05-12,14:00,URA FC,Calvary,uganda-premier-league,1.0
-71338854,odds_api_io_71338854,2026-05-12,14:10,AL Ittihad Kalba,AL Nasr,united-arab-emirates-u23-pro-league,1.0
+61651656,odds_api_io_61651656,2026-05-12,12:30,FC Epitsentr Kamianets-Podilskyi,FC Polissya Zhytomyr,ukraine-premier-league,1.0
 71338856,odds_api_io_71338856,2026-05-12,14:10,AL Wasl,AL Jazira,united-arab-emirates-u23-pro-league,1.0
 70906728,odds_api_io_70906728,2026-05-12,14:45,PFC Cherno More Varna,PFC Lokomotiv Plovdiv,bulgaria-parva-liga,1.0
 71228890,odds_api_io_71228890,2026-05-12,15:00,AL Faisaly (Jor),Ramtha SC,jordan-jordan-cup,1.0
@@ -19,3 +15,7 @@ raw_event_id,fixture_id,match_date,match_time,home_team,away_team,league,direct_
 71085580,odds_api_io_71085580,2026-05-12,15:30,FC Zlin,FK Teplice,czechia-1-liga,1.0
 70232094,odds_api_io_70232094,2026-05-12,16:00,AE Kifisia FC,Atromitos Athinon,greece-super-league,1.0
 71328286,odds_api_io_71328286,2026-05-12,16:00,FC Elva,Paide Linnameeskond,estonia-cup-women,1.0
+70232096,odds_api_io_70232096,2026-05-12,16:00,Panaitolikos Agrinio,AE Larissa FC,greece-super-league,1.0
+71421816,odds_api_io_71421816,2026-05-12,16:00,Rayon Sports FC,Gorilla FC,rwanda-peace-cup,1.0
+68492516,odds_api_io_68492516,2026-05-12,16:00,Riga FC,FK Auda Riga,latvia-virsliga,1.0
+71216798,odds_api_io_71216798,2026-05-12,16:00,Sarpsborg 08 FF,Hoenefoss BK,norway-nm-cup-women,1.0
