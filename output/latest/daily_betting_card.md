@@ -10,23 +10,6 @@ No qualifying candidate bets today.
 
 ## Paper-Test Picks
 
-### Sur SC vs Al-Khaboora
-
-- Date/time: 2026-05-12 13:50
-- League/phase: oman-omani-league / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 4.33
-- Fair odds: 2.87
-- Model probability: 0.3488
-- Probability band: 0.00-0.35
-- EV: 0.5113
-- Probability edge: 0.118
-- Alignment penalty: 0.5114
-- Suppression action: proxy_suppressed_band_observe_only
-- Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.0746
-- Prediction ID: 2dacd987cdbdfbc80910
-
 ### PFC Cherno More Varna vs PFC Lokomotiv Plovdiv
 
 - Date/time: 2026-05-12 14:45
@@ -78,22 +61,22 @@ No qualifying candidate bets today.
 - Paper score: 0.0706
 - Prediction ID: fb5291022f6d38baa0d3
 
-### El Gouna FC vs Kahrabaa Ismailia
+### URA FC vs Calvary
 
 - Date/time: 2026-05-12 14:00
-- League/phase: egypt-premier-league / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 3.2
-- Fair odds: 2.87
-- Model probability: 0.3488
+- League/phase: uganda-premier-league / automatic_forward_price_proxy
+- Selection: DRAW
+- Market odds: 4.5
+- Fair odds: 3.65
+- Model probability: 0.274
 - Probability band: 0.00-0.35
-- EV: 0.1162
-- Probability edge: 0.0363
-- Alignment penalty: 0.1162
+- EV: 0.233
+- Probability edge: 0.0518
+- Alignment penalty: 0.233
 - Suppression action: proxy_suppressed_band_observe_only
 - Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.0701
-- Prediction ID: dd1cc38b0a82c5f95154
+- Paper score: 0.0693
+- Prediction ID: 68a3b292d3d8f6c8abcf
 
 ### Hellenic Athletic Club vs Darwin Hearts FC
 
@@ -112,22 +95,39 @@ No qualifying candidate bets today.
 - Paper score: 0.0693
 - Prediction ID: de3d070ab1a07787588d
 
-### URA FC vs Calvary
+### Gwangju FC vs FC Seoul
 
-- Date/time: 2026-05-12 14:00
-- League/phase: uganda-premier-league / automatic_forward_price_proxy
+- Date/time: 2026-05-12 10:30
+- League/phase: republic-of-korea-k-league-1 / automatic_forward_price_proxy
 - Selection: DRAW
-- Market odds: 4.5
+- Market odds: 4.2
 - Fair odds: 3.65
 - Model probability: 0.274
 - Probability band: 0.00-0.35
-- EV: 0.233
-- Probability edge: 0.0518
-- Alignment penalty: 0.233
+- EV: 0.1508
+- Probability edge: 0.0359
+- Alignment penalty: 0.1508
 - Suppression action: proxy_suppressed_band_observe_only
 - Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.0693
-- Prediction ID: 68a3b292d3d8f6c8abcf
+- Paper score: 0.0684
+- Prediction ID: d27355bf775167c01512
+
+### AL Faisaly (Jor) vs Ramtha SC
+
+- Date/time: 2026-05-12 15:00
+- League/phase: jordan-jordan-cup / automatic_forward_price_proxy
+- Selection: DRAW
+- Market odds: 3.8
+- Fair odds: 3.65
+- Model probability: 0.274
+- Probability band: 0.00-0.35
+- EV: 0.0412
+- Probability edge: 0.0108
+- Alignment penalty: 0.0412
+- Suppression action: proxy_suppressed_band_observe_only
+- Paper tier: suppressed_band_proxy_observation
+- Paper score: 0.067
+- Prediction ID: 963ccde4496269c4b339
 
 ## Snapshot summary
 

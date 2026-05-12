@@ -6,8 +6,8 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 ## Kort status
 
 - Aktuelle viste paper picks: **7**
-- Unikke loggede paper picks: **24**
-- Afventer i loggen: **21**
+- Unikke loggede paper picks: **25**
+- Afventer i loggen: **22**
 - Afgjorte fundet i settled-filen: **210**
 - Skjulte U-/reserve-rækker: **5**
 - Vundne: **70**
@@ -15,15 +15,6 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Samlet ROI i units: **-3.45**
 
 ## Aktuelle paper picks
-
-### Sur SC vs Al-Khaboora
-- Dato: **2026-05-12**
-- Kampstart: **13:50**
-- Spil: **Udebanesejr**
-- Odds: **4.33**
-- Status: **Afventer**
-- Type: **suppressed_band_proxy_observation**
-- Note: **suppressed_band_proxy_observation_not_real_money**
 
 ### PFC Cherno More Varna vs PFC Lokomotiv Plovdiv
 - Dato: **2026-05-12**
@@ -52,11 +43,11 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **suppressed_band_proxy_observation**
 - Note: **suppressed_band_proxy_observation_not_real_money**
 
-### El Gouna FC vs Kahrabaa Ismailia
+### URA FC vs Calvary
 - Dato: **2026-05-12**
 - Kampstart: **14:00**
-- Spil: **Udebanesejr**
-- Odds: **3.20**
+- Spil: **Uafgjort**
+- Odds: **4.50**
 - Status: **Afventer**
 - Type: **suppressed_band_proxy_observation**
 - Note: **suppressed_band_proxy_observation_not_real_money**
@@ -70,11 +61,20 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **suppressed_band_proxy_observation**
 - Note: **suppressed_band_proxy_observation_not_real_money**
 
-### URA FC vs Calvary
+### Gwangju FC vs FC Seoul
 - Dato: **2026-05-12**
-- Kampstart: **14:00**
+- Kampstart: **10:30**
 - Spil: **Uafgjort**
-- Odds: **4.50**
+- Odds: **4.20**
+- Status: **Afventer**
+- Type: **suppressed_band_proxy_observation**
+- Note: **suppressed_band_proxy_observation_not_real_money**
+
+### AL Faisaly (Jor) vs Ramtha SC
+- Dato: **2026-05-12**
+- Kampstart: **15:00**
+- Spil: **Uafgjort**
+- Odds: **3.80**
 - Status: **Afventer**
 - Type: **suppressed_band_proxy_observation**
 - Note: **suppressed_band_proxy_observation_not_real_money**
@@ -374,6 +374,7 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - **2026-05-12 kl. 14:00** – URA FC vs Calvary – Uafgjort @ 4.50
 - **2026-05-12 kl. 10:30** – Gwangju FC vs FC Seoul – Uafgjort @ 4.20
 - **2026-05-12 kl. 10:30** – Incheon United FC vs FC Pohang Steelers – Udebanesejr @ 2.88
+- **2026-05-12 kl. 15:00** – AL Faisaly (Jor) vs Ramtha SC – Uafgjort @ 3.80
 
 ## Hvad betyder det?
 

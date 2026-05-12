@@ -10,10 +10,10 @@ Events discovery rows: 162
 Search fallback used: False
 Search queries used: nan
 Multi-odds attempted: True
-Raw price rows before quality filter: 30
-Accepted price rows after quality filter: 22
+Raw price rows before quality filter: 27
+Accepted price rows after quality filter: 19
 Rejected price rows after quality filter: 8
-Latest rate-limit remaining: 38
+Latest rate-limit remaining: 30
 
 ## By discovery source
 

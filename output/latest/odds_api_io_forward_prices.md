@@ -39,7 +39,7 @@ Errors/status rows: 20
 
 Header rows captured: 3
 Latest x-ratelimit-limit: 100
-Latest x-ratelimit-remaining: 38
+Latest x-ratelimit-remaining: 30
 Latest x-ratelimit-reset: 2026-05-12T07:49:01Z
 Latest retry-after: None
 
@@ -52,7 +52,7 @@ Latest retry-after: None
 - 2026-05-12 10:30 | Gold Coast Knights vs Gold Coast United FC | odds_api_io_Bet365_ML | 1.062/11.0/26.0
 - 2026-05-12 10:30 | Gwangju FC vs FC Seoul | odds_api_io_Bet365_ML | 8.0/4.2/1.38
 - 2026-05-12 10:30 | Hellenic Athletic Club vs Darwin Hearts FC | odds_api_io_Bet365_ML | 4.1/4.5/1.55
-- 2026-05-12 10:30 | Incheon United FC vs FC Pohang Steelers | odds_api_io_Bet365_ML | 2.625/2.9/2.7
+- 2026-05-12 10:30 | Incheon United FC vs FC Pohang Steelers | odds_api_io_Bet365_ML | 2.7/2.875/2.7
 
 ## Event selection diagnostics
 

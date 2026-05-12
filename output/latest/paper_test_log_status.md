@@ -1,17 +1,16 @@
 # Paper Test Log Status
 
-Raw log rows: 49
-Valid forward/proxy log rows: 46
-Deduped forward/proxy observation rows: 25
+Raw log rows: 50
+Valid forward/proxy log rows: 47
+Deduped forward/proxy observation rows: 26
 Duplicate forward/proxy log rows: 21
-Valid automatic proxy observation rows: 46
-Deduped automatic proxy observation rows: 25
+Valid automatic proxy observation rows: 47
+Deduped automatic proxy observation rows: 26
 Invalid historical/proxy log rows excluded: 3
 Has valid forward log: True
 
 ## Deduped valid rows
 
-- 2026-05-11 | Huesca vs Sociedad B | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.134
 - 2026-05-11 | Tottenham vs Leeds | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.1313
 - 2026-05-12 | Canberra White Eagles FC vs Queanbeyan City FC | selection=draw | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.12860000000000002
 - 2026-05-12 | Sunshine Coast Wanderers FC vs Eastern Suburbs FC | selection=draw | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.12860000000000002
@@ -31,10 +30,10 @@ Has valid forward log: True
 - 2026-05-12 | Gwangju FC vs FC Seoul | selection=draw | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.0684
 - 2026-05-12 | Incheon United FC vs FC Pohang Steelers | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.06810000000000001
 - 2026-05-12 | Cerro Porteno Asuncion vs Guarani Asuncion | selection=draw | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.067
+- 2026-05-12 | AL Faisaly (Jor) vs Ramtha SC | selection=draw | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.067
 
 ## Raw valid rows
 
-- 2026-05-12 | Hellenic Athletic Club vs Darwin Hearts FC | selection=draw | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
 - 2026-05-12 | Gwangju FC vs FC Seoul | selection=draw | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
 - 2026-05-12 | Incheon United FC vs FC Pohang Steelers | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
 - 2026-05-12 | Cerro Porteno Asuncion vs Guarani Asuncion | selection=draw | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
@@ -54,6 +53,7 @@ Has valid forward log: True
 - 2026-05-12 | El Gouna FC vs Kahrabaa Ismailia | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
 - 2026-05-12 | Hellenic Athletic Club vs Darwin Hearts FC | selection=draw | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
 - 2026-05-12 | URA FC vs Calvary | selection=draw | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
+- 2026-05-12 | AL Faisaly (Jor) vs Ramtha SC | selection=draw | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
 
 ## Invalid rows excluded
 

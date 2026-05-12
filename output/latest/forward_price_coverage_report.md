@@ -4,13 +4,13 @@ Measures automatic price coverage for forward predictions.
 Fresh API price means odds-api.io or API-Football. This is still paper/proxy-only and not real-money ready.
 
 Forward prediction rows: 160
-Automatic price rows: 22
-Value snapshot rows: 66
-Matches with any automatic price: 22
-Matches with fresh API price: 22
-Matches with odds-api.io price: 22
-Fresh API match coverage rate: 0.1375
-odds-api.io match coverage rate: 0.1375
+Automatic price rows: 19
+Value snapshot rows: 57
+Matches with any automatic price: 19
+Matches with fresh API price: 19
+Matches with odds-api.io price: 19
+Fresh API match coverage rate: 0.1187
+odds-api.io match coverage rate: 0.1187
 Real-money ready: False
 
 ## Match coverage
@@ -34,10 +34,10 @@ Real-money ready: False
 - 2026-05-12 | Deportivo Maldonado Reserve vs Racing Club Montevideo | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-12 | Namdhari FC vs Gokulam Kerala FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
 - 2026-05-12 | TRA United vs Jkt Tanzania | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-12 | Sur SC vs Al-Khaboora | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-12 | El Gouna FC vs Kahrabaa Ismailia | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-12 | Sur SC vs Al-Khaboora | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-12 | El Gouna FC vs Kahrabaa Ismailia | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-12 | FC Inter Turku vs JS Hercules | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-12 | Mohun Bagan Super Giant vs Inter Kashi FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-12 | Mohun Bagan Super Giant vs Inter Kashi FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-12 | Pharco FC vs Modern Sport FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
 - 2026-05-12 | URA FC vs Calvary | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
 - 2026-05-12 | AL Ittihad Kalba vs AL Nasr | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
@@ -179,4 +179,4 @@ Real-money ready: False
 ## Source summary
 
 - odds_api_io_Bet365_ML | free_api_market_proxy | rows=8
-- odds_api_io_Bet365_ML | free_api_market_proxy | rows=14
+- odds_api_io_Bet365_ML | free_api_market_proxy | rows=11

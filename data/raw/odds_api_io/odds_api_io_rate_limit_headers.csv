@@ -1,4 +1,4 @@
 captured_at_utc,label,status_code,x_ratelimit_limit,x_ratelimit_remaining,x_ratelimit_reset,retry_after
-2026-05-12T07:27:35.382924+00:00,events_bookmaker_filtered_1,200,100,40,2026-05-12T07:49:01Z,
-2026-05-12T07:27:35.767955+00:00,events_bookmaker_filtered_2,200,100,39,2026-05-12T07:49:01Z,
-2026-05-12T07:27:37.032871+00:00,odds_multi,200,100,38,2026-05-12T07:49:01Z,
+2026-05-12T07:29:50.098578+00:00,events_bookmaker_filtered_1,200,100,32,2026-05-12T07:49:01Z,
+2026-05-12T07:29:50.256755+00:00,events_bookmaker_filtered_2,200,100,31,2026-05-12T07:49:01Z,
+2026-05-12T07:29:50.932048+00:00,odds_multi,200,100,30,2026-05-12T07:49:01Z,
