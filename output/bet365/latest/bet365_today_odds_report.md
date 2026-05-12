@@ -1,0 +1,772 @@
+# Bet365 odds i dag
+
+- Dato: **2026-05-12**
+- Sport: **football**
+- Bookmaker: **Bet365**
+- Kampe med odds: **30**
+- Markedsrækker: **2537**
+
+## Markeder fundet
+
+- Correct Score: 623
+- Alternative Goal Line: 245
+- Alternative Asian Handicap: 239
+- Team Goalscorer: 114
+- Multi Scorers: 110
+- Alternative Corners: 107
+- Exact Total Goals: 104
+- Double Chance: 90
+- Half Time Result: 90
+- Alternative Total Goals: 86
+- Team Total Goals Home: 70
+- Team Total Goals Away: 60
+- Anytime Goalscorer: 55
+- European Handicap: 52
+- Total Corners: 45
+- Number of Goals In Match: 39
+- Draw No Bet: 30
+- Goals Over/Under: 30
+- ML: 30
+- Spread: 30
+- Spread HT: 30
+- Totals: 30
+- Totals HT: 29
+- 1st Half Handicap: 26
+- Specials: 26
+- Corners: 18
+- Corners 2-Way: 18
+- Corners Totals: 18
+- Corners Totals HT: 18
+- Both Teams To Score: 13
+- Both Teams To Score 2H: 13
+- Both Teams To Score HT: 13
+- Corners Race: 12
+- Corner Handicap: 6
+- First 10 Minutes (00:00 - 09:59): 6
+- Corners Spread: 3
+- Team Corners Away: 3
+- Team Corners Home: 3
+- Method of Victory: 2
+- 1st Half Goal Line: 1
+
+## Kampe
+
+### Gwelup Croatia SC Reserves vs Cockburn City SC Reserves
+- Kampstart: **2026-05-12 13:00**
+- Liga: **Australia - Western Australia State League 1, Reserves**
+- **ML** - H: 1.450 | X: 4.500 | A: 4.750
+- **Draw No Bet** - H: 1.250 | A: 3.750
+- **Double Chance** - Gwelup Croatia SC Reserves or Draw: Under: 1.125
+- **Double Chance** - Draw or Cockburn City Reserves: Under: 2.400
+- **Double Chance** - Gwelup Croatia SC Reserves or Cockburn City Reserves: Under: 1.125
+- **Spread** - H: 1.925 | A: 1.875
+- **Totals** - Over: 1.925 | Under: 1.875
+- **Goals Over/Under** - Over: 1.200 | Under: 4.333
+- **Spread HT** - H: 1.900 | A: 1.900
+- **Totals HT** - Over: 1.850 | Under: 1.950
+- **Corners Totals** - Over: 1.975 | Under: 1.825
+- **Corners Totals HT** - Over: 1.825 | Under: 1.975
+- **Correct Score** - 0-0: {"label": "0-0", "odds": "34.000"}
+- **Correct Score** - 1-1: {"label": "1-1", "odds": "13.000"}
+- **Correct Score** - 3-2: {"label": "3-2", "odds": "15.000"}
+- **Correct Score** - 4-1: {"label": "4-1", "odds": "17.000"}
+- **Correct Score** - 4-2: {"label": "4-2", "odds": "21.000"}
+- **Correct Score** - 4-3: {"label": "4-3", "odds": "34.000"}
+- **Correct Score** - 5-2: {"label": "5-2", "odds": "34.000"}
+- **Correct Score** - 5-4: {"label": "5-4", "odds": "81.000"}
+
+### Singida Black Stars SC vs Namungo FC
+- Kampstart: **2026-05-12 13:00**
+- Liga: **Tanzania - Premier League**
+- **ML** - H: 1.420 | X: 3.800 | A: 6.500
+- **Draw No Bet** - H: 1.142 | A: 5.000
+- **Double Chance** - Singida Black Stars or Draw: Under: 1.055
+- **Double Chance** - Draw or Namungo FC: Under: 2.600
+- **Double Chance** - Singida Black Stars or Namungo FC: Under: 1.181
+- **Spread** - H: 1.800 | A: 2.000
+- **Totals** - Over: 1.975 | Under: 1.825
+- **Goals Over/Under** - Over: 2.100 | Under: 1.700
+- **Spread HT** - H: 2.000 | A: 1.800
+- **Totals HT** - Over: 2.025 | Under: 1.775
+- **Alternative Asian Handicap** - H: 6.800 | A: 1.105
+- **Alternative Asian Handicap** - H: 4.800 | A: 1.175
+- **Alternative Asian Handicap** - H: 3.900 | A: 1.240
+- **Alternative Asian Handicap** - H: 3.550 | A: 1.275
+- **Alternative Asian Handicap** - H: 3.300 | A: 1.325
+- **Alternative Asian Handicap** - H: 2.500 | A: 1.500
+- **Alternative Asian Handicap** - H: 2.200 | A: 1.650
+- **Alternative Asian Handicap** - H: 1.700 | A: 2.100
+- **Alternative Asian Handicap** - H: 1.525 | A: 2.425
+- **Alternative Asian Handicap** - H: 1.425 | A: 2.750
+
+### Murdoch University Melville FC Reserves vs Joondalup City FC Reserve
+- Kampstart: **2026-05-12 13:15**
+- Liga: **Australia - Western Australia State League 1, Reserves**
+- **ML** - H: 2.400 | X: 4.333 | A: 2.150
+- **Draw No Bet** - H: 2.000 | A: 1.727
+- **Double Chance** - Murdoch University Melville FC Reserves or Draw: Under: 1.571
+- **Double Chance** - Draw or Joondalup City Reserves: Under: 1.444
+- **Double Chance** - Murdoch University Melville FC Reserves or Joondalup City Reserves: Under: 1.142
+- **Spread** - H: 1.900 | A: N/A
+- **Totals** - Over: 2.000 | Under: 1.800
+- **Goals Over/Under** - Over: 1.285 | Under: 3.500
+- **Spread HT** - H: 2.000 | A: 1.800
+- **Corners Totals** - Over: 1.925 | Under: 1.875
+- **Corners Totals HT** - Over: 1.825 | Under: 1.975
+- **Half Time Result** - 1: Under: 2.750
+- **Half Time Result** - Draw: Under: 2.875
+- **Half Time Result** - 2: Under: 2.500
+- **1st Half Goal Line** - Over: 1.800 | Under: 2.000
+- **Correct Score** - 0-0: {"label": "0-0", "odds": "34.000"}
+- **Correct Score** - 1-0: {"label": "1-0", "odds": "21.000"}
+- **Correct Score** - 1-1: {"label": "1-1", "odds": "11.000"}
+- **Correct Score** - 2-0: {"label": "2-0", "odds": "21.000"}
+- **Correct Score** - 2-1: {"label": "2-1", "odds": "13.000"}
+
+### Fardu Ferghana vs Xorazm Fk Urganch
+- Kampstart: **2026-05-12 14:00**
+- Liga: **Uzbekistan - Cup**
+- **ML** - H: 2.400 | X: 3.200 | A: 2.625
+- **Draw No Bet** - H: 1.833 | A: 1.833
+- **Double Chance** - Fardu Ferghana or Draw: Under: 1.444
+- **Double Chance** - Draw or Xorazm FK Urganch: Under: 1.444
+- **Double Chance** - Fardu Ferghana or Xorazm FK Urganch: Under: 1.285
+- **Spread** - H: 1.775 | A: N/A
+- **Totals** - Over: 1.825 | Under: 1.975
+- **Goals Over/Under** - Over: 1.650 | Under: 2.200
+- **Spread HT** - H: 1.900 | A: 1.900
+- **Totals HT** - Over: 2.025 | Under: 1.775
+- **Correct Score** - 0-0: {"label": "0-0", "odds": "12.000"}
+- **Correct Score** - 1-0: {"label": "1-0", "odds": "12.000"}
+- **Correct Score** - 1-1: {"label": "1-1", "odds": "7.000"}
+- **Correct Score** - 2-0: {"label": "2-0", "odds": "15.000"}
+- **Correct Score** - 2-1: {"label": "2-1", "odds": "12.000"}
+- **Correct Score** - 2-2: {"label": "2-2", "odds": "12.000"}
+- **Correct Score** - 3-0: {"label": "3-0", "odds": "23.000"}
+- **Correct Score** - 3-1: {"label": "3-1", "odds": "21.000"}
+- **Correct Score** - 3-2: {"label": "3-2", "odds": "26.000"}
+- **Correct Score** - 3-3: {"label": "3-3", "odds": "34.000"}
+
+### Namdhari FC vs Gokulam Kerala FC
+- Kampstart: **2026-05-12 15:00**
+- Liga: **India - I-League**
+- **ML** - H: 2.625 | X: 3.400 | A: 2.300
+- **Draw No Bet** - H: 2.000 | A: 1.727
+- **Double Chance** - Namdhari FC or Draw: Under: 1.500
+- **Double Chance** - Draw or Gokulam FC: Under: 1.400
+- **Double Chance** - Namdhari FC or Gokulam FC: Under: 1.250
+- **Spread** - H: 2.025 | A: N/A
+- **Totals** - Over: 1.800 | Under: 2.000
+- **Goals Over/Under** - Over: 1.650 | Under: 2.200
+- **Both Teams To Score** - Yes: 1.571 | No: 2.250
+- **Spread HT** - H: 2.000 | A: 1.800
+- **Totals HT** - Over: 2.025 | Under: 1.775
+- **European Handicap** - H: 1.500
+- **European Handicap** - X: 4.333 | A: 4.333
+- **Alternative Total Goals** - Over: 1.010 | Under: 15.000
+- **Alternative Total Goals** - Over: 1.200 | Under: 4.333
+- **Alternative Total Goals** - Over: 2.500 | Under: 1.500
+- **Alternative Total Goals** - Over: 4.500 | Under: 1.166
+- **Alternative Total Goals** - Over: 8.000 | Under: 1.062
+- **Alternative Total Goals** - Over: 11.000 | Under: 1.020
+- **Alternative Total Goals** - Over: 17.000 | Under: 1.005
+
+### Deportivo Maldonado Reserve vs Racing Club Montevideo
+- Kampstart: **2026-05-12 15:00**
+- Liga: **Uruguay - Tercera Division, Reserves**
+- **ML** - H: 2.450 | X: 3.250 | A: 2.550
+- **Draw No Bet** - H: 1.800 | A: 1.909
+- **Double Chance** - Deportivo Maldonado Reserves or Racing Club de Montevideo Reserves: Under: 1.250
+- **Double Chance** - Deportivo Maldonado Reserves or Draw: Under: 1.444
+- **Double Chance** - Draw or Racing Club de Montevideo Reserves: Under: 1.400
+- **Spread** - H: 1.850 | A: N/A
+- **Totals** - Over: 1.825 | Under: 1.975
+- **Goals Over/Under** - Over: 1.850 | Under: 1.950
+- **Spread HT** - H: 2.000 | A: 1.800
+- **Totals HT** - Over: 1.775 | Under: 2.025
+- **Correct Score** - 0-0: {"label": "0-0", "odds": "10.000"}
+- **Correct Score** - 1-0: {"label": "1-0", "odds": "9.500"}
+- **Correct Score** - 2-0: {"label": "2-0", "odds": "13.000"}
+- **Correct Score** - 2-1: {"label": "2-1", "odds": "11.000"}
+- **Correct Score** - 3-0: {"label": "3-0", "odds": "21.000"}
+- **Correct Score** - 5-0: {"label": "5-0", "odds": "67.000"}
+- **Correct Score** - 5-1: {"label": "5-1", "odds": "67.000"}
+- **Correct Score** - 2-2: {"label": "2-2", "odds": "13.000"}
+- **Correct Score** - 3-1: {"label": "3-1", "odds": "21.000"}
+- **Correct Score** - 3-2: {"label": "3-2", "odds": "29.000"}
+
+### FC Epitsentr Kamianets-Podilskyi vs FC Polissya Zhytomyr
+- Kampstart: **2026-05-12 14:30**
+- Liga: **Ukraine - Premier League**
+- **ML** - H: 6.250 | X: 3.600 | A: 1.480
+- **Draw No Bet** - H: 4.500 | A: 1.166
+- **Double Chance** - Epitsentr Kamianets-Podilskyi or Draw: Under: 2.400
+- **Double Chance** - Draw or Polissya Zhytomyr: Under: 1.083
+- **Double Chance** - Epitsentr Kamianets-Podilskyi or Polissya Zhytomyr: Under: 1.222
+- **Spread** - H: 1.900 | A: 1.900
+- **Totals** - Over: 1.900 | Under: 1.900
+- **Goals Over/Under** - Over: 2.075 | Under: 1.727
+- **Both Teams To Score** - Yes: 2.200 | No: 1.615
+- **Spread HT** - H: 1.800 | A: 2.000
+- **Totals HT** - Over: 2.050 | Under: 1.750
+- **European Handicap** - H: 15.000
+- **European Handicap** - X: 7.500 | A: 1.083
+- **Corners Totals** - Over: 1.925 | Under: 1.875
+- **Corners Totals HT** - Over: 1.975 | Under: 1.825
+- **1st Half Handicap** - 1 (1): H: 1.727
+- **1st Half Handicap** - Tie (-1): A: 5.500
+- **Number of Goals In Match** - Over 3 goals: Over: 3.400
+- **Number of Goals In Match** - Under 2 goals: Under: 3.400
+- **Number of Goals In Match** - 2 or 3 goals: Under: 1.952
+
+### TRA United vs Jkt Tanzania
+- Kampstart: **2026-05-12 15:15**
+- Liga: **Tanzania - Premier League**
+- **ML** - H: 2.050 | X: 2.900 | A: 3.500
+- **Draw No Bet** - H: 1.500 | A: 2.500
+- **Double Chance** - TRA United or Draw: Under: 1.222
+- **Double Chance** - Draw or JKT Tanzania: Under: 1.615
+- **Double Chance** - TRA United or JKT Tanzania: Under: 1.300
+- **Spread** - H: 1.825 | A: 1.975
+- **Totals** - Over: 1.800 | Under: 2.000
+- **Goals Over/Under** - Over: 2.375 | Under: 1.533
+- **Spread HT** - H: 2.250 | A: 1.625
+- **Totals HT** - Over: 1.750 | Under: 2.050
+- **Alternative Asian Handicap** - H: 5.250 | A: 1.160
+- **Alternative Asian Handicap** - H: 4.000 | A: 1.230
+- **Alternative Asian Handicap** - H: 3.550 | A: 1.275
+- **Alternative Asian Handicap** - H: 3.300 | A: 6.600
+- **Alternative Asian Handicap** - H: 2.425 | A: 4.400
+- **Alternative Asian Handicap** - H: 2.100 | A: 3.450
+- **Alternative Asian Handicap** - H: 1.525 | A: 2.425
+- **Alternative Asian Handicap** - H: 1.375 | A: 3.000
+- **Alternative Asian Handicap** - H: 1.300 | A: 1.700
+- **Alternative Asian Handicap** - H: 1.200 | A: 1.525
+
+### Sur SC vs Al-Khaboora
+- Kampstart: **2026-05-12 15:50**
+- Liga: **Oman - Omani League**
+- **ML** - H: 1.950 | X: 2.875 | A: 4.000
+- **Draw No Bet** - H: 1.363 | A: 3.000
+- **Double Chance** - Sur SC or Draw: Under: 1.166
+- **Double Chance** - Draw or Al Khaburah: Under: 1.700
+- **Double Chance** - Sur SC or Al Khaburah: Under: 1.333
+- **Spread** - H: 2.000 | A: 1.800
+- **Totals** - Over: 1.850 | Under: 1.950
+- **Goals Over/Under** - Over: 2.500 | Under: 1.500
+- **Both Teams To Score** - Yes: 2.200 | No: 1.615
+- **Spread HT** - H: 2.100 | A: 1.700
+- **Totals HT** - Over: 1.800 | Under: 2.000
+- **European Handicap** - H: 3.750
+- **European Handicap** - X: 3.600 | A: 1.700
+- **European Handicap** - H: 23.000
+- **European Handicap** - H: 8.500 | X: 13.000 | A: 29.000
+- **European Handicap** - H: 1.045 | X: 5.500 | A: 1.222
+- **European Handicap** - X: 13.000 | A: 1.055
+- **Alternative Goal Line** - Over: 3.000 | Under: 1.375
+- **Alternative Goal Line** - Over: 1.475 | Under: 2.600
+- **Alternative Goal Line** - Over: 1.625 | Under: 2.250
+
+### Mohun Bagan Super Giant vs Inter Kashi FC
+- Kampstart: **2026-05-12 16:00**
+- Liga: **India - Indian Super League**
+- **ML** - H: 1.166 | X: 6.250 | A: 13.000
+- **Draw No Bet** - H: 1.050 | A: 11.000
+- **Double Chance** - Mohun Bagan SG or Draw: Under: 1.025
+- **Double Chance** - Draw or Inter Kashi FC: Under: 5.000
+- **Double Chance** - Mohun Bagan SG or Inter Kashi FC: Under: 1.100
+- **Spread** - H: 1.825 | A: 1.975
+- **Totals** - Over: 1.900 | Under: 1.900
+- **Goals Over/Under** - Over: 1.475 | Under: 2.600
+- **Both Teams To Score** - Yes: 2.100 | No: 1.666
+- **Spread HT** - H: 1.725 | A: 2.075
+- **Totals HT** - Over: 1.750 | Under: 2.050
+- **European Handicap** - H: 4.000
+- **European Handicap** - X: 7.000 | A: 1.222
+- **Correct Score** - 1-1: {"label": "1-1", "odds": "13.000"}
+- **Correct Score** - 3-3: {"label": "3-3", "odds": "81.000"}
+- **Correct Score** - 6-0: {"label": "6-0", "odds": "29.000"}
+- **Correct Score** - 3-2: {"label": "3-2", "odds": "29.000"}
+- **Correct Score** - 5-0: {"label": "5-0", "odds": "17.000"}
+- **Correct Score** - 1-0: {"label": "1-0", "odds": "8.500"}
+- **Correct Score** - 2-1: {"label": "2-1", "odds": "10.000"}
+
+### PFC Cherno More Varna vs PFC Lokomotiv Plovdiv
+- Kampstart: **2026-05-12 16:45**
+- Liga: **Bulgaria - Parva Liga**
+- **ML** - H: 2.000 | X: 3.200 | A: 4.000
+- **Draw No Bet** - H: 1.363 | A: 3.000
+- **Double Chance** - Cherno More Varna or Draw: Under: 1.222
+- **Double Chance** - Draw or Lokomotiv Plovdiv: Under: 1.800
+- **Double Chance** - Cherno More Varna or Lokomotiv Plovdiv: Under: 1.363
+- **Spread** - H: 2.000 | A: 1.800
+- **Totals** - Over: 1.775 | Under: 2.025
+- **Goals Over/Under** - Over: 2.350 | Under: 1.571
+- **Both Teams To Score** - Yes: 2.100 | No: 1.666
+- **Spread HT** - H: 2.075 | A: 1.725
+- **Totals HT** - Over: 1.725 | Under: 2.075
+- **European Handicap** - H: 4.000
+- **European Handicap** - X: 3.600 | A: 1.800
+- **European Handicap** - H: 21.000
+- **Corners Totals** - Over: 1.825 | Under: 1.975
+- **Corners Totals HT** - Over: 1.750 | Under: 2.050
+- **Anytime Goalscorer** - Nikolay Zlatev: Over: 3.600
+- **Anytime Goalscorer** - Axel Velev: Over: 4.333
+- **Anytime Goalscorer** - Andreas Calcan: Over: 5.000
+- **Anytime Goalscorer** - Julien Lamy: Over: 5.500
+
+### AL Faisaly (Jor) vs Ramtha SC
+- Kampstart: **2026-05-12 17:00**
+- Liga: **Jordan - Jordan Cup**
+- **ML** - H: 1.600 | X: 3.800 | A: 4.500
+- **Draw No Bet** - H: 1.285 | A: 3.500
+- **Double Chance** - Al Faisaly Amman or Draw: Under: 1.125
+- **Double Chance** - Draw or Ramtha SC: Under: 2.150
+- **Double Chance** - Al Faisaly Amman or Ramtha SC: Under: 1.181
+- **Spread** - H: 1.825 | A: 1.975
+- **Totals** - Over: 2.000 | Under: 1.800
+- **Goals Over/Under** - Over: 1.800 | Under: 2.000
+- **Both Teams To Score** - Yes: 1.833 | No: 1.833
+- **Spread HT** - H: 1.775 | A: 2.025
+- **Totals HT** - Over: 1.725 | Under: 2.075
+- **European Handicap** - H: 2.600
+- **European Handicap** - X: 3.750 | A: 2.150
+- **Corners Totals** - Over: 2.000 | Under: 1.800
+- **Corners Totals HT** - Over: 2.050 | Under: 1.750
+- **Number of Goals In Match** - Under 2 goals: Under: 3.750
+- **Number of Goals In Match** - Over 3 goals: Over: 3.000
+- **Number of Goals In Match** - 2 or 3 goals: Under: 2.000
+- **Alternative Corners** - Over: 8.000 | Under: 1.166
+- **Alternative Corners** - Over: 11.000 | Under: 1.083
+
+### El Gouna FC vs Kahrabaa Ismailia
+- Kampstart: **2026-05-12 16:00**
+- Liga: **Egypt - Premier League**
+- **ML** - H: 2.375 | X: 2.625 | A: 3.100
+- **Draw No Bet** - H: 1.571 | A: 2.250
+- **Double Chance** - El Gounah or Draw: Under: 1.250
+- **Double Chance** - Draw or Kahraba Ismailia: Under: 1.550
+- **Double Chance** - El Gounah or Kahraba Ismailia: Under: 1.363
+- **Spread** - H: 2.050 | A: 1.750
+- **Totals** - Over: 1.800 | Under: 2.000
+- **Goals Over/Under** - Over: 2.375 | Under: 1.533
+- **Both Teams To Score** - Yes: 2.100 | No: 1.666
+- **Spread HT** - H: 1.725 | A: 2.075
+- **Totals HT** - Over: 1.800 | Under: 2.000
+- **European Handicap** - H: 29.000
+- **European Handicap** - H: 11.000 | X: 11.000 | A: 21.000
+- **European Handicap** - H: 1.285
+- **European Handicap** - H: 1.071 | X: 7.000 | A: 1.142
+- **European Handicap** - X: 17.000 | A: 1.040
+- **European Handicap** - X: 4.750 | A: 7.500
+- **Corners Totals** - Over: 1.850 | Under: 1.950
+- **Corners Totals HT** - Over: 1.975 | Under: 1.825
+- **Number of Goals In Match** - 2 or 3 goals: Under: 2.000
+
+### Pharco FC vs Modern Sport FC
+- Kampstart: **2026-05-12 16:00**
+- Liga: **Egypt - Premier League**
+- **ML** - H: 3.300 | X: 2.625 | A: 2.300
+- **Draw No Bet** - H: 2.250 | A: 1.571
+- **Double Chance** - Pharco FC or Draw: Under: 1.500
+- **Double Chance** - Draw or Modern Sport FC: Under: 1.250
+- **Double Chance** - Pharco FC or Modern Sport FC: Under: 1.400
+- **Spread** - H: 1.800 | A: 2.000
+- **Totals** - Over: 1.750 | Under: 2.050
+- **Goals Over/Under** - Over: 2.750 | Under: 1.400
+- **Both Teams To Score** - Yes: 2.250 | No: 1.571
+- **Spread HT** - H: 2.150 | A: 1.675
+- **Totals HT** - Over: 1.900 | Under: 1.900
+- **European Handicap** - H: 8.000
+- **European Handicap** - H: 1.035
+- **European Handicap** - X: 4.750 | A: 1.250
+- **European Handicap** - X: 17.000 | A: 34.000
+- **Corners Totals** - Over: 1.900 | Under: 1.900
+- **Corners Totals HT** - Over: 1.800 | Under: 2.000
+- **Number of Goals In Match** - Under 2 goals: Under: 2.375
+- **Number of Goals In Match** - 2 or 3 goals: Under: 2.000
+- **Number of Goals In Match** - Over 3 goals: Over: 5.000
+
+### URA FC vs Calvary
+- Kampstart: **2026-05-12 16:00**
+- Liga: **Uganda - Premier League**
+- **ML** - H: 1.333 | X: 4.500 | A: 7.500
+- **Draw No Bet** - H: 1.111 | A: 6.000
+- **Double Chance** - URA or Draw: Under: 1.055
+- **Double Chance** - Draw or Calvary FC Midigo: Under: 2.875
+- **Double Chance** - URA or Calvary FC Midigo: Under: 1.125
+- **Spread** - H: 2.000 | A: 1.800
+- **Totals** - Over: 1.975 | Under: 1.825
+- **Goals Over/Under** - Over: 2.000 | Under: 1.800
+- **Spread HT** - H: 1.850 | A: 1.950
+- **Totals HT** - Over: 1.925 | Under: 1.875
+- **Alternative Goal Line** - Over: 1.200 | Under: 4.400
+- **Alternative Goal Line** - Over: 1.325 | Under: 3.300
+- **Alternative Goal Line** - Over: 1.400 | Under: 2.850
+- **Alternative Goal Line** - Over: 1.500 | Under: 2.500
+- **Alternative Goal Line** - Over: 1.725 | Under: 2.075
+- **Alternative Goal Line** - Over: 2.200 | Under: 1.650
+- **Alternative Goal Line** - Over: 2.675 | Under: 1.450
+- **Alternative Goal Line** - Over: 3.000 | Under: 1.375
+- **Alternative Goal Line** - Over: 3.300 | Under: 1.325
+- **Alternative Goal Line** - Over: 4.000 | Under: 1.230
+
+### FC Inter Turku vs JS Hercules
+- Kampstart: **2026-05-12 16:00**
+- Liga: **Finland - Suomen Cup**
+- **ML** - H: 1.015 | X: 19.000 | A: 34.000
+- **Draw No Bet** - H: 1.002 | A: 21.000
+- **Double Chance** - FC Inter or Draw: Under: 1.001
+- **Double Chance** - Draw or JS Hercules: Under: 10.000
+- **Double Chance** - FC Inter or JS Hercules: Under: 1.010
+- **Spread** - H: 1.900 | A: 1.900
+- **Totals** - Over: 1.925 | Under: 1.875
+- **Goals Over/Under** - Over: 1.083 | Under: 7.000
+- **Spread HT** - H: 1.800 | A: 2.000
+- **Totals HT** - Over: 1.900 | Under: 1.900
+- **Corners Totals** - Over: 1.975 | Under: 1.825
+- **Corners Totals HT** - Over: 1.925 | Under: 1.875
+- **Corners 2-Way** - Over: 1.909 | Under: 1.800
+- **Correct Score** - 2-1: {"label": "2-1", "odds": "29.000"}
+- **Correct Score** - 3-1: {"label": "3-1", "odds": "19.000"}
+- **Correct Score** - 3-2: {"label": "3-2", "odds": "51.000"}
+- **Correct Score** - 3-3: {"label": "3-3", "odds": "151.000"}
+- **Correct Score** - 4-1: {"label": "4-1", "odds": "17.000"}
+- **Correct Score** - 4-2: {"label": "4-2", "odds": "51.000"}
+- **Correct Score** - 4-3: {"label": "4-3", "odds": "151.000"}
+
+### AL Wasl vs AL Jazira
+- Kampstart: **2026-05-12 16:10**
+- Liga: **United Arab Emirates - U23 Pro League**
+- **ML** - H: 2.100 | X: 3.600 | A: 2.900
+- **Draw No Bet** - H: 1.444 | A: 2.625
+- **Double Chance** - Al Wasl SC U23 or Draw: Under: 1.250
+- **Double Chance** - Draw or Al Jazira SC U23: Under: 1.800
+- **Double Chance** - Al Wasl SC U23 or Al Jazira SC U23: Under: 1.181
+- **Spread** - H: 1.900 | A: 1.900
+- **Totals** - Over: 1.825 | Under: 1.975
+- **Goals Over/Under** - Over: 1.533 | Under: 2.375
+- **Spread HT** - H: 2.050 | A: 1.750
+- **Totals HT** - Over: 1.875 | Under: 1.925
+- **Corners Totals** - Over: 1.950 | Under: 1.850
+- **Corners Totals HT** - Over: 2.050 | Under: 1.750
+- **Half Time Result** - 1: Under: 2.600
+- **Half Time Result** - Draw: Under: 2.400
+- **Half Time Result** - 2: Under: 3.200
+- **Corners** - Over: 1.833 | Under: 2.375
+- **Corners 2-Way** - Over: 1.833 | Under: 1.833
+- **Correct Score** - 3-2: {"label": "3-2", "odds": "21.000"}
+- **Correct Score** - 3-3: {"label": "3-3", "odds": "34.000"}
+- **Correct Score** - 4-3: {"label": "4-3", "odds": "51.000"}
+
+### MFK Chrudim vs FK Pribram
+- Kampstart: **2026-05-12 17:00**
+- Liga: **Czechia - FNL**
+- **ML** - H: 2.600 | X: 3.400 | A: 2.300
+- **Draw No Bet** - H: 2.000 | A: 1.727
+- **Double Chance** - MFK Chrudim or Draw: Under: 1.533
+- **Double Chance** - Draw or FK Pribram: Under: 1.444
+- **Double Chance** - MFK Chrudim or FK Pribram: Under: 1.285
+- **Spread** - H: 2.025 | A: N/A
+- **Totals** - Over: 1.950 | Under: 1.850
+- **Goals Over/Under** - Over: 1.571 | Under: 2.350
+- **Both Teams To Score** - Yes: 1.500 | No: 2.500
+- **Spread HT** - H: 2.000 | A: 1.800
+- **Totals HT** - Over: 1.975 | Under: 1.825
+- **European Handicap** - H: 5.000
+- **European Handicap** - X: 4.750 | A: 1.444
+- **Both Teams To Score HT** - Yes: 3.750 | No: 1.250
+- **Number of Goals In Match** - Under 2 goals: Under: 5.000
+- **Number of Goals In Match** - Over 3 goals: Over: 2.375
+- **Number of Goals In Match** - 2 or 3 goals: Under: 2.100
+- **Alternative Asian Handicap** - H: 6.800 | A: 5.750
+- **Alternative Asian Handicap** - H: 5.250 | A: 4.400
+- **Alternative Asian Handicap** - H: 4.650 | A: 3.900
+
+### JS Omrane vs Avenir S Marsa
+- Kampstart: **2026-05-12 17:00**
+- Liga: **Tunisia - Ligue 1**
+- **ML** - H: 2.150 | X: 2.800 | A: 3.500
+- **Draw No Bet** - H: 1.500 | A: 2.500
+- **Double Chance** - JS Omrane or Draw: Under: 1.166
+- **Double Chance** - Draw or AS Marsa: Under: 1.700
+- **Double Chance** - JS Omrane or AS Marsa: Under: 1.333
+- **Spread** - H: 1.850 | A: 1.950
+- **Totals** - Over: 1.750 | Under: 2.050
+- **Goals Over/Under** - Over: 2.750 | Under: 1.400
+- **Spread HT** - H: 1.600 | A: 2.300
+- **Totals HT** - Over: 1.950 | Under: 1.850
+- **Corners Totals** - Over: 2.000 | Under: 1.800
+- **Corners Totals HT** - Over: 1.850 | Under: 1.950
+- **Half Time Result** - Draw: Under: 1.833
+- **Half Time Result** - 1: Under: 2.750
+- **Half Time Result** - 2: Under: 4.750
+- **Correct Score** - 1-0: {"label": "1-0", "odds": "5.500"}
+- **Correct Score** - 2-1: {"label": "2-1", "odds": "12.000"}
+- **Correct Score** - 4-1: {"label": "4-1", "odds": "51.000"}
+- **Correct Score** - 3-1: {"label": "3-1", "odds": "26.000"}
+- **Correct Score** - 3-3: {"label": "3-3", "odds": "81.000"}
+
+### AL Ittihad Kalba vs AL Nasr
+- Kampstart: **2026-05-12 16:10**
+- Liga: **United Arab Emirates - U23 Pro League**
+- **ML** - H: 2.050 | X: 3.700 | A: 2.800
+- **Draw No Bet** - H: 1.444 | A: 2.625
+- **Double Chance** - Al Ittihad Kalba U23 or Draw: Under: 1.250
+- **Double Chance** - Draw or Al Nasr SC U23: Under: 1.800
+- **Double Chance** - Al Ittihad Kalba U23 or Al Nasr SC U23: Under: 1.222
+- **Spread** - H: 1.825 | A: 1.975
+- **Totals** - Over: 1.950 | Under: 1.850
+- **Goals Over/Under** - Over: 1.400 | Under: 2.750
+- **Spread HT** - H: 2.000 | A: 1.800
+- **Totals HT** - Over: 1.750 | Under: 2.050
+- **Correct Score** - 2-0: {"label": "2-0", "odds": "13.000"}
+- **Correct Score** - 3-1: {"label": "3-1", "odds": "15.000"}
+- **Correct Score** - 4-1: {"label": "4-1", "odds": "23.000"}
+- **Correct Score** - 2-1: {"label": "2-1", "odds": "10.000"}
+- **Correct Score** - 2-2: {"label": "2-2", "odds": "12.000"}
+- **Correct Score** - 3-3: {"label": "3-3", "odds": "29.000"}
+- **Correct Score** - 4-3: {"label": "4-3", "odds": "51.000"}
+- **Correct Score** - 5-0: {"label": "5-0", "odds": "41.000"}
+- **Correct Score** - 5-1: {"label": "5-1", "odds": "41.000"}
+- **Correct Score** - 5-2: {"label": "5-2", "odds": "51.000"}
+
+### Zaglebie Lubin II vs Mkp Carina Gubin
+- Kampstart: **2026-05-12 17:00**
+- Liga: **Poland - III Liga, Group 3**
+- **ML** - H: 1.666 | X: 4.200 | A: 3.600
+- **Draw No Bet** - H: 1.333 | A: 3.250
+- **Double Chance** - Zaglebie Lubin II or Draw: Under: 1.166
+- **Double Chance** - Draw or Carina Gubin: Under: 2.100
+- **Double Chance** - Zaglebie Lubin II or Carina Gubin: Under: 1.166
+- **Spread** - H: 1.875 | A: 1.925
+- **Totals** - Over: 1.900 | Under: 1.900
+- **Goals Over/Under** - Over: 1.444 | Under: 2.625
+- **Spread HT** - H: 1.800 | A: 2.000
+- **Totals HT** - Over: 1.775 | Under: 2.025
+- **Half Time Result** - Draw: Under: 2.600
+- **Half Time Result** - 2: Under: 4.000
+- **Half Time Result** - 1: Under: 2.100
+- **Alternative Goal Line** - Over: 1.140 | Under: 5.750
+- **Alternative Goal Line** - Over: 1.160 | Under: 5.250
+- **Alternative Goal Line** - Over: 1.190 | Under: 4.500
+- **Alternative Goal Line** - Over: 1.325 | Under: 3.300
+- **Alternative Goal Line** - Over: 1.450 | Under: 2.675
+- **Alternative Goal Line** - Over: 1.550 | Under: 2.375
+- **Alternative Goal Line** - Over: 1.675 | Under: 2.150
+
+### Veres Rivne vs FC Kryvbas Kriviy Rih
+- Kampstart: **2026-05-12 17:00**
+- Liga: **Ukraine - Premier League**
+- **ML** - H: 2.500 | X: 3.300 | A: 2.400
+- **Draw No Bet** - H: 1.909 | A: 1.800
+- **Double Chance** - FC Veres Rivne or Draw: Under: 1.333
+- **Double Chance** - Draw or FC Kryvbas Kriviy Rih: Under: 1.600
+- **Double Chance** - FC Veres Rivne or FC Kryvbas Kriviy Rih: Under: 1.250
+- **Spread** - H: 1.975 | A: N/A
+- **Totals** - Over: 1.975 | Under: 1.825
+- **Goals Over/Under** - Over: 1.800 | Under: 2.000
+- **Spread HT** - H: 1.700 | A: 2.100
+- **Totals HT** - Over: 1.725 | Under: 2.075
+- **Corners Totals** - Over: 1.875 | Under: 1.925
+- **Corners Totals HT** - Over: 2.000 | Under: 1.800
+- **Correct Score** - 1-1: {"label": "1-1", "odds": "7.000"}
+- **Correct Score** - 0-0: {"label": "0-0", "odds": "12.000"}
+- **Correct Score** - 1-0: {"label": "1-0", "odds": "10.000"}
+- **Correct Score** - 3-1: {"label": "3-1", "odds": "21.000"}
+- **Correct Score** - 2-2: {"label": "2-2", "odds": "13.000"}
+- **Correct Score** - 4-2: {"label": "4-2", "odds": "51.000"}
+- **Correct Score** - 4-3: {"label": "4-3", "odds": "81.000"}
+- **Correct Score** - 4-4: {"label": "4-4", "odds": "151.000"}
+
+### FK Mlada Boleslav vs Dukla Prague
+- Kampstart: **2026-05-12 17:30**
+- Liga: **Czechia - 1. Liga**
+- **ML** - H: 1.900 | X: 3.500 | A: 3.500
+- **Draw No Bet** - H: 1.500 | A: 2.500
+- **Double Chance** - Mlada Boleslav or Draw: Under: 1.300
+- **Double Chance** - Draw or Dukla Praha: Under: 1.727
+- **Double Chance** - Mlada Boleslav or Dukla Praha: Under: 1.250
+- **Spread** - H: 1.975 | A: 1.825
+- **Totals** - Over: 1.950 | Under: 1.850
+- **Goals Over/Under** - Over: 1.727 | Under: 2.075
+- **Both Teams To Score** - Yes: 1.666 | No: 2.100
+- **Spread HT** - H: 2.050 | A: 1.750
+- **Totals HT** - Over: 2.100 | Under: 1.700
+- **European Handicap** - H: 3.500
+- **European Handicap** - X: 4.000 | A: 1.800
+- **European Handicap** - H: 17.000
+- **European Handicap** - H: 7.500 | X: 11.000 | A: 21.000
+- **European Handicap** - H: 1.071 | X: 5.500 | A: 1.285
+- **European Handicap** - X: 11.000 | A: 1.083
+- **Corners Spread** - H: 1.850 | A: 1.950
+- **Corners Totals** - Over: 1.850 | Under: 1.950
+- **Corners Totals HT** - Over: 1.825 | Under: 1.975
+
+### 1. FC Slovacko Uherske Hradiste vs FC Banik Ostrava
+- Kampstart: **2026-05-12 17:30**
+- Liga: **Czechia - 1. Liga**
+- **ML** - H: 2.550 | X: 3.400 | A: 2.400
+- **Draw No Bet** - H: 1.833 | A: 1.833
+- **Double Chance** - Slovacko or Draw: Under: 1.500
+- **Double Chance** - Slovacko or Banik Ostrava: Under: 1.300
+- **Double Chance** - Draw or Banik Ostrava: Under: 1.500
+- **Spread** - H: 1.950 | A: N/A
+- **Totals** - Over: 2.000 | Under: 1.800
+- **Goals Over/Under** - Over: 1.800 | Under: 2.000
+- **Both Teams To Score** - Yes: 1.666 | No: 2.100
+- **Spread HT** - H: 1.950 | A: 1.850
+- **Totals HT** - Over: 1.725 | Under: 2.075
+- **European Handicap** - H: 1.500
+- **European Handicap** - X: 4.333 | A: 5.000
+- **European Handicap** - H: 12.000 | X: 7.500 | A: 12.000
+- **European Handicap** - H: 1.142 | X: 7.500 | A: 1.142
+- **European Handicap** - H: 1.040
+- **European Handicap** - X: 17.000 | A: 29.000
+- **Corners Spread** - H: 1.800 | A: 2.000
+- **Corners Totals** - Over: 1.825 | Under: 1.975
+- **Corners Totals HT** - Over: 1.825 | Under: 1.975
+
+### FC Elva vs Paide Linnameeskond
+- Kampstart: **2026-05-12 18:00**
+- Liga: **Estonia - Cup, Women**
+- **ML** - H: 41.000 | X: 15.000 | A: 1.040
+- **Draw No Bet** - H: 17.000 | A: 1.005
+- **Double Chance** - FC Elva (W) or Draw: Under: 7.500
+- **Double Chance** - Draw or Paide Linnanaiskond (W): Under: 1.001
+- **Double Chance** - FC Elva (W) or Paide Linnanaiskond (W): Under: 1.020
+- **Spread** - H: 1.850 | A: 1.950
+- **Totals** - Over: 1.850 | Under: 1.950
+- **Goals Over/Under** - Over: 1.166 | Under: 4.500
+- **Spread HT** - H: 1.800 | A: 2.000
+- **Totals HT** - Over: 1.900 | Under: 1.900
+- **Correct Score** - 2-0: {"label": "2-0", "odds": "151.000"}
+- **Correct Score** - 3-1: {"label": "3-1", "odds": "15.000"}
+- **Correct Score** - 3-2: {"label": "3-2", "odds": "151.000"}
+- **Correct Score** - 3-3: {"label": "3-3", "odds": "126.000"}
+- **Correct Score** - 4-3: {"label": "4-3", "odds": "151.000"}
+- **Correct Score** - 6-0: {"label": "6-0", "odds": "12.000"}
+- **Correct Score** - 9-0: {"label": "9-0", "odds": "51.000"}
+- **Correct Score** - 2-2: {"label": "2-2", "odds": "41.000"}
+- **Correct Score** - 4-1: {"label": "4-1", "odds": "15.000"}
+- **Correct Score** - 4-2: {"label": "4-2", "odds": "41.000"}
+
+### FC Metalist 1925 Kharkiv vs Karpaty Lviv
+- Kampstart: **2026-05-12 17:00**
+- Liga: **Ukraine - Premier League**
+- **ML** - H: 2.150 | X: 3.100 | A: 3.000
+- **Draw No Bet** - H: 1.500 | A: 2.500
+- **Double Chance** - FC Metalist 1925 or Draw: Under: 1.181
+- **Double Chance** - Draw or Karpaty Lviv: Under: 1.800
+- **Double Chance** - FC Metalist 1925 or Karpaty Lviv: Under: 1.285
+- **Spread** - H: 1.900 | A: 1.900
+- **Totals** - Over: 1.825 | Under: 1.975
+- **Goals Over/Under** - Over: 2.100 | Under: 1.700
+- **Spread HT** - H: 2.100 | A: 1.700
+- **Totals HT** - Over: 2.025 | Under: 1.775
+- **Corners Totals** - Over: 1.800 | Under: 2.000
+- **Corners Totals HT** - Over: 1.950 | Under: 1.850
+- **Corners** - Over: 2.250 | Under: 1.909
+- **Corners 2-Way** - Over: 1.800 | Under: 1.909
+- **Correct Score** - 5-0: {"label": "5-0", "odds": "67.000"}
+- **Correct Score** - 2-1: {"label": "2-1", "odds": "9.500"}
+- **Correct Score** - 4-1: {"label": "4-1", "odds": "41.000"}
+- **Correct Score** - 1-1: {"label": "1-1", "odds": "6.500"}
+- **Correct Score** - 3-3: {"label": "3-3", "odds": "51.000"}
+- **Correct Score** - 4-2: {"label": "4-2", "odds": "51.000"}
+
+### FK Liepaja vs Ogre United
+- Kampstart: **2026-05-12 17:00**
+- Liga: **Latvia - Virsliga**
+- **ML** - H: 1.300 | X: 5.000 | A: 7.000
+- **Draw No Bet** - H: 1.100 | A: 6.500
+- **Double Chance** - FK Liepaja or Ogre United: Under: 1.111
+- **Double Chance** - FK Liepaja or Draw: Under: 1.055
+- **Double Chance** - Draw or Ogre United: Under: 3.400
+- **Spread** - H: 1.900 | A: 1.900
+- **Totals** - Over: 1.900 | Under: 1.900
+- **Goals Over/Under** - Over: 1.533 | Under: 2.375
+- **Both Teams To Score** - Yes: 1.909 | No: 1.800
+- **Spread HT** - H: 1.750 | A: 2.050
+- **Totals HT** - Over: 1.900 | Under: 1.900
+- **European Handicap** - H: 11.000
+- **European Handicap** - H: 5.500
+- **European Handicap** - H: 1.833 | X: 10.000 | A: 19.000
+- **European Handicap** - H: 1.062 | X: 3.750 | A: 3.000
+- **European Handicap** - X: 9.000 | A: 1.090
+- **European Handicap** - X: 5.500 | A: 1.333
+- **Corners Totals** - Over: 1.950 | Under: 1.850
+- **Corners Totals HT** - Over: 1.750 | Under: 2.050
+- **Alternative Asian Handicap** - H: 5.900 | A: 1.130
+
+### AL Wahda FC vs Khorfakkan
+- Kampstart: **2026-05-12 17:30**
+- Liga: **United Arab Emirates - U23 Pro League**
+- **ML** - H: 1.500 | X: 4.100 | A: 4.750
+- **Draw No Bet** - H: 1.363 | A: 3.000
+- **Double Chance** - Al Wahda Abu Dhabi U23 or Draw: Under: 1.222
+- **Double Chance** - Draw or Khor Fakkan U23: Under: 1.833
+- **Double Chance** - Al Wahda Abu Dhabi U23 or Khor Fakkan U23: Under: 1.222
+- **Spread** - H: 1.800 | A: 2.000
+- **Totals** - Over: 1.825 | Under: 1.975
+- **Goals Over/Under** - Over: 1.500 | Under: 2.500
+- **Spread HT** - H: 1.900 | A: 1.900
+- **Totals HT** - Over: 1.825 | Under: 1.975
+- **Corners Totals** - Over: 1.800 | Under: 2.000
+- **Corners Totals HT** - Over: 1.950 | Under: 1.850
+- **Half Time Result** - 1: Under: 2.250
+- **Half Time Result** - Draw: Under: 2.500
+- **Half Time Result** - 2: Under: 3.750
+- **Corners 2-Way** - Over: 1.800 | Under: 1.909
+- **Corners** - Over: 2.250 | Under: 1.909
+- **Alternative Goal Line** - Over: 1.150 | Under: 5.500
+- **Alternative Goal Line** - Over: 1.175 | Under: 4.800
+- **Alternative Goal Line** - Over: 1.200 | Under: 4.400
+
+### FC Zlin vs FK Teplice
+- Kampstart: **2026-05-12 17:30**
+- Liga: **Czechia - 1. Liga**
+- **ML** - H: 2.450 | X: 3.000 | A: 2.750
+- **Draw No Bet** - H: 1.727 | A: 2.000
+- **Double Chance** - FC Zlin or Draw: Under: 1.363
+- **Double Chance** - Draw or FK Teplice: Under: 1.500
+- **Double Chance** - FC Zlin or FK Teplice: Under: 1.333
+- **Spread** - H: 1.800 | A: N/A
+- **Totals** - Over: 1.775 | Under: 2.025
+- **Goals Over/Under** - Over: 2.350 | Under: 1.571
+- **Both Teams To Score** - Yes: 2.000 | No: 1.750
+- **Spread HT** - H: 1.825 | A: 1.975
+- **Totals HT** - Over: 1.750 | Under: 2.050
+- **European Handicap** - H: 34.000
+- **European Handicap** - H: 13.000 | X: 9.000 | A: 17.000
+- **European Handicap** - H: 1.363
+- **European Handicap** - H: 1.100 | X: 7.500 | A: 1.125
+- **European Handicap** - X: 4.333 | A: 6.500
+- **Corners Spread** - H: 1.850 | A: 1.950
+- **Corners Totals** - Over: 2.000 | Under: 1.800
+- **Corners Totals HT** - Over: 2.075 | Under: 1.725
+- **Corner Handicap** - 1 (-1): H: 2.500
+
+### Viking FK vs Haugesund
+- Kampstart: **2026-05-12 18:00**
+- Liga: **Norway - NM Cup Women**
+- **ML** - H: 5.250 | X: 4.500 | A: 1.420
+- **Draw No Bet** - H: 4.500 | A: 1.166
+- **Double Chance** - Viking FK (W) or Draw: Under: 2.600
+- **Double Chance** - Draw or Haugesund (W): Under: 1.100
+- **Double Chance** - Viking FK (W) or Haugesund (W): Under: 1.125
+- **Spread** - H: 1.900 | A: 1.900
+- **Totals** - Over: 2.000 | Under: 1.800
+- **Goals Over/Under** - Over: 1.500 | Under: 2.500
+- **Spread HT** - H: 1.975 | A: 1.825
+- **Totals HT** - Over: 1.775 | Under: 2.025
+- **Corners Totals** - Over: 1.825 | Under: 1.975
+- **Corners Totals HT** - Over: 1.900 | Under: 1.900
+- **Half Time Result** - 1: Under: 6.000
+- **Half Time Result** - Draw: Under: 2.625
+- **Half Time Result** - 2: Under: 1.800
+- **Correct Score** - 0-0: {"label": "0-0", "odds": "19.000"}
+- **Correct Score** - 1-1: {"label": "1-1", "odds": "10.000"}
+- **Correct Score** - 2-0: {"label": "2-0", "odds": "34.000"}
+- **Correct Score** - 2-1: {"label": "2-1", "odds": "19.000"}
+- **Correct Score** - 2-2: {"label": "2-2", "odds": "17.000"}

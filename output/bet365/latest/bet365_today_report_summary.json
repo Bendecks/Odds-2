@@ -1,0 +1,13 @@
+{
+  "generated_at_dk": "2026-05-12 12:56",
+  "report_date_dk": "2026-05-12",
+  "sport": "football",
+  "bookmaker": "Bet365",
+  "events_discovered_today": 80,
+  "events_requested_for_odds": 30,
+  "events_with_odds": 30,
+  "market_rows": 2537,
+  "pdf_created": true,
+  "latest_rate_limit_remaining": "61",
+  "latest_rate_limit_limit": "100"
+}
