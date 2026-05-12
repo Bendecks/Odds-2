@@ -3,10 +3,10 @@
 Manual Bet365 odds input is parked as an optional fallback. It is not an active development blocker.
 Current priority: automatic/free-data forward-testing sources and robust fixture/model matching.
 
-Upcoming fixtures: 11
-Manual template rows: 11
+Upcoming fixtures: 398
+Manual template rows: 398
 Rows with complete manual odds: 0
-Rows missing manual odds: 11
+Rows missing manual odds: 398
 Manual forward snapshot rows: 0
 Manual odds mode: optional_fallback_paused
 Manual odds is blocker: False
@@ -19,14 +19,23 @@ Upcoming fixtures exist, but no automatic odds/proxy forward snapshot source is 
 ## Optional manual fallback status
 
 Manual odds are not required in the current phase. These rows are only kept for later fallback use:
-- 2026-05-11 20:15 | Benfica vs Sp Braga
-- 2026-05-11 20:15 | Estrela vs Famalicao
-- 2026-05-11 20:15 | Gil Vicente vs Arouca
-- 2026-05-11 20:15 | Guimaraes vs Casa Pia
-- 2026-05-11 19:30 | Huesca vs Sociedad B
-- 2026-05-11 19:45 | Napoli vs Bologna
-- 2026-05-11 20:15 | Rio Ave vs Sp Lisbon
-- 2026-05-11 20:15 | Santa Clara vs Nacional
-- 2026-05-11 20:15 | Tondela vs Moreirense
-- 2026-05-11 20:00 | Tottenham vs Leeds
-- 2026-05-11 20:00 | Vallecano vs Girona
+- 2026-05-12 15:30 | 1. FC Slovacko Uherske Hradiste vs FC Banik Ostrava
+- 2026-05-12 18:45 | Aberdeen FC vs St Mirren FC
+- 2026-05-12 16:00 | AE Kifisia FC vs Atromitos Athinon
+- 2026-05-12 15:00 | AL Faisaly (Jor) vs Ramtha SC
+- 2026-05-12 17:30 | Al Hussein Irbid vs Al Wehdat
+- 2026-05-12 14:10 | AL Ittihad Kalba vs AL Nasr
+- 2026-05-12 18:00 | Al Nassr Club vs Al Hilal SFC
+- 2026-05-12 15:30 | AL Wahda FC vs Khorfakkan
+- 2026-05-12 14:10 | AL Wasl vs AL Jazira
+- 2026-05-12 16:20 | Al-Kholood vs Al-Okhdood Club
+- 2026-05-12 16:20 | Al-Rustaq vs Ibri
+- 2026-05-12 16:00 | Asteras Tripolis vs Panserraikos FC
+- 2026-05-12 23:20 | Atletico Nacional Medellin vs Internacional de Bogota.
+- 2026-05-12 23:00 | Banos Ciudad de Fuego vs Delfin SC
+- 2026-05-12 17:30 | Beitar Jerusalem FC vs Hapoel Be`er Sheva FC
+- 2026-05-12 23:00 | Boston Legacy FC vs Orlando Pride
+- 2026-05-12 17:15 | Botev Plovdiv vs FC Arda Kardzhali
+- 2026-05-12 08:45 | Brothers Union vs Mohammedan SC Dhaka
+- 2026-05-12 22:00 | CA Belgrano de Cordoba vs Union de Santa Fe
+- 2026-05-12 19:30 | CA Osasuna vs Atletico Madrid

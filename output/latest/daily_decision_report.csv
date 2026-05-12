@@ -1,2 +1,2 @@
 daily_decision,candidate_count,readiness_status,forward_status,leakage_risk
-ignore_picks_proxy_research_only,0,observation_only,observe_only_with_forward_picks,medium
+ignore_picks_proxy_research_only,0,observation_only,no_forward_picks_available,medium

@@ -3,16 +3,16 @@
 Model used: `gemini-2.0-flash`
 
 ```markdown
-1. **Current system status:** Proxy paper testing started, but sample size is low. Historical proxy research shows negative CLV. Automatic proxy odds ingestion is working, but fresh API coverage is low.
-2. **Biggest weakness:** Negative CLV trend and moderate market alignment.
-3. **Best next development step:** Improve probability calibration, especially in the 0.00-0.35 probability band.
-4. **Readiness:** Paper-test-ready
-5. **One concrete change to prioritize next:** Implement more aggressive probability calibration in the 0.00-0.35 band to reduce EV aggressiveness.
-6. **Suppression rules:** Reasonable
-7. **Probability calibration layer:** Too weak
-8. **Paper-test pick filter:** Too strict
-9. **Probability band to monitor next:** 0.45-0.50
-10. **Calibration impact:** Increased
-11. **Blocking true forward paper-testing:** Model matching
-12. **Manual odds instructions:** Sufficient
+1.  **Current system status:** Proxy paper-testing started, but not mature. Negative CLV trend. Automatic forward price ingestion is working but needs better coverage.
+2.  **Biggest weakness:** Negative CLV trend and insufficient deduped proxy observations for reliable paper-testing. Fixture/model team matching is incomplete.
+3.  **Best next development step:** Improve fixture/model team matching to enable automatic forward price ingestion from odds-api.io and API-Football.
+4.  **Readiness:** Paper-test-ready
+5.  **One concrete change to prioritize next:** Add team aliases for upcoming fixtures to improve fixture/model matching.
+6.  **Whether the current suppression rules look too strict, too loose, or reasonable:** Reasonable
+7.  **Whether the probability calibration layer looks too aggressive, too weak, or reasonable:** Reasonable
+8.  **Whether the paper-test pick filter is too strict, too loose, or reasonable:** Too strict
+9.  **Which probability band should be protected, suppressed, or monitored next:** Monitor 0.35-0.45
+10. **Whether calibration impact should be increased, reduced, or left unchanged:** Left unchanged
+11. **What is blocking true forward paper-testing right now:** Model matching
+12. **Whether the manual odds instructions are sufficient for the next human action:** Sufficient
 ```
