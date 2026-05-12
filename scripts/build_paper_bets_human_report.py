@@ -1,4 +1,5 @@
 from pathlib import Path
+import re
 
 import pandas as pd
 
@@ -8,6 +9,9 @@ settled_path = output_dir / 'settled_predictions.csv'
 current_path = output_dir / 'paper_test_picks.csv'
 report_path = output_dir / 'paper_bets_human_report.md'
 summary_path = output_dir / 'paper_bets_human_summary.csv'
+excluded_path = output_dir / 'paper_bets_human_excluded.md'
+
+EXCLUDED_PATTERN = re.compile(r'(\bu\s?\d{2}\b|\bunder\s?\d{2}\b|\breserve\b|\breserves\b|\breserver\b|\byouth\b|\bacademy\b|\bb\s?team\b|\bii\b)', re.IGNORECASE)
 
 
 def safe_read_csv(path: Path) -> pd.DataFrame:
@@ -35,6 +39,19 @@ def clean(value, fallback=''):
     if text.lower() in {'nan', 'none', 'nat'}:
         return fallback
     return text
+
+
+def is_excluded_match(row) -> bool:
+    text = ' '.join([clean(row.get('home_team')), clean(row.get('away_team')), clean(row.get('league'))])
+    return bool(EXCLUDED_PATTERN.search(text))
+
+
+def split_excluded(df: pd.DataFrame):
+    if not len(df):
+        return df, df
+    work = df.copy()
+    work['is_youth_or_reserve'] = work.apply(is_excluded_match, axis=1)
+    return work[~work['is_youth_or_reserve']].copy(), work[work['is_youth_or_reserve']].copy()
 
 
 def nice_selection(value):
@@ -116,12 +133,13 @@ def dedupe_bets(df: pd.DataFrame) -> pd.DataFrame:
     return work.drop_duplicates('human_bet_key', keep='first')
 
 
-current = safe_read_csv(current_path)
-log = safe_read_jsonl(log_path)
+current = dedupe_bets(safe_read_csv(current_path))
+log = dedupe_bets(safe_read_jsonl(log_path))
 settled = safe_read_csv(settled_path)
 
-current = dedupe_bets(current)
-log = dedupe_bets(log)
+current, excluded_current = split_excluded(current)
+log, excluded_log = split_excluded(log)
+settled, excluded_settled = split_excluded(settled)
 
 settled_keys = set()
 settled_forward = pd.DataFrame()
@@ -152,11 +170,13 @@ if len(settled_forward):
     lost_count = int((won_series == 'false').sum())
     roi_units = float(pd.to_numeric(settled_forward.get('roi_units'), errors='coerce').fillna(0).sum())
 
+excluded_total = int(len(excluded_current) + len(excluded_log) + len(excluded_settled))
 summary = {
     'current_visible_picks': int(len(current_display)),
     'logged_unique_paper_picks': int(len(log)),
     'pending_logged_picks': int(len(pending)),
     'settled_paper_picks_found': int(len(settled_forward)),
+    'excluded_youth_or_reserve_rows': excluded_total,
     'won': won_count,
     'lost': lost_count,
     'roi_units': round(roi_units, 3),
@@ -168,6 +188,7 @@ lines = [
     '# Paper bets – enkelt overblik',
     '',
     'Dette er det menneskelige overblik over paper bets. Det er stadig kun test og ikke rigtige anbefalinger.',
+    'Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mange usikre matches.',
     '',
     '## Kort status',
     '',
@@ -175,6 +196,7 @@ lines = [
     f"- Unikke loggede paper picks: **{summary['logged_unique_paper_picks']}**",
     f"- Afventer i loggen: **{summary['pending_logged_picks']}**",
     f"- Afgjorte fundet i settled-filen: **{summary['settled_paper_picks_found']}**",
+    f"- Skjulte U-/reserve-rækker: **{summary['excluded_youth_or_reserve_rows']}**",
     f"- Vundne: **{summary['won']}**",
     f"- Tabte: **{summary['lost']}**",
     f"- Samlet ROI i units: **{summary['roi_units']}**",
@@ -241,8 +263,18 @@ lines.extend([
     '- **Aktuelle paper picks** er dem systemet ville følge lige nu.',
     '- **Afventer** betyder, at kampen ikke er tydeligt afgjort i systemet endnu.',
     '- **Afgjorte paper picks** er dem, hvor systemet har fundet resultat og win/loss.',
-    '- Rapporten er lavet til overblik. De tekniske filer ligger stadig ved siden af, men du behøver normalt ikke åbne dem.',
+    '- U-/reservehold skjules fra overblikket, fordi de ikke er stabile nok til praktisk brug.',
 ])
 
 report_path.write_text('\n'.join(lines), encoding='utf-8')
+
+excluded_lines = ['# Skjulte U-/reserve-rækker', '', f'Skjulte rækker: {excluded_total}', '']
+for label, frame in [('Aktuelle', excluded_current), ('Log', excluded_log), ('Settled', excluded_settled)]:
+    if len(frame):
+        excluded_lines.extend([f'## {label}', ''])
+        for _, row in frame.head(50).iterrows():
+            excluded_lines.append(f"- {clean(row.get('match_date'), 'Ukendt dato')} kl. {nice_time(row.get('match_time'))} – {clean(row.get('home_team'), 'Ukendt')} vs {clean(row.get('away_team'), 'Ukendt')}")
+        excluded_lines.append('')
+excluded_path.write_text('\n'.join(excluded_lines), encoding='utf-8')
+
 print(summary)
