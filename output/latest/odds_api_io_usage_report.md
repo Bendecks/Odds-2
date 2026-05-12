@@ -2,29 +2,29 @@
 
 This report combines repo-estimated Odds-API.io usage with provider rate-limit headers when available.
 
-Generated UTC: 2026-05-12T16:26:44.201013+00:00
-Latest run calls used: 7 / 8
+Generated UTC: 2026-05-12T18:19:12.763074+00:00
+Latest run calls used: 13 / 14
 Latest endpoint mode: multi_event_documented_endpoint
-Latest search queries: Asteras Tripolis, Kifisia, Panetolikos, Celta
-Latest priced event rows: 10
-Latest errors/status rows: 20
+Latest search queries: Asteras Tripolis, Kifisia, Panetolikos, Celta, Betis, Aberdeen, Dundee United, Kilmarnock, Osasuna, Levadeiakos, Volos NFC, Olympiakos
+Latest priced event rows: 0
+Latest errors/status rows: 13
 
 ## Provider rate-limit headers
 
 x-ratelimit-limit: 100
-x-ratelimit-remaining: 82
-remaining ratio: 0.82
-x-ratelimit-reset: 2026-05-12T17:19:34Z
+x-ratelimit-remaining: 0
+remaining ratio: 0.0
+x-ratelimit-reset: 2026-05-12T18:43:40Z
 retry-after: None
 
 ## Estimated repo-driven req/hr
 
-- Last 1h: 7 calls across 1 runs => 7.0 req/hr
-- Last 6h: 25 calls across 5 runs => 4.1667 req/hr
-- Last 12h: 46 calls across 12 runs => 3.8333 req/hr
-- Last 24h: 149 calls across 31 runs => 6.2083 req/hr
-- Last 72h: 149 calls across 31 runs => 2.0694 req/hr
-- Last 168h: 149 calls across 31 runs => 0.8869 req/hr
+- Last 1h: 13 calls across 1 runs => 13.0 req/hr
+- Last 6h: 35 calls across 5 runs => 5.8333 req/hr
+- Last 12h: 59 calls across 13 runs => 4.9167 req/hr
+- Last 24h: 162 calls across 32 runs => 6.75 req/hr
+- Last 72h: 162 calls across 32 runs => 2.25 req/hr
+- Last 168h: 162 calls across 32 runs => 0.9643 req/hr
 
 ## Interpretation
 

@@ -3,18 +3,19 @@
 Quality diagnostics for automatic delayed-market proxy paper observations.
 This is not real-money ready and does not override suppression rules for candidate bets.
 
-Value snapshot rows: 447
-Paper proxy observation rows: 7
-Positive EV value rows: 217
-Suppressed-band observation rows: 3
-Distinct matches: 5
+Value snapshot rows: 243
+Paper proxy observation rows: 25
+Positive EV value rows: 119
+Suppressed-band observation rows: 0
+Distinct matches: 13
 Distinct sources: 0
-Max EV: 0.4195
-Average EV: 0.13992
-Max probability edge: 0.0839
+Max EV: 0.744
+Average EV: 0.242265
+Max probability edge: 0.1488
 Average match confidence: None
 
 ## By selection
 
-- away: rows=6, avg_ev=0.1611, max_ev=0.4195
-- home: rows=1, avg_ev=0.013, max_ev=0.013
+- away: rows=16, avg_ev=0.3695, max_ev=0.744
+- draw: rows=7, avg_ev=0.0085, max_ev=0.0752
+- home: rows=2, avg_ev=0.0426, max_ev=0.0577

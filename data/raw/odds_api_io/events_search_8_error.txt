@@ -1,0 +1,1 @@
+{"error":"You have exceeded your rate limit of 100 requests per hour. It resets in 24 minutes and 38 seconds."}

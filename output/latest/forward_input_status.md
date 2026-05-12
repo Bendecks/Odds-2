@@ -3,10 +3,10 @@
 Manual Bet365 odds input is parked as an optional fallback. It is not an active development blocker.
 Current priority: automatic/free-data forward-testing sources and robust fixture/model matching.
 
-Upcoming fixtures: 136
-Manual template rows: 136
+Upcoming fixtures: 27
+Manual template rows: 27
 Rows with complete manual odds: 0
-Rows missing manual odds: 136
+Rows missing manual odds: 27
 Manual forward snapshot rows: 0
 Manual odds mode: optional_fallback_paused
 Manual odds is blocker: False
@@ -20,22 +20,22 @@ Upcoming fixtures exist, but no automatic odds/proxy forward snapshot source is 
 
 Manual odds are not required in the current phase. These rows are only kept for later fallback use:
 - 2026-05-12 19:45 | Aberdeen vs St Mirren
-- 2026-05-12 17:30 | Al Hussein Irbid vs Al Wehdat
-- 2026-05-12 18:00 | Al Nassr Club vs Al Hilal SFC
 - 2026-05-12 17:00 | Asteras Tripolis vs Panserraikos
-- 2026-05-12 23:20 | Atletico Nacional Medellin vs Internacional de Bogota.
-- 2026-05-12 23:00 | Banos Ciudad de Fuego vs Delfin SC
-- 2026-05-12 17:30 | Beitar Jerusalem FC vs Hapoel Be`er Sheva FC
 - 2026-05-12 19:00 | Betis vs Elche
-- 2026-05-12 23:00 | Boston Legacy FC vs Orlando Pride
-- 2026-05-12 17:15 | Botev Plovdiv vs FC Arda Kardzhali
-- 2026-05-12 22:00 | CA Belgrano de Cordoba vs Union de Santa Fe
-- 2026-05-12 19:30 | CA Osasuna vs Atletico Madrid
-- 2026-05-12 20:00 | CD Real Santander vs Boca Juniors de Cali
 - 2026-05-12 18:00 | Celta vs Levante
-- 2026-05-12 17:00 | Central Espanol Reserve vs Defensor Sporting
-- 2026-05-12 18:30 | Cerro Largo FC vs Boston River
-- 2026-05-12 18:45 | Clyde FC vs Hamilton Academical FC
-- 2026-05-12 18:00 | Colon FC Reserve vs Liverpool Montevideo
-- 2026-05-12 18:00 | Defensa Y Justicia Reserve vs CA Platense
-- 2026-05-12 22:00 | Deportivo Tachira vs Metropolitanos FC
+- 2026-05-12 19:45 | Dundee United vs Livingston
+- 2026-05-12 17:00 | Kifisia vs Atromitos
+- 2026-05-12 19:45 | Kilmarnock vs Dundee
+- 2026-05-12 20:30 | Osasuna vs Ath Madrid
+- 2026-05-12 17:00 | Panetolikos vs Larisa
+- 2026-05-13 20:30 | Alaves vs Barcelona
+- 2026-05-13 18:00 | Brest vs Strasbourg
+- 2026-05-13 18:00 | Espanol vs Ath Bilbao
+- 2026-05-13 20:30 | Getafe vs Mallorca
+- 2026-05-13 20:00 | Hearts vs Falkirk
+- 2026-05-13 20:00 | Lens vs Paris SG
+- 2026-05-13 15:00 | Levadeiakos vs OFI Crete
+- 2026-05-13 20:00 | Man City vs Crystal Palace
+- 2026-05-13 19:00:00 | Manchester City vs Crystal Palace
+- 2026-05-13 20:00 | Motherwell vs Celtic
+- 2026-05-13 17:30 | Olympiakos vs Panathinaikos

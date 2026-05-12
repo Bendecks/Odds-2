@@ -5,9 +5,9 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 
 ## Kort status
 
-- Aktuelle viste paper picks: **5**
-- Unikke loggede paper picks: **34**
-- Afventer i loggen: **31**
+- Aktuelle viste paper picks: **14**
+- Unikke loggede paper picks: **43**
+- Afventer i loggen: **40**
 - Afgjorte fundet i settled-filen: **210**
 - Skjulte U-/reserve-rækker: **5**
 - Vundne: **70**
@@ -16,32 +16,14 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 
 ## Aktuelle paper picks
 
-### Osasuna vs Ath Madrid
-- Dato: **2026-05-12**
-- Kampstart: **20:30**
-- Spil: **Udebanesejr**
-- Odds: **2.65**
-- Status: **Afventer**
-- Type: **priority_proxy_observation**
-- Note: **automatic_forward_proxy_observation_not_real_money**
-
-### Brest vs Strasbourg
-- Dato: **2026-05-13**
-- Kampstart: **18:00**
-- Spil: **Hjemmesejr**
-- Odds: **2.80**
-- Status: **Afventer**
-- Type: **priority_proxy_observation**
-- Note: **automatic_forward_proxy_observation_not_real_money**
-
 ### Betis vs Elche
 - Dato: **2026-05-12**
 - Kampstart: **19:00**
 - Spil: **Udebanesejr**
-- Odds: **5.00**
+- Odds: **5.50**
 - Status: **Afventer**
-- Type: **suppressed_band_proxy_observation**
-- Note: **suppressed_band_proxy_observation_not_real_money**
+- Type: **volume_observation**
+- Note: **expanded_volume_forward_observation_not_real_money**
 
 ### Getafe vs Mallorca
 - Dato: **2026-05-13**
@@ -49,8 +31,8 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Spil: **Udebanesejr**
 - Odds: **3.70**
 - Status: **Afventer**
-- Type: **suppressed_band_proxy_observation**
-- Note: **suppressed_band_proxy_observation_not_real_money**
+- Type: **priority_proxy_observation**
+- Note: **expanded_volume_forward_observation_not_real_money**
 
 ### Villarreal vs Sevilla
 - Dato: **2026-05-13**
@@ -58,8 +40,107 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Spil: **Udebanesejr**
 - Odds: **3.70**
 - Status: **Afventer**
-- Type: **suppressed_band_proxy_observation**
-- Note: **suppressed_band_proxy_observation_not_real_money**
+- Type: **priority_proxy_observation**
+- Note: **expanded_volume_forward_observation_not_real_money**
+
+### Girona vs Sociedad
+- Dato: **2026-05-14**
+- Kampstart: **19:00**
+- Spil: **Udebanesejr**
+- Odds: **3.35**
+- Status: **Afventer**
+- Type: **priority_proxy_observation**
+- Note: **expanded_volume_forward_observation_not_real_money**
+
+### Valencia vs Vallecano
+- Dato: **2026-05-14**
+- Kampstart: **18:00**
+- Spil: **Udebanesejr**
+- Odds: **3.40**
+- Status: **Afventer**
+- Type: **priority_proxy_observation**
+- Note: **expanded_volume_forward_observation_not_real_money**
+
+### Lens vs Paris SG
+- Dato: **2026-05-13**
+- Kampstart: **20:00**
+- Spil: **Hjemmesejr**
+- Odds: **3.50**
+- Status: **Afventer**
+- Type: **priority_proxy_observation**
+- Note: **expanded_volume_forward_observation_not_real_money**
+
+### Alaves vs Barcelona
+- Dato: **2026-05-13**
+- Kampstart: **20:30**
+- Spil: **Uafgjort**
+- Odds: **3.90**
+- Status: **Afventer**
+- Type: **priority_proxy_observation**
+- Note: **expanded_volume_forward_observation_not_real_money**
+
+### Osasuna vs Ath Madrid
+- Dato: **2026-05-12**
+- Kampstart: **20:30**
+- Spil: **Uafgjort**
+- Odds: **3.60**
+- Status: **Afventer**
+- Type: **priority_proxy_observation**
+- Note: **expanded_volume_forward_observation_not_real_money**
+
+### Brest vs Strasbourg
+- Dato: **2026-05-13**
+- Kampstart: **18:00**
+- Spil: **Uafgjort**
+- Odds: **3.60**
+- Status: **Afventer**
+- Type: **priority_proxy_observation**
+- Note: **expanded_volume_forward_observation_not_real_money**
+
+### Osasuna vs Ath Madrid
+- Dato: **2026-05-12**
+- Kampstart: **20:30**
+- Spil: **Udebanesejr**
+- Odds: **2.65**
+- Status: **Afventer**
+- Type: **priority_proxy_observation**
+- Note: **expanded_volume_forward_observation_not_real_money**
+
+### Espanol vs Ath Bilbao
+- Dato: **2026-05-13**
+- Kampstart: **18:00**
+- Spil: **Uafgjort**
+- Odds: **3.30**
+- Status: **Afventer**
+- Type: **negative_ev_control_observation**
+- Note: **negative_ev_control_observation_not_real_money**
+
+### Asteras Tripolis vs Panserraikos
+- Dato: **2026-05-12**
+- Kampstart: **17:00**
+- Spil: **Udebanesejr**
+- Odds: **5.00**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### PAOK vs AEK
+- Dato: **2026-05-13**
+- Kampstart: **17:30**
+- Spil: **Udebanesejr**
+- Odds: **5.00**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Levadeiakos vs OFI Crete
+- Dato: **2026-05-13**
+- Kampstart: **15:00**
+- Spil: **Udebanesejr**
+- Odds: **5.00**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
 ## Afgjorte paper picks
 
@@ -343,11 +424,12 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - **2026-05-11 kl. 19:45** – Napoli vs Bologna – Uafgjort @ 4.20
 - **2026-05-11 kl. 20:00** – Vallecano vs Girona – Udebanesejr @ 3.05
 - **2026-05-11 kl. 19:00** – Tottenham Hotspur vs Leeds United – Uafgjort @ 4.10
+- **2026-05-12 kl. 19:00** – Betis vs Elche – Udebanesejr @ 5.50
 - **2026-05-12 kl. 08:45** – Brothers Union vs Mohammedan SC Dhaka – Hjemmesejr @ 3.60
 - **2026-05-12 kl. 10:00** – FC Oleksandriya vs FC Zorya Luhansk – Hjemmesejr @ 3.50
 - **2026-05-12 kl. 10:30** – Hellenic Athletic Club vs Darwin Hearts FC – Hjemmesejr @ 3.30
 - **2026-05-12 kl. 20:30** – Osasuna vs Ath Madrid – Udebanesejr @ 2.65
-- **2026-05-12 kl. 19:00** – Betis vs Elche – Udebanesejr @ 5.00
+- **2026-05-12 kl. 20:30** – Osasuna vs Ath Madrid – Uafgjort @ 3.60
 - **2026-05-12 kl. 09:45** – Sunshine Coast Wanderers FC vs Eastern Suburbs FC – Uafgjort @ 5.00
 - **2026-05-12 kl. 10:30** – Gangwon FC vs Daejeon Citizen FC – Udebanesejr @ 3.10
 - **2026-05-12 kl. 10:30** – Hellenic Athletic Club vs Darwin Hearts FC – Uafgjort @ 4.20
@@ -363,8 +445,7 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - **2026-05-12 kl. 10:30** – Gwangju FC vs FC Seoul – Uafgjort @ 4.20
 - **2026-05-12 kl. 10:30** – Incheon United FC vs FC Pohang Steelers – Udebanesejr @ 2.88
 - **2026-05-12 kl. 15:00** – AL Faisaly (Jor) vs Ramtha SC – Uafgjort @ 3.80
-- **2026-05-13 kl. 18:00** – Brest vs Strasbourg – Hjemmesejr @ 2.80
-- **2026-05-13 kl. 20:30** – Getafe vs Mallorca – Udebanesejr @ 3.70
+- **2026-05-13 kl. 20:30** – Getafe vs Mallorca – Udebanesejr @ 3.51
 
 ## Hvad betyder det?
 
