@@ -6,7 +6,7 @@ import pandas as pd
 output_dir = Path('output/latest')
 current_path = output_dir / 'paper_test_picks.csv'
 log_path = Path('data/predictions/paper_test_log.jsonl')
-settled_path = output_dir / 'settled_predictions.csv'
+settlement_path = output_dir / 'forward_paper_test_settlements.csv'
 report_path = output_dir / 'forward_paper_test_report.md'
 summary_path = output_dir / 'forward_paper_test_summary.csv'
 
@@ -41,16 +41,6 @@ def clean(value, fallback=''):
     return text
 
 
-def parse_dt(row):
-    date = clean(row.get('match_date'))
-    time = clean(row.get('match_time'))
-    candidate = f'{date} {time}'.strip()
-    parsed = pd.to_datetime(candidate, errors='coerce', utc=True)
-    if pd.isna(parsed):
-        parsed = pd.to_datetime(candidate, errors='coerce', dayfirst=True)
-    return parsed
-
-
 def parse_date(value):
     parsed = pd.to_datetime(value, errors='coerce', utc=True)
     if pd.isna(parsed):
@@ -58,6 +48,14 @@ def parse_date(value):
     if pd.isna(parsed):
         return None
     return parsed.date().isoformat()
+
+
+def parse_dt(row):
+    candidate = f"{clean(row.get('match_date'))} {clean(row.get('match_time'))}".strip()
+    parsed = pd.to_datetime(candidate, errors='coerce', utc=True)
+    if pd.isna(parsed):
+        parsed = pd.to_datetime(candidate, errors='coerce', dayfirst=True)
+    return parsed
 
 
 def nice_time(value):
@@ -68,9 +66,7 @@ def nice_time(value):
     if pd.isna(parsed):
         parsed = pd.to_datetime(text, errors='coerce')
     if pd.isna(parsed):
-        if len(text) >= 5 and text[2] == ':':
-            return text[:5]
-        return text
+        return text[:5] if len(text) >= 5 and text[2] == ':' else text
     return parsed.strftime('%H:%M')
 
 
@@ -92,27 +88,6 @@ def format_number(value, digits=2, fallback='?'):
     return f'{float(parsed):.{digits}f}'
 
 
-def is_excluded_match(row) -> bool:
-    text = ' '.join([clean(row.get('home_team')), clean(row.get('away_team')), clean(row.get('league'))])
-    return bool(EXCLUDED_PATTERN.search(text))
-
-
-def is_forward_row(row) -> bool:
-    phase = clean(row.get('sample_phase'))
-    return phase in FORWARD_PHASES or phase == ''
-
-
-def make_event_key(row):
-    date = clean(parse_date(row.get('match_date')))
-    home = normalize_team(row.get('home_team'))
-    away = normalize_team(row.get('away_team'))
-    return f'{date}|{home}|{away}'
-
-
-def make_bet_key(row):
-    return f'{make_event_key(row)}|{clean(row.get("selection")).lower()}'
-
-
 def normalize_team(value):
     text = clean(value).lower()
     replacements = {
@@ -120,9 +95,10 @@ def normalize_team(value):
         'celta de vigo': 'celta',
         'levante ud': 'levante',
         'ath madrid': 'atletico madrid',
-        'real sociedad': 'sociedad',
-        'sociedad': 'sociedad',
-        'ath bilbao': 'athletic bilbao',
+        'motherwell fc': 'motherwell',
+        'celtic glasgow': 'celtic',
+        'paok thessaloniki': 'paok',
+        'aek athens': 'aek',
         'paris sg': 'psg',
         'paris saint germain': 'psg',
         'vallecano': 'rayo vallecano',
@@ -134,6 +110,31 @@ def normalize_team(value):
     return ' '.join(text.split())
 
 
+def is_excluded_match(row) -> bool:
+    text = ' '.join([clean(row.get('home_team')), clean(row.get('away_team')), clean(row.get('league'))])
+    return bool(EXCLUDED_PATTERN.search(text))
+
+
+def is_forward_row(row) -> bool:
+    phase = clean(row.get('sample_phase'))
+    return phase in FORWARD_PHASES or phase == ''
+
+
+def make_event_key(row):
+    return '|'.join([
+        clean(parse_date(row.get('match_date'))),
+        normalize_team(row.get('home_team')),
+        normalize_team(row.get('away_team')),
+    ])
+
+
+def make_bet_key(row):
+    event_id = clean(row.get('event_id'))
+    if event_id:
+        return '|'.join([event_id, clean(row.get('match_date')), clean(row.get('home_team')).lower(), clean(row.get('away_team')).lower(), clean(row.get('selection')).lower()])
+    return f'{make_event_key(row)}|{clean(row.get("selection")).lower()}'
+
+
 def filter_forward(df: pd.DataFrame) -> pd.DataFrame:
     if not len(df):
         return df
@@ -142,7 +143,6 @@ def filter_forward(df: pd.DataFrame) -> pd.DataFrame:
     work['is_youth_or_reserve'] = work.apply(is_excluded_match, axis=1)
     work = work[~work['is_youth_or_reserve']].copy()
     work['parsed_kickoff'] = work.apply(parse_dt, axis=1)
-    # Drop old historical rows from the forward report. Keep only 2026+ or unknown future rows.
     if 'match_date' in work.columns:
         parsed_dates = pd.to_datetime(work['match_date'], errors='coerce', utc=True)
         fallback_dates = pd.to_datetime(work['match_date'], errors='coerce', dayfirst=True)
@@ -161,7 +161,6 @@ def dedupe_current(df: pd.DataFrame) -> pd.DataFrame:
     work['ev_num'] = pd.to_numeric(work.get('ev', 0), errors='coerce').fillna(0)
     work = work.sort_values(['score_num', 'ev_num'], ascending=False)
     work = work.drop_duplicates('bet_key', keep='first')
-    # For current report readability: max 2 picks per same normalized event.
     work['event_rank'] = work.groupby('event_key').cumcount() + 1
     work = work[work['event_rank'] <= 2].copy()
     return work.drop(columns=['event_rank'], errors='ignore')
@@ -179,20 +178,27 @@ def tier_label(value):
     return mapping.get(text, text or 'Observation')
 
 
-current = filter_forward(safe_read_csv(current_path))
-log = filter_forward(safe_read_jsonl(log_path))
-settled = filter_forward(safe_read_csv(settled_path))
+def result_label(row):
+    if str(row.get('won')).lower() == 'true':
+        return 'Vundet'
+    if str(row.get('won')).lower() == 'false':
+        return 'Tabt'
+    return 'Afgjort'
 
-current = dedupe_current(current)
+
+current = dedupe_current(filter_forward(safe_read_csv(current_path)))
+log = filter_forward(safe_read_jsonl(log_path))
+settlements = safe_read_csv(settlement_path)
+
 if len(current) and 'parsed_kickoff' in current.columns:
     current = current.sort_values(['parsed_kickoff', 'paper_test_score'], ascending=[True, False], na_position='last')
 
 settled_forward = pd.DataFrame()
-if len(settled) and 'settlement_status' in settled.columns:
-    settled_forward = settled[settled['settlement_status'].astype(str).str.lower() == 'settled'].copy()
-    if len(settled_forward):
-        settled_forward['bet_key'] = settled_forward.apply(make_bet_key, axis=1)
-        settled_forward = settled_forward.drop_duplicates('bet_key', keep='last')
+pending_settlements = pd.DataFrame()
+if len(settlements) and 'settlement_status' in settlements.columns:
+    settlements['settlement_status_norm'] = settlements['settlement_status'].astype(str).str.lower()
+    settled_forward = settlements[settlements['settlement_status_norm'] == 'settled'].copy()
+    pending_settlements = settlements[settlements['settlement_status_norm'] != 'settled'].copy()
 
 settled_keys = set(settled_forward['bet_key'].astype(str).tolist()) if len(settled_forward) and 'bet_key' in settled_forward.columns else set()
 if len(log):
@@ -202,14 +208,9 @@ if len(log):
 else:
     pending_log = pd.DataFrame()
 
-won_count = 0
-lost_count = 0
-roi_units = 0.0
-if len(settled_forward):
-    won_series = settled_forward.get('won', pd.Series(dtype=object)).astype(str).str.lower()
-    won_count = int((won_series == 'true').sum())
-    lost_count = int((won_series == 'false').sum())
-    roi_units = float(pd.to_numeric(settled_forward.get('roi_units'), errors='coerce').fillna(0).sum())
+won_count = int((settled_forward.get('won', pd.Series(dtype=object)).astype(str).str.lower() == 'true').sum()) if len(settled_forward) else 0
+lost_count = int((settled_forward.get('won', pd.Series(dtype=object)).astype(str).str.lower() == 'false').sum()) if len(settled_forward) else 0
+roi_units = float(pd.to_numeric(settled_forward.get('roi_units', pd.Series(dtype=float)), errors='coerce').fillna(0).sum()) if len(settled_forward) else 0.0
 
 summary = {
     'current_forward_picks': int(len(current)),
@@ -219,6 +220,7 @@ summary = {
     'won_forward': won_count,
     'lost_forward': lost_count,
     'roi_units_forward': round(roi_units, 3),
+    'settlement_file_rows': int(len(settlements)),
 }
 pd.DataFrame([summary]).to_csv(summary_path, index=False)
 
@@ -261,6 +263,19 @@ else:
     lines.append('Ingen aktuelle forward paper-picks fundet.')
     lines.append('')
 
+lines.extend(['## Settled forward picks', ''])
+if len(settled_forward):
+    for _, row in settled_forward.tail(60).iterrows():
+        score = ''
+        if clean(row.get('api_score_home')) or clean(row.get('api_score_away')):
+            score = f" – score {clean(row.get('api_score_home'))}-{clean(row.get('api_score_away'))}"
+        lines.append(
+            f"- **{clean(row.get('match_date'), 'Ukendt dato')}** – {clean(row.get('home_team'), 'Ukendt')} vs {clean(row.get('away_team'), 'Ukendt')} – {nice_selection(row.get('selection'))} @ {format_number(row.get('market_odds'))} – **{result_label(row)}**{score} – ROI {format_number(row.get('roi_units'), digits=2)}"
+        )
+else:
+    lines.append('Ingen settled forward-picks endnu i den rene forward-rapport.')
+lines.append('')
+
 lines.extend(['## Afventer i forward-loggen', ''])
 if len(pending_log):
     if 'parsed_kickoff' in pending_log.columns:
@@ -273,17 +288,11 @@ else:
     lines.append('Ingen afventende forward-picks fundet.')
 lines.append('')
 
-lines.extend(['## Settled forward picks', ''])
-if len(settled_forward):
-    for _, row in settled_forward.tail(40).iterrows():
-        won = str(row.get('won')).lower() == 'true'
-        result = 'Vundet' if won else 'Tabt'
-        lines.append(
-            f"- **{clean(row.get('match_date'), 'Ukendt dato')}** – {clean(row.get('home_team'), 'Ukendt')} vs {clean(row.get('away_team'), 'Ukendt')} – {nice_selection(row.get('selection'))} @ {format_number(row.get('market_odds', row.get('opening_market_odds')))} – **{result}** – ROI {format_number(row.get('roi_units'), digits=2)}"
-        )
-else:
-    lines.append('Ingen settled forward-picks endnu i den rene forward-rapport.')
-lines.append('')
+if len(pending_settlements):
+    lines.extend(['## Settlement-check pending/noter', ''])
+    for _, row in pending_settlements.tail(30).iterrows():
+        lines.append(f"- {clean(row.get('match_date'))} {clean(row.get('match_time'))} – {clean(row.get('home_team'))} vs {clean(row.get('away_team'))} – note: {clean(row.get('settlement_note'))}")
+    lines.append('')
 
 lines.extend([
     '## Brug denne rapport til',
