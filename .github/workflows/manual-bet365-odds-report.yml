@@ -9,14 +9,14 @@ on:
         default: 'football'
         type: string
       max_price_events:
-        description: 'Max events from today to request odds for. Uses /odds/multi in batches of up to 10.'
+        description: 'Max senior events from today to request odds for. Uses /odds/multi in batches of up to 10.'
         required: true
-        default: '30'
+        default: '60'
         type: string
       max_pages:
         description: 'Max /events pages to scan for today only'
         required: true
-        default: '2'
+        default: '4'
         type: string
 
 jobs:
@@ -73,5 +73,6 @@ jobs:
             output/bet365/latest/bet365_today_odds_report.md
             output/bet365/latest/bet365_today_events.csv
             output/bet365/latest/bet365_today_markets.csv
+            output/bet365/latest/bet365_today_excluded_youth_reserve.csv
             output/bet365/latest/bet365_today_report_summary.json
             output/bet365/latest/bet365_today_rate_limit_headers.csv
