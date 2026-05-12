@@ -1,31 +1,61 @@
 event_id,sport,league,date_utc,date_denmark,home,away,status
-71240276,Football,"Australia - Western Australia State League 1, Reserves",2026-05-12T11:00:00Z,2026-05-12 13:00,Gwelup Croatia SC Reserves,Cockburn City SC Reserves,pending
-70478154,Football,Tanzania - Premier League,2026-05-12T11:00:00Z,2026-05-12 13:00,Singida Black Stars SC,Namungo FC,pending
-71161224,Football,"Australia - Western Australia State League 1, Reserves",2026-05-12T11:15:00Z,2026-05-12 13:15,Murdoch University Melville FC Reserves,Joondalup City FC Reserve,pending
-71436762,Football,Uzbekistan - Cup,2026-05-12T12:00:00Z,2026-05-12 14:00,Fardu Ferghana,Xorazm Fk Urganch,pending
-71338142,Football,India - I-League,2026-05-12T13:00:00Z,2026-05-12 15:00,Namdhari FC,Gokulam Kerala FC,pending
-71378880,Football,"Uruguay - Tercera Division, Reserves",2026-05-12T13:00:00Z,2026-05-12 15:00,Deportivo Maldonado Reserve,Racing Club Montevideo,pending
-61651656,Football,Ukraine - Premier League,2026-05-12T12:30:00Z,2026-05-12 14:30,FC Epitsentr Kamianets-Podilskyi,FC Polissya Zhytomyr,pending
 70478164,Football,Tanzania - Premier League,2026-05-12T13:15:00Z,2026-05-12 15:15,TRA United,Jkt Tanzania,pending
 71336688,Football,Oman - Omani League,2026-05-12T13:50:00Z,2026-05-12 15:50,Sur SC,Al-Khaboora,pending
-68746468,Football,India - Indian Super League,2026-05-12T14:00:00Z,2026-05-12 16:00,Mohun Bagan Super Giant,Inter Kashi FC,pending
-70906728,Football,Bulgaria - Parva Liga,2026-05-12T14:45:00Z,2026-05-12 16:45,PFC Cherno More Varna,PFC Lokomotiv Plovdiv,pending
-71228890,Football,Jordan - Jordan Cup,2026-05-12T15:00:00Z,2026-05-12 17:00,AL Faisaly (Jor),Ramtha SC,pending
-69880304,Football,Egypt - Premier League,2026-05-12T14:00:00Z,2026-05-12 16:00,El Gouna FC,Kahrabaa Ismailia,pending
 69880306,Football,Egypt - Premier League,2026-05-12T14:00:00Z,2026-05-12 16:00,Pharco FC,Modern Sport FC,pending
 70316166,Football,Uganda - Premier League,2026-05-12T14:00:00Z,2026-05-12 16:00,URA FC,Calvary,pending
+71338142,Football,India - I-League,2026-05-12T13:00:00Z,2026-05-12 15:00,Namdhari FC,Gokulam Kerala FC,pending
+68746468,Football,India - Indian Super League,2026-05-12T14:00:00Z,2026-05-12 16:00,Mohun Bagan Super Giant,Inter Kashi FC,pending
+69880304,Football,Egypt - Premier League,2026-05-12T14:00:00Z,2026-05-12 16:00,El Gouna FC,Kahrabaa Ismailia,pending
 71325988,Football,Finland - Suomen Cup,2026-05-12T14:00:00Z,2026-05-12 16:00,FC Inter Turku,JS Hercules,pending
-71338856,Football,United Arab Emirates - U23 Pro League,2026-05-12T14:10:00Z,2026-05-12 16:10,AL Wasl,AL Jazira,pending
+71436762,Football,Uzbekistan - Cup,2026-05-12T12:00:00Z,2026-05-12 14:00,Fardu Ferghana,Xorazm Fk Urganch,pending
+61651656,Football,Ukraine - Premier League,2026-05-12T12:30:00Z,2026-05-12 14:30,FC Epitsentr Kamianets-Podilskyi,FC Polissya Zhytomyr,pending
+70906728,Football,Bulgaria - Parva Liga,2026-05-12T14:45:00Z,2026-05-12 16:45,PFC Cherno More Varna,PFC Lokomotiv Plovdiv,pending
 71231390,Football,Czechia - FNL,2026-05-12T15:00:00Z,2026-05-12 17:00,MFK Chrudim,FK Pribram,pending
 71372082,Football,Tunisia - Ligue 1,2026-05-12T15:00:00Z,2026-05-12 17:00,JS Omrane,Avenir S Marsa,pending
-71338854,Football,United Arab Emirates - U23 Pro League,2026-05-12T14:10:00Z,2026-05-12 16:10,AL Ittihad Kalba,AL Nasr,pending
-62036882,Football,"Poland - III Liga, Group 3",2026-05-12T15:00:00Z,2026-05-12 17:00,Zaglebie Lubin II,Mkp Carina Gubin,pending
 61651650,Football,Ukraine - Premier League,2026-05-12T15:00:00Z,2026-05-12 17:00,Veres Rivne,FC Kryvbas Kriviy Rih,pending
-71085578,Football,Czechia - 1. Liga,2026-05-12T15:30:00Z,2026-05-12 17:30,FK Mlada Boleslav,Dukla Prague,pending
 71085582,Football,Czechia - 1. Liga,2026-05-12T15:30:00Z,2026-05-12 17:30,1. FC Slovacko Uherske Hradiste,FC Banik Ostrava,pending
-71328286,Football,"Estonia - Cup, Women",2026-05-12T16:00:00Z,2026-05-12 18:00,FC Elva,Paide Linnameeskond,pending
+71228890,Football,Jordan - Jordan Cup,2026-05-12T15:00:00Z,2026-05-12 17:00,AL Faisaly (Jor),Ramtha SC,pending
 61651662,Football,Ukraine - Premier League,2026-05-12T15:00:00Z,2026-05-12 17:00,FC Metalist 1925 Kharkiv,Karpaty Lviv,pending
 68492514,Football,Latvia - Virsliga,2026-05-12T15:00:00Z,2026-05-12 17:00,FK Liepaja,Ogre United,pending
-71338858,Football,United Arab Emirates - U23 Pro League,2026-05-12T15:30:00Z,2026-05-12 17:30,AL Wahda FC,Khorfakkan,pending
+71085578,Football,Czechia - 1. Liga,2026-05-12T15:30:00Z,2026-05-12 17:30,FK Mlada Boleslav,Dukla Prague,pending
 71085580,Football,Czechia - 1. Liga,2026-05-12T15:30:00Z,2026-05-12 17:30,FC Zlin,FK Teplice,pending
 71338146,Football,Norway - NM Cup Women,2026-05-12T16:00:00Z,2026-05-12 18:00,Viking FK,Haugesund,pending
+71328286,Football,"Estonia - Cup, Women",2026-05-12T16:00:00Z,2026-05-12 18:00,FC Elva,Paide Linnameeskond,pending
+68492516,Football,Latvia - Virsliga,2026-05-12T16:00:00Z,2026-05-12 18:00,Riga FC,FK Auda Riga,pending
+70232096,Football,Greece - Super League,2026-05-12T16:00:00Z,2026-05-12 18:00,Panaitolikos Agrinio,AE Larissa FC,pending
+70430016,Football,Greece - Super League,2026-05-12T16:00:00Z,2026-05-12 18:00,Asteras Tripolis,Panserraikos FC,pending
+71216798,Football,Norway - NM Cup Women,2026-05-12T16:00:00Z,2026-05-12 18:00,Sarpsborg 08 FF,Hoenefoss BK,pending
+71336690,Football,Oman - Omani League,2026-05-12T16:20:00Z,2026-05-12 18:20,Al-Rustaq,Ibri,pending
+64055855,Football,Saudi Arabia - Saudi Pro League,2026-05-12T16:20:00Z,2026-05-12 18:20,Al-Kholood,Al-Okhdood Club,pending
+71421816,Football,Rwanda - Peace Cup,2026-05-12T16:00:00Z,2026-05-12 18:00,Rayon Sports FC,Gorilla FC,pending
+70232094,Football,Greece - Super League,2026-05-12T16:00:00Z,2026-05-12 18:00,AE Kifisia FC,Atromitos Athinon,pending
+67126084,Football,Sweden - Superettan,2026-05-12T17:00:00Z,2026-05-12 19:00,Landskrona BoIS,Norrby IF,pending
+67126090,Football,Sweden - Superettan,2026-05-12T17:00:00Z,2026-05-12 19:00,IFK Varnamo,Orebro SK,pending
+69880310,Football,Egypt - Premier League,2026-05-12T17:00:00Z,2026-05-12 19:00,Wadi Degla SC,Ismaily SC,pending
+70906726,Football,Bulgaria - Parva Liga,2026-05-12T17:15:00Z,2026-05-12 19:15,Botev Plovdiv,FC Arda Kardzhali,pending
+71364784,Football,Jordan - Jordan Cup,2026-05-12T17:30:00Z,2026-05-12 19:30,Al Hussein Irbid,Al Wehdat,pending
+70812402,Football,Israel - Premier League,2026-05-12T17:30:00Z,2026-05-12 19:30,Beitar Jerusalem FC,Hapoel Be`er Sheva FC,pending
+71401082,Football,Italy - Serie B,2026-05-12T16:45:00Z,2026-05-12 18:45,Modena FC,Juve Stabia,pending
+70812400,Football,Israel - Premier League,2026-05-12T17:00:00Z,2026-05-12 19:00,Hapoel Tel Aviv FC,Hapoel Petah Tikva FC,pending
+71344696,Football,Gambia - Division One,2026-05-12T16:30:00Z,2026-05-12 18:30,Samger FC,Real de Banjul,pending
+61624642,Football,Spain - LaLiga,2026-05-12T17:00:00Z,2026-05-12 19:00,RC Celta de Vigo,Levante UD,pending
+70448538,Football,Switzerland - Super League,2026-05-12T18:30:00Z,2026-05-12 20:30,Grasshopper Club Zurich,FC Winterthur,pending
+71411500,Football,France - Ligue 1,2026-05-12T18:30:00Z,2026-05-12 20:30,Red Star FC,Rodez Aveyron Football,pending
+71085528,Football,Czechia - 1. Liga,2026-05-12T18:00:00Z,2026-05-12 20:00,Sparta Prague,FC Viktoria Plzen,pending
+64055859,Football,Saudi Arabia - Saudi Pro League,2026-05-12T18:00:00Z,2026-05-12 20:00,Al Nassr Club,Al Hilal SFC,pending
+70448540,Football,Switzerland - Super League,2026-05-12T18:30:00Z,2026-05-12 20:30,FC Luzern,FC Zurich,pending
+70448542,Football,Switzerland - Super League,2026-05-12T18:30:00Z,2026-05-12 20:30,Servette Geneva,Lausanne-Sport,pending
+71406954,Football,Scotland - League 1,2026-05-12T18:45:00Z,2026-05-12 20:45,Clyde FC,Hamilton Academical FC,pending
+71401830,Football,Scotland - Premiership,2026-05-12T18:45:00Z,2026-05-12 20:45,Dunfermline Athletic FC,Partick Thistle FC,pending
+62670417,Football,South Africa - Premiership,2026-05-12T17:30:00Z,2026-05-12 19:30,TS Galaxy FC,Mamelodi Sundowns,pending
+61624640,Football,Spain - LaLiga,2026-05-12T18:00:00Z,2026-05-12 20:00,Real Betis Seville,Elche CF,pending
+71345228,Football,San Marino - Campionato Sammarinese,2026-05-12T18:45:00Z,2026-05-12 20:45,FC Domagnano,AC Virtus,pending
+70674928,Football,Scotland - Premiership,2026-05-12T18:45:00Z,2026-05-12 20:45,Aberdeen FC,St Mirren FC,pending
+70674930,Football,Scotland - Premiership,2026-05-12T18:45:00Z,2026-05-12 20:45,Dundee United,Livingston FC,pending
+70674932,Football,Scotland - Premiership,2026-05-12T18:45:00Z,2026-05-12 20:45,Kilmarnock FC,Dundee FC,pending
+71401566,Football,Italy - Serie B,2026-05-12T19:00:00Z,2026-05-12 21:00,US Catanzaro,US Avellino,pending
+71345226,Football,San Marino - Campionato Sammarinese,2026-05-12T18:45:00Z,2026-05-12 20:45,SP Tre Penne,SP La Fiorita,pending
+71240670,Football,England - Championship,2026-05-12T19:00:00Z,2026-05-12 21:00,Southampton FC,Middlesbrough FC,pending
+71091672,Football,Algeria - Ligue 1,2026-05-12T19:00:00Z,2026-05-12 21:00,JS Saoura,CR Belouizdad,pending
+71335012,Football,Colombia - Copa Colombia,2026-05-12T19:00:00Z,2026-05-12 21:00,Itagui Leones FC,Orsomarso SC,pending
+70379154,Football,Bolivia - Division Profesional,2026-05-12T19:00:00Z,2026-05-12 21:00,San Antonio Bulo Bulo,FC Universitario de Vinto,pending
