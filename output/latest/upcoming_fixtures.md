@@ -4,8 +4,8 @@ Fixture sources: TheSportsDB, Football-Data fixtures proxy, cautious odds-api.io
 Duplicate fixtures are deduplicated by date and normalized teams, preferring odds-api.io then Football-Data for odds alignment.
 Primary development target: automatic/free market proxy, not manual Bet365.
 
-Fixtures found: 212
-Source counts: {'odds_api_io_events_bookmaker_filtered': 174, 'football_data_fixtures_proxy': 26, 'odds_api_io_events_search': 11, 'thesportsdb_eventsnextleague': 1}
+Fixtures found: 142
+Source counts: {'odds_api_io_events_bookmaker_filtered': 111, 'football_data_fixtures_proxy': 26, 'odds_api_io_events_search': 4, 'thesportsdb_eventsnextleague': 1}
 Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 
 - 2026-05-12 19:45 | Aberdeen vs St Mirren | SC0 | football_data_fixtures_proxy
@@ -33,10 +33,12 @@ Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 - 2026-05-13 23:00 | AD Pasto vs CD Tolima | colombia-primera-a-apertura | odds_api_io_events_bookmaker_filtered
 - 2026-05-13 20:30 | Alaves vs Barcelona | la_liga | football_data_fixtures_proxy
 - 2026-05-13 18:45 | Alloa Athletic FC vs Stenhousemuir FC | scotland-championship | odds_api_io_events_bookmaker_filtered
+- 2026-05-13 18:30 | AN Brescia vs Olympiakos | international-champions-league | odds_api_io_events_search
 - 2026-05-13 10:30 | FC Anyang vs Gimcheon Sangmu FC | republic-of-korea-k-league-1 | odds_api_io_events_bookmaker_filtered
 - 2026-05-13 14:00 | APO Levadiakos FC vs OFI Crete | greece-super-league | odds_api_io_events_bookmaker_filtered
 - 2026-05-13 00:30 | Argentinos Juniors vs CA Huracan | argentina-liga-profesional | odds_api_io_events_bookmaker_filtered
 - 2026-05-13 18:00 | Arsenal WFC vs Everton FC | england-amateur-super-league-women | odds_api_io_events_bookmaker_filtered
+- 2026-05-13 14:00 | BC Olympiakos Piraeus vs BC Kolossos Rhodes | greece-greek-basketball-league | odds_api_io_events_search
 - 2026-05-13 21:00 | Bogota FC vs Barranquilla FC | colombia-primera-b | odds_api_io_events_bookmaker_filtered
 - 2026-05-13 18:00 | Brest vs Strasbourg | ligue_1 | football_data_fixtures_proxy
 - 2026-05-13 10:30 | Bucheon FC 1995 vs Jeonbuk FC | republic-of-korea-k-league-1 | odds_api_io_events_bookmaker_filtered
@@ -86,5 +88,3 @@ Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 - 2026-05-13 23:30 | Orlando City SC vs Philadelphia Union | usa-mls | odds_api_io_events_bookmaker_filtered
 - 2026-05-13 17:00 | Osters IF vs Sandvikens IF | sweden-superettan | odds_api_io_events_bookmaker_filtered
 - 2026-05-13 14:45 | PFC CSKA Sofia vs FC CSKA 1948 | bulgaria-parva-liga | odds_api_io_events_bookmaker_filtered
-- 2026-05-13 17:15 | PFC Ludogorets 1945 Razgrad vs PFC Levski Sofia | bulgaria-parva-liga | odds_api_io_events_bookmaker_filtered
-- 2026-05-13 12:15 | PFC Slavia Sofia vs PFC Dobrudzha Dobrich | bulgaria-parva-liga | odds_api_io_events_bookmaker_filtered

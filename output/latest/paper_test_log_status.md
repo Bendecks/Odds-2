@@ -1,10 +1,10 @@
 # Paper Test Log Status
 
-Raw log rows: 95
-Valid forward/proxy log rows: 92
+Raw log rows: 99
+Valid forward/proxy log rows: 96
 Deduped forward/proxy observation rows: 49
-Duplicate forward/proxy log rows: 43
-Valid automatic proxy observation rows: 92
+Duplicate forward/proxy log rows: 47
+Valid automatic proxy observation rows: 96
 Deduped automatic proxy observation rows: 49
 Invalid historical/proxy log rows excluded: 3
 Has valid forward log: True
@@ -34,10 +34,6 @@ Has valid forward log: True
 
 ## Raw valid rows
 
-- 2026-05-13 | Alaves vs Barcelona | selection=draw | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
-- 2026-05-12 | Osasuna vs Ath Madrid | selection=draw | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
-- 2026-05-13 | Brest vs Strasbourg | selection=draw | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
-- 2026-05-13 | Brest vs Strasbourg | selection=draw | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
 - 2026-05-13 | Espanol vs Ath Bilbao | selection=draw | phase=automatic_forward_price_proxy | tier=negative_ev_control_observation
 - 2026-05-13 | Espanol vs Ath Bilbao | selection=draw | phase=automatic_forward_price_proxy | tier=negative_ev_control_observation
 - 2026-05-12 | Asteras Tripolis vs Panserraikos | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
@@ -53,6 +49,10 @@ Has valid forward log: True
 - 2026-05-12 | St Andrew Lions vs Ellerton FC | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 - 2026-05-13 | Motherwell vs Celtic | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 - 2026-05-13 | Motherwell FC vs Celtic Glasgow | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-13 | PAOK Thessaloniki vs AEK Athens | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-12 | Betis vs Elche | selection=away | phase=automatic_forward_price_proxy | tier=volume_observation
+- 2026-05-13 | Lens vs Paris SG | selection=draw | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
+- 2026-05-13 | Alaves vs Barcelona | selection=draw | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
 - 2026-05-13 | PAOK Thessaloniki vs AEK Athens | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 
 ## Invalid rows excluded

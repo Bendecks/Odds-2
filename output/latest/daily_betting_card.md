@@ -83,16 +83,16 @@ No qualifying candidate bets today.
 - Date/time: 2026-05-13 18:00
 - League/phase: la_liga / automatic_forward_price_proxy
 - Selection: AWAY
-- Market odds: 3.7
+- Market odds: 3.6
 - Fair odds: 3.07
 - Model probability: 0.326
 - Probability band: 0.25-0.35
-- EV: 0.2062
-- Probability edge: 0.0557
-- Alignment penalty: 0.2062
+- EV: 0.1736
+- Probability edge: 0.0482
+- Alignment penalty: 0.1736
 - Suppression action: none
 - Paper tier: priority_proxy_observation
-- Paper score: 0.2559
+- Paper score: 0.252
 - Prediction ID: 1a7b8238707be2164ab1
 
 ### Getafe vs Mallorca
@@ -367,43 +367,9 @@ No qualifying candidate bets today.
 - Paper score: 0.0733
 - Prediction ID: 47a98147bab51340cc57
 
-### Motherwell vs Celtic
+### Levadeiakos vs OFI Crete
 
-- Date/time: 2026-05-13 20:00
-- League/phase: SC0 / automatic_forward_price_proxy
-- Selection: HOME
-- Market odds: 4.5
-- Fair odds: 2.65
-- Model probability: 0.3772
-- Probability band: 0.35-0.45
-- EV: 0.6974
-- Probability edge: 0.155
-- Alignment penalty: 0.6974
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.0712
-- Prediction ID: 52961fc73f7fb2c0f43f
-
-### Motherwell FC vs Celtic Glasgow
-
-- Date/time: 2026-05-13 19:00
-- League/phase: scotland-premiership / automatic_forward_price_proxy
-- Selection: HOME
-- Market odds: 4.5
-- Fair odds: 2.65
-- Model probability: 0.3772
-- Probability band: 0.35-0.45
-- EV: 0.6974
-- Probability edge: 0.155
-- Alignment penalty: 0.6974
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.0712
-- Prediction ID: 8aea11726ec4ca7259c2
-
-### Asteras Tripolis vs Panserraikos
-
-- Date/time: 2026-05-12 17:00
+- Date/time: 2026-05-13 15:00
 - League/phase: G1 / automatic_forward_price_proxy
 - Selection: AWAY
 - Market odds: 5.0
@@ -416,7 +382,7 @@ No qualifying candidate bets today.
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
 - Paper score: 0.0711
-- Prediction ID: 10058db7a256d1e270ce
+- Prediction ID: 1c3f90b9a258bf231825
 
 ### PAOK Thessaloniki vs AEK Athens
 
@@ -434,6 +400,40 @@ No qualifying candidate bets today.
 - Paper tier: baseline_coverage_observation
 - Paper score: 0.0711
 - Prediction ID: 8f73869fc12eb2948b4c
+
+### PAOK Thessaloniki vs AEK Athens
+
+- Date/time: 2026-05-13 16:30
+- League/phase: greece-super-league / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 5.0
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.744
+- Probability edge: 0.1488
+- Alignment penalty: 0.744
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0711
+- Prediction ID: 8f73869fc12eb2948b4c
+
+### PAOK vs AEK
+
+- Date/time: 2026-05-13 17:30
+- League/phase: G1 / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 5.0
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.744
+- Probability edge: 0.1488
+- Alignment penalty: 0.744
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0711
+- Prediction ID: 2b19ca93bfc4a3298eef
 
 ## Snapshot summary
 

@@ -4,7 +4,7 @@ Use this only for forward paper-testing. Do not use for real-money betting.
 Existing filled odds are preserved when fixtures refresh.
 Fill the three 1X2 odds columns from Bet365 before kickoff, then commit/update the CSV or run the workflow manually.
 
-Template rows: 212
+Template rows: 142
 Rows with complete odds: 0
 
 - 2026-05-12 19:45 | Aberdeen vs St Mirren | bookmaker=bet365_manual
@@ -32,10 +32,12 @@ Rows with complete odds: 0
 - 2026-05-13 23:00 | AD Pasto vs CD Tolima | bookmaker=bet365_manual
 - 2026-05-13 20:30 | Alaves vs Barcelona | bookmaker=bet365_manual
 - 2026-05-13 18:45 | Alloa Athletic FC vs Stenhousemuir FC | bookmaker=bet365_manual
+- 2026-05-13 18:30 | AN Brescia vs Olympiakos | bookmaker=bet365_manual
 - 2026-05-13 10:30 | FC Anyang vs Gimcheon Sangmu FC | bookmaker=bet365_manual
 - 2026-05-13 14:00 | APO Levadiakos FC vs OFI Crete | bookmaker=bet365_manual
 - 2026-05-13 00:30 | Argentinos Juniors vs CA Huracan | bookmaker=bet365_manual
 - 2026-05-13 18:00 | Arsenal WFC vs Everton FC | bookmaker=bet365_manual
+- 2026-05-13 14:00 | BC Olympiakos Piraeus vs BC Kolossos Rhodes | bookmaker=bet365_manual
 - 2026-05-13 21:00 | Bogota FC vs Barranquilla FC | bookmaker=bet365_manual
 - 2026-05-13 18:00 | Brest vs Strasbourg | bookmaker=bet365_manual
 - 2026-05-13 10:30 | Bucheon FC 1995 vs Jeonbuk FC | bookmaker=bet365_manual
@@ -92,7 +94,6 @@ Rows with complete odds: 0
 - 2026-05-13 19:00 | Racing Club De Lens vs Paris Saint-Germain | bookmaker=bet365_manual
 - 2026-05-13 20:00 | Rangers vs Hibernian | bookmaker=bet365_manual
 - 2026-05-13 18:30 | RKS Rakow Czestochowa vs Jagiellonia Bialystok | bookmaker=bet365_manual
-- 2026-05-13 20:00 | Santiago Wanderers vs Union Espanola | bookmaker=bet365_manual
 - 2026-05-13 17:00 | Stade Brest 29 vs Strasbourg Alsace | bookmaker=bet365_manual
 - 2026-05-13 19:00 | Stockport County FC vs Stevenage FC | bookmaker=bet365_manual
 - 2026-05-13 10:30 | Ulsan HD FC vs Jeju SK FC | bookmaker=bet365_manual
@@ -147,75 +148,4 @@ Rows with complete odds: 0
 - 2026-05-14 14:30 | FC Thun vs Young Boys Bern | bookmaker=bet365_manual
 - 2026-05-14 17:00 | Valencia CF vs Rayo Vallecano | bookmaker=bet365_manual
 - 2026-05-14 18:00 | Valencia vs Vallecano | bookmaker=bet365_manual
-- 2026-05-15 18:15 | FC Aarau vs Yverdon-Sport | bookmaker=bet365_manual
-- 2026-05-15 09:35 | Adelaide United FC vs Auckland FC | bookmaker=bet365_manual
-- 2026-05-15 16:00 | Akritas Chlorakas vs AEL Limassol | bookmaker=bet365_manual
-- 2026-05-15 18:00 | Al-Taawoun FC vs Al-Riyadh SC | bookmaker=bet365_manual
-- 2026-05-15 19:00 | Aston Villa vs Liverpool FC | bookmaker=bet365_manual
-- 2026-05-15 17:00 | B93 Copenhagen vs Aalborg BK | bookmaker=bet365_manual
-- 2026-05-15 11:00 | Balcatta FC vs Fremantle City FC | bookmaker=bet365_manual
-- 2026-05-15 12:00 | Beijing Guoan vs Qingdao Hainiu FC | bookmaker=bet365_manual
-- 2026-05-15 10:30 | Bentleigh Greens vs Heidelberg United FC | bookmaker=bet365_manual
-- 2026-05-15 18:45 | Bohemians Dublin FC vs Drogheda United FC | bookmaker=bet365_manual
-- 2026-05-15 09:15 | Brisbane Roar FC vs Lions FC | bookmaker=bet365_manual
-- 2026-05-15 20:00 | FC Cajamarca vs Sporting Cristal | bookmaker=bet365_manual
-- 2026-05-15 17:00 | Caykur Rizespor vs Besiktas Istanbul | bookmaker=bet365_manual
-- 2026-05-15 18:30 | CD Castellon vs Cadiz CF | bookmaker=bet365_manual
-- 2026-05-15 18:45 | Cobh Ramblers vs Athlone Town AFC | bookmaker=bet365_manual
-- 2026-05-15 19:00 | Cordoba CF vs Albacete Balompie | bookmaker=bet365_manual
-- 2026-05-15 17:00 | Corum FK vs Bodrum FK | bookmaker=bet365_manual
-- 2026-05-15 12:00 | Dalian Yingbo FC vs Qingdao West Coast FC | bookmaker=bet365_manual
-- 2026-05-15 16:15 | Damac FC vs Al-Fayha FC | bookmaker=bet365_manual
-- 2026-05-15 09:45 | Dandenong City SC vs Oakleigh Cannons | bookmaker=bet365_manual
-- 2026-05-15 17:30 | Dijon FCO vs US Orleans | bookmaker=bet365_manual
-- 2026-05-15 19:00 | Dundalk FC vs Shamrock Rovers | bookmaker=bet365_manual
-- 2026-05-15 00:30 | EC Vitoria BA vs CR Flamengo RJ | bookmaker=bet365_manual
-- 2026-05-15 16:00 | Ethnikos Achnas FC vs Omonia Aradippou | bookmaker=bet365_manual
-- 2026-05-15 18:15 | Etoile Carouge FC vs AC Bellinzona | bookmaker=bet365_manual
-- 2026-05-15 17:00 | FK Riteriai vs FK Panevezys | bookmaker=bet365_manual
-- 2026-05-15 17:30 | FC Fleury 91 vs FC Rouen | bookmaker=bet365_manual
-- 2026-05-15 15:00 | Grobinas SC/LFS vs FK Tukums 2000/TSS | bookmaker=bet365_manual
-- 2026-05-15 11:35 | Henan vs Shenzhen Peng City | bookmaker=bet365_manual
-- 2026-05-15 18:45 | Kerry FC vs Wexford FC | bookmaker=bet365_manual
-- 2026-05-15 16:00 | Kolding IF vs Lyngby BK | bookmaker=bet365_manual
-- 2026-05-15 18:30 | Korona Kielce vs Widzew Lodz | bookmaker=bet365_manual
-- 2026-05-15 21:30 | LDU Quito vs CD Tecnico Universitario | bookmaker=bet365_manual
-- 2026-05-15 10:00 | Maitland FC vs Cooks Hill United | bookmaker=bet365_manual
-- 2026-05-15 15:00 | MSK Puchov vs MSK Povazska Bystrica | bookmaker=bet365_manual
-- 2026-05-15 15:00 | MSK Zilina B vs Slavia Tu Kosice | bookmaker=bet365_manual
-- 2026-05-15 19:00 | Notts County vs Chesterfield FC | bookmaker=bet365_manual
-- 2026-05-15 15:45 | Nyiregyhaza Spartacus FC vs Kazincbarcikai SC | bookmaker=bet365_manual
 - 2026-05-15 16:00 | Olympiakos Nicosia vs Anorthosis Famagusta | bookmaker=bet365_manual
-- 2026-05-15 18:45 | Oud-Heverlee Leuven vs Royal Antwerp FC | bookmaker=bet365_manual
-- 2026-05-15 01:00 | CF Pachuca vs Pumas UNAM | bookmaker=bet365_manual
-- 2026-05-15 09:30 | Peninsula Power FC vs Gold Coast Knights | bookmaker=bet365_manual
-- 2026-05-15 16:00 | Pogon Siedlce vs FKS Stal Mielec | bookmaker=bet365_manual
-- 2026-05-15 18:30 | Polonia Warszawa vs Wisla Krakow | bookmaker=bet365_manual
-- 2026-05-15 18:00 | Puskas Akademia FC Felcsut vs MTK Budapest | bookmaker=bet365_manual
-- 2026-05-15 17:30 | Quevilly-Rouen Metropole vs Paris 13 Atletico | bookmaker=bet365_manual
-- 2026-05-15 18:15 | FC Rapperswil-Jona vs FC Stade Nyonnais | bookmaker=bet365_manual
-- 2026-05-15 18:45 | Saint Patrick´s Athletic FC vs Shelbourne FC | bookmaker=bet365_manual
-- 2026-05-15 18:15 | Salford City vs Grimsby Town | bookmaker=bet365_manual
-- 2026-05-15 16:00 | Sandnes Ulf vs Egersunds IK | bookmaker=bet365_manual
-- 2026-05-15 17:30 | SC Aubagne Air Bel vs SM Caen | bookmaker=bet365_manual
-- 2026-05-15 11:35 | Shanghai Port FC vs Zhejiang FC | bookmaker=bet365_manual
-- 2026-05-15 17:30 | Sochaux-Montbeliard vs Le Puy Foot 43 Auvergne | bookmaker=bet365_manual
-- 2026-05-15 18:00 | SSC Bari vs FC Sudtirol Bolzano | bookmaker=bet365_manual
-- 2026-05-15 18:15 | Stade Lausanne Ouchy vs Neuchatel Xamax | bookmaker=bet365_manual
-- 2026-05-15 11:35 | Tianjin Jinmen Tiger vs Chengdu Rongcheng | bookmaker=bet365_manual
-- 2026-05-15 18:45 | Treaty United vs Finn Harps FC | bookmaker=bet365_manual
-- 2026-05-15 17:30 | US Concarneau vs FC Villefranche Beaujolais | bookmaker=bet365_manual
-- 2026-05-15 17:30 | Valenciennes FC vs LB Chateauroux | bookmaker=bet365_manual
-- 2026-05-15 17:30 | FC Versailles 78 vs Stade Briochin | bookmaker=bet365_manual
-- 2026-05-15 18:45 | Waterford FC vs Derry City FC | bookmaker=bet365_manual
-- 2026-05-15 18:15 | FC Wil 1900 vs FC Vaduz | bookmaker=bet365_manual
-- 2026-05-15 09:30 | Wynnum Wolves FC vs Eastern Suburbs FC | bookmaker=bet365_manual
-- 2026-05-15 16:00 | Zaglebie Lubin vs Pogon Szczecin | bookmaker=bet365_manual
-- 2026-05-16 08:30 | Darwin Hearts FC Reserves vs Garuda FC Reserves | bookmaker=bet365_manual
-- 2026-05-16 07:00 | Fremantle City vs Olympic Kingsway SC | bookmaker=bet365_manual
-- 2026-05-16 08:45 | Kedah Darul Aman vs Manjung City FC | bookmaker=bet365_manual
-- 2026-05-16 07:00 | Mandurah City vs UWA Nedlands FC | bookmaker=bet365_manual
-- 2026-05-16 05:00 | Mandurah City FC Reserves vs Uwa Nedlands FC Reserves | bookmaker=bet365_manual
-- 2026-05-16 07:00 | Olympic Kingsway SC vs Fremantle City | bookmaker=bet365_manual
-- 2026-05-16 06:30 | Port Darwin FC vs Darwin Hearts FC | bookmaker=bet365_manual
-- 2026-05-16 09:30 | Sydney City Comets vs Manly Warringah Sea Eagles | bookmaker=bet365_manual

@@ -5,7 +5,7 @@ This report does not activate new markets. It only shows what may be available f
 
 Raw files scanned: 22
 Events seen in raw odds: 110
-Market rows seen: 4633
+Market rows seen: 4632
 Unique bookmakers: 2
 Unique market names: 71
 Bet365 market rows: 4462
@@ -13,10 +13,10 @@ Bet365 market rows: 4462
 ## Market types found
 
 - Other / Unknown: 1955
-- Goals total / Over-Under: 1118
-- Handicap / Spread: 806
+- Goals total / Over-Under: 1119
+- Handicap / Spread: 805
 - Both teams to score: 282
-- 1X2 / Match result: 135
+- 1X2 / Match result: 134
 - Half-time / Period: 118
 - Double chance: 110
 - Correct score: 109

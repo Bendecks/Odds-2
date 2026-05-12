@@ -1,2 +1,2 @@
 latest_run_calls_used,latest_max_calls,provider_rate_limit_limit,provider_rate_limit_remaining,provider_rate_limit_remaining_ratio,provider_rate_limit_reset,provider_retry_after,repo_usage_log_rows
-14,14,100,33,0.33,2026-05-12T21:55:16Z,,33
+14,14,100,0,0.0,2026-05-12T21:55:16Z,,34

@@ -2,13 +2,11 @@
 
 Probability-only forward prediction log. This is not a betting log and contains no stake or real-money signal.
 
-Current forward fixture predictions: 212
+Current forward fixture predictions: 142
 New forward fixture predictions logged: 0
-Total forward fixture predictions logged: 359
+Total forward fixture predictions logged: 361
 Log type: probability_only_no_market_prices
 
-- 2026-05-15 2026-05-12 18:45:00 | Cobh Ramblers vs Athlone Town AFC | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-15 2026-05-12 18:45:00 | Kerry FC vs Wexford FC | H=0.37720000000000004 D=0.274 A=0.3488
 - 2026-05-15 2026-05-12 18:45:00 | Oud-Heverlee Leuven vs Royal Antwerp FC | H=0.37720000000000004 D=0.274 A=0.3488
 - 2026-05-15 2026-05-12 18:45:00 | Saint Patrick´s Athletic FC vs Shelbourne FC | H=0.37720000000000004 D=0.274 A=0.3488
 - 2026-05-15 2026-05-12 18:45:00 | Treaty United vs Finn Harps FC | H=0.37720000000000004 D=0.274 A=0.3488
@@ -27,3 +25,5 @@ Log type: probability_only_no_market_prices
 - 2026-05-16 2026-05-12 08:30:00 | Darwin Hearts FC Reserves vs Garuda FC Reserves | H=0.37720000000000004 D=0.274 A=0.3488
 - 2026-05-16 2026-05-12 08:45:00 | Kedah Darul Aman vs Manjung City FC | H=0.37720000000000004 D=0.274 A=0.3488
 - 2026-05-16 2026-05-12 09:30:00 | Sydney City Comets vs Manly Warringah Sea Eagles | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-13 2026-05-12 14:00:00 | BC Olympiakos Piraeus vs BC Kolossos Rhodes | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-13 2026-05-12 18:30:00 | AN Brescia vs Olympiakos | H=0.37720000000000004 D=0.274 A=0.3488
