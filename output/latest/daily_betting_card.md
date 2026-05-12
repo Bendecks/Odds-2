@@ -10,6 +10,74 @@ No qualifying candidate bets today.
 
 ## Paper-Test Picks
 
+### PFC Cherno More Varna vs PFC Lokomotiv Plovdiv
+
+- Date/time: 2026-05-12 14:45
+- League/phase: bulgaria-parva-liga / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 4.1
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.00-0.35
+- EV: 0.4301
+- Probability edge: 0.1049
+- Alignment penalty: 0.4301
+- Suppression action: proxy_suppressed_band_observe_only
+- Paper tier: suppressed_band_proxy_observation
+- Paper score: 0.0739
+- Prediction ID: 5c33e27f3c4410ed68c4
+
+### TRA United vs Jkt Tanzania
+
+- Date/time: 2026-05-12 13:15
+- League/phase: tanzania-premier-league / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 3.5
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.00-0.35
+- EV: 0.2208
+- Probability edge: 0.0631
+- Alignment penalty: 0.2208
+- Suppression action: proxy_suppressed_band_observe_only
+- Paper tier: suppressed_band_proxy_observation
+- Paper score: 0.0716
+- Prediction ID: 34ef6abfb87a2af70436
+
+### Sportivo Ameliano vs Deportivo Recoleta Reserve
+
+- Date/time: 2026-05-12 10:30
+- League/phase: paraguay-primera-division-reserve-apertura / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 3.3
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.00-0.35
+- EV: 0.151
+- Probability edge: 0.0458
+- Alignment penalty: 0.151
+- Suppression action: proxy_suppressed_band_observe_only
+- Paper tier: suppressed_band_proxy_observation
+- Paper score: 0.0706
+- Prediction ID: 386769fafb5376f24ba7
+
+### AL Ittihad Kalba vs AL Nasr
+
+- Date/time: 2026-05-12 14:10
+- League/phase: united-arab-emirates-u23-pro-league / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 3.3
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.00-0.35
+- EV: 0.151
+- Probability edge: 0.0458
+- Alignment penalty: 0.151
+- Suppression action: proxy_suppressed_band_observe_only
+- Paper tier: suppressed_band_proxy_observation
+- Paper score: 0.0706
+- Prediction ID: 0f6a71afcd810550a20a
+
 ### Canberra White Eagles FC vs Queanbeyan City FC
 
 - Date/time: 2026-05-12 07:30
@@ -27,6 +95,23 @@ No qualifying candidate bets today.
 - Paper score: 0.0706
 - Prediction ID: dabb233183cfe864c5d8
 
+### AL Wasl vs AL Jazira
+
+- Date/time: 2026-05-12 14:10
+- League/phase: united-arab-emirates-u23-pro-league / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 3.3
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.00-0.35
+- EV: 0.151
+- Probability edge: 0.0458
+- Alignment penalty: 0.151
+- Suppression action: proxy_suppressed_band_observe_only
+- Paper tier: suppressed_band_proxy_observation
+- Paper score: 0.0706
+- Prediction ID: be743004d37f19c1db36
+
 ### Sunshine Coast Wanderers FC vs Eastern Suburbs FC
 
 - Date/time: 2026-05-12 09:45
@@ -43,91 +128,6 @@ No qualifying candidate bets today.
 - Paper tier: suppressed_band_proxy_observation
 - Paper score: 0.0706
 - Prediction ID: ce21558fb1861a710d9e
-
-### Gangwon FC vs Daejeon Citizen FC
-
-- Date/time: 2026-05-12 10:30
-- League/phase: republic-of-korea-k-league-1 / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 3.1
-- Fair odds: 2.87
-- Model probability: 0.3488
-- Probability band: 0.00-0.35
-- EV: 0.0813
-- Probability edge: 0.0262
-- Alignment penalty: 0.0813
-- Suppression action: proxy_suppressed_band_observe_only
-- Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.0695
-- Prediction ID: fb5291022f6d38baa0d3
-
-### Hellenic Athletic Club vs Darwin Hearts FC
-
-- Date/time: 2026-05-12 10:30
-- League/phase: australia-northern-territory-premier-league / automatic_forward_price_proxy
-- Selection: DRAW
-- Market odds: 4.2
-- Fair odds: 3.65
-- Model probability: 0.274
-- Probability band: 0.00-0.35
-- EV: 0.1508
-- Probability edge: 0.0359
-- Alignment penalty: 0.1508
-- Suppression action: proxy_suppressed_band_observe_only
-- Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.0684
-- Prediction ID: de3d070ab1a07787588d
-
-### Gwangju FC vs FC Seoul
-
-- Date/time: 2026-05-12 10:30
-- League/phase: republic-of-korea-k-league-1 / automatic_forward_price_proxy
-- Selection: DRAW
-- Market odds: 4.2
-- Fair odds: 3.65
-- Model probability: 0.274
-- Probability band: 0.00-0.35
-- EV: 0.1508
-- Probability edge: 0.0359
-- Alignment penalty: 0.1508
-- Suppression action: proxy_suppressed_band_observe_only
-- Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.0684
-- Prediction ID: d27355bf775167c01512
-
-### Incheon United FC vs FC Pohang Steelers
-
-- Date/time: 2026-05-12 10:30
-- League/phase: republic-of-korea-k-league-1 / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 2.88
-- Fair odds: 2.87
-- Model probability: 0.3488
-- Probability band: 0.00-0.35
-- EV: 0.0028
-- Probability edge: 0.001
-- Alignment penalty: 0.0028
-- Suppression action: proxy_suppressed_band_observe_only
-- Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.0681
-- Prediction ID: e05c0d138da074d85971
-
-### Cerro Porteno Asuncion vs Guarani Asuncion
-
-- Date/time: 2026-05-12 10:30
-- League/phase: paraguay-primera-division-reserve-apertura / automatic_forward_price_proxy
-- Selection: DRAW
-- Market odds: 3.8
-- Fair odds: 3.65
-- Model probability: 0.274
-- Probability band: 0.00-0.35
-- EV: 0.0412
-- Probability edge: 0.0108
-- Alignment penalty: 0.0412
-- Suppression action: proxy_suppressed_band_observe_only
-- Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.067
-- Prediction ID: 81cc742994ee1e88a647
 
 ## Snapshot summary
 

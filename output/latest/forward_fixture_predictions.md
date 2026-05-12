@@ -4,10 +4,10 @@ Probability-only forward fixture model output. Not a betting card and not a real
 Full model rows use matched team-strength data. Baseline rows are conservative league-average placeholders used to increase odds-matching coverage only.
 
 Upcoming fixture rows: 161
-Forward fixture prediction rows: 80
-Full model prediction rows: 0
-Baseline prediction rows: 80
-Max forward predictions: 80
+Forward fixture prediction rows: 160
+Full model prediction rows: 1
+Baseline prediction rows: 159
+Max forward predictions: 160
 Ready for price join: True
 
 - 2026-05-12 07:30 | Canberra White Eagles FC vs Queanbeyan City FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
@@ -90,3 +90,83 @@ Ready for price join: True
 - 2026-05-12 18:45 | Clyde FC vs Hamilton Academical FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-12 18:45 | FC Domagnano vs AC Virtus | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-12 18:45 | Dundee United vs Livingston FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-12 18:45 | Dunfermline Athletic FC vs Partick Thistle FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-12 18:45 | Kilmarnock FC vs Dundee FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-12 18:45 | SP Tre Penne vs SP La Fiorita | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-12 19:00 | Itagui Leones FC vs Orsomarso SC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-12 19:00 | JS Saoura vs CR Belouizdad | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-12 19:00 | San Antonio Bulo Bulo vs FC Universitario de Vinto | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-12 19:00 | Southampton FC vs Middlesbrough FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-12 19:00 | US Catanzaro vs US Avellino | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-12 19:30 | CA Osasuna vs Atletico Madrid | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-12 20:00 | CD Real Santander vs Boca Juniors de Cali | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-12 21:00 | Union Magdalena vs Real Cartagena FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-12 22:00 | CA Belgrano de Cordoba vs Union de Santa Fe | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-12 22:00 | Deportivo Tachira vs Metropolitanos FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-12 22:00 | GV Club Deportivo San Jose de Oruro vs CD Real Tomayapo | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-12 22:30 | Londrina EC PR vs Sao Bernardo FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-12 22:30 | SC Internacional RS vs Athletic Club Sjdr MG | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-12 23:00 | Banos Ciudad de Fuego vs Delfin SC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-12 23:00 | Boston Legacy FC vs Orlando Pride | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-12 23:00 | LVU Rush vs West Chester United SC USL2 | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-12 23:00 | Mahaut Soca Strikers vs Middleham United FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-12 23:00 | St Andrew Lions vs Ellerton FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-12 23:20 | Atletico Nacional Medellin vs Internacional de Bogota. | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-12 23:30 | UCV FC vs Deportivo La Guaira | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 00:00 | Club Aurora vs Cdt Real Oruro | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 00:00 | Olancho FC vs FC Motagua Tegucigalpa | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 00:30 | Argentinos Juniors vs CA Huracan | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 00:30 | Cruzeiro EC MG vs Goias EC GO | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 00:30 | Fluminense FC RJ vs Operario Ferroviario EC PR | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 01:30 | Independiente Santa Fe vs America de Cali | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 02:15 | CD Olimpia Tegucigalpa vs Real CD Espana San Pedro Sula | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 10:00 | Machida Zelvia vs Tokyo Verdy | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 10:00 | Vissel Kobe vs Kyoto Sanga FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 10:30 | FC Anyang vs Gimcheon Sangmu FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 10:30 | Bucheon FC 1995 vs Jeonbuk FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 10:30 | Ulsan HD FC vs Jeju SK FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 12:15 | PFC Slavia Sofia vs PFC Dobrudzha Dobrich | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 14:00 | APO Levadiakos FC vs OFI Crete | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 14:00 | Volos NPS vs Aris Thessaloniki | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 14:45 | PFC CSKA Sofia vs FC CSKA 1948 | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 15:00 | Forge FC Hamilton vs FC Supra Du Quebec | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 16:00 | MKS Arka Gdynia vs Gornik Zabrze | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 16:30 | Olympiacos Piraeus vs Panathinaikos Athens | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 16:30 | PAOK Thessaloniki vs AEK Athens | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 17:00 | Espanyol Barcelona vs Athletic Bilbao | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 17:00 | Falkenbergs FF vs Varbergs BoIS | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 17:00 | Helsingborgs IF vs IK Oddevold | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 17:00 | IFK Norrkoping FK vs Nordic United FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 17:00 | IK Brage vs Ostersunds FK | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 17:00 | Osters IF vs Sandvikens IF | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 17:00 | Stade Brest 29 vs Strasbourg Alsace | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 17:00 | Villarreal CF vs Sevilla FC | coverage=full_team_strength_match | H=0.4041 D=0.2699 A=0.326 | fair=2.47/3.71/3.07
+- 2026-05-13 17:15 | PFC Ludogorets 1945 Razgrad vs PFC Levski Sofia | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 18:00 | Arsenal WFC vs Everton FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 18:00 | FK Vojvodina Novi Sad vs FK Crvena Zvezda Belgrade | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 18:30 | RKS Rakow Czestochowa vs Jagiellonia Bialystok | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 18:45 | Alloa Athletic FC vs Stenhousemuir FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 19:00 | Glasgow Rangers vs Hibernian FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 19:00 | Heart of Midlothian FC vs Falkirk FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 19:00 | Lazio Rome vs Inter Milano | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 19:00 | Motherwell FC vs Celtic Glasgow | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 19:00 | Racing Club De Lens vs Paris Saint-Germain | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 19:00 | Stockport County FC vs Stevenage FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 19:00:00 | Manchester City vs Crystal Palace | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 19:30 | Deportivo Alaves vs FC Barcelona | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 19:30 | Getafe CF vs RCD Mallorca | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 21:00 | Bogota FC vs Barranquilla FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 22:00 | CA Rosario Central vs Racing Club Avellaneda | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 22:00 | CR Vasco da Gama RJ vs Paysandu SC PA | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 22:00 | EC Juventude RS vs Sao Paulo FC SP | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 22:30 | Coritiba FC PR vs Santos FC SP | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 23:00 | AD Pasto vs CD Tolima | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 23:00 | Carabobo FC vs Estudiantes de Merida | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 23:15 | Charlotte FC vs New York City FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 23:30 | Academia Puerto Cabello vs Portuguesa FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 23:30 | FC Cincinnati vs Inter Miami CF | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 23:30 | DC United vs Chicago Fire | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 23:30 | Mirassol FC SP vs Red Bull Bragantino SP | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 23:30 | CF Montreal vs Portland Timbers | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 23:30 | New England Revolution vs Nashville SC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-13 23:30 | New York Red Bulls vs Columbus Crew | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87

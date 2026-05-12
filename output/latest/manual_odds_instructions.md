@@ -129,7 +129,7 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-13 18:00 | Arsenal WFC vs Everton FC
 - 2026-05-13 21:00 | Bogota FC vs Barranquilla FC
 - 2026-05-13 10:30 | Bucheon FC 1995 vs Jeonbuk FC
-- 2026-05-13 22:45 | CA Rosario Central vs Racing Club Avellaneda
+- 2026-05-13 22:00 | CA Rosario Central vs Racing Club Avellaneda
 - 2026-05-13 23:00 | Carabobo FC vs Estudiantes de Merida
 - 2026-05-13 02:15 | CD Olimpia Tegucigalpa vs Real CD Espana San Pedro Sula
 - 2026-05-13 23:15 | Charlotte FC vs New York City FC
