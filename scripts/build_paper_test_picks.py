@@ -83,21 +83,26 @@ def empty_paper() -> pd.DataFrame:
     return pd.DataFrame(columns=expected_columns)
 
 
+def text_series(frame: pd.DataFrame, column: str) -> pd.Series:
+    if column in frame.columns:
+        return frame[column].fillna('').astype(str)
+    return pd.Series([''] * len(frame), index=frame.index, dtype='object')
+
+
 def add_selection_diversity_rank(frame: pd.DataFrame) -> pd.DataFrame:
     if not len(frame):
         return frame
     work = frame.copy()
     work['event_selection_key'] = (
-        work.get('event_id', '').astype(str)
+        text_series(work, 'event_id')
         + '|'
-        + work.get('match_date', '').astype(str)
+        + text_series(work, 'match_date')
         + '|'
-        + work.get('home_team', '').astype(str)
+        + text_series(work, 'home_team')
         + '|'
-        + work.get('away_team', '').astype(str)
+        + text_series(work, 'away_team')
     )
     work = work.sort_values(['paper_test_score'], ascending=False)
-    # Keep max two outcomes per event in the visible current list. The log can still grow over time run-by-run.
     work['event_pick_rank'] = work.groupby('event_selection_key').cumcount() + 1
     return work[work['event_pick_rank'] <= 2].drop(columns=['event_selection_key', 'event_pick_rank'], errors='ignore')
 
@@ -233,7 +238,6 @@ else:
                 'proxy_price_source': 0.84,
                 'baseline_coverage_only': 0.45,
             }).fillna(1.0)
-            # For volume-building, allow marginal/negative EV observations but rank positive EV higher.
             ev_component = paper['ev'].fillna(0).clip(lower=-0.05)
             edge_component = paper['probability_edge'].fillna(0).clip(lower=-0.03)
             paper['paper_test_score'] = (
