@@ -1,4 +1,5 @@
 import json
+import os
 from pathlib import Path
 
 import pandas as pd
@@ -12,6 +13,17 @@ manual_forward_path = output_dir / 'manual_forward_snapshots.parquet'
 snapshot_path = output_dir / 'prediction_snapshots_latest.parquet'
 rules_path = output_dir / 'signal_suppression_rules.csv'
 paper_log_path = log_dir / 'paper_test_log.jsonl'
+
+PAPER_TEST_MAX_PICKS = int(os.getenv('PAPER_TEST_MAX_PICKS', '25'))
+PAPER_TEST_MIN_ODDS = float(os.getenv('PAPER_TEST_MIN_ODDS', '1.30'))
+PAPER_TEST_MAX_ODDS = float(os.getenv('PAPER_TEST_MAX_ODDS', '9.00'))
+PAPER_TEST_MIN_PROBABILITY = float(os.getenv('PAPER_TEST_MIN_PROBABILITY', '0.15'))
+PAPER_TEST_MAX_PROBABILITY = float(os.getenv('PAPER_TEST_MAX_PROBABILITY', '0.72'))
+PAPER_TEST_MIN_EDGE = float(os.getenv('PAPER_TEST_MIN_EDGE', '-0.03'))
+PAPER_TEST_MAX_EDGE = float(os.getenv('PAPER_TEST_MAX_EDGE', '0.32'))
+PAPER_TEST_MIN_EV = float(os.getenv('PAPER_TEST_MIN_EV', '-0.05'))
+PAPER_TEST_MAX_EV = float(os.getenv('PAPER_TEST_MAX_EV', '1.10'))
+PAPER_TEST_MAX_ALIGNMENT_PENALTY = float(os.getenv('PAPER_TEST_MAX_ALIGNMENT_PENALTY', '0.80'))
 
 expected_columns = [
     'snapshot_id', 'prediction_id', 'event_id', 'created_at_utc',
@@ -47,7 +59,7 @@ def safe_read_csv(path: Path) -> pd.DataFrame:
 def probability_band(probability: float) -> str:
     if pd.isna(probability):
         return 'unknown'
-    for start, end in [(0.00, 0.35), (0.35, 0.45), (0.45, 0.50), (0.50, 0.55), (0.55, 1.00)]:
+    for start, end in [(0.00, 0.25), (0.25, 0.35), (0.35, 0.45), (0.45, 0.55), (0.55, 0.72), (0.72, 1.00)]:
         if start <= float(probability) < end:
             return f'{start:.2f}-{end:.2f}'
     return 'unknown'
@@ -71,12 +83,32 @@ def empty_paper() -> pd.DataFrame:
     return pd.DataFrame(columns=expected_columns)
 
 
+def add_selection_diversity_rank(frame: pd.DataFrame) -> pd.DataFrame:
+    if not len(frame):
+        return frame
+    work = frame.copy()
+    work['event_selection_key'] = (
+        work.get('event_id', '').astype(str)
+        + '|'
+        + work.get('match_date', '').astype(str)
+        + '|'
+        + work.get('home_team', '').astype(str)
+        + '|'
+        + work.get('away_team', '').astype(str)
+    )
+    work = work.sort_values(['paper_test_score'], ascending=False)
+    # Keep max two outcomes per event in the visible current list. The log can still grow over time run-by-run.
+    work['event_pick_rank'] = work.groupby('event_selection_key').cumcount() + 1
+    return work[work['event_pick_rank'] <= 2].drop(columns=['event_selection_key', 'event_pick_rank'], errors='ignore')
+
+
 auto_value = safe_read_parquet(auto_value_path)
 manual_forward = safe_read_parquet(manual_forward_path)
 historical_snapshots = safe_read_parquet(snapshot_path)
 rules = safe_read_csv(rules_path)
 reason = ''
 source_used = 'automatic_forward_value_snapshots'
+filter_summary = {}
 
 if len(auto_value):
     snapshots = auto_value.copy()
@@ -137,9 +169,9 @@ else:
         forward_snapshots['calibration_risk'] = 'normal'
         forward_snapshots.loc[forward_snapshots['sample_phase'] == 'automatic_forward_price_proxy', 'calibration_risk'] = 'proxy_price_source'
         forward_snapshots.loc[forward_snapshots['model_coverage'] == 'baseline_unmatched_fixture', 'calibration_risk'] = 'baseline_coverage_only'
-        forward_snapshots.loc[forward_snapshots['probability'].fillna(0) >= 0.50, 'calibration_risk'] = 'high_probability_band'
-        forward_snapshots.loc[forward_snapshots['probability_edge'].fillna(0).abs() >= 0.16, 'calibration_risk'] = 'large_probability_edge'
-        forward_snapshots.loc[forward_snapshots['alignment_penalty'].fillna(0) >= 0.45, 'calibration_risk'] = 'market_misalignment'
+        forward_snapshots.loc[forward_snapshots['probability'].fillna(0) >= 0.55, 'calibration_risk'] = 'high_probability_band'
+        forward_snapshots.loc[forward_snapshots['probability_edge'].fillna(0).abs() >= 0.20, 'calibration_risk'] = 'large_probability_edge'
+        forward_snapshots.loc[forward_snapshots['alignment_penalty'].fillna(0) >= 0.60, 'calibration_risk'] = 'market_misalignment'
         forward_snapshots.loc[forward_snapshots['model_coverage'] == 'baseline_unmatched_fixture', 'calibration_risk'] = 'baseline_coverage_only'
 
         forward_snapshots['suppression_action'] = 'none'
@@ -166,37 +198,66 @@ else:
         forward_snapshots.loc[is_proxy & (forward_snapshots['suppression_action'] == 'suppress'), 'suppression_action'] = 'proxy_suppressed_band_observe_only'
         forward_snapshots.loc[is_baseline & (forward_snapshots['suppression_action'] != 'proxy_suppressed_band_observe_only'), 'suppression_action'] = 'baseline_coverage_observe_only'
 
+        filter_summary = {
+            'forward_rows_before_filter': int(len(forward_snapshots)),
+            'max_visible_paper_picks': PAPER_TEST_MAX_PICKS,
+            'odds_range': f'{PAPER_TEST_MIN_ODDS}-{PAPER_TEST_MAX_ODDS}',
+            'probability_range': f'{PAPER_TEST_MIN_PROBABILITY}-{PAPER_TEST_MAX_PROBABILITY}',
+            'edge_range': f'{PAPER_TEST_MIN_EDGE}-{PAPER_TEST_MAX_EDGE}',
+            'ev_range': f'{PAPER_TEST_MIN_EV}-{PAPER_TEST_MAX_EV}',
+            'max_alignment_penalty': PAPER_TEST_MAX_ALIGNMENT_PENALTY,
+        }
+
         paper = forward_snapshots[
             (forward_snapshots['suppression_action'] != 'suppress')
-            & (forward_snapshots['market_odds'].fillna(0).between(1.45, 7.50))
-            & (forward_snapshots['probability'].fillna(0).between(0.25, 0.58))
-            & (forward_snapshots['probability_edge'].fillna(0).between(0.000, 0.22))
-            & (forward_snapshots['ev'].fillna(0).between(0.00, 0.70))
-            & (forward_snapshots['alignment_penalty'].fillna(1).between(0.00, 0.56))
+            & (forward_snapshots['market_odds'].fillna(0).between(PAPER_TEST_MIN_ODDS, PAPER_TEST_MAX_ODDS))
+            & (forward_snapshots['probability'].fillna(0).between(PAPER_TEST_MIN_PROBABILITY, PAPER_TEST_MAX_PROBABILITY))
+            & (forward_snapshots['probability_edge'].fillna(0).between(PAPER_TEST_MIN_EDGE, PAPER_TEST_MAX_EDGE))
+            & (forward_snapshots['ev'].fillna(0).between(PAPER_TEST_MIN_EV, PAPER_TEST_MAX_EV))
+            & (forward_snapshots['alignment_penalty'].fillna(1).between(0.00, PAPER_TEST_MAX_ALIGNMENT_PENALTY))
         ].copy()
 
+        filter_summary['rows_after_observation_filter'] = int(len(paper))
+
         if len(paper):
-            action_weight = paper['suppression_action'].map({'monitor': 0.92, 'downweight': 0.65, 'proxy_suppressed_band_observe_only': 0.48, 'baseline_coverage_observe_only': 0.36}).fillna(1.0)
-            risk_weight = paper['calibration_risk'].map({'market_misalignment': 0.70, 'large_probability_edge': 0.78, 'high_probability_band': 0.85, 'proxy_price_source': 0.82, 'baseline_coverage_only': 0.45}).fillna(1.0)
+            action_weight = paper['suppression_action'].map({
+                'monitor': 0.92,
+                'downweight': 0.70,
+                'proxy_suppressed_band_observe_only': 0.55,
+                'baseline_coverage_observe_only': 0.42,
+            }).fillna(1.0)
+            risk_weight = paper['calibration_risk'].map({
+                'market_misalignment': 0.65,
+                'large_probability_edge': 0.76,
+                'high_probability_band': 0.84,
+                'proxy_price_source': 0.84,
+                'baseline_coverage_only': 0.45,
+            }).fillna(1.0)
+            # For volume-building, allow marginal/negative EV observations but rank positive EV higher.
+            ev_component = paper['ev'].fillna(0).clip(lower=-0.05)
+            edge_component = paper['probability_edge'].fillna(0).clip(lower=-0.03)
             paper['paper_test_score'] = (
-                ((paper['ev'].fillna(0) * 0.28)
-                 + (paper['probability_edge'].fillna(0) * 0.26)
-                 + ((1 - paper['alignment_penalty'].fillna(1)) * 0.28)
+                ((ev_component * 0.32)
+                 + (edge_component * 0.28)
+                 + ((1 - paper['alignment_penalty'].fillna(1)) * 0.24)
                  + (paper['probability'].fillna(0) * 0.10))
                 * action_weight
                 * risk_weight
             ).round(4)
-            paper['paper_test_tier'] = 'proxy_observation'
+            paper['paper_test_tier'] = 'volume_observation'
+            paper.loc[paper['ev'].fillna(0) < 0, 'paper_test_tier'] = 'negative_ev_control_observation'
             paper.loc[(paper['suppression_action'] == 'proxy_suppressed_band_observe_only'), 'paper_test_tier'] = 'suppressed_band_proxy_observation'
             paper.loc[(paper['suppression_action'] == 'baseline_coverage_observe_only'), 'paper_test_tier'] = 'baseline_coverage_observation'
-            paper.loc[(paper['paper_test_score'] >= 0.18) & (paper['alignment_penalty'] <= 0.34) & (paper['suppression_action'] != 'proxy_suppressed_band_observe_only') & (paper['suppression_action'] != 'baseline_coverage_observe_only'), 'paper_test_tier'] = 'priority_proxy_observation'
-            paper['paper_test_reason'] = 'automatic_forward_proxy_observation_not_real_money'
+            paper.loc[(paper['paper_test_score'] >= 0.18) & (paper['alignment_penalty'] <= 0.38) & (paper['ev'] >= 0.00) & (paper['suppression_action'] != 'proxy_suppressed_band_observe_only') & (paper['suppression_action'] != 'baseline_coverage_observe_only'), 'paper_test_tier'] = 'priority_proxy_observation'
+            paper['paper_test_reason'] = 'expanded_volume_forward_observation_not_real_money'
+            paper.loc[paper['ev'].fillna(0) < 0, 'paper_test_reason'] = 'negative_ev_control_observation_not_real_money'
             paper.loc[paper['suppression_action'] == 'proxy_suppressed_band_observe_only', 'paper_test_reason'] = 'suppressed_band_proxy_observation_not_real_money'
             paper.loc[paper['suppression_action'] == 'baseline_coverage_observe_only', 'paper_test_reason'] = 'baseline_coverage_observation_not_model_signal_not_real_money'
-            paper = paper.sort_values(['paper_test_score'], ascending=False).head(7)
+            paper = add_selection_diversity_rank(paper)
+            paper = paper.sort_values(['paper_test_score'], ascending=False).head(PAPER_TEST_MAX_PICKS)
         else:
             paper = empty_paper()
-            reason = 'Forward proxy rows exist, but none passed paper-test observation filters.'
+            reason = 'Forward proxy rows exist, but none passed expanded paper-test observation filters.'
 
 for col in expected_columns:
     if col not in paper.columns:
@@ -225,23 +286,34 @@ else:
 
 paper_log.to_csv(output_dir / 'paper_test_log_latest.csv', index=False)
 
+filter_summary.update({
+    'current_paper_picks': int(len(paper)),
+    'newly_logged_picks': int(len(new_rows)),
+    'total_logged_paper_rows': int(len(paper_log)),
+    'source_used': source_used,
+})
+pd.DataFrame([filter_summary]).to_csv(output_dir / 'paper_test_volume_filter_summary.csv', index=False)
+
 markdown = [
     '# Paper Test Picks',
     '',
     'Observation-only picks. These are not real-money recommendations.',
+    'This run uses expanded volume filters to collect more settlement evidence before tightening rules again.',
     'Automatic proxy prices are delayed/free market proxies, not live bookmaker odds.',
     'Baseline coverage observations are not model signals. They exist only to test the pipeline and collect settlement evidence.',
-    'Suppressed historical bands may be tracked only as proxy observation and remain excluded from real-money readiness.',
+    'Suppressed historical bands and negative-EV controls may be tracked as observations only.',
     '',
     f'Source used: {source_used}',
     f'Current paper-test picks: {len(paper)}',
     f'Newly logged paper-test picks: {len(new_rows)}',
     f'Total logged paper-test rows: {len(paper_log)}',
+    f'Max visible paper picks: {PAPER_TEST_MAX_PICKS}',
+    f'Filter summary: {filter_summary}',
     '',
 ]
 
 if len(paper) == 0:
-    markdown.append(reason or 'No paper-test picks passed the forward observation filter.')
+    markdown.append(reason or 'No paper-test picks passed the expanded forward observation filter.')
 else:
     for _, row in paper.iterrows():
         markdown.append(
@@ -257,5 +329,6 @@ else:
 print(f'Generated {len(paper)} forward-eligible paper-test picks')
 print(f'Logged {len(new_rows)} new paper-test picks')
 print(f'Total logged paper-test rows: {len(paper_log)}')
+print(filter_summary)
 print(reason)
 print(paper.head())
