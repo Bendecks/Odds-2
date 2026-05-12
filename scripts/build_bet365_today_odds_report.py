@@ -3,6 +3,7 @@ import csv
 import html
 import json
 import os
+import re
 import sys
 from datetime import datetime, time, timezone
 from pathlib import Path
@@ -15,6 +16,7 @@ BOOKMAKER = 'Bet365'
 TZ = ZoneInfo('Europe/Copenhagen')
 OUTPUT_DIR = Path('output/bet365/latest')
 RAW_DIR = Path('data/raw/odds_api_io/bet365_today_report')
+EXCLUDED_PATTERN = re.compile(r'(\bu\s?\d{2}\b|\bunder\s?\d{2}\b|\breserve\b|\breserves\b|\breserver\b|\byouth\b|\bacademy\b|\bb\s?team\b|\bii\b)', re.IGNORECASE)
 
 
 def now_dk():
@@ -91,6 +93,11 @@ def event_date(event):
     return safe(event.get('date') or event.get('startTime') or event.get('commence_time') or event.get('start_time'))
 
 
+def is_excluded_event(event):
+    text = ' '.join([team(event, 'home'), team(event, 'away'), league(event)])
+    return bool(EXCLUDED_PATTERN.search(text))
+
+
 def request_json(url, params, label, headers_log):
     response = requests.get(url, params=params, timeout=30)
     RAW_DIR.mkdir(parents=True, exist_ok=True)
@@ -119,6 +126,7 @@ def today_window():
 def fetch_events(api_key, sport_slug, max_events, max_pages, headers_log):
     report_date, start, end = today_window()
     all_events = []
+    excluded_events = []
     seen = set()
     for page in range(max_pages):
         params = {
@@ -135,12 +143,16 @@ def fetch_events(api_key, sport_slug, max_events, max_pages, headers_log):
         rows = event_items(payload)
         for event in rows:
             eid = event_id(event)
-            if eid and eid not in seen:
-                seen.add(eid)
+            if not eid or eid in seen:
+                continue
+            seen.add(eid)
+            if is_excluded_event(event):
+                excluded_events.append(event)
+            else:
                 all_events.append(event)
         if len(rows) < max_events:
             break
-    return report_date, all_events
+    return report_date, all_events, excluded_events
 
 
 def chunks(items, size):
@@ -225,6 +237,17 @@ def flatten(odds_payloads):
     return events, markets
 
 
+def event_summary_rows(events):
+    return [{
+        'event_id': event_id(event),
+        'date_denmark': dk_time(event_date(event)),
+        'home': team(event, 'home'),
+        'away': team(event, 'away'),
+        'league': league(event),
+        'sport': sport(event),
+    } for event in events]
+
+
 def write_csv(path, rows):
     if not rows:
         path.write_text('', encoding='utf-8')
@@ -253,7 +276,7 @@ def outcome_line(row):
     return text
 
 
-def write_html(path, report_date, events, markets, headers_log, args):
+def write_html(path, report_date, events, markets, headers_log, args, excluded_count):
     counts = market_counts(markets)
     by_event = {}
     for row in markets:
@@ -281,26 +304,18 @@ def write_html(path, report_date, events, markets, headers_log, args):
 body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#f6f6f6;margin:0;padding:16px;color:#111}}h1{{font-size:28px;margin:0 0 8px}}.summary,.card{{background:white;border-radius:14px;padding:16px;margin:12px 0;box-shadow:0 1px 5px rgba(0,0,0,.08)}}h2{{font-size:20px;margin:4px 0 6px}}.time{{font-size:14px;color:#555}}ul{{padding-left:20px}}li{{margin:7px 0;line-height:1.35}}.badge{{display:inline-block;background:#e8f1ff;padding:4px 8px;border-radius:999px;margin:2px}}.small{{color:#666;font-size:13px}}
 </style></head><body>
 <h1>Bet365 odds i dag</h1>
-<div class="summary"><p><span class="badge">Dato: {html.escape(report_date)}</span><span class="badge">Sport: {html.escape(args.sport)}</span><span class="badge">Bookmaker: Bet365</span><span class="badge">Kampe: {len(events)}</span><span class="badge">Markedsrækker: {len(markets)}</span></p><p class="small">Kun kampe i dag dansk tid. Genereret {html.escape(now_dk().strftime('%Y-%m-%d %H:%M'))}. Max odds-events: {args.max_price_events}.</p><p class="small">Rate-limit tilbage: {html.escape(str(latest.get('x_ratelimit_remaining','')))} / {html.escape(str(latest.get('x_ratelimit_limit','')))}</p></div>
+<div class="summary"><p><span class="badge">Dato: {html.escape(report_date)}</span><span class="badge">Sport: {html.escape(args.sport)}</span><span class="badge">Bookmaker: Bet365</span><span class="badge">Kampe: {len(events)}</span><span class="badge">Markedsrækker: {len(markets)}</span><span class="badge">U/reserve skjult: {excluded_count}</span></p><p class="small">Kun kampe i dag dansk tid. U-/reservekampe er sorteret fra før odds hentes. Genereret {html.escape(now_dk().strftime('%Y-%m-%d %H:%M'))}. Max odds-events: {args.max_price_events}.</p><p class="small">Rate-limit tilbage: {html.escape(str(latest.get('x_ratelimit_remaining','')))} / {html.escape(str(latest.get('x_ratelimit_limit','')))}</p></div>
 <div class="summary"><h2>Markeder fundet</h2><ul>{market_list if market_list else '<li>Ingen markeder fundet</li>'}</ul></div>
 {''.join(cards) if cards else '<div class="card">Ingen Bet365 odds fundet for i dag.</div>'}
 </body></html>""", encoding='utf-8')
 
 
-def write_markdown(path, report_date, events, markets, args):
+def write_markdown(path, report_date, events, markets, args, excluded_count):
     counts = market_counts(markets)
     by_event = {}
     for row in markets:
         by_event.setdefault(row['event_id'], []).append(row)
-    lines = [
-        '# Bet365 odds i dag', '',
-        f'- Dato: **{report_date}**',
-        f'- Sport: **{args.sport}**',
-        '- Bookmaker: **Bet365**',
-        f'- Kampe med odds: **{len(events)}**',
-        f'- Markedsrækker: **{len(markets)}**', '',
-        '## Markeder fundet', ''
-    ]
+    lines = ['# Bet365 odds i dag', '', f'- Dato: **{report_date}**', f'- Sport: **{args.sport}**', '- Bookmaker: **Bet365**', f'- Kampe med odds: **{len(events)}**', f'- Markedsrækker: **{len(markets)}**', f'- U-/reservekampe skjult: **{excluded_count}**', '', '## Markeder fundet', '']
     if counts:
         for name, count in sorted(counts.items(), key=lambda x: (-x[1], x[0]))[:50]:
             lines.append(f'- {name}: {count}')
@@ -315,7 +330,7 @@ def write_markdown(path, report_date, events, markets, args):
     path.write_text('\n'.join(lines), encoding='utf-8')
 
 
-def write_pdf(path, report_date, events, markets, args):
+def write_pdf(path, report_date, events, markets, args, excluded_count):
     try:
         from reportlab.lib import colors
         from reportlab.lib.pagesizes import A4
@@ -326,7 +341,7 @@ def write_pdf(path, report_date, events, markets, args):
         return False
     styles = getSampleStyleSheet()
     doc = SimpleDocTemplate(str(path), pagesize=A4, rightMargin=24, leftMargin=24, topMargin=24, bottomMargin=24)
-    story = [Paragraph('Bet365 odds i dag', styles['Title']), Paragraph(f'Dato: {report_date} | Sport: {args.sport} | Kampe: {len(events)}', styles['Normal']), Spacer(1, 12)]
+    story = [Paragraph('Bet365 odds i dag', styles['Title']), Paragraph(f'Dato: {report_date} | Sport: {args.sport} | Kampe: {len(events)} | U/reserve skjult: {excluded_count}', styles['Normal']), Spacer(1, 12)]
     counts = market_counts(markets)
     data = [['Marked', 'Rækker']] + [[k, str(v)] for k, v in sorted(counts.items(), key=lambda x: (-x[1], x[0]))[:20]]
     t = Table(data, colWidths=[340, 70])
@@ -352,8 +367,8 @@ def main():
     parser = argparse.ArgumentParser(description='Build today-only Bet365 odds report from Odds-API.io')
     parser.add_argument('--sport', default=os.getenv('BET365_REPORT_SPORT', 'football'))
     parser.add_argument('--max-events', type=int, default=int(os.getenv('BET365_REPORT_MAX_EVENTS', '100')))
-    parser.add_argument('--max-pages', type=int, default=int(os.getenv('BET365_REPORT_MAX_PAGES', '2')))
-    parser.add_argument('--max-price-events', type=int, default=int(os.getenv('BET365_REPORT_MAX_PRICE_EVENTS', '30')))
+    parser.add_argument('--max-pages', type=int, default=int(os.getenv('BET365_REPORT_MAX_PAGES', '4')))
+    parser.add_argument('--max-price-events', type=int, default=int(os.getenv('BET365_REPORT_MAX_PRICE_EVENTS', '60')))
     args = parser.parse_args()
     api_key = os.getenv('ODDS_API_IO_KEY')
     if not api_key:
@@ -362,21 +377,24 @@ def main():
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     RAW_DIR.mkdir(parents=True, exist_ok=True)
     headers_log = []
-    report_date, discovered = fetch_events(api_key, args.sport, args.max_events, args.max_pages, headers_log)
+    report_date, discovered, excluded = fetch_events(api_key, args.sport, args.max_events, args.max_pages, headers_log)
     selected, odds_payloads = fetch_odds(api_key, discovered, args.max_price_events, headers_log)
     events, markets = flatten(odds_payloads)
+    excluded_rows = event_summary_rows(excluded)
     write_csv(OUTPUT_DIR / 'bet365_today_events.csv', events)
     write_csv(OUTPUT_DIR / 'bet365_today_markets.csv', markets)
+    write_csv(OUTPUT_DIR / 'bet365_today_excluded_youth_reserve.csv', excluded_rows)
     write_csv(OUTPUT_DIR / 'bet365_today_rate_limit_headers.csv', headers_log)
-    write_html(OUTPUT_DIR / 'bet365_today_odds_report.html', report_date, events, markets, headers_log, args)
-    write_markdown(OUTPUT_DIR / 'bet365_today_odds_report.md', report_date, events, markets, args)
-    pdf_ok = write_pdf(OUTPUT_DIR / 'bet365_today_odds_report.pdf', report_date, events, markets, args)
+    write_html(OUTPUT_DIR / 'bet365_today_odds_report.html', report_date, events, markets, headers_log, args, len(excluded_rows))
+    write_markdown(OUTPUT_DIR / 'bet365_today_odds_report.md', report_date, events, markets, args, len(excluded_rows))
+    pdf_ok = write_pdf(OUTPUT_DIR / 'bet365_today_odds_report.pdf', report_date, events, markets, args, len(excluded_rows))
     summary = {
         'generated_at_dk': now_dk().strftime('%Y-%m-%d %H:%M'),
         'report_date_dk': report_date,
         'sport': args.sport,
         'bookmaker': BOOKMAKER,
-        'events_discovered_today': len(discovered),
+        'events_discovered_today_after_filter': len(discovered),
+        'excluded_youth_reserve_events': len(excluded_rows),
         'events_requested_for_odds': len(selected),
         'events_with_odds': len(events),
         'market_rows': len(markets),
