@@ -5,7 +5,7 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 
 ## Kort status
 
-- Aktuelle viste paper picks: **16**
+- Aktuelle viste paper picks: **14**
 - Unikke loggede paper picks: **48**
 - Afventer i loggen: **45**
 - Afgjorte fundet i settled-filen: **210**
@@ -79,15 +79,6 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **priority_proxy_observation**
 - Note: **expanded_volume_forward_observation_not_real_money**
 
-### Lens vs Paris SG
-- Dato: **2026-05-13**
-- Kampstart: **20:00**
-- Spil: **Uafgjort**
-- Odds: **4.00**
-- Status: **Afventer**
-- Type: **priority_proxy_observation**
-- Note: **expanded_volume_forward_observation_not_real_money**
-
 ### Osasuna vs Ath Madrid
 - Dato: **2026-05-12**
 - Kampstart: **20:30**
@@ -124,27 +115,9 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **negative_ev_control_observation**
 - Note: **negative_ev_control_observation_not_real_money**
 
-### St Andrew Lions vs Ellerton FC
+### Asteras Tripolis vs Panserraikos
 - Dato: **2026-05-12**
-- Kampstart: **23:00**
-- Spil: **Hjemmesejr**
-- Odds: **4.75**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Levadeiakos vs OFI Crete
-- Dato: **2026-05-13**
-- Kampstart: **15:00**
-- Spil: **Udebanesejr**
-- Odds: **5.00**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### PAOK Thessaloniki vs AEK Athens
-- Dato: **2026-05-13**
-- Kampstart: **16:30**
+- Kampstart: **17:00**
 - Spil: **Udebanesejr**
 - Odds: **5.00**
 - Status: **Afventer**
@@ -154,6 +127,15 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 ### PAOK vs AEK
 - Dato: **2026-05-13**
 - Kampstart: **17:30**
+- Spil: **Udebanesejr**
+- Odds: **5.00**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Levadeiakos vs OFI Crete
+- Dato: **2026-05-13**
+- Kampstart: **15:00**
 - Spil: **Udebanesejr**
 - Odds: **5.00**
 - Status: **Afventer**

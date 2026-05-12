@@ -218,14 +218,14 @@ No qualifying candidate bets today.
 
 - Date/time: 2026-05-13 20:00
 - League/phase: ligue_1 / automatic_forward_price_proxy
-- Selection: DRAW
-- Market odds: 4.0
-- Fair odds: 3.79
-- Model probability: 0.2638
+- Selection: HOME
+- Market odds: 3.4
+- Fair odds: 3.31
+- Model probability: 0.3022
 - Probability band: 0.25-0.35
-- EV: 0.0552
-- Probability edge: 0.0138
-- Alignment penalty: 0.0552
+- EV: 0.0275
+- Probability edge: 0.0081
+- Alignment penalty: 0.0275
 - Suppression action: none
 - Paper tier: priority_proxy_observation
 - Paper score: 0.2307
@@ -350,22 +350,39 @@ No qualifying candidate bets today.
 - Paper score: 0.2068
 - Prediction ID: 0fcb571cd54d22a99bcc
 
-### St Andrew Lions vs Ellerton FC
+### Asteras Tripolis vs Panserraikos
 
-- Date/time: 2026-05-12 23:00
-- League/phase: barbados-premier-league / automatic_forward_price_proxy
-- Selection: HOME
-- Market odds: 4.75
-- Fair odds: 2.65
-- Model probability: 0.3772
-- Probability band: 0.35-0.45
-- EV: 0.7917
-- Probability edge: 0.1667
-- Alignment penalty: 0.7917
+- Date/time: 2026-05-12 17:00
+- League/phase: G1 / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 5.0
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.744
+- Probability edge: 0.1488
+- Alignment penalty: 0.744
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
-- Paper score: 0.0733
-- Prediction ID: 47a98147bab51340cc57
+- Paper score: 0.0711
+- Prediction ID: 10058db7a256d1e270ce
+
+### PAOK vs AEK
+
+- Date/time: 2026-05-13 17:30
+- League/phase: G1 / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 5.0
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.744
+- Probability edge: 0.1488
+- Alignment penalty: 0.744
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0711
+- Prediction ID: 2b19ca93bfc4a3298eef
 
 ### Levadeiakos vs OFI Crete
 
@@ -384,10 +401,10 @@ No qualifying candidate bets today.
 - Paper score: 0.0711
 - Prediction ID: 1c3f90b9a258bf231825
 
-### PAOK Thessaloniki vs AEK Athens
+### Asteras Tripolis vs Panserraikos
 
-- Date/time: 2026-05-13 16:30
-- League/phase: greece-super-league / automatic_forward_price_proxy
+- Date/time: 2026-05-12 17:00
+- League/phase: G1 / automatic_forward_price_proxy
 - Selection: AWAY
 - Market odds: 5.0
 - Fair odds: 2.87
@@ -399,24 +416,7 @@ No qualifying candidate bets today.
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
 - Paper score: 0.0711
-- Prediction ID: 8f73869fc12eb2948b4c
-
-### PAOK Thessaloniki vs AEK Athens
-
-- Date/time: 2026-05-13 16:30
-- League/phase: greece-super-league / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 5.0
-- Fair odds: 2.87
-- Model probability: 0.3488
-- Probability band: 0.25-0.35
-- EV: 0.744
-- Probability edge: 0.1488
-- Alignment penalty: 0.744
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.0711
-- Prediction ID: 8f73869fc12eb2948b4c
+- Prediction ID: 10058db7a256d1e270ce
 
 ### PAOK vs AEK
 
