@@ -1,14 +1,14 @@
 {
-  "generated_at_dk": "2026-05-12 13:18",
+  "generated_at_dk": "2026-05-12 13:22",
   "report_date_dk": "2026-05-12",
   "sport": "football",
   "bookmaker": "Bet365",
   "events_discovered_today_after_filter": 63,
   "excluded_youth_reserve_events": 14,
-  "events_requested_for_odds": 60,
-  "events_with_odds": 60,
-  "market_rows": 22402,
+  "events_requested_for_odds": 63,
+  "events_with_odds": 59,
+  "market_rows": 18456,
   "pdf_created": true,
-  "latest_rate_limit_remaining": "42",
+  "latest_rate_limit_remaining": "34",
   "latest_rate_limit_limit": "100"
 }
