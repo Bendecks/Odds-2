@@ -39,19 +39,19 @@ Errors/status rows: 20
 
 Header rows captured: 3
 Latest x-ratelimit-limit: 100
-Latest x-ratelimit-remaining: 54
+Latest x-ratelimit-remaining: 38
 Latest x-ratelimit-reset: 2026-05-12T07:49:01Z
 Latest retry-after: None
 
 - 2026-05-12 07:30 | Canberra White Eagles FC vs Queanbeyan City FC | odds_api_io_Bet365_ML | 7.0/5.0/1.3
 - 2026-05-12 08:45 | Brothers Union vs Mohammedan SC Dhaka | odds_api_io_Bet365_ML | 3.6/3.6/1.8
 - 2026-05-12 09:45 | Sunshine Coast Wanderers FC vs Eastern Suburbs FC | odds_api_io_Bet365_ML | 10.0/6.25/1.181
-- 2026-05-12 10:00 | FC Oleksandriya vs FC Zorya Luhansk | odds_api_io_Bet365_ML | 3.6/3.2/1.909
+- 2026-05-12 10:00 | FC Oleksandriya vs FC Zorya Luhansk | odds_api_io_Bet365_ML | 3.5/3.2/1.95
 - 2026-05-12 10:30 | Cerro Porteno Asuncion vs Guarani Asuncion | odds_api_io_Bet365_ML | 2.05/3.75/2.75
 - 2026-05-12 10:30 | Gangwon FC vs Daejeon Citizen FC | odds_api_io_Bet365_ML | 2.1/3.1/3.3
 - 2026-05-12 10:30 | Gold Coast Knights vs Gold Coast United FC | odds_api_io_Bet365_ML | 1.062/11.0/26.0
 - 2026-05-12 10:30 | Gwangju FC vs FC Seoul | odds_api_io_Bet365_ML | 8.0/4.2/1.38
-- 2026-05-12 10:30 | Hellenic Athletic Club vs Darwin Hearts FC | odds_api_io_Bet365_ML | 4.0/4.5/1.571
+- 2026-05-12 10:30 | Hellenic Athletic Club vs Darwin Hearts FC | odds_api_io_Bet365_ML | 4.1/4.5/1.55
 - 2026-05-12 10:30 | Incheon United FC vs FC Pohang Steelers | odds_api_io_Bet365_ML | 2.625/2.9/2.7
 
 ## Event selection diagnostics

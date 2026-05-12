@@ -5,7 +5,7 @@ This is not real-money ready and does not override suppression rules for candida
 
 Value snapshot rows: 66
 Paper proxy observation rows: 7
-Positive EV value rows: 30
+Positive EV value rows: 29
 Suppressed-band observation rows: 7
 Distinct matches: 7
 Distinct sources: 0

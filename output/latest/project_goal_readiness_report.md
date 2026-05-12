@@ -6,7 +6,7 @@ Overall project stage: `proxy_paper_testing_started`
 
 - Forward fixture predictions: 160
 - Automatic value snapshots: 66
-- Positive EV proxy rows: 30
+- Positive EV proxy rows: 29
 - Proxy observation rows: 7
 - Valid forward/proxy log rows: 46
 - Deduped forward/proxy log rows: 25
