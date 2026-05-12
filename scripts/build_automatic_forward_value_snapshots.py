@@ -13,9 +13,10 @@ value_path = output_dir / 'automatic_forward_value_snapshots.csv'
 
 expected_columns = [
     'snapshot_id', 'prediction_id', 'fixture_id', 'match_date', 'match_time',
-    'home_team', 'away_team', 'league', 'sample_phase', 'source_name', 'source_type',
-    'source_quality', 'selection', 'market_odds', 'fair_odds', 'probability',
-    'market_implied_probability', 'probability_edge', 'ev', 'match_confidence',
+    'home_team', 'away_team', 'league', 'sample_phase', 'model_source', 'model_coverage',
+    'source_name', 'source_type', 'source_quality', 'selection', 'market_odds',
+    'fair_odds', 'probability', 'market_implied_probability', 'probability_edge',
+    'ev', 'match_confidence',
 ]
 
 
@@ -93,6 +94,8 @@ if len(predictions) and len(prices):
             'match_date': pred.get('match_date'),
             'home_team': pred.get('home_team'),
             'away_team': pred.get('away_team'),
+            'model_source': pred.get('model_source'),
+            'model_coverage': pred.get('model_coverage'),
             'candidate_rows': int(len(candidates)),
             'best_home_team': None,
             'best_away_team': None,
@@ -150,6 +153,8 @@ if len(predictions) and len(prices):
                     'away_team': pred.get('away_team'),
                     'league': pred.get('league'),
                     'sample_phase': 'automatic_forward_price_proxy',
+                    'model_source': pred.get('model_source', 'unknown'),
+                    'model_coverage': pred.get('model_coverage', 'unknown'),
                     'source_name': price.get('source_name'),
                     'source_type': price.get('source_type'),
                     'source_quality': price.get('source_quality'),
@@ -176,6 +181,8 @@ match_diag.to_csv(output_dir / 'automatic_forward_value_match_diagnostics.csv', 
 
 source_counts = snapshots['source_name'].value_counts().to_dict() if len(snapshots) and 'source_name' in snapshots.columns else {}
 odds_api_io_snapshot_rows = int(snapshots['source_name'].astype(str).str.contains('odds_api_io', na=False).sum()) if len(snapshots) else 0
+baseline_snapshot_rows = int((snapshots.get('model_coverage', pd.Series(dtype=str)).astype(str) == 'baseline_unmatched_fixture').sum()) if len(snapshots) else 0
+full_model_snapshot_rows = int((snapshots.get('model_coverage', pd.Series(dtype=str)).astype(str) == 'full_team_strength_match').sum()) if len(snapshots) else 0
 summary = {
     'forward_prediction_rows': int(len(predictions)),
     'proxy_price_rows': int(len(prices)),
@@ -183,6 +190,8 @@ summary = {
     'positive_ev_rows': int((pd.to_numeric(snapshots['ev'], errors='coerce') > 0).sum()) if len(snapshots) else 0,
     'matched_prediction_rows': int((match_diag['matched_rows'] > 0).sum()) if len(match_diag) and 'matched_rows' in match_diag.columns else 0,
     'odds_api_io_snapshot_rows': odds_api_io_snapshot_rows,
+    'baseline_snapshot_rows': baseline_snapshot_rows,
+    'full_model_snapshot_rows': full_model_snapshot_rows,
     'source_counts': str(source_counts),
     'source_type': 'combined_automatic_forward_market_proxy',
     'real_money_ready': False,
@@ -193,14 +202,16 @@ markdown = [
     '# Automatic Forward Value Snapshots',
     '',
     'Combined automatic forward market proxy joined to forward probability predictions.',
-    'Includes Football-Data delayed proxy and capped odds-api.io single-event proxy when available.',
-    'Not live/full-market coverage and not real-money ready.',
+    'Includes capped odds-api.io proxy when available. Not live/full-market coverage and not real-money ready.',
+    'Baseline model rows are coverage-expansion observations only.',
     '',
     f"Forward prediction rows: {summary['forward_prediction_rows']}",
     f"Proxy price rows: {summary['proxy_price_rows']}",
     f"Matched prediction rows: {summary['matched_prediction_rows']}",
     f"Value snapshot rows: {summary['value_snapshot_rows']}",
     f"odds-api.io snapshot rows: {summary['odds_api_io_snapshot_rows']}",
+    f"Baseline snapshot rows: {summary['baseline_snapshot_rows']}",
+    f"Full model snapshot rows: {summary['full_model_snapshot_rows']}",
     f"Positive EV rows: {summary['positive_ev_rows']}",
     f"Source counts: {summary['source_counts']}",
     '',
@@ -211,7 +222,7 @@ if len(snapshots):
     for _, row in display.iterrows():
         markdown.append(
             f"- {row['match_date']} | {row['home_team']} vs {row['away_team']} | "
-            f"sel={str(row['selection']).upper()} | src={row['source_name']} | odds={row['market_odds']} | "
+            f"coverage={row['model_coverage']} | sel={str(row['selection']).upper()} | src={row['source_name']} | odds={row['market_odds']} | "
             f"prob={row['probability']} | EV={row['ev']} | match={row['match_confidence']}"
         )
 else:
