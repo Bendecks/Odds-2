@@ -2,29 +2,29 @@
 
 This report combines repo-estimated Odds-API.io usage with provider rate-limit headers when available.
 
-Generated UTC: 2026-05-12T12:34:18.628173+00:00
+Generated UTC: 2026-05-12T14:03:19.813657+00:00
 Latest run calls used: 4 / 8
 Latest endpoint mode: multi_event_documented_endpoint
-Latest search queries: FC Epitsentr Kamianets-Podilskyi
-Latest priced event rows: 10
-Latest errors/status rows: 20
+Latest search queries: Sur SC
+Latest priced event rows: 0
+Latest errors/status rows: 1
 
 ## Provider rate-limit headers
 
 x-ratelimit-limit: 100
 x-ratelimit-remaining: 88
 remaining ratio: 0.88
-x-ratelimit-reset: 2026-05-12T13:33:31Z
+x-ratelimit-reset: 2026-05-12T15:01:13Z
 retry-after: None
 
 ## Estimated repo-driven req/hr
 
 - Last 1h: 4 calls across 1 runs => 4.0 req/hr
-- Last 6h: 28 calls across 9 runs => 4.6667 req/hr
-- Last 12h: 43 calls across 14 runs => 3.5833 req/hr
-- Last 24h: 131 calls across 28 runs => 5.4583 req/hr
-- Last 72h: 131 calls across 28 runs => 1.8194 req/hr
-- Last 168h: 131 calls across 28 runs => 0.7798 req/hr
+- Last 6h: 11 calls across 3 runs => 1.8333 req/hr
+- Last 12h: 47 calls across 15 runs => 3.9167 req/hr
+- Last 24h: 135 calls across 29 runs => 5.625 req/hr
+- Last 72h: 135 calls across 29 runs => 1.875 req/hr
+- Last 168h: 135 calls across 29 runs => 0.8036 req/hr
 
 ## Interpretation
 

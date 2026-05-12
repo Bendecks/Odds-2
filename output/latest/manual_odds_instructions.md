@@ -44,14 +44,11 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-12 18:45 | Clyde FC vs Hamilton Academical FC
 - 2026-05-12 18:00 | Colon FC Reserve vs Liverpool Montevideo
 - 2026-05-12 18:00 | Defensa Y Justicia Reserve vs CA Platense
-- 2026-05-12 13:00 | Deportivo Maldonado Reserve vs Racing Club Montevideo
 - 2026-05-12 22:00 | Deportivo Tachira vs Metropolitanos FC
 - 2026-05-12 18:45 | FC Domagnano vs AC Virtus
 - 2026-05-12 19:45 | Dundee United vs Livingston
 - 2026-05-12 18:45 | Dunfermline Athletic FC vs Partick Thistle FC
-- 2026-05-12 14:00 | El Gouna FC vs Kahrabaa Ismailia
 - 2026-05-12 16:00 | FC Elva vs Paide Linnameeskond
-- 2026-05-12 12:30 | FC Epitsentr Kamianets-Podilskyi vs FC Polissya Zhytomyr
 - 2026-05-12 15:00 | FK Liepaja vs Ogre United
 - 2026-05-12 15:30 | FK Mlada Boleslav vs Dukla Prague
 - 2026-05-12 18:00 | Gimnasia de la Plata Reserve vs CA Banfield
@@ -59,7 +56,6 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-12 22:00 | GV Club Deportivo San Jose de Oruro vs CD Real Tomayapo
 - 2026-05-12 17:00 | Hapoel Tel Aviv FC vs Hapoel Petah Tikva FC
 - 2026-05-12 17:00 | IFK Varnamo vs Orebro SK
-- 2026-05-12 14:00 | FC Inter Turku vs JS Hercules
 - 2026-05-12 19:00 | Itagui Leones FC vs Orsomarso SC
 - 2026-05-12 15:00 | JS Omrane vs Avenir S Marsa
 - 2026-05-12 19:00 | JS Saoura vs CR Belouizdad
@@ -73,15 +69,12 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-12 15:00 | FC Metalist 1925 Kharkiv vs Karpaty Lviv
 - 2026-05-12 15:00 | MFK Chrudim vs FK Pribram
 - 2026-05-12 16:45 | Modena FC vs Juve Stabia
-- 2026-05-12 14:00 | Mohun Bagan Super Giant vs Inter Kashi FC
-- 2026-05-12 13:00 | Namdhari FC vs Gokulam Kerala FC
 - 2026-05-12 18:00 | Newells Old Boys vs CA Quilmes Reserve
 - 2026-05-12 20:30 | Osasuna vs Ath Madrid
 - 2026-05-12 14:45 | PFC Cherno More Varna vs PFC Lokomotiv Plovdiv
 - 2026-05-12 16:00 | Panaitolikos Agrinio vs AE Larissa FC
 - 2026-05-12 17:00 | Panetolikos vs Larisa
 - 2026-05-12 18:30 | Penarol Montevideo vs Nacional de Montevideo
-- 2026-05-12 14:00 | Pharco FC vs Modern Sport FC
 - 2026-05-12 18:00 | Racing Club Avellaneda vs Velez Sarsfield Reserve
 - 2026-05-12 16:00 | Rayon Sports FC vs Gorilla FC
 - 2026-05-12 17:00 | RC Celta de Vigo vs Levante UD
@@ -99,11 +92,9 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-12 18:00 | Sparta Prague vs FC Viktoria Plzen
 - 2026-05-12 23:00 | St Andrew Lions vs Ellerton FC
 - 2026-05-12 13:50 | Sur SC vs Al-Khaboora
-- 2026-05-12 13:15 | TRA United vs Jkt Tanzania
 - 2026-05-12 17:30 | TS Galaxy FC vs Mamelodi Sundowns
 - 2026-05-12 23:30 | UCV FC vs Deportivo La Guaira
 - 2026-05-12 21:00 | Union Magdalena vs Real Cartagena FC
-- 2026-05-12 14:00 | URA FC vs Calvary
 - 2026-05-12 19:00 | US Catanzaro vs US Avellino
 - 2026-05-12 15:00 | Veres Rivne vs FC Kryvbas Kriviy Rih
 - 2026-05-12 16:00 | Viking FK vs Haugesund
@@ -165,7 +156,6 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-13 16:30 | Olympiacos Piraeus vs Panathinaikos Athens
 - 2026-05-13 17:30 | Olympiakos vs Panathinaikos
 - 2026-05-13 23:30 | Orlando City SC vs Philadelphia Union
-- 2026-05-13 17:00 | Osters IF vs Sandvikens IF
 - 2026-05-13 14:45 | PFC CSKA Sofia vs FC CSKA 1948
 - 2026-05-13 17:15 | PFC Ludogorets 1945 Razgrad vs PFC Levski Sofia
 - 2026-05-13 12:15 | PFC Slavia Sofia vs PFC Dobrudzha Dobrich
@@ -183,10 +173,9 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-13 14:00 | Volos NPS vs Aris Thessaloniki
 - 2026-05-14 19:00 | Girona vs Sociedad
 - 2026-05-14 20:30 | Real Madrid vs Oviedo
+- 2026-05-14 13:00 | TRA United vs Mtibwa Sugar FC
 - 2026-05-14 18:00 | Valencia vs Vallecano
-- 2026-05-15 15:30 | Young Africans SC vs Singida Black Stars SC
-- 2026-05-16 05:00 | Curtin University SC Reserves vs Murdoch University Melville FC Reserves
-- 2026-05-16 05:00 | Subiaco AFC Reserve vs Gwelup Croatia SC Reserves
+- 2026-05-15 10:00 | Central Coast United FC vs Inner West Hawks FC
 
 ## After filling odds
 

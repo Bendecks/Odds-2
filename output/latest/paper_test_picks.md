@@ -7,7 +7,7 @@ Suppressed historical bands may be tracked only as proxy observation and remain 
 
 Source used: automatic_forward_value_snapshots
 Current paper-test picks: 7
-Newly logged paper-test picks: 7
+Newly logged paper-test picks: 0
 Total logged paper-test rows: 64
 
 - Osasuna vs Ath Madrid | coverage=full_team_strength_match | selection=AWAY | odds=2.65 | prob=0.3969 | EV=0.0518 | edge=0.0195 | penalty=0.0518 | band=0.35-0.45 | risk=proxy_price_source | rule=monitor | tier=priority_proxy_observation

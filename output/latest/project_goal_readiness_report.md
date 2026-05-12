@@ -4,15 +4,15 @@ Overall project stage: `proxy_paper_testing_started`
 
 ## Current counts
 
-- Forward fixture predictions: 160
-- Automatic value snapshots: 450
-- Positive EV proxy rows: 213
+- Forward fixture predictions: 159
+- Automatic value snapshots: 432
+- Positive EV proxy rows: 207
 - Proxy observation rows: 7
 - Valid forward/proxy log rows: 61
 - Deduped forward/proxy log rows: 34
 - Duplicate forward/proxy log rows identified: 27
-- Fresh API match coverage rate: 0.1562
-- Matches with fresh API price: 25
+- Fresh API match coverage rate: 0.0692
+- Matches with fresh API price: 11
 - Settled forward rows: 0
 - Real-money ready: False
 
@@ -27,7 +27,7 @@ Done when: Use only for model diagnostics, not betting decisions.
 ### automatic_proxy_odds_ingestion
 Status: `working`
 Target: Free automatic odds proxy exists and validates.
-Current: 450 value snapshots; fresh API coverage rate 0.1562.
+Current: 432 value snapshots; fresh API coverage rate 0.0692.
 Done when: Keep Football-Data as baseline; improve odds-api.io/API-Football coverage carefully.
 
 ### paper_forward_testing

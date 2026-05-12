@@ -3,9 +3,9 @@
 Quality diagnostics for automatic delayed-market proxy paper observations.
 This is not real-money ready and does not override suppression rules for candidate bets.
 
-Value snapshot rows: 450
+Value snapshot rows: 432
 Paper proxy observation rows: 7
-Positive EV value rows: 213
+Positive EV value rows: 207
 Suppressed-band observation rows: 3
 Distinct matches: 4
 Distinct sources: 0

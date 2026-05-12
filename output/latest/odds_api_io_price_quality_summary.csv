@@ -1,2 +1,2 @@
 input_price_rows,accepted_price_rows,rejected_price_rows,rejected_youth_or_reserve_rows,forward_prediction_rows,quality_rule
-30,25,5,5,160,accept_only_direct_senior_home_away_match_against_forward_fixture_predictions
+16,11,5,5,159,accept_only_direct_senior_home_away_match_against_forward_fixture_predictions
