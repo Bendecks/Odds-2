@@ -8,18 +8,13 @@ on:
         required: true
         default: 'football'
         type: string
-      lookahead_days:
-        description: 'How many days ahead to scan'
-        required: true
-        default: '7'
-        type: string
       max_price_events:
-        description: 'Max events to request odds for. Uses /odds/multi in batches of up to 10.'
+        description: 'Max events from today to request odds for. Uses /odds/multi in batches of up to 10.'
         required: true
         default: '30'
         type: string
       max_pages:
-        description: 'Max /events pages to scan'
+        description: 'Max /events pages to scan for today only'
         required: true
         default: '2'
         type: string
@@ -34,7 +29,6 @@ jobs:
     env:
       ODDS_API_IO_KEY: ${{ secrets.ODDS_API_IO_KEY }}
       BET365_REPORT_SPORT: ${{ inputs.sport }}
-      BET365_REPORT_LOOKAHEAD_DAYS: ${{ inputs.lookahead_days }}
       BET365_REPORT_MAX_PRICE_EVENTS: ${{ inputs.max_price_events }}
       BET365_REPORT_MAX_PAGES: ${{ inputs.max_pages }}
       BET365_REPORT_MAX_EVENTS: '100'
@@ -54,11 +48,10 @@ jobs:
           pip install -r requirements.txt
           pip install reportlab
 
-      - name: Build Bet365 odds report
+      - name: Build today's Bet365 odds report
         run: |
-          python scripts/build_bet365_odds_report.py \
+          python scripts/build_bet365_today_odds_report.py \
             --sport "${{ inputs.sport }}" \
-            --lookahead-days "${{ inputs.lookahead_days }}" \
             --max-price-events "${{ inputs.max_price_events }}" \
             --max-pages "${{ inputs.max_pages }}"
 
@@ -66,19 +59,19 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add output/bet365/latest data/raw/odds_api_io/bet365_manual_report
-          git diff --cached --quiet || git commit -m "Update manual Bet365 odds report"
+          git add output/bet365/latest data/raw/odds_api_io/bet365_today_report
+          git diff --cached --quiet || git commit -m "Update today's Bet365 odds report"
           git push
 
       - name: Upload Bet365 report artifact
         uses: actions/upload-artifact@v4
         with:
-          name: bet365-odds-report
+          name: bet365-today-odds-report
           path: |
-            output/bet365/latest/bet365_odds_report.html
-            output/bet365/latest/bet365_odds_report.pdf
-            output/bet365/latest/bet365_odds_report.md
-            output/bet365/latest/bet365_events.csv
-            output/bet365/latest/bet365_markets.csv
-            output/bet365/latest/bet365_report_summary.json
-            output/bet365/latest/bet365_rate_limit_headers.csv
+            output/bet365/latest/bet365_today_odds_report.html
+            output/bet365/latest/bet365_today_odds_report.pdf
+            output/bet365/latest/bet365_today_odds_report.md
+            output/bet365/latest/bet365_today_events.csv
+            output/bet365/latest/bet365_today_markets.csv
+            output/bet365/latest/bet365_today_report_summary.json
+            output/bet365/latest/bet365_today_rate_limit_headers.csv
