@@ -5,9 +5,9 @@ This file is the main AI-readable summary of the current Odds-2 system state.
 ## free_data_status
 
 # Free Data Source Status
-Generated UTC: `2026-05-12T16:27:04.583886+00:00`
-GitHub run: `328` attempt `1`
-GitHub SHA: `03eec8e195951a6ba8a72ef8130bbe35b90020ee`
+Generated UTC: `2026-05-12T18:19:32.095708+00:00`
+GitHub run: `333` attempt `1`
+GitHub SHA: `c61d73f5f03173244e7ea9fe4ed3eede1428199d`
 Overall status: `OK`
 | Source | OK | Rows | Missing columns | Error |
 |---|---:|---:|---|---|
@@ -17,38 +17,38 @@ Overall status: `OK`
 | Football-Data upcoming fixtures proxy | True | 26 |  |  |
 | Football-Data upcoming odds proxy | True | 78 |  |  |
 | Football-Data upcoming odds status | True | 1 |  |  |
-| odds-api.io forward prices | True | 21 |  |  |
-| odds-api.io forward fixtures | True | 112 |  |  |
+| odds-api.io forward prices | True | 0 |  |  |
+| odds-api.io forward fixtures | True | 0 |  |  |
 | odds-api.io forward price status | True | 1 |  |  |
 | API-Football forward prices | True | 0 |  |  |
 | API-Football forward fixtures | True | 0 |  |  |
 | API-Football forward price status | True | 1 |  |  |
-| Automatic forward value snapshots | True | 447 |  |  |
-| Forward price coverage report | True | 136 |  |  |
+| Automatic forward value snapshots | True | 243 |  |  |
+| Forward price coverage report | True | 27 |  |  |
 | Forward price coverage summary | True | 1 |  |  |
-| Forward price source summary | True | 5 |  |  |
+| Forward price source summary | True | 3 |  |  |
 | Proxy candidate observations | True | 12 |  |  |
 | Proxy candidate observation summary | True | 1 |  |  |
 | Proxy candidate explanation report | True | 12 |  |  |
 | Proxy candidate explanation summary | True | 1 |  |  |
-| Proxy candidate blocker summary | True | 4 |  |  |
+| Proxy candidate blocker summary | True | 6 |  |  |
 | Automatic forward value snapshot summary | True | 1 |  |  |
-| Automatic forward value match diagnostics | True | 136 |  |  |
+| Automatic forward value match diagnostics | True | 27 |  |  |
 
 ## project_goal_readiness
 
 # Project Goal Readiness Report
 Overall project stage: `proxy_paper_testing_started`
 ## Current counts
-- Forward fixture predictions: 27
-- Automatic value snapshots: 243
-- Positive EV proxy rows: 119
+- Forward fixture predictions: 212
+- Automatic value snapshots: 597
+- Positive EV proxy rows: 289
 - Proxy observation rows: 25
-- Valid forward/proxy log rows: 83
-- Deduped forward/proxy log rows: 44
-- Duplicate forward/proxy log rows identified: 39
-- Fresh API match coverage rate: 0.0
-- Matches with fresh API price: 0
+- Valid forward/proxy log rows: 92
+- Deduped forward/proxy log rows: 49
+- Duplicate forward/proxy log rows identified: 43
+- Fresh API match coverage rate: 0.283
+- Matches with fresh API price: 60
 - Settled forward rows: 0
 - Real-money ready: False
 ## Stage checklist
@@ -60,12 +60,12 @@ Done when: Use only for model diagnostics, not betting decisions.
 ### automatic_proxy_odds_ingestion
 Status: `working`
 Target: Free automatic odds proxy exists and validates.
-Current: 243 value snapshots; fresh API coverage rate 0.0.
+Current: 597 value snapshots; fresh API coverage rate 0.283.
 Done when: Keep Football-Data as baseline; improve odds-api.io/API-Football coverage carefully.
 ### paper_forward_testing
 Status: `started_not_mature`
 Target: At least 50-100 deduped proxy observations across several matchdays.
-Current: 44 deduped forward/proxy rows; 39 duplicate raw rows identified.
+Current: 49 deduped forward/proxy rows; 43 duplicate raw rows identified.
 Done when: Minimum 50 deduped observations before drawing early conclusions; 100+ preferred.
 
 ## football_data_upcoming_odds
@@ -106,11 +106,11 @@ Errors: 0
 # Automatic Forward Source Report
 Purpose: distinguish true automatic forward inputs from historical market proxy and paused manual fallback.
 Football-Data and odds-api.io prices are treated as paper-test proxy prices until validated.
-Upcoming fixture rows: 27
-Fixture team rows unmatched: 29
+Upcoming fixture rows: 212
+Fixture team rows unmatched: 390
 Ready for model-fixture join: False
-Automatic forward price rows: 78
-odds-api.io price rows: 0
+Automatic forward price rows: 138
+odds-api.io price rows: 60
 Football-Data price rows: 78
 Automatic forward status: automatic_forward_not_ready
 Blocker: fixture_model_team_matching_incomplete
@@ -120,33 +120,33 @@ Next development step: add_team_aliases_for_upcoming_fixtures
 - St Mirren | suggestion=nan | type=unmatched
 - Asteras Tripolis | suggestion=nan | type=unmatched
 - Panserraikos | suggestion=nan | type=unmatched
+- Atletico Nacional Medellin | suggestion=nan | type=unmatched
+- Internacional de Bogota. | suggestion=nan | type=unmatched
+- Banos Ciudad de Fuego | suggestion=nan | type=unmatched
+- Delfin SC | suggestion=nan | type=unmatched
+- Boston Legacy FC | suggestion=nan | type=unmatched
+- Orlando Pride | suggestion=nan | type=unmatched
+- CA Belgrano de Cordoba | suggestion=nan | type=unmatched
+- Union de Santa Fe | suggestion=nan | type=unmatched
 - Levante | suggestion=nan | type=unmatched
+- Deportivo Tachira | suggestion=nan | type=unmatched
+- Metropolitanos FC | suggestion=nan | type=unmatched
 - Dundee United | suggestion=nan | type=unmatched
 - Livingston | suggestion=nan | type=unmatched
-- Kifisia | suggestion=nan | type=unmatched
-- Atromitos | suggestion=nan | type=unmatched
-- Kilmarnock | suggestion=nan | type=unmatched
-- Dundee | suggestion=nan | type=unmatched
-- Panetolikos | suggestion=nan | type=unmatched
-- Larisa | suggestion=nan | type=unmatched
-- Hearts | suggestion=nan | type=unmatched
-- Falkirk | suggestion=nan | type=unmatched
-- Levadeiakos | suggestion=nan | type=unmatched
-- OFI Crete | suggestion=nan | type=unmatched
 
 ## forward_price_coverage
 
 # Forward Price Coverage Report
 Measures automatic price coverage for forward predictions.
 Fresh API price means odds-api.io or API-Football. This is still paper/proxy-only and not real-money ready.
-Forward prediction rows: 27
-Automatic price rows: 78
-Value snapshot rows: 243
-Matches with any automatic price: 26
-Matches with fresh API price: 0
-Matches with odds-api.io price: 0
-Fresh API match coverage rate: 0.0
-odds-api.io match coverage rate: 0.0
+Forward prediction rows: 212
+Automatic price rows: 138
+Value snapshot rows: 597
+Matches with any automatic price: 85
+Matches with fresh API price: 60
+Matches with odds-api.io price: 60
+Fresh API match coverage rate: 0.283
+odds-api.io match coverage rate: 0.283
 Real-money ready: False
 ## Match coverage
 - 2026-05-12 | Asteras Tripolis vs Panserraikos | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
@@ -158,14 +158,14 @@ Real-money ready: False
 - 2026-05-12 | Dundee United vs Livingston | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
 - 2026-05-12 | Kilmarnock vs Dundee | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
 - 2026-05-12 | Osasuna vs Ath Madrid | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
-- 2026-05-13 | Levadeiakos vs OFI Crete | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
-- 2026-05-13 | Volos NFC vs Aris | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
-- 2026-05-13 | Olympiakos vs Panathinaikos | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
-- 2026-05-13 | PAOK vs AEK | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
-- 2026-05-13 | Brest vs Strasbourg | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
-- 2026-05-13 | Espanol vs Ath Bilbao | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
-- 2026-05-13 | Villarreal vs Sevilla | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
-- 2026-05-13 | Manchester City vs Crystal Palace | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-12 | CA Belgrano de Cordoba vs Union de Santa Fe | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-12 | Deportivo Tachira vs Metropolitanos FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-12 | GV Club Deportivo San Jose de Oruro vs CD Real Tomayapo | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_European Handicap
+- 2026-05-12 | Londrina EC PR vs Sao Bernardo FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-12 | SC Internacional RS vs Athletic Club Sjdr MG | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-12 | Banos Ciudad de Fuego vs Delfin SC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-12 | Boston Legacy FC vs Orlando Pride | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-12 | LVU Rush vs West Chester United SC USL2 | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
 
 ## automatic_forward_value_snapshots
 
@@ -173,32 +173,32 @@ Real-money ready: False
 Combined automatic forward market proxy joined to forward probability predictions.
 Includes capped odds-api.io proxy when available. Not live/full-market coverage and not real-money ready.
 Baseline model rows are coverage-expansion observations only.
-Forward prediction rows: 27
-Proxy price rows: 78
-Matched prediction rows: 27
-Value snapshot rows: 243
-odds-api.io snapshot rows: 0
-Baseline snapshot rows: 144
-Full model snapshot rows: 99
-Positive EV rows: 119
-Source counts: {'football_data_bet365_proxy': 81, 'football_data_max_market_proxy': 81, 'football_data_average_market_proxy': 81}
+Forward prediction rows: 212
+Proxy price rows: 138
+Matched prediction rows: 88
+Value snapshot rows: 597
+odds-api.io snapshot rows: 219
+Baseline snapshot rows: 477
+Full model snapshot rows: 120
+Positive EV rows: 289
+Source counts: {'odds_api_io_Bet365_ML': 216, 'football_data_bet365_proxy': 126, 'football_data_max_market_proxy': 126, 'football_data_average_market_proxy': 126, 'odds_api_io_Bet365_European Handicap': 3}
+- 2026-05-12 | GV Club Deportivo San Jose de Oruro vs CD Real Tomayapo | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_European Handicap | odds=41.0 | prob=0.3488 | EV=13.3008 | match=1.0
+- 2026-05-13 | Arsenal WFC vs Everton FC | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=21.0 | prob=0.3488 | EV=6.3248 | match=1.0
+- 2026-05-12 | GV Club Deportivo San Jose de Oruro vs CD Real Tomayapo | coverage=baseline_unmatched_fixture | sel=DRAW | src=odds_api_io_Bet365_European Handicap | odds=21.0 | prob=0.274 | EV=4.754 | match=1.0
 - 2026-05-13 | Manchester City vs Crystal Palace | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_max_market_proxy | odds=15.0 | prob=0.3488 | EV=4.232 | match=0.96
 - 2026-05-13 | Manchester City vs Crystal Palace | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_average_market_proxy | odds=12.75 | prob=0.3488 | EV=3.4472 | match=0.96
 - 2026-05-13 | Man City vs Crystal Palace | coverage=full_team_strength_match | sel=AWAY | src=football_data_max_market_proxy | odds=15.0 | prob=0.2857 | EV=3.2855 | match=1.0
 - 2026-05-13 | Manchester City vs Crystal Palace | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_bet365_proxy | odds=12.0 | prob=0.3488 | EV=3.1856 | match=0.96
+- 2026-05-13 | Manchester City vs Crystal Palace | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=12.0 | prob=0.3488 | EV=3.1856 | match=1.0
 - 2026-05-14 | Real Madrid vs Oviedo | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_max_market_proxy | odds=11.5 | prob=0.3488 | EV=3.0112 | match=1.0
+- 2026-05-14 | Real Madrid vs Real Oviedo | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_max_market_proxy | odds=11.5 | prob=0.3488 | EV=3.0112 | match=0.96
 - 2026-05-14 | Real Madrid vs Oviedo | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_bet365_proxy | odds=11.0 | prob=0.3488 | EV=2.8368 | match=1.0
+- 2026-05-14 | Real Madrid vs Real Oviedo | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_bet365_proxy | odds=11.0 | prob=0.3488 | EV=2.8368 | match=0.96
 - 2026-05-13 | Man City vs Crystal Palace | coverage=full_team_strength_match | sel=AWAY | src=football_data_average_market_proxy | odds=12.75 | prob=0.2857 | EV=2.642675 | match=1.0
+- 2026-05-14 | Real Madrid vs Real Oviedo | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_average_market_proxy | odds=10.42 | prob=0.3488 | EV=2.634496 | match=0.96
 - 2026-05-14 | Real Madrid vs Oviedo | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_average_market_proxy | odds=10.42 | prob=0.3488 | EV=2.634496 | match=1.0
-- 2026-05-13 | Man City vs Crystal Palace | coverage=full_team_strength_match | sel=AWAY | src=football_data_bet365_proxy | odds=12.0 | prob=0.2857 | EV=2.4284 | match=1.0
-- 2026-05-13 | Olympiakos vs Panathinaikos | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_max_market_proxy | odds=8.5 | prob=0.3488 | EV=1.9648 | match=1.0
-- 2026-05-13 | Olympiakos vs Panathinaikos | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_bet365_proxy | odds=8.0 | prob=0.3488 | EV=1.7904 | match=1.0
-- 2026-05-13 | Olympiakos vs Panathinaikos | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_average_market_proxy | odds=7.59 | prob=0.3488 | EV=1.647392 | match=1.0
-- 2026-05-13 | Hearts vs Falkirk | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_max_market_proxy | odds=7.5 | prob=0.3488 | EV=1.616 | match=1.0
-- 2026-05-13 | Hearts vs Falkirk | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_average_market_proxy | odds=6.82 | prob=0.3488 | EV=1.378816 | match=1.0
-- 2026-05-13 | Hearts vs Falkirk | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_bet365_proxy | odds=6.5 | prob=0.3488 | EV=1.2672 | match=1.0
-- 2026-05-13 | Rangers vs Hibernian | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_max_market_proxy | odds=6.0 | prob=0.3488 | EV=1.0928 | match=1.0
-- 2026-05-13 | Manchester City vs Crystal Palace | coverage=baseline_unmatched_fixture | sel=DRAW | src=football_data_max_market_proxy | odds=7.5 | prob=0.274 | EV=1.055 | match=0.96
+- 2026-05-12 | SC Internacional RS vs Athletic Club Sjdr MG | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=10.0 | prob=0.3488 | EV=2.488 | match=1.0
+- 2026-05-13 | Man City vs Crystal Palace | coverage=full_team_strength_match | sel=AWAY | src=odds_api_io_Bet365_ML | odds=12.0 | prob=0.2857 | EV=2.4284 | match=0.96
 
 ## proxy_candidate_observations
 
@@ -206,25 +206,25 @@ Source counts: {'football_data_bet365_proxy': 81, 'football_data_max_market_prox
 Intermediate layer between paper-test picks and real candidate bets.
 These rows are proxy/paper observations only and must not be treated as real-money candidates.
 Deduplicated by match date, normalized teams, and selection; best proxy score is kept.
-Automatic value rows: 243
-Pre-dedupe proxy candidate observation rows: 84
+Automatic value rows: 597
+Pre-dedupe proxy candidate observation rows: 198
 Proxy candidate observation rows: 12
 Proxy candidate-like rows: 0
-Suppressed proxy watchlist rows: 8
+Suppressed proxy watchlist rows: 0
 Dedupe strategy: match_date_normalized_teams_selection_keep_best_score
 Real-money ready: False
-- 2026-05-13 | Volos NFC vs Aris | selection=HOME | source=football_data_average_market_proxy | odds=3.57 | prob=0.3772 | EV=0.346604 | edge=0.097088 | penalty=0.3466042154566742 | tier=proxy_watchlist | score=0.2205
-- 2026-05-12 | Osasuna vs Ath Madrid | selection=AWAY | source=football_data_max_market_proxy | odds=2.65 | prob=0.3969 | EV=0.051785 | edge=0.019542 | penalty=0.05178636732227737 | tier=proxy_watchlist | score=0.1961
-- 2026-05-13 | Motherwell vs Celtic | selection=HOME | source=football_data_bet365_proxy | odds=4.33 | prob=0.3772 | EV=0.633276 | edge=0.146253 | penalty=0.6332751670296646 | tier=proxy_watchlist | score=0.1905
-- 2026-05-13 | Brest vs Strasbourg | selection=HOME | source=football_data_max_market_proxy | odds=2.8 | prob=0.3618 | EV=0.01304 | edge=0.004657 | penalty=0.013039594784162167 | tier=proxy_watchlist | score=0.1895
-- 2026-05-12 | Kilmarnock vs Dundee | selection=AWAY | source=football_data_max_market_proxy | odds=3.8 | prob=0.3488 | EV=0.32544 | edge=0.085642 | penalty=0.325439469824212 | tier=suppressed_proxy_watchlist | score=0.1029
-- 2026-05-13 | Hearts vs Falkirk | selection=DRAW | source=football_data_max_market_proxy | odds=4.9 | prob=0.274 | EV=0.3426 | edge=0.069918 | penalty=0.34259758332435 | tier=suppressed_proxy_watchlist | score=0.0995
-- 2026-05-13 | Rangers vs Hibernian | selection=DRAW | source=football_data_bet365_proxy | odds=4.75 | prob=0.274 | EV=0.3015 | edge=0.063474 | penalty=0.30150195225292853 | tier=suppressed_proxy_watchlist | score=0.0982
-- 2026-05-13 | Getafe vs Mallorca | selection=AWAY | source=football_data_max_market_proxy | odds=3.7 | prob=0.3268 | EV=0.20916 | edge=0.05653 | penalty=0.20916120916120895 | tier=suppressed_proxy_watchlist | score=0.0975
-- 2026-05-13 | Villarreal vs Sevilla | selection=AWAY | source=football_data_max_market_proxy | odds=3.7 | prob=0.326 | EV=0.2062 | edge=0.05573 | penalty=0.2062012062012062 | tier=suppressed_proxy_watchlist | score=0.0973
-- 2026-05-12 | Panetolikos vs Larisa | selection=AWAY | source=football_data_max_market_proxy | odds=3.33 | prob=0.3488 | EV=0.161504 | edge=0.0485 | penalty=0.16150516150516148 | tier=suppressed_proxy_watchlist | score=0.0966
-- 2026-05-13 | Olympiakos vs Panathinaikos | selection=DRAW | source=football_data_max_market_proxy | odds=4.5 | prob=0.274 | EV=0.233 | edge=0.051778 | penalty=0.233001233001233 | tier=suppressed_proxy_watchlist | score=0.0958
-- 2026-05-12 | Aberdeen vs St Mirren | selection=AWAY | source=football_data_max_market_proxy | odds=3.25 | prob=0.3488 | EV=0.1336 | edge=0.041108 | penalty=0.13360113360113357 | tier=suppressed_proxy_watchlist | score=0.0954
+- 2026-05-13 | Volos NPS vs Aris Thessaloniki | selection=HOME | source=odds_api_io_Bet365_ML | odds=3.8 | prob=0.3772 | EV=0.43336 | edge=0.114042 | penalty=0.4333594266562293 | tier=proxy_watchlist | score=0.2649
+- 2026-05-13 | Volos NFC vs Aris | selection=HOME | source=odds_api_io_Bet365_ML | odds=3.8 | prob=0.3772 | EV=0.43336 | edge=0.114042 | penalty=0.4333594266562293 | tier=proxy_watchlist | score=0.2649
+- 2026-05-13 | EC Juventude RS vs Sao Paulo FC SP | selection=HOME | source=odds_api_io_Bet365_ML | odds=3.6 | prob=0.3772 | EV=0.35792 | edge=0.099422 | penalty=0.35791891366486883 | tier=proxy_watchlist | score=0.2583
+- 2026-05-12 | GV Club Deportivo San Jose de Oruro vs CD Real Tomayapo | selection=HOME | source=odds_api_io_Bet365_European Handicap | odds=3.5 | prob=0.3772 | EV=0.3202 | edge=0.091486 | penalty=0.3202013202013201 | tier=proxy_watchlist | score=0.2549
+- 2026-05-13 | MKS Arka Gdynia vs Gornik Zabrze | selection=HOME | source=odds_api_io_Bet365_ML | odds=3.5 | prob=0.3772 | EV=0.3202 | edge=0.091486 | penalty=0.3202013202013201 | tier=proxy_watchlist | score=0.2549
+- 2026-05-13 | Racing Club De Lens vs Paris Saint-Germain | selection=HOME | source=odds_api_io_Bet365_ML | odds=3.25 | prob=0.3772 | EV=0.2259 | edge=0.069508 | penalty=0.22590122590122585 | tier=proxy_watchlist | score=0.2458
+- 2026-05-13 | Deportivo Alaves vs FC Barcelona | selection=HOME | source=odds_api_io_Bet365_ML | odds=3.2 | prob=0.3772 | EV=0.20704 | edge=0.0647 | penalty=0.2070399999999999 | tier=proxy_watchlist | score=0.2439
+- 2026-05-12 | Boston Legacy FC vs Orlando Pride | selection=HOME | source=odds_api_io_Bet365_ML | odds=2.9 | prob=0.3772 | EV=0.09388 | edge=0.032372 | penalty=0.09387868734557503 | tier=proxy_watchlist | score=0.2319
+- 2026-05-12 | UCV FC vs Deportivo La Guaira | selection=HOME | source=odds_api_io_Bet365_ML | odds=2.75 | prob=0.3772 | EV=0.0373 | edge=0.013564 | penalty=0.037301037301037177 | tier=proxy_watchlist | score=0.2253
+- 2026-05-13 | PFC Slavia Sofia vs PFC Dobrudzha Dobrich | selection=HOME | source=odds_api_io_Bet365_ML | odds=2.75 | prob=0.3772 | EV=0.0373 | edge=0.013564 | penalty=0.037301037301037177 | tier=proxy_watchlist | score=0.2253
+- 2026-05-13 | Coritiba FC PR vs Santos FC SP | selection=HOME | source=odds_api_io_Bet365_ML | odds=2.7 | prob=0.3772 | EV=0.01844 | edge=0.00683 | penalty=0.01844101844101842 | tier=proxy_watchlist | score=0.223
+- 2026-05-13 | Bucheon FC 1995 vs Jeonbuk FC | selection=HOME | source=odds_api_io_Bet365_ML | odds=4.1 | prob=0.3772 | EV=0.54652 | edge=0.133298 | penalty=0.5465227837410107 | tier=proxy_watchlist | score=0.2169
 
 ## proxy_candidate_explanations
 
@@ -233,59 +233,57 @@ Explains why proxy candidate observations are not promoted to real candidate bet
 This report is paper/proxy-only and never real-money ready.
 Proxy candidate rows: 12
 Explained rows: 12
-Distinct blockers: 6
-Top blocker: delayed_football_data_proxy_not_fresh_api_price
+Distinct blockers: 4
+Top blocker: ev_above_real_candidate_cap_possible_overconfidence
 Real-money ready: False
 ## Blocker summary
-- delayed_football_data_proxy_not_fresh_api_price: 12
-- market_alignment_penalty_too_high_for_real_candidate: 9
 - ev_above_real_candidate_cap_possible_overconfidence: 8
-- probability_or_league_rule_suppressed: 8
-- low_probability_band_under_0_35: 8
-- edge_below_candidate_threshold: 2
+- market_alignment_penalty_too_high_for_real_candidate: 8
+- edge_below_candidate_threshold: 3
+- watchlist_only_pending_forward_settlement: 1
 ## Row explanations
-- 2026-05-13 | Volos NFC vs Aris | sel=HOME | score=0.2205 | blockers=ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate; delayed_football_data_proxy_not_fresh_api_price | improve=calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration; prefer odds-api.io/API-Football fresh price where available
-- 2026-05-12 | Osasuna vs Ath Madrid | sel=AWAY | score=0.1961 | blockers=edge_below_candidate_threshold; delayed_football_data_proxy_not_fresh_api_price | improve=needs stronger model-vs-market edge; prefer odds-api.io/API-Football fresh price where available
-- 2026-05-13 | Motherwell vs Celtic | sel=HOME | score=0.1905 | blockers=ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate; delayed_football_data_proxy_not_fresh_api_price | improve=calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration; prefer odds-api.io/API-Football fresh price where available
-- 2026-05-13 | Brest vs Strasbourg | sel=HOME | score=0.1895 | blockers=edge_below_candidate_threshold; delayed_football_data_proxy_not_fresh_api_price | improve=needs stronger model-vs-market edge; prefer odds-api.io/API-Football fresh price where available
-- 2026-05-12 | Kilmarnock vs Dundee | sel=AWAY | score=0.1029 | blockers=probability_or_league_rule_suppressed; low_probability_band_under_0_35; ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate; delayed_football_data_proxy_not_fresh_api_price | improve=collect settled forward results before trusting low-probability selections; calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration; prefer odds-api.io/API-Football fresh price where available
-- 2026-05-13 | Hearts vs Falkirk | sel=DRAW | score=0.0995 | blockers=probability_or_league_rule_suppressed; low_probability_band_under_0_35; ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate; delayed_football_data_proxy_not_fresh_api_price | improve=collect settled forward results before trusting low-probability selections; calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration; prefer odds-api.io/API-Football fresh price where available
-- 2026-05-13 | Rangers vs Hibernian | sel=DRAW | score=0.0982 | blockers=probability_or_league_rule_suppressed; low_probability_band_under_0_35; ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate; delayed_football_data_proxy_not_fresh_api_price | improve=collect settled forward results before trusting low-probability selections; calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration; prefer odds-api.io/API-Football fresh price where available
-- 2026-05-13 | Getafe vs Mallorca | sel=AWAY | score=0.0975 | blockers=probability_or_league_rule_suppressed; low_probability_band_under_0_35; ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate; delayed_football_data_proxy_not_fresh_api_price | improve=collect settled forward results before trusting low-probability selections; calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration; prefer odds-api.io/API-Football fresh price where available
-- 2026-05-13 | Villarreal vs Sevilla | sel=AWAY | score=0.0973 | blockers=probability_or_league_rule_suppressed; low_probability_band_under_0_35; ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate; delayed_football_data_proxy_not_fresh_api_price | improve=collect settled forward results before trusting low-probability selections; calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration; prefer odds-api.io/API-Football fresh price where available
-- 2026-05-12 | Panetolikos vs Larisa | sel=AWAY | score=0.0966 | blockers=probability_or_league_rule_suppressed; low_probability_band_under_0_35; market_alignment_penalty_too_high_for_real_candidate; delayed_football_data_proxy_not_fresh_api_price | improve=collect settled forward results before trusting low-probability selections; needs better market alignment or stricter probability calibration; prefer odds-api.io/API-Football fresh price where available
-- 2026-05-13 | Olympiakos vs Panathinaikos | sel=DRAW | score=0.0958 | blockers=probability_or_league_rule_suppressed; low_probability_band_under_0_35; ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate; delayed_football_data_proxy_not_fresh_api_price | improve=collect settled forward results before trusting low-probability selections; calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration; prefer odds-api.io/API-Football fresh price where available
-- 2026-05-12 | Aberdeen vs St Mirren | sel=AWAY | score=0.0954 | blockers=probability_or_league_rule_suppressed; low_probability_band_under_0_35; delayed_football_data_proxy_not_fresh_api_price | improve=collect settled forward results before trusting low-probability selections; prefer odds-api.io/API-Football fresh price where available
+- 2026-05-13 | Volos NPS vs Aris Thessaloniki | sel=HOME | score=0.2649 | blockers=ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate | improve=calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration
+- 2026-05-13 | Volos NFC vs Aris | sel=HOME | score=0.2649 | blockers=ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate | improve=calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration
+- 2026-05-13 | EC Juventude RS vs Sao Paulo FC SP | sel=HOME | score=0.2583 | blockers=ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate | improve=calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration
+- 2026-05-12 | GV Club Deportivo San Jose de Oruro vs CD Real Tomayapo | sel=HOME | score=0.2549 | blockers=ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate | improve=calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration
+- 2026-05-13 | MKS Arka Gdynia vs Gornik Zabrze | sel=HOME | score=0.2549 | blockers=ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate | improve=calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration
+- 2026-05-13 | Racing Club De Lens vs Paris Saint-Germain | sel=HOME | score=0.2458 | blockers=ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate | improve=calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration
+- 2026-05-13 | Deportivo Alaves vs FC Barcelona | sel=HOME | score=0.2439 | blockers=ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate | improve=calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration
+- 2026-05-12 | Boston Legacy FC vs Orlando Pride | sel=HOME | score=0.2319 | blockers=watchlist_only_pending_forward_settlement | improve=monitor until settled forward sample is large enough
+- 2026-05-12 | UCV FC vs Deportivo La Guaira | sel=HOME | score=0.2253 | blockers=edge_below_candidate_threshold | improve=needs stronger model-vs-market edge
+- 2026-05-13 | PFC Slavia Sofia vs PFC Dobrudzha Dobrich | sel=HOME | score=0.2253 | blockers=edge_below_candidate_threshold | improve=needs stronger model-vs-market edge
+- 2026-05-13 | Coritiba FC PR vs Santos FC SP | sel=HOME | score=0.223 | blockers=edge_below_candidate_threshold | improve=needs stronger model-vs-market edge
+- 2026-05-13 | Bucheon FC 1995 vs Jeonbuk FC | sel=HOME | score=0.2169 | blockers=ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate | improve=calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration
 
 ## proxy_observation_quality
 
 # Proxy Observation Quality Report
 Quality diagnostics for automatic delayed-market proxy paper observations.
 This is not real-money ready and does not override suppression rules for candidate bets.
-Value snapshot rows: 243
+Value snapshot rows: 597
 Paper proxy observation rows: 25
-Positive EV value rows: 119
+Positive EV value rows: 289
 Suppressed-band observation rows: 0
-Distinct matches: 13
+Distinct matches: 15
 Distinct sources: 0
-Max EV: 0.744
-Average EV: 0.242265
-Max probability edge: 0.1488
+Max EV: 0.7917
+Average EV: 0.242858
+Max probability edge: 0.166674
 Average match confidence: None
 ## By selection
-- away: rows=16, avg_ev=0.3695, max_ev=0.744
-- draw: rows=7, avg_ev=0.0085, max_ev=0.0752
-- home: rows=2, avg_ev=0.0426, max_ev=0.0577
+- away: rows=13, avg_ev=0.2856, max_ev=0.744
+- draw: rows=8, avg_ev=0.0144, max_ev=0.0752
+- home: rows=4, avg_ev=0.5611, max_ev=0.7917
 
 ## forward_fixture_predictions
 
 # Forward Fixture Predictions
 Probability-only forward fixture model output. Not a betting card and not a real-money recommendation.
 Full model rows use matched team-strength data. Baseline rows are conservative league-average placeholders used to increase odds-matching coverage only.
-Upcoming fixture rows: 27
-Forward fixture prediction rows: 27
+Upcoming fixture rows: 212
+Forward fixture prediction rows: 212
 Full model prediction rows: 11
-Baseline prediction rows: 16
+Baseline prediction rows: 201
 Max forward predictions: 300
 Ready for price join: True
 - 2026-05-12 17:00 | Asteras Tripolis vs Panserraikos | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
@@ -297,47 +295,47 @@ Ready for price join: True
 - 2026-05-12 19:45 | Dundee United vs Livingston | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-12 19:45 | Kilmarnock vs Dundee | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-12 20:30 | Osasuna vs Ath Madrid | coverage=full_team_strength_match | H=0.3224 D=0.2807 A=0.3969 | fair=3.1/3.56/2.52
-- 2026-05-13 15:00 | Levadeiakos vs OFI Crete | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
-- 2026-05-13 15:00 | Volos NFC vs Aris | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
-- 2026-05-13 17:30 | Olympiakos vs Panathinaikos | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
-- 2026-05-13 17:30 | PAOK vs AEK | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
-- 2026-05-13 18:00 | Brest vs Strasbourg | coverage=full_team_strength_match | H=0.3618 D=0.2794 A=0.3588 | fair=2.76/3.58/2.79
-- 2026-05-13 18:00 | Espanol vs Ath Bilbao | coverage=full_team_strength_match | H=0.349 D=0.2922 A=0.3588 | fair=2.87/3.42/2.79
-- 2026-05-13 18:00 | Villarreal vs Sevilla | coverage=full_team_strength_match | H=0.4041 D=0.2699 A=0.326 | fair=2.47/3.71/3.07
-- 2026-05-13 19:00:00 | Manchester City vs Crystal Palace | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
-- 2026-05-13 20:00 | Hearts vs Falkirk | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
-- 2026-05-13 20:00 | Lens vs Paris SG | coverage=full_team_strength_match | H=0.3022 D=0.2638 A=0.4339 | fair=3.31/3.79/2.3
-- 2026-05-13 20:00 | Man City vs Crystal Palace | coverage=full_team_strength_match | H=0.4509 D=0.2635 A=0.2857 | fair=2.22/3.8/3.5
-- 2026-05-13 20:00 | Motherwell vs Celtic | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-12 22:00 | CA Belgrano de Cordoba vs Union de Santa Fe | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-12 22:00 | Deportivo Tachira vs Metropolitanos FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-12 22:00 | GV Club Deportivo San Jose de Oruro vs CD Real Tomayapo | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-12 22:30 | Londrina EC PR vs Sao Bernardo FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-12 22:30 | SC Internacional RS vs Athletic Club Sjdr MG | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-12 23:00 | Banos Ciudad de Fuego vs Delfin SC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-12 23:00 | Boston Legacy FC vs Orlando Pride | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-12 23:00 | LVU Rush vs West Chester United SC USL2 | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-12 23:00 | Mahaut Soca Strikers vs Middleham United FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-12 23:00 | St Andrew Lions vs Ellerton FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-12 23:20 | Atletico Nacional Medellin vs Internacional de Bogota. | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-12 23:30 | UCV FC vs Deportivo La Guaira | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 
 ## forward_fixture_prediction_log
 
 # Forward Fixture Prediction Log
 Probability-only forward prediction log. This is not a betting log and contains no stake or real-money signal.
-Current forward fixture predictions: 27
+Current forward fixture predictions: 212
 New forward fixture predictions logged: 0
-Total forward fixture predictions logged: 242
+Total forward fixture predictions logged: 359
 Log type: probability_only_no_market_prices
-- 2026-05-13 2026-05-12 20:30:00 | Alaves vs Barcelona | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-13 2026-05-12 20:30:00 | Getafe vs Mallorca | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-12 2026-05-12 19:00:00 | Betis vs Elche | H=0.44570000000000004 D=0.27030000000000004 A=0.28390000000000004
-- 2026-05-12 2026-05-12 20:30:00 | Osasuna vs Ath Madrid | H=0.3224 D=0.2807 A=0.39690000000000003
-- 2026-05-13 2026-05-12 18:00:00 | Brest vs Strasbourg | H=0.3618 D=0.27940000000000004 A=0.3588
-- 2026-05-13 2026-05-12 18:00:00 | Espanol vs Ath Bilbao | H=0.34900000000000003 D=0.2922 A=0.3588
-- 2026-05-13 2026-05-12 18:00:00 | Villarreal vs Sevilla | H=0.4041 D=0.26990000000000003 A=0.326
-- 2026-05-13 2026-05-12 20:00:00 | Lens vs Paris SG | H=0.3022 D=0.26380000000000003 A=0.4339
-- 2026-05-13 2026-05-12 20:00:00 | Man City vs Crystal Palace | H=0.4509 D=0.2635 A=0.2857
-- 2026-05-13 2026-05-12 20:30:00 | Alaves vs Barcelona | H=0.29650000000000004 D=0.2757 A=0.4277
-- 2026-05-13 2026-05-12 20:30:00 | Getafe vs Mallorca | H=0.37920000000000004 D=0.2939 A=0.32680000000000003
-- 2026-05-13 2026-05-12 23:30:00 | Orlando City SC vs Philadelphia Union | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-14 2026-05-12 13:00:00 | TRA United vs Mtibwa Sugar FC | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-14 2026-05-12 18:00:00 | Valencia vs Vallecano | H=0.3922 D=0.2863 A=0.3215
-- 2026-05-14 2026-05-12 19:00:00 | Girona vs Sociedad | H=0.3982 D=0.2712 A=0.3305
-- 2026-05-14 2026-05-12 20:30:00 | Real Madrid vs Oviedo | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-15 2026-05-12 10:00:00 | Central Coast United FC vs Inner West Hawks FC | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-13 2026-05-12 14:00:00 | FC Spartak 1918 Varna II vs PFC Cherno More Varna II | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-16 2026-05-12 08:15:00 | FK Mlada Boleslav B vs Tj Slovan Velvary | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-16 2026-05-12 09:00:00 | Slavia Prague vs FK Mlada Boleslav | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-12 18:45:00 | Cobh Ramblers vs Athlone Town AFC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-12 18:45:00 | Kerry FC vs Wexford FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-12 18:45:00 | Oud-Heverlee Leuven vs Royal Antwerp FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-12 18:45:00 | Saint Patrick´s Athletic FC vs Shelbourne FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-12 18:45:00 | Treaty United vs Finn Harps FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-12 18:45:00 | Waterford FC vs Derry City FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-12 19:00:00 | Aston Villa vs Liverpool FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-12 19:00:00 | Cordoba CF vs Albacete Balompie | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-12 19:00:00 | Dundalk FC vs Shamrock Rovers | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-12 19:00:00 | Notts County vs Chesterfield FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-12 20:00:00 | FC Cajamarca vs Sporting Cristal | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-12 21:30:00 | LDU Quito vs CD Tecnico Universitario | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-16 2026-05-12 05:00:00 | Mandurah City FC Reserves vs Uwa Nedlands FC Reserves | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-16 2026-05-12 06:30:00 | Port Darwin FC vs Darwin Hearts FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-16 2026-05-12 07:00:00 | Fremantle City vs Olympic Kingsway SC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-16 2026-05-12 07:00:00 | Mandurah City vs UWA Nedlands FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-16 2026-05-12 07:00:00 | Olympic Kingsway SC vs Fremantle City | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-16 2026-05-12 08:30:00 | Darwin Hearts FC Reserves vs Garuda FC Reserves | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-16 2026-05-12 08:45:00 | Kedah Darul Aman vs Manjung City FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-16 2026-05-12 09:30:00 | Sydney City Comets vs Manly Warringah Sea Eagles | H=0.37720000000000004 D=0.274 A=0.3488
 
 ## forward_fixture_results
 
@@ -365,10 +363,10 @@ Average Brier score: None
 # Forward Input Status
 Manual Bet365 odds input is parked as an optional fallback. It is not an active development blocker.
 Current priority: automatic/free-data forward-testing sources and robust fixture/model matching.
-Upcoming fixtures: 27
-Manual template rows: 27
+Upcoming fixtures: 212
+Manual template rows: 212
 Rows with complete manual odds: 0
-Rows missing manual odds: 27
+Rows missing manual odds: 212
 Manual forward snapshot rows: 0
 Manual odds mode: optional_fallback_paused
 Manual odds is blocker: False
@@ -379,19 +377,19 @@ Upcoming fixtures exist, but no automatic odds/proxy forward snapshot source is 
 Manual odds are not required in the current phase. These rows are only kept for later fallback use:
 - 2026-05-12 19:45 | Aberdeen vs St Mirren
 - 2026-05-12 17:00 | Asteras Tripolis vs Panserraikos
+- 2026-05-12 23:20 | Atletico Nacional Medellin vs Internacional de Bogota.
+- 2026-05-12 23:00 | Banos Ciudad de Fuego vs Delfin SC
 - 2026-05-12 19:00 | Betis vs Elche
+- 2026-05-12 23:00 | Boston Legacy FC vs Orlando Pride
+- 2026-05-12 22:00 | CA Belgrano de Cordoba vs Union de Santa Fe
 - 2026-05-12 18:00 | Celta vs Levante
+- 2026-05-12 22:00 | Deportivo Tachira vs Metropolitanos FC
 - 2026-05-12 19:45 | Dundee United vs Livingston
+- 2026-05-12 22:00 | GV Club Deportivo San Jose de Oruro vs CD Real Tomayapo
 - 2026-05-12 17:00 | Kifisia vs Atromitos
 - 2026-05-12 19:45 | Kilmarnock vs Dundee
-- 2026-05-12 20:30 | Osasuna vs Ath Madrid
-- 2026-05-12 17:00 | Panetolikos vs Larisa
-- 2026-05-13 20:30 | Alaves vs Barcelona
-- 2026-05-13 18:00 | Brest vs Strasbourg
-- 2026-05-13 18:00 | Espanol vs Ath Bilbao
-- 2026-05-13 20:30 | Getafe vs Mallorca
-- 2026-05-13 20:00 | Hearts vs Falkirk
-- 2026-05-13 20:00 | Lens vs Paris SG
+- 2026-05-12 22:30 | Londrina EC PR vs Sao Bernardo FC
+- 2026-05-12 23:00 | LVU Rush vs West Chester United SC USL2
 
 ## upcoming_fixtures
 
@@ -399,32 +397,32 @@ Manual odds are not required in the current phase. These rows are only kept for 
 Fixture sources: TheSportsDB, Football-Data fixtures proxy, cautious odds-api.io events, and disabled-by-default API-Football status.
 Duplicate fixtures are deduplicated by date and normalized teams, preferring odds-api.io then Football-Data for odds alignment.
 Primary development target: automatic/free market proxy, not manual Bet365.
-Fixtures found: 27
-Source counts: {'football_data_fixtures_proxy': 26, 'thesportsdb_eventsnextleague': 1}
+Fixtures found: 212
+Source counts: {'odds_api_io_events_bookmaker_filtered': 174, 'football_data_fixtures_proxy': 26, 'odds_api_io_events_search': 11, 'thesportsdb_eventsnextleague': 1}
 Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 - 2026-05-12 19:45 | Aberdeen vs St Mirren | SC0 | football_data_fixtures_proxy
 - 2026-05-12 17:00 | Asteras Tripolis vs Panserraikos | G1 | football_data_fixtures_proxy
+- 2026-05-12 23:20 | Atletico Nacional Medellin vs Internacional de Bogota. | colombia-primera-a-apertura | odds_api_io_events_bookmaker_filtered
+- 2026-05-12 23:00 | Banos Ciudad de Fuego vs Delfin SC | ecuador-copa-ecuador | odds_api_io_events_bookmaker_filtered
 - 2026-05-12 19:00 | Betis vs Elche | la_liga | football_data_fixtures_proxy
+- 2026-05-12 23:00 | Boston Legacy FC vs Orlando Pride | usa-national-womens-soccer-league | odds_api_io_events_bookmaker_filtered
+- 2026-05-12 22:00 | CA Belgrano de Cordoba vs Union de Santa Fe | argentina-liga-profesional | odds_api_io_events_bookmaker_filtered
 - 2026-05-12 18:00 | Celta vs Levante | la_liga | football_data_fixtures_proxy
+- 2026-05-12 22:00 | Deportivo Tachira vs Metropolitanos FC | venezuela-primera-division | odds_api_io_events_bookmaker_filtered
 - 2026-05-12 19:45 | Dundee United vs Livingston | SC0 | football_data_fixtures_proxy
+- 2026-05-12 22:00 | GV Club Deportivo San Jose de Oruro vs CD Real Tomayapo | bolivia-division-profesional | odds_api_io_events_bookmaker_filtered
 - 2026-05-12 17:00 | Kifisia vs Atromitos | G1 | football_data_fixtures_proxy
 - 2026-05-12 19:45 | Kilmarnock vs Dundee | SC0 | football_data_fixtures_proxy
+- 2026-05-12 22:30 | Londrina EC PR vs Sao Bernardo FC | brazil-brasileiro-serie-b | odds_api_io_events_bookmaker_filtered
+- 2026-05-12 23:00 | LVU Rush vs West Chester United SC USL2 | usa-usl-league-two | odds_api_io_events_bookmaker_filtered
+- 2026-05-12 23:00 | Mahaut Soca Strikers vs Middleham United FC | dominica-dfa-premier | odds_api_io_events_bookmaker_filtered
 - 2026-05-12 20:30 | Osasuna vs Ath Madrid | la_liga | football_data_fixtures_proxy
 - 2026-05-12 17:00 | Panetolikos vs Larisa | G1 | football_data_fixtures_proxy
-- 2026-05-13 20:30 | Alaves vs Barcelona | la_liga | football_data_fixtures_proxy
-- 2026-05-13 18:00 | Brest vs Strasbourg | ligue_1 | football_data_fixtures_proxy
-- 2026-05-13 18:00 | Espanol vs Ath Bilbao | la_liga | football_data_fixtures_proxy
-- 2026-05-13 20:30 | Getafe vs Mallorca | la_liga | football_data_fixtures_proxy
-- 2026-05-13 20:00 | Hearts vs Falkirk | SC0 | football_data_fixtures_proxy
-- 2026-05-13 20:00 | Lens vs Paris SG | ligue_1 | football_data_fixtures_proxy
-- 2026-05-13 15:00 | Levadeiakos vs OFI Crete | G1 | football_data_fixtures_proxy
-- 2026-05-13 20:00 | Man City vs Crystal Palace | premier_league | football_data_fixtures_proxy
-- 2026-05-13 19:00:00 | Manchester City vs Crystal Palace | premier_league | thesportsdb_eventsnextleague
-- 2026-05-13 20:00 | Motherwell vs Celtic | SC0 | football_data_fixtures_proxy
-- 2026-05-13 17:30 | Olympiakos vs Panathinaikos | G1 | football_data_fixtures_proxy
-- 2026-05-13 17:30 | PAOK vs AEK | G1 | football_data_fixtures_proxy
-- 2026-05-13 20:00 | Rangers vs Hibernian | SC0 | football_data_fixtures_proxy
-- 2026-05-13 18:00 | Villarreal vs Sevilla | la_liga | football_data_fixtures_proxy
+- 2026-05-12 22:30 | SC Internacional RS vs Athletic Club Sjdr MG | brazil-copa-do-brasil | odds_api_io_events_bookmaker_filtered
+- 2026-05-12 23:00 | St Andrew Lions vs Ellerton FC | barbados-premier-league | odds_api_io_events_bookmaker_filtered
+- 2026-05-12 23:30 | UCV FC vs Deportivo La Guaira | venezuela-primera-division | odds_api_io_events_bookmaker_filtered
+- 2026-05-13 23:30 | Academia Puerto Cabello vs Portuguesa FC | venezuela-primera-division | odds_api_io_events_bookmaker_filtered
+- 2026-05-13 23:00 | AD Pasto vs CD Tolima | colombia-primera-a-apertura | odds_api_io_events_bookmaker_filtered
 
 ## manual_odds_template
 
@@ -432,32 +430,32 @@ Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 Use this only for forward paper-testing. Do not use for real-money betting.
 Existing filled odds are preserved when fixtures refresh.
 Fill the three 1X2 odds columns from Bet365 before kickoff, then commit/update the CSV or run the workflow manually.
-Template rows: 27
+Template rows: 212
 Rows with complete odds: 0
 - 2026-05-12 19:45 | Aberdeen vs St Mirren | bookmaker=bet365_manual
 - 2026-05-12 17:00 | Asteras Tripolis vs Panserraikos | bookmaker=bet365_manual
+- 2026-05-12 23:20 | Atletico Nacional Medellin vs Internacional de Bogota. | bookmaker=bet365_manual
+- 2026-05-12 23:00 | Banos Ciudad de Fuego vs Delfin SC | bookmaker=bet365_manual
 - 2026-05-12 19:00 | Betis vs Elche | bookmaker=bet365_manual
+- 2026-05-12 23:00 | Boston Legacy FC vs Orlando Pride | bookmaker=bet365_manual
+- 2026-05-12 22:00 | CA Belgrano de Cordoba vs Union de Santa Fe | bookmaker=bet365_manual
 - 2026-05-12 18:00 | Celta vs Levante | bookmaker=bet365_manual
+- 2026-05-12 22:00 | Deportivo Tachira vs Metropolitanos FC | bookmaker=bet365_manual
 - 2026-05-12 19:45 | Dundee United vs Livingston | bookmaker=bet365_manual
+- 2026-05-12 22:00 | GV Club Deportivo San Jose de Oruro vs CD Real Tomayapo | bookmaker=bet365_manual
 - 2026-05-12 17:00 | Kifisia vs Atromitos | bookmaker=bet365_manual
 - 2026-05-12 19:45 | Kilmarnock vs Dundee | bookmaker=bet365_manual
+- 2026-05-12 22:30 | Londrina EC PR vs Sao Bernardo FC | bookmaker=bet365_manual
+- 2026-05-12 23:00 | LVU Rush vs West Chester United SC USL2 | bookmaker=bet365_manual
+- 2026-05-12 23:00 | Mahaut Soca Strikers vs Middleham United FC | bookmaker=bet365_manual
 - 2026-05-12 20:30 | Osasuna vs Ath Madrid | bookmaker=bet365_manual
 - 2026-05-12 17:00 | Panetolikos vs Larisa | bookmaker=bet365_manual
+- 2026-05-12 22:30 | SC Internacional RS vs Athletic Club Sjdr MG | bookmaker=bet365_manual
+- 2026-05-12 23:00 | St Andrew Lions vs Ellerton FC | bookmaker=bet365_manual
+- 2026-05-12 23:30 | UCV FC vs Deportivo La Guaira | bookmaker=bet365_manual
+- 2026-05-13 23:30 | Academia Puerto Cabello vs Portuguesa FC | bookmaker=bet365_manual
+- 2026-05-13 23:00 | AD Pasto vs CD Tolima | bookmaker=bet365_manual
 - 2026-05-13 20:30 | Alaves vs Barcelona | bookmaker=bet365_manual
-- 2026-05-13 18:00 | Brest vs Strasbourg | bookmaker=bet365_manual
-- 2026-05-13 18:00 | Espanol vs Ath Bilbao | bookmaker=bet365_manual
-- 2026-05-13 20:30 | Getafe vs Mallorca | bookmaker=bet365_manual
-- 2026-05-13 20:00 | Hearts vs Falkirk | bookmaker=bet365_manual
-- 2026-05-13 20:00 | Lens vs Paris SG | bookmaker=bet365_manual
-- 2026-05-13 15:00 | Levadeiakos vs OFI Crete | bookmaker=bet365_manual
-- 2026-05-13 20:00 | Man City vs Crystal Palace | bookmaker=bet365_manual
-- 2026-05-13 19:00:00 | Manchester City vs Crystal Palace | bookmaker=bet365_manual
-- 2026-05-13 20:00 | Motherwell vs Celtic | bookmaker=bet365_manual
-- 2026-05-13 17:30 | Olympiakos vs Panathinaikos | bookmaker=bet365_manual
-- 2026-05-13 17:30 | PAOK vs AEK | bookmaker=bet365_manual
-- 2026-05-13 20:00 | Rangers vs Hibernian | bookmaker=bet365_manual
-- 2026-05-13 18:00 | Villarreal vs Sevilla | bookmaker=bet365_manual
-- 2026-05-13 15:00 | Volos NFC vs Aris | bookmaker=bet365_manual
 
 ## manual_odds_instructions
 
@@ -474,23 +472,23 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 ## Current rows needing odds
 - 2026-05-12 19:45 | Aberdeen vs St Mirren
 - 2026-05-12 17:00 | Asteras Tripolis vs Panserraikos
+- 2026-05-12 23:20 | Atletico Nacional Medellin vs Internacional de Bogota.
+- 2026-05-12 23:00 | Banos Ciudad de Fuego vs Delfin SC
 - 2026-05-12 19:00 | Betis vs Elche
+- 2026-05-12 23:00 | Boston Legacy FC vs Orlando Pride
+- 2026-05-12 22:00 | CA Belgrano de Cordoba vs Union de Santa Fe
 - 2026-05-12 18:00 | Celta vs Levante
+- 2026-05-12 22:00 | Deportivo Tachira vs Metropolitanos FC
 - 2026-05-12 19:45 | Dundee United vs Livingston
+- 2026-05-12 22:00 | GV Club Deportivo San Jose de Oruro vs CD Real Tomayapo
 - 2026-05-12 17:00 | Kifisia vs Atromitos
 - 2026-05-12 19:45 | Kilmarnock vs Dundee
+- 2026-05-12 22:30 | Londrina EC PR vs Sao Bernardo FC
+- 2026-05-12 23:00 | LVU Rush vs West Chester United SC USL2
+- 2026-05-12 23:00 | Mahaut Soca Strikers vs Middleham United FC
 - 2026-05-12 20:30 | Osasuna vs Ath Madrid
 - 2026-05-12 17:00 | Panetolikos vs Larisa
-- 2026-05-13 20:30 | Alaves vs Barcelona
-- 2026-05-13 18:00 | Brest vs Strasbourg
-- 2026-05-13 18:00 | Espanol vs Ath Bilbao
-- 2026-05-13 20:30 | Getafe vs Mallorca
-- 2026-05-13 20:00 | Hearts vs Falkirk
-- 2026-05-13 20:00 | Lens vs Paris SG
-- 2026-05-13 15:00 | Levadeiakos vs OFI Crete
-- 2026-05-13 20:00 | Man City vs Crystal Palace
-- 2026-05-13 19:00:00 | Manchester City vs Crystal Palace
-- 2026-05-13 20:00 | Motherwell vs Celtic
+- 2026-05-12 22:30 | SC Internacional RS vs Athletic Club Sjdr MG
 
 ## manual_forward_snapshots
 
@@ -502,26 +500,26 @@ No manual forward snapshots built. Fill data/manual/manual_odds_template.csv wit
 ## paper_test_log_status
 
 # Paper Test Log Status
-Raw log rows: 86
-Valid forward/proxy log rows: 83
-Deduped forward/proxy observation rows: 44
-Duplicate forward/proxy log rows: 39
-Valid automatic proxy observation rows: 83
-Deduped automatic proxy observation rows: 44
+Raw log rows: 95
+Valid forward/proxy log rows: 92
+Deduped forward/proxy observation rows: 49
+Duplicate forward/proxy log rows: 43
+Valid automatic proxy observation rows: 92
+Deduped automatic proxy observation rows: 49
 Invalid historical/proxy log rows excluded: 3
 Has valid forward log: True
 ## Deduped valid rows
-- 2026-05-11 | Vallecano vs Girona | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.1245
-- 2026-05-11 | Tottenham Hotspur vs Leeds United | selection=draw | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.1216
-- 2026-05-12 | Dundee United vs Livingston | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.0748
-- 2026-05-12 | Asteras Tripolis vs Panserraikos | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.0747
 - 2026-05-12 | Sur SC vs Al-Khaboora | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.0746
 - 2026-05-12 | Celta vs Levante | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.0746
 - 2026-05-12 | RC Celta de Vigo vs Levante UD | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.0746
 - 2026-05-12 | PFC Cherno More Varna vs PFC Lokomotiv Plovdiv | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.0742
+- 2026-05-12 | St Andrew Lions vs Ellerton FC | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0733
 - 2026-05-12 | TRA United vs Jkt Tanzania | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.0716
+- 2026-05-13 | Motherwell vs Celtic | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0712
+- 2026-05-13 | Motherwell FC vs Celtic Glasgow | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0712
 - 2026-05-13 | PAOK vs AEK | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0711
 - 2026-05-13 | Levadeiakos vs OFI Crete | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0711
+- 2026-05-13 | PAOK Thessaloniki vs AEK Athens | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0711
 - 2026-05-12 | AL Wasl vs AL Jazira | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.0711
 - 2026-05-12 | Sportivo Ameliano vs Deportivo Recoleta Reserve | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.0711
 - 2026-05-12 | AL Ittihad Kalba vs AL Nasr | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.07060000000000001
@@ -601,15 +599,15 @@ Baseline coverage observations are not model signals. They exist only to test th
 Suppressed historical bands and negative-EV controls may be tracked as observations only.
 Source used: automatic_forward_value_snapshots
 Current paper-test picks: 25
-Newly logged paper-test picks: 21
-Total logged paper-test rows: 86
+Newly logged paper-test picks: 9
+Total logged paper-test rows: 95
 Max visible paper picks: 25
-Filter summary: {'forward_rows_before_filter': 243, 'max_visible_paper_picks': 25, 'odds_range': '1.3-9.0', 'probability_range': '0.15-0.72', 'edge_range': '-0.03-0.32', 'ev_range': '-0.05-1.1', 'max_alignment_penalty': 0.8, 'rows_after_observation_filter': 116, 'current_paper_picks': 25, 'newly_logged_picks': 21, 'total_logged_paper_rows': 86, 'source_used': 'automatic_forward_value_snapshots'}
+Filter summary: {'forward_rows_before_filter': 597, 'max_visible_paper_picks': 25, 'odds_range': '1.3-9.0', 'probability_range': '0.15-0.72', 'edge_range': '-0.03-0.32', 'ev_range': '-0.05-1.1', 'max_alignment_penalty': 0.8, 'rows_after_observation_filter': 274, 'current_paper_picks': 25, 'newly_logged_picks': 9, 'total_logged_paper_rows': 95, 'source_used': 'automatic_forward_value_snapshots'}
 - Betis vs Elche | coverage=full_team_strength_match | selection=AWAY | odds=5.5 | prob=0.2839 | EV=0.5615 | edge=0.1021 | penalty=0.5615 | band=0.25-0.35 | risk=proxy_price_source | rule=none | tier=volume_observation
 - Betis vs Elche | coverage=full_team_strength_match | selection=AWAY | odds=5.25 | prob=0.2839 | EV=0.4905 | edge=0.0934 | penalty=0.4905 | band=0.25-0.35 | risk=proxy_price_source | rule=none | tier=volume_observation
 - Getafe vs Mallorca | coverage=full_team_strength_match | selection=AWAY | odds=3.7 | prob=0.3268 | EV=0.2092 | edge=0.0565 | penalty=0.2092 | band=0.25-0.35 | risk=proxy_price_source | rule=none | tier=priority_proxy_observation
 - Villarreal vs Sevilla | coverage=full_team_strength_match | selection=AWAY | odds=3.7 | prob=0.326 | EV=0.2062 | edge=0.0557 | penalty=0.2062 | band=0.25-0.35 | risk=proxy_price_source | rule=none | tier=priority_proxy_observation
-- Villarreal vs Sevilla | coverage=full_team_strength_match | selection=AWAY | odds=3.6 | prob=0.326 | EV=0.1736 | edge=0.0482 | penalty=0.1736 | band=0.25-0.35 | risk=proxy_price_source | rule=none | tier=priority_proxy_observation
+- Villarreal vs Sevilla | coverage=full_team_strength_match | selection=AWAY | odds=3.7 | prob=0.326 | EV=0.2062 | edge=0.0557 | penalty=0.2062 | band=0.25-0.35 | risk=proxy_price_source | rule=none | tier=priority_proxy_observation
 - Getafe vs Mallorca | coverage=full_team_strength_match | selection=AWAY | odds=3.51 | prob=0.3268 | EV=0.1471 | edge=0.0419 | penalty=0.1471 | band=0.25-0.35 | risk=proxy_price_source | rule=none | tier=priority_proxy_observation
 - Girona vs Sociedad | coverage=full_team_strength_match | selection=AWAY | odds=3.35 | prob=0.3305 | EV=0.1072 | edge=0.032 | penalty=0.1072 | band=0.25-0.35 | risk=proxy_price_source | rule=none | tier=priority_proxy_observation
 - Girona vs Sociedad | coverage=full_team_strength_match | selection=AWAY | odds=3.3 | prob=0.3305 | EV=0.0906 | edge=0.0275 | penalty=0.0907 | band=0.25-0.35 | risk=proxy_price_source | rule=none | tier=priority_proxy_observation
@@ -617,7 +615,7 @@ Filter summary: {'forward_rows_before_filter': 243, 'max_visible_paper_picks': 2
 - Valencia vs Vallecano | coverage=full_team_strength_match | selection=AWAY | odds=3.3 | prob=0.3215 | EV=0.0609 | edge=0.0185 | penalty=0.061 | band=0.25-0.35 | risk=proxy_price_source | rule=none | tier=priority_proxy_observation
 - Lens vs Paris SG | coverage=full_team_strength_match | selection=HOME | odds=3.5 | prob=0.3022 | EV=0.0577 | edge=0.0165 | penalty=0.0577 | band=0.25-0.35 | risk=proxy_price_source | rule=none | tier=priority_proxy_observation
 - Alaves vs Barcelona | coverage=full_team_strength_match | selection=DRAW | odds=3.9 | prob=0.2757 | EV=0.0752 | edge=0.0193 | penalty=0.0752 | band=0.25-0.35 | risk=proxy_price_source | rule=none | tier=priority_proxy_observation
-- Lens vs Paris SG | coverage=full_team_strength_match | selection=HOME | odds=3.4 | prob=0.3022 | EV=0.0275 | edge=0.0081 | penalty=0.0275 | band=0.25-0.35 | risk=proxy_price_source | rule=none | tier=priority_proxy_observation
+- Lens vs Paris SG | coverage=full_team_strength_match | selection=DRAW | odds=4.0 | prob=0.2638 | EV=0.0552 | edge=0.0138 | penalty=0.0552 | band=0.25-0.35 | risk=proxy_price_source | rule=none | tier=priority_proxy_observation
 - Alaves vs Barcelona | coverage=full_team_strength_match | selection=DRAW | odds=3.75 | prob=0.2757 | EV=0.0339 | edge=0.009 | penalty=0.0339 | band=0.25-0.35 | risk=proxy_price_source | rule=none | tier=priority_proxy_observation
 - Osasuna vs Ath Madrid | coverage=full_team_strength_match | selection=DRAW | odds=3.6 | prob=0.2807 | EV=0.0105 | edge=0.0029 | penalty=0.0105 | band=0.25-0.35 | risk=proxy_price_source | rule=none | tier=priority_proxy_observation
 - Brest vs Strasbourg | coverage=full_team_strength_match | selection=DRAW | odds=3.6 | prob=0.2794 | EV=0.0058 | edge=0.0016 | penalty=0.0058 | band=0.25-0.35 | risk=proxy_price_source | rule=none | tier=priority_proxy_observation

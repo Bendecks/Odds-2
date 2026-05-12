@@ -2,28 +2,28 @@
 
 Probability-only forward prediction log. This is not a betting log and contains no stake or real-money signal.
 
-Current forward fixture predictions: 27
+Current forward fixture predictions: 212
 New forward fixture predictions logged: 0
-Total forward fixture predictions logged: 242
+Total forward fixture predictions logged: 359
 Log type: probability_only_no_market_prices
 
-- 2026-05-13 2026-05-12 20:30:00 | Alaves vs Barcelona | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-13 2026-05-12 20:30:00 | Getafe vs Mallorca | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-12 2026-05-12 19:00:00 | Betis vs Elche | H=0.44570000000000004 D=0.27030000000000004 A=0.28390000000000004
-- 2026-05-12 2026-05-12 20:30:00 | Osasuna vs Ath Madrid | H=0.3224 D=0.2807 A=0.39690000000000003
-- 2026-05-13 2026-05-12 18:00:00 | Brest vs Strasbourg | H=0.3618 D=0.27940000000000004 A=0.3588
-- 2026-05-13 2026-05-12 18:00:00 | Espanol vs Ath Bilbao | H=0.34900000000000003 D=0.2922 A=0.3588
-- 2026-05-13 2026-05-12 18:00:00 | Villarreal vs Sevilla | H=0.4041 D=0.26990000000000003 A=0.326
-- 2026-05-13 2026-05-12 20:00:00 | Lens vs Paris SG | H=0.3022 D=0.26380000000000003 A=0.4339
-- 2026-05-13 2026-05-12 20:00:00 | Man City vs Crystal Palace | H=0.4509 D=0.2635 A=0.2857
-- 2026-05-13 2026-05-12 20:30:00 | Alaves vs Barcelona | H=0.29650000000000004 D=0.2757 A=0.4277
-- 2026-05-13 2026-05-12 20:30:00 | Getafe vs Mallorca | H=0.37920000000000004 D=0.2939 A=0.32680000000000003
-- 2026-05-13 2026-05-12 23:30:00 | Orlando City SC vs Philadelphia Union | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-14 2026-05-12 13:00:00 | TRA United vs Mtibwa Sugar FC | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-14 2026-05-12 18:00:00 | Valencia vs Vallecano | H=0.3922 D=0.2863 A=0.3215
-- 2026-05-14 2026-05-12 19:00:00 | Girona vs Sociedad | H=0.3982 D=0.2712 A=0.3305
-- 2026-05-14 2026-05-12 20:30:00 | Real Madrid vs Oviedo | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-15 2026-05-12 10:00:00 | Central Coast United FC vs Inner West Hawks FC | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-13 2026-05-12 14:00:00 | FC Spartak 1918 Varna II vs PFC Cherno More Varna II | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-16 2026-05-12 08:15:00 | FK Mlada Boleslav B vs Tj Slovan Velvary | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-16 2026-05-12 09:00:00 | Slavia Prague vs FK Mlada Boleslav | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-12 18:45:00 | Cobh Ramblers vs Athlone Town AFC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-12 18:45:00 | Kerry FC vs Wexford FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-12 18:45:00 | Oud-Heverlee Leuven vs Royal Antwerp FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-12 18:45:00 | Saint Patrick´s Athletic FC vs Shelbourne FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-12 18:45:00 | Treaty United vs Finn Harps FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-12 18:45:00 | Waterford FC vs Derry City FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-12 19:00:00 | Aston Villa vs Liverpool FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-12 19:00:00 | Cordoba CF vs Albacete Balompie | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-12 19:00:00 | Dundalk FC vs Shamrock Rovers | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-12 19:00:00 | Notts County vs Chesterfield FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-12 20:00:00 | FC Cajamarca vs Sporting Cristal | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-12 21:30:00 | LDU Quito vs CD Tecnico Universitario | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-16 2026-05-12 05:00:00 | Mandurah City FC Reserves vs Uwa Nedlands FC Reserves | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-16 2026-05-12 06:30:00 | Port Darwin FC vs Darwin Hearts FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-16 2026-05-12 07:00:00 | Fremantle City vs Olympic Kingsway SC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-16 2026-05-12 07:00:00 | Mandurah City vs UWA Nedlands FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-16 2026-05-12 07:00:00 | Olympic Kingsway SC vs Fremantle City | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-16 2026-05-12 08:30:00 | Darwin Hearts FC Reserves vs Garuda FC Reserves | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-16 2026-05-12 08:45:00 | Kedah Darul Aman vs Manjung City FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-16 2026-05-12 09:30:00 | Sydney City Comets vs Manly Warringah Sea Eagles | H=0.37720000000000004 D=0.274 A=0.3488

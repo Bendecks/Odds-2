@@ -5,9 +5,9 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 
 ## Kort status
 
-- Aktuelle viste paper picks: **14**
-- Unikke loggede paper picks: **43**
-- Afventer i loggen: **40**
+- Aktuelle viste paper picks: **17**
+- Unikke loggede paper picks: **48**
+- Afventer i loggen: **45**
 - Afgjorte fundet i settled-filen: **210**
 - Skjulte U-/reserve-rækker: **5**
 - Vundne: **70**
@@ -79,6 +79,15 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **priority_proxy_observation**
 - Note: **expanded_volume_forward_observation_not_real_money**
 
+### Lens vs Paris SG
+- Dato: **2026-05-13**
+- Kampstart: **20:00**
+- Spil: **Uafgjort**
+- Odds: **4.00**
+- Status: **Afventer**
+- Type: **priority_proxy_observation**
+- Note: **expanded_volume_forward_observation_not_real_money**
+
 ### Osasuna vs Ath Madrid
 - Dato: **2026-05-12**
 - Kampstart: **20:30**
@@ -115,6 +124,33 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **negative_ev_control_observation**
 - Note: **negative_ev_control_observation_not_real_money**
 
+### St Andrew Lions vs Ellerton FC
+- Dato: **2026-05-12**
+- Kampstart: **23:00**
+- Spil: **Hjemmesejr**
+- Odds: **4.75**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Motherwell vs Celtic
+- Dato: **2026-05-13**
+- Kampstart: **20:00**
+- Spil: **Hjemmesejr**
+- Odds: **4.50**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Motherwell FC vs Celtic Glasgow
+- Dato: **2026-05-13**
+- Kampstart: **19:00**
+- Spil: **Hjemmesejr**
+- Odds: **4.50**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
 ### Asteras Tripolis vs Panserraikos
 - Dato: **2026-05-12**
 - Kampstart: **17:00**
@@ -124,18 +160,9 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### PAOK vs AEK
+### PAOK Thessaloniki vs AEK Athens
 - Dato: **2026-05-13**
-- Kampstart: **17:30**
-- Spil: **Udebanesejr**
-- Odds: **5.00**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Levadeiakos vs OFI Crete
-- Dato: **2026-05-13**
-- Kampstart: **15:00**
+- Kampstart: **16:30**
 - Spil: **Udebanesejr**
 - Odds: **5.00**
 - Status: **Afventer**
@@ -439,13 +466,13 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - **2026-05-12 kl. 18:00** – Celta vs Levante – Udebanesejr @ 4.33
 - **2026-05-12 kl. 17:00** – RC Celta de Vigo vs Levante UD – Udebanesejr @ 4.33
 - **2026-05-12 kl. 14:45** – PFC Cherno More Varna vs PFC Lokomotiv Plovdiv – Udebanesejr @ 4.20
+- **2026-05-12 kl. 23:00** – St Andrew Lions vs Ellerton FC – Hjemmesejr @ 4.75
 - **2026-05-12 kl. 13:15** – TRA United vs Jkt Tanzania – Udebanesejr @ 3.50
 - **2026-05-12 kl. 14:00** – El Gouna FC vs Kahrabaa Ismailia – Udebanesejr @ 3.30
 - **2026-05-12 kl. 14:00** – URA FC vs Calvary – Uafgjort @ 4.50
 - **2026-05-12 kl. 10:30** – Gwangju FC vs FC Seoul – Uafgjort @ 4.20
 - **2026-05-12 kl. 10:30** – Incheon United FC vs FC Pohang Steelers – Udebanesejr @ 2.88
 - **2026-05-12 kl. 15:00** – AL Faisaly (Jor) vs Ramtha SC – Uafgjort @ 3.80
-- **2026-05-13 kl. 20:30** – Getafe vs Mallorca – Udebanesejr @ 3.51
 
 ## Hvad betyder det?
 

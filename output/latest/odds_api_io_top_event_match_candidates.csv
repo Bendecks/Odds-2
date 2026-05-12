@@ -1,1 +1,26 @@
-
+discovery_source,query,target_home_team,target_away_team,target_match_date,candidate_event_id,candidate_home_team,candidate_away_team,candidate_match_date,event_match_confidence,selected,rejection_reason,selected_bool,event_match_confidence_num
+events_bookmaker_filtered,LVU Rush,LVU Rush,West Chester United SC USL2,2026-05-12,69090796,LVU Rush,West Chester United SC USL2,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,Mahaut Soca Strikers,Mahaut Soca Strikers,Middleham United FC,2026-05-12,71344616,Mahaut Soca Strikers,Middleham United FC,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,Independiente Santa Fe,Independiente Santa Fe,America de Cali,2026-05-13,71297438,Independiente Santa Fe,America de Cali,2026-05-13,1.0,True,,True,1.0
+events_bookmaker_filtered,Heart of Midlothian FC,Heart of Midlothian FC,Falkirk FC,2026-05-13,70674826,Heart of Midlothian FC,Falkirk FC,2026-05-13,1.0,True,,True,1.0
+events_bookmaker_filtered,CA Rosario Central,CA Rosario Central,Racing Club Avellaneda,2026-05-13,71428928,CA Rosario Central,Racing Club Avellaneda,2026-05-13,1.0,True,,True,1.0
+events_bookmaker_filtered,SC Internacional RS,SC Internacional RS,Athletic Club Sjdr MG,2026-05-12,70401284,SC Internacional RS,Athletic Club Sjdr MG,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,Olympiacos Piraeus,Olympiacos Piraeus,Panathinaikos Athens,2026-05-13,70231844,Olympiacos Piraeus,Panathinaikos Athens,2026-05-13,1.0,True,,True,1.0
+events_bookmaker_filtered,Forge FC Hamilton,Forge FC Hamilton,FC Supra Du Quebec,2026-05-13,68685980,Forge FC Hamilton,FC Supra Du Quebec,2026-05-13,1.0,True,,True,1.0
+events_bookmaker_filtered,Ulsan HD FC,Ulsan HD FC,Jeju SK FC,2026-05-13,67817700,Ulsan HD FC,Jeju SK FC,2026-05-13,1.0,True,,True,1.0
+events_bookmaker_filtered,GV Club Deportivo San Jose de Oruro,GV Club Deportivo San Jose de Oruro,CD Real Tomayapo,2026-05-12,70379156,GV Club Deportivo San Jose de Oruro,CD Real Tomayapo,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,CA Belgrano de Cordoba,CA Belgrano de Cordoba,Union de Santa Fe,2026-05-12,71428876,CA Belgrano de Cordoba,Union de Santa Fe,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,RKS Rakow Czestochowa,RKS Rakow Czestochowa,Jagiellonia Bialystok,2026-05-13,61062299,RKS Rakow Czestochowa,Jagiellonia Bialystok,2026-05-13,1.0,True,,True,1.0
+events_bookmaker_filtered,Villarreal,Villarreal,Sevilla,2026-05-13,61624654,Villarreal CF,Sevilla FC,2026-05-13,1.0,True,,True,1.0
+events_bookmaker_filtered,Getafe CF,Getafe CF,RCD Mallorca,2026-05-13,61624644,Getafe CF,RCD Mallorca,2026-05-13,1.0,True,,True,1.0
+events_bookmaker_filtered,PAOK Thessaloniki,PAOK Thessaloniki,AEK Athens,2026-05-13,70231854,PAOK Thessaloniki,AEK Athens,2026-05-13,1.0,True,,True,1.0
+events_bookmaker_filtered,MKS Arka Gdynia,MKS Arka Gdynia,Gornik Zabrze,2026-05-13,61062283,MKS Arka Gdynia,Gornik Zabrze,2026-05-13,1.0,True,,True,1.0
+events_bookmaker_filtered,Atletico Nacional Medellin,Atletico Nacional Medellin,Internacional de Bogota.,2026-05-12,71297420,Atletico Nacional Medellin,Internacional de Bogota.,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,PFC CSKA Sofia,PFC CSKA Sofia,FC CSKA 1948,2026-05-13,70905772,PFC CSKA Sofia,FC CSKA 1948,2026-05-13,1.0,True,,True,1.0
+events_bookmaker_filtered,Club Aurora,Club Aurora,Cdt Real Oruro,2026-05-13,70379158,Club Aurora,Cdt Real Oruro,2026-05-13,1.0,True,,True,1.0
+events_bookmaker_filtered,St Andrew Lions,St Andrew Lions,Ellerton FC,2026-05-12,71344526,St Andrew Lions,Ellerton FC,2026-05-12,1.0,True,,True,1.0
+events_bookmaker_filtered,IFK Norrkoping FK,IFK Norrkoping FK,Nordic United FC,2026-05-13,67126088,IFK Norrkoping FK,Nordic United FC,2026-05-13,1.0,True,,True,1.0
+events_bookmaker_filtered,Lazio Rome,Lazio Rome,Inter Milano,2026-05-13,71019438,Lazio Rome,Inter Milano,2026-05-13,1.0,True,,True,1.0
+events_bookmaker_filtered,IK Brage,IK Brage,Ostersunds FK,2026-05-13,67126098,IK Brage,Ostersunds FK,2026-05-13,1.0,True,,True,1.0
+events_bookmaker_filtered,PFC Slavia Sofia,PFC Slavia Sofia,PFC Dobrudzha Dobrich,2026-05-13,70906782,PFC Slavia Sofia,PFC Dobrudzha Dobrich,2026-05-13,1.0,True,,True,1.0
+events_bookmaker_filtered,APO Levadiakos FC,APO Levadiakos FC,OFI Crete,2026-05-13,70231954,APO Levadiakos FC,OFI Crete,2026-05-13,1.0,True,,True,1.0
