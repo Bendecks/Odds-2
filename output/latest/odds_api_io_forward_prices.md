@@ -39,12 +39,12 @@ Errors/status rows: 20
 
 Header rows captured: 3
 Latest x-ratelimit-limit: 100
-Latest x-ratelimit-remaining: 86
+Latest x-ratelimit-remaining: 78
 Latest x-ratelimit-reset: 2026-05-12T07:49:01Z
 Latest retry-after: None
 
 - 2026-05-12 07:30 | Canberra White Eagles FC vs Queanbeyan City FC | odds_api_io_Bet365_ML | 7.0/5.0/1.3
-- 2026-05-12 08:45 | Brothers Union vs Mohammedan SC Dhaka | odds_api_io_Bet365_ML | 3.6/3.5/1.8
+- 2026-05-12 08:45 | Brothers Union vs Mohammedan SC Dhaka | odds_api_io_Bet365_ML | 3.75/3.5/1.75
 - 2026-05-12 09:45 | Sunshine Coast Wanderers FC vs Eastern Suburbs FC | odds_api_io_Bet365_ML | 10.0/6.25/1.181
 - 2026-05-12 10:00 | FC Oleksandriya vs FC Zorya Luhansk | odds_api_io_Bet365_ML | 3.5/3.2/1.95
 - 2026-05-12 10:30 | Cerro Porteno Asuncion vs Guarani Asuncion | odds_api_io_Bet365_ML | 2.05/3.75/2.75
@@ -56,26 +56,26 @@ Latest retry-after: None
 
 ## Event selection diagnostics
 
-- src=events_bookmaker_filtered | query=Canberra White Eagles FC | target=Canberra White Eagles FC vs Queanbeyan City FC | candidate=Canberra White Eagles FC vs Queanbeyan City FC | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Gwangju FC | target=Gwangju FC vs FC Seoul | candidate=Gwangju FC vs FC Seoul | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=FK Liepaja | target=FK Liepaja vs Ogre United | candidate=FK Liepaja vs Ogre United | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Hellenic Athletic Club | target=Hellenic Athletic Club vs Darwin Hearts FC | candidate=Hellenic Athletic Club vs Darwin Hearts FC | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Gangwon FC | target=Gangwon FC vs Daejeon Citizen FC | candidate=Gangwon FC vs Daejeon Citizen FC | confidence=1.0 | selected=True | reason=
 - src=events_bookmaker_filtered | query=Incheon United FC | target=Incheon United FC vs FC Pohang Steelers | candidate=Incheon United FC vs FC Pohang Steelers | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Sportivo Ameliano | target=Sportivo Ameliano vs Deportivo Recoleta Reserve | candidate=Sportivo Ameliano vs Deportivo Recoleta Reserve | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=AL Faisaly (Jor) | target=AL Faisaly (Jor) vs Ramtha SC | candidate=AL Faisaly (Jor) vs Ramtha SC | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Singida Black Stars SC | target=Singida Black Stars SC vs Namungo FC | candidate=Singida Black Stars SC vs Namungo FC | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Gwelup Croatia SC Reserves | target=Gwelup Croatia SC Reserves vs Cockburn City SC Reserves | candidate=Gwelup Croatia SC Reserves vs Cockburn City SC Reserves | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Murdoch University Melville FC Reserves | target=Murdoch University Melville FC Reserves vs Joondalup City FC Reserve | candidate=Murdoch University Melville FC Reserves vs Joondalup City FC Reserve | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Cerro Porteno Asuncion | target=Cerro Porteno Asuncion vs Guarani Asuncion | candidate=Cerro Porteno Asuncion vs Guarani Asuncion | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=PFC Cherno More Varna | target=PFC Cherno More Varna vs PFC Lokomotiv Plovdiv | candidate=PFC Cherno More Varna vs PFC Lokomotiv Plovdiv | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Mohun Bagan Super Giant | target=Mohun Bagan Super Giant vs Inter Kashi FC | candidate=Mohun Bagan Super Giant vs Inter Kashi FC | confidence=1.0 | selected=True | reason=
 - src=events_bookmaker_filtered | query=Deportivo Maldonado Reserve | target=Deportivo Maldonado Reserve vs Racing Club Montevideo | candidate=Deportivo Maldonado Reserve vs Racing Club Montevideo | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=AL Wasl | target=AL Wasl vs AL Jazira | candidate=AL Wasl vs AL Jazira | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=FC Epitsentr Kamianets-Podilskyi | target=FC Epitsentr Kamianets-Podilskyi vs FC Polissya Zhytomyr | candidate=FC Epitsentr Kamianets-Podilskyi vs FC Polissya Zhytomyr | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=FC Inter Turku | target=FC Inter Turku vs JS Hercules | candidate=FC Inter Turku vs JS Hercules | confidence=1.0 | selected=True | reason=
 - src=events_bookmaker_filtered | query=Fardu Ferghana | target=Fardu Ferghana vs Xorazm Fk Urganch | candidate=Fardu Ferghana vs Xorazm Fk Urganch | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Sunshine Coast Wanderers FC | target=Sunshine Coast Wanderers FC vs Eastern Suburbs FC | candidate=Sunshine Coast Wanderers FC vs Eastern Suburbs FC | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=URA FC | target=URA FC vs Calvary | candidate=URA FC vs Calvary | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Gwangju FC | target=Gwangju FC vs FC Seoul | candidate=Gwangju FC vs FC Seoul | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=FC Epitsentr Kamianets-Podilskyi | target=FC Epitsentr Kamianets-Podilskyi vs FC Polissya Zhytomyr | candidate=FC Epitsentr Kamianets-Podilskyi vs FC Polissya Zhytomyr | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=FC Oleksandriya | target=FC Oleksandriya vs FC Zorya Luhansk | candidate=FC Oleksandriya vs FC Zorya Luhansk | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Sportivo Ameliano | target=Sportivo Ameliano vs Deportivo Recoleta Reserve | candidate=Sportivo Ameliano vs Deportivo Recoleta Reserve | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Pharco FC | target=Pharco FC vs Modern Sport FC | candidate=Pharco FC vs Modern Sport FC | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Cerro Porteno Asuncion | target=Cerro Porteno Asuncion vs Guarani Asuncion | candidate=Cerro Porteno Asuncion vs Guarani Asuncion | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Gangwon FC | target=Gangwon FC vs Daejeon Citizen FC | candidate=Gangwon FC vs Daejeon Citizen FC | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=AL Wasl | target=AL Wasl vs AL Jazira | candidate=AL Wasl vs AL Jazira | confidence=1.0 | selected=True | reason=
 - src=events_bookmaker_filtered | query=El Gouna FC | target=El Gouna FC vs Kahrabaa Ismailia | candidate=El Gouna FC vs Kahrabaa Ismailia | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=AL Faisaly (Jor) | target=AL Faisaly (Jor) vs Ramtha SC | candidate=AL Faisaly (Jor) vs Ramtha SC | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=FK Liepaja | target=FK Liepaja vs Ogre United | candidate=FK Liepaja vs Ogre United | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Gwelup Croatia SC Reserves | target=Gwelup Croatia SC Reserves vs Cockburn City SC Reserves | candidate=Gwelup Croatia SC Reserves vs Cockburn City SC Reserves | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Sunshine Coast Wanderers FC | target=Sunshine Coast Wanderers FC vs Eastern Suburbs FC | candidate=Sunshine Coast Wanderers FC vs Eastern Suburbs FC | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Hellenic Athletic Club | target=Hellenic Athletic Club vs Darwin Hearts FC | candidate=Hellenic Athletic Club vs Darwin Hearts FC | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=AL Ittihad Kalba | target=AL Ittihad Kalba vs AL Nasr | candidate=AL Ittihad Kalba vs AL Nasr | confidence=1.0 | selected=True | reason=
 
 ## Errors / Status
 
