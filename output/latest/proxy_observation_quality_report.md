@@ -9,11 +9,12 @@ Positive EV value rows: 43
 Suppressed-band observation rows: 7
 Distinct matches: 7
 Distinct sources: 0
-Max EV: 0.46496
-Average EV: 0.260663
-Max probability edge: 0.110705
+Max EV: 0.51135
+Average EV: 0.293587
+Max probability edge: 0.118013
 Average match confidence: None
 
 ## By selection
 
-- away: rows=7, avg_ev=0.2607, max_ev=0.465
+- away: rows=6, avg_ev=0.2809, max_ev=0.5113
+- draw: rows=1, avg_ev=0.37, max_ev=0.37

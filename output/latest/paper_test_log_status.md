@@ -1,10 +1,10 @@
 # Paper Test Log Status
 
-Raw log rows: 44
-Valid forward/proxy log rows: 41
+Raw log rows: 45
+Valid forward/proxy log rows: 42
 Deduped forward/proxy observation rows: 24
-Duplicate forward/proxy log rows: 17
-Valid automatic proxy observation rows: 41
+Duplicate forward/proxy log rows: 18
+Valid automatic proxy observation rows: 42
 Deduped automatic proxy observation rows: 24
 Invalid historical/proxy log rows excluded: 3
 Has valid forward log: True
@@ -21,8 +21,8 @@ Has valid forward log: True
 - 2026-05-12 | Hellenic Athletic Club vs Darwin Hearts FC | selection=draw | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.1247
 - 2026-05-11 | Vallecano vs Girona | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.1245
 - 2026-05-11 | Tottenham Hotspur vs Leeds United | selection=draw | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.1216
+- 2026-05-12 | Sur SC vs Al-Khaboora | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.0746
 - 2026-05-12 | PFC Cherno More Varna vs PFC Lokomotiv Plovdiv | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.0742
-- 2026-05-12 | Sur SC vs Al-Khaboora | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.0742
 - 2026-05-12 | TRA United vs Jkt Tanzania | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.0716
 - 2026-05-12 | AL Wasl vs AL Jazira | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.0711
 - 2026-05-12 | Sportivo Ameliano vs Deportivo Recoleta Reserve | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.0711
@@ -34,7 +34,6 @@ Has valid forward log: True
 
 ## Raw valid rows
 
-- 2026-05-12 | FC Oleksandriya vs FC Zorya Luhansk | selection=home | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
 - 2026-05-12 | Hellenic Athletic Club vs Darwin Hearts FC | selection=home | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
 - 2026-05-12 | Canberra White Eagles FC vs Queanbeyan City FC | selection=draw | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
 - 2026-05-12 | Sunshine Coast Wanderers FC vs Eastern Suburbs FC | selection=draw | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
@@ -54,6 +53,7 @@ Has valid forward log: True
 - 2026-05-12 | AL Wasl vs AL Jazira | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
 - 2026-05-12 | Sportivo Ameliano vs Deportivo Recoleta Reserve | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
 - 2026-05-12 | Gangwon FC vs Daejeon Citizen FC | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
+- 2026-05-12 | Sur SC vs Al-Khaboora | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
 
 ## Invalid rows excluded
 

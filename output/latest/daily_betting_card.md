@@ -10,6 +10,23 @@ No qualifying candidate bets today.
 
 ## Paper-Test Picks
 
+### Sur SC vs Al-Khaboora
+
+- Date/time: 2026-05-12 13:50
+- League/phase: oman-omani-league / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 4.33
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.00-0.35
+- EV: 0.5113
+- Probability edge: 0.118
+- Alignment penalty: 0.5114
+- Suppression action: proxy_suppressed_band_observe_only
+- Paper tier: suppressed_band_proxy_observation
+- Paper score: 0.0746
+- Prediction ID: 2dacd987cdbdfbc80910
+
 ### PFC Cherno More Varna vs PFC Lokomotiv Plovdiv
 
 - Date/time: 2026-05-12 14:45
@@ -26,23 +43,6 @@ No qualifying candidate bets today.
 - Paper tier: suppressed_band_proxy_observation
 - Paper score: 0.0742
 - Prediction ID: 5c33e27f3c4410ed68c4
-
-### Sur SC vs Al-Khaboora
-
-- Date/time: 2026-05-12 13:50
-- League/phase: oman-omani-league / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 4.2
-- Fair odds: 2.87
-- Model probability: 0.3488
-- Probability band: 0.00-0.35
-- EV: 0.465
-- Probability edge: 0.1107
-- Alignment penalty: 0.465
-- Suppression action: proxy_suppressed_band_observe_only
-- Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.0742
-- Prediction ID: 2dacd987cdbdfbc80910
 
 ### TRA United vs Jkt Tanzania
 
@@ -78,22 +78,22 @@ No qualifying candidate bets today.
 - Paper score: 0.0711
 - Prediction ID: be743004d37f19c1db36
 
-### Sportivo Ameliano vs Deportivo Recoleta Reserve
+### Canberra White Eagles FC vs Queanbeyan City FC
 
-- Date/time: 2026-05-12 10:30
-- League/phase: paraguay-primera-division-reserve-apertura / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 3.4
-- Fair odds: 2.87
-- Model probability: 0.3488
+- Date/time: 2026-05-12 07:30
+- League/phase: australia-u23-capital-npl / automatic_forward_price_proxy
+- Selection: DRAW
+- Market odds: 5.0
+- Fair odds: 3.65
+- Model probability: 0.274
 - Probability band: 0.00-0.35
-- EV: 0.1859
-- Probability edge: 0.0547
-- Alignment penalty: 0.1859
+- EV: 0.37
+- Probability edge: 0.074
+- Alignment penalty: 0.37
 - Suppression action: proxy_suppressed_band_observe_only
 - Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.0711
-- Prediction ID: 386769fafb5376f24ba7
+- Paper score: 0.0706
+- Prediction ID: dabb233183cfe864c5d8
 
 ### AL Ittihad Kalba vs AL Nasr
 

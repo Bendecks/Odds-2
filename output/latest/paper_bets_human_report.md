@@ -1,31 +1,33 @@
 # Paper bets – enkelt overblik
 
 Dette er det menneskelige overblik over paper bets. Det er stadig kun test og ikke rigtige anbefalinger.
+Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mange usikre matches.
 
 ## Kort status
 
-- Aktuelle viste paper picks: **7**
-- Unikke loggede paper picks: **28**
-- Afventer i loggen: **25**
+- Aktuelle viste paper picks: **4**
+- Unikke loggede paper picks: **23**
+- Afventer i loggen: **20**
 - Afgjorte fundet i settled-filen: **210**
+- Skjulte U-/reserve-rækker: **8**
 - Vundne: **70**
 - Tabte: **140**
 - Samlet ROI i units: **-3.45**
 
 ## Aktuelle paper picks
 
-### PFC Cherno More Varna vs PFC Lokomotiv Plovdiv
+### Sur SC vs Al-Khaboora
 - Dato: **2026-05-12**
-- Kampstart: **14:45**
+- Kampstart: **13:50**
 - Spil: **Udebanesejr**
-- Odds: **4.20**
+- Odds: **4.33**
 - Status: **Afventer**
 - Type: **suppressed_band_proxy_observation**
 - Note: **suppressed_band_proxy_observation_not_real_money**
 
-### Sur SC vs Al-Khaboora
+### PFC Cherno More Varna vs PFC Lokomotiv Plovdiv
 - Dato: **2026-05-12**
-- Kampstart: **13:50**
+- Kampstart: **14:45**
 - Spil: **Udebanesejr**
 - Odds: **4.20**
 - Status: **Afventer**
@@ -37,33 +39,6 @@ Dette er det menneskelige overblik over paper bets. Det er stadig kun test og ik
 - Kampstart: **13:15**
 - Spil: **Udebanesejr**
 - Odds: **3.50**
-- Status: **Afventer**
-- Type: **suppressed_band_proxy_observation**
-- Note: **suppressed_band_proxy_observation_not_real_money**
-
-### AL Wasl vs AL Jazira
-- Dato: **2026-05-12**
-- Kampstart: **14:10**
-- Spil: **Udebanesejr**
-- Odds: **3.40**
-- Status: **Afventer**
-- Type: **suppressed_band_proxy_observation**
-- Note: **suppressed_band_proxy_observation_not_real_money**
-
-### Sportivo Ameliano vs Deportivo Recoleta Reserve
-- Dato: **2026-05-12**
-- Kampstart: **10:30**
-- Spil: **Udebanesejr**
-- Odds: **3.40**
-- Status: **Afventer**
-- Type: **suppressed_band_proxy_observation**
-- Note: **suppressed_band_proxy_observation_not_real_money**
-
-### AL Ittihad Kalba vs AL Nasr
-- Dato: **2026-05-12**
-- Kampstart: **14:10**
-- Spil: **Udebanesejr**
-- Odds: **3.30**
 - Status: **Afventer**
 - Type: **suppressed_band_proxy_observation**
 - Note: **suppressed_band_proxy_observation_not_real_money**
@@ -362,24 +337,19 @@ Dette er det menneskelige overblik over paper bets. Det er stadig kun test og ik
 - **2026-05-12 kl. 08:45** – Brothers Union vs Mohammedan SC Dhaka – Hjemmesejr @ 3.60
 - **2026-05-12 kl. 10:00** – FC Oleksandriya vs FC Zorya Luhansk – Hjemmesejr @ 3.50
 - **2026-05-12 kl. 10:30** – Hellenic Athletic Club vs Darwin Hearts FC – Hjemmesejr @ 3.30
-- **2026-05-12 kl. 07:30** – Canberra White Eagles FC vs Queanbeyan City FC – Uafgjort @ 5.00
 - **2026-05-12 kl. 09:45** – Sunshine Coast Wanderers FC vs Eastern Suburbs FC – Uafgjort @ 5.00
 - **2026-05-12 kl. 10:30** – Gangwon FC vs Daejeon Citizen FC – Udebanesejr @ 3.10
 - **2026-05-12 kl. 10:30** – Hellenic Athletic Club vs Darwin Hearts FC – Uafgjort @ 4.20
+- **2026-05-12 kl. 13:50** – Sur SC vs Al-Khaboora – Udebanesejr @ 4.33
 - **2026-05-12 kl. 14:45** – PFC Cherno More Varna vs PFC Lokomotiv Plovdiv – Udebanesejr @ 4.20
-- **2026-05-12 kl. 13:50** – Sur SC vs Al-Khaboora – Udebanesejr @ 4.20
 - **2026-05-12 kl. 13:15** – TRA United vs Jkt Tanzania – Udebanesejr @ 3.50
-- **2026-05-12 kl. 14:10** – AL Wasl vs AL Jazira – Udebanesejr @ 3.40
-- **2026-05-12 kl. 10:30** – Sportivo Ameliano vs Deportivo Recoleta Reserve – Udebanesejr @ 3.40
-- **2026-05-12 kl. 14:10** – AL Ittihad Kalba vs AL Nasr – Udebanesejr @ 3.30
 - **2026-05-12 kl. 14:00** – El Gouna FC vs Kahrabaa Ismailia – Udebanesejr @ 3.30
 - **2026-05-12 kl. 10:30** – Gwangju FC vs FC Seoul – Uafgjort @ 4.20
 - **2026-05-12 kl. 10:30** – Incheon United FC vs FC Pohang Steelers – Udebanesejr @ 2.88
-- **2026-05-12 kl. 10:30** – Cerro Porteno Asuncion vs Guarani Asuncion – Uafgjort @ 3.80
 
 ## Hvad betyder det?
 
 - **Aktuelle paper picks** er dem systemet ville følge lige nu.
 - **Afventer** betyder, at kampen ikke er tydeligt afgjort i systemet endnu.
 - **Afgjorte paper picks** er dem, hvor systemet har fundet resultat og win/loss.
-- Rapporten er lavet til overblik. De tekniske filer ligger stadig ved siden af, men du behøver normalt ikke åbne dem.
+- U-/reservehold skjules fra overblikket, fordi de ikke er stabile nok til praktisk brug.
