@@ -1,4 +1,4 @@
 label,status_code,x_ratelimit_limit,x_ratelimit_remaining,x_ratelimit_reset,url
-today_major_events_page_1,200,,,,https://api.odds-api.io/v3/events?apiKey=***&sport=football&status=pending&bookmaker=Bet365&from=2026-05-11T22%3A00%3A00Z&to=2026-05-12T21%3A59%3A59Z&limit=100&skip=0
-today_major_odds_multi_1,200,100,98,2026-05-12T17:19:34Z,https://api.odds-api.io/v3/odds/multi?apiKey=***&eventIds=64055855%2C71401082%2C61624642%2C67126090%2C67126084%2C71085528%2C64055859%2C61624640%2C71411500%2C70448540&bookmakers=Bet365
-today_major_odds_multi_2,200,100,97,2026-05-12T17:19:34Z,https://api.odds-api.io/v3/odds/multi?apiKey=***&eventIds=70448538%2C70448542%2C70674928%2C70674930%2C71401830%2C70674932%2C71240670%2C71401566%2C61624650&bookmakers=Bet365
+today_major_events_page_1,200,100,79,2026-05-12T17:19:34Z,https://api.odds-api.io/v3/events?apiKey=***&sport=football&status=pending&bookmaker=Bet365&from=2026-05-11T22%3A00%3A00Z&to=2026-05-12T21%3A59%3A59Z&limit=100&skip=0
+today_major_odds_multi_1,200,100,78,2026-05-12T17:19:34Z,https://api.odds-api.io/v3/odds/multi?apiKey=***&eventIds=71401082%2C61624642%2C67126090%2C67126084%2C71085528%2C64055859%2C61624640%2C71411500%2C70448540%2C70448538&bookmakers=Bet365
+today_major_odds_multi_2,200,100,77,2026-05-12T17:19:34Z,https://api.odds-api.io/v3/odds/multi?apiKey=***&eventIds=70448542%2C70674928%2C70674930%2C71401830%2C70674932%2C71240670%2C71401566%2C61624650&bookmakers=Bet365

@@ -1,15 +1,16 @@
 {
-  "generated_at_dk": "2026-05-12 18:19",
+  "generated_at_dk": "2026-05-12 18:37",
   "report_date_dk": "2026-05-12",
   "sport": "football",
   "bookmaker": "Bet365",
   "filter": "major_league_allowlist_plus_optional_bookmaker_count",
   "min_bookmaker_count": 0,
-  "events_after_filters": 19,
-  "events_requested_for_odds": 19,
-  "events_with_odds": 19,
-  "market_rows": 15906,
-  "excluded_events": 24,
-  "latest_rate_limit_remaining": "97",
+  "events_after_filters": 18,
+  "events_requested_for_odds": 18,
+  "events_with_odds": 18,
+  "market_rows": 14974,
+  "excluded_events": 23,
+  "pdf_created": true,
+  "latest_rate_limit_remaining": "77",
   "latest_rate_limit_limit": "100"
 }

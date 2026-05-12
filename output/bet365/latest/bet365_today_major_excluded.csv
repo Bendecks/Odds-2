@@ -1,5 +1,4 @@
 event_id,date_denmark,home,away,league,sport,bookmaker_count,is_major_league,reason
-71336690,2026-05-12 18:20,Al-Rustaq,Ibri,Oman - Omani League,Football,0,False,not_major_league_or_low_coverage
 69880310,2026-05-12 19:00,Wadi Degla SC,Ismaily SC,Egypt - Premier League,Football,0,False,not_major_league_or_low_coverage
 70812400,2026-05-12 19:00,Hapoel Tel Aviv FC,Hapoel Petah Tikva FC,Israel - Premier League,Football,0,False,not_major_league_or_low_coverage
 71338618,2026-05-12 19:00,Real Madrid,Borussia Dortmund,International Youth - U21 Premier League International Cup,Football,0,False,youth_or_reserve
