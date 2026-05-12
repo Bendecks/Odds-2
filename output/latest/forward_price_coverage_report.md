@@ -161,9 +161,9 @@ Real-money ready: False
 - 2026-05-13 | Deportivo Alaves vs FC Barcelona | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-13 | Getafe CF vs RCD Mallorca | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-13 | Bogota FC vs Barranquilla FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-13 | CA Rosario Central vs Racing Club Avellaneda | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-13 | CR Vasco da Gama RJ vs Paysandu SC PA | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-13 | EC Juventude RS vs Sao Paulo FC SP | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-13 | CA Rosario Central vs Racing Club Avellaneda | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-13 | Coritiba FC PR vs Santos FC SP | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-13 | AD Pasto vs CD Tolima | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-13 | Carabobo FC vs Estudiantes de Merida | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=

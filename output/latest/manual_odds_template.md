@@ -119,7 +119,7 @@ Rows with complete odds: 0
 - 2026-05-13 18:00 | Arsenal WFC vs Everton FC | bookmaker=bet365_manual
 - 2026-05-13 21:00 | Bogota FC vs Barranquilla FC | bookmaker=bet365_manual
 - 2026-05-13 10:30 | Bucheon FC 1995 vs Jeonbuk FC | bookmaker=bet365_manual
-- 2026-05-13 22:00 | CA Rosario Central vs Racing Club Avellaneda | bookmaker=bet365_manual
+- 2026-05-13 22:15 | CA Rosario Central vs Racing Club Avellaneda | bookmaker=bet365_manual
 - 2026-05-13 23:00 | Carabobo FC vs Estudiantes de Merida | bookmaker=bet365_manual
 - 2026-05-13 02:15 | CD Olimpia Tegucigalpa vs Real CD Espana San Pedro Sula | bookmaker=bet365_manual
 - 2026-05-13 23:15 | Charlotte FC vs New York City FC | bookmaker=bet365_manual

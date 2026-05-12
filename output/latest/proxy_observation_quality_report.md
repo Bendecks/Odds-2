@@ -10,11 +10,11 @@ Suppressed-band observation rows: 7
 Distinct matches: 7
 Distinct sources: 0
 Max EV: 0.51135
-Average EV: 0.293587
+Average EV: 0.286113
 Max probability edge: 0.118013
 Average match confidence: None
 
 ## By selection
 
-- away: rows=6, avg_ev=0.2809, max_ev=0.5113
+- away: rows=6, avg_ev=0.2721, max_ev=0.5113
 - draw: rows=1, avg_ev=0.37, max_ev=0.37

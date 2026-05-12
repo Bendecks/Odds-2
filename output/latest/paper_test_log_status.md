@@ -1,10 +1,10 @@
 # Paper Test Log Status
 
-Raw log rows: 45
-Valid forward/proxy log rows: 42
+Raw log rows: 46
+Valid forward/proxy log rows: 43
 Deduped forward/proxy observation rows: 24
-Duplicate forward/proxy log rows: 18
-Valid automatic proxy observation rows: 42
+Duplicate forward/proxy log rows: 19
+Valid automatic proxy observation rows: 43
 Deduped automatic proxy observation rows: 24
 Invalid historical/proxy log rows excluded: 3
 Has valid forward log: True
@@ -34,7 +34,6 @@ Has valid forward log: True
 
 ## Raw valid rows
 
-- 2026-05-12 | Hellenic Athletic Club vs Darwin Hearts FC | selection=home | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
 - 2026-05-12 | Canberra White Eagles FC vs Queanbeyan City FC | selection=draw | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
 - 2026-05-12 | Sunshine Coast Wanderers FC vs Eastern Suburbs FC | selection=draw | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
 - 2026-05-12 | Gangwon FC vs Daejeon Citizen FC | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
@@ -54,6 +53,7 @@ Has valid forward log: True
 - 2026-05-12 | Sportivo Ameliano vs Deportivo Recoleta Reserve | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
 - 2026-05-12 | Gangwon FC vs Daejeon Citizen FC | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
 - 2026-05-12 | Sur SC vs Al-Khaboora | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
+- 2026-05-12 | AL Wasl vs AL Jazira | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation
 
 ## Invalid rows excluded
 

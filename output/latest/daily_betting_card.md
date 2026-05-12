@@ -61,22 +61,22 @@ No qualifying candidate bets today.
 - Paper score: 0.0716
 - Prediction ID: 34ef6abfb87a2af70436
 
-### AL Wasl vs AL Jazira
+### AL Ittihad Kalba vs AL Nasr
 
 - Date/time: 2026-05-12 14:10
 - League/phase: united-arab-emirates-u23-pro-league / automatic_forward_price_proxy
 - Selection: AWAY
-- Market odds: 3.4
+- Market odds: 3.3
 - Fair odds: 2.87
 - Model probability: 0.3488
 - Probability band: 0.00-0.35
-- EV: 0.1859
-- Probability edge: 0.0547
-- Alignment penalty: 0.1859
+- EV: 0.151
+- Probability edge: 0.0458
+- Alignment penalty: 0.151
 - Suppression action: proxy_suppressed_band_observe_only
 - Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.0711
-- Prediction ID: be743004d37f19c1db36
+- Paper score: 0.0706
+- Prediction ID: 0f6a71afcd810550a20a
 
 ### Canberra White Eagles FC vs Queanbeyan City FC
 
@@ -95,23 +95,6 @@ No qualifying candidate bets today.
 - Paper score: 0.0706
 - Prediction ID: dabb233183cfe864c5d8
 
-### AL Ittihad Kalba vs AL Nasr
-
-- Date/time: 2026-05-12 14:10
-- League/phase: united-arab-emirates-u23-pro-league / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 3.3
-- Fair odds: 2.87
-- Model probability: 0.3488
-- Probability band: 0.00-0.35
-- EV: 0.151
-- Probability edge: 0.0458
-- Alignment penalty: 0.151
-- Suppression action: proxy_suppressed_band_observe_only
-- Paper tier: suppressed_band_proxy_observation
-- Paper score: 0.0706
-- Prediction ID: 0f6a71afcd810550a20a
-
 ### Gangwon FC vs Daejeon Citizen FC
 
 - Date/time: 2026-05-12 10:30
@@ -128,6 +111,23 @@ No qualifying candidate bets today.
 - Paper tier: suppressed_band_proxy_observation
 - Paper score: 0.0706
 - Prediction ID: fb5291022f6d38baa0d3
+
+### AL Wasl vs AL Jazira
+
+- Date/time: 2026-05-12 14:10
+- League/phase: united-arab-emirates-u23-pro-league / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 3.25
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.00-0.35
+- EV: 0.1336
+- Probability edge: 0.0411
+- Alignment penalty: 0.1336
+- Suppression action: proxy_suppressed_band_observe_only
+- Paper tier: suppressed_band_proxy_observation
+- Paper score: 0.0703
+- Prediction ID: be743004d37f19c1db36
 
 ## Snapshot summary
 
