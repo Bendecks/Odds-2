@@ -24,37 +24,22 @@ EXCLUDED_PATTERN = re.compile(
 
 GOOD_COMPETITION_PATTERN = re.compile(
     r'('
-    # Football
     r'premier league|championship|fa cup|efl cup|laliga|la liga|segunda|copa del rey|serie a|serie b|coppa italia|'
     r'bundesliga|2\. bundesliga|dfb pokal|ligue 1|ligue 2|eredivisie|primeira liga|liga portugal|pro league|'
     r'premiership|superliga|allsvenskan|superettan|eliteserien|super league|austrian bundesliga|1\. liga|'
     r'super lig|saudi pro league|mls|brasileiro|brazil - serie a|argentina|liga mx|uefa|champions league|europa league|conference league|libertadores|sudamericana|'
-    # Tennis
     r'atp|wta|grand slam|australian open|french open|roland garros|wimbledon|us open|masters|davis cup|billie jean king cup|'
-    # Basketball
     r'nba|wnba|euroleague|eurocup|ncaa|liga acb|basketball bundesliga|legabasket|lnb|'
-    # Ice hockey
     r'nhl|ahl|shl|liiga|del|national league|khl|'
-    # American football / baseball
     r'nfl|ncaaf|mlb|npb|kbo|'
-    # Cricket / rugby / handball / esports
     r'ipl|big bash|psl|t20 blast|world cup|six nations|top 14|premiership rugby|champions cup|ehf|handball bundesliga|lec|lcs|lck|lpl|major|iem|blast|valorant|dota|league of legends|counter-strike|cs2'
     r')',
     re.IGNORECASE,
 )
 
 DEFAULT_SPORTS = [
-    'football',
-    'tennis',
-    'basketball',
-    'ice-hockey',
-    'american-football',
-    'baseball',
-    'cricket',
-    'rugby-union',
-    'rugby-league',
-    'handball',
-    'esports',
+    'football', 'tennis', 'basketball', 'ice-hockey', 'american-football',
+    'baseball', 'cricket', 'rugby-union', 'rugby-league', 'handball', 'esports',
 ]
 
 
@@ -191,16 +176,7 @@ def fetch_events_for_sport(api_key, sport_slug, max_events, max_pages, min_bookm
     kept, excluded = [], []
     seen = set()
     for page in range(max_pages):
-        params = {
-            'apiKey': api_key,
-            'sport': sport_slug,
-            'status': 'pending',
-            'bookmaker': BOOKMAKER,
-            'from': iso_z(start),
-            'to': iso_z(end),
-            'limit': max_events,
-            'skip': page * max_events,
-        }
+        params = {'apiKey': api_key, 'sport': sport_slug, 'status': 'pending', 'bookmaker': BOOKMAKER, 'from': iso_z(start), 'to': iso_z(end), 'limit': max_events, 'skip': page * max_events}
         payload, error = request_json(f'{BASE_URL}/events', params, f'{sport_slug}_events_page_{page + 1}', headers_log)
         if error or payload is None:
             excluded.append({'sport_query': sport_slug, 'reason': error, 'event_id': '', 'date_denmark': '', 'home': '', 'away': '', 'league': '', 'bookmaker_count': ''})
@@ -211,16 +187,7 @@ def fetch_events_for_sport(api_key, sport_slug, max_events, max_pages, min_bookm
             if not eid or eid in seen:
                 continue
             seen.add(eid)
-            row = {
-                'sport_query': sport_slug,
-                'event_id': eid,
-                'date_denmark': dk_time(event_date(event)),
-                'home': team(event, 'home'),
-                'away': team(event, 'away'),
-                'league': league(event),
-                'sport': sport_name(event),
-                'bookmaker_count': bookmaker_count(event),
-            }
+            row = {'sport_query': sport_slug, 'event_id': eid, 'date_denmark': dk_time(event_date(event)), 'home': team(event, 'home'), 'away': team(event, 'away'), 'league': league(event), 'sport': sport_name(event), 'bookmaker_count': bookmaker_count(event)}
             if is_excluded_event(event):
                 row['reason'] = 'excluded_youth_reserve_friendly_or_exhibition'
                 excluded.append(row)
@@ -244,8 +211,7 @@ def fetch_odds(api_key, events, max_price_events_per_sport, headers_log):
     for event in events:
         key = safe(event.get('_sport_query')) or sport_name(event).lower() or 'unknown'
         by_sport.setdefault(key, []).append(event)
-    selected = []
-    all_payloads = []
+    selected, all_payloads = [], []
     for sport_slug, sport_events in by_sport.items():
         sport_selected = sport_events[:max_price_events_per_sport]
         selected.extend(sport_selected)
@@ -253,12 +219,7 @@ def fetch_odds(api_key, events, max_price_events_per_sport, headers_log):
             ids = ','.join(event_id(e) for e in batch if event_id(e))
             if not ids:
                 continue
-            payload, error = request_json(
-                f'{BASE_URL}/odds/multi',
-                {'apiKey': api_key, 'eventIds': ids, 'bookmakers': BOOKMAKER},
-                f'{sport_slug}_odds_multi_{batch_no}',
-                headers_log,
-            )
+            payload, error = request_json(f'{BASE_URL}/odds/multi', {'apiKey': api_key, 'eventIds': ids, 'bookmakers': BOOKMAKER}, f'{sport_slug}_odds_multi_{batch_no}', headers_log)
             if not error and payload is not None:
                 all_payloads.extend(odds_items(payload))
             time.sleep(0.1)
@@ -275,16 +236,7 @@ def flatten(odds_payloads):
         home, away, date = team(event, 'home'), team(event, 'away'), event_date(event)
         if eid and eid not in seen:
             seen.add(eid)
-            events.append({
-                'event_id': eid,
-                'sport': sport_name(event),
-                'league': league(event),
-                'date_utc': date,
-                'date_denmark': dk_time(date),
-                'home': home,
-                'away': away,
-                'status': safe(event.get('status')),
-            })
+            events.append({'event_id': eid, 'sport': sport_name(event), 'league': league(event), 'date_utc': date, 'date_denmark': dk_time(date), 'home': home, 'away': away, 'status': safe(event.get('status'))})
         bookmakers = event.get('bookmakers')
         if not isinstance(bookmakers, dict):
             continue
@@ -300,27 +252,7 @@ def flatten(odds_payloads):
             for odd in odds_rows or [{}]:
                 if not isinstance(odd, dict):
                     odd = {}
-                markets.append({
-                    'event_id': eid,
-                    'sport': sport_name(event),
-                    'date_denmark': dk_time(date),
-                    'home': home,
-                    'away': away,
-                    'league': league(event),
-                    'bookmaker': BOOKMAKER,
-                    'market': safe(market.get('name')) or 'Unknown market',
-                    'label': safe(odd.get('label')),
-                    'home_odds': safe(odd.get('home')),
-                    'draw_odds': safe(odd.get('draw')),
-                    'away_odds': safe(odd.get('away')),
-                    'over': safe(odd.get('over')),
-                    'under': safe(odd.get('under')),
-                    'yes': safe(odd.get('yes')),
-                    'no': safe(odd.get('no')),
-                    'hdp': safe(odd.get('hdp')),
-                    'raw_odds': json.dumps(odd, ensure_ascii=False),
-                    'updated_at': safe(market.get('updatedAt')),
-                })
+                markets.append({'event_id': eid, 'sport': sport_name(event), 'date_denmark': dk_time(date), 'home': home, 'away': away, 'league': league(event), 'bookmaker': BOOKMAKER, 'market': safe(market.get('name')) or 'Unknown market', 'label': safe(odd.get('label')), 'home_odds': safe(odd.get('home')), 'draw_odds': safe(odd.get('draw')), 'away_odds': safe(odd.get('away')), 'over': safe(odd.get('over')), 'under': safe(odd.get('under')), 'yes': safe(odd.get('yes')), 'no': safe(odd.get('no')), 'hdp': safe(odd.get('hdp')), 'raw_odds': json.dumps(odd, ensure_ascii=False), 'updated_at': safe(market.get('updatedAt'))})
     return events, markets
 
 
@@ -345,7 +277,7 @@ def outcome_line(row):
     return text
 
 
-def write_html(path, report_date, events, markets, headers_log, excluded, args):
+def summarize(events, markets):
     by_event = {}
     market_counts = {}
     sport_counts = {}
@@ -354,6 +286,11 @@ def write_html(path, report_date, events, markets, headers_log, excluded, args):
     for row in markets:
         by_event.setdefault(row['event_id'], []).append(row)
         market_counts[row['market']] = market_counts.get(row['market'], 0) + 1
+    return by_event, market_counts, sport_counts
+
+
+def write_html(path, report_date, events, markets, headers_log, excluded, args):
+    by_event, market_counts, sport_counts = summarize(events, markets)
     sport_list = ''.join(f'<li>{html.escape(k)}: {v} events</li>' for k, v in sorted(sport_counts.items(), key=lambda x: (-x[1], x[0])))
     market_list = ''.join(f'<li>{html.escape(k)}: {v}</li>' for k, v in sorted(market_counts.items(), key=lambda x: (-x[1], x[0]))[:100])
     cards = []
@@ -362,25 +299,50 @@ def write_html(path, report_date, events, markets, headers_log, excluded, args):
         lines = [f"<li><strong>{html.escape(r['market'])}</strong> - {html.escape(outcome_line(r))}</li>" for r in rows[:45]]
         if len(rows) > 45:
             lines.append(f'<li>... {len(rows)-45} flere markedsrækker i CSV-filen</li>')
-        cards.append(f"""
-<section class="card">
-  <div class="time">{html.escape(event['date_denmark'])} · {html.escape(event['sport'])}</div>
-  <h2>{html.escape(event['home'])} vs {html.escape(event['away'])}</h2>
-  <p>{html.escape(event['league'])}</p>
-  <ul>{''.join(lines)}</ul>
-</section>
-""")
+        cards.append(f"""<section class="card"><div class="time">{html.escape(event['date_denmark'])} - {html.escape(event['sport'])}</div><h2>{html.escape(event['home'])} vs {html.escape(event['away'])}</h2><p>{html.escape(event['league'])}</p><ul>{''.join(lines)}</ul></section>""")
     latest = headers_log[-1] if headers_log else {}
-    path.write_text(f"""<!doctype html><html lang="da"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Bet365 multisport gode valg i dag</title><style>
-body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#f6f6f6;margin:0;padding:16px;color:#111}}h1{{font-size:27px;margin:0 0 8px}}.summary,.card{{background:white;border-radius:14px;padding:16px;margin:12px 0;box-shadow:0 1px 5px rgba(0,0,0,.08)}}h2{{font-size:20px;margin:4px 0 6px}}.time{{font-size:14px;color:#555}}ul{{padding-left:20px}}li{{margin:7px 0;line-height:1.35}}.badge{{display:inline-block;background:#e8f1ff;padding:4px 8px;border-radius:999px;margin:2px}}.small{{color:#666;font-size:13px}}
-</style></head><body>
-<h1>Bet365 multisport – gode valg i dag</h1>
-<div class="summary"><p><span class="badge">Dato: {html.escape(report_date)}</span><span class="badge">Bookmaker: Bet365</span><span class="badge">Sportsgrene: {len(args.sports)}</span><span class="badge">Events: {len(events)}</span><span class="badge">Markedsrækker: {len(markets)}</span><span class="badge">Frasorteret: {len(excluded)}</span></p><p class="small">Rent data-overblik til andet projekt. Alle Bet365-markeder gemmes. Kun gode/større turneringer, bredt dækkede events og ingen U/reserve/friendly/exhibition.</p><p class="small">Genereret {html.escape(now_dk().strftime('%Y-%m-%d %H:%M'))}. Rate-limit tilbage: {html.escape(str(latest.get('x_ratelimit_remaining','')))} / {html.escape(str(latest.get('x_ratelimit_limit','')))}</p></div>
-<div class="summary"><h2>Sportsgrene fundet</h2><ul>{sport_list if sport_list else '<li>Ingen events</li>'}</ul></div>
-<div class="summary"><h2>Markeder fundet</h2><ul>{market_list if market_list else '<li>Ingen markeder</li>'}</ul></div>
-{''.join(cards) if cards else '<div class="card">Ingen gode Bet365-events fundet for i dag.</div>'}
-</body></html>""", encoding='utf-8')
+    path.write_text(f"""<!doctype html><html lang="da"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Bet365 multisport gode valg i dag</title><style>body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#f6f6f6;margin:0;padding:16px;color:#111}}h1{{font-size:27px;margin:0 0 8px}}.summary,.card{{background:white;border-radius:14px;padding:16px;margin:12px 0;box-shadow:0 1px 5px rgba(0,0,0,.08)}}h2{{font-size:20px;margin:4px 0 6px}}.time{{font-size:14px;color:#555}}ul{{padding-left:20px}}li{{margin:7px 0;line-height:1.35}}.badge{{display:inline-block;background:#e8f1ff;padding:4px 8px;border-radius:999px;margin:2px}}.small{{color:#666;font-size:13px}}</style></head><body><h1>Bet365 multisport - gode valg i dag</h1><div class="summary"><p><span class="badge">Dato: {html.escape(report_date)}</span><span class="badge">Bookmaker: Bet365</span><span class="badge">Sportsgrene: {len(args.sports)}</span><span class="badge">Events: {len(events)}</span><span class="badge">Markedsrækker: {len(markets)}</span><span class="badge">Frasorteret: {len(excluded)}</span></p><p class="small">Rent data-overblik til andet projekt. Alle Bet365-markeder gemmes. Kun gode/større turneringer, bredt dækkede events og ingen U/reserve/friendly/exhibition.</p><p class="small">Genereret {html.escape(now_dk().strftime('%Y-%m-%d %H:%M'))}. Rate-limit tilbage: {html.escape(str(latest.get('x_ratelimit_remaining','')))} / {html.escape(str(latest.get('x_ratelimit_limit','')))}</p></div><div class="summary"><h2>Sportsgrene fundet</h2><ul>{sport_list if sport_list else '<li>Ingen events</li>'}</ul></div><div class="summary"><h2>Markeder fundet</h2><ul>{market_list if market_list else '<li>Ingen markeder</li>'}</ul></div>{''.join(cards) if cards else '<div class="card">Ingen gode Bet365-events fundet for i dag.</div>'}</body></html>""", encoding='utf-8')
+
+
+def write_pdf(path, report_date, events, markets, args, excluded_count):
+    try:
+        from reportlab.lib import colors
+        from reportlab.lib.pagesizes import A4
+        from reportlab.lib.styles import getSampleStyleSheet
+        from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle
+    except Exception as exc:
+        path.with_suffix('.pdf_error.txt').write_text(f'ReportLab not available: {exc}', encoding='utf-8')
+        return False
+
+    styles = getSampleStyleSheet()
+    doc = SimpleDocTemplate(str(path), pagesize=A4, rightMargin=22, leftMargin=22, topMargin=22, bottomMargin=22)
+    by_event, market_counts, sport_counts = summarize(events, markets)
+    story = [Paragraph('Bet365 multisport - gode valg i dag', styles['Title']), Paragraph(f'Dato: {report_date} | Events: {len(events)} | Markedsraekker: {len(markets)} | Frasorteret: {excluded_count}', styles['Normal']), Spacer(1, 10)]
+
+    if sport_counts:
+        story.append(Paragraph('Sportsgrene fundet', styles['Heading2']))
+        data = [['Sport', 'Events']] + [[k, str(v)] for k, v in sorted(sport_counts.items(), key=lambda x: (-x[1], x[0]))]
+        table = Table(data, colWidths=[320, 80])
+        table.setStyle(TableStyle([('BACKGROUND', (0, 0), (-1, 0), colors.lightgrey), ('GRID', (0, 0), (-1, -1), 0.25, colors.grey), ('VALIGN', (0, 0), (-1, -1), 'TOP')]))
+        story.extend([table, Spacer(1, 10)])
+    if market_counts:
+        story.append(Paragraph('Markeder fundet', styles['Heading2']))
+        data = [['Marked', 'Raekker']] + [[k, str(v)] for k, v in sorted(market_counts.items(), key=lambda x: (-x[1], x[0]))[:35]]
+        table = Table(data, colWidths=[330, 80])
+        table.setStyle(TableStyle([('BACKGROUND', (0, 0), (-1, 0), colors.lightgrey), ('GRID', (0, 0), (-1, -1), 0.25, colors.grey), ('VALIGN', (0, 0), (-1, -1), 'TOP')]))
+        story.extend([table, Spacer(1, 10)])
+
+    for event in sorted(events, key=lambda e: (e.get('date_denmark', ''), e.get('sport', ''), e.get('league', '')))[:50]:
+        story.append(Paragraph(f"{event['home']} vs {event['away']}", styles['Heading2']))
+        story.append(Paragraph(f"{event['date_denmark']} | {event['sport']} | {event['league']}", styles['Normal']))
+        rows = [['Marked', 'Odds / outcomes']]
+        for row in by_event.get(event['event_id'], [])[:14]:
+            rows.append([Paragraph(row['market'], styles['BodyText']), Paragraph(outcome_line(row), styles['BodyText'])])
+        table = Table(rows, colWidths=[145, 280])
+        table.setStyle(TableStyle([('BACKGROUND', (0, 0), (-1, 0), colors.whitesmoke), ('GRID', (0, 0), (-1, -1), 0.25, colors.lightgrey), ('VALIGN', (0, 0), (-1, -1), 'TOP')]))
+        story.extend([table, Spacer(1, 9)])
+    doc.build(story)
+    return True
 
 
 def main():
@@ -415,6 +377,7 @@ def main():
     write_csv(OUTPUT_DIR / 'bet365_today_multisport_excluded.csv', all_excluded)
     write_csv(OUTPUT_DIR / 'bet365_today_multisport_rate_limit_headers.csv', headers_log)
     write_html(OUTPUT_DIR / 'bet365_today_multisport_report.html', report_date, events, markets, headers_log, all_excluded, args)
+    pdf_ok = write_pdf(OUTPUT_DIR / 'bet365_today_multisport_report.pdf', report_date, events, markets, args, len(all_excluded))
     summary = {
         'generated_at_dk': now_dk().strftime('%Y-%m-%d %H:%M'),
         'report_date_dk': report_date,
@@ -426,6 +389,7 @@ def main():
         'market_rows': len(markets),
         'excluded_events': len(all_excluded),
         'min_bookmaker_count': args.min_bookmaker_count,
+        'pdf_created': pdf_ok,
         'latest_rate_limit_remaining': headers_log[-1].get('x_ratelimit_remaining', '') if headers_log else '',
         'latest_rate_limit_limit': headers_log[-1].get('x_ratelimit_limit', '') if headers_log else '',
     }
