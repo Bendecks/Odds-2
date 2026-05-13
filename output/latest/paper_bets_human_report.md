@@ -5,9 +5,9 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 
 ## Kort status
 
-- Aktuelle viste paper picks: **14**
-- Unikke loggede paper picks: **53**
-- Afventer i loggen: **50**
+- Aktuelle viste paper picks: **13**
+- Unikke loggede paper picks: **54**
+- Afventer i loggen: **51**
 - Afgjorte fundet i settled-filen: **210**
 - Skjulte U-/reserve-rækker: **5**
 - Vundne: **70**
@@ -34,24 +34,6 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **priority_proxy_observation**
 - Note: **expanded_volume_forward_observation_not_real_money**
 
-### Girona vs Sociedad
-- Dato: **2026-05-14**
-- Kampstart: **19:00**
-- Spil: **Udebanesejr**
-- Odds: **3.35**
-- Status: **Afventer**
-- Type: **priority_proxy_observation**
-- Note: **expanded_volume_forward_observation_not_real_money**
-
-### Valencia vs Vallecano
-- Dato: **2026-05-14**
-- Kampstart: **18:00**
-- Spil: **Udebanesejr**
-- Odds: **3.40**
-- Status: **Afventer**
-- Type: **priority_proxy_observation**
-- Note: **expanded_volume_forward_observation_not_real_money**
-
 ### Lens vs Paris SG
 - Dato: **2026-05-13**
 - Kampstart: **20:00**
@@ -66,15 +48,6 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Kampstart: **20:30**
 - Spil: **Uafgjort**
 - Odds: **3.90**
-- Status: **Afventer**
-- Type: **priority_proxy_observation**
-- Note: **expanded_volume_forward_observation_not_real_money**
-
-### Lens vs Paris SG
-- Dato: **2026-05-13**
-- Kampstart: **20:00**
-- Spil: **Uafgjort**
-- Odds: **4.00**
 - Status: **Afventer**
 - Type: **priority_proxy_observation**
 - Note: **expanded_volume_forward_observation_not_real_money**
@@ -97,6 +70,15 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **negative_ev_control_observation**
 - Note: **negative_ev_control_observation_not_real_money**
 
+### PAOK Thessaloniki vs AEK Athens
+- Dato: **2026-05-13**
+- Kampstart: **16:30**
+- Spil: **Udebanesejr**
+- Odds: **5.00**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
 ### PAOK vs AEK
 - Dato: **2026-05-13**
 - Kampstart: **17:30**
@@ -111,6 +93,15 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Kampstart: **15:00**
 - Spil: **Udebanesejr**
 - Odds: **5.00**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Motherwell FC vs Celtic Glasgow
+- Dato: **2026-05-13**
+- Kampstart: **19:00**
+- Spil: **Hjemmesejr**
+- Odds: **4.40**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
@@ -133,11 +124,11 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Real Madrid vs Oviedo
-- Dato: **2026-05-14**
-- Kampstart: **20:30**
-- Spil: **Uafgjort**
-- Odds: **6.28**
+### Kultsu FC vs Ips
+- Dato: **2026-05-13**
+- Kampstart: **15:30**
+- Spil: **Udebanesejr**
+- Odds: **4.75**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**

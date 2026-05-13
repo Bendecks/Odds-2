@@ -1,17 +1,16 @@
 # Paper Test Log Status
 
-Raw log rows: 109
-Valid forward/proxy log rows: 106
-Deduped forward/proxy observation rows: 54
-Duplicate forward/proxy log rows: 52
-Valid automatic proxy observation rows: 106
-Deduped automatic proxy observation rows: 54
+Raw log rows: 112
+Valid forward/proxy log rows: 109
+Deduped forward/proxy observation rows: 55
+Duplicate forward/proxy log rows: 54
+Valid automatic proxy observation rows: 109
+Deduped automatic proxy observation rows: 55
 Invalid historical/proxy log rows excluded: 3
 Has valid forward log: True
 
 ## Deduped valid rows
 
-- 2026-05-12 | TRA United vs Jkt Tanzania | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.0716
 - 2026-05-13 | Motherwell vs Celtic | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0712
 - 2026-05-13 | Motherwell FC vs Celtic Glasgow | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0712
 - 2026-05-13 | PAOK vs AEK | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0711
@@ -26,6 +25,7 @@ Has valid forward log: True
 - 2026-05-12 | El Gouna FC vs Kahrabaa Ismailia | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.07060000000000001
 - 2026-05-13 | Volos NFC vs Aris | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0698
 - 2026-05-12 | URA FC vs Calvary | selection=draw | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.0693
+- 2026-05-13 | Kultsu FC vs Ips | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0692
 - 2026-05-12 | Gwangju FC vs FC Seoul | selection=draw | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.0684
 - 2026-05-12 | Incheon United FC vs FC Pohang Steelers | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.06810000000000001
 - 2026-05-14 | Real Madrid vs Oviedo | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0675
@@ -34,9 +34,6 @@ Has valid forward log: True
 
 ## Raw valid rows
 
-- 2026-05-13 | Brest vs Strasbourg | selection=draw | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
-- 2026-05-13 | Espanol vs Ath Bilbao | selection=draw | phase=automatic_forward_price_proxy | tier=negative_ev_control_observation
-- 2026-05-12 | St Andrew Lions vs Ellerton FC | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 - 2026-05-13 | Motherwell vs Celtic | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 - 2026-05-13 | Motherwell FC vs Celtic Glasgow | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 - 2026-05-13 | PAOK Thessaloniki vs AEK Athens | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
@@ -54,6 +51,9 @@ Has valid forward log: True
 - 2026-05-13 | Volos NFC vs Aris | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 - 2026-05-13 | Motherwell vs Celtic | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 - 2026-05-14 | Real Madrid vs Oviedo | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-13 | Motherwell FC vs Celtic Glasgow | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-13 | Motherwell FC vs Celtic Glasgow | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-13 | Kultsu FC vs Ips | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 
 ## Invalid rows excluded
 

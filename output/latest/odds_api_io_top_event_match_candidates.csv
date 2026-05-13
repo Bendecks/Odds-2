@@ -1,1 +1,26 @@
-
+discovery_source,query,target_home_team,target_away_team,target_match_date,candidate_event_id,candidate_home_team,candidate_away_team,candidate_match_date,event_match_confidence,selected,rejection_reason,selected_bool,event_match_confidence_num
+events_bookmaker_filtered,Al Ittihad Al Sakandary,Al Ittihad Al Sakandary,Talaea El Gaish,2026-05-13,69880316,Al Ittihad Al Sakandary,Talaea El Gaish,2026-05-13,1.0,True,,True,1.0
+events_bookmaker_filtered,GKS Pniowek Pawlowice,GKS Pniowek Pawlowice,KS Gornik Polkowice,2026-05-13,62036872,GKS Pniowek Pawlowice,KS Gornik Polkowice,2026-05-13,1.0,True,,True,1.0
+events_bookmaker_filtered,Ajel de Rufisque,Ajel de Rufisque,Guediawaye FC,2026-05-13,71463050,Ajel de Rufisque,Guediawaye FC,2026-05-13,1.0,True,,True,1.0
+events_bookmaker_filtered,Legia Warszawa II,Legia Warszawa II,GKS Wikielec,2026-05-13,62038096,Legia Warszawa II,GKS Wikielec,2026-05-13,1.0,True,,True,1.0
+events_bookmaker_filtered,Busaiteen,Busaiteen,AL Hala,2026-05-13,71403926,Busaiteen,AL Hala,2026-05-13,1.0,True,,True,1.0
+events_bookmaker_filtered,KuPS Akatemia,KuPS Akatemia,FC Honka,2026-05-13,71325674,KuPS Akatemia,FC Honka,2026-05-13,1.0,True,,True,1.0
+events_bookmaker_filtered,FC Helsingoer,FC Helsingoer,BK Fremad Amager,2026-05-13,70730364,FC Helsingoer,BK Fremad Amager,2026-05-13,1.0,True,,True,1.0
+events_bookmaker_filtered,FK Velez Mostar,FK Velez Mostar,HSK Zrinjski Mostar,2026-05-13,70852954,FK Velez Mostar,HSK Zrinjski Mostar,2026-05-13,1.0,True,,True,1.0
+events_bookmaker_filtered,Al Ittihad,Al Ittihad,Um Alhassam,2026-05-13,71403924,Al Ittihad,Um Alhassam,2026-05-13,1.0,True,,True,1.0
+events_bookmaker_filtered,VJS,VJS,FF Jaro,2026-05-13,71325700,VJS,FF Jaro,2026-05-13,1.0,True,,True,1.0
+events_bookmaker_filtered,Sokol Kolbuszowa Dolna,Sokol Kolbuszowa Dolna,MKS Czarni Polaniec,2026-05-13,62036258,Sokol Kolbuszowa Dolna,MKS Czarni Polaniec,2026-05-13,1.0,True,,True,1.0
+events_bookmaker_filtered,Ishoej IF,Ishoej IF,Brabrand IF,2026-05-13,70730368,Ishoej IF,Brabrand IF,2026-05-13,1.0,True,,True,1.0
+events_bookmaker_filtered,KS Ck Troszyn,KS Ck Troszyn,Lechia Tomaszow Mazowiecki,2026-05-13,62038092,KS Ck Troszyn,Lechia Tomaszow Mazowiecki,2026-05-13,1.0,True,,True,1.0
+events_bookmaker_filtered,SJK Akatemia,SJK Akatemia,KPV Kokkola,2026-05-13,71325688,SJK Akatemia,KPV Kokkola,2026-05-13,1.0,True,,True,1.0
+events_bookmaker_filtered,Manama Club,Manama Club,Etehad Alreef,2026-05-13,71403922,Manama Club,Etehad Alreef,2026-05-13,1.0,True,,True,1.0
+events_bookmaker_filtered,Ahlafors IF,Ahlafors IF,Herrestads AIF,2026-05-13,68320168,Ahlafors IF,Herrestads AIF,2026-05-13,1.0,True,,True,1.0
+events_bookmaker_filtered,HNK Rijeka,HNK Rijeka,GNK Dinamo Zagreb,2026-05-13,70670028,HNK Rijeka,GNK Dinamo Zagreb,2026-05-13,1.0,True,,True,1.0
+events_bookmaker_filtered,AB Gladsaxe,AB Gladsaxe,FC Roskilde,2026-05-13,70730310,AB Gladsaxe,FC Roskilde,2026-05-13,1.0,True,,True,1.0
+events_bookmaker_filtered,Coquimbo Unido,Coquimbo Unido,Deportes Iquique,2026-05-13,69254638,Coquimbo Unido,Deportes Iquique,2026-05-13,1.0,True,,True,1.0
+events_bookmaker_filtered,Bnei Sakhnin FC,Bnei Sakhnin FC,Hapoel Ironi Kiryat Shmona FC,2026-05-13,70812660,Bnei Sakhnin FC,Hapoel Ironi Kiryat Shmona FC,2026-05-13,1.0,True,,True,1.0
+events_bookmaker_filtered,KS Warta Sieradz,KS Warta Sieradz,Wisla Plock II,2026-05-13,62038104,KS Warta Sieradz,Wisla Plock II,2026-05-13,1.0,True,,True,1.0
+events_bookmaker_filtered,KS Polonia Nysa,KS Polonia Nysa,KS Lechia Zielona Gora,2026-05-13,62036880,KS Polonia Nysa,KS Lechia Zielona Gora,2026-05-13,1.0,True,,True,1.0
+events_bookmaker_filtered,Deutschlandsberger SC,Deutschlandsberger SC,SK Treibach,2026-05-13,61466365,Deutschlandsberger SC,SK Treibach,2026-05-13,1.0,True,,True,1.0
+events_bookmaker_filtered,Wisla II Krakow,Wisla II Krakow,Cracovia Krakow II,2026-05-13,62036268,Wisla II Krakow,Cracovia Krakow II,2026-05-13,1.0,True,,True,1.0
+events_bookmaker_filtered,Deportes Recoleta,Deportes Recoleta,Universidad Catolica,2026-05-13,69254642,Deportes Recoleta,Universidad Catolica,2026-05-13,1.0,True,,True,1.0
