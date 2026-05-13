@@ -1,0 +1,89 @@
+name: Manual Bet365 Multisport Report
+
+on:
+  workflow_dispatch:
+    inputs:
+      sports:
+        description: 'Comma-separated Odds-API sport slugs'
+        required: true
+        default: 'football,tennis,basketball,ice-hockey,american-football,baseball,cricket,rugby-union,rugby-league,handball,esports'
+        type: string
+      max_price_events_per_sport:
+        description: 'Max good events per sport to request all Bet365 markets for'
+        required: true
+        default: '25'
+        type: string
+      max_pages:
+        description: 'Max /events pages per sport'
+        required: true
+        default: '3'
+        type: string
+      min_bookmaker_count:
+        description: 'Fallback coverage filter for sports/leagues not on allowlist'
+        required: true
+        default: '15'
+        type: string
+
+jobs:
+  build-bet365-multisport-report:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    env:
+      ODDS_API_IO_KEY: ${{ secrets.ODDS_API_IO_KEY }}
+      BET365_MULTI_SPORTS: ${{ inputs.sports }}
+      BET365_MULTI_MAX_PRICE_EVENTS_PER_SPORT: ${{ inputs.max_price_events_per_sport }}
+      BET365_MULTI_MAX_PAGES: ${{ inputs.max_pages }}
+      BET365_MULTI_MIN_BOOKMAKER_COUNT: ${{ inputs.min_bookmaker_count }}
+      BET365_MULTI_MAX_EVENTS: '100'
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Build today's Bet365 multisport report
+        run: |
+          python scripts/build_bet365_today_multisport_good_options_report.py \
+            --sports "${{ inputs.sports }}" \
+            --max-price-events-per-sport "${{ inputs.max_price_events_per_sport }}" \
+            --max-pages "${{ inputs.max_pages }}" \
+            --min-bookmaker-count "${{ inputs.min_bookmaker_count }}"
+
+      - name: Commit latest multisport report files
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/bet365/latest data/raw/odds_api_io/bet365_today_multisport_report
+          if git diff --cached --quiet; then
+            echo "No multisport report changes to commit"
+          else
+            git commit -m "Update today's Bet365 multisport report"
+            git pull --rebase origin main
+            git push
+          fi
+
+      - name: Upload Bet365 multisport report artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: bet365-today-multisport-report
+          path: |
+            output/bet365/latest/bet365_today_multisport_report.html
+            output/bet365/latest/bet365_today_multisport_events.csv
+            output/bet365/latest/bet365_today_multisport_markets.csv
+            output/bet365/latest/bet365_today_multisport_excluded.csv
+            output/bet365/latest/bet365_today_multisport_summary.json
+            output/bet365/latest/bet365_today_multisport_rate_limit_headers.csv
