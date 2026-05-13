@@ -1,1 +1,71 @@
-
+raw_event_id,fixture_id,match_date,match_time,home_team,away_team,league,direct_match_confidence
+61062283,odds_api_io_61062283,2026-05-13,16:00,MKS Arka Gdynia,Gornik Zabrze,poland-ekstraklasa,1.0
+70231844,odds_api_io_70231844,2026-05-13,16:30,Olympiacos Piraeus,Panathinaikos Athens,greece-super-league,1.0
+70231854,odds_api_io_70231854,2026-05-13,16:30,PAOK Thessaloniki,AEK Athens,greece-super-league,1.0
+61624648,odds_api_io_61624648,2026-05-13,17:00,Espanyol Barcelona,Athletic Bilbao,spain-laliga,1.0
+67126096,odds_api_io_67126096,2026-05-13,17:00,Falkenbergs FF,Varbergs BoIS,sweden-superettan,1.0
+67126086,odds_api_io_67126086,2026-05-13,17:00,Helsingborgs IF,IK Oddevold,sweden-superettan,1.0
+67126088,odds_api_io_67126088,2026-05-13,17:00,IFK Norrkoping FK,Nordic United FC,sweden-superettan,1.0
+67126098,odds_api_io_67126098,2026-05-13,17:00,IK Brage,Ostersunds FK,sweden-superettan,1.0
+67126092,odds_api_io_67126092,2026-05-13,17:00,Osters IF,Sandvikens IF,sweden-superettan,1.0
+70315368,odds_api_io_70315368,2026-05-13,17:00,Stade Brest 29,Strasbourg Alsace,france-ligue-1,1.0
+70905774,odds_api_io_70905774,2026-05-13,17:15,PFC Ludogorets 1945 Razgrad,PFC Levski Sofia,bulgaria-parva-liga,1.0
+70722406,odds_api_io_70722406,2026-05-13,18:00,Arsenal WFC,Everton FC,england-amateur-super-league-women,1.0
+71282488,odds_api_io_71282488,2026-05-13,18:00,FK Vojvodina Novi Sad,FK Crvena Zvezda Belgrade,serbia-serbian-cup,1.0
+61624654,odds_api_io_61624654,2026-05-13,17:00,Villarreal CF,Sevilla FC,spain-laliga,1.0
+61062299,odds_api_io_61062299,2026-05-13,18:30,RKS Rakow Czestochowa,Jagiellonia Bialystok,poland-ekstraklasa,1.0
+71406950,odds_api_io_71406950,2026-05-13,18:45,Alloa Athletic FC,Stenhousemuir FC,scotland-championship,1.0
+70674830,odds_api_io_70674830,2026-05-13,19:00,Glasgow Rangers,Hibernian FC,scotland-premiership,1.0
+70674826,odds_api_io_70674826,2026-05-13,19:00,Heart of Midlothian FC,Falkirk FC,scotland-premiership,1.0
+71019438,odds_api_io_71019438,2026-05-13,19:00,Lazio Rome,Inter Milano,italy-coppa-italia,1.0
+70674828,odds_api_io_70674828,2026-05-13,19:00,Motherwell FC,Celtic Glasgow,scotland-premiership,1.0
+70315360,odds_api_io_70315360,2026-05-13,19:00,Racing Club De Lens,Paris Saint-Germain,france-ligue-1,1.0
+71242306,odds_api_io_71242306,2026-05-13,19:00,Stockport County FC,Stevenage FC,england-league-one,1.0
+70784812,odds_api_io_70784812,2026-05-13,19:00,Manchester City,Crystal Palace,england-premier-league,1.0
+61624638,odds_api_io_61624638,2026-05-13,19:30,Deportivo Alaves,FC Barcelona,spain-laliga,1.0
+61624644,odds_api_io_61624644,2026-05-13,19:30,Getafe CF,RCD Mallorca,spain-laliga,1.0
+69254646,odds_api_io_69254646,2026-05-13,20:00,Santiago Wanderers,Union Espanola,chile-primera-division-women,1.0
+71325020,odds_api_io_71325020,2026-05-13,21:00,Bogota FC,Barranquilla FC,colombia-primera-b,1.0
+71428928,odds_api_io_71428928,2026-05-13,21:45,CA Rosario Central,Racing Club Avellaneda,argentina-liga-profesional,1.0
+70452650,odds_api_io_70452650,2026-05-13,22:00,CR Vasco da Gama RJ,Paysandu SC PA,brazil-copa-do-brasil,1.0
+70401280,odds_api_io_70401280,2026-05-13,22:00,EC Juventude RS,Sao Paulo FC SP,brazil-copa-do-brasil,1.0
+70401282,odds_api_io_70401282,2026-05-13,22:30,Coritiba FC PR,Santos FC SP,brazil-copa-do-brasil,1.0
+71297426,odds_api_io_71297426,2026-05-13,23:00,AD Pasto,CD Tolima,colombia-primera-a-apertura,1.0
+71172386,odds_api_io_71172386,2026-05-13,23:00,Carabobo FC,Estudiantes de Merida,venezuela-primera-division,1.0
+66299148,odds_api_io_66299148,2026-05-13,23:15,Charlotte FC,New York City FC,usa-mls,1.0
+71172362,odds_api_io_71172362,2026-05-13,23:30,Academia Puerto Cabello,Portuguesa FC,venezuela-primera-division,1.0
+66299150,odds_api_io_66299150,2026-05-13,23:30,FC Cincinnati,Inter Miami CF,usa-mls,1.0
+66299152,odds_api_io_66299152,2026-05-13,23:30,DC United,Chicago Fire,usa-mls,1.0
+70401292,odds_api_io_70401292,2026-05-13,23:30,Mirassol FC SP,Red Bull Bragantino SP,brazil-copa-do-brasil,1.0
+66299154,odds_api_io_66299154,2026-05-13,23:30,CF Montreal,Portland Timbers,usa-mls,1.0
+66299156,odds_api_io_66299156,2026-05-13,23:30,New England Revolution,Nashville SC,usa-mls,1.0
+66299158,odds_api_io_66299158,2026-05-13,23:30,New York Red Bulls,Columbus Crew,usa-mls,1.0
+66299160,odds_api_io_66299160,2026-05-13,23:30,Orlando City SC,Philadelphia Union,usa-mls,1.0
+71428930,odds_api_io_71428930,2026-05-14,00:30,CA River Plate (ARG),Gimnasia y Esgrima La Plata,argentina-liga-profesional,1.0
+70401310,odds_api_io_70401310,2026-05-14,00:30,Ceara SC CE,Atletico Mineiro MG,brazil-copa-do-brasil,1.0
+70401296,odds_api_io_70401296,2026-05-14,00:30,Clube do Remo PA,EC Bahia BA,brazil-copa-do-brasil,1.0
+66299162,odds_api_io_66299162,2026-05-14,00:30,FC Dallas,Vancouver Whitecaps FC,usa-mls,1.0
+70401286,odds_api_io_70401286,2026-05-14,00:30,EC Jacuipense BA,SE Palmeiras SP,brazil-copa-do-brasil,1.0
+66299166,odds_api_io_66299166,2026-05-14,00:30,Minnesota United FC,Colorado Rapids,usa-mls,1.0
+66299168,odds_api_io_66299168,2026-05-14,00:30,Saint Louis City SC,Los Angeles FC,usa-mls,1.0
+66299164,odds_api_io_66299164,2026-05-14,00:30,Sporting Kansas City,Los Angeles Galaxy,usa-mls,1.0
+71297590,odds_api_io_71297590,2026-05-14,01:15,CD Junior FC,CD Once Caldas,colombia-primera-a-apertura,1.0
+66299170,odds_api_io_66299170,2026-05-14,01:30,Real Salt Lake,Houston Dynamo,usa-mls,1.0
+66299172,odds_api_io_66299172,2026-05-14,01:30,San Diego FC,Austin FC,usa-mls,1.0
+66299174,odds_api_io_66299174,2026-05-14,01:30,Seattle Sounders,San Jose Earthquakes,usa-mls,1.0
+70318288,odds_api_io_70318288,2026-05-14,11:00,Hobro IK,Aarhus Fremad,denmark-1-division,1.0
+70906780,odds_api_io_70906780,2026-05-14,12:15,FK Septemvri Sofia,FK Spartak 1918 Varna,bulgaria-parva-liga,1.0
+70267784,odds_api_io_70267784,2026-05-14,13:00,Mjallby AIF,Hammarby IF,sweden-svenska-cup,1.0
+70479314,odds_api_io_70479314,2026-05-14,13:15,Tanzania Prisons,Fountain Gate FC,tanzania-premier-league,1.0
+70448376,odds_api_io_70448376,2026-05-14,14:30,FC Basel 1893,FC St. Gallen 1879,switzerland-super-league,1.0
+70448378,odds_api_io_70448378,2026-05-14,14:30,FC Sion,FC Lugano,switzerland-super-league,1.0
+70448380,odds_api_io_70448380,2026-05-14,14:30,FC Thun,Young Boys Bern,switzerland-super-league,1.0
+70906776,odds_api_io_70906776,2026-05-14,14:45,POFC Botev Vratsa,PFC Montana 1921,bulgaria-parva-liga,1.0
+61591358,odds_api_io_61591358,2026-05-14,15:00,Austria Lustenau,SKU Amstetten,austria-2-liga,1.0
+69757834,odds_api_io_69757834,2026-05-14,15:00,FC Copenhagen,FC Midtjylland,denmark-dbu-pokalen,1.0
+61591362,odds_api_io_61591362,2026-05-14,15:00,First Vienna FC 1894,Schwarz-Weiss Bregenz,austria-2-liga,1.0
+67126094,odds_api_io_67126094,2026-05-14,15:00,Ljungskile SK,GIF Sundsvall,sweden-superettan,1.0
+61591360,odds_api_io_61591360,2026-05-14,15:00,SK Austria Klagenfurt,FC Liefering,austria-2-liga,1.0
+61591372,odds_api_io_61591372,2026-05-14,15:00,SK Sturm Graz II,Rapid Wien II,austria-2-liga,1.0
+61591366,odds_api_io_61591366,2026-05-14,15:00,SKN St Polten,FC Hertha Wels,austria-2-liga,1.0
+61541420,odds_api_io_61541420,2026-05-14,15:00,SV Kuchl,FC Kitzbuhel,austria-amateur-regionalliga-west,1.0

@@ -1,19 +1,16 @@
 # Paper Test Log Status
 
-Raw log rows: 99
-Valid forward/proxy log rows: 96
-Deduped forward/proxy observation rows: 49
-Duplicate forward/proxy log rows: 47
-Valid automatic proxy observation rows: 96
-Deduped automatic proxy observation rows: 49
+Raw log rows: 103
+Valid forward/proxy log rows: 100
+Deduped forward/proxy observation rows: 52
+Duplicate forward/proxy log rows: 48
+Valid automatic proxy observation rows: 100
+Deduped automatic proxy observation rows: 52
 Invalid historical/proxy log rows excluded: 3
 Has valid forward log: True
 
 ## Deduped valid rows
 
-- 2026-05-12 | Sur SC vs Al-Khaboora | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.0746
-- 2026-05-12 | Celta vs Levante | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.0746
-- 2026-05-12 | RC Celta de Vigo vs Levante UD | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.0746
 - 2026-05-12 | PFC Cherno More Varna vs PFC Lokomotiv Plovdiv | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.0742
 - 2026-05-12 | St Andrew Lions vs Ellerton FC | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0733
 - 2026-05-12 | TRA United vs Jkt Tanzania | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.0716
@@ -22,6 +19,9 @@ Has valid forward log: True
 - 2026-05-13 | PAOK vs AEK | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0711
 - 2026-05-13 | Levadeiakos vs OFI Crete | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0711
 - 2026-05-13 | PAOK Thessaloniki vs AEK Athens | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0711
+- 2026-05-13 | APO Levadiakos FC vs OFI Crete | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0711
+- 2026-05-13 | Machida Zelvia vs Tokyo Verdy | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0711
+- 2026-05-13 | Vissel Kobe vs Kyoto Sanga FC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0711
 - 2026-05-12 | AL Wasl vs AL Jazira | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.0711
 - 2026-05-12 | Sportivo Ameliano vs Deportivo Recoleta Reserve | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.0711
 - 2026-05-12 | AL Ittihad Kalba vs AL Nasr | selection=away | phase=automatic_forward_price_proxy | tier=suppressed_band_proxy_observation | score=0.07060000000000001
@@ -34,10 +34,6 @@ Has valid forward log: True
 
 ## Raw valid rows
 
-- 2026-05-13 | Espanol vs Ath Bilbao | selection=draw | phase=automatic_forward_price_proxy | tier=negative_ev_control_observation
-- 2026-05-13 | Espanol vs Ath Bilbao | selection=draw | phase=automatic_forward_price_proxy | tier=negative_ev_control_observation
-- 2026-05-12 | Asteras Tripolis vs Panserraikos | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-13 | PAOK vs AEK | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 - 2026-05-13 | Levadeiakos vs OFI Crete | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 - 2026-05-12 | Asteras Tripolis vs Panserraikos | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 - 2026-05-13 | PAOK vs AEK | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
@@ -54,6 +50,10 @@ Has valid forward log: True
 - 2026-05-13 | Lens vs Paris SG | selection=draw | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
 - 2026-05-13 | Alaves vs Barcelona | selection=draw | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
 - 2026-05-13 | PAOK Thessaloniki vs AEK Athens | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-13 | Alaves vs Barcelona | selection=draw | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
+- 2026-05-13 | APO Levadiakos FC vs OFI Crete | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-13 | Machida Zelvia vs Tokyo Verdy | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-13 | Vissel Kobe vs Kyoto Sanga FC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 
 ## Invalid rows excluded
 

@@ -3,8 +3,8 @@
 Free delayed market proxy. Not live odds and not real-money ready.
 
 Raw rows: 26
-Upcoming fixture rows: 26
-Proxy price rows: 78
+Upcoming fixture rows: 17
+Proxy price rows: 51
 Sources attempted: 1
 Errors: 0
 
@@ -17,15 +17,6 @@ Errors: 0
 - 2026-05-13 20:00 | Lens vs Paris SG | football_data_bet365_proxy | 3.4/4.0/1.95
 - 2026-05-13 20:00 | Lens vs Paris SG | football_data_max_market_proxy | 3.5/4.0/2.05
 - 2026-05-13 20:00 | Lens vs Paris SG | football_data_average_market_proxy | 3.3/3.91/1.95
-- 2026-05-12 17:00 | Asteras Tripolis vs Panserraikos | football_data_bet365_proxy | 1.76/3.3/5.0
-- 2026-05-12 17:00 | Asteras Tripolis vs Panserraikos | football_data_max_market_proxy | 1.86/3.5/5.0
-- 2026-05-12 17:00 | Asteras Tripolis vs Panserraikos | football_data_average_market_proxy | 1.78/3.31/4.36
-- 2026-05-12 17:00 | Kifisia vs Atromitos | football_data_bet365_proxy | 2.3/3.25/3.1
-- 2026-05-12 17:00 | Kifisia vs Atromitos | football_data_max_market_proxy | 2.3/3.4/3.1
-- 2026-05-12 17:00 | Kifisia vs Atromitos | football_data_average_market_proxy | 2.24/3.23/2.95
-- 2026-05-12 17:00 | Panetolikos vs Larisa | football_data_bet365_proxy | 2.1/3.1/3.1
-- 2026-05-12 17:00 | Panetolikos vs Larisa | football_data_max_market_proxy | 2.28/3.2/3.33
-- 2026-05-12 17:00 | Panetolikos vs Larisa | football_data_average_market_proxy | 2.21/3.08/3.13
 - 2026-05-13 15:00 | Levadeiakos vs OFI Crete | football_data_bet365_proxy | 1.57/4.2/5.0
 - 2026-05-13 15:00 | Levadeiakos vs OFI Crete | football_data_max_market_proxy | 1.68/4.2/5.0
 - 2026-05-13 15:00 | Levadeiakos vs OFI Crete | football_data_average_market_proxy | 1.6/3.89/4.66
@@ -38,3 +29,12 @@ Errors: 0
 - 2026-05-13 17:30 | PAOK vs AEK | football_data_bet365_proxy | 1.68/3.7/5.0
 - 2026-05-13 17:30 | PAOK vs AEK | football_data_max_market_proxy | 1.74/3.8/5.0
 - 2026-05-13 17:30 | PAOK vs AEK | football_data_average_market_proxy | 1.69/3.53/4.56
+- 2026-05-13 20:00 | Hearts vs Falkirk | football_data_bet365_proxy | 1.41/4.75/6.5
+- 2026-05-13 20:00 | Hearts vs Falkirk | football_data_max_market_proxy | 1.44/4.9/7.5
+- 2026-05-13 20:00 | Hearts vs Falkirk | football_data_average_market_proxy | 1.4/4.6/6.82
+- 2026-05-13 20:00 | Motherwell vs Celtic | football_data_bet365_proxy | 4.33/4.1/1.66
+- 2026-05-13 20:00 | Motherwell vs Celtic | football_data_max_market_proxy | 4.4/4.2/1.73
+- 2026-05-13 20:00 | Motherwell vs Celtic | football_data_average_market_proxy | 4.25/4.03/1.68
+- 2026-05-13 20:00 | Rangers vs Hibernian | football_data_bet365_proxy | 1.45/4.75/5.75
+- 2026-05-13 20:00 | Rangers vs Hibernian | football_data_max_market_proxy | 1.51/4.75/6.0
+- 2026-05-13 20:00 | Rangers vs Hibernian | football_data_average_market_proxy | 1.48/4.52/5.62

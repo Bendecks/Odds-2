@@ -10,40 +10,6 @@ No qualifying candidate bets today.
 
 ## Paper-Test Picks
 
-### Betis vs Elche
-
-- Date/time: 2026-05-12 19:00
-- League/phase: la_liga / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 5.5
-- Fair odds: 3.52
-- Model probability: 0.2839
-- Probability band: 0.25-0.35
-- EV: 0.5615
-- Probability edge: 0.1021
-- Alignment penalty: 0.5615
-- Suppression action: none
-- Paper tier: volume_observation
-- Paper score: 0.2872
-- Prediction ID: 06c0b8a8cfd48f2f470a
-
-### Betis vs Elche
-
-- Date/time: 2026-05-12 19:00
-- League/phase: la_liga / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 5.25
-- Fair odds: 3.52
-- Model probability: 0.2839
-- Probability band: 0.25-0.35
-- EV: 0.4905
-- Probability edge: 0.0934
-- Alignment penalty: 0.4905
-- Suppression action: none
-- Paper tier: volume_observation
-- Paper score: 0.2804
-- Prediction ID: 06c0b8a8cfd48f2f470a
-
 ### Getafe vs Mallorca
 
 - Date/time: 2026-05-13 20:30
@@ -83,16 +49,16 @@ No qualifying candidate bets today.
 - Date/time: 2026-05-13 18:00
 - League/phase: la_liga / automatic_forward_price_proxy
 - Selection: AWAY
-- Market odds: 3.6
+- Market odds: 3.7
 - Fair odds: 3.07
 - Model probability: 0.326
 - Probability band: 0.25-0.35
-- EV: 0.1736
-- Probability edge: 0.0482
-- Alignment penalty: 0.1736
+- EV: 0.2062
+- Probability edge: 0.0557
+- Alignment penalty: 0.2062
 - Suppression action: none
 - Paper tier: priority_proxy_observation
-- Paper score: 0.252
+- Paper score: 0.2559
 - Prediction ID: 1a7b8238707be2164ab1
 
 ### Getafe vs Mallorca
@@ -163,6 +129,23 @@ No qualifying candidate bets today.
 - Paper score: 0.2413
 - Prediction ID: 239766b687d9b1adc383
 
+### Alaves vs Barcelona
+
+- Date/time: 2026-05-13 20:30
+- League/phase: la_liga / automatic_forward_price_proxy
+- Selection: DRAW
+- Market odds: 4.0
+- Fair odds: 3.63
+- Model probability: 0.2757
+- Probability band: 0.25-0.35
+- EV: 0.1028
+- Probability edge: 0.0257
+- Alignment penalty: 0.1028
+- Suppression action: none
+- Paper tier: priority_proxy_observation
+- Paper score: 0.2377
+- Prediction ID: 541dc74549d31d734841
+
 ### Valencia vs Vallecano
 
 - Date/time: 2026-05-14 18:00
@@ -218,53 +201,19 @@ No qualifying candidate bets today.
 
 - Date/time: 2026-05-13 20:00
 - League/phase: ligue_1 / automatic_forward_price_proxy
-- Selection: HOME
-- Market odds: 3.4
-- Fair odds: 3.31
-- Model probability: 0.3022
+- Selection: DRAW
+- Market odds: 4.0
+- Fair odds: 3.79
+- Model probability: 0.2638
 - Probability band: 0.25-0.35
-- EV: 0.0275
-- Probability edge: 0.0081
-- Alignment penalty: 0.0275
+- EV: 0.0552
+- Probability edge: 0.0138
+- Alignment penalty: 0.0552
 - Suppression action: none
 - Paper tier: priority_proxy_observation
 - Paper score: 0.2307
 - Prediction ID: 08ac28957d325bd5bfd5
 
-### Alaves vs Barcelona
-
-- Date/time: 2026-05-13 20:30
-- League/phase: la_liga / automatic_forward_price_proxy
-- Selection: DRAW
-- Market odds: 3.75
-- Fair odds: 3.63
-- Model probability: 0.2757
-- Probability band: 0.25-0.35
-- EV: 0.0339
-- Probability edge: 0.009
-- Alignment penalty: 0.0339
-- Suppression action: none
-- Paper tier: priority_proxy_observation
-- Paper score: 0.2292
-- Prediction ID: 541dc74549d31d734841
-
-### Osasuna vs Ath Madrid
-
-- Date/time: 2026-05-12 20:30
-- League/phase: la_liga / automatic_forward_price_proxy
-- Selection: DRAW
-- Market odds: 3.6
-- Fair odds: 3.56
-- Model probability: 0.2807
-- Probability band: 0.25-0.35
-- EV: 0.0105
-- Probability edge: 0.0029
-- Alignment penalty: 0.0105
-- Suppression action: none
-- Paper tier: priority_proxy_observation
-- Paper score: 0.2266
-- Prediction ID: 02dc0137599654306756
-
 ### Brest vs Strasbourg
 
 - Date/time: 2026-05-13 18:00
@@ -299,61 +248,78 @@ No qualifying candidate bets today.
 - Paper score: 0.2258
 - Prediction ID: 15223cd9a65de7bcdbde
 
-### Osasuna vs Ath Madrid
+### Espanol vs Ath Bilbao
 
-- Date/time: 2026-05-12 20:30
+- Date/time: 2026-05-13 18:00
 - League/phase: la_liga / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 2.65
-- Fair odds: 2.52
-- Model probability: 0.3969
+- Selection: DRAW
+- Market odds: 3.3
+- Fair odds: 3.42
+- Model probability: 0.2922
+- Probability band: 0.25-0.35
+- EV: -0.0357
+- Probability edge: -0.0108
+- Alignment penalty: 0.0357
+- Suppression action: none
+- Paper tier: negative_ev_control_observation
+- Paper score: 0.2068
+- Prediction ID: 0fcb571cd54d22a99bcc
+
+### Espanol vs Ath Bilbao
+
+- Date/time: 2026-05-13 18:00
+- League/phase: la_liga / automatic_forward_price_proxy
+- Selection: DRAW
+- Market odds: 3.3
+- Fair odds: 3.42
+- Model probability: 0.2922
+- Probability band: 0.25-0.35
+- EV: -0.0357
+- Probability edge: -0.0108
+- Alignment penalty: 0.0357
+- Suppression action: none
+- Paper tier: negative_ev_control_observation
+- Paper score: 0.2068
+- Prediction ID: 0fcb571cd54d22a99bcc
+
+### Motherwell vs Celtic
+
+- Date/time: 2026-05-13 20:00
+- League/phase: SC0 / automatic_forward_price_proxy
+- Selection: HOME
+- Market odds: 4.5
+- Fair odds: 2.65
+- Model probability: 0.3772
 - Probability band: 0.35-0.45
-- EV: 0.0518
-- Probability edge: 0.0195
-- Alignment penalty: 0.0518
-- Suppression action: monitor
-- Paper tier: priority_proxy_observation
-- Paper score: 0.2236
-- Prediction ID: 02dc0137599654306756
+- EV: 0.6974
+- Probability edge: 0.155
+- Alignment penalty: 0.6974
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0712
+- Prediction ID: 52961fc73f7fb2c0f43f
 
-### Espanol vs Ath Bilbao
+### Motherwell FC vs Celtic Glasgow
 
-- Date/time: 2026-05-13 18:00
-- League/phase: la_liga / automatic_forward_price_proxy
-- Selection: DRAW
-- Market odds: 3.3
-- Fair odds: 3.42
-- Model probability: 0.2922
-- Probability band: 0.25-0.35
-- EV: -0.0357
-- Probability edge: -0.0108
-- Alignment penalty: 0.0357
-- Suppression action: none
-- Paper tier: negative_ev_control_observation
-- Paper score: 0.2068
-- Prediction ID: 0fcb571cd54d22a99bcc
+- Date/time: 2026-05-13 19:00
+- League/phase: scotland-premiership / automatic_forward_price_proxy
+- Selection: HOME
+- Market odds: 4.5
+- Fair odds: 2.65
+- Model probability: 0.3772
+- Probability band: 0.35-0.45
+- EV: 0.6974
+- Probability edge: 0.155
+- Alignment penalty: 0.6974
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0712
+- Prediction ID: 8aea11726ec4ca7259c2
 
-### Espanol vs Ath Bilbao
+### APO Levadiakos FC vs OFI Crete
 
-- Date/time: 2026-05-13 18:00
-- League/phase: la_liga / automatic_forward_price_proxy
-- Selection: DRAW
-- Market odds: 3.3
-- Fair odds: 3.42
-- Model probability: 0.2922
-- Probability band: 0.25-0.35
-- EV: -0.0357
-- Probability edge: -0.0108
-- Alignment penalty: 0.0357
-- Suppression action: none
-- Paper tier: negative_ev_control_observation
-- Paper score: 0.2068
-- Prediction ID: 0fcb571cd54d22a99bcc
-
-### Asteras Tripolis vs Panserraikos
-
-- Date/time: 2026-05-12 17:00
-- League/phase: G1 / automatic_forward_price_proxy
+- Date/time: 2026-05-13 14:00
+- League/phase: greece-super-league / automatic_forward_price_proxy
 - Selection: AWAY
 - Market odds: 5.0
 - Fair odds: 2.87
@@ -365,7 +331,7 @@ No qualifying candidate bets today.
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
 - Paper score: 0.0711
-- Prediction ID: 10058db7a256d1e270ce
+- Prediction ID: ecee2ff4d4fc1beddc47
 
 ### PAOK vs AEK
 
@@ -384,10 +350,10 @@ No qualifying candidate bets today.
 - Paper score: 0.0711
 - Prediction ID: 2b19ca93bfc4a3298eef
 
-### Levadeiakos vs OFI Crete
+### PAOK Thessaloniki vs AEK Athens
 
-- Date/time: 2026-05-13 15:00
-- League/phase: G1 / automatic_forward_price_proxy
+- Date/time: 2026-05-13 16:30
+- League/phase: greece-super-league / automatic_forward_price_proxy
 - Selection: AWAY
 - Market odds: 5.0
 - Fair odds: 2.87
@@ -399,24 +365,7 @@ No qualifying candidate bets today.
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
 - Paper score: 0.0711
-- Prediction ID: 1c3f90b9a258bf231825
-
-### Asteras Tripolis vs Panserraikos
-
-- Date/time: 2026-05-12 17:00
-- League/phase: G1 / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 5.0
-- Fair odds: 2.87
-- Model probability: 0.3488
-- Probability band: 0.25-0.35
-- EV: 0.744
-- Probability edge: 0.1488
-- Alignment penalty: 0.744
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.0711
-- Prediction ID: 10058db7a256d1e270ce
+- Prediction ID: 8f73869fc12eb2948b4c
 
 ### PAOK vs AEK
 
@@ -434,6 +383,57 @@ No qualifying candidate bets today.
 - Paper tier: baseline_coverage_observation
 - Paper score: 0.0711
 - Prediction ID: 2b19ca93bfc4a3298eef
+
+### PAOK Thessaloniki vs AEK Athens
+
+- Date/time: 2026-05-13 16:30
+- League/phase: greece-super-league / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 5.0
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.744
+- Probability edge: 0.1488
+- Alignment penalty: 0.744
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0711
+- Prediction ID: 8f73869fc12eb2948b4c
+
+### Machida Zelvia vs Tokyo Verdy
+
+- Date/time: 2026-05-13 10:00
+- League/phase: japan-jleague / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 5.0
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.744
+- Probability edge: 0.1488
+- Alignment penalty: 0.744
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0711
+- Prediction ID: cfff46f532d8d0748356
+
+### Vissel Kobe vs Kyoto Sanga FC
+
+- Date/time: 2026-05-13 10:00
+- League/phase: japan-jleague / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 5.0
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.744
+- Probability edge: 0.1488
+- Alignment penalty: 0.744
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0711
+- Prediction ID: 0a9f946c12ea1eccb2a5
 
 ## Snapshot summary
 

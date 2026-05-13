@@ -5,9 +5,9 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 
 ## Kort status
 
-- Aktuelle viste paper picks: **14**
-- Unikke loggede paper picks: **48**
-- Afventer i loggen: **45**
+- Aktuelle viste paper picks: **16**
+- Unikke loggede paper picks: **51**
+- Afventer i loggen: **48**
 - Afgjorte fundet i settled-filen: **210**
 - Skjulte U-/reserve-rækker: **5**
 - Vundne: **70**
@@ -15,15 +15,6 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Samlet ROI i units: **-3.45**
 
 ## Aktuelle paper picks
-
-### Betis vs Elche
-- Dato: **2026-05-12**
-- Kampstart: **19:00**
-- Spil: **Udebanesejr**
-- Odds: **5.50**
-- Status: **Afventer**
-- Type: **volume_observation**
-- Note: **expanded_volume_forward_observation_not_real_money**
 
 ### Getafe vs Mallorca
 - Dato: **2026-05-13**
@@ -61,6 +52,15 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **priority_proxy_observation**
 - Note: **expanded_volume_forward_observation_not_real_money**
 
+### Alaves vs Barcelona
+- Dato: **2026-05-13**
+- Kampstart: **20:30**
+- Spil: **Uafgjort**
+- Odds: **4.00**
+- Status: **Afventer**
+- Type: **priority_proxy_observation**
+- Note: **expanded_volume_forward_observation_not_real_money**
+
 ### Lens vs Paris SG
 - Dato: **2026-05-13**
 - Kampstart: **20:00**
@@ -70,20 +70,11 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **priority_proxy_observation**
 - Note: **expanded_volume_forward_observation_not_real_money**
 
-### Alaves vs Barcelona
+### Lens vs Paris SG
 - Dato: **2026-05-13**
-- Kampstart: **20:30**
+- Kampstart: **20:00**
 - Spil: **Uafgjort**
-- Odds: **3.90**
-- Status: **Afventer**
-- Type: **priority_proxy_observation**
-- Note: **expanded_volume_forward_observation_not_real_money**
-
-### Osasuna vs Ath Madrid
-- Dato: **2026-05-12**
-- Kampstart: **20:30**
-- Spil: **Uafgjort**
-- Odds: **3.60**
+- Odds: **4.00**
 - Status: **Afventer**
 - Type: **priority_proxy_observation**
 - Note: **expanded_volume_forward_observation_not_real_money**
@@ -97,15 +88,6 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **priority_proxy_observation**
 - Note: **expanded_volume_forward_observation_not_real_money**
 
-### Osasuna vs Ath Madrid
-- Dato: **2026-05-12**
-- Kampstart: **20:30**
-- Spil: **Udebanesejr**
-- Odds: **2.65**
-- Status: **Afventer**
-- Type: **priority_proxy_observation**
-- Note: **expanded_volume_forward_observation_not_real_money**
-
 ### Espanol vs Ath Bilbao
 - Dato: **2026-05-13**
 - Kampstart: **18:00**
@@ -115,9 +97,27 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **negative_ev_control_observation**
 - Note: **negative_ev_control_observation_not_real_money**
 
-### Asteras Tripolis vs Panserraikos
-- Dato: **2026-05-12**
-- Kampstart: **17:00**
+### Motherwell vs Celtic
+- Dato: **2026-05-13**
+- Kampstart: **20:00**
+- Spil: **Hjemmesejr**
+- Odds: **4.50**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Motherwell FC vs Celtic Glasgow
+- Dato: **2026-05-13**
+- Kampstart: **19:00**
+- Spil: **Hjemmesejr**
+- Odds: **4.50**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### APO Levadiakos FC vs OFI Crete
+- Dato: **2026-05-13**
+- Kampstart: **14:00**
 - Spil: **Udebanesejr**
 - Odds: **5.00**
 - Status: **Afventer**
@@ -133,9 +133,27 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Levadeiakos vs OFI Crete
+### PAOK Thessaloniki vs AEK Athens
 - Dato: **2026-05-13**
-- Kampstart: **15:00**
+- Kampstart: **16:30**
+- Spil: **Udebanesejr**
+- Odds: **5.00**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Machida Zelvia vs Tokyo Verdy
+- Dato: **2026-05-13**
+- Kampstart: **10:00**
+- Spil: **Udebanesejr**
+- Odds: **5.00**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Vissel Kobe vs Kyoto Sanga FC
+- Dato: **2026-05-13**
+- Kampstart: **10:00**
 - Spil: **Udebanesejr**
 - Odds: **5.00**
 - Status: **Afventer**

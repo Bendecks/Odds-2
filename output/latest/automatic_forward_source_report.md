@@ -3,47 +3,48 @@
 Purpose: distinguish true automatic forward inputs from historical market proxy and paused manual fallback.
 Football-Data and odds-api.io prices are treated as paper-test proxy prices until validated.
 
-Upcoming fixture rows: 27
-Fixture team rows unmatched: 29
+Upcoming fixture rows: 183
+Fixture team rows unmatched: 337
 Ready for model-fixture join: False
-Automatic forward price rows: 78
-odds-api.io price rows: 0
-Football-Data price rows: 78
+Automatic forward price rows: 110
+odds-api.io price rows: 59
+Football-Data price rows: 51
 Automatic forward status: automatic_forward_not_ready
 Blocker: fixture_model_team_matching_incomplete
 Next development step: add_team_aliases_for_upcoming_fixtures
 
 ## Team matching
 
-- Aberdeen | suggestion=nan | type=unmatched
-- St Mirren | suggestion=nan | type=unmatched
-- Asteras Tripolis | suggestion=nan | type=unmatched
-- Panserraikos | suggestion=nan | type=unmatched
-- Levante | suggestion=nan | type=unmatched
-- Dundee United | suggestion=nan | type=unmatched
-- Livingston | suggestion=nan | type=unmatched
-- Kifisia | suggestion=nan | type=unmatched
-- Atromitos | suggestion=nan | type=unmatched
-- Kilmarnock | suggestion=nan | type=unmatched
-- Dundee | suggestion=nan | type=unmatched
-- Panetolikos | suggestion=nan | type=unmatched
-- Larisa | suggestion=nan | type=unmatched
-- Hearts | suggestion=nan | type=unmatched
-- Falkirk | suggestion=nan | type=unmatched
-- Levadeiakos | suggestion=nan | type=unmatched
+- Academia Puerto Cabello | suggestion=nan | type=unmatched
+- Portuguesa FC | suggestion=nan | type=unmatched
+- AD Pasto | suggestion=nan | type=unmatched
+- CD Tolima | suggestion=nan | type=unmatched
+- Alloa Athletic FC | suggestion=nan | type=unmatched
+- Stenhousemuir FC | suggestion=nan | type=unmatched
+- FC Anyang | suggestion=nan | type=unmatched
+- Gimcheon Sangmu FC | suggestion=nan | type=unmatched
+- APO Levadiakos FC | suggestion=nan | type=unmatched
 - OFI Crete | suggestion=nan | type=unmatched
-- Manchester City | suggestion=nan | type=unmatched
-- Motherwell | suggestion=nan | type=unmatched
-- Celtic | suggestion=nan | type=unmatched
-- Olympiakos | suggestion=nan | type=unmatched
-- Panathinaikos | suggestion=nan | type=unmatched
-- PAOK | suggestion=nan | type=unmatched
-- AEK | suggestion=nan | type=unmatched
-- Rangers | suggestion=Angers | type=suggested_alias_needed
-- Hibernian | suggestion=nan | type=unmatched
-- Volos NFC | suggestion=nan | type=unmatched
-- Aris | suggestion=nan | type=unmatched
-- Oviedo | suggestion=nan | type=unmatched
+- Arsenal WFC | suggestion=Arsenal | type=suggested_alias_needed
+- Bogota FC | suggestion=nan | type=unmatched
+- Barranquilla FC | suggestion=nan | type=unmatched
+- Bucheon FC 1995 | suggestion=nan | type=unmatched
+- Jeonbuk FC | suggestion=nan | type=unmatched
+- CA Rosario Central | suggestion=nan | type=unmatched
+- Racing Club Avellaneda | suggestion=nan | type=unmatched
+- Carabobo FC | suggestion=nan | type=unmatched
+- Estudiantes de Merida | suggestion=nan | type=unmatched
+- Charlotte FC | suggestion=nan | type=unmatched
+- New York City FC | suggestion=nan | type=unmatched
+- FC Cincinnati | suggestion=nan | type=unmatched
+- Inter Miami CF | suggestion=nan | type=unmatched
+- Coritiba FC PR | suggestion=nan | type=unmatched
+- Santos FC SP | suggestion=nan | type=unmatched
+- CR Vasco da Gama RJ | suggestion=nan | type=unmatched
+- Paysandu SC PA | suggestion=nan | type=unmatched
+- DC United | suggestion=nan | type=unmatched
+- Chicago Fire | suggestion=nan | type=unmatched
+- Deportivo Alaves | suggestion=nan | type=unmatched
 
 ## Interpretation
 
