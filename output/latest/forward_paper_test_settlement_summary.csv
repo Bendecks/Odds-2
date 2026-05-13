@@ -1,2 +1,2 @@
 forward_log_rows,eligible_to_check,api_calls_used,settled_forward_picks,pending_forward_picks,wins,losses,roi_units,api_key_present
-50,0,0,0,50,0,0,0.0,True
+53,0,0,0,53,0,0,0.0,True
