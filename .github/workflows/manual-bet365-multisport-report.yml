@@ -64,6 +64,9 @@ jobs:
             --max-pages "${{ inputs.max_pages }}" \
             --min-bookmaker-count "${{ inputs.min_bookmaker_count }}"
 
+      - name: Build iPhone download links
+        run: python scripts/build_bet365_iphone_download_links.py
+
       - name: Commit latest multisport report files
         run: |
           git config --global user.name "github-actions[bot]"
@@ -82,6 +85,8 @@ jobs:
         with:
           name: bet365-today-multisport-report
           path: |
+            output/bet365/latest/iphone_download_links.html
+            output/bet365/latest/iphone_download_links.md
             output/bet365/latest/bet365_today_multisport_report.html
             output/bet365/latest/bet365_today_multisport_report.pdf
             output/bet365/latest/bet365_today_multisport_events.csv
