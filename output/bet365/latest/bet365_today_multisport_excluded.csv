@@ -1,5 +1,4 @@
 sport_query,event_id,date_denmark,home,away,league,sport,bookmaker_count,reason
-football,67953292,2026-05-13 17:05,Al-Tai,Jeddah Club,Saudi Arabia - Division 1,Football,0,not_good_competition_or_low_coverage
 football,62036258,2026-05-13 17:30,Sokol Kolbuszowa Dolna,MKS Czarni Polaniec,"Poland - III Liga, Group 4",Football,0,not_good_competition_or_low_coverage
 football,69924658,2026-05-13 17:30,Kultsu FC,Ips,Finland - Kolmonen,Football,0,not_good_competition_or_low_coverage
 football,71325692,2026-05-13 17:30,IFK Mariehamn,Puistolan Urheilijat,Finland - Suomen Cup,Football,0,not_good_competition_or_low_coverage
@@ -109,14 +108,21 @@ football,70820620,2026-05-13 22:00,Stjarnan Gardabae,KR Reykjavik,Iceland - Cup,
 football,71325020,2026-05-13 23:00,Bogota FC,Barranquilla FC,Colombia - Primera B,Football,0,not_good_competition_or_low_coverage
 football,71452802,2026-05-13 23:30,CD Aguila San Miguel,CD Luis Angel Firpo Usulutan,"El Salvador - Primera Division, Clausura",Football,0,not_good_competition_or_low_coverage
 tennis,540089,2026-05-13 17:15,Drazen Petrovic,Attila Boros,ITF Men - Prijedor,Tennis,0,not_good_competition_or_low_coverage
-tennis,148231,2026-05-13 17:15,Marwan Ehab,Cristian Campese,ITF Men - Hurghada,Tennis,0,not_good_competition_or_low_coverage
-tennis,30628148,2026-05-13 17:15,Benjamin Perez Mora,Johan Nikles,ITF Men - Vic,Tennis,0,not_good_competition_or_low_coverage
+tennis,148386,2026-05-13 17:16,Alex Finkelstein,Bruno Kuzuhara,ITF Men - Pensacola,Tennis,0,not_good_competition_or_low_coverage
 tennis,148329,2026-05-13 17:30,Karim Mabrouk,Ammar Faleh Alhogbani,ITF Men - Hurghada,Tennis,0,not_good_competition_or_low_coverage
 tennis,539966,2026-05-13 17:39,Adam Kaczmarek,Aleksandre Shvangiradze,ITF Men - Kutaisi,Tennis,0,not_good_competition_or_low_coverage
+tennis,540287,2026-05-13 18:00,David Prasievi,Evangelos Kypriotis,ITF Men - Kutaisi,Tennis,0,not_good_competition_or_low_coverage
 tennis,148850,2026-05-13 18:00,Eli Stephenson,Lucca Liu,ITF Men - Pensacola,Tennis,0,not_good_competition_or_low_coverage
+tennis,147444,2026-05-13 18:00,Niklas Guttau,Lorenzo Comino,ITF Men - Prijedor,Tennis,0,not_good_competition_or_low_coverage
+tennis,147973,2026-05-13 18:00,Eric Martins,Jefferson Wendler Filho,ITF Men - Maringa,Tennis,0,not_good_competition_or_low_coverage
+tennis,148331,2026-05-13 18:00,Mateus Alves,Rafael Tosetto,ITF Men - Maringa,Tennis,0,not_good_competition_or_low_coverage
+tennis,539960,2026-05-13 18:00,Maxim Shin,Francisco Faria,ITF Men - Kutaisi,Tennis,0,not_good_competition_or_low_coverage
 tennis,540618,2026-05-13 18:00,Youssef Kadiri Hassani,Kaylan Bigun,ITF Men - Pensacola,Tennis,0,not_good_competition_or_low_coverage
+tennis,147352,2026-05-13 18:00,Semen Pankin,Daniil Dinits,ITF Men - Kutaisi,Tennis,0,not_good_competition_or_low_coverage
 tennis,30655003,2026-05-13 18:00,Justin Lyons,Ilyas Milad Fahim,ITF Men - Pensacola,Tennis,0,not_good_competition_or_low_coverage
 tennis,30584429,2026-05-13 18:15,Evan Bynoe,Andrew Fenty,ITF Men - Pensacola,Tennis,0,not_good_competition_or_low_coverage
+tennis,148231,2026-05-13 18:15,Marwan Ehab,Cristian Campese,ITF Men - Hurghada,Tennis,0,not_good_competition_or_low_coverage
+tennis,30628148,2026-05-13 18:15,Benjamin Perez Mora,Johan Nikles,ITF Men - Vic,Tennis,0,not_good_competition_or_low_coverage
 tennis,148423,2026-05-13 19:00,Marvin Spiering,Wilson Leite,ITF Men - Maringa,Tennis,0,not_good_competition_or_low_coverage
 tennis,147882,2026-05-13 19:00,Andrea Guerrieri,Michele Mecarelli,ITF Men - Reggio Emilia,Tennis,0,not_good_competition_or_low_coverage
 tennis,540430,2026-05-13 19:00,Pedro Iamachkine,Enzo Lima,ITF Men - Maringa,Tennis,0,not_good_competition_or_low_coverage
@@ -128,11 +134,11 @@ tennis,148068,2026-05-13 19:15,Viktor Frydrych,Samir Hamza Reguig,ITF Men - Hurg
 tennis,71389860,2026-05-13 19:30,"Olmos, Zoe","Miroshnichenko, Veronica",UTR Women - UTR PTT Newport Beach Women 11,Tennis,0,not_good_competition_or_low_coverage
 tennis,71390012,2026-05-13 19:30,"Anson, Justin Riley","Giesen, Jonty",UTR Men - UTR PTT Newport Beach Men 11,Tennis,0,not_good_competition_or_low_coverage
 tennis,71390020,2026-05-13 19:30,"Clark, Miles","Renfrow, Noble",UTR Men - UTR PTT Newport Beach Men 11,Tennis,0,not_good_competition_or_low_coverage
+tennis,30633375,2026-05-13 20:00,Pedro Andre De Almeida Santos,Joao Victor Couto Loureiro,ITF Men - Maringa,Tennis,0,not_good_competition_or_low_coverage
 tennis,30584428,2026-05-13 20:15,Joao Vitor Goncalves Ceolin,Adhithya Ganesan,ITF Men - Pensacola,Tennis,0,not_good_competition_or_low_coverage
 tennis,148069,2026-05-13 21:15,Ali Habib,Filippo Francesco Garbero,ITF Men - Hurghada,Tennis,0,not_good_competition_or_low_coverage
 tennis,148227,2026-05-13 21:15,Thijs Boogaard,Hitesh Chauhan,ITF Men - Hurghada,Tennis,0,not_good_competition_or_low_coverage
 tennis,148427,2026-05-13 21:15,Arjun Rathi,Aaron Funk,ITF Men - Hurghada,Tennis,0,not_good_competition_or_low_coverage
-tennis,30633375,2026-05-13 21:15,Pedro Andre De Almeida Santos,Joao Victor Couto Loureiro,ITF Men - Maringa,Tennis,0,not_good_competition_or_low_coverage
 tennis,148424,2026-05-13 21:15,Joao Vitor Scramin Do Lago,Pedro Petroski Rocha,ITF Men - Maringa,Tennis,0,not_good_competition_or_low_coverage
 tennis,71405024,2026-05-13 21:30,"Fellows, Jake","Fardanesh, Max",UTR Men - UTR PTT Newport Beach Men 11,Tennis,0,not_good_competition_or_low_coverage
 tennis,71389882,2026-05-13 21:30,"Goldberg, Sonya","Safarova, Zdena",UTR Women - UTR PTT Newport Beach Women 11,Tennis,0,not_good_competition_or_low_coverage
