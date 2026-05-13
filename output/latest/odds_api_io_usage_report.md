@@ -2,29 +2,29 @@
 
 This report combines repo-estimated Odds-API.io usage with provider rate-limit headers when available.
 
-Generated UTC: 2026-05-13T02:29:41.024323+00:00
-Latest run calls used: 14 / 14
+Generated UTC: 2026-05-13T12:27:10.368262+00:00
+Latest run calls used: 13 / 14
 Latest endpoint mode: multi_event_documented_endpoint
-Latest search queries: Levadeiakos, Volos NFC, Olympiakos, PAOK, Brest, Espanol, Hearts, Lens, Man City, Motherwell, Rangers, Santiago Wanderers
-Latest priced event rows: 10
-Latest errors/status rows: 68
+Latest search queries: Levadeiakos, Volos NFC, Olympiakos, PAOK, Brest, Espanol, Villarreal, Manchester City, Hearts, Lens, Man City, Motherwell
+Latest priced event rows: 0
+Latest errors/status rows: 13
 
 ## Provider rate-limit headers
 
 x-ratelimit-limit: 100
-x-ratelimit-remaining: 81
-remaining ratio: 0.81
-x-ratelimit-reset: 2026-05-13T03:28:43Z
+x-ratelimit-remaining: 0
+remaining ratio: 0.0
+x-ratelimit-reset: 2026-05-13T12:54:34Z
 retry-after: None
 
 ## Estimated repo-driven req/hr
 
-- Last 1h: 14 calls across 1 runs => 14.0 req/hr
-- Last 6h: 55 calls across 4 runs => 9.1667 req/hr
-- Last 12h: 82 calls across 7 runs => 6.8333 req/hr
-- Last 24h: 126 calls across 21 runs => 5.25 req/hr
-- Last 72h: 217 calls across 36 runs => 3.0139 req/hr
-- Last 168h: 217 calls across 36 runs => 1.2917 req/hr
+- Last 1h: 13 calls across 1 runs => 13.0 req/hr
+- Last 6h: 13 calls across 1 runs => 2.1667 req/hr
+- Last 12h: 27 calls across 2 runs => 2.25 req/hr
+- Last 24h: 103 calls across 10 runs => 4.2917 req/hr
+- Last 72h: 230 calls across 37 runs => 3.1944 req/hr
+- Last 168h: 230 calls across 37 runs => 1.369 req/hr
 
 ## Interpretation
 

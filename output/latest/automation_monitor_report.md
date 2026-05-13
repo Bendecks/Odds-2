@@ -1,11 +1,11 @@
 # Automation Monitor Report
 
-Generated UTC: 2026-05-13T02:29:58.165352+00:00
-GitHub run number: 338
-GitHub run id: 25774487513
+Generated UTC: 2026-05-13T12:27:27.208484+00:00
+GitHub run number: 341
+GitHub run id: 25798955105
 GitHub run attempt: 1
-GitHub event: schedule
-GitHub SHA: 990efc96ea3665de7f114ead91bd02bece12ccf6
+GitHub event: push
+GitHub SHA: b8f20aaf158cdc2eb74a6a12241219ca97bc701a
 GitHub ref: main
 
 ## Schedule
@@ -16,4 +16,4 @@ GitHub ref: main
 
 ## Interpretation
 
-This was an automatic scheduled monitoring run.
+This was triggered by a code/data change.

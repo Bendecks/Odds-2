@@ -1,2 +1,2 @@
 automatic_value_rows,pre_dedupe_proxy_candidate_observation_rows,proxy_candidate_observation_rows,proxy_candidate_like_rows,suppressed_proxy_watchlist_rows,dedupe_strategy,real_money_ready
-513,172,12,0,0,match_date_normalized_teams_selection_keep_best_score,False
+162,49,12,0,9,match_date_normalized_teams_selection_keep_best_score,False
