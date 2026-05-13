@@ -1,24 +1,178 @@
 event_id,date_denmark,home,away,league,sport,bookmaker_count,is_major_league,reason
-69880310,2026-05-12 19:00,Wadi Degla SC,Ismaily SC,Egypt - Premier League,Football,0,False,not_major_league_or_low_coverage
-70812400,2026-05-12 19:00,Hapoel Tel Aviv FC,Hapoel Petah Tikva FC,Israel - Premier League,Football,0,False,not_major_league_or_low_coverage
-71338618,2026-05-12 19:00,Real Madrid,Borussia Dortmund,International Youth - U21 Premier League International Cup,Football,0,False,youth_or_reserve
-71378882,2026-05-12 19:00,Central Espanol Reserve,Defensor Sporting,"Uruguay - Tercera Division, Reserves",Football,0,False,youth_or_reserve
-70906726,2026-05-12 19:15,Botev Plovdiv,FC Arda Kardzhali,Bulgaria - Parva Liga,Football,0,False,not_major_league_or_low_coverage
-71364784,2026-05-12 19:30,Al Hussein Irbid,Al Wehdat,Jordan - Jordan Cup,Football,0,False,not_major_league_or_low_coverage
-70812402,2026-05-12 19:30,Beitar Jerusalem FC,Hapoel Be`er Sheva FC,Israel - Premier League,Football,0,False,not_major_league_or_low_coverage
-62670417,2026-05-12 19:30,TS Galaxy FC,Mamelodi Sundowns,South Africa - Premiership,Football,0,False,not_major_league_or_low_coverage
-68158760,2026-05-12 20:00,Racing Club Avellaneda,Velez Sarsfield Reserve,"Argentina - Copa Proyeccion Final, Reserves",Football,0,False,youth_or_reserve
-68158768,2026-05-12 20:00,Gimnasia de la Plata Reserve,CA Banfield,"Argentina - Copa Proyeccion Final, Reserves",Football,0,False,youth_or_reserve
-68158784,2026-05-12 20:00,Newells Old Boys,CA Quilmes Reserve,"Argentina - Copa Proyeccion Final, Reserves",Football,0,False,youth_or_reserve
-68158786,2026-05-12 20:00,Defensa Y Justicia Reserve,CA Platense,"Argentina - Copa Proyeccion Final, Reserves",Football,0,False,youth_or_reserve
-71378884,2026-05-12 20:00,Colon FC Reserve,Liverpool Montevideo,"Uruguay - Tercera Division, Reserves",Football,0,False,youth_or_reserve
-71378874,2026-05-12 20:30,Cerro Largo FC,Boston River,"Uruguay - Tercera Division, Reserves",Football,0,False,youth_or_reserve
-71378878,2026-05-12 20:30,Penarol Montevideo,Nacional de Montevideo,"Uruguay - Tercera Division, Reserves",Football,0,False,youth_or_reserve
-71406954,2026-05-12 20:45,Clyde FC,Hamilton Academical FC,Scotland - League 1,Football,0,False,not_major_league_or_low_coverage
-71345226,2026-05-12 20:45,SP Tre Penne,SP La Fiorita,San Marino - Campionato Sammarinese,Football,0,False,not_major_league_or_low_coverage
-71345228,2026-05-12 20:45,FC Domagnano,AC Virtus,San Marino - Campionato Sammarinese,Football,0,False,not_major_league_or_low_coverage
-71091672,2026-05-12 21:00,JS Saoura,CR Belouizdad,Algeria - Ligue 1,Football,0,False,not_major_league_or_low_coverage
-71335012,2026-05-12 21:00,Itagui Leones FC,Orsomarso SC,Colombia - Copa Colombia,Football,0,False,not_major_league_or_low_coverage
-70379154,2026-05-12 21:00,San Antonio Bulo Bulo,FC Universitario de Vinto,Bolivia - Division Profesional,Football,0,False,not_major_league_or_low_coverage
-71334994,2026-05-12 22:00,CD Real Santander,Boca Juniors de Cali,Colombia - Copa Colombia,Football,0,False,not_major_league_or_low_coverage
-71325010,2026-05-12 23:00,Union Magdalena,Real Cartagena FC,Colombia - Primera B,Football,0,False,not_major_league_or_low_coverage
+67644942,2026-05-13 12:00,Vissel Kobe,Kyoto Sanga FC,Japan - J.League,Football,0,False,not_major_league_or_low_coverage
+61651660,2026-05-13 12:00,FK Kudrivka,FC Rukh Lviv,Ukraine - Premier League,Football,0,False,not_major_league_or_low_coverage
+67645510,2026-05-13 12:00,Machida Zelvia,Tokyo Verdy,Japan - J.League,Football,0,False,not_major_league_or_low_coverage
+67817696,2026-05-13 12:30,FC Anyang,Gimcheon Sangmu FC,Republic of Korea - K-League 1,Football,0,False,not_major_league_or_low_coverage
+67817698,2026-05-13 12:30,Bucheon FC 1995,Jeonbuk FC,Republic of Korea - K-League 1,Football,0,False,not_major_league_or_low_coverage
+67817700,2026-05-13 12:30,Ulsan HD FC,Jeju SK FC,Republic of Korea - K-League 1,Football,0,False,not_major_league_or_low_coverage
+68685846,2026-05-13 12:30,Nam Dinh FC,Selangor FC,International Clubs - ASEAN Club Championship,Football,0,False,not_major_league_or_low_coverage
+70478158,2026-05-13 13:00,Mbeya City FC,Coastal Union FC,Tanzania - Premier League,Football,0,False,not_major_league_or_low_coverage
+71446450,2026-05-13 13:45,Hapoel Raanana,Hapoel Haifa,Israel - U19 Premier League,Football,0,False,youth_or_reserve
+62036866,2026-05-13 14:00,Gornik Zabrze II,Miedz Legnica II,"Poland - III Liga, Group 3",Football,0,False,youth_or_reserve
+68685848,2026-05-13 14:00,Buriram United,Johor Darul Ta'zim,International Clubs - ASEAN Club Championship,Football,0,False,not_major_league_or_low_coverage
+70906782,2026-05-13 14:15,PFC Slavia Sofia,PFC Dobrudzha Dobrich,Bulgaria - Parva Liga,Football,0,False,not_major_league_or_low_coverage
+61651652,2026-05-13 14:30,FC Dynamo Kyiv,Kolos Kovalivka,Ukraine - Premier League,Football,0,False,not_major_league_or_low_coverage
+61651654,2026-05-13 14:30,LNZ Cherkasy,SC Poltava,Ukraine - Premier League,Football,0,False,not_major_league_or_low_coverage
+70316186,2026-05-13 15:00,Mbarara FC,SC Villa,Uganda - Premier League,Football,0,False,not_major_league_or_low_coverage
+71411504,2026-05-13 15:00,Ferroviario de Maputo,CD Maxaquene,Mozambique - Mocambola,Football,0,False,not_major_league_or_low_coverage
+71411506,2026-05-13 15:00,Liga Desportiva De Sofala,UD Do Songo,Mozambique - Mocambola,Football,0,False,not_major_league_or_low_coverage
+71421814,2026-05-13 15:00,Apr FC,Etincelles FC,Rwanda - Peace Cup,Football,0,False,not_major_league_or_low_coverage
+71463790,2026-05-13 15:00,Ulinzi Stars FC,Leopards SC,Kenya - Premier League,Football,0,False,not_major_league_or_low_coverage
+67563262,2026-05-13 15:00,Chicken Inn FC,Simba Bhora FC,Zimbabwe - Premier Soccer League,Football,0,False,not_major_league_or_low_coverage
+67563264,2026-05-13 15:00,Caps United FC,Mwos FC,Zimbabwe - Premier Soccer League,Football,0,False,not_major_league_or_low_coverage
+70479306,2026-05-13 15:15,Dodoma FC,Young Africans SC,Tanzania - Premier League,Football,0,False,not_major_league_or_low_coverage
+71467786,2026-05-13 16:00,AC Savoia 1908,Scafatese Calcio 1922,"Italy - Serie D, Poule Scudetto",Football,0,False,not_major_league_or_low_coverage
+71459810,2026-05-13 16:00,Pakhtakor,FC Yaypan Fergana,Uzbekistan - Cup,Football,0,False,not_major_league_or_low_coverage
+69880308,2026-05-13 16:00,Zed FC,Ghazl El Mahallah,Egypt - Premier League,Football,0,False,not_major_league_or_low_coverage
+69880312,2026-05-13 16:00,Haras El Hodood,Al Mokawloon Al Arab,Egypt - Premier League,Football,0,False,not_major_league_or_low_coverage
+71218070,2026-05-13 16:00,FC Zhenis,FC Kyzylzhar SK,Kazakhstan - Kazakhstan Cup,Football,0,False,not_major_league_or_low_coverage
+71218094,2026-05-13 16:00,FC Aktobe,FC Altai Oskemen,Kazakhstan - Kazakhstan Cup,Football,0,False,not_major_league_or_low_coverage
+71336692,2026-05-13 16:05,Saham,Oman Club,Oman - Omani League,Football,0,False,not_major_league_or_low_coverage
+70905772,2026-05-13 16:45,PFC CSKA Sofia,FC CSKA 1948,Bulgaria - Parva Liga,Football,0,False,not_major_league_or_low_coverage
+67953290,2026-05-13 16:50,Al-Raed Club,Abha Club,Saudi Arabia - Division 1,Football,0,False,not_major_league_or_low_coverage
+71325694,2026-05-13 17:00,Turun Palloseura,HJS,Finland - Suomen Cup,Football,0,False,not_major_league_or_low_coverage
+71325698,2026-05-13 17:00,HIFK,JaPS,Finland - Suomen Cup,Football,0,False,not_major_league_or_low_coverage
+62036872,2026-05-13 17:00,GKS Pniowek Pawlowice,KS Gornik Polkowice,"Poland - III Liga, Group 3",Football,0,False,not_major_league_or_low_coverage
+62037488,2026-05-13 17:00,Sks Unia Swarzedz,MKS Viktoria Wrzesnia,"Poland - III Liga, Group 2",Football,0,False,not_major_league_or_low_coverage
+62038090,2026-05-13 17:00,GKS Belchatow,Widzew Lodz II,"Poland - III Liga, Group 1",Football,0,False,youth_or_reserve
+62038102,2026-05-13 17:00,Swit Nowy Dwor Mazowiecki,LKS 1926 Lomza,"Poland - III Liga, Group 1",Football,0,False,not_major_league_or_low_coverage
+62038104,2026-05-13 17:00,KS Warta Sieradz,Wisla Plock II,"Poland - III Liga, Group 1",Football,0,False,youth_or_reserve
+61651658,2026-05-13 17:00,FC Shakhtar Donetsk,FC Obolon Kyiv,Ukraine - Premier League,Football,0,False,not_major_league_or_low_coverage
+62036256,2026-05-13 17:00,Korona II Kielce SA,KS Wisloka Debica,"Poland - III Liga, Group 4",Football,0,False,youth_or_reserve
+62036266,2026-05-13 17:00,Swidniczanka Swidnik,Pogon Sokol Lubaczow,"Poland - III Liga, Group 4",Football,0,False,not_major_league_or_low_coverage
+62037478,2026-05-13 17:00,Zks Kluczevia Stargard,KS Lipno Steszew,"Poland - III Liga, Group 2",Football,0,False,not_major_league_or_low_coverage
+62037484,2026-05-13 17:00,Pogon Nowe Skalmierzyce,Blekitni Stargard,"Poland - III Liga, Group 2",Football,0,False,not_major_league_or_low_coverage
+62037482,2026-05-13 17:00,Pogon Szczecin II,Elana Torun,"Poland - III Liga, Group 2",Football,0,False,youth_or_reserve
+62037486,2026-05-13 17:00,Gzs Tluchovia Tluchowo,Lech II Poznan,"Poland - III Liga, Group 2",Football,0,False,youth_or_reserve
+62038092,2026-05-13 17:00,KS Ck Troszyn,Lechia Tomaszow Mazowiecki,"Poland - III Liga, Group 1",Football,0,False,not_major_league_or_low_coverage
+62038096,2026-05-13 17:00,Legia Warszawa II,GKS Wikielec,"Poland - III Liga, Group 1",Football,0,False,youth_or_reserve
+68492518,2026-05-13 17:00,BFC Daugavpils,FC RFS,Latvia - Virsliga,Football,0,False,not_major_league_or_low_coverage
+71218074,2026-05-13 17:00,Kaisar Kyzylorda,Tobol Kostanay,Kazakhstan - Kazakhstan Cup,Football,0,False,not_major_league_or_low_coverage
+71218114,2026-05-13 17:00,FC Ordabasy,Zhetysu Taldykorgan,Kazakhstan - Kazakhstan Cup,Football,0,False,not_major_league_or_low_coverage
+70142040,2026-05-13 17:00,MSK Zilina,MFK Ruzomberok,Slovakia - 1. League Women,Football,0,False,not_major_league_or_low_coverage
+71326004,2026-05-13 17:00,P-Iirot,Tampereen Ilves,Finland - Suomen Cup,Football,0,False,not_major_league_or_low_coverage
+68685980,2026-05-13 17:00,Forge FC Hamilton,FC Supra Du Quebec,Canada - Canadian Premier League,Football,0,False,not_major_league_or_low_coverage
+69254638,2026-05-13 17:00,Coquimbo Unido,Deportes Iquique,"Chile - Primera Division, Women",Football,0,False,not_major_league_or_low_coverage
+69254642,2026-05-13 17:00,Deportes Recoleta,Universidad Catolica,"Chile - Primera Division, Women",Football,0,False,not_major_league_or_low_coverage
+67953292,2026-05-13 17:05,Al-Tai,Jeddah Club,Saudi Arabia - Division 1,Football,0,False,not_major_league_or_low_coverage
+62036258,2026-05-13 17:30,Sokol Kolbuszowa Dolna,MKS Czarni Polaniec,"Poland - III Liga, Group 4",Football,0,False,not_major_league_or_low_coverage
+69924658,2026-05-13 17:30,Kultsu FC,Ips,Finland - Kolmonen,Football,0,False,not_major_league_or_low_coverage
+71325692,2026-05-13 17:30,IFK Mariehamn,Puistolan Urheilijat,Finland - Suomen Cup,Football,0,False,not_major_league_or_low_coverage
+71325700,2026-05-13 17:30,VJS,FF Jaro,Finland - Suomen Cup,Football,0,False,not_major_league_or_low_coverage
+62038098,2026-05-13 17:30,MKS Mlawianka Mlawa,Jagiellonia II Bialystok,"Poland - III Liga, Group 1",Football,0,False,youth_or_reserve
+62036268,2026-05-13 17:30,Wisla II Krakow,Cracovia Krakow II,"Poland - III Liga, Group 4",Football,0,False,youth_or_reserve
+61062283,2026-05-13 18:00,MKS Arka Gdynia,Gornik Zabrze,Poland - Ekstraklasa,Football,0,False,not_major_league_or_low_coverage
+71403922,2026-05-13 18:00,Manama Club,Etehad Alreef,Bahrain - 2nd Division,Football,0,False,not_major_league_or_low_coverage
+71403924,2026-05-13 18:00,Al Ittihad,Um Alhassam,Bahrain - 2nd Division,Football,0,False,not_major_league_or_low_coverage
+71403926,2026-05-13 18:00,Busaiteen,AL Hala,Bahrain - 2nd Division,Football,0,False,not_major_league_or_low_coverage
+71213320,2026-05-13 18:00,Saku Sporting,Viimsi JK,"Estonia - Cup, Women",Football,0,False,not_major_league_or_low_coverage
+71344704,2026-05-13 18:00,Medina United FC,Fortune,Gambia - Division One,Football,0,False,not_major_league_or_low_coverage
+70670028,2026-05-13 18:00,HNK Rijeka,GNK Dinamo Zagreb,Croatia - Croatian Cup,Football,0,False,not_major_league_or_low_coverage
+71133098,2026-05-13 18:00,FC Milsami,FC Zimbru Chisinau,Moldova - Cupa Moldovei,Football,0,False,not_major_league_or_low_coverage
+71133102,2026-05-13 18:00,FC Sheriff Tiraspol,Petrocub Hincesti,Moldova - Cupa Moldovei,Football,0,False,not_major_league_or_low_coverage
+62036880,2026-05-13 18:00,KS Polonia Nysa,KS Lechia Zielona Gora,"Poland - III Liga, Group 3",Football,0,False,not_major_league_or_low_coverage
+62036874,2026-05-13 18:00,SKRA Czestochowa,KS Sleza Wroclaw,"Poland - III Liga, Group 3",Football,0,False,not_major_league_or_low_coverage
+62036876,2026-05-13 18:00,Slowianin Woliborz,Karkonosze Jelenia Gora,"Poland - III Liga, Group 3",Football,0,False,not_major_league_or_low_coverage
+62038106,2026-05-13 18:00,Zabkovia Zabki,Bron Radom,"Poland - III Liga, Group 1",Football,0,False,not_major_league_or_low_coverage
+70730310,2026-05-13 18:00,AB Gladsaxe,FC Roskilde,Denmark - 2nd Division,Football,0,False,not_major_league_or_low_coverage
+71055074,2026-05-13 18:00,Sabah Masazir,Zira FK,Azerbaijan - Azerbaijan Cup,Football,0,False,not_major_league_or_low_coverage
+67953280,2026-05-13 18:10,Al-Arabi SC (SA),AL Jandal,Saudi Arabia - Division 1,Football,0,False,not_major_league_or_low_coverage
+67953284,2026-05-13 18:10,Al-Adalah,Al Jubail,Saudi Arabia - Division 1,Football,0,False,not_major_league_or_low_coverage
+71467778,2026-05-13 18:30,US Folgore Caratese,Treviso FBC 1993,"Italy - Serie D, Poule Scudetto",Football,0,False,not_major_league_or_low_coverage
+71336694,2026-05-13 18:30,Bahla Club,AL Nasr SC (OMA),Oman - Omani League,Football,0,False,not_major_league_or_low_coverage
+71325674,2026-05-13 18:30,KuPS Akatemia,FC Honka,Finland - Suomen Cup,Football,0,False,not_major_league_or_low_coverage
+71344700,2026-05-13 18:30,Brikama United,Falcons FC,Gambia - Division One,Football,0,False,not_major_league_or_low_coverage
+71462986,2026-05-13 18:30,FC Mali Coura,Djoliba AC,Mali - Ligue 1,Football,0,False,not_major_league_or_low_coverage
+61898614,2026-05-13 18:30,SV Spittal/Drau,SAK Celovec/Klagenfurt,"Austria Amateur - Karnten, Karntner Liga",Football,0,False,not_major_league_or_low_coverage
+70730364,2026-05-13 18:30,FC Helsingoer,BK Fremad Amager,Denmark - 2nd Division,Football,0,False,not_major_league_or_low_coverage
+68531856,2026-05-13 18:45,Kuwait SC,Preah Khan Reach Svay Rieng FC,International Clubs - AFC Challenge League,Football,0,False,not_major_league_or_low_coverage
+61466365,2026-05-13 19:00,Deutschlandsberger SC,SK Treibach,Austria Amateur - Regionalliga Centre,Football,0,False,not_major_league_or_low_coverage
+70812660,2026-05-13 19:00,Bnei Sakhnin FC,Hapoel Ironi Kiryat Shmona FC,Israel - Premier League,Football,0,False,not_major_league_or_low_coverage
+70812662,2026-05-13 19:00,Maccabi Netanya FC,Hapoel Haifa FC,Israel - Premier League,Football,0,False,not_major_league_or_low_coverage
+70812664,2026-05-13 19:00,Ironi Tiberias,Maccabi Bney Reine,Israel - Premier League,Football,0,False,not_major_league_or_low_coverage
+70812666,2026-05-13 19:00,MS Ashdod,Hapoel Jerusalem FC,Israel - Premier League,Football,0,False,not_major_league_or_low_coverage
+62037494,2026-05-13 19:00,Zawisza Bydgoszcz,WDA Swiecie,"Poland - III Liga, Group 2",Football,0,False,not_major_league_or_low_coverage
+61898606,2026-05-13 19:00,SV Donau Klagenfurt,VST Voelkermarkt,"Austria Amateur - Karnten, Karntner Liga",Football,0,False,not_major_league_or_low_coverage
+61898608,2026-05-13 19:00,TSV Grafenstein,ATSV Wolfsberg,"Austria Amateur - Karnten, Karntner Liga",Football,0,False,not_major_league_or_low_coverage
+68310876,2026-05-13 19:00,Sollentuna FK,Hammarby Talang FF,"Sweden - Ettan, Relegation/Promotion",Football,0,False,not_major_league_or_low_coverage
+68310878,2026-05-13 19:00,FC Stockholm Internazionale,AFC Eskilstuna,"Sweden - Ettan, Relegation/Promotion",Football,0,False,not_major_league_or_low_coverage
+68311580,2026-05-13 19:00,Hassleholms IF,Eskilsminne IF,"Sweden - Ettan, Relegation/Promotion",Football,0,False,not_major_league_or_low_coverage
+68311582,2026-05-13 19:00,Kristianstad FC,FC Rosengaard 1917,"Sweden - Ettan, Relegation/Promotion",Football,0,False,not_major_league_or_low_coverage
+68311584,2026-05-13 19:00,Laholms FK,Lunds BK,"Sweden - Ettan, Relegation/Promotion",Football,0,False,not_major_league_or_low_coverage
+68311586,2026-05-13 19:00,Utsiktens BK,Skovde AIK,"Sweden - Ettan, Relegation/Promotion",Football,0,False,not_major_league_or_low_coverage
+68320168,2026-05-13 19:00,Ahlafors IF,Herrestads AIF,"Sweden - Division 2, Promotion Playoffs",Football,0,False,not_major_league_or_low_coverage
+68344644,2026-05-13 19:00,Torns IF,Lilla Torg FF,"Sweden - Division 2, Promotion Playoffs",Football,0,False,not_major_league_or_low_coverage
+69880314,2026-05-13 19:00,National Bank of Egypt SC,Petrojet FC,Egypt - Premier League,Football,0,False,not_major_league_or_low_coverage
+69880316,2026-05-13 19:00,Al Ittihad Al Sakandary,Talaea El Gaish,Egypt - Premier League,Football,0,False,not_major_league_or_low_coverage
+70730312,2026-05-13 19:00,Naestved BK,HIK Hellerup,Denmark - 2nd Division,Football,0,False,not_major_league_or_low_coverage
+70730314,2026-05-13 19:00,Thisted FC,Vendsyssel FF,Denmark - 2nd Division,Football,0,False,not_major_league_or_low_coverage
+70730366,2026-05-13 19:00,Skive IK,Vsk Aarhus,Denmark - 2nd Division,Football,0,False,not_major_league_or_low_coverage
+70730368,2026-05-13 19:00,Ishoej IF,Brabrand IF,Denmark - 2nd Division,Football,0,False,not_major_league_or_low_coverage
+70905774,2026-05-13 19:15,PFC Ludogorets 1945 Razgrad,PFC Levski Sofia,Bulgaria - Parva Liga,Football,0,False,not_major_league_or_low_coverage
+69920628,2026-05-13 19:15,Leppavaaran Pallo,Nups,Finland - Kolmonen,Football,0,False,not_major_league_or_low_coverage
+69501870,2026-05-13 19:15,FK Smiltene/Bjss,SK Super Nova II,Latvia - 1.Liga,Football,0,False,youth_or_reserve
+61894056,2026-05-13 19:30,Bad Sauerbrunn,SV Leithaprodersdorf,"Austria Amateur - Burgenland, Burgenlandliga",Football,0,False,not_major_league_or_low_coverage
+61906352,2026-05-13 19:30,SV Strasswalchen,SV Schwarzach,"Austria Amateur - Salzburg, Salzburger Liga",Football,0,False,not_major_league_or_low_coverage
+61902038,2026-05-13 19:30,FC Union RB Weinland Gamlitz,SV Pachern,"Austria Amateur - Steiermark, Landesliga",Football,0,False,not_major_league_or_low_coverage
+70812404,2026-05-13 19:30,Maccabi Tel Aviv FC,Maccabi Haifa FC,Israel - Premier League,Football,0,False,not_major_league_or_low_coverage
+71218678,2026-05-13 19:30,KI Klaksvik,NSI Runavik,Faroe Islands - Logmanssteypid,Football,0,False,not_major_league_or_low_coverage
+71056918,2026-05-13 19:30,Genclerbirligi SK,Trabzonspor,Turkiye - Turkiye Kupasi,Football,0,False,not_major_league_or_low_coverage
+68310880,2026-05-13 19:30,FC Arlanda,Karlbergs BK,"Sweden - Ettan, Relegation/Promotion",Football,0,False,not_major_league_or_low_coverage
+68310882,2026-05-13 19:30,FC Jarfalla,Enkopings SK,"Sweden - Ettan, Relegation/Promotion",Football,0,False,not_major_league_or_low_coverage
+70820628,2026-05-13 19:30,Throttur Reykjavik,Breidablik Kopavogur,Iceland - Cup,Football,0,False,not_major_league_or_low_coverage
+71296244,2026-05-13 20:00,Sao Jose EC,Prosperidade FC ES,"Brazil - Copa do Brasil, Women",Football,0,False,not_major_league_or_low_coverage
+71296250,2026-05-13 20:00,AD Taubate SP,3B Sport AM,"Brazil - Copa do Brasil, Women",Football,0,False,not_major_league_or_low_coverage
+71296256,2026-05-13 20:00,Itabirito FC MG,Ceara SC CE,"Brazil - Copa do Brasil, Women",Football,0,False,not_major_league_or_low_coverage
+71296262,2026-05-13 20:00,Mauaense GE SP,Itacoatiara FC AM,"Brazil - Copa do Brasil, Women",Football,0,False,not_major_league_or_low_coverage
+71296264,2026-05-13 20:00,Sampaio Correa FC MA,Heips RJ,"Brazil - Copa do Brasil, Women",Football,0,False,not_major_league_or_low_coverage
+71296268,2026-05-13 20:00,Coritiba FC PR,Rio Negro RR,"Brazil - Copa do Brasil, Women",Football,0,False,not_major_league_or_low_coverage
+71296272,2026-05-13 20:00,SE Uniao De Natal RN,CA Piauiense PI,"Brazil - Copa do Brasil, Women",Football,0,False,not_major_league_or_low_coverage
+71244954,2026-05-13 20:00,Perolas Negras RJ,America FC RJ,"Brazil - Carioca, Serie A2",Football,0,False,not_major_league_or_low_coverage
+71366662,2026-05-13 20:00,Ravenna FC 1913,AS Cittadella,"Italy - Serie C,  Promotion Playoffs",Football,0,False,not_major_league_or_low_coverage
+71366666,2026-05-13 20:00,Calcio Lecco 1912,US Pianese,"Italy - Serie C,  Promotion Playoffs",Football,0,False,not_major_league_or_low_coverage
+71366668,2026-05-13 20:00,AC Renate,S.S.D. Casarano Calcio,"Italy - Serie C,  Promotion Playoffs",Football,0,False,not_major_league_or_low_coverage
+71356892,2026-05-13 20:00,CE Gramadense RS,FC Santa Cruz RS,Brazil - Copa FGF,Football,0,False,not_major_league_or_low_coverage
+71412168,2026-05-13 20:00,Almere City FC,Willem II Tilburg,Netherlands - Eredivisie,Football,0,True,youth_or_reserve
+71282488,2026-05-13 20:00,FK Vojvodina Novi Sad,FK Crvena Zvezda Belgrade,Serbia - Serbian Cup,Football,0,False,not_major_league_or_low_coverage
+71463324,2026-05-13 20:00,CD Aguila,Alianza FC,"El Salvador - Primera Division, Reserves, Clausura",Football,0,False,youth_or_reserve
+71049606,2026-05-13 20:00,FC Progres Niederkorn,FC Victoria Rosport,Luxembourg - Coupe de Luxembourg,Football,0,False,not_major_league_or_low_coverage
+71049698,2026-05-13 20:00,FC Differdange 03,FC Rodange 91,Luxembourg - Coupe de Luxembourg,Football,0,False,not_major_league_or_low_coverage
+68751754,2026-05-13 20:00,Fluminense FC RJ,CR Vasco da Gama RJ,Brazil - U20 Campeonato Brasileiro,Football,0,False,youth_or_reserve
+68751758,2026-05-13 20:00,CA Paranaense PR,Red Bull Bragantino SP,Brazil - U20 Campeonato Brasileiro,Football,0,False,youth_or_reserve
+68751760,2026-05-13 20:00,Sao Paulo FC SP,Cruzeiro EC MG,Brazil - U20 Campeonato Brasileiro,Football,0,False,youth_or_reserve
+68751764,2026-05-13 20:00,Santos FC SP,EC Juventude RS,Brazil - U20 Campeonato Brasileiro,Football,0,False,youth_or_reserve
+68751770,2026-05-13 20:00,Criciuma EC SC,Fortaleza EC CE,Brazil - U20 Campeonato Brasileiro,Football,0,False,youth_or_reserve
+68158764,2026-05-13 20:00,Argentinos Juniors Reserve,CA Tigre Reserve,"Argentina - Copa Proyeccion Final, Reserves",Football,0,False,youth_or_reserve
+68158772,2026-05-13 20:00,Atletico Tucuman Reserve,CA Barracas Central Reserve,"Argentina - Copa Proyeccion Final, Reserves",Football,0,False,youth_or_reserve
+68158776,2026-05-13 20:00,Independiente Rivadavia de Mendoza Reserve,Colon de Santa Fe Reserve,"Argentina - Copa Proyeccion Final, Reserves",Football,0,False,youth_or_reserve
+69688802,2026-05-13 20:00,Goias EC GO,Chapecoense SC,Brazil - U20 Brasileiro Serie B,Football,0,False,youth_or_reserve
+69688856,2026-05-13 20:00,SC Internacional RS,Vila Nova FC GO,Brazil - U20 Brasileiro Serie B,Football,0,False,youth_or_reserve
+68158780,2026-05-13 20:00,CA Belgrano,CA Central Cordoba SE Reserve,"Argentina - Copa Proyeccion Final, Reserves",Football,0,False,youth_or_reserve
+68158792,2026-05-13 20:00,Ferro Carril Oeste,Boca Juniors,"Argentina - Copa Proyeccion Final, Reserves",Football,0,False,youth_or_reserve
+70722406,2026-05-13 20:00,Arsenal WFC,Everton FC,England Amateur - Super League Women,Football,0,False,not_major_league_or_low_coverage
+62215502,2026-05-13 20:00,FC Kosova Zurich,FC Freienbach,Switzerland - Erste Liga,Football,0,False,not_major_league_or_low_coverage
+71053000,2026-05-13 20:00,NK Brinje Grosuplje,Aluminij Kidricevo,Slovenia - Slovenia Cup,Football,0,False,not_major_league_or_low_coverage
+71343348,2026-05-13 20:05,Valtti,Eps,"Finland - Suomen Cup, Women",Football,0,False,not_major_league_or_low_coverage
+69688854,2026-05-13 20:30,AC Goianiense GO,Botafogo FC SP,Brazil - U20 Brasileiro Serie B,Football,0,False,youth_or_reserve
+61062299,2026-05-13 20:30,RKS Rakow Czestochowa,Jagiellonia Bialystok,Poland - Ekstraklasa,Football,0,False,not_major_league_or_low_coverage
+69688804,2026-05-13 20:30,Brusque SC,CR Brasil AL,Brazil - U20 Brasileiro Serie B,Football,0,False,youth_or_reserve
+71463044,2026-05-13 20:30,AS Bakaridjan,AS Korofina,Mali - Ligue 1,Football,0,False,not_major_league_or_low_coverage
+71366670,2026-05-13 20:45,US Salernitana,Casertana FC,"Italy - Serie C,  Promotion Playoffs",Football,0,False,not_major_league_or_low_coverage
+71296252,2026-05-13 21:00,Penarol AM,Doce Mel EC BA,"Brazil - Copa do Brasil, Women",Football,0,False,not_major_league_or_low_coverage
+71242306,2026-05-13 21:00,Stockport County FC,Stevenage FC,England - League One,Football,0,False,not_major_league_or_low_coverage
+71366664,2026-05-13 21:00,Potenza Calcio,Campobasso FC,"Italy - Serie C,  Promotion Playoffs",Football,0,False,not_major_league_or_low_coverage
+71335100,2026-05-13 21:00,Real Cundinamarca,Independiente Yumbo,Colombia - Copa Colombia,Football,0,False,not_major_league_or_low_coverage
+69254640,2026-05-13 21:00,Palestino,Colo Colo,"Chile - Primera Division, Women",Football,0,False,not_major_league_or_low_coverage
+71194350,2026-05-13 21:15,CA Platense,San Martin de San Juan,Argentina - Copa Argentina,Football,0,False,not_major_league_or_low_coverage
+70820622,2026-05-13 21:15,IA Akranes,UMF Grindavik,Iceland - Cup,Football,0,False,not_major_league_or_low_coverage
+70820624,2026-05-13 21:15,Afturelding,UMF Njardvik,Iceland - Cup,Football,0,False,not_major_league_or_low_coverage
+70820626,2026-05-13 21:15,HK Kopavogur,Vikingur Reykjavik,Iceland - Cup,Football,0,False,not_major_league_or_low_coverage
+71474742,2026-05-13 22:00,Sportivo San Lorenzo,Sportivo 2 de Mayo,"Paraguay - Primera Division Reserve, Apertura",Football,0,False,youth_or_reserve
+68751768,2026-05-13 22:00,Botafogo FR RJ,CR Flamengo RJ,Brazil - U20 Campeonato Brasileiro,Football,0,False,youth_or_reserve
+70764748,2026-05-13 22:00,Marica FC RJ,Sao Goncalo EC RJ,"Brazil - Carioca, Serie A2",Football,0,False,not_major_league_or_low_coverage
+69254646,2026-05-13 22:00,Santiago Wanderers,Union Espanola,"Chile - Primera Division, Women",Football,0,False,not_major_league_or_low_coverage
+70820620,2026-05-13 22:00,Stjarnan Gardabae,KR Reykjavik,Iceland - Cup,Football,0,False,not_major_league_or_low_coverage
+70350998,2026-05-13 22:30,Cumbaya FC,LDU Portoviejo,Ecuador - Serie B,Football,0,False,not_major_league_or_low_coverage
+71325020,2026-05-13 23:00,Bogota FC,Barranquilla FC,Colombia - Primera B,Football,0,False,not_major_league_or_low_coverage
+71452802,2026-05-13 23:30,CD Aguila San Miguel,CD Luis Angel Firpo Usulutan,"El Salvador - Primera Division, Clausura",Football,0,False,not_major_league_or_low_coverage
+71428928,2026-05-13 23:45,CA Rosario Central,Racing Club Avellaneda,Argentina - Liga Profesional,Football,0,False,not_major_league_or_low_coverage
