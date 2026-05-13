@@ -18,6 +18,7 @@ raw_dir.mkdir(parents=True, exist_ok=True)
 
 MAX_CALLS = int(os.getenv('ODDS_API_IO_SETTLEMENT_MAX_CALLS', '30'))
 SLEEP_SECONDS = float(os.getenv('ODDS_API_IO_SETTLEMENT_SLEEP_SECONDS', '0.15'))
+SETTLEMENT_MIN_HOURS_AFTER_KICKOFF = float(os.getenv('SETTLEMENT_MIN_HOURS_AFTER_KICKOFF', '2'))
 FORWARD_PHASES = {'paper_forward_test', 'live_forward_snapshot', 'upcoming_fixture', 'automatic_forward_price_proxy'}
 FINAL_STATUS_HINTS = {'finished', 'finish', 'completed', 'complete', 'ended', 'closed', 'final', 'ft', 'fulltime', 'settled'}
 NON_FINAL_STATUS_HINTS = {'pending', 'scheduled', 'upcoming', 'not_started', 'not started', 'live', 'inplay', 'in_play', 'in progress', 'started'}
@@ -32,12 +33,45 @@ def clean(value):
     return text
 
 
-def parse_dt(row):
-    candidate = f"{clean(row.get('match_date'))} {clean(row.get('match_time'))}".strip()
-    parsed = pd.to_datetime(candidate, errors='coerce', utc=True)
+def parse_any_datetime(text):
+    if not text:
+        return pd.NaT
+    parsed = pd.to_datetime(text, errors='coerce', utc=True)
     if pd.isna(parsed):
-        parsed = pd.to_datetime(candidate, errors='coerce', dayfirst=True, utc=True)
+        parsed = pd.to_datetime(text, errors='coerce', dayfirst=True, utc=True)
     return parsed
+
+
+def parse_dt(row):
+    date_text = clean(row.get('match_date'))
+    time_text = clean(row.get('match_time'))
+
+    # Some upstream rows store a full datetime in match_time, e.g. "2026-05-13 10:00:00".
+    if resemblances_full_datetime(time_text):
+        parsed = parse_any_datetime(time_text)
+        if not pd.isna(parsed):
+            return parsed
+
+    # Some rows store full datetime in match_date.
+    if resemblances_full_datetime(date_text):
+        parsed_date = parse_any_datetime(date_text)
+        if not pd.isna(parsed_date):
+            if time_text and not resemblances_full_datetime(time_text):
+                date_only = parsed_date.strftime('%Y-%m-%d')
+                parsed = parse_any_datetime(f'{date_only} {time_text}')
+                if not pd.isna(parsed):
+                    return parsed
+            return parsed_date
+
+    candidate = f'{date_text} {time_text}'.strip()
+    return parse_any_datetime(candidate)
+
+
+def resemblances_full_datetime(text):
+    text = clean(text)
+    if not text:
+        return False
+    return bool(pd.Series([text]).str.contains(r'\d{4}-\d{2}-\d{2}').iloc[0])
 
 
 def make_bet_key(row):
@@ -112,7 +146,7 @@ def is_final_event(event, kickoff):
         return True
     if has_score and not has_non_final_hint and not pd.isna(kickoff):
         try:
-            return kickoff.to_pydatetime() < datetime.now(timezone.utc) - timedelta(hours=8)
+            return kickoff.to_pydatetime() < datetime.now(timezone.utc) - timedelta(hours=3)
         except Exception:
             return False
     return False
@@ -171,7 +205,7 @@ eligible = forward.copy()
 if len(eligible):
     now = datetime.now(timezone.utc)
     eligible = eligible[eligible['kickoff_dt'].notna()].copy()
-    eligible = eligible[eligible['kickoff_dt'] < pd.Timestamp(now - timedelta(hours=2))].copy()
+    eligible = eligible[eligible['kickoff_dt'] < pd.Timestamp(now - timedelta(hours=SETTLEMENT_MIN_HOURS_AFTER_KICKOFF))].copy()
     eligible = eligible[~eligible['bet_key'].isin(previous_settled_keys)].copy()
     eligible = eligible[eligible['event_id'].fillna('').astype(str).str.len() > 0].copy()
 
@@ -201,13 +235,14 @@ for _, row in forward.iterrows():
     event_id = clean(row.get('event_id'))
     base = row.drop(labels=['kickoff_dt'], errors='ignore').to_dict()
     base['bet_key'] = bet_key
+    base['parsed_kickoff_utc'] = '' if pd.isna(kickoff) else kickoff.isoformat()
     base['settled_checked_at_utc'] = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace('+00:00', 'Z')
     base['settlement_source'] = 'odds_api_io_event_by_id'
 
     cache = event_cache.get(event_id)
     if cache is None:
         base['settlement_status'] = 'pending'
-        base['settlement_note'] = 'not_checked_yet_or_call_cap'
+        base['settlement_note'] = 'not_eligible_yet_or_call_cap'
         new_rows.append(base)
         continue
 
@@ -254,9 +289,11 @@ pending_count = int((settlements.get('settlement_status', pd.Series(dtype=str)).
 wins = int((settlements.get('won', pd.Series(dtype=object)).astype(str).str.lower() == 'true').sum()) if len(settlements) else 0
 losses = int((settlements.get('won', pd.Series(dtype=object)).astype(str).str.lower() == 'false').sum()) if len(settlements) else 0
 roi = float(pd.to_numeric(settlements.get('roi_units', pd.Series(dtype=float)), errors='coerce').fillna(0).sum()) if len(settlements) else 0.0
+parseable_kickoffs = int(forward['kickoff_dt'].notna().sum()) if len(forward) else 0
 
 summary = {
     'forward_log_rows': int(len(forward)),
+    'parseable_kickoffs': parseable_kickoffs,
     'eligible_to_check': int(len(eligible)),
     'api_calls_used': int(calls_used),
     'settled_forward_picks': settled_count,
@@ -265,6 +302,7 @@ summary = {
     'losses': losses,
     'roi_units': round(roi, 4),
     'api_key_present': bool(api_key),
+    'settlement_min_hours_after_kickoff': SETTLEMENT_MIN_HOURS_AFTER_KICKOFF,
 }
 pd.DataFrame([summary]).to_csv(summary_path, index=False)
 
@@ -272,6 +310,7 @@ lines = [
     '# Forward paper-test settlement',
     '',
     f"Forward log rows: {summary['forward_log_rows']}",
+    f"Parseable kickoffs: {summary['parseable_kickoffs']}",
     f"Eligible to check: {summary['eligible_to_check']}",
     f"API calls used: {summary['api_calls_used']}",
     f"Settled forward picks: {summary['settled_forward_picks']}",
@@ -294,7 +333,7 @@ pending_display = settlements[settlements['settlement_status'].astype(str).str.l
 if len(pending_display):
     lines.extend(['', '## Pending sample', ''])
     for _, row in pending_display.tail(30).iterrows():
-        lines.append(f"- {row.get('match_date')} {row.get('match_time')} | {row.get('home_team')} vs {row.get('away_team')} | note={row.get('settlement_note')}")
+        lines.append(f"- {row.get('match_date')} {row.get('match_time')} | parsed={row.get('parsed_kickoff_utc')} | {row.get('home_team')} vs {row.get('away_team')} | note={row.get('settlement_note')}")
 
 report_path.write_text('\n'.join(lines), encoding='utf-8')
 print(summary)
