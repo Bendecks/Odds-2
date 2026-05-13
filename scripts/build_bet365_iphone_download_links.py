@@ -1,11 +1,14 @@
 from datetime import datetime
 from pathlib import Path
+import shutil
 
 OUTPUT_DIR = Path('output/bet365/latest')
+PAGES_DIR = Path('docs/bet365')
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+PAGES_DIR.mkdir(parents=True, exist_ok=True)
 
 BASE_RAW = 'https://raw.githubusercontent.com/Bendecks/Odds-2/main/output/bet365/latest'
-BASE_GITHUB = 'https://github.com/Bendecks/Odds-2/blob/main/output/bet365/latest'
+BASE_PAGES = 'https://bendecks.github.io/Odds-2/bet365'
 
 files = [
     ('Multisport PDF', 'bet365_today_multisport_report.pdf', 'PDF-fil til iPhone'),
@@ -17,15 +20,24 @@ files = [
     ('Fodbold større ligaer HTML', 'bet365_today_major_odds_report.html', 'HTML kun fodbold'),
 ]
 
+# Copy report files to docs/bet365 for GitHub Pages.
+for _, filename, _ in files:
+    src = OUTPUT_DIR / filename
+    if src.exists():
+        shutil.copy2(src, PAGES_DIR / filename)
+
 html_links = []
 markdown_links = []
 for title, filename, description in files:
-    raw_url = f'{BASE_RAW}/{filename}'
-    github_url = f'{BASE_GITHUB}/{filename}'
+    pages_file = PAGES_DIR / filename
+    if pages_file.exists():
+        url = f'{BASE_PAGES}/{filename}'
+    else:
+        url = f'{BASE_RAW}/{filename}'
     html_links.append(
-        f'<a class="card" href="{raw_url}"><strong>{title}</strong><span>{description}</span><small>{filename}</small></a>'
+        f'<a class="card" href="{url}"><strong>{title}</strong><span>{description}</span><small>{filename}</small></a>'
     )
-    markdown_links.append(f'- [{title}]({raw_url}) — {description}')
+    markdown_links.append(f'- [{title}]({url}) — {description}')
 
 now = datetime.utcnow().replace(microsecond=0).isoformat() + 'Z'
 
@@ -58,7 +70,11 @@ markdown = '# Bet365 iPhone downloads\n\n' + f'Opdateret: {now}\n\n' + '\n'.join
 
 (OUTPUT_DIR / 'iphone_download_links.html').write_text(html, encoding='utf-8')
 (OUTPUT_DIR / 'iphone_download_links.md').write_text(markdown, encoding='utf-8')
+(PAGES_DIR / 'iphone_download_links.html').write_text(html, encoding='utf-8')
+(PAGES_DIR / 'index.html').write_text(html, encoding='utf-8')
+(PAGES_DIR / 'iphone_download_links.md').write_text(markdown, encoding='utf-8')
 
 print('Wrote iPhone download links')
 print(OUTPUT_DIR / 'iphone_download_links.html')
-print(OUTPUT_DIR / 'iphone_download_links.md')
+print(PAGES_DIR / 'iphone_download_links.html')
+print(PAGES_DIR / 'index.html')
