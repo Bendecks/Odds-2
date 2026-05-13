@@ -1,6 +1,6 @@
 # Bet365 iPhone downloads
 
-Opdateret: 2026-05-13T15:14:55Z
+Opdateret: 2026-05-13T15:22:20Z
 
 - [Multisport PDF](https://bendecks.github.io/Odds-2/bet365/bet365_today_multisport_report.pdf) — PDF-fil til iPhone
 - [Multisport HTML](https://bendecks.github.io/Odds-2/bet365/bet365_today_multisport_report.html) — Mobilvenlig HTML
