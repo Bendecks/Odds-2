@@ -1,4 +1,4 @@
 fixture_id,league,league_id,season,match_date,match_time,home_team,away_team,source,fetched_at_utc
-fd_SP1_2026-05-14_Valencia_Vallecano,la_liga,SP1,upcoming,2026-05-14,18:00,Valencia,Vallecano,football_data_fixtures_proxy,2026-05-14T12:40:04.288989+00:00
-fd_SP1_2026-05-14_Girona_Sociedad,la_liga,SP1,upcoming,2026-05-14,19:00,Girona,Sociedad,football_data_fixtures_proxy,2026-05-14T12:40:04.288989+00:00
-fd_SP1_2026-05-14_Real_Madrid_Oviedo,la_liga,SP1,upcoming,2026-05-14,20:30,Real Madrid,Oviedo,football_data_fixtures_proxy,2026-05-14T12:40:04.288989+00:00
+fd_SP1_2026-05-14_Valencia_Vallecano,la_liga,SP1,upcoming,2026-05-14,18:00,Valencia,Vallecano,football_data_fixtures_proxy,2026-05-14T13:51:15.777367+00:00
+fd_SP1_2026-05-14_Girona_Sociedad,la_liga,SP1,upcoming,2026-05-14,19:00,Girona,Sociedad,football_data_fixtures_proxy,2026-05-14T13:51:15.777367+00:00
+fd_SP1_2026-05-14_Real_Madrid_Oviedo,la_liga,SP1,upcoming,2026-05-14,20:30,Real Madrid,Oviedo,football_data_fixtures_proxy,2026-05-14T13:51:15.777367+00:00

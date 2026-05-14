@@ -6,8 +6,8 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 ## Kort status
 
 - Aktuelle viste paper picks: **23**
-- Unikke loggede paper picks: **89**
-- Afventer i loggen: **86**
+- Unikke loggede paper picks: **98**
+- Afventer i loggen: **95**
 - Afgjorte fundet i settled-filen: **210**
 - Skjulte U-/reserve-rækker: **5**
 - Vundne: **70**
@@ -15,6 +15,15 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Samlet ROI i units: **-3.45**
 
 ## Aktuelle paper picks
+
+### Valencia vs Vallecano
+- Dato: **2026-05-14**
+- Kampstart: **18:00**
+- Spil: **Udebanesejr**
+- Odds: **3.50**
+- Status: **Afventer**
+- Type: **priority_proxy_observation**
+- Note: **expanded_volume_forward_observation_not_real_money**
 
 ### Girona vs Sociedad
 - Dato: **2026-05-14**
@@ -25,38 +34,47 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **priority_proxy_observation**
 - Note: **expanded_volume_forward_observation_not_real_money**
 
-### Valencia vs Vallecano
+### AS Fortuna vs Coton Sport de Garoua
 - Dato: **2026-05-14**
-- Kampstart: **18:00**
-- Spil: **Udebanesejr**
-- Odds: **3.40**
-- Status: **Afventer**
-- Type: **priority_proxy_observation**
-- Note: **expanded_volume_forward_observation_not_real_money**
-
-### Red Arrows vs Green Eagles
-- Dato: **2026-05-14**
-- Kampstart: **13:00**
-- Spil: **Udebanesejr**
-- Odds: **5.00**
+- Kampstart: **15:00**
+- Spil: **Hjemmesejr**
+- Odds: **4.75**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Ljungskile SK vs GIF Sundsvall
+### Hapoel Nir Ramat Hasharon vs Maccabi Kishronot Hadera
 - Dato: **2026-05-14**
-- Kampstart: **15:00**
-- Spil: **Udebanesejr**
-- Odds: **5.00**
+- Kampstart: **15:10**
+- Spil: **Hjemmesejr**
+- Odds: **4.75**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Austria Lustenau vs SKU Amstetten
+### FC Tallinn vs JK Tallinna Kalev
 - Dato: **2026-05-14**
-- Kampstart: **15:00**
-- Spil: **Udebanesejr**
-- Odds: **5.00**
+- Kampstart: **16:00**
+- Spil: **Hjemmesejr**
+- Odds: **4.75**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### ASKO Kottmannsdorf vs SV Dellach/Gail
+- Dato: **2026-05-14**
+- Kampstart: **15:30**
+- Spil: **Hjemmesejr**
+- Odds: **4.50**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### VfL Wolfsburg vs Bayern Munich
+- Dato: **2026-05-14**
+- Kampstart: **14:00**
+- Spil: **Hjemmesejr**
+- Odds: **4.50**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
@@ -79,20 +97,11 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Fauve Azur de Yaounde vs Gazelle FA de Garoua
+### Fish United vs NOPS
 - Dato: **2026-05-14**
-- Kampstart: **13:00**
+- Kampstart: **17:00**
 - Spil: **Hjemmesejr**
-- Odds: **4.20**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### ASKO Kottmannsdorf vs SV Dellach/Gail
-- Dato: **2026-05-14**
-- Kampstart: **15:30**
-- Spil: **Hjemmesejr**
-- Odds: **4.20**
+- Odds: **4.10**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
@@ -115,15 +124,6 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Masku vs LTU
-- Dato: **2026-05-14**
-- Kampstart: **13:00**
-- Spil: **Udebanesejr**
-- Odds: **4.50**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
 ### AL Naft vs AL Minaa
 - Dato: **2026-05-14**
 - Kampstart: **14:30**
@@ -142,20 +142,11 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Dhofar SCSC vs Al Shabab
+### Arborg vs Alafoss
 - Dato: **2026-05-14**
-- Kampstart: **14:05**
-- Spil: **Hjemmesejr**
-- Odds: **3.90**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### IF Vestri vs Grotta
-- Dato: **2026-05-14**
-- Kampstart: **14:00**
-- Spil: **Udebanesejr**
-- Odds: **4.20**
+- Kampstart: **17:00**
+- Spil: **Uafgjort**
+- Odds: **6.00**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
@@ -169,29 +160,38 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
+### Gamle Oslo FK vs SF Grei
+- Dato: **2026-05-14**
+- Kampstart: **16:00**
+- Spil: **Uafgjort**
+- Odds: **5.75**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Dhofar SCSC vs Al Shabab
+- Dato: **2026-05-14**
+- Kampstart: **14:05**
+- Spil: **Hjemmesejr**
+- Odds: **3.70**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Stade Renard vs Aigle Royal
+- Dato: **2026-05-14**
+- Kampstart: **14:30**
+- Spil: **Udebanesejr**
+- Odds: **4.10**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
 ### SV Wildon vs SC Stadtwerke Bruck/Mur
 - Dato: **2026-05-14**
 - Kampstart: **15:00**
 - Spil: **Uafgjort**
 - Odds: **5.50**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Raelingen vs Brumunddal Fotball
-- Dato: **2026-05-14**
-- Kampstart: **13:00**
-- Spil: **Udebanesejr**
-- Odds: **3.90**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### IF Karlstad Fotbol vs IFK Stocksund
-- Dato: **2026-05-14**
-- Kampstart: **14:00**
-- Spil: **Uafgjort**
-- Odds: **5.25**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**

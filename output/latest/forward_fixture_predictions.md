@@ -3,32 +3,13 @@
 Probability-only forward fixture model output. Not a betting card and not a real-money recommendation.
 Full model rows use matched team-strength data. Baseline rows are conservative league-average placeholders used to increase odds-matching coverage only.
 
-Upcoming fixture rows: 327
+Upcoming fixture rows: 320
 Forward fixture prediction rows: 300
 Full model prediction rows: 3
 Baseline prediction rows: 297
 Max forward predictions: 300
 Ready for price join: True
 
-- 2026-05-14 13:00 | Assyriska FF vs Umea FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
-- 2026-05-14 13:00 | Fauve Azur de Yaounde vs Gazelle FA de Garoua | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
-- 2026-05-14 13:00 | Fk Kvik Trondheim vs Strindheim TF | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
-- 2026-05-14 13:00 | Herentals FC vs Dynamos Harare FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
-- 2026-05-14 13:00 | Hoenefoss BK vs Stjordals-Blink | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
-- 2026-05-14 13:00 | Lidkopings FK vs Grebbestads IF | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
-- 2026-05-14 13:00 | Lillehammer FK vs FK Gjoevik-Lyn | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
-- 2026-05-14 13:00 | Lokomotiv Oslo vs FK Union Carl Berner | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
-- 2026-05-14 13:00 | Masku vs LTU | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
-- 2026-05-14 13:00 | Raelingen vs Brumunddal Fotball | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
-- 2026-05-14 13:00 | Red Arrows vs Green Eagles | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
-- 2026-05-14 13:00 | Shahrdari Nowshahr vs FC Fard Alborz | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
-- 2026-05-14 13:00 | Simal vs Difai Agsu | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
-- 2026-05-14 13:00 | TRA United vs Mtibwa Sugar FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
-- 2026-05-14 13:00 | Union Saint-Gilloise vs RSC Anderlecht | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
-- 2026-05-14 13:15 | Mashujaa FC vs Simba SC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
-- 2026-05-14 13:15 | Sanat Mes Kerman FC vs Mes Shahr-e Babak | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
-- 2026-05-14 13:30 | FK Vidar vs Sotra SK | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
-- 2026-05-14 13:30 | Mjallby AIF vs Hammarby IF | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-14 14:00 | Angelholms FF vs Aatvidabergs FF | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-14 14:00 | HB Torshavn vs Vikingur Gota | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-14 14:00 | IF Karlstad Fotbol vs IFK Stocksund | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
@@ -111,6 +92,7 @@ Ready for price join: True
 - 2026-05-14 19:00 | Always Ready vs The Strongest | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-14 19:00 | Bradford City FC vs Bolton Wanderers | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-14 19:00 | Girona vs Sociedad | coverage=full_team_strength_match | H=0.3982 D=0.2712 A=0.3305 | fair=2.51/3.69/3.03
+- 2026-05-14 19:00 | Midleton FC vs Mayfield United FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-14 19:00 | Sportivo Luqueno vs Guarani Asuncion | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-14 19:00 | Sportivo Trinidense vs Deportivo Recoleta Reserve | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-14 19:30 | Real Madrid vs Real Oviedo | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
@@ -143,6 +125,7 @@ Ready for price join: True
 - 2026-05-15 08:30 | Caboolture Sports FC vs North Star | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-15 08:30 | Dalian Kewei vs Nantong Zhiyun | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-15 08:30 | Logan Lightning vs Redlands United | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-15 08:30 | Semen Padang FC vs Persebaya Surabaya | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-15 08:45 | Bunga Raya FC vs Malaysia University | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-15 09:00 | Penang FA vs Brunei DPMM FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-15 09:00 | Slovakia vs San Marino | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
@@ -197,7 +180,9 @@ Ready for price join: True
 - 2026-05-15 13:00 | Sabail FK vs Shahdag Qusar FK | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-15 13:00 | Shillong Lajong FC vs Rajasthan United | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-15 13:45 | NK Rudes Zagreb vs HNK Cibalia Vinkovci | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-15 14:00 | CA Huracan vs Atletico Lanus | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-15 14:00 | Mohammedan SC vs Mumbai City | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-15 14:00 | Viking FK vs Frigg Oslo FK | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-15 14:05 | AL Arabi (UAE) vs Gulf United | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-15 14:05 | AL Ittifaq vs Emirates Club | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-15 14:05 | Al Urooba UAE vs Dubai United FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
@@ -229,6 +214,7 @@ Ready for price join: True
 - 2026-05-15 16:00 | FK Transinvest B vs Be1 Nfa | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-15 16:00 | Haugesund vs SK Brann | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-15 16:00 | HNK Vukovar 1991 vs NK Varazdin | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-15 16:00 | IK Start vs Kolbotn | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-15 16:00 | Kolding IF vs Lyngby BK | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-15 16:00 | Olympiakos Nicosia vs Anorthosis Famagusta | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-15 16:00 | Pogon Siedlce vs FKS Stal Mielec | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
@@ -242,7 +228,9 @@ Ready for price join: True
 - 2026-05-15 16:30 | Alingsas FC United vs IF Elfsborg | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-15 16:30 | BK Avarta vs Goerslev IF | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-15 16:30 | FK Garliava vs FK Kauno Zalgiris B | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-15 16:30 | Odds BK vs FK Fyllingsdalen | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-15 16:30 | FC Rosengaard Malmo vs Kristianstads DFF | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-15 16:30 | SK Djerv 1919 vs Vard Haugesund | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-15 16:30 | Skovshoved IF vs AB Taarnby | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-15 16:30 | Valtti vs FC Kontu | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-15 16:55 | Toukolan Teras vs Atlantis FC/2 | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
@@ -264,6 +252,7 @@ Ready for price join: True
 - 2026-05-15 17:00 | SC Weiz vs SV Ried II | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-15 17:00 | SV Lafnitz vs ASK Voitsberg | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-15 17:00 | SV Schwechat vs FC Stadlau | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-15 17:00 | Ullensaker/Kisa vs Eidsvold TF | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-15 17:00 | Union Gurten vs ASKO Oedt | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-15 17:00 | Union Mauer vs SV Leobendorf | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-15 17:00 | Valletta FC vs Hamrun Spartans FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
@@ -284,6 +273,8 @@ Ready for price join: True
 - 2026-05-15 17:30 | FC Versailles 78 vs Stade Briochin | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-15 17:30 | Wiener Sport-Club vs SV Oberwart | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-15 18:00 | Al-Taawoun FC vs Al-Riyadh SC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-15 18:00 | CA Independiente vs San Luis FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-15 18:00 | CA River Plate (ARG) vs Ferro Carril Oeste | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-15 18:00 | Jeugd Lierse Kempenzonen vs Jeugd Lommel SK | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-15 18:00 | Jeugd Patro Eisden Maasmechelen vs RAAL La Louviere | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-15 18:00 | K Beerschot VA vs Jeugd RWDM Brussels | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
@@ -303,10 +294,19 @@ Ready for price join: True
 - 2026-05-15 18:15 | Stade Lausanne Ouchy vs Neuchatel Xamax | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-15 18:15 | FC Wil 1900 vs FC Vaduz | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-15 18:30 | AS Saint-Etienne vs Rodez Aveyron Football | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-15 18:30 | CA Banfield vs CA Talleres de Cordoba | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-15 18:30 | CD Castellon vs Cadiz CF | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-15 18:30 | Korona Kielce vs Widzew Lodz | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-15 18:30 | Newell's Old Boys vs Racing Club | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-15 18:30 | Polonia Warszawa vs Wisla Krakow | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-15 18:45 | Bohemians Dublin FC vs Drogheda United FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-15 18:45 | Cobh Ramblers vs Athlone Town AFC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-15 18:45 | Hamilton Academical FC vs Clyde FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
 - 2026-05-15 18:45 | Kerry FC vs Wexford FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-15 18:45 | Lisburn Rangers vs Derry City Ladies | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-15 18:45 | Oud-Heverlee Leuven vs Royal Antwerp FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-15 18:45 | Partick Thistle FC vs Dunfermline Athletic FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-15 18:45 | Saint Patrick´s Athletic FC vs Shelbourne FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-15 18:45 | Treaty United vs Finn Harps FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-15 18:45 | University College Dublin vs Bray Wanderers AFC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87
+- 2026-05-15 18:45 | Waterford FC vs Derry City FC | coverage=baseline_unmatched_fixture | H=0.3772 D=0.274 A=0.3488 | fair=2.65/3.65/2.87

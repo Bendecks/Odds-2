@@ -3,11 +3,11 @@
 Purpose: distinguish true automatic forward inputs from historical market proxy and paused manual fallback.
 Football-Data and odds-api.io prices are treated as paper-test proxy prices until validated.
 
-Upcoming fixture rows: 327
-Fixture team rows unmatched: 638
+Upcoming fixture rows: 320
+Fixture team rows unmatched: 626
 Ready for model-fixture join: False
-Automatic forward price rows: 65
-odds-api.io price rows: 56
+Automatic forward price rows: 64
+odds-api.io price rows: 55
 Football-Data price rows: 9
 Automatic forward status: automatic_forward_not_ready
 Blocker: fixture_model_team_matching_incomplete

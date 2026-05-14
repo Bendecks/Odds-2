@@ -11,7 +11,7 @@ Enabled: True
 Calls used: 4 / 14
 Max discovery calls: 13
 Events bookmaker: Bet365
-Events discovery rows: 322
+Events discovery rows: 320
 Events max pages: 6
 Events lookahead days: 14
 Max events per page/search: 180
@@ -20,16 +20,16 @@ Minimum event match confidence: 0.72
 Discovery mode: bookmaker_filtered_events_then_search_fallback_then_reserved_multi_odds
 Query source: forward_fixture_predictions
 Search fallback used: True
-Search queries used: TRA United
-Selected event IDs: 68310888, 70774892, 67919620, 67563266, 67915572, 68320174, 67921064, 67919258, 70683964, 67921056, 71423498, 70945796, 63637929, 69491788, 70479356, 70945864, 67915824, 70267784, 68311590, 71218680, 68310890, 70820616, 70820618, 69924662, 68311592, 68311594, 70648002, 71336696, 71339462, 71339460, 70448376, 70448378, 70774888, 70448380, 71370014, 70906776, 70774898, 61591358, 69757834, 71372084, 61591362, 70820614, 64200529, 67126094, 61591360, 61591372, 61591366, 61541420, 61902044, 71203972, 71456920, 71336698, 61898610, 70479362, 64055871, 71403928, 68158790, 71403932, 70162024, 67919260, 70929770, 70929772, 71403930, 70683966, 71312158, 67921068, 61894062, 68774142, 68377548, 71336700, 67953278, 67953286, 70844430, 69923670, 67919890, 71312160, 61624652, 70906778, 67953282
+Search queries used: Valencia
+Selected event IDs: 68311590, 71218680, 68310890, 70820616, 70820618, 69924662, 68311592, 68311594, 70648002, 71336696, 71339462, 71339460, 70448376, 70448378, 70774888, 70448380, 71370014, 70906776, 70774898, 61591358, 69757834, 71372084, 61591362, 70820614, 64200529, 67126094, 61591360, 61591372, 61591366, 61541420, 61902044, 71203972, 71456920, 71336698, 61898610, 70479362, 64055871, 71403928, 68158790, 71403932, 70162024, 67919260, 70929770, 70929772, 71403930, 70683966, 71312158, 67921068, 61894062, 68774142, 68377548, 71336700, 67953278, 67953286, 70844430, 69923670, 67919890, 71312160, 61624652, 70906778, 67953282, 64055877, 67953288, 67953276, 64055869, 68751762, 69688798, 68158782, 68158758, 68158762, 68158770, 68158774, 71296260, 69688800, 68158778, 61624646, 70844432, 69279792, 70379160
 Multi-odds attempted: True
 Multi-odds skipped reason: 
 Bookmakers requested: Bet365
 Odds endpoint mode: multi_event_documented_endpoint
 Selected bookmakers: Bet365
 Selected markets: ML
-Fixture rows: 323
-Event selection diagnostic rows: 22667
+Fixture rows: 328
+Event selection diagnostic rows: 22451
 Selected event rows: 79
 Priced event rows: 10
 Price rows: 10
@@ -40,52 +40,52 @@ Errors/status rows: 70
 Header rows captured: 4
 Latest x-ratelimit-limit: 100
 Latest x-ratelimit-remaining: 82
-Latest x-ratelimit-reset: 2026-05-14T13:40:05Z
+Latest x-ratelimit-reset: 2026-05-14T14:51:16Z
 Latest retry-after: None
 
-- 2026-05-14 13:00 | Assyriska FF vs Umea FC | odds_api_io_Bet365_ML | 2.75/3.3/2.25
-- 2026-05-14 13:00 | Fauve Azur de Yaounde vs Gazelle FA de Garoua | odds_api_io_Bet365_ML | 4.2/3.3/1.727
-- 2026-05-14 13:00 | Fk Kvik Trondheim vs Strindheim TF | odds_api_io_Bet365_ML | 2.9/4.2/1.9
-- 2026-05-14 13:00 | Herentals FC vs Dynamos Harare FC | odds_api_io_Bet365_ML | 2.1/2.75/3.6
-- 2026-05-14 13:00 | Hoenefoss BK vs Stjordals-Blink | odds_api_io_Bet365_ML | 1.4/4.333/5.75
-- 2026-05-14 13:00 | Lidkopings FK vs Grebbestads IF | odds_api_io_Bet365_ML | 2.0/3.75/2.9
-- 2026-05-14 13:00 | Lillehammer FK vs FK Gjoevik-Lyn | odds_api_io_Bet365_ML | 2.0/4.0/2.7
-- 2026-05-14 13:00 | Lokomotiv Oslo vs FK Union Carl Berner | odds_api_io_Bet365_ML | 2.35/4.1/2.25
-- 2026-05-14 13:00 | Masku vs LTU | odds_api_io_Bet365_ML | 1.45/4.75/4.5
-- 2026-05-14 13:00 | Raelingen vs Brumunddal Fotball | odds_api_io_Bet365_ML | 1.6/4.333/3.9
+- 2026-05-14 14:00 | Angelholms FF vs Aatvidabergs FF | odds_api_io_Bet365_ML | 2.4/3.2/2.625
+- 2026-05-14 14:00 | HB Torshavn vs Vikingur Gota | odds_api_io_Bet365_ML | 2.2/3.6/2.7
+- 2026-05-14 14:00 | IF Karlstad Fotbol vs IFK Stocksund | odds_api_io_Bet365_ML | 1.285/5.25/6.5
+- 2026-05-14 14:00 | IF Vestri vs Grotta | odds_api_io_Bet365_ML | 1.75/4.5/3.1
+- 2026-05-14 14:00 | KA Akureyri vs KF Aegir | odds_api_io_Bet365_ML | 1.125/8.0/15.0
+- 2026-05-14 14:00 | Kjp Kouvola vs Lautp | odds_api_io_Bet365_ML | 3.4/4.5/1.7
+- 2026-05-14 14:00 | Trelleborgs FF vs Jonkopings Sodra IF | odds_api_io_Bet365_ML | 2.0/3.3/3.2
+- 2026-05-14 14:00 | FC Trollhattan vs Ariana FC | odds_api_io_Bet365_ML | 2.75/3.7/2.1
+- 2026-05-14 14:00 | VfL Wolfsburg vs Bayern Munich | odds_api_io_Bet365_ML | 4.5/3.9/1.55
+- 2026-05-14 14:05 | Dhofar SCSC vs Al Shabab | odds_api_io_Bet365_ML | 3.7/3.3/1.85
 
 ## Event selection diagnostics
 
-- src=events_bookmaker_filtered | query=FC Urartu Yerevan | target=FC Urartu Yerevan vs FC Noah Yerevan | candidate=FC Urartu Yerevan vs FC Noah Yerevan | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=FC Thun | target=FC Thun vs Young Boys Bern | candidate=FC Thun vs Young Boys Bern | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=AL Draih | target=AL Draih vs Al Bukiryah | candidate=AL Draih vs Al Bukiryah | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Kjp Kouvola | target=Kjp Kouvola vs Lautp | candidate=Kjp Kouvola vs Lautp | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Lokomotiv Oslo | target=Lokomotiv Oslo vs FK Union Carl Berner | candidate=Lokomotiv Oslo vs FK Union Carl Berner | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Hapoel Nir Ramat Hasharon | target=Hapoel Nir Ramat Hasharon vs Maccabi Kishronot Hadera | candidate=Hapoel Nir Ramat Hasharon vs Maccabi Kishronot Hadera | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Herentals FC | target=Herentals FC vs Dynamos Harare FC | candidate=Herentals FC vs Dynamos Harare FC | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Trelleborgs FF | target=Trelleborgs FF vs Jonkopings Sodra IF | candidate=Trelleborgs FF vs Jonkopings Sodra IF | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Al-Orobah | target=Al-Orobah vs AL Anwar | candidate=Al-Orobah vs AL Anwar | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Hoenefoss BK | target=Hoenefoss BK vs Stjordals-Blink | candidate=Hoenefoss BK vs Stjordals-Blink | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Arborg | target=Arborg vs Alafoss | candidate=Arborg vs Alafoss | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=AS Fortuna | target=AS Fortuna vs Coton Sport de Garoua | candidate=AS Fortuna vs Coton Sport de Garoua | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=POFC Botev Vratsa | target=POFC Botev Vratsa vs PFC Montana 1921 | candidate=POFC Botev Vratsa vs PFC Montana 1921 | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Fish United | target=Fish United vs NOPS | candidate=Fish United vs NOPS | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Masku | target=Masku vs LTU | candidate=Masku vs LTU | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Ironi Modiin | target=Ironi Modiin vs Hapoel Acre FC | candidate=Ironi Modiin vs Hapoel Acre FC | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Al-Wehda FC | target=Al-Wehda FC vs Al-Jabalain | candidate=Al-Wehda FC vs Al-Jabalain | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=FC Trollhattan | target=FC Trollhattan vs Ariana FC | candidate=FC Trollhattan vs Ariana FC | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Al Nahda | target=Al Nahda vs Al-Seeb | candidate=Al Nahda vs Al-Seeb | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=CA Sarmiento de Junin | target=CA Sarmiento de Junin vs San Lorenzo de Almagro Res. | candidate=CA Sarmiento de Junin vs San Lorenzo de Almagro Res. | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=CA Lanus | target=CA Lanus vs Estudiantes de LP Reserve | candidate=CA Lanus vs Estudiantes de LP Reserve | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Samail SC | target=Samail SC vs Sohar | candidate=Samail SC vs Sohar | confidence=1.0 | selected=True | reason=
 - src=events_bookmaker_filtered | query=ASKO Kottmannsdorf | target=ASKO Kottmannsdorf vs SV Dellach/Gail | candidate=ASKO Kottmannsdorf vs SV Dellach/Gail | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=FC Lokomotiv 1929 Sofia | target=FC Lokomotiv 1929 Sofia vs PFK Beroe Stara Zagora | candidate=FC Lokomotiv 1929 Sofia vs PFK Beroe Stara Zagora | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=CA River Plate (Arg) | target=CA River Plate (Arg) vs Instituto AC Cordoba Reserves | candidate=CA River Plate (Arg) vs Instituto AC Cordoba Reserves | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=CS Sfaxien | target=CS Sfaxien vs ES Sahel | candidate=CS Sfaxien vs ES Sahel | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=POFC Botev Vratsa | target=POFC Botev Vratsa vs PFC Montana 1921 | candidate=POFC Botev Vratsa vs PFC Montana 1921 | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=IF Vestri | target=IF Vestri vs Grotta | candidate=IF Vestri vs Grotta | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=First Vienna FC 1894 | target=First Vienna FC 1894 vs Schwarz-Weiss Bregenz | candidate=First Vienna FC 1894 vs Schwarz-Weiss Bregenz | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Hapoel Nir Ramat Hasharon | target=Hapoel Nir Ramat Hasharon vs Maccabi Kishronot Hadera | candidate=Hapoel Nir Ramat Hasharon vs Maccabi Kishronot Hadera | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=KA Akureyri | target=KA Akureyri vs KF Aegir | candidate=KA Akureyri vs KF Aegir | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Al-Ittifaq FC | target=Al-Ittifaq FC vs Al-Ittihad Club | candidate=Al-Ittifaq FC vs Al-Ittihad Club | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=FC Thun | target=FC Thun vs Young Boys Bern | candidate=FC Thun vs Young Boys Bern | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=FC Urartu Yerevan | target=FC Urartu Yerevan vs FC Noah Yerevan | candidate=FC Urartu Yerevan vs FC Noah Yerevan | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=CE Juventude de Estancia SE | target=CE Juventude de Estancia SE vs EC Vitoria BA | candidate=CE Juventude de Estancia SE vs EC Vitoria BA | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Fylkir Reykjavik | target=Fylkir Reykjavik vs FH Hafnarfjordur | candidate=Fylkir Reykjavik vs FH Hafnarfjordur | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Always Ready | target=Always Ready vs The Strongest | candidate=Always Ready vs The Strongest | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=CD Godoy Cruz | target=CD Godoy Cruz vs Gimnasia de Mendoza Reserve | candidate=CD Godoy Cruz vs Gimnasia de Mendoza Reserve | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=America FC MG | target=America FC MG vs EC Bahia BA | candidate=America FC MG vs EC Bahia BA | confidence=1.0 | selected=True | reason=
 
 ## Errors / Status
 
-- event_selection: No event above confidence 0.72 for query 'TRA United'; best=0.4871
-- multi_odds_match: No multi-odds payload matched event 71423498
-- multi_odds_match: No multi-odds payload matched event 70945796
-- multi_odds_match: No multi-odds payload matched event 63637929
-- multi_odds_match: No multi-odds payload matched event 69491788
-- multi_odds_match: No multi-odds payload matched event 70479356
-- multi_odds_match: No multi-odds payload matched event 70945864
-- multi_odds_match: No multi-odds payload matched event 67915824
-- multi_odds_match: No multi-odds payload matched event 70267784
-- multi_odds_match: No multi-odds payload matched event 68311590
+- event_selection: No event above confidence 0.72 for query 'Valencia'; best=0.5979
+- multi_odds_match: No multi-odds payload matched event 71339462
+- multi_odds_match: No multi-odds payload matched event 71339460
+- multi_odds_match: No multi-odds payload matched event 70448376
+- multi_odds_match: No multi-odds payload matched event 70448378
+- multi_odds_match: No multi-odds payload matched event 70774888
+- multi_odds_match: No multi-odds payload matched event 70448380
+- multi_odds_match: No multi-odds payload matched event 71370014
+- multi_odds_match: No multi-odds payload matched event 70906776
+- multi_odds_match: No multi-odds payload matched event 70774898

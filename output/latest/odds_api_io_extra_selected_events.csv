@@ -1,23 +1,4 @@
 raw_event_id,fixture_id,match_date,match_time,home_team,away_team,league,direct_match_confidence
-71423498,odds_api_io_71423498,2026-05-14,13:00,Red Arrows,Green Eagles,zambia-super-league,1.0
-70945796,odds_api_io_70945796,2026-05-14,13:00,Shahrdari Nowshahr,FC Fard Alborz,iran-azadegan-league,1.0
-63637929,odds_api_io_63637929,2026-05-14,13:00,Simal,Difai Agsu,azerbaijan-first-division,1.0
-69448904,odds_api_io_69448904,2026-05-14,13:00,TRA United,Mtibwa Sugar FC,tanzania-premier-league,1.0
-69491788,odds_api_io_69491788,2026-05-14,13:00,Union Saint-Gilloise,RSC Anderlecht,belgium-beker-van-belgie,1.0
-70479356,odds_api_io_70479356,2026-05-14,13:15,Mashujaa FC,Simba SC,tanzania-premier-league,1.0
-70945864,odds_api_io_70945864,2026-05-14,13:15,Sanat Mes Kerman FC,Mes Shahr-e Babak,iran-azadegan-league,1.0
-67915824,odds_api_io_67915824,2026-05-14,13:30,FK Vidar,Sotra SK,norway-2nd-division-group-1,1.0
-70267784,odds_api_io_70267784,2026-05-14,13:30,Mjallby AIF,Hammarby IF,sweden-svenska-cup,1.0
-68311590,odds_api_io_68311590,2026-05-14,14:00,Angelholms FF,Aatvidabergs FF,sweden-ettan-relegation/promotion,1.0
-71218680,odds_api_io_71218680,2026-05-14,14:00,HB Torshavn,Vikingur Gota,faroe-islands-logmanssteypid,1.0
-68310890,odds_api_io_68310890,2026-05-14,14:00,IF Karlstad Fotbol,IFK Stocksund,sweden-ettan-relegation/promotion,1.0
-70820616,odds_api_io_70820616,2026-05-14,14:00,IF Vestri,Grotta,iceland-cup,1.0
-70820618,odds_api_io_70820618,2026-05-14,14:00,KA Akureyri,KF Aegir,iceland-cup,1.0
-69924662,odds_api_io_69924662,2026-05-14,14:00,Kjp Kouvola,Lautp,finland-kolmonen,1.0
-68311592,odds_api_io_68311592,2026-05-14,14:00,Trelleborgs FF,Jonkopings Sodra IF,sweden-ettan-relegation/promotion,1.0
-68311594,odds_api_io_68311594,2026-05-14,14:00,FC Trollhattan,Ariana FC,sweden-ettan-relegation/promotion,1.0
-70648002,odds_api_io_70648002,2026-05-14,14:00,VfL Wolfsburg,Bayern Munich,germany-amateur-dfb-pokal-women,1.0
-71336696,odds_api_io_71336696,2026-05-14,14:05,Dhofar SCSC,Al Shabab,oman-omani-league,1.0
 71339462,odds_api_io_71339462,2026-05-14,14:30,AL Naft,AL Minaa,iraq-iraqi-league,1.0
 71339460,odds_api_io_71339460,2026-05-14,14:30,AL Naft Maysan,AL Karma,iraq-iraqi-league,1.0
 70448376,odds_api_io_70448376,2026-05-14,14:30,FC Basel 1893,FC St. Gallen 1879,switzerland-super-league,1.0
@@ -69,3 +50,22 @@ raw_event_id,fixture_id,match_date,match_time,home_team,away_team,league,direct_
 61624652,odds_api_io_61624652,2026-05-14,17:00,Valencia CF,Rayo Vallecano,spain-laliga,1.0
 70906778,odds_api_io_70906778,2026-05-14,17:15,FC Lokomotiv 1929 Sofia,PFK Beroe Stara Zagora,bulgaria-parva-liga,1.0
 67953282,odds_api_io_67953282,2026-05-14,18:00,AL Draih,Al Bukiryah,saudi-arabia-division-1,1.0
+64055877,odds_api_io_64055877,2026-05-14,18:00,Al Qadsiah,Al-Hazm,saudi-arabia-saudi-pro-league,1.0
+67953288,odds_api_io_67953288,2026-05-14,18:00,AL Ula,Al-Zulfi FC,saudi-arabia-division-1,1.0
+67953276,odds_api_io_67953276,2026-05-14,18:00,Al-Faisaly FC,Al-Batin,saudi-arabia-division-1,1.0
+64055869,odds_api_io_64055869,2026-05-14,18:00,Al-Ittifaq FC,Al-Ittihad Club,saudi-arabia-saudi-pro-league,1.0
+68751762,odds_api_io_68751762,2026-05-14,18:00,America FC MG,EC Bahia BA,brazil-u20-campeonato-brasileiro,1.0
+69688798,odds_api_io_69688798,2026-05-14,18:00,Atletico Mineiro MG,Mirassol FC SP,brazil-u20-brasileiro-serie-b,1.0
+68158782,odds_api_io_68158782,2026-05-14,18:00,CA Lanus,Estudiantes de LP Reserve,argentina-copa-proyeccion-final-reserves,1.0
+68158758,odds_api_io_68158758,2026-05-14,18:00,CA River Plate (Arg),Instituto AC Cordoba Reserves,argentina-copa-proyeccion-final-reserves,1.0
+68158762,odds_api_io_68158762,2026-05-14,18:00,CA Sarmiento de Junin,San Lorenzo de Almagro Res.,argentina-copa-proyeccion-final-reserves,1.0
+68158770,odds_api_io_68158770,2026-05-14,18:00,CA Union Santa Fe Reserve,CA Talleres de Cordoba Reserve,argentina-copa-proyeccion-final-reserves,1.0
+68158774,odds_api_io_68158774,2026-05-14,18:00,CD Godoy Cruz,Gimnasia de Mendoza Reserve,argentina-copa-proyeccion-final-reserves,1.0
+71296260,odds_api_io_71296260,2026-05-14,18:00,CE Juventude de Estancia SE,EC Vitoria BA,brazil-copa-do-brasil-women,1.0
+69688800,odds_api_io_69688800,2026-05-14,18:00,Ceara SC CE,Gremio Novorizontino SP,brazil-u20-brasileiro-serie-b,1.0
+68158778,odds_api_io_68158778,2026-05-14,18:00,Deportivo Riestra Afbc Reserve,San Martin de San Juan Reserve,argentina-copa-proyeccion-final-reserves,1.0
+61624646,odds_api_io_61624646,2026-05-14,18:00,Girona FC,Real Sociedad San Sebastian,spain-laliga,1.0
+70844432,odds_api_io_70844432,2026-05-14,18:30,Alftanes,KFR,iceland-4-deild,1.0
+69279792,odds_api_io_69279792,2026-05-14,18:30,Inhumas EC GO,Royal GO,brazil-u20-goiano-1-divisao,1.0
+70379160,odds_api_io_70379160,2026-05-14,19:00,Always Ready,The Strongest,bolivia-division-profesional,1.0
+71242310,odds_api_io_71242310,2026-05-14,19:00,Bradford City FC,Bolton Wanderers,england-league-one,1.0

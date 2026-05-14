@@ -10,6 +10,23 @@ No qualifying candidate bets today.
 
 ## Paper-Test Picks
 
+### Valencia vs Vallecano
+
+- Date/time: 2026-05-14 18:00
+- League/phase: la_liga / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 3.5
+- Fair odds: 3.11
+- Model probability: 0.3215
+- Probability band: 0.25-0.35
+- EV: 0.1253
+- Probability edge: 0.0358
+- Alignment penalty: 0.1253
+- Suppression action: none
+- Paper tier: priority_proxy_observation
+- Paper score: 0.2454
+- Prediction ID: 239766b687d9b1adc383
+
 ### Girona vs Sociedad
 
 - Date/time: 2026-05-14 19:00
@@ -61,73 +78,90 @@ No qualifying candidate bets today.
 - Paper score: 0.2413
 - Prediction ID: 239766b687d9b1adc383
 
-### Valencia vs Vallecano
-
-- Date/time: 2026-05-14 18:00
-- League/phase: la_liga / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 3.3
-- Fair odds: 3.11
-- Model probability: 0.3215
-- Probability band: 0.25-0.35
-- EV: 0.0609
-- Probability edge: 0.0185
-- Alignment penalty: 0.061
-- Suppression action: none
-- Paper tier: priority_proxy_observation
-- Paper score: 0.237
-- Prediction ID: 239766b687d9b1adc383
-
-### Red Arrows vs Green Eagles
-
-- Date/time: 2026-05-14 13:00
-- League/phase: zambia-super-league / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 5.0
-- Fair odds: 2.87
-- Model probability: 0.3488
-- Probability band: 0.25-0.35
-- EV: 0.744
-- Probability edge: 0.1488
-- Alignment penalty: 0.744
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.0711
-- Prediction ID: 35c76cbb4ed25d486402
-
-### Ljungskile SK vs GIF Sundsvall
+### AS Fortuna vs Coton Sport de Garoua
 
 - Date/time: 2026-05-14 15:00
-- League/phase: sweden-superettan / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 5.0
-- Fair odds: 2.87
-- Model probability: 0.3488
-- Probability band: 0.25-0.35
-- EV: 0.744
-- Probability edge: 0.1488
-- Alignment penalty: 0.744
+- League/phase: cameroon-elite-one / automatic_forward_price_proxy
+- Selection: HOME
+- Market odds: 4.75
+- Fair odds: 2.65
+- Model probability: 0.3772
+- Probability band: 0.35-0.45
+- EV: 0.7917
+- Probability edge: 0.1667
+- Alignment penalty: 0.7917
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
-- Paper score: 0.0711
-- Prediction ID: 686af0ff9423ac4f1393
+- Paper score: 0.0733
+- Prediction ID: 3820ee3d147d5fd28dea
 
-### Austria Lustenau vs SKU Amstetten
+### Hapoel Nir Ramat Hasharon vs Maccabi Kishronot Hadera
 
-- Date/time: 2026-05-14 15:00
-- League/phase: austria-2-liga / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 5.0
-- Fair odds: 2.87
-- Model probability: 0.3488
-- Probability band: 0.25-0.35
-- EV: 0.744
-- Probability edge: 0.1488
-- Alignment penalty: 0.744
+- Date/time: 2026-05-14 15:10
+- League/phase: israel-liga-al-women / automatic_forward_price_proxy
+- Selection: HOME
+- Market odds: 4.75
+- Fair odds: 2.65
+- Model probability: 0.3772
+- Probability band: 0.35-0.45
+- EV: 0.7917
+- Probability edge: 0.1667
+- Alignment penalty: 0.7917
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
-- Paper score: 0.0711
-- Prediction ID: 741309a2b4e20d1e7ed2
+- Paper score: 0.0733
+- Prediction ID: 8964e817c584754c3d29
+
+### FC Tallinn vs JK Tallinna Kalev
+
+- Date/time: 2026-05-14 16:00
+- League/phase: estonia-esiliiga / automatic_forward_price_proxy
+- Selection: HOME
+- Market odds: 4.75
+- Fair odds: 2.65
+- Model probability: 0.3772
+- Probability band: 0.35-0.45
+- EV: 0.7917
+- Probability edge: 0.1667
+- Alignment penalty: 0.7917
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0733
+- Prediction ID: 9742fa27251c76ea086d
+
+### ASKO Kottmannsdorf vs SV Dellach/Gail
+
+- Date/time: 2026-05-14 15:30
+- League/phase: austria-amateur-karnten-karntner-liga / automatic_forward_price_proxy
+- Selection: HOME
+- Market odds: 4.5
+- Fair odds: 2.65
+- Model probability: 0.3772
+- Probability band: 0.35-0.45
+- EV: 0.6974
+- Probability edge: 0.155
+- Alignment penalty: 0.6974
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0712
+- Prediction ID: 546eac22299912415e7b
+
+### VfL Wolfsburg vs Bayern Munich
+
+- Date/time: 2026-05-14 14:00
+- League/phase: germany-amateur-dfb-pokal-women / automatic_forward_price_proxy
+- Selection: HOME
+- Market odds: 4.5
+- Fair odds: 2.65
+- Model probability: 0.3772
+- Probability band: 0.35-0.45
+- EV: 0.6974
+- Probability edge: 0.155
+- Alignment penalty: 0.6974
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0712
+- Prediction ID: 00c140223a84703c3cf1
 
 ### POFC Botev Vratsa vs PFC Montana 1921
 
@@ -163,39 +197,22 @@ No qualifying candidate bets today.
 - Paper score: 0.0698
 - Prediction ID: 5a425fb00ecefdd1a09d
 
-### Fauve Azur de Yaounde vs Gazelle FA de Garoua
+### Fish United vs NOPS
 
-- Date/time: 2026-05-14 13:00
-- League/phase: cameroon-elite-one / automatic_forward_price_proxy
+- Date/time: 2026-05-14 17:00
+- League/phase: finland-kolmonen / automatic_forward_price_proxy
 - Selection: HOME
-- Market odds: 4.2
+- Market odds: 4.1
 - Fair odds: 2.65
 - Model probability: 0.3772
 - Probability band: 0.35-0.45
-- EV: 0.5842
-- Probability edge: 0.1391
-- Alignment penalty: 0.5842
+- EV: 0.5465
+- Probability edge: 0.1333
+- Alignment penalty: 0.5465
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
-- Paper score: 0.0687
-- Prediction ID: b5c57a09ecbf16585b10
-
-### ASKO Kottmannsdorf vs SV Dellach/Gail
-
-- Date/time: 2026-05-14 15:30
-- League/phase: austria-amateur-karnten-karntner-liga / automatic_forward_price_proxy
-- Selection: HOME
-- Market odds: 4.2
-- Fair odds: 2.65
-- Model probability: 0.3772
-- Probability band: 0.35-0.45
-- EV: 0.5842
-- Probability edge: 0.1391
-- Alignment penalty: 0.5842
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.0687
-- Prediction ID: 546eac22299912415e7b
+- Paper score: 0.0678
+- Prediction ID: 0b196501e22f3e2151b6
 
 ### Real Madrid vs Oviedo
 
@@ -231,23 +248,6 @@ No qualifying candidate bets today.
 - Paper score: 0.0675
 - Prediction ID: 4cbe935ed8d8b6eb0b6c
 
-### Masku vs LTU
-
-- Date/time: 2026-05-14 13:00
-- League/phase: finland-kolmonen / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 4.5
-- Fair odds: 2.87
-- Model probability: 0.3488
-- Probability band: 0.25-0.35
-- EV: 0.5696
-- Probability edge: 0.1266
-- Alignment penalty: 0.5696
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.0673
-- Prediction ID: 30963b9b6d529860f9c9
-
 ### AL Naft vs AL Minaa
 
 - Date/time: 2026-05-14 14:30
@@ -282,39 +282,22 @@ No qualifying candidate bets today.
 - Paper score: 0.0669
 - Prediction ID: c0f211a91b238e167714
 
-### Dhofar SCSC vs Al Shabab
+### Arborg vs Alafoss
 
-- Date/time: 2026-05-14 14:05
-- League/phase: oman-omani-league / automatic_forward_price_proxy
-- Selection: HOME
-- Market odds: 3.9
-- Fair odds: 2.65
-- Model probability: 0.3772
-- Probability band: 0.35-0.45
-- EV: 0.4711
-- Probability edge: 0.1208
-- Alignment penalty: 0.4711
+- Date/time: 2026-05-14 17:00
+- League/phase: iceland-4-deild / automatic_forward_price_proxy
+- Selection: DRAW
+- Market odds: 6.0
+- Fair odds: 3.65
+- Model probability: 0.274
+- Probability band: 0.25-0.35
+- EV: 0.644
+- Probability edge: 0.1073
+- Alignment penalty: 0.644
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
 - Paper score: 0.066
-- Prediction ID: 65fa9f5a70d8d48e53ac
-
-### IF Vestri vs Grotta
-
-- Date/time: 2026-05-14 14:00
-- League/phase: iceland-cup / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 4.2
-- Fair odds: 2.87
-- Model probability: 0.3488
-- Probability band: 0.25-0.35
-- EV: 0.465
-- Probability edge: 0.1107
-- Alignment penalty: 0.465
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.0648
-- Prediction ID: b394c324663eb5a6edf8
+- Prediction ID: 37aee2ac84d8c3c85865
 
 ### SK Austria Klagenfurt vs FC Liefering
 
@@ -333,6 +316,57 @@ No qualifying candidate bets today.
 - Paper score: 0.0646
 - Prediction ID: e01671423d25f8917677
 
+### Gamle Oslo FK vs SF Grei
+
+- Date/time: 2026-05-14 16:00
+- League/phase: norway-3rd-division-group-1 / automatic_forward_price_proxy
+- Selection: DRAW
+- Market odds: 5.75
+- Fair odds: 3.65
+- Model probability: 0.274
+- Probability band: 0.25-0.35
+- EV: 0.5755
+- Probability edge: 0.1001
+- Alignment penalty: 0.5755
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0645
+- Prediction ID: 446b90b5390e0de3f948
+
+### Dhofar SCSC vs Al Shabab
+
+- Date/time: 2026-05-14 14:05
+- League/phase: oman-omani-league / automatic_forward_price_proxy
+- Selection: HOME
+- Market odds: 3.7
+- Fair odds: 2.65
+- Model probability: 0.3772
+- Probability band: 0.35-0.45
+- EV: 0.3956
+- Probability edge: 0.1069
+- Alignment penalty: 0.3956
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0641
+- Prediction ID: 65fa9f5a70d8d48e53ac
+
+### Stade Renard vs Aigle Royal
+
+- Date/time: 2026-05-14 14:30
+- League/phase: cameroon-elite-one / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 4.1
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.4301
+- Probability edge: 0.1049
+- Alignment penalty: 0.4301
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.064
+- Prediction ID: 9a412dece76281c94550
+
 ### SV Wildon vs SC Stadtwerke Bruck/Mur
 
 - Date/time: 2026-05-14 15:00
@@ -350,10 +384,10 @@ No qualifying candidate bets today.
 - Paper score: 0.0631
 - Prediction ID: 5a677d891a4636fbbc6f
 
-### Raelingen vs Brumunddal Fotball
+### First Vienna FC 1894 vs Schwarz-Weiss Bregenz
 
-- Date/time: 2026-05-14 13:00
-- League/phase: norway-3rd-division-group-6 / automatic_forward_price_proxy
+- Date/time: 2026-05-14 15:00
+- League/phase: austria-2-liga / automatic_forward_price_proxy
 - Selection: AWAY
 - Market odds: 3.9
 - Fair odds: 2.87
@@ -365,7 +399,7 @@ No qualifying candidate bets today.
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
 - Paper score: 0.0623
-- Prediction ID: 6ad5a4b538542dcaedc8
+- Prediction ID: 7ec4cd17b584ca5b79e4
 
 ### IF Karlstad Fotbol vs IFK Stocksund
 
@@ -384,10 +418,10 @@ No qualifying candidate bets today.
 - Paper score: 0.0616
 - Prediction ID: 361db360b826ebfa5fae
 
-### First Vienna FC 1894 vs Schwarz-Weiss Bregenz
+### FC Sion vs FC Lugano
 
-- Date/time: 2026-05-14 15:00
-- League/phase: austria-2-liga / automatic_forward_price_proxy
+- Date/time: 2026-05-14 14:30
+- League/phase: switzerland-super-league / automatic_forward_price_proxy
 - Selection: AWAY
 - Market odds: 3.8
 - Fair odds: 2.87
@@ -399,41 +433,7 @@ No qualifying candidate bets today.
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
 - Paper score: 0.0614
-- Prediction ID: 7ec4cd17b584ca5b79e4
-
-### Sanat Mes Kerman FC vs Mes Shahr-e Babak
-
-- Date/time: 2026-05-14 13:15
-- League/phase: iran-azadegan-league / automatic_forward_price_proxy
-- Selection: HOME
-- Market odds: 3.4
-- Fair odds: 2.65
-- Model probability: 0.3772
-- Probability band: 0.35-0.45
-- EV: 0.2825
-- Probability edge: 0.0831
-- Alignment penalty: 0.2825
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.0612
-- Prediction ID: 82d645be6995218f3b70
-
-### Mjallby AIF vs Hammarby IF
-
-- Date/time: 2026-05-14 13:30
-- League/phase: sweden-svenska-cup / automatic_forward_price_proxy
-- Selection: HOME
-- Market odds: 3.4
-- Fair odds: 2.65
-- Model probability: 0.3772
-- Probability band: 0.35-0.45
-- EV: 0.2825
-- Probability edge: 0.0831
-- Alignment penalty: 0.2825
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.0612
-- Prediction ID: e2ba5a9666beae8c1bef
+- Prediction ID: 3226f33693024764cdef
 
 ## Snapshot summary
 
