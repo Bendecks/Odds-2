@@ -1,7 +1,7 @@
 {
-  "generated_at_dk": "2026-05-14 22:04",
+  "generated_at_dk": "2026-05-14 22:12",
   "window_hours": 12,
-  "window_started_dk": "2026-05-14 22:03",
+  "window_started_dk": "2026-05-14 22:12",
   "bookmaker": "Bet365",
   "statuses_requested": "pending,live,settled",
   "sports_requested": "football,tennis,basketball,ice-hockey,american-football,baseball,cricket,rugby-union,rugby-league,handball,esports",
@@ -18,6 +18,6 @@
   "max_pages": 10,
   "max_price_events_per_sport": 200,
   "pdf_created": true,
-  "latest_rate_limit_remaining": "46",
+  "latest_rate_limit_remaining": "15",
   "latest_rate_limit_limit": "100"
 }
