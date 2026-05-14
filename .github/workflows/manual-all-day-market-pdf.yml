@@ -23,6 +23,8 @@ on:
         required: true
         default: '10'
         type: string
+  schedule:
+    - cron: '0 */4 * * *'
 
 jobs:
   build-all-day-market-pdf:
@@ -33,10 +35,10 @@ jobs:
 
     env:
       ODDS_API_IO_KEY: ${{ secrets.ODDS_API_IO_KEY }}
-      BET365_ALL_DAY_SPORTS: ${{ inputs.sports }}
-      BET365_ALL_DAY_MAX_PRICE_EVENTS_PER_SPORT: ${{ inputs.max_price_events_per_sport }}
-      BET365_ALL_DAY_MAX_PAGES: ${{ inputs.max_pages }}
-      BET365_ALL_DAY_MIN_BOOKMAKER_COUNT: ${{ inputs.min_bookmaker_count }}
+      BET365_ALL_DAY_SPORTS: ${{ inputs.sports || 'football,tennis,basketball,ice-hockey,american-football,baseball,cricket,rugby-union,rugby-league,handball,esports' }}
+      BET365_ALL_DAY_MAX_PRICE_EVENTS_PER_SPORT: ${{ inputs.max_price_events_per_sport || '200' }}
+      BET365_ALL_DAY_MAX_PAGES: ${{ inputs.max_pages || '10' }}
+      BET365_ALL_DAY_MIN_BOOKMAKER_COUNT: ${{ inputs.min_bookmaker_count || '10' }}
       BET365_ALL_DAY_MAX_EVENTS: '100'
 
     steps:
@@ -59,10 +61,10 @@ jobs:
       - name: Build all-day market PDF
         run: |
           python scripts/build_bet365_today_multisport_all_day_pdf.py \
-            --sports "${{ inputs.sports }}" \
-            --max-price-events-per-sport "${{ inputs.max_price_events_per_sport }}" \
-            --max-pages "${{ inputs.max_pages }}" \
-            --min-bookmaker-count "${{ inputs.min_bookmaker_count }}"
+            --sports "${BET365_ALL_DAY_SPORTS}" \
+            --max-price-events-per-sport "${BET365_ALL_DAY_MAX_PRICE_EVENTS_PER_SPORT}" \
+            --max-pages "${BET365_ALL_DAY_MAX_PAGES}" \
+            --min-bookmaker-count "${BET365_ALL_DAY_MIN_BOOKMAKER_COUNT}"
 
       - name: Commit all-day market PDF files
         run: |
@@ -94,3 +96,21 @@ jobs:
             output/bet365/latest/bet365_today_multisport_all_day_excluded.csv
             output/bet365/latest/bet365_today_multisport_all_day_summary.json
             output/bet365/latest/bet365_today_multisport_all_day_rate_limit_headers.csv
+
+      - name: Email all-day market PDF
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.SMTP_HOST }}
+          server_port: ${{ secrets.SMTP_PORT }}
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+          subject: 'Bet365 all-day market PDF'
+          to: ${{ secrets.REPORT_EMAIL_TO }}
+          from: ${{ secrets.REPORT_EMAIL_FROM }}
+          secure: false
+          body: |
+            Bet365 all-day market PDF is attached.
+
+            Workflow: Manual All-Day Market PDF
+            Repo: Bendecks/Odds-2
+          attachments: output/bet365/latest/bet365_today_multisport_all_day_report.pdf
