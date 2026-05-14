@@ -1,40 +1,15 @@
-sport_query,event_id,date_denmark,home,away,league,sport,bookmaker_count,reason
-football,71296260,2026-05-14 20:00,CE Juventude de Estancia SE,EC Vitoria BA,"Brazil - Copa do Brasil, Women",Football,0,not_good_competition_or_low_coverage
-football,67953276,2026-05-14 20:00,Al-Faisaly FC,Al-Batin,Saudi Arabia - Division 1,Football,0,not_good_competition_or_low_coverage
-football,67953282,2026-05-14 20:00,AL Draih,Al Bukiryah,Saudi Arabia - Division 1,Football,0,not_good_competition_or_low_coverage
-football,67953288,2026-05-14 20:00,AL Ula,Al-Zulfi FC,Saudi Arabia - Division 1,Football,0,not_good_competition_or_low_coverage
-football,68751762,2026-05-14 20:00,America FC MG,EC Bahia BA,Brazil - U20 Campeonato Brasileiro,Football,0,excluded_youth_reserve_friendly_or_exhibition
-football,68158758,2026-05-14 20:00,CA River Plate (Arg),Instituto AC Cordoba Reserves,"Argentina - Copa Proyeccion Final, Reserves",Football,0,excluded_youth_reserve_friendly_or_exhibition
-football,68158774,2026-05-14 20:00,CD Godoy Cruz,Gimnasia de Mendoza Reserve,"Argentina - Copa Proyeccion Final, Reserves",Football,0,excluded_youth_reserve_friendly_or_exhibition
-football,69688798,2026-05-14 20:00,Atletico Mineiro MG,Mirassol FC SP,Brazil - U20 Brasileiro Serie B,Football,0,excluded_youth_reserve_friendly_or_exhibition
-football,68158762,2026-05-14 20:00,CA Sarmiento de Junin,San Lorenzo de Almagro Res.,"Argentina - Copa Proyeccion Final, Reserves",Football,0,excluded_youth_reserve_friendly_or_exhibition
-football,68158770,2026-05-14 20:00,CA Union Santa Fe Reserve,CA Talleres de Cordoba Reserve,"Argentina - Copa Proyeccion Final, Reserves",Football,0,excluded_youth_reserve_friendly_or_exhibition
-football,69688800,2026-05-14 20:00,Ceara SC CE,Gremio Novorizontino SP,Brazil - U20 Brasileiro Serie B,Football,0,excluded_youth_reserve_friendly_or_exhibition
-football,68158778,2026-05-14 20:00,Deportivo Riestra Afbc Reserve,San Martin de San Juan Reserve,"Argentina - Copa Proyeccion Final, Reserves",Football,0,excluded_youth_reserve_friendly_or_exhibition
-football,68158782,2026-05-14 20:00,CA Lanus,Estudiantes de LP Reserve,"Argentina - Copa Proyeccion Final, Reserves",Football,0,excluded_youth_reserve_friendly_or_exhibition
-football,70844432,2026-05-14 20:30,Alftanes,KFR,Iceland - 4. deild,Football,0,not_good_competition_or_low_coverage
-football,69279792,2026-05-14 20:30,Inhumas EC GO,Royal GO,"Brazil - U20 Goiano, 1. Divisao",Football,0,excluded_youth_reserve_friendly_or_exhibition
-football,71242310,2026-05-14 21:00,Bradford City FC,Bolton Wanderers,England - League One,Football,0,not_good_competition_or_low_coverage
-football,71474744,2026-05-14 21:00,Sportivo Luqueno,Guarani Asuncion,"Paraguay - Primera Division Reserve, Apertura",Football,0,excluded_youth_reserve_friendly_or_exhibition
-football,71474746,2026-05-14 21:00,Sportivo Trinidense,Deportivo Recoleta Reserve,"Paraguay - Primera Division Reserve, Apertura",Football,0,excluded_youth_reserve_friendly_or_exhibition
-football,70379160,2026-05-14 21:00,Always Ready,The Strongest,Bolivia - Division Profesional,Football,0,not_good_competition_or_low_coverage
-football,70579302,2026-05-14 21:00,Midleton FC,Mayfield United FC,Ireland - FAI Cup,Football,0,not_good_competition_or_low_coverage
-football,68042486,2026-05-14 22:00,Libertad Asuncion,CS 2 de Mayo,"Paraguay - Division de Honor, Apertura",Football,0,not_good_competition_or_low_coverage
-football,71128218,2026-05-14 22:30,Red Bull Bragantino SP,SC Corinthians SP,"Brazil - Paulista, Women",Football,0,not_good_competition_or_low_coverage
-football,70401294,2026-05-14 23:00,Chapecoense SC,Botafogo FR RJ,Brazil - Copa do Brasil,Football,0,not_good_competition_or_low_coverage
-tennis,541710,2026-05-14 20:00,Nick Hardt,Aleksa Ciric,ITF Men - Pensacola,Tennis,0,not_good_competition_or_low_coverage
-tennis,30718976,2026-05-14 20:00,Mateo Del Pino,Pavlos Tsitsipas,ITF Men - Maringa,Tennis,0,not_good_competition_or_low_coverage
-tennis,30725109,2026-05-14 20:00,Luis Felipe Miguel,Pedro Andre De Almeida Santos,ITF Men - Maringa,Tennis,0,not_good_competition_or_low_coverage
-tennis,71389866,2026-05-14 21:30,"Arangio, Gala","Huynh, Yen Nhi",UTR Women - UTR PTT Newport Beach Women 11,Tennis,0,not_good_competition_or_low_coverage
-tennis,71390002,2026-05-14 21:30,"Berger, Benjamin","Rajski, Maciej",UTR Men - UTR PTT Newport Beach Men 11,Tennis,0,not_good_competition_or_low_coverage
-tennis,71390010,2026-05-14 21:30,"Zamora, Noah","Giesen, Jonty",UTR Men - UTR PTT Newport Beach Men 11,Tennis,0,not_good_competition_or_low_coverage
-tennis,541750,2026-05-14 23:00,Joao Vitor Scramin Do Lago,Nicolas Bruna,ITF Men - Maringa,Tennis,0,not_good_competition_or_low_coverage
-basketball,71443880,2026-05-14 20:00,CB Coruna,Menorca Basquet,Spain - Primera FEB,Basketball,0,not_good_competition_or_low_coverage
-basketball,71446326,2026-05-14 20:15,Legia Warszawa,MKS Dabrowa Gornicza,Poland - PLK,Basketball,0,not_good_competition_or_low_coverage
-basketball,71427478,2026-05-14 21:00,Basket Zaragoza 2002,Valencia BC,Spain - Liga Femenina,Basketball,0,not_good_competition_or_low_coverage
-basketball,71325494,2026-05-14 21:30,Haukar,UMF Njardvik,"Iceland - Urvalsdeild, Women",Basketball,0,not_good_competition_or_low_coverage
-basketball,71231666,2026-05-14 22:30,CP Esgueira,Sporting Cp,Portugal - LPB,Basketball,0,not_good_competition_or_low_coverage
-basketball,71314288,2026-05-14 22:30,Imortal BC,FC Porto,Portugal - LPB,Basketball,0,not_good_competition_or_low_coverage
-cricket,71001484,2026-05-14 21:00,Merryboys Sport Club,Powergen Penal Sports Club,Trinidad and Tobago - Trinidad T20 Festival,Cricket,0,not_good_competition_or_low_coverage
-rugby-union,,,,,,,,"HTTP 400: {""error"":""Invalid sport slug""}"
-rugby-league,,,,,,,,"HTTP 400: {""error"":""Invalid sport slug""}"
+sport_query,event_id,date_denmark,home,away,league,sport,bookmaker_count,status,reason
+football,68042486,2026-05-14 22:00,Libertad Asuncion,CS 2 de Mayo,"Paraguay - Division de Honor, Apertura",Football,0,pending,not_good_competition_or_low_coverage
+football,71354678,2026-05-14 22:00,Astillero FC (Ecu),Guayaquil City FC,Ecuador - Copa Ecuador,Football,0,pending,not_good_competition_or_low_coverage
+football,71128218,2026-05-14 22:30,Red Bull Bragantino SP,SC Corinthians SP,"Brazil - Paulista, Women",Football,0,pending,not_good_competition_or_low_coverage
+football,70401294,2026-05-14 23:00,Chapecoense SC,Botafogo FR RJ,Brazil - Copa do Brasil,Football,0,pending,not_good_competition_or_low_coverage
+tennis,71389866,2026-05-14 21:30,"Arangio, Gala","Huynh, Yen Nhi",UTR Women - UTR PTT Newport Beach Women 11,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71390002,2026-05-14 21:30,"Berger, Benjamin","Rajski, Maciej",UTR Men - UTR PTT Newport Beach Men 11,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71390010,2026-05-14 21:30,"Zamora, Noah","Giesen, Jonty",UTR Men - UTR PTT Newport Beach Men 11,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,541749,2026-05-14 22:00,Mateo Del Pino,Pavlos Tsitsipas,ITF Men - Maringa,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,541750,2026-05-14 23:00,Joao Vitor Scramin Do Lago,Nicolas Bruna,ITF Men - Maringa,Tennis,0,pending,not_good_competition_or_low_coverage
+basketball,71325494,2026-05-14 21:30,Haukar,UMF Njardvik,"Iceland - Urvalsdeild, Women",Basketball,0,pending,not_good_competition_or_low_coverage
+basketball,71231666,2026-05-14 22:30,CP Esgueira,Sporting Cp,Portugal - LPB,Basketball,0,pending,not_good_competition_or_low_coverage
+basketball,71314288,2026-05-14 22:30,Imortal BC,FC Porto,Portugal - LPB,Basketball,0,pending,not_good_competition_or_low_coverage
+rugby-union,,,,,,,,,"HTTP 400: {""error"":""Invalid sport slug""}"
+rugby-league,,,,,,,,,"HTTP 400: {""error"":""Invalid sport slug""}"

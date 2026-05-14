@@ -1,26 +1,10 @@
 event_id,sport,league,date_utc,date_denmark,home,away,status
-63468553,Basketball,Israel - Super League,2026-05-14T18:05:00Z,2026-05-14 20:05,Hapoel Haemek,Maccabi Tel-Aviv,pending
-71481116,Basketball,Italy - Serie A2,2026-05-14T18:30:00Z,2026-05-14 20:30,New Basket Brindisi,Scaligera Basket Verona,pending
-71481174,Basketball,Italy - Serie A2,2026-05-14T18:30:00Z,2026-05-14 20:30,S.S. Avellino Basket,Fortitudo Bologna,pending
-71286202,Basketball,Italy - Serie B,2026-05-14T18:30:00Z,2026-05-14 20:30,Raggisolaris Faenza,Elachem Vigevano 1955,pending
+71493302,Tennis,"WTA - WTA Rome, Italy Women Singles",2026-05-14T19:20:00Z,2026-05-14 21:20,"Swiatek, Iga","Svitolina, Elina",pending
+71351942,Tennis,"Challenger - ATP Challenger Cordoba, Argentina Men Doubles",2026-05-14T20:30:00Z,2026-05-14 22:30,La Serna J M / Tobon M,Ambrogi L E / Zeitune M,pending
 63670075,Basketball,Spain - Liga ACB,2026-05-14T19:30:00Z,2026-05-14 21:30,Baskonia Vitoria-Gasteiz,UCAM Murcia,pending
-63670079,Basketball,Spain - Liga ACB,2026-05-14T18:00:00Z,2026-05-14 20:00,Club Joventut Badalona,BC Andorra,pending
-71389054,Esports,League of Legends - LPLOL,2026-05-14T18:00:00Z,2026-05-14 20:00,Ronaldoteam,The Otter Side,pending
-71494100,Esports,Counter-Strike - CCT South American Series,2026-05-14T19:00:00Z,2026-05-14 21:00,Players,Vasco eSports,pending
-71389056,Esports,League of Legends - LPLOL,2026-05-14T19:00:00Z,2026-05-14 21:00,Francesinhas,Bubliki,pending
-70067504,Esports,League of Legends - NACL,2026-05-14T20:00:00Z,2026-05-14 22:00,Maryville University,Supernova,pending
-30628172,Esports,Valorant - Champions Tour: Americas,2026-05-14T21:15:00Z,2026-05-14 23:15,FURIA,Leviatan,pending
-64055869,Football,Saudi Arabia - Saudi Pro League,2026-05-14T18:00:00Z,2026-05-14 20:00,Al-Ittifaq FC,Al-Ittihad Club,pending
-64055877,Football,Saudi Arabia - Saudi Pro League,2026-05-14T18:00:00Z,2026-05-14 20:00,Al Qadsiah,Al-Hazm,pending
-61624646,Football,Spain - LaLiga,2026-05-14T18:00:00Z,2026-05-14 20:00,Girona FC,Real Sociedad San Sebastian,pending
+69880380,Football,Ecuador - Serie B,2026-05-14T20:30:00Z,2026-05-14 22:30,Vinotinto FC Ecuador,Club Deportivo Cuenca Juniors,pending
 61624656,Football,Spain - LaLiga,2026-05-14T19:30:00Z,2026-05-14 21:30,Real Madrid,Real Oviedo,pending
 71426252,Football,Paraguay - Segunda Division,2026-05-14T20:00:00Z,2026-05-14 22:00,Club 3 De Noviembre,Deportivo Capiata,pending
-69880380,Football,Ecuador - Serie B,2026-05-14T20:30:00Z,2026-05-14 22:30,Vinotinto FC Ecuador,Club Deportivo Cuenca Juniors,pending
-70181800,Handball,International - World Championship Qualification,2026-05-14T18:00:00Z,2026-05-14 20:00,Bosnia & Herzegovina,Faroe Islands,pending
-71351942,Tennis,"Challenger - ATP Challenger Cordoba, Argentina Men Doubles",2026-05-14T19:30:00Z,2026-05-14 21:30,La Serna J M / Tobon M,Ambrogi L E / Zeitune M,pending
-71351852,Tennis,"Challenger - ATP Challenger Cordoba, Argentina Men Singles",2026-05-14T18:00:00Z,2026-05-14 20:00,"Roncadelli, Franco","Kicker, Nicolas",pending
-71493302,Tennis,"WTA - WTA Rome, Italy Women Singles",2026-05-14T18:30:00Z,2026-05-14 20:30,"Swiatek, Iga","Svitolina, Elina",pending
-69063414,Baseball,USA - Triple-A Pacific Coast League,2026-05-14T18:05:00Z,2026-05-14 20:05,Reno Aces,Las Vegas Aviators,pending
-63300591,Baseball,USA - MLB,2026-05-14T18:10:00Z,2026-05-14 20:10,Houston Astros,Seattle Mariners,pending
-63300697,Baseball,USA - MLB,2026-05-14T19:05:00Z,2026-05-14 21:05,Athletics,St. Louis Cardinals,pending
 68727174,Baseball,"USA - NCAA, Regular Season",2026-05-14T20:00:00Z,2026-05-14 22:00,Northwestern Wildcats,Rutgers Scarlet Knights,pending
+70067504,Esports,League of Legends - NACL,2026-05-14T20:00:00Z,2026-05-14 22:00,Maryville University,Supernova,pending
+30628172,Esports,Valorant - Champions Tour: Americas,2026-05-14T21:15:00Z,2026-05-14 23:15,FURIA,Leviatan,pending
