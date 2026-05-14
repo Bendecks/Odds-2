@@ -1,15 +1,15 @@
 {
-  "generated_at_dk": "2026-05-14 12:11",
+  "generated_at_dk": "2026-05-14 17:14",
   "report_date_dk": "2026-05-14",
   "bookmaker": "Bet365",
   "sports_requested": "football,tennis,basketball,ice-hockey,american-football,baseball,cricket,rugby-union,rugby-league,handball,esports",
-  "events_after_filters": 124,
-  "events_requested_for_odds": 124,
-  "events_with_odds": 124,
-  "market_rows": 13705,
-  "excluded_events": 171,
+  "events_after_filters": 69,
+  "events_requested_for_odds": 69,
+  "events_with_odds": 68,
+  "market_rows": 11521,
+  "excluded_events": 85,
   "min_bookmaker_count": 15,
   "pdf_created": true,
-  "latest_rate_limit_remaining": "72",
+  "latest_rate_limit_remaining": "78",
   "latest_rate_limit_limit": "100"
 }
