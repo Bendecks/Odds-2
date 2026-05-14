@@ -1,46 +1,13 @@
 raw_event_id,fixture_id,match_date,match_time,home_team,away_team,league,direct_match_confidence
-67915816,odds_api_io_67915816,2026-05-14,11:00,Bjarg,Brattvaag,norway-2nd-division-group-1,1.0
-68344646,odds_api_io_68344646,2026-05-14,11:00,IFK Berga,Rappe GOIF,sweden-division-2-promotion-playoffs,1.0
-70344940,odds_api_io_70344940,2026-05-14,11:00,Nykopings BIS,Lindo FF,sweden-division-2-promotion-playoffs,1.0
-68310884,odds_api_io_68310884,2026-05-14,11:00,Piteaa IF,FBK Karlstad,sweden-ettan-relegation/promotion,1.0
-70479314,odds_api_io_70479314,2026-05-14,11:00,Tanzania Prisons,Fountain Gate FC,tanzania-premier-league,1.0
-68377650,odds_api_io_68377650,2026-05-14,11:00,Torslanda IK,Qviding FIF,sweden-division-2-promotion-playoffs,1.0
-67915570,odds_api_io_67915570,2026-05-14,11:00,Tromsdalen UIL,Grorud IL,norway-2nd-division-group-2,1.0
-68311588,odds_api_io_68311588,2026-05-14,11:00,Tvaakers IF,BK Olympic,sweden-ettan-relegation/promotion,1.0
-68310886,odds_api_io_68310886,2026-05-14,11:00,Vasalunds IF,Gefle IF,sweden-ettan-relegation/promotion,1.0
-68377654,odds_api_io_68377654,2026-05-14,11:00,Vastra Frolunda IF,IK Kongahalla,sweden-division-2-promotion-playoffs,1.0
-70844428,odds_api_io_70844428,2026-05-14,12:00,Ellidi,Vaengir Jupiters,iceland-4-deild,1.0
-67920352,odds_api_io_67920352,2026-05-14,12:00,Hinna,FK Haugesund 2,norway-3rd-division-group-4,1.0
-71343346,odds_api_io_71343346,2026-05-14,12:00,HPS II,FC Honka,finland-suomen-cup-women,1.0
-68377658,odds_api_io_68377658,2026-05-14,12:00,Landvetter IS,IF Boljan Falkenberg,sweden-division-2-promotion-playoffs,1.0
-67919604,odds_api_io_67919604,2026-05-14,12:00,Nardo FK,Byaasen,norway-3rd-division-group-2,1.0
-67919608,odds_api_io_67919608,2026-05-14,12:00,Ntnui,Orkla,norway-3rd-division-group-2,1.0
-67921052,odds_api_io_67921052,2026-05-14,12:00,Oppsal IF,Raade IL,norway-3rd-division-group-6,1.0
-70926664,odds_api_io_70926664,2026-05-14,12:00,Shire Endaselassie FC,Ethiopian Coffee SC,ethiopia-premier-league,1.0
-67920356,odds_api_io_67920356,2026-05-14,12:00,Stabaek Fotball 2,Brodd,norway-3rd-division-group-4,1.0
-69539870,odds_api_io_69539870,2026-05-14,12:00,Umea FF,Fransta IK,sweden-division-2-promotion-playoffs,1.0
-68344650,odds_api_io_68344650,2026-05-14,12:00,Vaxjo Norra,Linero IF,sweden-division-2-promotion-playoffs,1.0
-67920350,odds_api_io_67920350,2026-05-14,12:00,Viking FK 2,Akra,norway-3rd-division-group-4,1.0
-70906780,odds_api_io_70906780,2026-05-14,12:15,FK Septemvri Sofia,FK Spartak 1918 Varna,bulgaria-parva-liga,1.0
-70981006,odds_api_io_70981006,2026-05-14,12:30,FC Salzburg Frauen,FK Austria Wien,austria-amateur-ofb-cup-women,1.0
-67915820,odds_api_io_67915820,2026-05-14,12:30,SK Traeff,Lysekloster,norway-2nd-division-group-1,1.0
-68310888,odds_api_io_68310888,2026-05-14,13:00,Assyriska FF,Umea FC,sweden-ettan-relegation/promotion,1.0
-70774892,odds_api_io_70774892,2026-05-14,13:00,Fauve Azur de Yaounde,Gazelle FA de Garoua,cameroon-elite-one,1.0
-67919620,odds_api_io_67919620,2026-05-14,13:00,Fk Kvik Trondheim,Strindheim TF,norway-3rd-division-group-2,1.0
-67563266,odds_api_io_67563266,2026-05-14,13:00,Herentals FC,Dynamos Harare FC,zimbabwe-premier-soccer-league,1.0
-67915572,odds_api_io_67915572,2026-05-14,13:00,Hoenefoss BK,Stjordals-Blink,norway-2nd-division-group-2,1.0
-68320174,odds_api_io_68320174,2026-05-14,13:00,Lidkopings FK,Grebbestads IF,sweden-division-2-promotion-playoffs,1.0
-67921064,odds_api_io_67921064,2026-05-14,13:00,Lillehammer FK,FK Gjoevik-Lyn,norway-3rd-division-group-6,1.0
-67919258,odds_api_io_67919258,2026-05-14,13:00,Lokomotiv Oslo,FK Union Carl Berner,norway-3rd-division-group-1,1.0
-70683964,odds_api_io_70683964,2026-05-14,13:00,Masku,LTU,finland-kolmonen,1.0
-70267784,odds_api_io_70267784,2026-05-14,13:00,Mjallby AIF,Hammarby IF,sweden-svenska-cup,1.0
-67921056,odds_api_io_67921056,2026-05-14,13:00,Raelingen,Brumunddal Fotball,norway-3rd-division-group-6,1.0
 71423498,odds_api_io_71423498,2026-05-14,13:00,Red Arrows,Green Eagles,zambia-super-league,1.0
 70945796,odds_api_io_70945796,2026-05-14,13:00,Shahrdari Nowshahr,FC Fard Alborz,iran-azadegan-league,1.0
 63637929,odds_api_io_63637929,2026-05-14,13:00,Simal,Difai Agsu,azerbaijan-first-division,1.0
+69448904,odds_api_io_69448904,2026-05-14,13:00,TRA United,Mtibwa Sugar FC,tanzania-premier-league,1.0
 69491788,odds_api_io_69491788,2026-05-14,13:00,Union Saint-Gilloise,RSC Anderlecht,belgium-beker-van-belgie,1.0
+70479356,odds_api_io_70479356,2026-05-14,13:15,Mashujaa FC,Simba SC,tanzania-premier-league,1.0
 70945864,odds_api_io_70945864,2026-05-14,13:15,Sanat Mes Kerman FC,Mes Shahr-e Babak,iran-azadegan-league,1.0
 67915824,odds_api_io_67915824,2026-05-14,13:30,FK Vidar,Sotra SK,norway-2nd-division-group-1,1.0
+70267784,odds_api_io_70267784,2026-05-14,13:30,Mjallby AIF,Hammarby IF,sweden-svenska-cup,1.0
 68311590,odds_api_io_68311590,2026-05-14,14:00,Angelholms FF,Aatvidabergs FF,sweden-ettan-relegation/promotion,1.0
 71218680,odds_api_io_71218680,2026-05-14,14:00,HB Torshavn,Vikingur Gota,faroe-islands-logmanssteypid,1.0
 68310890,odds_api_io_68310890,2026-05-14,14:00,IF Karlstad Fotbol,IFK Stocksund,sweden-ettan-relegation/promotion,1.0
@@ -65,9 +32,40 @@ raw_event_id,fixture_id,match_date,match_time,home_team,away_team,league,direct_
 71372084,odds_api_io_71372084,2026-05-14,15:00,CS Sfaxien,ES Sahel,tunisia-ligue-1,1.0
 61591362,odds_api_io_61591362,2026-05-14,15:00,First Vienna FC 1894,Schwarz-Weiss Bregenz,austria-2-liga,1.0
 70820614,odds_api_io_70820614,2026-05-14,15:00,Fylkir Reykjavik,FH Hafnarfjordur,iceland-cup,1.0
+64200529,odds_api_io_64200529,2026-05-14,15:00,KAC 1909,SC St. Veit,austria-amateur-karnten-karntner-liga,1.0
 67126094,odds_api_io_67126094,2026-05-14,15:00,Ljungskile SK,GIF Sundsvall,sweden-superettan,1.0
 61591360,odds_api_io_61591360,2026-05-14,15:00,SK Austria Klagenfurt,FC Liefering,austria-2-liga,1.0
 61591372,odds_api_io_61591372,2026-05-14,15:00,SK Sturm Graz II,Rapid Wien II,austria-2-liga,1.0
 61591366,odds_api_io_61591366,2026-05-14,15:00,SKN St Polten,FC Hertha Wels,austria-2-liga,1.0
 61541420,odds_api_io_61541420,2026-05-14,15:00,SV Kuchl,FC Kitzbuhel,austria-amateur-regionalliga-west,1.0
+61902044,odds_api_io_61902044,2026-05-14,15:00,SV Wildon,SC Stadtwerke Bruck/Mur,austria-amateur-steiermark-landesliga,1.0
 71203972,odds_api_io_71203972,2026-05-14,15:00,FC Urartu Yerevan,FC Noah Yerevan,armenia-armenian-cup,1.0
+71456920,odds_api_io_71456920,2026-05-14,15:10,Hapoel Nir Ramat Hasharon,Maccabi Kishronot Hadera,israel-liga-al-women,1.0
+71336698,odds_api_io_71336698,2026-05-14,15:20,Samail SC,Sohar,oman-omani-league,1.0
+61898610,odds_api_io_61898610,2026-05-14,15:30,ASKO Kottmannsdorf,SV Dellach/Gail,austria-amateur-karnten-karntner-liga,1.0
+70479362,odds_api_io_70479362,2026-05-14,15:30,Azam FC,Pamba Jiji SC,tanzania-premier-league,1.0
+64055871,odds_api_io_64055871,2026-05-14,15:55,Al-Fateh SC,Al-Najma,saudi-arabia-saudi-pro-league,1.0
+71403928,odds_api_io_71403928,2026-05-14,16:00,Bouri,AL Tadamun Buri,bahrain-2nd-division,1.0
+68158790,odds_api_io_68158790,2026-05-14,16:00,CA Huracan,Independiente Reserve,argentina-copa-proyeccion-final-reserves,1.0
+71403932,odds_api_io_71403932,2026-05-14,16:00,East Riffa,Qalali Club,bahrain-2nd-division,1.0
+70162024,odds_api_io_70162024,2026-05-14,16:00,FK Suduva Marijampole B,FK Utenos Utenis,lithuania-ii-lyga,1.0
+67919260,odds_api_io_67919260,2026-05-14,16:00,Gamle Oslo FK,SF Grei,norway-3rd-division-group-1,1.0
+70929770,odds_api_io_70929770,2026-05-14,16:00,Hapoel Hadera FC,Hapoel Ra`anana FC,israel-national-league,1.0
+70929772,odds_api_io_70929772,2026-05-14,16:00,Ironi Modiin,Hapoel Acre FC,israel-national-league,1.0
+71403930,odds_api_io_71403930,2026-05-14,16:00,Isa Town,Al Ittifaq BHR,bahrain-2nd-division,1.0
+70683966,odds_api_io_70683966,2026-05-14,16:00,KaaPo,Vg-62,finland-kolmonen,1.0
+71312158,odds_api_io_71312158,2026-05-14,16:00,RC Celta de Vigo,UD Las Palmas,spain-u19-division-de-honor-juvenil,1.0
+67921068,odds_api_io_67921068,2026-05-14,16:00,Sandefjord Fotball 2,Drobak-Frogn,norway-3rd-division-group-6,1.0
+61894062,odds_api_io_61894062,2026-05-14,16:00,SPG Edelserpentin,SV Eberau,austria-amateur-burgenland-burgenlandliga,1.0
+68774142,odds_api_io_68774142,2026-05-14,16:00,FC Tallinn,JK Tallinna Kalev,estonia-esiliiga,1.0
+68377548,odds_api_io_68377548,2026-05-14,16:30,IK Sleipner,Smedby AIS,sweden-division-2-promotion-playoffs,1.0
+71336700,odds_api_io_71336700,2026-05-14,16:35,Al Nahda,Al-Seeb,oman-omani-league,1.0
+67953278,odds_api_io_67953278,2026-05-14,16:35,Al-Wehda FC,Al-Jabalain,saudi-arabia-division-1,1.0
+67953286,odds_api_io_67953286,2026-05-14,16:45,Al-Orobah,AL Anwar,saudi-arabia-division-1,1.0
+70844430,odds_api_io_70844430,2026-05-14,17:00,Arborg,Alafoss,iceland-4-deild,1.0
+69923670,odds_api_io_69923670,2026-05-14,17:00,Fish United,NOPS,finland-kolmonen,1.0
+67919890,odds_api_io_67919890,2026-05-14,17:00,Gneist,Austevoll,norway-3rd-division-group-3,1.0
+71312160,odds_api_io_71312160,2026-05-14,17:00,Granada CF,CF Valencia,spain-u19-division-de-honor-juvenil,1.0
+61624652,odds_api_io_61624652,2026-05-14,17:00,Valencia CF,Rayo Vallecano,spain-laliga,1.0
+70906778,odds_api_io_70906778,2026-05-14,17:15,FC Lokomotiv 1929 Sofia,PFK Beroe Stara Zagora,bulgaria-parva-liga,1.0
+67953282,odds_api_io_67953282,2026-05-14,18:00,AL Draih,Al Bukiryah,saudi-arabia-division-1,1.0

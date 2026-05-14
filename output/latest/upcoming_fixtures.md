@@ -4,8 +4,8 @@ Fixture sources: TheSportsDB, Football-Data fixtures proxy, cautious odds-api.io
 Duplicate fixtures are deduplicated by date and normalized teams, preferring odds-api.io then Football-Data for odds alignment.
 Primary development target: automatic/free market proxy, not manual Bet365.
 
-Fixtures found: 278
-Source counts: {'odds_api_io_events_bookmaker_filtered': 271, 'football_data_fixtures_proxy': 3, 'odds_api_io_events_search': 3, 'thesportsdb_eventsnextleague': 1}
+Fixtures found: 327
+Source counts: {'odds_api_io_events_bookmaker_filtered': 317, 'odds_api_io_events_search': 6, 'football_data_fixtures_proxy': 3, 'thesportsdb_eventsnextleague': 1}
 Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 
 - 2026-05-14 22:00 | AC Goianiense GO vs CA Paranaense PR | brazil-copa-do-brasil | odds_api_io_events_bookmaker_filtered
@@ -28,13 +28,12 @@ Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 - 2026-05-14 14:00 | Angelholms FF vs Aatvidabergs FF | sweden-ettan-relegation/promotion | odds_api_io_events_bookmaker_filtered
 - 2026-05-14 17:00 | Arborg vs Alafoss | iceland-4-deild | odds_api_io_events_bookmaker_filtered
 - 2026-05-14 15:00 | AS Fortuna vs Coton Sport de Garoua | cameroon-elite-one | odds_api_io_events_bookmaker_filtered
+- 2026-05-14 15:30 | ASKO Kottmannsdorf vs SV Dellach/Gail | austria-amateur-karnten-karntner-liga | odds_api_io_events_bookmaker_filtered
 - 2026-05-14 13:00 | Assyriska FF vs Umea FC | sweden-ettan-relegation/promotion | odds_api_io_events_bookmaker_filtered
 - 2026-05-14 18:00 | Atletico Mineiro MG vs Mirassol FC SP | brazil-u20-brasileiro-serie-b | odds_api_io_events_bookmaker_filtered
 - 2026-05-14 15:00 | Austria Lustenau vs SKU Amstetten | austria-2-liga | odds_api_io_events_bookmaker_filtered
 - 2026-05-14 15:30 | Azam FC vs Pamba Jiji SC | tanzania-premier-league | odds_api_io_events_bookmaker_filtered
-- 2026-05-14 10:00 | FC Barcelona vs CD Tenerife | spain-u19-division-de-honor-juvenil | odds_api_io_events_bookmaker_filtered
 - 2026-05-14 14:30 | FC Basel 1893 vs FC St. Gallen 1879 | switzerland-super-league | odds_api_io_events_bookmaker_filtered
-- 2026-05-14 11:00 | Bjarg vs Brattvaag | norway-2nd-division-group-1 | odds_api_io_events_bookmaker_filtered
 - 2026-05-14 16:00 | Bouri vs AL Tadamun Buri | bahrain-2nd-division | odds_api_io_events_bookmaker_filtered
 - 2026-05-14 19:00 | Bradford City FC vs Bolton Wanderers | england-league-one | odds_api_io_events_bookmaker_filtered
 - 2026-05-14 16:00 | CA Huracan vs Independiente Reserve | argentina-copa-proyeccion-final-reserves | odds_api_io_events_bookmaker_filtered
@@ -54,11 +53,11 @@ Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 - 2026-05-14 18:00 | Deportivo Riestra Afbc Reserve vs San Martin de San Juan Reserve | argentina-copa-proyeccion-final-reserves | odds_api_io_events_bookmaker_filtered
 - 2026-05-14 14:05 | Dhofar SCSC vs Al Shabab | oman-omani-league | odds_api_io_events_bookmaker_filtered
 - 2026-05-14 16:00 | East Riffa vs Qalali Club | bahrain-2nd-division | odds_api_io_events_bookmaker_filtered
-- 2026-05-14 12:00 | Ellidi vs Vaengir Jupiters | iceland-4-deild | odds_api_io_events_bookmaker_filtered
 - 2026-05-14 13:00 | Fauve Azur de Yaounde vs Gazelle FA de Garoua | cameroon-elite-one | odds_api_io_events_bookmaker_filtered
 - 2026-05-14 15:00 | First Vienna FC 1894 vs Schwarz-Weiss Bregenz | austria-2-liga | odds_api_io_events_bookmaker_filtered
+- 2026-05-14 17:00 | Fish United vs NOPS | finland-kolmonen | odds_api_io_events_bookmaker_filtered
 - 2026-05-14 13:00 | Fk Kvik Trondheim vs Strindheim TF | norway-3rd-division-group-2 | odds_api_io_events_bookmaker_filtered
-- 2026-05-14 12:15 | FK Septemvri Sofia vs FK Spartak 1918 Varna | bulgaria-parva-liga | odds_api_io_events_bookmaker_filtered
+- 2026-05-14 16:00 | FK Suduva Marijampole B vs FK Utenos Utenis | lithuania-ii-lyga | odds_api_io_events_bookmaker_filtered
 - 2026-05-14 13:30 | FK Vidar vs Sotra SK | norway-2nd-division-group-1 | odds_api_io_events_bookmaker_filtered
 - 2026-05-14 15:00 | Fylkir Reykjavik vs FH Hafnarfjordur | iceland-cup | odds_api_io_events_bookmaker_filtered
 - 2026-05-14 16:00 | Gamle Oslo FK vs SF Grei | norway-3rd-division-group-1 | odds_api_io_events_bookmaker_filtered
@@ -70,21 +69,22 @@ Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 - 2026-05-14 15:10 | Hapoel Nir Ramat Hasharon vs Maccabi Kishronot Hadera | israel-liga-al-women | odds_api_io_events_bookmaker_filtered
 - 2026-05-14 14:00 | HB Torshavn vs Vikingur Gota | faroe-islands-logmanssteypid | odds_api_io_events_bookmaker_filtered
 - 2026-05-14 13:00 | Herentals FC vs Dynamos Harare FC | zimbabwe-premier-soccer-league | odds_api_io_events_bookmaker_filtered
-- 2026-05-14 12:00 | Hinna vs FK Haugesund 2 | norway-3rd-division-group-4 | odds_api_io_events_bookmaker_filtered
-- 2026-05-14 11:00 | Hobro IK vs Aarhus Fremad | denmark-1-division | odds_api_io_events_bookmaker_filtered
 - 2026-05-14 13:00 | Hoenefoss BK vs Stjordals-Blink | norway-2nd-division-group-2 | odds_api_io_events_bookmaker_filtered
-- 2026-05-14 12:00 | HPS II vs FC Honka | finland-suomen-cup-women | odds_api_io_events_bookmaker_filtered
 - 2026-05-14 14:00 | IF Karlstad Fotbol vs IFK Stocksund | sweden-ettan-relegation/promotion | odds_api_io_events_bookmaker_filtered
 - 2026-05-14 14:00 | IF Vestri vs Grotta | iceland-cup | odds_api_io_events_bookmaker_filtered
-- 2026-05-14 11:00 | IFK Berga vs Rappe GOIF | sweden-division-2-promotion-playoffs | odds_api_io_events_bookmaker_filtered
 - 2026-05-14 16:30 | IK Sleipner vs Smedby AIS | sweden-division-2-promotion-playoffs | odds_api_io_events_bookmaker_filtered
+- 2026-05-14 18:30 | Inhumas EC GO vs Royal GO | brazil-u20-goiano-1-divisao | odds_api_io_events_bookmaker_filtered
 - 2026-05-14 16:00 | Ironi Modiin vs Hapoel Acre FC | israel-national-league | odds_api_io_events_bookmaker_filtered
 - 2026-05-14 16:00 | Isa Town vs Al Ittifaq BHR | bahrain-2nd-division | odds_api_io_events_bookmaker_filtered
-- 2026-05-14 10:00 | JaPS vs FC KTP | finland-suomen-cup-women | odds_api_io_events_bookmaker_filtered
 - 2026-05-14 14:00 | KA Akureyri vs KF Aegir | iceland-cup | odds_api_io_events_bookmaker_filtered
 - 2026-05-14 16:00 | KaaPo vs Vg-62 | finland-kolmonen | odds_api_io_events_bookmaker_filtered
+- 2026-05-14 15:00 | KAC 1909 vs SC St. Veit | austria-amateur-karnten-karntner-liga | odds_api_io_events_bookmaker_filtered
 - 2026-05-14 14:00 | Kjp Kouvola vs Lautp | finland-kolmonen | odds_api_io_events_bookmaker_filtered
-- 2026-05-14 12:00 | Landvetter IS vs IF Boljan Falkenberg | sweden-division-2-promotion-playoffs | odds_api_io_events_bookmaker_filtered
 - 2026-05-14 20:00 | Libertad Asuncion vs CS 2 de Mayo | paraguay-division-de-honor-apertura | odds_api_io_events_bookmaker_filtered
 - 2026-05-14 13:00 | Lidkopings FK vs Grebbestads IF | sweden-division-2-promotion-playoffs | odds_api_io_events_bookmaker_filtered
 - 2026-05-14 13:00 | Lillehammer FK vs FK Gjoevik-Lyn | norway-3rd-division-group-6 | odds_api_io_events_bookmaker_filtered
+- 2026-05-14 15:00 | Ljungskile SK vs GIF Sundsvall | sweden-superettan | odds_api_io_events_bookmaker_filtered
+- 2026-05-14 17:15 | FC Lokomotiv 1929 Sofia vs PFK Beroe Stara Zagora | bulgaria-parva-liga | odds_api_io_events_bookmaker_filtered
+- 2026-05-14 13:00 | Lokomotiv Oslo vs FK Union Carl Berner | norway-3rd-division-group-1 | odds_api_io_events_bookmaker_filtered
+- 2026-05-14 13:15 | Mashujaa FC vs Simba SC | tanzania-premier-league | odds_api_io_events_bookmaker_filtered
+- 2026-05-14 13:00 | Masku vs LTU | finland-kolmonen | odds_api_io_events_bookmaker_filtered

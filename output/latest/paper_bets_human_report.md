@@ -6,8 +6,8 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 ## Kort status
 
 - Aktuelle viste paper picks: **23**
-- Unikke loggede paper picks: **74**
-- Afventer i loggen: **71**
+- Unikke loggede paper picks: **89**
+- Afventer i loggen: **86**
 - Afgjorte fundet i settled-filen: **210**
 - Skjulte U-/reserve-rækker: **5**
 - Vundne: **70**
@@ -34,47 +34,65 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **priority_proxy_observation**
 - Note: **expanded_volume_forward_observation_not_real_money**
 
-### SJK-J vs FC Kiisto
-- Dato: **2026-05-14**
-- Kampstart: **08:00**
-- Spil: **Hjemmesejr**
-- Odds: **4.33**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Oppsal IF vs Raade IL
-- Dato: **2026-05-14**
-- Kampstart: **12:00**
-- Spil: **Hjemmesejr**
-- Odds: **4.33**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
 ### Red Arrows vs Green Eagles
 - Dato: **2026-05-14**
 - Kampstart: **13:00**
 - Spil: **Udebanesejr**
-- Odds: **4.75**
+- Odds: **5.00**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Sidama Bunna SC vs Hadiya Hossana FC
+### Ljungskile SK vs GIF Sundsvall
 - Dato: **2026-05-14**
-- Kampstart: **10:00**
+- Kampstart: **15:00**
 - Spil: **Udebanesejr**
-- Odds: **4.75**
+- Odds: **5.00**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Real Madrid vs Real Oviedo
+### Austria Lustenau vs SKU Amstetten
 - Dato: **2026-05-14**
-- Kampstart: **19:30**
-- Spil: **Uafgjort**
-- Odds: **6.28**
+- Kampstart: **15:00**
+- Spil: **Udebanesejr**
+- Odds: **5.00**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### POFC Botev Vratsa vs PFC Montana 1921
+- Dato: **2026-05-14**
+- Kampstart: **14:45**
+- Spil: **Udebanesejr**
+- Odds: **5.00**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### FC Urartu Yerevan vs FC Noah Yerevan
+- Dato: **2026-05-14**
+- Kampstart: **15:00**
+- Spil: **Hjemmesejr**
+- Odds: **4.33**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Fauve Azur de Yaounde vs Gazelle FA de Garoua
+- Dato: **2026-05-14**
+- Kampstart: **13:00**
+- Spil: **Hjemmesejr**
+- Odds: **4.20**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### ASKO Kottmannsdorf vs SV Dellach/Gail
+- Dato: **2026-05-14**
+- Kampstart: **15:30**
+- Spil: **Hjemmesejr**
+- Odds: **4.20**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
@@ -88,56 +106,11 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### FK Septemvri Sofia vs FK Spartak 1918 Varna
+### Real Madrid vs Real Oviedo
 - Dato: **2026-05-14**
-- Kampstart: **12:15**
-- Spil: **Udebanesejr**
-- Odds: **4.50**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### KA Akureyri vs KF Aegir
-- Dato: **2026-05-14**
-- Kampstart: **14:00**
+- Kampstart: **19:30**
 - Spil: **Uafgjort**
-- Odds: **6.25**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### JaPS vs FC KTP
-- Dato: **2026-05-14**
-- Kampstart: **10:00**
-- Spil: **Uafgjort**
-- Odds: **6.00**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Mtibwa Sugar FC vs Kmc FC
-- Dato: **2026-05-14**
-- Kampstart: **11:00**
-- Spil: **Udebanesejr**
-- Odds: **4.00**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### FC Salzburg Frauen vs FK Austria Wien
-- Dato: **2026-05-14**
-- Kampstart: **12:30**
-- Spil: **Uafgjort**
-- Odds: **5.50**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Neroca FC vs Sudeva Delhi FC
-- Dato: **2026-05-14**
-- Kampstart: **09:30**
-- Spil: **Udebanesejr**
-- Odds: **3.90**
+- Odds: **6.28**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
@@ -146,43 +119,34 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Dato: **2026-05-14**
 - Kampstart: **13:00**
 - Spil: **Udebanesejr**
-- Odds: **3.80**
+- Odds: **4.50**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Shire Endaselassie FC vs Ethiopian Coffee SC
+### AL Naft vs AL Minaa
 - Dato: **2026-05-14**
-- Kampstart: **12:00**
+- Kampstart: **14:30**
 - Spil: **Hjemmesejr**
-- Odds: **3.40**
+- Odds: **4.00**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### IF Karlstad Fotbol vs IFK Stocksund
+### AL Naft Maysan vs AL Karma
 - Dato: **2026-05-14**
-- Kampstart: **14:00**
-- Spil: **Uafgjort**
-- Odds: **5.00**
+- Kampstart: **14:30**
+- Spil: **Hjemmesejr**
+- Odds: **4.00**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Viking FK 2 vs Akra
+### Dhofar SCSC vs Al Shabab
 - Dato: **2026-05-14**
-- Kampstart: **12:00**
-- Spil: **Uafgjort**
-- Odds: **5.00**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Herentals FC vs Dynamos Harare FC
-- Dato: **2026-05-14**
-- Kampstart: **13:00**
-- Spil: **Udebanesejr**
-- Odds: **3.60**
+- Kampstart: **14:05**
+- Spil: **Hjemmesejr**
+- Odds: **3.90**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
@@ -191,7 +155,43 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Dato: **2026-05-14**
 - Kampstart: **14:00**
 - Spil: **Udebanesejr**
-- Odds: **3.60**
+- Odds: **4.20**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### SK Austria Klagenfurt vs FC Liefering
+- Dato: **2026-05-14**
+- Kampstart: **15:00**
+- Spil: **Hjemmesejr**
+- Odds: **3.75**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### SV Wildon vs SC Stadtwerke Bruck/Mur
+- Dato: **2026-05-14**
+- Kampstart: **15:00**
+- Spil: **Uafgjort**
+- Odds: **5.50**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Raelingen vs Brumunddal Fotball
+- Dato: **2026-05-14**
+- Kampstart: **13:00**
+- Spil: **Udebanesejr**
+- Odds: **3.90**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### IF Karlstad Fotbol vs IFK Stocksund
+- Dato: **2026-05-14**
+- Kampstart: **14:00**
+- Spil: **Uafgjort**
+- Odds: **5.25**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
