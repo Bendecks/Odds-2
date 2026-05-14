@@ -1,88 +1,26 @@
 event_id,sport,league,date_utc,date_denmark,home,away,status
-71328832,Tennis,"Challenger - ATP Challenger Oeiras 4, Portugal Men Doubles",2026-05-14T14:30:00Z,2026-05-14 16:30,Reynolds F / Watt J,Pereira T / Vega Hernandez D,pending
-71328824,Tennis,"Challenger - ATP Challenger Oeiras 4, Portugal Men Doubles",2026-05-14T14:50:00Z,2026-05-14 16:50,Jecan A / Pavel B,Banthia S / Donski A,pending
-71327272,Tennis,"Challenger - ATP Challenger Bordeaux, France Men Singles",2026-05-14T14:55:00Z,2026-05-14 16:55,"Cerundolo, Juan Manuel","Burruchaga, Roman Andres",pending
-71327268,Tennis,"Challenger - ATP Challenger Bordeaux, France Men Singles",2026-05-14T14:20:00Z,2026-05-14 16:20,"Vukic, Aleksandar","Mpetshi Perricard, Giovanni",pending
-71421834,Tennis,"Challenger - ATP Challenger Zagreb, Croatia Men Doubles",2026-05-14T14:20:00Z,2026-05-14 16:20,Maric V / Mikrut L,Grevelius E / Heinonen A,pending
-71465998,Tennis,"Challenger - ATP Challenger Valencia, Spain Men Doubles",2026-05-14T14:30:00Z,2026-05-14 16:30,Arends S / Pel D,Martinez P / Zapata Miralles B,pending
-71352190,Tennis,"WTA 125K - WTA 125K Parma, Italy Women Singles",2026-05-14T15:00:00Z,2026-05-14 17:00,"Bandecchi, Susan","Bouzas Maneiro, Jessica",pending
-71330418,Tennis,"Challenger - ATP Challenger Zagreb, Croatia Men Singles",2026-05-14T15:10:00Z,2026-05-14 17:10,"Choinski, Jan","Rodesch, Chris",pending
-71244418,Tennis,"ATP - ATP Rome, Italy Men Doubles",2026-05-14T14:30:00Z,2026-05-14 16:30,Doumbia S / Reboul F,Granollers M / Zeballos H,pending
-71327270,Tennis,"Challenger - ATP Challenger Bordeaux, France Men Singles",2026-05-14T14:30:00Z,2026-05-14 16:30,"Van de Zandschulp, Botic","Halys, Quentin",pending
-71351838,Tennis,"Challenger - ATP Challenger Cordoba, Argentina Men Singles",2026-05-14T15:30:00Z,2026-05-14 17:30,"Justo, Guido Ivan","Ribeiro, Eduardo",pending
-71244420,Tennis,"ATP - ATP Rome, Italy Men Doubles",2026-05-14T15:40:00Z,2026-05-14 17:40,Erler A / Miedler L,Krajicek A / Mektic N,pending
-71328822,Tennis,"Challenger - ATP Challenger Oeiras 4, Portugal Men Doubles",2026-05-14T15:40:00Z,2026-05-14 17:40,Lammons N / Withrow J,Escobar G / Kestelboim M,pending
-71328562,Tennis,"Challenger - ATP Challenger Valencia, Spain Men Singles",2026-05-14T16:00:00Z,2026-05-14 18:00,"Baez, Sebastian","Carreno Busta, Pablo",pending
-71466044,Tennis,"Challenger - ATP Challenger Bordeaux, France Men Doubles",2026-05-14T16:05:00Z,2026-05-14 18:05,Reymond A / Sanchez L,Drzewiecki K / Matuszewski P,pending
-71466036,Tennis,"Challenger - ATP Challenger Bordeaux, France Men Doubles",2026-05-14T15:30:00Z,2026-05-14 17:30,Gille S / Verbeek S,Arribage T / Peers J,pending
-71465996,Tennis,"Challenger - ATP Challenger Valencia, Spain Men Doubles",2026-05-14T15:40:00Z,2026-05-14 17:40,Balaji N S / Demoliner M,Paul J / Vocel M,pending
-71351848,Tennis,"Challenger - ATP Challenger Cordoba, Argentina Men Singles",2026-05-14T16:00:00Z,2026-05-14 18:00,"Torres, Juan Bautista","Tobon, Miguel",pending
-71244668,Tennis,"WTA - WTA Rome, Italy Women Doubles",2026-05-14T16:00:00Z,2026-05-14 18:00,Bucsa C / Melichar-Martinez N,Gauff C / McNally C,pending
-71466040,Tennis,"Challenger - ATP Challenger Bordeaux, France Men Doubles",2026-05-14T16:40:00Z,2026-05-14 18:40,Delage P / Dussin L,Nouza P / Oberleitner N,pending
-71351852,Tennis,"Challenger - ATP Challenger Cordoba, Argentina Men Singles",2026-05-14T16:40:00Z,2026-05-14 18:40,"Roncadelli, Franco","Kicker, Nicolas",pending
-71201150,Tennis,"ATP - ATP Rome, Italy Men Singles",2026-05-14T17:00:00Z,2026-05-14 19:00,"Landaluce, Martin","Medvedev, Daniil",pending
-71327290,Tennis,"Challenger - ATP Challenger Bordeaux, France Men Singles",2026-05-14T17:00:00Z,2026-05-14 19:00,"Rinderknech, Arthur","Damm Jr, Martin",pending
-71466046,Tennis,"Challenger - ATP Challenger Bordeaux, France Men Doubles",2026-05-14T17:50:00Z,2026-05-14 19:50,Arneodo R / Polmans M,Blancaneaux G / Tabur C,pending
-71493302,Tennis,"WTA - WTA Rome, Italy Women Singles",2026-05-14T18:30:00Z,2026-05-14 20:30,"Swiatek, Iga","Svitolina, Elina",pending
-71351942,Tennis,"Challenger - ATP Challenger Cordoba, Argentina Men Doubles",2026-05-14T19:30:00Z,2026-05-14 21:30,La Serna J M / Tobon M,Ambrogi L E / Zeitune M,pending
-71406946,Basketball,Finland - Korisliiga,2026-05-14T15:00:00Z,2026-05-14 17:00,Salon Vilpas Vikings,Kataja Basket Joensuu,pending
-63670083,Basketball,Spain - Liga ACB,2026-05-14T17:00:00Z,2026-05-14 19:00,Bilbao Basket,Real Madrid,pending
-63670081,Basketball,Spain - Liga ACB,2026-05-14T17:00:00Z,2026-05-14 19:00,CB San Pablo Burgos,CB Malaga,pending
-71494034,Basketball,Israel - National League,2026-05-14T17:20:00Z,2026-05-14 19:20,Ironi Nahariya,Elitzur Shomron Hlp,pending
 63468553,Basketball,Israel - Super League,2026-05-14T18:05:00Z,2026-05-14 20:05,Hapoel Haemek,Maccabi Tel-Aviv,pending
 71481116,Basketball,Italy - Serie A2,2026-05-14T18:30:00Z,2026-05-14 20:30,New Basket Brindisi,Scaligera Basket Verona,pending
-63468603,Basketball,Israel - Super League,2026-05-14T14:30:00Z,2026-05-14 16:30,Ironi Kiryat ATA,Elitzur Netanya,pending
-71222928,Basketball,Austria - Superliga,2026-05-14T17:00:00Z,2026-05-14 19:00,Kapfenberg Bulls,UBSC Graz,pending
-71222930,Basketball,Austria - Superliga,2026-05-14T17:15:00Z,2026-05-14 19:15,Oberwart Gunners,BC Vienna,pending
-63670079,Basketball,Spain - Liga ACB,2026-05-14T18:00:00Z,2026-05-14 20:00,Club Joventut Badalona,BC Andorra,pending
 71481174,Basketball,Italy - Serie A2,2026-05-14T18:30:00Z,2026-05-14 20:30,S.S. Avellino Basket,Fortitudo Bologna,pending
 71286202,Basketball,Italy - Serie B,2026-05-14T18:30:00Z,2026-05-14 20:30,Raggisolaris Faenza,Elachem Vigevano 1955,pending
 63670075,Basketball,Spain - Liga ACB,2026-05-14T19:30:00Z,2026-05-14 21:30,Baskonia Vitoria-Gasteiz,UCAM Murcia,pending
-30590670,Esports,Valorant - Challengers Turkiye,2026-05-14T14:30:00Z,2026-05-14 16:30,Besiktas,Reborn,pending
-71188542,Esports,League of Legends - Esports World Cup,2026-05-14T15:00:00Z,2026-05-14 17:00,G2 Esports,Natus Wincere,pending
-71192696,Esports,League of Legends - Esports World Cup,2026-05-14T15:00:00Z,2026-05-14 17:00,Karmine Corp,Movistar Koi,pending
-70450200,Esports,League of Legends - LES,2026-05-14T15:00:00Z,2026-05-14 17:00,UCAM Esports,Lua Gaming,pending
-71464806,Esports,Dota - DreamLeague,2026-05-14T17:00:00Z,2026-05-14 19:00,Parivision,Xtreme Gaming,pending
-71464812,Esports,Dota - DreamLeague,2026-05-14T17:00:00Z,2026-05-14 19:00,Playtime,Rekonix,pending
-71464810,Esports,Dota - DreamLeague,2026-05-14T17:00:00Z,2026-05-14 19:00,Nigma Galaxy,Tundra eSports,pending
-30382699,Esports,Valorant - Challengers Turkiye,2026-05-14T14:45:00Z,2026-05-14 16:45,Reborn,Besiktas,pending
-71494090,Esports,Counter-Strike - CCT South American Series,2026-05-14T16:00:00Z,2026-05-14 18:00,Guara eSports,Metanoia Wolves,pending
-71464808,Esports,Dota - DreamLeague,2026-05-14T17:00:00Z,2026-05-14 19:00,Natus Vincere,BetBoom Team,pending
-71206006,Esports,League of Legends - Esports World Cup,2026-05-14T18:00:00Z,2026-05-14 20:00,Shifters,Galions,pending
-71209566,Esports,League of Legends - Esports World Cup,2026-05-14T18:00:00Z,2026-05-14 20:00,Giantx,Solary,pending
+63670079,Basketball,Spain - Liga ACB,2026-05-14T18:00:00Z,2026-05-14 20:00,Club Joventut Badalona,BC Andorra,pending
 71389054,Esports,League of Legends - LPLOL,2026-05-14T18:00:00Z,2026-05-14 20:00,Ronaldoteam,The Otter Side,pending
 71494100,Esports,Counter-Strike - CCT South American Series,2026-05-14T19:00:00Z,2026-05-14 21:00,Players,Vasco eSports,pending
 71389056,Esports,League of Legends - LPLOL,2026-05-14T19:00:00Z,2026-05-14 21:00,Francesinhas,Bubliki,pending
 70067504,Esports,League of Legends - NACL,2026-05-14T20:00:00Z,2026-05-14 22:00,Maryville University,Supernova,pending
 30628172,Esports,Valorant - Champions Tour: Americas,2026-05-14T21:15:00Z,2026-05-14 23:15,FURIA,Leviatan,pending
-70448376,Football,Switzerland - Super League,2026-05-14T14:30:00Z,2026-05-14 16:30,FC Basel 1893,FC St. Gallen 1879,pending
-71370014,Football,Kuwait - Premier League,2026-05-14T14:40:00Z,2026-05-14 16:40,Al Jahra,Al-Nasr SC,pending
-71372084,Football,Tunisia - Ligue 1,2026-05-14T15:00:00Z,2026-05-14 17:00,CS Sfaxien,ES Sahel,pending
-70479362,Football,Tanzania - Premier League,2026-05-14T15:30:00Z,2026-05-14 17:30,Azam FC,Pamba Jiji SC,pending
-68774142,Football,Estonia - Esiliiga,2026-05-14T16:00:00Z,2026-05-14 18:00,FC Tallinn,JK Tallinna Kalev,pending
-70929770,Football,Israel - National League,2026-05-14T16:00:00Z,2026-05-14 18:00,Hapoel Hadera FC,Hapoel Ra`anana FC,pending
-70448378,Football,Switzerland - Super League,2026-05-14T14:30:00Z,2026-05-14 16:30,FC Sion,FC Lugano,pending
-70448380,Football,Switzerland - Super League,2026-05-14T14:30:00Z,2026-05-14 16:30,FC Thun,Young Boys Bern,pending
-67126094,Football,Sweden - Superettan,2026-05-14T15:00:00Z,2026-05-14 17:00,Ljungskile SK,GIF Sundsvall,pending
-64055871,Football,Saudi Arabia - Saudi Pro League,2026-05-14T15:55:00Z,2026-05-14 17:55,Al-Fateh SC,Al-Najma,pending
-70929772,Football,Israel - National League,2026-05-14T16:00:00Z,2026-05-14 18:00,Ironi Modiin,Hapoel Acre FC,pending
-61624652,Football,Spain - LaLiga,2026-05-14T17:00:00Z,2026-05-14 19:00,Valencia CF,Rayo Vallecano,pending
 64055869,Football,Saudi Arabia - Saudi Pro League,2026-05-14T18:00:00Z,2026-05-14 20:00,Al-Ittifaq FC,Al-Ittihad Club,pending
 64055877,Football,Saudi Arabia - Saudi Pro League,2026-05-14T18:00:00Z,2026-05-14 20:00,Al Qadsiah,Al-Hazm,pending
-71426252,Football,Paraguay - Segunda Division,2026-05-14T20:00:00Z,2026-05-14 22:00,Club 3 De Noviembre,Deportivo Capiata,pending
 61624646,Football,Spain - LaLiga,2026-05-14T18:00:00Z,2026-05-14 20:00,Girona FC,Real Sociedad San Sebastian,pending
 61624656,Football,Spain - LaLiga,2026-05-14T19:30:00Z,2026-05-14 21:30,Real Madrid,Real Oviedo,pending
+71426252,Football,Paraguay - Segunda Division,2026-05-14T20:00:00Z,2026-05-14 22:00,Club 3 De Noviembre,Deportivo Capiata,pending
 69880380,Football,Ecuador - Serie B,2026-05-14T20:30:00Z,2026-05-14 22:30,Vinotinto FC Ecuador,Club Deportivo Cuenca Juniors,pending
-70181804,Handball,International - World Championship Qualification,2026-05-14T16:00:00Z,2026-05-14 18:00,Serbia,Hungary,pending
-70181818,Handball,International - World Championship Qualification,2026-05-14T16:00:00Z,2026-05-14 18:00,Montenegro,Slovenia,pending
-71372068,Handball,Norway - Eliteserien Women,2026-05-14T16:15:00Z,2026-05-14 18:15,Molde HK,Sola HK,pending
-70181796,Handball,International - World Championship Qualification,2026-05-14T17:00:00Z,2026-05-14 19:00,Slovakia,North Macedonia,pending
 70181800,Handball,International - World Championship Qualification,2026-05-14T18:00:00Z,2026-05-14 20:00,Bosnia & Herzegovina,Faroe Islands,pending
-63299807,Baseball,USA - MLB,2026-05-14T16:40:00Z,2026-05-14 18:40,Cincinnati Reds,Washington Nationals,pending
-63300077,Baseball,USA - MLB,2026-05-14T16:35:00Z,2026-05-14 18:35,Pittsburgh Pirates,Colorado Rockies,pending
-63300211,Baseball,USA - MLB,2026-05-14T17:10:00Z,2026-05-14 19:10,New York Mets,Detroit Tigers,pending
-63300391,Baseball,USA - MLB,2026-05-14T17:40:00Z,2026-05-14 19:40,Milwaukee Brewers,San Diego Padres,pending
-63299867,Baseball,USA - MLB,2026-05-14T17:40:00Z,2026-05-14 19:40,Minnesota Twins,Miami Marlins,pending
+71351942,Tennis,"Challenger - ATP Challenger Cordoba, Argentina Men Doubles",2026-05-14T19:30:00Z,2026-05-14 21:30,La Serna J M / Tobon M,Ambrogi L E / Zeitune M,pending
+71351852,Tennis,"Challenger - ATP Challenger Cordoba, Argentina Men Singles",2026-05-14T18:00:00Z,2026-05-14 20:00,"Roncadelli, Franco","Kicker, Nicolas",pending
+71493302,Tennis,"WTA - WTA Rome, Italy Women Singles",2026-05-14T18:30:00Z,2026-05-14 20:30,"Swiatek, Iga","Svitolina, Elina",pending
+69063414,Baseball,USA - Triple-A Pacific Coast League,2026-05-14T18:05:00Z,2026-05-14 20:05,Reno Aces,Las Vegas Aviators,pending
 63300591,Baseball,USA - MLB,2026-05-14T18:10:00Z,2026-05-14 20:10,Houston Astros,Seattle Mariners,pending
 63300697,Baseball,USA - MLB,2026-05-14T19:05:00Z,2026-05-14 21:05,Athletics,St. Louis Cardinals,pending
 68727174,Baseball,"USA - NCAA, Regular Season",2026-05-14T20:00:00Z,2026-05-14 22:00,Northwestern Wildcats,Rutgers Scarlet Knights,pending
