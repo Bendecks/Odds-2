@@ -5,9 +5,9 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 
 ## Kort status
 
-- Aktuelle viste paper picks: **23**
-- Unikke loggede paper picks: **98**
-- Afventer i loggen: **95**
+- Aktuelle viste paper picks: **21**
+- Unikke loggede paper picks: **115**
+- Afventer i loggen: **112**
 - Afgjorte fundet i settled-filen: **210**
 - Skjulte U-/reserve-rækker: **5**
 - Vundne: **70**
@@ -15,15 +15,6 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Samlet ROI i units: **-3.45**
 
 ## Aktuelle paper picks
-
-### Valencia vs Vallecano
-- Dato: **2026-05-14**
-- Kampstart: **18:00**
-- Spil: **Udebanesejr**
-- Odds: **3.50**
-- Status: **Afventer**
-- Type: **priority_proxy_observation**
-- Note: **expanded_volume_forward_observation_not_real_money**
 
 ### Girona vs Sociedad
 - Dato: **2026-05-14**
@@ -34,72 +25,63 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **priority_proxy_observation**
 - Note: **expanded_volume_forward_observation_not_real_money**
 
-### AS Fortuna vs Coton Sport de Garoua
+### Valencia vs Vallecano
 - Dato: **2026-05-14**
-- Kampstart: **15:00**
-- Spil: **Hjemmesejr**
-- Odds: **4.75**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Hapoel Nir Ramat Hasharon vs Maccabi Kishronot Hadera
-- Dato: **2026-05-14**
-- Kampstart: **15:10**
-- Spil: **Hjemmesejr**
-- Odds: **4.75**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### FC Tallinn vs JK Tallinna Kalev
-- Dato: **2026-05-14**
-- Kampstart: **16:00**
-- Spil: **Hjemmesejr**
-- Odds: **4.75**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### ASKO Kottmannsdorf vs SV Dellach/Gail
-- Dato: **2026-05-14**
-- Kampstart: **15:30**
-- Spil: **Hjemmesejr**
-- Odds: **4.50**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### VfL Wolfsburg vs Bayern Munich
-- Dato: **2026-05-14**
-- Kampstart: **14:00**
-- Spil: **Hjemmesejr**
-- Odds: **4.50**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### POFC Botev Vratsa vs PFC Montana 1921
-- Dato: **2026-05-14**
-- Kampstart: **14:45**
+- Kampstart: **18:00**
 - Spil: **Udebanesejr**
-- Odds: **5.00**
+- Odds: **3.40**
+- Status: **Afventer**
+- Type: **priority_proxy_observation**
+- Note: **expanded_volume_forward_observation_not_real_money**
+
+### Santos FC SP vs SE Palmeiras SP
+- Dato: **2026-05-14**
+- Kampstart: **22:30**
+- Spil: **Hjemmesejr**
+- Odds: **4.50**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### FC Urartu Yerevan vs FC Noah Yerevan
-- Dato: **2026-05-14**
-- Kampstart: **15:00**
+### Mekelle 70 Enderta FC vs Ethiopian Medhin
+- Dato: **2026-05-15**
+- Kampstart: **10:00**
 - Spil: **Hjemmesejr**
 - Odds: **4.33**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Fish United vs NOPS
+### Astillero FC (Ecu) vs Guayaquil City FC
 - Dato: **2026-05-14**
-- Kampstart: **17:00**
+- Kampstart: **20:00**
+- Spil: **Hjemmesejr**
+- Odds: **4.33**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Tigres FC vs Envigado FC
+- Dato: **2026-05-14**
+- Kampstart: **22:00**
+- Spil: **Hjemmesejr**
+- Odds: **4.20**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### AD Confianca SE vs Gremio FB Porto Alegrense RS
+- Dato: **2026-05-14**
+- Kampstart: **22:00**
+- Spil: **Hjemmesejr**
+- Odds: **4.10**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### PVF Cand B vs Ho Chi Minh City FC
+- Dato: **2026-05-15**
+- Kampstart: **11:00**
 - Spil: **Hjemmesejr**
 - Odds: **4.10**
 - Status: **Afventer**
@@ -124,74 +106,92 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### AL Naft vs AL Minaa
-- Dato: **2026-05-14**
-- Kampstart: **14:30**
+### Curtin University SC vs Murdoch University Melville FC
+- Dato: **2026-05-15**
+- Kampstart: **11:30**
 - Spil: **Hjemmesejr**
 - Odds: **4.00**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### AL Naft Maysan vs AL Karma
-- Dato: **2026-05-14**
-- Kampstart: **14:30**
+### EC Vitoria BA vs CR Flamengo RJ
+- Dato: **2026-05-15**
+- Kampstart: **00:30**
 - Spil: **Hjemmesejr**
 - Odds: **4.00**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Arborg vs Alafoss
-- Dato: **2026-05-14**
-- Kampstart: **17:00**
-- Spil: **Uafgjort**
-- Odds: **6.00**
+### Essendon Royals SC vs Moreland City FC
+- Dato: **2026-05-15**
+- Kampstart: **10:30**
+- Spil: **Udebanesejr**
+- Odds: **4.33**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### SK Austria Klagenfurt vs FC Liefering
-- Dato: **2026-05-14**
-- Kampstart: **15:00**
+### Myj-Gmsc vs FC Bengaluru United
+- Dato: **2026-05-15**
+- Kampstart: **10:00**
+- Spil: **Hjemmesejr**
+- Odds: **3.80**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Werribee City FC vs Malvern City FC
+- Dato: **2026-05-15**
+- Kampstart: **10:00**
 - Spil: **Hjemmesejr**
 - Odds: **3.75**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Gamle Oslo FK vs SF Grei
-- Dato: **2026-05-14**
-- Kampstart: **16:00**
-- Spil: **Uafgjort**
-- Odds: **5.75**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Dhofar SCSC vs Al Shabab
-- Dato: **2026-05-14**
-- Kampstart: **14:05**
-- Spil: **Hjemmesejr**
-- Odds: **3.70**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Stade Renard vs Aigle Royal
-- Dato: **2026-05-14**
-- Kampstart: **14:30**
+### Oriente Petrolero vs Guabira Montero
+- Dato: **2026-05-15**
+- Kampstart: **00:00**
 - Spil: **Udebanesejr**
 - Odds: **4.10**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### SV Wildon vs SC Stadtwerke Bruck/Mur
+### SC Corinthians SP vs Barra FC SC
 - Dato: **2026-05-14**
-- Kampstart: **15:00**
+- Kampstart: **22:30**
 - Spil: **Uafgjort**
 - Odds: **5.50**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Libertad Asuncion vs CS 2 de Mayo
+- Dato: **2026-05-14**
+- Kampstart: **20:00**
+- Spil: **Udebanesejr**
+- Odds: **3.80**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### CF Monterrey vs Club America
+- Dato: **2026-05-15**
+- Kampstart: **03:10**
+- Spil: **Hjemmesejr**
+- Odds: **3.40**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Hangzhou Linping Wuyue vs Foshan Nanshi FC
+- Dato: **2026-05-15**
+- Kampstart: **11:30**
+- Spil: **Hjemmesejr**
+- Odds: **3.40**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**

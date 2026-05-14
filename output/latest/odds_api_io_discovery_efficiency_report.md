@@ -2,48 +2,48 @@
 
 Purpose: show whether API calls are producing usable direct event matches or mostly noisy fallback candidates.
 
-Candidate rows: 22451
-Selected rows before price quality filter: 79
-Calls used: 4 / 14
+Candidate rows: 48522
+Selected rows before price quality filter: 78
+Calls used: 8 / 14
 Max discovery calls: 13
-Events discovery rows: 320
+Events discovery rows: 643
 Search fallback used: True
-Search queries used: Valencia
+Search queries used: Valencia, Girona, Real Madrid
 Multi-odds attempted: True
 Raw price rows before quality filter: 60
-Accepted price rows after quality filter: 55
-Rejected price rows after quality filter: 5
-Latest rate-limit remaining: 82
+Accepted price rows after quality filter: 50
+Rejected price rows after quality filter: 10
+Latest rate-limit remaining: 79
 
 ## By discovery source
 
-- events_bookmaker_filtered: candidates=22443, selected=79, best_confidence=1.0, avg_confidence=0.1970798244441474
-- events_search_fallback: candidates=8, selected=0, best_confidence=0.5979, avg_confidence=0.268775
+- events_bookmaker_filtered: candidates=48510, selected=78, best_confidence=1.0, avg_confidence=0.20626446918161204
+- events_search_fallback: candidates=12, selected=0, best_confidence=0.5979, avg_confidence=0.2529416666666667
 
 ## Top candidates
 
-- src=events_bookmaker_filtered | query=Al Nahda | target=Al Nahda vs Al-Seeb | candidate=Al Nahda vs Al-Seeb | date=2026-05-14 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=CA Sarmiento de Junin | target=CA Sarmiento de Junin vs San Lorenzo de Almagro Res. | candidate=CA Sarmiento de Junin vs San Lorenzo de Almagro Res. | date=2026-05-14 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=CA Lanus | target=CA Lanus vs Estudiantes de LP Reserve | candidate=CA Lanus vs Estudiantes de LP Reserve | date=2026-05-14 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Samail SC | target=Samail SC vs Sohar | candidate=Samail SC vs Sohar | date=2026-05-14 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=ASKO Kottmannsdorf | target=ASKO Kottmannsdorf vs SV Dellach/Gail | candidate=ASKO Kottmannsdorf vs SV Dellach/Gail | date=2026-05-14 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=CA River Plate (Arg) | target=CA River Plate (Arg) vs Instituto AC Cordoba Reserves | candidate=CA River Plate (Arg) vs Instituto AC Cordoba Reserves | date=2026-05-14 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=CS Sfaxien | target=CS Sfaxien vs ES Sahel | candidate=CS Sfaxien vs ES Sahel | date=2026-05-14 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=POFC Botev Vratsa | target=POFC Botev Vratsa vs PFC Montana 1921 | candidate=POFC Botev Vratsa vs PFC Montana 1921 | date=2026-05-14 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=IF Vestri | target=IF Vestri vs Grotta | candidate=IF Vestri vs Grotta | date=2026-05-14 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=First Vienna FC 1894 | target=First Vienna FC 1894 vs Schwarz-Weiss Bregenz | candidate=First Vienna FC 1894 vs Schwarz-Weiss Bregenz | date=2026-05-14 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Hapoel Nir Ramat Hasharon | target=Hapoel Nir Ramat Hasharon vs Maccabi Kishronot Hadera | candidate=Hapoel Nir Ramat Hasharon vs Maccabi Kishronot Hadera | date=2026-05-14 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=KA Akureyri | target=KA Akureyri vs KF Aegir | candidate=KA Akureyri vs KF Aegir | date=2026-05-14 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Al-Ittifaq FC | target=Al-Ittifaq FC vs Al-Ittihad Club | candidate=Al-Ittifaq FC vs Al-Ittihad Club | date=2026-05-14 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=FC Thun | target=FC Thun vs Young Boys Bern | candidate=FC Thun vs Young Boys Bern | date=2026-05-14 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=FC Urartu Yerevan | target=FC Urartu Yerevan vs FC Noah Yerevan | candidate=FC Urartu Yerevan vs FC Noah Yerevan | date=2026-05-14 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=CE Juventude de Estancia SE | target=CE Juventude de Estancia SE vs EC Vitoria BA | candidate=CE Juventude de Estancia SE vs EC Vitoria BA | date=2026-05-14 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Fylkir Reykjavik | target=Fylkir Reykjavik vs FH Hafnarfjordur | candidate=Fylkir Reykjavik vs FH Hafnarfjordur | date=2026-05-14 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Always Ready | target=Always Ready vs The Strongest | candidate=Always Ready vs The Strongest | date=2026-05-14 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=CD Godoy Cruz | target=CD Godoy Cruz vs Gimnasia de Mendoza Reserve | candidate=CD Godoy Cruz vs Gimnasia de Mendoza Reserve | date=2026-05-14 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=America FC MG | target=America FC MG vs EC Bahia BA | candidate=America FC MG vs EC Bahia BA | date=2026-05-14 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Bouri | target=Bouri vs AL Tadamun Buri | candidate=Bouri vs AL Tadamun Buri | date=2026-05-14 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=CA Huracan | target=CA Huracan vs Independiente Reserve | candidate=CA Huracan vs Independiente Reserve | date=2026-05-14 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=AL Naft | target=AL Naft vs AL Minaa | candidate=AL Naft vs AL Minaa | date=2026-05-14 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Al-Wehda FC | target=Al-Wehda FC vs Al-Jabalain | candidate=Al-Wehda FC vs Al-Jabalain | date=2026-05-14 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Dhofar SCSC | target=Dhofar SCSC vs Al Shabab | candidate=Dhofar SCSC vs Al Shabab | date=2026-05-14 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Shanghai Port FC | target=Shanghai Port FC vs Zhejiang FC | candidate=Shanghai Port FC vs Zhejiang FC | date=2026-05-15 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Bentleigh Greens SC | target=Bentleigh Greens SC vs Heidelberg United FC | candidate=Bentleigh Greens SC vs Heidelberg United FC | date=2026-05-15 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Club Fernando de La Mora | target=Club Fernando de La Mora vs Independiente Campo Grande | candidate=Club Fernando de La Mora vs Independiente Campo Grande | date=2026-05-14 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Al Ittihad Ahli of Aleppo | target=Al Ittihad Ahli of Aleppo vs Al-Shorta SC | candidate=Al Ittihad Ahli of Aleppo vs Al-Shorta SC | date=2026-05-15 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Libertad Asuncion | target=Libertad Asuncion vs Sportivo 2 de Mayo | candidate=Libertad Asuncion vs Sportivo 2 de Mayo | date=2026-05-15 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Balcatta FC | target=Balcatta FC vs Fremantle City FC | candidate=Balcatta FC vs Fremantle City FC | date=2026-05-15 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Dalian Kewei | target=Dalian Kewei vs Nantong Zhiyun | candidate=Dalian Kewei vs Nantong Zhiyun | date=2026-05-15 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Shenzhen 2028 FC | target=Shenzhen 2028 FC vs Shaanxi Union FC | candidate=Shenzhen 2028 FC vs Shaanxi Union FC | date=2026-05-15 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Kingston City FC | target=Kingston City FC vs Eastern Lions SC | candidate=Kingston City FC vs Eastern Lions SC | date=2026-05-15 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Vinotinto FC Ecuador | target=Vinotinto FC Ecuador vs Club Deportivo Cuenca Juniors | candidate=Vinotinto FC Ecuador vs Club Deportivo Cuenca Juniors | date=2026-05-14 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Dandenong City SC | target=Dandenong City SC vs Oakleigh Cannons | candidate=Dandenong City SC vs Oakleigh Cannons | date=2026-05-15 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=CR Brasil AL | target=CR Brasil AL vs Fortaleza EC CE | candidate=CR Brasil AL vs Fortaleza EC CE | date=2026-05-14 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Municipal Limeno | target=Municipal Limeno vs CD FAS Santa Ana | candidate=Municipal Limeno vs CD FAS Santa Ana | date=2026-05-15 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Cong An TP Ho Chi Minh City FC | target=Cong An TP Ho Chi Minh City FC vs SHB Da Nang | candidate=Cong An TP Ho Chi Minh City FC vs SHB Da Nang | date=2026-05-15 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Dalian Yingbo FC | target=Dalian Yingbo FC vs Qingdao West Coast FC | candidate=Dalian Yingbo FC vs Qingdao West Coast FC | date=2026-05-15 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Melbourne Knights FC | target=Melbourne Knights FC vs Eltham Redbacks FC | candidate=Melbourne Knights vs Eltham Redbacks FC | date=2026-05-15 | confidence=1.0 | selected=False
+- src=events_bookmaker_filtered | query=Hangzhou Linping Wuyue | target=Hangzhou Linping Wuyue vs Foshan Nanshi FC | candidate=Hangzhou Linping Wuyue vs Foshan Nanshi FC | date=2026-05-15 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=SC Corinthians SP | target=SC Corinthians SP vs Barra FC SC | candidate=SC Corinthians SP vs Barra FC SC | date=2026-05-14 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Essendon Royals SC | target=Essendon Royals SC vs Moreland City FC | candidate=Essendon Royals SC vs Moreland City FC | date=2026-05-15 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Penang FA | target=Penang FA vs Brunei DPMM FC | candidate=Penang FA vs Brunei DPMM FC | date=2026-05-15 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Dire Dawa Kenema | target=Dire Dawa Kenema vs Bahir Dar Kenema FC | candidate=Dire Dawa Kenema vs Bahir Dar Kenema FC | date=2026-05-15 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Melbourne Knights FC | target=Melbourne Knights FC vs Eltham Redbacks FC | candidate=Melbourne Knights FC vs Eltham Redbacks FC | date=2026-05-15 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Bnei Yehuda Tel Aviv FC | target=Bnei Yehuda Tel Aviv FC vs MS Football Hapoel Kiryat Yam | candidate=Bnei Yehuda Tel Aviv FC vs MS Football Hapoel Kiryat Yam | date=2026-05-15 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=AC Goianiense GO | target=AC Goianiense GO vs CA Paranaense PR | candidate=AC Goianiense GO vs CA Paranaense PR | date=2026-05-14 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Henan | target=Henan vs Shenzhen Peng City | candidate=Henan vs Shenzhen Peng City | date=2026-05-15 | confidence=1.0 | selected=True
