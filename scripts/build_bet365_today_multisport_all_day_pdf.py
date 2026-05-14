@@ -3,6 +3,7 @@ import csv
 import json
 import os
 import time
+from datetime import timedelta
 from pathlib import Path
 
 import build_bet365_today_multisport_good_options_report as base
@@ -13,6 +14,13 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 RAW_DIR.mkdir(parents=True, exist_ok=True)
 
 ALL_DAY_STATUSES = 'pending,live,settled'
+HOURS_AHEAD = 12
+
+
+def upcoming_window():
+    now = base.now_dk()
+    end = now + timedelta(hours=HOURS_AHEAD)
+    return now.strftime('%Y-%m-%d %H:%M'), now, end
 
 
 def write_csv(path, rows):
@@ -26,7 +34,7 @@ def write_csv(path, rows):
 
 
 def fetch_all_day_events_for_sport(api_key, sport_slug, max_events, max_pages, min_bookmaker_count, headers_log):
-    report_date, start, end = base.today_window()
+    report_date, start, end = upcoming_window()
     kept, excluded = [], []
     seen = set()
     for page in range(max_pages):
@@ -94,12 +102,12 @@ def write_all_day_pdf(path, report_date, events, markets, args, excluded_count):
         status_counts[status] = status_counts.get(status, 0) + 1
 
     story = [
-        Paragraph('Bet365 multisport - hele dagen', styles['Title']),
+        Paragraph('Bet365 multisport - kommende 12 timer', styles['Title']),
         Paragraph(
-            f'Dato: {report_date} | Events i PDF: {len(events)} | Markedsraekker i CSV: {len(markets)} | Frasorteret: {excluded_count}',
+            f'Vindue startet: {report_date} | Events i PDF: {len(events)} | Markedsraekker i CSV: {len(markets)} | Frasorteret: {excluded_count}',
             styles['Normal'],
         ),
-        Paragraph(f'Statusser hentet: {ALL_DAY_STATUSES}. Separat all-day PDF. Det gamle multisport setup er ikke aendret.', styles['Normal']),
+        Paragraph(f'Statusser hentet: {ALL_DAY_STATUSES}. Kommende {HOURS_AHEAD} timer. Separat PDF setup.', styles['Normal']),
         Spacer(1, 10),
     ]
 
@@ -166,7 +174,7 @@ def write_all_day_pdf(path, report_date, events, markets, args, excluded_count):
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Build separate all-day Bet365 multisport PDF report')
+    parser = argparse.ArgumentParser(description='Build separate upcoming 12 hour Bet365 multisport PDF report')
     parser.add_argument('--sports', default=os.getenv('BET365_ALL_DAY_SPORTS', ','.join(base.DEFAULT_SPORTS)))
     parser.add_argument('--max-events', type=int, default=int(os.getenv('BET365_ALL_DAY_MAX_EVENTS', '100')))
     parser.add_argument('--max-pages', type=int, default=int(os.getenv('BET365_ALL_DAY_MAX_PAGES', '10')))
@@ -181,9 +189,8 @@ def main():
 
     headers_log = []
     all_events, all_excluded = [], []
-    report_date = base.today_window()[0]
+    report_date = upcoming_window()[0]
 
-    # Re-point raw output for this run to keep it separate from the old multisport setup.
     base.RAW_DIR = RAW_DIR
 
     for sport_slug in args.sports:
@@ -209,6 +216,7 @@ def main():
     write_csv(OUTPUT_DIR / 'bet365_today_multisport_all_day_markets.csv', markets)
     write_csv(OUTPUT_DIR / 'bet365_today_multisport_all_day_excluded.csv', all_excluded)
     write_csv(OUTPUT_DIR / 'bet365_today_multisport_all_day_rate_limit_headers.csv', headers_log)
+
     pdf_ok = write_all_day_pdf(
         OUTPUT_DIR / 'bet365_today_multisport_all_day_report.pdf',
         report_date,
@@ -225,7 +233,8 @@ def main():
 
     summary = {
         'generated_at_dk': base.now_dk().strftime('%Y-%m-%d %H:%M'),
-        'report_date_dk': report_date,
+        'window_hours': HOURS_AHEAD,
+        'window_started_dk': report_date,
         'bookmaker': base.BOOKMAKER,
         'statuses_requested': ALL_DAY_STATUSES,
         'sports_requested': ','.join(args.sports),
@@ -242,6 +251,7 @@ def main():
         'latest_rate_limit_remaining': headers_log[-1].get('x_ratelimit_remaining', '') if headers_log else '',
         'latest_rate_limit_limit': headers_log[-1].get('x_ratelimit_limit', '') if headers_log else '',
     }
+
     (OUTPUT_DIR / 'bet365_today_multisport_all_day_summary.json').write_text(json.dumps(summary, indent=2, ensure_ascii=False), encoding='utf-8')
     print(json.dumps(summary, indent=2, ensure_ascii=False))
 
