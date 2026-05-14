@@ -1,981 +1,466 @@
 # Bet365 odds - større ligaer i dag
 
-- Dato: **2026-05-13**
+- Dato: **2026-05-14**
 - Sport: **football**
 - Bookmaker: **Bet365**
-- Kampe med odds: **23**
-- Markedsrækker: **23740**
-- Frasorteret: **177**
+- Kampe med odds: **10**
+- Markedsrækker: **10048**
+- Frasorteret: **122**
 
 ## Markeder fundet
 
-- Player Shots: 3658
-- Player To Score or Assist: 2265
-- Team Goalscorer: 2156
-- Multi Scorers: 2072
-- Player Shots on Target: 1830
-- Player Fouls Committed: 1497
-- Player To Be Fouled: 1412
-- Player Tackles: 1322
-- Goal Method: 1172
-- Anytime Goalscorer: 1036
-- Player Cards: 620
-- Player to be Booked: 620
-- Correct Score: 564
-- Player Shots on Target Outside Box: 432
-- Player Headed Shots on Target: 401
-- Alternative Goal Line: 311
-- Alternative Asian Handicap: 306
-- Alternative Corners: 279
-- Exact Total Goals: 176
-- Alternative Total Goals: 142
-- Total Corners: 115
-- Team Total Goals Home: 114
-- Team Total Goals Away: 100
-- Corners Race: 88
-- Goalkeeper Saves: 72
-- European Handicap: 71
-- Double Chance: 69
-- Half Time Result: 69
-- Number of Goals In Match: 66
-- Player Passes: 51
-- Corner Handicap: 44
-- Specials: 44
-- 1st Half Handicap: 42
-- Corners: 23
-- Corners 2-Way: 23
-- Corners Totals: 23
-- Corners Totals HT: 23
-- Draw No Bet: 23
-- Goals Over/Under: 23
-- ML: 23
-- Spread: 23
-- Spread HT: 23
-- Totals: 23
-- Corners Spread: 22
-- First 10 Minutes (00:00 - 09:59): 22
-- Team Corners Away: 22
-- Team Corners Home: 22
-- Totals HT: 22
-- Both Teams To Score: 21
-- Both Teams To Score 2H: 21
-- Both Teams To Score HT: 21
-- Card Handicap: 15
-- Bookings Spread: 11
-- Bookings Totals: 11
-- Number of Cards In Match: 11
-- Team Cards Away: 11
-- Team Cards Home: 11
-- Match Shots: 7
-- Match Shots on Target: 7
-- Team Shots Away: 7
-- Team Shots Home: 7
-- Team Shots on Target Away: 7
-- Team Shots on Target Home: 7
-- Method of Victory: 2
-- 1st Half Goal Line: 1
-- Match Offsides: 1
-- Match Tackles: 1
-- Team Offsides Away: 1
-- Team Offsides Home: 1
-- Team Tackles Away: 1
-- Team Tackles Home: 1
+- Player Shots: 1736
+- Player To Score or Assist: 1029
+- Player Shots on Target: 872
+- Team Goalscorer: 818
+- Multi Scorers: 790
+- Player Fouls Committed: 689
+- Player To Be Fouled: 649
+- Player Tackles: 620
+- Anytime Goalscorer: 395
+- Goal Method: 298
+- Correct Score: 257
+- Player Shots on Target Outside Box: 184
+- Player Cards: 178
+- Player to be Booked: 178
+- Player Headed Shots on Target: 164
+- Alternative Goal Line: 145
+- Alternative Asian Handicap: 139
+- Alternative Corners: 124
+- Exact Total Goals: 80
+- Alternative Total Goals: 74
+- Team Total Goals Home: 61
+- Total Corners: 50
+- Team Total Goals Away: 48
+- Corners Race: 40
+- Goalkeeper Saves: 34
+- Double Chance: 30
+- Half Time Result: 30
+- Number of Goals In Match: 30
+- European Handicap: 28
+- 1st Half Handicap: 20
+- Corner Handicap: 20
+- Specials: 20
+- Both Teams To Score: 10
+- Both Teams To Score 2H: 10
+- Both Teams To Score HT: 10
+- Corners: 10
+- Corners 2-Way: 10
+- Corners Spread: 10
+- Corners Totals: 10
+- Corners Totals HT: 10
+- Draw No Bet: 10
+- First 10 Minutes (00:00 - 09:59): 10
+- Goals Over/Under: 10
+- ML: 10
+- Spread: 10
+- Spread HT: 10
+- Team Corners Away: 10
+- Team Corners Home: 10
+- Totals: 10
+- Totals HT: 7
+- Card Handicap: 5
+- 1st Half Goal Line: 3
+- Bookings Spread: 3
+- Bookings Totals: 3
+- Match Shots: 3
+- Match Shots on Target: 3
+- Number of Cards In Match: 3
+- Team Cards Away: 3
+- Team Cards Home: 3
+- Team Shots Away: 3
+- Team Shots Home: 3
+- Team Shots on Target Away: 3
+- Team Shots on Target Home: 3
 
 ## Kampe
 
-### APO Levadiakos FC vs OFI Crete
-- Kampstart: **2026-05-13 16:00**
-- Liga: **Greece - Super League**
-- **ML** - H: 1.700 | X: 4.100 | A: 4.500
-- **Draw No Bet** - H: 1.285 | A: 3.500
-- **Double Chance** - Draw or OFI Crete: Under: 2.100
-- **Double Chance** - Levadiakos or Draw: Under: 1.181
-- **Double Chance** - Levadiakos or OFI Crete: Under: 1.222
-- **Spread** - H: 1.825 | A: 1.975
-- **Totals** - Over: 2.000 | Under: 1.800
-- **Goals Over/Under** - Over: 1.615 | Under: 2.250
-- **Spread HT** - H: 1.800 | A: 2.000
-- **Totals HT** - Over: 2.000 | Under: 1.800
-- **Corners Spread** - H: 1.850 | A: 1.950
-- **Corners Totals** - Over: 1.850 | Under: 1.950
-- **Corners Totals HT** - Over: 1.925 | Under: 1.875
-- **Anytime Goalscorer** - Aaron Iseka: Over: 3.250
-- **Anytime Goalscorer** - Achilleas Poungouras: Over: 17.000
-- **Anytime Goalscorer** - Alen Ozbolt: Over: 2.050
-- **Anytime Goalscorer** - Athanasios Androutsos: Over: 8.000
-- **Anytime Goalscorer** - Benjamin Verbic: Over: 3.000
-- **Anytime Goalscorer** - Borja Gonzalez: Over: 12.000
-- **Anytime Goalscorer** - Christos Papadopoulos: Over: 3.200
-- **Anytime Goalscorer** - Eddie Salcedo: Over: 3.200
-- **Anytime Goalscorer** - Eleftherios Kontekas: Over: 17.000
-- **Anytime Goalscorer** - Emmanouil Chnaris: Over: 10.000
-- **Anytime Goalscorer** - Enis Cokaj: Over: 6.500
-- **Anytime Goalscorer** - Fabricio Pedrozo: Over: 2.050
-- **Anytime Goalscorer** - Filip Bainovic: Over: 7.000
-- **Anytime Goalscorer** - Georgios Kornezos: Over: 12.000
-- **Anytime Goalscorer** - Georgios Manthatis: Over: 7.000
-- **Anytime Goalscorer** - Georgos Nikas: Over: 4.500
-- **Anytime Goalscorer** - Giannis Apostolakis: Over: 7.000
-- **Anytime Goalscorer** - Giannis Christopoulos: Over: 17.000
-- **Anytime Goalscorer** - Giannis Kosti: Over: 4.500
-- **Anytime Goalscorer** - Giannis Theodosoulakis: Over: 3.600
-- **Anytime Goalscorer** - Giannis Tsivelekidls: Over: 12.000
-- **Anytime Goalscorer** - Giorgos Kanellopoulos: Over: 8.000
+### FC Basel 1893 vs FC St. Gallen 1879
+- Kampstart: **2026-05-14 16:30**
+- Liga: **Switzerland - Super League**
+- **ML** - H: 2.600 | X: 3.600 | A: 2.500
+- **Draw No Bet** - H: 1.833 | A: 1.833
+- **Double Chance** - Draw or St Gallen: Under: 1.500
+- **Double Chance** - Basel or St Gallen: Under: 1.285
+- **Double Chance** - Basel or Draw: Under: 1.500
+- **Spread** - H: 1.950 | A: N/A
+- **Totals** - Over: 1.850 | Under: 1.950
+- **Goals Over/Under** - Over: 1.444 | Under: 2.700
+- **Both Teams To Score** - Yes: 1.363 | No: 3.000
+- **Spread HT** - H: 1.925 | A: 1.875
+- **Totals HT** - Over: 1.750 | Under: 2.050
+- **European Handicap** - X: 5.000 | A: 4.500
+- **European Handicap** - X: 5.000 | A: 1.500
+- **European Handicap** - X: 15.000 | A: 21.000
+- **Corners Spread** - H: 1.950 | A: 1.850
+- **Corners Totals** - Over: 1.825 | Under: 1.975
+- **Corners Totals HT** - Over: 2.025 | Under: 1.775
+- **Both Teams To Score HT** - Yes: 3.250 | No: 1.333
+- **Team Total Goals Home** - Over: 1.166 | Under: 5.000
+- **Team Total Goals Home** - Over: 1.800 | Under: 1.909
+- **Team Total Goals Home** - Over: 51.000 | Under: 1.002
+- **Team Total Goals Home** - Over: 3.750 | Under: 1.250
+- **Team Total Goals Home** - Over: 9.000 | Under: 1.071
+- **Team Total Goals Home** - Over: 21.000 | Under: 1.015
+- **Total Corners** - Under 6: Under: 13.000
+- **Total Corners** - 6 - 8: Under: 3.600
+- **Total Corners** - 12 - 14: Under: 3.750
+- **Total Corners** - Over 14: Over: 7.000
+- **Total Corners** - 9 - 11: Under: 2.625
+- **Team Corners Away** - Over: 1.666 | Under: 2.100
+- **Corner Handicap** - 1 (1): H: 1.727
+- **Corner Handicap** - Tie (-1): A: 2.400
+- **1st Half Handicap** - 1 (1): H: 1.400
+- **1st Half Handicap** - Tie (-1): A: 7.500
+- **Number of Goals In Match** - 2 or 3 goals: Under: 2.250
 
-### Volos NPS vs Aris Thessaloniki
-- Kampstart: **2026-05-13 16:00**
-- Liga: **Greece - Super League**
-- **ML** - H: 3.800 | X: 3.500 | A: 1.950
-- **Draw No Bet** - H: 2.750 | A: 1.400
-- **Double Chance** - Draw or Aris Salonika: Under: 1.222
-- **Double Chance** - Volos NFC or Aris Salonika: Under: 1.285
-- **Double Chance** - Volos NFC or Draw: Under: 1.909
-- **Spread** - H: 1.850 | A: 1.950
-- **Totals** - Over: 1.825 | Under: 1.975
-- **Goals Over/Under** - Over: 1.950 | Under: 1.850
-- **Spread HT** - H: 1.775 | A: 2.025
-- **Totals HT** - Over: 1.825 | Under: 1.975
-- **European Handicap** - X: 3.750 | A: 3.750
-- **European Handicap** - H: 1.800
-- **Corners Spread** - H: 2.000 | A: 1.800
-- **Corners Totals** - Over: 1.850 | Under: 1.950
-- **Corners Totals HT** - Over: 1.975 | Under: 1.825
-- **Anytime Goalscorer** - Alvaro Tejero: Over: 9.500
-- **Anytime Goalscorer** - Anastasios Donis: Over: 5.000
-- **Anytime Goalscorer** - Anastasios Tsokanis: Over: 13.000
-- **Anytime Goalscorer** - Anor Juanpi: Over: 4.750
-- **Anytime Goalscorer** - Benjamin Garre: Over: 3.000
-- **Anytime Goalscorer** - Carles Perez: Over: 3.000
-- **Anytime Goalscorer** - Carles Soria: Over: 13.000
-- **Anytime Goalscorer** - Christian Kouame: Over: 2.375
-- **Anytime Goalscorer** - Christos Kamtsis: Over: 8.000
-- **Anytime Goalscorer** - Derek Agyakwa: Over: 19.000
-- **Anytime Goalscorer** - Diamanti Legisi: Over: 5.500
-- **Anytime Goalscorer** - Domingos Nurio Fortuna: Over: 13.000
-- **Anytime Goalscorer** - Eduardo Fernandes Dudu: Over: 3.750
-- **Anytime Goalscorer** - Eleftherios Tasiouras: Over: 13.000
-- **Anytime Goalscorer** - Fabiano Leissmann: Over: 13.000
-- **Anytime Goalscorer** - Fredrik Jensen: Over: 5.500
-- **Anytime Goalscorer** - Gabriel Misehouy: Over: 4.000
-- **Anytime Goalscorer** - Giannis Bouzoukis: Over: 5.000
-- **Anytime Goalscorer** - Giannis Gianniotas: Over: 3.200
-- **Anytime Goalscorer** - Giannis Kargas: Over: 19.000
+### FC Thun vs Young Boys Bern
+- Kampstart: **2026-05-14 16:30**
+- Liga: **Switzerland - Super League**
+- **ML** - H: 2.200 | X: 3.800 | A: 2.875
+- **Draw No Bet** - H: 1.533 | A: 2.375
+- **Double Chance** - FC Thun or Young Boys: Under: 1.250
+- **Double Chance** - FC Thun or Draw: Under: 1.363
+- **Double Chance** - Draw or Young Boys: Under: 1.727
+- **Spread** - H: 1.975 | A: 1.825
+- **Totals** - Over: 1.900 | Under: 1.900
+- **Goals Over/Under** - Over: 1.363 | Under: 3.100
+- **Both Teams To Score** - Yes: 1.333 | No: 3.250
+- **Spread HT** - H: 2.075 | A: 1.725
+- **European Handicap** - H: 3.500
+- **European Handicap** - X: 4.500 | A: 1.727
+- **Corners Spread** - H: 1.800 | A: 2.000
+- **Corners Totals** - Over: 1.975 | Under: 1.825
+- **Corners Totals HT** - Over: 1.750 | Under: 2.050
+- **Both Teams To Score HT** - Yes: 3.000 | No: 1.363
+- **Exact Total Goals** - 1 Goal: Under: 8.500
+- **Exact Total Goals** - 2 Goals: Under: 4.750
+- **Exact Total Goals** - 3 Goals: Under: 4.333
+- **Exact Total Goals** - 4 Goals: Under: 4.500
+- **Exact Total Goals** - 5 Goals: Under: 6.500
+- **Exact Total Goals** - 6 Goals: Under: 10.000
+- **Exact Total Goals** - 7+ Goals: Under: 11.000
+- **Exact Total Goals** - 0 Goals: Under: 21.000
+- **Number of Goals In Match** - Under 2 goals: Under: 7.000
+- **Number of Goals In Match** - Over 3 goals: Over: 1.833
+- **Number of Goals In Match** - 2 or 3 goals: Under: 2.375
+- **1st Half Goal Line** - Over: 1.975 | Under: 1.825
+- **Alternative Goal Line** - Over: 1.100 | Under: 7.000
+- **Alternative Goal Line** - Over: 1.115 | Under: 6.400
+- **Alternative Goal Line** - Over: 1.130 | Under: 5.900
+- **Alternative Goal Line** - Over: 1.250 | Under: 3.800
+- **Alternative Goal Line** - Over: 1.425 | Under: 2.750
+- **Alternative Goal Line** - Over: 1.525 | Under: 2.425
+- **Alternative Goal Line** - Over: 2.100 | Under: 1.700
 
-### Stade Brest 29 vs Strasbourg Alsace
-- Kampstart: **2026-05-13 19:00**
-- Liga: **France - Ligue 1**
-- **ML** - H: 2.700 | X: 3.600 | A: 2.450
-- **Draw No Bet** - H: 1.909 | A: 1.800
-- **Double Chance** - Brest or Draw: Under: 1.533
-- **Double Chance** - Brest or Strasbourg: Under: 1.285
-- **Double Chance** - Draw or Strasbourg: Under: 1.400
-- **Spread** - H: 2.025 | A: N/A
-- **Totals** - Over: 1.925 | Under: 1.925
-- **Goals Over/Under** - Over: 1.727 | Under: 2.100
-- **Both Teams To Score** - Yes: 1.615 | No: 2.200
-- **Spread HT** - H: 1.975 | A: 1.825
-- **Totals HT** - Over: 1.700 | Under: 2.100
-- **European Handicap** - H: 5.500
-- **European Handicap** - H: 1.533
-- **European Handicap** - H: 12.000 | X: 7.000 | A: 11.000
-- **European Handicap** - H: 1.166 | X: 8.000 | A: 1.142
-- **Corners Spread** - H: 2.000 | A: 1.800
+### Al-Fateh SC vs Al-Najma
+- Kampstart: **2026-05-14 17:55**
+- Liga: **Saudi Arabia - Saudi Pro League**
+- **ML** - H: 1.444 | X: 4.500 | A: 5.750
+- **Draw No Bet** - H: 1.181 | A: 4.500
+- **Double Chance** - Al Fateh SC or Al Najma: Under: 1.181
+- **Double Chance** - Al Fateh SC or Draw: Under: 1.142
+- **Double Chance** - Draw or Al Najma: Under: 2.625
+- **Spread** - H: 1.925 | A: 1.875
+- **Totals** - Over: 1.900 | Under: 1.900
+- **Goals Over/Under** - Over: 1.400 | Under: 2.875
+- **Both Teams To Score** - Yes: 1.500 | No: 2.500
+- **Spread HT** - H: 1.900 | A: 1.900
+- **European Handicap** - H: 2.100
+- **European Handicap** - X: 4.000 | A: 2.625
+- **Corners Spread** - H: 1.950 | A: 1.850
 - **Corners Totals** - Over: 1.950 | Under: 1.850
 - **Corners Totals HT** - Over: 1.825 | Under: 1.975
-- **Bookings Spread** - H: 2.025
-- **Bookings Totals** - Over: 1.850 | Under: 1.950
-- **Anytime Goalscorer** - Amadou Cisse: Over: 8.500
-- **Anytime Goalscorer** - Andrew Omobamidele: Over: 10.000
-- **Anytime Goalscorer** - Axel Lassus: Over: 7.500
-- **Anytime Goalscorer** - Baptiste Bosey: Over: 2.625
-- **Anytime Goalscorer** - Becket Godo: Over: 3.000
-- **Anytime Goalscorer** - Ben Chilwell: Over: 7.500
-- **Anytime Goalscorer** - Brendan Chardonnet: Over: 9.500
-- **Anytime Goalscorer** - Daouda Guindo: Over: 9.500
-- **Anytime Goalscorer** - David Datro Fofana: Over: 2.625
-- **Anytime Goalscorer** - Diego Moreira: Over: 4.500
-- **Anytime Goalscorer** - Emanuel Emegha: Over: 2.500
-- **Anytime Goalscorer** - Eric Ebimbe: Over: 3.750
-- **Anytime Goalscorer** - Gessime Yassine: Over: 4.500
-- **Anytime Goalscorer** - Ghianny Kodia: Over: 4.500
-- **Anytime Goalscorer** - Guela Doue: Over: 8.500
+- **Anytime Goalscorer** - Hussain Qassem: Over: 6.500
+- **Anytime Goalscorer** - Jorge Fernandes: Over: 6.500
+- **Anytime Goalscorer** - Ali Adnan: Over: 15.000
+- **Anytime Goalscorer** - Nasser Al Haleel: Over: 15.000
+- **Anytime Goalscorer** - Samir Caetano: Over: 15.000
+- **Anytime Goalscorer** - Fahad Al Zubaidi: Over: 2.100
+- **Anytime Goalscorer** - Mourad Batna: Over: 2.100
+- **Anytime Goalscorer** - Ali Jasim: Over: 3.500
+- **Anytime Goalscorer** - Bilal Boutobba: Over: 3.500
+- **Anytime Goalscorer** - Lazaro: Over: 3.500
+- **Anytime Goalscorer** - Mohammed Mansour: Over: 3.500
+- **Anytime Goalscorer** - Omar Al Ruwaili: Over: 3.500
+- **Anytime Goalscorer** - Zaydou Youssouf: Over: 3.500
+- **Anytime Goalscorer** - Abdullah Al Sagheer: Over: 8.500
+- **Anytime Goalscorer** - Abdulwahid Al Nakhli: Over: 8.500
+- **Anytime Goalscorer** - Hugo Vitor Vargas: Over: 8.500
+- **Anytime Goalscorer** - Abdulaziz Al Fawaz: Over: 3.100
+- **Anytime Goalscorer** - Abdullah Al Anazi: Over: 3.100
+- **Anytime Goalscorer** - Mahdi Al Obod: Over: 3.100
+- **Anytime Goalscorer** - Mohammed Al Sahihi: Over: 3.100
 
-### Espanyol Barcelona vs Athletic Bilbao
-- Kampstart: **2026-05-13 19:00**
-- Liga: **Spain - LaLiga**
-- **ML** - H: 2.700 | X: 3.200 | A: 2.700
-- **Draw No Bet** - H: 1.833 | A: 1.833
-- **Double Chance** - Draw or Athletic Club: Under: 1.444
-- **Double Chance** - Espanyol or Athletic Club: Under: 1.333
-- **Double Chance** - Espanyol or Draw: Under: 1.444
-- **Spread** - H: 1.925 | A: N/A
-- **Totals** - Over: 1.950 | Under: 1.900
-- **Goals Over/Under** - Over: 2.200 | Under: 1.666
-- **Both Teams To Score** - Yes: 1.909 | No: 1.909
-- **Spread HT** - H: 1.900 | A: 1.900
-- **Totals HT** - Over: 2.075 | Under: 1.725
-- **European Handicap** - H: 6.000
-- **European Handicap** - X: 4.333 | A: 1.444
-- **European Handicap** - H: 15.000 | X: 8.000 | A: 13.000
-- **European Handicap** - H: 1.125 | X: 8.000 | A: 1.125
-- **European Handicap** - X: 19.000 | A: 34.000
-- **European Handicap** - H: 1.030
-- **Corners Spread** - H: 1.950 | A: 1.850
-- **Corners Totals** - Over: 1.850 | Under: 1.950
-- **Corners Totals HT** - Over: 2.000 | Under: 1.800
-- **Bookings Spread** - H: 1.700
-- **Bookings Totals** - Over: 1.900 | Under: 1.900
-- **Anytime Goalscorer** - Adama Boiro: Over: 13.000
-- **Anytime Goalscorer** - Aitor Paredes: Over: 11.000
-- **Anytime Goalscorer** - Alejandro Rego: Over: 5.500
-- **Anytime Goalscorer** - Alex Almansa: Over: 5.500
-- **Anytime Goalscorer** - Alex Berenguer: Over: 5.000
-- **Anytime Goalscorer** - Alvarez Yeray: Over: 21.000
-- **Anytime Goalscorer** - Andoni Gorosabel: Over: 17.000
-- **Anytime Goalscorer** - Antoniu Roca: Over: 4.750
-- **Anytime Goalscorer** - Asier Hierro: Over: 3.500
-- **Anytime Goalscorer** - Aymeric Laporte: Over: 13.000
-- **Anytime Goalscorer** - Berchiche Yuri: Over: 12.000
-- **Anytime Goalscorer** - Carlos Romero: Over: 8.000
-- **Anytime Goalscorer** - Charles Pickel: Over: 8.000
-
-### FC Hradec Kralove vs FC Slovan Liberec
-- Kampstart: **2026-05-13 17:30**
-- Liga: **Czechia - 1. Liga**
-- **ML** - H: 2.450 | X: 3.200 | A: 2.750
-- **Draw No Bet** - H: 1.800 | A: 1.909
-- **Double Chance** - Draw or Slovan Liberec: Under: 1.533
-- **Double Chance** - Hradec Kralove or Draw: Under: 1.400
-- **Double Chance** - Hradec Kralove or Slovan Liberec: Under: 1.363
-- **Spread** - H: 1.825 | A: N/A
+### Al Qadsiah vs Al-Hazm
+- Kampstart: **2026-05-14 20:00**
+- Liga: **Saudi Arabia - Saudi Pro League**
+- **ML** - H: 1.200 | X: 6.500 | A: 9.000
+- **Draw No Bet** - H: 1.083 | A: 8.000
+- **Double Chance** - Draw or Al Hazm: Under: 4.000
+- **Double Chance** - Al Qadisiya Al Khubar or Al Hazm: Under: 1.100
+- **Double Chance** - Al Qadisiya Al Khubar or Draw: Under: 1.062
+- **Spread** - H: 1.900 | A: 1.900
 - **Totals** - Over: 1.850 | Under: 1.950
-- **Goals Over/Under** - Over: 2.100 | Under: 1.700
-- **Both Teams To Score** - Yes: 1.800 | No: 1.950
-- **Spread HT** - H: 1.850 | A: 1.950
-- **Totals HT** - Over: 2.025 | Under: 1.775
-- **European Handicap** - H: 5.000
-- **European Handicap** - X: 4.333 | A: 1.533
-- **European Handicap** - H: 29.000
-- **Corners Spread** - H: 1.950 | A: 1.850
-- **Corners Totals** - Over: 1.800 | Under: 2.000
-- **Corners Totals HT** - Over: 1.975 | Under: 1.825
-- **Alternative Asian Handicap** - H: 2.150 | A: 2.350
-- **Alternative Asian Handicap** - H: 1.575 | A: 1.675
-- **Alternative Asian Handicap** - H: 2.425 | A: 2.675
-- **Alternative Asian Handicap** - H: 1.450 | A: 1.525
-- **Alternative Asian Handicap** - H: 3.000 | A: 3.450
-- **Alternative Asian Handicap** - H: 1.300 | A: 1.375
-- **Alternative Asian Handicap** - H: 4.150 | A: 4.800
-- **Alternative Asian Handicap** - H: 1.175 | A: 1.220
-- **Alternative Asian Handicap** - H: 4.650 | A: 5.500
-- **Alternative Asian Handicap** - H: 1.150 | A: 1.180
-- **Alternative Asian Handicap** - H: 5.250 | A: 5.900
-- **Alternative Asian Handicap** - H: 1.130 | A: 1.160
-- **Alternative Asian Handicap** - H: 7.000 | A: 1.100
-- **Corners Race** - H: 1.727 | A: 2.000
-- **Corners Race** - H: 2.100 | A: 2.400
-- **Corners Race** - H: 3.400 | A: 4.000
-- **Corners Race** - H: 7.500 | A: 9.000
-- **Corners 2-Way** - Over: 1.800 | Under: 1.909
+- **Goals Over/Under** - Over: 1.285 | Under: 3.600
+- **Both Teams To Score** - Yes: 1.615 | No: 2.200
+- **Spread HT** - H: 1.750 | A: 2.050
+- **European Handicap** - H: 7.000
+- **European Handicap** - H: 1.571 | X: 13.000 | A: 23.000
+- **European Handicap** - H: 1.062 | X: 4.750 | A: 4.000
+- **European Handicap** - X: 5.000 | A: 1.571
+- **Corners Spread** - H: 1.825 | A: 1.975
+- **Corners Totals** - Over: 1.975 | Under: 1.825
+- **Corners Totals HT** - Over: 1.800 | Under: 2.000
+- **Anytime Goalscorer** - Jehad Thakri: Over: 5.500
+- **Anytime Goalscorer** - Waleed Al Ahmed: Over: 5.500
+- **Anytime Goalscorer** - Ali Hazzazi: Over: 6.000
+- **Anytime Goalscorer** - Yasser Al Shahrani: Over: 6.000
+- **Anytime Goalscorer** - Farhan Al Aazmi: Over: 19.000
+- **Anytime Goalscorer** - Hussein Fraij: Over: 19.000
+- **Anytime Goalscorer** - Sultan Tanker: Over: 19.000
+- **Anytime Goalscorer** - Amar Al Yuhaybi: Over: 1.727
+- **Anytime Goalscorer** - Haitham Asiri: Over: 1.727
+- **Anytime Goalscorer** - Iker Almena: Over: 1.727
+- **Anytime Goalscorer** - Abdulrazzaq Awaji: Over: 3.500
+- **Anytime Goalscorer** - Ibrahim Mahnashi: Over: 3.500
+- **Anytime Goalscorer** - Omar Al Somah: Over: 3.500
+- **Anytime Goalscorer** - Zinho Gano: Over: 3.500
+- **Anytime Goalscorer** - Abdulah Al Jwayzan: Over: 4.750
+- **Anytime Goalscorer** - Elias Mokwana: Over: 4.750
+- **Anytime Goalscorer** - Gaston Alvarez: Over: 4.750
+- **Anytime Goalscorer** - Ibrahima Ndiaye: Over: 4.750
 
-### Olympiacos Piraeus vs Panathinaikos Athens
-- Kampstart: **2026-05-13 18:30**
-- Liga: **Greece - Super League**
-- **ML** - H: 1.444 | X: 4.333 | A: 7.500
-- **Draw No Bet** - H: 1.125 | A: 6.000
-- **Double Chance** - Draw or Panathinaikos: Under: 2.750
-- **Double Chance** - Olympiacos or Draw: Under: 1.083
-- **Double Chance** - Olympiacos or Panathinaikos: Under: 1.200
-- **Spread** - H: 1.975 | A: 1.825
+### Girona FC vs Real Sociedad San Sebastian
+- Kampstart: **2026-05-14 20:00**
+- Liga: **Spain - LaLiga**
+- **ML** - H: 1.950 | X: 3.800 | A: 3.600
+- **Draw No Bet** - H: 1.444 | A: 2.625
+- **Double Chance** - Girona or Real Sociedad: Under: 1.250
+- **Double Chance** - Draw or Real Sociedad: Under: 1.800
+- **Double Chance** - Girona or Draw: Under: 1.285
+- **Spread** - H: 1.975 | A: 1.875
+- **Totals** - Over: 1.950 | Under: 1.900
+- **Goals Over/Under** - Over: 1.800 | Under: 2.000
+- **Both Teams To Score** - Yes: 1.666 | No: 2.100
+- **Spread HT** - H: 2.050 | A: 1.750
+- **Totals HT** - Over: 1.700 | Under: 2.100
+- **European Handicap** - H: 3.500
+- **European Handicap** - H: 1.285
+- **Corners Spread** - H: 1.800 | A: 2.000
+- **Corners Totals** - Over: 1.925 | Under: 1.875
+- **Corners Totals HT** - Over: 2.025 | Under: 1.775
+- **Bookings Spread** - H: 1.800
+- **Bookings Totals** - Over: 1.950 | Under: 1.850
+- **Anytime Goalscorer** - Vladyslav Vanat: Over: 2.100
+- **Anytime Goalscorer** - Abel Ruiz: Over: 2.375
+- **Anytime Goalscorer** - Takefusa Kubo: Over: 4.000
+- **Anytime Goalscorer** - Alex Moreno: Over: 8.000
+- **Anytime Goalscorer** - Gibert Jordana: Over: 8.000
+- **Anytime Goalscorer** - Ivan Martin: Over: 8.000
+- **Anytime Goalscorer** - Arkaitz Mariezkurrena: Over: 5.500
+- **Anytime Goalscorer** - Barragan Carlos Soler: Over: 5.500
+- **Anytime Goalscorer** - Lander Astiazaran: Over: 5.500
+- **Anytime Goalscorer** - Luka Sucic: Over: 5.500
+- **Anytime Goalscorer** - Pablo Marin: Over: 5.500
+- **Anytime Goalscorer** - Sergio Gomez: Over: 5.500
+- **Anytime Goalscorer** - Cristhian Stuani: Over: 2.200
+- **Anytime Goalscorer** - Gorka Carrera: Over: 2.500
+- **Anytime Goalscorer** - Mikel Oyarzabal: Over: 2.875
+- **Anytime Goalscorer** - Viktor Tsygankov: Over: 2.875
+- **Anytime Goalscorer** - Orri Steinn Oskarsson: Over: 3.200
+
+### FC Sion vs FC Lugano
+- Kampstart: **2026-05-14 16:30**
+- Liga: **Switzerland - Super League**
+- **ML** - H: 2.200 | X: 3.400 | A: 3.100
+- **Draw No Bet** - H: 1.615 | A: 2.200
+- **Double Chance** - FC Sion or Draw: Under: 1.363
+- **Double Chance** - Draw or Lugano: Under: 1.666
+- **Double Chance** - FC Sion or Lugano: Under: 1.300
+- **Spread** - H: 1.900 | A: 1.900
+- **Totals** - Over: 1.975 | Under: 1.825
+- **Goals Over/Under** - Over: 1.750 | Under: 2.050
+- **Both Teams To Score** - Yes: 1.615 | No: 2.200
+- **Spread HT** - H: 1.675 | A: 2.150
+- **Totals HT** - Over: 2.100 | Under: 1.700
+- **European Handicap** - H: 4.000
+- **European Handicap** - H: 21.000
+- **European Handicap** - H: 1.363
+- **European Handicap** - H: 1.100 | X: 6.500 | A: 1.222
+- **European Handicap** - X: 13.000 | A: 1.055
+- **Corners Spread** - H: 1.900 | A: 1.900
+- **Corners Totals** - Over: 1.975 | Under: 1.825
+- **Corners Totals HT** - Over: 1.900 | Under: 1.900
+- **Both Teams To Score 2H** - Yes: 3.000 | No: 1.363
+- **Corners** - Over: 2.375 | Under: 1.833
+- **Correct Score** - 0-0: {"label": "0-0", "odds": "12.000"}
+- **Correct Score** - 1-0: {"label": "1-0", "odds": "9.500"}
+- **Correct Score** - 1-1: {"label": "1-1", "odds": "6.500"}
+- **Correct Score** - 2-0: {"label": "2-0", "odds": "12.000"}
+- **Correct Score** - 2-1: {"label": "2-1", "odds": "9.000"}
+- **Correct Score** - 2-2: {"label": "2-2", "odds": "12.000"}
+- **Correct Score** - 3-0: {"label": "3-0", "odds": "21.000"}
+- **Correct Score** - 3-1: {"label": "3-1", "odds": "17.000"}
+- **Correct Score** - 3-2: {"label": "3-2", "odds": "23.000"}
+- **Correct Score** - 3-3: {"label": "3-3", "odds": "41.000"}
+- **Correct Score** - 4-0: {"label": "4-0", "odds": "41.000"}
+- **Correct Score** - 4-1: {"label": "4-1", "odds": "34.000"}
+- **Correct Score** - 4-2: {"label": "4-2", "odds": "41.000"}
+- **Correct Score** - 4-3: {"label": "4-3", "odds": "67.000"}
+
+### Ljungskile SK vs GIF Sundsvall
+- Kampstart: **2026-05-14 17:00**
+- Liga: **Sweden - Superettan**
+- **ML** - H: 1.666 | X: 3.600 | A: 4.500
+- **Draw No Bet** - H: 1.285 | A: 3.500
+- **Double Chance** - Ljungskile SK or Draw: Under: 1.181
+- **Double Chance** - Draw or GIF Sundsvall: Under: 2.150
+- **Double Chance** - Ljungskile SK or GIF Sundsvall: Under: 1.285
+- **Spread** - H: 1.875 | A: 1.925
 - **Totals** - Over: 1.850 | Under: 1.950
 - **Goals Over/Under** - Over: 1.900 | Under: 1.900
-- **Both Teams To Score** - Yes: 2.100 | No: 1.666
-- **Spread HT** - H: 1.950 | A: 1.850
-- **Totals HT** - Over: 1.850 | Under: 1.950
-- **European Handicap** - X: 9.500 | A: 21.000
-- **European Handicap** - H: 1.083
-- **Corners Spread** - H: 1.950 | A: 1.850
-- **Corners Totals** - Over: 1.975 | Under: 1.825
-- **Corners Totals HT** - Over: 2.000 | Under: 1.800
-- **Anytime Goalscorer** - Adam Cerin: Over: 13.000
-- **Anytime Goalscorer** - Adriano Jagusic: Over: 7.500
-- **Anytime Goalscorer** - Ahmed Touba: Over: 29.000
-- **Anytime Goalscorer** - Alexios Kalogeropoulos: Over: 13.000
-- **Anytime Goalscorer** - Anass Zaroury: Over: 7.500
-- **Anytime Goalscorer** - Andre Luiz da Silva: Over: 2.600
-- **Anytime Goalscorer** - Andrews Tetteh: Over: 4.500
-- **Anytime Goalscorer** - Angelos Vyntra: Over: 29.000
-- **Anytime Goalscorer** - Argyrios Liatsikouras: Over: 5.000
-- **Anytime Goalscorer** - Ayoub El Kaabi: Over: 1.833
-- **Anytime Goalscorer** - Bruno Onyemaechi: Over: 10.000
-- **Anytime Goalscorer** - Carrillo Dani Garcia: Over: 7.500
-- **Anytime Goalscorer** - Christos Mouzakitis: Over: 5.000
-- **Anytime Goalscorer** - Clayton Silva: Over: 2.100
-- **Anytime Goalscorer** - Dany Gelson Martins: Over: 2.750
-- **Anytime Goalscorer** - Davide Calabria: Over: 19.000
-- **Anytime Goalscorer** - Diogo Nascimento: Over: 4.750
-- **Anytime Goalscorer** - Erik Palmer-Brown: Over: 29.000
-- **Anytime Goalscorer** - Filip Djuricic: Over: 6.000
-
-### PAOK Thessaloniki vs AEK Athens
-- Kampstart: **2026-05-13 18:30**
-- Liga: **Greece - Super League**
-- **ML** - H: 1.750 | X: 3.600 | A: 4.500
-- **Draw No Bet** - H: 1.250 | A: 3.750
-- **Double Chance** - Draw or AEK Athens: Under: 2.050
-- **Double Chance** - PAOK Salonika or AEK Athens: Under: 1.285
-- **Double Chance** - PAOK Salonika or Draw: Under: 1.166
-- **Spread** - H: 2.000 | A: 1.800
-- **Totals** - Over: 1.950 | Under: 1.850
-- **Goals Over/Under** - Over: 1.950 | Under: 1.850
-- **Both Teams To Score** - Yes: 1.909 | No: 1.909
-- **Spread HT** - H: 1.800 | A: 2.000
-- **Totals HT** - Over: 1.900 | Under: 1.900
+- **Both Teams To Score** - Yes: 1.800 | No: 1.950
+- **Spread HT** - H: 1.825 | A: 1.975
+- **Totals HT** - Over: 1.775 | Under: 2.025
 - **European Handicap** - H: 2.875
-- **European Handicap** - X: 3.600 | A: 2.100
-- **Corners Spread** - H: 1.950 | A: 1.850
-- **Corners Totals** - Over: 2.000 | Under: 1.800
-- **Corners Totals HT** - Over: 1.850 | Under: 1.950
-- **Anytime Goalscorer** - Abdul Rahman Baba: Over: 8.000
-- **Anytime Goalscorer** - Aboubakary Koita: Over: 6.000
-- **Anytime Goalscorer** - Alessandro Bianco: Over: 4.750
-- **Anytime Goalscorer** - Alessandro Vogliacco: Over: 8.000
-- **Anytime Goalscorer** - Alexander Jeremejeff: Over: 2.400
-- **Anytime Goalscorer** - Ambrosini Zini: Over: 3.750
-- **Anytime Goalscorer** - Andrija Zivkovic: Over: 2.750
-- **Anytime Goalscorer** - Anestis Mythou: Over: 2.600
-- **Anytime Goalscorer** - Barnabas Varga: Over: 3.500
-- **Anytime Goalscorer** - Bendri Dunga: Over: 10.000
-- **Anytime Goalscorer** - Christos Kosidis: Over: 23.000
-- **Anytime Goalscorer** - Christos Zafeiris: Over: 5.000
-- **Anytime Goalscorer** - Dejan Lovren: Over: 13.000
-- **Anytime Goalscorer** - Derek Kutesa: Over: 6.500
-- **Anytime Goalscorer** - Dimitrios Chatsidis: Over: 4.750
-- **Anytime Goalscorer** - Dimitrios Kaloskamis: Over: 6.500
-- **Anytime Goalscorer** - Dimitris Berdos: Over: 3.250
-- **Anytime Goalscorer** - Dimitris Pelkas: Over: 4.750
-- **Anytime Goalscorer** - Domagoj Vida: Over: 19.000
+- **European Handicap** - X: 3.750 | A: 2.150
+- **Corners Spread** - H: 1.850 | A: 1.950
+- **Corners Totals** - Over: 1.850 | Under: 1.950
+- **Corners Totals HT** - Over: 1.800 | Under: 2.000
+- **Anytime Goalscorer** - Mille Eriksson: Over: 4.333
+- **Anytime Goalscorer** - Jeremiah Bjornler: Over: 5.500
+- **Anytime Goalscorer** - Miguel Sandberg: Over: 5.500
+- **Anytime Goalscorer** - Taiki Kagayama: Over: 5.500
+- **Anytime Goalscorer** - Filip Ornblom: Over: 9.500
+- **Anytime Goalscorer** - Gideon Mensah: Over: 9.500
+- **Anytime Goalscorer** - Gustav Hedin: Over: 9.500
+- **Anytime Goalscorer** - Issaka Seidu: Over: 9.500
+- **Anytime Goalscorer** - Ivan Maric: Over: 9.500
+- **Anytime Goalscorer** - Joshua Mambu: Over: 9.500
+- **Anytime Goalscorer** - Rasmus Dahlin: Over: 9.500
+- **Anytime Goalscorer** - Valter Callsen: Over: 9.500
+- **Anytime Goalscorer** - Alex Pantelidis: Over: 12.000
+- **Anytime Goalscorer** - Charles Baah: Over: 12.000
+- **Anytime Goalscorer** - Edvard Carrick: Over: 12.000
+- **Anytime Goalscorer** - Jakob Hedenquist: Over: 12.000
+- **Anytime Goalscorer** - Lucas Forsberg: Over: 12.000
+- **Anytime Goalscorer** - Malte Hallin: Over: 12.000
+- **Anytime Goalscorer** - Nils Eriksson: Over: 12.000
 
-### Villarreal CF vs Sevilla FC
-- Kampstart: **2026-05-13 19:00**
+### Valencia CF vs Rayo Vallecano
+- Kampstart: **2026-05-14 19:00**
 - Liga: **Spain - LaLiga**
-- **ML** - H: 2.000 | X: 3.500 | A: 3.800
-- **Draw No Bet** - H: 1.444 | A: 2.625
-- **Double Chance** - Draw or Sevilla: Under: 1.727
-- **Double Chance** - Villarreal or Sevilla: Under: 1.300
-- **Double Chance** - Villarreal or Draw: Under: 1.250
-- **Spread** - H: 2.000 | A: 1.850
+- **ML** - H: 2.200 | X: 3.300 | A: 3.500
+- **Draw No Bet** - H: 1.500 | A: 2.500
+- **Double Chance** - Valencia or Draw: Under: 1.285
+- **Double Chance** - Draw or Rayo Vallecano: Under: 1.666
+- **Double Chance** - Valencia or Rayo Vallecano: Under: 1.333
+- **Spread** - H: 1.850 | A: 2.000
 - **Totals** - Over: 1.850 | Under: 2.000
-- **Goals Over/Under** - Over: 1.800 | Under: 2.000
-- **Both Teams To Score** - Yes: 1.700 | No: 2.050
-- **Spread HT** - H: 2.075 | A: 1.725
-- **Totals HT** - Over: 1.775 | Under: 2.025
-- **European Handicap** - H: 1.250
-- **European Handicap** - X: 5.500 | A: 8.000
-- **Corners Spread** - H: 1.975 | A: 1.825
-- **Corners Totals** - Over: 1.900 | Under: 1.900
-- **Corners Totals HT** - Over: 2.025 | Under: 1.775
-- **Bookings Spread** - H: 1.750 | A: 2.050
-- **Bookings Totals** - Over: 1.750 | Under: 2.050
-- **Anytime Goalscorer** - Ayoze Perez: Over: 2.200
-- **Anytime Goalscorer** - Georges Mikautadze: Over: 2.200
-- **Anytime Goalscorer** - Alberto Moleiro: Over: 2.875
-- **Anytime Goalscorer** - Isaac Romero: Over: 2.875
-- **Anytime Goalscorer** - Alexis Sanchez: Over: 3.400
-- **Anytime Goalscorer** - Alfonso Gonzalez: Over: 3.400
-- **Anytime Goalscorer** - Hugo Lopez: Over: 3.400
-- **Anytime Goalscorer** - Joan Jordan: Over: 5.000
-- **Anytime Goalscorer** - Ruben Vargas: Over: 5.000
-- **Anytime Goalscorer** - Manu Bueno: Over: 6.500
-- **Anytime Goalscorer** - Santiago Comesana: Over: 6.500
-- **Anytime Goalscorer** - Jose Carmona: Over: 11.000
-- **Anytime Goalscorer** - Pau Navarro: Over: 11.000
-- **Anytime Goalscorer** - Logan Costa: Over: 12.000
-- **Anytime Goalscorer** - Rafa Marin: Over: 12.000
-- **Anytime Goalscorer** - Tani Oluwaseyi: Over: 2.500
-- **Anytime Goalscorer** - Alfonso Pedraza: Over: 8.500
-
-### Falkenbergs FF vs Varbergs BoIS
-- Kampstart: **2026-05-13 19:00**
-- Liga: **Sweden - Superettan**
-- **ML** - H: 2.600 | X: 3.250 | A: 2.500
-- **Draw No Bet** - H: 1.833 | A: 1.833
-- **Double Chance** - Falkenbergs FF or Draw: Under: 1.500
-- **Double Chance** - Falkenbergs FF or Varbergs BoIS FC: Under: 1.333
-- **Double Chance** - Draw or Varbergs BoIS FC: Under: 1.500
-- **Spread** - H: 1.975 | A: N/A
-- **Totals** - Over: 1.875 | Under: 1.925
-- **Goals Over/Under** - Over: 1.850 | Under: 1.950
-- **Both Teams To Score** - Yes: 1.700 | No: 2.050
-- **Spread HT** - H: 1.850 | A: 1.950
-- **Totals HT** - Over: 1.825 | Under: 1.975
-- **European Handicap** - X: 4.333 | A: 1.500
-- **European Handicap** - H: 13.000 | X: 7.500 | A: 12.000
-- **European Handicap** - H: 5.500
-- **European Handicap** - H: 1.142 | X: 8.000 | A: 1.142
-- **European Handicap** - H: 1.040
-- **European Handicap** - X: 17.000 | A: 29.000
-- **Corners Spread** - H: 1.950 | A: 1.850
-- **Corners Totals** - Over: 1.950 | Under: 1.850
-- **Corners Totals HT** - Over: 2.050 | Under: 1.750
-- **Anytime Goalscorer** - Kevin Nanque Sanha: Over: 2.200
-- **Anytime Goalscorer** - Aulon Bitiqi: Over: 3.250
-- **Anytime Goalscorer** - Max Rundback: Over: 3.250
-- **Anytime Goalscorer** - Oliver Alfonsi: Over: 3.250
-- **Anytime Goalscorer** - Olle Werner: Over: 3.250
-- **Anytime Goalscorer** - Shanyder Borgelin: Over: 3.250
-- **Anytime Goalscorer** - Johannes Selven: Over: 4.333
-- **Anytime Goalscorer** - Albin Winbo: Over: 5.000
-- **Anytime Goalscorer** - Axel Vidjeskog: Over: 5.000
-- **Anytime Goalscorer** - Isak Vidjeskog: Over: 5.000
-- **Anytime Goalscorer** - Jonathan Nilsson: Over: 5.000
-- **Anytime Goalscorer** - Oliver Bryneus: Over: 5.000
-- **Anytime Goalscorer** - Wilhelm Arlig: Over: 5.000
-- **Anytime Goalscorer** - Gazton Alexandersson: Over: 6.000
-- **Anytime Goalscorer** - Lassina Sangare: Over: 6.000
-
-### Helsingborgs IF vs IK Oddevold
-- Kampstart: **2026-05-13 19:00**
-- Liga: **Sweden - Superettan**
-- **ML** - H: 2.450 | X: 3.300 | A: 2.600
-- **Draw No Bet** - H: 1.800 | A: 1.909
-- **Double Chance** - Helsingborg or Draw: Under: 1.444
-- **Double Chance** - Draw or IK Oddevold: Under: 1.500
-- **Double Chance** - Helsingborg or IK Oddevold: Under: 1.300
-- **Spread** - H: 1.800 | A: N/A
-- **Totals** - Over: 1.950 | Under: 1.850
-- **Goals Over/Under** - Over: 1.727 | Under: 2.075
-- **Both Teams To Score** - Yes: 1.615 | No: 2.200
-- **Spread HT** - H: 1.825 | A: 1.975
-- **Totals HT** - Over: 1.700 | Under: 2.100
-- **European Handicap** - H: 5.000
-- **European Handicap** - X: 4.500 | A: 1.500
-- **Corners Spread** - H: 1.800 | A: 2.000
-- **Corners Totals** - Over: 1.950 | Under: 1.850
-- **Corners Totals HT** - Over: 1.900 | Under: 1.900
-- **Anytime Goalscorer** - Adam Akimey: Over: 3.000
-- **Anytime Goalscorer** - Kevin Appiah Nyarko: Over: 3.000
-- **Anytime Goalscorer** - Gustav Forssell: Over: 3.500
-- **Anytime Goalscorer** - Linus Tornblad: Over: 3.500
-- **Anytime Goalscorer** - Emmanuel Gono: Over: 3.750
-- **Anytime Goalscorer** - Hugo Engstrom: Over: 4.333
-- **Anytime Goalscorer** - Oscar Iglicar Berntsson: Over: 4.333
-- **Anytime Goalscorer** - Gabriel Sandberg: Over: 5.500
-- **Anytime Goalscorer** - Karl Svensson: Over: 5.500
-- **Anytime Goalscorer** - Leo Hedenberg: Over: 5.500
-- **Anytime Goalscorer** - Lucas Landgren Persson: Over: 5.500
-- **Anytime Goalscorer** - Samuel Asoma: Over: 5.500
-- **Anytime Goalscorer** - Alvin Nordin: Over: 6.500
-- **Anytime Goalscorer** - Awaka Djoro: Over: 6.500
-- **Anytime Goalscorer** - Daniel Krezic: Over: 6.500
-- **Anytime Goalscorer** - Lukas Kjellnas: Over: 6.500
-- **Anytime Goalscorer** - Casper Ljung: Over: 7.000
-- **Anytime Goalscorer** - Elias Forsberg: Over: 7.000
-- **Anytime Goalscorer** - Philip Engelbrektsson: Over: 7.500
-
-### IFK Norrkoping FK vs Nordic United FC
-- Kampstart: **2026-05-13 19:00**
-- Liga: **Sweden - Superettan**
-- **ML** - H: 1.750 | X: 3.700 | A: 4.000
-- **Draw No Bet** - H: 1.333 | A: 3.250
-- **Double Chance** - Draw or Nordic United FC: Under: 2.000
-- **Double Chance** - IFK Norrkoping or Draw: Under: 1.200
-- **Double Chance** - IFK Norrkoping or Nordic United FC: Under: 1.250
-- **Spread** - H: 1.975 | A: 1.825
-- **Totals** - Over: 1.925 | Under: 1.875
-- **Goals Over/Under** - Over: 1.571 | Under: 2.350
-- **Both Teams To Score** - Yes: 1.571 | No: 2.250
-- **Spread HT** - H: 1.875 | A: 1.925
-- **Totals HT** - Over: 1.975 | Under: 1.825
-- **European Handicap** - X: 6.500 | A: 9.000
-- **European Handicap** - X: 4.000 | A: 2.000
-- **Corners Spread** - H: 2.000 | A: 1.800
-- **Corners Totals** - Over: 1.950 | Under: 1.850
-- **Corners Totals HT** - Over: 2.025 | Under: 1.775
-- **Anytime Goalscorer** - Abdoulie Tamba: Over: 7.000
-- **Anytime Goalscorer** - Adi Fisic: Over: 3.600
-- **Anytime Goalscorer** - Ake Andersson: Over: 4.500
-- **Anytime Goalscorer** - Albert Aleksanjan: Over: 2.625
-- **Anytime Goalscorer** - Aleksander Opsahl: Over: 8.500
-- **Anytime Goalscorer** - Alexander Fransson: Over: 6.000
-- **Anytime Goalscorer** - Algot Hjelm: Over: 8.500
-- **Anytime Goalscorer** - Amar Eminovic: Over: 7.000
-- **Anytime Goalscorer** - Anton Eriksson: Over: 8.500
-- **Anytime Goalscorer** - Axel Bronner: Over: 4.333
-- **Anytime Goalscorer** - Aziz Harabi: Over: 6.000
-- **Anytime Goalscorer** - Christian Aphrem: Over: 6.000
-- **Anytime Goalscorer** - Christoffer Nyman: Over: 1.952
-- **Anytime Goalscorer** - David Tokpah: Over: 13.000
-- **Anytime Goalscorer** - Elias Andersson: Over: 11.000
-- **Anytime Goalscorer** - Elias Jemal: Over: 3.250
-- **Anytime Goalscorer** - Emanuel Swedi: Over: 8.500
-- **Anytime Goalscorer** - Fabian Holst-Larsen: Over: 5.000
-- **Anytime Goalscorer** - Filip Dagerstal: Over: 8.500
-
-### Osters IF vs Sandvikens IF
-- Kampstart: **2026-05-13 19:00**
-- Liga: **Sweden - Superettan**
-- **ML** - H: 1.900 | X: 3.600 | A: 3.400
-- **Draw No Bet** - H: 1.444 | A: 2.625
-- **Double Chance** - Draw or Sandvikens IF: Under: 1.800
-- **Double Chance** - Osters IF or Draw: Under: 1.285
-- **Double Chance** - Osters IF or Sandvikens IF: Under: 1.250
-- **Spread** - H: 1.950 | A: 1.850
-- **Totals** - Over: 1.850 | Under: 1.950
-- **Goals Over/Under** - Over: 1.700 | Under: 2.100
-- **Both Teams To Score** - Yes: 1.615 | No: 2.200
-- **Spread HT** - H: 2.050 | A: 1.750
-- **Totals HT** - Over: 2.075 | Under: 1.725
-- **European Handicap** - H: 3.250
-- **European Handicap** - X: 4.000 | A: 1.800
-- **European Handicap** - H: 7.000 | X: 11.000 | A: 19.000
-- **European Handicap** - H: 1.071 | X: 5.500 | A: 1.300
-- **European Handicap** - X: 11.000 | A: 1.083
-- **Corners Spread** - H: 2.000 | A: 1.800
-- **Corners Totals** - Over: 1.850 | Under: 1.950
-- **Corners Totals HT** - Over: 1.825 | Under: 1.975
-- **Anytime Goalscorer** - Aapo Maenpaa: Over: 7.500
-- **Anytime Goalscorer** - Adam Kiani: Over: 10.000
-- **Anytime Goalscorer** - Alan Carleton: Over: 7.000
-- **Anytime Goalscorer** - Al Hussein Shakir: Over: 7.000
-- **Anytime Goalscorer** - Anomnachi Chidi: Over: 3.100
-- **Anytime Goalscorer** - Anton Lund: Over: 5.500
-- **Anytime Goalscorer** - August Soderholm: Over: 8.000
-- **Anytime Goalscorer** - Axel Lindahl: Over: 7.500
-- **Anytime Goalscorer** - Christian Kouakou: Over: 2.875
-- **Anytime Goalscorer** - Christian Wagner: Over: 3.100
-- **Anytime Goalscorer** - Daniel Ask: Over: 5.500
-- **Anytime Goalscorer** - Dennis Olsson: Over: 3.600
-- **Anytime Goalscorer** - Fabian Andersson: Over: 6.000
-- **Anytime Goalscorer** - Filip Olsson: Over: 5.500
-- **Anytime Goalscorer** - Gustav Thorn: Over: 12.000
-- **Anytime Goalscorer** - Hannes Bladh Pijaca: Over: 4.000
-
-### Manchester City vs Crystal Palace
-- Kampstart: **2026-05-13 21:00**
-- Liga: **England - Premier League**
-- **ML** - H: 1.222 | X: 7.500 | A: 10.000
-- **Draw No Bet** - H: 1.050 | A: 11.000
-- **Double Chance** - Draw or Crystal Palace: Under: 4.333
-- **Double Chance** - Man City or Crystal Palace: Under: 1.100
-- **Double Chance** - Man City or Draw: Under: 1.050
-- **Spread** - H: 1.900 | A: 1.950
-- **Totals** - Over: 1.850 | Under: 2.000
-- **Goals Over/Under** - Over: 1.363 | Under: 3.200
-- **Both Teams To Score** - Yes: 1.950 | No: 1.800
-- **Spread HT** - H: 1.725 | A: 2.075
-- **European Handicap** - H: 2.300
-- **European Handicap** - X: 4.333 | A: 2.400
-- **Corners Spread** - H: 1.825 | A: 1.975
-- **Corners Totals** - Over: 1.850 | Under: 1.950
-- **Corners Totals HT** - Over: 1.825 | Under: 1.975
-- **Bookings Spread** - H: 1.725 | A: 2.075
-- **Bookings Totals** - Over: 1.975 | Under: 1.825
-- **Anytime Goalscorer** - Abduqodir Khusanov: Over: 8.500
-- **Anytime Goalscorer** - Adam Wharton: Over: 15.000
-- **Anytime Goalscorer** - Antoine Semenyo: Over: 1.833
-- **Anytime Goalscorer** - Bernardo Silva: Over: 4.000
-- **Anytime Goalscorer** - Borna Sosa: Over: 15.000
-- **Anytime Goalscorer** - Brennan Johnson: Over: 7.000
-- **Anytime Goalscorer** - Chadi Riad: Over: 19.000
-- **Anytime Goalscorer** - Chrisantus Uche: Over: 5.000
-- **Anytime Goalscorer** - Chris Richards: Over: 19.000
-- **Anytime Goalscorer** - Daichi Kamada: Over: 8.000
-- **Anytime Goalscorer** - Daniel Munoz: Over: 10.000
-- **Anytime Goalscorer** - Erling Haaland: Over: 1.333
-- **Anytime Goalscorer** - Evann Guessand: Over: 6.000
-- **Anytime Goalscorer** - Ismaila Sarr: Over: 6.000
-- **Anytime Goalscorer** - Jaydee Canvot: Over: 19.000
-- **Anytime Goalscorer** - Jean-Philippe Mateta: Over: 3.750
-- **Anytime Goalscorer** - Jefferson Lerma: Over: 15.000
-- **Anytime Goalscorer** - Jeremy Doku: Over: 3.100
-
-### Racing Club De Lens vs Paris Saint-Germain
-- Kampstart: **2026-05-13 21:00**
-- Liga: **France - Ligue 1**
-- **ML** - H: 3.100 | X: 3.900 | A: 2.100
-- **Draw No Bet** - H: 2.250 | A: 1.571
-- **Double Chance** - Draw or PSG: Under: 1.363
-- **Double Chance** - Lens or Draw: Under: 1.727
-- **Double Chance** - Lens or PSG: Under: 1.222
-- **Spread** - H: 1.975 | A: 1.875
-- **Totals** - Over: 1.950 | Under: 1.900
-- **Goals Over/Under** - Over: 1.444 | Under: 2.750
-- **Both Teams To Score** - Yes: 1.444 | No: 2.625
-- **Spread HT** - H: 1.700 | A: 2.100
-- **Totals HT** - Over: 1.775 | Under: 2.025
-- **European Handicap** - H: 6.000
-- **European Handicap** - X: 5.500 | A: 1.363
-- **Corners Spread** - H: 1.900 | A: 1.900
-- **Corners Totals** - Over: 1.875 | Under: 1.925
-- **Corners Totals HT** - Over: 2.000 | Under: 1.800
-- **Bookings Spread** - H: 1.750
-- **Bookings Totals** - Over: 1.975 | Under: 1.825
-- **Anytime Goalscorer** - Abdallah Sima: Over: 3.400
-- **Anytime Goalscorer** - Achraf Hakimi: Over: 4.750
-- **Anytime Goalscorer** - Adrien Thomasson: Over: 4.750
-- **Anytime Goalscorer** - Allan Saint-Maximin: Over: 3.400
-- **Anytime Goalscorer** - Amadou Haidara: Over: 8.000
-- **Anytime Goalscorer** - Andrija Bulatovic: Over: 4.750
-- **Anytime Goalscorer** - Anthony Bermont: Over: 4.333
-- **Anytime Goalscorer** - Arthur Masuaku: Over: 8.000
-- **Anytime Goalscorer** - Bradley Barcola: Over: 2.750
-- **Anytime Goalscorer** - David Boly: Over: 6.000
-- **Anytime Goalscorer** - Desire Doue: Over: 2.750
-- **Anytime Goalscorer** - Dimitri Lucea: Over: 9.000
-- **Anytime Goalscorer** - Dro Fernandez: Over: 3.600
-- **Anytime Goalscorer** - Fabian Ruiz: Over: 4.750
-- **Anytime Goalscorer** - Florian Sotoca: Over: 2.750
-- **Anytime Goalscorer** - Florian Thauvin: Over: 3.400
-- **Anytime Goalscorer** - Fode Sylla: Over: 6.000
-
-### Lazio Rome vs Inter Milano
-- Kampstart: **2026-05-13 21:00**
-- Liga: **Italy - Coppa Italia**
-- **ML** - H: 5.000 | X: 3.600 | A: 1.700
-- **Draw No Bet** - H: 3.750 | A: 1.250
-- **Double Chance** - Draw or Inter Milan: Under: 1.166
-- **Double Chance** - Lazio or Draw: Under: 2.100
-- **Double Chance** - Lazio or Inter Milan: Under: 1.285
-- **Spread** - H: 1.900 | A: 1.900
-- **Totals** - Over: 2.000 | Under: 1.800
-- **Goals Over/Under** - Over: 2.000 | Under: 1.800
-- **Both Teams To Score** - Yes: 1.950 | No: 1.800
-- **Spread HT** - H: 2.000 | A: 1.800
-- **Totals HT** - Over: 1.900 | Under: 1.900
-- **European Handicap** - H: 13.000
-- **European Handicap** - X: 7.000 | A: 1.166
-- **Corners Spread** - H: 1.900 | A: 1.900
-- **Corners Totals** - Over: 1.925 | Under: 1.875
-- **Corners Totals HT** - Over: 1.775 | Under: 2.025
-- **Bookings Spread** - H: 1.875
-- **Bookings Totals** - Over: 1.950 | Under: 1.850
-- **Anytime Goalscorer** - Davide Frattesi: Over: 4.000
-- **Anytime Goalscorer** - Alessandro Bastoni: Over: 8.000
-- **Anytime Goalscorer** - Yann Aurel Bisseck: Over: 8.000
-- **Anytime Goalscorer** - Nicolo Rovella: Over: 11.000
-- **Anytime Goalscorer** - Nuno Tavares: Over: 11.000
-- **Anytime Goalscorer** - Elseid Hysaj: Over: 29.000
-- **Anytime Goalscorer** - Nicolo Barella: Over: 6.000
-- **Anytime Goalscorer** - Petar Sucic: Over: 6.000
-- **Anytime Goalscorer** - Andy Diouf: Over: 5.000
-- **Anytime Goalscorer** - Denzel Dumfries: Over: 5.000
-- **Anytime Goalscorer** - Federico Dimarco: Over: 5.000
-- **Anytime Goalscorer** - Mattia Zaccagni: Over: 5.000
-- **Anytime Goalscorer** - Tijjani Noslin: Over: 5.000
-- **Anytime Goalscorer** - Adam Marusic: Over: 15.000
-- **Anytime Goalscorer** - Gabarron Patric Gil: Over: 15.000
-- **Anytime Goalscorer** - Luca Pellegrini: Over: 15.000
-- **Anytime Goalscorer** - Manuel Lazzari: Over: 15.000
-
-### Heart of Midlothian FC vs Falkirk FC
-- Kampstart: **2026-05-13 21:00**
-- Liga: **Scotland - Premiership**
-- **ML** - H: 1.420 | X: 4.750 | A: 7.000
-- **Draw No Bet** - H: 1.142 | A: 5.500
-- **Double Chance** - Draw or Falkirk: Under: 2.625
-- **Double Chance** - Hearts or Draw: Under: 1.111
-- **Double Chance** - Hearts or Falkirk: Under: 1.181
-- **Spread** - H: 1.975 | A: 1.875
-- **Totals** - Over: 1.875 | Under: 1.975
-- **Goals Over/Under** - Over: 1.666 | Under: 2.200
-- **Both Teams To Score** - Yes: 1.909 | No: 1.909
-- **Spread HT** - H: 1.925 | A: 1.875
-- **Totals HT** - Over: 2.050 | Under: 1.750
-- **European Handicap** - H: 2.100
-- **European Handicap** - X: 3.750 | A: 2.750
-- **European Handicap** - X: 6.500 | A: 1.250
+- **Goals Over/Under** - Over: 2.100 | Under: 1.727
+- **Both Teams To Score** - Yes: 1.800 | No: 1.950
+- **Spread HT** - H: 2.200 | A: 1.650
+- **Totals HT** - Over: 2.025 | Under: 1.775
+- **European Handicap** - H: 4.000
+- **European Handicap** - X: 3.750 | A: 1.666
 - **Corners Spread** - H: 1.850 | A: 1.950
-- **Corners Totals** - Over: 2.025 | Under: 1.775
-- **Corners Totals HT** - Over: 2.050 | Under: 1.750
-- **Bookings Spread** - H: 2.050
-- **Bookings Totals** - Over: 2.025 | Under: 1.775
-- **Anytime Goalscorer** - Alan Forrest: Over: 4.000
-- **Anytime Goalscorer** - Alexandros Kyziridis: Over: 2.600
-- **Anytime Goalscorer** - Alfie Osborne: Over: 7.000
-- **Anytime Goalscorer** - Barney Stewart: Over: 4.000
-- **Anytime Goalscorer** - Ben Broggio: Over: 7.500
-- **Anytime Goalscorer** - Beni Baningime: Over: 9.000
-- **Anytime Goalscorer** - Ben Parkinson: Over: 4.500
-- **Anytime Goalscorer** - Blair Spittal: Over: 2.600
-- **Anytime Goalscorer** - Brad Spencer: Over: 7.000
-- **Anytime Goalscorer** - Brian Graham: Over: 4.000
-- **Anytime Goalscorer** - Calem Nieuwenhof: Over: 4.500
-- **Anytime Goalscorer** - Calvin Miller: Over: 6.000
-- **Anytime Goalscorer** - Cameron Devlin: Over: 7.000
-- **Anytime Goalscorer** - Christian Borchgrevink: Over: 8.000
-- **Anytime Goalscorer** - Claudio Braga: Over: 1.952
-- **Anytime Goalscorer** - Coll Donaldson: Over: 23.000
-
-### IK Brage vs Ostersunds FK
-- Kampstart: **2026-05-13 19:00**
-- Liga: **Sweden - Superettan**
-- **ML** - H: 2.250 | X: 3.250 | A: 2.900
-- **Draw No Bet** - H: 1.666 | A: 2.100
-- **Double Chance** - IK Brage or Ostersunds FK: Under: 1.300
-- **Double Chance** - IK Brage or Draw: Under: 1.363
-- **Double Chance** - Draw or Ostersunds FK: Under: 1.533
-- **Spread** - H: 2.025 | A: 1.775
-- **Totals** - Over: 1.875 | Under: 1.925
-- **Goals Over/Under** - Over: 1.850 | Under: 1.950
-- **Both Teams To Score** - Yes: 1.700 | No: 2.050
-- **Spread HT** - H: 1.750 | A: 2.050
-- **Totals HT** - Over: 1.825 | Under: 1.975
-- **European Handicap** - H: 1.363
-- **European Handicap** - X: 4.750 | A: 6.000
-- **Corners Spread** - H: 1.850 | A: 1.950
-- **Corners Totals** - Over: 2.000 | Under: 1.800
-- **Corners Totals HT** - Over: 1.775 | Under: 2.025
-- **Anytime Goalscorer** - Haris Brkic: Over: 3.600
-- **Anytime Goalscorer** - Gustav Berggren: Over: 5.000
-- **Anytime Goalscorer** - Lasse Madsen: Over: 5.000
-- **Anytime Goalscorer** - Emil Ozkan: Over: 6.500
-- **Anytime Goalscorer** - Gustav Odenlind: Over: 6.500
-- **Anytime Goalscorer** - Luka Bozickovic: Over: 6.500
-- **Anytime Goalscorer** - Michael Oluwayemni: Over: 7.500
-- **Anytime Goalscorer** - Donald Molls: Over: 8.000
-- **Anytime Goalscorer** - Gideon Granstrom: Over: 4.000
-- **Anytime Goalscorer** - Gustav Nordh: Over: 4.000
-- **Anytime Goalscorer** - Noah Ostberg: Over: 4.000
-- **Anytime Goalscorer** - Pontus Jonsson: Over: 4.000
-- **Anytime Goalscorer** - Anton Lundin: Over: 4.750
-- **Anytime Goalscorer** - Marinus Larsen: Over: 4.750
-- **Anytime Goalscorer** - Oliwer Stark: Over: 4.750
-- **Anytime Goalscorer** - Anders Hellblom: Over: 6.000
-- **Anytime Goalscorer** - Albin Sporrong: Over: 6.500
-- **Anytime Goalscorer** - Eseg Yossief Worke: Over: 11.000
-- **Anytime Goalscorer** - Jonathan Westerberg: Over: 11.000
-
-### Slavia Prague vs FK Jablonec
-- Kampstart: **2026-05-13 20:00**
-- Liga: **Czechia - 1. Liga**
-- **ML** - H: 1.380 | X: 4.500 | A: 6.500
-- **Draw No Bet** - H: 1.142 | A: 5.500
-- **Double Chance** - Slavia Prague or Draw: Under: 1.111
-- **Double Chance** - Draw or FK Jablonec: Under: 2.625
-- **Double Chance** - Slavia Prague or FK Jablonec: Under: 1.181
-- **Spread** - H: 1.850 | A: 1.950
-- **Totals** - Over: 1.850 | Under: 1.950
-- **Goals Over/Under** - Over: 1.500 | Under: 2.500
-- **Both Teams To Score** - Yes: 1.700 | No: 2.050
-- **Spread HT** - H: 1.925 | A: 1.875
-- **Totals HT** - Over: 1.925 | Under: 1.875
-- **European Handicap** - H: 7.500
-- **European Handicap** - H: 3.750 | X: 21.000 | A: 41.000
-- **European Handicap** - H: 1.111
-- **European Handicap** - H: 1.025 | X: 4.500 | A: 1.666
-- **European Handicap** - X: 6.500 | A: 1.250
-- **European Handicap** - X: 9.000 | A: 15.000
-- **Corners Spread** - H: 1.950 | A: 1.850
-- **Corners Totals** - Over: 1.875 | Under: 1.925
-- **Corners Totals HT** - Over: 1.950 | Under: 1.850
-- **Alternative Asian Handicap** - H: 3.000 | A: 1.375
-- **Alternative Asian Handicap** - H: 1.275 | A: 5.900
-- **Alternative Asian Handicap** - H: 1.130 | A: 3.550
-- **Alternative Asian Handicap** - H: 1.150 | A: 5.500
-- **Alternative Asian Handicap** - H: 4.650 | A: 1.180
-- **Alternative Asian Handicap** - H: 7.000 | A: 1.100
-- **Alternative Asian Handicap** - H: 6.600 | A: 1.110
-- **Alternative Asian Handicap** - H: 3.700 | A: 1.260
-- **Alternative Asian Handicap** - H: 3.450 | A: 1.300
-- **Alternative Asian Handicap** - H: 2.425 | A: 1.525
-- **Alternative Asian Handicap** - H: 2.100 | A: 1.700
-- **Alternative Asian Handicap** - H: 1.650 | A: 2.200
-- **Alternative Asian Handicap** - H: 1.500 | A: 2.500
-- **Alternative Asian Handicap** - H: 1.425 | A: 6.400
-- **Alternative Asian Handicap** - H: 1.115 | A: 2.750
-
-### Alloa Athletic FC vs Stenhousemuir FC
-- Kampstart: **2026-05-13 20:45**
-- Liga: **Scotland - Championship**
-- **ML** - H: 2.500 | X: 3.300 | A: 2.750
-- **Draw No Bet** - H: 1.727 | A: 2.000
-- **Double Chance** - Alloa or Draw: Under: 1.400
-- **Double Chance** - Alloa or Stenhousemuir: Under: 1.333
-- **Double Chance** - Draw or Stenhousemuir: Under: 1.500
-- **Spread** - H: 1.775 | A: N/A
-- **Totals** - Over: 1.800 | Under: 2.000
-- **Goals Over/Under** - Over: 1.727 | Under: 2.075
-- **Both Teams To Score** - Yes: 1.571 | No: 2.250
-- **Spread HT** - H: 1.825 | A: 1.975
-- **Totals HT** - Over: 2.075 | Under: 1.725
-- **European Handicap** - H: 4.500
-- **European Handicap** - X: 4.500 | A: 1.500
-- **European Handicap** - H: 9.500 | X: 7.500 | A: 10.000
-- **European Handicap** - H: 1.125 | X: 7.000 | A: 1.166
-- **European Handicap** - H: 23.000
-- **European Handicap** - X: 15.000 | A: 1.050
 - **Corners Totals** - Over: 1.800 | Under: 2.000
-- **Corners Totals HT** - Over: 1.975 | Under: 1.825
-- **Anytime Goalscorer** - Andrew Clarke: Over: 6.000
-- **Anytime Goalscorer** - Andrew Graham: Over: 10.000
-- **Anytime Goalscorer** - Archie Graham: Over: 15.000
-- **Anytime Goalscorer** - Calum Waters: Over: 7.500
-- **Anytime Goalscorer** - Cameron O'Donnel: Over: 6.000
-- **Anytime Goalscorer** - Conor Sammon: Over: 2.500
-- **Anytime Goalscorer** - Dale Carrick: Over: 3.000
-- **Anytime Goalscorer** - Daniel Church: Over: 9.000
-- **Anytime Goalscorer** - David Devine: Over: 8.000
-- **Anytime Goalscorer** - David McKay: Over: 8.000
-- **Anytime Goalscorer** - Euan O'Reilly: Over: 4.750
-- **Anytime Goalscorer** - Findlay Gray: Over: 6.000
-- **Anytime Goalscorer** - Finn Robson: Over: 7.500
-- **Anytime Goalscorer** - Gregor Buchanan: Over: 6.000
-- **Anytime Goalscorer** - Josh Gentles: Over: 2.500
-- **Anytime Goalscorer** - Kalvin Orsi: Over: 2.750
+- **Corners Totals HT** - Over: 1.950 | Under: 1.850
+- **Bookings Spread** - H: 2.000 | A: 1.800
+- **Bookings Totals** - Over: 1.950 | Under: 1.850
+- **Anytime Goalscorer** - Dimitri Foulquier: Over: 11.000
+- **Anytime Goalscorer** - Jose Gaya: Over: 11.000
+- **Anytime Goalscorer** - Oscar Valentin: Over: 11.000
+- **Anytime Goalscorer** - Thierry Correia: Over: 11.000
+- **Anytime Goalscorer** - Unai Nunez: Over: 11.000
+- **Anytime Goalscorer** - Ivan Balliu: Over: 19.000
+- **Anytime Goalscorer** - Arnaut Danjuma: Over: 3.000
+- **Anytime Goalscorer** - Largie Ramazani: Over: 3.250
+- **Anytime Goalscorer** - Fran Perez: Over: 5.500
+- **Anytime Goalscorer** - Hugo Duro: Over: 2.300
+- **Anytime Goalscorer** - Sadiq Umar: Over: 2.300
+- **Anytime Goalscorer** - Daniel Raba: Over: 2.875
+- **Anytime Goalscorer** - Sergio Camello: Over: 3.600
+- **Anytime Goalscorer** - Carlos Martin: Over: 3.750
+- **Anytime Goalscorer** - David Otorbi: Over: 3.750
+- **Anytime Goalscorer** - Alvaro Garcia: Over: 4.000
+- **Anytime Goalscorer** - Filip Ugrinic: Over: 4.333
 
-### Glasgow Rangers vs Hibernian FC
-- Kampstart: **2026-05-13 21:00**
-- Liga: **Scotland - Premiership**
-- **ML** - H: 1.571 | X: 4.500 | A: 5.000
-- **Draw No Bet** - H: 1.222 | A: 4.000
-- **Double Chance** - Draw or Hibernian: Under: 2.375
-- **Double Chance** - Rangers or Draw: Under: 1.166
-- **Double Chance** - Rangers or Hibernian: Under: 1.181
-- **Spread** - H: 1.975 | A: 1.875
-- **Totals** - Over: 1.950 | Under: 1.900
-- **Goals Over/Under** - Over: 1.571 | Under: 2.375
-- **Both Teams To Score** - Yes: 1.666 | No: 2.100
-- **Spread HT** - H: 2.025 | A: 1.775
-- **Totals HT** - Over: 1.925 | Under: 1.875
-- **European Handicap** - X: 7.000 | A: 11.000
-- **European Handicap** - H: 1.166
-- **European Handicap** - H: 4.500 | X: 15.000 | A: 29.000
-- **European Handicap** - H: 1.040 | X: 4.750 | A: 1.500
-- **European Handicap** - H: 9.500
-- **European Handicap** - X: 7.500 | A: 1.181
-- **Corners Spread** - H: 1.850 | A: 1.950
-- **Corners Totals** - Over: 1.875 | Under: 1.925
-- **Corners Totals HT** - Over: 1.875 | Under: 1.925
-- **Bookings Spread** - H: 2.050 | A: 1.750
-- **Bookings Totals** - Over: 1.750 | Under: 2.050
-- **Anytime Goalscorer** - Aiden McCallion: Over: 4.000
-- **Anytime Goalscorer** - Alasana Manneh: Over: 8.500
-- **Anytime Goalscorer** - Andreas Skov Olsen: Over: 2.625
-- **Anytime Goalscorer** - Ante Suto: Over: 3.400
-- **Anytime Goalscorer** - Bailey Rice: Over: 4.500
-- **Anytime Goalscorer** - Bojan Miovski: Over: 2.050
-- **Anytime Goalscorer** - Chris Cadden: Over: 9.500
-- **Anytime Goalscorer** - Connor Barron: Over: 8.000
-- **Anytime Goalscorer** - Dane Scarlett: Over: 3.100
-- **Anytime Goalscorer** - Daniel Barlaser: Over: 9.500
-- **Anytime Goalscorer** - Djeidi Gassama: Over: 2.625
-- **Anytime Goalscorer** - Dujon Sterling: Over: 6.500
-- **Anytime Goalscorer** - Emmanuel Fernandez: Over: 4.500
-
-### Getafe CF vs RCD Mallorca
-- Kampstart: **2026-05-13 21:30**
-- Liga: **Spain - LaLiga**
-- **ML** - H: 2.300 | X: 3.100 | A: 3.500
-- **Draw No Bet** - H: 1.533 | A: 2.375
-- **Double Chance** - Draw or Mallorca: Under: 1.615
-- **Double Chance** - Getafe or Draw: Under: 1.285
-- **Double Chance** - Getafe or Mallorca: Under: 1.363
-- **Spread** - H: 1.950 | A: 1.900
-- **Totals** - Over: 2.050 | Under: 1.800
-- **Goals Over/Under** - Over: 2.750 | Under: 1.444
-- **Both Teams To Score** - Yes: 2.200 | No: 1.615
-- **Spread HT** - H: 1.625 | A: 2.250
-- **Totals HT** - Over: 1.850 | Under: 1.950
-- **European Handicap** - X: 4.750 | A: 9.000
-- **European Handicap** - H: 1.285
-- **Corners Spread** - H: 1.975 | A: 1.825
-- **Corners Totals** - Over: 1.775 | Under: 2.025
-- **Corners Totals HT** - Over: 1.725 | Under: 2.075
-- **Bookings Spread** - H: 1.850
-- **Bookings Totals** - Over: 1.900 | Under: 1.900
-- **Anytime Goalscorer** - Abdelkabir Abqar: Over: 13.000
-- **Anytime Goalscorer** - Abdon Prats: Over: 4.333
-- **Anytime Goalscorer** - Abu Kamara: Over: 3.000
-- **Anytime Goalscorer** - Adrian Liso: Over: 3.750
-- **Anytime Goalscorer** - Adrian Riquelme: Over: 5.500
-- **Anytime Goalscorer** - Alejandro Mestanza: Over: 4.750
-- **Anytime Goalscorer** - Alex Sancris: Over: 3.750
-- **Anytime Goalscorer** - Allan Nyom: Over: 11.000
-- **Anytime Goalscorer** - Andre Zito Luvumbo: Over: 4.750
-- **Anytime Goalscorer** - Antonio Raillo: Over: 11.000
-- **Anytime Goalscorer** - Antonio Sanchez: Over: 7.000
-- **Anytime Goalscorer** - Antonio Toni Lato: Over: 15.000
-- **Anytime Goalscorer** - Cesc Riba: Over: 8.000
-- **Anytime Goalscorer** - Costa Samu: Over: 9.500
-- **Anytime Goalscorer** - Dakonam Djene: Over: 13.000
-- **Anytime Goalscorer** - Damian Caceres: Over: 7.000
-- **Anytime Goalscorer** - David Lopez: Over: 11.000
-
-### Motherwell FC vs Celtic Glasgow
-- Kampstart: **2026-05-13 21:00**
-- Liga: **Scotland - Premiership**
-- **ML** - H: 4.750 | X: 4.200 | A: 1.615
-- **Draw No Bet** - H: 3.750 | A: 1.250
-- **Double Chance** - Draw or Celtic: Under: 1.181
-- **Double Chance** - Motherwell or Celtic: Under: 1.222
-- **Double Chance** - Motherwell or Draw: Under: 2.150
-- **Spread** - H: 2.050 | A: 1.800
-- **Totals** - Over: 1.875 | Under: 1.975
-- **Goals Over/Under** - Over: 1.571 | Under: 2.375
+### Al-Ittifaq FC vs Al-Ittihad Club
+- Kampstart: **2026-05-14 20:00**
+- Liga: **Saudi Arabia - Saudi Pro League**
+- **ML** - H: 3.500 | X: 3.750 | A: 1.833
+- **Draw No Bet** - H: 2.750 | A: 1.400
+- **Double Chance** - Al Ittifaq Dammam or Draw: Under: 1.800
+- **Double Chance** - Draw or Al Ittihad Jeddah: Under: 1.250
+- **Double Chance** - Al Ittifaq Dammam or Al Ittihad Jeddah: Under: 1.222
+- **Spread** - H: 1.950 | A: 1.850
+- **Totals** - Over: 2.000 | Under: 1.800
+- **Goals Over/Under** - Over: 1.615 | Under: 2.250
 - **Both Teams To Score** - Yes: 1.571 | No: 2.250
-- **Spread HT** - H: 2.025 | A: 1.775
-- **Totals HT** - Over: 1.925 | Under: 1.875
-- **European Handicap** - X: 4.000 | A: 2.625
-- **European Handicap** - H: 2.150
-- **Corners Spread** - H: 1.850 | A: 1.950
-- **Corners Totals** - Over: 1.875 | Under: 1.925
-- **Corners Totals HT** - Over: 1.825 | Under: 1.975
-- **Bookings Spread** - H: 1.675 | A: 2.150
-- **Bookings Totals** - Over: 2.000 | Under: 1.800
-- **Anytime Goalscorer** - Aaron Thomson: Over: 9.500
-- **Anytime Goalscorer** - Alex Oxlade-Chamberlain: Over: 2.875
-- **Anytime Goalscorer** - Alistair Johnston: Over: 11.000
-- **Anytime Goalscorer** - Andy Halliday: Over: 8.500
-- **Anytime Goalscorer** - Anthony Ralston: Over: 17.000
-- **Anytime Goalscorer** - Arne Engels: Over: 3.500
-- **Anytime Goalscorer** - Auston Trusty: Over: 9.500
-- **Anytime Goalscorer** - Benjamin Arthur: Over: 8.500
-- **Anytime Goalscorer** - Benjamin Nygren: Over: 2.200
-- **Anytime Goalscorer** - Blane Watson: Over: 7.500
-- **Anytime Goalscorer** - Callum Hendry: Over: 3.500
-- **Anytime Goalscorer** - Callum McGregor: Over: 3.500
-- **Anytime Goalscorer** - Callum Osmand: Over: 2.625
-- **Anytime Goalscorer** - Callum Slattery: Over: 6.000
-- **Anytime Goalscorer** - Chukwubuike Adamu: Over: 2.500
-- **Anytime Goalscorer** - Colby Donovan: Over: 8.500
-- **Anytime Goalscorer** - Daizen Maeda: Over: 2.200
-
-### Deportivo Alaves vs FC Barcelona
-- Kampstart: **2026-05-13 21:30**
-- Liga: **Spain - LaLiga**
-- **ML** - H: 3.300 | X: 4.000 | A: 2.000
-- **Draw No Bet** - H: 2.500 | A: 1.500
-- **Double Chance** - CD Alaves or Barcelona: Under: 1.222
-- **Double Chance** - CD Alaves or Draw: Under: 1.800
-- **Double Chance** - Draw or Barcelona: Under: 1.333
-- **Spread** - H: 1.825 | A: 2.025
-- **Totals** - Over: 1.925 | Under: 1.925
-- **Goals Over/Under** - Over: 1.571 | Under: 2.375
-- **Both Teams To Score** - Yes: 1.533 | No: 2.375
-- **Spread HT** - H: 1.700 | A: 2.100
-- **Totals HT** - Over: 1.825 | Under: 1.975
-- **European Handicap** - X: 4.000 | A: 3.500
-- **European Handicap** - H: 1.800
+- **Spread HT** - H: 1.800 | A: 2.000
+- **Totals HT** - Over: 2.000 | Under: 1.800
+- **European Handicap** - X: 4.000 | A: 3.200
+- **European Handicap** - H: 19.000 | X: 5.500 | A: 6.500
+- **European Handicap** - H: 1.333 | X: 11.000 | A: 1.071
+- **European Handicap** - H: 1.090
+- **European Handicap** - X: 5.500 | A: 1.250
 - **Corners Spread** - H: 1.950 | A: 1.850
 - **Corners Totals** - Over: 1.900 | Under: 1.900
-- **Corners Totals HT** - Over: 1.850 | Under: 1.950
-- **Bookings Spread** - H: 2.025 | A: 1.775
-- **Bookings Totals** - Over: 2.000 | Under: 1.800
-- **Anytime Goalscorer** - Abde Rebbach: Over: 5.000
-- **Anytime Goalscorer** - Aitor Manas: Over: 2.750
-- **Anytime Goalscorer** - Alex Balde: Over: 11.000
-- **Anytime Goalscorer** - Alvaro Cortes: Over: 8.500
-- **Anytime Goalscorer** - Ander Guevara: Over: 11.000
-- **Anytime Goalscorer** - Angel Hidalgo Perez: Over: 5.000
-- **Anytime Goalscorer** - Antonio Blanco: Over: 6.500
-- **Anytime Goalscorer** - Antonio Martinez: Over: 2.600
-- **Anytime Goalscorer** - Calebe: Over: 4.000
-- **Anytime Goalscorer** - Carles Alena: Over: 3.750
-- **Anytime Goalscorer** - Carlos Ballestero: Over: 8.500
-- **Anytime Goalscorer** - Carlos Protesoni: Over: 8.500
-- **Anytime Goalscorer** - Castro Jonny Otto: Over: 13.000
-- **Anytime Goalscorer** - Dani Olmo: Over: 3.400
-- **Anytime Goalscorer** - Denis Suarez: Over: 4.000
-- **Anytime Goalscorer** - Diego Morcillo: Over: 3.500
-- **Anytime Goalscorer** - Egoitz Munoz: Over: 11.000
+- **Corners Totals HT** - Over: 2.000 | Under: 1.800
+- **Anytime Goalscorer** - Abdulrahman Sahhari: Over: 2.750
+- **Anytime Goalscorer** - Steven Bergwijn: Over: 2.875
+- **Anytime Goalscorer** - Abdulrahman Al-Oboud: Over: 3.400
+- **Anytime Goalscorer** - Ahmed Al Ghamdi: Over: 3.400
+- **Anytime Goalscorer** - Houssem Aouar: Over: 3.400
+- **Anytime Goalscorer** - Roger Fernandes: Over: 3.400
+- **Anytime Goalscorer** - Hamed Al Ghamdi: Over: 4.000
+- **Anytime Goalscorer** - Khalid Al Ghannam: Over: 4.000
+- **Anytime Goalscorer** - Mahamadou Doumbia: Over: 4.000
+- **Anytime Goalscorer** - Abdulhakim Maghfori: Over: 5.500
+- **Anytime Goalscorer** - Ahmed Hassan Kouka: Over: 5.500
+- **Anytime Goalscorer** - Awad Al Nashri: Over: 5.500
+- **Anytime Goalscorer** - Faisal Al Ghamdi: Over: 5.500
+- **Anytime Goalscorer** - Joao Costa: Over: 5.500
+- **Anytime Goalscorer** - Matija Gluscevic: Over: 5.500
+- **Anytime Goalscorer** - Mohammed Fallatah: Over: 5.500
+
+### Real Madrid vs Real Oviedo
+- Kampstart: **2026-05-14 21:30**
+- Liga: **Spain - LaLiga**
+- **ML** - H: 1.270 | X: 6.250 | A: 9.500
+- **Draw No Bet** - H: 1.083 | A: 8.000
+- **Double Chance** - Real Madrid or Draw: Under: 1.071
+- **Double Chance** - Real Madrid or Real Oviedo: Under: 1.125
+- **Double Chance** - Draw or Real Oviedo: Under: 3.750
+- **Spread** - H: 1.950 | A: 1.900
+- **Totals** - Over: 1.975 | Under: 1.875
+- **Goals Over/Under** - Over: 1.500 | Under: 2.625
+- **Both Teams To Score** - Yes: 1.950 | No: 1.800
+- **Spread HT** - H: 1.950 | A: 1.850
+- **Totals HT** - Over: 1.800 | Under: 2.000
+- **European Handicap** - X: 5.500 | A: 1.363
+- **Corners Spread** - H: 1.850 | A: 1.950
+- **Corners Totals** - Over: 1.950 | Under: 1.850
+- **Corners Totals HT** - Over: 1.950 | Under: 1.850
+- **Bookings Spread** - H: 1.850 | A: 1.950
+- **Bookings Totals** - Over: 1.800 | Under: 2.000
+- **Anytime Goalscorer** - Gonzalo Garcia: Over: 1.909
+- **Anytime Goalscorer** - Jorge Cestero: Over: 3.750
+- **Anytime Goalscorer** - Aurelien Tchouameni: Over: 5.000
+- **Anytime Goalscorer** - Manuel Angel: Over: 5.000
+- **Anytime Goalscorer** - Trent Alexander-Arnold: Over: 5.000
+- **Anytime Goalscorer** - Dani Carvajal: Over: 8.500
+- **Anytime Goalscorer** - David Alaba: Over: 8.500
+- **Anytime Goalscorer** - Oviemuno Ejaria: Over: 8.500
+- **Anytime Goalscorer** - Santi Cazorla: Over: 8.500
+- **Anytime Goalscorer** - Cesar Palacios: Over: 2.750
+- **Anytime Goalscorer** - Alex Fores: Over: 5.000
+- **Anytime Goalscorer** - Francisco Garcia: Over: 9.500
+- **Anytime Goalscorer** - Raul Asencio: Over: 9.500
+- **Anytime Goalscorer** - Kylian Mbappe: Over: 1.500
+- **Anytime Goalscorer** - Vinicius Jr.: Over: 2.200
+- **Anytime Goalscorer** - Jude Bellingham: Over: 2.500
+- **Anytime Goalscorer** - Brahim Diaz: Over: 3.100
+- **Anytime Goalscorer** - Franco Mastantuono: Over: 3.100

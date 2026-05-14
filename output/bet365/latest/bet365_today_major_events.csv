@@ -1,24 +1,11 @@
 event_id,sport,league,date_utc,date_denmark,home,away,status
-70231954,Football,Greece - Super League,2026-05-13T14:00:00Z,2026-05-13 16:00,APO Levadiakos FC,OFI Crete,pending
-70231952,Football,Greece - Super League,2026-05-13T14:00:00Z,2026-05-13 16:00,Volos NPS,Aris Thessaloniki,pending
-70315368,Football,France - Ligue 1,2026-05-13T17:00:00Z,2026-05-13 19:00,Stade Brest 29,Strasbourg Alsace,pending
-61624648,Football,Spain - LaLiga,2026-05-13T17:00:00Z,2026-05-13 19:00,Espanyol Barcelona,Athletic Bilbao,pending
-71085530,Football,Czechia - 1. Liga,2026-05-13T15:30:00Z,2026-05-13 17:30,FC Hradec Kralove,FC Slovan Liberec,pending
-70231844,Football,Greece - Super League,2026-05-13T16:30:00Z,2026-05-13 18:30,Olympiacos Piraeus,Panathinaikos Athens,pending
-70231854,Football,Greece - Super League,2026-05-13T16:30:00Z,2026-05-13 18:30,PAOK Thessaloniki,AEK Athens,pending
-61624654,Football,Spain - LaLiga,2026-05-13T17:00:00Z,2026-05-13 19:00,Villarreal CF,Sevilla FC,pending
-67126096,Football,Sweden - Superettan,2026-05-13T17:00:00Z,2026-05-13 19:00,Falkenbergs FF,Varbergs BoIS,pending
-67126086,Football,Sweden - Superettan,2026-05-13T17:00:00Z,2026-05-13 19:00,Helsingborgs IF,IK Oddevold,pending
-67126088,Football,Sweden - Superettan,2026-05-13T17:00:00Z,2026-05-13 19:00,IFK Norrkoping FK,Nordic United FC,pending
-67126092,Football,Sweden - Superettan,2026-05-13T17:00:00Z,2026-05-13 19:00,Osters IF,Sandvikens IF,pending
-70784812,Football,England - Premier League,2026-05-13T19:00:00Z,2026-05-13 21:00,Manchester City,Crystal Palace,pending
-70315360,Football,France - Ligue 1,2026-05-13T19:00:00Z,2026-05-13 21:00,Racing Club De Lens,Paris Saint-Germain,pending
-71019438,Football,Italy - Coppa Italia,2026-05-13T19:00:00Z,2026-05-13 21:00,Lazio Rome,Inter Milano,pending
-70674826,Football,Scotland - Premiership,2026-05-13T19:00:00Z,2026-05-13 21:00,Heart of Midlothian FC,Falkirk FC,pending
-67126098,Football,Sweden - Superettan,2026-05-13T17:00:00Z,2026-05-13 19:00,IK Brage,Ostersunds FK,pending
-71085532,Football,Czechia - 1. Liga,2026-05-13T18:00:00Z,2026-05-13 20:00,Slavia Prague,FK Jablonec,pending
-71406950,Football,Scotland - Championship,2026-05-13T18:45:00Z,2026-05-13 20:45,Alloa Athletic FC,Stenhousemuir FC,pending
-70674830,Football,Scotland - Premiership,2026-05-13T19:00:00Z,2026-05-13 21:00,Glasgow Rangers,Hibernian FC,pending
-61624644,Football,Spain - LaLiga,2026-05-13T19:30:00Z,2026-05-13 21:30,Getafe CF,RCD Mallorca,pending
-70674828,Football,Scotland - Premiership,2026-05-13T19:00:00Z,2026-05-13 21:00,Motherwell FC,Celtic Glasgow,pending
-61624638,Football,Spain - LaLiga,2026-05-13T19:30:00Z,2026-05-13 21:30,Deportivo Alaves,FC Barcelona,pending
+70448376,Football,Switzerland - Super League,2026-05-14T14:30:00Z,2026-05-14 16:30,FC Basel 1893,FC St. Gallen 1879,pending
+70448380,Football,Switzerland - Super League,2026-05-14T14:30:00Z,2026-05-14 16:30,FC Thun,Young Boys Bern,pending
+64055871,Football,Saudi Arabia - Saudi Pro League,2026-05-14T15:55:00Z,2026-05-14 17:55,Al-Fateh SC,Al-Najma,pending
+64055877,Football,Saudi Arabia - Saudi Pro League,2026-05-14T18:00:00Z,2026-05-14 20:00,Al Qadsiah,Al-Hazm,pending
+61624646,Football,Spain - LaLiga,2026-05-14T18:00:00Z,2026-05-14 20:00,Girona FC,Real Sociedad San Sebastian,pending
+70448378,Football,Switzerland - Super League,2026-05-14T14:30:00Z,2026-05-14 16:30,FC Sion,FC Lugano,pending
+67126094,Football,Sweden - Superettan,2026-05-14T15:00:00Z,2026-05-14 17:00,Ljungskile SK,GIF Sundsvall,pending
+61624652,Football,Spain - LaLiga,2026-05-14T17:00:00Z,2026-05-14 19:00,Valencia CF,Rayo Vallecano,pending
+64055869,Football,Saudi Arabia - Saudi Pro League,2026-05-14T18:00:00Z,2026-05-14 20:00,Al-Ittifaq FC,Al-Ittihad Club,pending
+61624656,Football,Spain - LaLiga,2026-05-14T19:30:00Z,2026-05-14 21:30,Real Madrid,Real Oviedo,pending
