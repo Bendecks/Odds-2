@@ -2,28 +2,28 @@
 
 Probability-only forward prediction log. This is not a betting log and contains no stake or real-money signal.
 
-Current forward fixture predictions: 300
+Current forward fixture predictions: 278
 New forward fixture predictions logged: 0
-Total forward fixture predictions logged: 589
+Total forward fixture predictions logged: 712
 Log type: probability_only_no_market_prices
 
-- 2026-05-14 2026-05-13 13:00:00 | Lillehammer FK vs FK Gjoevik-Lyn | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-14 2026-05-13 13:00:00 | Lokomotiv Oslo vs FK Union Carl Berner | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-14 2026-05-13 13:00:00 | Masku vs LTU | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-14 2026-05-13 13:00:00 | Raelingen vs Brumunddal Fotball | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-14 2026-05-13 13:00:00 | Red Arrows vs Green Eagles | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-14 2026-05-13 13:00:00 | Shahrdari Nowshahr vs FC Fard Alborz | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-14 2026-05-13 13:00:00 | Simal vs Difai Agsu | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-14 2026-05-13 13:00:00 | Union Saint-Gilloise vs RSC Anderlecht | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-14 2026-05-13 13:15:00 | Sanat Mes Kerman FC vs Mes Shahr-e Babak | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-14 2026-05-13 13:30:00 | FK Vidar vs Sotra SK | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-14 2026-05-13 14:00:00 | Angelholms FF vs Aatvidabergs FF | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-14 2026-05-13 14:00:00 | HB Torshavn vs Vikingur Gota | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-14 2026-05-13 14:00:00 | IF Karlstad Fotbol vs IFK Stocksund | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-14 2026-05-13 14:00:00 | IF Vestri vs Grotta | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-14 2026-05-13 14:00:00 | KA Akureyri vs KF Aegir | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-14 2026-05-13 14:00:00 | Kjp Kouvola vs Lautp | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-14 2026-05-13 14:00:00 | Trelleborgs FF vs Jonkopings Sodra IF | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-14 2026-05-13 14:00:00 | FC Trollhattan vs Ariana FC | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-14 2026-05-13 14:00:00 | VfL Wolfsburg vs Bayern Munich | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-14 2026-05-13 14:05:00 | Dhofar SCSC vs Al Shabab | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-14 18:00:00 | Jeugd Patro Eisden Maasmechelen vs RAAL La Louviere | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-14 18:00:00 | K Beerschot VA vs Jeugd RWDM Brussels | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-14 18:00:00 | Maritimo Madeira vs GD Chaves | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-14 18:00:00 | Olympic Club De Charleroi vs Jeugd KV Kortrijk | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-14 18:00:00 | RFC Liege vs KVC Westerlo | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-14 18:00:00 | Raagsveds IF vs FOC Farsta | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-14 18:45:00 | Partick Thistle FC vs Dunfermline Athletic FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-14 18:45:00 | University College Dublin vs Bray Wanderers AFC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-14 19:00:00 | Leixoes SC vs Lusitania FC Lourosa | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-14 19:00:00 | Aston Villa vs Liverpool | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-14 19:15:00 | Augnablik Kopavogur vs KA Asvellir | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-14 19:15:00 | Haukar Hafnarfjordur vs Fjolnir | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-14 19:15:00 | Kari vs Hviti Riddarinn | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-14 19:15:00 | KH Hlidarendi vs Ymir Kopavogur | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-14 20:00:00 | Rubio Nu vs Nacional Asuncion | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-14 20:00:00 | Sportivo Trinidense vs Cerro Porteno | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-14 23:00:00 | Montevideo City Torque vs Club Nacional de Football | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-15 2026-05-14 23:30:00 | Deportivo La Guaira vs UCV FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-16 2026-05-14 15:00:00 | Club America vs Guadalajara | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-16 2026-05-14 18:00:00 | Ceara SC CE vs 3B Sport AM | H=0.37720000000000004 D=0.274 A=0.3488

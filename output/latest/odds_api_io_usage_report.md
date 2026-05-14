@@ -2,29 +2,29 @@
 
 This report combines repo-estimated Odds-API.io usage with provider rate-limit headers when available.
 
-Generated UTC: 2026-05-13T14:12:23.709825+00:00
-Latest run calls used: 5 / 14
+Generated UTC: 2026-05-14T02:31:15.942047+00:00
+Latest run calls used: 3 / 14
 Latest endpoint mode: multi_event_documented_endpoint
-Latest search queries: Levadeiakos, Volos NFC
-Latest priced event rows: 10
-Latest errors/status rows: 70
+Latest search queries: nan
+Latest priced event rows: 8
+Latest errors/status rows: 72
 
 ## Provider rate-limit headers
 
 x-ratelimit-limit: 100
-x-ratelimit-remaining: 86
-remaining ratio: 0.86
-x-ratelimit-reset: 2026-05-13T15:11:23Z
+x-ratelimit-remaining: 83
+remaining ratio: 0.83
+x-ratelimit-reset: 2026-05-14T03:30:03Z
 retry-after: None
 
 ## Estimated repo-driven req/hr
 
-- Last 1h: 5 calls across 1 runs => 5.0 req/hr
-- Last 6h: 18 calls across 2 runs => 3.0 req/hr
-- Last 12h: 32 calls across 3 runs => 2.6667 req/hr
-- Last 24h: 100 calls across 9 runs => 4.1667 req/hr
-- Last 72h: 235 calls across 38 runs => 3.2639 req/hr
-- Last 168h: 235 calls across 38 runs => 1.3988 req/hr
+- Last 1h: 3 calls across 1 runs => 3.0 req/hr
+- Last 6h: 3 calls across 1 runs => 0.5 req/hr
+- Last 12h: 3 calls across 1 runs => 0.25 req/hr
+- Last 24h: 21 calls across 3 runs => 0.875 req/hr
+- Last 72h: 238 calls across 39 runs => 3.3056 req/hr
+- Last 168h: 238 calls across 39 runs => 1.4167 req/hr
 
 ## Interpretation
 

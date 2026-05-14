@@ -1,467 +1,279 @@
 fixture_id,league,league_id,season,match_date,match_time,home_team,away_team,source,fetched_at_utc
-odds_api_io_70730310,denmark-2nd-division,denmark-2nd-division,upcoming,2026-05-13,16:00,AB Gladsaxe,FC Roskilde,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_69688854,brazil-u20-brasileiro-serie-b,brazil-u20-brasileiro-serie-b,upcoming,2026-05-13,18:30,AC Goianiense GO,Botafogo FC SP,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71366668,italy-serie-c-promotion-playoffs,italy-serie-c-promotion-playoffs,upcoming,2026-05-13,18:00,AC Renate,S.S.D. Casarano Calcio,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71172362,venezuela-primera-division,venezuela-primera-division,upcoming,2026-05-13,23:30,Academia Puerto Cabello,Portuguesa FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71297426,colombia-primera-a-apertura,colombia-primera-a-apertura,upcoming,2026-05-13,23:00,AD Pasto,CD Tolima,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71296250,brazil-copa-do-brasil-women,brazil-copa-do-brasil-women,upcoming,2026-05-13,18:00,AD Taubate SP,3B Sport AM,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70820624,iceland-cup,iceland-cup,upcoming,2026-05-13,19:15,Afturelding,UMF Njardvik,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68320168,sweden-division-2-promotion-playoffs,sweden-division-2-promotion-playoffs,upcoming,2026-05-13,17:00,Ahlafors IF,Herrestads AIF,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71463050,senegal-ligue-1,senegal-ligue-1,upcoming,2026-05-13,17:00,Ajel de Rufisque,Guediawaye FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71403924,bahrain-2nd-division,bahrain-2nd-division,upcoming,2026-05-13,16:00,Al Ittihad,Um Alhassam,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_69880316,egypt-premier-league,egypt-premier-league,upcoming,2026-05-13,17:00,Al Ittihad Al Sakandary,Talaea El Gaish,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67953284,saudi-arabia-division-1,saudi-arabia-division-1,upcoming,2026-05-13,16:10,Al-Adalah,Al Jubail,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67953280,saudi-arabia-division-1,saudi-arabia-division-1,upcoming,2026-05-13,16:10,Al-Arabi SC (SA),AL Jandal,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67953290,saudi-arabia-division-1,saudi-arabia-division-1,upcoming,2026-05-13,14:50,Al-Raed Club,Abha Club,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67953292,saudi-arabia-division-1,saudi-arabia-division-1,upcoming,2026-05-13,15:05,Al-Tai,Jeddah Club,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-fd_SP1_2026-05-13_Alaves_Barcelona,la_liga,SP1,upcoming,2026-05-13,20:30,Alaves,Barcelona,football_data_fixtures_proxy,2026-05-13T14:11:22.644318+00:00
-odds_api_io_71406950,scotland-championship,scotland-championship,upcoming,2026-05-13,18:45,Alloa Athletic FC,Stenhousemuir FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71412168,netherlands-eredivisie,netherlands-eredivisie,upcoming,2026-05-13,18:00,Almere City FC,Willem II Tilburg,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68158764,argentina-copa-proyeccion-final-reserves,argentina-copa-proyeccion-final-reserves,upcoming,2026-05-13,18:00,Argentinos Juniors Reserve,CA Tigre Reserve,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68310880,sweden-ettan-relegation/promotion,sweden-ettan-relegation/promotion,upcoming,2026-05-13,17:30,FC Arlanda,Karlbergs BK,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70722406,england-amateur-super-league-women,england-amateur-super-league-women,upcoming,2026-05-13,18:00,Arsenal WFC,Everton FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71463044,mali-ligue-1,mali-ligue-1,upcoming,2026-05-13,18:30,AS Bakaridjan,AS Korofina,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68158772,argentina-copa-proyeccion-final-reserves,argentina-copa-proyeccion-final-reserves,upcoming,2026-05-13,18:00,Atletico Tucuman Reserve,CA Barracas Central Reserve,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68492518,latvia-virsliga,latvia-virsliga,upcoming,2026-05-13,15:00,BFC Daugavpils,FC RFS,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_61894056,austria-amateur-burgenland-burgenlandliga,austria-amateur-burgenland-burgenlandliga,upcoming,2026-05-13,17:30,Bad Sauerbrunn,SV Leithaprodersdorf,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71336694,oman-omani-league,oman-omani-league,upcoming,2026-05-13,16:30,Bahla Club,AL Nasr SC (OMA),odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71344618,dominica-dfa-premier,dominica-dfa-premier,upcoming,2026-05-13,23:00,Bath Estate,We United,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70812660,israel-premier-league,israel-premier-league,upcoming,2026-05-13,17:00,Bnei Sakhnin FC,Hapoel Ironi Kiryat Shmona FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71325020,colombia-primera-b,colombia-primera-b,upcoming,2026-05-13,21:00,Bogota FC,Barranquilla FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68751768,brazil-u20-campeonato-brasileiro,brazil-u20-campeonato-brasileiro,upcoming,2026-05-13,20:00,Botafogo FR RJ,CR Flamengo RJ,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-fd_F1_2026-05-13_Brest_Strasbourg,ligue_1,F1,upcoming,2026-05-13,18:00,Brest,Strasbourg,football_data_fixtures_proxy,2026-05-13T14:11:22.644318+00:00
-odds_api_io_71344700,gambia-division-one,gambia-division-one,upcoming,2026-05-13,16:30,Brikama United,Falcons FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_69688804,brazil-u20-brasileiro-serie-b,brazil-u20-brasileiro-serie-b,upcoming,2026-05-13,18:30,Brusque SC,CR Brasil AL,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71403926,bahrain-2nd-division,bahrain-2nd-division,upcoming,2026-05-13,16:00,Busaiteen,AL Hala,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68158780,argentina-copa-proyeccion-final-reserves,argentina-copa-proyeccion-final-reserves,upcoming,2026-05-13,18:00,CA Belgrano,CA Central Cordoba SE Reserve,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68751758,brazil-u20-campeonato-brasileiro,brazil-u20-campeonato-brasileiro,upcoming,2026-05-13,18:00,CA Paranaense PR,Red Bull Bragantino SP,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71194350,argentina-copa-argentina,argentina-copa-argentina,upcoming,2026-05-13,19:15,CA Platense,San Martin de San Juan,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71428928,argentina-liga-profesional,argentina-liga-profesional,upcoming,2026-05-13,21:45,CA Rosario Central,Racing Club Avellaneda,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71366666,italy-serie-c-promotion-playoffs,italy-serie-c-promotion-playoffs,upcoming,2026-05-13,18:00,Calcio Lecco 1912,US Pianese,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71172386,venezuela-primera-division,venezuela-primera-division,upcoming,2026-05-13,23:00,Carabobo FC,Estudiantes de Merida,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71463324,el-salvador-primera-division-reserves-clausura,el-salvador-primera-division-reserves-clausura,upcoming,2026-05-13,18:00,CD Aguila,Alianza FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71452802,el-salvador-primera-division-clausura,el-salvador-primera-division-clausura,upcoming,2026-05-13,21:30,CD Aguila San Miguel,CD Luis Angel Firpo Usulutan,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71345804,ecuador-supercopa,ecuador-supercopa,upcoming,2026-05-13,22:00,CD Universidad Catolica del Ecuador,CSD Independiente del Valle,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71356892,brazil-copa-fgf,brazil-copa-fgf,upcoming,2026-05-13,18:00,CE Gramadense RS,FC Santa Cruz RS,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_66299148,usa-mls,usa-mls,upcoming,2026-05-13,23:15,Charlotte FC,New York City FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_66299150,usa-mls,usa-mls,upcoming,2026-05-13,23:30,FC Cincinnati,Inter Miami CF,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70759058,chile-copa-de-la-liga,chile-copa-de-la-liga,upcoming,2026-05-13,23:00,Coquimbo Unido,Colo-Colo,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_69254638,chile-primera-division-women,chile-primera-division-women,upcoming,2026-05-13,15:00,Coquimbo Unido,Deportes Iquique,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71296268,brazil-copa-do-brasil-women,brazil-copa-do-brasil-women,upcoming,2026-05-13,18:00,Coritiba FC PR,Rio Negro RR,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70401282,brazil-copa-do-brasil,brazil-copa-do-brasil,upcoming,2026-05-13,22:30,Coritiba FC PR,Santos FC SP,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70452650,brazil-copa-do-brasil,brazil-copa-do-brasil,upcoming,2026-05-13,22:00,CR Vasco da Gama RJ,Paysandu SC PA,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68751770,brazil-u20-campeonato-brasileiro,brazil-u20-campeonato-brasileiro,upcoming,2026-05-13,18:00,Criciuma EC SC,Fortaleza EC CE,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70350998,ecuador-serie-b,ecuador-serie-b,upcoming,2026-05-13,20:30,Cumbaya FC,LDU Portoviejo,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_66299152,usa-mls,usa-mls,upcoming,2026-05-13,23:30,DC United,Chicago Fire,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_69254642,chile-primera-division-women,chile-primera-division-women,upcoming,2026-05-13,15:00,Deportes Recoleta,Universidad Catolica,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_61624638,spain-laliga,spain-laliga,upcoming,2026-05-13,19:30,Deportivo Alaves,FC Barcelona,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_61466365,austria-amateur-regionalliga-centre,austria-amateur-regionalliga-centre,upcoming,2026-05-13,17:00,Deutschlandsberger SC,SK Treibach,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71049698,luxembourg-coupe-de-luxembourg,luxembourg-coupe-de-luxembourg,upcoming,2026-05-13,18:00,FC Differdange 03,FC Rodange 91,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70401280,brazil-copa-do-brasil,brazil-copa-do-brasil,upcoming,2026-05-13,22:00,EC Juventude RS,Sao Paulo FC SP,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-fd_SP1_2026-05-13_Espanol_Ath_Bilbao,la_liga,SP1,upcoming,2026-05-13,18:00,Espanol,Ath Bilbao,football_data_fixtures_proxy,2026-05-13T14:11:22.644318+00:00
-odds_api_io_61624648,spain-laliga,spain-laliga,upcoming,2026-05-13,17:00,Espanyol Barcelona,Athletic Bilbao,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67126096,sweden-superettan,sweden-superettan,upcoming,2026-05-13,17:00,Falkenbergs FF,Varbergs BoIS,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68158792,argentina-copa-proyeccion-final-reserves,argentina-copa-proyeccion-final-reserves,upcoming,2026-05-13,18:00,Ferro Carril Oeste,Boca Juniors,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71299448,brazil-paulista-serie-a2,brazil-paulista-serie-a2,upcoming,2026-05-13,22:15,Ferroviaria Araraquara SP,CA Juventus SP,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_69501870,latvia-1liga,latvia-1liga,upcoming,2026-05-13,17:15,FK Smiltene/Bjss,SK Super Nova II,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70852954,bosnia-&-herzegovina-bosnia-&-herzegovina-cup,bosnia-&-herzegovina-bosnia-&-herzegovina-cup,upcoming,2026-05-13,16:00,FK Velez Mostar,HSK Zrinjski Mostar,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71282488,serbia-serbian-cup,serbia-serbian-cup,upcoming,2026-05-13,18:00,FK Vojvodina Novi Sad,FK Crvena Zvezda Belgrade,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68751754,brazil-u20-campeonato-brasileiro,brazil-u20-campeonato-brasileiro,upcoming,2026-05-13,18:00,Fluminense FC RJ,CR Vasco da Gama RJ,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68685980,canada-canadian-premier-league,canada-canadian-premier-league,upcoming,2026-05-13,15:00,Forge FC Hamilton,FC Supra Du Quebec,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71056918,turkiye-turkiye-kupasi,turkiye-turkiye-kupasi,upcoming,2026-05-13,17:30,Genclerbirligi SK,Trabzonspor,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-fd_SP1_2026-05-13_Getafe_Mallorca,la_liga,SP1,upcoming,2026-05-13,20:30,Getafe,Mallorca,football_data_fixtures_proxy,2026-05-13T14:11:22.644318+00:00
-odds_api_io_61624644,spain-laliga,spain-laliga,upcoming,2026-05-13,19:30,Getafe CF,RCD Mallorca,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_62038090,poland-iii-liga-group-1,poland-iii-liga-group-1,upcoming,2026-05-13,15:00,GKS Belchatow,Widzew Lodz II,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_62036872,poland-iii-liga-group-3,poland-iii-liga-group-3,upcoming,2026-05-13,15:00,GKS Pniowek Pawlowice,KS Gornik Polkowice,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70674830,scotland-premiership,scotland-premiership,upcoming,2026-05-13,19:00,Glasgow Rangers,Hibernian FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_69688802,brazil-u20-brasileiro-serie-b,brazil-u20-brasileiro-serie-b,upcoming,2026-05-13,18:00,Goias EC GO,Chapecoense SC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_62037486,poland-iii-liga-group-2,poland-iii-liga-group-2,upcoming,2026-05-13,15:00,Gzs Tluchovia Tluchowo,Lech II Poznan,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68311580,sweden-ettan-relegation/promotion,sweden-ettan-relegation/promotion,upcoming,2026-05-13,17:00,Hassleholms IF,Eskilsminne IF,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70674826,scotland-premiership,scotland-premiership,upcoming,2026-05-13,19:00,Heart of Midlothian FC,Falkirk FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-fd_SC0_2026-05-13_Hearts_Falkirk,SC0,SC0,upcoming,2026-05-13,20:00,Hearts,Falkirk,football_data_fixtures_proxy,2026-05-13T14:11:22.644318+00:00
-odds_api_io_67126086,sweden-superettan,sweden-superettan,upcoming,2026-05-13,17:00,Helsingborgs IF,IK Oddevold,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70730364,denmark-2nd-division,denmark-2nd-division,upcoming,2026-05-13,16:30,FC Helsingoer,BK Fremad Amager,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71325698,finland-suomen-cup,finland-suomen-cup,upcoming,2026-05-13,15:00,HIFK,JaPS,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70820626,iceland-cup,iceland-cup,upcoming,2026-05-13,19:15,HK Kopavogur,Vikingur Reykjavik,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71463060,senegal-ligue-1,senegal-ligue-1,upcoming,2026-05-13,17:00,Hlm,ASC Linguere,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70670028,croatia-croatian-cup,croatia-croatian-cup,upcoming,2026-05-13,16:00,HNK Rijeka,GNK Dinamo Zagreb,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71085530,czechia-1-liga,czechia-1-liga,upcoming,2026-05-13,15:30,FC Hradec Kralove,FC Slovan Liberec,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70820622,iceland-cup,iceland-cup,upcoming,2026-05-13,19:15,IA Akranes,UMF Grindavik,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71325692,finland-suomen-cup,finland-suomen-cup,upcoming,2026-05-13,15:30,IFK Mariehamn,Puistolan Urheilijat,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67126088,sweden-superettan,sweden-superettan,upcoming,2026-05-13,17:00,IFK Norrkoping FK,Nordic United FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67126098,sweden-superettan,sweden-superettan,upcoming,2026-05-13,17:00,IK Brage,Ostersunds FK,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68158776,argentina-copa-proyeccion-final-reserves,argentina-copa-proyeccion-final-reserves,upcoming,2026-05-13,18:00,Independiente Rivadavia de Mendoza Reserve,Colon de Santa Fe Reserve,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70812664,israel-premier-league,israel-premier-league,upcoming,2026-05-13,17:00,Ironi Tiberias,Maccabi Bney Reine,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70730368,denmark-2nd-division,denmark-2nd-division,upcoming,2026-05-13,17:00,Ishoej IF,Brabrand IF,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71296256,brazil-copa-do-brasil-women,brazil-copa-do-brasil-women,upcoming,2026-05-13,18:00,Itabirito FC MG,Ceara SC CE,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68310882,sweden-ettan-relegation/promotion,sweden-ettan-relegation/promotion,upcoming,2026-05-13,17:30,FC Jarfalla,Enkopings SK,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71218074,kazakhstan-kazakhstan-cup,kazakhstan-kazakhstan-cup,upcoming,2026-05-13,15:00,Kaisar Kyzylorda,Tobol Kostanay,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_69090808,usa-usl-league-two,usa-usl-league-two,upcoming,2026-05-13,23:00,Kalamazoo FC,Union FC Macomb,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71257674,albania-kupa-e-shqiperise,albania-kupa-e-shqiperise,upcoming,2026-05-13,17:00,KF Egnatia Rrogozhine,FC Dinamo City,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71218678,faroe-islands-logmanssteypid,faroe-islands-logmanssteypid,upcoming,2026-05-13,17:30,KI Klaksvik,NSI Runavik,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_62036256,poland-iii-liga-group-4,poland-iii-liga-group-4,upcoming,2026-05-13,15:00,Korona II Kielce SA,KS Wisloka Debica,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_62215502,switzerland-erste-liga,switzerland-erste-liga,upcoming,2026-05-13,18:00,FC Kosova Zurich,FC Freienbach,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68311582,sweden-ettan-relegation/promotion,sweden-ettan-relegation/promotion,upcoming,2026-05-13,17:00,Kristianstad FC,FC Rosengaard 1917,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_62038092,poland-iii-liga-group-1,poland-iii-liga-group-1,upcoming,2026-05-13,15:00,KS Ck Troszyn,Lechia Tomaszow Mazowiecki,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_62036880,poland-iii-liga-group-3,poland-iii-liga-group-3,upcoming,2026-05-13,16:00,KS Polonia Nysa,KS Lechia Zielona Gora,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_62038104,poland-iii-liga-group-1,poland-iii-liga-group-1,upcoming,2026-05-13,15:00,KS Warta Sieradz,Wisla Plock II,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_69924658,finland-kolmonen,finland-kolmonen,upcoming,2026-05-13,15:30,Kultsu FC,Ips,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71325674,finland-suomen-cup,finland-suomen-cup,upcoming,2026-05-13,16:30,KuPS Akatemia,FC Honka,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68531856,international-clubs-afc-challenge-league,international-clubs-afc-challenge-league,upcoming,2026-05-13,16:45,Kuwait SC,Preah Khan Reach Svay Rieng FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68311584,sweden-ettan-relegation/promotion,sweden-ettan-relegation/promotion,upcoming,2026-05-13,17:00,Laholms FK,Lunds BK,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71019438,italy-coppa-italia,italy-coppa-italia,upcoming,2026-05-13,19:00,Lazio Rome,Inter Milano,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_62038096,poland-iii-liga-group-1,poland-iii-liga-group-1,upcoming,2026-05-13,15:00,Legia Warszawa II,GKS Wikielec,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-fd_F1_2026-05-13_Lens_Paris_SG,ligue_1,F1,upcoming,2026-05-13,20:00,Lens,Paris SG,football_data_fixtures_proxy,2026-05-13T14:11:22.644318+00:00
-odds_api_io_69920628,finland-kolmonen,finland-kolmonen,upcoming,2026-05-13,17:15,Leppavaaran Pallo,Nups,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-fd_G1_2026-05-13_Levadeiakos_OFI_Crete,G1,G1,upcoming,2026-05-13,15:00,Levadeiakos,OFI Crete,football_data_fixtures_proxy,2026-05-13T14:11:22.644318+00:00
-odds_api_io_70812662,israel-premier-league,israel-premier-league,upcoming,2026-05-13,17:00,Maccabi Netanya FC,Hapoel Haifa FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70812404,israel-premier-league,israel-premier-league,upcoming,2026-05-13,17:30,Maccabi Tel Aviv FC,Maccabi Haifa FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71462986,mali-ligue-1,mali-ligue-1,upcoming,2026-05-13,16:30,FC Mali Coura,Djoliba AC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-fd_E0_2026-05-13_Man_City_Crystal_Palace,premier_league,E0,upcoming,2026-05-13,20:00,Man City,Crystal Palace,football_data_fixtures_proxy,2026-05-13T14:11:22.644318+00:00
-odds_api_io_71403922,bahrain-2nd-division,bahrain-2nd-division,upcoming,2026-05-13,16:00,Manama Club,Etehad Alreef,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-2267379,premier_league,4328,2025-2026,2026-05-13,19:00:00,Manchester City,Crystal Palace,thesportsdb_eventsnextleague,2026-05-13T14:11:22.427827+00:00
-odds_api_io_70764748,brazil-carioca-serie-a2,brazil-carioca-serie-a2,upcoming,2026-05-13,20:00,Marica FC RJ,Sao Goncalo EC RJ,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71296262,brazil-copa-do-brasil-women,brazil-copa-do-brasil-women,upcoming,2026-05-13,18:00,Mauaense GE SP,Itacoatiara FC AM,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71344704,gambia-division-one,gambia-division-one,upcoming,2026-05-13,16:00,Medina United FC,Fortune,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71133098,moldova-cupa-moldovei,moldova-cupa-moldovei,upcoming,2026-05-13,16:00,FC Milsami,FC Zimbru Chisinau,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70401292,brazil-copa-do-brasil,brazil-copa-do-brasil,upcoming,2026-05-13,23:30,Mirassol FC SP,Red Bull Bragantino SP,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71296246,brazil-copa-do-brasil-women,brazil-copa-do-brasil-women,upcoming,2026-05-13,22:00,Mixto EC MT,Acao Futebol MT,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_61062283,poland-ekstraklasa,poland-ekstraklasa,upcoming,2026-05-13,16:00,MKS Arka Gdynia,Gornik Zabrze,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_62038098,poland-iii-liga-group-1,poland-iii-liga-group-1,upcoming,2026-05-13,15:30,MKS Mlawianka Mlawa,Jagiellonia II Bialystok,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_66299154,usa-mls,usa-mls,upcoming,2026-05-13,23:30,CF Montreal,Portland Timbers,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-fd_SC0_2026-05-13_Motherwell_Celtic,SC0,SC0,upcoming,2026-05-13,20:00,Motherwell,Celtic,football_data_fixtures_proxy,2026-05-13T14:11:22.644318+00:00
-odds_api_io_70674828,scotland-premiership,scotland-premiership,upcoming,2026-05-13,19:00,Motherwell FC,Celtic Glasgow,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70812666,israel-premier-league,israel-premier-league,upcoming,2026-05-13,17:00,MS Ashdod,Hapoel Jerusalem FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70142040,slovakia-1-league-women,slovakia-1-league-women,upcoming,2026-05-13,15:00,MSK Zilina,MFK Ruzomberok,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70730312,denmark-2nd-division,denmark-2nd-division,upcoming,2026-05-13,17:00,Naestved BK,HIK Hellerup,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_69880314,egypt-premier-league,egypt-premier-league,upcoming,2026-05-13,17:00,National Bank of Egypt SC,Petrojet FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_66299156,usa-mls,usa-mls,upcoming,2026-05-13,23:30,New England Revolution,Nashville SC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_66299158,usa-mls,usa-mls,upcoming,2026-05-13,23:30,New York Red Bulls,Columbus Crew,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71053000,slovenia-slovenia-cup,slovenia-slovenia-cup,upcoming,2026-05-13,18:00,NK Brinje Grosuplje,Aluminij Kidricevo,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70231844,greece-super-league,greece-super-league,upcoming,2026-05-13,16:30,Olympiacos Piraeus,Panathinaikos Athens,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-fd_G1_2026-05-13_Olympiakos_Panathinaikos,G1,G1,upcoming,2026-05-13,17:30,Olympiakos,Panathinaikos,football_data_fixtures_proxy,2026-05-13T14:11:22.644318+00:00
-odds_api_io_67171918,usa-usl-league-one,usa-usl-league-one,upcoming,2026-05-13,23:00,One Knoxville SC,Union Omaha SC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71218114,kazakhstan-kazakhstan-cup,kazakhstan-kazakhstan-cup,upcoming,2026-05-13,15:00,FC Ordabasy,Zhetysu Taldykorgan,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_66299160,usa-mls,usa-mls,upcoming,2026-05-13,23:30,Orlando City SC,Philadelphia Union,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67126092,sweden-superettan,sweden-superettan,upcoming,2026-05-13,17:00,Osters IF,Sandvikens IF,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70905772,bulgaria-parva-liga,bulgaria-parva-liga,upcoming,2026-05-13,14:45,PFC CSKA Sofia,FC CSKA 1948,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70905774,bulgaria-parva-liga,bulgaria-parva-liga,upcoming,2026-05-13,17:15,PFC Ludogorets 1945 Razgrad,PFC Levski Sofia,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71326004,finland-suomen-cup,finland-suomen-cup,upcoming,2026-05-13,15:00,P-Iirot,Tampereen Ilves,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_69254640,chile-primera-division-women,chile-primera-division-women,upcoming,2026-05-13,19:00,Palestino,Colo Colo,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-fd_G1_2026-05-13_PAOK_AEK,G1,G1,upcoming,2026-05-13,17:30,PAOK,AEK,football_data_fixtures_proxy,2026-05-13T14:11:22.644318+00:00
-odds_api_io_70231854,greece-super-league,greece-super-league,upcoming,2026-05-13,16:30,PAOK Thessaloniki,AEK Athens,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71296252,brazil-copa-do-brasil-women,brazil-copa-do-brasil-women,upcoming,2026-05-13,19:00,Penarol AM,Doce Mel EC BA,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71244954,brazil-carioca-serie-a2,brazil-carioca-serie-a2,upcoming,2026-05-13,18:00,Perolas Negras RJ,America FC RJ,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68156606,usa-mls-next-pro,usa-mls-next-pro,upcoming,2026-05-13,23:00,Philadelphia Union II,New England Revolution II,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71296254,brazil-copa-do-brasil-women,brazil-copa-do-brasil-women,upcoming,2026-05-13,22:00,Planalto EC GO,Paysandu SC PA,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_62037484,poland-iii-liga-group-2,poland-iii-liga-group-2,upcoming,2026-05-13,15:00,Pogon Nowe Skalmierzyce,Blekitni Stargard,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_62037482,poland-iii-liga-group-2,poland-iii-liga-group-2,upcoming,2026-05-13,15:00,Pogon Szczecin II,Elana Torun,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71366664,italy-serie-c-promotion-playoffs,italy-serie-c-promotion-playoffs,upcoming,2026-05-13,19:00,Potenza Calcio,Campobasso FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71049606,luxembourg-coupe-de-luxembourg,luxembourg-coupe-de-luxembourg,upcoming,2026-05-13,18:00,FC Progres Niederkorn,FC Victoria Rosport,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70315360,france-ligue-1,france-ligue-1,upcoming,2026-05-13,19:00,Racing Club De Lens,Paris Saint-Germain,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-fd_SC0_2026-05-13_Rangers_Hibernian,SC0,SC0,upcoming,2026-05-13,20:00,Rangers,Hibernian,football_data_fixtures_proxy,2026-05-13T14:11:22.644318+00:00
-odds_api_io_71366662,italy-serie-c-promotion-playoffs,italy-serie-c-promotion-playoffs,upcoming,2026-05-13,18:00,Ravenna FC 1913,AS Cittadella,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71335100,colombia-copa-colombia,colombia-copa-colombia,upcoming,2026-05-13,19:00,Real Cundinamarca,Independiente Yumbo,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_69232920,brazil-copa-espirito-santo,brazil-copa-espirito-santo,upcoming,2026-05-13,22:00,Rio Branco AC ES,Vitoria FC ES,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_61062299,poland-ekstraklasa,poland-ekstraklasa,upcoming,2026-05-13,18:30,RKS Rakow Czestochowa,Jagiellonia Bialystok,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71055074,azerbaijan-azerbaijan-cup,azerbaijan-azerbaijan-cup,upcoming,2026-05-13,16:00,Sabah Masazir,Zira FK,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71213320,estonia-cup-women,estonia-cup-women,upcoming,2026-05-13,16:00,Saku Sporting,Viimsi JK,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71296264,brazil-copa-do-brasil-women,brazil-copa-do-brasil-women,upcoming,2026-05-13,18:00,Sampaio Correa FC MA,Heips RJ,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_69254646,chile-primera-division-women,chile-primera-division-women,upcoming,2026-05-13,20:00,Santiago Wanderers,Union Espanola,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68751764,brazil-u20-campeonato-brasileiro,brazil-u20-campeonato-brasileiro,upcoming,2026-05-13,18:00,Santos FC SP,EC Juventude RS,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71296244,brazil-copa-do-brasil-women,brazil-copa-do-brasil-women,upcoming,2026-05-13,18:00,Sao Jose EC,Prosperidade FC ES,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68751760,brazil-u20-campeonato-brasileiro,brazil-u20-campeonato-brasileiro,upcoming,2026-05-13,18:00,Sao Paulo FC SP,Cruzeiro EC MG,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_69688856,brazil-u20-brasileiro-serie-b,brazil-u20-brasileiro-serie-b,upcoming,2026-05-13,18:00,SC Internacional RS,Vila Nova FC GO,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71296270,brazil-copa-do-brasil-women,brazil-copa-do-brasil-women,upcoming,2026-05-13,22:00,SC Recife PE,Criciuma EC SC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71296272,brazil-copa-do-brasil-women,brazil-copa-do-brasil-women,upcoming,2026-05-13,18:00,SE Uniao De Natal RN,CA Piauiense PI,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_61651658,ukraine-premier-league,ukraine-premier-league,upcoming,2026-05-13,15:00,FC Shakhtar Donetsk,FC Obolon Kyiv,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71133102,moldova-cupa-moldovei,moldova-cupa-moldovei,upcoming,2026-05-13,16:00,FC Sheriff Tiraspol,Petrocub Hincesti,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71325688,finland-suomen-cup,finland-suomen-cup,upcoming,2026-05-13,15:00,SJK Akatemia,KPV Kokkola,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70730366,denmark-2nd-division,denmark-2nd-division,upcoming,2026-05-13,17:00,Skive IK,Vsk Aarhus,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_62036874,poland-iii-liga-group-3,poland-iii-liga-group-3,upcoming,2026-05-13,16:00,SKRA Czestochowa,KS Sleza Wroclaw,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_62037488,poland-iii-liga-group-2,poland-iii-liga-group-2,upcoming,2026-05-13,15:00,Sks Unia Swarzedz,MKS Viktoria Wrzesnia,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71085532,czechia-1-liga,czechia-1-liga,upcoming,2026-05-13,18:00,Slavia Prague,FK Jablonec,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_62036876,poland-iii-liga-group-3,poland-iii-liga-group-3,upcoming,2026-05-13,16:00,Slowianin Woliborz,Karkonosze Jelenia Gora,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_62036258,poland-iii-liga-group-4,poland-iii-liga-group-4,upcoming,2026-05-13,15:30,Sokol Kolbuszowa Dolna,MKS Czarni Polaniec,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68310876,sweden-ettan-relegation/promotion,sweden-ettan-relegation/promotion,upcoming,2026-05-13,17:00,Sollentuna FK,Hammarby Talang FF,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71474742,paraguay-primera-division-reserve-apertura,paraguay-primera-division-reserve-apertura,upcoming,2026-05-13,20:00,Sportivo San Lorenzo,Sportivo 2 de Mayo,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70315368,france-ligue-1,france-ligue-1,upcoming,2026-05-13,17:00,Stade Brest 29,Strasbourg Alsace,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70820620,iceland-cup,iceland-cup,upcoming,2026-05-13,20:00,Stjarnan Gardabae,KR Reykjavik,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68310878,sweden-ettan-relegation/promotion,sweden-ettan-relegation/promotion,upcoming,2026-05-13,17:00,FC Stockholm Internazionale,AFC Eskilstuna,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71242306,england-league-one,england-league-one,upcoming,2026-05-13,19:00,Stockport County FC,Stevenage FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_61898606,austria-amateur-karnten-karntner-liga,austria-amateur-karnten-karntner-liga,upcoming,2026-05-13,17:00,SV Donau Klagenfurt,VST Voelkermarkt,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_61898614,austria-amateur-karnten-karntner-liga,austria-amateur-karnten-karntner-liga,upcoming,2026-05-13,16:30,SV Spittal/Drau,SAK Celovec/Klagenfurt,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_61906352,austria-amateur-salzburg-salzburger-liga,austria-amateur-salzburg-salzburger-liga,upcoming,2026-05-13,17:30,SV Strasswalchen,SV Schwarzach,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_62036266,poland-iii-liga-group-4,poland-iii-liga-group-4,upcoming,2026-05-13,15:00,Swidniczanka Swidnik,Pogon Sokol Lubaczow,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_62038102,poland-iii-liga-group-1,poland-iii-liga-group-1,upcoming,2026-05-13,15:00,Swit Nowy Dwor Mazowiecki,LKS 1926 Lomza,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70730314,denmark-2nd-division,denmark-2nd-division,upcoming,2026-05-13,17:00,Thisted FC,Vendsyssel FF,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70820628,iceland-cup,iceland-cup,upcoming,2026-05-13,17:30,Throttur Reykjavik,Breidablik Kopavogur,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68344644,sweden-division-2-promotion-playoffs,sweden-division-2-promotion-playoffs,upcoming,2026-05-13,17:00,Torns IF,Lilla Torg FF,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_61898608,austria-amateur-karnten-karntner-liga,austria-amateur-karnten-karntner-liga,upcoming,2026-05-13,17:00,TSV Grafenstein,ATSV Wolfsberg,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71325694,finland-suomen-cup,finland-suomen-cup,upcoming,2026-05-13,15:00,Turun Palloseura,HJS,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_61902038,austria-amateur-steiermark-landesliga,austria-amateur-steiermark-landesliga,upcoming,2026-05-13,17:30,FC Union RB Weinland Gamlitz,SV Pachern,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_69254644,chile-primera-division-women,chile-primera-division-women,upcoming,2026-05-13,22:00,Universidad de Chile,Club Deportivo Magallanes,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71467778,italy-serie-d-poule-scudetto,italy-serie-d-poule-scudetto,upcoming,2026-05-13,16:30,US Folgore Caratese,Treviso FBC 1993,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71467782,italy-serie-d-poule-scudetto,italy-serie-d-poule-scudetto,upcoming,2026-05-13,15:00,US Grosseto,AS Ostia Mare Lido Calcio,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71366670,italy-serie-c-promotion-playoffs,italy-serie-c-promotion-playoffs,upcoming,2026-05-13,18:45,US Salernitana,Casertana FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68311586,sweden-ettan-relegation/promotion,sweden-ettan-relegation/promotion,upcoming,2026-05-13,17:00,Utsiktens BK,Skovde AIK,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71343348,finland-suomen-cup-women,finland-suomen-cup-women,upcoming,2026-05-13,18:05,Valtti,Eps,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-fd_SP1_2026-05-13_Villarreal_Sevilla,la_liga,SP1,upcoming,2026-05-13,18:00,Villarreal,Sevilla,football_data_fixtures_proxy,2026-05-13T14:11:22.644318+00:00
-odds_api_io_71325700,finland-suomen-cup,finland-suomen-cup,upcoming,2026-05-13,15:30,VJS,FF Jaro,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-fd_G1_2026-05-13_Volos_NFC_Aris,G1,G1,upcoming,2026-05-13,15:00,Volos NFC,Aris,football_data_fixtures_proxy,2026-05-13T14:11:22.644318+00:00
-odds_api_io_71370042,jamaica-premier-league,jamaica-premier-league,upcoming,2026-05-13,23:00,Waterhouse FC,Cavalier FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_62036268,poland-iii-liga-group-4,poland-iii-liga-group-4,upcoming,2026-05-13,15:30,Wisla II Krakow,Cracovia Krakow II,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_62038106,poland-iii-liga-group-1,poland-iii-liga-group-1,upcoming,2026-05-13,16:00,Zabkovia Zabki,Bron Radom,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_62037494,poland-iii-liga-group-2,poland-iii-liga-group-2,upcoming,2026-05-13,17:00,Zawisza Bydgoszcz,WDA Swiecie,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_62037478,poland-iii-liga-group-2,poland-iii-liga-group-2,upcoming,2026-05-13,15:00,Zks Kluczevia Stargard,KS Lipno Steszew,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67171920,usa-usl-league-one,usa-usl-league-one,upcoming,2026-05-14,01:00,AC Boise,FC Naples,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70401306,brazil-copa-do-brasil,brazil-copa-do-brasil,upcoming,2026-05-14,22:00,AC Goianiense GO,CA Paranaense PR,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70401302,brazil-copa-do-brasil,brazil-copa-do-brasil,upcoming,2026-05-14,22:00,AD Confianca SE,Gremio FB Porto Alegrense RS,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71370020,kuwait-premier-league,kuwait-premier-league,upcoming,2026-05-14,17:15,Al Arabi,AL Tadhamon,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67953282,saudi-arabia-division-1,saudi-arabia-division-1,upcoming,2026-05-14,18:00,AL Draih,Al Bukiryah,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71370014,kuwait-premier-league,kuwait-premier-league,upcoming,2026-05-14,14:40,Al Jahra,Al-Nasr SC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71339462,iraq-iraqi-league,iraq-iraqi-league,upcoming,2026-05-14,14:30,AL Naft,AL Minaa,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71339460,iraq-iraqi-league,iraq-iraqi-league,upcoming,2026-05-14,14:30,AL Naft Maysan,AL Karma,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71336700,oman-omani-league,oman-omani-league,upcoming,2026-05-14,16:35,Al Nahda,Al-Seeb,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_64055877,saudi-arabia-saudi-pro-league,saudi-arabia-saudi-pro-league,upcoming,2026-05-14,18:00,Al Qadsiah,Al-Hazm,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67953288,saudi-arabia-division-1,saudi-arabia-division-1,upcoming,2026-05-14,18:00,AL Ula,Al-Zulfi FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67953276,saudi-arabia-division-1,saudi-arabia-division-1,upcoming,2026-05-14,18:00,Al-Faisaly FC,Al-Batin,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_64055871,saudi-arabia-saudi-pro-league,saudi-arabia-saudi-pro-league,upcoming,2026-05-14,15:55,Al-Fateh SC,Al-Najma,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_64055869,saudi-arabia-saudi-pro-league,saudi-arabia-saudi-pro-league,upcoming,2026-05-14,18:00,Al-Ittifaq FC,Al-Ittihad Club,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67953286,saudi-arabia-division-1,saudi-arabia-division-1,upcoming,2026-05-14,16:45,Al-Orobah,AL Anwar,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67953278,saudi-arabia-division-1,saudi-arabia-division-1,upcoming,2026-05-14,16:35,Al-Wehda FC,Al-Jabalain,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70844432,iceland-4-deild,iceland-4-deild,upcoming,2026-05-14,18:30,Alftanes,KFR,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70379160,bolivia-division-profesional,bolivia-division-profesional,upcoming,2026-05-14,19:00,Always Ready,The Strongest,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68751762,brazil-u20-campeonato-brasileiro,brazil-u20-campeonato-brasileiro,upcoming,2026-05-14,18:00,America FC MG,EC Bahia BA,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68311590,sweden-ettan-relegation/promotion,sweden-ettan-relegation/promotion,upcoming,2026-05-14,14:00,Angelholms FF,Aatvidabergs FF,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70844430,iceland-4-deild,iceland-4-deild,upcoming,2026-05-14,17:00,Arborg,Alafoss,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70774898,cameroon-elite-one,cameroon-elite-one,upcoming,2026-05-14,15:00,AS Fortuna,Coton Sport de Garoua,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68310888,sweden-ettan-relegation/promotion,sweden-ettan-relegation/promotion,upcoming,2026-05-14,13:00,Assyriska FF,Umea FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_61591358,austria-2-liga,austria-2-liga,upcoming,2026-05-14,15:00,Austria Lustenau,SKU Amstetten,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71312154,spain-u19-division-de-honor-juvenil,spain-u19-division-de-honor-juvenil,upcoming,2026-05-14,10:00,FC Barcelona,CD Tenerife,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70448376,switzerland-super-league,switzerland-super-league,upcoming,2026-05-14,14:30,FC Basel 1893,FC St. Gallen 1879,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67915816,norway-2nd-division-group-1,norway-2nd-division-group-1,upcoming,2026-05-14,11:00,Bjarg,Brattvaag,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71403928,bahrain-2nd-division,bahrain-2nd-division,upcoming,2026-05-14,16:00,Bouri,AL Tadamun Buri,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71242310,england-league-one,england-league-one,upcoming,2026-05-14,19:00,Bradford City FC,Bolton Wanderers,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71428930,argentina-liga-profesional,argentina-liga-profesional,upcoming,2026-05-14,00:30,CA River Plate (ARG),Gimnasia y Esgrima La Plata,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71297590,colombia-primera-a-apertura,colombia-primera-a-apertura,upcoming,2026-05-14,01:15,CD Junior FC,CD Once Caldas,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70401310,brazil-copa-do-brasil,brazil-copa-do-brasil,upcoming,2026-05-14,00:30,Ceara SC CE,Atletico Mineiro MG,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70401294,brazil-copa-do-brasil,brazil-copa-do-brasil,upcoming,2026-05-14,21:00,Chapecoense SC,Botafogo FR RJ,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70379164,bolivia-division-profesional,bolivia-division-profesional,upcoming,2026-05-14,00:00,Club Bolivar,CA Nacional Potosi,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70401296,brazil-copa-do-brasil,brazil-copa-do-brasil,upcoming,2026-05-14,00:30,Clube do Remo PA,EC Bahia BA,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68156608,usa-mls-next-pro,usa-mls-next-pro,upcoming,2026-05-14,00:00,Colorado Rapids 2,Austin FC II,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_69757834,denmark-dbu-pokalen,denmark-dbu-pokalen,upcoming,2026-05-14,15:00,FC Copenhagen,FC Midtjylland,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70401298,brazil-copa-do-brasil,brazil-copa-do-brasil,upcoming,2026-05-14,23:00,CR Brasil AL,Fortaleza EC CE,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71450700,mexico-liga-mx-clausura,mexico-liga-mx-clausura,upcoming,2026-05-14,02:00,CF Cruz Azul,CD Guadalajara,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_66299162,usa-mls,usa-mls,upcoming,2026-05-14,00:30,FC Dallas,Vancouver Whitecaps FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71458150,costa-rica-primera-division-clausura,costa-rica-primera-division-clausura,upcoming,2026-05-14,02:00,Deportivo Saprissa San Jose,CS Herediano,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71336696,oman-omani-league,oman-omani-league,upcoming,2026-05-14,14:05,Dhofar SCSC,Al Shabab,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71403932,bahrain-2nd-division,bahrain-2nd-division,upcoming,2026-05-14,16:00,East Riffa,Qalali Club,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70401286,brazil-copa-do-brasil,brazil-copa-do-brasil,upcoming,2026-05-14,00:30,EC Jacuipense BA,SE Palmeiras SP,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70844428,iceland-4-deild,iceland-4-deild,upcoming,2026-05-14,12:00,Ellidi,Vaengir Jupiters,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70774892,cameroon-elite-one,cameroon-elite-one,upcoming,2026-05-14,13:00,Fauve Azur de Yaounde,Gazelle FA de Garoua,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_61591362,austria-2-liga,austria-2-liga,upcoming,2026-05-14,15:00,First Vienna FC 1894,Schwarz-Weiss Bregenz,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67919620,norway-3rd-division-group-2,norway-3rd-division-group-2,upcoming,2026-05-14,13:00,Fk Kvik Trondheim,Strindheim TF,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70906780,bulgaria-parva-liga,bulgaria-parva-liga,upcoming,2026-05-14,12:15,FK Septemvri Sofia,FK Spartak 1918 Varna,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67915824,norway-2nd-division-group-1,norway-2nd-division-group-1,upcoming,2026-05-14,13:30,FK Vidar,Sotra SK,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70820614,iceland-cup,iceland-cup,upcoming,2026-05-14,15:00,Fylkir Reykjavik,FH Hafnarfjordur,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67919260,norway-3rd-division-group-1,norway-3rd-division-group-1,upcoming,2026-05-14,16:00,Gamle Oslo FK,SF Grei,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_61624646,spain-laliga,spain-laliga,upcoming,2026-05-14,18:00,Girona FC,Real Sociedad San Sebastian,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-fd_SP1_2026-05-14_Girona_Sociedad,la_liga,SP1,upcoming,2026-05-14,19:00,Girona,Sociedad,football_data_fixtures_proxy,2026-05-13T14:11:22.644318+00:00
-odds_api_io_67919890,norway-3rd-division-group-3,norway-3rd-division-group-3,upcoming,2026-05-14,17:00,Gneist,Austevoll,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71453180,mexico-u21-liga-mx,mexico-u21-liga-mx,upcoming,2026-05-14,00:00,Guadalajara,Club America,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70929770,israel-national-league,israel-national-league,upcoming,2026-05-14,16:00,Hapoel Hadera FC,Hapoel Ra`anana FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71456920,israel-liga-al-women,israel-liga-al-women,upcoming,2026-05-14,15:10,Hapoel Nir Ramat Hasharon,Maccabi Kishronot Hadera,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71218680,faroe-islands-logmanssteypid,faroe-islands-logmanssteypid,upcoming,2026-05-14,14:00,HB Torshavn,Vikingur Gota,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67563266,zimbabwe-premier-soccer-league,zimbabwe-premier-soccer-league,upcoming,2026-05-14,13:00,Herentals FC,Dynamos Harare FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67920352,norway-3rd-division-group-4,norway-3rd-division-group-4,upcoming,2026-05-14,12:00,Hinna,FK Haugesund 2,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70318288,denmark-1-division,denmark-1-division,upcoming,2026-05-14,11:00,Hobro IK,Aarhus Fremad,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67915572,norway-2nd-division-group-2,norway-2nd-division-group-2,upcoming,2026-05-14,13:00,Hoenefoss BK,Stjordals-Blink,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71343346,finland-suomen-cup-women,finland-suomen-cup-women,upcoming,2026-05-14,12:00,HPS II,FC Honka,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68156610,usa-mls-next-pro,usa-mls-next-pro,upcoming,2026-05-14,00:00,Huntsville City FC,FC Cincinnati 2,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68310890,sweden-ettan-relegation/promotion,sweden-ettan-relegation/promotion,upcoming,2026-05-14,14:00,IF Karlstad Fotbol,IFK Stocksund,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70820616,iceland-cup,iceland-cup,upcoming,2026-05-14,14:00,IF Vestri,Grotta,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68344646,sweden-division-2-promotion-playoffs,sweden-division-2-promotion-playoffs,upcoming,2026-05-14,11:00,IFK Berga,Rappe GOIF,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68377548,sweden-division-2-promotion-playoffs,sweden-division-2-promotion-playoffs,upcoming,2026-05-14,16:30,IK Sleipner,Smedby AIS,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70929772,israel-national-league,israel-national-league,upcoming,2026-05-14,16:00,Ironi Modiin,Hapoel Acre FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71403930,bahrain-2nd-division,bahrain-2nd-division,upcoming,2026-05-14,16:00,Isa Town,Al Ittifaq BHR,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71343350,finland-suomen-cup-women,finland-suomen-cup-women,upcoming,2026-05-14,10:00,JaPS,FC KTP,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70820618,iceland-cup,iceland-cup,upcoming,2026-05-14,14:00,KA Akureyri,KF Aegir,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70683966,finland-kolmonen,finland-kolmonen,upcoming,2026-05-14,16:00,KaaPo,Vg-62,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_69924662,finland-kolmonen,finland-kolmonen,upcoming,2026-05-14,14:00,Kjp Kouvola,Lautp,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68377658,sweden-division-2-promotion-playoffs,sweden-division-2-promotion-playoffs,upcoming,2026-05-14,12:00,Landvetter IS,IF Boljan Falkenberg,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68042486,paraguay-division-de-honor-apertura,paraguay-division-de-honor-apertura,upcoming,2026-05-14,20:00,Libertad Asuncion,CS 2 de Mayo,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68320174,sweden-division-2-promotion-playoffs,sweden-division-2-promotion-playoffs,upcoming,2026-05-14,13:00,Lidkopings FK,Grebbestads IF,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67921064,norway-3rd-division-group-6,norway-3rd-division-group-6,upcoming,2026-05-14,13:00,Lillehammer FK,FK Gjoevik-Lyn,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67126094,sweden-superettan,sweden-superettan,upcoming,2026-05-14,15:00,Ljungskile SK,GIF Sundsvall,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70906778,bulgaria-parva-liga,bulgaria-parva-liga,upcoming,2026-05-14,17:15,FC Lokomotiv 1929 Sofia,PFK Beroe Stara Zagora,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67919258,norway-3rd-division-group-1,norway-3rd-division-group-1,upcoming,2026-05-14,13:00,Lokomotiv Oslo,FK Union Carl Berner,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70683964,finland-kolmonen,finland-kolmonen,upcoming,2026-05-14,13:00,Masku,LTU,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_69289830,puerto-rico-lpr-pro,puerto-rico-lpr-pro,upcoming,2026-05-14,00:30,Metropolitan FA San Juan,Ponce FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_66299166,usa-mls,usa-mls,upcoming,2026-05-14,00:30,Minnesota United FC,Colorado Rapids,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70267784,sweden-svenska-cup,sweden-svenska-cup,upcoming,2026-05-14,13:00,Mjallby AIF,Hammarby IF,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70479350,tanzania-premier-league,tanzania-premier-league,upcoming,2026-05-14,11:00,Mtibwa Sugar FC,Kmc FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67919604,norway-3rd-division-group-2,norway-3rd-division-group-2,upcoming,2026-05-14,12:00,Nardo FK,Byaasen,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70090084,india-i-league-2,india-i-league-2,upcoming,2026-05-14,09:30,Neroca FC,Sudeva Delhi FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67919608,norway-3rd-division-group-2,norway-3rd-division-group-2,upcoming,2026-05-14,12:00,Ntnui,Orkla,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70344940,sweden-division-2-promotion-playoffs,sweden-division-2-promotion-playoffs,upcoming,2026-05-14,11:00,Nykopings BIS,Lindo FF,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67921052,norway-3rd-division-group-6,norway-3rd-division-group-6,upcoming,2026-05-14,12:00,Oppsal IF,Raade IL,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68310884,sweden-ettan-relegation/promotion,sweden-ettan-relegation/promotion,upcoming,2026-05-14,11:00,Piteaa IF,FBK Karlstad,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70906776,bulgaria-parva-liga,bulgaria-parva-liga,upcoming,2026-05-14,14:45,POFC Botev Vratsa,PFC Montana 1921,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68156612,usa-mls-next-pro,usa-mls-next-pro,upcoming,2026-05-14,00:00,Portland Timbers II,Minnesota United FC 2,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71370044,jamaica-premier-league,jamaica-premier-league,upcoming,2026-05-14,02:00,Portmore United,Racing United FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_69090814,usa-usl-league-two,usa-usl-league-two,upcoming,2026-05-14,00:00,Project 51O,Almaden FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67921056,norway-3rd-division-group-6,norway-3rd-division-group-6,upcoming,2026-05-14,13:00,Raelingen,Brumunddal Fotball,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-fd_SP1_2026-05-14_Real_Madrid_Oviedo,la_liga,SP1,upcoming,2026-05-14,20:30,Real Madrid,Oviedo,football_data_fixtures_proxy,2026-05-13T14:11:22.644318+00:00
-odds_api_io_61624656,spain-laliga,spain-laliga,upcoming,2026-05-14,19:30,Real Madrid,Real Oviedo,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_66299170,usa-mls,usa-mls,upcoming,2026-05-14,01:30,Real Salt Lake,Houston Dynamo,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71423498,zambia-super-league,zambia-super-league,upcoming,2026-05-14,13:00,Red Arrows,Green Eagles,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_66299168,usa-mls,usa-mls,upcoming,2026-05-14,00:30,Saint Louis City SC,Los Angeles FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70981006,austria-amateur-ofb-cup-women,austria-amateur-ofb-cup-women,upcoming,2026-05-14,12:30,FC Salzburg Frauen,FK Austria Wien,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71336698,oman-omani-league,oman-omani-league,upcoming,2026-05-14,15:20,Samail SC,Sohar,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_66299172,usa-mls,usa-mls,upcoming,2026-05-14,01:30,San Diego FC,Austin FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_69090820,usa-usl-league-two,usa-usl-league-two,upcoming,2026-05-14,02:00,San Juan FC,San Francisco Glens SC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70945864,iran-azadegan-league,iran-azadegan-league,upcoming,2026-05-14,13:15,Sanat Mes Kerman FC,Mes Shahr-e Babak,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67921068,norway-3rd-division-group-6,norway-3rd-division-group-6,upcoming,2026-05-14,16:00,Sandefjord Fotball 2,Drobak-Frogn,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70401290,brazil-copa-do-brasil,brazil-copa-do-brasil,upcoming,2026-05-14,22:30,SC Corinthians SP,Barra FC SC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_66299174,usa-mls,usa-mls,upcoming,2026-05-14,01:30,Seattle Sounders,San Jose Earthquakes,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70945796,iran-azadegan-league,iran-azadegan-league,upcoming,2026-05-14,13:00,Shahrdari Nowshahr,FC Fard Alborz,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70926664,ethiopia-premier-league,ethiopia-premier-league,upcoming,2026-05-14,12:00,Shire Endaselassie FC,Ethiopian Coffee SC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70926662,ethiopia-premier-league,ethiopia-premier-league,upcoming,2026-05-14,10:00,Sidama Bunna SC,Hadiya Hossana FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_63637929,azerbaijan-first-division,azerbaijan-first-division,upcoming,2026-05-14,13:00,Simal,Difai Agsu,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70448378,switzerland-super-league,switzerland-super-league,upcoming,2026-05-14,14:30,FC Sion,FC Lugano,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_69924102,finland-kolmonen,finland-kolmonen,upcoming,2026-05-14,08:00,SJK-J,FC Kiisto,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_61591360,austria-2-liga,austria-2-liga,upcoming,2026-05-14,15:00,SK Austria Klagenfurt,FC Liefering,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_61591372,austria-2-liga,austria-2-liga,upcoming,2026-05-14,15:00,SK Sturm Graz II,Rapid Wien II,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67915820,norway-2nd-division-group-1,norway-2nd-division-group-1,upcoming,2026-05-14,12:30,SK Traeff,Lysekloster,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_61591366,austria-2-liga,austria-2-liga,upcoming,2026-05-14,15:00,SKN St Polten,FC Hertha Wels,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_66299164,usa-mls,usa-mls,upcoming,2026-05-14,00:30,Sporting Kansas City,Los Angeles Galaxy,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67920356,norway-3rd-division-group-4,norway-3rd-division-group-4,upcoming,2026-05-14,12:00,Stabaek Fotball 2,Brodd,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70774888,cameroon-elite-one,cameroon-elite-one,upcoming,2026-05-14,14:30,Stade Renard,Aigle Royal,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_61541420,austria-amateur-regionalliga-west,austria-amateur-regionalliga-west,upcoming,2026-05-14,15:00,SV Kuchl,FC Kitzbuhel,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_61927890,austria-amateur-vorarlberg-eliteliga,austria-amateur-vorarlberg-eliteliga,upcoming,2026-05-14,09:00,SV Lochau,FC Wolfurt,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68774142,estonia-esiliiga,estonia-esiliiga,upcoming,2026-05-14,16:00,FC Tallinn,JK Tallinna Kalev,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70479314,tanzania-premier-league,tanzania-premier-league,upcoming,2026-05-14,11:00,Tanzania Prisons,Fountain Gate FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70448380,switzerland-super-league,switzerland-super-league,upcoming,2026-05-14,14:30,FC Thun,Young Boys Bern,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68377650,sweden-division-2-promotion-playoffs,sweden-division-2-promotion-playoffs,upcoming,2026-05-14,11:00,Torslanda IK,Qviding FIF,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68311592,sweden-ettan-relegation/promotion,sweden-ettan-relegation/promotion,upcoming,2026-05-14,14:00,Trelleborgs FF,Jonkopings Sodra IF,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68311594,sweden-ettan-relegation/promotion,sweden-ettan-relegation/promotion,upcoming,2026-05-14,14:00,FC Trollhattan,Ariana FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67915570,norway-2nd-division-group-2,norway-2nd-division-group-2,upcoming,2026-05-14,11:00,Tromsdalen UIL,Grorud IL,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68311588,sweden-ettan-relegation/promotion,sweden-ettan-relegation/promotion,upcoming,2026-05-14,11:00,Tvaakers IF,BK Olympic,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_69539870,sweden-division-2-promotion-playoffs,sweden-division-2-promotion-playoffs,upcoming,2026-05-14,12:00,Umea FF,Fransta IK,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_69491788,belgium-beker-van-belgie,belgium-beker-van-belgie,upcoming,2026-05-14,13:00,Union Saint-Gilloise,RSC Anderlecht,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71203972,armenia-armenian-cup,armenia-armenian-cup,upcoming,2026-05-14,15:00,FC Urartu Yerevan,FC Noah Yerevan,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_61624652,spain-laliga,spain-laliga,upcoming,2026-05-14,17:00,Valencia CF,Rayo Vallecano,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-fd_SP1_2026-05-14_Valencia_Vallecano,la_liga,SP1,upcoming,2026-05-14,18:00,Valencia,Vallecano,football_data_fixtures_proxy,2026-05-13T14:11:22.644318+00:00
-odds_api_io_68310886,sweden-ettan-relegation/promotion,sweden-ettan-relegation/promotion,upcoming,2026-05-14,11:00,Vasalunds IF,Gefle IF,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68377654,sweden-division-2-promotion-playoffs,sweden-division-2-promotion-playoffs,upcoming,2026-05-14,11:00,Vastra Frolunda IF,IK Kongahalla,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68344650,sweden-division-2-promotion-playoffs,sweden-division-2-promotion-playoffs,upcoming,2026-05-14,12:00,Vaxjo Norra,Linero IF,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70648002,germany-amateur-dfb-pokal-women,germany-amateur-dfb-pokal-women,upcoming,2026-05-14,14:00,VfL Wolfsburg,Bayern Munich,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67920350,norway-3rd-division-group-4,norway-3rd-division-group-4,upcoming,2026-05-14,12:00,Viking FK 2,Akra,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_69090812,usa-usl-league-two,usa-usl-league-two,upcoming,2026-05-14,00:00,Weston FC,Miami AC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_66627496,switzerland-challenge-league,switzerland-challenge-league,upcoming,2026-05-15,18:15,FC Aarau,Yverdon-Sport,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71240192,australia-a-league,australia-a-league,upcoming,2026-05-15,09:35,Adelaide United FC,Auckland FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71343380,cyprus-1st-division,cyprus-1st-division,upcoming,2026-05-15,16:00,Akritas Chlorakas,AEL Limassol,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_64055881,saudi-arabia-saudi-pro-league,saudi-arabia-saudi-pro-league,upcoming,2026-05-15,18:00,Al-Taawoun FC,Al-Riyadh SC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_61301251,england-premier-league,england-premier-league,upcoming,2026-05-15,19:00,Aston Villa,Liverpool FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70698890,iceland-3-deild,iceland-3-deild,upcoming,2026-05-15,19:15,Augnablik Kopavogur,KA Asvellir,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70318290,denmark-1-division,denmark-1-division,upcoming,2026-05-15,17:00,B93 Copenhagen,Aalborg BK,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_69767360,australia-npl-western-australia-women,australia-npl-western-australia-women,upcoming,2026-05-15,11:00,Balcatta FC,Fremantle City FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68995146,china-chinese-super-league,china-chinese-super-league,upcoming,2026-05-15,12:00,Beijing Guoan,Qingdao Hainiu FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68160146,australia-victoria-npl,australia-victoria-npl,upcoming,2026-05-15,10:30,Bentleigh Greens,Heidelberg United FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68162372,australia-victoria-npl-women,australia-victoria-npl-women,upcoming,2026-05-15,08:15,Bentleigh Greens SC,Heidelberg United FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67691594,australia-nsw-league-one,australia-nsw-league-one,upcoming,2026-05-15,10:15,Blacktown Spartans,Bull FC Academy,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_66854046,ireland-premier-division,ireland-premier-division,upcoming,2026-05-15,18:45,Bohemians Dublin FC,Drogheda United FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67878238,australia-queensland-npl,australia-queensland-npl,upcoming,2026-05-15,09:15,Brisbane Roar FC,Lions FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67903672,australia-queensland-premier-league-1,australia-queensland-premier-league-1,upcoming,2026-05-15,10:30,Caboolture FC,North Star FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67905666,australia-u23-queensland-premier-league-1,australia-u23-queensland-premier-league-1,upcoming,2026-05-15,08:30,Caboolture Sports FC,North Star,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70881658,peru-liga-1,peru-liga-1,upcoming,2026-05-15,20:00,FC Cajamarca,Sporting Cristal,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_61730242,turkiye-super-lig,turkiye-super-lig,upcoming,2026-05-15,17:00,Caykur Rizespor,Besiktas Istanbul,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_61623902,spain-laliga-2,spain-laliga-2,upcoming,2026-05-15,18:30,CD Castellon,Cadiz CF,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67692234,australia-nsw-league-two,australia-nsw-league-two,upcoming,2026-05-15,10:00,Central Coast United FC,Inner West Hawks FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68042490,paraguay-division-de-honor-apertura,paraguay-division-de-honor-apertura,upcoming,2026-05-15,12:30,Club Olimpia,Recoleta FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_66854756,ireland-first-division,ireland-first-division,upcoming,2026-05-15,18:45,Cobh Ramblers,Athlone Town AFC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_61623898,spain-laliga-2,spain-laliga-2,upcoming,2026-05-15,19:00,Cordoba CF,Albacete Balompie,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71380914,turkiye-1-lig,turkiye-1-lig,upcoming,2026-05-15,17:00,Corum FK,Bodrum FK,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68995148,china-chinese-super-league,china-chinese-super-league,upcoming,2026-05-15,12:00,Dalian Yingbo FC,Qingdao West Coast FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_64055883,saudi-arabia-saudi-pro-league,saudi-arabia-saudi-pro-league,upcoming,2026-05-15,16:15,Damac FC,Al-Fayha FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68160142,australia-victoria-npl,australia-victoria-npl,upcoming,2026-05-15,09:45,Dandenong City SC,Oakleigh Cannons,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_62117366,france-national,france-national,upcoming,2026-05-15,17:30,Dijon FCO,US Orleans,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70926672,ethiopia-premier-league,ethiopia-premier-league,upcoming,2026-05-15,13:00,Dire Dawa Kenema,Bahir Dar Kenema FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_66854048,ireland-premier-division,ireland-premier-division,upcoming,2026-05-15,19:00,Dundalk FC,Shamrock Rovers,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70401304,brazil-copa-do-brasil,brazil-copa-do-brasil,upcoming,2026-05-15,00:30,EC Vitoria BA,CR Flamengo RJ,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71343370,cyprus-1st-division,cyprus-1st-division,upcoming,2026-05-15,16:00,Ethnikos Achnas FC,Omonia Aradippou,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71056744,hungary-nb-i-women,hungary-nb-i-women,upcoming,2026-05-15,13:00,ETO FC Gyor,Pecsi MFC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_66627494,switzerland-challenge-league,switzerland-challenge-league,upcoming,2026-05-15,18:15,Etoile Carouge FC,AC Bellinzona,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67343112,hungary-u19-national,hungary-u19-national,upcoming,2026-05-15,12:00,Ferencvarosi TC,Illes Akademia,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68954832,lithuania-a-lyga,lithuania-a-lyga,upcoming,2026-05-15,17:00,FK Riteriai,FK Panevezys,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_62117368,france-national,france-national,upcoming,2026-05-15,17:30,FC Fleury 91,FC Rouen,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68492520,latvia-virsliga,latvia-virsliga,upcoming,2026-05-15,15:00,Grobinas SC/LFS,FK Tukums 2000/TSS,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70687986,iceland-2-deild,iceland-2-deild,upcoming,2026-05-15,19:15,Haukar Hafnarfjordur,Fjolnir,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68995142,china-chinese-super-league,china-chinese-super-league,upcoming,2026-05-15,11:35,Henan,Shenzhen Peng City,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_61286597,croatia-hnl,croatia-hnl,upcoming,2026-05-15,16:00,HNK Vukovar 1991,NK Varazdin,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67691592,australia-nsw-league-one,australia-nsw-league-one,upcoming,2026-05-15,10:00,Hurstville FC,Prospect United,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68320176,sweden-division-2-promotion-playoffs,sweden-division-2-promotion-playoffs,upcoming,2026-05-15,17:00,Husqvarna FF,IK Tord,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68320178,sweden-division-2-promotion-playoffs,sweden-division-2-promotion-playoffs,upcoming,2026-05-15,17:30,IFK Skovde FK,Vanersborgs IF,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70687988,iceland-2-deild,iceland-2-deild,upcoming,2026-05-15,19:15,Kari,Hviti Riddarinn,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_66854758,ireland-first-division,ireland-first-division,upcoming,2026-05-15,18:45,Kerry FC,Wexford FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67919262,norway-3rd-division-group-1,norway-3rd-division-group-1,upcoming,2026-05-15,17:00,KFUM 2,Valerenga IF 2,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70698892,iceland-3-deild,iceland-3-deild,upcoming,2026-05-15,19:15,KH Hlidarendi,Ymir Kopavogur,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70317950,denmark-1-division,denmark-1-division,upcoming,2026-05-15,16:00,Kolding IF,Lyngby BK,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_61062331,poland-ekstraklasa,poland-ekstraklasa,upcoming,2026-05-15,18:30,Korona Kielce,Widzew Lodz,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68687648,ecuador-ligapro-primera-a,ecuador-ligapro-primera-a,upcoming,2026-05-15,21:30,LDU Quito,CD Tecnico Universitario,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_61732304,portugal-liga-portugal-2,portugal-liga-portugal-2,upcoming,2026-05-15,19:00,Leixoes SC,Lusitania FC Lourosa,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67905668,australia-u23-queensland-premier-league-1,australia-u23-queensland-premier-league-1,upcoming,2026-05-15,08:30,Logan Lightning,Redlands United,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67807380,australia-northern-nsw-npl,australia-northern-nsw-npl,upcoming,2026-05-15,10:00,Maitland FC,Cooks Hill United,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_61732302,portugal-liga-portugal-2,portugal-liga-portugal-2,upcoming,2026-05-15,18:00,Maritimo Madeira,GD Chaves,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70926670,ethiopia-premier-league,ethiopia-premier-league,upcoming,2026-05-15,10:00,Mekelle 70 Enderta FC,Ethiopian Medhin,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68160562,australia-victoria-premier-league-1,australia-victoria-premier-league-1,upcoming,2026-05-15,10:30,Melbourne Knights,Eltham Redbacks FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70556720,india-indian-super-league,india-indian-super-league,upcoming,2026-05-15,14:00,Mohammedan SC,Mumbai City,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_61677922,slovakia-2-liga,slovakia-2-liga,upcoming,2026-05-15,15:00,MSK Puchov,MSK Povazska Bystrica,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_61677914,slovakia-2-liga,slovakia-2-liga,upcoming,2026-05-15,15:00,MSK Zilina B,Slavia Tu Kosice,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68160550,australia-victoria-premier-league-1,australia-victoria-premier-league-1,upcoming,2026-05-15,10:30,Northcote City,FC Bulleen Lions,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71242316,england-league-two,england-league-two,upcoming,2026-05-15,19:00,Notts County,Chesterfield FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_61272923,hungary-nb-i,hungary-nb-i,upcoming,2026-05-15,15:45,Nyiregyhaza Spartacus FC,Kazincbarcikai SC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71343372,cyprus-1st-division,cyprus-1st-division,upcoming,2026-05-15,16:00,Olympiakos Nicosia,Anorthosis Famagusta,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70379168,bolivia-division-profesional,bolivia-division-profesional,upcoming,2026-05-15,00:00,Oriente Petrolero,Guabira Montero,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70207498,belgium-pro-league,belgium-pro-league,upcoming,2026-05-15,18:45,Oud-Heverlee Leuven,Royal Antwerp FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71450704,mexico-liga-mx-clausura,mexico-liga-mx-clausura,upcoming,2026-05-15,01:00,CF Pachuca,Pumas UNAM,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71401832,scotland-premiership,scotland-premiership,upcoming,2026-05-15,18:45,Partick Thistle FC,Dunfermline Athletic FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67878230,australia-queensland-npl,australia-queensland-npl,upcoming,2026-05-15,09:30,Peninsula Power FC,Gold Coast Knights,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_63004417,poland-i-liga,poland-i-liga,upcoming,2026-05-15,16:00,Pogon Siedlce,FKS Stal Mielec,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_63004425,poland-i-liga,poland-i-liga,upcoming,2026-05-15,18:30,Polonia Warszawa,Wisla Krakow,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_61732308,portugal-liga-portugal-2,portugal-liga-portugal-2,upcoming,2026-05-15,17:00,FC Porto B,SL Benfica B,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_61272931,hungary-nb-i,hungary-nb-i,upcoming,2026-05-15,18:00,Puskas Akademia FC Felcsut,MTK Budapest,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_62117372,france-national,france-national,upcoming,2026-05-15,17:30,Quevilly-Rouen Metropole,Paris 13 Atletico,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68377560,sweden-division-2-promotion-playoffs,sweden-division-2-promotion-playoffs,upcoming,2026-05-15,18:00,Raagsveds IF,FOC Farsta,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_66627492,switzerland-challenge-league,switzerland-challenge-league,upcoming,2026-05-15,18:15,FC Rapperswil-Jona,FC Stade Nyonnais,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68042480,paraguay-division-de-honor-apertura,paraguay-division-de-honor-apertura,upcoming,2026-05-15,20:00,Rubio Nu,Nacional Asuncion,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_66854050,ireland-premier-division,ireland-premier-division,upcoming,2026-05-15,18:45,Saint Patrick´s Athletic FC,Shelbourne FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71242320,england-league-two,england-league-two,upcoming,2026-05-15,18:15,Salford City,Grimsby Town,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67017922,norway-1st-division,norway-1st-division,upcoming,2026-05-15,16:00,Sandnes Ulf,Egersunds IK,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_62117360,france-national,france-national,upcoming,2026-05-15,17:30,SC Aubagne Air Bel,SM Caen,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68995140,china-chinese-super-league,china-chinese-super-league,upcoming,2026-05-15,11:35,Shanghai Port FC,Zhejiang FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70962958,india-i-league,india-i-league,upcoming,2026-05-15,13:00,Shillong Lajong FC,Rajasthan United,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_62117370,france-national,france-national,upcoming,2026-05-15,17:30,Sochaux-Montbeliard,Le Puy Foot 43 Auvergne,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71401180,italy-serie-b,italy-serie-b,upcoming,2026-05-15,18:00,SSC Bari,FC Sudtirol Bolzano,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_66627490,switzerland-challenge-league,switzerland-challenge-league,upcoming,2026-05-15,18:15,Stade Lausanne Ouchy,Neuchatel Xamax,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_68995144,china-chinese-super-league,china-chinese-super-league,upcoming,2026-05-15,11:35,Tianjin Jinmen Tiger,Chengdu Rongcheng,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70224432,georgia-erovnuli-liga,georgia-erovnuli-liga,upcoming,2026-05-15,16:00,FC Torpedo Kutaisi,FC Dila Gori,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_66854760,ireland-first-division,ireland-first-division,upcoming,2026-05-15,18:45,Treaty United,Finn Harps FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_62117364,france-national,france-national,upcoming,2026-05-15,17:30,US Concarneau,FC Villefranche Beaujolais,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_62117374,france-national,france-national,upcoming,2026-05-15,17:30,Valenciennes FC,LB Chateauroux,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71457436,malta-premier-league,malta-premier-league,upcoming,2026-05-15,17:00,Valletta FC,Hamrun Spartans FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_62117376,france-national,france-national,upcoming,2026-05-15,17:30,FC Versailles 78,Stade Briochin,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_66606306,czechia-divize-b,czechia-divize-b,upcoming,2026-05-15,15:30,FC Viktoria Marianske Lazne,FC Chomutov,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_66854052,ireland-premier-division,ireland-premier-division,upcoming,2026-05-15,18:45,Waterford FC,Derry City FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_66627412,switzerland-challenge-league,switzerland-challenge-league,upcoming,2026-05-15,18:15,FC Wil 1900,FC Vaduz,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_67878228,australia-queensland-npl,australia-queensland-npl,upcoming,2026-05-15,09:30,Wynnum Wolves FC,Eastern Suburbs FC,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_61062327,poland-ekstraklasa,poland-ekstraklasa,upcoming,2026-05-15,16:00,Zaglebie Lubin,Pogon Szczecin,odds_api_io_events_bookmaker_filtered,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71096656,england-fa-cup,england-fa-cup,upcoming,2026-05-16,14:00,Chelsea FC,Manchester City,odds_api_io_events_search,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70934642,australia-northern-territory-premier-league-reserves,australia-northern-territory-premier-league-reserves,upcoming,2026-05-16,08:30,Darwin Hearts FC Reserves,Garuda FC Reserves,odds_api_io_events_search,2026-05-13T14:11:23.336889+00:00
-odds_api_io_71415362,australia-western-australia-npl,australia-western-australia-npl,upcoming,2026-05-16,07:00,Fremantle City,Olympic Kingsway SC,odds_api_io_events_search,2026-05-13T14:11:23.336889+00:00
-odds_api_io_69767606,australia-western-australia-state-league-1,australia-western-australia-state-league-1,upcoming,2026-05-16,07:00,Mandurah City,UWA Nedlands FC,odds_api_io_events_search,2026-05-13T14:11:23.336889+00:00
-odds_api_io_69768176,australia-western-australia-state-league-1-reserves,australia-western-australia-state-league-1-reserves,upcoming,2026-05-16,05:00,Mandurah City FC Reserves,Uwa Nedlands FC Reserves,odds_api_io_events_search,2026-05-13T14:11:23.336889+00:00
-odds_api_io_69115202,australia-western-australia-npl,australia-western-australia-npl,upcoming,2026-05-16,07:00,Olympic Kingsway SC,Fremantle City,odds_api_io_events_search,2026-05-13T14:11:23.336889+00:00
-odds_api_io_70930074,australia-northern-territory-premier-league-women,australia-northern-territory-premier-league-women,upcoming,2026-05-16,06:30,Port Darwin FC,Darwin Hearts FC,odds_api_io_events_search,2026-05-13T14:11:23.336889+00:00
-odds_api_io_62322506,england-amateur-super-league-women,england-amateur-super-league-women,upcoming,2026-05-16,12:00,West Ham United FC,Manchester City WFC,odds_api_io_events_search,2026-05-13T14:11:23.336889+00:00
+odds_api_io_70401306,brazil-copa-do-brasil,brazil-copa-do-brasil,upcoming,2026-05-14,22:00,AC Goianiense GO,CA Paranaense PR,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70401302,brazil-copa-do-brasil,brazil-copa-do-brasil,upcoming,2026-05-14,22:00,AD Confianca SE,Gremio FB Porto Alegrense RS,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_67953282,saudi-arabia-division-1,saudi-arabia-division-1,upcoming,2026-05-14,18:00,AL Draih,Al Bukiryah,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71370014,kuwait-premier-league,kuwait-premier-league,upcoming,2026-05-14,14:40,Al Jahra,Al-Nasr SC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71339462,iraq-iraqi-league,iraq-iraqi-league,upcoming,2026-05-14,14:30,AL Naft,AL Minaa,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71339460,iraq-iraqi-league,iraq-iraqi-league,upcoming,2026-05-14,14:30,AL Naft Maysan,AL Karma,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71336700,oman-omani-league,oman-omani-league,upcoming,2026-05-14,16:35,Al Nahda,Al-Seeb,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_64055877,saudi-arabia-saudi-pro-league,saudi-arabia-saudi-pro-league,upcoming,2026-05-14,18:00,Al Qadsiah,Al-Hazm,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_67953288,saudi-arabia-division-1,saudi-arabia-division-1,upcoming,2026-05-14,18:00,AL Ula,Al-Zulfi FC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_67953276,saudi-arabia-division-1,saudi-arabia-division-1,upcoming,2026-05-14,18:00,Al-Faisaly FC,Al-Batin,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_64055871,saudi-arabia-saudi-pro-league,saudi-arabia-saudi-pro-league,upcoming,2026-05-14,15:55,Al-Fateh SC,Al-Najma,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_64055869,saudi-arabia-saudi-pro-league,saudi-arabia-saudi-pro-league,upcoming,2026-05-14,18:00,Al-Ittifaq FC,Al-Ittihad Club,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_67953286,saudi-arabia-division-1,saudi-arabia-division-1,upcoming,2026-05-14,16:45,Al-Orobah,AL Anwar,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_67953278,saudi-arabia-division-1,saudi-arabia-division-1,upcoming,2026-05-14,16:35,Al-Wehda FC,Al-Jabalain,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70844432,iceland-4-deild,iceland-4-deild,upcoming,2026-05-14,18:30,Alftanes,KFR,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70379160,bolivia-division-profesional,bolivia-division-profesional,upcoming,2026-05-14,19:00,Always Ready,The Strongest,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68751762,brazil-u20-campeonato-brasileiro,brazil-u20-campeonato-brasileiro,upcoming,2026-05-14,18:00,America FC MG,EC Bahia BA,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68311590,sweden-ettan-relegation/promotion,sweden-ettan-relegation/promotion,upcoming,2026-05-14,14:00,Angelholms FF,Aatvidabergs FF,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70844430,iceland-4-deild,iceland-4-deild,upcoming,2026-05-14,17:00,Arborg,Alafoss,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70774898,cameroon-elite-one,cameroon-elite-one,upcoming,2026-05-14,15:00,AS Fortuna,Coton Sport de Garoua,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68310888,sweden-ettan-relegation/promotion,sweden-ettan-relegation/promotion,upcoming,2026-05-14,13:00,Assyriska FF,Umea FC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_69688798,brazil-u20-brasileiro-serie-b,brazil-u20-brasileiro-serie-b,upcoming,2026-05-14,18:00,Atletico Mineiro MG,Mirassol FC SP,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_61591358,austria-2-liga,austria-2-liga,upcoming,2026-05-14,15:00,Austria Lustenau,SKU Amstetten,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70479362,tanzania-premier-league,tanzania-premier-league,upcoming,2026-05-14,15:30,Azam FC,Pamba Jiji SC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71312154,spain-u19-division-de-honor-juvenil,spain-u19-division-de-honor-juvenil,upcoming,2026-05-14,10:00,FC Barcelona,CD Tenerife,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70448376,switzerland-super-league,switzerland-super-league,upcoming,2026-05-14,14:30,FC Basel 1893,FC St. Gallen 1879,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_67915816,norway-2nd-division-group-1,norway-2nd-division-group-1,upcoming,2026-05-14,11:00,Bjarg,Brattvaag,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71403928,bahrain-2nd-division,bahrain-2nd-division,upcoming,2026-05-14,16:00,Bouri,AL Tadamun Buri,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71242310,england-league-one,england-league-one,upcoming,2026-05-14,19:00,Bradford City FC,Bolton Wanderers,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68158790,argentina-copa-proyeccion-final-reserves,argentina-copa-proyeccion-final-reserves,upcoming,2026-05-14,16:00,CA Huracan,Independiente Reserve,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68158782,argentina-copa-proyeccion-final-reserves,argentina-copa-proyeccion-final-reserves,upcoming,2026-05-14,18:00,CA Lanus,Estudiantes de LP Reserve,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68158758,argentina-copa-proyeccion-final-reserves,argentina-copa-proyeccion-final-reserves,upcoming,2026-05-14,18:00,CA River Plate (Arg),Instituto AC Cordoba Reserves,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68158762,argentina-copa-proyeccion-final-reserves,argentina-copa-proyeccion-final-reserves,upcoming,2026-05-14,18:00,CA Sarmiento de Junin,San Lorenzo de Almagro Res.,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68158770,argentina-copa-proyeccion-final-reserves,argentina-copa-proyeccion-final-reserves,upcoming,2026-05-14,18:00,CA Union Santa Fe Reserve,CA Talleres de Cordoba Reserve,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68158774,argentina-copa-proyeccion-final-reserves,argentina-copa-proyeccion-final-reserves,upcoming,2026-05-14,18:00,CD Godoy Cruz,Gimnasia de Mendoza Reserve,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71296260,brazil-copa-do-brasil-women,brazil-copa-do-brasil-women,upcoming,2026-05-14,18:00,CE Juventude de Estancia SE,EC Vitoria BA,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_69688800,brazil-u20-brasileiro-serie-b,brazil-u20-brasileiro-serie-b,upcoming,2026-05-14,18:00,Ceara SC CE,Gremio Novorizontino SP,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70401294,brazil-copa-do-brasil,brazil-copa-do-brasil,upcoming,2026-05-14,21:00,Chapecoense SC,Botafogo FR RJ,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71426252,paraguay-segunda-division,paraguay-segunda-division,upcoming,2026-05-14,20:00,Club 3 De Noviembre,Deportivo Capiata,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71426254,paraguay-segunda-division,paraguay-segunda-division,upcoming,2026-05-14,22:30,Club Fernando de La Mora,Independiente Campo Grande,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_69757834,denmark-dbu-pokalen,denmark-dbu-pokalen,upcoming,2026-05-14,15:00,FC Copenhagen,FC Midtjylland,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70401298,brazil-copa-do-brasil,brazil-copa-do-brasil,upcoming,2026-05-14,23:00,CR Brasil AL,Fortaleza EC CE,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71372084,tunisia-ligue-1,tunisia-ligue-1,upcoming,2026-05-14,15:00,CS Sfaxien,ES Sahel,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68158778,argentina-copa-proyeccion-final-reserves,argentina-copa-proyeccion-final-reserves,upcoming,2026-05-14,18:00,Deportivo Riestra Afbc Reserve,San Martin de San Juan Reserve,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71336696,oman-omani-league,oman-omani-league,upcoming,2026-05-14,14:05,Dhofar SCSC,Al Shabab,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71403932,bahrain-2nd-division,bahrain-2nd-division,upcoming,2026-05-14,16:00,East Riffa,Qalali Club,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70844428,iceland-4-deild,iceland-4-deild,upcoming,2026-05-14,12:00,Ellidi,Vaengir Jupiters,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70774892,cameroon-elite-one,cameroon-elite-one,upcoming,2026-05-14,13:00,Fauve Azur de Yaounde,Gazelle FA de Garoua,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_61591362,austria-2-liga,austria-2-liga,upcoming,2026-05-14,15:00,First Vienna FC 1894,Schwarz-Weiss Bregenz,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_67919620,norway-3rd-division-group-2,norway-3rd-division-group-2,upcoming,2026-05-14,13:00,Fk Kvik Trondheim,Strindheim TF,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70906780,bulgaria-parva-liga,bulgaria-parva-liga,upcoming,2026-05-14,12:15,FK Septemvri Sofia,FK Spartak 1918 Varna,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_67915824,norway-2nd-division-group-1,norway-2nd-division-group-1,upcoming,2026-05-14,13:30,FK Vidar,Sotra SK,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70820614,iceland-cup,iceland-cup,upcoming,2026-05-14,15:00,Fylkir Reykjavik,FH Hafnarfjordur,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_67919260,norway-3rd-division-group-1,norway-3rd-division-group-1,upcoming,2026-05-14,16:00,Gamle Oslo FK,SF Grei,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_61624646,spain-laliga,spain-laliga,upcoming,2026-05-14,18:00,Girona FC,Real Sociedad San Sebastian,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+fd_SP1_2026-05-14_Girona_Sociedad,la_liga,SP1,upcoming,2026-05-14,19:00,Girona,Sociedad,football_data_fixtures_proxy,2026-05-14T02:30:02.210582+00:00
+odds_api_io_67919890,norway-3rd-division-group-3,norway-3rd-division-group-3,upcoming,2026-05-14,17:00,Gneist,Austevoll,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71312160,spain-u19-division-de-honor-juvenil,spain-u19-division-de-honor-juvenil,upcoming,2026-05-14,17:00,Granada CF,CF Valencia,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70929770,israel-national-league,israel-national-league,upcoming,2026-05-14,16:00,Hapoel Hadera FC,Hapoel Ra`anana FC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71456920,israel-liga-al-women,israel-liga-al-women,upcoming,2026-05-14,15:10,Hapoel Nir Ramat Hasharon,Maccabi Kishronot Hadera,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71218680,faroe-islands-logmanssteypid,faroe-islands-logmanssteypid,upcoming,2026-05-14,14:00,HB Torshavn,Vikingur Gota,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_67563266,zimbabwe-premier-soccer-league,zimbabwe-premier-soccer-league,upcoming,2026-05-14,13:00,Herentals FC,Dynamos Harare FC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_67920352,norway-3rd-division-group-4,norway-3rd-division-group-4,upcoming,2026-05-14,12:00,Hinna,FK Haugesund 2,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70318288,denmark-1-division,denmark-1-division,upcoming,2026-05-14,11:00,Hobro IK,Aarhus Fremad,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_67915572,norway-2nd-division-group-2,norway-2nd-division-group-2,upcoming,2026-05-14,13:00,Hoenefoss BK,Stjordals-Blink,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71343346,finland-suomen-cup-women,finland-suomen-cup-women,upcoming,2026-05-14,12:00,HPS II,FC Honka,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68310890,sweden-ettan-relegation/promotion,sweden-ettan-relegation/promotion,upcoming,2026-05-14,14:00,IF Karlstad Fotbol,IFK Stocksund,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70820616,iceland-cup,iceland-cup,upcoming,2026-05-14,14:00,IF Vestri,Grotta,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68344646,sweden-division-2-promotion-playoffs,sweden-division-2-promotion-playoffs,upcoming,2026-05-14,11:00,IFK Berga,Rappe GOIF,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68377548,sweden-division-2-promotion-playoffs,sweden-division-2-promotion-playoffs,upcoming,2026-05-14,16:30,IK Sleipner,Smedby AIS,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70929772,israel-national-league,israel-national-league,upcoming,2026-05-14,16:00,Ironi Modiin,Hapoel Acre FC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71403930,bahrain-2nd-division,bahrain-2nd-division,upcoming,2026-05-14,16:00,Isa Town,Al Ittifaq BHR,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71343350,finland-suomen-cup-women,finland-suomen-cup-women,upcoming,2026-05-14,10:00,JaPS,FC KTP,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70820618,iceland-cup,iceland-cup,upcoming,2026-05-14,14:00,KA Akureyri,KF Aegir,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70683966,finland-kolmonen,finland-kolmonen,upcoming,2026-05-14,16:00,KaaPo,Vg-62,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_69924662,finland-kolmonen,finland-kolmonen,upcoming,2026-05-14,14:00,Kjp Kouvola,Lautp,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68377658,sweden-division-2-promotion-playoffs,sweden-division-2-promotion-playoffs,upcoming,2026-05-14,12:00,Landvetter IS,IF Boljan Falkenberg,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68042486,paraguay-division-de-honor-apertura,paraguay-division-de-honor-apertura,upcoming,2026-05-14,20:00,Libertad Asuncion,CS 2 de Mayo,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68320174,sweden-division-2-promotion-playoffs,sweden-division-2-promotion-playoffs,upcoming,2026-05-14,13:00,Lidkopings FK,Grebbestads IF,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_67921064,norway-3rd-division-group-6,norway-3rd-division-group-6,upcoming,2026-05-14,13:00,Lillehammer FK,FK Gjoevik-Lyn,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_67126094,sweden-superettan,sweden-superettan,upcoming,2026-05-14,15:00,Ljungskile SK,GIF Sundsvall,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70906778,bulgaria-parva-liga,bulgaria-parva-liga,upcoming,2026-05-14,17:15,FC Lokomotiv 1929 Sofia,PFK Beroe Stara Zagora,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_67919258,norway-3rd-division-group-1,norway-3rd-division-group-1,upcoming,2026-05-14,13:00,Lokomotiv Oslo,FK Union Carl Berner,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70683964,finland-kolmonen,finland-kolmonen,upcoming,2026-05-14,13:00,Masku,LTU,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70267784,sweden-svenska-cup,sweden-svenska-cup,upcoming,2026-05-14,13:00,Mjallby AIF,Hammarby IF,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70479350,tanzania-premier-league,tanzania-premier-league,upcoming,2026-05-14,11:00,Mtibwa Sugar FC,Kmc FC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_67919604,norway-3rd-division-group-2,norway-3rd-division-group-2,upcoming,2026-05-14,12:00,Nardo FK,Byaasen,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70090084,india-i-league-2,india-i-league-2,upcoming,2026-05-14,09:30,Neroca FC,Sudeva Delhi FC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_67919608,norway-3rd-division-group-2,norway-3rd-division-group-2,upcoming,2026-05-14,12:00,Ntnui,Orkla,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70344940,sweden-division-2-promotion-playoffs,sweden-division-2-promotion-playoffs,upcoming,2026-05-14,11:00,Nykopings BIS,Lindo FF,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_67921052,norway-3rd-division-group-6,norway-3rd-division-group-6,upcoming,2026-05-14,12:00,Oppsal IF,Raade IL,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68310884,sweden-ettan-relegation/promotion,sweden-ettan-relegation/promotion,upcoming,2026-05-14,11:00,Piteaa IF,FBK Karlstad,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70906776,bulgaria-parva-liga,bulgaria-parva-liga,upcoming,2026-05-14,14:45,POFC Botev Vratsa,PFC Montana 1921,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_67921056,norway-3rd-division-group-6,norway-3rd-division-group-6,upcoming,2026-05-14,13:00,Raelingen,Brumunddal Fotball,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71312158,spain-u19-division-de-honor-juvenil,spain-u19-division-de-honor-juvenil,upcoming,2026-05-14,16:00,RC Celta de Vigo,UD Las Palmas,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+fd_SP1_2026-05-14_Real_Madrid_Oviedo,la_liga,SP1,upcoming,2026-05-14,20:30,Real Madrid,Oviedo,football_data_fixtures_proxy,2026-05-14T02:30:02.210582+00:00
+odds_api_io_61624656,spain-laliga,spain-laliga,upcoming,2026-05-14,19:30,Real Madrid,Real Oviedo,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71423498,zambia-super-league,zambia-super-league,upcoming,2026-05-14,13:00,Red Arrows,Green Eagles,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71128218,brazil-paulista-women,brazil-paulista-women,upcoming,2026-05-14,20:30,Red Bull Bragantino SP,SC Corinthians SP,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70981006,austria-amateur-ofb-cup-women,austria-amateur-ofb-cup-women,upcoming,2026-05-14,12:30,FC Salzburg Frauen,FK Austria Wien,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71336698,oman-omani-league,oman-omani-league,upcoming,2026-05-14,15:20,Samail SC,Sohar,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70945864,iran-azadegan-league,iran-azadegan-league,upcoming,2026-05-14,13:15,Sanat Mes Kerman FC,Mes Shahr-e Babak,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_67921068,norway-3rd-division-group-6,norway-3rd-division-group-6,upcoming,2026-05-14,16:00,Sandefjord Fotball 2,Drobak-Frogn,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71128220,brazil-paulista-women,brazil-paulista-women,upcoming,2026-05-14,22:30,Santos FC SP,SE Palmeiras SP,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70401290,brazil-copa-do-brasil,brazil-copa-do-brasil,upcoming,2026-05-14,22:30,SC Corinthians SP,Barra FC SC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70945796,iran-azadegan-league,iran-azadegan-league,upcoming,2026-05-14,13:00,Shahrdari Nowshahr,FC Fard Alborz,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70926664,ethiopia-premier-league,ethiopia-premier-league,upcoming,2026-05-14,12:00,Shire Endaselassie FC,Ethiopian Coffee SC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70926662,ethiopia-premier-league,ethiopia-premier-league,upcoming,2026-05-14,10:00,Sidama Bunna SC,Hadiya Hossana FC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_63637929,azerbaijan-first-division,azerbaijan-first-division,upcoming,2026-05-14,13:00,Simal,Difai Agsu,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70448378,switzerland-super-league,switzerland-super-league,upcoming,2026-05-14,14:30,FC Sion,FC Lugano,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_69924102,finland-kolmonen,finland-kolmonen,upcoming,2026-05-14,08:00,SJK-J,FC Kiisto,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_61591360,austria-2-liga,austria-2-liga,upcoming,2026-05-14,15:00,SK Austria Klagenfurt,FC Liefering,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_61591372,austria-2-liga,austria-2-liga,upcoming,2026-05-14,15:00,SK Sturm Graz II,Rapid Wien II,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_67915820,norway-2nd-division-group-1,norway-2nd-division-group-1,upcoming,2026-05-14,12:30,SK Traeff,Lysekloster,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_61591366,austria-2-liga,austria-2-liga,upcoming,2026-05-14,15:00,SKN St Polten,FC Hertha Wels,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71474744,paraguay-primera-division-reserve-apertura,paraguay-primera-division-reserve-apertura,upcoming,2026-05-14,19:00,Sportivo Luqueno,Guarani Asuncion,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71474746,paraguay-primera-division-reserve-apertura,paraguay-primera-division-reserve-apertura,upcoming,2026-05-14,19:00,Sportivo Trinidense,Deportivo Recoleta Reserve,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_67920356,norway-3rd-division-group-4,norway-3rd-division-group-4,upcoming,2026-05-14,12:00,Stabaek Fotball 2,Brodd,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70774888,cameroon-elite-one,cameroon-elite-one,upcoming,2026-05-14,14:30,Stade Renard,Aigle Royal,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_61541420,austria-amateur-regionalliga-west,austria-amateur-regionalliga-west,upcoming,2026-05-14,15:00,SV Kuchl,FC Kitzbuhel,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_61927890,austria-amateur-vorarlberg-eliteliga,austria-amateur-vorarlberg-eliteliga,upcoming,2026-05-14,09:00,SV Lochau,FC Wolfurt,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68774142,estonia-esiliiga,estonia-esiliiga,upcoming,2026-05-14,16:00,FC Tallinn,JK Tallinna Kalev,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70479314,tanzania-premier-league,tanzania-premier-league,upcoming,2026-05-14,11:00,Tanzania Prisons,Fountain Gate FC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70448380,switzerland-super-league,switzerland-super-league,upcoming,2026-05-14,14:30,FC Thun,Young Boys Bern,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71475334,colombia-primera-b,colombia-primera-b,upcoming,2026-05-14,22:00,Tigres FC,Envigado FC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68377650,sweden-division-2-promotion-playoffs,sweden-division-2-promotion-playoffs,upcoming,2026-05-14,11:00,Torslanda IK,Qviding FIF,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68311592,sweden-ettan-relegation/promotion,sweden-ettan-relegation/promotion,upcoming,2026-05-14,14:00,Trelleborgs FF,Jonkopings Sodra IF,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68311594,sweden-ettan-relegation/promotion,sweden-ettan-relegation/promotion,upcoming,2026-05-14,14:00,FC Trollhattan,Ariana FC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_67915570,norway-2nd-division-group-2,norway-2nd-division-group-2,upcoming,2026-05-14,11:00,Tromsdalen UIL,Grorud IL,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68311588,sweden-ettan-relegation/promotion,sweden-ettan-relegation/promotion,upcoming,2026-05-14,11:00,Tvaakers IF,BK Olympic,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_69539870,sweden-division-2-promotion-playoffs,sweden-division-2-promotion-playoffs,upcoming,2026-05-14,12:00,Umea FF,Fransta IK,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_69491788,belgium-beker-van-belgie,belgium-beker-van-belgie,upcoming,2026-05-14,13:00,Union Saint-Gilloise,RSC Anderlecht,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71203972,armenia-armenian-cup,armenia-armenian-cup,upcoming,2026-05-14,15:00,FC Urartu Yerevan,FC Noah Yerevan,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_61624652,spain-laliga,spain-laliga,upcoming,2026-05-14,17:00,Valencia CF,Rayo Vallecano,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+fd_SP1_2026-05-14_Valencia_Vallecano,la_liga,SP1,upcoming,2026-05-14,18:00,Valencia,Vallecano,football_data_fixtures_proxy,2026-05-14T02:30:02.210582+00:00
+odds_api_io_68310886,sweden-ettan-relegation/promotion,sweden-ettan-relegation/promotion,upcoming,2026-05-14,11:00,Vasalunds IF,Gefle IF,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68377654,sweden-division-2-promotion-playoffs,sweden-division-2-promotion-playoffs,upcoming,2026-05-14,11:00,Vastra Frolunda IF,IK Kongahalla,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68344650,sweden-division-2-promotion-playoffs,sweden-division-2-promotion-playoffs,upcoming,2026-05-14,12:00,Vaxjo Norra,Linero IF,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70648002,germany-amateur-dfb-pokal-women,germany-amateur-dfb-pokal-women,upcoming,2026-05-14,14:00,VfL Wolfsburg,Bayern Munich,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_67920350,norway-3rd-division-group-4,norway-3rd-division-group-4,upcoming,2026-05-14,12:00,Viking FK 2,Akra,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_69880380,ecuador-serie-b,ecuador-serie-b,upcoming,2026-05-14,20:30,Vinotinto FC Ecuador,Club Deportivo Cuenca Juniors,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_66627496,switzerland-challenge-league,switzerland-challenge-league,upcoming,2026-05-15,18:15,FC Aarau,Yverdon-Sport,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71240192,australia-a-league,australia-a-league,upcoming,2026-05-15,09:35,Adelaide United FC,Auckland FC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71343380,cyprus-1st-division,cyprus-1st-division,upcoming,2026-05-15,16:00,Akritas Chlorakas,AEL Limassol,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_64055881,saudi-arabia-saudi-pro-league,saudi-arabia-saudi-pro-league,upcoming,2026-05-15,18:00,Al-Taawoun FC,Al-Riyadh SC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_63185771,azerbaijan-premier-league,azerbaijan-premier-league,upcoming,2026-05-15,15:30,Araz Nakhchivan PFK,FK Kapaz,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+2267434,premier_league,4328,2025-2026,2026-05-15,19:00:00,Aston Villa,Liverpool,thesportsdb_eventsnextleague,2026-05-14T02:30:01.875627+00:00
+odds_api_io_61894048,austria-amateur-burgenland-burgenlandliga,austria-amateur-burgenland-burgenlandliga,upcoming,2026-05-15,17:30,ASV Siegendorf,SC Oberpullendorf,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70698890,iceland-3-deild,iceland-3-deild,upcoming,2026-05-15,19:15,Augnablik Kopavogur,KA Asvellir,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70318290,denmark-1-division,denmark-1-division,upcoming,2026-05-15,17:00,B93 Copenhagen,Aalborg BK,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_69767360,australia-npl-western-australia-women,australia-npl-western-australia-women,upcoming,2026-05-15,11:00,Balcatta FC,Fremantle City FC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68995146,china-chinese-super-league,china-chinese-super-league,upcoming,2026-05-15,12:00,Beijing Guoan,Qingdao Hainiu FC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68160146,australia-victoria-npl,australia-victoria-npl,upcoming,2026-05-15,10:30,Bentleigh Greens,Heidelberg United FC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68162372,australia-victoria-npl-women,australia-victoria-npl-women,upcoming,2026-05-15,08:15,Bentleigh Greens SC,Heidelberg United FC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_67691594,australia-nsw-league-one,australia-nsw-league-one,upcoming,2026-05-15,10:15,Blacktown Spartans,Bull FC Academy,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_66854046,ireland-premier-division,ireland-premier-division,upcoming,2026-05-15,18:45,Bohemians Dublin FC,Drogheda United FC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_67878238,australia-queensland-npl,australia-queensland-npl,upcoming,2026-05-15,09:15,Brisbane Roar FC,Lions FC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_67807822,australia-northern-nsw-premier-league-women,australia-northern-nsw-premier-league-women,upcoming,2026-05-15,10:00,Broadmeadow Magic FC,Newcastle Olympic FC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71453930,argentina-primera-division-women,argentina-primera-division-women,upcoming,2026-05-15,18:00,CA River Plate (ARG),Ferro Carril Oeste,odds_api_io_events_search,2026-05-14T02:30:02.907693+00:00
+odds_api_io_67903672,australia-queensland-premier-league-1,australia-queensland-premier-league-1,upcoming,2026-05-15,10:30,Caboolture FC,North Star FC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_67905666,australia-u23-queensland-premier-league-1,australia-u23-queensland-premier-league-1,upcoming,2026-05-15,08:30,Caboolture Sports FC,North Star,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70881658,peru-liga-1,peru-liga-1,upcoming,2026-05-15,20:00,FC Cajamarca,Sporting Cristal,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_61730242,turkiye-super-lig,turkiye-super-lig,upcoming,2026-05-15,17:00,Caykur Rizespor,Besiktas Istanbul,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_61623902,spain-laliga-2,spain-laliga-2,upcoming,2026-05-15,18:30,CD Castellon,Cadiz CF,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_67692234,australia-nsw-league-two,australia-nsw-league-two,upcoming,2026-05-15,10:00,Central Coast United FC,Inner West Hawks FC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68042490,paraguay-division-de-honor-apertura,paraguay-division-de-honor-apertura,upcoming,2026-05-15,12:30,Club Olimpia,Recoleta FC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_66854756,ireland-first-division,ireland-first-division,upcoming,2026-05-15,18:45,Cobh Ramblers,Athlone Town AFC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_61623898,spain-laliga-2,spain-laliga-2,upcoming,2026-05-15,19:00,Cordoba CF,Albacete Balompie,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71380914,turkiye-1-lig,turkiye-1-lig,upcoming,2026-05-15,17:00,Corum FK,Bodrum FK,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68995148,china-chinese-super-league,china-chinese-super-league,upcoming,2026-05-15,12:00,Dalian Yingbo FC,Qingdao West Coast FC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_64055883,saudi-arabia-saudi-pro-league,saudi-arabia-saudi-pro-league,upcoming,2026-05-15,16:15,Damac FC,Al-Fayha FC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68160142,australia-victoria-npl,australia-victoria-npl,upcoming,2026-05-15,09:45,Dandenong City SC,Oakleigh Cannons,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71475330,colombia-primera-b,colombia-primera-b,upcoming,2026-05-15,00:45,Deportes Quindio,Internacional FC De Palmira,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71172364,venezuela-primera-division,venezuela-primera-division,upcoming,2026-05-15,23:30,Deportivo La Guaira,UCV FC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_62117366,france-national,france-national,upcoming,2026-05-15,17:30,Dijon FCO,US Orleans,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70926672,ethiopia-premier-league,ethiopia-premier-league,upcoming,2026-05-15,13:00,Dire Dawa Kenema,Bahir Dar Kenema FC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_66854048,ireland-premier-division,ireland-premier-division,upcoming,2026-05-15,19:00,Dundalk FC,Shamrock Rovers,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70401304,brazil-copa-do-brasil,brazil-copa-do-brasil,upcoming,2026-05-15,00:30,EC Vitoria BA,CR Flamengo RJ,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68161696,australia-victoria-premier-league-2,australia-victoria-premier-league-2,upcoming,2026-05-15,10:30,Essendon Royals SC,Moreland City FC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70654944,finland-kolmonen,finland-kolmonen,upcoming,2026-05-15,16:15,Etela-Espoon Pallo,Mps,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71343370,cyprus-1st-division,cyprus-1st-division,upcoming,2026-05-15,16:00,Ethnikos Achnas FC,Omonia Aradippou,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71056744,hungary-nb-i-women,hungary-nb-i-women,upcoming,2026-05-15,13:00,ETO FC Gyor,Pecsi MFC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_66627494,switzerland-challenge-league,switzerland-challenge-league,upcoming,2026-05-15,18:15,Etoile Carouge FC,AC Bellinzona,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_62274210,austria-amateur-regionalliga-ost,austria-amateur-regionalliga-ost,upcoming,2026-05-15,17:10,Favoritner AC,SC Neusiedl am See 1919,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_61902040,austria-amateur-steiermark-landesliga,austria-amateur-steiermark-landesliga,upcoming,2026-05-15,17:00,Fehring 1947,SV Allerheiligen,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_67343112,hungary-u19-national,hungary-u19-national,upcoming,2026-05-15,12:00,Ferencvarosi TC,Illes Akademia,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_63185777,azerbaijan-premier-league,azerbaijan-premier-league,upcoming,2026-05-15,13:00,FK Karvan Yevlakh,Gabala FK,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68954832,lithuania-a-lyga,lithuania-a-lyga,upcoming,2026-05-15,17:00,FK Riteriai,FK Panevezys,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_62117368,france-national,france-national,upcoming,2026-05-15,17:30,FC Fleury 91,FC Rouen,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_61466367,austria-amateur-regionalliga-centre,austria-amateur-regionalliga-centre,upcoming,2026-05-15,17:00,FC Gleisdorf 09,USV St. Anna am Aigen,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68492520,latvia-virsliga,latvia-virsliga,upcoming,2026-05-15,15:00,Grobinas SC/LFS,FK Tukums 2000/TSS,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70687986,iceland-2-deild,iceland-2-deild,upcoming,2026-05-15,19:15,Haukar Hafnarfjordur,Fjolnir,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68995142,china-chinese-super-league,china-chinese-super-league,upcoming,2026-05-15,11:35,Henan,Shenzhen Peng City,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_61286597,croatia-hnl,croatia-hnl,upcoming,2026-05-15,16:00,HNK Vukovar 1991,NK Varazdin,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_67691592,australia-nsw-league-one,australia-nsw-league-one,upcoming,2026-05-15,10:00,Hurstville FC,Prospect United,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68320176,sweden-division-2-promotion-playoffs,sweden-division-2-promotion-playoffs,upcoming,2026-05-15,17:00,Husqvarna FF,IK Tord,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68320178,sweden-division-2-promotion-playoffs,sweden-division-2-promotion-playoffs,upcoming,2026-05-15,17:30,IFK Skovde FK,Vanersborgs IF,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_62759125,belgium-u21-pro-league,belgium-u21-pro-league,upcoming,2026-05-15,18:00,Jeugd Lierse Kempenzonen,Jeugd Lommel SK,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_62759129,belgium-u21-pro-league,belgium-u21-pro-league,upcoming,2026-05-15,18:00,Jeugd Patro Eisden Maasmechelen,RAAL La Louviere,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_62759123,belgium-u21-pro-league,belgium-u21-pro-league,upcoming,2026-05-15,18:00,K Beerschot VA,Jeugd RWDM Brussels,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70687988,iceland-2-deild,iceland-2-deild,upcoming,2026-05-15,19:15,Kari,Hviti Riddarinn,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_66854758,ireland-first-division,ireland-first-division,upcoming,2026-05-15,18:45,Kerry FC,Wexford FC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_67919262,norway-3rd-division-group-1,norway-3rd-division-group-1,upcoming,2026-05-15,17:00,KFUM 2,Valerenga IF 2,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70698892,iceland-3-deild,iceland-3-deild,upcoming,2026-05-15,19:15,KH Hlidarendi,Ymir Kopavogur,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68161694,australia-victoria-premier-league-2,australia-victoria-premier-league-2,upcoming,2026-05-15,09:45,Kingston City FC,Eastern Lions SC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70317950,denmark-1-division,denmark-1-division,upcoming,2026-05-15,16:00,Kolding IF,Lyngby BK,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_61062331,poland-ekstraklasa,poland-ekstraklasa,upcoming,2026-05-15,18:30,Korona Kielce,Widzew Lodz,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_62274206,austria-amateur-regionalliga-ost,austria-amateur-regionalliga-ost,upcoming,2026-05-15,17:30,Kremser SC,TWL Elektra,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68687648,ecuador-ligapro-primera-a,ecuador-ligapro-primera-a,upcoming,2026-05-15,21:30,LDU Quito,CD Tecnico Universitario,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_61732304,portugal-liga-portugal-2,portugal-liga-portugal-2,upcoming,2026-05-15,19:00,Leixoes SC,Lusitania FC Lourosa,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_61467289,poland-ii-liga,poland-ii-liga,upcoming,2026-05-15,15:00,LKS Lodz II,Unia Skierniewice,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_67905668,australia-u23-queensland-premier-league-1,australia-u23-queensland-premier-league-1,upcoming,2026-05-15,08:30,Logan Lightning,Redlands United,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_67807380,australia-northern-nsw-npl,australia-northern-nsw-npl,upcoming,2026-05-15,10:00,Maitland FC,Cooks Hill United,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_61732302,portugal-liga-portugal-2,portugal-liga-portugal-2,upcoming,2026-05-15,18:00,Maritimo Madeira,GD Chaves,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70926670,ethiopia-premier-league,ethiopia-premier-league,upcoming,2026-05-15,10:00,Mekelle 70 Enderta FC,Ethiopian Medhin,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68160934,australia-u23-victoria-premier-league-1,australia-u23-victoria-premier-league-1,upcoming,2026-05-15,08:15,Melbourne Knights FC,Eltham Redbacks FC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70556720,india-indian-super-league,india-indian-super-league,upcoming,2026-05-15,14:00,Mohammedan SC,Mumbai City,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71459872,uruguay-primera-division,uruguay-primera-division,upcoming,2026-05-15,23:00,Montevideo City Torque,Club Nacional de Football,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_61677922,slovakia-2-liga,slovakia-2-liga,upcoming,2026-05-15,15:00,MSK Puchov,MSK Povazska Bystrica,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_61677914,slovakia-2-liga,slovakia-2-liga,upcoming,2026-05-15,15:00,MSK Zilina B,Slavia Tu Kosice,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71452804,el-salvador-primera-division-clausura,el-salvador-primera-division-clausura,upcoming,2026-05-15,01:30,Municipal Limeno,CD FAS Santa Ana,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70090086,india-i-league-2,india-i-league-2,upcoming,2026-05-15,10:00,Myj-Gmsc,FC Bengaluru United,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68160922,australia-u23-victoria-premier-league-1,australia-u23-victoria-premier-league-1,upcoming,2026-05-15,08:15,Northcote City FC,FC Bulleen Lions,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71242316,england-league-two,england-league-two,upcoming,2026-05-15,19:00,Notts County,Chesterfield FC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68161886,australia-victoria-premier-league-2,australia-victoria-premier-league-2,upcoming,2026-05-15,09:30,Nunawading City,Whittlesea United SC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_61272923,hungary-nb-i,hungary-nb-i,upcoming,2026-05-15,15:45,Nyiregyhaza Spartacus FC,Kazincbarcikai SC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71343372,cyprus-1st-division,cyprus-1st-division,upcoming,2026-05-15,16:00,Olympiakos Nicosia,Anorthosis Famagusta,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_63311745,belgium-u21-pro-league,belgium-u21-pro-league,upcoming,2026-05-15,18:00,Olympic Club De Charleroi,Jeugd KV Kortrijk,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70379168,bolivia-division-profesional,bolivia-division-profesional,upcoming,2026-05-15,00:00,Oriente Petrolero,Guabira Montero,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70207498,belgium-pro-league,belgium-pro-league,upcoming,2026-05-15,18:45,Oud-Heverlee Leuven,Royal Antwerp FC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71450704,mexico-liga-mx-clausura,mexico-liga-mx-clausura,upcoming,2026-05-15,01:00,CF Pachuca,Pumas UNAM,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71401832,scotland-premiership,scotland-premiership,upcoming,2026-05-15,18:45,Partick Thistle FC,Dunfermline Athletic FC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_67878230,australia-queensland-npl,australia-queensland-npl,upcoming,2026-05-15,09:30,Peninsula Power FC,Gold Coast Knights,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_63004417,poland-i-liga,poland-i-liga,upcoming,2026-05-15,16:00,Pogon Siedlce,FKS Stal Mielec,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_63004425,poland-i-liga,poland-i-liga,upcoming,2026-05-15,18:30,Polonia Warszawa,Wisla Krakow,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_61732308,portugal-liga-portugal-2,portugal-liga-portugal-2,upcoming,2026-05-15,17:00,FC Porto B,SL Benfica B,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_61272931,hungary-nb-i,hungary-nb-i,upcoming,2026-05-15,18:00,Puskas Akademia FC Felcsut,MTK Budapest,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_62117372,france-national,france-national,upcoming,2026-05-15,17:30,Quevilly-Rouen Metropole,Paris 13 Atletico,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_62759131,belgium-u21-pro-league,belgium-u21-pro-league,upcoming,2026-05-15,18:00,RFC Liege,KVC Westerlo,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68377560,sweden-division-2-promotion-playoffs,sweden-division-2-promotion-playoffs,upcoming,2026-05-15,18:00,Raagsveds IF,FOC Farsta,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_66627492,switzerland-challenge-league,switzerland-challenge-league,upcoming,2026-05-15,18:15,FC Rapperswil-Jona,FC Stade Nyonnais,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68042480,paraguay-division-de-honor-apertura,paraguay-division-de-honor-apertura,upcoming,2026-05-15,20:00,Rubio Nu,Nacional Asuncion,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_66854050,ireland-premier-division,ireland-premier-division,upcoming,2026-05-15,18:45,Saint Patrick´s Athletic FC,Shelbourne FC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71242320,england-league-two,england-league-two,upcoming,2026-05-15,18:15,Salford City,Grimsby Town,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_67017922,norway-1st-division,norway-1st-division,upcoming,2026-05-15,16:00,Sandnes Ulf,Egersunds IK,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_62117360,france-national,france-national,upcoming,2026-05-15,17:30,SC Aubagne Air Bel,SM Caen,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_61466375,austria-amateur-regionalliga-centre,austria-amateur-regionalliga-centre,upcoming,2026-05-15,17:00,SC Weiz,SV Ried II,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68995140,china-chinese-super-league,china-chinese-super-league,upcoming,2026-05-15,11:35,Shanghai Port FC,Zhejiang FC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70962958,india-i-league,india-i-league,upcoming,2026-05-15,13:00,Shillong Lajong FC,Rajasthan United,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_62117370,france-national,france-national,upcoming,2026-05-15,17:30,Sochaux-Montbeliard,Le Puy Foot 43 Auvergne,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68042484,paraguay-division-de-honor-apertura,paraguay-division-de-honor-apertura,upcoming,2026-05-15,20:00,Sportivo Trinidense,Cerro Porteno,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70090088,india-i-league-2,india-i-league-2,upcoming,2026-05-15,10:00,United Sports Club,Delhi FC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71401180,italy-serie-b,italy-serie-b,upcoming,2026-05-15,18:00,SSC Bari,FC Sudtirol Bolzano,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_66627490,switzerland-challenge-league,switzerland-challenge-league,upcoming,2026-05-15,18:15,Stade Lausanne Ouchy,Neuchatel Xamax,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_62274212,austria-amateur-regionalliga-ost,austria-amateur-regionalliga-ost,upcoming,2026-05-15,17:30,SV Donau,FCM Traiskirchen,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_61466363,austria-amateur-regionalliga-centre,austria-amateur-regionalliga-centre,upcoming,2026-05-15,17:00,SV Lafnitz,ASK Voitsberg,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_61911550,austria-amateur-wien-wiener-stadtliga,austria-amateur-wien-wiener-stadtliga,upcoming,2026-05-15,17:00,SV Schwechat,FC Stadlau,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68995144,china-chinese-super-league,china-chinese-super-league,upcoming,2026-05-15,11:35,Tianjin Jinmen Tiger,Chengdu Rongcheng,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70224432,georgia-erovnuli-liga,georgia-erovnuli-liga,upcoming,2026-05-15,16:00,FC Torpedo Kutaisi,FC Dila Gori,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_66854760,ireland-first-division,ireland-first-division,upcoming,2026-05-15,18:45,Treaty United,Finn Harps FC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71451454,panama-liga-prom,panama-liga-prom,upcoming,2026-05-15,01:00,Udelas FC,CD Universitario II,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_61466373,austria-amateur-regionalliga-centre,austria-amateur-regionalliga-centre,upcoming,2026-05-15,17:00,Union Gurten,ASKO Oedt,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_62274214,austria-amateur-regionalliga-ost,austria-amateur-regionalliga-ost,upcoming,2026-05-15,17:00,Union Mauer,SV Leobendorf,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_66854762,ireland-first-division,ireland-first-division,upcoming,2026-05-15,18:45,University College Dublin,Bray Wanderers AFC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_62117364,france-national,france-national,upcoming,2026-05-15,17:30,US Concarneau,FC Villefranche Beaujolais,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_62117374,france-national,france-national,upcoming,2026-05-15,17:30,Valenciennes FC,LB Chateauroux,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71457436,malta-premier-league,malta-premier-league,upcoming,2026-05-15,17:00,Valletta FC,Hamrun Spartans FC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_70684182,finland-kolmonen,finland-kolmonen,upcoming,2026-05-15,16:30,Valtti,FC Kontu,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_62117376,france-national,france-national,upcoming,2026-05-15,17:30,FC Versailles 78,Stade Briochin,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_66606306,czechia-divize-b,czechia-divize-b,upcoming,2026-05-15,15:30,FC Viktoria Marianske Lazne,FC Chomutov,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_66854052,ireland-premier-division,ireland-premier-division,upcoming,2026-05-15,18:45,Waterford FC,Derry City FC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68161704,australia-victoria-premier-league-2,australia-victoria-premier-league-2,upcoming,2026-05-15,10:00,Werribee City FC,Malvern City FC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_62274208,austria-amateur-regionalliga-ost,austria-amateur-regionalliga-ost,upcoming,2026-05-15,17:30,Wiener Sport-Club,SV Oberwart,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_66627412,switzerland-challenge-league,switzerland-challenge-league,upcoming,2026-05-15,18:15,FC Wil 1900,FC Vaduz,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_67878228,australia-queensland-npl,australia-queensland-npl,upcoming,2026-05-15,09:30,Wynnum Wolves FC,Eastern Suburbs FC,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_61062327,poland-ekstraklasa,poland-ekstraklasa,upcoming,2026-05-15,16:00,Zaglebie Lubin,Pogon Szczecin,odds_api_io_events_bookmaker_filtered,2026-05-14T02:30:02.907693+00:00
+odds_api_io_68971752,brazil-brasileiro-serie-a2-women,brazil-brasileiro-serie-a2-women,upcoming,2026-05-16,18:00,Ceara SC CE,3B Sport AM,odds_api_io_events_search,2026-05-14T02:30:02.907693+00:00
+odds_api_io_71453182,mexico-u21-liga-mx,mexico-u21-liga-mx,upcoming,2026-05-16,15:00,Club America,Guadalajara,odds_api_io_events_search,2026-05-14T02:30:02.907693+00:00

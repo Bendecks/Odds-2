@@ -10,418 +10,112 @@ No qualifying candidate bets today.
 
 ## Paper-Test Picks
 
-### Getafe vs Mallorca
+### Girona vs Sociedad
 
-- Date/time: 2026-05-13 20:30
+- Date/time: 2026-05-14 19:00
 - League/phase: la_liga / automatic_forward_price_proxy
 - Selection: AWAY
-- Market odds: 3.7
-- Fair odds: 3.06
-- Model probability: 0.3268
+- Market odds: 3.35
+- Fair odds: 3.03
+- Model probability: 0.3305
 - Probability band: 0.25-0.35
-- EV: 0.2092
-- Probability edge: 0.0565
-- Alignment penalty: 0.2092
+- EV: 0.1072
+- Probability edge: 0.032
+- Alignment penalty: 0.1072
 - Suppression action: none
 - Paper tier: priority_proxy_observation
-- Paper score: 0.2564
-- Prediction ID: 512b2aaa4dc6a4610a3d
+- Paper score: 0.2441
+- Prediction ID: 24bd77f085ea78e07dc9
 
-### Villarreal vs Sevilla
+### Girona vs Sociedad
 
-- Date/time: 2026-05-13 18:00
+- Date/time: 2026-05-14 19:00
 - League/phase: la_liga / automatic_forward_price_proxy
 - Selection: AWAY
-- Market odds: 3.7
-- Fair odds: 3.07
-- Model probability: 0.326
+- Market odds: 3.3
+- Fair odds: 3.03
+- Model probability: 0.3305
 - Probability band: 0.25-0.35
-- EV: 0.2062
-- Probability edge: 0.0557
-- Alignment penalty: 0.2062
+- EV: 0.0906
+- Probability edge: 0.0275
+- Alignment penalty: 0.0907
 - Suppression action: none
 - Paper tier: priority_proxy_observation
-- Paper score: 0.2559
-- Prediction ID: 1a7b8238707be2164ab1
+- Paper score: 0.2419
+- Prediction ID: 24bd77f085ea78e07dc9
 
-### Villarreal vs Sevilla
+### Valencia vs Vallecano
 
-- Date/time: 2026-05-13 18:00
+- Date/time: 2026-05-14 18:00
 - League/phase: la_liga / automatic_forward_price_proxy
 - Selection: AWAY
-- Market odds: 3.6
-- Fair odds: 3.07
-- Model probability: 0.326
-- Probability band: 0.25-0.35
-- EV: 0.1736
-- Probability edge: 0.0482
-- Alignment penalty: 0.1736
-- Suppression action: none
-- Paper tier: priority_proxy_observation
-- Paper score: 0.252
-- Prediction ID: 1a7b8238707be2164ab1
-
-### Getafe vs Mallorca
-
-- Date/time: 2026-05-13 20:30
-- League/phase: la_liga / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 3.51
-- Fair odds: 3.06
-- Model probability: 0.3268
-- Probability band: 0.25-0.35
-- EV: 0.1471
-- Probability edge: 0.0419
-- Alignment penalty: 0.1471
-- Suppression action: none
-- Paper tier: priority_proxy_observation
-- Paper score: 0.2488
-- Prediction ID: 512b2aaa4dc6a4610a3d
-
-### Lens vs Paris SG
-
-- Date/time: 2026-05-13 20:00
-- League/phase: ligue_1 / automatic_forward_price_proxy
-- Selection: HOME
-- Market odds: 3.5
-- Fair odds: 3.31
-- Model probability: 0.3022
-- Probability band: 0.25-0.35
-- EV: 0.0577
-- Probability edge: 0.0165
-- Alignment penalty: 0.0577
-- Suppression action: none
-- Paper tier: priority_proxy_observation
-- Paper score: 0.2347
-- Prediction ID: 08ac28957d325bd5bfd5
-
-### Alaves vs Barcelona
-
-- Date/time: 2026-05-13 20:30
-- League/phase: la_liga / automatic_forward_price_proxy
-- Selection: DRAW
-- Market odds: 3.9
-- Fair odds: 3.63
-- Model probability: 0.2757
-- Probability band: 0.25-0.35
-- EV: 0.0752
-- Probability edge: 0.0193
-- Alignment penalty: 0.0752
-- Suppression action: none
-- Paper tier: priority_proxy_observation
-- Paper score: 0.2344
-- Prediction ID: 541dc74549d31d734841
-
-### Lens vs Paris SG
-
-- Date/time: 2026-05-13 20:00
-- League/phase: ligue_1 / automatic_forward_price_proxy
-- Selection: HOME
 - Market odds: 3.4
-- Fair odds: 3.31
-- Model probability: 0.3022
+- Fair odds: 3.11
+- Model probability: 0.3215
 - Probability band: 0.25-0.35
-- EV: 0.0275
-- Probability edge: 0.0081
-- Alignment penalty: 0.0275
+- EV: 0.0931
+- Probability edge: 0.0274
+- Alignment penalty: 0.0931
 - Suppression action: none
 - Paper tier: priority_proxy_observation
-- Paper score: 0.2307
-- Prediction ID: 08ac28957d325bd5bfd5
+- Paper score: 0.2413
+- Prediction ID: 239766b687d9b1adc383
 
-### Alaves vs Barcelona
+### Valencia vs Vallecano
 
-- Date/time: 2026-05-13 20:30
+- Date/time: 2026-05-14 18:00
 - League/phase: la_liga / automatic_forward_price_proxy
-- Selection: DRAW
-- Market odds: 3.75
-- Fair odds: 3.63
-- Model probability: 0.2757
-- Probability band: 0.25-0.35
-- EV: 0.0339
-- Probability edge: 0.009
-- Alignment penalty: 0.0339
-- Suppression action: none
-- Paper tier: priority_proxy_observation
-- Paper score: 0.2292
-- Prediction ID: 541dc74549d31d734841
-
-### Brest vs Strasbourg
-
-- Date/time: 2026-05-13 18:00
-- League/phase: ligue_1 / automatic_forward_price_proxy
-- Selection: DRAW
-- Market odds: 3.6
-- Fair odds: 3.58
-- Model probability: 0.2794
-- Probability band: 0.25-0.35
-- EV: 0.0058
-- Probability edge: 0.0016
-- Alignment penalty: 0.0058
-- Suppression action: none
-- Paper tier: priority_proxy_observation
-- Paper score: 0.2258
-- Prediction ID: 15223cd9a65de7bcdbde
-
-### Brest vs Strasbourg
-
-- Date/time: 2026-05-13 18:00
-- League/phase: ligue_1 / automatic_forward_price_proxy
-- Selection: DRAW
-- Market odds: 3.6
-- Fair odds: 3.58
-- Model probability: 0.2794
-- Probability band: 0.25-0.35
-- EV: 0.0058
-- Probability edge: 0.0016
-- Alignment penalty: 0.0058
-- Suppression action: none
-- Paper tier: priority_proxy_observation
-- Paper score: 0.2258
-- Prediction ID: 15223cd9a65de7bcdbde
-
-### Espanol vs Ath Bilbao
-
-- Date/time: 2026-05-13 18:00
-- League/phase: la_liga / automatic_forward_price_proxy
-- Selection: DRAW
+- Selection: AWAY
 - Market odds: 3.3
-- Fair odds: 3.42
-- Model probability: 0.2922
+- Fair odds: 3.11
+- Model probability: 0.3215
 - Probability band: 0.25-0.35
-- EV: -0.0357
-- Probability edge: -0.0108
-- Alignment penalty: 0.0357
+- EV: 0.0609
+- Probability edge: 0.0185
+- Alignment penalty: 0.061
 - Suppression action: none
-- Paper tier: negative_ev_control_observation
-- Paper score: 0.2068
-- Prediction ID: 0fcb571cd54d22a99bcc
+- Paper tier: priority_proxy_observation
+- Paper score: 0.237
+- Prediction ID: 239766b687d9b1adc383
 
-### Espanol vs Ath Bilbao
+### SJK-J vs FC Kiisto
 
-- Date/time: 2026-05-13 18:00
-- League/phase: la_liga / automatic_forward_price_proxy
-- Selection: DRAW
-- Market odds: 3.3
-- Fair odds: 3.42
-- Model probability: 0.2922
-- Probability band: 0.25-0.35
-- EV: -0.0357
-- Probability edge: -0.0108
-- Alignment penalty: 0.0357
-- Suppression action: none
-- Paper tier: negative_ev_control_observation
-- Paper score: 0.2068
-- Prediction ID: 0fcb571cd54d22a99bcc
-
-### PAOK Thessaloniki vs AEK Athens
-
-- Date/time: 2026-05-13 16:30
-- League/phase: greece-super-league / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 5.0
-- Fair odds: 2.87
-- Model probability: 0.3488
-- Probability band: 0.25-0.35
-- EV: 0.744
-- Probability edge: 0.1488
-- Alignment penalty: 0.744
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.0711
-- Prediction ID: 8f73869fc12eb2948b4c
-
-### PAOK vs AEK
-
-- Date/time: 2026-05-13 17:30
-- League/phase: G1 / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 5.0
-- Fair odds: 2.87
-- Model probability: 0.3488
-- Probability band: 0.25-0.35
-- EV: 0.744
-- Probability edge: 0.1488
-- Alignment penalty: 0.744
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.0711
-- Prediction ID: 2b19ca93bfc4a3298eef
-
-### PAOK vs AEK
-
-- Date/time: 2026-05-13 17:30
-- League/phase: G1 / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 5.0
-- Fair odds: 2.87
-- Model probability: 0.3488
-- Probability band: 0.25-0.35
-- EV: 0.744
-- Probability edge: 0.1488
-- Alignment penalty: 0.744
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.0711
-- Prediction ID: 2b19ca93bfc4a3298eef
-
-### Levadeiakos vs OFI Crete
-
-- Date/time: 2026-05-13 15:00
-- League/phase: G1 / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 5.0
-- Fair odds: 2.87
-- Model probability: 0.3488
-- Probability band: 0.25-0.35
-- EV: 0.744
-- Probability edge: 0.1488
-- Alignment penalty: 0.744
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.0711
-- Prediction ID: 1c3f90b9a258bf231825
-
-### PAOK Thessaloniki vs AEK Athens
-
-- Date/time: 2026-05-13 16:30
-- League/phase: greece-super-league / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 5.0
-- Fair odds: 2.87
-- Model probability: 0.3488
-- Probability band: 0.25-0.35
-- EV: 0.744
-- Probability edge: 0.1488
-- Alignment penalty: 0.744
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.0711
-- Prediction ID: 8f73869fc12eb2948b4c
-
-### Levadeiakos vs OFI Crete
-
-- Date/time: 2026-05-13 15:00
-- League/phase: G1 / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 5.0
-- Fair odds: 2.87
-- Model probability: 0.3488
-- Probability band: 0.25-0.35
-- EV: 0.744
-- Probability edge: 0.1488
-- Alignment penalty: 0.744
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.0711
-- Prediction ID: 1c3f90b9a258bf231825
-
-### Motherwell FC vs Celtic Glasgow
-
-- Date/time: 2026-05-13 19:00
-- League/phase: scotland-premiership / automatic_forward_price_proxy
-- Selection: HOME
-- Market odds: 4.4
-- Fair odds: 2.65
-- Model probability: 0.3772
-- Probability band: 0.35-0.45
-- EV: 0.6597
-- Probability edge: 0.1499
-- Alignment penalty: 0.6597
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.0704
-- Prediction ID: 8aea11726ec4ca7259c2
-
-### Motherwell vs Celtic
-
-- Date/time: 2026-05-13 20:00
-- League/phase: SC0 / automatic_forward_price_proxy
-- Selection: HOME
-- Market odds: 4.4
-- Fair odds: 2.65
-- Model probability: 0.3772
-- Probability band: 0.35-0.45
-- EV: 0.6597
-- Probability edge: 0.1499
-- Alignment penalty: 0.6597
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.0704
-- Prediction ID: 52961fc73f7fb2c0f43f
-
-### Volos NFC vs Aris
-
-- Date/time: 2026-05-13 15:00
-- League/phase: G1 / automatic_forward_price_proxy
-- Selection: HOME
-- Market odds: 4.33
-- Fair odds: 2.65
-- Model probability: 0.3772
-- Probability band: 0.35-0.45
-- EV: 0.6333
-- Probability edge: 0.1463
-- Alignment penalty: 0.6333
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.0698
-- Prediction ID: 34367432f10e9034d211
-
-### Motherwell vs Celtic
-
-- Date/time: 2026-05-13 20:00
-- League/phase: SC0 / automatic_forward_price_proxy
-- Selection: HOME
-- Market odds: 4.33
-- Fair odds: 2.65
-- Model probability: 0.3772
-- Probability band: 0.35-0.45
-- EV: 0.6333
-- Probability edge: 0.1463
-- Alignment penalty: 0.6333
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.0698
-- Prediction ID: 52961fc73f7fb2c0f43f
-
-### Volos NFC vs Aris
-
-- Date/time: 2026-05-13 15:00
-- League/phase: G1 / automatic_forward_price_proxy
-- Selection: HOME
-- Market odds: 4.33
-- Fair odds: 2.65
-- Model probability: 0.3772
-- Probability band: 0.35-0.45
-- EV: 0.6333
-- Probability edge: 0.1463
-- Alignment penalty: 0.6333
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.0698
-- Prediction ID: 34367432f10e9034d211
-
-### Motherwell FC vs Celtic Glasgow
-
-- Date/time: 2026-05-13 19:00
-- League/phase: scotland-premiership / automatic_forward_price_proxy
-- Selection: HOME
-- Market odds: 4.33
-- Fair odds: 2.65
-- Model probability: 0.3772
-- Probability band: 0.35-0.45
-- EV: 0.6333
-- Probability edge: 0.1463
-- Alignment penalty: 0.6333
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.0698
-- Prediction ID: 8aea11726ec4ca7259c2
-
-### Kultsu FC vs Ips
-
-- Date/time: 2026-05-13 15:30
+- Date/time: 2026-05-14 08:00
 - League/phase: finland-kolmonen / automatic_forward_price_proxy
+- Selection: HOME
+- Market odds: 4.33
+- Fair odds: 2.65
+- Model probability: 0.3772
+- Probability band: 0.35-0.45
+- EV: 0.6344
+- Probability edge: 0.1464
+- Alignment penalty: 0.6344
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0698
+- Prediction ID: bab13531ddcf65d3cc13
+
+### Oppsal IF vs Raade IL
+
+- Date/time: 2026-05-14 12:00
+- League/phase: norway-3rd-division-group-6 / automatic_forward_price_proxy
+- Selection: HOME
+- Market odds: 4.33
+- Fair odds: 2.65
+- Model probability: 0.3772
+- Probability band: 0.35-0.45
+- EV: 0.6344
+- Probability edge: 0.1464
+- Alignment penalty: 0.6344
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0698
+- Prediction ID: d3d197498c9218092f38
+
+### Red Arrows vs Green Eagles
+
+- Date/time: 2026-05-14 13:00
+- League/phase: zambia-super-league / automatic_forward_price_proxy
 - Selection: AWAY
 - Market odds: 4.75
 - Fair odds: 2.87
@@ -433,7 +127,313 @@ No qualifying candidate bets today.
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
 - Paper score: 0.0692
-- Prediction ID: 1ac04cab648171d02435
+- Prediction ID: 35c76cbb4ed25d486402
+
+### Sidama Bunna SC vs Hadiya Hossana FC
+
+- Date/time: 2026-05-14 10:00
+- League/phase: ethiopia-premier-league / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 4.75
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.6568
+- Probability edge: 0.1383
+- Alignment penalty: 0.6568
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0692
+- Prediction ID: 5d75bbcc6d1b10e742ca
+
+### Real Madrid vs Real Oviedo
+
+- Date/time: 2026-05-14 19:30
+- League/phase: spain-laliga / automatic_forward_price_proxy
+- Selection: DRAW
+- Market odds: 6.28
+- Fair odds: 3.65
+- Model probability: 0.274
+- Probability band: 0.25-0.35
+- EV: 0.7207
+- Probability edge: 0.1148
+- Alignment penalty: 0.7207
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0675
+- Prediction ID: 4cbe935ed8d8b6eb0b6c
+
+### Real Madrid vs Oviedo
+
+- Date/time: 2026-05-14 20:30
+- League/phase: la_liga / automatic_forward_price_proxy
+- Selection: DRAW
+- Market odds: 6.28
+- Fair odds: 3.65
+- Model probability: 0.274
+- Probability band: 0.25-0.35
+- EV: 0.7207
+- Probability edge: 0.1148
+- Alignment penalty: 0.7207
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0675
+- Prediction ID: 7fd41987ec6cf86d7b3d
+
+### FK Septemvri Sofia vs FK Spartak 1918 Varna
+
+- Date/time: 2026-05-14 12:15
+- League/phase: bulgaria-parva-liga / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 4.5
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.5696
+- Probability edge: 0.1266
+- Alignment penalty: 0.5696
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0673
+- Prediction ID: 62c6f85d032b2d045a7a
+
+### KA Akureyri vs KF Aegir
+
+- Date/time: 2026-05-14 14:00
+- League/phase: iceland-cup / automatic_forward_price_proxy
+- Selection: DRAW
+- Market odds: 6.25
+- Fair odds: 3.65
+- Model probability: 0.274
+- Probability band: 0.25-0.35
+- EV: 0.7125
+- Probability edge: 0.114
+- Alignment penalty: 0.7125
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0673
+- Prediction ID: 39858edc0b4dc4aa37df
+
+### JaPS vs FC KTP
+
+- Date/time: 2026-05-14 10:00
+- League/phase: finland-suomen-cup-women / automatic_forward_price_proxy
+- Selection: DRAW
+- Market odds: 6.0
+- Fair odds: 3.65
+- Model probability: 0.274
+- Probability band: 0.25-0.35
+- EV: 0.644
+- Probability edge: 0.1073
+- Alignment penalty: 0.644
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.066
+- Prediction ID: 439663c6f2338d8db867
+
+### Mtibwa Sugar FC vs Kmc FC
+
+- Date/time: 2026-05-14 11:00
+- League/phase: tanzania-premier-league / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 4.0
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.3952
+- Probability edge: 0.0988
+- Alignment penalty: 0.3952
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0632
+- Prediction ID: 865fe60a7dc04fd7fc29
+
+### FC Salzburg Frauen vs FK Austria Wien
+
+- Date/time: 2026-05-14 12:30
+- League/phase: austria-amateur-ofb-cup-women / automatic_forward_price_proxy
+- Selection: DRAW
+- Market odds: 5.5
+- Fair odds: 3.65
+- Model probability: 0.274
+- Probability band: 0.25-0.35
+- EV: 0.507
+- Probability edge: 0.0922
+- Alignment penalty: 0.507
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0631
+- Prediction ID: 27afb8a892769609a66c
+
+### Neroca FC vs Sudeva Delhi FC
+
+- Date/time: 2026-05-14 09:30
+- League/phase: india-i-league-2 / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 3.9
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.3603
+- Probability edge: 0.0924
+- Alignment penalty: 0.3603
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0623
+- Prediction ID: 0ce3940f11525a7569e1
+
+### Masku vs LTU
+
+- Date/time: 2026-05-14 13:00
+- League/phase: finland-kolmonen / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 3.8
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.3254
+- Probability edge: 0.0856
+- Alignment penalty: 0.3254
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0614
+- Prediction ID: 30963b9b6d529860f9c9
+
+### Shire Endaselassie FC vs Ethiopian Coffee SC
+
+- Date/time: 2026-05-14 12:00
+- League/phase: ethiopia-premier-league / automatic_forward_price_proxy
+- Selection: HOME
+- Market odds: 3.4
+- Fair odds: 2.65
+- Model probability: 0.3772
+- Probability band: 0.35-0.45
+- EV: 0.2825
+- Probability edge: 0.0831
+- Alignment penalty: 0.2825
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0612
+- Prediction ID: dde7b0fa5bb450210076
+
+### IF Karlstad Fotbol vs IFK Stocksund
+
+- Date/time: 2026-05-14 14:00
+- League/phase: sweden-ettan-relegation/promotion / automatic_forward_price_proxy
+- Selection: DRAW
+- Market odds: 5.0
+- Fair odds: 3.65
+- Model probability: 0.274
+- Probability band: 0.25-0.35
+- EV: 0.37
+- Probability edge: 0.074
+- Alignment penalty: 0.37
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.06
+- Prediction ID: 361db360b826ebfa5fae
+
+### Viking FK 2 vs Akra
+
+- Date/time: 2026-05-14 12:00
+- League/phase: norway-3rd-division-group-4 / automatic_forward_price_proxy
+- Selection: DRAW
+- Market odds: 5.0
+- Fair odds: 3.65
+- Model probability: 0.274
+- Probability band: 0.25-0.35
+- EV: 0.37
+- Probability edge: 0.074
+- Alignment penalty: 0.37
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.06
+- Prediction ID: 20ad156b3f0d37d24a0d
+
+### Herentals FC vs Dynamos Harare FC
+
+- Date/time: 2026-05-14 13:00
+- League/phase: zimbabwe-premier-soccer-league / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 3.6
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.2557
+- Probability edge: 0.071
+- Alignment penalty: 0.2557
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0596
+- Prediction ID: b0ae2fcef93a91c4b62e
+
+### IF Vestri vs Grotta
+
+- Date/time: 2026-05-14 14:00
+- League/phase: iceland-cup / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 3.6
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.2557
+- Probability edge: 0.071
+- Alignment penalty: 0.2557
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0596
+- Prediction ID: b394c324663eb5a6edf8
+
+### Trelleborgs FF vs Jonkopings Sodra IF
+
+- Date/time: 2026-05-14 14:00
+- League/phase: sweden-ettan-relegation/promotion / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 3.6
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.2557
+- Probability edge: 0.071
+- Alignment penalty: 0.2557
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0596
+- Prediction ID: a5134eea61658da6fd32
+
+### Kjp Kouvola vs Lautp
+
+- Date/time: 2026-05-14 14:00
+- League/phase: finland-kolmonen / automatic_forward_price_proxy
+- Selection: HOME
+- Market odds: 3.25
+- Fair odds: 2.65
+- Model probability: 0.3772
+- Probability band: 0.35-0.45
+- EV: 0.2259
+- Probability edge: 0.0695
+- Alignment penalty: 0.2259
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0596
+- Prediction ID: bc11dcb856ac2f08c802
+
+### Ntnui vs Orkla
+
+- Date/time: 2026-05-14 12:00
+- League/phase: norway-3rd-division-group-2 / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 3.5
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.2208
+- Probability edge: 0.0631
+- Alignment penalty: 0.2208
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0586
+- Prediction ID: 8f3a820cb06db7d4af16
 
 ## Snapshot summary
 
