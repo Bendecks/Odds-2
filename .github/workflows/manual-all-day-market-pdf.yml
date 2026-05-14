@@ -85,32 +85,45 @@ jobs:
             git push
           fi
 
-      - name: Upload all-day market PDF artifact
+      - name: Upload all-day market data artifact
         uses: actions/upload-artifact@v4
         with:
-          name: all-day-market-pdf
+          name: bet365-next-12h-ai-data
           path: |
-            output/bet365/latest/bet365_today_multisport_all_day_report.pdf
-            output/bet365/latest/bet365_today_multisport_all_day_events.csv
             output/bet365/latest/bet365_today_multisport_all_day_markets.csv
-            output/bet365/latest/bet365_today_multisport_all_day_excluded.csv
+            output/bet365/latest/bet365_today_multisport_all_day_events.csv
             output/bet365/latest/bet365_today_multisport_all_day_summary.json
+            output/bet365/latest/bet365_today_multisport_all_day_excluded.csv
             output/bet365/latest/bet365_today_multisport_all_day_rate_limit_headers.csv
+            output/bet365/latest/bet365_today_multisport_all_day_report.pdf
 
-      - name: Email all-day market PDF
+      - name: Email AI-ready Bet365 data
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: ${{ secrets.SMTP_HOST }}
           server_port: ${{ secrets.SMTP_PORT }}
           username: ${{ secrets.SMTP_USERNAME }}
           password: ${{ secrets.SMTP_PASSWORD }}
-          subject: 'Bet365 all-day market PDF'
+          subject: 'Bet365 next 12h AI data CSV'
           to: ${{ secrets.REPORT_EMAIL_TO }}
           from: ${{ secrets.REPORT_EMAIL_FROM }}
           secure: false
           body: |
-            Bet365 all-day market PDF is attached.
+            AI-ready Bet365 data for the next 12 hours is attached.
 
-            Workflow: Manual All-Day Market PDF
-            Repo: Bendecks/Odds-2
-          attachments: output/bet365/latest/bet365_today_multisport_all_day_report.pdf
+            Best file for ChatGPT/scripts:
+            - bet365_today_multisport_all_day_markets.csv
+
+            Supporting files:
+            - bet365_today_multisport_all_day_events.csv
+            - bet365_today_multisport_all_day_summary.json
+            - bet365_today_multisport_all_day_excluded.csv
+            - bet365_today_multisport_all_day_rate_limit_headers.csv
+
+            PDF is still generated in the repo/artifact, but CSV is the primary attachment format.
+          attachments: |
+            output/bet365/latest/bet365_today_multisport_all_day_markets.csv
+            output/bet365/latest/bet365_today_multisport_all_day_events.csv
+            output/bet365/latest/bet365_today_multisport_all_day_summary.json
+            output/bet365/latest/bet365_today_multisport_all_day_excluded.csv
+            output/bet365/latest/bet365_today_multisport_all_day_rate_limit_headers.csv
