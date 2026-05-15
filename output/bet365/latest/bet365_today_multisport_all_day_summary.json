@@ -1,18 +1,19 @@
 {
-  "generated_at_dk": "2026-05-15 15:27",
+  "generated_at_dk": "2026-05-15 19:21",
   "window_hours": 12,
-  "window_started_dk": "2026-05-15 15:27",
+  "window_started_dk": "2026-05-15 19:21",
   "bookmaker": "Bet365",
   "statuses_requested": "pending,live,settled",
   "sports_requested": "football,tennis,basketball,ice-hockey,american-football,baseball,cricket,rugby-union,rugby-league,handball,esports",
-  "events_after_filters": 142,
-  "events_requested_for_odds": 142,
-  "events_with_odds": 142,
+  "events_after_filters": 119,
+  "events_requested_for_odds": 119,
+  "events_with_odds": 119,
   "event_status_counts": {
-    "pending": 142
+    "live": 1,
+    "pending": 118
   },
-  "market_rows": 16155,
-  "excluded_events": 231,
+  "market_rows": 15395,
+  "excluded_events": 203,
   "min_bookmaker_count": 10,
   "max_pages": 10,
   "max_price_events_per_sport": 200,
