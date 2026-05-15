@@ -5,38 +5,29 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 
 ## Kort status
 
-- Aktuelle viste paper picks: **21**
-- Unikke loggede paper picks: **115**
-- Afventer i loggen: **112**
+- Aktuelle viste paper picks: **20**
+- Unikke loggede paper picks: **129**
+- Afventer i loggen: **126**
 - Afgjorte fundet i settled-filen: **210**
-- Skjulte U-/reserve-rækker: **5**
+- Skjulte U-/reserve-rækker: **15**
 - Vundne: **70**
 - Tabte: **140**
 - Samlet ROI i units: **-3.45**
 
 ## Aktuelle paper picks
 
-### Girona vs Sociedad
-- Dato: **2026-05-14**
-- Kampstart: **19:00**
-- Spil: **Udebanesejr**
-- Odds: **3.35**
+### Tianjin Jinmen Tiger vs Chengdu Rongcheng
+- Dato: **2026-05-15**
+- Kampstart: **11:35**
+- Spil: **Hjemmesejr**
+- Odds: **4.75**
 - Status: **Afventer**
-- Type: **priority_proxy_observation**
-- Note: **expanded_volume_forward_observation_not_real_money**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Valencia vs Vallecano
-- Dato: **2026-05-14**
-- Kampstart: **18:00**
-- Spil: **Udebanesejr**
-- Odds: **3.40**
-- Status: **Afventer**
-- Type: **priority_proxy_observation**
-- Note: **expanded_volume_forward_observation_not_real_money**
-
-### Santos FC SP vs SE Palmeiras SP
-- Dato: **2026-05-14**
-- Kampstart: **22:30**
+### FK Karvan Yevlakh vs Gabala FK
+- Dato: **2026-05-15**
+- Kampstart: **13:00**
 - Spil: **Hjemmesejr**
 - Odds: **4.50**
 - Status: **Afventer**
@@ -52,56 +43,20 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Astillero FC (Ecu) vs Guayaquil City FC
-- Dato: **2026-05-14**
-- Kampstart: **20:00**
+### CF Monterrey vs Club America
+- Dato: **2026-05-15**
+- Kampstart: **03:10**
 - Spil: **Hjemmesejr**
 - Odds: **4.33**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Tigres FC vs Envigado FC
-- Dato: **2026-05-14**
-- Kampstart: **22:00**
-- Spil: **Hjemmesejr**
-- Odds: **4.20**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### AD Confianca SE vs Gremio FB Porto Alegrense RS
-- Dato: **2026-05-14**
-- Kampstart: **22:00**
-- Spil: **Hjemmesejr**
-- Odds: **4.10**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### PVF Cand B vs Ho Chi Minh City FC
+### Penang FA vs Brunei DPMM FC
 - Dato: **2026-05-15**
-- Kampstart: **11:00**
-- Spil: **Hjemmesejr**
-- Odds: **4.10**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Real Madrid vs Oviedo
-- Dato: **2026-05-14**
-- Kampstart: **20:30**
-- Spil: **Uafgjort**
-- Odds: **6.28**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Real Madrid vs Real Oviedo
-- Dato: **2026-05-14**
-- Kampstart: **19:30**
-- Spil: **Uafgjort**
-- Odds: **6.28**
+- Kampstart: **09:00**
+- Spil: **Udebanesejr**
+- Odds: **4.50**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
@@ -109,15 +64,6 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 ### Curtin University SC vs Murdoch University Melville FC
 - Dato: **2026-05-15**
 - Kampstart: **11:30**
-- Spil: **Hjemmesejr**
-- Odds: **4.00**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### EC Vitoria BA vs CR Flamengo RJ
-- Dato: **2026-05-15**
-- Kampstart: **00:30**
 - Spil: **Hjemmesejr**
 - Odds: **4.00**
 - Status: **Afventer**
@@ -142,6 +88,15 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
+### Dire Dawa Kenema vs Bahir Dar Kenema FC
+- Dato: **2026-05-15**
+- Kampstart: **13:00**
+- Spil: **Hjemmesejr**
+- Odds: **3.75**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
 ### Werribee City FC vs Malvern City FC
 - Dato: **2026-05-15**
 - Kampstart: **10:00**
@@ -151,46 +106,91 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Oriente Petrolero vs Guabira Montero
+### Bnei Yehuda Tel Aviv FC vs MS Football Hapoel Kiryat Yam
 - Dato: **2026-05-15**
-- Kampstart: **00:00**
+- Kampstart: **13:00**
 - Spil: **Udebanesejr**
-- Odds: **4.10**
+- Odds: **4.00**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### SC Corinthians SP vs Barra FC SC
-- Dato: **2026-05-14**
-- Kampstart: **22:30**
+### Beijing Guoan vs Qingdao Hainiu FC
+- Dato: **2026-05-15**
+- Kampstart: **12:00**
 - Spil: **Uafgjort**
-- Odds: **5.50**
+- Odds: **5.25**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Libertad Asuncion vs CS 2 de Mayo
-- Dato: **2026-05-14**
-- Kampstart: **20:00**
+### Caboolture FC vs North Star FC
+- Dato: **2026-05-15**
+- Kampstart: **10:30**
 - Spil: **Udebanesejr**
-- Odds: **3.80**
+- Odds: **3.75**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### CF Monterrey vs Club America
+### Al Ittihad Ahli of Aleppo vs Al-Shorta SC
 - Dato: **2026-05-15**
-- Kampstart: **03:10**
-- Spil: **Hjemmesejr**
-- Odds: **3.40**
+- Kampstart: **13:00**
+- Spil: **Uafgjort**
+- Odds: **5.00**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Hangzhou Linping Wuyue vs Foshan Nanshi FC
+### PVF Cand B vs Ho Chi Minh City FC
 - Dato: **2026-05-15**
-- Kampstart: **11:30**
-- Spil: **Hjemmesejr**
+- Kampstart: **11:00**
+- Spil: **Udebanesejr**
+- Odds: **3.60**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Shanghai Port FC vs Zhejiang FC
+- Dato: **2026-05-15**
+- Kampstart: **11:35**
+- Spil: **Udebanesejr**
+- Odds: **3.60**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Brisbane Roar FC vs Lions FC
+- Dato: **2026-05-15**
+- Kampstart: **09:15**
+- Spil: **Uafgjort**
+- Odds: **4.75**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Broadmeadow Magic FC vs Newcastle Olympic FC
+- Dato: **2026-05-15**
+- Kampstart: **10:00**
+- Spil: **Uafgjort**
+- Odds: **4.75**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Semen Padang FC vs Persebaya Surabaya
+- Dato: **2026-05-15**
+- Kampstart: **08:30**
+- Spil: **Uafgjort**
+- Odds: **4.75**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Cong An TP Ho Chi Minh City FC vs SHB Da Nang
+- Dato: **2026-05-15**
+- Kampstart: **11:00**
+- Spil: **Udebanesejr**
 - Odds: **3.40**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**

@@ -3,48 +3,48 @@
 Purpose: distinguish true automatic forward inputs from historical market proxy and paused manual fallback.
 Football-Data and odds-api.io prices are treated as paper-test proxy prices until validated.
 
-Upcoming fixture rows: 255
-Fixture team rows unmatched: 500
+Upcoming fixture rows: 649
+Fixture team rows unmatched: 1283
 Ready for model-fixture join: False
-Automatic forward price rows: 59
-odds-api.io price rows: 50
-Football-Data price rows: 9
+Automatic forward price rows: 49
+odds-api.io price rows: 49
+Football-Data price rows: 0
 Automatic forward status: automatic_forward_not_ready
 Blocker: fixture_model_team_matching_incomplete
 Next development step: add_team_aliases_for_upcoming_fixtures
 
 ## Team matching
 
-- AC Goianiense GO | suggestion=nan | type=unmatched
-- CA Paranaense PR | suggestion=nan | type=unmatched
-- AD Confianca SE | suggestion=nan | type=unmatched
-- Gremio FB Porto Alegrense RS | suggestion=nan | type=unmatched
-- Astillero FC (Ecu) | suggestion=nan | type=unmatched
-- Guayaquil City FC | suggestion=nan | type=unmatched
-- Chapecoense SC | suggestion=nan | type=unmatched
-- Botafogo FR RJ | suggestion=nan | type=unmatched
-- Club 3 De Noviembre | suggestion=nan | type=unmatched
-- Deportivo Capiata | suggestion=nan | type=unmatched
-- Club Fernando de La Mora | suggestion=nan | type=unmatched
-- Independiente Campo Grande | suggestion=nan | type=unmatched
-- CR Brasil AL | suggestion=nan | type=unmatched
-- Fortaleza EC CE | suggestion=nan | type=unmatched
-- Libertad Asuncion | suggestion=nan | type=unmatched
-- CS 2 de Mayo | suggestion=nan | type=unmatched
-- Oviedo | suggestion=nan | type=unmatched
-- Real Oviedo | suggestion=nan | type=unmatched
-- Red Bull Bragantino SP | suggestion=nan | type=unmatched
-- SC Corinthians SP | suggestion=nan | type=unmatched
-- Santos FC SP | suggestion=nan | type=unmatched
-- SE Palmeiras SP | suggestion=nan | type=unmatched
-- SC Corinthians SP | suggestion=nan | type=unmatched
-- Barra FC SC | suggestion=nan | type=unmatched
-- Tigres FC | suggestion=nan | type=unmatched
-- Envigado FC | suggestion=nan | type=unmatched
-- Vinotinto FC Ecuador | suggestion=nan | type=unmatched
-- Club Deportivo Cuenca Juniors | suggestion=nan | type=unmatched
 - 12 de Junio de Villa Hayes | suggestion=nan | type=unmatched
 - Club Dr Benjamin Aceval | suggestion=nan | type=unmatched
+- Aalesunds FK | suggestion=nan | type=unmatched
+- Hoenefoss BK | suggestion=nan | type=unmatched
+- FC Aarau | suggestion=nan | type=unmatched
+- Yverdon-Sport | suggestion=nan | type=unmatched
+- ACS Champions FC Arges | suggestion=nan | type=unmatched
+- Rapid Bucuresti 1923 | suggestion=nan | type=unmatched
+- Adelaide United FC | suggestion=nan | type=unmatched
+- Auckland FC | suggestion=nan | type=unmatched
+- Ajman Club | suggestion=nan | type=unmatched
+- Al-Nasr Dubai CSC | suggestion=nan | type=unmatched
+- Akritas Chlorakas | suggestion=nan | type=unmatched
+- AEL Limassol | suggestion=nan | type=unmatched
+- AL Arabi (UAE) | suggestion=nan | type=unmatched
+- Gulf United | suggestion=nan | type=unmatched
+- AL Budaiya | suggestion=nan | type=unmatched
+- Al-Ahli SC Manama | suggestion=nan | type=unmatched
+- Al Hidd | suggestion=nan | type=unmatched
+- Al-Shabab | suggestion=nan | type=unmatched
+- AL Ittifaq | suggestion=nan | type=unmatched
+- Emirates Club | suggestion=nan | type=unmatched
+- Al Ittihad Ahli of Aleppo | suggestion=nan | type=unmatched
+- Al-Shorta SC | suggestion=nan | type=unmatched
+- AL Mosul SC | suggestion=nan | type=unmatched
+- Duhok FC | suggestion=nan | type=unmatched
+- Al Quwa Al Jawiya | suggestion=nan | type=unmatched
+- AL Talaba | suggestion=nan | type=unmatched
+- Al Riffa | suggestion=nan | type=unmatched
+- AL Bahrain | suggestion=nan | type=unmatched
 
 ## Interpretation
 

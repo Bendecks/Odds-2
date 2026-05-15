@@ -10,78 +10,27 @@ No qualifying candidate bets today.
 
 ## Paper-Test Picks
 
-### Girona vs Sociedad
+### Tianjin Jinmen Tiger vs Chengdu Rongcheng
 
-- Date/time: 2026-05-14 19:00
-- League/phase: la_liga / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 3.35
-- Fair odds: 3.03
-- Model probability: 0.3305
-- Probability band: 0.25-0.35
-- EV: 0.1072
-- Probability edge: 0.032
-- Alignment penalty: 0.1072
-- Suppression action: none
-- Paper tier: priority_proxy_observation
-- Paper score: 0.2441
-- Prediction ID: 24bd77f085ea78e07dc9
+- Date/time: 2026-05-15 11:35
+- League/phase: china-chinese-super-league / automatic_forward_price_proxy
+- Selection: HOME
+- Market odds: 4.75
+- Fair odds: 2.65
+- Model probability: 0.3772
+- Probability band: 0.35-0.45
+- EV: 0.7917
+- Probability edge: 0.1667
+- Alignment penalty: 0.7917
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0733
+- Prediction ID: 29ef1e33635218db26d0
 
-### Girona vs Sociedad
+### FK Karvan Yevlakh vs Gabala FK
 
-- Date/time: 2026-05-14 19:00
-- League/phase: la_liga / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 3.3
-- Fair odds: 3.03
-- Model probability: 0.3305
-- Probability band: 0.25-0.35
-- EV: 0.0906
-- Probability edge: 0.0275
-- Alignment penalty: 0.0907
-- Suppression action: none
-- Paper tier: priority_proxy_observation
-- Paper score: 0.2419
-- Prediction ID: 24bd77f085ea78e07dc9
-
-### Valencia vs Vallecano
-
-- Date/time: 2026-05-14 18:00
-- League/phase: la_liga / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 3.4
-- Fair odds: 3.11
-- Model probability: 0.3215
-- Probability band: 0.25-0.35
-- EV: 0.0931
-- Probability edge: 0.0274
-- Alignment penalty: 0.0931
-- Suppression action: none
-- Paper tier: priority_proxy_observation
-- Paper score: 0.2413
-- Prediction ID: 239766b687d9b1adc383
-
-### Valencia vs Vallecano
-
-- Date/time: 2026-05-14 18:00
-- League/phase: la_liga / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 3.3
-- Fair odds: 3.11
-- Model probability: 0.3215
-- Probability band: 0.25-0.35
-- EV: 0.0609
-- Probability edge: 0.0185
-- Alignment penalty: 0.061
-- Suppression action: none
-- Paper tier: priority_proxy_observation
-- Paper score: 0.237
-- Prediction ID: 239766b687d9b1adc383
-
-### Santos FC SP vs SE Palmeiras SP
-
-- Date/time: 2026-05-14 22:30
-- League/phase: brazil-paulista-women / automatic_forward_price_proxy
+- Date/time: 2026-05-15 13:00
+- League/phase: azerbaijan-premier-league / automatic_forward_price_proxy
 - Selection: HOME
 - Market odds: 4.5
 - Fair odds: 2.65
@@ -93,7 +42,7 @@ No qualifying candidate bets today.
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
 - Paper score: 0.0712
-- Prediction ID: 60f114f0f4999d7b807f
+- Prediction ID: 2180ca0532c294631878
 
 ### Mekelle 70 Enderta FC vs Ethiopian Medhin
 
@@ -112,10 +61,10 @@ No qualifying candidate bets today.
 - Paper score: 0.0698
 - Prediction ID: f487776dd0378feb8d72
 
-### Astillero FC (Ecu) vs Guayaquil City FC
+### CF Monterrey vs Club America
 
-- Date/time: 2026-05-14 20:00
-- League/phase: ecuador-copa-ecuador / automatic_forward_price_proxy
+- Date/time: 2026-05-15 03:10
+- League/phase: mexico-liga-mx-women-clausura / automatic_forward_price_proxy
 - Selection: HOME
 - Market odds: 4.33
 - Fair odds: 2.65
@@ -127,126 +76,24 @@ No qualifying candidate bets today.
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
 - Paper score: 0.0698
-- Prediction ID: 5161d3dc8df22baf2e82
+- Prediction ID: 73b666ef2291f12caa74
 
-### Tigres FC vs Envigado FC
+### Penang FA vs Brunei DPMM FC
 
-- Date/time: 2026-05-14 22:00
-- League/phase: colombia-primera-b / automatic_forward_price_proxy
-- Selection: HOME
-- Market odds: 4.2
-- Fair odds: 2.65
-- Model probability: 0.3772
-- Probability band: 0.35-0.45
-- EV: 0.5842
-- Probability edge: 0.1391
-- Alignment penalty: 0.5842
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.0687
-- Prediction ID: 3a90b3e8b361259b4252
-
-### AD Confianca SE vs Gremio FB Porto Alegrense RS
-
-- Date/time: 2026-05-14 22:00
-- League/phase: brazil-copa-do-brasil / automatic_forward_price_proxy
-- Selection: HOME
-- Market odds: 4.1
-- Fair odds: 2.65
-- Model probability: 0.3772
-- Probability band: 0.35-0.45
-- EV: 0.5465
-- Probability edge: 0.1333
-- Alignment penalty: 0.5465
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.0678
-- Prediction ID: 4ffb0306bcbc5faa76cc
-
-### PVF Cand B vs Ho Chi Minh City FC
-
-- Date/time: 2026-05-15 11:00
-- League/phase: vietnam-v-league-2 / automatic_forward_price_proxy
-- Selection: HOME
-- Market odds: 4.1
-- Fair odds: 2.65
-- Model probability: 0.3772
-- Probability band: 0.35-0.45
-- EV: 0.5465
-- Probability edge: 0.1333
-- Alignment penalty: 0.5465
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.0678
-- Prediction ID: 79482c6c8291521610ba
-
-### Real Madrid vs Oviedo
-
-- Date/time: 2026-05-14 20:30
-- League/phase: la_liga / automatic_forward_price_proxy
-- Selection: DRAW
-- Market odds: 6.28
-- Fair odds: 3.65
-- Model probability: 0.274
+- Date/time: 2026-05-15 09:00
+- League/phase: malaysia-super-league / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 4.5
+- Fair odds: 2.87
+- Model probability: 0.3488
 - Probability band: 0.25-0.35
-- EV: 0.7207
-- Probability edge: 0.1148
-- Alignment penalty: 0.7207
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.0675
-- Prediction ID: 7fd41987ec6cf86d7b3d
-
-### Real Madrid vs Real Oviedo
-
-- Date/time: 2026-05-14 19:30
-- League/phase: spain-laliga / automatic_forward_price_proxy
-- Selection: DRAW
-- Market odds: 6.28
-- Fair odds: 3.65
-- Model probability: 0.274
-- Probability band: 0.25-0.35
-- EV: 0.7207
-- Probability edge: 0.1148
-- Alignment penalty: 0.7207
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.0675
-- Prediction ID: 4cbe935ed8d8b6eb0b6c
-
-### Real Madrid vs Real Oviedo
-
-- Date/time: 2026-05-14 19:30
-- League/phase: spain-laliga / automatic_forward_price_proxy
-- Selection: DRAW
-- Market odds: 6.25
-- Fair odds: 3.65
-- Model probability: 0.274
-- Probability band: 0.25-0.35
-- EV: 0.7125
-- Probability edge: 0.114
-- Alignment penalty: 0.7125
+- EV: 0.5696
+- Probability edge: 0.1266
+- Alignment penalty: 0.5696
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
 - Paper score: 0.0673
-- Prediction ID: 4cbe935ed8d8b6eb0b6c
-
-### Real Madrid vs Oviedo
-
-- Date/time: 2026-05-14 20:30
-- League/phase: la_liga / automatic_forward_price_proxy
-- Selection: DRAW
-- Market odds: 6.25
-- Fair odds: 3.65
-- Model probability: 0.274
-- Probability band: 0.25-0.35
-- EV: 0.7125
-- Probability edge: 0.114
-- Alignment penalty: 0.7125
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.0673
-- Prediction ID: 7fd41987ec6cf86d7b3d
+- Prediction ID: 300cedcbbc6068f1327c
 
 ### Curtin University SC vs Murdoch University Melville FC
 
@@ -265,10 +112,10 @@ No qualifying candidate bets today.
 - Paper score: 0.0669
 - Prediction ID: 859f1a6db5af48fa6735
 
-### EC Vitoria BA vs CR Flamengo RJ
+### Curtin University SC Reserves vs Murdoch University Melville FC Reserves
 
-- Date/time: 2026-05-15 00:30
-- League/phase: brazil-copa-do-brasil / automatic_forward_price_proxy
+- Date/time: 2026-05-16 05:00
+- League/phase: australia-western-australia-state-league-1-reserves / automatic_forward_price_proxy
 - Selection: HOME
 - Market odds: 4.0
 - Fair odds: 2.65
@@ -280,7 +127,7 @@ No qualifying candidate bets today.
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
 - Paper score: 0.0669
-- Prediction ID: 2d4f424ad8774c0bf54e
+- Prediction ID: 1d9dbdcb9bf96eba3392
 
 ### Essendon Royals SC vs Moreland City FC
 
@@ -316,6 +163,23 @@ No qualifying candidate bets today.
 - Paper score: 0.0651
 - Prediction ID: f15cc26dacc13ad47432
 
+### Dire Dawa Kenema vs Bahir Dar Kenema FC
+
+- Date/time: 2026-05-15 13:00
+- League/phase: ethiopia-premier-league / automatic_forward_price_proxy
+- Selection: HOME
+- Market odds: 3.75
+- Fair odds: 2.65
+- Model probability: 0.3772
+- Probability band: 0.35-0.45
+- EV: 0.4145
+- Probability edge: 0.1105
+- Alignment penalty: 0.4145
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0646
+- Prediction ID: 7c34a3ebe7040055f7e4
+
 ### Werribee City FC vs Malvern City FC
 
 - Date/time: 2026-05-15 10:00
@@ -333,95 +197,112 @@ No qualifying candidate bets today.
 - Paper score: 0.0646
 - Prediction ID: 118c17c0d82d06c3c078
 
-### Oriente Petrolero vs Guabira Montero
+### Northcote City FC vs FC Bulleen Lions
 
-- Date/time: 2026-05-15 00:00
-- League/phase: bolivia-division-profesional / automatic_forward_price_proxy
+- Date/time: 2026-05-15 08:15
+- League/phase: australia-u23-victoria-premier-league-1 / automatic_forward_price_proxy
 - Selection: AWAY
-- Market odds: 4.1
+- Market odds: 4.0
 - Fair odds: 2.87
 - Model probability: 0.3488
 - Probability band: 0.25-0.35
-- EV: 0.4301
-- Probability edge: 0.1049
-- Alignment penalty: 0.4301
+- EV: 0.3952
+- Probability edge: 0.0988
+- Alignment penalty: 0.3952
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
-- Paper score: 0.064
-- Prediction ID: 3ab815c283a792c73aeb
+- Paper score: 0.0632
+- Prediction ID: 074b75d79c2033f8a449
 
-### SC Corinthians SP vs Barra FC SC
+### Bnei Yehuda Tel Aviv FC vs MS Football Hapoel Kiryat Yam
 
-- Date/time: 2026-05-14 22:30
-- League/phase: brazil-copa-do-brasil / automatic_forward_price_proxy
+- Date/time: 2026-05-15 13:00
+- League/phase: israel-national-league / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 4.0
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.3952
+- Probability edge: 0.0988
+- Alignment penalty: 0.3952
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0632
+- Prediction ID: ffbba1279b426a8a1182
+
+### Beijing Guoan vs Qingdao Hainiu FC
+
+- Date/time: 2026-05-15 12:00
+- League/phase: china-chinese-super-league / automatic_forward_price_proxy
 - Selection: DRAW
-- Market odds: 5.5
+- Market odds: 5.25
 - Fair odds: 3.65
 - Model probability: 0.274
 - Probability band: 0.25-0.35
-- EV: 0.507
-- Probability edge: 0.0922
-- Alignment penalty: 0.507
+- EV: 0.4385
+- Probability edge: 0.0835
+- Alignment penalty: 0.4385
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
-- Paper score: 0.0631
-- Prediction ID: d5c79692b516c34a56b2
+- Paper score: 0.0616
+- Prediction ID: 4187b400f86652d6350a
 
-### Libertad Asuncion vs CS 2 de Mayo
+### Caboolture Sports FC vs North Star
 
-- Date/time: 2026-05-14 20:00
-- League/phase: paraguay-division-de-honor-apertura / automatic_forward_price_proxy
+- Date/time: 2026-05-15 08:30
+- League/phase: australia-u23-queensland-premier-league-1 / automatic_forward_price_proxy
 - Selection: AWAY
-- Market odds: 3.8
+- Market odds: 3.75
 - Fair odds: 2.87
 - Model probability: 0.3488
 - Probability band: 0.25-0.35
-- EV: 0.3254
-- Probability edge: 0.0856
-- Alignment penalty: 0.3254
+- EV: 0.308
+- Probability edge: 0.0821
+- Alignment penalty: 0.308
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
-- Paper score: 0.0614
-- Prediction ID: eb23c7744a98fdf35745
+- Paper score: 0.061
+- Prediction ID: 9c6fd74180bba82f439c
 
-### CF Monterrey vs Club America
+### Caboolture FC vs North Star FC
 
-- Date/time: 2026-05-15 03:10
-- League/phase: mexico-liga-mx-women-clausura / automatic_forward_price_proxy
-- Selection: HOME
-- Market odds: 3.4
-- Fair odds: 2.65
-- Model probability: 0.3772
-- Probability band: 0.35-0.45
-- EV: 0.2825
-- Probability edge: 0.0831
-- Alignment penalty: 0.2825
+- Date/time: 2026-05-15 10:30
+- League/phase: australia-queensland-premier-league-1 / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 3.75
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.308
+- Probability edge: 0.0821
+- Alignment penalty: 0.308
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
-- Paper score: 0.0612
-- Prediction ID: 73b666ef2291f12caa74
+- Paper score: 0.061
+- Prediction ID: aaa7bed6b1381bc83973
 
-### Hangzhou Linping Wuyue vs Foshan Nanshi FC
+### Al Ittihad Ahli of Aleppo vs Al-Shorta SC
 
-- Date/time: 2026-05-15 11:30
-- League/phase: china-fa-cup / automatic_forward_price_proxy
-- Selection: HOME
-- Market odds: 3.4
-- Fair odds: 2.65
-- Model probability: 0.3772
-- Probability band: 0.35-0.45
-- EV: 0.2825
-- Probability edge: 0.0831
-- Alignment penalty: 0.2825
+- Date/time: 2026-05-15 13:00
+- League/phase: syria-premier-league / automatic_forward_price_proxy
+- Selection: DRAW
+- Market odds: 5.0
+- Fair odds: 3.65
+- Model probability: 0.274
+- Probability band: 0.25-0.35
+- EV: 0.37
+- Probability edge: 0.074
+- Alignment penalty: 0.37
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
-- Paper score: 0.0612
-- Prediction ID: 5a104848f89feade94c9
+- Paper score: 0.06
+- Prediction ID: fc90b862888c8c1a5891
 
-### Vinotinto FC Ecuador vs Club Deportivo Cuenca Juniors
+### PVF Cand B vs Ho Chi Minh City FC
 
-- Date/time: 2026-05-14 20:30
-- League/phase: ecuador-serie-b / automatic_forward_price_proxy
+- Date/time: 2026-05-15 11:00
+- League/phase: vietnam-v-league-2 / automatic_forward_price_proxy
 - Selection: AWAY
 - Market odds: 3.6
 - Fair odds: 2.87
@@ -433,7 +314,126 @@ No qualifying candidate bets today.
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
 - Paper score: 0.0596
-- Prediction ID: a89e278698aa0f1c875e
+- Prediction ID: 79482c6c8291521610ba
+
+### Shanghai Port FC vs Zhejiang FC
+
+- Date/time: 2026-05-15 11:35
+- League/phase: china-chinese-super-league / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 3.6
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.2557
+- Probability edge: 0.071
+- Alignment penalty: 0.2557
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0596
+- Prediction ID: 5c2d1d4acbf3c1e6d821
+
+### Melbourne Knights FC vs Eltham Redbacks FC
+
+- Date/time: 2026-05-15 08:15
+- League/phase: australia-u23-victoria-premier-league-1 / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 3.5
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.2208
+- Probability edge: 0.0631
+- Alignment penalty: 0.2208
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0586
+- Prediction ID: 537353d1a40a10b57abc
+
+### Brisbane Roar FC vs Lions FC
+
+- Date/time: 2026-05-15 09:15
+- League/phase: australia-queensland-npl / automatic_forward_price_proxy
+- Selection: DRAW
+- Market odds: 4.75
+- Fair odds: 3.65
+- Model probability: 0.274
+- Probability band: 0.25-0.35
+- EV: 0.3015
+- Probability edge: 0.0635
+- Alignment penalty: 0.3015
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0585
+- Prediction ID: eb60673d9f5e96baaba7
+
+### Broadmeadow Magic FC vs Newcastle Olympic FC
+
+- Date/time: 2026-05-15 10:00
+- League/phase: australia-northern-nsw-premier-league-women / automatic_forward_price_proxy
+- Selection: DRAW
+- Market odds: 4.75
+- Fair odds: 3.65
+- Model probability: 0.274
+- Probability band: 0.25-0.35
+- EV: 0.3015
+- Probability edge: 0.0635
+- Alignment penalty: 0.3015
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0585
+- Prediction ID: 33429f451162bf55e3f2
+
+### Semen Padang FC vs Persebaya Surabaya
+
+- Date/time: 2026-05-15 08:30
+- League/phase: indonesia-liga-1 / automatic_forward_price_proxy
+- Selection: DRAW
+- Market odds: 4.75
+- Fair odds: 3.65
+- Model probability: 0.274
+- Probability band: 0.25-0.35
+- EV: 0.3015
+- Probability edge: 0.0635
+- Alignment penalty: 0.3015
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0585
+- Prediction ID: d6e2120e70e49bd85b04
+
+### Maitland FC Reserve vs Cooks Hill United FC Reserve
+
+- Date/time: 2026-05-15 08:00
+- League/phase: australia-northern-nsw-npl-reserves / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 3.4
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.1859
+- Probability edge: 0.0547
+- Alignment penalty: 0.1859
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0577
+- Prediction ID: cbb11f883c41833aa1e1
+
+### Cong An TP Ho Chi Minh City FC vs SHB Da Nang
+
+- Date/time: 2026-05-15 11:00
+- League/phase: vietnam-v-league-1 / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 3.4
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.1859
+- Probability edge: 0.0547
+- Alignment penalty: 0.1859
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0577
+- Prediction ID: a2023b1d3a3e7f46f6d1
 
 ## Snapshot summary
 

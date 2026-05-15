@@ -1,26 +1,26 @@
 discovery_source,query,target_home_team,target_away_team,target_match_date,candidate_event_id,candidate_home_team,candidate_away_team,candidate_match_date,event_match_confidence,selected,rejection_reason,selected_bool,event_match_confidence_num
-events_bookmaker_filtered,Shanghai Port FC,Shanghai Port FC,Zhejiang FC,2026-05-15,68995140,Shanghai Port FC,Zhejiang FC,2026-05-15,1.0,True,,True,1.0
-events_bookmaker_filtered,Bentleigh Greens SC,Bentleigh Greens SC,Heidelberg United FC,2026-05-15,68162372,Bentleigh Greens SC,Heidelberg United FC,2026-05-15,1.0,True,,True,1.0
-events_bookmaker_filtered,Club Fernando de La Mora,Club Fernando de La Mora,Independiente Campo Grande,2026-05-14,71426254,Club Fernando de La Mora,Independiente Campo Grande,2026-05-14,1.0,True,,True,1.0
-events_bookmaker_filtered,Al Ittihad Ahli of Aleppo,Al Ittihad Ahli of Aleppo,Al-Shorta SC,2026-05-15,71357268,Al Ittihad Ahli of Aleppo,Al-Shorta SC,2026-05-15,1.0,True,,True,1.0
-events_bookmaker_filtered,Libertad Asuncion,Libertad Asuncion,Sportivo 2 de Mayo,2026-05-15,71474752,Libertad Asuncion,Sportivo 2 de Mayo,2026-05-15,1.0,True,,True,1.0
-events_bookmaker_filtered,Balcatta FC,Balcatta FC,Fremantle City FC,2026-05-15,69767360,Balcatta FC,Fremantle City FC,2026-05-15,1.0,True,,True,1.0
-events_bookmaker_filtered,Dalian Kewei,Dalian Kewei,Nantong Zhiyun,2026-05-15,70968246,Dalian Kewei,Nantong Zhiyun,2026-05-15,1.0,True,,True,1.0
-events_bookmaker_filtered,Shenzhen 2028 FC,Shenzhen 2028 FC,Shaanxi Union FC,2026-05-15,70968242,Shenzhen 2028 FC,Shaanxi Union FC,2026-05-15,1.0,True,,True,1.0
-events_bookmaker_filtered,Kingston City FC,Kingston City FC,Eastern Lions SC,2026-05-15,68161694,Kingston City FC,Eastern Lions SC,2026-05-15,1.0,True,,True,1.0
-events_bookmaker_filtered,Vinotinto FC Ecuador,Vinotinto FC Ecuador,Club Deportivo Cuenca Juniors,2026-05-14,69880380,Vinotinto FC Ecuador,Club Deportivo Cuenca Juniors,2026-05-14,1.0,True,,True,1.0
+events_bookmaker_filtered,Maitland FC Reserve,Maitland FC Reserve,Cooks Hill United FC Reserve,2026-05-15,67808456,Maitland FC Reserve,Cooks Hill United FC Reserve,2026-05-15,1.0,True,,True,1.0
 events_bookmaker_filtered,Dandenong City SC,Dandenong City SC,Oakleigh Cannons,2026-05-15,68160142,Dandenong City SC,Oakleigh Cannons,2026-05-15,1.0,True,,True,1.0
-events_bookmaker_filtered,CR Brasil AL,CR Brasil AL,Fortaleza EC CE,2026-05-14,70401298,CR Brasil AL,Fortaleza EC CE,2026-05-14,1.0,True,,True,1.0
-events_bookmaker_filtered,Municipal Limeno,Municipal Limeno,CD FAS Santa Ana,2026-05-15,71452804,Municipal Limeno,CD FAS Santa Ana,2026-05-15,1.0,True,,True,1.0
-events_bookmaker_filtered,Cong An TP Ho Chi Minh City FC,Cong An TP Ho Chi Minh City FC,SHB Da Nang,2026-05-15,68663472,Cong An TP Ho Chi Minh City FC,SHB Da Nang,2026-05-15,1.0,True,,True,1.0
+events_bookmaker_filtered,CF Monterrey,CF Monterrey,Club America,2026-05-15,71454736,CF Monterrey,Club America,2026-05-15,1.0,True,,True,1.0
 events_bookmaker_filtered,Dalian Yingbo FC,Dalian Yingbo FC,Qingdao West Coast FC,2026-05-15,68995148,Dalian Yingbo FC,Qingdao West Coast FC,2026-05-15,1.0,True,,True,1.0
-events_bookmaker_filtered,Melbourne Knights FC,Melbourne Knights FC,Eltham Redbacks FC,2026-05-15,68160562,Melbourne Knights,Eltham Redbacks FC,2026-05-15,1.0,False,,False,1.0
-events_bookmaker_filtered,Hangzhou Linping Wuyue,Hangzhou Linping Wuyue,Foshan Nanshi FC,2026-05-15,70968250,Hangzhou Linping Wuyue,Foshan Nanshi FC,2026-05-15,1.0,True,,True,1.0
-events_bookmaker_filtered,SC Corinthians SP,SC Corinthians SP,Barra FC SC,2026-05-14,70401290,SC Corinthians SP,Barra FC SC,2026-05-14,1.0,True,,True,1.0
-events_bookmaker_filtered,Essendon Royals SC,Essendon Royals SC,Moreland City FC,2026-05-15,68161696,Essendon Royals SC,Moreland City FC,2026-05-15,1.0,True,,True,1.0
-events_bookmaker_filtered,Penang FA,Penang FA,Brunei DPMM FC,2026-05-15,61974264,Penang FA,Brunei DPMM FC,2026-05-15,1.0,True,,True,1.0
-events_bookmaker_filtered,Dire Dawa Kenema,Dire Dawa Kenema,Bahir Dar Kenema FC,2026-05-15,70926672,Dire Dawa Kenema,Bahir Dar Kenema FC,2026-05-15,1.0,True,,True,1.0
-events_bookmaker_filtered,Melbourne Knights FC,Melbourne Knights FC,Eltham Redbacks FC,2026-05-15,68160934,Melbourne Knights FC,Eltham Redbacks FC,2026-05-15,1.0,True,,True,1.0
-events_bookmaker_filtered,Bnei Yehuda Tel Aviv FC,Bnei Yehuda Tel Aviv FC,MS Football Hapoel Kiryat Yam,2026-05-15,70929720,Bnei Yehuda Tel Aviv FC,MS Football Hapoel Kiryat Yam,2026-05-15,1.0,True,,True,1.0
-events_bookmaker_filtered,AC Goianiense GO,AC Goianiense GO,CA Paranaense PR,2026-05-14,70401306,AC Goianiense GO,CA Paranaense PR,2026-05-14,1.0,True,,True,1.0
+events_bookmaker_filtered,Kingston City FC,Kingston City FC,Eastern Lions SC,2026-05-15,68161694,Kingston City FC,Eastern Lions SC,2026-05-15,1.0,True,,True,1.0
+events_bookmaker_filtered,Nunawading City,Nunawading City,Whittlesea United SC,2026-05-15,68161886,Nunawading City,Whittlesea United SC,2026-05-15,1.0,True,,True,1.0
+events_bookmaker_filtered,Caboolture Sports FC,Caboolture Sports FC,North Star,2026-05-15,67905666,Caboolture Sports FC,North Star,2026-05-15,1.0,True,,True,1.0
+events_bookmaker_filtered,Hapoel Kfar Saba FC,Hapoel Kfar Saba FC,Maccabi Petah Tikva FC,2026-05-15,70929716,Hapoel Kfar Saba FC,Maccabi Petah Tikva FC,2026-05-15,1.0,True,,True,1.0
+events_bookmaker_filtered,Bentleigh Greens SC,Bentleigh Greens SC,Heidelberg United FC,2026-05-15,68162372,Bentleigh Greens SC,Heidelberg United FC,2026-05-15,1.0,True,,True,1.0
+events_bookmaker_filtered,Hurstville FC,Hurstville FC,Prospect United,2026-05-15,67693536,Hurstville FC,Prospect United,2026-05-15,1.0,True,,True,1.0
+events_bookmaker_filtered,Balcatta FC,Balcatta FC,Fremantle City FC,2026-05-15,69767360,Balcatta FC,Fremantle City FC,2026-05-15,1.0,True,,True,1.0
+events_bookmaker_filtered,Bunga Raya FC,Bunga Raya FC,Malaysia University,2026-05-15,62204956,Bunga Raya FC,Malaysia University,2026-05-15,1.0,True,,True,1.0
+events_bookmaker_filtered,Blacktown Spartans,Blacktown Spartans,Bull FC Academy,2026-05-15,67691594,Blacktown Spartans,Bull FC Academy,2026-05-15,1.0,True,,True,1.0
+events_bookmaker_filtered,Slovakia,Slovakia,San Marino,2026-05-15,69165688,Slovakia,San Marino,2026-05-15,1.0,True,,True,1.0
+events_bookmaker_filtered,Majd FC,Majd FC,AL Jazira AL Hamra,2026-05-15,62067448,Majd FC,AL Jazira AL Hamra,2026-05-15,1.0,True,,True,1.0
+events_bookmaker_filtered,AL Arabi (UAE),AL Arabi (UAE),Gulf United,2026-05-15,62067454,AL Arabi (UAE),Gulf United,2026-05-15,1.0,True,,True,1.0
 events_bookmaker_filtered,Henan,Henan,Shenzhen Peng City,2026-05-15,68995142,Henan,Shenzhen Peng City,2026-05-15,1.0,True,,True,1.0
+events_bookmaker_filtered,Caboolture FC,Caboolture FC,North Star FC,2026-05-15,67903672,Caboolture FC,North Star FC,2026-05-15,1.0,True,,True,1.0
+events_bookmaker_filtered,Hangzhou Linping Wuyue,Hangzhou Linping Wuyue,Foshan Nanshi FC,2026-05-15,70968250,Hangzhou Linping Wuyue,Foshan Nanshi FC,2026-05-15,1.0,True,,True,1.0
+events_bookmaker_filtered,Bnei Yehuda Tel Aviv FC,Bnei Yehuda Tel Aviv FC,MS Football Hapoel Kiryat Yam,2026-05-15,70929720,Bnei Yehuda Tel Aviv FC,MS Football Hapoel Kiryat Yam,2026-05-15,1.0,True,,True,1.0
+events_bookmaker_filtered,Kyrgyzstan,Kyrgyzstan,Turkmenistan,2026-05-15,71465054,Kyrgyzstan,Turkmenistan,2026-05-15,1.0,True,,True,1.0
+events_bookmaker_filtered,Sabail FK,Sabail FK,Shahdag Qusar FK,2026-05-15,63637923,Sabail FK,Shahdag Qusar FK,2026-05-15,1.0,True,,True,1.0
+events_bookmaker_filtered,Hapoel Afula FC,Hapoel Afula FC,Hapoel Nof Hagalil FC,2026-05-15,70929774,Hapoel Afula FC,Hapoel Nof Hagalil FC,2026-05-15,1.0,True,,True,1.0
+events_bookmaker_filtered,Sabah FC,Sabah FC,Terengganu FC,2026-05-15,61974266,Sabah FC,Terengganu FC,2026-05-15,1.0,True,,True,1.0
+events_bookmaker_filtered,Northcote City FC,Northcote City FC,FC Bulleen Lions,2026-05-15,68160922,Northcote City FC,FC Bulleen Lions,2026-05-15,1.0,True,,True,1.0

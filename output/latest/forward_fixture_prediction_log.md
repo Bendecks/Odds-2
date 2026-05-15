@@ -2,28 +2,28 @@
 
 Probability-only forward prediction log. This is not a betting log and contains no stake or real-money signal.
 
-Current forward fixture predictions: 255
+Current forward fixture predictions: 300
 New forward fixture predictions logged: 0
-Total forward fixture predictions logged: 829
+Total forward fixture predictions logged: 903
 Log type: probability_only_no_market_prices
 
-- 2026-05-15 2026-05-14 14:30:00 | FC Bishkek City vs FC Kyrgyzaltyn | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-15 2026-05-14 16:00:00 | AL Budaiya vs Al-Ahli SC Manama | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-15 2026-05-14 16:00:00 | Al Hidd vs Al-Shabab | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-15 2026-05-14 16:00:00 | Al Riffa vs AL Bahrain | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-15 2026-05-14 16:45:00 | Al Wasl FC vs Ittihad Kalba FC | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-15 2026-05-14 18:00:00 | Carlos Renaux SC vs Figueirense FC SC | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-15 2026-05-14 19:00:00 | Crusaders Strikers FC vs Cliftonville LFC | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-15 2026-05-14 19:00:00 | SE Palmeiras SP vs EC Vitoria BA | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-15 2026-05-14 19:00:00 | Aston Villa vs Liverpool | H=0.36910000000000004 D=0.26680000000000004 A=0.364
-- 2026-05-15 2026-05-14 20:00:00 | CA Bucaramanga Sa vs International FC | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-15 2026-05-14 20:00:00 | Deportivo Santani vs Tacuary Asuncion | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-15 2026-05-14 20:00:00 | Fortaleza FC vs Millonarios FC | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-15 2026-05-14 20:30:00 | Llaneros FC vs Asociacion Deportivo Cali | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-15 2026-05-14 21:45:00 | CD Genesis PN vs Olancho FC | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-15 2026-05-14 22:30:00 | 12 de Junio de Villa Hayes vs Club Dr Benjamin Aceval | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-15 2026-05-14 23:00:00 | Club Comunicaciones vs Argentino de Quilmes | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-15 2026-05-14 23:00:00 | G3X FC vs Fluxo FC | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-16 2026-05-14 13:00:00 | Jitex Molndal BK vs Trelleborgs FF | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-16 2026-05-14 13:00:00 | NSI Runavik II vs HB Torshavn II | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-16 2026-05-14 13:30:00 | FC St. Pauli vs VFL Wolfsburg | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-16 2026-05-15 05:30:00 | Adelaide Atletico VSC vs Eastern United | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-16 2026-05-15 05:30:00 | Adelaide Blue Eagles vs Fulham United FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-16 2026-05-15 05:30:00 | FC Bulleen Lions U20 vs Alamein FC U20 | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-16 2026-05-15 05:30:00 | Para Hills Knights SC vs Adelaide United FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-16 2026-05-15 05:30:00 | Playford City vs Adelaide City FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-16 2026-05-15 05:30:00 | South Adelaide FC vs Salisbury United | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-16 2026-05-15 05:30:00 | Sturt Lions vs Croydon FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-16 2026-05-15 05:30:00 | Tigers FC vs Canberra Olympic FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-16 2026-05-15 05:30:00 | West Adelaide SC vs West Torrens Birkalla | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-16 2026-05-15 06:00:00 | Altona Magic SC vs Preston Lions FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-16 2026-05-15 06:00:00 | Charlestown Azzurri FC vs Adamstown Rosebud JFC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-16 2026-05-15 06:00:00 | Peninsula Power vs Gold Coast Knights FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-16 2026-05-15 06:00:00 | Sunshine Coast Wanderers vs St George Willawong | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-16 2026-05-15 06:00:00 | Wynnum Wolves FC vs Eastern Suburbs | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-16 2026-05-15 06:15:00 | Melbourne City FC vs Wellington Phoenix | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-16 2026-05-15 06:30:00 | Hakoah vs Inter Lions FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-16 2026-05-15 06:30:00 | Macarthur Rams vs Canterbury Bankstown FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-16 2026-05-15 06:30:00 | Northern Tigers vs Western City Rangers FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-16 2026-05-15 06:30:00 | St George FC vs Sydney United 58 FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-16 2026-05-15 07:00:00 | Bankstown United FC vs Hawkesbury City SC | H=0.37720000000000004 D=0.274 A=0.3488

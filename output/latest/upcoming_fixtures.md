@@ -4,27 +4,10 @@ Fixture sources: TheSportsDB, Football-Data fixtures proxy, cautious odds-api.io
 Duplicate fixtures are deduplicated by date and normalized teams, preferring odds-api.io then Football-Data for odds alignment.
 Primary development target: automatic/free market proxy, not manual Bet365.
 
-Fixtures found: 255
-Source counts: {'odds_api_io_events_bookmaker_filtered': 248, 'football_data_fixtures_proxy': 3, 'odds_api_io_events_search': 3, 'thesportsdb_eventsnextleague': 1}
+Fixtures found: 649
+Source counts: {'odds_api_io_events_bookmaker_filtered': 648, 'thesportsdb_eventsnextleague': 1}
 Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 
-- 2026-05-14 22:00 | AC Goianiense GO vs CA Paranaense PR | brazil-copa-do-brasil | odds_api_io_events_bookmaker_filtered
-- 2026-05-14 22:00 | AD Confianca SE vs Gremio FB Porto Alegrense RS | brazil-copa-do-brasil | odds_api_io_events_bookmaker_filtered
-- 2026-05-14 20:00 | Astillero FC (Ecu) vs Guayaquil City FC | ecuador-copa-ecuador | odds_api_io_events_bookmaker_filtered
-- 2026-05-14 21:00 | Chapecoense SC vs Botafogo FR RJ | brazil-copa-do-brasil | odds_api_io_events_bookmaker_filtered
-- 2026-05-14 20:00 | Club 3 De Noviembre vs Deportivo Capiata | paraguay-segunda-division | odds_api_io_events_bookmaker_filtered
-- 2026-05-14 22:30 | Club Fernando de La Mora vs Independiente Campo Grande | paraguay-segunda-division | odds_api_io_events_bookmaker_filtered
-- 2026-05-14 23:00 | CR Brasil AL vs Fortaleza EC CE | brazil-copa-do-brasil | odds_api_io_events_bookmaker_filtered
-- 2026-05-14 19:00 | Girona vs Sociedad | la_liga | football_data_fixtures_proxy
-- 2026-05-14 20:00 | Libertad Asuncion vs CS 2 de Mayo | paraguay-division-de-honor-apertura | odds_api_io_events_bookmaker_filtered
-- 2026-05-14 20:30 | Real Madrid vs Oviedo | la_liga | football_data_fixtures_proxy
-- 2026-05-14 19:30 | Real Madrid vs Real Oviedo | spain-laliga | odds_api_io_events_bookmaker_filtered
-- 2026-05-14 20:30 | Red Bull Bragantino SP vs SC Corinthians SP | brazil-paulista-women | odds_api_io_events_bookmaker_filtered
-- 2026-05-14 22:30 | Santos FC SP vs SE Palmeiras SP | brazil-paulista-women | odds_api_io_events_bookmaker_filtered
-- 2026-05-14 22:30 | SC Corinthians SP vs Barra FC SC | brazil-copa-do-brasil | odds_api_io_events_bookmaker_filtered
-- 2026-05-14 22:00 | Tigres FC vs Envigado FC | colombia-primera-b | odds_api_io_events_bookmaker_filtered
-- 2026-05-14 18:00 | Valencia vs Vallecano | la_liga | football_data_fixtures_proxy
-- 2026-05-14 20:30 | Vinotinto FC Ecuador vs Club Deportivo Cuenca Juniors | ecuador-serie-b | odds_api_io_events_bookmaker_filtered
 - 2026-05-15 22:30 | 12 de Junio de Villa Hayes vs Club Dr Benjamin Aceval | paraguay-segunda-division | odds_api_io_events_bookmaker_filtered
 - 2026-05-15 16:00 | Aalesunds FK vs Hoenefoss BK | norway-toppserien-women | odds_api_io_events_bookmaker_filtered
 - 2026-05-15 18:15 | FC Aarau vs Yverdon-Sport | switzerland-challenge-league | odds_api_io_events_bookmaker_filtered
@@ -88,3 +71,20 @@ Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 - 2026-05-15 23:00 | Club Comunicaciones vs Argentino de Quilmes | argentina-primera-b | odds_api_io_events_bookmaker_filtered
 - 2026-05-15 12:30 | Club Olimpia vs Recoleta FC | paraguay-division-de-honor-apertura | odds_api_io_events_bookmaker_filtered
 - 2026-05-15 18:45 | Cobh Ramblers vs Athlone Town AFC | ireland-first-division | odds_api_io_events_bookmaker_filtered
+- 2026-05-15 11:00 | Cong An TP Ho Chi Minh City FC vs SHB Da Nang | vietnam-v-league-1 | odds_api_io_events_bookmaker_filtered
+- 2026-05-15 19:00 | Cordoba CF vs Albacete Balompie | spain-laliga-2 | odds_api_io_events_bookmaker_filtered
+- 2026-05-15 17:00 | Corum FK vs Bodrum FK | turkiye-1-lig | odds_api_io_events_bookmaker_filtered
+- 2026-05-15 19:00 | Crusaders Strikers FC vs Cliftonville LFC | northern-ireland-premier-league-women | odds_api_io_events_bookmaker_filtered
+- 2026-05-15 11:30 | Curtin University SC vs Murdoch University Melville FC | australia-western-australia-state-league-1 | odds_api_io_events_bookmaker_filtered
+- 2026-05-15 08:30 | Dalian Kewei vs Nantong Zhiyun | china-fa-cup | odds_api_io_events_bookmaker_filtered
+- 2026-05-15 12:00 | Dalian Yingbo FC vs Qingdao West Coast FC | china-chinese-super-league | odds_api_io_events_bookmaker_filtered
+- 2026-05-15 16:15 | Damac FC vs Al-Fayha FC | saudi-arabia-saudi-pro-league | odds_api_io_events_bookmaker_filtered
+- 2026-05-15 09:45 | Dandenong City SC vs Oakleigh Cannons | australia-victoria-npl | odds_api_io_events_bookmaker_filtered
+- 2026-05-15 23:30 | Deportivo La Guaira vs UCV FC | venezuela-primera-division | odds_api_io_events_bookmaker_filtered
+- 2026-05-15 20:00 | Deportivo Santani vs Tacuary Asuncion | paraguay-segunda-division | odds_api_io_events_bookmaker_filtered
+- 2026-05-15 16:00 | Dfk Dainava Alytus vs Hegelmann Litauen B | lithuania-1-lyga | odds_api_io_events_bookmaker_filtered
+- 2026-05-15 17:30 | Dijon FCO vs US Orleans | france-national | odds_api_io_events_bookmaker_filtered
+- 2026-05-15 13:00 | Dire Dawa Kenema vs Bahir Dar Kenema FC | ethiopia-premier-league | odds_api_io_events_bookmaker_filtered
+- 2026-05-15 17:00 | Diyala FC vs Al Shorta SC | iraq-iraqi-league | odds_api_io_events_bookmaker_filtered
+- 2026-05-15 14:05 | Dubai City Football Club vs Fujairah FC | united-arab-emirates-first-division | odds_api_io_events_bookmaker_filtered
+- 2026-05-15 19:00 | Dundalk FC vs Shamrock Rovers | ireland-premier-division | odds_api_io_events_bookmaker_filtered

@@ -5,32 +5,32 @@ This report does not activate new markets. It only shows what may be available f
 
 Raw files scanned: 22
 Events seen in raw odds: 110
-Market rows seen: 2369
+Market rows seen: 2157
 Unique bookmakers: 2
-Unique market names: 64
-Bet365 market rows: 2198
+Unique market names: 59
+Bet365 market rows: 1981
 
 ## Market types found
 
-- Other / Unknown: 682
-- Goals total / Over-Under: 636
-- Handicap / Spread: 471
-- Half-time / Period: 136
-- 1X2 / Match result: 128
+- Goals total / Over-Under: 641
+- Other / Unknown: 498
+- Handicap / Spread: 431
+- 1X2 / Match result: 140
+- Half-time / Period: 135
 - Correct score: 110
-- Double chance: 107
-- Both teams to score: 99
+- Double chance: 109
+- Both teams to score: 93
 
 ## Bet365 market types found
 
-- Other / Unknown: 682
-- Goals total / Over-Under: 571
-- Handicap / Spread: 383
-- Half-time / Period: 136
+- Goals total / Over-Under: 582
+- Other / Unknown: 498
+- Handicap / Spread: 344
+- Half-time / Period: 135
 - 1X2 / Match result: 110
 - Correct score: 110
-- Double chance: 107
-- Both teams to score: 99
+- Double chance: 109
+- Both teams to score: 93
 
 ## Most common Bet365 market names
 
@@ -41,29 +41,29 @@ Bet365 market rows: 2198
 - Goals Over/Under: 110
 - Half Time Result: 110
 - Correct Score: 110
+- Double Chance: 109
 - Spread HT: 109
-- Double Chance: 107
-- Totals HT: 83
-- Corners Totals: 53
-- Corners: 52
-- Corners 2-Way: 52
-- Corners Totals HT: 42
-- Alternative Goal Line: 38
-- Alternative Asian Handicap: 38
-- Both Teams To Score: 33
-- European Handicap: 33
-- Alternative Total Goals: 33
-- Exact Total Goals: 33
-- Both Teams To Score 2H: 33
-- Team Total Goals Home: 33
-- Number of Goals In Match: 33
-- Team Total Goals Away: 33
-- Specials: 33
-- Both Teams To Score HT: 33
-- 1st Half Handicap: 33
-- Total Corners: 27
-- Alternative Corners: 27
-- 1st Half Goal Line: 26
+- Totals HT: 84
+- Corners: 67
+- Corners 2-Way: 67
+- Corners Totals: 65
+- Corners Totals HT: 59
+- Both Teams To Score: 31
+- European Handicap: 31
+- Alternative Asian Handicap: 31
+- Alternative Goal Line: 31
+- Team Total Goals Home: 31
+- 1st Half Handicap: 31
+- Exact Total Goals: 31
+- Both Teams To Score HT: 31
+- Both Teams To Score 2H: 31
+- Alternative Total Goals: 31
+- Number of Goals In Match: 31
+- Specials: 31
+- Team Total Goals Away: 31
+- Total Corners: 28
+- Alternative Corners: 28
+- 1st Half Goal Line: 25
 
 ## Expansion assessment
 
