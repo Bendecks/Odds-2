@@ -89,12 +89,13 @@ football,62181566,2026-05-17 11:00,Paksi FC II,Majosi SE,Hungary - NB III,Footba
 football,67648468,2026-05-17 11:00,FC Ryukyu,Gainare Tottori,Japan - J.League 2,Football,0,pending,not_good_competition_or_low_coverage
 football,71457340,2026-05-17 11:00,SC Paderborn 07,1. FC Cologne,Germany Amateur - U19 DFB Nachwuchsliga,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
 football,71483872,2026-05-17 11:30,CD Manchego Ciudad Real,CD Tarancon,"Spain Amateur - Tercera Federacion, Group 18",Football,0,pending,not_good_competition_or_low_coverage
+football,67694254,2026-05-17 11:40,Sydney Olympic FC,Western City Rangers FC,"Australia - U23 NSW NPL, Women",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
 tennis,71535304,2026-05-17 00:30,"Piai, Eduarda","Huynh, Maily",UTR Women - UTR PTT Newport Beach Women 11,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,71535382,2026-05-17 01:00,"Anson, Justin Riley","Lee, Evan",UTR Men - UTR PTT Newport Beach Men 11,Tennis,0,settled,not_good_competition_or_low_coverage
-tennis,71535398,2026-05-17 01:00,"Bain, Adam","Sachdev, Rohan",UTR Men - UTR PTT Newport Beach Men 11,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,71535298,2026-05-17 01:00,"Soso, Mia","Vustsina, Ahniya",UTR Women - UTR PTT Newport Beach Women 11,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,71535300,2026-05-17 01:00,"Olmos, Zoe","Arangio, Gala",UTR Women - UTR PTT Newport Beach Women 11,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,71535378,2026-05-17 01:00,"Berger, Benjamin","Thompson, William Chase",UTR Men - UTR PTT Newport Beach Men 11,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71535398,2026-05-17 01:20,"Bain, Adam","Sachdev, Rohan",UTR Men - UTR PTT Newport Beach Men 11,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,71535308,2026-05-17 02:10,"Praveen Nair, Kamya","Goldberg, Sonya",UTR Women - UTR PTT Newport Beach Women 11,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,151061,2026-05-17 04:00,Jake Delaney,Uisung Park,ITF Men - Wuning,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,151248,2026-05-17 04:00,Anton Shepp,Matthew Dellavedova,ITF Men - Nakhon Pathom,Tennis,0,pending,not_good_competition_or_low_coverage
@@ -143,6 +144,7 @@ baseball,69461904,2026-05-17 10:05,Uni Lions,CTBC Brothers,Chinese Taipei - CPBL
 baseball,69461906,2026-05-17 10:05,Wei Chuan Dragons,Rakuten Monkeys,Chinese Taipei - CPBL,Baseball,0,pending,not_good_competition_or_low_coverage
 baseball,69461908,2026-05-17 11:05,Fubon Guardians,TSG Hawks,Chinese Taipei - CPBL,Baseball,0,pending,not_good_competition_or_low_coverage
 cricket,71001498,2026-05-17 01:00,Powergen Penal Sports Club,Victoria United SC,Trinidad and Tobago - Trinidad T20 Festival,Cricket,0,pending,not_good_competition_or_low_coverage
+cricket,70773356,2026-05-17 11:45,Typhoons,Dragons,"Ireland - Super 20 Trophy, Women",Cricket,0,pending,not_good_competition_or_low_coverage
 rugby-union,,,,,,,,,"HTTP 400: {""error"":""Invalid sport slug""}"
 rugby-league,,,,,,,,,"HTTP 400: {""error"":""Invalid sport slug""}"
 handball,62381660,2026-05-17 06:00,La Tida Okinawa,Kagawa Bank GiraSol,"Japan - Japan Handball League, Women",Handball,0,pending,not_good_competition_or_low_coverage
