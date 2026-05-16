@@ -3,299 +3,299 @@ prediction_id,match_date,home_team,away_team,league,has_any_automatic_price,has_
 7d54cc3bf84c7163fccb,2026-05-16,Falkirk,Rangers,SC0,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"
 7e1c601a82c2a4fce2f9,2026-05-16,Hibernian,Motherwell,SC0,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"
 05c17cf8993652d6930d,2026-05-16,Sociedad B,Mirandes,SP2,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"
-4de5d9f67bb903289f4f,2026-05-16,1. FC Heidenheim,FSV Mainz,germany-bundesliga,True,True,True,1,1,1,odds_api_io_Bet365_ML
-ca1dae11e502211dfff7,2026-05-16,ACV Assen,Koninklijke HFC,netherlands-tweede-divisie,True,True,True,1,1,1,odds_api_io_Bet365_ML
-518cab44a36848a706b8,2026-05-16,ADO 20 Heemskerk,VV Scherpenzeel,netherlands-derde-divisie,True,True,True,1,1,1,odds_api_io_Bet365_ML
-b88d81ecbb6ad7c8b446,2026-05-16,Bayer Leverkusen,Hamburger SV,germany-bundesliga,True,True,True,1,1,1,odds_api_io_Bet365_ML
-186c7d16b20e89b47a4f,2026-05-16,Bayern Munich,1. FC Cologne,germany-bundesliga,True,True,True,1,1,1,odds_api_io_Bet365_ML
-15ffa8a99bf138b9395b,2026-05-16,Borussia Monchengladbach,TSG Hoffenheim,germany-bundesliga,True,True,True,1,1,1,odds_api_io_Bet365_ML
-481844560d76465fe4d9,2026-05-16,FC Chernomorets Odessa,FC Livyi Bereh Kyiv,ukraine-persha-liga,True,True,True,1,1,1,odds_api_io_Bet365_ML
-9e28774c16e2af336ba8,2026-05-16,Eintracht Frankfurt,VfB Stuttgart,germany-bundesliga,True,True,True,1,1,1,odds_api_io_Bet365_ML
-73f282fd38023adc4d09,2026-05-16,Excelsior Maassluis,Jong Almere City FC,netherlands-tweede-divisie,True,True,True,1,1,1,odds_api_io_Bet365_ML
-de899c225532f04d189c,2026-05-16,HHC Hardenberg,Kozakken Boys Werkendam,netherlands-tweede-divisie,True,True,True,1,1,1,odds_api_io_Bet365_ML
-5fbb911624a692804fec,2026-05-16,Hoek,Rijnsburgse Boys,netherlands-tweede-divisie,True,True,True,1,1,1,odds_api_io_Bet365_ML
-23d698175d1a2a6670ee,2026-05-16,Jong Sparta Rotterdam,De Treffers Groesbeek,netherlands-tweede-divisie,False,False,False,0,0,0,
-4117a172d258fbbace8b,2026-05-16,K.v.v. Quick Boys,IJsselmeervogels,netherlands-tweede-divisie,False,False,False,0,0,0,
-a7e3ee8d0f44e57c53b2,2026-05-16,Rkav Volendam,BVV Barendrecht,netherlands-tweede-divisie,True,True,True,1,1,1,odds_api_io_Bet365_ML
-3c1169dd422a02e9caeb,2026-05-16,SC Freiburg,RB Leipzig,germany-bundesliga,True,True,True,1,1,1,odds_api_io_Bet365_ML
-4d7121ab5e855d41126b,2026-05-16,FC St. Pauli,VFL Wolfsburg,germany-bundesliga,True,True,True,1,1,1,odds_api_io_Bet365_ML
-1f7cae9fe061518f284b,2026-05-16,SV Meerssen,FC Rijnvogels,netherlands-derde-divisie,True,True,True,1,1,1,odds_api_io_Bet365_ML
-4f77ae917a5518417313,2026-05-16,SV Spakenburg,VV Katwijk,netherlands-tweede-divisie,True,True,True,1,1,1,odds_api_io_Bet365_ML
-75b8a047723c926220b4,2026-05-16,SV Togb,Groene Ster,netherlands-derde-divisie,True,True,True,1,1,1,odds_api_io_Bet365_ML
-9ecc0c5e542ccda9df1e,2026-05-16,USV Hercules,Harkemase Boys,netherlands-derde-divisie,True,True,True,1,1,1,odds_api_io_Bet365_ML
-13d28b8fdf98d26b2e95,2026-05-16,VV Gemert,Stedoco,netherlands-derde-divisie,True,True,True,1,1,1,odds_api_io_Bet365_ML
-a86f5c9a402567db4bb1,2026-05-16,Werder Bremen,Borussia Dortmund,germany-bundesliga,True,True,True,1,1,1,odds_api_io_Bet365_ML
-782f9b8d5d6074157852,2026-05-16,A-Xiii Auhof Center,WAF Vorwarts Brigittenau,austria-amateur-wien-wiener-stadtliga,True,True,True,1,1,1,odds_api_io_Bet365_ML
-62e5490b3539508cc73f,2026-05-16,Arendal FK,FK Jerv,norway-2nd-division-group-1,False,False,False,0,0,0,
-e1602d4f0457bce9cdbe,2026-05-16,Bryne FK,Stroemmen IF,norway-1st-division,True,True,True,1,1,1,odds_api_io_Bet365_ML
-06cac8964d6c597a2301,2026-05-16,CA Independiente Cbba,Club Tigres FC,bolivia-copa-simon-bolivar,True,True,True,1,1,1,odds_api_io_Bet365_ML
-c448525742594df73f4f,2026-05-16,Calcio Lecco 1912 U19,Pisa Calcio,italy-primavera-2,False,False,False,0,0,0,
-d6488551ec36553641c2,2026-05-16,CE Carroi,Inter Club de Escaldes,andorra-primera-divisio,True,True,True,1,1,1,odds_api_io_Bet365_ML
-d89175d0232c477a6c91,2026-05-16,Chelsea FC,Manchester City,england-fa-cup,True,True,True,1,1,1,odds_api_io_Bet365_ML
-2887dafb57968419b636,2026-05-16,Corluspor 1947,Malatya Yesilyurt Belediyespor,turkiye-amateur-3-lig-playoffs,True,True,True,1,1,1,odds_api_io_Bet365_ML
-d3861b855e99e957efe9,2026-05-16,DLR Waves,Cork City Wfc,ireland-premier-division-women,True,True,True,1,1,1,odds_api_io_Bet365_ML
-e4406a140cbd6f4f956f,2026-05-16,Edinburgh City FC,Brora Rangers,scotland-league-2,False,False,False,0,0,0,
-9cbdd1a0cf2381dd3a38,2026-05-16,Fatih Karagumruk Istanbul,Alanyaspor,turkiye-super-lig,False,False,False,0,0,0,
-222ec6699d1271ed08d0,2026-05-16,FK Haugesund,Aasane Fotball,norway-1st-division,False,False,False,0,0,0,
-4c51007bdacd12ea92d4,2026-05-16,Floriana FC,Marsaxlokk FC,malta-premier-league,True,True,True,1,1,1,odds_api_io_Bet365_ML
-9380b96c3252193b80d4,2026-05-16,Fredrikstad FK,HamKam,norway-eliteserien,True,True,True,1,1,1,odds_api_io_Bet365_ML
-0a4f541f1ce696215a2e,2026-05-16,Hammarby Talang FF,FC Stockholm Internazionale,sweden-ettan-relegation/promotion,False,False,False,0,0,0,
-c6d1829f9337d440a051,2026-05-16,Harju JK Laagri,Parnu JK Vaprus,estonia-premium-liiga,False,False,False,0,0,0,
-b282271dec70ef7a9b97,2026-05-16,FC Hegelmann Kaunas,FK Suduva Marijampole,lithuania-a-lyga,False,False,False,0,0,0,
-d54c474d0448ea584f55,2026-05-16,HNK Gorica,NK Osijek,croatia-hnl,False,False,False,0,0,0,
-1b6867447e1edc24642b,2026-05-16,Hoedd IL,Sogndal Fotball,norway-1st-division,False,False,False,0,0,0,
-bc29793049c2f633c8f4,2026-05-16,IFK Goteborg,Orebro SK Soder,sweden-amateur-elitettan-women,True,True,True,1,1,1,odds_api_io_Bet365_ML
-8f4a50f2b1b50b04f4d2,2026-05-16,IFK Lidingo FK,FC Gute,sweden-division-2-promotion-playoffs,True,True,True,1,1,1,odds_api_io_Bet365_ML
-54959126a7285f57a349,2026-05-16,IFK Mariehamn,Kuopion Palloseura,finland-veikkausliiga,False,False,False,0,0,0,
-b89ecb3f68d51f1babfb,2026-05-16,FC Irtysh Pavlodar,FC Yelimai,kazakhstan-premier-league,True,True,True,1,1,1,odds_api_io_Bet365_ML
-31760e42815ae91e4826,2026-05-16,Jakobstads Bollklubb,JS Hercules,finland-kakkonen-playoffs,False,False,False,0,0,0,
-4f58bd251134e72fb07d,2026-05-16,Kayserispor,Konyaspor,turkiye-amateur-u19-elit-a,False,False,False,0,0,0,
-6bce42ff4d3652d67fe4,2026-05-16,KF Bashkimi Kumanovo 1947,FK Makedonija Gjorce Petrov,north-macedonia-1-mfl,True,True,True,1,1,1,odds_api_io_Bet365_ML
-9569fb4d37f945a28916,2026-05-16,KF Tefik Canga,KF Kika,kosovo-liga-e-pare,True,True,True,1,1,1,odds_api_io_Bet365_ML
-f77fda1ea04366ec9c62,2026-05-16,KF Teuta,KS Pogradeci,albania-kategoria-superiore,True,True,True,1,1,1,odds_api_io_Bet365_ML
-bd44942fd50a4ad57b1e,2026-05-16,KSZO Ostrowiec Swietokrzyski,Sokol Kolbuszowa Dolna,poland-iii-liga-group-4,True,True,True,1,1,1,odds_api_io_Bet365_ML
-618492681b03a1a219af,2026-05-16,KV Vesturbaer,Hottur/Huginn,iceland-3-deild,True,True,True,1,1,1,odds_api_io_Bet365_ML
-27ba9c96cb2d4ff6d190,2026-05-16,LAC Inter,Gerasd. Stammersd.,austria-amateur-wien-wiener-stadtliga,True,True,True,1,1,1,odds_api_io_Bet365_ML
-b3893bd408f5e44be76d,2026-05-16,Lillestroem SK,Sandefjord Fotball,norway-eliteserien,True,True,True,1,1,1,odds_api_io_Bet365_ML
-b2ac8fc2d76678ddbe5c,2026-05-16,Lyn 1896 FK,Kongsvinger IL Toppfotball,norway-1st-division,False,False,False,0,0,0,
-9f1efa4f12bbd6d50c51,2026-05-16,MKS Chojniczanka Chojnice,Zaglebie Sosnowiec,poland-ii-liga,False,False,False,0,0,0,
-b92021019ed51e8367db,2026-05-16,Molde FK,Kristiansund BK,norway-eliteserien,True,True,True,1,1,1,odds_api_io_Bet365_ML
-1cb1901d1785f96635fc,2026-05-16,Odds BK,Moss FK,norway-1st-division,False,False,False,0,0,0,
-810224954687412a7315,2026-05-16,Odisha FC,Punjab FC,india-indian-super-league,False,False,False,0,0,0,
-7cfc4a31bbe14d621997,2026-05-16,Onsala BK,Hestrafors IF,sweden-division-2-promotion-playoffs,True,True,True,1,1,1,odds_api_io_Bet365_ML
-4e4dfc6ac2e539a70627,2026-05-16,FC Ordino,CF Esperanca D Andorra,andorra-primera-divisio,False,False,False,0,0,0,
-b5fc5cde27fa5f20e2b4,2026-05-16,Patriotas FC PR,Coritiba FC PR,brazil-u20-paranaense-1-divisao,False,False,False,0,0,0,
-856828afe5fba5eab8cd,2026-05-16,Reynir Sandgerdi,KF Fjallabyggd,iceland-3-deild,False,False,False,0,0,0,
-daf05f09dc2595424b15,2026-05-16,Rosenborg BK,Aalesunds FK,norway-eliteserien,False,False,False,0,0,0,
-bc6c0ba78662e32cfed5,2026-05-16,Royal Charleroi SC,KVC Westerlo,belgium-pro-league,False,False,False,0,0,0,
-c9409afcf90170188865,2026-05-16,SC Retz,SV Gloggnitz,austria-amateur-regionalliga-ost,False,False,False,0,0,0,
-703eb24c1ff9862cd9cc,2026-05-16,Seinajoen JK,FC Inter Turku,finland-veikkausliiga,False,False,False,0,0,0,
-b5b929afcc8d7bb32713,2026-05-16,Shamrock Rovers FC,Bohemian FC,ireland-premier-division-women,False,False,False,0,0,0,
-0e605578e0a96e37b3c7,2026-05-16,Stabaek IF,Raufoss IL,norway-1st-division,False,False,False,0,0,0,
-a9468fcf518a9872836b,2026-05-16,Stroemsgodset IF,Ranheim,norway-1st-division,False,False,False,0,0,0,
-24a4e56225a9b1d4aa5f,2026-05-16,SV Zulte Waregem,KVC Westerlo,belgium-super-league-women,False,False,False,0,0,0,
-2ae07bbb4ee6aa6bd905,2026-05-16,Taby FK,Sunnersta AIF,sweden-division-2-promotion-playoffs,False,False,False,0,0,0,
-c8c8e7836fb8d6b3a946,2026-05-16,UMF Selfoss,Kormakur/Hvot,iceland-2-deild,False,False,False,0,0,0,
-a619bb062cbb2a9f7411,2026-05-16,Viking FK,IK Start,norway-eliteserien,False,False,False,0,0,0,
-424778fed27c895d5565,2026-05-16,Waterford FC,Sligo Rovers,ireland-premier-division-women,False,False,False,0,0,0,
-b60c7a44e3eebb189da2,2026-05-16,AL Ittihad Kalba,AL Wasl,united-arab-emirates-u23-pro-league,False,False,False,0,0,0,
-b2b8b561d38316e2acc4,2026-05-16,Maccabi Petah Tikva,Maccabi Netanya,israel-u19-premier-league,False,False,False,0,0,0,
-c525c3c476a45a65803b,2026-05-16,AD Ceuta,Malaga CF,spain-laliga-2,False,False,False,0,0,0,
-6654aea2c0dab38bd292,2026-05-16,Cultural Leonesa,SD Eibar,spain-laliga-2,False,False,False,0,0,0,
-29294e7a7ff29e54e1bc,2026-05-16,Hapoel Tel Aviv,Maccabi Haifa,israel-u19-premier-league,False,False,False,0,0,0,
-a74f5725969b63bdc553,2026-05-16,Al-Muharraq SC,Aali,bahrain-premier-league,False,False,False,0,0,0,
-38942c11a81ce82e4a1b,2026-05-16,Al-Najma Manama,AL-Khaldiya SC,bahrain-premier-league,False,False,False,0,0,0,
-f8f47ff5d821b61b379a,2026-05-16,B36 Torshavn II,EB/Streymur II,faroe-islands-1st-deild,False,False,False,0,0,0,
 e2e5b7f3d95c1619ed99,2026-05-16,Bayern Munich,FC Koln,bundesliga,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"
-f9f0f0e7807ca245f4ba,2026-05-16,FC Dordoi Bishkek,FC Ozgon,kyrgyzstan-top-league,False,False,False,0,0,0,
 d714faf699a065dc1e8a,2026-05-16,Ein Frankfurt,Stuttgart,bundesliga,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"
 b0f1dfc27f1210469ebb,2026-05-16,Freiburg,RB Leipzig,bundesliga,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"
 e9e94e84d073c40d9aa6,2026-05-16,Heidenheim,Mainz,bundesliga,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"
 484714efdd3d3b8c24c6,2026-05-16,Leverkusen,Hamburg,bundesliga,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"
 fd30a41e94fd8e218bcc,2026-05-16,M'gladbach,Hoffenheim,bundesliga,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"
-8350711e72e2ef423c7b,2026-05-16,Moreirense FC,AVS Futebol SAD,portugal-liga-portugal,False,False,False,0,0,0,
-93c31f1776cdb7f2d43e,2026-05-16,FC Porto,Santa Clara Azores,portugal-liga-portugal,False,False,False,0,0,0,
-15368cac4780496bea0f,2026-05-16,Primeiro de Agosto,Kabuscorp SCP,angola-girabola,False,False,False,0,0,0,
-9ad83efd87027bd44577,2026-05-16,Sitra Club,Malkiya Club,bahrain-premier-league,False,False,False,0,0,0,
 a297873353ecfbce369c,2026-05-16,St Pauli,Wolfsburg,bundesliga,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"
-05478ad268d881b94e68,2026-05-16,FC Twente Enschede,PSV Eindhoven,netherlands-knvb-beker-women,False,False,False,0,0,0,
 b2b277e9749ba3438687,2026-05-16,Union Berlin,Augsburg,bundesliga,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"
 2a7a0850586d4950c2d1,2026-05-16,Werder Bremen,Dortmund,bundesliga,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"
-2941b47e2c20927d3f9f,2026-05-16,Zakho FC,AL Najaf,iraq-iraqi-league,False,False,False,0,0,0,
-152ce32311c1c0ed75dd,2026-05-16,1. FC Slovacko Uherske Hradiste,FK Mlada Boleslav,czechia-1-liga,False,False,False,0,0,0,
-0772074900e406f5b668,2026-05-16,AC Virtus,SP La Fiorita,san-marino-campionato-sammarinese,False,False,False,0,0,0,
-dd04616393a59c7f0f7b,2026-05-16,AEK Larnaca,Pafos FC,cyprus-1st-division,False,False,False,0,0,0,
-fe14bebe22677691b959,2026-05-16,APOEL Nikosia,AC Omonia Nicosia,cyprus-1st-division,False,False,False,0,0,0,
-0dbf44156eb0068d197c,2026-05-16,Apollon Limassol,Aris Limassol FC,cyprus-1st-division,False,False,False,0,0,0,
-59b4e0727293a8b074b6,2026-05-16,AS Trencin,FK Kosice,slovakia-superliga,False,False,False,0,0,0,
-35b98791b7b4f701b296,2026-05-16,Avia Swidnik,Korona II Kielce SA,poland-iii-liga-group-4,False,False,False,0,0,0,
-8af989715ef5b7044a7e,2026-05-16,FC Banik Ostrava,FC Zlin,czechia-1-liga,False,False,False,0,0,0,
-0c20d5c7bb8916e2a5c5,2026-05-16,Blau-Weiss Linz,Grazer AK 1902,austria-bundesliga,False,False,False,0,0,0,
-e64e515af724ab706129,2026-05-16,CA Boston River,CA Cerro,uruguay-primera-division,False,False,False,0,0,0,
 a14051e636491be7bdaf,2026-05-16,Charleroi,Westerlo,B1,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"
-6f723c085cef20dc2690,2026-05-16,Club America,Guadalajara,mexico-u21-liga-mx,False,False,False,0,0,0,
-7ead9672458eac87e453,2026-05-16,Csd Macara,Deportivo Ibarra,ecuador-superliga-women,False,False,False,0,0,0,
-3359f288c73f0cc522ce,2026-05-16,DAC 1904 Dunajska Streda,FC Spartak Trnava,slovakia-superliga,False,False,False,0,0,0,
-4f2f1557c3ce43769099,2026-05-16,FC Deutschkreutz,ASK Horitschon/U,austria-amateur-burgenland-burgenlandliga,False,False,False,0,0,0,
-6251d647f113a7adaba0,2026-05-16,FC Dinamo Tbilisi,FC Iberia 1999,georgia-erovnuli-liga,False,False,False,0,0,0,
-c1bc797082ff6ad677f0,2026-05-16,FK Metta / Lu,JDFS Alberts,latvia-1liga,False,False,False,0,0,0,
-2d8de978c9944ab352c4,2026-05-16,FK Nachod,FK Dobrovice,czechia-divize-c,False,False,False,0,0,0,
-32b8bedc2356d17b1028,2026-05-16,FK Pribram,1.SK Prostejov,czechia-fnl,False,False,False,0,0,0,
-6548cd4d7fcc42d285d2,2026-05-16,FK Radnik Hadzici,FK Igman Konjic,bosnia-&-herzegovina-prva-liga-fed-bih,False,False,False,0,0,0,
-874f17e2b48cefd32438,2026-05-16,FK Romanija Pale,FK Zvijezda 09,bosnia-&-herzegovina-prva-liga-rep-of-srpska,False,False,False,0,0,0,
-98130a8e2b59d2ec04e5,2026-05-16,FK Seko Louny,Tempo Prague,czechia-divize-b,False,False,False,0,0,0,
-2337e828640c5fd6e1d0,2026-05-16,FK Teplice,Dukla Prague,czechia-1-liga,False,False,False,0,0,0,
-71556815d5226e813361,2026-05-16,FK Tuzla City,NK Celik Zenica,bosnia-&-herzegovina-prva-liga-fed-bih,False,False,False,0,0,0,
-21885841361c357f1a6a,2026-05-16,FK Usti nad Labem,SK Slavia Prague B,czechia-fnl,False,False,False,0,0,0,
-a4834fad7fb0e931084c,2026-05-16,IK Brage,IFK Norrkoping FK,sweden-superettan,False,False,False,0,0,0,
-3410efadd44d6fd3c32c,2026-05-16,KFC Komarno,1. FC Tatran Presov,slovakia-superliga,False,False,False,0,0,0,
 a24bd83e34c7c67d1ff1,2026-05-16,Karagumruk,Alanyaspor,T1,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"
-22a9ea770b04cb6c1d60,2026-05-16,FC Kolkheti-1913 Poti,FC Gareji Sagarejo,georgia-erovnuli-liga-2,False,False,False,0,0,0,
-17f41741d6aaa2dd501e,2026-05-16,KS Wisloka Debica,Wislanie Skawina,poland-iii-liga-group-4,False,False,False,0,0,0,
-2397d272e4467adb0991,2026-05-16,Maccabi Haifa FC,Hapoel Petah Tikva FC,israel-premier-league,False,False,False,0,0,0,
-242bad4dbd1bf4a126ec,2026-05-16,MFK Karvina,SK Sigma Olomouc,czechia-1-liga,False,False,False,0,0,0,
-7e0d01800633e38fd9c6,2026-05-16,MFK Skalica,MFK Ruzomberok,slovakia-superliga,False,False,False,0,0,0,
-4b2700b4433ffcda87cb,2026-05-16,MSK Namestovo,MFK Dukla Banska Bystrica B,slovakia-3-liga,False,False,False,0,0,0,
-4b83ed8286bacb7425ec,2026-05-16,MSK Zilina,FK Zeleziarne Podbrezova,slovakia-superliga,False,False,False,0,0,0,
-84152cd4f8c4e682442e,2026-05-16,NK Bratstvo Gracanica,FK Buducnost Banovici,bosnia-&-herzegovina-prva-liga-fed-bih,False,False,False,0,0,0,
-de855c318172c126323c,2026-05-16,Rachad Bernoussi,FUS Rabat,morocco-coupe-du-trone,False,False,False,0,0,0,
-e34fe1b15bdd6e8f1407,2026-05-16,Rana FK,IK Junkeren,norway-2nd-division-group-2,False,False,False,0,0,0,
-72e81826fcd63d298231,2026-05-16,Santa Clara SAD,Rio Ave FC,portugal-u19-campeonato-nacional,False,False,False,0,0,0,
-5aa8695e67ee707f4a28,2026-05-16,SC Wiener Viktoria,FC Marchfeld Donauauen,austria-amateur-regionalliga-ost,False,False,False,0,0,0,
-8ab5222f0e0989110bcc,2026-05-16,SCR Altach,SV Ried,austria-bundesliga,False,False,False,0,0,0,
-3b497a2989d3faba03e5,2026-05-16,Shelbourne LFC,Galway United Wfc,ireland-premier-division-women,False,False,False,0,0,0,
-9c05ed7522faf87ba193,2026-05-16,Siarka Tarnobrzeg,Wisla II Krakow,poland-iii-liga-group-4,False,False,False,0,0,0,
-20af636eb4bdddd88df2,2026-05-16,FC Silon Taborsko,SFC Opava,czechia-fnl,False,False,False,0,0,0,
-cd04c0b932af5ac6fb02,2026-05-16,SK Artis Brno,FK Viktoria Zizkov,czechia-fnl,False,False,False,0,0,0,
-e62d81fee92267233b22,2026-05-16,SK Dynamo Ceske Budejovice,MFK Chrudim,czechia-fnl,False,False,False,0,0,0,
-29ec54bdf70519f85ea6,2026-05-16,SK Hanacka Slavia Kromeriz,FC Zbrojovka Brno,czechia-fnl,False,False,False,0,0,0,
-40d78a633b1f0db78aa0,2026-05-16,SK Slovan Bratislava,MFK Zemplin Michalovce,slovakia-superliga,False,False,False,0,0,0,
-3ec52bbd49b454ea22b6,2026-05-16,Sparta Prague B,FC Vysocina Jihlava,czechia-fnl,False,False,False,0,0,0,
-b69ec256be712e702474,2026-05-16,Sporting Cristal,FC Killas,peru-liga-femenina,False,False,False,0,0,0,
-b92f5885434a9a79ae2f,2026-05-16,SV Tillmitsch,FC Schladming,austria-amateur-steiermark-landesliga,False,False,False,0,0,0,
-d698a501589a7c09933b,2026-05-16,UD Santa Marta,CD Guijuelo,spain-amateur-tercera-federacion-group-8,False,False,False,0,0,0,
-08201fb8f46b6c579c44,2026-05-16,VfB Hohenems,SV Wals-Grunau,austria-amateur-regionalliga-west,False,False,False,0,0,0,
-1888ca15f0f0bcbbd5b6,2026-05-16,FC Vlasim,FC Banik Ostrava B,czechia-fnl,False,False,False,0,0,0,
-2304364562f502b9315d,2026-05-16,WDA Swiecie,Gzs Tluchovia Tluchowo,poland-iii-liga-group-2,False,False,False,0,0,0,
-e9b4c31ad740cb8faa1d,2026-05-16,Wolfsberger AC,WSG Tirol,austria-bundesliga,False,False,False,0,0,0,
 34b083baca1f797e9e8a,2026-05-16,Ceuta,Malaga,SP2,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"
 4f0742732a717222e2cd,2026-05-16,Cultural Leonesa,Eibar,SP2,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"
-f07e17fac923aced4471,2026-05-16,Debreceni VSC,Ujpest FC Budapest,hungary-nb-i,False,False,False,0,0,0,
-26a7cf6a39ed339d8521,2026-05-16,Diosgyori VTK,Paksi FC,hungary-nb-i,False,False,False,0,0,0,
-645e69245fdce25cd7aa,2026-05-16,Ferencvarosi Budapest,Zalaegerszeg TE,hungary-nb-i,False,False,False,0,0,0,
-82339e75ded07f5971e3,2026-05-16,Kisvarda FC,WKW ETO FC Gyor,hungary-nb-i,False,False,False,0,0,0,
-649831b6ec54561e7d57,2026-05-16,Academica de Coimbra,CD Trofense,portugal-liga-portugal-3,False,False,False,0,0,0,
-55ade68393ff7c3ede06,2026-05-16,AFK Csikszereda Miercurea Ciuc,FC Botosani,romania-superliga,False,False,False,0,0,0,
-828a92c0794ab5a501a8,2026-05-16,Al Ain FC,Dibba Al Fujairah,united-arab-emirates-arabian-gulf-league,False,False,False,0,0,0,
-f13bd18ce95f0e03bc48,2026-05-16,Al Dhafra SSC,Al Wahda FC (UAE),united-arab-emirates-arabian-gulf-league,False,False,False,0,0,0,
-a0071da9cfa2cb848c13,2026-05-16,Al Jazira (UAE),Baniyas Club,united-arab-emirates-arabian-gulf-league,False,False,False,0,0,0,
-af994a46b6a33d06a6a2,2026-05-16,Dziugas,FK Banga Gargzdai,lithuania-a-lyga,False,False,False,0,0,0,
-3765428ad2008f2ec608,2026-05-16,JJK Jyvaskyla,SalPa,finland-ykkonen,False,False,False,0,0,0,
 a638d456b896396203cd,2026-05-16,Moreirense,AVS,P1,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"
-2fb95f0fa50422789388,2026-05-16,NK BSK Bijelo Brdo,NK Hrvace,croatia-prva-nl,False,False,False,0,0,0,
-a82eb0c2145af70ccebd,2026-05-16,NK Celje,FC Koper,slovenia-prvaliga,False,False,False,0,0,0,
-7861ef16a7c8153dad5f,2026-05-16,NK Dugo Selo,NK Grobnican,croatia-druga-nl,False,False,False,0,0,0,
-72c8a71312da47777120,2026-05-16,NK Solin,NK Segesta,croatia-druga-nl,False,False,False,0,0,0,
-ecf39998e8d11e894f9e,2026-05-16,NK Uljanik,NK Uskok,croatia-druga-nl,False,False,False,0,0,0,
-fab4f80cc927556483f9,2026-05-16,Orijent 1919 Rijeka,NK Karlovac 1919,croatia-prva-nl,False,False,False,0,0,0,
-7d8967541dd69301ed78,2026-05-16,CF Os Belenenses,CD Mafra,portugal-liga-portugal-3,False,False,False,0,0,0,
 7b91cd54eeaa9752511f,2026-05-16,Porto,Santa Clara,P1,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"
-a177d4f3fd14dfeaab85,2026-05-16,Shabab Al Ahli Dubai,AL Bataeh (UAE),united-arab-emirates-arabian-gulf-league,False,False,False,0,0,0,
-418aa3377425829b4abe,2026-05-16,Touring KE,SD Leioa,spain-amateur-tercera-federacion-group-4,False,False,False,0,0,0,
-a32059cbba5ab78da65e,2026-05-16,UD Santarem,Varzim SC,portugal-liga-portugal-3,False,False,False,0,0,0,
-a93d7b349584ee653776,2026-05-16,Vevey-Sports,FC Bulle,switzerland-promotion-league,False,False,False,0,0,0,
-1c58652d887da9ff6be8,2026-05-16,Vitoria Guimaraes B,Amarante FC,portugal-liga-portugal-3,False,False,False,0,0,0,
-ff50fb75ebbca029e1be,2026-05-16,Wisla Plock,Gornik Zabrze,poland-ekstraklasa,False,False,False,0,0,0,
-0a5d7e96d18f62b1a20c,2026-05-16,AC Oulu,Turun Palloseura,finland-veikkausliiga,False,False,False,0,0,0,
-8414b6a65e0107794016,2026-05-16,AE Larissa FC,Atromitos Athinon,greece-super-league,False,False,False,0,0,0,
-3f89387827815734e3c2,2026-05-16,Altona 93,Kickers Emden,germany-amateur-regionalliga-north,False,False,False,0,0,0,
-8e797c677b423a36d95a,2026-05-16,Andrezieux-Boutheon FC,FC Rousset Svo,france-national-2,False,False,False,0,0,0,
-74cecfd8aa0f283394a7,2026-05-16,FC Arda Kardzhali,PFC Lokomotiv Plovdiv,bulgaria-parva-liga,False,False,False,0,0,0,
-1ee90da951d3e4a8a337,2026-05-16,AS Beauvais Oise,Biesheim ASC,france-national-2,False,False,False,0,0,0,
-b4726a0787987b01ad94,2026-05-16,AS Cannes,Lusitanos Saint-Maur,france-national-2,False,False,False,0,0,0,
-9036fc74ba0276ce67b2,2026-05-16,AS Sonabel Ouagadougou,Kozaf,burkina-faso-ligue-1,False,False,False,0,0,0,
-9d8335b8f6774b72ad47,2026-05-16,Asteras Tripolis,AE Kifisia FC,greece-super-league,False,False,False,0,0,0,
-36eb84e8c9917b885882,2026-05-16,Bodoe/Glimt,Tromsoe IL,norway-eliteserien,False,False,False,0,0,0,
-f504357682d9ddfc81f3,2026-05-16,Botev Plovdiv,PFC Cherno More Varna,bulgaria-parva-liga,False,False,False,0,0,0,
-95c0dd9159fc8ac8d35a,2026-05-16,CA Batna,CR Temouchent,algeria-ligue-2,False,False,False,0,0,0,
-725c4f744be4f4e6bfb0,2026-05-16,Cartusia Kartuzy,Pogon Nowe Skalmierzyce,poland-iii-liga-group-2,False,False,False,0,0,0,
-fc4c24aafe24894db7f8,2026-05-16,Colmar,Wasquehal Football,france-national-2,False,False,False,0,0,0,
-d3cbc0e05f71ac0d09b0,2026-05-16,FC De Montlouis,US Saint-Malo,france-national-2,False,False,False,0,0,0,
-40fd28c8003750039fd9,2026-05-16,Dinan-Lehon FC,Angouleme Charente FC,france-national-2,False,False,False,0,0,0,
-153368bd3947d519b89e,2026-05-16,Eintracht Norderstedt,HSC Hannover,germany-amateur-regionalliga-north,False,False,False,0,0,0,
-ba2c7ba4bdadb172cfee,2026-05-16,Entente Feignies Aulnoye,FCSR Haguenau,france-national-2,False,False,False,0,0,0,
-d2613115b42835517e2e,2026-05-16,FSV Schoningen 2011,1. FC Phonix Lubeck,germany-amateur-regionalliga-north,False,False,False,0,0,0,
-a846c537aeb75a5a5264,2026-05-16,Hamburger SV II,Blau-Weiss Lohne,germany-amateur-regionalliga-north,False,False,False,0,0,0,
-5428011690a1aadf9068,2026-05-16,Hannover 96 II,Bremer SV 1906,germany-amateur-regionalliga-north,False,False,False,0,0,0,
-732a2110662cc55c85b6,2026-05-16,IF Gnistan,FF Jaro,finland-veikkausliiga,False,False,False,0,0,0,
-39859c69340b9401f206,2026-05-16,Ireland,Grenada,international-int-friendly-games,False,False,False,0,0,0,
-40d02a21ae2b5a43e389,2026-05-16,Lausanne-Sport,Grasshopper Club Zurich,switzerland-super-league,False,False,False,0,0,0,
-7efb0687a3ccbad62f02,2026-05-16,Les Herbiers,Voltigeurs de Chateaubriant,france-national-2,False,False,False,0,0,0,
-9f153fdab489c149c34d,2026-05-16,FC Limonest Dardilly Saint-Didier,Nimes Olympique,france-national-2,False,False,False,0,0,0,
-b52c9ecd99163ec14da1,2026-05-16,Paide Linnameeskond,Saku Sporting,estonia-meistriliiga-women,False,False,False,0,0,0,
-95069d125d57677d0ff1,2026-05-16,Panserraikos FC,Panaitolikos Agrinio,greece-super-league,False,False,False,0,0,0,
-9cfc611966da2597bef7,2026-05-16,Podbeskidzie Bielsko-Biała,Sokol Kleczew,poland-ii-liga,False,False,False,0,0,0,
-06b5fb29fccdf817580e,2026-05-16,Pors Grenland,Notodden FK,norway-2nd-division-group-1,False,False,False,0,0,0,
-c1a72e6e28460db7e0cb,2026-05-16,Ramtha SC,Al Hussein Irbid,jordan-jordan-cup,False,False,False,0,0,0,
-553cf62b98a65235e835,2026-05-16,Real Oviedo Vetusta,CD Tudelano,spain-segunda-federacion,False,False,False,0,0,0,
-8e0fbd41e881ccbc6d38,2026-05-16,Riga FC,FS Jelgava,latvia-virsliga,False,False,False,0,0,0,
-17ac98555cebb8007bef,2026-05-16,FC Solothurn,BSC Old Boys,switzerland-erste-liga,False,False,False,0,0,0,
-15f3409115edf874aa4b,2026-05-16,SV Meppen 1912,FC St. Pauli II,germany-amateur-regionalliga-north,False,False,False,0,0,0,
-0ae360a3ca0ae2070dff,2026-05-16,Thionville US Lusitanos,FC Chambly Oise,france-national-2,False,False,False,0,0,0,
-e71cdb26964e831cfcf8,2026-05-16,Uniao de Leiria,Gil Vicente,portugal-u19-campeonato-nacional,False,False,False,0,0,0,
-751caac1ebd39d08bfdf,2026-05-16,US de la Comoe,Etoile Filante de Ouagadougou,burkina-faso-ligue-1,False,False,False,0,0,0,
-97202b1903050b9d8713,2026-05-16,USM EL Harrach,US Chaouia,algeria-ligue-2,False,False,False,0,0,0,
-5205ae1339c0ed2c3dd2,2026-05-16,VfB Lubeck,SC Weiche Flensburg 08,germany-amateur-regionalliga-north,False,False,False,0,0,0,
-1a449cf9f0f21bd1f9ca,2026-05-16,VfB Oldenburg,SV Werder Bremen II,germany-amateur-regionalliga-north,False,False,False,0,0,0,
-a27f4ec153c2b0c59921,2026-05-16,Vikingur Olafsvik,Dalvik Reynir,iceland-2-deild,False,False,False,0,0,0,
-b5386524d2686a16fb7e,2026-05-16,FC Winterthur,FC Luzern,switzerland-super-league,False,False,False,0,0,0,
-234b8eb4a28aa80edadf,2026-05-16,FC Zurich,Servette Geneva,switzerland-super-league,False,False,False,0,0,0,
-6122c0b8681105110d51,2026-05-16,Al Hilal SFC,Neom SC,saudi-arabia-saudi-pro-league,False,False,False,0,0,0,
-b4ca4ff8824cc9fa9cb7,2026-05-16,Al-Okhdood Club,Al-Khaleej Club,saudi-arabia-saudi-pro-league,False,False,False,0,0,0,
-f5c528fed51609fb8482,2026-05-16,NK Lokomotiva Zagreb,HNK Hajduk Split,croatia-hnl,False,False,False,0,0,0,
-2826f59cbe733a8e0c96,2026-05-16,Standard Liege,KRC Genk,belgium-pro-league,False,False,False,0,0,0,
-a323f9986460138562c4,2026-05-16,CD Estradense,CA Arteixo,spain-amateur-tercera-federacion-group-1,False,False,False,0,0,0,
-7e907d70493f2ca5f12b,2026-05-16,Deportes Magallanes,Deportes Recoleta,chile-primera-b,False,False,False,0,0,0,
-a0e18f649c6252fae493,2026-05-16,Gambia Ports Authority,Hart FC,gambia-division-one,False,False,False,0,0,0,
-2cc2831cd2d53f0db9ed,2026-05-16,Racing Club Villalbes,SD Compostela,spain-amateur-tercera-federacion-group-1,False,False,False,0,0,0,
-e9e3dc93bcc492b9be85,2026-05-16,Racing Santander,Real Valladolid,spain-laliga-2,False,False,False,0,0,0,
-7a1a331e8f4ef2684ede,2026-05-16,Stenhousemuir FC,Alloa Athletic FC,scotland-championship,False,False,False,0,0,0,
-ccca953e2ea509c2af73,2026-05-16,UD Almeria,UD Las Palmas,spain-laliga-2,False,False,False,0,0,0,
-eb4338cfd7ea97dfb86b,2026-05-16,FC Arouca,CD Tondela,portugal-liga-portugal,False,False,False,0,0,0,
 cc3bbc6a13578f5beeeb,2026-05-16,Asteras Tripolis,Kifisia,G1,True,False,False,2,0,0,"football_data_average_market_proxy, football_data_max_market_proxy"
-a512e4aadc525c6edbdf,2026-05-16,Athlone Town FC,Treaty United,ireland-premier-division-women,False,False,False,0,0,0,
-72b4c42ea44f95a5e27f,2026-05-16,Casa Pia Lisbon,Rio Ave FC,portugal-liga-portugal,False,False,False,0,0,0,
-fa5419b10507323aba03,2026-05-16,FC Dinamo Batumi,FC Meshakhte Tkibuli,georgia-erovnuli-liga,False,False,False,0,0,0,
-109f493e59745652153c,2026-05-16,Erbil SC,Newroz SC,iraq-iraqi-league,False,False,False,0,0,0,
-4e80faf616c415c18048,2026-05-16,ES Setif,CR Belouizdad,algeria-ligue-1,False,False,False,0,0,0,
-b5ee4fa19b27325754bc,2026-05-16,FK Rfs II,Leevon Ppk,latvia-1liga,False,False,False,0,0,0,
-85c051ee6b1d90e621fa,2026-05-16,Gaziantep FK,Istanbul Basaksehir,turkiye-super-lig,False,False,False,0,0,0,
 6e43eb2fc285c5c44528,2026-05-16,Larisa,Atromitos,G1,True,False,False,2,0,0,"football_data_average_market_proxy, football_data_max_market_proxy"
-8d7741683ffc54a693d8,2026-05-16,Nacional da Madeira,Vitoria SC Guimaraes,portugal-liga-portugal,False,False,False,0,0,0,
 4723ecf81c1286ab22f3,2026-05-16,Panserraikos,Panetolikos,G1,True,False,False,2,0,0,"football_data_average_market_proxy, football_data_max_market_proxy"
-e0c51893505c28ed79f7,2026-05-16,FC Prishtina Bern,Lancy FC,switzerland-erste-liga,False,False,False,0,0,0,
-fa078702c732c242fc39,2026-05-16,Samsunspor,Goztepe Izmir,turkiye-super-lig,False,False,False,0,0,0,
-5a5d628f2d83c5ba964f,2026-05-16,SC Braga,Estrela Amadora,portugal-liga-portugal,False,False,False,0,0,0,
-77096f9d3f0d5af504d3,2026-05-16,SC Kalsdorf,Wohnbau Dietach,austria-amateur-regionalliga-centre,False,False,False,0,0,0,
-0c311e838a44e562a2fd,2026-05-16,Sioni Bolnisi,Odishi,georgia-erovnuli-liga-2,False,False,False,0,0,0,
-2085143c33fa6b1e33f7,2026-05-16,Sportivo Luqueno,Rubio Nu,paraguay-camopeonato-femenino-women,False,False,False,0,0,0,
-cefb395fbcc218d15def,2026-05-16,UMF Tindastoll,Arbaer,iceland-3-deild,False,False,False,0,0,0,
-9c207fcebfb985155336,2026-05-16,Vllaznia Shkoder,FC Dinamo City,albania-kategoria-superiore,False,False,False,0,0,0,
-0e52d3b9876725b41ef9,2026-05-16,Wexford Youths AFC,Peamount United Dublin,ireland-premier-division-women,False,False,False,0,0,0,
 ab62c845eac8530de92c,2026-05-16,Standard,Genk,B1,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"
-32a9b71c8288f7065813,2026-05-16,LKS 1926 Lomza,GKS Belchatow,poland-iii-liga-group-1,False,False,False,0,0,0,
 8636f1e9d88050fd7d4c,2026-05-16,Almeria,Las Palmas,SP2,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"
-b5b300304879dbb12718,2026-05-16,ATSV Wolfsberg,SC St. Veit,austria-amateur-karnten-karntner-liga,False,False,False,0,0,0,
-ded3f02179c6d9f29108,2026-05-16,Chrobry Glogow,MKS Znicz Pruszkow,poland-i-liga,False,False,False,0,0,0,
-d196370da92e856935a7,2026-05-16,Gornik Leczna,Odra Opole,poland-i-liga,False,False,False,0,0,0,
 c13139e181354d08c50b,2026-05-16,Granada,Burgos,SP2,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"
-2c88328da3864d4d57f7,2026-05-16,KAA Gent,KRC Genk,belgium-super-league-women,False,False,False,0,0,0,
-1c7f7e3c70212f1b955c,2026-05-16,Maccabi Tel Aviv FC,Beitar Jerusalem FC,israel-premier-league,False,False,False,0,0,0,
 846339e4c8aaa265cdd1,2026-05-16,Santander,Valladolid,SP2,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"
-db8cd761ebf6976ba733,2026-05-16,ZKS Stal Rzeszow,Wieczysta Krakow,poland-i-liga,False,False,False,0,0,0,
-a9d61ddd117b34caf9ee,2026-05-16,Al Nassr Club,Gamba Osaka,international-clubs-afc-champions-league-two,False,False,False,0,0,0,
-2206e14ab2290f69ad60,2026-05-16,AD Cabofriense RJ,Serrano FC RJ,brazil-carioca-serie-a2,False,False,False,0,0,0,
-569a9383553621176255,2026-05-16,Al Ahli Saudi FC,Al-Kholood,saudi-arabia-saudi-pro-league,False,False,False,0,0,0,
-bfe0bec7994ad9f5d5a1,2026-05-16,America FC MG,Atletico Mineiro MG,brazil-campeonato-brasileiro-women,False,False,False,0,0,0,
-fd85f1cdfbed6cbbbcf0,2026-05-16,America FC RJ,Madureira RJ,brazil-brasileiro-serie-d,False,False,False,0,0,0,
 7cea6e09af179b878fa5,2026-05-16,Arouca,Tondela,P1,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"
-94c64003021da96d680d,2026-05-16,Belgrano de Cordoba,Boca Juniors,argentina-primera-division-women,False,False,False,0,0,0,
-1d73c2d44f9d86044c3d,2026-05-16,Blumenau EC SC,CN Marcilio Dias SC,brazil-brasileiro-serie-d,False,False,False,0,0,0,
-7b7ea21285cb40d82308,2026-05-16,Bonsucesso FC RJ,Audax Rio EC RJ,brazil-carioca-serie-a2,False,False,False,0,0,0,
-0dec68c562666e5a10e2,2026-05-16,Botafogo FR RJ,Cruzeiro EC MG,brazil-u20-campeonato-brasileiro,False,False,False,0,0,0,
-9fe6bcea7130b6bb438b,2026-05-16,CA Juventud de Las Piedras,CA Progreso,uruguay-primera-division,False,False,False,0,0,0,
 598dee6625d6e824601c,2026-05-16,Casa Pia,Rio Ave,P1,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"
-c2fdee85f321c13de5d1,2026-05-16,CR Vasco da Gama RJ,Rio Negro RR,brazil-brasileiro-serie-a2-women,False,False,False,0,0,0,
-1981d80413c146cbf273,2026-05-16,Criciuma EC SC,Fluminense FC RJ,brazil-u20-campeonato-brasileiro,False,False,False,0,0,0,
-c9a565130e46a4d6899b,2026-05-16,CSDC Alianza Universidad,CD Estudiantil Cni,peru-liga-2,False,False,False,0,0,0,
-7b8da7d03557e39cbc98,2026-05-16,Defensor SC Montevideo,CA Penarol Montevideo,uruguay-primera-division-women,False,False,False,0,0,0,
-a74fa500b53cd981466b,2026-05-16,Deportivo Camioneros,CA Brown de Adrogue,argentina-primera-b,False,False,False,0,0,0,
-7e803378990fbb22a3c8,2026-05-16,FC Dinamo Bucuresti 1948,FC CFR 1907 Cluj,romania-superliga,False,False,False,0,0,0,
-c8099762c0ddb7e7e96c,2026-05-16,Doce Mel EC BA,Perolas Negras RJ,brazil-brasileiro-serie-a2-women,False,False,False,0,0,0,
-d2257c8bbf7b34e469c6,2026-05-16,EC Juventude RS,CR Flamengo RJ,brazil-u20-campeonato-brasileiro,False,False,False,0,0,0,
-355e35301e604b74ea3d,2026-05-16,FBC Melgar,Sport Huancayo,peru-liga-1,False,False,False,0,0,0,
-f69705025bca2ecd239f,2026-05-16,FK Bokelj Kotor,FK Arsenal Tivat,montenegro-1-cfl,False,False,False,0,0,0,
-bed82d161beebef3c97a,2026-05-16,FK Buducnost,FK Mornar Bar,montenegro-1-cfl,False,False,False,0,0,0,
-bc39051f35ad0433a97c,2026-05-16,FK Javor Ivanjica,FK Mladost Lucani,serbia-superliga,False,False,False,0,0,0,
-b0e790840826f7c5e781,2026-05-16,FK Jezero Plav,OFK Mladost DG,montenegro-1-cfl,False,False,False,0,0,0,
-f08afc5b2cbe6657e79b,2026-05-16,FK Napredak Krusevac,FK Radnicki 1923 Kragujevac,serbia-superliga,False,False,False,0,0,0,
+f9938efec5722cf89ed4,2026-05-16,Gaziantep,Buyuksehyr,T1,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"
+aaee5ce2aeb3a03bb760,2026-05-16,Nacional,Guimaraes,P1,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"
+c04d46c346ef95a93bd4,2026-05-16,Samsunspor,Goztep,T1,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"
+9f9b98f3dcdced4244e0,2026-05-16,Sp Braga,Estrela,P1,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"
+94cad80a3cb56b47d829,2026-05-16,St Truiden,Gent,B1,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"
+2d5a10feba5ad479ccb9,2026-05-16,Estoril,Benfica,P1,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"
+c6caad9d724c17b719d4,2026-05-16,Famalicao,Alverca,P1,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"
+1a90d3b7f047553d7fab,2026-05-16,Sp Lisbon,Gil Vicente,P1,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"
+469f014e76cc4c2d553a,2026-05-16,Atletico Mineiro MG,Mirassol FC SP,brazil-brasileiro-serie-a,True,True,True,1,1,1,odds_api_io_Bet365_ML
+ac20740c034ac7b3ada1,2026-05-16,CA Penarol Montevideo,Liverpool Montevideo,uruguay-primera-division,True,True,True,1,1,1,odds_api_io_Bet365_ML
+df12fc2c8757ce5e4d27,2026-05-16,CD O´Higgins,Universidad de Concepcion,chile-primera-division,True,True,True,1,1,1,odds_api_io_Bet365_ML
+1e07c80d2e3b17ff47cd,2026-05-16,CD Universidad Catolica del Ecuador,Delfin SC,ecuador-ligapro-primera-a,True,True,True,1,1,1,odds_api_io_Bet365_ML
+50a2b8410a346439092b,2026-05-16,Cerro Porteno,Recoleta FC,paraguay-camopeonato-femenino-women,True,True,True,1,1,1,odds_api_io_Bet365_ML
+b7a5abc152d22a701fbb,2026-05-16,Curico Unido,Santiago Wanderers,chile-primera-b,True,True,True,1,1,1,odds_api_io_Bet365_ML
+c0baf6da463fc5759c55,2026-05-16,Goias EC GO,Botafogo FC SP,brazil-brasileiro-serie-b,True,True,True,1,1,1,odds_api_io_Bet365_ML
+e427a369d40f8c7fa93c,2026-05-16,New Jersey United AC,Jackson Lions FC,usa-national-premier-soccer-league,True,True,True,1,1,1,odds_api_io_Bet365_ML
+f50836d59572a5aafc21,2026-05-16,SC Internacional RS,CR Vasco da Gama RJ,brazil-brasileiro-serie-a,True,True,True,1,1,1,odds_api_io_Bet365_ML
+8196161592622eb7c0b8,2026-05-16,Capital CF DF,Ceilandia EC DF,brazil-brasileiro-serie-d,True,True,True,1,1,1,odds_api_io_Bet365_ML
+31675f5aa04519ed818c,2026-05-16,Carolina Core FC,Chicago Fire FC II,usa-mls-next-pro,False,False,False,0,0,0,
+963f77f6977247465e16,2026-05-16,CT United FC,Toronto FC II,usa-mls-next-pro,False,False,False,0,0,0,
+fe08cd5332d39e90e064,2026-05-16,Deportivo Merlo,CD Armenio,argentina-primera-b,True,True,True,1,1,1,odds_api_io_Bet365_ML
+275d4b945f70e4bfaafd,2026-05-16,Fluminense FC RJ,Sao Paulo FC SP,brazil-brasileiro-serie-a,True,True,True,1,1,1,odds_api_io_Bet365_ML
+766c926259399386ddd1,2026-05-16,Forward Madison FC,Detroit City FC,usa-usl-league-one-cup,True,True,True,1,1,1,odds_api_io_Bet365_ML
+ffb7dbf2aea84983ab79,2026-05-16,Richmond Kickers,Charleston Battery,usa-usl-league-one-cup,True,True,True,1,1,1,odds_api_io_Bet365_ML
+11dbef9c63af2349fb6f,2026-05-16,CA River Plate (ARG),CA Rosario Central,argentina-liga-profesional,True,True,True,1,1,1,odds_api_io_Bet365_ML
+8b2d1d3454fcf8024b72,2026-05-16,Figueirense FC SC,AO Itabaiana SE,brazil-brasileiro-serie-c,True,True,True,1,1,1,odds_api_io_Bet365_ML
+0969d2d58e668d4fda2f,2026-05-16,Floresta EC CE,Amazonas FC AM,brazil-brasileiro-serie-c,True,True,True,1,1,1,odds_api_io_Bet365_ML
+a5b05f5395fee95ab2b9,2026-05-16,North Carolina Courage,Chicago Stars FC,usa-national-womens-soccer-league,True,True,True,1,1,1,odds_api_io_Bet365_ML
+98b65c882bfb73a4d1af,2026-05-16,Point Michel,Middleham United FC,dominica-dfa-premier,True,True,True,1,1,1,odds_api_io_Bet365_ML
+40d010ef523492e3a2e8,2026-05-16,SE Gama DF,Brasiliense FC DF,brazil-brasileiro-serie-d,True,True,True,1,1,1,odds_api_io_Bet365_ML
+6aefed9d08422f0f1f2e,2026-05-16,Seaview Gardens FC,Browns Town FC,jamaica-ksafa-championship,True,True,True,1,1,1,odds_api_io_Bet365_ML
+1651f0a69708c94623f9,2026-05-16,CS Cienciano,Alianza Lima,peru-liga-1,True,True,True,1,1,1,odds_api_io_Bet365_ML
+51363e6c483e1b331d14,2026-05-16,Brooklyn FC,Hartford Athletic,usa-usl-league-one-cup,True,True,True,1,1,1,odds_api_io_Bet365_ML
+6e5cf4f411cc13eb6d57,2026-05-16,Carolina Ascent,Sporting Jacksonville,usa-usl-super-league-women,True,True,True,1,1,1,odds_api_io_Bet365_ML
+13917cb41e17ea17b749,2026-05-16,CD Tolima,Atletico Nacional Medellin,colombia-primera-a-apertura,True,True,True,1,1,1,odds_api_io_Bet365_ML
+480eefac97a8478a11da,2026-05-16,Chattanooga Red Wolves SC,Birmingham Legion FC,usa-usl-league-one-cup,True,True,True,1,1,1,odds_api_io_Bet365_ML
+08ee472963f92e2ada42,2026-05-16,Christos FC,Lionsbridge FC,usa-usl-league-two,True,True,True,1,1,1,odds_api_io_Bet365_ML
+c4cfa6630bdc6576a7b5,2026-05-16,Lagarto FC SE,CS Sergipe SE,brazil-brasileiro-serie-d,True,True,True,1,1,1,odds_api_io_Bet365_ML
+c1fb7b944c54bd2c3efe,2026-05-16,Miami FC,Tampa Bay Rowdies,usa-usl-league-one-cup,True,True,True,1,1,1,odds_api_io_Bet365_ML
+3b47d2c420c36d44654f,2026-05-16,New England FC,AC Connecticut,usa-usl-league-two,True,True,True,1,1,1,odds_api_io_Bet365_ML
+33d915098332644506d8,2026-05-16,One Knoxville SC,San Antonio FC,usa-usl-league-one-cup,True,True,True,1,1,1,odds_api_io_Bet365_ML
+e08874cd6b1be9f37f23,2026-05-16,Weston FC,Fort Lauderdale United FC,usa-usl-league-two,True,True,True,1,1,1,odds_api_io_Bet365_ML
+fc153556d60772a10041,2026-05-16,Charlotte FC,Toronto FC,usa-mls,True,True,True,1,1,1,odds_api_io_Bet365_ML
+fc986abd4ed3c9516dfa,2026-05-16,Cuiaba EC MT,Gremio Novorizontino SP,brazil-brasileiro-serie-b,True,True,True,1,1,1,odds_api_io_Bet365_ML
+804b5863f1f6e8af0132,2026-05-16,DC United,Saint Louis City SC,usa-mls,True,True,True,1,1,1,odds_api_io_Bet365_ML
+daa2bab4ae4ee987f0e2,2026-05-16,Fort Wayne FC,Indy Eleven,usa-usl-league-one-cup,True,True,True,1,1,1,odds_api_io_Bet365_ML
+e7ecfe99b16bf11c4758,2026-05-16,New England Revolution,Minnesota United FC,usa-mls,True,True,True,1,1,1,odds_api_io_Bet365_ML
+00807222eee48eaf9267,2026-05-16,New York Red Bulls,New York City FC,usa-mls,True,True,True,1,1,1,odds_api_io_Bet365_ML
+41c958b6ca8a5872a879,2026-05-16,Orlando City SC,Atlanta United FC,usa-mls,True,True,True,1,1,1,odds_api_io_Bet365_ML
+dbbcc5ac55db418c992e,2026-05-16,Philadelphia Union,Columbus Crew,usa-mls,True,True,True,1,1,1,odds_api_io_Bet365_ML
+2fdc49b5a3261221f736,2026-05-16,Sarasota Paradise,Av Alta FC,usa-usl-league-one,True,True,True,1,1,1,odds_api_io_Bet365_ML
+686b3b5f73af82640711,2026-05-17,Barcelona SC,SD Aucas,ecuador-ligapro-primera-a,True,True,True,1,1,1,odds_api_io_Bet365_ML
+e81b79b61b7ce2678b35,2026-05-17,Coastal Spirit FC,Cashmere Technical,new-zealand-national-league,True,True,True,1,1,1,odds_api_io_Bet365_ML
+0c856d381e9faa07624a,2026-05-17,CSD Municipal,CSD Xelaju MC,guatemala-liga-nacional-clausura,True,True,True,1,1,1,odds_api_io_Bet365_ML
+bd42964284dd8e95ece3,2026-05-17,Deportes Limache,CD Universidad Catolica,chile-primera-division,True,True,True,1,1,1,odds_api_io_Bet365_ML
+e6594978e5b3fa9d56d4,2026-05-17,Huntsville City FC,Atlanta United 2,usa-mls-next-pro,True,True,True,1,1,1,odds_api_io_Bet365_ML
+0cadc99304650d786439,2026-05-17,Minnesota United FC 2,Houston Dynamo 2,usa-mls-next-pro,True,True,True,1,1,1,odds_api_io_Bet365_ML
+62b152ca306fbc8db24f,2026-05-17,Oakland Roots SC,Sacramento Republic FC,usa-usl-league-one-cup,True,True,True,1,1,1,odds_api_io_Bet365_ML
+7600980350d189d62def,2026-05-17,R.K.S.V. Scherpenheuvel,C.R.K.S.V. Jong Holland,curacao-prome-divishon,True,True,True,1,1,1,odds_api_io_Bet365_ML
+450dce41a387837eedd7,2026-05-17,SE Palmeiras SP,Cruzeiro EC MG,brazil-brasileiro-serie-a,True,True,True,1,1,1,odds_api_io_Bet365_ML
+11645dba139bcf246a21,2026-05-17,Austin FC,Sporting Kansas City,usa-mls,True,True,True,1,1,1,odds_api_io_Bet365_ML
+cea4842cf11c2886d766,2026-05-17,Corpus Christi FC,FC Tulsa,usa-usl-league-one-cup,True,True,True,1,1,1,odds_api_io_Bet365_ML
+d1454f00f1ef356244d6,2026-05-17,Dallas Trinity FC,Fort Lauderdale United FC,usa-usl-super-league-women,True,True,True,1,1,1,odds_api_io_Bet365_ML
+f6bc58fb7c581d30cbdd,2026-05-17,Houston Dynamo,Vancouver Whitecaps FC,usa-mls,True,True,True,1,1,1,odds_api_io_Bet365_ML
+3f76cc7473a2857f3024,2026-05-17,North Texas SC,Sporting Kansas City II,usa-mls-next-pro,False,False,False,0,0,0,
+bfb1d63424fca40821ef,2026-05-17,FC Western,Upper Hutt City FC,new-zealand-national-league,True,True,True,1,1,1,odds_api_io_Bet365_ML
+cf5fb383202c9915464d,2026-05-17,Denver Summit FC,Orlando Pride,usa-national-womens-soccer-league,True,True,True,1,1,1,odds_api_io_Bet365_ML
+4231dbbdef2ed9e926d2,2026-05-17,AC Boise,Monterey Bay FC,usa-usl-league-one-cup,False,False,False,0,0,0,
+200057359742b0e8d17f,2026-05-17,Broadmeadow Magic FC Reserve,Edgeworth FC Reserve,australia-northern-nsw-npl-reserves,False,False,False,0,0,0,
+278b972f28f5c4aa936c,2026-05-17,CD Luis Angel Firpo Usulutan,CD Aguila San Miguel,el-salvador-primera-division-clausura,False,False,False,0,0,0,
+ccbb25cb44bc60d18ea2,2026-05-17,CD Suchitepequez,Deportivo San Pedro,guatemala-primera-division,False,False,False,0,0,0,
+d78ec39079ed9b27263f,2026-05-17,Diriangen FC Diriamba,Real Esteli FC,nicaragua-primera-division,False,False,False,0,0,0,
+59225d9ae28e2494c175,2026-05-17,Tepatitlan FC,Jaiba Brava,mexico-liga-de-expansion-mx-clausura,False,False,False,0,0,0,
+d61f83f4b213ff77103d,2026-05-17,CD Guadalajara,CF Cruz Azul,mexico-liga-mx-clausura,False,False,False,0,0,0,
+68bb2c05ae94fe15d2c0,2026-05-17,Seattle Sounders,Los Angeles Galaxy,usa-mls,False,False,False,0,0,0,
+a6af58feeebf55ba5cf3,2026-05-17,Independiente Santa Fe,CD Junior FC,colombia-primera-a-apertura,False,False,False,0,0,0,
+7c80cf2fe339152a62ed,2026-05-17,Real Salt Lake,Colorado Rapids,usa-mls,False,False,False,0,0,0,
+ef3ec0ccd998cdee4979,2026-05-17,San Diego FC,FC Cincinnati,usa-mls,False,False,False,0,0,0,
+37e81763374a3c44f3a9,2026-05-17,Sport Boys Association,Cusco FC,peru-liga-1,False,False,False,0,0,0,
+64217b5de23ce347610b,2026-05-17,Veraguas United FC,Alianza FC Panama,panama-liga-panamena-de-futbol-clausura,False,False,False,0,0,0,
+8433a8dd71549301a492,2026-05-17,CS Herediano,Deportivo Saprissa San Jose,costa-rica-primera-division-clausura,False,False,False,0,0,0,
+7b03a8005f7c8432fc0c,2026-05-17,Los Angeles FC 2,Ventura County FC,usa-mls-next-pro,False,False,False,0,0,0,
+2d2a9bcf576ed2aed855,2026-05-17,Phoenix Rising FC,Orange County SC,usa-usl-league-one-cup,False,False,False,0,0,0,
+029f484f8398be6380ba,2026-05-17,San Jose Earthquakes,FC Dallas,usa-mls,False,False,False,0,0,0,
+a67bd712d002aa468f00,2026-05-17,Canberra White Eagles FC,Canberra Juventus FC,australia-u23-capital-npl,False,False,False,0,0,0,
+4a41be9c6bf1a080b804,2026-05-17,Broadmeadow Magic FC,Edgeworth FC,australia-northern-nsw-npl,False,False,False,0,0,0,
+91f315168be1ae329380,2026-05-17,V-Varen Nagasaki,Vissel Kobe,japan-jleague,False,False,False,0,0,0,
+a9a1b23e6be8ee3ee1d3,2026-05-17,Canberra Olympic,Tuggeranong United FC,australia-capital-npl-women,False,False,False,0,0,0,
+01d9ebe0296f74bf4d4d,2026-05-17,Diavorosso Hiroshima,Yamato Sylphid,japan-nadeshiko-league-div-2-women,False,False,False,0,0,0,
+0bc0c6ac3c30d6eea78f,2026-05-17,Fukien,Kwong Wah,hong-kong-china-2-division,False,False,False,0,0,0,
+61284a79875275e452b5,2026-05-17,Bulls FC Academy,Manly United FC,australia-nsw-premier-league-women,False,False,False,0,0,0,
+d1a6bf094dd433c022db,2026-05-17,Adelaide Olympic FC Reserve,Cumberland United Reserve,australia-south-australia-state-league-1-reserves,False,False,False,0,0,0,
+975190578372cbb98947,2026-05-17,Central Coast Mariners Academy,Hills United FC Brumbies,australia-nsw-league-one,False,False,False,0,0,0,
+63cd6f3d91fb8c674da6,2026-05-17,Fagiano Okayama,Shimizu S-Pulse,japan-jleague,False,False,False,0,0,0,
+df376fb808a2be442642,2026-05-17,FC Imabari,Kamatamare Sanuki,japan-jleague-2,False,False,False,0,0,0,
+0735ca6a2b1c603ce620,2026-05-17,Iwaki FC,Matsumoto Yamaga FC,japan-jleague-2,False,False,False,0,0,0,
+f6c0761e717c6d0f02a1,2026-05-17,JEF United Chiba,Kashima Antlers,japan-jleague,False,False,False,0,0,0,
+66e1bbea58ac9c16ee48,2026-05-17,Kagoshima United,Roasso Kumamoto,japan-jleague-2,False,False,False,0,0,0,
+50773b34d6ff12236d1c,2026-05-17,Kataller Toyama,Tokushima Vortis,japan-jleague-2,False,False,False,0,0,0,
+0ff67a148e04116fc51f,2026-05-17,Kochi United SC,Ehime FC,japan-jleague-2,False,False,False,0,0,0,
+9fb3f7e81ee828c76d4b,2026-05-17,Logan Roos FC,Redcliffe Dolphins,australia-queensland-premier-league-3-metro,False,False,False,0,0,0,
+92060bf31bb9a5ac1a51,2026-05-17,Macarthur Rams,Northern Tigers,australia-nsw-premier-league-women,False,False,False,0,0,0,
+af1eebf8a556343f5959,2026-05-17,Maitland FC,Lake Macquarie City FC,australia-northern-nsw-premier-league-women,False,False,False,0,0,0,
+d8cfeaf2cbb23774147c,2026-05-17,Melbourne Victory FC Youth,Preston Lions,australia-victoria-npl-women,False,False,False,0,0,0,
+2b579befaa095bcc0c96,2026-05-17,FC Mokpo,Gyeongju FC,republic-of-korea-k3-league,False,False,False,0,0,0,
+ae18de8246ebbef231b4,2026-05-17,Oita Trinita,Tegevajaro Miyazaki,japan-jleague-2,False,False,False,0,0,0,
+dec90f7d0c939ed48573,2026-05-17,FC Osaka,Zweigen Kanazawa,japan-jleague-2,False,False,False,0,0,0,
+47edab21e78bb965a6ed,2026-05-17,RB Omiya Ardija,AC Nagano Parceiro,japan-jleague-2,False,False,False,0,0,0,
+9d3f7470c56fb5376bbc,2026-05-17,Siheung Citizen FC,FC Gangneung,republic-of-korea-k3-league,False,False,False,0,0,0,
+74acfa7aa3534e7f4dd0,2026-05-17,Yokohama FC,Tochigi SC,japan-jleague-2,False,False,False,0,0,0,
+de353ee54e4127de0043,2026-05-17,Hills United FC,Gladesville Ravens,australia-u23-nsw-npl-women,False,False,False,0,0,0,
+0728ab7cddab75d656c4,2026-05-17,Cerezo Osaka,Nagoya Grampus,japan-jleague,False,False,False,0,0,0,
+d90aa1929110c11a89b3,2026-05-17,Kyoto Sanga FC,Sanfrecce Hiroshima,japan-jleague,False,False,False,0,0,0,
+443e574e6485a863ff45,2026-05-17,Samford Rangers,Taringa Rovers SFC,australia-queensland-premier-league-2,False,False,False,0,0,0,
+fc5efed34ad4d8922f73,2026-05-17,Garuda FC,Palmerston Rovers,australia-northern-territory-premier-league,False,False,False,0,0,0,
+8d144b4a4d5b8b41d74f,2026-05-17,Reilac Shiga FC,Giravanz Kitakyushu,japan-jleague-2,False,False,False,0,0,0,
+d0aa8b7b0200614e9644,2026-05-17,Adelaide Olympic FC,Cumberland United,australia-south-australia-state-league-1,False,False,False,0,0,0,
+7429b5656c59c95d7548,2026-05-17,Bulls FC Academy U23,Manly United FC,australia-u23-nsw-npl-women,False,False,False,0,0,0,
+d50f79196ed47d0b2b00,2026-05-17,Lee Man FC,Tai Po FC,hong-kong-china-premier-league,False,False,False,0,0,0,
+2fc9eecd78e35be35a45,2026-05-17,Moreton City Excelsior FC 2,Brisbane Knights,australia-queensland-premier-league-2,False,False,False,0,0,0,
+21d07bfc95307d990a81,2026-05-17,MT Gravatt Hawks,North Brisbane FC,australia-queensland-premier-league-3-metro,False,False,False,0,0,0,
+3e89ce0da34ae880f968,2026-05-17,Perth Redstar FC,Subiaco AFC,australia-npl-western-australia-women,False,False,False,0,0,0,
+5fae6f1c111a1d6fd354,2026-05-17,Sydney University SFC,Western Sydney Wanderers Youth,australia-nsw-premier-league-women,False,False,False,0,0,0,
+5f652b8b004c7faa3e7a,2026-05-17,FC Ulaanbaatar,Khangarid,mongolia-premier-league,False,False,False,0,0,0,
+01855771babc40d49154,2026-05-17,Uwa Nedlands FC,Sorrento FC,australia-npl-western-australia-women,False,False,False,0,0,0,
+3ae426d8cdf11981672d,2026-05-17,Wuhan Lianzhen FC,Guandong GZ-Power FC,china-fa-cup,False,False,False,0,0,0,
+12d9590fdc7ee52b4f6c,2026-05-17,South Coast Flame FC,Mounties Wanderers FC,australia-nsw-league-two,False,False,False,0,0,0,
+c1539a9667bb8eccd894,2026-05-17,Gimhae FC,Daegu FC,republic-of-korea-k-league-2,False,False,False,0,0,0,
+f7b335af196845e5c906,2026-05-17,Guizhou Xufengtang,Shijiazhuang Gongfu FC,china-fa-cup,False,False,False,0,0,0,
+20e426f6e7061f3e2599,2026-05-17,Hwaseong FC,Busan I Park,republic-of-korea-k-league-2,False,False,False,0,0,0,
+5c8235e71c9fd7a5216c,2026-05-17,Jeju SK FC,FC Anyang,republic-of-korea-k-league-1,False,False,False,0,0,0,
+d9372c08eaddde529705,2026-05-17,Seongnam Ilhwa,Gyeongnam FC,republic-of-korea-k-league-2,False,False,False,0,0,0,
+31a16816665565e09deb,2026-05-17,Jeonbuk FC,Gimcheon Sangmu FC,republic-of-korea-k-league-1,False,False,False,0,0,0,
+70685a1eacb59be3b92c,2026-05-17,Sydney Olympic FC,Western City Rangers FC,australia-nsw-premier-league-women,False,False,False,0,0,0,
+16902106f48fb0c9fd8a,2026-05-17,Beijing WFC,Jiangsu LFC,china-chinese-super-league-women,False,False,False,0,0,0,
+7a88e8833cc6aef5c6f2,2026-05-17,Moggill FC,North Lakes United,australia-queensland-premier-league-3-metro,False,False,False,0,0,0,
+cafb0f1732e40580c49a,2026-05-17,Taichung Rock FC,AC Taipei,chinese-taipei-premier-league,False,False,False,0,0,0,
+33d27fcb28d8be655ad4,2026-05-17,Taiwan Power Company,Ming Chuan University,chinese-taipei-premier-league,False,False,False,0,0,0,
+c6572f21a0f2efca66ba,2026-05-17,Tatung FC,Taichung Futuro FC,chinese-taipei-premier-league,False,False,False,0,0,0,
+49b8e725ce4137838ea4,2026-05-17,MFk Karvina B,FC Hlucin,czechia-msfl,False,False,False,0,0,0,
+07ec3bcf3afc9a1730fa,2026-05-17,Bali United,Bhayangkara Presisi Indonesia FC,indonesia-liga-1,False,False,False,0,0,0,
+41c19a82523e2546f809,2026-05-17,Debreceni VSC II,Tiszaujvaros,hungary-nb-iii,False,False,False,0,0,0,
+71f781e1e67a4f649bd3,2026-05-17,Ferencvarosi TC II,Pecsi MFC,hungary-nb-iii,False,False,False,0,0,0,
+57e26188bbd3dcb98306,2026-05-17,Kisvarda FC II,Cigand SE,hungary-nb-iii,False,False,False,0,0,0,
+b66acc969f038d8529fc,2026-05-17,MTK Budapest II,Dunaujvaros Palhalma Agrospecial SE,hungary-nb-iii,False,False,False,0,0,0,
+b4c4e1aefe863dcfa0c1,2026-05-17,NK Osijek,HNK Rijeka,croatia-u19-prva-nl-juniori,False,False,False,0,0,0,
+ab6ef969bbf1c023fbd8,2026-05-17,Paksi FC II,Majosi SE,hungary-nb-iii,False,False,False,0,0,0,
+fd2d1487e8e1d7e473cb,2026-05-17,Puskas Akademia FC II,Bicskei Tc,hungary-nb-iii,False,False,False,0,0,0,
+551cd05fa9517c2cfdd4,2026-05-17,FC Ryukyu,Gainare Tottori,japan-jleague-2,False,False,False,0,0,0,
+2b05902a42f1b0ff5177,2026-05-17,SC Paderborn 07,1. FC Cologne,germany-amateur-u19-dfb-nachwuchsliga,False,False,False,0,0,0,
+2cfeb0c37a04efa396c4,2026-05-17,Shaanxi Chang An Athletic FC,Shandong Ticai,china-chinese-super-league-women,False,False,False,0,0,0,
+6dbd5947dc5b4ff004d1,2026-05-17,Trabzonspor,Genclerbirligi Ankara,turkiye-amateur-u19-elit-a,False,False,False,0,0,0,
+cfef450bd58e36cffc71,2026-05-17,Ujpest FC II,Papai Perutz FC,hungary-nb-iii,False,False,False,0,0,0,
+dd4ba0724ac51a9037ee,2026-05-17,CD Manchego Ciudad Real,CD Tarancon,spain-amateur-tercera-federacion-group-18,False,False,False,0,0,0,
+53a77e4cd6413146b8fe,2026-05-17,AS Roma,Lazio Rome,italy-serie-a,False,False,False,0,0,0,
+ccb1b88ea0a6a4e95474,2026-05-17,Bucheon FC 1995,FC Pohang Steelers,republic-of-korea-k-league-1,False,False,False,0,0,0,
+1d68447fe1e71090e9a4,2026-05-17,CD Atletico Baleares,Coruxo FC,spain-segunda-federacion,False,False,False,0,0,0,
+51386d0ad4497da6d957,2026-05-17,CD Llosetense,CD Manacor,spain-amateur-tercera-federacion-group-11,False,False,False,0,0,0,
+6914d91aa47e52bef83d,2026-05-17,CD Subiza,CD Izarra,spain-amateur-tercera-federacion-group-15,False,False,False,0,0,0,
+afc01041227d1362e726,2026-05-17,Club Deportiva Minera,CD Coria,spain-segunda-federacion,False,False,False,0,0,0,
+ada21992d6ba5f438db8,2026-05-17,Como 1907,Parma Calcio,italy-serie-a,False,False,False,0,0,0,
+0792d8c58eccc2c8de96,2026-05-17,Cracovia Krakow II,Chelmianka Chelm,poland-iii-liga-group-4,False,False,False,0,0,0,
+af993fbc24d1501f8b2a,2026-05-17,Deportivo Alaves B,Real Jaen CF,spain-segunda-federacion,False,False,False,0,0,0,
+753acdcbec02f6bef514,2026-05-17,Deren,Hunters FC,mongolia-premier-league,False,False,False,0,0,0,
+d846b3278fa1a6b2fc8e,2026-05-17,Gangwon FC,Ulsan HD FC,republic-of-korea-k-league-1,False,False,False,0,0,0,
+f047487c3c27beba9f8b,2026-05-17,Genoa CFC,AC Milan,italy-serie-a,False,False,False,0,0,0,
+50e90a8a261566462a74,2026-05-17,Hoang Anh Gia Lai,Ha Tinh FC,vietnam-v-league-1,False,False,False,0,0,0,
+1421645ca560ef03577d,2026-05-17,FC Honka,Ons Oulu,finland-ykkonen-women,False,False,False,0,0,0,
+54f05af4f4490fc3e79a,2026-05-17,IF Gnistan,Tampereen Ilves,finland-kansallinen-liiga-women,False,False,False,0,0,0,
+81cd717dfbd5979c9815,2026-05-17,Karkonosze Jelenia Gora,KS Polonia Nysa,poland-iii-liga-group-3,False,False,False,0,0,0,
+4bbe1ab11a96269dfa35,2026-05-17,Kawasaki Frontale,Machida Zelvia,japan-jleague,False,False,False,0,0,0,
+7e43e2880c9ae13abcdf,2026-05-17,FC Kryvbas Kriviy Rih,FC Shakhtar Donetsk,ukraine-premier-league,False,False,False,0,0,0,
+6f1609a78e5adeee6a6c,2026-05-17,KS Gornik Polkowice,MKS Kluczbork,poland-iii-liga-group-3,False,False,False,0,0,0,
+6cd26e5f7b95886e80d4,2026-05-17,Las Rozas CF,AD Torrejon CF,spain-amateur-tercera-federacion-group-7,False,False,False,0,0,0,
+20bc760708f77a28306e,2026-05-17,Lech II Poznan,Zawisza Bydgoszcz,poland-iii-liga-group-2,False,False,False,0,0,0,
+0aa772514eefe5d3f80f,2026-05-17,Lechia Tomaszow Mazowiecki,Swit Nowy Dwor Mazowiecki,poland-iii-liga-group-1,False,False,False,0,0,0,
+7dc6cf847e4f4449d444,2026-05-17,Pisa SC,SSC Napoli,italy-serie-a,False,False,False,0,0,0,
+935c790ef926b0f21a35,2026-05-17,Riga FC II,Marupes SC,latvia-1liga,False,False,False,0,0,0,
+8da11b5c22180f6b079d,2026-05-17,FC Rukh Lviv,FC Oleksandriya,ukraine-premier-league,False,False,False,0,0,0,
+4b5a48a1eb0925a86b18,2026-05-17,UD Oliveirense,FC Felgueiras 1932,portugal-liga-portugal-2,False,False,False,0,0,0,
+d80bebeb304afbd8ec77,2026-05-17,UD Poblense,CD Numancia,spain-segunda-federacion,False,False,False,0,0,0,
+50f1da0afa89164e8e7e,2026-05-17,UD San Sebastian Reyes,CD Alcoyano,spain-segunda-federacion,False,False,False,0,0,0,
+6f4783597a2cb11d0524,2026-05-17,UM Escobedo,CD Laredo,spain-amateur-tercera-federacion-group-3,False,False,False,0,0,0,
+3b6ddbba95b8be18c3cf,2026-05-17,Vasas SC II,Dunaharaszti MTK,hungary-nb-iii,False,False,False,0,0,0,
+ebafedb753d0e071fea8,2026-05-17,Widzew Lodz II,MKS Mlawianka Mlawa,poland-iii-liga-group-1,False,False,False,0,0,0,
+e0f43f6762e8cadb37d9,2026-05-17,GKS Piast Gliwice,RKS Rakow Czestochowa,poland-ekstraklasa,False,False,False,0,0,0,
+55220418aed80c5f51b5,2026-05-17,Sandecja Nowy Sacz,Olimpia Grudziadz,poland-ii-liga,False,False,False,0,0,0,
+b3be9c6deef510cae7a3,2026-05-17,CE L'Hospitalet,CF Badalona,spain-amateur-tercera-federacion-group-5,False,False,False,0,0,0,
+3e4178bab69521fc159c,2026-05-17,Churriana de la Vega CF,CF Motril,spain-amateur-tercera-federacion-group-9,False,False,False,0,0,0,
+cfce4dae9c361d910d9d,2026-05-17,Juventus Turin,ACF Fiorentina,italy-serie-a,False,False,False,0,0,0,
+b47d2cf47ac2693e359d,2026-05-17,Angkor Tiger FC,Nagaworld FC,cambodia-cambodian-premier-league,False,False,False,0,0,0,
+e64afad8d119f2c5312c,2026-05-17,BK Astrio,Galtabacks BK,sweden-division-2-promotion-playoffs,False,False,False,0,0,0,
+11e3007c1cd3429b51a6,2026-05-17,Boeung Ket Angkor FC,MOI Kompong Dewa FC,cambodia-cambodian-premier-league,False,False,False,0,0,0,
+4d08099be93e1ac4789c,2026-05-17,CD Azuaga,Moralo CP,spain-amateur-tercera-federacion-group-14,False,False,False,0,0,0,
+a7ae2a7dda5a794a8e9c,2026-05-17,Como,Parma,serie_a,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"
+def61f604946dbc47a8a,2026-05-17,Ebk,Pallokerho Keski-Uusimaa,finland-ykkonen-women,False,False,False,0,0,0,
+26b3475a20293a0b0c32,2026-05-17,Enskede IK,Helges IF,sweden-division-2-promotion-playoffs,False,False,False,0,0,0,
+98da20e337f4dee3ee2a,2026-05-17,FBK Karlstad,Umea FC,sweden-ettan-relegation/promotion,False,False,False,0,0,0,
+d9610f99658e74875e25,2026-05-17,Genoa,Milan,serie_a,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"
+086bc22b8f132fcdc2e5,2026-05-17,FC Helsingoer,Skive IK,denmark-2nd-division,False,False,False,0,0,0,
+00f5c7b7065bf9206163,2026-05-17,III Keruleti Tve,Esmtk Budapest,hungary-nb-iii,False,False,False,0,0,0,
+b3133dd3253e9baca4a0,2026-05-17,Jonkopings Sodra IF,Hassleholms IF,sweden-ettan-relegation/promotion,False,False,False,0,0,0,
+93fb0358c087594ece73,2026-05-17,Jonsereds IF,Lindome GIF,sweden-division-2-promotion-playoffs,False,False,False,0,0,0,
+2e4c3e1563ad12cfc54a,2026-05-17,Juventus,Fiorentina,serie_a,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"
+b16e32c444b703197053,2026-05-17,FC Kyzylzhar SK,FC Altai Oskemen,kazakhstan-premier-league,False,False,False,0,0,0,
+fac80100a44695162d4f,2026-05-17,Lunds BK,Utsiktens BK,sweden-ettan-relegation/promotion,False,False,False,0,0,0,
+109ee34da7141b1d0ee8,2026-05-17,Nam Dinh FC,The Cong - Viettel FC,vietnam-v-league-1,False,False,False,0,0,0,
+cc304caa4d83af4e89db,2026-05-17,New Taipei Hang Yuan,Tainan City,chinese-taipei-premier-league,False,False,False,0,0,0,
+047e28125843e086235e,2026-05-17,Ostersunds FK,Sandvikens IF,sweden-superettan,False,False,False,0,0,0,
+28622274e5996ca0deed,2026-05-17,Pisa,Napoli,serie_a,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"
+39aa6b6aa014f1a2bb98,2026-05-17,Preah Khan Reach Svay Rieng FC,Phnom Penh Crown FC,cambodia-cambodian-premier-league,False,False,False,0,0,0,
+e71f9ba54391f7958bee,2026-05-17,Quy Nhon Binh Dinh,Quang Ninh FC,vietnam-v-league-2,False,False,False,0,0,0,
+c5c29a85129d0737a287,2026-05-17,Roma,Lazio,serie_a,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"
+b2afc73e6feb892cf09a,2026-05-17,Tampereen Ilves 2,P-Iirot,finland-kakkonen-playoffs,False,False,False,0,0,0,
+1ff9fc71a9146276b191,2026-05-17,Vendsyssel FF,AB Gladsaxe,denmark-2nd-division,False,False,False,0,0,0,
+0a2d7595241ea840ec11,2026-05-17,FC Viktoria Plzen,Lokomotiva Brno Horni Herspice,czechia-1-liga-women,False,False,False,0,0,0,
+faecf6b62d8e63101009,2026-05-17,Vittsjo GIK,Djurgardens IF DFF,sweden-damallsvenskan,False,False,False,0,0,0,
+bfc35ab8e9086f1515b9,2026-05-17,FC Zurich,FC Winterthur,switzerland-u19-elite,False,False,False,0,0,0,
+033626a4d66bb56fce49,2026-05-17,BG Tampines Rovers,Lion City Sailors FC,singapore-premier-league,False,False,False,0,0,0,
+b1a81413d841800dd2ea,2026-05-17,Hubei Istar,Guangxi Hengchen FC,china-fa-cup,False,False,False,0,0,0,
+95e72876b9cc1289c2c5,2026-05-17,Jiangxi Lushan,Dalian Kun City,china-fa-cup,False,False,False,0,0,0,
+712b3ae2555fb82aff98,2026-05-17,Manchester United,Nottingham Forest,england-premier-league,False,False,False,0,0,0,
+f0cb0c1bc7f42a720b20,2026-05-17,Paide Linnameeskond,FCI Levadia Tallinn,estonia-premium-liiga,False,False,False,0,0,0,
+1a86e060321b5a74249a,2026-05-17,RSC Anderlecht,Yellow-Red KV Mechelen,belgium-pro-league,False,False,False,0,0,0,
+2c63d3ddb13152c925a7,2026-05-17,Sporting Club Delhi,Inter Kashi FC,india-indian-super-league,False,False,False,0,0,0,
+655ae1826f632335dd64,2026-05-17,NK Jarun Zagreb,NK Dubrava Zagreb,croatia-prva-nl,False,False,False,0,0,0,
+4be1d2fa66cb54834703,2026-05-17,1. FC Slovacko Uherske Hradiste,FC Slovan Liberec,czechia-1-liga-women,False,False,False,0,0,0,
+c511aa46b940b5285de8,2026-05-17,Bayer Leverkusen,Werder Bremen,germany-amateur-women-bundesliga,False,False,False,0,0,0,
+b384ef8dc47a6b80461a,2026-05-17,Bollstanas SK,Falu BS FK,sweden-division-2-promotion-playoffs,False,False,False,0,0,0,
+3f0dbd43fdb56a2b8e95,2026-05-17,Buriram United,Ayutthaya United FC,thailand-fa-cup,False,False,False,0,0,0,
+9f3e248feed9ce884be8,2026-05-17,FC Copenhagen,Randers FC,denmark-superliga,False,False,False,0,0,0,
+b1e542244a9eab58e6b6,2026-05-17,Dfk Dainava B,FK Panevezys B,lithuania-ii-lyga,False,False,False,0,0,0,
+984a966c79fd3e277c97,2026-05-17,Eintracht Frankfurt,FC Union Berlin,germany-amateur-women-bundesliga,False,False,False,0,0,0,
+980fbf290d02b1f8b38a,2026-05-17,Fittja IF,IF Eker Orebro,sweden-division-2-promotion-playoffs,False,False,False,0,0,0,
+930a446ce406991eb423,2026-05-17,FC Fredericia,Silkeborg IF,denmark-superliga,False,False,False,0,0,0,
+5f77cecccba456a1a581,2026-05-17,Hamburger SV,Bayern Munich,germany-amateur-women-bundesliga,False,False,False,0,0,0,
+047adbf3df19b0b8b03d,2026-05-17,Hammarby IF,Malmo FF,sweden-allsvenskan,False,False,False,0,0,0,
+d592dc8f6fb9a612b1d0,2026-05-17,IF Brommapojkarna,Kalmar FF,sweden-allsvenskan,False,False,False,0,0,0,
+1a6cf0e30b5d63841250,2026-05-17,FC Ingolstadt 04,Bayern Munich II,germany-amateur-2-bundesliga-women,False,False,False,0,0,0,
+442a334721ce9fda4b4f,2026-05-17,FC Inter Turku 2,KuPS Akatemia,finland-ykkonen,False,False,False,0,0,0,
+4d8fa9ad55c49bb2ce73,2026-05-17,Odense Boldklub,Vejle BK,denmark-superliga,False,False,False,0,0,0,
+7d687e0083054c81a2d4,2026-05-17,Panserraikos FC,Panaitolikos Agrinio,greece-super-league,False,False,False,0,0,0,
+3df74f38c4ef6d9ab810,2026-05-17,Partick Thistle LFC,Hibernian LFC,scotland-premier-league-women,False,False,False,0,0,0,
+cf1568747cfb1949ddcb,2026-05-17,Persijap Jepara,Borneo Samarinda,indonesia-liga-1,False,False,False,0,0,0,
+a8b9f60bd08d693083e3,2026-05-17,PK-35 Vantaa,VIFK,finland-kansallinen-liiga-women,False,False,False,0,0,0,
+3dcb56680b3fe3c27233,2026-05-17,Prachuap FC,Lamphun Warriors FC,thailand-fa-cup,False,False,False,0,0,0,
+69509e33449556270f7b,2026-05-17,Psim Yogyakarta,Madura United,indonesia-liga-1,False,False,False,0,0,0,
+13fe32dcf996b2e6cb8e,2026-05-17,PSM Makassar,Persib Bandung,indonesia-liga-1,False,False,False,0,0,0,
+aaff122778e1df46bc6d,2026-05-17,RC Deportivo De La Coruna,FC Andorra,spain-laliga-2,False,False,False,0,0,0,
+159a4dd853545c7d0b84,2026-05-17,Ringkoebing IF,Viby IF,denmark-amateur-danmarksserien,False,False,False,0,0,0,
+0a2bdc1c19de80dd2baa,2026-05-17,SGS Essen-Schonebeck 19/68,SC Freiburg,germany-amateur-women-bundesliga,False,False,False,0,0,0,
+29f8a97fcbc242fec1bd,2026-05-17,FC Sudburgenland,Linz AG Blau-Weiss / Kleinmunchen,austria-amateur-bundesliga-women,False,False,False,0,0,0,
+33ae447a1e359452c230,2026-05-17,TSG Hoffenheim,RB Leipzig,germany-amateur-women-bundesliga,False,False,False,0,0,0,
+70092d0e23584f6777cb,2026-05-17,VfL Wolfsburg,1. FC Nuremberg,germany-amateur-women-bundesliga,False,False,False,0,0,0,
+7312cdd6dabf72e855db,2026-05-17,Wisla Plock II,ZKS Olimpia Elblag,poland-iii-liga-group-1,False,False,False,0,0,0,
+844ddbff1b0b7957bdf2,2026-05-17,FC Zhenis,FC Kairat Almaty,kazakhstan-premier-league,False,False,False,0,0,0,
+9d4ab8411e9a35d97c6a,2026-05-17,Heart of Midlothian WFC,Glasgow City LFC,scotland-premier-league-women,False,False,False,0,0,0,
+de7e83a9c7c1f0300cce,2026-05-17,Cong An Ha Noi FC,Dong A Thanh Hoa,vietnam-v-league-1,False,False,False,0,0,0,
+c1ce77e0369096d7dc29,2026-05-17,Kuching City FC,Kuala Lumpur City FC,malaysia-super-league,False,False,False,0,0,0,
+e7a54c26530135efbc41,2026-05-17,Anderlecht,Mechelen,B1,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"
+8626b32f93adf311f160,2026-05-17,Dedza Dynamos FC,Blue Eagles Malawi,malawi-super-league,False,False,False,0,0,0,
+c95b2867c8b974758cdc,2026-05-17,FK Austria Wien,LASK Linz,austria-bundesliga,False,False,False,0,0,0,
+8a40872d587066e30ebe,2026-05-17,Heracles Almelo,FC Groningen,netherlands-eredivisie,False,False,False,0,0,0,
+e9f3d3a905ef07c26f67,2026-05-17,Kolos Kovalivka,FC Obolon Kyiv,ukraine-premier-league,False,False,False,0,0,0,
+c96b5c1181df6741a187,2026-05-17,Man United,Nott'm Forest,premier_league,True,False,False,3,0,0,"football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy"
+7fa1b99c558546ef7f0b,2026-05-17,Miedz Legnica,Ruch Chorzow,poland-i-liga,False,False,False,0,0,0,
+30024e7042b525d8b115,2026-05-17,NEC Nijmegen,Go Ahead Eagles,netherlands-eredivisie,False,False,False,0,0,0,
+5b84bd198e02ced55808,2026-05-17,PEC Zwolle,Feyenoord Rotterdam,netherlands-eredivisie,False,False,False,0,0,0,
+177e77710102afc20d32,2026-05-17,PSV Eindhoven,FC Twente Enschede,netherlands-eredivisie,False,False,False,0,0,0,
+20585cb18f94d3a4ceee,2026-05-17,FC Salzburg,TSV Hartberg,austria-bundesliga,False,False,False,0,0,0,
+05f5e18736c160c92fee,2026-05-17,SC Heerenveen,Ajax Amsterdam,netherlands-eredivisie,False,False,False,0,0,0,
+34c6ddd20b12ed23e828,2026-05-17,Silver Strikers,Masters FC,malawi-super-league,False,False,False,0,0,0,

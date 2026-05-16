@@ -4,13 +4,13 @@ Measures automatic price coverage for forward predictions.
 Fresh API price means odds-api.io or API-Football. This is still paper/proxy-only and not real-money ready.
 
 Forward prediction rows: 300
-Automatic price rows: 357
-Value snapshot rows: 615
-Matches with any automatic price: 69
-Matches with fresh API price: 41
-Matches with odds-api.io price: 41
-Fresh API match coverage rate: 0.1367
-odds-api.io match coverage rate: 0.1367
+Automatic price rows: 372
+Value snapshot rows: 675
+Matches with any automatic price: 99
+Matches with fresh API price: 56
+Matches with odds-api.io price: 56
+Fresh API match coverage rate: 0.1867
+odds-api.io match coverage rate: 0.1867
 Real-money ready: False
 
 ## Match coverage
@@ -19,307 +19,307 @@ Real-money ready: False
 - 2026-05-16 | Falkirk vs Rangers | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
 - 2026-05-16 | Hibernian vs Motherwell | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
 - 2026-05-16 | Sociedad B vs Mirandes | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
-- 2026-05-16 | 1. FC Heidenheim vs FSV Mainz | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-16 | ACV Assen vs Koninklijke HFC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-16 | ADO 20 Heemskerk vs VV Scherpenzeel | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-16 | Bayer Leverkusen vs Hamburger SV | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-16 | Bayern Munich vs 1. FC Cologne | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-16 | Borussia Monchengladbach vs TSG Hoffenheim | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-16 | FC Chernomorets Odessa vs FC Livyi Bereh Kyiv | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-16 | Eintracht Frankfurt vs VfB Stuttgart | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-16 | Excelsior Maassluis vs Jong Almere City FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-16 | HHC Hardenberg vs Kozakken Boys Werkendam | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-16 | Hoek vs Rijnsburgse Boys | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-16 | Jong Sparta Rotterdam vs De Treffers Groesbeek | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | K.v.v. Quick Boys vs IJsselmeervogels | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Rkav Volendam vs BVV Barendrecht | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-16 | SC Freiburg vs RB Leipzig | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-16 | FC St. Pauli vs VFL Wolfsburg | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-16 | SV Meerssen vs FC Rijnvogels | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-16 | SV Spakenburg vs VV Katwijk | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-16 | SV Togb vs Groene Ster | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-16 | USV Hercules vs Harkemase Boys | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-16 | VV Gemert vs Stedoco | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-16 | Werder Bremen vs Borussia Dortmund | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-16 | A-Xiii Auhof Center vs WAF Vorwarts Brigittenau | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-16 | Arendal FK vs FK Jerv | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Bryne FK vs Stroemmen IF | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-16 | CA Independiente Cbba vs Club Tigres FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-16 | Calcio Lecco 1912 U19 vs Pisa Calcio | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | CE Carroi vs Inter Club de Escaldes | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-16 | Chelsea FC vs Manchester City | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-16 | Corluspor 1947 vs Malatya Yesilyurt Belediyespor | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-16 | DLR Waves vs Cork City Wfc | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-16 | Edinburgh City FC vs Brora Rangers | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Fatih Karagumruk Istanbul vs Alanyaspor | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | FK Haugesund vs Aasane Fotball | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Floriana FC vs Marsaxlokk FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-16 | Fredrikstad FK vs HamKam | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-16 | Hammarby Talang FF vs FC Stockholm Internazionale | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Harju JK Laagri vs Parnu JK Vaprus | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | FC Hegelmann Kaunas vs FK Suduva Marijampole | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | HNK Gorica vs NK Osijek | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Hoedd IL vs Sogndal Fotball | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | IFK Goteborg vs Orebro SK Soder | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-16 | IFK Lidingo FK vs FC Gute | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-16 | IFK Mariehamn vs Kuopion Palloseura | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | FC Irtysh Pavlodar vs FC Yelimai | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-16 | Jakobstads Bollklubb vs JS Hercules | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Kayserispor vs Konyaspor | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | KF Bashkimi Kumanovo 1947 vs FK Makedonija Gjorce Petrov | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-16 | KF Tefik Canga vs KF Kika | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-16 | KF Teuta vs KS Pogradeci | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-16 | KSZO Ostrowiec Swietokrzyski vs Sokol Kolbuszowa Dolna | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-16 | KV Vesturbaer vs Hottur/Huginn | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-16 | LAC Inter vs Gerasd. Stammersd. | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-16 | Lillestroem SK vs Sandefjord Fotball | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-16 | Lyn 1896 FK vs Kongsvinger IL Toppfotball | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | MKS Chojniczanka Chojnice vs Zaglebie Sosnowiec | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Molde FK vs Kristiansund BK | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-16 | Odds BK vs Moss FK | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Odisha FC vs Punjab FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Onsala BK vs Hestrafors IF | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
-- 2026-05-16 | FC Ordino vs CF Esperanca D Andorra | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Patriotas FC PR vs Coritiba FC PR | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Reynir Sandgerdi vs KF Fjallabyggd | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Rosenborg BK vs Aalesunds FK | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Royal Charleroi SC vs KVC Westerlo | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | SC Retz vs SV Gloggnitz | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Seinajoen JK vs FC Inter Turku | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Shamrock Rovers FC vs Bohemian FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Stabaek IF vs Raufoss IL | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Stroemsgodset IF vs Ranheim | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | SV Zulte Waregem vs KVC Westerlo | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Taby FK vs Sunnersta AIF | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | UMF Selfoss vs Kormakur/Hvot | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Viking FK vs IK Start | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Waterford FC vs Sligo Rovers | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | AL Ittihad Kalba vs AL Wasl | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Maccabi Petah Tikva vs Maccabi Netanya | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | AD Ceuta vs Malaga CF | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Cultural Leonesa vs SD Eibar | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Hapoel Tel Aviv vs Maccabi Haifa | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Al-Muharraq SC vs Aali | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Al-Najma Manama vs AL-Khaldiya SC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | B36 Torshavn II vs EB/Streymur II | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-16 | Bayern Munich vs FC Koln | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
-- 2026-05-16 | FC Dordoi Bishkek vs FC Ozgon | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-16 | Ein Frankfurt vs Stuttgart | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
 - 2026-05-16 | Freiburg vs RB Leipzig | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
 - 2026-05-16 | Heidenheim vs Mainz | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
 - 2026-05-16 | Leverkusen vs Hamburg | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
 - 2026-05-16 | M'gladbach vs Hoffenheim | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
-- 2026-05-16 | Moreirense FC vs AVS Futebol SAD | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | FC Porto vs Santa Clara Azores | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Primeiro de Agosto vs Kabuscorp SCP | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Sitra Club vs Malkiya Club | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-16 | St Pauli vs Wolfsburg | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
-- 2026-05-16 | FC Twente Enschede vs PSV Eindhoven | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-16 | Union Berlin vs Augsburg | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
 - 2026-05-16 | Werder Bremen vs Dortmund | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
-- 2026-05-16 | Zakho FC vs AL Najaf | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | 1. FC Slovacko Uherske Hradiste vs FK Mlada Boleslav | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | AC Virtus vs SP La Fiorita | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | AEK Larnaca vs Pafos FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | APOEL Nikosia vs AC Omonia Nicosia | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Apollon Limassol vs Aris Limassol FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | AS Trencin vs FK Kosice | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Avia Swidnik vs Korona II Kielce SA | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | FC Banik Ostrava vs FC Zlin | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Blau-Weiss Linz vs Grazer AK 1902 | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | CA Boston River vs CA Cerro | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-16 | Charleroi vs Westerlo | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
-- 2026-05-16 | Club America vs Guadalajara | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Csd Macara vs Deportivo Ibarra | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | DAC 1904 Dunajska Streda vs FC Spartak Trnava | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | FC Deutschkreutz vs ASK Horitschon/U | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | FC Dinamo Tbilisi vs FC Iberia 1999 | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | FK Metta / Lu vs JDFS Alberts | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | FK Nachod vs FK Dobrovice | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | FK Pribram vs 1.SK Prostejov | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | FK Radnik Hadzici vs FK Igman Konjic | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | FK Romanija Pale vs FK Zvijezda 09 | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | FK Seko Louny vs Tempo Prague | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | FK Teplice vs Dukla Prague | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | FK Tuzla City vs NK Celik Zenica | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | FK Usti nad Labem vs SK Slavia Prague B | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | IK Brage vs IFK Norrkoping FK | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | KFC Komarno vs 1. FC Tatran Presov | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-16 | Karagumruk vs Alanyaspor | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
-- 2026-05-16 | FC Kolkheti-1913 Poti vs FC Gareji Sagarejo | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | KS Wisloka Debica vs Wislanie Skawina | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Maccabi Haifa FC vs Hapoel Petah Tikva FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | MFK Karvina vs SK Sigma Olomouc | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | MFK Skalica vs MFK Ruzomberok | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | MSK Namestovo vs MFK Dukla Banska Bystrica B | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | MSK Zilina vs FK Zeleziarne Podbrezova | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | NK Bratstvo Gracanica vs FK Buducnost Banovici | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Rachad Bernoussi vs FUS Rabat | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Rana FK vs IK Junkeren | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Santa Clara SAD vs Rio Ave FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | SC Wiener Viktoria vs FC Marchfeld Donauauen | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | SCR Altach vs SV Ried | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Shelbourne LFC vs Galway United Wfc | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Siarka Tarnobrzeg vs Wisla II Krakow | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | FC Silon Taborsko vs SFC Opava | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | SK Artis Brno vs FK Viktoria Zizkov | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | SK Dynamo Ceske Budejovice vs MFK Chrudim | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | SK Hanacka Slavia Kromeriz vs FC Zbrojovka Brno | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | SK Slovan Bratislava vs MFK Zemplin Michalovce | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Sparta Prague B vs FC Vysocina Jihlava | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Sporting Cristal vs FC Killas | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | SV Tillmitsch vs FC Schladming | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | UD Santa Marta vs CD Guijuelo | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | VfB Hohenems vs SV Wals-Grunau | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | FC Vlasim vs FC Banik Ostrava B | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | WDA Swiecie vs Gzs Tluchovia Tluchowo | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Wolfsberger AC vs WSG Tirol | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-16 | Ceuta vs Malaga | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
 - 2026-05-16 | Cultural Leonesa vs Eibar | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
-- 2026-05-16 | Debreceni VSC vs Ujpest FC Budapest | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Diosgyori VTK vs Paksi FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Ferencvarosi Budapest vs Zalaegerszeg TE | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Kisvarda FC vs WKW ETO FC Gyor | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Academica de Coimbra vs CD Trofense | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | AFK Csikszereda Miercurea Ciuc vs FC Botosani | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Al Ain FC vs Dibba Al Fujairah | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Al Dhafra SSC vs Al Wahda FC (UAE) | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Al Jazira (UAE) vs Baniyas Club | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Dziugas vs FK Banga Gargzdai | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | JJK Jyvaskyla vs SalPa | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-16 | Moreirense vs AVS | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
-- 2026-05-16 | NK BSK Bijelo Brdo vs NK Hrvace | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | NK Celje vs FC Koper | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | NK Dugo Selo vs NK Grobnican | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | NK Solin vs NK Segesta | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | NK Uljanik vs NK Uskok | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Orijent 1919 Rijeka vs NK Karlovac 1919 | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | CF Os Belenenses vs CD Mafra | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-16 | Porto vs Santa Clara | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
-- 2026-05-16 | Shabab Al Ahli Dubai vs AL Bataeh (UAE) | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Touring KE vs SD Leioa | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | UD Santarem vs Varzim SC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Vevey-Sports vs FC Bulle | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Vitoria Guimaraes B vs Amarante FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Wisla Plock vs Gornik Zabrze | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | AC Oulu vs Turun Palloseura | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | AE Larissa FC vs Atromitos Athinon | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Altona 93 vs Kickers Emden | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Andrezieux-Boutheon FC vs FC Rousset Svo | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | FC Arda Kardzhali vs PFC Lokomotiv Plovdiv | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | AS Beauvais Oise vs Biesheim ASC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | AS Cannes vs Lusitanos Saint-Maur | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | AS Sonabel Ouagadougou vs Kozaf | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Asteras Tripolis vs AE Kifisia FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Bodoe/Glimt vs Tromsoe IL | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Botev Plovdiv vs PFC Cherno More Varna | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | CA Batna vs CR Temouchent | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Cartusia Kartuzy vs Pogon Nowe Skalmierzyce | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Colmar vs Wasquehal Football | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | FC De Montlouis vs US Saint-Malo | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Dinan-Lehon FC vs Angouleme Charente FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Eintracht Norderstedt vs HSC Hannover | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Entente Feignies Aulnoye vs FCSR Haguenau | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | FSV Schoningen 2011 vs 1. FC Phonix Lubeck | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Hamburger SV II vs Blau-Weiss Lohne | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Hannover 96 II vs Bremer SV 1906 | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | IF Gnistan vs FF Jaro | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Ireland vs Grenada | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Lausanne-Sport vs Grasshopper Club Zurich | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Les Herbiers vs Voltigeurs de Chateaubriant | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | FC Limonest Dardilly Saint-Didier vs Nimes Olympique | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Paide Linnameeskond vs Saku Sporting | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Panserraikos FC vs Panaitolikos Agrinio | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Podbeskidzie Bielsko-Biała vs Sokol Kleczew | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Pors Grenland vs Notodden FK | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Ramtha SC vs Al Hussein Irbid | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Real Oviedo Vetusta vs CD Tudelano | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Riga FC vs FS Jelgava | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | FC Solothurn vs BSC Old Boys | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | SV Meppen 1912 vs FC St. Pauli II | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Thionville US Lusitanos vs FC Chambly Oise | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Uniao de Leiria vs Gil Vicente | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | US de la Comoe vs Etoile Filante de Ouagadougou | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | USM EL Harrach vs US Chaouia | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | VfB Lubeck vs SC Weiche Flensburg 08 | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | VfB Oldenburg vs SV Werder Bremen II | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Vikingur Olafsvik vs Dalvik Reynir | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | FC Winterthur vs FC Luzern | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | FC Zurich vs Servette Geneva | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Al Hilal SFC vs Neom SC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Al-Okhdood Club vs Al-Khaleej Club | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | NK Lokomotiva Zagreb vs HNK Hajduk Split | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Standard Liege vs KRC Genk | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | CD Estradense vs CA Arteixo | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Deportes Magallanes vs Deportes Recoleta | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Gambia Ports Authority vs Hart FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Racing Club Villalbes vs SD Compostela | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Racing Santander vs Real Valladolid | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Stenhousemuir FC vs Alloa Athletic FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | UD Almeria vs UD Las Palmas | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | FC Arouca vs CD Tondela | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-16 | Asteras Tripolis vs Kifisia | any=True | fresh_api=False | odds_api_io=False | rows=2 | sources=football_data_average_market_proxy, football_data_max_market_proxy
-- 2026-05-16 | Athlone Town FC vs Treaty United | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Casa Pia Lisbon vs Rio Ave FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | FC Dinamo Batumi vs FC Meshakhte Tkibuli | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Erbil SC vs Newroz SC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | ES Setif vs CR Belouizdad | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | FK Rfs II vs Leevon Ppk | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Gaziantep FK vs Istanbul Basaksehir | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-16 | Larisa vs Atromitos | any=True | fresh_api=False | odds_api_io=False | rows=2 | sources=football_data_average_market_proxy, football_data_max_market_proxy
-- 2026-05-16 | Nacional da Madeira vs Vitoria SC Guimaraes | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-16 | Panserraikos vs Panetolikos | any=True | fresh_api=False | odds_api_io=False | rows=2 | sources=football_data_average_market_proxy, football_data_max_market_proxy
-- 2026-05-16 | FC Prishtina Bern vs Lancy FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Samsunspor vs Goztepe Izmir | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | SC Braga vs Estrela Amadora | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | SC Kalsdorf vs Wohnbau Dietach | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Sioni Bolnisi vs Odishi | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Sportivo Luqueno vs Rubio Nu | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | UMF Tindastoll vs Arbaer | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Vllaznia Shkoder vs FC Dinamo City | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Wexford Youths AFC vs Peamount United Dublin | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-16 | Standard vs Genk | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
-- 2026-05-16 | LKS 1926 Lomza vs GKS Belchatow | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-16 | Almeria vs Las Palmas | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
-- 2026-05-16 | ATSV Wolfsberg vs SC St. Veit | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Chrobry Glogow vs MKS Znicz Pruszkow | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Gornik Leczna vs Odra Opole | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-16 | Granada vs Burgos | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
-- 2026-05-16 | KAA Gent vs KRC Genk | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Maccabi Tel Aviv FC vs Beitar Jerusalem FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-16 | Santander vs Valladolid | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
-- 2026-05-16 | ZKS Stal Rzeszow vs Wieczysta Krakow | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Al Nassr Club vs Gamba Osaka | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | AD Cabofriense RJ vs Serrano FC RJ | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Al Ahli Saudi FC vs Al-Kholood | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | America FC MG vs Atletico Mineiro MG | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | America FC RJ vs Madureira RJ | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-16 | Arouca vs Tondela | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
-- 2026-05-16 | Belgrano de Cordoba vs Boca Juniors | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Blumenau EC SC vs CN Marcilio Dias SC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Bonsucesso FC RJ vs Audax Rio EC RJ | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Botafogo FR RJ vs Cruzeiro EC MG | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | CA Juventud de Las Piedras vs CA Progreso | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 - 2026-05-16 | Casa Pia vs Rio Ave | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
-- 2026-05-16 | CR Vasco da Gama RJ vs Rio Negro RR | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Criciuma EC SC vs Fluminense FC RJ | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | CSDC Alianza Universidad vs CD Estudiantil Cni | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Defensor SC Montevideo vs CA Penarol Montevideo | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Deportivo Camioneros vs CA Brown de Adrogue | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | FC Dinamo Bucuresti 1948 vs FC CFR 1907 Cluj | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | Doce Mel EC BA vs Perolas Negras RJ | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | EC Juventude RS vs CR Flamengo RJ | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | FBC Melgar vs Sport Huancayo | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | FK Bokelj Kotor vs FK Arsenal Tivat | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | FK Buducnost vs FK Mornar Bar | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | FK Javor Ivanjica vs FK Mladost Lucani | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | FK Jezero Plav vs OFK Mladost DG | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
-- 2026-05-16 | FK Napredak Krusevac vs FK Radnicki 1923 Kragujevac | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-16 | Gaziantep vs Buyuksehyr | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
+- 2026-05-16 | Nacional vs Guimaraes | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
+- 2026-05-16 | Samsunspor vs Goztep | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
+- 2026-05-16 | Sp Braga vs Estrela | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
+- 2026-05-16 | St Truiden vs Gent | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
+- 2026-05-16 | Estoril vs Benfica | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
+- 2026-05-16 | Famalicao vs Alverca | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
+- 2026-05-16 | Sp Lisbon vs Gil Vicente | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
+- 2026-05-16 | Atletico Mineiro MG vs Mirassol FC SP | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-16 | CA Penarol Montevideo vs Liverpool Montevideo | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-16 | CD O´Higgins vs Universidad de Concepcion | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-16 | CD Universidad Catolica del Ecuador vs Delfin SC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-16 | Cerro Porteno vs Recoleta FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-16 | Curico Unido vs Santiago Wanderers | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-16 | Goias EC GO vs Botafogo FC SP | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-16 | New Jersey United AC vs Jackson Lions FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-16 | SC Internacional RS vs CR Vasco da Gama RJ | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-16 | Capital CF DF vs Ceilandia EC DF | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-16 | Carolina Core FC vs Chicago Fire FC II | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-16 | CT United FC vs Toronto FC II | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-16 | Deportivo Merlo vs CD Armenio | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-16 | Fluminense FC RJ vs Sao Paulo FC SP | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-16 | Forward Madison FC vs Detroit City FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-16 | Richmond Kickers vs Charleston Battery | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-16 | CA River Plate (ARG) vs CA Rosario Central | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-16 | Figueirense FC SC vs AO Itabaiana SE | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-16 | Floresta EC CE vs Amazonas FC AM | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-16 | North Carolina Courage vs Chicago Stars FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-16 | Point Michel vs Middleham United FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-16 | SE Gama DF vs Brasiliense FC DF | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-16 | Seaview Gardens FC vs Browns Town FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-16 | CS Cienciano vs Alianza Lima | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-16 | Brooklyn FC vs Hartford Athletic | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-16 | Carolina Ascent vs Sporting Jacksonville | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-16 | CD Tolima vs Atletico Nacional Medellin | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-16 | Chattanooga Red Wolves SC vs Birmingham Legion FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-16 | Christos FC vs Lionsbridge FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-16 | Lagarto FC SE vs CS Sergipe SE | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-16 | Miami FC vs Tampa Bay Rowdies | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-16 | New England FC vs AC Connecticut | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-16 | One Knoxville SC vs San Antonio FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-16 | Weston FC vs Fort Lauderdale United FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-16 | Charlotte FC vs Toronto FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-16 | Cuiaba EC MT vs Gremio Novorizontino SP | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-16 | DC United vs Saint Louis City SC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-16 | Fort Wayne FC vs Indy Eleven | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-16 | New England Revolution vs Minnesota United FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-16 | New York Red Bulls vs New York City FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-16 | Orlando City SC vs Atlanta United FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-16 | Philadelphia Union vs Columbus Crew | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-16 | Sarasota Paradise vs Av Alta FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-17 | Barcelona SC vs SD Aucas | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-17 | Coastal Spirit FC vs Cashmere Technical | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-17 | CSD Municipal vs CSD Xelaju MC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-17 | Deportes Limache vs CD Universidad Catolica | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-17 | Huntsville City FC vs Atlanta United 2 | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-17 | Minnesota United FC 2 vs Houston Dynamo 2 | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-17 | Oakland Roots SC vs Sacramento Republic FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-17 | R.K.S.V. Scherpenheuvel vs C.R.K.S.V. Jong Holland | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-17 | SE Palmeiras SP vs Cruzeiro EC MG | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-17 | Austin FC vs Sporting Kansas City | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-17 | Corpus Christi FC vs FC Tulsa | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-17 | Dallas Trinity FC vs Fort Lauderdale United FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-17 | Houston Dynamo vs Vancouver Whitecaps FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-17 | North Texas SC vs Sporting Kansas City II | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | FC Western vs Upper Hutt City FC | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-17 | Denver Summit FC vs Orlando Pride | any=True | fresh_api=True | odds_api_io=True | rows=1 | sources=odds_api_io_Bet365_ML
+- 2026-05-17 | AC Boise vs Monterey Bay FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Broadmeadow Magic FC Reserve vs Edgeworth FC Reserve | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | CD Luis Angel Firpo Usulutan vs CD Aguila San Miguel | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | CD Suchitepequez vs Deportivo San Pedro | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Diriangen FC Diriamba vs Real Esteli FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Tepatitlan FC vs Jaiba Brava | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | CD Guadalajara vs CF Cruz Azul | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Seattle Sounders vs Los Angeles Galaxy | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Independiente Santa Fe vs CD Junior FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Real Salt Lake vs Colorado Rapids | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | San Diego FC vs FC Cincinnati | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Sport Boys Association vs Cusco FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Veraguas United FC vs Alianza FC Panama | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | CS Herediano vs Deportivo Saprissa San Jose | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Los Angeles FC 2 vs Ventura County FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Phoenix Rising FC vs Orange County SC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | San Jose Earthquakes vs FC Dallas | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Canberra White Eagles FC vs Canberra Juventus FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Broadmeadow Magic FC vs Edgeworth FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | V-Varen Nagasaki vs Vissel Kobe | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Canberra Olympic vs Tuggeranong United FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Diavorosso Hiroshima vs Yamato Sylphid | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Fukien vs Kwong Wah | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Bulls FC Academy vs Manly United FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Adelaide Olympic FC Reserve vs Cumberland United Reserve | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Central Coast Mariners Academy vs Hills United FC Brumbies | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Fagiano Okayama vs Shimizu S-Pulse | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | FC Imabari vs Kamatamare Sanuki | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Iwaki FC vs Matsumoto Yamaga FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | JEF United Chiba vs Kashima Antlers | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Kagoshima United vs Roasso Kumamoto | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Kataller Toyama vs Tokushima Vortis | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Kochi United SC vs Ehime FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Logan Roos FC vs Redcliffe Dolphins | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Macarthur Rams vs Northern Tigers | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Maitland FC vs Lake Macquarie City FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Melbourne Victory FC Youth vs Preston Lions | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | FC Mokpo vs Gyeongju FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Oita Trinita vs Tegevajaro Miyazaki | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | FC Osaka vs Zweigen Kanazawa | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | RB Omiya Ardija vs AC Nagano Parceiro | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Siheung Citizen FC vs FC Gangneung | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Yokohama FC vs Tochigi SC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Hills United FC vs Gladesville Ravens | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Cerezo Osaka vs Nagoya Grampus | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Kyoto Sanga FC vs Sanfrecce Hiroshima | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Samford Rangers vs Taringa Rovers SFC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Garuda FC vs Palmerston Rovers | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Reilac Shiga FC vs Giravanz Kitakyushu | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Adelaide Olympic FC vs Cumberland United | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Bulls FC Academy U23 vs Manly United FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Lee Man FC vs Tai Po FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Moreton City Excelsior FC 2 vs Brisbane Knights | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | MT Gravatt Hawks vs North Brisbane FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Perth Redstar FC vs Subiaco AFC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Sydney University SFC vs Western Sydney Wanderers Youth | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | FC Ulaanbaatar vs Khangarid | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Uwa Nedlands FC vs Sorrento FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Wuhan Lianzhen FC vs Guandong GZ-Power FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | South Coast Flame FC vs Mounties Wanderers FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Gimhae FC vs Daegu FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Guizhou Xufengtang vs Shijiazhuang Gongfu FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Hwaseong FC vs Busan I Park | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Jeju SK FC vs FC Anyang | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Seongnam Ilhwa vs Gyeongnam FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Jeonbuk FC vs Gimcheon Sangmu FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Sydney Olympic FC vs Western City Rangers FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Beijing WFC vs Jiangsu LFC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Moggill FC vs North Lakes United | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Taichung Rock FC vs AC Taipei | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Taiwan Power Company vs Ming Chuan University | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Tatung FC vs Taichung Futuro FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | MFk Karvina B vs FC Hlucin | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Bali United vs Bhayangkara Presisi Indonesia FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Debreceni VSC II vs Tiszaujvaros | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Ferencvarosi TC II vs Pecsi MFC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Kisvarda FC II vs Cigand SE | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | MTK Budapest II vs Dunaujvaros Palhalma Agrospecial SE | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | NK Osijek vs HNK Rijeka | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Paksi FC II vs Majosi SE | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Puskas Akademia FC II vs Bicskei Tc | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | FC Ryukyu vs Gainare Tottori | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | SC Paderborn 07 vs 1. FC Cologne | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Shaanxi Chang An Athletic FC vs Shandong Ticai | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Trabzonspor vs Genclerbirligi Ankara | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Ujpest FC II vs Papai Perutz FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | CD Manchego Ciudad Real vs CD Tarancon | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | AS Roma vs Lazio Rome | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Bucheon FC 1995 vs FC Pohang Steelers | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | CD Atletico Baleares vs Coruxo FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | CD Llosetense vs CD Manacor | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | CD Subiza vs CD Izarra | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Club Deportiva Minera vs CD Coria | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Como 1907 vs Parma Calcio | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Cracovia Krakow II vs Chelmianka Chelm | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Deportivo Alaves B vs Real Jaen CF | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Deren vs Hunters FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Gangwon FC vs Ulsan HD FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Genoa CFC vs AC Milan | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Hoang Anh Gia Lai vs Ha Tinh FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | FC Honka vs Ons Oulu | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | IF Gnistan vs Tampereen Ilves | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Karkonosze Jelenia Gora vs KS Polonia Nysa | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Kawasaki Frontale vs Machida Zelvia | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | FC Kryvbas Kriviy Rih vs FC Shakhtar Donetsk | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | KS Gornik Polkowice vs MKS Kluczbork | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Las Rozas CF vs AD Torrejon CF | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Lech II Poznan vs Zawisza Bydgoszcz | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Lechia Tomaszow Mazowiecki vs Swit Nowy Dwor Mazowiecki | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Pisa SC vs SSC Napoli | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Riga FC II vs Marupes SC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | FC Rukh Lviv vs FC Oleksandriya | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | UD Oliveirense vs FC Felgueiras 1932 | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | UD Poblense vs CD Numancia | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | UD San Sebastian Reyes vs CD Alcoyano | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | UM Escobedo vs CD Laredo | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Vasas SC II vs Dunaharaszti MTK | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Widzew Lodz II vs MKS Mlawianka Mlawa | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | GKS Piast Gliwice vs RKS Rakow Czestochowa | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Sandecja Nowy Sacz vs Olimpia Grudziadz | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | CE L'Hospitalet vs CF Badalona | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Churriana de la Vega CF vs CF Motril | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Juventus Turin vs ACF Fiorentina | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Angkor Tiger FC vs Nagaworld FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | BK Astrio vs Galtabacks BK | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Boeung Ket Angkor FC vs MOI Kompong Dewa FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | CD Azuaga vs Moralo CP | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Como vs Parma | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
+- 2026-05-17 | Ebk vs Pallokerho Keski-Uusimaa | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Enskede IK vs Helges IF | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | FBK Karlstad vs Umea FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Genoa vs Milan | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
+- 2026-05-17 | FC Helsingoer vs Skive IK | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | III Keruleti Tve vs Esmtk Budapest | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Jonkopings Sodra IF vs Hassleholms IF | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Jonsereds IF vs Lindome GIF | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Juventus vs Fiorentina | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
+- 2026-05-17 | FC Kyzylzhar SK vs FC Altai Oskemen | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Lunds BK vs Utsiktens BK | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Nam Dinh FC vs The Cong - Viettel FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | New Taipei Hang Yuan vs Tainan City | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Ostersunds FK vs Sandvikens IF | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Pisa vs Napoli | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
+- 2026-05-17 | Preah Khan Reach Svay Rieng FC vs Phnom Penh Crown FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Quy Nhon Binh Dinh vs Quang Ninh FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Roma vs Lazio | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
+- 2026-05-17 | Tampereen Ilves 2 vs P-Iirot | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Vendsyssel FF vs AB Gladsaxe | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | FC Viktoria Plzen vs Lokomotiva Brno Horni Herspice | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Vittsjo GIK vs Djurgardens IF DFF | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | FC Zurich vs FC Winterthur | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | BG Tampines Rovers vs Lion City Sailors FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Hubei Istar vs Guangxi Hengchen FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Jiangxi Lushan vs Dalian Kun City | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Manchester United vs Nottingham Forest | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Paide Linnameeskond vs FCI Levadia Tallinn | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | RSC Anderlecht vs Yellow-Red KV Mechelen | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Sporting Club Delhi vs Inter Kashi FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | NK Jarun Zagreb vs NK Dubrava Zagreb | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | 1. FC Slovacko Uherske Hradiste vs FC Slovan Liberec | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Bayer Leverkusen vs Werder Bremen | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Bollstanas SK vs Falu BS FK | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Buriram United vs Ayutthaya United FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | FC Copenhagen vs Randers FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Dfk Dainava B vs FK Panevezys B | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Eintracht Frankfurt vs FC Union Berlin | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Fittja IF vs IF Eker Orebro | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | FC Fredericia vs Silkeborg IF | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Hamburger SV vs Bayern Munich | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Hammarby IF vs Malmo FF | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | IF Brommapojkarna vs Kalmar FF | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | FC Ingolstadt 04 vs Bayern Munich II | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | FC Inter Turku 2 vs KuPS Akatemia | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Odense Boldklub vs Vejle BK | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Panserraikos FC vs Panaitolikos Agrinio | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Partick Thistle LFC vs Hibernian LFC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Persijap Jepara vs Borneo Samarinda | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | PK-35 Vantaa vs VIFK | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Prachuap FC vs Lamphun Warriors FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Psim Yogyakarta vs Madura United | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | PSM Makassar vs Persib Bandung | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | RC Deportivo De La Coruna vs FC Andorra | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Ringkoebing IF vs Viby IF | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | SGS Essen-Schonebeck 19/68 vs SC Freiburg | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | FC Sudburgenland vs Linz AG Blau-Weiss / Kleinmunchen | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | TSG Hoffenheim vs RB Leipzig | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | VfL Wolfsburg vs 1. FC Nuremberg | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Wisla Plock II vs ZKS Olimpia Elblag | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | FC Zhenis vs FC Kairat Almaty | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Heart of Midlothian WFC vs Glasgow City LFC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Cong An Ha Noi FC vs Dong A Thanh Hoa | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Kuching City FC vs Kuala Lumpur City FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Anderlecht vs Mechelen | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
+- 2026-05-17 | Dedza Dynamos FC vs Blue Eagles Malawi | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | FK Austria Wien vs LASK Linz | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Heracles Almelo vs FC Groningen | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Kolos Kovalivka vs FC Obolon Kyiv | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Man United vs Nott'm Forest | any=True | fresh_api=False | odds_api_io=False | rows=3 | sources=football_data_average_market_proxy, football_data_bet365_proxy, football_data_max_market_proxy
+- 2026-05-17 | Miedz Legnica vs Ruch Chorzow | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | NEC Nijmegen vs Go Ahead Eagles | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | PEC Zwolle vs Feyenoord Rotterdam | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | PSV Eindhoven vs FC Twente Enschede | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | FC Salzburg vs TSV Hartberg | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | SC Heerenveen vs Ajax Amsterdam | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
+- 2026-05-17 | Silver Strikers vs Masters FC | any=False | fresh_api=False | odds_api_io=False | rows=0 | sources=
 
 ## Source summary
 
 - football_data_average_market_proxy | delayed_market_proxy | rows=107
 - football_data_bet365_proxy | delayed_market_proxy | rows=102
 - football_data_max_market_proxy | delayed_market_proxy | rows=107
-- odds_api_io_Bet365_ML | free_api_market_proxy | rows=10
-- odds_api_io_Bet365_ML | free_api_market_proxy | rows=31
+- odds_api_io_Bet365_ML | free_api_market_proxy | rows=9
+- odds_api_io_Bet365_ML | free_api_market_proxy | rows=47

@@ -2,48 +2,48 @@
 
 Purpose: show whether API calls are producing usable direct event matches or mostly noisy fallback candidates.
 
-Candidate rows: 70995
-Selected rows before price quality filter: 76
-Calls used: 11 / 14
+Candidate rows: 51013
+Selected rows before price quality filter: 45
+Calls used: 14 / 14
 Max discovery calls: 13
-Events discovery rows: 923
+Events discovery rows: 650
 Search fallback used: True
-Search queries used: Celtic, Falkirk, Hibernian, Sociedad B
+Search queries used: Celtic, Falkirk, Hibernian, Sociedad B, Bayern Munich, Ein Frankfurt, Freiburg, Heidenheim, Leverkusen
 Multi-odds attempted: True
-Raw price rows before quality filter: 43
-Accepted price rows after quality filter: 41
-Rejected price rows after quality filter: 2
-Latest rate-limit remaining: 25
+Raw price rows before quality filter: 59
+Accepted price rows after quality filter: 56
+Rejected price rows after quality filter: 3
+Latest rate-limit remaining: 36
 
 ## By discovery source
 
-- events_bookmaker_filtered: candidates=70990, selected=76, best_confidence=1.0, avg_confidence=0.21567708127905338
-- events_search_fallback: candidates=5, selected=0, best_confidence=0.5933, avg_confidence=0.49362000000000006
+- events_bookmaker_filtered: candidates=50996, selected=45, best_confidence=1.0, avg_confidence=0.19228545964389365
+- events_search_fallback: candidates=17, selected=0, best_confidence=0.6432, avg_confidence=0.47118235294117644
 
 ## Top candidates
 
-- src=events_bookmaker_filtered | query=Waterford FC | target=Waterford FC vs Sligo Rovers | candidate=Waterford FC vs Sligo Rovers | date=2026-05-16 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=HHC Hardenberg | target=HHC Hardenberg vs Kozakken Boys Werkendam | candidate=HHC Hardenberg vs Kozakken Boys Werkendam | date=2026-05-16 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Arendal FK | target=Arendal FK vs FK Jerv | candidate=Arendal FK vs FK Jerv | date=2026-05-16 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Lyn 1896 FK | target=Lyn 1896 FK vs Kongsvinger IL Toppfotball | candidate=Lyn 1896 FK vs Kongsvinger IL Toppfotball | date=2026-05-16 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=SV Togb | target=SV Togb vs Groene Ster | candidate=SV Togb vs Groene Ster | date=2026-05-16 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Odisha FC | target=Odisha FC vs Punjab FC | candidate=Odisha FC vs Punjab FC | date=2026-05-16 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Bryne FK | target=Bryne FK vs Stroemmen IF | candidate=Bryne FK vs Stroemmen IF | date=2026-05-16 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=FC Irtysh Pavlodar | target=FC Irtysh Pavlodar vs FC Yelimai | candidate=FC Irtysh Pavlodar vs FC Yelimai | date=2026-05-16 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Onsala BK | target=Onsala BK vs Hestrafors IF | candidate=Onsala BK vs Hestrafors IF | date=2026-05-16 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Taby FK | target=Taby FK vs Sunnersta AIF | candidate=Taby FK vs Sunnersta AIF | date=2026-05-16 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=CE Carroi | target=CE Carroi vs Inter Club de Escaldes | candidate=CE Carroi vs Inter Club de Escaldes | date=2026-05-16 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=A-Xiii Auhof Center | target=A-Xiii Auhof Center vs WAF Vorwarts Brigittenau | candidate=A-Xiii Auhof Center vs WAF Vorwarts Brigittenau | date=2026-05-16 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Viking FK | target=Viking FK vs IK Start | candidate=Viking FK vs IK Start | date=2026-05-16 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Lillestroem SK | target=Lillestroem SK vs Sandefjord Fotball | candidate=Lillestroem SK vs Sandefjord Fotball | date=2026-05-16 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=SV Spakenburg | target=SV Spakenburg vs VV Katwijk | candidate=SV Spakenburg vs VV Katwijk | date=2026-05-16 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=UMF Selfoss | target=UMF Selfoss vs Kormakur/Hvot | candidate=UMF Selfoss vs Kormakur/Hvot | date=2026-05-16 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=IFK Mariehamn | target=IFK Mariehamn vs Kuopion Palloseura | candidate=IFK Mariehamn vs Kuopion Palloseura | date=2026-05-16 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=CA Independiente Cbba | target=CA Independiente Cbba vs Club Tigres FC | candidate=CA Independiente Cbba vs Club Tigres FC | date=2026-05-16 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Rosenborg BK | target=Rosenborg BK vs Aalesunds FK | candidate=Rosenborg BK vs Aalesunds FK | date=2026-05-16 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=ADO 20 Heemskerk | target=ADO 20 Heemskerk vs VV Scherpenzeel | candidate=ADO 20 Heemskerk vs VV Scherpenzeel | date=2026-05-16 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Bayer Leverkusen | target=Bayer Leverkusen vs Hamburger SV | candidate=Bayer Leverkusen vs Hamburger SV | date=2026-05-16 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=ACV Assen | target=ACV Assen vs Koninklijke HFC | candidate=ACV Assen vs Koninklijke HFC | date=2026-05-16 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=HNK Gorica | target=HNK Gorica vs NK Osijek | candidate=HNK Gorica vs NK Osijek | date=2026-05-16 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Kayserispor | target=Kayserispor vs Konyaspor | candidate=Kayserispor vs Konyaspor | date=2026-05-16 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=K.v.v. Quick Boys | target=K.v.v. Quick Boys vs IJsselmeervogels | candidate=K.v.v. Quick Boys vs IJsselmeervogels | date=2026-05-16 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=CD O´Higgins | target=CD O´Higgins vs Universidad de Concepcion | candidate=CD O´Higgins vs Universidad de Concepcion | date=2026-05-16 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Lagarto FC SE | target=Lagarto FC SE vs CS Sergipe SE | candidate=Lagarto FC SE vs CS Sergipe SE | date=2026-05-16 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Brooklyn FC | target=Brooklyn FC vs Hartford Athletic | candidate=Brooklyn FC vs Hartford Athletic | date=2026-05-16 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=CD Universidad Catolica del Ecuador | target=CD Universidad Catolica del Ecuador vs Delfin SC | candidate=CD Universidad Catolica del Ecuador vs Delfin SC | date=2026-05-16 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=One Knoxville SC | target=One Knoxville SC vs San Antonio FC | candidate=One Knoxville SC vs San Antonio FC | date=2026-05-16 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Atletico Mineiro MG | target=Atletico Mineiro MG vs Mirassol FC SP | candidate=Atletico Mineiro MG vs Mirassol FC SP | date=2026-05-16 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Point Michel | target=Point Michel vs Middleham United FC | candidate=Point Michel vs Middleham United FC | date=2026-05-16 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=CT United FC | target=CT United FC vs Toronto FC II | candidate=CT United FC vs Toronto FC II | date=2026-05-16 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Cerro Porteno | target=Cerro Porteno vs Recoleta FC | candidate=Cerro Porteno vs Recoleta FC | date=2026-05-16 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Barcelona SC | target=Barcelona SC vs SD Aucas | candidate=Barcelona SC vs SD Aucas | date=2026-05-17 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=CA River Plate (ARG) | target=CA River Plate (ARG) vs CA Rosario Central | candidate=CA River Plate (ARG) vs CA Rosario Central | date=2026-05-16 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Richmond Kickers | target=Richmond Kickers vs Charleston Battery | candidate=Richmond Kickers vs Charleston Battery | date=2026-05-16 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Cuiaba EC MT | target=Cuiaba EC MT vs Gremio Novorizontino SP | candidate=Cuiaba EC MT vs Gremio Novorizontino SP | date=2026-05-16 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Weston FC | target=Weston FC vs Fort Lauderdale United FC | candidate=Weston FC vs Fort Lauderdale United FC | date=2026-05-16 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Chattanooga Red Wolves SC | target=Chattanooga Red Wolves SC vs Birmingham Legion FC | candidate=Chattanooga Red Wolves SC vs Birmingham Legion FC | date=2026-05-16 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Curico Unido | target=Curico Unido vs Santiago Wanderers | candidate=Curico Unido vs Santiago Wanderers | date=2026-05-16 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Floresta EC CE | target=Floresta EC CE vs Amazonas FC AM | candidate=Floresta EC CE vs Amazonas FC AM | date=2026-05-16 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Forward Madison FC | target=Forward Madison FC vs Detroit City FC | candidate=Forward Madison FC vs Detroit City FC | date=2026-05-16 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Fort Wayne FC | target=Fort Wayne FC vs Indy Eleven | candidate=Fort Wayne FC vs Indy Eleven | date=2026-05-16 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=DC United | target=DC United vs Saint Louis City SC | candidate=DC United vs Saint Louis City SC | date=2026-05-16 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Sarasota Paradise | target=Sarasota Paradise vs Av Alta FC | candidate=Sarasota Paradise vs Av Alta FC | date=2026-05-16 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Fluminense FC RJ | target=Fluminense FC RJ vs Sao Paulo FC SP | candidate=Fluminense FC RJ vs Sao Paulo FC SP | date=2026-05-16 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=New Jersey United AC | target=New Jersey United AC vs Jackson Lions FC | candidate=New Jersey United AC vs Jackson Lions FC | date=2026-05-16 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=CS Cienciano | target=CS Cienciano vs Alianza Lima | candidate=CS Cienciano vs Alianza Lima | date=2026-05-16 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Goias EC GO | target=Goias EC GO vs Botafogo FC SP | candidate=Goias EC GO vs Botafogo FC SP | date=2026-05-16 | confidence=1.0 | selected=True

@@ -5,9 +5,9 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 
 ## Kort status
 
-- Aktuelle viste paper picks: **14**
-- Unikke loggede paper picks: **158**
-- Afventer i loggen: **155**
+- Aktuelle viste paper picks: **13**
+- Unikke loggede paper picks: **163**
+- Afventer i loggen: **160**
 - Afgjorte fundet i settled-filen: **210**
 - Skjulte U-/reserve-rækker: **14**
 - Vundne: **70**
@@ -16,11 +16,47 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 
 ## Aktuelle paper picks
 
+### Genoa vs Milan
+- Dato: **2026-05-17**
+- Kampstart: **11:00**
+- Spil: **Hjemmesejr**
+- Odds: **4.50**
+- Status: **Afventer**
+- Type: **volume_observation**
+- Note: **expanded_volume_forward_observation_not_real_money**
+
+### Como vs Parma
+- Dato: **2026-05-17**
+- Kampstart: **11:00**
+- Spil: **Uafgjort**
+- Odds: **5.69**
+- Status: **Afventer**
+- Type: **volume_observation**
+- Note: **expanded_volume_forward_observation_not_real_money**
+
+### Juventus vs Fiorentina
+- Dato: **2026-05-17**
+- Kampstart: **11:00**
+- Spil: **Uafgjort**
+- Odds: **5.28**
+- Status: **Afventer**
+- Type: **volume_observation**
+- Note: **expanded_volume_forward_observation_not_real_money**
+
 ### Werder Bremen vs Dortmund
 - Dato: **2026-05-16**
 - Kampstart: **14:30**
 - Spil: **Hjemmesejr**
 - Odds: **3.50**
+- Status: **Afventer**
+- Type: **priority_proxy_observation**
+- Note: **expanded_volume_forward_observation_not_real_money**
+
+### Roma vs Lazio
+- Dato: **2026-05-17**
+- Kampstart: **11:00**
+- Spil: **Uafgjort**
+- Odds: **4.50**
 - Status: **Afventer**
 - Type: **priority_proxy_observation**
 - Note: **expanded_volume_forward_observation_not_real_money**
@@ -61,6 +97,15 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **priority_proxy_observation**
 - Note: **expanded_volume_forward_observation_not_real_money**
 
+### Man United vs Nott'm Forest
+- Dato: **2026-05-17**
+- Kampstart: **12:30**
+- Spil: **Udebanesejr**
+- Odds: **5.25**
+- Status: **Afventer**
+- Type: **volume_observation**
+- Note: **expanded_volume_forward_observation_not_real_money**
+
 ### Freiburg vs RB Leipzig
 - Dato: **2026-05-16**
 - Kampstart: **14:30**
@@ -87,60 +132,6 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Status: **Afventer**
 - Type: **priority_proxy_observation**
 - Note: **expanded_volume_forward_observation_not_real_money**
-
-### Chelsea FC vs Manchester City
-- Dato: **2026-05-16**
-- Kampstart: **14:00**
-- Spil: **Hjemmesejr**
-- Odds: **4.50**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Celtic vs Hearts
-- Dato: **2026-05-16**
-- Kampstart: **12:30**
-- Spil: **Udebanesejr**
-- Odds: **5.01**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Borussia Monchengladbach vs TSG Hoffenheim
-- Dato: **2026-05-16**
-- Kampstart: **13:30**
-- Spil: **Hjemmesejr**
-- Odds: **4.50**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Casa Pia vs Rio Ave
-- Dato: **2026-05-16**
-- Kampstart: **18:00**
-- Spil: **Udebanesejr**
-- Odds: **5.00**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Casa Pia Lisbon vs Rio Ave FC
-- Dato: **2026-05-16**
-- Kampstart: **17:00**
-- Spil: **Udebanesejr**
-- Odds: **5.00**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### SC Braga vs Estrela Amadora
-- Dato: **2026-05-16**
-- Kampstart: **17:00**
-- Spil: **Udebanesejr**
-- Odds: **5.00**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
 ## Afgjorte paper picks
 

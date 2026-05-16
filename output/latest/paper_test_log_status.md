@@ -1,11 +1,11 @@
 # Paper Test Log Status
 
-Raw log rows: 251
-Valid forward/proxy log rows: 248
-Deduped forward/proxy observation rows: 168
-Duplicate forward/proxy log rows: 80
-Valid automatic proxy observation rows: 248
-Deduped automatic proxy observation rows: 168
+Raw log rows: 263
+Valid forward/proxy log rows: 260
+Deduped forward/proxy observation rows: 173
+Duplicate forward/proxy log rows: 87
+Valid automatic proxy observation rows: 260
+Deduped automatic proxy observation rows: 173
 Invalid historical/proxy log rows excluded: 3
 Has valid forward log: True
 
@@ -34,18 +34,6 @@ Has valid forward log: True
 
 ## Raw valid rows
 
-- 2026-05-16 | Almeria vs Las Palmas | selection=away | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
-- 2026-05-16 | Heidenheim vs Mainz | selection=away | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
-- 2026-05-16 | Ein Frankfurt vs Stuttgart | selection=home | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
-- 2026-05-16 | M'gladbach vs Hoffenheim | selection=draw | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
-- 2026-05-16 | Heidenheim vs Mainz | selection=away | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
-- 2026-05-16 | Ein Frankfurt vs Stuttgart | selection=home | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
-- 2026-05-16 | M'gladbach vs Hoffenheim | selection=draw | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
-- 2026-05-16 | Freiburg vs RB Leipzig | selection=draw | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
-- 2026-05-16 | Freiburg vs RB Leipzig | selection=draw | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
-- 2026-05-16 | Union Berlin vs Augsburg | selection=draw | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
-- 2026-05-16 | St Pauli vs Wolfsburg | selection=draw | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
-- 2026-05-16 | St Pauli vs Wolfsburg | selection=draw | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
 - 2026-05-16 | Union Berlin vs Augsburg | selection=draw | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
 - 2026-05-16 | Chelsea FC vs Manchester City | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 - 2026-05-16 | Borussia Monchengladbach vs TSG Hoffenheim | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
@@ -54,6 +42,18 @@ Has valid forward log: True
 - 2026-05-16 | Casa Pia Lisbon vs Rio Ave FC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 - 2026-05-16 | Casa Pia Lisbon vs Rio Ave FC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 - 2026-05-16 | SC Braga vs Estrela Amadora | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-17 | Genoa vs Milan | selection=home | phase=automatic_forward_price_proxy | tier=volume_observation
+- 2026-05-17 | Como vs Parma | selection=draw | phase=automatic_forward_price_proxy | tier=volume_observation
+- 2026-05-17 | Juventus vs Fiorentina | selection=draw | phase=automatic_forward_price_proxy | tier=volume_observation
+- 2026-05-17 | Como vs Parma | selection=draw | phase=automatic_forward_price_proxy | tier=volume_observation
+- 2026-05-17 | Juventus vs Fiorentina | selection=draw | phase=automatic_forward_price_proxy | tier=volume_observation
+- 2026-05-17 | Roma vs Lazio | selection=draw | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
+- 2026-05-16 | Heidenheim vs Mainz | selection=away | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
+- 2026-05-17 | Roma vs Lazio | selection=draw | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
+- 2026-05-17 | Man United vs Nott'm Forest | selection=away | phase=automatic_forward_price_proxy | tier=volume_observation
+- 2026-05-17 | Man United vs Nott'm Forest | selection=away | phase=automatic_forward_price_proxy | tier=volume_observation
+- 2026-05-16 | M'gladbach vs Hoffenheim | selection=draw | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
+- 2026-05-17 | Genoa vs Milan | selection=home | phase=automatic_forward_price_proxy | tier=volume_observation
 
 ## Invalid rows excluded
 
