@@ -66,6 +66,21 @@ jobs:
             --max-pages "${BET365_ALL_DAY_MAX_PAGES}" \
             --min-bookmaker-count "${BET365_ALL_DAY_MIN_BOOKMAKER_COUNT}"
 
+      - name: Create compressed AI data bundle
+        run: |
+          mkdir -p output/bet365/latest/email_bundle
+          cp output/bet365/latest/bet365_today_multisport_all_day_markets.jsonl output/bet365/latest/email_bundle/ || true
+          cp output/bet365/latest/bet365_today_multisport_all_day_events.json output/bet365/latest/email_bundle/ || true
+          cp output/bet365/latest/bet365_today_multisport_all_day_summary.json output/bet365/latest/email_bundle/ || true
+          cp output/bet365/latest/bet365_today_multisport_all_day_markets.csv output/bet365/latest/email_bundle/ || true
+          cp output/bet365/latest/bet365_today_multisport_all_day_events.csv output/bet365/latest/email_bundle/ || true
+          cp output/bet365/latest/bet365_today_multisport_all_day_excluded.csv output/bet365/latest/email_bundle/ || true
+          cp output/bet365/latest/bet365_today_multisport_all_day_rate_limit_headers.csv output/bet365/latest/email_bundle/ || true
+          cd output/bet365/latest/email_bundle
+          zip -9 ../bet365_next_12h_ai_data.zip ./*
+          cd -
+          ls -lh output/bet365/latest/bet365_next_12h_ai_data.zip
+
       - name: Commit all-day market files
         run: |
           git config --global user.name "github-actions[bot]"
@@ -78,6 +93,7 @@ jobs:
           git add output/bet365/latest/bet365_today_multisport_all_day_excluded.csv
           git add output/bet365/latest/bet365_today_multisport_all_day_summary.json
           git add output/bet365/latest/bet365_today_multisport_all_day_rate_limit_headers.csv
+          git add output/bet365/latest/bet365_next_12h_ai_data.zip
           git add data/raw/odds_api_io/bet365_today_multisport_all_day_report
           if git diff --cached --quiet; then
             echo "No all-day PDF changes to commit"
@@ -92,6 +108,7 @@ jobs:
         with:
           name: bet365-next-12h-ai-data
           path: |
+            output/bet365/latest/bet365_next_12h_ai_data.zip
             output/bet365/latest/bet365_today_multisport_all_day_markets.jsonl
             output/bet365/latest/bet365_today_multisport_all_day_events.json
             output/bet365/latest/bet365_today_multisport_all_day_summary.json
@@ -101,7 +118,7 @@ jobs:
             output/bet365/latest/bet365_today_multisport_all_day_rate_limit_headers.csv
             output/bet365/latest/bet365_today_multisport_all_day_report.pdf
 
-      - name: Email AI-native Bet365 data
+      - name: Email compressed AI-native Bet365 data
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: ${{ secrets.SMTP_HOST }}
@@ -113,25 +130,13 @@ jobs:
           from: ${{ secrets.REPORT_EMAIL_FROM }}
           secure: false
           body: |
-            AI-native Bet365 data for the next 12 hours is attached.
+            AI-native Bet365 data for the next 12 hours is attached as a compressed ZIP.
 
-            Primary AI file:
-            - bet365_today_multisport_all_day_markets.jsonl
+            Inside the ZIP:
+            - bet365_today_multisport_all_day_markets.jsonl  (primary AI file)
+            - bet365_today_multisport_all_day_events.json    (nested event file)
+            - bet365_today_multisport_all_day_summary.json   (metadata)
+            - CSV backup files
 
-            Secondary AI file:
-            - bet365_today_multisport_all_day_events.json
-
-            Backup/analysis files:
-            - bet365_today_multisport_all_day_markets.csv
-            - bet365_today_multisport_all_day_events.csv
-            - bet365_today_multisport_all_day_summary.json
-            - bet365_today_multisport_all_day_excluded.csv
-            - bet365_today_multisport_all_day_rate_limit_headers.csv
-
-            PDF is generated for optional human review only.
-          attachments: |
-            output/bet365/latest/bet365_today_multisport_all_day_markets.jsonl
-            output/bet365/latest/bet365_today_multisport_all_day_events.json
-            output/bet365/latest/bet365_today_multisport_all_day_summary.json
-            output/bet365/latest/bet365_today_multisport_all_day_markets.csv
-            output/bet365/latest/bet365_today_multisport_all_day_events.csv
+            PDF is generated in the repo/artifact for optional human review, but not emailed to avoid Gmail size limits.
+          attachments: output/bet365/latest/bet365_next_12h_ai_data.zip
