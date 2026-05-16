@@ -1,12 +1,4 @@
 sport_query,event_id,date_denmark,home,away,league,sport,bookmaker_count,status,reason
-football,69090850,2026-05-16 23:00,Brooke House FC,Nona FC,USA - USL League Two,Football,0,pending,not_good_competition_or_low_coverage
-football,69254650,2026-05-16 23:00,Universidad de Chile,Santiago Wanderers,"Chile - Primera Division, Women",Football,0,pending,not_good_competition_or_low_coverage
-football,71220890,2026-05-16 23:30,New Jersey United AC,Jackson Lions FC,USA - National Premier Soccer League,Football,0,pending,not_good_competition_or_low_coverage
-football,71459880,2026-05-16 23:30,CA Penarol Montevideo,Liverpool Montevideo,Uruguay - Primera Division,Football,0,pending,not_good_competition_or_low_coverage
-football,67681864,2026-05-16 23:30,CD O´Higgins,Universidad de Concepcion,Chile - Primera Division,Football,0,pending,not_good_competition_or_low_coverage
-football,68097900,2026-05-16 23:30,Curico Unido,Santiago Wanderers,Chile - Primera B,Football,0,pending,not_good_competition_or_low_coverage
-football,71478624,2026-05-16 23:30,Cerro Porteno,Recoleta FC,"Paraguay - Camopeonato Femenino, Women",Football,0,pending,not_good_competition_or_low_coverage
-football,68687652,2026-05-16 23:30,CD Universidad Catolica del Ecuador,Delfin SC,Ecuador - LigaPro Primera A,Football,0,pending,not_good_competition_or_low_coverage
 football,68156616,2026-05-17 00:00,CT United FC,Toronto FC II,USA - MLS Next Pro,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
 football,67844000,2026-05-17 00:00,Forward Madison FC,Detroit City FC,USA - USL League One Cup,Football,0,pending,not_good_competition_or_low_coverage
 football,67844006,2026-05-17 00:00,Richmond Kickers,Charleston Battery,USA - USL League One Cup,Football,0,pending,not_good_competition_or_low_coverage
@@ -85,14 +77,21 @@ football,68046520,2026-05-17 09:30,Hwaseong FC,Busan I Park,Republic of Korea - 
 football,67817708,2026-05-17 09:40,Jeonbuk FC,Gimcheon Sangmu FC,Republic of Korea - K-League 1,Football,0,pending,not_good_competition_or_low_coverage
 football,66053720,2026-05-17 10:15,MFk Karvina B,FC Hlucin,Czechia - MSFL,Football,0,pending,not_good_competition_or_low_coverage
 football,62083182,2026-05-17 10:30,Bali United,Bhayangkara Presisi Indonesia FC,Indonesia - Liga 1,Football,0,pending,not_good_competition_or_low_coverage
-tennis,543325,2026-05-16 23:00,Mateus Alves,Salvador Price,ITF Men - Maringa,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71535380,2026-05-16 23:00,"Fellows, Jake","McCall, Duncan",UTR Men - UTR PTT Newport Beach Men 11,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71535290,2026-05-16 23:00,"Safarova, Zdena","Khatamova, Shakhnoza",UTR Women - UTR PTT Newport Beach Women 11,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71535292,2026-05-16 23:00,"Miroshnichenko, Veronica","Zhytelna, Yulia",UTR Women - UTR PTT Newport Beach Women 11,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71535352,2026-05-16 23:00,"Rajski, Maciej","Venger, Roman",UTR Men - UTR PTT Newport Beach Men 11,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71535398,2026-05-17 00:30,"Bain, Adam","Sachdev, Rohan",UTR Men - UTR PTT Newport Beach Men 11,Tennis,0,pending,not_good_competition_or_low_coverage
+football,63039311,2026-05-17 11:00,Trabzonspor,Genclerbirligi Ankara,Turkiye Amateur - U19 Elit A,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,62415644,2026-05-17 11:00,NK Osijek,HNK Rijeka,Croatia - U19 Prva NL Juniori,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,62160252,2026-05-17 11:00,Kisvarda FC II,Cigand SE,Hungary - NB III,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,62160254,2026-05-17 11:00,Debreceni VSC II,Tiszaujvaros,Hungary - NB III,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,62161250,2026-05-17 11:00,Puskas Akademia FC II,Bicskei Tc,Hungary - NB III,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,62161254,2026-05-17 11:00,Ujpest FC II,Papai Perutz FC,Hungary - NB III,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,62181556,2026-05-17 11:00,MTK Budapest II,Dunaujvaros Palhalma Agrospecial SE,Hungary - NB III,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,62181558,2026-05-17 11:00,Ferencvarosi TC II,Pecsi MFC,Hungary - NB III,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,62181566,2026-05-17 11:00,Paksi FC II,Majosi SE,Hungary - NB III,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,67648468,2026-05-17 11:00,FC Ryukyu,Gainare Tottori,Japan - J.League 2,Football,0,pending,not_good_competition_or_low_coverage
+football,71457340,2026-05-17 11:00,SC Paderborn 07,1. FC Cologne,Germany Amateur - U19 DFB Nachwuchsliga,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,71483872,2026-05-17 11:30,CD Manchego Ciudad Real,CD Tarancon,"Spain Amateur - Tercera Federacion, Group 18",Football,0,pending,not_good_competition_or_low_coverage
 tennis,71535304,2026-05-17 00:30,"Piai, Eduarda","Huynh, Maily",UTR Women - UTR PTT Newport Beach Women 11,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71535382,2026-05-17 01:00,"Anson, Justin Riley","Lee, Evan",UTR Men - UTR PTT Newport Beach Men 11,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71535382,2026-05-17 01:00,"Anson, Justin Riley","Lee, Evan",UTR Men - UTR PTT Newport Beach Men 11,Tennis,0,settled,not_good_competition_or_low_coverage
+tennis,71535398,2026-05-17 01:00,"Bain, Adam","Sachdev, Rohan",UTR Men - UTR PTT Newport Beach Men 11,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,71535298,2026-05-17 01:00,"Soso, Mia","Vustsina, Ahniya",UTR Women - UTR PTT Newport Beach Women 11,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,71535300,2026-05-17 01:00,"Olmos, Zoe","Arangio, Gala",UTR Women - UTR PTT Newport Beach Women 11,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,71535378,2026-05-17 01:00,"Berger, Benjamin","Thompson, William Chase",UTR Men - UTR PTT Newport Beach Men 11,Tennis,0,pending,not_good_competition_or_low_coverage
@@ -101,7 +100,7 @@ tennis,151061,2026-05-17 04:00,Jake Delaney,Uisung Park,ITF Men - Wuning,Tennis,
 tennis,151248,2026-05-17 04:00,Anton Shepp,Matthew Dellavedova,ITF Men - Nakhon Pathom,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,543501,2026-05-17 04:15,Hoyoung Roh,Keisuke Saitoh,ITF Men - Andong,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,151166,2026-05-17 10:30,Daniel Rincon,Sergi Perez Contri,ITF Men - Vic,Tennis,0,pending,not_good_competition_or_low_coverage
-basketball,71463796,2026-05-16 23:00,Arabe Valparaiso,Quilpue Basquetbol,Chile - Liga Dos,Basketball,0,pending,not_good_competition_or_low_coverage
+tennis,543879,2026-05-17 11:00,Attila Boros,Felix Balshaw,ITF Men - Prijedor,Tennis,0,pending,not_good_competition_or_low_coverage
 basketball,71463798,2026-05-17 01:00,San Luis Basquet,CD Hrvatski Sokol Antofagasta,Chile - Liga Dos,Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,71490914,2026-05-17 01:30,CD Universidad De Concepcion,CD Boston College,Chile - Liga Nacional,Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,71490946,2026-05-17 02:00,CD Las Animas,CD Atletico Puerto Varas,Chile - Liga Nacional,Basketball,0,pending,not_good_competition_or_low_coverage
@@ -123,6 +122,8 @@ basketball,71446348,2026-05-17 07:05,Shinshu Brave Warriors,Yokohama Excellence,
 basketball,71446368,2026-05-17 07:05,Kobe Storks,Fukushima Firebonds,Japan - B2 League,Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,69548390,2026-05-17 07:30,Hume City Broncos,Sherbrooke Suns,"Australia - Big V, Women",Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,66647012,2026-05-17 08:00,Nelson Giants,Hawke's Bay Hawks,New Zealand - NBL,Basketball,0,pending,not_good_competition_or_low_coverage
+basketball,71442330,2026-05-17 11:00,Valencia BC,Basket Zaragoza 2002,Spain - Liga Femenina,Basketball,0,pending,not_good_competition_or_low_coverage
+basketball,71489064,2026-05-17 11:00,New Taipei Kings,Taoyuan Taiwan Beer Leopards,Chinese Taipei - TPBL,Basketball,0,pending,not_good_competition_or_low_coverage
 ice-hockey,71231058,2026-05-17 02:10,Allen Americans,Kansas City Mavericks,USA - ECHL,Ice Hockey,0,pending,not_good_competition_or_low_coverage
 ice-hockey,65838684,2026-05-17 06:00,Canberra Brave,Newcastle North Stars,Australia - Australian Ice Hockey League,Ice Hockey,0,pending,not_good_competition_or_low_coverage
 ice-hockey,65838682,2026-05-17 06:00,Melbourne Ice,Sydney Ice Dogs,Australia - Australian Ice Hockey League,Ice Hockey,0,pending,not_good_competition_or_low_coverage
@@ -136,9 +137,11 @@ baseball,67360656,2026-05-17 02:00,El Aguila de Veracruz,Pericos de Puebla,Mexic
 baseball,67360638,2026-05-17 03:00,Leones de Yucatan,Guerreros de Oaxaca,Mexico - Mexican League,Baseball,0,pending,not_good_competition_or_low_coverage
 baseball,67360660,2026-05-17 03:00,Olmecas de Tabasco,Piratas de Campeche,Mexico - Mexican League,Baseball,0,pending,not_good_competition_or_low_coverage
 baseball,67360644,2026-05-17 03:05,Caliente de Durango,Rieleros de Aguascalientes,Mexico - Mexican League,Baseball,0,pending,not_good_competition_or_low_coverage
+baseball,67360650,2026-05-17 03:45,Acereros de Monclova,Charros de Jalisco,Mexico - Mexican League,Baseball,0,pending,not_good_competition_or_low_coverage
 baseball,67360648,2026-05-17 04:05,Toros de Tijuana,Saraperos de Saltillo,Mexico - Mexican League,Baseball,0,pending,not_good_competition_or_low_coverage
 baseball,69461904,2026-05-17 10:05,Uni Lions,CTBC Brothers,Chinese Taipei - CPBL,Baseball,0,pending,not_good_competition_or_low_coverage
 baseball,69461906,2026-05-17 10:05,Wei Chuan Dragons,Rakuten Monkeys,Chinese Taipei - CPBL,Baseball,0,pending,not_good_competition_or_low_coverage
+baseball,69461908,2026-05-17 11:05,Fubon Guardians,TSG Hawks,Chinese Taipei - CPBL,Baseball,0,pending,not_good_competition_or_low_coverage
 cricket,71001498,2026-05-17 01:00,Powergen Penal Sports Club,Victoria United SC,Trinidad and Tobago - Trinidad T20 Festival,Cricket,0,pending,not_good_competition_or_low_coverage
 rugby-union,,,,,,,,,"HTTP 400: {""error"":""Invalid sport slug""}"
 rugby-league,,,,,,,,,"HTTP 400: {""error"":""Invalid sport slug""}"
