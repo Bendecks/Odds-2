@@ -1,11 +1,11 @@
 # Paper Test Log Status
 
-Raw log rows: 228
-Valid forward/proxy log rows: 225
-Deduped forward/proxy observation rows: 155
-Duplicate forward/proxy log rows: 70
-Valid automatic proxy observation rows: 225
-Deduped automatic proxy observation rows: 155
+Raw log rows: 251
+Valid forward/proxy log rows: 248
+Deduped forward/proxy observation rows: 168
+Duplicate forward/proxy log rows: 80
+Valid automatic proxy observation rows: 248
+Deduped automatic proxy observation rows: 168
 Invalid historical/proxy log rows excluded: 3
 Has valid forward log: True
 
@@ -34,26 +34,26 @@ Has valid forward log: True
 
 ## Raw valid rows
 
-- 2026-05-16 | Falkirk vs Rangers | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-16 | Falkirk FC vs Glasgow Rangers | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-16 | Tauranga City AFC vs Western Springs AFC | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-16 | Albirex Niigata vs Nara Club | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-16 | Falkirk FC vs Glasgow Rangers | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-16 | Falkirk vs Rangers | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-16 | Adelaide Atletico VSC vs Eastern United | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-16 | Adelaide Atletico Victory Reserves vs Eastern United Reserve | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-16 | Dangjin Citizen vs Daejeon Korail FC | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-16 | Essendon Royals SC vs South Melbourne FC | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-16 | Essendon Royals SC U20 vs South Melbourne FC U20 | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-16 | Mynavi Sendai Ladies vs Chifure AS Elfen Saitama | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-16 | SC Wiedenbruck vs Borussia Dortmund II | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-16 | SC Wiedenbruck vs Borussia Dortmund II | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-16 | Lambton Jaffas FC vs Kahibah FC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-16 | Melville United AFC vs Manukau United FC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-16 | Fukushima United FC vs Hokkaido Consadole Sapporo | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-16 | Real Sociedad San Sebastian B vs CD Mirandes | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-16 | Bay Olympic vs Auckland United FC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-16 | Belmont Swansea United FC vs Valentine FC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-16 | Almeria vs Las Palmas | selection=away | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
+- 2026-05-16 | Heidenheim vs Mainz | selection=away | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
+- 2026-05-16 | Ein Frankfurt vs Stuttgart | selection=home | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
+- 2026-05-16 | M'gladbach vs Hoffenheim | selection=draw | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
+- 2026-05-16 | Heidenheim vs Mainz | selection=away | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
+- 2026-05-16 | Ein Frankfurt vs Stuttgart | selection=home | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
+- 2026-05-16 | M'gladbach vs Hoffenheim | selection=draw | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
+- 2026-05-16 | Freiburg vs RB Leipzig | selection=draw | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
+- 2026-05-16 | Freiburg vs RB Leipzig | selection=draw | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
+- 2026-05-16 | Union Berlin vs Augsburg | selection=draw | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
+- 2026-05-16 | St Pauli vs Wolfsburg | selection=draw | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
+- 2026-05-16 | St Pauli vs Wolfsburg | selection=draw | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
+- 2026-05-16 | Union Berlin vs Augsburg | selection=draw | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
+- 2026-05-16 | Chelsea FC vs Manchester City | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-16 | Borussia Monchengladbach vs TSG Hoffenheim | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-16 | Casa Pia vs Rio Ave | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-16 | Casa Pia vs Rio Ave | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-16 | Casa Pia Lisbon vs Rio Ave FC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-16 | Casa Pia Lisbon vs Rio Ave FC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-16 | SC Braga vs Estrela Amadora | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 
 ## Invalid rows excluded
 

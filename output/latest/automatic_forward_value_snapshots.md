@@ -5,42 +5,42 @@ Includes capped odds-api.io proxy when available. Not live/full-market coverage 
 Baseline model rows are coverage-expansion observations only.
 
 Forward prediction rows: 300
-Proxy price rows: 351
-Matched prediction rows: 48
-Value snapshot rows: 198
-odds-api.io snapshot rows: 117
-Baseline snapshot rows: 198
-Full model snapshot rows: 0
-Positive EV rows: 94
-Source counts: {'odds_api_io_Bet365_ML': 117, 'football_data_bet365_proxy': 27, 'football_data_max_market_proxy': 27, 'football_data_average_market_proxy': 27}
+Proxy price rows: 357
+Matched prediction rows: 87
+Value snapshot rows: 615
+odds-api.io snapshot rows: 147
+Baseline snapshot rows: 513
+Full model snapshot rows: 102
+Positive EV rows: 312
+Source counts: {'football_data_max_market_proxy': 162, 'football_data_average_market_proxy': 162, 'odds_api_io_Bet365_ML': 147, 'football_data_bet365_proxy': 144}
 
-- 2026-05-16 | Waterside Karori vs Western Suburbs FC | coverage=baseline_unmatched_fixture | sel=HOME | src=odds_api_io_Bet365_ML | odds=17.0 | prob=0.3772 | EV=5.4124 | match=1.0
-- 2026-05-16 | Ballard FC vs FC Olympia | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=12.0 | prob=0.3488 | EV=3.1856 | match=1.0
-- 2026-05-16 | Wellington Olympic vs Petone FC | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=11.0 | prob=0.3488 | EV=2.8368 | match=1.0
-- 2026-05-16 | O'Connor Knights SC vs Canberra Croatia FC | coverage=baseline_unmatched_fixture | sel=HOME | src=odds_api_io_Bet365_ML | odds=8.5 | prob=0.3772 | EV=2.2062 | match=0.96
-- 2026-05-16 | O'Connor Knights FC vs Canberra Croatia FC | coverage=baseline_unmatched_fixture | sel=HOME | src=odds_api_io_Bet365_ML | odds=8.5 | prob=0.3772 | EV=2.2062 | match=1.0
-- 2026-05-16 | Cerezo Osaka Sakai Ladies vs AC Nagano Parceiro | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=8.5 | prob=0.3488 | EV=1.9648 | match=1.0
-- 2026-05-16 | JEF United Ichihara Chiba vs Urawa Red Diamonds | coverage=baseline_unmatched_fixture | sel=HOME | src=odds_api_io_Bet365_ML | odds=6.5 | prob=0.3772 | EV=1.4518 | match=1.0
-- 2026-05-16 | Bay Olympic vs Auckland United FC | coverage=baseline_unmatched_fixture | sel=HOME | src=odds_api_io_Bet365_ML | odds=6.5 | prob=0.3772 | EV=1.4518 | match=1.0
-- 2026-05-16 | Waterside Karori vs Western Suburbs FC | coverage=baseline_unmatched_fixture | sel=DRAW | src=odds_api_io_Bet365_ML | odds=8.0 | prob=0.274 | EV=1.192 | match=1.0
-- 2026-05-16 | Avondale FC vs Spring Hills FC | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=6.0 | prob=0.3488 | EV=1.0928 | match=1.0
-- 2026-05-16 | Ballard FC vs FC Olympia | coverage=baseline_unmatched_fixture | sel=DRAW | src=odds_api_io_Bet365_ML | odds=7.5 | prob=0.274 | EV=1.055 | match=1.0
-- 2026-05-16 | Wellington Olympic vs Petone FC | coverage=baseline_unmatched_fixture | sel=DRAW | src=odds_api_io_Bet365_ML | odds=7.5 | prob=0.274 | EV=1.055 | match=1.0
-- 2026-05-16 | Lambton Jaffas FC vs Kahibah FC | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=5.75 | prob=0.3488 | EV=1.0056 | match=1.0
-- 2026-05-16 | Tokyo Verdy Beleza vs Albirex Niigata | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=5.5 | prob=0.3488 | EV=0.9184 | match=1.0
-- 2026-05-16 | Celtic vs Hearts | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_max_market_proxy | odds=5.5 | prob=0.3488 | EV=0.9184 | match=1.0
-- 2026-05-16 | O'Connor Knights FC vs Canberra Croatia FC | coverage=baseline_unmatched_fixture | sel=DRAW | src=odds_api_io_Bet365_ML | odds=7.0 | prob=0.274 | EV=0.918 | match=1.0
-- 2026-05-16 | O'Connor Knights SC vs Canberra Croatia FC | coverage=baseline_unmatched_fixture | sel=DRAW | src=odds_api_io_Bet365_ML | odds=7.0 | prob=0.274 | EV=0.918 | match=0.96
-- 2026-05-16 | FC Famalicao vs SL Benfica | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_max_market_proxy | odds=5.4 | prob=0.3488 | EV=0.88352 | match=0.7353
-- 2026-05-16 | Melville United AFC vs Manukau United FC | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=5.25 | prob=0.3488 | EV=0.8312 | match=1.0
-- 2026-05-16 | Celtic vs Hearts | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_average_market_proxy | odds=5.01 | prob=0.3488 | EV=0.747488 | match=1.0
-- 2026-05-16 | Celtic vs Hearts | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_bet365_proxy | odds=5.0 | prob=0.3488 | EV=0.744 | match=1.0
-- 2026-05-16 | FC Famalicao vs SL Benfica | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_bet365_proxy | odds=5.0 | prob=0.3488 | EV=0.744 | match=0.7353
-- 2026-05-16 | FC Famalicao vs SL Benfica | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_average_market_proxy | odds=4.92 | prob=0.3488 | EV=0.716096 | match=0.7353
-- 2026-05-16 | Belmont Swansea United FC vs Valentine FC | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=4.75 | prob=0.3488 | EV=0.6568 | match=1.0
-- 2026-05-16 | Falkirk FC vs Glasgow Rangers | coverage=baseline_unmatched_fixture | sel=HOME | src=football_data_max_market_proxy | odds=4.1 | prob=0.3772 | EV=0.54652 | match=0.96
-- 2026-05-16 | Falkirk vs Rangers | coverage=baseline_unmatched_fixture | sel=HOME | src=football_data_max_market_proxy | odds=4.1 | prob=0.3772 | EV=0.54652 | match=1.0
-- 2026-05-16 | Albirex Niigata vs Nara Club | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=4.333 | prob=0.3488 | EV=0.51135 | match=1.0
-- 2026-05-16 | Tauranga City AFC vs Western Springs AFC | coverage=baseline_unmatched_fixture | sel=HOME | src=odds_api_io_Bet365_ML | odds=3.9 | prob=0.3772 | EV=0.47108 | match=1.0
-- 2026-05-16 | Adelaide Atletico VSC vs Eastern United | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=4.2 | prob=0.3488 | EV=0.46496 | match=1.0
-- 2026-05-16 | Adelaide Atletico Victory Reserves vs Eastern United Reserve | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=4.2 | prob=0.3488 | EV=0.46496 | match=0.8236
+- 2026-05-16 | CE Carroi vs Inter Club de Escaldes | coverage=baseline_unmatched_fixture | sel=HOME | src=odds_api_io_Bet365_ML | odds=17.0 | prob=0.3772 | EV=5.4124 | match=1.0
+- 2026-05-16 | Bayern Munich vs 1. FC Cologne | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_max_market_proxy | odds=16.0 | prob=0.3488 | EV=4.5808 | match=0.7308
+- 2026-05-16 | Bayern Munich vs 1. FC Cologne | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_bet365_proxy | odds=14.0 | prob=0.3488 | EV=3.8832 | match=0.7308
+- 2026-05-16 | Bayern Munich vs 1. FC Cologne | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_average_market_proxy | odds=12.84 | prob=0.3488 | EV=3.478592 | match=0.7308
+- 2026-05-16 | Bayern Munich vs FC Koln | coverage=full_team_strength_match | sel=AWAY | src=football_data_max_market_proxy | odds=16.0 | prob=0.2402 | EV=2.8432 | match=1.0
+- 2026-05-16 | Bayern Munich vs 1. FC Cologne | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=11.0 | prob=0.3488 | EV=2.8368 | match=1.0
+- 2026-05-16 | Porto vs Santa Clara | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_max_market_proxy | odds=10.25 | prob=0.3488 | EV=2.5752 | match=1.0
+- 2026-05-16 | FC Porto vs Santa Clara Azores | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_max_market_proxy | odds=10.25 | prob=0.3488 | EV=2.5752 | match=0.96
+- 2026-05-16 | Bayern Munich vs FC Koln | coverage=full_team_strength_match | sel=AWAY | src=football_data_bet365_proxy | odds=14.0 | prob=0.2402 | EV=2.3628 | match=1.0
+- 2026-05-16 | Bayer Leverkusen vs Hamburger SV | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_bet365_proxy | odds=9.5 | prob=0.3488 | EV=2.3136 | match=0.92
+- 2026-05-16 | Bayer Leverkusen vs Hamburger SV | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_max_market_proxy | odds=9.5 | prob=0.3488 | EV=2.3136 | match=0.92
+- 2026-05-16 | Leverkusen vs Hamburg | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_bet365_proxy | odds=9.5 | prob=0.3488 | EV=2.3136 | match=1.0
+- 2026-05-16 | Leverkusen vs Hamburg | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_max_market_proxy | odds=9.5 | prob=0.3488 | EV=2.3136 | match=1.0
+- 2026-05-16 | Bayern Munich vs FC Koln | coverage=full_team_strength_match | sel=AWAY | src=football_data_average_market_proxy | odds=12.84 | prob=0.2402 | EV=2.084168 | match=1.0
+- 2026-05-16 | Leverkusen vs Hamburg | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_average_market_proxy | odds=8.83 | prob=0.3488 | EV=2.079904 | match=1.0
+- 2026-05-16 | Bayer Leverkusen vs Hamburger SV | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_average_market_proxy | odds=8.83 | prob=0.3488 | EV=2.079904 | match=0.92
+- 2026-05-16 | FC Porto vs Santa Clara Azores | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_average_market_proxy | odds=8.82 | prob=0.3488 | EV=2.076416 | match=0.96
+- 2026-05-16 | Porto vs Santa Clara | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_average_market_proxy | odds=8.82 | prob=0.3488 | EV=2.076416 | match=1.0
+- 2026-05-16 | Porto vs Santa Clara | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_bet365_proxy | odds=8.0 | prob=0.3488 | EV=1.7904 | match=1.0
+- 2026-05-16 | FC Porto vs Santa Clara Azores | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_bet365_proxy | odds=8.0 | prob=0.3488 | EV=1.7904 | match=0.96
+- 2026-05-16 | Bayern Munich vs FC Koln | coverage=full_team_strength_match | sel=AWAY | src=odds_api_io_Bet365_ML | odds=11.0 | prob=0.2402 | EV=1.6422 | match=0.7308
+- 2026-05-16 | Leverkusen vs Hamburg | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=7.5 | prob=0.3488 | EV=1.616 | match=0.92
+- 2026-05-16 | Bayer Leverkusen vs Hamburger SV | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=7.5 | prob=0.3488 | EV=1.616 | match=1.0
+- 2026-05-16 | KSZO Ostrowiec Swietokrzyski vs Sokol Kolbuszowa Dolna | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=7.5 | prob=0.3488 | EV=1.616 | match=1.0
+- 2026-05-16 | Bayern Munich vs 1. FC Cologne | coverage=baseline_unmatched_fixture | sel=DRAW | src=football_data_bet365_proxy | odds=9.5 | prob=0.274 | EV=1.603 | match=0.7308
+- 2026-05-16 | Bayern Munich vs 1. FC Cologne | coverage=baseline_unmatched_fixture | sel=DRAW | src=football_data_max_market_proxy | odds=9.5 | prob=0.274 | EV=1.603 | match=0.7308
+- 2026-05-16 | Molde FK vs Kristiansund BK | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=7.0 | prob=0.3488 | EV=1.4416 | match=1.0
+- 2026-05-16 | Racing Santander vs Real Valladolid | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_max_market_proxy | odds=7.0 | prob=0.3488 | EV=1.4416 | match=0.92
+- 2026-05-16 | Santander vs Valladolid | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_max_market_proxy | odds=7.0 | prob=0.3488 | EV=1.4416 | match=1.0
+- 2026-05-16 | Bayern Munich vs 1. FC Cologne | coverage=baseline_unmatched_fixture | sel=DRAW | src=football_data_average_market_proxy | odds=8.71 | prob=0.274 | EV=1.38654 | match=0.7308

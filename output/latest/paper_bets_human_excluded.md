@@ -1,13 +1,6 @@
 # Skjulte U-/reserve-rækker
 
-Skjulte rækker: 18
-
-## Aktuelle
-
-- 2026-05-16 kl. 10:00 – FC Famalicao vs SL Benfica
-- 2026-05-16 kl. 02:45 – Adelaide Atletico Victory Reserves vs Eastern United Reserve
-- 2026-05-16 kl. 02:30 – Essendon Royals SC U20 vs South Melbourne FC U20
-- 2026-05-16 kl. 12:00 – SC Wiedenbruck vs Borussia Dortmund II
+Skjulte rækker: 14
 
 ## Log
 

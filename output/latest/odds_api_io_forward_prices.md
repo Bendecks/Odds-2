@@ -8,10 +8,10 @@ Captures provider rate-limit headers from each authenticated API response.
 Not real-money ready until validated against forward results and other sources.
 
 Enabled: True
-Calls used: 7 / 14
+Calls used: 11 / 14
 Max discovery calls: 13
 Events bookmaker: Bet365
-Events discovery rows: 1080
+Events discovery rows: 923
 Events max pages: 6
 Events lookahead days: 14
 Max events per page/search: 180
@@ -19,73 +19,73 @@ Max priced events: 80
 Minimum event match confidence: 0.72
 Discovery mode: bookmaker_filtered_events_then_search_fallback_then_reserved_multi_odds
 Query source: forward_fixture_predictions
-Search fallback used: False
-Search queries used: 
-Selected event IDs: 71218648, 69090834, 68159812, 69195806, 69462618, 68050292, 69463270, 69460604, 68161316, 68161318, 68160928, 69460608, 69463268, 68050020, 69460602, 67693058, 69462620, 68050296, 68050294, 68050024, 69462622, 67807386, 68728636, 67266628, 68160148, 67266624, 67807382, 67266620, 67266626, 69195810, 67905672, 67648300, 68162376, 68161700, 67807384, 68161702, 68916292, 69768174, 69768168, 68161320, 68916294, 68728642, 68162378, 71415288, 67648142, 69768170, 68162380, 69768176, 68160930, 67645554, 68050028, 69194910, 69115732, 68916296, 67648460, 67647982, 67647980, 69115734, 69768172, 68050300, 67647984, 69115740, 68916298, 68051602, 68051606, 68159822, 67648144, 68048864, 68048860, 68051604, 68048858, 69195812, 68048862, 67905676, 68161324, 67807824, 69460610, 67905196, 67905194, 67905674
+Search fallback used: True
+Search queries used: Celtic, Falkirk, Hibernian, Sociedad B
+Selected event IDs: 61515296, 61967610, 62227492, 61515276, 61515274, 61515288, 61840784, 61515278, 61967614, 61967622, 61967620, 61967626, 61967618, 61967616, 61515282, 61515292, 62229200, 61967624, 62229202, 62227500, 62229194, 61515284, 61911542, 67915836, 67017924, 71525190, 71466052, 61737724, 71096656, 71439906, 66855362, 71243190, 61730244, 67017926, 71481668, 67015180, 68310894, 68214652, 68954834, 61286593, 67017928, 67473260, 68320788, 67091306, 69342846, 69109000, 63039299, 70023854, 71453378, 71462680, 62036278, 70698894, 61911546, 67015182, 67017930, 61467293, 67015184, 67017932, 70730400, 68377662, 61737730, 71460644, 70698900, 67015186, 70207500, 62274218, 67091308, 66855368, 67017934, 67017936, 70221642, 68320784, 70687992, 67015188, 66855364, 71491072
 Multi-odds attempted: True
 Multi-odds skipped reason: 
 Bookmakers requested: Bet365
 Odds endpoint mode: multi_event_documented_endpoint
 Selected bookmakers: Bet365
 Selected markets: ML
-Fixture rows: 1069
-Event selection diagnostic rows: 83240
-Selected event rows: 80
+Fixture rows: 903
+Event selection diagnostic rows: 70995
+Selected event rows: 76
 Priced event rows: 10
 Price rows: 10
 Errors/status rows: 70
 
 ## Provider rate-limit headers
 
-Header rows captured: 7
+Header rows captured: 11
 Latest x-ratelimit-limit: 100
-Latest x-ratelimit-remaining: 41
-Latest x-ratelimit-reset: 2026-05-16T02:56:18Z
+Latest x-ratelimit-remaining: 25
+Latest x-ratelimit-reset: 2026-05-16T13:56:57Z
 Latest retry-after: None
 
-- 2026-05-16 02:15 | CD Marathon San Pedro Sula vs CD Olimpia Tegucigalpa | odds_api_io_Bet365_ML | 2.5/3.0/2.625
-- 2026-05-16 02:30 | Ballard FC vs FC Olympia | odds_api_io_Bet365_ML | 1.142/7.5/12.0
-- 2026-05-16 02:30 | Essendon Royals SC U20 vs South Melbourne FC U20 | odds_api_io_Bet365_ML | 3.6/3.75/1.75
-- 2026-05-16 02:30 | O'Connor Knights SC vs Canberra Croatia FC | odds_api_io_Bet365_ML | 2.3/5.25/2.1
-- 2026-05-16 02:30 | Waterside Karori vs Western Suburbs FC | odds_api_io_Bet365_ML | 17.0/8.0/1.125
-- 2026-05-16 02:45 | Adelaide Atletico Victory Reserves vs Eastern United Reserve | odds_api_io_Bet365_ML | 2.1/5.0/2.3
-- 2026-05-16 02:45 | Nomads United AFC vs Ferrymead Bays | odds_api_io_Bet365_ML | 2.45/4.0/2.2
-- 2026-05-16 03:00 | Bay Olympic vs Auckland United FC | odds_api_io_Bet365_ML | 6.5/5.0/1.333
-- 2026-05-16 03:00 | Bentleigh Greens SC vs Heidelberg United FC | odds_api_io_Bet365_ML | 2.05/4.75/2.375
-- 2026-05-16 03:00 | Dandenong Thunder FC vs ST Albans Saints Dinamo SC | odds_api_io_Bet365_ML | 2.375/4.2/2.15
+- 2026-05-16 13:30 | 1. FC Heidenheim vs FSV Mainz | odds_api_io_Bet365_ML | 1.909/4.2/3.4
+- 2026-05-16 13:30 | ACV Assen vs Koninklijke HFC | odds_api_io_Bet365_ML | 1.833/3.9/3.2
+- 2026-05-16 13:30 | ADO 20 Heemskerk vs VV Scherpenzeel | odds_api_io_Bet365_ML | 2.1/3.4/2.9
+- 2026-05-16 13:30 | Bayer Leverkusen vs Hamburger SV | odds_api_io_Bet365_ML | 1.3/6.5/7.5
+- 2026-05-16 13:30 | Bayern Munich vs 1. FC Cologne | odds_api_io_Bet365_ML | 1.142/8.5/11.0
+- 2026-05-16 13:30 | Borussia Monchengladbach vs TSG Hoffenheim | odds_api_io_Bet365_ML | 4.5/4.5/1.65
+- 2026-05-16 13:30 | FC Chernomorets Odessa vs FC Livyi Bereh Kyiv | odds_api_io_Bet365_ML | 2.55/3.1/2.55
+- 2026-05-16 13:30 | Eintracht Frankfurt vs VfB Stuttgart | odds_api_io_Bet365_ML | 3.2/4.0/1.8
+- 2026-05-16 13:30 | Excelsior Maassluis vs Jong Almere City FC | odds_api_io_Bet365_ML | 2.3/3.75/2.45
+- 2026-05-16 13:30 | HHC Hardenberg vs Kozakken Boys Werkendam | odds_api_io_Bet365_ML | 1.9/3.7/3.1
 
 ## Event selection diagnostics
 
-- src=events_bookmaker_filtered | query=Wellington Phoenix FC Reserve | target=Wellington Phoenix FC Reserve vs Island Bay United | candidate=Wellington Phoenix FC Reserve vs Island Bay United | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Wellington Olympic | target=Wellington Olympic vs Petone FC | candidate=Wellington Olympic vs Petone FC | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Keilor Park SC | target=Keilor Park SC vs Boroondara Eagles | candidate=Keilor Park SC vs Boroondara Eagles | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Chuncheon FC | target=Chuncheon FC vs Jeonbuk FC II | candidate=Chuncheon FC vs Jeonbuk FC II | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=CD Marathon San Pedro Sula | target=CD Marathon San Pedro Sula vs CD Olimpia Tegucigalpa | candidate=CD Marathon San Pedro Sula vs CD Olimpia Tegucigalpa | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Charlestown Azzurri FC | target=Charlestown Azzurri FC vs Adamstown Rosebud JFC | candidate=Charlestown Azzurri FC vs Adamstown Rosebud JFC | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Perth Redstar FC | target=Perth Redstar FC vs Armadale SC | candidate=Perth Redstar FC vs Armadale SC | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=FC Melbourne Srbija | target=FC Melbourne Srbija vs Brunswick City SC | candidate=FC Melbourne Srbija vs Brunswick City SC | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Curtin University SC Reserves | target=Curtin University SC Reserves vs Murdoch University Melville FC Reserves | candidate=Curtin University SC Reserves vs Murdoch University Melville FC Reserves | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Manningham United Blues FC | target=Manningham United Blues FC vs Brunswick Juventus FC | candidate=Manningham United Blues FC vs Brunswick Juventus FC | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Fremantle City FC | target=Fremantle City FC vs Olympic Kingsway SC | candidate=Fremantle City vs Olympic Kingsway SC | confidence=1.0 | selected=False | reason=
-- src=events_bookmaker_filtered | query=Belconnen United FC | target=Belconnen United FC vs Monaro Panthers FC | candidate=Belconnen United FC vs Monaro Panthers FC | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=The Cove FC Reserves | target=The Cove FC Reserves vs Adelaide Croatia Raiders SC Reserve | candidate=The Cove FC Reserves vs Adelaide Croatia Raiders SC Reserve | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Sturt Lions Reserve | target=Sturt Lions Reserve vs Croydon Kings FC Reserve | candidate=Sturt Lions Reserve vs Croydon Kings FC Reserve | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=FC Melbourne Srbija | target=FC Melbourne Srbija vs Brunswick City SC | candidate=FC Melbourne Srbija vs Brunswick City SC | confidence=1.0 | selected=False | reason=
-- src=events_bookmaker_filtered | query=Tokyo Verdy Beleza | target=Tokyo Verdy Beleza vs Albirex Niigata | candidate=Tokyo Verdy Beleza vs Albirex Niigata | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Avondale FC | target=Avondale FC vs Spring Hills FC | candidate=Avondale FC vs Spring Hills FC | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Rochedale Rovers | target=Rochedale Rovers vs Magic United TFA | candidate=Rochedale Rovers vs Magic United TFA | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Jubilo Iwata | target=Jubilo Iwata vs Fujieda MYFC | candidate=Jubilo Iwata vs Fujieda MYFC | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Sturt Lions | target=Sturt Lions vs Croydon FC | candidate=Sturt Lions vs Croydon FC | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Waterford FC | target=Waterford FC vs Sligo Rovers | candidate=Waterford FC vs Sligo Rovers | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=HHC Hardenberg | target=HHC Hardenberg vs Kozakken Boys Werkendam | candidate=HHC Hardenberg vs Kozakken Boys Werkendam | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Arendal FK | target=Arendal FK vs FK Jerv | candidate=Arendal FK vs FK Jerv | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Lyn 1896 FK | target=Lyn 1896 FK vs Kongsvinger IL Toppfotball | candidate=Lyn 1896 FK vs Kongsvinger IL Toppfotball | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=SV Togb | target=SV Togb vs Groene Ster | candidate=SV Togb vs Groene Ster | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Odisha FC | target=Odisha FC vs Punjab FC | candidate=Odisha FC vs Punjab FC | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Bryne FK | target=Bryne FK vs Stroemmen IF | candidate=Bryne FK vs Stroemmen IF | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=FC Irtysh Pavlodar | target=FC Irtysh Pavlodar vs FC Yelimai | candidate=FC Irtysh Pavlodar vs FC Yelimai | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Onsala BK | target=Onsala BK vs Hestrafors IF | candidate=Onsala BK vs Hestrafors IF | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Taby FK | target=Taby FK vs Sunnersta AIF | candidate=Taby FK vs Sunnersta AIF | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=CE Carroi | target=CE Carroi vs Inter Club de Escaldes | candidate=CE Carroi vs Inter Club de Escaldes | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=A-Xiii Auhof Center | target=A-Xiii Auhof Center vs WAF Vorwarts Brigittenau | candidate=A-Xiii Auhof Center vs WAF Vorwarts Brigittenau | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Viking FK | target=Viking FK vs IK Start | candidate=Viking FK vs IK Start | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Lillestroem SK | target=Lillestroem SK vs Sandefjord Fotball | candidate=Lillestroem SK vs Sandefjord Fotball | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=SV Spakenburg | target=SV Spakenburg vs VV Katwijk | candidate=SV Spakenburg vs VV Katwijk | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=UMF Selfoss | target=UMF Selfoss vs Kormakur/Hvot | candidate=UMF Selfoss vs Kormakur/Hvot | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=IFK Mariehamn | target=IFK Mariehamn vs Kuopion Palloseura | candidate=IFK Mariehamn vs Kuopion Palloseura | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=CA Independiente Cbba | target=CA Independiente Cbba vs Club Tigres FC | candidate=CA Independiente Cbba vs Club Tigres FC | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Rosenborg BK | target=Rosenborg BK vs Aalesunds FK | candidate=Rosenborg BK vs Aalesunds FK | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=ADO 20 Heemskerk | target=ADO 20 Heemskerk vs VV Scherpenzeel | candidate=ADO 20 Heemskerk vs VV Scherpenzeel | confidence=1.0 | selected=True | reason=
 
 ## Errors / Status
 
-- multi_odds_match: No multi-odds payload matched event 68160928
-- multi_odds_match: No multi-odds payload matched event 69460608
-- multi_odds_match: No multi-odds payload matched event 69463268
-- multi_odds_match: No multi-odds payload matched event 68050020
-- multi_odds_match: No multi-odds payload matched event 69460602
-- multi_odds_match: No multi-odds payload matched event 67693058
-- multi_odds_match: No multi-odds payload matched event 69462620
-- multi_odds_match: No multi-odds payload matched event 68050296
-- multi_odds_match: No multi-odds payload matched event 68050294
-- multi_odds_match: No multi-odds payload matched event 68050024
+- event_selection: No event above confidence 0.72 for query 'Celtic'; best=0.5933
+- event_selection: No event above confidence 0.72 for query 'Falkirk'; best=0.0
+- event_selection: No event above confidence 0.72 for query 'Hibernian'; best=0.5281
+- event_selection: No event above confidence 0.72 for query 'Sociedad B'; best=0.3153
+- multi_odds_match: No multi-odds payload matched event 61967620
+- multi_odds_match: No multi-odds payload matched event 61967626
+- multi_odds_match: No multi-odds payload matched event 61967618
+- multi_odds_match: No multi-odds payload matched event 61967616
+- multi_odds_match: No multi-odds payload matched event 61515282
+- multi_odds_match: No multi-odds payload matched event 61515292

@@ -1,26 +1,26 @@
 discovery_source,query,target_home_team,target_away_team,target_match_date,candidate_event_id,candidate_home_team,candidate_away_team,candidate_match_date,event_match_confidence,selected,rejection_reason,selected_bool,event_match_confidence_num
-events_bookmaker_filtered,Wellington Phoenix FC Reserve,Wellington Phoenix FC Reserve,Island Bay United,2026-05-16,69462620,Wellington Phoenix FC Reserve,Island Bay United,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,Wellington Olympic,Wellington Olympic,Petone FC,2026-05-16,69462622,Wellington Olympic,Petone FC,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,Keilor Park SC,Keilor Park SC,Boroondara Eagles,2026-05-16,68162380,Keilor Park SC,Boroondara Eagles,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,Chuncheon FC,Chuncheon FC,Jeonbuk FC II,2026-05-16,68916292,Chuncheon FC,Jeonbuk FC II,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,CD Marathon San Pedro Sula,CD Marathon San Pedro Sula,CD Olimpia Tegucigalpa,2026-05-16,71218648,CD Marathon San Pedro Sula,CD Olimpia Tegucigalpa,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,Charlestown Azzurri FC,Charlestown Azzurri FC,Adamstown Rosebud JFC,2026-05-16,67807824,Charlestown Azzurri FC,Adamstown Rosebud JFC,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,Perth Redstar FC,Perth Redstar FC,Armadale SC,2026-05-16,69115732,Perth Redstar FC,Armadale SC,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,FC Melbourne Srbija,FC Melbourne Srbija,Brunswick City SC,2026-05-16,68160930,FC Melbourne Srbija,Brunswick City SC,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,Curtin University SC Reserves,Curtin University SC Reserves,Murdoch University Melville FC Reserves,2026-05-16,69768168,Curtin University SC Reserves,Murdoch University Melville FC Reserves,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,Manningham United Blues FC,Manningham United Blues FC,Brunswick Juventus FC,2026-05-16,68160928,Manningham United Blues FC,Brunswick Juventus FC,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,Fremantle City FC,Fremantle City FC,Olympic Kingsway SC,2026-05-16,71415362,Fremantle City,Olympic Kingsway SC,2026-05-16,1.0,False,,False,1.0
-events_bookmaker_filtered,Belconnen United FC,Belconnen United FC,Monaro Panthers FC,2026-05-16,69195810,Belconnen United FC,Monaro Panthers FC,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,The Cove FC Reserves,The Cove FC Reserves,Adelaide Croatia Raiders SC Reserve,2026-05-16,68050300,The Cove FC Reserves,Adelaide Croatia Raiders SC Reserve,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,Sturt Lions Reserve,Sturt Lions Reserve,Croydon Kings FC Reserve,2026-05-16,68050020,Sturt Lions Reserve,Croydon Kings FC Reserve,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,FC Melbourne Srbija,FC Melbourne Srbija,Brunswick City SC,2026-05-16,68160560,FC Melbourne Srbija,Brunswick City SC,2026-05-16,1.0,False,,False,1.0
-events_bookmaker_filtered,Tokyo Verdy Beleza,Tokyo Verdy Beleza,Albirex Niigata,2026-05-16,67266626,Tokyo Verdy Beleza,Albirex Niigata,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,Avondale FC,Avondale FC,Spring Hills FC,2026-05-16,68162376,Avondale FC,Spring Hills FC,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,Rochedale Rovers,Rochedale Rovers,Magic United TFA,2026-05-16,67905194,Rochedale Rovers,Magic United TFA,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,Jubilo Iwata,Jubilo Iwata,Fujieda MYFC,2026-05-16,67648144,Jubilo Iwata,Fujieda MYFC,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,Sturt Lions,Sturt Lions,Croydon FC,2026-05-16,68048858,Sturt Lions,Croydon FC,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,Dandenong Thunder FC,Dandenong Thunder FC,ST Albans Saints Dinamo SC,2026-05-16,68161318,Dandenong Thunder FC,ST Albans Saints Dinamo SC,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,Tauranga City AFC,Tauranga City AFC,Western Springs AFC,2026-05-16,69460602,Tauranga City AFC,Western Springs AFC,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,Sorrento FC,Sorrento FC,Perth SC,2026-05-16,69115734,Sorrento FC,Perth SC,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,South Adelaide Reserve,South Adelaide Reserve,Salisbury United Reserve,2026-05-16,68050294,South Adelaide Reserve,Salisbury United Reserve,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,Perth Redstar FC,Perth Redstar FC,Armadale SC,2026-05-16,69115196,Perth Redstar FC,Armadale SC,2026-05-16,1.0,False,,False,1.0
+events_bookmaker_filtered,Waterford FC,Waterford FC,Sligo Rovers,2026-05-16,66855364,Waterford FC,Sligo Rovers,2026-05-16,1.0,True,,True,1.0
+events_bookmaker_filtered,HHC Hardenberg,HHC Hardenberg,Kozakken Boys Werkendam,2026-05-16,61967622,HHC Hardenberg,Kozakken Boys Werkendam,2026-05-16,1.0,True,,True,1.0
+events_bookmaker_filtered,Arendal FK,Arendal FK,FK Jerv,2026-05-16,67915836,Arendal FK,FK Jerv,2026-05-16,1.0,True,,True,1.0
+events_bookmaker_filtered,Lyn 1896 FK,Lyn 1896 FK,Kongsvinger IL Toppfotball,2026-05-16,67017930,Lyn 1896 FK,Kongsvinger IL Toppfotball,2026-05-16,1.0,True,,True,1.0
+events_bookmaker_filtered,SV Togb,SV Togb,Groene Ster,2026-05-16,62229202,SV Togb,Groene Ster,2026-05-16,1.0,True,,True,1.0
+events_bookmaker_filtered,Odisha FC,Odisha FC,Punjab FC,2026-05-16,70730400,Odisha FC,Punjab FC,2026-05-16,1.0,True,,True,1.0
+events_bookmaker_filtered,Bryne FK,Bryne FK,Stroemmen IF,2026-05-16,67017924,Bryne FK,Stroemmen IF,2026-05-16,1.0,True,,True,1.0
+events_bookmaker_filtered,FC Irtysh Pavlodar,FC Irtysh Pavlodar,FC Yelimai,2026-05-16,69342846,FC Irtysh Pavlodar,FC Yelimai,2026-05-16,1.0,True,,True,1.0
+events_bookmaker_filtered,Onsala BK,Onsala BK,Hestrafors IF,2026-05-16,68377662,Onsala BK,Hestrafors IF,2026-05-16,1.0,True,,True,1.0
+events_bookmaker_filtered,Taby FK,Taby FK,Sunnersta AIF,2026-05-16,68320784,Taby FK,Sunnersta AIF,2026-05-16,1.0,True,,True,1.0
+events_bookmaker_filtered,CE Carroi,CE Carroi,Inter Club de Escaldes,2026-05-16,61737724,CE Carroi,Inter Club de Escaldes,2026-05-16,1.0,True,,True,1.0
+events_bookmaker_filtered,A-Xiii Auhof Center,A-Xiii Auhof Center,WAF Vorwarts Brigittenau,2026-05-16,61911542,A-Xiii Auhof Center,WAF Vorwarts Brigittenau,2026-05-16,1.0,True,,True,1.0
+events_bookmaker_filtered,Viking FK,Viking FK,IK Start,2026-05-16,67015188,Viking FK,IK Start,2026-05-16,1.0,True,,True,1.0
+events_bookmaker_filtered,Lillestroem SK,Lillestroem SK,Sandefjord Fotball,2026-05-16,67015182,Lillestroem SK,Sandefjord Fotball,2026-05-16,1.0,True,,True,1.0
+events_bookmaker_filtered,SV Spakenburg,SV Spakenburg,VV Katwijk,2026-05-16,61967624,SV Spakenburg,VV Katwijk,2026-05-16,1.0,True,,True,1.0
+events_bookmaker_filtered,UMF Selfoss,UMF Selfoss,Kormakur/Hvot,2026-05-16,70687992,UMF Selfoss,Kormakur/Hvot,2026-05-16,1.0,True,,True,1.0
+events_bookmaker_filtered,IFK Mariehamn,IFK Mariehamn,Kuopion Palloseura,2026-05-16,67091306,IFK Mariehamn,Kuopion Palloseura,2026-05-16,1.0,True,,True,1.0
+events_bookmaker_filtered,CA Independiente Cbba,CA Independiente Cbba,Club Tigres FC,2026-05-16,71525190,CA Independiente Cbba,Club Tigres FC,2026-05-16,1.0,True,,True,1.0
+events_bookmaker_filtered,Rosenborg BK,Rosenborg BK,Aalesunds FK,2026-05-16,67015186,Rosenborg BK,Aalesunds FK,2026-05-16,1.0,True,,True,1.0
+events_bookmaker_filtered,ADO 20 Heemskerk,ADO 20 Heemskerk,VV Scherpenzeel,2026-05-16,62227492,ADO 20 Heemskerk,VV Scherpenzeel,2026-05-16,1.0,True,,True,1.0
+events_bookmaker_filtered,Bayer Leverkusen,Bayer Leverkusen,Hamburger SV,2026-05-16,61515276,Bayer Leverkusen,Hamburger SV,2026-05-16,1.0,True,,True,1.0
+events_bookmaker_filtered,ACV Assen,ACV Assen,Koninklijke HFC,2026-05-16,61967610,ACV Assen,Koninklijke HFC,2026-05-16,1.0,True,,True,1.0
+events_bookmaker_filtered,HNK Gorica,HNK Gorica,NK Osijek,2026-05-16,61286593,HNK Gorica,NK Osijek,2026-05-16,1.0,True,,True,1.0
+events_bookmaker_filtered,Kayserispor,Kayserispor,Konyaspor,2026-05-16,63039299,Kayserispor,Konyaspor,2026-05-16,1.0,True,,True,1.0
+events_bookmaker_filtered,K.v.v. Quick Boys,K.v.v. Quick Boys,IJsselmeervogels,2026-05-16,61967618,K.v.v. Quick Boys,IJsselmeervogels,2026-05-16,1.0,True,,True,1.0
