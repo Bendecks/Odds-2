@@ -5,9 +5,9 @@ Dette er stadig paper-test og ikke rigtige anbefalinger.
 
 ## Kort status
 
-- Aktuelle forward picks: **20**
-- Loggede forward picks fra 2026+: **187**
-- Afventer forward picks: **123**
+- Aktuelle forward picks: **16**
+- Loggede forward picks fra 2026+: **206**
+- Afventer forward picks: **139**
 - Settled forward picks: **0**
 - Vundne forward: **0**
 - Tabte forward: **0**
@@ -15,175 +15,21 @@ Dette er stadig paper-test og ikke rigtige anbefalinger.
 
 ## Aktuelle forward paper-picks
 
-### CF Monterrey vs Club America
-- Dato: **2026-05-15**
-- Kampstart: **03:10**
-- Liga: **mexico-liga-mx-women-clausura**
+### Tauranga City AFC vs Western Springs AFC
+- Dato: **2026-05-16**
+- Kampstart: **03:00**
+- Liga: **new-zealand-national-league**
 - Spil: **Hjemmesejr**
-- Odds: **4.33**
+- Odds: **3.90**
 - Model probability: **0.377**
-- EV: **0.634**
-- Edge: **0.146**
+- EV: **0.471**
+- Edge: **0.121**
 - Type: **Baseline-observation**
 
-### Semen Padang FC vs Persebaya Surabaya
-- Dato: **2026-05-15**
-- Kampstart: **08:30**
-- Liga: **indonesia-liga-1**
-- Spil: **Uafgjort**
-- Odds: **4.75**
-- Model probability: **0.274**
-- EV: **0.301**
-- Edge: **0.063**
-- Type: **Baseline-observation**
-
-### Penang FA vs Brunei DPMM FC
-- Dato: **2026-05-15**
-- Kampstart: **09:00**
-- Liga: **malaysia-super-league**
-- Spil: **Udebanesejr**
-- Odds: **4.50**
-- Model probability: **0.349**
-- EV: **0.570**
-- Edge: **0.127**
-- Type: **Baseline-observation**
-
-### Brisbane Roar FC vs Lions FC
-- Dato: **2026-05-15**
-- Kampstart: **09:15**
-- Liga: **australia-queensland-npl**
-- Spil: **Uafgjort**
-- Odds: **4.75**
-- Model probability: **0.274**
-- EV: **0.301**
-- Edge: **0.063**
-- Type: **Baseline-observation**
-
-### Mekelle 70 Enderta FC vs Ethiopian Medhin
-- Dato: **2026-05-15**
-- Kampstart: **10:00**
-- Liga: **ethiopia-premier-league**
-- Spil: **Hjemmesejr**
-- Odds: **4.33**
-- Model probability: **0.377**
-- EV: **0.634**
-- Edge: **0.146**
-- Type: **Baseline-observation**
-
-### Myj-Gmsc vs FC Bengaluru United
-- Dato: **2026-05-15**
-- Kampstart: **10:00**
-- Liga: **india-i-league-2**
-- Spil: **Hjemmesejr**
-- Odds: **3.80**
-- Model probability: **0.377**
-- EV: **0.433**
-- Edge: **0.114**
-- Type: **Baseline-observation**
-
-### Werribee City FC vs Malvern City FC
-- Dato: **2026-05-15**
-- Kampstart: **10:00**
-- Liga: **australia-victoria-premier-league-2**
-- Spil: **Hjemmesejr**
-- Odds: **3.75**
-- Model probability: **0.377**
-- EV: **0.414**
-- Edge: **0.111**
-- Type: **Baseline-observation**
-
-### Broadmeadow Magic FC vs Newcastle Olympic FC
-- Dato: **2026-05-15**
-- Kampstart: **10:00**
-- Liga: **australia-northern-nsw-premier-league-women**
-- Spil: **Uafgjort**
-- Odds: **4.75**
-- Model probability: **0.274**
-- EV: **0.301**
-- Edge: **0.063**
-- Type: **Baseline-observation**
-
-### Essendon Royals SC vs Moreland City FC
-- Dato: **2026-05-15**
-- Kampstart: **10:30**
-- Liga: **australia-victoria-premier-league-2**
-- Spil: **Udebanesejr**
-- Odds: **4.33**
-- Model probability: **0.349**
-- EV: **0.511**
-- Edge: **0.118**
-- Type: **Baseline-observation**
-
-### Caboolture FC vs North Star FC
-- Dato: **2026-05-15**
-- Kampstart: **10:30**
-- Liga: **australia-queensland-premier-league-1**
-- Spil: **Udebanesejr**
-- Odds: **3.75**
-- Model probability: **0.349**
-- EV: **0.308**
-- Edge: **0.082**
-- Type: **Baseline-observation**
-
-### PVF Cand B vs Ho Chi Minh City FC
-- Dato: **2026-05-15**
-- Kampstart: **11:00**
-- Liga: **vietnam-v-league-2**
-- Spil: **Udebanesejr**
-- Odds: **3.60**
-- Model probability: **0.349**
-- EV: **0.256**
-- Edge: **0.071**
-- Type: **Baseline-observation**
-
-### Cong An TP Ho Chi Minh City FC vs SHB Da Nang
-- Dato: **2026-05-15**
-- Kampstart: **11:00**
-- Liga: **vietnam-v-league-1**
-- Spil: **Udebanesejr**
-- Odds: **3.40**
-- Model probability: **0.349**
-- EV: **0.186**
-- Edge: **0.055**
-- Type: **Baseline-observation**
-
-### Curtin University SC vs Murdoch University Melville FC
-- Dato: **2026-05-15**
-- Kampstart: **11:30**
-- Liga: **australia-western-australia-state-league-1**
-- Spil: **Hjemmesejr**
-- Odds: **4.00**
-- Model probability: **0.377**
-- EV: **0.509**
-- Edge: **0.127**
-- Type: **Baseline-observation**
-
-### Tianjin Jinmen Tiger vs Chengdu Rongcheng
-- Dato: **2026-05-15**
-- Kampstart: **11:35**
-- Liga: **china-chinese-super-league**
-- Spil: **Hjemmesejr**
-- Odds: **4.75**
-- Model probability: **0.377**
-- EV: **0.792**
-- Edge: **0.167**
-- Type: **Baseline-observation**
-
-### Shanghai Port FC vs Zhejiang FC
-- Dato: **2026-05-15**
-- Kampstart: **11:35**
-- Liga: **china-chinese-super-league**
-- Spil: **Udebanesejr**
-- Odds: **3.60**
-- Model probability: **0.349**
-- EV: **0.256**
-- Edge: **0.071**
-- Type: **Baseline-observation**
-
-### Beijing Guoan vs Qingdao Hainiu FC
-- Dato: **2026-05-15**
-- Kampstart: **12:00**
-- Liga: **china-chinese-super-league**
+### Melville United AFC vs Manukau United FC
+- Dato: **2026-05-16**
+- Kampstart: **03:00**
+- Liga: **new-zealand-national-league**
 - Spil: **Uafgjort**
 - Odds: **5.25**
 - Model probability: **0.274**
@@ -191,48 +37,158 @@ Dette er stadig paper-test og ikke rigtige anbefalinger.
 - Edge: **0.084**
 - Type: **Baseline-observation**
 
-### FK Karvan Yevlakh vs Gabala FK
-- Dato: **2026-05-15**
-- Kampstart: **13:00**
-- Liga: **azerbaijan-premier-league**
-- Spil: **Hjemmesejr**
-- Odds: **4.50**
-- Model probability: **0.377**
-- EV: **0.697**
-- Edge: **0.155**
-- Type: **Baseline-observation**
-
-### Dire Dawa Kenema vs Bahir Dar Kenema FC
-- Dato: **2026-05-15**
-- Kampstart: **13:00**
-- Liga: **ethiopia-premier-league**
-- Spil: **Hjemmesejr**
-- Odds: **3.75**
-- Model probability: **0.377**
-- EV: **0.414**
-- Edge: **0.111**
-- Type: **Baseline-observation**
-
-### Bnei Yehuda Tel Aviv FC vs MS Football Hapoel Kiryat Yam
-- Dato: **2026-05-15**
-- Kampstart: **13:00**
-- Liga: **israel-national-league**
-- Spil: **Udebanesejr**
-- Odds: **4.00**
-- Model probability: **0.349**
-- EV: **0.395**
-- Edge: **0.099**
-- Type: **Baseline-observation**
-
-### Al Ittihad Ahli of Aleppo vs Al-Shorta SC
-- Dato: **2026-05-15**
-- Kampstart: **13:00**
-- Liga: **syria-premier-league**
+### Bay Olympic vs Auckland United FC
+- Dato: **2026-05-16**
+- Kampstart: **03:00**
+- Liga: **new-zealand-national-league**
 - Spil: **Uafgjort**
 - Odds: **5.00**
 - Model probability: **0.274**
 - EV: **0.370**
 - Edge: **0.074**
+- Type: **Baseline-observation**
+
+### Mynavi Sendai Ladies vs Chifure AS Elfen Saitama
+- Dato: **2026-05-16**
+- Kampstart: **04:00**
+- Liga: **japan-we-league-women**
+- Spil: **Udebanesejr**
+- Odds: **3.90**
+- Model probability: **0.349**
+- EV: **0.360**
+- Edge: **0.092**
+- Type: **Baseline-observation**
+
+### Lambton Jaffas FC vs Kahibah FC
+- Dato: **2026-05-16**
+- Kampstart: **04:00**
+- Liga: **australia-northern-nsw-npl**
+- Spil: **Uafgjort**
+- Odds: **5.25**
+- Model probability: **0.274**
+- EV: **0.439**
+- Edge: **0.084**
+- Type: **Baseline-observation**
+
+### Belmont Swansea United FC vs Valentine FC
+- Dato: **2026-05-16**
+- Kampstart: **05:00**
+- Liga: **australia-northern-nsw-npl**
+- Spil: **Udebanesejr**
+- Odds: **4.75**
+- Model probability: **0.349**
+- EV: **0.657**
+- Edge: **0.138**
+- Type: **Baseline-observation**
+
+### Albirex Niigata vs Nara Club
+- Dato: **2026-05-16**
+- Kampstart: **05:00**
+- Liga: **japan-jleague-2**
+- Spil: **Udebanesejr**
+- Odds: **4.33**
+- Model probability: **0.349**
+- EV: **0.511**
+- Edge: **0.118**
+- Type: **Baseline-observation**
+
+### Dangjin Citizen vs Daejeon Korail FC
+- Dato: **2026-05-16**
+- Kampstart: **05:00**
+- Liga: **republic-of-korea-k3-league**
+- Spil: **Hjemmesejr**
+- Odds: **3.70**
+- Model probability: **0.377**
+- EV: **0.396**
+- Edge: **0.107**
+- Type: **Baseline-observation**
+
+### Essendon Royals SC vs South Melbourne FC
+- Dato: **2026-05-16**
+- Kampstart: **05:00**
+- Liga: **australia-victoria-npl-women**
+- Spil: **Hjemmesejr**
+- Odds: **3.60**
+- Model probability: **0.377**
+- EV: **0.358**
+- Edge: **0.099**
+- Type: **Baseline-observation**
+
+### Fukushima United FC vs Hokkaido Consadole Sapporo
+- Dato: **2026-05-16**
+- Kampstart: **05:00**
+- Liga: **japan-jleague-2**
+- Spil: **Hjemmesejr**
+- Odds: **3.40**
+- Model probability: **0.377**
+- EV: **0.282**
+- Edge: **0.083**
+- Type: **Baseline-observation**
+
+### Belmont Swansea United FC vs Valentine FC
+- Dato: **2026-05-16**
+- Kampstart: **05:00**
+- Liga: **australia-northern-nsw-npl**
+- Spil: **Uafgjort**
+- Odds: **5.00**
+- Model probability: **0.274**
+- EV: **0.370**
+- Edge: **0.074**
+- Type: **Baseline-observation**
+
+### Adelaide Atletico VSC vs Eastern United
+- Dato: **2026-05-16**
+- Kampstart: **05:30**
+- Liga: **australia-south-australia-state-league-1**
+- Spil: **Udebanesejr**
+- Odds: **4.20**
+- Model probability: **0.349**
+- EV: **0.465**
+- Edge: **0.111**
+- Type: **Baseline-observation**
+
+### Falkirk FC vs Glasgow Rangers
+- Dato: **2026-05-16**
+- Kampstart: **11:30**
+- Liga: **scotland-premiership**
+- Spil: **Hjemmesejr**
+- Odds: **4.10**
+- Model probability: **0.377**
+- EV: **0.547**
+- Edge: **0.133**
+- Type: **Baseline-observation**
+
+### Real Sociedad San Sebastian B vs CD Mirandes
+- Dato: **2026-05-16**
+- Kampstart: **12:00**
+- Liga: **spain-laliga-2**
+- Spil: **Hjemmesejr**
+- Odds: **3.35**
+- Model probability: **0.377**
+- EV: **0.264**
+- Edge: **0.079**
+- Type: **Baseline-observation**
+
+### Celtic vs Hearts
+- Dato: **2026-05-16**
+- Kampstart: **12:30**
+- Liga: **SC0**
+- Spil: **Udebanesejr**
+- Odds: **5.01**
+- Model probability: **0.349**
+- EV: **0.747**
+- Edge: **0.149**
+- Type: **Baseline-observation**
+
+### Falkirk vs Rangers
+- Dato: **2026-05-16**
+- Kampstart: **12:30**
+- Liga: **SC0**
+- Spil: **Hjemmesejr**
+- Odds: **4.10**
+- Model probability: **0.377**
+- EV: **0.547**
+- Edge: **0.133**
 - Type: **Baseline-observation**
 
 ## Settled forward picks
@@ -241,25 +197,9 @@ Ingen settled forward-picks endnu i den rene forward-rapport.
 
 ## Afventer i forward-loggen
 
-- **2026-05-14 kl. 14:00** – Trelleborgs FF vs Jonkopings Sodra IF – Udebanesejr @ 3.60 – Baseline-observation
-- **2026-05-14 kl. 14:00** – Kjp Kouvola vs Lautp – Hjemmesejr @ 3.25 – Baseline-observation
-- **2026-05-14 kl. 14:00** – IF Karlstad Fotbol vs IFK Stocksund – Uafgjort @ 5.25 – Baseline-observation
-- **2026-05-14 kl. 14:00** – IF Vestri vs Grotta – Udebanesejr @ 4.20 – Baseline-observation
-- **2026-05-14 kl. 14:00** – VfL Wolfsburg vs Bayern Munich – Hjemmesejr @ 4.50 – Baseline-observation
-- **2026-05-14 kl. 14:00** – KA Akureyri vs KF Aegir – Uafgjort @ 6.25 – Baseline-observation
-- **2026-05-14 kl. 14:05** – Dhofar SCSC vs Al Shabab – Hjemmesejr @ 3.70 – Baseline-observation
-- **2026-05-14 kl. 14:30** – FC Sion vs FC Lugano – Udebanesejr @ 3.80 – Baseline-observation
-- **2026-05-14 kl. 14:30** – Stade Renard vs Aigle Royal – Udebanesejr @ 4.10 – Baseline-observation
-- **2026-05-14 kl. 14:30** – AL Naft vs AL Minaa – Hjemmesejr @ 4.00 – Baseline-observation
-- **2026-05-14 kl. 14:30** – AL Naft Maysan vs AL Karma – Hjemmesejr @ 4.00 – Baseline-observation
-- **2026-05-14 kl. 14:45** – POFC Botev Vratsa vs PFC Montana 1921 – Udebanesejr @ 5.00 – Baseline-observation
-- **2026-05-14 kl. 15:00** – Austria Lustenau vs SKU Amstetten – Udebanesejr @ 5.00 – Baseline-observation
-- **2026-05-14 kl. 15:00** – Ljungskile SK vs GIF Sundsvall – Udebanesejr @ 5.00 – Baseline-observation
-- **2026-05-14 kl. 15:00** – AS Fortuna vs Coton Sport de Garoua – Hjemmesejr @ 4.75 – Baseline-observation
-- **2026-05-14 kl. 15:00** – SV Wildon vs SC Stadtwerke Bruck/Mur – Uafgjort @ 5.50 – Baseline-observation
-- **2026-05-14 kl. 15:00** – SK Austria Klagenfurt vs FC Liefering – Hjemmesejr @ 3.75 – Baseline-observation
 - **2026-05-14 kl. 15:00** – FC Urartu Yerevan vs FC Noah Yerevan – Hjemmesejr @ 4.33 – Baseline-observation
-- **2026-05-14 kl. 15:00** – First Vienna FC 1894 vs Schwarz-Weiss Bregenz – Udebanesejr @ 3.90 – Baseline-observation
+- **2026-05-14 kl. 15:00** – SV Wildon vs SC Stadtwerke Bruck/Mur – Uafgjort @ 5.50 – Baseline-observation
+- **2026-05-14 kl. 15:00** – AS Fortuna vs Coton Sport de Garoua – Hjemmesejr @ 4.75 – Baseline-observation
 - **2026-05-14 kl. 15:10** – Hapoel Nir Ramat Hasharon vs Maccabi Kishronot Hadera – Hjemmesejr @ 4.75 – Baseline-observation
 - **2026-05-14 kl. 15:30** – ASKO Kottmannsdorf vs SV Dellach/Gail – Hjemmesejr @ 4.50 – Baseline-observation
 - **2026-05-14 kl. 16:00** – FC Tallinn vs JK Tallinna Kalev – Hjemmesejr @ 4.75 – Baseline-observation
@@ -284,23 +224,39 @@ Ingen settled forward-picks endnu i den rene forward-rapport.
 - **2026-05-15 kl. 09:00** – Penang FA vs Brunei DPMM FC – Udebanesejr @ 4.50 – Baseline-observation
 - **2026-05-15 kl. 09:15** – Brisbane Roar FC vs Lions FC – Uafgjort @ 4.75 – Baseline-observation
 - **2026-05-15 kl. 10:00** – Broadmeadow Magic FC vs Newcastle Olympic FC – Uafgjort @ 4.75 – Baseline-observation
-- **2026-05-15 kl. 10:00** – Mekelle 70 Enderta FC vs Ethiopian Medhin – Hjemmesejr @ 4.33 – Baseline-observation
-- **2026-05-15 kl. 10:00** – Werribee City FC vs Malvern City FC – Hjemmesejr @ 3.75 – Baseline-observation
 - **2026-05-15 kl. 10:00** – Myj-Gmsc vs FC Bengaluru United – Hjemmesejr @ 3.80 – Baseline-observation
-- **2026-05-15 kl. 10:30** – Essendon Royals SC vs Moreland City FC – Udebanesejr @ 4.33 – Baseline-observation
+- **2026-05-15 kl. 10:00** – Werribee City FC vs Malvern City FC – Hjemmesejr @ 3.75 – Baseline-observation
+- **2026-05-15 kl. 10:00** – Mekelle 70 Enderta FC vs Ethiopian Medhin – Hjemmesejr @ 4.33 – Baseline-observation
 - **2026-05-15 kl. 10:30** – Caboolture FC vs North Star FC – Udebanesejr @ 3.75 – Baseline-observation
-- **2026-05-15 kl. 11:00** – PVF Cand B vs Ho Chi Minh City FC – Udebanesejr @ 3.60 – Baseline-observation
-- **2026-05-15 kl. 11:00** – PVF Cand B vs Ho Chi Minh City FC – Hjemmesejr @ 4.10 – Baseline-observation
+- **2026-05-15 kl. 10:30** – Essendon Royals SC vs Moreland City FC – Udebanesejr @ 4.33 – Baseline-observation
 - **2026-05-15 kl. 11:00** – Cong An TP Ho Chi Minh City FC vs SHB Da Nang – Udebanesejr @ 3.40 – Baseline-observation
-- **2026-05-15 kl. 11:30** – Curtin University SC vs Murdoch University Melville FC – Hjemmesejr @ 4.00 – Baseline-observation
+- **2026-05-15 kl. 11:00** – PVF Cand B vs Ho Chi Minh City FC – Hjemmesejr @ 4.10 – Baseline-observation
+- **2026-05-15 kl. 11:00** – PVF Cand B vs Ho Chi Minh City FC – Udebanesejr @ 3.60 – Baseline-observation
 - **2026-05-15 kl. 11:30** – Hangzhou Linping Wuyue vs Foshan Nanshi FC – Hjemmesejr @ 3.40 – Baseline-observation
-- **2026-05-15 kl. 11:35** – Tianjin Jinmen Tiger vs Chengdu Rongcheng – Hjemmesejr @ 4.75 – Baseline-observation
+- **2026-05-15 kl. 11:30** – Curtin University SC vs Murdoch University Melville FC – Hjemmesejr @ 4.00 – Baseline-observation
 - **2026-05-15 kl. 11:35** – Shanghai Port FC vs Zhejiang FC – Udebanesejr @ 3.60 – Baseline-observation
+- **2026-05-15 kl. 11:35** – Tianjin Jinmen Tiger vs Chengdu Rongcheng – Hjemmesejr @ 4.75 – Baseline-observation
 - **2026-05-15 kl. 12:00** – Beijing Guoan vs Qingdao Hainiu FC – Uafgjort @ 5.25 – Baseline-observation
-- **2026-05-15 kl. 13:00** – FK Karvan Yevlakh vs Gabala FK – Hjemmesejr @ 4.50 – Baseline-observation
-- **2026-05-15 kl. 13:00** – Dire Dawa Kenema vs Bahir Dar Kenema FC – Hjemmesejr @ 3.75 – Baseline-observation
 - **2026-05-15 kl. 13:00** – Bnei Yehuda Tel Aviv FC vs MS Football Hapoel Kiryat Yam – Udebanesejr @ 4.00 – Baseline-observation
+- **2026-05-15 kl. 13:00** – Dire Dawa Kenema vs Bahir Dar Kenema FC – Hjemmesejr @ 3.75 – Baseline-observation
+- **2026-05-15 kl. 13:00** – FK Karvan Yevlakh vs Gabala FK – Hjemmesejr @ 4.50 – Baseline-observation
 - **2026-05-15 kl. 13:00** – Al Ittihad Ahli of Aleppo vs Al-Shorta SC – Uafgjort @ 5.00 – Baseline-observation
+- **2026-05-16 kl. 03:00** – Bay Olympic vs Auckland United FC – Uafgjort @ 5.00 – Baseline-observation
+- **2026-05-16 kl. 03:00** – Tauranga City AFC vs Western Springs AFC – Hjemmesejr @ 3.90 – Baseline-observation
+- **2026-05-16 kl. 03:00** – Melville United AFC vs Manukau United FC – Uafgjort @ 5.25 – Baseline-observation
+- **2026-05-16 kl. 04:00** – Mynavi Sendai Ladies vs Chifure AS Elfen Saitama – Udebanesejr @ 3.90 – Baseline-observation
+- **2026-05-16 kl. 04:00** – Lambton Jaffas FC vs Kahibah FC – Uafgjort @ 5.25 – Baseline-observation
+- **2026-05-16 kl. 05:00** – Fukushima United FC vs Hokkaido Consadole Sapporo – Hjemmesejr @ 3.40 – Baseline-observation
+- **2026-05-16 kl. 05:00** – Essendon Royals SC vs South Melbourne FC – Hjemmesejr @ 3.60 – Baseline-observation
+- **2026-05-16 kl. 05:00** – Belmont Swansea United FC vs Valentine FC – Udebanesejr @ 4.75 – Baseline-observation
+- **2026-05-16 kl. 05:00** – Albirex Niigata vs Nara Club – Udebanesejr @ 4.33 – Baseline-observation
+- **2026-05-16 kl. 05:00** – Dangjin Citizen vs Daejeon Korail FC – Hjemmesejr @ 3.70 – Baseline-observation
+- **2026-05-16 kl. 05:00** – Belmont Swansea United FC vs Valentine FC – Uafgjort @ 5.00 – Baseline-observation
+- **2026-05-16 kl. 05:30** – Adelaide Atletico VSC vs Eastern United – Udebanesejr @ 4.20 – Baseline-observation
+- **2026-05-16 kl. 11:30** – Falkirk FC vs Glasgow Rangers – Hjemmesejr @ 3.82 – Baseline-observation
+- **2026-05-16 kl. 12:00** – Real Sociedad San Sebastian B vs CD Mirandes – Hjemmesejr @ 3.35 – Baseline-observation
+- **2026-05-16 kl. 12:30** – Falkirk vs Rangers – Hjemmesejr @ 3.82 – Baseline-observation
+- **2026-05-16 kl. 12:30** – Celtic vs Hearts – Udebanesejr @ 5.00 – Baseline-observation
 
 ## Settlement-check pending/noter
 

@@ -47,7 +47,7 @@ Betcenter BE,True,all_bookmakers
 Betclic FR,True,all_bookmakers
 Betclic PL,True,all_bookmakers
 Betclic PT,True,all_bookmakers
-Betcris,False,all_bookmakers
+Betcris,True,all_bookmakers
 Bet Da Sorte,True,all_bookmakers
 Betfair ES,True,all_bookmakers
 Betfair Exchange,True,all_bookmakers
@@ -79,7 +79,7 @@ BetWinner,True,all_bookmakers
 Blaze,True,all_bookmakers
 Bluechip,True,all_bookmakers
 Bodog,True,all_bookmakers
-BookMaker.eu,False,all_bookmakers
+BookMaker.eu,True,all_bookmakers
 Bovada,True,all_bookmakers
 BoyleSports,False,all_bookmakers
 BRX,True,all_bookmakers
@@ -147,7 +147,7 @@ Interwetten,False,all_bookmakers
 Ivibet,False,all_bookmakers
 JackBit,True,all_bookmakers
 Jogão,True,all_bookmakers
-JustBet,False,all_bookmakers
+JustBet,True,all_bookmakers
 Kalshi,True,all_bookmakers
 Kambi,True,all_bookmakers
 KTO,True,all_bookmakers
@@ -158,7 +158,6 @@ LeoVegas DK,False,all_bookmakers
 LeoVegas ES,True,all_bookmakers
 LeoVegas IT,True,all_bookmakers
 LeoVegas NL,True,all_bookmakers
-LeoVegas Sport,False,all_bookmakers
 LibraBet,True,all_bookmakers
 Liderbet,True,all_bookmakers
 LiveScoreBet,False,all_bookmakers
@@ -193,6 +192,7 @@ paf,True,all_bookmakers
 PAF ES,True,all_bookmakers
 PAGBET,True,all_bookmakers
 Pamestoixima,True,all_bookmakers
+Panda,True,all_bookmakers
 Parimatch UK,False,all_bookmakers
 Piwi247 Exchange,True,all_bookmakers
 Pixbet,True,all_bookmakers
@@ -232,7 +232,7 @@ SportBetting AG,True,all_bookmakers
 SportingBet,True,all_bookmakers
 Sportingbet BR,True,all_bookmakers
 SportingBet ZA,True,all_bookmakers
-Sports411,False,all_bookmakers
+Sports411,True,all_bookmakers
 Sportsbet.com.au,True,all_bookmakers
 Sportuna,True,all_bookmakers
 SportyBet,True,all_bookmakers

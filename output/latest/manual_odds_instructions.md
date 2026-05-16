@@ -17,235 +17,6 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 
 ## Current rows needing odds
 
-- 2026-05-15 22:30 | 12 de Junio de Villa Hayes vs Club Dr Benjamin Aceval
-- 2026-05-15 16:00 | Aalesunds FK vs Hoenefoss BK
-- 2026-05-15 18:15 | FC Aarau vs Yverdon-Sport
-- 2026-05-15 17:30 | ACS Champions FC Arges vs Rapid Bucuresti 1923
-- 2026-05-15 09:35 | Adelaide United FC vs Auckland FC
-- 2026-05-15 14:10 | Ajman Club vs Al-Nasr Dubai CSC
-- 2026-05-15 16:00 | Akritas Chlorakas vs AEL Limassol
-- 2026-05-15 14:05 | AL Arabi (UAE) vs Gulf United
-- 2026-05-15 16:00 | AL Budaiya vs Al-Ahli SC Manama
-- 2026-05-15 16:00 | Al Hidd vs Al-Shabab
-- 2026-05-15 14:05 | AL Ittifaq vs Emirates Club
-- 2026-05-15 13:00 | Al Ittihad Ahli of Aleppo vs Al-Shorta SC
-- 2026-05-15 14:30 | AL Mosul SC vs Duhok FC
-- 2026-05-15 17:00 | Al Quwa Al Jawiya vs AL Talaba
-- 2026-05-15 16:00 | Al Riffa vs AL Bahrain
-- 2026-05-15 14:40 | Al Shabab Kuwait vs Kazma SC
-- 2026-05-15 14:05 | Al Urooba UAE vs Dubai United FC
-- 2026-05-15 16:45 | Al Wasl FC vs Ittihad Kalba FC
-- 2026-05-15 14:05 | Al-Dhaid vs Hatta SC
-- 2026-05-15 14:30 | Al-Gharraf SC vs AL Karkh
-- 2026-05-15 14:05 | Al-Hamriyah vs Dibba Al-Hisn SC
-- 2026-05-15 18:00 | Al-Taawoun FC vs Al-Riyadh SC
-- 2026-05-15 16:30 | Alingsas FC United vs IF Elfsborg
-- 2026-05-15 14:30 | Amanat Baghdad SC vs Al Kahrabaa SC
-- 2026-05-15 15:30 | Araz Nakhchivan PFK vs FK Kapaz
-- 2026-05-15 18:30 | AS Saint-Etienne vs Rodez Aveyron Football
-- 2026-05-15 14:30 | FC Asiagoal Bishkek vs FC Alga
-- 2026-05-15 19:00:00 | Aston Villa vs Liverpool
-- 2026-05-15 17:30 | ASV Siegendorf vs SC Oberpullendorf
-- 2026-05-15 07:00 | Auckland FC Reserves vs Auckland City FC
-- 2026-05-15 19:15 | Augnablik Kopavogur vs KA Asvellir
-- 2026-05-15 17:00 | B93 Copenhagen vs Aalborg BK
-- 2026-05-15 11:00 | Balcatta FC vs Fremantle City FC
-- 2026-05-15 12:00 | Beijing Guoan vs Qingdao Hainiu FC
-- 2026-05-15 10:30 | Bentleigh Greens vs Heidelberg United FC
-- 2026-05-15 08:15 | Bentleigh Greens SC vs Heidelberg United FC
-- 2026-05-15 14:30 | FC Bishkek City vs FC Kyrgyzaltyn
-- 2026-05-15 16:30 | BK Avarta vs Goerslev IF
-- 2026-05-15 17:00 | BK Hacken Academy vs Husqvarna FF
-- 2026-05-15 10:15 | Blacktown Spartans vs Bull FC Academy
-- 2026-05-15 13:00 | Bnei Yehuda Tel Aviv FC vs MS Football Hapoel Kiryat Yam
-- 2026-05-15 16:00 | Bodoe/Glimt vs LSK Kvinner FK
-- 2026-05-15 18:45 | Bohemians Dublin FC vs Drogheda United FC
-- 2026-05-15 09:15 | Brisbane Roar FC vs Lions FC
-- 2026-05-15 10:00 | Broadmeadow Magic FC vs Newcastle Olympic FC
-- 2026-05-15 08:45 | Bunga Raya FC vs Malaysia University
-- 2026-05-15 18:30 | CA Banfield vs CA Talleres de Cordoba
-- 2026-05-15 20:00 | CA Bucaramanga Sa vs International FC
-- 2026-05-15 14:00 | CA Huracan vs Atletico Lanus
-- 2026-05-15 18:00 | CA Independiente vs San Luis FC
-- 2026-05-15 18:00 | CA River Plate (ARG) vs Ferro Carril Oeste
-- 2026-05-15 10:30 | Caboolture FC vs North Star FC
-- 2026-05-15 08:30 | Caboolture Sports FC vs North Star
-- 2026-05-15 20:00 | FC Cajamarca vs Sporting Cristal
-- 2026-05-15 18:00 | Carlos Renaux SC vs Figueirense FC SC
-- 2026-05-15 17:00 | Caykur Rizespor vs Besiktas Istanbul
-- 2026-05-15 18:30 | CD Castellon vs Cadiz CF
-- 2026-05-15 21:45 | CD Genesis PN vs Olancho FC
-- 2026-05-15 10:00 | Central Coast United FC vs Inner West Hawks FC
-- 2026-05-15 15:00 | Chabab Mohammedia vs Chabab Ben Guerir
-- 2026-05-15 23:00 | Club Comunicaciones vs Argentino de Quilmes
-- 2026-05-15 12:30 | Club Olimpia vs Recoleta FC
-- 2026-05-15 18:45 | Cobh Ramblers vs Athlone Town AFC
-- 2026-05-15 11:00 | Cong An TP Ho Chi Minh City FC vs SHB Da Nang
-- 2026-05-15 19:00 | Cordoba CF vs Albacete Balompie
-- 2026-05-15 17:00 | Corum FK vs Bodrum FK
-- 2026-05-15 19:00 | Crusaders Strikers FC vs Cliftonville LFC
-- 2026-05-15 11:30 | Curtin University SC vs Murdoch University Melville FC
-- 2026-05-15 08:30 | Dalian Kewei vs Nantong Zhiyun
-- 2026-05-15 12:00 | Dalian Yingbo FC vs Qingdao West Coast FC
-- 2026-05-15 16:15 | Damac FC vs Al-Fayha FC
-- 2026-05-15 09:45 | Dandenong City SC vs Oakleigh Cannons
-- 2026-05-15 23:30 | Deportivo La Guaira vs UCV FC
-- 2026-05-15 20:00 | Deportivo Santani vs Tacuary Asuncion
-- 2026-05-15 16:00 | Dfk Dainava Alytus vs Hegelmann Litauen B
-- 2026-05-15 17:30 | Dijon FCO vs US Orleans
-- 2026-05-15 13:00 | Dire Dawa Kenema vs Bahir Dar Kenema FC
-- 2026-05-15 17:00 | Diyala FC vs Al Shorta SC
-- 2026-05-15 14:05 | Dubai City Football Club vs Fujairah FC
-- 2026-05-15 19:00 | Dundalk FC vs Shamrock Rovers
-- 2026-05-15 10:30 | Essendon Royals SC vs Moreland City FC
-- 2026-05-15 16:15 | Etela-Espoon Pallo vs Mps
-- 2026-05-15 16:00 | Ethnikos Achnas FC vs Omonia Aradippou
-- 2026-05-15 13:00 | ETO FC Gyor vs Pecsi MFC
-- 2026-05-15 18:15 | Etoile Carouge FC vs AC Bellinzona
-- 2026-05-15 17:10 | Favoritner AC vs SC Neusiedl am See 1919
-- 2026-05-15 17:00 | Fehring 1947 vs SV Allerheiligen
-- 2026-05-15 12:00 | Ferencvarosi TC vs Illes Akademia
-- 2026-05-15 16:30 | FK Garliava vs FK Kauno Zalgiris B
-- 2026-05-15 13:00 | FK Karvan Yevlakh vs Gabala FK
-- 2026-05-15 13:00 | FK Lokomotiv BFK Tashkent vs PFK Dinamo Samarqand
-- 2026-05-15 17:00 | FK Riteriai vs FK Panevezys
-- 2026-05-15 16:00 | FK Transinvest B vs Be1 Nfa
-- 2026-05-15 17:30 | FC Fleury 91 vs FC Rouen
-- 2026-05-15 20:00 | Fortaleza FC vs Millonarios FC
-- 2026-05-15 23:00 | G3X FC vs Fluxo FC
-- 2026-05-15 11:30 | Geylang International FC vs Balestier Khalsa FC
-- 2026-05-15 17:00 | FC Gleisdorf 09 vs USV St. Anna am Aigen
-- 2026-05-15 15:00 | Grobinas SC/LFS vs FK Tukums 2000/TSS
-- 2026-05-15 18:45 | Hamilton Academical FC vs Clyde FC
-- 2026-05-15 11:30 | Hangzhou Linping Wuyue vs Foshan Nanshi FC
-- 2026-05-15 13:00 | Hapoel Afula FC vs Hapoel Nof Hagalil FC
-- 2026-05-15 13:00 | Hapoel Kfar Saba FC vs Maccabi Petah Tikva FC
-- 2026-05-15 13:00 | Hapoel Ramat Gan Givatayim FC vs Hapoel Kfar Shalem FC
-- 2026-05-15 13:00 | Hapoel Rishon Lezion FC vs Maccabi Herzliya
-- 2026-05-15 13:00 | Hapoel Tel Aviv FC vs Hapoel Be`er Sheva FC
-- 2026-05-15 16:00 | Haugesund vs SK Brann
-- 2026-05-15 19:15 | Haukar Hafnarfjordur vs Fjolnir
-- 2026-05-15 11:35 | Henan vs Shenzhen Peng City
-- 2026-05-15 16:00 | HNK Vukovar 1991 vs NK Varazdin
-- 2026-05-15 08:00 | Hurstville FC vs Prospect United
-- 2026-05-15 17:00 | Husqvarna FF vs IK Tord
-- 2026-05-15 17:00 | IF Gnistan/Ogeli vs Toukolan Teras/Tapio
-- 2026-05-15 17:30 | IFK Skovde FK vs Vanersborgs IF
-- 2026-05-15 16:00 | IK Start vs Kolbotn
-- 2026-05-15 18:00 | Jeugd Lierse Kempenzonen vs Jeugd Lommel SK
-- 2026-05-15 18:00 | Jeugd Patro Eisden Maasmechelen vs RAAL La Louviere
-- 2026-05-15 17:00 | Jyty Turku vs Peimari Utd
-- 2026-05-15 18:00 | K Beerschot VA vs Jeugd RWDM Brussels
-- 2026-05-15 13:00 | FC Kafr Qasim vs Maccabi Kabilio Jaffa
-- 2026-05-15 19:15 | Kari vs Hviti Riddarinn
-- 2026-05-15 18:00 | Kawkab Athletic Club of Marrakech vs Jeunesse Sportive Soualem
-- 2026-05-15 18:45 | Kerry FC vs Wexford FC
-- 2026-05-15 17:00 | KFUM 2 vs Valerenga IF 2
-- 2026-05-15 19:15 | KH Hlidarendi vs Ymir Kopavogur
-- 2026-05-15 09:45 | Kingston City FC vs Eastern Lions SC
-- 2026-05-15 16:00 | Kolding IF vs Lyngby BK
-- 2026-05-15 18:30 | Korona Kielce vs Widzew Lodz
-- 2026-05-15 17:30 | Kremser SC vs TWL Elektra
-- 2026-05-15 07:30 | Kyrgyzstan vs Turkmenistan
-- 2026-05-15 21:30 | LDU Quito vs CD Tecnico Universitario
-- 2026-05-15 11:30 | Libertad Asuncion vs Sportivo 2 de Mayo
-- 2026-05-15 18:45 | Lisburn Rangers vs Derry City Ladies
-- 2026-05-15 15:00 | LKS Lodz II vs Unia Skierniewice
-- 2026-05-15 20:30 | Llaneros FC vs Asociacion Deportivo Cali
-- 2026-05-15 10:30 | Logan Lightning vs Redlands United FC
-- 2026-05-15 10:00 | Maitland FC vs Cooks Hill United
-- 2026-05-15 08:00 | Maitland FC Reserve vs Cooks Hill United FC Reserve
-- 2026-05-15 14:05 | Majd FC vs AL Jazira AL Hamra
-- 2026-05-15 18:00 | Maritimo Madeira vs GD Chaves
-- 2026-05-15 10:00 | Mekelle 70 Enderta FC vs Ethiopian Medhin
-- 2026-05-15 08:15 | Melbourne Knights FC vs Eltham Redbacks FC
-- 2026-05-15 15:00 | Moghreb Athletic de Tetouan vs Fath Casablanca
-- 2026-05-15 14:00 | Mohammedan SC vs Mumbai City
-- 2026-05-15 03:10 | CF Monterrey vs Club America
-- 2026-05-15 23:00 | Montevideo City Torque vs Club Nacional de Football
-- 2026-05-15 15:00 | MSK Puchov vs MSK Povazska Bystrica
-- 2026-05-15 15:00 | MSK Zilina B vs Slavia Tu Kosice
-- 2026-05-15 10:00 | Myj-Gmsc vs FC Bengaluru United
-- 2026-05-15 18:30 | Newell's Old Boys vs Racing Club
-- 2026-05-15 15:30 | NK Hrvatski Dragovoljac vs NK Radnik Krizevci
-- 2026-05-15 15:30 | NK Mladost Zdralovi vs NK Bjelovar
-- 2026-05-15 15:30 | NK Opatija vs NK Croatia Zmijavci
-- 2026-05-15 13:45 | NK Rudes Zagreb vs HNK Cibalia Vinkovci
-- 2026-05-15 08:15 | Northcote City FC vs FC Bulleen Lions
-- 2026-05-15 19:00 | Notts County vs Chesterfield FC
-- 2026-05-15 09:30 | Nunawading City vs Whittlesea United SC
-- 2026-05-15 15:45 | Nyiregyhaza Spartacus FC vs Kazincbarcikai SC
-- 2026-05-15 16:30 | Odds BK vs FK Fyllingsdalen
-- 2026-05-15 16:00 | Olympiakos Nicosia vs Anorthosis Famagusta
-- 2026-05-15 18:45 | Oud-Heverlee Leuven vs Royal Antwerp FC
-- 2026-05-15 18:45 | Partick Thistle FC vs Dunfermline Athletic FC
-- 2026-05-15 09:00 | Penang FA vs Brunei DPMM FC
-- 2026-05-15 09:30 | Peninsula Power FC vs Gold Coast Knights
-- 2026-05-15 16:00 | Pogon Siedlce vs FKS Stal Mielec
-- 2026-05-15 18:30 | Polonia Warszawa vs Wisla Krakow
-- 2026-05-15 17:00 | FC Porto B vs SL Benfica B
-- 2026-05-15 18:00 | Puskas Akademia FC Felcsut vs MTK Budapest
-- 2026-05-15 11:00 | PVF Cand B vs Ho Chi Minh City FC
-- 2026-05-15 17:15 | Qadsia SC vs Al-Salmiya SC
-- 2026-05-15 11:30 | Qingdao Red Lions vs Nanjing City
-- 2026-05-15 17:30 | Quevilly-Rouen Metropole vs Paris 13 Atletico
-- 2026-05-15 18:00 | RFC Liege vs KVC Westerlo
-- 2026-05-15 18:00 | Raagsveds IF vs FOC Farsta
-- 2026-05-15 17:00 | Ranheim 2 vs Rosenborg BK 2
-- 2026-05-15 18:15 | FC Rapperswil-Jona vs FC Stade Nyonnais
-- 2026-05-15 16:30 | FC Rosengaard Malmo vs Kristianstads DFF
-- 2026-05-15 20:00 | Rubio Nu vs Nacional Asuncion
-- 2026-05-15 11:30 | Sabah FC vs Terengganu FC
-- 2026-05-15 13:00 | Sabail FK vs Shahdag Qusar FK
-- 2026-05-15 18:45 | Saint Patrick´s Athletic FC vs Shelbourne FC
-- 2026-05-15 18:15 | Salford City vs Grimsby Town
-- 2026-05-15 16:00 | Sandnes Ulf vs Egersunds IK
-- 2026-05-15 17:30 | SC Aubagne Air Bel vs SM Caen
-- 2026-05-15 11:00 | SC de Goa vs SC Bengaluru
-- 2026-05-15 12:00 | SC Villa vs URA FC
-- 2026-05-15 17:00 | SC Weiz vs SV Ried II
-- 2026-05-15 19:00 | SE Palmeiras SP vs EC Vitoria BA
-- 2026-05-15 08:30 | Semen Padang FC vs Persebaya Surabaya
-- 2026-05-15 11:35 | Shanghai Port FC vs Zhejiang FC
-- 2026-05-15 14:10 | Sharjah FC vs Khor Fakkan Club
-- 2026-05-15 08:00 | Shenzhen 2028 FC vs Shaanxi Union FC
-- 2026-05-15 13:00 | Shillong Lajong FC vs Rajasthan United
-- 2026-05-15 16:30 | SK Djerv 1919 vs Vard Haugesund
-- 2026-05-15 16:30 | Skovshoved IF vs AB Taarnby
-- 2026-05-15 09:00 | Slovakia vs San Marino
-- 2026-05-15 17:30 | Sochaux-Montbeliard vs Le Puy Foot 43 Auvergne
-- 2026-05-15 18:00 | Sport Huancayo Reserve vs Union Minas
-- 2026-05-15 20:00 | Sportivo Trinidense vs Cerro Porteno
-- 2026-05-15 10:00 | United Sports Club vs Delhi FC
-- 2026-05-15 18:00 | SSC Bari vs FC Sudtirol Bolzano
-- 2026-05-15 16:00 | Stabaek Fotball vs Rosenborg BK Kvinner
-- 2026-05-15 18:15 | Stade Lausanne Ouchy vs Neuchatel Xamax
-- 2026-05-15 17:30 | SV Donau vs FCM Traiskirchen
-- 2026-05-15 17:00 | SV Lafnitz vs ASK Voitsberg
-- 2026-05-15 17:00 | SV Schwechat vs FC Stadlau
-- 2026-05-15 11:35 | Tianjin Jinmen Tiger vs Chengdu Rongcheng
-- 2026-05-15 16:00 | FC Torpedo Kutaisi vs FC Dila Gori
-- 2026-05-15 16:55 | Toukolan Teras vs Atlantis FC/2
-- 2026-05-15 18:45 | Treaty United vs Finn Harps FC
-- 2026-05-15 17:00 | Ullensaker/Kisa vs Eidsvold TF
-- 2026-05-15 17:00 | Union Gurten vs ASKO Oedt
-- 2026-05-15 17:00 | Union Mauer vs SV Leobendorf
-- 2026-05-15 18:45 | University College Dublin vs Bray Wanderers AFC
-- 2026-05-15 17:30 | US Concarneau vs FC Villefranche Beaujolais
-- 2026-05-15 16:00 | Vaalerenga Oslo vs Molde FK
-- 2026-05-15 17:30 | Valenciennes FC vs LB Chateauroux
-- 2026-05-15 17:00 | Valletta FC vs Hamrun Spartans FC
-- 2026-05-15 16:30 | Valtti vs FC Kontu
-- 2026-05-15 17:30 | FC Versailles 78 vs Stade Briochin
-- 2026-05-15 14:00 | Viking FK vs Frigg Oslo FK
-- 2026-05-15 15:30 | FC Viktoria Marianske Lazne vs FC Chomutov
-- 2026-05-15 12:00 | Vipers SC vs Kitara FC
-- 2026-05-15 18:45 | Waterford FC vs Derry City FC
-- 2026-05-15 18:45 | Wayside Celtic FC vs St Mochtas FC
-- 2026-05-15 10:00 | Werribee City FC vs Malvern City FC
-- 2026-05-15 17:30 | Wiener Sport-Club vs SV Oberwart
-- 2026-05-15 18:15 | FC Wil 1900 vs FC Vaduz
-- 2026-05-15 16:00 | Zaglebie Lubin vs Pogon Szczecin
 - 2026-05-16 12:00 | 1. FC Bocholt vs RW Oberhausen
 - 2026-05-16 12:00 | 1. FC Cologne II vs FC Schalke 04 II
 - 2026-05-16 13:30 | 1. FC Heidenheim vs FSV Mainz
@@ -253,12 +24,17 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-16 12:00 | 1 FC Nuremberg II vs SpVgg Hankofen-Hailing
 - 2026-05-16 11:30 | 1. FC Saarbrucken vs Hansa Rostock
 - 2026-05-16 11:30 | 1. FC Schweinfurt 05 vs Erzgebirge Aue
+- 2026-05-16 15:00 | 1. FC Slovacko Uherske Hradiste vs FK Mlada Boleslav
 - 2026-05-16 14:00 | A-Xiii Auhof Center vs WAF Vorwarts Brigittenau
+- 2026-05-16 19:00 | ABC FC RN vs Sousa EC PB
+- 2026-05-16 18:30 | AC Goianiense GO vs Cerrado EC GO
 - 2026-05-16 13:00 | AC Horsens vs Hvidovre IF
 - 2026-05-16 16:00 | AC Oulu vs Turun Palloseura
+- 2026-05-16 15:00 | AC Virtus vs SP La Fiorita
 - 2026-05-16 15:30 | Academica de Coimbra vs CD Trofense
-- 2026-05-16 10:00 | Academico de Viseu FC vs Sporting Lisbon B
+- 2026-05-16 13:30 | ACV Assen vs Koninklijke HFC
 - 2026-05-16 19:00 | AD Alcorcon vs Marbella FC
+- 2026-05-16 18:00 | AD Cabofriense RJ vs Serrano FC RJ
 - 2026-05-16 14:15 | AD Ceuta vs Malaga CF
 - 2026-05-16 04:00 | Adamstown Rosebud FC vs Charlestown Azzurri FC
 - 2026-05-16 02:45 | Adelaide Atletico Victory Reserves vs Eastern United Reserve
@@ -267,341 +43,652 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-16 03:15 | Adelaide Blue Eagles Reserves vs Fulham United FC Reserve
 - 2026-05-16 09:30 | Adelaide Cobras vs Modbury Jets SC
 - 2026-05-16 07:15 | Adelaide Cobras Reserves vs Modbury Jets SC Reserve
+- 2026-05-16 13:30 | ADO 20 Heemskerk vs VV Scherpenzeel
 - 2026-05-16 15:00 | AEK Larnaca vs Pafos FC
 - 2026-05-16 15:30 | AFK Csikszereda Miercurea Ciuc vs FC Botosani
+- 2026-05-16 18:00 | Al Ahli Saudi FC vs Al-Kholood
+- 2026-05-16 15:30 | Al Ain FC vs Dibba Al Fujairah
+- 2026-05-16 15:30 | Al Dhafra SSC vs Al Wahda FC (UAE)
+- 2026-05-16 16:05 | Al Hilal SFC vs Neom SC
+- 2026-05-16 14:10 | AL Ittihad Kalba vs AL Wasl
+- 2026-05-16 15:30 | Al Jazira (UAE) vs Baniyas Club
 - 2026-05-16 17:45 | Al Nassr Club vs Gamba Osaka
 - 2026-05-16 14:30 | Al-Muharraq SC vs Aali
+- 2026-05-16 14:30 | Al-Najma Manama vs AL-Khaldiya SC
+- 2026-05-16 16:05 | Al-Okhdood Club vs Al-Khaleej Club
+- 2026-05-16 05:00 | Albirex Niigata vs Nara Club
+- 2026-05-16 11:30 | Albirex Niigata (S) vs Young Lions FC
+- 2026-05-16 11:30 | Alemannia Aachen vs TSV Havelse
 - 2026-05-16 19:00 | CF Algeciras vs Hercules de Alicante CF
+- 2026-05-16 20:30 | Alianza FC Valledupar vs CD Real Santander
+- 2026-05-16 17:30 | Almeria vs Las Palmas
 - 2026-05-16 16:00 | Altona 93 vs Kickers Emden
 - 2026-05-16 08:15 | Altona City SC vs Keilor Park SC
 - 2026-05-16 06:00 | Altona Magic SC vs Preston Lions FC
 - 2026-05-16 18:15 | Aluminij Kidricevo vs Primorje Ajdovscina
 - 2026-05-16 13:00 | AmaZulu FC vs Kaizer Chiefs
+- 2026-05-16 18:00 | America FC MG vs Atletico Mineiro MG
+- 2026-05-16 18:00 | America FC RJ vs Madureira RJ
 - 2026-05-16 10:00 | Ansan Greeners FC vs Gimpo FC
 - 2026-05-16 15:00 | APOEL Nikosia vs AC Omonia Nicosia
 - 2026-05-16 15:00 | Apollon Limassol vs Aris Limassol FC
 - 2026-05-16 16:00 | FC Arda Kardzhali vs PFC Lokomotiv Plovdiv
+- 2026-05-16 14:00 | Arendal FK vs FK Jerv
 - 2026-05-16 17:00 | FC Arouca vs CD Tondela
+- 2026-05-16 18:00 | Arouca vs Tondela
 - 2026-05-16 16:00 | AS Beauvais Oise vs Biesheim ASC
 - 2026-05-16 16:00 | AS Cannes vs Lusitanos Saint-Maur
+- 2026-05-16 04:00 | AS Harima Albion vs Orca Kamogawa FC
+- 2026-05-16 13:00 | AS Monaco vs Valenciennes FC
+- 2026-05-16 13:00 | AS Roma vs Genoa CFC Women
 - 2026-05-16 15:00 | AS Trencin vs FK Kosice
-- 2026-05-16 16:00 | Asteras Tripolis vs AE Kifisia FC
+- 2026-05-16 19:00 | Associacao Portuguesa de Desportos SP vs EC Agua Santa SP
+- 2026-05-16 17:00 | Asteras Tripolis vs Kifisia
+- 2026-05-16 17:00 | Athlone Town FC vs Treaty United
+- 2026-05-16 19:30 | Atletico El Vigia vs Zamora FC Barinas II
 - 2026-05-16 21:30 | Atletico Mineiro MG vs Mirassol FC SP
+- 2026-05-16 20:30 | Atletico Nacional SA vs Once Caldas Sa
 - 2026-05-16 17:30 | ATSV Wolfsberg vs SC St. Veit
 - 2026-05-16 12:00 | FC Augsburg II vs FC Memmingen
-- 2026-05-16 02:00 | Avondale FC vs Spring Hills FC
+- 2026-05-16 15:00 | Avia Swidnik vs Korona II Kielce SA
+- 2026-05-16 05:00 | Avondale FC vs Spring Hills FC
 - 2026-05-16 12:00 | BFC Dynamo vs Chemnitzer FC
 - 2026-05-16 14:30 | B36 Torshavn II vs EB/Streymur II
+- 2026-05-16 12:00 | Baerum SK vs Asker Fotball
+- 2026-05-16 02:30 | Ballard FC vs FC Olympia
+- 2026-05-16 15:00 | FC Banik Ostrava vs FC Zlin
 - 2026-05-16 07:00 | Bankstown United FC vs Hawkesbury City SC
-- 2026-05-16 02:00 | Bay FC vs Boston Legacy FC
+- 2026-05-16 20:00 | Bath Estate vs Harlem United FC
+- 2026-05-16 03:00 | Bay Olympic vs Auckland United FC
 - 2026-05-16 13:30 | Bayer Leverkusen vs Hamburger SV
 - 2026-05-16 12:00 | FC Bayern Alzenau vs SGV Freiberg
 - 2026-05-16 13:30 | Bayern Munich vs 1. FC Cologne
+- 2026-05-16 14:30 | Bayern Munich vs FC Koln
 - 2026-05-16 05:00 | Bayside Argonauts FC vs Springvale White Eagles
 - 2026-05-16 04:15 | Belconnen United FC vs Monaro Panthers FC
+- 2026-05-16 18:00 | Belgrano de Cordoba vs Boca Juniors
 - 2026-05-16 05:00 | Belmont Swansea United FC vs Valentine FC
+- 2026-05-16 03:00 | Bentleigh Greens SC vs Heidelberg United FC
 - 2026-05-16 19:00 | Betis Deportivo Balompie vs SD Tarazona
+- 2026-05-16 12:00 | BK Frem vs IF Lyseng
+- 2026-05-16 13:00 | BK Fremad Amager vs Ishoej IF
+- 2026-05-16 10:00 | BKS Sparta Katowice vs SKRA Czestochowa
 - 2026-05-16 15:00 | Blau-Weiss Linz vs Grazer AK 1902
+- 2026-05-16 23:30 | Blooming Santa Cruz vs GV Club Deportivo San Jose de Oruro
+- 2026-05-16 18:00 | Blumenau EC SC vs CN Marcilio Dias SC
 - 2026-05-16 16:00 | Bodoe/Glimt vs Tromsoe IL
 - 2026-05-16 09:00 | Bonnyrigg W. E. vs Sydney University SFC
-- 2026-05-16 13:30 | Borussia Monchengladbach vs TSG Hoffenheim
+- 2026-05-16 18:00 | Bonsucesso FC RJ vs Audax Rio EC RJ
 - 2026-05-16 12:00 | Borussia Monchengladbach II vs FC Gutersloh 2000
+- 2026-05-16 18:00 | Botafogo FR RJ vs Cruzeiro EC MG
 - 2026-05-16 16:00 | Botev Plovdiv vs PFC Cherno More Varna
 - 2026-05-16 05:00 | Box Hill United FC vs Goulburn Valley Suns
+- 2026-05-16 20:30 | Boyaca Chico FC vs Atletico FC Cali
+- 2026-05-16 12:00 | Brabrand IF vs Vsk Aarhus
 - 2026-05-16 12:00 | Brighton and Hove Albion WFC vs Tottenham Hotspur FC
 - 2026-05-16 04:45 | Brisbane Strikers vs Holland Park Hawks
+- 2026-05-16 21:00 | Brooke House FC vs Nona FC
+- 2026-05-16 23:00 | Brooklyn FC vs Hartford Athletic
 - 2026-05-16 14:00 | Bryne FK vs Stroemmen IF
+- 2026-05-16 08:00 | Budapest Honved vs MTK Budapest
+- 2026-05-16 13:00 | Bulawayo Chiefs FC vs Hardrock FC
 - 2026-05-16 07:45 | FC Bulleen Lions vs Alamein FC
 - 2026-05-16 05:30 | FC Bulleen Lions U20 vs Alamein FC U20
+- 2026-05-16 18:30 | CA Atlas vs AD Berazategui
 - 2026-05-16 16:00 | CA Batna vs CR Temouchent
 - 2026-05-16 15:00 | CA Boston River vs CA Cerro
 - 2026-05-16 18:30 | CA Defensores Unidos vs CA Ituzaingo
+- 2026-05-16 18:30 | CA General Lamadrid vs ASD Justo Jose de Urquiza
 - 2026-05-16 18:00 | CA Juventud de Las Piedras vs CA Progreso
 - 2026-05-16 21:30 | CA Penarol Montevideo vs Liverpool Montevideo
 - 2026-05-16 22:30 | CA River Plate (ARG) vs CA Rosario Central
 - 2026-05-16 16:00 | CA River Plate (URU) vs Paysandu FC
 - 2026-05-16 18:30 | CA Villa San Carlos vs Argentino de Merlo
+- 2026-05-16 14:00 | Calcio Lecco 1912 U19 vs Pisa Calcio
 - 2026-05-16 07:00 | Caloundra FC vs Grange Thistle
+- 2026-05-16 22:00 | Capital CF DF vs Ceilandia EC DF
 - 2026-05-16 12:00 | FC Carl Zeiss Jena vs FC Rot-Weiss Erfurt
+- 2026-05-16 23:00 | Carolina Ascent vs Sporting Jacksonville
+- 2026-05-16 22:00 | Carolina Core FC vs Chicago Fire FC II
+- 2026-05-16 16:00 | Cartusia Kartuzy vs Pogon Nowe Skalmierzyce
+- 2026-05-16 18:00 | Casa Pia vs Rio Ave
 - 2026-05-16 17:00 | Casa Pia Lisbon vs Rio Ave FC
 - 2026-05-16 19:00 | CD Cobreloa Calama vs Deportes Copiapo
+- 2026-05-16 20:00 | CD Inca vs Atletico Balboa
 - 2026-05-16 02:15 | CD Marathon San Pedro Sula vs CD Olimpia Tegucigalpa
 - 2026-05-16 21:30 | CD O´Higgins vs Universidad de Concepcion
-- 2026-05-16 00:00 | CD Palestino vs Deportes La Serena
-- 2026-05-16 01:30 | CD Plaza Amador Panama City vs Umecit
-- 2026-05-16 00:00 | CD Real Tomayapo vs Club Aurora
+- 2026-05-16 20:00 | CD Real Santander vs CDP Junior FC
 - 2026-05-16 19:00 | CD Teruel vs Atletico Sanluqueno
+- 2026-05-16 23:00 | CD Tolima vs Atletico Nacional Medellin
 - 2026-05-16 18:30 | CD UAI Urquiza vs Villa Dalmine
 - 2026-05-16 21:30 | CD Universidad Catolica del Ecuador vs Delfin SC
 - 2026-05-16 14:00 | CE Carroi vs Inter Club de Escaldes
+- 2026-05-16 20:00 | CE Operario Varzea-Grandense MT vs Uniao EC MT
 - 2026-05-16 19:00 | CE Sabadell FC vs Antequera CF
+- 2026-05-16 12:30 | Celtic vs Hearts
 - 2026-05-16 11:30 | Celtic Glasgow vs Heart of Midlothian FC
+- 2026-05-16 18:30 | Centro Espanol vs CA Fenix Pilar
+- 2026-05-16 04:00 | Cerezo Osaka Sakai Ladies vs AC Nagano Parceiro
+- 2026-05-16 21:30 | Cerro Porteno vs Recoleta FC
+- 2026-05-16 15:15 | Ceuta vs Malaga
+- 2026-05-16 15:00 | Charleroi vs Westerlo
 - 2026-05-16 06:00 | Charlestown Azzurri FC vs Adamstown Rosebud JFC
 - 2026-05-16 23:30 | Charlotte FC vs Toronto FC
 - 2026-05-16 14:00 | Chelsea FC vs Manchester City
 - 2026-05-16 12:00 | Chelsea FC vs Manchester United WFC
+- 2026-05-16 11:30 | Chennaiyin FC vs Bengaluru FC
+- 2026-05-16 13:30 | FC Chernomorets Odessa vs FC Livyi Bereh Kyiv
 - 2026-05-16 13:00 | Chippa United FC vs Lamontville Golden Arrows
-- 2026-05-16 00:00 | Christchurch United FC vs Nelson Suburbs FC
+- 2026-05-16 12:30 | Chitipa United vs Civil Service United FC
+- 2026-05-16 23:00 | Christos FC vs Lionsbridge FC
 - 2026-05-16 17:30 | Chrobry Glogow vs MKS Znicz Pruszkow
+- 2026-05-16 05:00 | Chuncheon FC vs Jeonbuk FC II
+- 2026-05-16 15:00 | Club America vs Guadalajara
+- 2026-05-16 19:30 | Club Atletico Barinas vs Barquisimeto SC
+- 2026-05-16 11:30 | Club Brugge YLA vs Oud-Heverlee Leuven
 - 2026-05-16 19:00 | Club Deportivo Eldense vs Atletico Madrid B
+- 2026-05-16 18:30 | Club El Porvenir vs Juventud Unida San Miguel
 - 2026-05-16 20:15 | Club Guarani Asuncion vs Sportivo Ameliano
 - 2026-05-16 07:00 | Cockburn City vs Joondalup City
 - 2026-05-16 05:00 | Cockburn City SC Reserves vs Joondalup City FC Reserve
 - 2026-05-16 16:00 | Colmar vs Wasquehal Football
 - 2026-05-16 19:00 | Colon FC vs Plaza Colonia
-- 2026-05-16 00:00 | Coquimbo Unido vs Audax Italiano
-- 2026-05-16 00:00 | CR Flamengo RJ vs Fluminense FC RJ
+- 2026-05-16 14:00 | Corluspor 1947 vs Malatya Yesilyurt Belediyespor
+- 2026-05-16 18:00 | CR Vasco da Gama RJ vs Rio Negro RR
+- 2026-05-16 12:30 | Creck SC vs Kamuzu Barracks FC
+- 2026-05-16 18:00 | Criciuma EC SC vs Fluminense FC RJ
 - 2026-05-16 22:45 | CS Cienciano vs Alianza Lima
 - 2026-05-16 08:00 | CS Dinamo Bucuresti vs CSC 1599 Selimbar
 - 2026-05-16 18:30 | CS Dock Sud vs CSD Flandria
+- 2026-05-16 09:00 | CS. Dong Thap vs Long An FC
+- 2026-05-16 21:00 | CS Maritimo de la Guaira vs Aragua FC
+- 2026-05-16 20:15 | CS Santos FC vs Bentin Tacna Heroica
 - 2026-05-16 08:00 | Csa Steaua Bucuresti vs SC FC Voluntari
 - 2026-05-16 18:30 | CSD Liniers vs Arsenal de Sarandi
 - 2026-05-16 19:00 | CSD Macara vs CSD Independiente del Valle
+- 2026-05-16 15:00 | Csd Macara vs Deportivo Ibarra
+- 2026-05-16 18:00 | CSDC Alianza Universidad vs CD Estudiantil Cni
 - 2026-05-16 13:00 | FC CSKA 1948 vs PFC Ludogorets 1945 Razgrad
+- 2026-05-16 22:00 | CT United FC vs Toronto FC II
+- 2026-05-16 20:30 | Cucuta Deportivo FC vs Itagui Leones FC
 - 2026-05-16 23:30 | Cuiaba EC MT vs Gremio Novorizontino SP
+- 2026-05-16 15:15 | Cultural Leonesa vs Eibar
 - 2026-05-16 14:15 | Cultural Leonesa vs SD Eibar
 - 2026-05-16 21:30 | Curico Unido vs Santiago Wanderers
 - 2026-05-16 05:00 | Curtin University SC Reserves vs Murdoch University Melville FC Reserves
 - 2026-05-16 15:00 | DAC 1904 Dunajska Streda vs FC Spartak Trnava
 - 2026-05-16 07:30 | Daejeon Citizen FC vs FC Seoul
+- 2026-05-16 12:00 | Dalstorps IF vs Astorps FF
 - 2026-05-16 05:00 | Dandenong City SC vs Oakleigh Cannons FC
 - 2026-05-16 03:00 | Dandenong Thunder FC vs ST Albans Saints Dinamo SC
+- 2026-05-16 05:00 | Dangjin Citizen vs Daejeon Korail FC
 - 2026-05-16 23:30 | DC United vs Saint Louis City SC
 - 2026-05-16 16:00 | FC De Montlouis vs US Saint-Malo
+- 2026-05-16 12:00 | Debreceni VSC vs Gyori ETO FC
 - 2026-05-16 15:15 | Debreceni VSC vs Ujpest FC Budapest
+- 2026-05-16 18:00 | Defensor SC Montevideo vs CA Penarol Montevideo
 - 2026-05-16 16:30 | Deportes Magallanes vs Deportes Recoleta
-- 2026-05-16 18:30 | Deportivo Camioneros vs CA Brown de Adrogue
+- 2026-05-16 18:00 | Deportivo Camioneros vs CA Brown de Adrogue
+- 2026-05-16 21:00 | Deportivo Lara vs Real Frontera FC
 - 2026-05-16 22:00 | Deportivo Merlo vs CD Armenio
-- 2026-05-16 02:00 | Deportivo Saprissa vs Dimas Escazu
 - 2026-05-16 15:00 | FC Deutschkreutz vs ASK Horitschon/U
 - 2026-05-16 09:00 | Dianella White Eagles SC vs Balcatta
 - 2026-05-16 07:00 | Dianella White Eagles SC vs Balcatta Etna FC
+- 2026-05-16 17:00 | FC Dinamo Batumi vs FC Meshakhte Tkibuli
 - 2026-05-16 18:00 | FC Dinamo Bucuresti 1948 vs FC CFR 1907 Cluj
+- 2026-05-16 15:00 | FC Dinamo Tbilisi vs FC Iberia 1999
 - 2026-05-16 16:00 | Dinan-Lehon FC vs Angouleme Charente FC
 - 2026-05-16 15:15 | Diosgyori VTK vs Paksi FC
 - 2026-05-16 12:00 | DJK Vilzing vs Greuther Furth II
+- 2026-05-16 14:00 | DLR Waves vs Cork City Wfc
+- 2026-05-16 18:00 | Doce Mel EC BA vs Perolas Negras RJ
+- 2026-05-16 14:30 | FC Dordoi Bishkek vs FC Ozgon
 - 2026-05-16 07:00 | Dulwich Hill vs Rydalmere Lions FC
 - 2026-05-16 09:00 | Dunbar Rovers FC vs Fraser Park FC
+- 2026-05-16 07:30 | Dynamic Herb Cebu FC vs Manila Digger FC
 - 2026-05-16 15:30 | Dziugas vs FK Banga Gargzdai
+- 2026-05-16 06:00 | East Coast Bays vs Eastern Suburbs AFC
+- 2026-05-16 10:00 | Eastern District vs Hong Kong Rangers
 - 2026-05-16 19:00 | EC Bahia BA vs SC Internacional RS
+- 2026-05-16 18:00 | EC Juventude RS vs CR Flamengo RJ
+- 2026-05-16 20:00 | EC Noroeste SP vs AE Velo Clube SP
 - 2026-05-16 14:00 | Edinburgh City FC vs Brora Rangers
+- 2026-05-16 05:00 | Ehime FC Ladies vs NHK Spring Yokohama FC Seagulls
 - 2026-05-16 12:00 | FC Eilenburg vs Hallescher FC
+- 2026-05-16 14:30 | Ein Frankfurt vs Stuttgart
 - 2026-05-16 13:30 | Eintracht Frankfurt vs VfB Stuttgart
 - 2026-05-16 16:00 | Eintracht Norderstedt vs HSC Hannover
 - 2026-05-16 12:00 | Eintracht Trier vs TSV Schott Mainz
+- 2026-05-16 12:30 | Ekhaya FC vs Moyale Barracks
 - 2026-05-16 13:00 | Encarnacion FC vs CA Tembetary Ypane
 - 2026-05-16 16:00 | Entente Feignies Aulnoye vs FCSR Haguenau
+- 2026-05-16 17:00 | Erbil SC vs Newroz SC
 - 2026-05-16 17:00 | ES Setif vs CR Belouizdad
 - 2026-05-16 05:00 | Essendon Royals SC vs South Melbourne FC
 - 2026-05-16 02:30 | Essendon Royals SC U20 vs South Melbourne FC U20
+- 2026-05-16 20:30 | Estoril vs Benfica
 - 2026-05-16 19:30 | Estoril Praia vs SL Benfica
 - 2026-05-16 12:00 | Everton FC vs Leicester City WFC
+- 2026-05-16 13:30 | Excelsior Maassluis vs Jong Almere City FC
+- 2026-05-16 12:00 | FA 2000 vs Vanloese IF
 - 2026-05-16 11:30 | Falkirk FC vs Glasgow Rangers
+- 2026-05-16 12:30 | Falkirk vs Rangers
+- 2026-05-16 20:30 | Famalicao vs Alverca
 - 2026-05-16 19:30 | FC Famalicao vs FC Alverca SAD
+- 2026-05-16 10:00 | FC Famalicao vs SL Benfica
+- 2026-05-16 11:00 | Fatih Karagumruk vs Aytemiz Alanyaspor
 - 2026-05-16 14:00 | Fatih Karagumruk Istanbul vs Alanyaspor
 - 2026-05-16 18:00 | FBC Melgar vs Sport Huancayo
+- 2026-05-16 06:30 | Fencibles United FC vs Birkenhead United AFC
 - 2026-05-16 15:15 | Ferencvarosi Budapest vs Zalaegerszeg TE
 - 2026-05-16 22:30 | Figueirense FC SC vs AO Itabaiana SE
 - 2026-05-16 12:00 | First Vienna FC 1894 vs LASK
 - 2026-05-16 07:30 | FK Beograd vs Campbelltown City SC
+- 2026-05-16 18:00 | FK Bokelj Kotor vs FK Arsenal Tivat
 - 2026-05-16 16:00 | FK Borac Banja Luka vs FK Zeljeznicar Sarajevo
+- 2026-05-16 18:00 | FK Buducnost vs FK Mornar Bar
+- 2026-05-16 13:00 | FK Eik Toensberg 871 vs Mjoendalen IF
 - 2026-05-16 14:00 | FK Haugesund vs Aasane Fotball
 - 2026-05-16 18:00 | FK Javor Ivanjica vs FK Mladost Lucani
+- 2026-05-16 18:00 | FK Jezero Plav vs OFK Mladost DG
+- 2026-05-16 12:00 | FK Karlskrona vs Staffanstorp United
 - 2026-05-16 11:15 | FK Kauno Zalgiris vs FA Siauliai
+- 2026-05-16 13:00 | FK Mandalskameratene vs Vindbjart FK
+- 2026-05-16 15:00 | FK Metta / Lu vs JDFS Alberts
+- 2026-05-16 15:00 | FK Nachod vs FK Dobrovice
 - 2026-05-16 18:00 | FK Napredak Krusevac vs FK Radnicki 1923 Kragujevac
+- 2026-05-16 12:00 | FK Oern-Horten vs Bjoerkelangen
+- 2026-05-16 15:00 | FK Pribram vs 1.SK Prostejov
 - 2026-05-16 15:00 | FK Radnik Hadzici vs FK Igman Konjic
+- 2026-05-16 17:00 | FK Rfs II vs Leevon Ppk
 - 2026-05-16 15:00 | FK Romanija Pale vs FK Zvijezda 09
 - 2026-05-16 16:00 | FK Sarajevo vs NK Siroki Brijeg
+- 2026-05-16 15:00 | FK Seko Louny vs Tempo Prague
 - 2026-05-16 16:00 | FK Sloga Doboj vs FK Radnik Bijeljina
 - 2026-05-16 18:00 | FK Spartak Subotica vs FK IMT Novi Beograd
+- 2026-05-16 18:00 | FK Sutjeska Niksic vs FK Decic Tuzi
+- 2026-05-16 11:00 | FK Tauras Taurage vs FK Jonava
+- 2026-05-16 15:00 | FK Teplice vs Dukla Prague
 - 2026-05-16 18:00 | FK TSC Backa Topola vs FK Radnicki Nis
 - 2026-05-16 15:00 | FK Tuzla City vs NK Celik Zenica
+- 2026-05-16 15:00 | FK Usti nad Labem vs SK Slavia Prague B
+- 2026-05-16 08:30 | FK Usti Nad Labem II vs SK Ujezd Praha 4
 - 2026-05-16 16:00 | FK Velez Mostar vs FK Rudar Prijedor
 - 2026-05-16 22:30 | Floresta EC CE vs Amazonas FC AM
+- 2026-05-16 14:00 | Floriana FC vs Marsaxlokk FC
 - 2026-05-16 22:00 | Fluminense FC RJ vs Sao Paulo FC SP
+- 2026-05-16 12:00 | Follo vs Loerenskog IF
+- 2026-05-16 23:30 | Fort Wayne FC vs Indy Eleven
+- 2026-05-16 18:00 | Fortaleza EC CE vs Santos FC SP
+- 2026-05-16 22:00 | Forward Madison FC vs Detroit City FC
 - 2026-05-16 14:00 | Fredrikstad FK vs HamKam
+- 2026-05-16 14:30 | Freiburg vs RB Leipzig
 - 2026-05-16 05:00 | Fremantle City FC vs Olympic Kingsway SC
 - 2026-05-16 12:00 | FSV Mainz II vs SC Freiburg II
 - 2026-05-16 16:00 | FSV Schoningen 2011 vs 1. FC Phonix Lubeck
 - 2026-05-16 12:00 | FSV Zwickau vs BSG Chemie Leipzig
+- 2026-05-16 05:00 | Fukushima United FC vs Hokkaido Consadole Sapporo
 - 2026-05-16 12:00 | FV Illertissen vs Schwaben Augsburg
+- 2026-05-16 13:00 | FC Gagra vs FC Rustavi
 - 2026-05-16 13:00 | GAIS vs Degerfors IF
+- 2026-05-16 16:30 | Gambia Ports Authority vs Hart FC
+- 2026-05-16 13:00 | Gamla Upsala SK vs Linkopings FC
+- 2026-05-16 18:00 | Gaziantep vs Buyuksehyr
 - 2026-05-16 17:00 | Gaziantep FK vs Istanbul Basaksehir
+- 2026-05-16 12:00 | Gaziantep FK vs Istanbul Basaksehir FK
 - 2026-05-16 19:00 | Gimnastic de Tarragona vs CE Europa
+- 2026-05-16 10:00 | GKS Katowice vs Czarni Sosnowiec
+- 2026-05-16 10:00 | Glostrup FK vs Alleroed FK
 - 2026-05-16 21:30 | Goias EC GO vs Botafogo FC SP
-- 2026-05-16 04:00 | Gold Coast United FC vs Brisbane City
-- 2026-05-16 07:00 | Gold Coast Knights vs Sunshine Coast Wanderers FC
+- 2026-05-16 06:15 | Gold Coast United FC vs Brisbane City FC
+- 2026-05-16 16:00 | FC Gori vs Aragvi Dusheti
 - 2026-05-16 17:30 | Gornik Leczna vs Odra Opole
-- 2026-05-16 16:30 | Granada CF vs Burgos CF
+- 2026-05-16 17:30 | Granada vs Burgos
 - 2026-05-16 07:30 | Granville Rage vs Nepean FC
+- 2026-05-16 18:00 | Gremio FB Porto Alegrense RS vs Avai FC SC
 - 2026-05-16 19:00 | Gremio FB Porto Alegrense RS vs Mixto EC MT
 - 2026-05-16 13:00 | Guairena FC vs Resistencia SC
+- 2026-05-16 20:30 | Gualaceo SC vs San Antonio FC
+- 2026-05-16 11:35 | Guangxi Pingguo vs Guangdong Meizhou Hakka FC
+- 2026-05-16 11:00 | Guangzhou Dandelion Alpha FC vs Wuxi Wugou
+- 2026-05-16 11:00 | Haiphong FC vs Becamex Ho Chi Minh City
 - 2026-05-16 06:30 | Hakoah vs Inter Lions FC
 - 2026-05-16 08:30 | Hakoah Sydney City East FC vs Inter Lions FC
 - 2026-05-16 13:00 | Halmstads BK vs IF Elfsborg
 - 2026-05-16 16:00 | Hamburger SV II vs Blau-Weiss Lohne
+- 2026-05-16 13:00 | Hammarby IF vs Hacken Gothenburg
+- 2026-05-16 14:00 | Hammarby Talang FF vs FC Stockholm Internazionale
 - 2026-05-16 16:00 | Hannover 96 II vs Bremer SV 1906
+- 2026-05-16 08:00 | Hapoel Ironi Kiryat Shmona vs Hapoel Ako
+- 2026-05-16 08:00 | Hapoel Kfar Saba vs Bnei Yehuda Tel Aviv
+- 2026-05-16 07:45 | Hapoel Rishon Letzion vs Maccabi Herzliya
+- 2026-05-16 14:15 | Hapoel Tel Aviv vs Maccabi Haifa
 - 2026-05-16 14:00 | Harju JK Laagri vs Parnu JK Vaprus
 - 2026-05-16 09:30 | Harju JK Laagri vs Viimsi JK
 - 2026-05-16 14:00 | FC Hegelmann Kaunas vs FK Suduva Marijampole
+- 2026-05-16 14:30 | Heidenheim vs Mainz
+- 2026-05-16 11:00 | Heming vs Ready Fotball
 - 2026-05-16 12:00 | FC Hertha 03 Zehlendorf vs Greifswalder FC
-- 2026-05-16 11:30 | Hibernian FC vs Motherwell FC
+- 2026-05-16 13:30 | HHC Hardenberg vs Kozakken Boys Werkendam
+- 2026-05-16 12:30 | Hibernian vs Motherwell
+- 2026-05-16 12:00 | HIK Hellerup vs Thisted FC
 - 2026-05-16 11:00 | Hillerod Fodbold vs Esbjerg FB
 - 2026-05-16 11:00 | HJK Helsinki vs Tampereen Ilves
 - 2026-05-16 14:00 | HNK Gorica vs NK Osijek
 - 2026-05-16 14:00 | Hoedd IL vs Sogndal Fotball
+- 2026-05-16 13:30 | Hoek vs Rijnsburgse Boys
+- 2026-05-16 11:00 | Holbaek B&I vs Odder IGF
 - 2026-05-16 16:00 | HSK Zrinjski Mostar vs HSK Posusje
+- 2026-05-16 07:30 | Hualian WFT vs AC Taipei
 - 2026-05-16 13:00 | Huima/Urho vs FC Vaajakoski
 - 2026-05-16 04:00 | Hume City vs Avondale FC
 - 2026-05-16 16:00 | IF Gnistan vs FF Jaro
+- 2026-05-16 14:00 | IFK Goteborg vs Orebro SK Soder
+- 2026-05-16 11:00 | IFK Haninge vs Karlslunds IF HFK
+- 2026-05-16 14:00 | IFK Lidingo FK vs FC Gute
 - 2026-05-16 14:00 | IFK Mariehamn vs Kuopion Palloseura
+- 2026-05-16 13:00 | IFK Trelleborg vs Osterlen FF
 - 2026-05-16 15:00 | IK Brage vs IFK Norrkoping FK
+- 2026-05-16 13:00 | Immigration FC vs Melaka FC
 - 2026-05-16 10:00 | Incheon United FC vs Gwangju FC
 - 2026-05-16 07:00 | Inglewood United vs Quinns FC
 - 2026-05-16 05:00 | Inglewood United Reserves vs Quinns FC Reserve
 - 2026-05-16 11:30 | FC Ingolstadt 04 vs SV Waldhof Mannheim 07
-- 2026-05-16 08:00 | Ipswich FC vs Broadbeach United
+- 2026-05-16 05:45 | Ipswich FC vs Broadbeach United
+- 2026-05-16 16:00 | Ireland vs Grenada
 - 2026-05-16 11:30 | Jahn Regensburg vs Energie Cottbus
 - 2026-05-16 14:00 | Jakobstads Bollklubb vs JS Hercules
 - 2026-05-16 13:00 | JaPS vs FC KTP Kotka
+- 2026-05-16 04:00 | JEF United Ichihara Chiba vs Urawa Red Diamonds
 - 2026-05-16 07:30 | Jeonnam Dragons vs Chungbuk Cheongju FC
+- 2026-05-16 13:00 | Jitex Molndal BK vs Trelleborgs FF
+- 2026-05-16 15:30 | JJK Jyvaskyla vs SalPa
+- 2026-05-16 13:30 | Jong Sparta Rotterdam vs De Treffers Groesbeek
 - 2026-05-16 20:15 | Juan Pablo II College vs Alianza Atletico
+- 2026-05-16 05:30 | Jubilo Iwata vs Fujieda MYFC
 - 2026-05-16 18:00 | Juve Stabia vs AC Monza
 - 2026-05-16 19:00 | Juventud Torremolinos CF vs Real Murcia CF
+- 2026-05-16 10:00 | K. Khanh Hoa vs Bac Ninh
 - 2026-05-16 15:00 | KFC Komarno vs 1. FC Tatran Presov
-- 2026-05-16 00:00 | Kansas City NWSL vs Houston Dash
+- 2026-05-16 17:30 | KAA Gent vs KRC Genk
+- 2026-05-16 15:00 | Karagumruk vs Alanyaspor
+- 2026-05-16 11:00 | Karlbergs BK vs FC Jarfalla
+- 2026-05-16 10:15 | Kaya FC–Iloilo vs Davao Aguilas
+- 2026-05-16 14:00 | Kayserispor vs Konyaspor
 - 2026-05-16 05:00 | Keilor Park SC vs Boroondara Eagles
+- 2026-05-16 14:00 | KF Bashkimi Kumanovo 1947 vs FK Makedonija Gjorce Petrov
+- 2026-05-16 14:00 | KF Tefik Canga vs KF Kika
 - 2026-05-16 13:00 | KF Teuta vs KS Pogradeci
+- 2026-05-16 11:00 | KIF Orebro DFF vs Enskede IK
 - 2026-05-16 10:00 | Kingsley Westside FC vs Floreat Athena
 - 2026-05-16 08:00 | Kingsley Westside FC vs Floreat Athena FC Reserves
 - 2026-05-16 15:15 | Kisvarda FC vs WKW ETO FC Gyor
+- 2026-05-16 12:00 | Kjelsaas vs Skeid Fotball
+- 2026-05-16 15:00 | FC Kolkheti-1913 Poti vs FC Gareji Sagarejo
+- 2026-05-16 07:00 | Kowloon City vs Hong Kong FC
+- 2026-05-16 18:00 | KS Lechia Zielona Gora vs LZS Starowice
+- 2026-05-16 10:00 | KS Sleza Wroclaw vs Slowianin Woliborz
+- 2026-05-16 11:00 | KS Wasilkow vs Wigry Suwalki
+- 2026-05-16 15:00 | KS Wisloka Debica vs Wislanie Skawina
+- 2026-05-16 14:00 | KSZO Ostrowiec Swietokrzyski vs Sokol Kolbuszowa Dolna
+- 2026-05-16 14:00 | KV Vesturbaer vs Hottur/Huginn
+- 2026-05-16 11:00 | Kvik Halden FK vs IL Sandviken
+- 2026-05-16 13:30 | K.v.v. Quick Boys vs IJsselmeervogels
 - 2026-05-16 14:00 | LAC Inter vs Gerasd. Stammersd.
+- 2026-05-16 23:00 | Lagarto FC SE vs CS Sergipe SE
 - 2026-05-16 04:00 | Lambton Jaffas FC vs Kahibah FC
+- 2026-05-16 07:30 | Lanzhou Longyuan Athletic vs Meizhou Hakka
+- 2026-05-16 17:00 | Larisa vs Atromitos
 - 2026-05-16 16:00 | Lausanne-Sport vs Grasshopper Club Zurich
+- 2026-05-16 18:30 | Leones de Rosario FC vs CA Lugano
 - 2026-05-16 16:00 | Les Herbiers vs Voltigeurs de Chateaubriant
-- 2026-05-16 00:00 | Libertad Loja vs CD Cuenca
+- 2026-05-16 13:00 | Levanger FK vs Trygg/Lade
+- 2026-05-16 14:30 | Leverkusen vs Hamburg
+- 2026-05-16 21:00 | Lexington SC vs Tampa Bay Sun FC
 - 2026-05-16 14:00 | Lillestroem SK vs Sandefjord Fotball
+- 2026-05-16 13:00 | Lillestrom SK 2 vs Skedsmo
 - 2026-05-16 16:00 | FC Limonest Dardilly Saint-Didier vs Nimes Olympique
 - 2026-05-16 12:00 | Liverpool LFC vs Arsenal WFC
 - 2026-05-16 12:45 | LKP Motor Lublin vs MKS Cracovia Krakow
+- 2026-05-16 17:26 | LKS 1926 Lomza vs GKS Belchatow
+- 2026-05-16 10:00 | LKS Goczalkowice-Zdroj vs Gornik Zabrze II
 - 2026-05-16 12:00 | London City Lionesses vs Aston Villa WFC
 - 2026-05-16 18:30 | Longford Town FC vs Cork City FC
+- 2026-05-16 20:00 | Lota Schwager vs Deportes Rengo
+- 2026-05-16 18:30 | L.R. Vicenza vs Benevento Calcio
 - 2026-05-16 14:00 | Lyn 1896 FK vs Kongsvinger IL Toppfotball
+- 2026-05-16 11:00 | Lyngby vs FC Nordsjaelland
+- 2026-05-16 14:30 | M'gladbach vs Hoffenheim
 - 2026-05-16 06:30 | Macarthur Rams vs Canterbury Bankstown FC
 - 2026-05-16 08:30 | Macarthur Rams FC vs Canterbury Bankstown Berries
+- 2026-05-16 15:00 | Maccabi Haifa FC vs Hapoel Petah Tikva FC
+- 2026-05-16 14:10 | Maccabi Petah Tikva vs Maccabi Netanya
+- 2026-05-16 17:30 | Maccabi Tel Aviv FC vs Beitar Jerusalem FC
+- 2026-05-16 12:00 | Malut United vs Persita Tangerang
 - 2026-05-16 07:00 | Mandurah City vs UWA Nedlands FC
 - 2026-05-16 05:00 | Mandurah City FC Reserves vs Uwa Nedlands FC Reserves
 - 2026-05-16 07:00 | Manly United FC vs Wollongong Wolves FC
 - 2026-05-16 03:00 | Manningham United Blues FC vs Brunswick Juventus FC
+- 2026-05-16 18:30 | Maracana EC CE vs Iguatu CE
+- 2026-05-16 20:00 | Marica FC RJ vs EC XV de Novembro Piracicaba SP
 - 2026-05-16 06:15 | Melbourne City FC vs Wellington Phoenix
-- 2026-05-16 08:15 | FC Melbourne Srbija vs Brunswick City SC
+- 2026-05-16 05:00 | FC Melbourne Srbija vs Brunswick City SC
+- 2026-05-16 03:00 | Melville United AFC vs Manukau United FC
+- 2026-05-16 12:00 | FC Merani Martvili vs FC Telavi
 - 2026-05-16 10:00 | FC Metalist 1925 Kharkiv vs FC Epitsentr Kamianets-Podilskyi
 - 2026-05-16 15:00 | MFK Karvina vs SK Sigma Olomouc
 - 2026-05-16 15:00 | MFK Skalica vs MFK Ruzomberok
+- 2026-05-16 23:00 | Miami FC vs Tampa Bay Rowdies
 - 2026-05-16 12:00 | Middelfart BK vs HB Koege
+- 2026-05-16 11:00 | Miedz Legnica II vs GKS Pniowek Pawlowice
 - 2026-05-16 08:30 | Mindil Aces vs Hellenic Athletic Club
+- 2026-05-16 19:30 | Mineros de Guayana vs Deportivo Miranda
 - 2026-05-16 05:00 | Mito Hollyhock vs Tokyo Verdy
+- 2026-05-16 14:30 | Mitundu Baptist vs Mighty Wanderers FC
+- 2026-05-16 21:00 | Mixto EC MT vs Goiatuba EC GO
 - 2026-05-16 14:00 | MKS Chojniczanka Chojnice vs Zaglebie Sosnowiec
+- 2026-05-16 12:00 | MKS Viktoria Wrzesnia vs Zks Kluczevia Stargard
 - 2026-05-16 14:00 | Molde FK vs Kristiansund BK
 - 2026-05-16 20:30 | CF Montreal vs Chicago Fire
+- 2026-05-16 15:30 | Moreirense vs AVS
 - 2026-05-16 14:30 | Moreirense FC vs AVS Futebol SAD
+- 2026-05-16 20:00 | Moto Club MA vs Iape MA
+- 2026-05-16 09:00 | MS Ashdod vs Hapoel Nir Ramat Hasharon
+- 2026-05-16 15:00 | MSK Namestovo vs MFK Dukla Banska Bystrica B
 - 2026-05-16 15:00 | MSK Zilina vs FK Zeleziarne Podbrezova
 - 2026-05-16 11:30 | MSV Duisburg vs FC Viktoria Cologne
+- 2026-05-16 04:00 | Mynavi Sendai Ladies vs Chifure AS Elfen Saitama
+- 2026-05-16 18:00 | Nacional vs Guimaraes
+- 2026-05-16 20:00 | Nacional FC AM vs Manauara EC AM
 - 2026-05-16 17:00 | Nacional da Madeira vs Vitoria SC Guimaraes
+- 2026-05-16 12:00 | Naesby BK vs Bronshoj BK
+- 2026-05-16 11:00 | FC Neptunas Klaipeda vs FK Minija 2017
+- 2026-05-16 23:00 | New England FC vs AC Connecticut
 - 2026-05-16 23:30 | New England Revolution vs Minnesota United FC
+- 2026-05-16 19:00 | New Jersey United AC vs Jackson Lions FC
 - 2026-05-16 23:30 | New York Red Bulls vs New York City FC
 - 2026-05-16 09:40 | Newcastle United Jets vs Sydney FC
 - 2026-05-16 15:00 | NK Bratstvo Gracanica vs FK Buducnost Banovici
 - 2026-05-16 15:30 | NK BSK Bijelo Brdo vs NK Hrvace
+- 2026-05-16 15:30 | NK Celje vs FC Koper
+- 2026-05-16 15:30 | NK Dugo Selo vs NK Grobnican
 - 2026-05-16 16:15 | NK Lokomotiva Zagreb vs HNK Hajduk Split
 - 2026-05-16 11:45 | NK Sesvete vs NK Dugopolje
+- 2026-05-16 15:30 | NK Solin vs NK Segesta
+- 2026-05-16 15:30 | NK Uljanik vs NK Uskok
+- 2026-05-16 12:00 | NK Vrhnika vs NK Sencur
+- 2026-05-16 02:45 | Nomads United AFC vs Ferrymead Bays
+- 2026-05-16 11:00 | Nongbua Pitchaya FC vs Pattani FC
+- 2026-05-16 11:00 | Nordstrand vs Konnerud
+- 2026-05-16 22:30 | North Carolina Courage vs Chicago Stars FC
 - 2026-05-16 07:45 | North Eastern Metrostars SC vs Adelaide Comets FC
 - 2026-05-16 05:00 | North Eastern Metrostars SC Reserves vs Adelaide Comets Reserves
 - 2026-05-16 07:00 | North Geelong Warriors FC vs Langwarrin SC
 - 2026-05-16 08:00 | North Pine vs AC Carina
 - 2026-05-16 06:30 | Northern Tigers vs Western City Rangers FC
+- 2026-05-16 20:00 | Nova Iguacu RJ vs Sampaio Correa FE RJ
 - 2026-05-16 07:30 | NWS Spirit vs Marconi Stallions
 - 2026-05-16 05:00 | O'Connor Knights FC vs Canberra Croatia FC
+- 2026-05-16 02:30 | O'Connor Knights SC vs Canberra Croatia FC
 - 2026-05-16 14:00 | Odds BK vs Moss FK
 - 2026-05-16 14:00 | Odisha FC vs Punjab FC
+- 2026-05-16 12:00 | FC Okzhetpes vs FC Astana
+- 2026-05-16 18:00 | Olaria RJ vs Perolas Negras RJ
+- 2026-05-16 18:00 | Olympique Club de Safi vs Olympique Dcheira
+- 2026-05-16 23:00 | One Knoxville SC vs San Antonio FC
+- 2026-05-16 14:00 | Onsala BK vs Hestrafors IF
 - 2026-05-16 19:00 | Operario Ferroviario EC PR vs Nautico PE
+- 2026-05-16 20:00 | Operario FC MS vs Ivinhema MS
 - 2026-05-16 14:00 | FC Ordino vs CF Esperanca D Andorra
 - 2026-05-16 15:30 | Orijent 1919 Rijeka vs NK Karlovac 1919
 - 2026-05-16 23:30 | Orlando City SC vs Atlanta United FC
 - 2026-05-16 13:00 | Orlando Pirates FC vs Durban City FC 2024
-- 2026-05-16 01:00 | Orsomarso SC vs Independiente Medellin
 - 2026-05-16 15:30 | CF Os Belenenses vs CD Mafra
 - 2026-05-16 13:00 | PFC Levski Sofia vs PFC CSKA Sofia
 - 2026-05-16 16:00 | Paide Linnameeskond vs Saku Sporting
-- 2026-05-16 16:00 | Panserraikos FC vs Panaitolikos Agrinio
+- 2026-05-16 17:00 | Panserraikos vs Panetolikos
 - 2026-05-16 05:30 | Para Hills Knights SC vs Adelaide United FC
+- 2026-05-16 18:30 | Paranavai PR vs Patriotas FC PR
+- 2026-05-16 19:00 | Paris FC vs Paris Saint-Germain
 - 2026-05-16 07:00 | Parramatta FC Eagles vs Camden Tigers FC
 - 2026-05-16 06:00 | Peninsula Power vs Gold Coast Knights FC
+- 2026-05-16 08:30 | Persik Kediri vs Persija Jakarta
+- 2026-05-16 12:00 | Persis Solo vs Dewa United
 - 2026-05-16 08:00 | Perth Glory FC vs Bayswater City
 - 2026-05-16 05:00 | Perth Redstar FC vs Armadale SC
 - 2026-05-16 23:30 | Philadelphia Union vs Columbus Crew
 - 2026-05-16 08:00 | Pine Hills vs Virginia United
 - 2026-05-16 05:30 | Playford City vs Adelaide City FC
+- 2026-05-16 05:00 | Pocheon Citizen FC vs Changwon FC
 - 2026-05-16 16:00 | Podbeskidzie Bielsko-Biała vs Sokol Kleczew
+- 2026-05-16 22:30 | Point Michel vs Middleham United FC
 - 2026-05-16 13:00 | Polokwane City vs Marumo Gallants FC
+- 2026-05-16 16:00 | Pors Grenland vs Notodden FK
 - 2026-05-16 10:30 | Port Darwin FC vs Darwin Olympic SC
+- 2026-05-16 20:00 | Portland Hearts of Pine vs Rhode Island FC
+- 2026-05-16 15:30 | Porto vs Santa Clara
 - 2026-05-16 14:30 | FC Porto vs Santa Clara Azores
+- 2026-05-16 19:00 | Pouso Alegre MG vs AA Portuguesa RJ
+- 2026-05-16 17:00 | FC Prishtina Bern vs Lancy FC
+- 2026-05-16 13:00 | Qarabag FK vs Imisli FK
+- 2026-05-16 15:00 | Rachad Bernoussi vs FUS Rabat
 - 2026-05-16 16:30 | Racing Santander vs Real Valladolid
+- 2026-05-16 18:00 | Raja Casablanca Athletic vs JS Massira
+- 2026-05-16 17:00 | Ramtha SC vs Al Hussein Irbid
+- 2026-05-16 15:00 | Rana FK vs IK Junkeren
 - 2026-05-16 18:45 | FC Rangers vs FC Santa Coloma
+- 2026-05-16 20:00 | Real Noroeste ES vs Rio Branco AC ES
+- 2026-05-16 16:00 | Real Oviedo Vetusta vs CD Tudelano
 - 2026-05-16 18:30 | Real Pilar FC vs CA Excursionistas
 - 2026-05-16 12:00 | Real Sociedad San Sebastian B vs CD Mirandes
+- 2026-05-16 14:00 | Reynir Sandgerdi vs KF Fjallabyggd
+- 2026-05-16 13:00 | Rezeknes Fa/Bjss vs FK Tukums 2000/Tss II
 - 2026-05-16 13:00 | Richards Bay FC vs Sekhukhune United
+- 2026-05-16 22:00 | Richmond Kickers vs Charleston Battery
 - 2026-05-16 16:00 | Riga FC vs FS Jelgava
+- 2026-05-16 13:00 | Riga Mariners vs Valmiera FC
+- 2026-05-16 13:30 | Rkav Volendam vs BVV Barendrecht
 - 2026-05-16 18:15 | RKS Radomiak Radom vs KKS Lech Poznan
-- 2026-05-16 04:30 | Robina City vs Capalaba Bulldogs
-- 2026-05-16 08:15 | Rochedale Rovers vs Magic United Tfa
+- 2026-05-16 06:00 | Rochedale Rovers vs Magic United TFA
 - 2026-05-16 14:00 | Rosenborg BK vs Aalesunds FK
+- 2026-05-16 12:00 | FC Roskilde vs Naestved BK
 - 2026-05-16 14:00 | Royal Charleroi SC vs KVC Westerlo
+- 2026-05-16 18:00 | Rs Berkane vs Wydad Fes
+- 2026-05-16 05:00 | Sagan Tosu vs Renofa Yamaguchi
+- 2026-05-16 18:00 | Sampaio Correa FC MA vs Tiradentes PA
+- 2026-05-16 18:00 | Samsunspor vs Goztep
+- 2026-05-16 12:00 | Samsunspor vs Goztepe
 - 2026-05-16 17:00 | Samsunspor vs Goztepe Izmir
-- 2026-05-16 02:00 | San Diego Wave FC vs Washington Spirit
+- 2026-05-16 12:00 | FC Samtredia vs SFC Shturmi Sartichala
+- 2026-05-16 18:00 | Santa Catarina SC vs Joinville EC SC
+- 2026-05-16 14:00 | Santa Clara SAD vs Rio Ave FC
 - 2026-05-16 20:00 | Santa Cruz FC PE vs Volta Redonda FC RJ
+- 2026-05-16 17:30 | Santander vs Valladolid
 - 2026-05-16 19:00 | Sao Bernardo FC vs America FC MG
+- 2026-05-16 18:00 | Sao Goncalo EC RJ vs Resende FC RJ
 - 2026-05-16 17:00 | SC Braga vs Estrela Amadora
+- 2026-05-16 18:00 | SC Corinthians SP vs CR Vasco da Gama RJ
 - 2026-05-16 13:30 | SC Freiburg vs RB Leipzig
 - 2026-05-16 21:30 | SC Internacional RS vs CR Vasco da Gama RJ
 - 2026-05-16 17:00 | SC Kalsdorf vs Wohnbau Dietach
 - 2026-05-16 12:00 | SC Paderborn 07 II vs SV Rodinghausen
 - 2026-05-16 10:00 | SC Poltava vs FC Dynamo Kyiv
+- 2026-05-16 18:00 | SC Recife PE vs Itabirito FC MG
 - 2026-05-16 14:00 | SC Retz vs SV Gloggnitz
+- 2026-05-16 05:00 | SC Sagamihara vs Vanraure Hachinohe FC
 - 2026-05-16 11:30 | SC Verl vs TSV 1860 Munich
 - 2026-05-16 12:00 | SC Wiedenbruck vs Borussia Dortmund II
 - 2026-05-16 15:00 | SC Wiener Viktoria vs FC Marchfeld Donauauen
+- 2026-05-16 13:00 | Scottland FC vs ZPC Kariba
 - 2026-05-16 15:00 | SCR Altach vs SV Ried
-- 2026-05-16 10:00 | SCU Torreense vs FC Vizela
 - 2026-05-16 07:00 | SD Raiders FC vs Sutherland Sharks
-- 2026-05-16 02:00 | Seattle Reign FC vs Gotham FC
+- 2026-05-16 22:30 | SE Gama DF vs Brasiliense FC DF
+- 2026-05-16 22:30 | Seaview Gardens FC vs Browns Town FC
+- 2026-05-16 18:30 | SEF Torres Sassari vs AC Bra
 - 2026-05-16 14:00 | Seinajoen JK vs FC Inter Turku
+- 2026-05-16 03:00 | Selwyn United FC vs Wanaka AFC
 - 2026-05-16 07:30 | Seoul E-Land FC vs Yongin City FC
+- 2026-05-16 19:30 | Serra Branca EC PB vs Treze FC PB
 - 2026-05-16 12:00 | SG Barockstadt Fulda-Lehnerz vs FSV Frankfurt 1899
+- 2026-05-16 15:30 | Shabab Al Ahli Dubai vs AL Bataeh (UAE)
+- 2026-05-16 13:00 | Shamakhi FK vs Turan Tovuz
+- 2026-05-16 14:00 | Shamrock Rovers FC vs Bohemian FC
 - 2026-05-16 11:35 | Shandong Taishan FC vs Chongqing Tonglianglong FC
+- 2026-05-16 07:30 | Shanghai Second vs Yanbian Longding
+- 2026-05-16 07:30 | Shanxi Chongde Ronghai vs Changchun Yatai
+- 2026-05-16 15:00 | Shelbourne LFC vs Galway United Wfc
+- 2026-05-16 05:00 | Shonan Bellmare vs Vegalta Sendai
+- 2026-05-16 15:00 | Siarka Tarnobrzeg vs Wisla II Krakow
+- 2026-05-16 10:00 | Sichuan WFC vs Wuhan Jiangda
+- 2026-05-16 15:00 | FC Silon Taborsko vs SFC Opava
 - 2026-05-16 13:00 | Simmeringer SC vs FC 1980 Wien
+- 2026-05-16 17:00 | Sioni Bolnisi vs Odishi
+- 2026-05-16 14:30 | Sitra Club vs Malkiya Club
 - 2026-05-16 13:00 | Siwelele FC vs Magesi FC
+- 2026-05-16 15:00 | SK Artis Brno vs FK Viktoria Zizkov
 - 2026-05-16 13:00 | SK Bischofshofen vs FC Lauterach
 - 2026-05-16 12:00 | SK Brann vs KFUM Oslo
+- 2026-05-16 15:00 | SK Dynamo Ceske Budejovice vs MFK Chrudim
+- 2026-05-16 15:00 | SK Hanacka Slavia Kromeriz vs FC Zbrojovka Brno
 - 2026-05-16 15:00 | SK Slovan Bratislava vs MFK Zemplin Michalovce
 - 2026-05-16 13:00 | SK Super Nova vs Ogre United
+- 2026-05-16 12:00 | Slavia Prague vs Sparta Prague
 - 2026-05-16 18:45 | Sligo Rovers FC vs Galway United FC
+- 2026-05-16 08:00 | FC Slovan Liberec vs FC Banik Ostrava
+- 2026-05-16 12:00 | FC Slovan Liberec B vs FC Teplice
+- 2026-05-16 12:30 | Social Atletico Television vs Union de Santa Fe
+- 2026-05-16 13:00 | Sociedad B vs Mirandes
+- 2026-05-16 16:00 | FC Solothurn vs BSC Old Boys
+- 2026-05-16 11:00 | Song Lam Nghe An vs Ninh Binh FC
 - 2026-05-16 07:00 | Sorrento FC vs Perth Azzurri
 - 2026-05-16 05:00 | Sorrento FC vs Perth SC
 - 2026-05-16 05:30 | South Adelaide FC vs Salisbury United
 - 2026-05-16 03:15 | South Adelaide Reserve vs Salisbury United Reserve
 - 2026-05-16 08:00 | Souths United FC vs SWQ Thunder FC
 - 2026-05-16 08:30 | Southside Eagles vs Mitchelton FC
+- 2026-05-16 18:00 | Sp Braga vs Estrela
+- 2026-05-16 20:30 | Sp Lisbon vs Gil Vicente
+- 2026-05-16 13:00 | SP Tre Penne vs FC Domagnano
+- 2026-05-16 15:00 | Sparta Prague B vs FC Vysocina Jihlava
+- 2026-05-16 07:30 | Speranza Osaka vs Renofa Yamaguchi FC Ladies
+- 2026-05-16 20:00 | Spokane Zephyr FC vs Brooklyn FC
 - 2026-05-16 12:00 | Sportfreunde Siegen 1899 vs SSVg Velbert
 - 2026-05-16 19:30 | Sporting CP vs Gil Vicente Barcelos
+- 2026-05-16 15:00 | Sporting Cristal vs FC Killas
+- 2026-05-16 19:15 | Sportivo 2 de Mayo vs Sportivo Trinidense
+- 2026-05-16 17:00 | Sportivo Luqueno vs Rubio Nu
 - 2026-05-16 12:00 | SpVgg Ansbach vs FC Wurzburger Kickers
 - 2026-05-16 12:00 | SpVgg Unterhaching vs Wacker Burghausen
+- 2026-05-16 13:00 | Sreenidi Deccan FC vs Chanmari FC
 - 2026-05-16 11:30 | SSV Ulm 1846 vs Rot-Weiss Essen
 - 2026-05-16 06:30 | St George FC vs Sydney United 58 FC
 - 2026-05-16 08:30 | St George Saints FC vs Sydney United 58 FC
 - 2026-05-16 13:30 | FC St. Pauli vs VFL Wolfsburg
+- 2026-05-16 14:30 | St Pauli vs Wolfsburg
+- 2026-05-16 19:45 | St Truiden vs Gent
 - 2026-05-16 18:45 | St. Truidense VV vs KAA Gent
 - 2026-05-16 14:00 | Stabaek IF vs Raufoss IL
+- 2026-05-16 17:15 | Standard vs Genk
 - 2026-05-16 16:15 | Standard Liege vs KRC Genk
 - 2026-05-16 13:00 | Stellenbosch FC vs Orbit College FC
 - 2026-05-16 16:30 | Stenhousemuir FC vs Alloa Athletic FC
@@ -612,27 +699,55 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-16 07:00 | Subiaco AFC vs Gwelup Croatia SC
 - 2026-05-16 05:00 | Subiaco AFC Reserve vs Gwelup Croatia SC Reserves
 - 2026-05-16 06:00 | Sunshine Coast Wanderers vs St George Willawong
+- 2026-05-16 13:30 | SV Meerssen vs FC Rijnvogels
 - 2026-05-16 16:00 | SV Meppen 1912 vs FC St. Pauli II
 - 2026-05-16 12:00 | SV Sandhausen vs FC 08 Homburg-Saar
 - 2026-05-16 15:00 | SV Tillmitsch vs FC Schladming
+- 2026-05-16 13:30 | SV Togb vs Groene Ster
 - 2026-05-16 11:30 | SV Wehen Wiesbaden vs TSG Hoffenheim II
+- 2026-05-16 14:00 | SV Zulte Waregem vs KVC Westerlo
+- 2026-05-16 09:00 | Szeged-Csanad Grosics Akademia II vs Martfui Lse
+- 2026-05-16 14:00 | Taby FK vs Sunnersta AIF
+- 2026-05-16 13:00 | Taguig FC vs Stallion Laguna FC
+- 2026-05-16 03:00 | Tauranga City AFC vs Western Springs AFC
+- 2026-05-16 07:30 | The Cove FC vs Adelaide Croatia Raiders SC
 - 2026-05-16 05:00 | The Cove FC Reserves vs Adelaide Croatia Raiders SC Reserve
 - 2026-05-16 16:00 | Thionville US Lusitanos vs FC Chambly Oise
 - 2026-05-16 05:30 | Tigers FC vs Canberra Olympic FC
+- 2026-05-16 05:00 | Tochigi City FC vs Montedio Yamagata
+- 2026-05-16 04:00 | Tokyo Verdy Beleza vs Albirex Niigata
+- 2026-05-16 21:00 | Tombense FC MG vs EC Democrata MG
+- 2026-05-16 10:00 | Trabzonspor AS vs Prolift Giresun Sanayispor
+- 2026-05-16 11:00 | Truong Tuoi Dong Nai FC vs DH van Hien
 - 2026-05-16 12:00 | TSG Balingen 1848 vs FC Astoria Walldorf
-- 2026-05-16 10:00 | TSV Aubstadt vs SpVgg Bayreuth
 - 2026-05-16 12:00 | TSV Steinbach Haiger vs Bahlinger SC
-- 2026-05-16 07:30 | Tuggeranong United FC vs Brindabella Blues FC
+- 2026-05-16 07:15 | Tuggeranong United FC vs Brindabella Blues FC
+- 2026-05-16 14:30 | FC Twente Enschede vs PSV Eindhoven
 - 2026-05-16 16:30 | UD Almeria vs UD Las Palmas
 - 2026-05-16 19:00 | UD Ibiza vs FC Cartagena
+- 2026-05-16 18:15 | UD Logrones vs Getafe CF B
 - 2026-05-16 15:30 | UD Santarem vs Varzim SC
-- 2026-05-16 13:30 | Union Berlin vs FC Augsburg
-- 2026-05-16 01:00 | Universitario de Deportes vs Atletico Grau
+- 2026-05-16 18:00 | UDA AL vs Itacoatiara FC AM
+- 2026-05-16 11:00 | Ullern vs Frigg Oslo FK
+- 2026-05-16 10:00 | Ulsan Citizen FC vs Yangpyeong FC
+- 2026-05-16 10:00 | Ulytau FC vs FC Kaspiy Aktau
+- 2026-05-16 14:00 | UMF Selfoss vs Kormakur/Hvot
+- 2026-05-16 17:00 | UMF Tindastoll vs Arbaer
+- 2026-05-16 16:00 | Uniao de Leiria vs Gil Vicente
+- 2026-05-16 14:30 | Union Berlin vs Augsburg
+- 2026-05-16 21:00 | Universidad de Chile vs Santiago Wanderers
+- 2026-05-16 19:00 | FC Universitario de Vinto vs Club Bolivar
 - 2026-05-16 03:00 | University of NSW vs Rockdale Ilinden FC
 - 2026-05-16 07:00 | Urawa Red Diamonds vs FC Tokyo
 - 2026-05-16 13:00 | Uruguay Montevideo FC vs CS Cerrito
 - 2026-05-16 16:00 | USM EL Harrach vs US Chaouia
+- 2026-05-16 13:30 | USV Hercules vs Harkemase Boys
 - 2026-05-16 18:00 | Vaalerenga IF vs Sarpsborg 08
+- 2026-05-16 08:30 | Valkyrie vs Taichung Blue Whale
+- 2026-05-16 11:00 | Varegg vs Aasane Fotball 2
+- 2026-05-16 11:00 | Vejgaard BK vs Sundby BK
+- 2026-05-16 07:00 | Ventforet Kofu vs FC Gifu
+- 2026-05-16 15:30 | Vevey-Sports vs FC Bulle
 - 2026-05-16 12:00 | VfB Eichstatt vs TSV Buchbach
 - 2026-05-16 15:00 | VfB Hohenems vs SV Wals-Grunau
 - 2026-05-16 16:00 | VfB Lubeck vs SC Weiche Flensburg 08
@@ -640,32 +755,405 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-16 11:30 | VfB Stuttgart II vs VfL 1899 Osnabruck
 - 2026-05-16 12:00 | VfL Bochum II vs Fortuna Dusseldorf II
 - 2026-05-16 12:00 | VfL Sportfreunde Lotte 1929 vs Fortuna Cologne
+- 2026-05-16 11:00 | Viggbyholms IK FF vs IK Franke
 - 2026-05-16 14:00 | Viking FK vs IK Start
 - 2026-05-16 12:00 | Viktoria Aschaffenburg vs Bayern Munich II
 - 2026-05-16 19:00 | Villarreal CF B vs Sevilla Atletico
+- 2026-05-16 15:30 | Vitoria Guimaraes B vs Amarante FC
+- 2026-05-16 15:00 | FC Vlasim vs FC Banik Ostrava B
 - 2026-05-16 17:00 | Vllaznia Shkoder vs FC Dinamo City
 - 2026-05-16 12:00 | VSG Altglienicke vs BFC Preussen Berlin
+- 2026-05-16 13:30 | VV Gemert vs Stedoco
+- 2026-05-16 14:00 | Waterford FC vs Sligo Rovers
+- 2026-05-16 02:30 | Waterside Karori vs Western Suburbs FC
+- 2026-05-16 15:00 | WDA Swiecie vs Gzs Tluchovia Tluchowo
+- 2026-05-16 03:45 | Wellington Olympic vs Petone FC
+- 2026-05-16 03:00 | Wellington Phoenix FC Reserve vs Island Bay United
 - 2026-05-16 13:30 | Werder Bremen vs Borussia Dortmund
+- 2026-05-16 14:30 | Werder Bremen vs Dortmund
 - 2026-05-16 05:30 | West Adelaide SC vs West Torrens Birkalla
 - 2026-05-16 03:15 | West Adelaide SC Reserve vs West Torrens Birkalla Reserve
 - 2026-05-16 12:00 | West Ham United FC vs Manchester City WFC
 - 2026-05-16 05:00 | Western Knights SC vs Stirling Macedonia FC
 - 2026-05-16 07:00 | Western Sydney Wanderers vs Blacktown City FC
+- 2026-05-16 23:00 | Weston FC vs Fort Lauderdale United FC
+- 2026-05-16 17:00 | Wexford Youths AFC vs Peamount United Dublin
 - 2026-05-16 18:00 | Willem II Tilburg vs Almere City FC
 - 2026-05-16 16:00 | FC Winterthur vs FC Luzern
 - 2026-05-16 15:30 | Wisla Plock vs Gornik Zabrze
+- 2026-05-16 10:00 | WKS Slask Wroclaw vs Pogon Tczew
 - 2026-05-16 15:00 | Wolfsberger AC vs WSG Tirol
 - 2026-05-16 11:00 | Wuhan Three Towns FC vs Liaoning Tieren FC
 - 2026-05-16 12:00 | Wuppertaler SV vs Bonner SC
 - 2026-05-16 06:00 | Wynnum Wolves FC vs Eastern Suburbs
+- 2026-05-16 19:30 | Yaracuyanos FC vs Academia Puerto Cabello B
+- 2026-05-16 05:00 | Yeoju FC vs Busan Transportation Corporation FC
 - 2026-05-16 08:00 | Yeronga Eagles FC vs Newmarket SFC
 - 2026-05-16 08:00 | Yokohama F Marinos vs Kashiwa Reysol
 - 2026-05-16 20:00 | Ypiranga FC RS vs Maringa FC PR
 - 2026-05-16 12:00 | Yunnan Yukun vs Shanghai Shenhua FC
+- 2026-05-16 18:30 | Yupanqui vs Club Estrella Del Sur (Alejandro Korn)
 - 2026-05-16 12:00 | ZFC Meuselwitz vs FSV Luckenwalde
+- 2026-05-16 14:30 | Zakho FC vs AL Najaf
 - 2026-05-16 18:00 | Zamalek SC vs USM Alger
+- 2026-05-16 08:00 | Zhejiang Hangzhou vs Liaoning Shenbei Hefeng
 - 2026-05-16 17:30 | ZKS Stal Rzeszow vs Wieczysta Krakow
 - 2026-05-16 16:00 | FC Zurich vs Servette Geneva
+- 2026-05-17 16:15 | 07 Vestur Sorvagur vs NSI Runavik
+- 2026-05-17 13:30 | 1. FC Magdeburg vs 1 FC Kaiserslautern
+- 2026-05-17 01:00 | AC Boise vs Monterey Bay FC
+- 2026-05-17 07:00 | Adelaide Olympic FC vs Cumberland United
+- 2026-05-17 04:45 | Adelaide Olympic FC Reserve vs Cumberland United Reserve
+- 2026-05-17 17:30 | AEK vs Olympiakos
+- 2026-05-17 16:30 | AEK Athens vs Olympiacos Piraeus
+- 2026-05-17 17:00 | Af Elbasani vs KF Egnatia Rrogozhine
+- 2026-05-17 16:00 | AGF Aarhus vs Viborg FF
+- 2026-05-17 21:00 | Albion FC vs Montevideo Wanderers
+- 2026-05-17 21:00 | Anapolis FC GO vs Barra FC SC
+- 2026-05-17 12:30 | Anderlecht vs Mechelen
+- 2026-05-17 11:00 | Angkor Tiger FC vs Nagaworld FC
+- 2026-05-17 18:00 | Antalyaspor vs Kocaelispor
+- 2026-05-17 20:00 | Argentinos Juniors vs CA Belgrano de Cordoba
+- 2026-05-17 15:00 | Aris vs Levadeiakos
+- 2026-05-17 14:00 | Aris Thessaloniki vs APO Levadiakos FC
+- 2026-05-17 13:30 | Arminia Bielefeld vs Hertha BSC
+- 2026-05-17 10:30 | AS Roma vs Lazio Rome
+- 2026-05-17 16:00 | Asociacion Deportiva Tarma vs Comerciantes Unidos
+- 2026-05-17 17:00 | Atalanta vs Bologna
+- 2026-05-17 16:00 | Atalanta BC vs Bologna FC
+- 2026-05-17 18:00 | Ath Bilbao vs Celta
+- 2026-05-17 18:00 | Ath Madrid vs Girona
+- 2026-05-17 17:00 | Athletic Bilbao vs RC Celta de Vigo
+- 2026-05-17 19:00 | Athletic Club Sjdr MG vs EC Juventude RS
+- 2026-05-17 17:00 | Atletico Madrid vs Girona FC
+- 2026-05-17 17:00 | Atletico Ottawa vs HFX Wanderers FC
+- 2026-05-17 00:30 | Austin FC vs Sporting Kansas City
+- 2026-05-17 13:30 | AZ Alkmaar vs NAC Breda
+- 2026-05-17 20:15 | Barcelona vs Betis
+- 2026-05-17 19:15 | FC Barcelona vs Real Betis Seville
+- 2026-05-17 00:00 | Barcelona SC vs SD Aucas
+- 2026-05-17 22:00 | Barranquilla FC vs Union Magdalena
+- 2026-05-17 14:30 | Bielefeld vs Hertha
+- 2026-05-17 11:00 | Boeung Ket Angkor FC vs MOI Kompong Dewa FC
+- 2026-05-17 19:00 | Botafogo FR RJ vs SC Corinthians SP
+- 2026-05-17 15:00 | Brentford vs Crystal Palace
+- 2026-05-17 20:00 | Brest vs Angers
+- 2026-05-17 03:00 | Broadmeadow Magic FC vs Edgeworth FC
+- 2026-05-17 01:00 | Broadmeadow Magic FC Reserve vs Edgeworth FC Reserve
+- 2026-05-17 10:00 | Bucheon FC 1995 vs FC Pohang Steelers
+- 2026-05-17 15:00 | Budaorsi SC vs Veszprem FC
+- 2026-05-17 04:40 | Bulls FC Academy vs Manly United FC
+- 2026-05-17 07:00 | Bulls FC Academy U23 vs Manly United FC
+- 2026-05-17 16:00 | CA Fenix Montevideo vs Tacuarembo FC
+- 2026-05-17 17:00 | CA Osasuna vs Espanyol Barcelona
+- 2026-05-17 22:30 | CA Paranaense PR vs CR Flamengo RJ
+- 2026-05-17 19:45 | Cagliari vs Torino
+- 2026-05-17 18:45 | Cagliari Calcio vs Torino FC
+- 2026-05-17 04:30 | Canberra Olympic vs Tuggeranong United FC
+- 2026-05-17 02:45 | Canberra White Eagles FC vs Canberra Juventus FC
+- 2026-05-17 22:00 | Cavalier FC vs Montego Bay United
+- 2026-05-17 15:00 | CD Arenteiro vs SD Ponferradina
+- 2026-05-17 01:07 | CD Guadalajara vs CF Cruz Azul
+- 2026-05-17 01:00 | CD Luis Angel Firpo Usulutan vs CD Aguila San Miguel
+- 2026-05-17 01:00 | CD Suchitepequez vs Deportivo San Pedro
+- 2026-05-17 21:30 | Ceara SC CE vs Fortaleza EC CE
+- 2026-05-17 05:00 | Central Coast Mariners Academy vs Hills United FC Brumbies
+- 2026-05-17 13:00 | Central Espanol FC vs Defensor Sporting
+- 2026-05-17 06:00 | Cerezo Osaka vs Nagoya Grampus
+- 2026-05-17 21:30 | Chapecoense SC vs Clube do Remo PA
+- 2026-05-17 13:00 | Club Atletico Rentistas vs Miramar Misiones
+- 2026-05-17 17:30 | Club Brugge vs St. Gilloise
+- 2026-05-17 16:30 | Club Brugge vs Union Saint-Gilloise
+- 2026-05-17 18:30 | Club Comunicaciones vs Argentino de Quilmes
+- 2026-05-17 13:00 | Club General Caballero JLM vs Sol de America Villa Elisa
+- 2026-05-17 00:00 | Coastal Spirit FC vs Cashmere Technical
+- 2026-05-17 19:00 | Cobresal vs Universidad de Chile
+- 2026-05-17 21:30 | Colo-Colo vs Nublense
+- 2026-05-17 15:00 | Colombe Sportive Du Dja Et Lobo vs Panthere Sportive
+- 2026-05-17 11:00 | Como vs Parma
+- 2026-05-17 10:30 | Como 1907 vs Parma Calcio
+- 2026-05-17 12:00 | FC Copenhagen vs Randers FC
+- 2026-05-17 00:30 | Corpus Christi FC vs FC Tulsa
+- 2026-05-17 21:30 | Criciuma EC SC vs AC Goianiense GO
+- 2026-05-17 02:00 | CS Herediano vs Deportivo Saprissa San Jose
+- 2026-05-17 00:00 | CSD Municipal vs CSD Xelaju MC
+- 2026-05-17 15:00 | Csepel SC vs Gyulai FC
+- 2026-05-17 00:30 | Dallas Trinity FC vs Fort Lauderdale United FC
+- 2026-05-17 14:30 | Darmstadt vs Paderborn
+- 2026-05-17 09:00 | Debreceni VSC II vs Tiszaujvaros
+- 2026-05-17 13:00 | Dempo SC vs Diamond Harbour FC
+- 2026-05-17 00:45 | Denver Summit FC vs Orlando Pride
+- 2026-05-17 00:00 | Deportes Limache vs CD Universidad Catolica
+- 2026-05-17 18:15 | Deportivo Garcilaso vs UTC de Cajamarca
+- 2026-05-17 04:30 | Diavorosso Hiroshima vs Yamato Sylphid
+- 2026-05-17 01:00 | Diriangen FC Diriamba vs Real Esteli FC
+- 2026-05-17 14:30 | Dresden vs Holstein Kiel
+- 2026-05-17 14:00 | Dundee vs Aberdeen
+- 2026-05-17 13:30 | Dynamo Dresden vs Holstein Kiel
+- 2026-05-17 19:00 | EC Bahia BA vs Gremio FB Porto Alegrense RS
+- 2026-05-17 18:00 | Elche vs Getafe
+- 2026-05-17 14:30 | Elversberg vs Preußen Münster
+- 2026-05-17 15:00 | Erdi VSE vs Kaposvari Rakoczi FC
+- 2026-05-17 21:00 | Estudiantes de Merida vs Carabobo FC
+- 2026-05-17 15:00 | Everton vs Sunderland
+- 2026-05-17 14:00 | Everton FC vs Sunderland AFC
+- 2026-05-17 05:00 | Fagiano Okayama vs Shimizu S-Pulse
+- 2026-05-17 18:00 | Fenerbahce vs Eyupspor
+- 2026-05-17 17:00 | Fenerbahce Istanbul vs Eyupspor
+- 2026-05-17 09:00 | Ferencvarosi TC II vs Pecsi MFC
+- 2026-05-17 19:00 | Ferroviaria Araraquara SP vs Brusque FC SC
+- 2026-05-17 17:00 | FH Hafnarfjordur vs KA Akureyri
+- 2026-05-17 14:00 | FK Auda Riga vs FC RFS
+- 2026-05-17 12:30 | FK Austria Wien vs LASK Linz
+- 2026-05-17 16:00 | FK Liepaja vs BFC Daugavpils
+- 2026-05-17 15:00 | FK Novi Pazar vs FK Zeleznicar Pancevo
+- 2026-05-17 16:30 | FK Radnik Surdulica vs FK Crvena Zvezda Belgrade
+- 2026-05-17 12:00 | FC Fredericia vs Silkeborg IF
+- 2026-05-17 10:00 | Gangwon FC vs Ulsan HD FC
+- 2026-05-17 06:30 | Garuda FC vs Palmerston Rovers
+- 2026-05-17 11:00 | Genoa vs Milan
+- 2026-05-17 10:30 | Genoa CFC vs AC Milan
+- 2026-05-17 07:30 | Gimhae FC vs Daegu FC
+- 2026-05-17 12:45 | GKS Katowice vs Jagiellonia Bialystok
+- 2026-05-17 10:15 | GKS Piast Gliwice vs RKS Rakow Czestochowa
+- 2026-05-17 15:00 | Godolloi SK vs Nyiregyhaza Spartacus FC II
+- 2026-05-17 14:30 | Greuther Furth vs Fortuna Dusseldorf
+- 2026-05-17 21:30 | Guarani FC SP vs Ituano FC SP
+- 2026-05-17 07:30 | Guizhou Xufengtang vs Shijiazhuang Gongfu FC
+- 2026-05-17 12:00 | Hammarby IF vs Malmo FF
+- 2026-05-17 14:30 | Hannover vs Nurnberg
+- 2026-05-17 13:30 | Hannover 96 vs 1 FC Nuremberg
+- 2026-05-17 14:30 | Hapoel Petah Tikva Nahum vs Hapoel Beer Sheva
+- 2026-05-17 13:30 | Heerenveen vs Ajax
+- 2026-05-17 11:00 | FC Helsingoer vs Skive IK
+- 2026-05-17 13:30 | Heracles vs Groningen
+- 2026-05-17 12:30 | Heracles Almelo vs FC Groningen
+- 2026-05-17 05:30 | Hills United FC vs Gladesville Ravens
+- 2026-05-17 00:30 | Houston Dynamo vs Vancouver Whitecaps FC
+- 2026-05-17 15:00 | FC Hradec Kralove vs Slavia Prague
+- 2026-05-17 16:30 | Huachipato vs Deportes Union La Calera
+- 2026-05-17 11:30 | Hubei Istar vs Guangxi Hengchen FC
+- 2026-05-17 00:00 | Huntsville City FC vs Atlanta United 2
+- 2026-05-17 19:00 | Huracan FC vs CA Atenas de San Carlos
+- 2026-05-17 07:30 | Hwaseong FC vs Busan I Park
+- 2026-05-17 13:00 | IBV Vestmannaeyjar vs Vikingur Reykjavik
+- 2026-05-17 12:00 | IF Brommapojkarna vs Kalmar FF
+- 2026-05-17 15:00 | IFK Varnamo vs Norrby IF
+- 2026-05-17 11:00 | III Keruleti Tve vs Esmtk Budapest
+- 2026-05-17 01:30 | Independiente Santa Fe vs CD Junior FC
+- 2026-05-17 14:00 | Inter vs Verona
+- 2026-05-17 22:00 | Inter Miami CF vs Portland Timbers
+- 2026-05-17 13:00 | Inter Milano vs Hellas Verona
+- 2026-05-17 05:00 | JEF United Chiba vs Kashima Antlers
+- 2026-05-17 07:30 | Jeju SK FC vs FC Anyang
+- 2026-05-17 07:40 | Jeonbuk FC vs Gimcheon Sangmu FC
+- 2026-05-17 11:30 | Jiangxi Lushan vs Dalian Kun City
+- 2026-05-17 11:00 | Juventus vs Fiorentina
+- 2026-05-17 10:30 | Juventus Turin vs ACF Fiorentina
+- 2026-05-17 15:00 | KaPa Kapylan Pallo vs PK-35 Helsinki
+- 2026-05-17 14:30 | Karlsruhe vs Bochum
+- 2026-05-17 13:30 | Karlsruher SC vs VfL Bochum
+- 2026-05-17 15:00 | Karpaty Lviv vs Veres Rivne
+- 2026-05-17 18:00 | Kasimpasa vs Galatasaray
+- 2026-05-17 17:00 | Kasimpasa Istanbul vs Galatasaray Istanbul
+- 2026-05-17 10:00 | Kawasaki Frontale vs Machida Zelvia
+- 2026-05-17 15:00 | Kayserispor vs Konyaspor
+- 2026-05-17 17:30 | Keflavik IF vs Stjarnan Gardabae
+- 2026-05-17 09:00 | Kisvarda FC II vs Cigand SE
+- 2026-05-17 17:30 | KKS 1925 Kalisz vs Warta Poznan
+- 2026-05-17 12:30 | Kolos Kovalivka vs FC Obolon Kyiv
+- 2026-05-17 15:00 | Komarom Vse vs ETO Akademia
+- 2026-05-17 18:15 | KR Reykjavik vs Fram Reykjavik
+- 2026-05-17 10:00 | FC Kryvbas Kriviy Rih vs FC Shakhtar Donetsk
+- 2026-05-17 15:00 | KS Hutnik Krakow SSA vs Podhale Nowy Targ
+- 2026-05-17 15:30 | KS Lechia Gdansk vs Legia Warszawa
+- 2026-05-17 14:00 | FC Kuressaare vs Nomme Kalju FC
+- 2026-05-17 06:00 | Kyoto Sanga FC vs Sanfrecce Hiroshima
+- 2026-05-17 13:00 | La Coruna vs Andorra
+- 2026-05-17 15:00 | Leeds vs Brighton
+- 2026-05-17 14:00 | Leeds United vs Brighton & Hove Albion
+- 2026-05-17 17:00 | Leixoes SC vs Lusitania FC Lourosa
+- 2026-05-17 18:00 | Leones Futbol Club vs Mushuc Runa SC
+- 2026-05-17 18:00 | Levante vs Mallorca
+- 2026-05-17 17:00 | Levante UD vs RCD Mallorca
+- 2026-05-17 20:00 | Lille vs Auxerre
+- 2026-05-17 19:00 | Lille OSC vs AJ Auxerre
+- 2026-05-17 14:00 | Livingston vs Kilmarnock
+- 2026-05-17 05:00 | Logan Roos FC vs Redcliffe Dolphins
+- 2026-05-17 20:00 | Lorient vs Le Havre
+- 2026-05-17 19:00 | FC Lorient vs Le Havre AC
+- 2026-05-17 02:00 | Los Angeles FC 2 vs Ventura County FC
+- 2026-05-17 20:30 | Los Chankas CYC vs CD Moquegua
+- 2026-05-17 20:00 | Lyon vs Lens
+- 2026-05-17 05:00 | Macarthur Rams vs Northern Tigers
+- 2026-05-17 14:30 | Magdeburg vs Kaiserslautern
+- 2026-05-17 05:00 | Maitland FC vs Lake Macquarie City FC
+- 2026-05-17 14:00 | Mamelodi Sundowns vs AS Far Rabat
+- 2026-05-17 12:30 | Man United vs Nott'm Forest
+- 2026-05-17 11:30 | Manchester United vs Nottingham Forest
+- 2026-05-17 20:00 | Marseille vs Rennes
+- 2026-05-17 05:00 | Melbourne Victory FC Youth vs Preston Lions
+- 2026-05-17 22:00 | Metropolitanos FC vs Deportivo Tachira
+- 2026-05-17 08:15 | MFk Karvina B vs FC Hlucin
+- 2026-05-17 16:00 | FC Midtjylland vs Broendby IF
+- 2026-05-17 12:30 | Miedz Legnica vs Ruch Chorzow
+- 2026-05-17 00:00 | Minnesota United FC 2 vs Houston Dynamo 2
+- 2026-05-17 14:30 | Mjallby AIF vs BK Hacken
+- 2026-05-17 08:00 | Moggill FC vs North Lakes United
+- 2026-05-17 14:00 | Mohun Bagan Super Giant vs SC East Bengal
+- 2026-05-17 07:00 | Moreton City Excelsior FC 2 vs Brisbane Knights
+- 2026-05-17 15:00 | Mosonmagyarovari TE vs FC Tatabanya
+- 2026-05-17 07:00 | MT Gravatt Hawks vs North Brisbane FC
+- 2026-05-17 09:00 | MTK Budapest II vs Dunaujvaros Palhalma Agrospecial SE
+- 2026-05-17 13:00 | Mura Murska Sobota vs NK Maribor
+- 2026-05-17 20:00 | Nantes vs Toulouse
+- 2026-05-17 12:30 | NEC Nijmegen vs Go Ahead Eagles
+- 2026-05-17 11:00 | New Taipei Hang Yuan vs Tainan City
+- 2026-05-17 17:30 | Newcastle vs West Ham
+- 2026-05-17 20:00 | Nice vs Metz
+- 2026-05-17 13:30 | Nijmegen vs Go Ahead Eagles
+- 2026-05-17 16:45 | NK Istra 1961 vs HNK Rijeka
+- 2026-05-17 11:45 | NK Jarun Zagreb vs NK Dubrava Zagreb
+- 2026-05-17 14:00 | NK Slaven Belupo vs GNK Dinamo Zagreb
+- 2026-05-17 13:00 | Nordic United FC vs Falkenbergs FF
+- 2026-05-17 00:00 | North Texas SC vs Sporting Kansas City II
+- 2026-05-17 00:00 | Oakland Roots SC vs Sacramento Republic FC
+- 2026-05-17 12:00 | Odense Boldklub vs Vejle BK
+- 2026-05-17 15:00 | OFI Crete vs Volos NFC
+- 2026-05-17 14:00 | OFI Crete vs Volos NPS
+- 2026-05-17 19:00 | OGC Nice vs FC Metz
+- 2026-05-17 15:15 | OKS Swit Szczecin vs Slask II Wroclaw
+- 2026-05-17 15:30 | Olimpija Ljubljana vs NK Radomlje
+- 2026-05-17 19:00 | Olympique Lyon vs Racing Club De Lens
+- 2026-05-17 19:00 | Olympique Marseille vs Stade Rennais FC
+- 2026-05-17 18:00 | Osasuna vs Espanol
+- 2026-05-17 13:00 | Osters IF vs Ljungskile SK
+- 2026-05-17 11:00 | Ostersunds FK vs Sandvikens IF
+- 2026-05-17 18:00 | Oviedo vs Alaves
+- 2026-05-17 21:00 | Pacific FC vs Inter Toronto FC
+- 2026-05-17 19:30 | FC Pacos Ferreira vs FC Penafiel
+- 2026-05-17 11:30 | Paide Linnameeskond vs FCI Levadia Tallinn
+- 2026-05-17 09:00 | Paksi FC II vs Majosi SE
+- 2026-05-17 17:30 | Panathinaikos vs PAOK
+- 2026-05-17 16:30 | Panathinaikos Athens vs PAOK Thessaloniki
+- 2026-05-17 13:00 | Paraguari AC vs Carapegua
+- 2026-05-17 19:00 | Paris FC vs Paris Saint-Germain
+- 2026-05-17 20:00 | Paris FC vs Paris SG
+- 2026-05-17 12:30 | PEC Zwolle vs Feyenoord Rotterdam
+- 2026-05-17 15:00 | Penzugyor SE vs Szekszardi UFC
+- 2026-05-17 07:00 | Perth Redstar FC vs Subiaco AFC
+- 2026-05-17 02:00 | Phoenix Rising FC vs Orange County SC
+- 2026-05-17 11:00 | Pisa vs Napoli
+- 2026-05-17 10:00 | Pisa SC vs SSC Napoli
+- 2026-05-17 15:00 | Pogon Grodzisk Mazowiecki vs GKS Tychy
+- 2026-05-17 18:15 | Polonia Bytom vs WKS Slask Wroclaw
+- 2026-05-17 19:30 | Portimonense SAD vs SC Farense
+- 2026-05-17 22:00 | Portland Thorns FC vs Angel City FC
+- 2026-05-17 21:30 | Portuguesa FC vs Academia Puerto Cabello
+- 2026-05-17 11:00 | Preah Khan Reach Svay Rieng FC vs Phnom Penh Crown FC
+- 2026-05-17 13:30 | PSV Eindhoven vs Twente
+- 2026-05-17 12:30 | PSV Eindhoven vs FC Twente Enschede
+- 2026-05-17 15:00 | Pte Peac vs Balatonlelle
+- 2026-05-17 09:00 | Puskas Akademia FC II vs Bicskei Tc
+- 2026-05-17 18:00 | Racing Club Montevideo vs Cerro Largo FC
+- 2026-05-17 17:00 | Rayo Vallecano vs Villarreal CF
+- 2026-05-17 12:00 | RC Deportivo De La Coruna vs FC Andorra
+- 2026-05-17 15:00 | Real Aviles CF vs Barakaldo CF
+- 2026-05-17 17:00 | Real Oviedo vs Deportivo Alaves
+- 2026-05-17 01:30 | Real Salt Lake vs Colorado Rapids
+- 2026-05-17 17:00 | Real Sociedad San Sebastian vs Valencia CF
+- 2026-05-17 19:15 | Real Zaragoza vs Sporting Gijon
+- 2026-05-17 21:30 | Red Bull Bragantino SP vs EC Vitoria BA
+- 2026-05-17 00:00 | R.K.S.V. Scherpenheuvel vs C.R.K.S.V. Jong Holland
+- 2026-05-17 11:00 | Roma vs Lazio
+- 2026-05-17 11:30 | RSC Anderlecht vs Yellow-Red KV Mechelen
+- 2026-05-17 10:00 | FC Rukh Lviv vs FC Oleksandriya
+- 2026-05-17 12:30 | FC Salzburg vs TSV Hartberg
+- 2026-05-17 06:00 | Samford Rangers vs Taringa Rovers SFC
+- 2026-05-17 01:30 | San Diego FC vs FC Cincinnati
+- 2026-05-17 02:30 | San Jose Earthquakes vs FC Dallas
+- 2026-05-17 19:00 | San Luis de Quillota vs Puerto Montt
+- 2026-05-17 21:30 | San Marcos de Arica vs CD Antofagasta
+- 2026-05-17 10:15 | Sandecja Nowy Sacz vs Olimpia Grudziadz
+- 2026-05-17 14:00 | Santos FC SP vs Coritiba FC PR
+- 2026-05-17 21:00 | Santos FC SP vs Red Bull Bragantino SP
+- 2026-05-17 19:45 | Sassuolo vs Lecce
+- 2026-05-17 18:45 | Sassuolo Calcio vs US Lecce
+- 2026-05-17 12:30 | SC Heerenveen vs Ajax Amsterdam
+- 2026-05-17 16:00 | SC Sopron vs Dorogi FC
+- 2026-05-17 14:30 | Schalke 04 vs Braunschweig
+- 2026-05-17 13:30 | Schalke 04 vs Eintracht Braunschweig
+- 2026-05-17 00:00 | SE Palmeiras SP vs Cruzeiro EC MG
+- 2026-05-17 01:15 | Seattle Sounders vs Los Angeles Galaxy
+- 2026-05-17 07:30 | Seongnam Ilhwa vs Gyeongnam FC
+- 2026-05-17 19:00 | SER Caxias do Sul vs Paysandu SC PA
+- 2026-05-17 18:00 | Sevilla vs Real Madrid
+- 2026-05-17 15:00 | SK Polanka Nad Odrou vs FK Hodonin
+- 2026-05-17 12:30 | SK Sturm Graz vs SK Rapid
+- 2026-05-17 14:00 | Skala IF vs B36 Torshavn
+- 2026-05-17 15:00 | FC Slovan Liberec vs Sparta Prague
+- 2026-05-17 18:00 | Sociedad vs Valencia
+- 2026-05-17 16:00 | Soenderjyske vs FC Nordsjaelland
+- 2026-05-17 07:15 | South Coast Flame FC vs Mounties Wanderers FC
+- 2026-05-17 15:30 | Southend United vs Wealdstone FC
+- 2026-05-17 13:30 | Sparta Rotterdam vs Excelsior
+- 2026-05-17 12:30 | Sparta Rotterdam vs Excelsior Rotterdam
+- 2026-05-17 14:30 | SPG Neudorf / Parndorf Juniors vs Ufc Jennersdorf
+- 2026-05-17 01:30 | Sport Boys Association vs Cusco FC
+- 2026-05-17 11:30 | Sporting Club Delhi vs Inter Kashi FC
+- 2026-05-17 20:00 | Sportivo San Lorenzo vs Sportivo Luqueno
+- 2026-05-17 14:00 | St Mirren vs Dundee United
+- 2026-05-17 19:00 | Stade Brest 29 vs Angers SCO
+- 2026-05-17 20:00 | Strasbourg vs Monaco
+- 2026-05-17 19:00 | Strasbourg Alsace vs AS Monaco
+- 2026-05-17 12:00 | FC Sudburgenland vs Linz AG Blau-Weiss / Kleinmunchen
+- 2026-05-17 13:30 | SV 07 Elversberg vs SC Preussen 06 Munster
+- 2026-05-17 13:30 | SV Darmstadt 98 vs SC Paderborn 07
+- 2026-05-17 15:00 | Svitavy vs MFk Chrudim B
+- 2026-05-17 07:40 | Sydney Olympic FC vs Western City Rangers FC
+- 2026-05-17 07:00 | Sydney University SFC vs Western Sydney Wanderers Youth
+- 2026-05-17 16:00 | Szombathelyi Mav Haladas VSE vs Zsambeki SK
+- 2026-05-17 08:00 | Taichung Rock FC vs AC Taipei
+- 2026-05-17 08:00 | Taiwan Power Company vs Ming Chuan University
+- 2026-05-17 08:00 | Tatung FC vs Taichung Futuro FC
+- 2026-05-17 15:00 | Tenerife CD vs Pontevedra CF
+- 2026-05-17 01:00 | Tepatitlan FC vs Jaiba Brava
+- 2026-05-17 21:15 | The Strongest vs Oriente Petrolero
+- 2026-05-17 16:00 | Thor Akureyri vs IA Akranes
+- 2026-05-17 15:00 | TJ Skastice vs Sfk Elko Holesov
+- 2026-05-17 18:00 | Trabzonspor vs Genclerbirligi
+- 2026-05-17 17:00 | Trabzonspor vs Genclerbirligi SK
+- 2026-05-17 14:30 | UD Leiria vs CD Feirense
+- 2026-05-17 10:00 | UD Oliveirense vs FC Felgueiras 1932
+- 2026-05-17 19:45 | Udinese vs Cremonese
+- 2026-05-17 18:45 | Udinese Calcio vs US Cremonese
+- 2026-05-17 09:00 | Ujpest FC II vs Papai Perutz FC
+- 2026-05-17 18:00 | US Catanzaro vs Palermo FC
+- 2026-05-17 13:30 | Utrecht vs For Sittard
+- 2026-05-17 12:30 | FC Utrecht vs Fortuna Sittard
+- 2026-05-17 07:00 | Uwa Nedlands FC vs Sorrento FC
+- 2026-05-17 04:00 | V-Varen Nagasaki vs Vissel Kobe
+- 2026-05-17 18:00 | Vallecano vs Villarreal
+- 2026-05-17 18:15 | Valur Reykjavik vs Breidablik Kopavogur
+- 2026-05-17 10:00 | Vasas SC II vs Dunaharaszti MTK
+- 2026-05-17 14:30 | Vasteraas SK vs AIK
+- 2026-05-17 11:00 | Vendsyssel FF vs AB Gladsaxe
+- 2026-05-17 01:30 | Veraguas United FC vs Alianza FC Panama
+- 2026-05-17 14:00 | Victoria United Limbe vs Aigle Royal Du Moungo
+- 2026-05-17 15:00 | FC Viktoria Plzen vs FK Jablonec
+- 2026-05-17 21:00 | Vila Nova FC GO vs Avai FC SC
+- 2026-05-17 12:30 | FC Volendam vs SC Telstar
+- 2026-05-17 13:30 | Volendam vs Telstar
+- 2026-05-17 16:00 | VST Voelkermarkt vs SVG Bleiburg
+- 2026-05-17 00:30 | FC Western vs Upper Hutt City FC
+- 2026-05-17 15:00 | Wiliete SC vs Luanda City FC
+- 2026-05-17 14:00 | Wolverhampton Wanderers vs Fulham FC
+- 2026-05-17 15:00 | Wolves vs Fulham
+- 2026-05-17 07:00 | Wuhan Lianzhen FC vs Guandong GZ-Power FC
+- 2026-05-17 20:15 | Zaragoza vs Sp Gijon
+- 2026-05-17 13:30 | Zwolle vs Feyenoord
+- 2026-05-18 20:00 | Arsenal vs Burnley
+- 2026-05-18 19:30 | Leganes vs Huesca
 
 ## After filling odds
 

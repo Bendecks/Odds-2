@@ -5,193 +5,157 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 
 ## Kort status
 
-- Aktuelle viste paper picks: **20**
-- Unikke loggede paper picks: **129**
-- Afventer i loggen: **126**
+- Aktuelle viste paper picks: **16**
+- Unikke loggede paper picks: **145**
+- Afventer i loggen: **142**
 - Afgjorte fundet i settled-filen: **210**
-- Skjulte U-/reserve-rækker: **15**
+- Skjulte U-/reserve-rækker: **18**
 - Vundne: **70**
 - Tabte: **140**
 - Samlet ROI i units: **-3.45**
 
 ## Aktuelle paper picks
 
-### Tianjin Jinmen Tiger vs Chengdu Rongcheng
-- Dato: **2026-05-15**
-- Kampstart: **11:35**
-- Spil: **Hjemmesejr**
+### Celtic vs Hearts
+- Dato: **2026-05-16**
+- Kampstart: **12:30**
+- Spil: **Udebanesejr**
+- Odds: **5.01**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Belmont Swansea United FC vs Valentine FC
+- Dato: **2026-05-16**
+- Kampstart: **05:00**
+- Spil: **Udebanesejr**
 - Odds: **4.75**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### FK Karvan Yevlakh vs Gabala FK
-- Dato: **2026-05-15**
-- Kampstart: **13:00**
+### Falkirk vs Rangers
+- Dato: **2026-05-16**
+- Kampstart: **12:30**
 - Spil: **Hjemmesejr**
-- Odds: **4.50**
+- Odds: **4.10**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Mekelle 70 Enderta FC vs Ethiopian Medhin
-- Dato: **2026-05-15**
-- Kampstart: **10:00**
-- Spil: **Hjemmesejr**
-- Odds: **4.33**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### CF Monterrey vs Club America
-- Dato: **2026-05-15**
-- Kampstart: **03:10**
-- Spil: **Hjemmesejr**
-- Odds: **4.33**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Penang FA vs Brunei DPMM FC
-- Dato: **2026-05-15**
-- Kampstart: **09:00**
-- Spil: **Udebanesejr**
-- Odds: **4.50**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Curtin University SC vs Murdoch University Melville FC
-- Dato: **2026-05-15**
+### Falkirk FC vs Glasgow Rangers
+- Dato: **2026-05-16**
 - Kampstart: **11:30**
 - Spil: **Hjemmesejr**
-- Odds: **4.00**
+- Odds: **4.10**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Essendon Royals SC vs Moreland City FC
-- Dato: **2026-05-15**
-- Kampstart: **10:30**
+### Tauranga City AFC vs Western Springs AFC
+- Dato: **2026-05-16**
+- Kampstart: **03:00**
+- Spil: **Hjemmesejr**
+- Odds: **3.90**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Albirex Niigata vs Nara Club
+- Dato: **2026-05-16**
+- Kampstart: **05:00**
 - Spil: **Udebanesejr**
 - Odds: **4.33**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Myj-Gmsc vs FC Bengaluru United
-- Dato: **2026-05-15**
-- Kampstart: **10:00**
-- Spil: **Hjemmesejr**
-- Odds: **3.80**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Dire Dawa Kenema vs Bahir Dar Kenema FC
-- Dato: **2026-05-15**
-- Kampstart: **13:00**
-- Spil: **Hjemmesejr**
-- Odds: **3.75**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Werribee City FC vs Malvern City FC
-- Dato: **2026-05-15**
-- Kampstart: **10:00**
-- Spil: **Hjemmesejr**
-- Odds: **3.75**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Bnei Yehuda Tel Aviv FC vs MS Football Hapoel Kiryat Yam
-- Dato: **2026-05-15**
-- Kampstart: **13:00**
+### Adelaide Atletico VSC vs Eastern United
+- Dato: **2026-05-16**
+- Kampstart: **05:30**
 - Spil: **Udebanesejr**
-- Odds: **4.00**
+- Odds: **4.20**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Beijing Guoan vs Qingdao Hainiu FC
-- Dato: **2026-05-15**
-- Kampstart: **12:00**
+### Dangjin Citizen vs Daejeon Korail FC
+- Dato: **2026-05-16**
+- Kampstart: **05:00**
+- Spil: **Hjemmesejr**
+- Odds: **3.70**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Essendon Royals SC vs South Melbourne FC
+- Dato: **2026-05-16**
+- Kampstart: **05:00**
+- Spil: **Hjemmesejr**
+- Odds: **3.60**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Mynavi Sendai Ladies vs Chifure AS Elfen Saitama
+- Dato: **2026-05-16**
+- Kampstart: **04:00**
+- Spil: **Udebanesejr**
+- Odds: **3.90**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Lambton Jaffas FC vs Kahibah FC
+- Dato: **2026-05-16**
+- Kampstart: **04:00**
 - Spil: **Uafgjort**
 - Odds: **5.25**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Caboolture FC vs North Star FC
-- Dato: **2026-05-15**
-- Kampstart: **10:30**
-- Spil: **Udebanesejr**
-- Odds: **3.75**
+### Melville United AFC vs Manukau United FC
+- Dato: **2026-05-16**
+- Kampstart: **03:00**
+- Spil: **Uafgjort**
+- Odds: **5.25**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Al Ittihad Ahli of Aleppo vs Al-Shorta SC
-- Dato: **2026-05-15**
-- Kampstart: **13:00**
+### Fukushima United FC vs Hokkaido Consadole Sapporo
+- Dato: **2026-05-16**
+- Kampstart: **05:00**
+- Spil: **Hjemmesejr**
+- Odds: **3.40**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Real Sociedad San Sebastian B vs CD Mirandes
+- Dato: **2026-05-16**
+- Kampstart: **12:00**
+- Spil: **Hjemmesejr**
+- Odds: **3.35**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Bay Olympic vs Auckland United FC
+- Dato: **2026-05-16**
+- Kampstart: **03:00**
 - Spil: **Uafgjort**
 - Odds: **5.00**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### PVF Cand B vs Ho Chi Minh City FC
-- Dato: **2026-05-15**
-- Kampstart: **11:00**
-- Spil: **Udebanesejr**
-- Odds: **3.60**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Shanghai Port FC vs Zhejiang FC
-- Dato: **2026-05-15**
-- Kampstart: **11:35**
-- Spil: **Udebanesejr**
-- Odds: **3.60**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Brisbane Roar FC vs Lions FC
-- Dato: **2026-05-15**
-- Kampstart: **09:15**
+### Belmont Swansea United FC vs Valentine FC
+- Dato: **2026-05-16**
+- Kampstart: **05:00**
 - Spil: **Uafgjort**
-- Odds: **4.75**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Broadmeadow Magic FC vs Newcastle Olympic FC
-- Dato: **2026-05-15**
-- Kampstart: **10:00**
-- Spil: **Uafgjort**
-- Odds: **4.75**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Semen Padang FC vs Persebaya Surabaya
-- Dato: **2026-05-15**
-- Kampstart: **08:30**
-- Spil: **Uafgjort**
-- Odds: **4.75**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Cong An TP Ho Chi Minh City FC vs SHB Da Nang
-- Dato: **2026-05-15**
-- Kampstart: **11:00**
-- Spil: **Udebanesejr**
-- Odds: **3.40**
+- Odds: **5.00**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**

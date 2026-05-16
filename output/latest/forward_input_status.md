@@ -3,10 +3,10 @@
 Manual Bet365 odds input is parked as an optional fallback. It is not an active development blocker.
 Current priority: automatic/free-data forward-testing sources and robust fixture/model matching.
 
-Upcoming fixtures: 649
-Manual template rows: 649
+Upcoming fixtures: 1137
+Manual template rows: 1137
 Rows with complete manual odds: 0
-Rows missing manual odds: 649
+Rows missing manual odds: 1137
 Manual forward snapshot rows: 0
 Manual odds mode: optional_fallback_paused
 Manual odds is blocker: False
@@ -19,23 +19,23 @@ Upcoming fixtures exist, but no automatic odds/proxy forward snapshot source is 
 ## Optional manual fallback status
 
 Manual odds are not required in the current phase. These rows are only kept for later fallback use:
-- 2026-05-15 22:30 | 12 de Junio de Villa Hayes vs Club Dr Benjamin Aceval
-- 2026-05-15 16:00 | Aalesunds FK vs Hoenefoss BK
-- 2026-05-15 18:15 | FC Aarau vs Yverdon-Sport
-- 2026-05-15 17:30 | ACS Champions FC Arges vs Rapid Bucuresti 1923
-- 2026-05-15 09:35 | Adelaide United FC vs Auckland FC
-- 2026-05-15 14:10 | Ajman Club vs Al-Nasr Dubai CSC
-- 2026-05-15 16:00 | Akritas Chlorakas vs AEL Limassol
-- 2026-05-15 14:05 | AL Arabi (UAE) vs Gulf United
-- 2026-05-15 16:00 | AL Budaiya vs Al-Ahli SC Manama
-- 2026-05-15 16:00 | Al Hidd vs Al-Shabab
-- 2026-05-15 14:05 | AL Ittifaq vs Emirates Club
-- 2026-05-15 13:00 | Al Ittihad Ahli of Aleppo vs Al-Shorta SC
-- 2026-05-15 14:30 | AL Mosul SC vs Duhok FC
-- 2026-05-15 17:00 | Al Quwa Al Jawiya vs AL Talaba
-- 2026-05-15 16:00 | Al Riffa vs AL Bahrain
-- 2026-05-15 14:40 | Al Shabab Kuwait vs Kazma SC
-- 2026-05-15 14:05 | Al Urooba UAE vs Dubai United FC
-- 2026-05-15 16:45 | Al Wasl FC vs Ittihad Kalba FC
-- 2026-05-15 14:05 | Al-Dhaid vs Hatta SC
-- 2026-05-15 14:30 | Al-Gharraf SC vs AL Karkh
+- 2026-05-16 12:00 | 1. FC Bocholt vs RW Oberhausen
+- 2026-05-16 12:00 | 1. FC Cologne II vs FC Schalke 04 II
+- 2026-05-16 13:30 | 1. FC Heidenheim vs FSV Mainz
+- 2026-05-16 12:00 | 1. FC Lokomotive Leipzig vs FC Magdeburg II
+- 2026-05-16 12:00 | 1 FC Nuremberg II vs SpVgg Hankofen-Hailing
+- 2026-05-16 11:30 | 1. FC Saarbrucken vs Hansa Rostock
+- 2026-05-16 11:30 | 1. FC Schweinfurt 05 vs Erzgebirge Aue
+- 2026-05-16 15:00 | 1. FC Slovacko Uherske Hradiste vs FK Mlada Boleslav
+- 2026-05-16 14:00 | A-Xiii Auhof Center vs WAF Vorwarts Brigittenau
+- 2026-05-16 19:00 | ABC FC RN vs Sousa EC PB
+- 2026-05-16 18:30 | AC Goianiense GO vs Cerrado EC GO
+- 2026-05-16 13:00 | AC Horsens vs Hvidovre IF
+- 2026-05-16 16:00 | AC Oulu vs Turun Palloseura
+- 2026-05-16 15:00 | AC Virtus vs SP La Fiorita
+- 2026-05-16 15:30 | Academica de Coimbra vs CD Trofense
+- 2026-05-16 13:30 | ACV Assen vs Koninklijke HFC
+- 2026-05-16 19:00 | AD Alcorcon vs Marbella FC
+- 2026-05-16 18:00 | AD Cabofriense RJ vs Serrano FC RJ
+- 2026-05-16 14:15 | AD Ceuta vs Malaga CF
+- 2026-05-16 04:00 | Adamstown Rosebud FC vs Charlestown Azzurri FC
