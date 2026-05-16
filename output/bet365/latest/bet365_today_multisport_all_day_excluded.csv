@@ -1,271 +1,138 @@
 sport_query,event_id,date_denmark,home,away,league,sport,bookmaker_count,status,reason
-football,68051610,2026-05-16 11:30,Adelaide Cobras,Modbury Jets SC,Australia - South Australia State League 1,Football,0,pending,not_good_competition_or_low_coverage
-football,71240196,2026-05-16 11:40,Newcastle United Jets,Sydney FC,Australia - A-League,Football,0,pending,not_good_competition_or_low_coverage
-football,67693060,2026-05-16 11:45,NWS Spirit FC,Marconi Stallions FC,Australia - U20 NSW NPL,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,71073820,2026-05-16 12:00,GKS Katowice,Czarni Sosnowiec,"Poland - Puchar Polski, Women",Football,0,pending,not_good_competition_or_low_coverage
-football,62036892,2026-05-16 12:00,LKS Goczalkowice-Zdroj,Gornik Zabrze II,"Poland - III Liga, Group 3",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,61854750,2026-05-16 12:00,TSV Aubstadt,SpVgg Bayreuth,Germany Amateur - Regionalliga Bavaria,Football,0,pending,not_good_competition_or_low_coverage
-football,71493980,2026-05-16 12:00,Gil Vicente FC,Leixoes SC,Portugal - U23 Taca Revelacao,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,62036896,2026-05-16 12:00,BKS Sparta Katowice,SKRA Czestochowa,"Poland - III Liga, Group 3",Football,0,pending,not_good_competition_or_low_coverage
-football,67817704,2026-05-16 12:00,Incheon United FC,Gwangju FC,Republic of Korea - K-League 1,Football,0,pending,not_good_competition_or_low_coverage
-football,68046514,2026-05-16 12:00,Ansan Greeners FC,Gimpo FC,Republic of Korea - K-League 2,Football,0,pending,not_good_competition_or_low_coverage
-football,68664050,2026-05-16 12:00,K. Khanh Hoa,Bac Ninh,Vietnam - V-League 2,Football,0,pending,not_good_competition_or_low_coverage
-football,68916300,2026-05-16 12:00,Ulsan Citizen FC,Yangpyeong FC,Republic of Korea - K3 League,Football,0,pending,not_good_competition_or_low_coverage
-football,69401910,2026-05-16 12:00,WKS Slask Wroclaw,Pogon Tczew,"Poland - Ekstraliga, Women",Football,0,pending,not_good_competition_or_low_coverage
-football,69767608,2026-05-16 12:00,Kingsley Westside FC,Floreat Athena,Australia - Western Australia State League 1,Football,0,pending,not_good_competition_or_low_coverage
-football,70663766,2026-05-16 12:00,Glostrup FK,Alleroed FK,Denmark Amateur - Danmarksserien,Football,0,pending,not_good_competition_or_low_coverage
-football,62036898,2026-05-16 12:00,KS Sleza Wroclaw,Slowianin Woliborz,"Poland - III Liga, Group 3",Football,0,pending,not_good_competition_or_low_coverage
-football,67802920,2026-05-16 12:00,FC Famalicao,SL Benfica,Portugal - U19 Campeonato Nacional,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,67802922,2026-05-16 12:00,Sporting CP,FC Porto,Portugal - U19 Campeonato Nacional,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,71267596,2026-05-16 12:15,Kaya FC–Iloilo,Davao Aguilas,Philippines - Philippines Footb. League,Football,0,pending,not_good_competition_or_low_coverage
-football,63039303,2026-05-16 13:00,Fatih Karagumruk,Aytemiz Alanyaspor,Turkiye Amateur - U19 Elit A,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,71405098,2026-05-16 13:00,Nongbua Pitchaya FC,Pattani FC,Thailand - Thai League 2,Football,0,pending,not_good_competition_or_low_coverage
-football,62641009,2026-05-16 13:00,Lyngby,FC Nordsjaelland,Denmark - U19 Ligaen,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,67915828,2026-05-16 13:00,Kvik Halden FK,IL Sandviken,Norway - 2nd Division Group 1,Football,0,pending,not_good_competition_or_low_coverage
-football,67919264,2026-05-16 13:00,Nordstrand,Konnerud,Norway - 3rd Division Group 1,Football,0,pending,not_good_competition_or_low_coverage
-football,67919266,2026-05-16 13:00,Ullern,Frigg Oslo FK,Norway - 3rd Division Group 1,Football,0,pending,not_good_competition_or_low_coverage
-football,67919268,2026-05-16 13:00,Heming,Ready Fotball,Norway - 3rd Division Group 1,Football,0,pending,not_good_competition_or_low_coverage
-football,67919898,2026-05-16 13:00,Varegg,Aasane Fotball 2,Norway - 3rd Division Group 3,Football,0,pending,not_good_competition_or_low_coverage
-football,71483626,2026-05-16 13:00,UD Tamaraceite,CD Mensajero,"Spain Amateur - Tercera Federacion, Group 12",Football,0,pending,not_good_competition_or_low_coverage
-football,68310892,2026-05-16 13:00,Karlbergs BK,FC Jarfalla,"Sweden - Ettan, Relegation/Promotion",Football,0,pending,not_good_competition_or_low_coverage
-football,68320786,2026-05-16 13:00,Viggbyholms IK FF,IK Franke,"Sweden - Division 2, Promotion Playoffs",Football,0,pending,not_good_competition_or_low_coverage
-football,68663474,2026-05-16 13:00,Haiphong FC,Becamex Ho Chi Minh City,Vietnam - V-League 1,Football,0,pending,not_good_competition_or_low_coverage
-football,68663476,2026-05-16 13:00,Song Lam Nghe An,Ninh Binh FC,Vietnam - V-League 1,Football,0,pending,not_good_competition_or_low_coverage
-football,68664052,2026-05-16 13:00,Truong Tuoi Dong Nai FC,DH van Hien,Vietnam - V-League 2,Football,0,pending,not_good_competition_or_low_coverage
-football,69670710,2026-05-16 13:00,FC Neptunas Klaipeda,FK Minija 2017,Lithuania - 1 Lyga,Football,0,pending,not_good_competition_or_low_coverage
-football,69670712,2026-05-16 13:00,FK Tauras Taurage,FK Jonava,Lithuania - 1 Lyga,Football,0,pending,not_good_competition_or_low_coverage
-football,70365240,2026-05-16 13:00,KIF Orebro DFF,Enskede IK,"Sweden Amateur - Elitettan, Women",Football,0,pending,not_good_competition_or_low_coverage
-football,70730778,2026-05-16 13:00,Vejgaard BK,Sundby BK,Denmark - 3rd Division,Football,0,pending,not_good_competition_or_low_coverage
-football,70730782,2026-05-16 13:00,Holbaek B&I,Odder IGF,Denmark - 3rd Division,Football,0,pending,not_good_competition_or_low_coverage
-football,62036894,2026-05-16 13:00,Miedz Legnica II,GKS Pniowek Pawlowice,"Poland - III Liga, Group 3",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,62037806,2026-05-16 13:00,KS Wasilkow,Wigry Suwalki,"Poland - III Liga, Group 1",Football,0,pending,not_good_competition_or_low_coverage
-football,68377544,2026-05-16 13:00,IFK Haninge,Karlslunds IF HFK,"Sweden - Division 2, Promotion Playoffs",Football,0,pending,not_good_competition_or_low_coverage
-football,70317948,2026-05-16 13:00,Hillerod Fodbold,Esbjerg FB,Denmark - 1. Division,Football,0,pending,not_good_competition_or_low_coverage
-football,68954836,2026-05-16 13:15,FK Kauno Zalgiris,FA Siauliai,Lithuania - A Lyga,Football,0,pending,not_good_competition_or_low_coverage
-football,71474756,2026-05-16 13:30,Sportivo Trinidense,Cerro Porteno Asuncion,"Paraguay - Primera Division Reserve, Apertura",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,61709700,2026-05-16 13:30,1. FC Saarbrucken,Hansa Rostock,Germany - 3. Liga,Football,0,pending,not_good_competition_or_low_coverage
-football,61709702,2026-05-16 13:30,FC Ingolstadt 04,SV Waldhof Mannheim 07,Germany - 3. Liga,Football,0,pending,not_good_competition_or_low_coverage
-football,61709704,2026-05-16 13:30,VfB Stuttgart II,VfL 1899 Osnabruck,Germany - 3. Liga,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,61709706,2026-05-16 13:30,SSV Ulm 1846,Rot-Weiss Essen,Germany - 3. Liga,Football,0,pending,not_good_competition_or_low_coverage
-football,61709708,2026-05-16 13:30,SV Wehen Wiesbaden,TSG Hoffenheim II,Germany - 3. Liga,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,61709710,2026-05-16 13:30,Jahn Regensburg,Energie Cottbus,Germany - 3. Liga,Football,0,pending,not_good_competition_or_low_coverage
-football,61709712,2026-05-16 13:30,MSV Duisburg,FC Viktoria Cologne,Germany - 3. Liga,Football,0,pending,not_good_competition_or_low_coverage
-football,61709714,2026-05-16 13:30,Alemannia Aachen,TSV Havelse,Germany - 3. Liga,Football,0,pending,not_good_competition_or_low_coverage
-football,61709716,2026-05-16 13:30,SC Verl,TSV 1860 Munich,Germany - 3. Liga,Football,0,pending,not_good_competition_or_low_coverage
-football,61709718,2026-05-16 13:30,1. FC Schweinfurt 05,Erzgebirge Aue,Germany - 3. Liga,Football,0,pending,not_good_competition_or_low_coverage
-football,69972726,2026-05-16 13:45,NK Sesvete,NK Dugopolje,Croatia - Prva NL,Football,0,pending,not_good_competition_or_low_coverage
-football,63039305,2026-05-16 14:00,Gaziantep FK,Istanbul Basaksehir FK,Turkiye Amateur - U19 Elit A,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,63039307,2026-05-16 14:00,Samsunspor,Goztepe,Turkiye Amateur - U19 Elit A,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,61712376,2026-05-16 14:00,1. FC Lokomotive Leipzig,FC Magdeburg II,Germany Amateur - Regionalliga Northeast,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,61712378,2026-05-16 14:00,FC Carl Zeiss Jena,FC Rot-Weiss Erfurt,Germany Amateur - Regionalliga Northeast,Football,0,pending,not_good_competition_or_low_coverage
-football,61712380,2026-05-16 14:00,FSV Zwickau,BSG Chemie Leipzig,Germany Amateur - Regionalliga Northeast,Football,0,pending,not_good_competition_or_low_coverage
-football,61712382,2026-05-16 14:00,BFC Dynamo,Chemnitzer FC,Germany Amateur - Regionalliga Northeast,Football,0,pending,not_good_competition_or_low_coverage
-football,61712384,2026-05-16 14:00,VSG Altglienicke,BFC Preussen Berlin,Germany Amateur - Regionalliga Northeast,Football,0,pending,not_good_competition_or_low_coverage
-football,61712388,2026-05-16 14:00,ZFC Meuselwitz,FSV Luckenwalde,Germany Amateur - Regionalliga Northeast,Football,0,pending,not_good_competition_or_low_coverage
-football,71341350,2026-05-16 14:00,FC Samtredia,SFC Shturmi Sartichala,Georgia - Erovnuli Liga 2,Football,0,pending,not_good_competition_or_low_coverage
-football,61712390,2026-05-16 14:00,FC Hertha 03 Zehlendorf,Greifswalder FC,Germany Amateur - Regionalliga Northeast,Football,0,pending,not_good_competition_or_low_coverage
-football,61712392,2026-05-16 14:00,FC Eilenburg,Hallescher FC,Germany Amateur - Regionalliga Northeast,Football,0,pending,not_good_competition_or_low_coverage
-football,61853440,2026-05-16 14:00,1. FC Cologne II,FC Schalke 04 II,Germany Amateur - Regionalliga West,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,61853442,2026-05-16 14:00,SC Wiedenbruck,Borussia Dortmund II,Germany Amateur - Regionalliga West,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,61853444,2026-05-16 14:00,SC Paderborn 07 II,SV Rodinghausen,Germany Amateur - Regionalliga West,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,61853446,2026-05-16 14:00,Sportfreunde Siegen 1899,SSVg Velbert,Germany Amateur - Regionalliga West,Football,0,pending,not_good_competition_or_low_coverage
-football,61853448,2026-05-16 14:00,VfL Sportfreunde Lotte 1929,Fortuna Cologne,Germany Amateur - Regionalliga West,Football,0,pending,not_good_competition_or_low_coverage
-football,61853450,2026-05-16 14:00,Wuppertaler SV,Bonner SC,Germany Amateur - Regionalliga West,Football,0,pending,not_good_competition_or_low_coverage
-football,61853452,2026-05-16 14:00,VfL Bochum II,Fortuna Dusseldorf II,Germany Amateur - Regionalliga West,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,61853454,2026-05-16 14:00,Borussia Monchengladbach II,FC Gutersloh 2000,Germany Amateur - Regionalliga West,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,61853456,2026-05-16 14:00,1. FC Bocholt,RW Oberhausen,Germany Amateur - Regionalliga West,Football,0,pending,not_good_competition_or_low_coverage
-football,61854746,2026-05-16 14:00,SpVgg Unterhaching,Wacker Burghausen,Germany Amateur - Regionalliga Bavaria,Football,0,pending,not_good_competition_or_low_coverage
-football,61854748,2026-05-16 14:00,FV Illertissen,Schwaben Augsburg,Germany Amateur - Regionalliga Bavaria,Football,0,pending,not_good_competition_or_low_coverage
-football,71332666,2026-05-16 14:00,FC Merani Martvili,FC Telavi,Georgia - Erovnuli Liga 2,Football,0,pending,not_good_competition_or_low_coverage
-football,61854752,2026-05-16 14:00,1 FC Nuremberg II,SpVgg Hankofen-Hailing,Germany Amateur - Regionalliga Bavaria,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,61854754,2026-05-16 14:00,SpVgg Ansbach,FC Wurzburger Kickers,Germany Amateur - Regionalliga Bavaria,Football,0,pending,not_good_competition_or_low_coverage
-football,61854756,2026-05-16 14:00,Viktoria Aschaffenburg,Bayern Munich II,Germany Amateur - Regionalliga Bavaria,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,61854758,2026-05-16 14:00,FC Augsburg II,FC Memmingen,Germany Amateur - Regionalliga Bavaria,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,61854760,2026-05-16 14:00,DJK Vilzing,Greuther Furth II,Germany Amateur - Regionalliga Bavaria,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,61854762,2026-05-16 14:00,VfB Eichstatt,TSV Buchbach,Germany Amateur - Regionalliga Bavaria,Football,0,pending,not_good_competition_or_low_coverage
-football,61859532,2026-05-16 14:00,SV Sandhausen,FC 08 Homburg-Saar,Germany Amateur - Regionalliga Southwest,Football,0,pending,not_good_competition_or_low_coverage
-football,61859536,2026-05-16 14:00,TSV Steinbach Haiger,Bahlinger SC,Germany Amateur - Regionalliga Southwest,Football,0,pending,not_good_competition_or_low_coverage
-football,61859538,2026-05-16 14:00,Stuttgarter Kickers,SG Sonnenhof Grossaspach,Germany Amateur - Regionalliga Southwest,Football,0,pending,not_good_competition_or_low_coverage
-football,61859540,2026-05-16 14:00,SG Barockstadt Fulda-Lehnerz,FSV Frankfurt 1899,Germany Amateur - Regionalliga Southwest,Football,0,pending,not_good_competition_or_low_coverage
-football,61859542,2026-05-16 14:00,FSV Mainz II,SC Freiburg II,Germany Amateur - Regionalliga Southwest,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,61859544,2026-05-16 14:00,Eintracht Trier,TSV Schott Mainz,Germany Amateur - Regionalliga Southwest,Football,0,pending,not_good_competition_or_low_coverage
-football,61859546,2026-05-16 14:00,FC Bayern Alzenau,SGV Freiberg,Germany Amateur - Regionalliga Southwest,Football,0,pending,not_good_competition_or_low_coverage
-football,61859548,2026-05-16 14:00,TSG Balingen 1848,FC Astoria Walldorf,Germany Amateur - Regionalliga Southwest,Football,0,pending,not_good_competition_or_low_coverage
-football,62083178,2026-05-16 14:00,Persis Solo,Dewa United,Indonesia - Liga 1,Football,0,pending,not_good_competition_or_low_coverage
-football,62083180,2026-05-16 14:00,Malut United,Persita Tangerang,Indonesia - Liga 1,Football,0,pending,not_good_competition_or_low_coverage
-football,70966372,2026-05-16 14:00,FC Slovan Liberec B,FC Teplice,"Czechia - 2. Liga, Women",Football,0,pending,not_good_competition_or_low_coverage
-football,67343110,2026-05-16 14:00,Debreceni VSC,Gyori ETO FC,Hungary - U19 National,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,62252174,2026-05-16 14:00,NK Vrhnika,NK Sencur,Slovenia - 3. SNL,Football,0,pending,not_good_competition_or_low_coverage
-football,67915576,2026-05-16 14:00,Kjelsaas,Skeid Fotball,Norway - 2nd Division Group 2,Football,0,pending,not_good_competition_or_low_coverage
-football,67915578,2026-05-16 14:00,Follo,Loerenskog IF,Norway - 2nd Division Group 2,Football,0,pending,not_good_competition_or_low_coverage
-football,67921072,2026-05-16 14:00,FK Oern-Horten,Bjoerkelangen,Norway - 3rd Division Group 6,Football,0,pending,not_good_competition_or_low_coverage
-football,68344652,2026-05-16 14:00,FK Karlskrona,Staffanstorp United,"Sweden - Division 2, Promotion Playoffs",Football,0,pending,not_good_competition_or_low_coverage
-football,68377666,2026-05-16 14:00,Dalstorps IF,Astorps FF,"Sweden - Division 2, Promotion Playoffs",Football,0,pending,not_good_competition_or_low_coverage
-football,70730316,2026-05-16 14:00,HIK Hellerup,Thisted FC,Denmark - 2nd Division,Football,0,pending,not_good_competition_or_low_coverage
-football,70730318,2026-05-16 14:00,FC Roskilde,Naestved BK,Denmark - 2nd Division,Football,0,pending,not_good_competition_or_low_coverage
-football,70730370,2026-05-16 14:00,Brabrand IF,Vsk Aarhus,Denmark - 2nd Division,Football,0,pending,not_good_competition_or_low_coverage
-football,70730726,2026-05-16 14:00,Naesby BK,Bronshoj BK,Denmark - 3rd Division,Football,0,pending,not_good_competition_or_low_coverage
-football,70730728,2026-05-16 14:00,FA 2000,Vanloese IF,Denmark - 3rd Division,Football,0,pending,not_good_competition_or_low_coverage
-football,70730780,2026-05-16 14:00,BK Frem,IF Lyseng,Denmark - 3rd Division,Football,0,pending,not_good_competition_or_low_coverage
-football,67919270,2026-05-16 14:00,Baerum SK,Asker Fotball,Norway - 3rd Division Group 1,Football,0,pending,not_good_competition_or_low_coverage
-football,62037510,2026-05-16 14:00,MKS Viktoria Wrzesnia,Zks Kluczevia Stargard,"Poland - III Liga, Group 2",Football,0,pending,not_good_competition_or_low_coverage
-football,70318292,2026-05-16 14:00,Middelfart BK,HB Koege,Denmark - 1. Division,Football,0,pending,not_good_competition_or_low_coverage
-football,61062325,2026-05-16 14:45,LKP Motor Lublin,MKS Cracovia Krakow,Poland - Ekstraklasa,Football,0,pending,not_good_competition_or_low_coverage
-football,71463588,2026-05-16 15:00,AS Monaco,Valenciennes FC,France - Championnat National U19,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,71485700,2026-05-16 15:00,SP Tre Penne,FC Domagnano,San Marino - Campionato Sammarinese,Football,0,pending,not_good_competition_or_low_coverage
-football,71267598,2026-05-16 15:00,Taguig FC,Stallion Laguna FC,Philippines - Philippines Footb. League,Football,0,pending,not_good_competition_or_low_coverage
-football,71463590,2026-05-16 15:00,Paris Saint-Germain FC,FC Nantes,France - Championnat National U19,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,67563282,2026-05-16 15:00,Bulawayo Chiefs FC,Hardrock FC,Zimbabwe - Premier Soccer League,Football,0,pending,not_good_competition_or_low_coverage
-football,67563292,2026-05-16 15:00,Scottland FC,ZPC Kariba,Zimbabwe - Premier Soccer League,Football,0,pending,not_good_competition_or_low_coverage
-football,70962960,2026-05-16 15:00,Sreenidi Deccan FC,Chanmari FC,India - I-League,Football,0,pending,not_good_competition_or_low_coverage
-football,71462680,2026-05-16 15:00,KF Teuta,KS Pogradeci,Albania - Kategoria Superiore,Football,0,pending,not_good_competition_or_low_coverage
-football,70905776,2026-05-16 15:00,FC CSKA 1948,PFC Ludogorets 1945 Razgrad,Bulgaria - Parva Liga,Football,0,pending,not_good_competition_or_low_coverage
-football,70905778,2026-05-16 15:00,PFC Levski Sofia,PFC CSKA Sofia,Bulgaria - Parva Liga,Football,0,pending,not_good_competition_or_low_coverage
-football,61541410,2026-05-16 15:00,SK Bischofshofen,FC Lauterach,Austria Amateur - Regionalliga West,Football,0,pending,not_good_competition_or_low_coverage
-football,61911540,2026-05-16 15:00,Simmeringer SC,FC 1980 Wien,"Austria Amateur - Wien, Wiener Stadtliga",Football,0,pending,not_good_competition_or_low_coverage
-football,67473258,2026-05-16 15:00,Gamla Upsala SK,Linkopings FC,"Sweden Amateur - Elitettan, Women",Football,0,pending,not_good_competition_or_low_coverage
-football,67473262,2026-05-16 15:00,Jitex Molndal BK,Trelleborgs FF,"Sweden Amateur - Elitettan, Women",Football,0,pending,not_good_competition_or_low_coverage
-football,67915580,2026-05-16 15:00,Levanger FK,Trygg/Lade,Norway - 2nd Division Group 2,Football,0,pending,not_good_competition_or_low_coverage
-football,67915832,2026-05-16 15:00,FK Eik Toensberg 871,Mjoendalen IF,Norway - 2nd Division Group 1,Football,0,pending,not_good_competition_or_low_coverage
-football,67920362,2026-05-16 15:00,FK Mandalskameratene,Vindbjart FK,Norway - 3rd Division Group 4,Football,0,pending,not_good_competition_or_low_coverage
-football,67920600,2026-05-16 15:00,Lillestrom SK 2,Skedsmo,Norway - 3rd Division Group 5,Football,0,pending,not_good_competition_or_low_coverage
-football,68344654,2026-05-16 15:00,IFK Trelleborg,Osterlen FF,"Sweden - Division 2, Promotion Playoffs",Football,0,pending,not_good_competition_or_low_coverage
-football,68492522,2026-05-16 15:00,SK Super Nova,Ogre United,Latvia - Virsliga,Football,0,pending,not_good_competition_or_low_coverage
-football,69108996,2026-05-16 15:00,Huima/Urho,FC Vaajakoski,Finland - Kakkonen Playoffs,Football,0,pending,not_good_competition_or_low_coverage
-football,69501860,2026-05-16 15:00,Riga Mariners,Valmiera FC,Latvia - 1.Liga,Football,0,pending,not_good_competition_or_low_coverage
-football,69501862,2026-05-16 15:00,Rezeknes Fa/Bjss,FK Tukums 2000/Tss II,Latvia - 1.Liga,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,70224434,2026-05-16 15:00,FC Gagra,FC Rustavi,Georgia - Erovnuli Liga,Football,0,pending,not_good_competition_or_low_coverage
-football,70730372,2026-05-16 15:00,BK Fremad Amager,Ishoej IF,Denmark - 2nd Division,Football,0,pending,not_good_competition_or_low_coverage
 football,70267802,2026-05-16 15:00,Hammarby IF,Hacken Gothenburg,Sweden - Svenska Cup Women,Football,0,pending,not_good_competition_or_low_coverage
+football,68344654,2026-05-16 15:00,IFK Trelleborg,Osterlen FF,"Sweden - Division 2, Promotion Playoffs",Football,0,pending,not_good_competition_or_low_coverage
+football,71485700,2026-05-16 15:00,SP Tre Penne,FC Domagnano,San Marino - Campionato Sammarinese,Football,0,pending,not_good_competition_or_low_coverage
+football,69501862,2026-05-16 15:00,Rezeknes Fa/Bjss,FK Tukums 2000/Tss II,Latvia - 1.Liga,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,70730372,2026-05-16 15:00,BK Fremad Amager,Ishoej IF,Denmark - 2nd Division,Football,0,pending,not_good_competition_or_low_coverage
+football,67563282,2026-05-16 15:00,Bulawayo Chiefs FC,Hardrock FC,Zimbabwe - Premier Soccer League,Football,0,pending,not_good_competition_or_low_coverage
+football,61911540,2026-05-16 15:00,Simmeringer SC,FC 1980 Wien,"Austria Amateur - Wien, Wiener Stadtliga",Football,0,pending,not_good_competition_or_low_coverage
+football,71267598,2026-05-16 15:00,Taguig FC,Stallion Laguna FC,Philippines - Philippines Footb. League,Football,0,pending,not_good_competition_or_low_coverage
+football,70962960,2026-05-16 15:00,Sreenidi Deccan FC,Chanmari FC,India - I-League,Football,0,pending,not_good_competition_or_low_coverage
 football,70317952,2026-05-16 15:00,AC Horsens,Hvidovre IF,Denmark - 1. Division,Football,0,pending,not_good_competition_or_low_coverage
-football,61840784,2026-05-16 15:30,FC Chernomorets Odessa,FC Livyi Bereh Kyiv,Ukraine - Persha Liga,Football,0,pending,not_good_competition_or_low_coverage
-football,62229194,2026-05-16 15:30,VV Gemert,Stedoco,Netherlands - Derde Divisie,Football,0,pending,not_good_competition_or_low_coverage
-football,62229200,2026-05-16 15:30,SV Meerssen,FC Rijnvogels,Netherlands - Derde Divisie,Football,0,pending,not_good_competition_or_low_coverage
-football,62229202,2026-05-16 15:30,SV Togb,Groene Ster,Netherlands - Derde Divisie,Football,0,pending,not_good_competition_or_low_coverage
-football,61967610,2026-05-16 15:30,ACV Assen,Koninklijke HFC,Netherlands - Tweede Divisie,Football,0,pending,not_good_competition_or_low_coverage
-football,61967614,2026-05-16 15:30,Excelsior Maassluis,Jong Almere City FC,Netherlands - Tweede Divisie,Football,0,pending,not_good_competition_or_low_coverage
-football,61967616,2026-05-16 15:30,Rkav Volendam,BVV Barendrecht,Netherlands - Tweede Divisie,Football,0,pending,not_good_competition_or_low_coverage
-football,61967618,2026-05-16 15:30,K.v.v. Quick Boys,IJsselmeervogels,Netherlands - Tweede Divisie,Football,0,pending,not_good_competition_or_low_coverage
+football,67920362,2026-05-16 15:00,FK Mandalskameratene,Vindbjart FK,Norway - 3rd Division Group 4,Football,0,pending,not_good_competition_or_low_coverage
+football,70224434,2026-05-16 15:00,FC Gagra,FC Rustavi,Georgia - Erovnuli Liga,Football,0,pending,not_good_competition_or_low_coverage
+football,71463588,2026-05-16 15:00,AS Monaco,Valenciennes FC,France - Championnat National U19,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,67473258,2026-05-16 15:00,Gamla Upsala SK,Linkopings FC,"Sweden Amateur - Elitettan, Women",Football,0,pending,not_good_competition_or_low_coverage
+football,67563292,2026-05-16 15:00,Scottland FC,ZPC Kariba,Zimbabwe - Premier Soccer League,Football,0,pending,not_good_competition_or_low_coverage
+football,71463590,2026-05-16 15:00,Paris Saint-Germain FC,FC Nantes,France - Championnat National U19,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,67915832,2026-05-16 15:00,FK Eik Toensberg 871,Mjoendalen IF,Norway - 2nd Division Group 1,Football,0,pending,not_good_competition_or_low_coverage
+football,69501860,2026-05-16 15:00,Riga Mariners,Valmiera FC,Latvia - 1.Liga,Football,0,pending,not_good_competition_or_low_coverage
+football,70905776,2026-05-16 15:00,FC CSKA 1948,PFC Ludogorets 1945 Razgrad,Bulgaria - Parva Liga,Football,0,pending,not_good_competition_or_low_coverage
+football,67915580,2026-05-16 15:00,Levanger FK,Trygg/Lade,Norway - 2nd Division Group 2,Football,0,pending,not_good_competition_or_low_coverage
+football,70905778,2026-05-16 15:00,PFC Levski Sofia,PFC CSKA Sofia,Bulgaria - Parva Liga,Football,0,pending,not_good_competition_or_low_coverage
+football,71340866,2026-05-16 15:00,Coastal Union FC,Singida Black Stars SC,Tanzania - Federation Cup,Football,0,pending,not_good_competition_or_low_coverage
+football,67473262,2026-05-16 15:00,Jitex Molndal BK,Trelleborgs FF,"Sweden Amateur - Elitettan, Women",Football,0,pending,not_good_competition_or_low_coverage
+football,68492522,2026-05-16 15:00,SK Super Nova,Ogre United,Latvia - Virsliga,Football,0,pending,not_good_competition_or_low_coverage
+football,67920600,2026-05-16 15:00,Lillestrom SK 2,Skedsmo,Norway - 3rd Division Group 5,Football,0,pending,not_good_competition_or_low_coverage
+football,69108996,2026-05-16 15:00,Huima/Urho,FC Vaajakoski,Finland - Kakkonen Playoffs,Football,0,pending,not_good_competition_or_low_coverage
+football,61541410,2026-05-16 15:00,SK Bischofshofen,FC Lauterach,Austria Amateur - Regionalliga West,Football,0,pending,not_good_competition_or_low_coverage
 football,61967620,2026-05-16 15:30,Hoek,Rijnsburgse Boys,Netherlands - Tweede Divisie,Football,0,pending,not_good_competition_or_low_coverage
-football,61967622,2026-05-16 15:30,HHC Hardenberg,Kozakken Boys Werkendam,Netherlands - Tweede Divisie,Football,0,pending,not_good_competition_or_low_coverage
+football,62229202,2026-05-16 15:30,SV Togb,Groene Ster,Netherlands - Derde Divisie,Football,0,pending,not_good_competition_or_low_coverage
+football,62229200,2026-05-16 15:30,SV Meerssen,FC Rijnvogels,Netherlands - Derde Divisie,Football,0,pending,not_good_competition_or_low_coverage
 football,61967626,2026-05-16 15:30,Jong Sparta Rotterdam,De Treffers Groesbeek,Netherlands - Tweede Divisie,Football,0,pending,not_good_competition_or_low_coverage
 football,62227492,2026-05-16 15:30,ADO 20 Heemskerk,VV Scherpenzeel,Netherlands - Derde Divisie,Football,0,pending,not_good_competition_or_low_coverage
 football,62227500,2026-05-16 15:30,USV Hercules,Harkemase Boys,Netherlands - Derde Divisie,Football,0,pending,not_good_competition_or_low_coverage
-football,63039299,2026-05-16 16:00,Kayserispor,Konyaspor,Turkiye Amateur - U19 Elit A,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,70023854,2026-05-16 16:00,KF Bashkimi Kumanovo 1947,FK Makedonija Gjorce Petrov,North Macedonia - 1. MFL,Football,0,pending,not_good_competition_or_low_coverage
-football,71243190,2026-05-16 16:00,Edinburgh City FC,Brora Rangers,Scotland - League 2,Football,0,pending,not_good_competition_or_low_coverage
-football,68377662,2026-05-16 16:00,Onsala BK,Hestrafors IF,"Sweden - Division 2, Promotion Playoffs",Football,0,pending,not_good_competition_or_low_coverage
-football,68954834,2026-05-16 16:00,FC Hegelmann Kaunas,FK Suduva Marijampole,Lithuania - A Lyga,Football,0,pending,not_good_competition_or_low_coverage
-football,71453378,2026-05-16 16:00,KF Tefik Canga,KF Kika,Kosovo - Liga e Pare,Football,0,pending,not_good_competition_or_low_coverage
-football,71439906,2026-05-16 16:00,Corluspor 1947,Malatya Yesilyurt Belediyespor,"Turkiye Amateur - 3. Lig, Playoffs",Football,0,pending,not_good_competition_or_low_coverage
-football,61467293,2026-05-16 16:00,MKS Chojniczanka Chojnice,Zaglebie Sosnowiec,Poland - II Liga,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,61737724,2026-05-16 16:00,CE Carroi,Inter Club de Escaldes,Andorra - Primera Divisio,Football,0,pending,not_good_competition_or_low_coverage
-football,61911542,2026-05-16 16:00,A-Xiii Auhof Center,WAF Vorwarts Brigittenau,"Austria Amateur - Wien, Wiener Stadtliga",Football,0,pending,not_good_competition_or_low_coverage
-football,61911546,2026-05-16 16:00,LAC Inter,Gerasd. Stammersd.,"Austria Amateur - Wien, Wiener Stadtliga",Football,0,pending,not_good_competition_or_low_coverage
-football,71466052,2026-05-16 16:00,Calcio Lecco 1912 U19,Pisa Calcio,Italy - Primavera 2,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,62229194,2026-05-16 15:30,VV Gemert,Stedoco,Netherlands - Derde Divisie,Football,0,pending,not_good_competition_or_low_coverage
+football,61967624,2026-05-16 15:30,SV Spakenburg,VV Katwijk,Netherlands - Tweede Divisie,Football,0,pending,not_good_competition_or_low_coverage
+football,61967622,2026-05-16 15:30,HHC Hardenberg,Kozakken Boys Werkendam,Netherlands - Tweede Divisie,Football,0,pending,not_good_competition_or_low_coverage
+football,61967618,2026-05-16 15:30,K.v.v. Quick Boys,IJsselmeervogels,Netherlands - Tweede Divisie,Football,0,pending,not_good_competition_or_low_coverage
+football,61967616,2026-05-16 15:30,Rkav Volendam,BVV Barendrecht,Netherlands - Tweede Divisie,Football,0,pending,not_good_competition_or_low_coverage
+football,61967614,2026-05-16 15:30,Excelsior Maassluis,Jong Almere City FC,Netherlands - Tweede Divisie,Football,0,pending,not_good_competition_or_low_coverage
+football,61967610,2026-05-16 15:30,ACV Assen,Koninklijke HFC,Netherlands - Tweede Divisie,Football,0,pending,not_good_competition_or_low_coverage
+football,61840784,2026-05-16 15:30,FC Chernomorets Odessa,FC Livyi Bereh Kyiv,Ukraine - Persha Liga,Football,0,pending,not_good_competition_or_low_coverage
+football,67017936,2026-05-16 16:00,Stroemsgodset IF,Ranheim,Norway - 1st Division,Football,0,pending,not_good_competition_or_low_coverage
+football,67017934,2026-05-16 16:00,Stabaek IF,Raufoss IL,Norway - 1st Division,Football,0,pending,not_good_competition_or_low_coverage
 football,61286593,2026-05-16 16:00,HNK Gorica,NK Osijek,Croatia - HNL,Football,0,pending,not_good_competition_or_low_coverage
-football,62274218,2026-05-16 16:00,SC Retz,SV Gloggnitz,Austria Amateur - Regionalliga Ost,Football,0,pending,not_good_competition_or_low_coverage
-football,66855362,2026-05-16 16:00,DLR Waves,Cork City Wfc,"Ireland - Premier Division, Women",Football,0,pending,not_good_competition_or_low_coverage
-football,66855364,2026-05-16 16:00,Waterford FC,Sligo Rovers,"Ireland - Premier Division, Women",Football,0,pending,not_good_competition_or_low_coverage
-football,66855368,2026-05-16 16:00,Shamrock Rovers FC,Bohemian FC,"Ireland - Premier Division, Women",Football,0,pending,not_good_competition_or_low_coverage
-football,67017924,2026-05-16 16:00,Bryne FK,Stroemmen IF,Norway - 1st Division,Football,0,pending,not_good_competition_or_low_coverage
+football,70023854,2026-05-16 16:00,KF Bashkimi Kumanovo 1947,FK Makedonija Gjorce Petrov,North Macedonia - 1. MFL,Football,0,pending,not_good_competition_or_low_coverage
+football,70698894,2026-05-16 16:00,KV Vesturbaer,Hottur/Huginn,Iceland - 3. deild,Football,0,pending,not_good_competition_or_low_coverage
 football,67017926,2026-05-16 16:00,FK Haugesund,Aasane Fotball,Norway - 1st Division,Football,0,pending,not_good_competition_or_low_coverage
 football,67017928,2026-05-16 16:00,Hoedd IL,Sogndal Fotball,Norway - 1st Division,Football,0,pending,not_good_competition_or_low_coverage
 football,67017930,2026-05-16 16:00,Lyn 1896 FK,Kongsvinger IL Toppfotball,Norway - 1st Division,Football,0,pending,not_good_competition_or_low_coverage
 football,67017932,2026-05-16 16:00,Odds BK,Moss FK,Norway - 1st Division,Football,0,pending,not_good_competition_or_low_coverage
-football,67017934,2026-05-16 16:00,Stabaek IF,Raufoss IL,Norway - 1st Division,Football,0,pending,not_good_competition_or_low_coverage
-football,67017936,2026-05-16 16:00,Stroemsgodset IF,Ranheim,Norway - 1st Division,Football,0,pending,not_good_competition_or_low_coverage
-football,67473260,2026-05-16 16:00,IFK Goteborg,Orebro SK Soder,"Sweden Amateur - Elitettan, Women",Football,0,pending,not_good_competition_or_low_coverage
-football,67915836,2026-05-16 16:00,Arendal FK,FK Jerv,Norway - 2nd Division Group 1,Football,0,pending,not_good_competition_or_low_coverage
+football,67017924,2026-05-16 16:00,Bryne FK,Stroemmen IF,Norway - 1st Division,Football,0,pending,not_good_competition_or_low_coverage
+football,70687992,2026-05-16 16:00,UMF Selfoss,Kormakur/Hvot,Iceland - 2. deild,Football,0,pending,not_good_competition_or_low_coverage
+football,66855364,2026-05-16 16:00,Waterford FC,Sligo Rovers,"Ireland - Premier Division, Women",Football,0,pending,not_good_competition_or_low_coverage
+football,66855368,2026-05-16 16:00,Shamrock Rovers FC,Bohemian FC,"Ireland - Premier Division, Women",Football,0,pending,not_good_competition_or_low_coverage
+football,68954834,2026-05-16 16:00,FC Hegelmann Kaunas,FK Suduva Marijampole,Lithuania - A Lyga,Football,0,pending,not_good_competition_or_low_coverage
+football,68377662,2026-05-16 16:00,Onsala BK,Hestrafors IF,"Sweden - Division 2, Promotion Playoffs",Football,0,pending,not_good_competition_or_low_coverage
+football,69109000,2026-05-16 16:00,Jakobstads Bollklubb,JS Hercules,Finland - Kakkonen Playoffs,Football,0,pending,not_good_competition_or_low_coverage
 football,68310894,2026-05-16 16:00,Hammarby Talang FF,FC Stockholm Internazionale,"Sweden - Ettan, Relegation/Promotion",Football,0,pending,not_good_competition_or_low_coverage
+football,66855362,2026-05-16 16:00,DLR Waves,Cork City Wfc,"Ireland - Premier Division, Women",Football,0,pending,not_good_competition_or_low_coverage
+football,62036278,2026-05-16 16:00,KSZO Ostrowiec Swietokrzyski,Sokol Kolbuszowa Dolna,"Poland - III Liga, Group 4",Football,0,pending,not_good_competition_or_low_coverage
 football,68320784,2026-05-16 16:00,Taby FK,Sunnersta AIF,"Sweden - Division 2, Promotion Playoffs",Football,0,pending,not_good_competition_or_low_coverage
 football,68320788,2026-05-16 16:00,IFK Lidingo FK,FC Gute,"Sweden - Division 2, Promotion Playoffs",Football,0,pending,not_good_competition_or_low_coverage
-football,69109000,2026-05-16 16:00,Jakobstads Bollklubb,JS Hercules,Finland - Kakkonen Playoffs,Football,0,pending,not_good_competition_or_low_coverage
-football,70698894,2026-05-16 16:00,KV Vesturbaer,Hottur/Huginn,Iceland - 3. deild,Football,0,pending,not_good_competition_or_low_coverage
-football,61737730,2026-05-16 16:00,FC Ordino,CF Esperanca D Andorra,Andorra - Primera Divisio,Football,0,pending,not_good_competition_or_low_coverage
-football,67802918,2026-05-16 16:00,Santa Clara SAD,Rio Ave FC,Portugal - U19 Campeonato Nacional,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,62274218,2026-05-16 16:00,SC Retz,SV Gloggnitz,Austria Amateur - Regionalliga Ost,Football,0,pending,not_good_competition_or_low_coverage
+football,61467293,2026-05-16 16:00,MKS Chojniczanka Chojnice,Zaglebie Sosnowiec,Poland - II Liga,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
 football,70698900,2026-05-16 16:00,Reynir Sandgerdi,KF Fjallabyggd,Iceland - 3. deild,Football,0,pending,not_good_competition_or_low_coverage
-football,70687992,2026-05-16 16:00,UMF Selfoss,Kormakur/Hvot,Iceland - 2. deild,Football,0,pending,not_good_competition_or_low_coverage
-football,62036278,2026-05-16 16:00,KSZO Ostrowiec Swietokrzyski,Sokol Kolbuszowa Dolna,"Poland - III Liga, Group 4",Football,0,pending,not_good_competition_or_low_coverage
-football,71491072,2026-05-16 16:10,AL Ittihad Kalba,AL Wasl,United Arab Emirates - U23 Pro League,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,61911546,2026-05-16 16:00,LAC Inter,Gerasd. Stammersd.,"Austria Amateur - Wien, Wiener Stadtliga",Football,0,pending,not_good_competition_or_low_coverage
+football,61911542,2026-05-16 16:00,A-Xiii Auhof Center,WAF Vorwarts Brigittenau,"Austria Amateur - Wien, Wiener Stadtliga",Football,0,pending,not_good_competition_or_low_coverage
+football,61737730,2026-05-16 16:00,FC Ordino,CF Esperanca D Andorra,Andorra - Primera Divisio,Football,0,pending,not_good_competition_or_low_coverage
+football,61737724,2026-05-16 16:00,CE Carroi,Inter Club de Escaldes,Andorra - Primera Divisio,Football,0,pending,not_good_competition_or_low_coverage
 football,71312958,2026-05-16 16:10,Maccabi Petah Tikva,Maccabi Netanya,Israel - U19 Premier League,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,71491072,2026-05-16 16:10,AL Ittihad Kalba,AL Wasl,United Arab Emirates - U23 Pro League,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
 football,71312950,2026-05-16 16:15,Hapoel Tel Aviv,Maccabi Haifa,Israel - U19 Premier League,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
 football,67993576,2026-05-16 16:30,B36 Torshavn II,EB/Streymur II,Faroe Islands - 1st deild,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,71339476,2026-05-16 16:30,Zakho FC,AL Najaf,Iraq - Iraqi League,Football,0,pending,not_good_competition_or_low_coverage
 football,71415792,2026-05-16 16:30,Primeiro de Agosto,Kabuscorp SCP,Angola - Girabola,Football,0,pending,not_good_competition_or_low_coverage
-football,70469892,2026-05-16 16:30,FC Twente Enschede,PSV Eindhoven,"Netherlands - KNVB beker, Women",Football,0,pending,not_good_competition_or_low_coverage
+football,71339476,2026-05-16 16:30,Zakho FC,AL Najaf,Iraq - Iraqi League,Football,0,pending,not_good_competition_or_low_coverage
 football,71495160,2026-05-16 16:30,FC Dordoi Bishkek,FC Ozgon,Kyrgyzstan - Top League,Football,0,pending,not_good_competition_or_low_coverage
-football,71459876,2026-05-16 17:00,CA Boston River,CA Cerro,Uruguay - Primera Division,Football,0,pending,not_good_competition_or_low_coverage
-football,71341574,2026-05-16 17:00,FC Kolkheti-1913 Poti,FC Gareji Sagarejo,Georgia - Erovnuli Liga 2,Football,0,pending,not_good_competition_or_low_coverage
-football,71186818,2026-05-16 17:00,APOEL Nikosia,AC Omonia Nicosia,Cyprus - 1st Division,Football,0,pending,not_good_competition_or_low_coverage
-football,71186820,2026-05-16 17:00,AEK Larnaca,Pafos FC,Cyprus - 1st Division,Football,0,pending,not_good_competition_or_low_coverage
-football,71186822,2026-05-16 17:00,Apollon Limassol,Aris Limassol FC,Cyprus - 1st Division,Football,0,pending,not_good_competition_or_low_coverage
-football,71485706,2026-05-16 17:00,AC Virtus,SP La Fiorita,San Marino - Campionato Sammarinese,Football,0,pending,not_good_competition_or_low_coverage
-football,71453182,2026-05-16 17:00,Club America,Guadalajara,Mexico - U21 Liga MX,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,61894052,2026-05-16 17:00,FC Deutschkreutz,ASK Horitschon/U,"Austria Amateur - Burgenland, Burgenlandliga",Football,0,pending,not_good_competition_or_low_coverage
-football,61902048,2026-05-16 17:00,SV Tillmitsch,FC Schladming,"Austria Amateur - Steiermark, Landesliga",Football,0,pending,not_good_competition_or_low_coverage
-football,61940948,2026-05-16 17:00,MSK Namestovo,MFK Dukla Banska Bystrica B,Slovakia - 3. Liga,Football,0,pending,not_good_competition_or_low_coverage
-football,62036286,2026-05-16 17:00,Siarka Tarnobrzeg,Wisla II Krakow,"Poland - III Liga, Group 4",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,62036288,2026-05-16 17:00,KS Wisloka Debica,Wislanie Skawina,"Poland - III Liga, Group 4",Football,0,pending,not_good_competition_or_low_coverage
-football,71238548,2026-05-16 17:00,FK Romanija Pale,FK Zvijezda 09,"Bosnia & Herzegovina - Prva Liga, Rep of Srpska",Football,0,pending,not_good_competition_or_low_coverage
-football,62091692,2026-05-16 17:00,FK Pribram,1.SK Prostejov,Czechia - FNL,Football,0,pending,not_good_competition_or_low_coverage
-football,62274216,2026-05-16 17:00,SC Wiener Viktoria,FC Marchfeld Donauauen,Austria Amateur - Regionalliga Ost,Football,0,pending,not_good_competition_or_low_coverage
-football,71186482,2026-05-16 17:00,Rachad Bernoussi,FUS Rabat,Morocco - Coupe du Trone,Football,0,pending,not_good_competition_or_low_coverage
-football,71180484,2026-05-16 17:00,Sporting Cristal,FC Killas,Peru - Liga Femenina,Football,0,pending,not_good_competition_or_low_coverage
-football,63534047,2026-05-16 17:00,NK Bratstvo Gracanica,FK Buducnost Banovici,"Bosnia & Herzegovina - Prva Liga, Fed BiH",Football,0,pending,not_good_competition_or_low_coverage
-football,63534055,2026-05-16 17:00,FK Tuzla City,NK Celik Zenica,"Bosnia & Herzegovina - Prva Liga, Fed BiH",Football,0,pending,not_good_competition_or_low_coverage
-football,63534057,2026-05-16 17:00,FK Radnik Hadzici,FK Igman Konjic,"Bosnia & Herzegovina - Prva Liga, Fed BiH",Football,0,pending,not_good_competition_or_low_coverage
-football,62036272,2026-05-16 17:00,Avia Swidnik,Korona II Kielce SA,"Poland - III Liga, Group 4",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,66606304,2026-05-16 17:00,FK Seko Louny,Tempo Prague,Czechia - Divize B,Football,0,pending,not_good_competition_or_low_coverage
-football,66606550,2026-05-16 17:00,FK Nachod,FK Dobrovice,Czechia - Divize C,Football,0,pending,not_good_competition_or_low_coverage
-football,71482828,2026-05-16 17:00,UD Santa Marta,CD Guijuelo,"Spain Amateur - Tercera Federacion, Group 8",Football,0,pending,not_good_competition_or_low_coverage
-football,66855366,2026-05-16 17:00,Shelbourne LFC,Galway United Wfc,"Ireland - Premier Division, Women",Football,0,pending,not_good_competition_or_low_coverage
-football,61326639,2026-05-16 17:00,SK Dynamo Ceske Budejovice,MFK Chrudim,Czechia - FNL,Football,0,pending,not_good_competition_or_low_coverage
-football,61326643,2026-05-16 17:00,FC Silon Taborsko,SFC Opava,Czechia - FNL,Football,0,pending,not_good_competition_or_low_coverage
-football,61326645,2026-05-16 17:00,SK Artis Brno,FK Viktoria Zizkov,Czechia - FNL,Football,0,pending,not_good_competition_or_low_coverage
-football,61326647,2026-05-16 17:00,Sparta Prague B,FC Vysocina Jihlava,Czechia - FNL,Football,0,pending,not_good_competition_or_low_coverage
-football,61326649,2026-05-16 17:00,SK Hanacka Slavia Kromeriz,FC Zbrojovka Brno,Czechia - FNL,Football,0,pending,not_good_competition_or_low_coverage
-football,61326651,2026-05-16 17:00,FK Usti nad Labem,SK Slavia Prague B,Czechia - FNL,Football,0,pending,not_good_competition_or_low_coverage
+football,70469892,2026-05-16 16:30,FC Twente Enschede,PSV Eindhoven,"Netherlands - KNVB beker, Women",Football,0,pending,not_good_competition_or_low_coverage
+football,67802918,2026-05-16 17:00,Santa Clara SAD,Rio Ave FC,Portugal - U19 Campeonato Nacional,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
 football,61326653,2026-05-16 17:00,FC Vlasim,FC Banik Ostrava B,Czechia - FNL,Football,0,pending,not_good_competition_or_low_coverage
 football,61541424,2026-05-16 17:00,VfB Hohenems,SV Wals-Grunau,Austria Amateur - Regionalliga West,Football,0,pending,not_good_competition_or_low_coverage
-football,67915582,2026-05-16 17:00,Rana FK,IK Junkeren,Norway - 2nd Division Group 2,Football,0,pending,not_good_competition_or_low_coverage
-football,69501864,2026-05-16 17:00,FK Metta / Lu,JDFS Alberts,Latvia - 1.Liga,Football,0,pending,not_good_competition_or_low_coverage
+football,71453182,2026-05-16 17:00,Club America,Guadalajara,Mexico - U21 Liga MX,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,71459876,2026-05-16 17:00,CA Boston River,CA Cerro,Uruguay - Primera Division,Football,0,pending,not_good_competition_or_low_coverage
+football,61326651,2026-05-16 17:00,FK Usti nad Labem,SK Slavia Prague B,Czechia - FNL,Football,0,pending,not_good_competition_or_low_coverage
+football,62274216,2026-05-16 17:00,SC Wiener Viktoria,FC Marchfeld Donauauen,Austria Amateur - Regionalliga Ost,Football,0,pending,not_good_competition_or_low_coverage
 football,70224428,2026-05-16 17:00,FC Dinamo Tbilisi,FC Iberia 1999,Georgia - Erovnuli Liga,Football,0,pending,not_good_competition_or_low_coverage
+football,61326649,2026-05-16 17:00,SK Hanacka Slavia Kromeriz,FC Zbrojovka Brno,Czechia - FNL,Football,0,pending,not_good_competition_or_low_coverage
+football,71186822,2026-05-16 17:00,Apollon Limassol,Aris Limassol FC,Cyprus - 1st Division,Football,0,pending,not_good_competition_or_low_coverage
+football,61326647,2026-05-16 17:00,Sparta Prague B,FC Vysocina Jihlava,Czechia - FNL,Football,0,pending,not_good_competition_or_low_coverage
+football,69501864,2026-05-16 17:00,FK Metta / Lu,JDFS Alberts,Latvia - 1.Liga,Football,0,pending,not_good_competition_or_low_coverage
+football,71238548,2026-05-16 17:00,FK Romanija Pale,FK Zvijezda 09,"Bosnia & Herzegovina - Prva Liga, Rep of Srpska",Football,0,pending,not_good_competition_or_low_coverage
+football,71341574,2026-05-16 17:00,FC Kolkheti-1913 Poti,FC Gareji Sagarejo,Georgia - Erovnuli Liga 2,Football,0,pending,not_good_competition_or_low_coverage
+football,71180484,2026-05-16 17:00,Sporting Cristal,FC Killas,Peru - Liga Femenina,Football,0,pending,not_good_competition_or_low_coverage
+football,71485706,2026-05-16 17:00,AC Virtus,SP La Fiorita,San Marino - Campionato Sammarinese,Football,0,pending,not_good_competition_or_low_coverage
+football,61326645,2026-05-16 17:00,SK Artis Brno,FK Viktoria Zizkov,Czechia - FNL,Football,0,pending,not_good_competition_or_low_coverage
 football,62037512,2026-05-16 17:00,WDA Swiecie,Gzs Tluchovia Tluchowo,"Poland - III Liga, Group 2",Football,0,pending,not_good_competition_or_low_coverage
-football,61272933,2026-05-16 17:15,Kisvarda FC,WKW ETO FC Gyor,Hungary - NB I,Football,0,pending,not_good_competition_or_low_coverage
-football,61272927,2026-05-16 17:15,Debreceni VSC,Ujpest FC Budapest,Hungary - NB I,Football,0,pending,not_good_competition_or_low_coverage
+football,62036288,2026-05-16 17:00,KS Wisloka Debica,Wislanie Skawina,"Poland - III Liga, Group 4",Football,0,pending,not_good_competition_or_low_coverage
+football,62036286,2026-05-16 17:00,Siarka Tarnobrzeg,Wisla II Krakow,"Poland - III Liga, Group 4",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,62036272,2026-05-16 17:00,Avia Swidnik,Korona II Kielce SA,"Poland - III Liga, Group 4",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,61326643,2026-05-16 17:00,FC Silon Taborsko,SFC Opava,Czechia - FNL,Football,0,pending,not_good_competition_or_low_coverage
+football,67915582,2026-05-16 17:00,Rana FK,IK Junkeren,Norway - 2nd Division Group 2,Football,0,pending,not_good_competition_or_low_coverage
+football,66855366,2026-05-16 17:00,Shelbourne LFC,Galway United Wfc,"Ireland - Premier Division, Women",Football,0,pending,not_good_competition_or_low_coverage
+football,71186820,2026-05-16 17:00,AEK Larnaca,Pafos FC,Cyprus - 1st Division,Football,0,pending,not_good_competition_or_low_coverage
+football,66606550,2026-05-16 17:00,FK Nachod,FK Dobrovice,Czechia - Divize C,Football,0,pending,not_good_competition_or_low_coverage
+football,66606304,2026-05-16 17:00,FK Seko Louny,Tempo Prague,Czechia - Divize B,Football,0,pending,not_good_competition_or_low_coverage
+football,61940948,2026-05-16 17:00,MSK Namestovo,MFK Dukla Banska Bystrica B,Slovakia - 3. Liga,Football,0,pending,not_good_competition_or_low_coverage
+football,61326639,2026-05-16 17:00,SK Dynamo Ceske Budejovice,MFK Chrudim,Czechia - FNL,Football,0,pending,not_good_competition_or_low_coverage
+football,71482828,2026-05-16 17:00,UD Santa Marta,CD Guijuelo,"Spain Amateur - Tercera Federacion, Group 8",Football,0,pending,not_good_competition_or_low_coverage
+football,61902048,2026-05-16 17:00,SV Tillmitsch,FC Schladming,"Austria Amateur - Steiermark, Landesliga",Football,0,pending,not_good_competition_or_low_coverage
+football,63534057,2026-05-16 17:00,FK Radnik Hadzici,FK Igman Konjic,"Bosnia & Herzegovina - Prva Liga, Fed BiH",Football,0,pending,not_good_competition_or_low_coverage
+football,63534055,2026-05-16 17:00,FK Tuzla City,NK Celik Zenica,"Bosnia & Herzegovina - Prva Liga, Fed BiH",Football,0,pending,not_good_competition_or_low_coverage
+football,71186482,2026-05-16 17:00,Rachad Bernoussi,FUS Rabat,Morocco - Coupe du Trone,Football,0,pending,not_good_competition_or_low_coverage
+football,63534047,2026-05-16 17:00,NK Bratstvo Gracanica,FK Buducnost Banovici,"Bosnia & Herzegovina - Prva Liga, Fed BiH",Football,0,pending,not_good_competition_or_low_coverage
+football,61894052,2026-05-16 17:00,FC Deutschkreutz,ASK Horitschon/U,"Austria Amateur - Burgenland, Burgenlandliga",Football,0,pending,not_good_competition_or_low_coverage
+football,62091692,2026-05-16 17:00,FK Pribram,1.SK Prostejov,Czechia - FNL,Football,0,pending,not_good_competition_or_low_coverage
+football,71186818,2026-05-16 17:00,APOEL Nikosia,AC Omonia Nicosia,Cyprus - 1st Division,Football,0,pending,not_good_competition_or_low_coverage
 football,61272925,2026-05-16 17:15,Diosgyori VTK,Paksi FC,Hungary - NB I,Football,0,pending,not_good_competition_or_low_coverage
+football,61272933,2026-05-16 17:15,Kisvarda FC,WKW ETO FC Gyor,Hungary - NB I,Football,0,pending,not_good_competition_or_low_coverage
 football,61272929,2026-05-16 17:15,Ferencvarosi Budapest,Zalaegerszeg TE,Hungary - NB I,Football,0,pending,not_good_competition_or_low_coverage
+football,61272927,2026-05-16 17:15,Debreceni VSC,Ujpest FC Budapest,Hungary - NB I,Football,0,pending,not_good_competition_or_low_coverage
+football,68954838,2026-05-16 17:30,Dziugas,FK Banga Gargzdai,Lithuania - A Lyga,Football,0,pending,not_good_competition_or_low_coverage
+football,68538252,2026-05-16 17:30,JJK Jyvaskyla,SalPa,Finland - Ykkonen,Football,0,pending,not_good_competition_or_low_coverage
+football,61711846,2026-05-16 17:30,Vevey-Sports,FC Bulle,Switzerland - Promotion League,Football,0,pending,not_good_competition_or_low_coverage
 football,71468308,2026-05-16 17:30,Shabab Al Ahli Dubai,AL Bataeh (UAE),United Arab Emirates - Arabian Gulf League,Football,0,pending,not_good_competition_or_low_coverage
-football,71468310,2026-05-16 17:30,Al Dhafra SSC,Al Wahda FC (UAE),United Arab Emirates - Arabian Gulf League,Football,0,pending,not_good_competition_or_low_coverage
-football,71468312,2026-05-16 17:30,Al Ain FC,Dibba Al Fujairah,United Arab Emirates - Arabian Gulf League,Football,0,pending,not_good_competition_or_low_coverage
-football,71468314,2026-05-16 17:30,Al Jazira (UAE),Baniyas Club,United Arab Emirates - Arabian Gulf League,Football,0,pending,not_good_competition_or_low_coverage
-football,71482442,2026-05-16 17:30,Touring KE,SD Leioa,"Spain Amateur - Tercera Federacion, Group 4",Football,0,pending,not_good_competition_or_low_coverage
-football,61062321,2026-05-16 17:30,Wisla Plock,Gornik Zabrze,Poland - Ekstraklasa,Football,0,pending,not_good_competition_or_low_coverage
-football,71183104,2026-05-16 17:30,NK Solin,NK Segesta,Croatia - Druga NL,Football,0,pending,not_good_competition_or_low_coverage
-football,71183106,2026-05-16 17:30,NK Dugo Selo,NK Grobnican,Croatia - Druga NL,Football,0,pending,not_good_competition_or_low_coverage
-football,71183110,2026-05-16 17:30,NK Uljanik,NK Uskok,Croatia - Druga NL,Football,0,pending,not_good_competition_or_low_coverage
-football,61454189,2026-05-16 17:30,NK Celje,FC Koper,Slovenia - PrvaLiga,Football,0,pending,not_good_competition_or_low_coverage
 football,69972720,2026-05-16 17:30,NK BSK Bijelo Brdo,NK Hrvace,Croatia - Prva NL,Football,0,pending,not_good_competition_or_low_coverage
 football,69972724,2026-05-16 17:30,Orijent 1919 Rijeka,NK Karlovac 1919,Croatia - Prva NL,Football,0,pending,not_good_competition_or_low_coverage
-football,61711846,2026-05-16 17:30,Vevey-Sports,FC Bulle,Switzerland - Promotion League,Football,0,pending,not_good_competition_or_low_coverage
-football,68538252,2026-05-16 17:30,JJK Jyvaskyla,SalPa,Finland - Ykkonen,Football,0,pending,not_good_competition_or_low_coverage
-football,68954838,2026-05-16 17:30,Dziugas,FK Banga Gargzdai,Lithuania - A Lyga,Football,0,pending,not_good_competition_or_low_coverage
-football,61737328,2026-05-16 18:00,FK Sarajevo,NK Siroki Brijeg,Bosnia & Herzegovina - Premijer Liga,Football,0,pending,not_good_competition_or_low_coverage
-football,61737330,2026-05-16 18:00,FK Borac Banja Luka,FK Zeljeznicar Sarajevo,Bosnia & Herzegovina - Premijer Liga,Football,0,pending,not_good_competition_or_low_coverage
-football,61737332,2026-05-16 18:00,FK Sloga Doboj,FK Radnik Bijeljina,Bosnia & Herzegovina - Premijer Liga,Football,0,pending,not_good_competition_or_low_coverage
-football,61737334,2026-05-16 18:00,HSK Zrinjski Mostar,HSK Posusje,Bosnia & Herzegovina - Premijer Liga,Football,0,pending,not_good_competition_or_low_coverage
-football,61737336,2026-05-16 18:00,FK Velez Mostar,FK Rudar Prijedor,Bosnia & Herzegovina - Premijer Liga,Football,0,pending,not_good_competition_or_low_coverage
-football,70688124,2026-05-16 18:00,KFG Gardabaer,IF Magni Grenivik,Iceland - 2. deild,Football,0,pending,not_good_competition_or_low_coverage
-football,71304054,2026-05-16 18:00,FC Gori,Aragvi Dusheti,Georgia - Erovnuli Liga 2,Football,0,pending,not_good_competition_or_low_coverage
-football,71483752,2026-05-16 18:00,AD San Juan Pamplona,CD Pamplona,"Spain Amateur - Tercera Federacion, Group 15",Football,0,pending,not_good_competition_or_low_coverage
-football,71483864,2026-05-16 18:00,CF Epila,CF Atletico de Monzon,"Spain Amateur - Tercera Federacion, Group 17",Football,0,pending,not_good_competition_or_low_coverage
-football,71486662,2026-05-16 18:00,Ramtha SC,Al Hussein Irbid,Jordan - Jordan Cup,Football,0,pending,not_good_competition_or_low_coverage
+football,71183104,2026-05-16 17:30,NK Solin,NK Segesta,Croatia - Druga NL,Football,0,pending,not_good_competition_or_low_coverage
+football,71183106,2026-05-16 17:30,NK Dugo Selo,NK Grobnican,Croatia - Druga NL,Football,0,pending,not_good_competition_or_low_coverage
+football,71482442,2026-05-16 17:30,Touring KE,SD Leioa,"Spain Amateur - Tercera Federacion, Group 4",Football,0,pending,not_good_competition_or_low_coverage
+football,71183110,2026-05-16 17:30,NK Uljanik,NK Uskok,Croatia - Druga NL,Football,0,pending,not_good_competition_or_low_coverage
+football,61454189,2026-05-16 17:30,NK Celje,FC Koper,Slovenia - PrvaLiga,Football,0,pending,not_good_competition_or_low_coverage
+football,61062321,2026-05-16 17:30,Wisla Plock,Gornik Zabrze,Poland - Ekstraklasa,Football,0,pending,not_good_competition_or_low_coverage
+football,62284594,2026-05-16 18:00,FSV Schoningen 2011,1. FC Phonix Lubeck,Germany Amateur - Regionalliga North,Football,0,pending,not_good_competition_or_low_coverage
 football,61467285,2026-05-16 18:00,Podbeskidzie Bielsko-Biała,Sokol Kleczew,Poland - II Liga,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,71243528,2026-05-16 18:00,Ireland,Grenada,International - Int. Friendly Games,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,62037498,2026-05-16 18:00,Cartusia Kartuzy,Pogon Nowe Skalmierzyce,"Poland - III Liga, Group 2",Football,0,pending,not_good_competition_or_low_coverage
-football,70906730,2026-05-16 18:00,FC Arda Kardzhali,PFC Lokomotiv Plovdiv,Bulgaria - Parva Liga,Football,0,pending,not_good_competition_or_low_coverage
-football,70906732,2026-05-16 18:00,Botev Plovdiv,PFC Cherno More Varna,Bulgaria - Parva Liga,Football,0,pending,not_good_competition_or_low_coverage
+football,71304054,2026-05-16 18:00,FC Gori,Aragvi Dusheti,Georgia - Erovnuli Liga 2,Football,0,pending,not_good_competition_or_low_coverage
 football,62214004,2026-05-16 18:00,Les Herbiers,Voltigeurs de Chateaubriant,France - National 2,Football,0,pending,not_good_competition_or_low_coverage
 football,62214008,2026-05-16 18:00,Dinan-Lehon FC,Angouleme Charente FC,France - National 2,Football,0,pending,not_good_competition_or_low_coverage
 football,62214026,2026-05-16 18:00,FC De Montlouis,US Saint-Malo,France - National 2,Football,0,pending,not_good_competition_or_low_coverage
@@ -274,6 +141,7 @@ football,62214274,2026-05-16 18:00,Colmar,Wasquehal Football,France - National 2
 football,62214276,2026-05-16 18:00,Entente Feignies Aulnoye,FCSR Haguenau,France - National 2,Football,0,pending,not_good_competition_or_low_coverage
 football,62214280,2026-05-16 18:00,AS Beauvais Oise,Biesheim ASC,France - National 2,Football,0,pending,not_good_competition_or_low_coverage
 football,62214756,2026-05-16 18:00,FC Limonest Dardilly Saint-Didier,Nimes Olympique,France - National 2,Football,0,pending,not_good_competition_or_low_coverage
+football,62214758,2026-05-16 18:00,Andrezieux-Boutheon FC,FC Rousset Svo,France - National 2,Football,0,pending,not_good_competition_or_low_coverage
 football,62214760,2026-05-16 18:00,AS Cannes,Lusitanos Saint-Maur,France - National 2,Football,0,pending,not_good_competition_or_low_coverage
 football,62216098,2026-05-16 18:00,FC Solothurn,BSC Old Boys,Switzerland - Erste Liga,Football,0,pending,not_good_competition_or_low_coverage
 football,62284584,2026-05-16 18:00,VfB Oldenburg,SV Werder Bremen II,Germany Amateur - Regionalliga North,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
@@ -281,127 +149,153 @@ football,62284586,2026-05-16 18:00,Hannover 96 II,Bremer SV 1906,Germany Amateur
 football,62284588,2026-05-16 18:00,VfB Lubeck,SC Weiche Flensburg 08,Germany Amateur - Regionalliga North,Football,0,pending,not_good_competition_or_low_coverage
 football,62284590,2026-05-16 18:00,Eintracht Norderstedt,HSC Hannover,Germany Amateur - Regionalliga North,Football,0,pending,not_good_competition_or_low_coverage
 football,62284592,2026-05-16 18:00,Hamburger SV II,Blau-Weiss Lohne,Germany Amateur - Regionalliga North,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,62284594,2026-05-16 18:00,FSV Schoningen 2011,1. FC Phonix Lubeck,Germany Amateur - Regionalliga North,Football,0,pending,not_good_competition_or_low_coverage
 football,62284596,2026-05-16 18:00,SV Meppen 1912,FC St. Pauli II,Germany Amateur - Regionalliga North,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
 football,62284598,2026-05-16 18:00,Altona 93,Kickers Emden,Germany Amateur - Regionalliga North,Football,0,pending,not_good_competition_or_low_coverage
+football,61737336,2026-05-16 18:00,FK Velez Mostar,FK Rudar Prijedor,Bosnia & Herzegovina - Premijer Liga,Football,0,pending,not_good_competition_or_low_coverage
+football,71243528,2026-05-16 18:00,Ireland,Grenada,International - Int. Friendly Games,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,70906732,2026-05-16 18:00,Botev Plovdiv,PFC Cherno More Varna,Bulgaria - Parva Liga,Football,0,pending,not_good_competition_or_low_coverage
+football,70906730,2026-05-16 18:00,FC Arda Kardzhali,PFC Lokomotiv Plovdiv,Bulgaria - Parva Liga,Football,0,pending,not_good_competition_or_low_coverage
+football,61737330,2026-05-16 18:00,FK Borac Banja Luka,FK Zeljeznicar Sarajevo,Bosnia & Herzegovina - Premijer Liga,Football,0,pending,not_good_competition_or_low_coverage
+football,61737328,2026-05-16 18:00,FK Sarajevo,NK Siroki Brijeg,Bosnia & Herzegovina - Premijer Liga,Football,0,pending,not_good_competition_or_low_coverage
+football,61737332,2026-05-16 18:00,FK Sloga Doboj,FK Radnik Bijeljina,Bosnia & Herzegovina - Premijer Liga,Football,0,pending,not_good_competition_or_low_coverage
+football,61737334,2026-05-16 18:00,HSK Zrinjski Mostar,HSK Posusje,Bosnia & Herzegovina - Premijer Liga,Football,0,pending,not_good_competition_or_low_coverage
+football,70687994,2026-05-16 18:00,Vikingur Olafsvik,Dalvik Reynir,Iceland - 2. deild,Football,0,pending,not_good_competition_or_low_coverage
+football,62037498,2026-05-16 18:00,Cartusia Kartuzy,Pogon Nowe Skalmierzyce,"Poland - III Liga, Group 2",Football,0,pending,not_good_competition_or_low_coverage
 football,67802924,2026-05-16 18:00,Uniao de Leiria,Gil Vicente,Portugal - U19 Campeonato Nacional,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
 football,67915840,2026-05-16 18:00,Pors Grenland,Notodden FK,Norway - 2nd Division Group 1,Football,0,pending,not_good_competition_or_low_coverage
 football,68492524,2026-05-16 18:00,Riga FC,FS Jelgava,Latvia - Virsliga,Football,0,pending,not_good_competition_or_low_coverage
-football,70687994,2026-05-16 18:00,Vikingur Olafsvik,Dalvik Reynir,Iceland - 2. deild,Football,0,pending,not_good_competition_or_low_coverage
+football,70688124,2026-05-16 18:00,KFG Gardabaer,IF Magni Grenivik,Iceland - 2. deild,Football,0,pending,not_good_competition_or_low_coverage
+football,71483752,2026-05-16 18:00,AD San Juan Pamplona,CD Pamplona,"Spain Amateur - Tercera Federacion, Group 15",Football,0,pending,not_good_competition_or_low_coverage
+football,71483864,2026-05-16 18:00,CF Epila,CF Atletico de Monzon,"Spain Amateur - Tercera Federacion, Group 17",Football,0,pending,not_good_competition_or_low_coverage
+football,71486662,2026-05-16 18:00,Ramtha SC,Al Hussein Irbid,Jordan - Jordan Cup,Football,0,pending,not_good_competition_or_low_coverage
 football,61286599,2026-05-16 18:15,NK Lokomotiva Zagreb,HNK Hajduk Split,Croatia - HNL,Football,0,pending,not_good_competition_or_low_coverage
-football,71454046,2026-05-16 18:30,Racing Club Villalbes,SD Compostela,"Spain Amateur - Tercera Federacion, Group 1",Football,0,pending,not_good_competition_or_low_coverage
+football,68097902,2026-05-16 18:30,Deportes Magallanes,Deportes Recoleta,Chile - Primera B,Football,0,pending,not_good_competition_or_low_coverage
 football,71454050,2026-05-16 18:30,CD Estradense,CA Arteixo,"Spain Amateur - Tercera Federacion, Group 1",Football,0,pending,not_good_competition_or_low_coverage
 football,71501324,2026-05-16 18:30,Gambia Ports Authority,Hart FC,Gambia - Division One,Football,0,pending,not_good_competition_or_low_coverage
-football,68097902,2026-05-16 18:30,Deportes Magallanes,Deportes Recoleta,Chile - Primera B,Football,0,pending,not_good_competition_or_low_coverage
-football,62216472,2026-05-16 19:00,FC Prishtina Bern,Lancy FC,Switzerland - Erste Liga,Football,0,pending,not_good_competition_or_low_coverage
+football,71454046,2026-05-16 18:30,Racing Club Villalbes,SD Compostela,"Spain Amateur - Tercera Federacion, Group 1",Football,0,pending,not_good_competition_or_low_coverage
+football,70224426,2026-05-16 19:00,FC Dinamo Batumi,FC Meshakhte Tkibuli,Georgia - Erovnuli Liga,Football,0,pending,not_good_competition_or_low_coverage
 football,66855370,2026-05-16 19:00,Wexford Youths AFC,Peamount United Dublin,"Ireland - Premier Division, Women",Football,0,pending,not_good_competition_or_low_coverage
 football,66855372,2026-05-16 19:00,Athlone Town FC,Treaty United,"Ireland - Premier Division, Women",Football,0,pending,not_good_competition_or_low_coverage
-football,69501866,2026-05-16 19:00,FK Rfs II,Leevon Ppk,Latvia - 1.Liga,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,70224426,2026-05-16 19:00,FC Dinamo Batumi,FC Meshakhte Tkibuli,Georgia - Erovnuli Liga,Football,0,pending,not_good_competition_or_low_coverage
-football,71339478,2026-05-16 19:00,Erbil SC,Newroz SC,Iraq - Iraqi League,Football,0,pending,not_good_competition_or_low_coverage
-football,70855838,2026-05-16 19:00,SC Kalsdorf,Wohnbau Dietach,Austria Amateur - Regionalliga Centre,Football,0,pending,not_good_competition_or_low_coverage
-football,71303960,2026-05-16 19:00,Sioni Bolnisi,Odishi,Georgia - Erovnuli Liga 2,Football,0,pending,not_good_competition_or_low_coverage
-football,71424670,2026-05-16 19:00,Vllaznia Shkoder,FC Dinamo City,Albania - Kategoria Superiore,Football,0,pending,not_good_competition_or_low_coverage
-football,71478552,2026-05-16 19:00,Sportivo Luqueno,Rubio Nu,"Paraguay - Camopeonato Femenino, Women",Football,0,pending,not_good_competition_or_low_coverage
 football,70698898,2026-05-16 19:00,UMF Tindastoll,Arbaer,Iceland - 3. deild,Football,0,pending,not_good_competition_or_low_coverage
+football,69501866,2026-05-16 19:00,FK Rfs II,Leevon Ppk,Latvia - 1.Liga,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,71339478,2026-05-16 19:00,Erbil SC,Newroz SC,Iraq - Iraqi League,Football,0,pending,not_good_competition_or_low_coverage
+football,71478552,2026-05-16 19:00,Sportivo Luqueno,Rubio Nu,"Paraguay - Camopeonato Femenino, Women",Football,0,pending,not_good_competition_or_low_coverage
+football,71424670,2026-05-16 19:00,Vllaznia Shkoder,FC Dinamo City,Albania - Kategoria Superiore,Football,0,pending,not_good_competition_or_low_coverage
+football,70855838,2026-05-16 19:00,SC Kalsdorf,Wohnbau Dietach,Austria Amateur - Regionalliga Centre,Football,0,pending,not_good_competition_or_low_coverage
+football,62216472,2026-05-16 19:00,FC Prishtina Bern,Lancy FC,Switzerland - Erste Liga,Football,0,pending,not_good_competition_or_low_coverage
+football,71303960,2026-05-16 19:00,Sioni Bolnisi,Odishi,Georgia - Erovnuli Liga 2,Football,0,pending,not_good_competition_or_low_coverage
 football,62038116,2026-05-16 19:26,LKS 1926 Lomza,GKS Belchatow,"Poland - III Liga, Group 1",Football,0,pending,not_good_competition_or_low_coverage
-football,63004419,2026-05-16 19:30,Chrobry Glogow,MKS Znicz Pruszkow,Poland - I Liga,Football,0,pending,not_good_competition_or_low_coverage
-football,63004423,2026-05-16 19:30,Gornik Leczna,Odra Opole,Poland - I Liga,Football,0,pending,not_good_competition_or_low_coverage
-football,63004429,2026-05-16 19:30,ZKS Stal Rzeszow,Wieczysta Krakow,Poland - I Liga,Football,0,pending,not_good_competition_or_low_coverage
 football,61898620,2026-05-16 19:30,ATSV Wolfsberg,SC St. Veit,"Austria Amateur - Karnten, Karntner Liga",Football,0,pending,not_good_competition_or_low_coverage
+football,63004429,2026-05-16 19:30,ZKS Stal Rzeszow,Wieczysta Krakow,Poland - I Liga,Football,0,pending,not_good_competition_or_low_coverage
+football,63004423,2026-05-16 19:30,Gornik Leczna,Odra Opole,Poland - I Liga,Football,0,pending,not_good_competition_or_low_coverage
+football,71412170,2026-05-16 20:00,Willem II Tilburg,Almere City FC,Netherlands - Eredivisie,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,62036890,2026-05-16 20:00,KS Lechia Zielona Gora,LZS Starowice,"Poland - III Liga, Group 3",Football,0,pending,not_good_competition_or_low_coverage
+football,71496248,2026-05-16 20:00,Defensor SC Montevideo,CA Penarol Montevideo,"Uruguay - Primera Division, Women",Football,0,pending,not_good_competition_or_low_coverage
+football,71186514,2026-05-16 20:00,Olympique Club de Safi,Olympique Dcheira,Morocco - Coupe du Trone,Football,0,pending,not_good_competition_or_low_coverage
+football,71186484,2026-05-16 20:00,Rs Berkane,Wydad Fes,Morocco - Coupe du Trone,Football,0,pending,not_good_competition_or_low_coverage
+football,70973654,2026-05-16 20:00,FK Sutjeska Niksic,FK Decic Tuzi,Montenegro - 1. CFL,Football,0,pending,not_good_competition_or_low_coverage
 football,71459878,2026-05-16 20:00,CA Juventud de Las Piedras,CA Progreso,Uruguay - Primera Division,Football,0,pending,not_good_competition_or_low_coverage
+football,71069112,2026-05-16 20:00,Zamalek SC,USM Alger,International Clubs - CAF Confederations Cup,Football,0,pending,not_good_competition_or_low_coverage
 football,71327332,2026-05-16 20:00,Raja Casablanca Athletic,JS Massira,Morocco - Coupe du Trone,Football,0,pending,not_good_competition_or_low_coverage
 football,71325528,2026-05-16 20:00,CSDC Alianza Universidad,CD Estudiantil Cni,Peru - Liga 2,Football,0,pending,not_good_competition_or_low_coverage
-football,71412170,2026-05-16 20:00,Willem II Tilburg,Almere City FC,Netherlands - Eredivisie,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,71069112,2026-05-16 20:00,Zamalek SC,USM Alger,International Clubs - CAF Confederations Cup,Football,0,pending,not_good_competition_or_low_coverage
-football,71186484,2026-05-16 20:00,Rs Berkane,Wydad Fes,Morocco - Coupe du Trone,Football,0,pending,not_good_competition_or_low_coverage
-football,71186514,2026-05-16 20:00,Olympique Club de Safi,Olympique Dcheira,Morocco - Coupe du Trone,Football,0,pending,not_good_competition_or_low_coverage
-football,70881720,2026-05-16 20:00,FBC Melgar,Sport Huancayo,Peru - Liga 1,Football,0,pending,not_good_competition_or_low_coverage
-football,71496248,2026-05-16 20:00,Defensor SC Montevideo,CA Penarol Montevideo,"Uruguay - Primera Division, Women",Football,0,pending,not_good_competition_or_low_coverage
-football,70973654,2026-05-16 20:00,FK Sutjeska Niksic,FK Decic Tuzi,Montenegro - 1. CFL,Football,0,pending,not_good_competition_or_low_coverage
 football,69078162,2026-05-16 20:00,FK Buducnost,FK Mornar Bar,Montenegro - 1. CFL,Football,0,pending,not_good_competition_or_low_coverage
 football,69078166,2026-05-16 20:00,FK Jezero Plav,OFK Mladost DG,Montenegro - 1. CFL,Football,0,pending,not_good_competition_or_low_coverage
 football,69078170,2026-05-16 20:00,FK Bokelj Kotor,FK Arsenal Tivat,Montenegro - 1. CFL,Football,0,pending,not_good_competition_or_low_coverage
-football,62036890,2026-05-16 20:00,KS Lechia Zielona Gora,LZS Starowice,"Poland - III Liga, Group 3",Football,0,pending,not_good_competition_or_low_coverage
+football,68751784,2026-05-16 20:00,SC Corinthians SP,CR Vasco da Gama RJ,Brazil - U20 Campeonato Brasileiro,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
 football,68751774,2026-05-16 20:00,EC Juventude RS,CR Flamengo RJ,Brazil - U20 Campeonato Brasileiro,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
 football,68751778,2026-05-16 20:00,Gremio FB Porto Alegrense RS,Avai FC SC,Brazil - U20 Campeonato Brasileiro,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
 football,68751780,2026-05-16 20:00,Fortaleza EC CE,Santos FC SP,Brazil - U20 Campeonato Brasileiro,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,68751784,2026-05-16 20:00,SC Corinthians SP,CR Vasco da Gama RJ,Brazil - U20 Campeonato Brasileiro,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,70881720,2026-05-16 20:00,FBC Melgar,Sport Huancayo,Peru - Liga 1,Football,0,pending,not_good_competition_or_low_coverage
 football,68751788,2026-05-16 20:00,Botafogo FR RJ,Cruzeiro EC MG,Brazil - U20 Campeonato Brasileiro,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
 football,68751790,2026-05-16 20:00,Criciuma EC SC,Fluminense FC RJ,Brazil - U20 Campeonato Brasileiro,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,61062329,2026-05-16 20:15,RKS Radomiak Radom,KKS Lech Poznan,Poland - Ekstraklasa,Football,0,pending,not_good_competition_or_low_coverage
 football,61454191,2026-05-16 20:15,Aluminij Kidricevo,Primorje Ajdovscina,Slovenia - PrvaLiga,Football,0,pending,not_good_competition_or_low_coverage
-football,71280706,2026-05-16 20:30,L.R. Vicenza,Benevento Calcio,Italy - Supercoppa di Lega Pro,Football,0,pending,not_good_competition_or_low_coverage
-football,71118462,2026-05-16 20:30,SEF Torres Sassari,AC Bra,"Italy - Serie C,  Relegation Playoffs",Football,0,pending,not_good_competition_or_low_coverage
+football,61062329,2026-05-16 20:15,RKS Radomiak Radom,KKS Lech Poznan,Poland - Ekstraklasa,Football,0,pending,not_good_competition_or_low_coverage
 football,66854764,2026-05-16 20:30,Longford Town FC,Cork City FC,Ireland - First Division,Football,0,pending,not_good_competition_or_low_coverage
-football,69279788,2026-05-16 20:30,AC Goianiense GO,Cerrado EC GO,"Brazil - U20 Goiano, 1. Divisao",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,69279796,2026-05-16 20:30,Vila Nova FC GO,Anapolis FC GO,"Brazil - U20 Goiano, 1. Divisao",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,71491266,2026-05-16 20:30,Brighton and Hove Albion,Manchester United FC,England Amateur - U21 Premier League 2,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,71118462,2026-05-16 20:30,SEF Torres Sassari,AC Bra,"Italy - Serie C,  Relegation Playoffs",Football,0,pending,not_good_competition_or_low_coverage
+football,71280706,2026-05-16 20:30,L.R. Vicenza,Benevento Calcio,Italy - Supercoppa di Lega Pro,Football,0,pending,not_good_competition_or_low_coverage
 football,71489828,2026-05-16 20:30,Paranavai PR,Patriotas FC PR,"Brazil - Paranaense, 2. Divisao",Football,0,pending,not_good_competition_or_low_coverage
+football,69279796,2026-05-16 20:30,Vila Nova FC GO,Anapolis FC GO,"Brazil - U20 Goiano, 1. Divisao",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,69279788,2026-05-16 20:30,AC Goianiense GO,Cerrado EC GO,"Brazil - U20 Goiano, 1. Divisao",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
 football,66854054,2026-05-16 20:45,Sligo Rovers FC,Galway United FC,Ireland - Premier Division,Football,0,pending,not_good_competition_or_low_coverage
 football,61737728,2026-05-16 20:45,FC Rangers,FC Santa Coloma,Andorra - Primera Divisio,Football,0,pending,not_good_competition_or_low_coverage
-football,71364770,2026-05-16 21:00,Paris FC,Paris Saint-Germain,"France - Premiere Ligue, Women",Football,0,pending,not_good_competition_or_low_coverage
-football,61687610,2026-05-16 21:00,AD Alcorcon,Marbella FC,Spain - Primera Federacion,Football,0,pending,not_good_competition_or_low_coverage
+football,68097898,2026-05-16 21:00,CD Cobreloa Calama,Deportes Copiapo,Chile - Primera B,Football,0,pending,not_good_competition_or_low_coverage
+football,61687628,2026-05-16 21:00,Villarreal CF B,Sevilla Atletico,Spain - Primera Federacion,Football,0,pending,not_good_competition_or_low_coverage
+football,70379172,2026-05-16 21:00,FC Universitario de Vinto,Club Bolivar,Bolivia - Division Profesional,Football,0,pending,not_good_competition_or_low_coverage
+football,71220890,2026-05-16 21:00,New Jersey United AC,Jackson Lions FC,USA - National Premier Soccer League,Football,0,pending,not_good_competition_or_low_coverage
+football,61687624,2026-05-16 21:00,CE Sabadell FC,Antequera CF,Spain - Primera Federacion,Football,0,pending,not_good_competition_or_low_coverage
 football,61687612,2026-05-16 21:00,CF Algeciras,Hercules de Alicante CF,Spain - Primera Federacion,Football,0,pending,not_good_competition_or_low_coverage
 football,61687614,2026-05-16 21:00,Betis Deportivo Balompie,SD Tarazona,Spain - Primera Federacion,Football,0,pending,not_good_competition_or_low_coverage
+football,71364770,2026-05-16 21:00,Paris FC,Paris Saint-Germain,"France - Premiere Ligue, Women",Football,0,pending,not_good_competition_or_low_coverage
 football,61687616,2026-05-16 21:00,Club Deportivo Eldense,Atletico Madrid B,Spain - Primera Federacion,Football,0,pending,not_good_competition_or_low_coverage
-football,61687618,2026-05-16 21:00,Juventud Torremolinos CF,Real Murcia CF,Spain - Primera Federacion,Football,0,pending,not_good_competition_or_low_coverage
 football,61687620,2026-05-16 21:00,UD Ibiza,FC Cartagena,Spain - Primera Federacion,Football,0,pending,not_good_competition_or_low_coverage
 football,61687622,2026-05-16 21:00,Gimnastic de Tarragona,CE Europa,Spain - Primera Federacion,Football,0,pending,not_good_competition_or_low_coverage
-football,61687624,2026-05-16 21:00,CE Sabadell FC,Antequera CF,Spain - Primera Federacion,Football,0,pending,not_good_competition_or_low_coverage
+football,61687610,2026-05-16 21:00,AD Alcorcon,Marbella FC,Spain - Primera Federacion,Football,0,pending,not_good_competition_or_low_coverage
 football,61687626,2026-05-16 21:00,CD Teruel,Atletico Sanluqueno,Spain - Primera Federacion,Football,0,pending,not_good_competition_or_low_coverage
-football,61687628,2026-05-16 21:00,Villarreal CF B,Sevilla Atletico,Spain - Primera Federacion,Football,0,pending,not_good_competition_or_low_coverage
-football,71220890,2026-05-16 21:00,New Jersey United AC,Jackson Lions FC,USA - National Premier Soccer League,Football,0,pending,not_good_competition_or_low_coverage
+football,61687618,2026-05-16 21:00,Juventud Torremolinos CF,Real Murcia CF,Spain - Primera Federacion,Football,0,pending,not_good_competition_or_low_coverage
 football,68687646,2026-05-16 21:00,CSD Macara,CSD Independiente del Valle,Ecuador - LigaPro Primera A,Football,0,pending,not_good_competition_or_low_coverage
-football,68097898,2026-05-16 21:00,CD Cobreloa Calama,Deportes Copiapo,Chile - Primera B,Football,0,pending,not_good_competition_or_low_coverage
-football,70379172,2026-05-16 21:00,FC Universitario de Vinto,Club Bolivar,Bolivia - Division Profesional,Football,0,pending,not_good_competition_or_low_coverage
 football,71478620,2026-05-16 21:15,Sportivo 2 de Mayo,Sportivo Trinidense,"Paraguay - Camopeonato Femenino, Women",Football,0,pending,not_good_competition_or_low_coverage
 football,71464112,2026-05-16 21:30,Atletico El Vigia,Zamora FC Barinas II,Venezuela - Segunda Division,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,71325530,2026-05-16 22:00,AD Comerciantes FC,Deportivo Binacional FC,Peru - Liga 2,Football,0,pending,not_good_competition_or_low_coverage
-football,71501264,2026-05-16 22:00,Bath Estate,Harlem United FC,Dominica - DFA Premier,Football,0,pending,not_good_competition_or_low_coverage
 football,67843998,2026-05-16 22:00,Portland Hearts of Pine,Rhode Island FC,USA - USL League One Cup,Football,0,pending,not_good_competition_or_low_coverage
 football,71379424,2026-05-16 22:00,CD Real Santander,CDP Junior FC,Colombia - Liga Femenina,Football,0,pending,not_good_competition_or_low_coverage
+football,71325530,2026-05-16 22:00,AD Comerciantes FC,Deportivo Binacional FC,Peru - Liga 2,Football,0,pending,not_good_competition_or_low_coverage
+football,71501264,2026-05-16 22:00,Bath Estate,Harlem United FC,Dominica - DFA Premier,Football,0,pending,not_good_competition_or_low_coverage
 football,68042482,2026-05-16 22:15,Club Guarani Asuncion,Sportivo Ameliano,"Paraguay - Division de Honor, Apertura",Football,0,pending,not_good_competition_or_low_coverage
-football,71325532,2026-05-16 22:15,CS Santos FC,Bentin Tacna Heroica,Peru - Liga 2,Football,0,pending,not_good_competition_or_low_coverage
 football,70881722,2026-05-16 22:15,Juan Pablo II College,Alianza Atletico,Peru - Liga 1,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,71335200,2026-05-16 22:30,Boyaca Chico FC,Atletico FC Cali,Colombia - Copa Colombia,Football,0,pending,not_good_competition_or_low_coverage
-football,71335206,2026-05-16 22:30,Alianza FC Valledupar,CD Real Santander,Colombia - Copa Colombia,Football,0,pending,not_good_competition_or_low_coverage
-football,71335210,2026-05-16 22:30,Cucuta Deportivo FC,Itagui Leones FC,Colombia - Copa Colombia,Football,0,pending,not_good_competition_or_low_coverage
+football,71325532,2026-05-16 22:15,CS Santos FC,Bentin Tacna Heroica,Peru - Liga 2,Football,0,pending,not_good_competition_or_low_coverage
 football,71379426,2026-05-16 22:30,Atletico Nacional SA,Once Caldas Sa,Colombia - Liga Femenina,Football,0,pending,not_good_competition_or_low_coverage
-football,69090850,2026-05-16 23:00,Brooke House FC,Nona FC,USA - USL League Two,Football,0,pending,not_good_competition_or_low_coverage
+football,71335206,2026-05-16 22:30,Alianza FC Valledupar,CD Real Santander,Colombia - Copa Colombia,Football,0,pending,not_good_competition_or_low_coverage
+football,71335200,2026-05-16 22:30,Boyaca Chico FC,Atletico FC Cali,Colombia - Copa Colombia,Football,0,pending,not_good_competition_or_low_coverage
+football,71335210,2026-05-16 22:30,Cucuta Deportivo FC,Itagui Leones FC,Colombia - Copa Colombia,Football,0,pending,not_good_competition_or_low_coverage
 football,69254650,2026-05-16 23:00,Universidad de Chile,Santiago Wanderers,"Chile - Primera Division, Women",Football,0,pending,not_good_competition_or_low_coverage
-tennis,543042,2026-05-16 12:00,Filip Cristian Jianu,Jakub Nicod,ITF Men - Louny,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,543242,2026-05-16 12:00,Johan Oscar Lien,Felix Balshaw,ITF Men - Prijedor,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,151038,2026-05-16 13:00,Andrea Guerrieri,Massimo Giunta,ITF Men - Reggio Emilia,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,30816068,2026-05-16 14:00,Attila Boros,Yannik Kelm,ITF Men - Prijedor,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,30846389,2026-05-16 14:00,Manuel Mazza,Gabriele Piraino,ITF Men - Reggio Emilia,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,151324,2026-05-16 14:15,Johannus Monday,Michael Bassem Sobhy,ITF Men - Hurghada,Tennis,0,pending,not_good_competition_or_low_coverage
+football,69090850,2026-05-16 23:00,Brooke House FC,Nona FC,USA - USL League Two,Football,0,pending,not_good_competition_or_low_coverage
+football,71459880,2026-05-16 23:30,CA Penarol Montevideo,Liverpool Montevideo,Uruguay - Primera Division,Football,0,pending,not_good_competition_or_low_coverage
+football,67681864,2026-05-16 23:30,CD O´Higgins,Universidad de Concepcion,Chile - Primera Division,Football,0,pending,not_good_competition_or_low_coverage
+football,71478624,2026-05-16 23:30,Cerro Porteno,Recoleta FC,"Paraguay - Camopeonato Femenino, Women",Football,0,pending,not_good_competition_or_low_coverage
+football,68687652,2026-05-16 23:30,CD Universidad Catolica del Ecuador,Delfin SC,Ecuador - LigaPro Primera A,Football,0,pending,not_good_competition_or_low_coverage
+football,68097900,2026-05-16 23:30,Curico Unido,Santiago Wanderers,Chile - Primera B,Football,0,pending,not_good_competition_or_low_coverage
+football,68156616,2026-05-17 00:00,CT United FC,Toronto FC II,USA - MLS Next Pro,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,68156614,2026-05-17 00:00,Carolina Core FC,Chicago Fire FC II,USA - MLS Next Pro,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,67844000,2026-05-17 00:00,Forward Madison FC,Detroit City FC,USA - USL League One Cup,Football,0,pending,not_good_competition_or_low_coverage
+football,67844006,2026-05-17 00:00,Richmond Kickers,Charleston Battery,USA - USL League One Cup,Football,0,pending,not_good_competition_or_low_coverage
+football,71501266,2026-05-17 00:30,Point Michel,Middleham United FC,Dominica - DFA Premier,Football,0,pending,not_good_competition_or_low_coverage
+football,67912070,2026-05-17 00:30,North Carolina Courage,Chicago Stars FC,USA - National Womens Soccer League,Football,0,pending,not_good_competition_or_low_coverage
+football,70881726,2026-05-17 00:45,CS Cienciano,Alianza Lima,Peru - Liga 1,Football,0,pending,not_good_competition_or_low_coverage
+football,71307980,2026-05-17 01:00,Miami FC,Tampa Bay Rowdies,USA - USL League One Cup,Football,0,pending,not_good_competition_or_low_coverage
+football,71507330,2026-05-17 01:00,CD Tolima,Atletico Nacional Medellin,"Colombia - Primera A, Apertura",Football,0,pending,not_good_competition_or_low_coverage
+football,69090876,2026-05-17 01:00,Weston FC,Fort Lauderdale United FC,USA - USL League Two,Football,0,pending,not_good_competition_or_low_coverage
+football,69090842,2026-05-17 01:00,New England FC,AC Connecticut,USA - USL League Two,Football,0,pending,not_good_competition_or_low_coverage
+football,69090836,2026-05-17 01:00,Christos FC,Lionsbridge FC,USA - USL League Two,Football,0,pending,not_good_competition_or_low_coverage
+football,67844002,2026-05-17 01:00,Chattanooga Red Wolves SC,Birmingham Legion FC,USA - USL League One Cup,Football,0,pending,not_good_competition_or_low_coverage
+football,67844004,2026-05-17 01:00,One Knoxville SC,San Antonio FC,USA - USL League One Cup,Football,0,pending,not_good_competition_or_low_coverage
+football,71307978,2026-05-17 01:00,Brooklyn FC,Hartford Athletic,USA - USL League One Cup,Football,0,pending,not_good_competition_or_low_coverage
+football,67844008,2026-05-17 01:30,Fort Wayne FC,Indy Eleven,USA - USL League One Cup,Football,0,pending,not_good_competition_or_low_coverage
+football,71456452,2026-05-17 02:00,CSD Municipal,CSD Xelaju MC,Guatemala - Liga Nacional. Clausura,Football,0,pending,not_good_competition_or_low_coverage
+football,67681852,2026-05-17 02:00,Deportes Limache,CD Universidad Catolica,Chile - Primera Division,Football,0,pending,not_good_competition_or_low_coverage
+football,71307982,2026-05-17 02:00,Oakland Roots SC,Sacramento Republic FC,USA - USL League One Cup,Football,0,pending,not_good_competition_or_low_coverage
+football,71523514,2026-05-17 02:00,R.K.S.V. Scherpenheuvel,C.R.K.S.V. Jong Holland,Curacao - Prome Divishon,Football,0,pending,not_good_competition_or_low_coverage
+football,68687644,2026-05-17 02:00,Barcelona SC,SD Aucas,Ecuador - LigaPro Primera A,Football,0,pending,not_good_competition_or_low_coverage
+football,68156624,2026-05-17 02:30,North Texas SC,Sporting Kansas City II,USA - MLS Next Pro,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,67844012,2026-05-17 02:30,Corpus Christi FC,FC Tulsa,USA - USL League One Cup,Football,0,pending,not_good_competition_or_low_coverage
+football,67912060,2026-05-17 02:45,Denver Summit FC,Orlando Pride,USA - National Womens Soccer League,Football,0,pending,not_good_competition_or_low_coverage
+tennis,151405,2026-05-16 15:00,Manuel Mazza,Gabriele Piraino,ITF Men - Reggio Emilia,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,151324,2026-05-16 15:15,Johannus Monday,Michael Bassem Sobhy,ITF Men - Hurghada,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,30846390,2026-05-16 16:15,Aaron Funk,David Eichenseher,ITF Men - Hurghada,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,150877,2026-05-16 17:00,Nick Hardt,Ilyas Milad Fahim,ITF Men - Pensacola,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,151223,2026-05-16 17:00,Ryan Colby,Adhithya Ganesan,ITF Men - Pensacola,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,150994,2026-05-16 20:00,Luis Felipe Miguel,Herman Hoeyeraal,ITF Men - Maringa,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,30865223,2026-05-16 22:15,Mateus Alves,Salvador Price,ITF Men - Maringa,Tennis,0,pending,not_good_competition_or_low_coverage
-basketball,67607810,2026-05-16 11:30,North Gold Coast Seahawks,Southern Districts Spartans,"Australia - NBL1, North",Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,67608514,2026-05-16 11:30,Bendigo Braves,MT Gambier Pioneers,"Australia - NBL1, South",Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,67608518,2026-05-16 11:30,Nunawading Spectres,Casey Cavaliers,"Australia - NBL1, South",Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,67611556,2026-05-16 11:30,Albury Wodonga Bandits,Sutherland Sharks,"Australia - NBL1, East",Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,67611558,2026-05-16 11:30,Canberra Gunners,Bankstown Bruins,"Australia - NBL1, East",Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,69547402,2026-05-16 11:30,McKinnon Cougars,Sunbury Jets,Australia - Big V,Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,69547404,2026-05-16 11:30,Bellarine,Gippsland United,Australia - Big V,Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,67619930,2026-05-16 11:30,Ballarat Miners,Melbourne Tigers,"Australia - NBL1 South, Women",Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,67607812,2026-05-16 12:00,Rockhampton Rockets,Mackay Meteors,"Australia - NBL1, North",Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,67608522,2026-05-16 12:00,Frankston Blues,Waverley Falcons,"Australia - NBL1, South",Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,67608524,2026-05-16 12:00,Keilor Thunder,Kilsyth Cobras,"Australia - NBL1, South",Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,69547406,2026-05-16 12:00,Warrandyte Venom,Pakenham,Australia - Big V,Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,69547410,2026-05-16 12:00,Wyndham Basketball,Camberwell Dragons,Australia - Big V,Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,69548386,2026-05-16 12:00,Pakenham Warriors,Bulleen Boomers,"Australia - Big V, Women",Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,67621556,2026-05-16 12:30,Eastern Suns,Mandurah Magic,"Australia - NBL1 West, Women",Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,67611910,2026-05-16 13:00,Geraldton Buccaneers,South West Slammers,"Australia - NBL1, West",Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,67611912,2026-05-16 13:00,Joondalup Wolves,Goldfields Giants,"Australia - NBL1, West",Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,67611914,2026-05-16 13:00,Warwick Senators,Cockburn Cougars,"Australia - NBL1, West",Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,67611916,2026-05-16 13:00,Willetton Tigers,Rockingham Flames,"Australia - NBL1, West",Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,71488406,2026-05-16 13:30,Road Warriors,Tropang Giga,"Philippines - PBA, Commissioner Cup",Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,71494498,2026-05-16 14:00,Djoliba AC,Attar,Mali - Championnat National D1,Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,67611918,2026-05-16 14:30,Eastern Suns,Mandurah Magic,"Australia - NBL1, West",Basketball,0,pending,not_good_competition_or_low_coverage
+tennis,71535380,2026-05-16 23:00,"Fellows, Jake","McCall, Duncan",UTR Men - UTR PTT Newport Beach Men 11,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71535290,2026-05-16 23:00,"Safarova, Zdena","Khatamova, Shakhnoza",UTR Women - UTR PTT Newport Beach Women 11,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71535292,2026-05-16 23:00,"Miroshnichenko, Veronica","Zhytelna, Yulia",UTR Women - UTR PTT Newport Beach Women 11,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71535352,2026-05-16 23:00,"Rajski, Maciej","Venger, Roman",UTR Men - UTR PTT Newport Beach Men 11,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71535398,2026-05-17 00:30,"Bain, Adam","Sachdev, Rohan",UTR Men - UTR PTT Newport Beach Men 11,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71535304,2026-05-17 00:30,"Piai, Eduarda","Huynh, Maily",UTR Women - UTR PTT Newport Beach Women 11,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71535382,2026-05-17 01:00,"Anson, Justin Riley","Lee, Evan",UTR Men - UTR PTT Newport Beach Men 11,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71535298,2026-05-17 01:00,"Soso, Mia","Vustsina, Ahniya",UTR Women - UTR PTT Newport Beach Women 11,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71535300,2026-05-17 01:00,"Olmos, Zoe","Arangio, Gala",UTR Women - UTR PTT Newport Beach Women 11,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71535378,2026-05-17 01:00,"Berger, Benjamin","Thompson, William Chase",UTR Men - UTR PTT Newport Beach Men 11,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71535308,2026-05-17 02:10,"Praveen Nair, Kamya","Goldberg, Sonya",UTR Women - UTR PTT Newport Beach Women 11,Tennis,0,pending,not_good_competition_or_low_coverage
 basketball,71452772,2026-05-16 15:00,Basketball Nymburk,BK Opava,Czech Republic - NBL,Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,71446344,2026-05-16 15:00,Legia Warszawa,MKS Dabrowa Gornicza,Poland - PLK,Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,71492574,2026-05-16 15:00,Gaziantep Basketbol,Konya BBSK,Turkiye - TBL,Basketball,0,pending,not_good_competition_or_low_coverage
@@ -420,6 +314,7 @@ basketball,70822010,2026-05-16 18:00,Zalakeramia ZTE,Ose Lions,Hungary - NB I. A
 basketball,70822012,2026-05-16 18:00,NKA Universitas Pecs,SZTE-Szedeak,Hungary - NB I. A,Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,63041759,2026-05-16 18:10,Gargzdai Basketball,BC Rytas Vilnius,Lithuania - LKL,Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,71428004,2026-05-16 18:30,KK Dubrovnik,Kk Samobor,Croatia - Premijer liga,Basketball,0,pending,not_good_competition_or_low_coverage
+basketball,62280806,2026-05-16 19:00,Boulazac Basket Dordogne,AS Monaco,France - Pro A,Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,62280808,2026-05-16 19:00,JL Bourg Basket,BCM Gravelines Dunkerque,France - Pro A,Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,62280810,2026-05-16 19:00,Le Mans Sarthe Basket,Limoges CSP,France - Pro A,Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,62280812,2026-05-16 19:00,Le Portel,JDA Dijon Basket,France - Pro A,Basketball,0,pending,not_good_competition_or_low_coverage
@@ -435,11 +330,13 @@ basketball,71345860,2026-05-16 20:15,Trefl Sopot,Dziki Warszawa,Poland - PLK,Bas
 basketball,71427984,2026-05-16 20:30,Baskets Bonn,Wurzburg Baskets,Germany - BBL,Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,71428000,2026-05-16 20:30,KK Dubrava,KK Cibona,Croatia - Premijer liga,Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,71463796,2026-05-16 23:00,Arabe Valparaiso,Quilpue Basquetbol,Chile - Liga Dos,Basketball,0,pending,not_good_competition_or_low_coverage
+basketball,71463798,2026-05-17 01:00,San Luis Basquet,CD Hrvatski Sokol Antofagasta,Chile - Liga Dos,Basketball,0,pending,not_good_competition_or_low_coverage
+basketball,71490914,2026-05-17 01:30,CD Universidad De Concepcion,CD Boston College,Chile - Liga Nacional,Basketball,0,pending,not_good_competition_or_low_coverage
+basketball,71463800,2026-05-17 02:00,CD Illapel Basquetbol,CD Humboldt,Chile - Liga Dos,Basketball,0,pending,not_good_competition_or_low_coverage
+basketball,71463802,2026-05-17 02:00,Stadio Italiano,CD Arturo Prat San Felipe,Chile - Liga Dos,Basketball,0,pending,not_good_competition_or_low_coverage
+basketball,71463804,2026-05-17 02:00,Villa Alemana Basquet,CD Municipal Chillan,Chile - Liga Dos,Basketball,0,pending,not_good_competition_or_low_coverage
 american-football,68165622,2026-05-16 18:00,Louisville Kings,DC Defenders,USA - UFL,American Football,0,pending,not_good_competition_or_low_coverage
-cricket,68579540,2026-05-16 11:30,Durham,Somerset,"England - One-Day Cup, Women",Cricket,0,pending,not_good_competition_or_low_coverage
-cricket,68579542,2026-05-16 11:30,Surrey,Lancashire Thunder,"England - One-Day Cup, Women",Cricket,0,pending,not_good_competition_or_low_coverage
-cricket,68579544,2026-05-16 11:30,Yorkshire,Warwickshire,"England - One-Day Cup, Women",Cricket,0,pending,not_good_competition_or_low_coverage
-cricket,66650002,2026-05-16 12:00,England,New Zealand,"International - ODI Series England vs. New Zealand, Women",Cricket,0,pending,not_good_competition_or_low_coverage
+cricket,71001498,2026-05-17 01:00,Powergen Penal Sports Club,Victoria United SC,Trinidad and Tobago - Trinidad T20 Festival,Cricket,0,pending,not_good_competition_or_low_coverage
 rugby-union,,,,,,,,,"HTTP 400: {""error"":""Invalid sport slug""}"
 rugby-league,,,,,,,,,"HTTP 400: {""error"":""Invalid sport slug""}"
 handball,61966720,2026-05-16 16:30,CS Minaur Baia Mare,HC Dunarea Braila,"Romania - Liga Nationala, Women",Handball,0,pending,not_good_competition_or_low_coverage
@@ -451,6 +348,7 @@ handball,62377736,2026-05-16 18:00,Metz Handball,Stella Sports Saint-Maur Handba
 handball,68760116,2026-05-16 18:00,RK Ljubljana,ZRK Izola,"Slovenia - 1. SRL, Women",Handball,0,pending,not_good_competition_or_low_coverage
 handball,68761770,2026-05-16 19:00,Zrd Litija,ZRK Krka Novo Mesto,"Slovenia - 1. SRL, Women",Handball,0,pending,not_good_competition_or_low_coverage
 handball,62367162,2026-05-16 19:00,Kisvarda KC,Szombathelyi Kka,"Hungary - NB I, Women",Handball,0,pending,not_good_competition_or_low_coverage
+handball,71525304,2026-05-16 20:00,Tunisia,Algeria,International - Int. Friendly Games,Handball,0,pending,excluded_youth_reserve_friendly_or_exhibition
 handball,70984404,2026-05-16 20:00,BM Morvedre,Elda Prestigio,Spain - Division De Honor Fem.,Handball,0,pending,not_good_competition_or_low_coverage
 handball,62377744,2026-05-16 20:00,Toulon Metropole Var Handball,Chambray Touraine,"France - LFH Division 1, Women",Handball,0,pending,not_good_competition_or_low_coverage
 handball,62377740,2026-05-16 20:30,HB Plan de Cuques,Achenheim Truchtersheim,"France - LFH Division 1, Women",Handball,0,pending,not_good_competition_or_low_coverage
