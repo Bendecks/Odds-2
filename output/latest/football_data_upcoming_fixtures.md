@@ -2,22 +2,10 @@
 
 Fixtures derived from Football-Data fixtures.csv. Used for automatic proxy forward modeling.
 
-Upcoming fixture rows: 107
+Upcoming fixture rows: 71
 
-- 2026-05-16 15:00 | Charleroi vs Westerlo | B1
-- 2026-05-16 17:15 | Standard vs Genk | B1
-- 2026-05-16 19:45 | St Truiden vs Gent | B1
 - 2026-05-17 12:30 | Anderlecht vs Mechelen | B1
 - 2026-05-17 17:30 | Club Brugge vs St. Gilloise | B1
-- 2026-05-16 14:30 | Bayern Munich vs FC Koln | bundesliga
-- 2026-05-16 14:30 | Ein Frankfurt vs Stuttgart | bundesliga
-- 2026-05-16 14:30 | Freiburg vs RB Leipzig | bundesliga
-- 2026-05-16 14:30 | Heidenheim vs Mainz | bundesliga
-- 2026-05-16 14:30 | Leverkusen vs Hamburg | bundesliga
-- 2026-05-16 14:30 | M'gladbach vs Hoffenheim | bundesliga
-- 2026-05-16 14:30 | St Pauli vs Wolfsburg | bundesliga
-- 2026-05-16 14:30 | Union Berlin vs Augsburg | bundesliga
-- 2026-05-16 14:30 | Werder Bremen vs Dortmund | bundesliga
 - 2026-05-17 14:30 | Bielefeld vs Hertha | D2
 - 2026-05-17 14:30 | Darmstadt vs Paderborn | D2
 - 2026-05-17 14:30 | Dresden vs Holstein Kiel | D2
@@ -43,9 +31,6 @@ Upcoming fixture rows: 107
 - 2026-05-17 20:00 | Nice vs Metz | ligue_1
 - 2026-05-17 20:00 | Paris FC vs Paris SG | ligue_1
 - 2026-05-17 20:00 | Strasbourg vs Monaco | ligue_1
-- 2026-05-16 17:00 | Asteras Tripolis vs Kifisia | G1
-- 2026-05-16 17:00 | Larisa vs Atromitos | G1
-- 2026-05-16 17:00 | Panserraikos vs Panetolikos | G1
 - 2026-05-17 15:00 | Aris vs Levadeiakos | G1
 - 2026-05-17 15:00 | OFI Crete vs Volos NFC | G1
 - 2026-05-17 17:30 | AEK vs Olympiakos | G1
@@ -54,3 +39,18 @@ Upcoming fixture rows: 107
 - 2026-05-17 11:00 | Genoa vs Milan | serie_a
 - 2026-05-17 11:00 | Juventus vs Fiorentina | serie_a
 - 2026-05-17 11:00 | Pisa vs Napoli | serie_a
+- 2026-05-17 11:00 | Roma vs Lazio | serie_a
+- 2026-05-17 14:00 | Inter vs Verona | serie_a
+- 2026-05-17 17:00 | Atalanta vs Bologna | serie_a
+- 2026-05-17 19:45 | Cagliari vs Torino | serie_a
+- 2026-05-17 19:45 | Sassuolo vs Lecce | serie_a
+- 2026-05-17 19:45 | Udinese vs Cremonese | serie_a
+- 2026-05-17 13:30 | AZ Alkmaar vs NAC Breda | N1
+- 2026-05-17 13:30 | Heerenveen vs Ajax | N1
+- 2026-05-17 13:30 | Heracles vs Groningen | N1
+- 2026-05-17 13:30 | Nijmegen vs Go Ahead Eagles | N1
+- 2026-05-17 13:30 | PSV Eindhoven vs Twente | N1
+- 2026-05-17 13:30 | Sparta Rotterdam vs Excelsior | N1
+- 2026-05-17 13:30 | Utrecht vs For Sittard | N1
+- 2026-05-17 13:30 | Volendam vs Telstar | N1
+- 2026-05-17 13:30 | Zwolle vs Feyenoord | N1

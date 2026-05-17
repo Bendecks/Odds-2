@@ -1,26 +1,26 @@
 discovery_source,query,target_home_team,target_away_team,target_match_date,candidate_event_id,candidate_home_team,candidate_away_team,candidate_match_date,event_match_confidence,selected,rejection_reason,selected_bool,event_match_confidence_num
-events_bookmaker_filtered,CD O´Higgins,CD O´Higgins,Universidad de Concepcion,2026-05-16,67681864,CD O´Higgins,Universidad de Concepcion,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,Lagarto FC SE,Lagarto FC SE,CS Sergipe SE,2026-05-16,70322106,Lagarto FC SE,CS Sergipe SE,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,Brooklyn FC,Brooklyn FC,Hartford Athletic,2026-05-16,71307978,Brooklyn FC,Hartford Athletic,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,CD Universidad Catolica del Ecuador,CD Universidad Catolica del Ecuador,Delfin SC,2026-05-16,68687652,CD Universidad Catolica del Ecuador,Delfin SC,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,One Knoxville SC,One Knoxville SC,San Antonio FC,2026-05-16,67844004,One Knoxville SC,San Antonio FC,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,Atletico Mineiro MG,Atletico Mineiro MG,Mirassol FC SP,2026-05-16,66886788,Atletico Mineiro MG,Mirassol FC SP,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,Point Michel,Point Michel,Middleham United FC,2026-05-16,71501266,Point Michel,Middleham United FC,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,CT United FC,CT United FC,Toronto FC II,2026-05-16,68156616,CT United FC,Toronto FC II,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,Cerro Porteno,Cerro Porteno,Recoleta FC,2026-05-16,71478624,Cerro Porteno,Recoleta FC,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,Barcelona SC,Barcelona SC,SD Aucas,2026-05-17,68687644,Barcelona SC,SD Aucas,2026-05-17,1.0,True,,True,1.0
-events_bookmaker_filtered,CA River Plate (ARG),CA River Plate (ARG),CA Rosario Central,2026-05-16,71495712,CA River Plate (ARG),CA Rosario Central,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,Richmond Kickers,Richmond Kickers,Charleston Battery,2026-05-16,67844006,Richmond Kickers,Charleston Battery,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,Cuiaba EC MT,Cuiaba EC MT,Gremio Novorizontino SP,2026-05-16,68822902,Cuiaba EC MT,Gremio Novorizontino SP,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,Weston FC,Weston FC,Fort Lauderdale United FC,2026-05-16,69090876,Weston FC,Fort Lauderdale United FC,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,Chattanooga Red Wolves SC,Chattanooga Red Wolves SC,Birmingham Legion FC,2026-05-16,67844002,Chattanooga Red Wolves SC,Birmingham Legion FC,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,Curico Unido,Curico Unido,Santiago Wanderers,2026-05-16,68097900,Curico Unido,Santiago Wanderers,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,Floresta EC CE,Floresta EC CE,Amazonas FC AM,2026-05-16,69255026,Floresta EC CE,Amazonas FC AM,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,Forward Madison FC,Forward Madison FC,Detroit City FC,2026-05-16,67844000,Forward Madison FC,Detroit City FC,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,Fort Wayne FC,Fort Wayne FC,Indy Eleven,2026-05-16,67844008,Fort Wayne FC,Indy Eleven,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,DC United,DC United,Saint Louis City SC,2026-05-16,66299178,DC United,Saint Louis City SC,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,Sarasota Paradise,Sarasota Paradise,Av Alta FC,2026-05-16,70893864,Sarasota Paradise,Av Alta FC,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,Fluminense FC RJ,Fluminense FC RJ,Sao Paulo FC SP,2026-05-16,66886778,Fluminense FC RJ,Sao Paulo FC SP,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,New Jersey United AC,New Jersey United AC,Jackson Lions FC,2026-05-16,71220890,New Jersey United AC,Jackson Lions FC,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,CS Cienciano,CS Cienciano,Alianza Lima,2026-05-16,70881726,CS Cienciano,Alianza Lima,2026-05-16,1.0,True,,True,1.0
-events_bookmaker_filtered,Goias EC GO,Goias EC GO,Botafogo FC SP,2026-05-16,68822896,Goias EC GO,Botafogo FC SP,2026-05-16,1.0,True,,True,1.0
+events_bookmaker_filtered,Iwaki FC,Iwaki FC,Matsumoto Yamaga FC,2026-05-17,67648148,Iwaki FC,Matsumoto Yamaga FC,2026-05-17,1.0,True,,True,1.0
+events_bookmaker_filtered,Ferencvarosi TC II,Ferencvarosi TC II,Pecsi MFC,2026-05-17,62181558,Ferencvarosi TC II,Pecsi MFC,2026-05-17,1.0,True,,True,1.0
+events_bookmaker_filtered,Debreceni VSC II,Debreceni VSC II,Tiszaujvaros,2026-05-17,62160254,Debreceni VSC II,Tiszaujvaros,2026-05-17,1.0,True,,True,1.0
+events_bookmaker_filtered,V-Varen Nagasaki,V-Varen Nagasaki,Vissel Kobe,2026-05-17,67645066,V-Varen Nagasaki,Vissel Kobe,2026-05-17,1.0,True,,True,1.0
+events_bookmaker_filtered,Bucheon FC 1995,Bucheon FC 1995,FC Pohang Steelers,2026-05-17,67817710,Bucheon FC 1995,FC Pohang Steelers,2026-05-17,1.0,True,,True,1.0
+events_bookmaker_filtered,RB Omiya Ardija,RB Omiya Ardija,AC Nagano Parceiro,2026-05-17,67648150,RB Omiya Ardija,AC Nagano Parceiro,2026-05-17,1.0,True,,True,1.0
+events_bookmaker_filtered,Hwaseong FC,Hwaseong FC,Busan I Park,2026-05-17,68046520,Hwaseong FC,Busan I Park,2026-05-17,1.0,True,,True,1.0
+events_bookmaker_filtered,Paksi FC II,Paksi FC II,Majosi SE,2026-05-17,62181566,Paksi FC II,Majosi SE,2026-05-17,1.0,True,,True,1.0
+events_bookmaker_filtered,Kagoshima United,Kagoshima United,Roasso Kumamoto,2026-05-17,67648464,Kagoshima United,Roasso Kumamoto,2026-05-17,1.0,True,,True,1.0
+events_bookmaker_filtered,Fagiano Okayama,Fagiano Okayama,Shimizu S-Pulse,2026-05-17,67645068,Fagiano Okayama,Shimizu S-Pulse,2026-05-17,1.0,True,,True,1.0
+events_bookmaker_filtered,Canberra White Eagles FC,Canberra White Eagles FC,Canberra Juventus FC,2026-05-17,69194918,Canberra White Eagles FC,Canberra Juventus FC,2026-05-17,1.0,False,,False,1.0
+events_bookmaker_filtered,Club Deportiva Minera,Club Deportiva Minera,CD Coria,2026-05-17,71299758,Club Deportiva Minera,CD Coria,2026-05-17,1.0,True,,True,1.0
+events_bookmaker_filtered,JEF United Chiba,JEF United Chiba,Kashima Antlers,2026-05-17,67645560,JEF United Chiba,Kashima Antlers,2026-05-17,1.0,True,,True,1.0
+events_bookmaker_filtered,Lee Man FC,Lee Man FC,Tai Po FC,2026-05-17,70813618,Lee Man FC,Tai Po FC,2026-05-17,1.0,True,,True,1.0
+events_bookmaker_filtered,Canberra White Eagles FC,Canberra White Eagles FC,Canberra Juventus FC,2026-05-17,69195814,Canberra White Eagles FC,Canberra Juventus FC,2026-05-17,1.0,True,,True,1.0
+events_bookmaker_filtered,Bali United,Bali United,Bhayangkara Presisi Indonesia FC,2026-05-17,62083182,Bali United,Bhayangkara Presisi Indonesia FC,2026-05-17,1.0,True,,True,1.0
+events_bookmaker_filtered,Bulls FC Academy U23,Bulls FC Academy U23,Manly United FC,2026-05-17,67694248,Bulls FC Academy U23,Manly United FC,2026-05-17,1.0,True,,True,1.0
+events_bookmaker_filtered,FC Ryukyu,FC Ryukyu,Gainare Tottori,2026-05-17,67648468,FC Ryukyu,Gainare Tottori,2026-05-17,1.0,True,,True,1.0
+events_bookmaker_filtered,Garuda FC,Garuda FC,Palmerston Rovers,2026-05-17,71127906,Garuda FC,Palmerston Rovers,2026-05-17,1.0,True,,True,1.0
+events_bookmaker_filtered,Adelaide Olympic FC Reserve,Adelaide Olympic FC Reserve,Cumberland United Reserve,2026-05-17,68050298,Adelaide Olympic FC Reserve,Cumberland United Reserve,2026-05-17,1.0,True,,True,1.0
+events_bookmaker_filtered,Wuhan Lianzhen FC,Wuhan Lianzhen FC,Guandong GZ-Power FC,2026-05-17,70968254,Wuhan Lianzhen FC,Guandong GZ-Power FC,2026-05-17,1.0,True,,True,1.0
+events_bookmaker_filtered,Gimhae FC,Gimhae FC,Daegu FC,2026-05-17,68046518,Gimhae FC,Daegu FC,2026-05-17,1.0,True,,True,1.0
+events_bookmaker_filtered,Hills United FC,Hills United FC,Gladesville Ravens,2026-05-17,67694246,Hills United FC,Gladesville Ravens,2026-05-17,1.0,True,,True,1.0
+events_bookmaker_filtered,MTK Budapest II,MTK Budapest II,Dunaujvaros Palhalma Agrospecial SE,2026-05-17,62181556,MTK Budapest II,Dunaujvaros Palhalma Agrospecial SE,2026-05-17,1.0,True,,True,1.0
+events_bookmaker_filtered,Canberra Olympic,Canberra Olympic,Tuggeranong United FC,2026-05-17,69195322,Canberra Olympic,Tuggeranong United FC,2026-05-17,1.0,True,,True,1.0

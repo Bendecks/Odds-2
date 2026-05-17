@@ -1,11 +1,11 @@
 # Paper Test Log Status
 
-Raw log rows: 263
-Valid forward/proxy log rows: 260
-Deduped forward/proxy observation rows: 173
-Duplicate forward/proxy log rows: 87
-Valid automatic proxy observation rows: 260
-Deduped automatic proxy observation rows: 173
+Raw log rows: 278
+Valid forward/proxy log rows: 275
+Deduped forward/proxy observation rows: 184
+Duplicate forward/proxy log rows: 91
+Valid automatic proxy observation rows: 275
+Deduped automatic proxy observation rows: 184
 Invalid historical/proxy log rows excluded: 3
 Has valid forward log: True
 
@@ -34,26 +34,26 @@ Has valid forward log: True
 
 ## Raw valid rows
 
-- 2026-05-16 | Union Berlin vs Augsburg | selection=draw | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
-- 2026-05-16 | Chelsea FC vs Manchester City | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-16 | Borussia Monchengladbach vs TSG Hoffenheim | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-16 | Casa Pia vs Rio Ave | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-16 | Casa Pia vs Rio Ave | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-16 | Casa Pia Lisbon vs Rio Ave FC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-16 | Casa Pia Lisbon vs Rio Ave FC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-16 | SC Braga vs Estrela Amadora | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-17 | Genoa vs Milan | selection=home | phase=automatic_forward_price_proxy | tier=volume_observation
-- 2026-05-17 | Como vs Parma | selection=draw | phase=automatic_forward_price_proxy | tier=volume_observation
-- 2026-05-17 | Juventus vs Fiorentina | selection=draw | phase=automatic_forward_price_proxy | tier=volume_observation
-- 2026-05-17 | Como vs Parma | selection=draw | phase=automatic_forward_price_proxy | tier=volume_observation
-- 2026-05-17 | Juventus vs Fiorentina | selection=draw | phase=automatic_forward_price_proxy | tier=volume_observation
-- 2026-05-17 | Roma vs Lazio | selection=draw | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
-- 2026-05-16 | Heidenheim vs Mainz | selection=away | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
 - 2026-05-17 | Roma vs Lazio | selection=draw | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
 - 2026-05-17 | Man United vs Nott'm Forest | selection=away | phase=automatic_forward_price_proxy | tier=volume_observation
 - 2026-05-17 | Man United vs Nott'm Forest | selection=away | phase=automatic_forward_price_proxy | tier=volume_observation
 - 2026-05-16 | M'gladbach vs Hoffenheim | selection=draw | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
 - 2026-05-17 | Genoa vs Milan | selection=home | phase=automatic_forward_price_proxy | tier=volume_observation
+- 2026-05-17 | Gimhae FC vs Daegu FC | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-17 | Heracles vs Groningen | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-17 | Heracles Almelo vs FC Groningen | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-17 | V-Varen Nagasaki vs Vissel Kobe | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-17 | PEC Zwolle vs Feyenoord Rotterdam | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-17 | Zwolle vs Feyenoord | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-17 | Ternana vs AC Milan | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-17 | Genoa CFC vs AC Milan | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-17 | Heracles Almelo vs FC Groningen | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-17 | Heracles vs Groningen | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-17 | Genoa CFC vs AC Milan | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-17 | La Coruna vs Andorra | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-17 | RC Deportivo De La Coruna vs FC Andorra | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-17 | Ternana vs AC Milan | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-17 | Okayama Yunogo Belle vs Nittaidai FC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 
 ## Invalid rows excluded
 

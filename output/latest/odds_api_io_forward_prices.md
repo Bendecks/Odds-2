@@ -8,10 +8,10 @@ Captures provider rate-limit headers from each authenticated API response.
 Not real-money ready until validated against forward results and other sources.
 
 Enabled: True
-Calls used: 14 / 14
+Calls used: 5 / 14
 Max discovery calls: 13
 Events bookmaker: Bet365
-Events discovery rows: 650
+Events discovery rows: 583
 Events max pages: 6
 Events lookahead days: 14
 Max events per page/search: 180
@@ -19,72 +19,73 @@ Max priced events: 80
 Minimum event match confidence: 0.72
 Discovery mode: bookmaker_filtered_events_then_search_fallback_then_reserved_multi_odds
 Query source: forward_fixture_predictions
-Search fallback used: True
-Search queries used: Celtic, Falkirk, Hibernian, Sociedad B, Bayern Munich, Ein Frankfurt, Freiburg, Heidenheim, Leverkusen
-Selected event IDs: 70232102, 66886788, 71459880, 67681864, 68687652, 71478624, 68097900, 68822896, 71220890, 66886790, 70320270, 68156614, 68156616, 67119316, 66886778, 67844000, 67844006, 71495712, 69255022, 69255026, 67912070, 71501266, 70319970, 71422912, 70881726, 71307978, 62509066, 71507330, 67844002, 69090836, 70322106, 71307980, 69090842, 67844004, 69090876, 66299176, 68822902, 66299178, 67844008, 66299182, 66299184, 66299186, 66299188, 70893864, 68687644
+Search fallback used: False
+Search queries used: 
+Selected event IDs: 66299200, 69195814, 67807388, 68728640, 67645066, 69195322, 71495134, 71213396, 67692600, 68050298, 67691606, 67645068, 67648306, 67648148, 67645560, 67648464, 67648302, 67648308, 67904436, 67692602, 67807826, 68162384, 68916302, 67648466, 67648304, 67648150, 68916304, 67647988, 67694246, 68728646, 67645072, 67645070, 67904150, 71127906, 67648462, 68051600, 67694248, 70813618, 67904152, 67904438, 69767364, 67692606, 71423418, 69767366, 70968254, 67692246, 68046518, 70968234, 68046520, 67817706, 71465130, 68046516, 67817708, 67692610, 71000982, 67904440, 62778613, 62778611, 62778617, 66053720, 62083182, 62160254, 62181558, 62160252, 62181556, 62415644, 62181566, 62161250, 67648468, 71457340, 71000984, 63039311, 62161254, 71483872, 61061679, 67817710, 71300072, 71483564, 71483754, 71299758
 Multi-odds attempted: True
 Multi-odds skipped reason: 
 Bookmakers requested: Bet365
 Odds endpoint mode: multi_event_documented_endpoint
 Selected bookmakers: Bet365
 Selected markets: ML
-Fixture rows: 659
-Event selection diagnostic rows: 51013
-Selected event rows: 45
-Priced event rows: 9
-Price rows: 9
-Errors/status rows: 45
+Fixture rows: 583
+Event selection diagnostic rows: 43480
+Selected event rows: 80
+Priced event rows: 10
+Price rows: 10
+Errors/status rows: 70
 
 ## Provider rate-limit headers
 
-Header rows captured: 14
+Header rows captured: 5
 Latest x-ratelimit-limit: 100
-Latest x-ratelimit-remaining: 36
-Latest x-ratelimit-reset: 2026-05-16T21:38:06Z
+Latest x-ratelimit-remaining: 41
+Latest x-ratelimit-reset: 2026-05-17T02:58:57Z
 Latest retry-after: None
 
-- 2026-05-16 21:30 | Atletico Mineiro MG vs Mirassol FC SP | odds_api_io_Bet365_ML | 1.95/3.3/4.1
-- 2026-05-16 21:30 | CA Penarol Montevideo vs Liverpool Montevideo | odds_api_io_Bet365_ML | 1.85/3.3/4.1
-- 2026-05-16 21:30 | CD O´Higgins vs Universidad de Concepcion | odds_api_io_Bet365_ML | 1.533/4.2/5.5
-- 2026-05-16 21:30 | CD Universidad Catolica del Ecuador vs Delfin SC | odds_api_io_Bet365_ML | 1.42/4.333/6.5
-- 2026-05-16 21:30 | Cerro Porteno vs Recoleta FC | odds_api_io_Bet365_ML | 1.015/23.0/51.0
-- 2026-05-16 21:30 | Curico Unido vs Santiago Wanderers | odds_api_io_Bet365_ML | 1.85/3.5/3.4
-- 2026-05-16 21:30 | Goias EC GO vs Botafogo FC SP | odds_api_io_Bet365_ML | 1.95/2.9/3.75
-- 2026-05-16 21:30 | New Jersey United AC vs Jackson Lions FC | odds_api_io_Bet365_ML | 2.05/3.8/2.75
-- 2026-05-16 21:30 | SC Internacional RS vs CR Vasco da Gama RJ | odds_api_io_Bet365_ML | 1.909/3.4/4.333
+- 2026-05-17 02:30 | San Jose Earthquakes vs FC Dallas | odds_api_io_Bet365_ML | 2.0/3.75/3.4
+- 2026-05-17 02:45 | Canberra White Eagles FC vs Canberra Juventus FC | odds_api_io_Bet365_ML | 29.0/13.0/1.05
+- 2026-05-17 03:00 | Broadmeadow Magic FC vs Edgeworth FC | odds_api_io_Bet365_ML | 1.85/3.6/3.4
+- 2026-05-17 04:00 | Okayama Yunogo Belle vs Nittaidai FC | odds_api_io_Bet365_ML | 1.5/4.0/5.0
+- 2026-05-17 04:00 | V-Varen Nagasaki vs Vissel Kobe | odds_api_io_Bet365_ML | 4.75/3.5/1.75
+- 2026-05-17 04:30 | Canberra Olympic vs Tuggeranong United FC | odds_api_io_Bet365_ML | 1.02/21.0/51.0
+- 2026-05-17 04:30 | Diavorosso Hiroshima vs Yamato Sylphid | odds_api_io_Bet365_ML | 1.727/3.2/4.5
+- 2026-05-17 04:30 | Fukien vs Kwong Wah | odds_api_io_Bet365_ML | 1.42/5.0/4.75
+- 2026-05-17 04:40 | Bulls FC Academy vs Manly United FC | odds_api_io_Bet365_ML | 1.7/3.9/3.7
+- 2026-05-17 04:45 | Adelaide Olympic FC Reserve vs Cumberland United Reserve | odds_api_io_Bet365_ML | 1.615/5.25/3.2
 
 ## Event selection diagnostics
 
-- src=events_bookmaker_filtered | query=CD O´Higgins | target=CD O´Higgins vs Universidad de Concepcion | candidate=CD O´Higgins vs Universidad de Concepcion | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Lagarto FC SE | target=Lagarto FC SE vs CS Sergipe SE | candidate=Lagarto FC SE vs CS Sergipe SE | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Brooklyn FC | target=Brooklyn FC vs Hartford Athletic | candidate=Brooklyn FC vs Hartford Athletic | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=CD Universidad Catolica del Ecuador | target=CD Universidad Catolica del Ecuador vs Delfin SC | candidate=CD Universidad Catolica del Ecuador vs Delfin SC | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=One Knoxville SC | target=One Knoxville SC vs San Antonio FC | candidate=One Knoxville SC vs San Antonio FC | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Atletico Mineiro MG | target=Atletico Mineiro MG vs Mirassol FC SP | candidate=Atletico Mineiro MG vs Mirassol FC SP | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Point Michel | target=Point Michel vs Middleham United FC | candidate=Point Michel vs Middleham United FC | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=CT United FC | target=CT United FC vs Toronto FC II | candidate=CT United FC vs Toronto FC II | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Cerro Porteno | target=Cerro Porteno vs Recoleta FC | candidate=Cerro Porteno vs Recoleta FC | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Barcelona SC | target=Barcelona SC vs SD Aucas | candidate=Barcelona SC vs SD Aucas | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=CA River Plate (ARG) | target=CA River Plate (ARG) vs CA Rosario Central | candidate=CA River Plate (ARG) vs CA Rosario Central | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Richmond Kickers | target=Richmond Kickers vs Charleston Battery | candidate=Richmond Kickers vs Charleston Battery | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Cuiaba EC MT | target=Cuiaba EC MT vs Gremio Novorizontino SP | candidate=Cuiaba EC MT vs Gremio Novorizontino SP | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Weston FC | target=Weston FC vs Fort Lauderdale United FC | candidate=Weston FC vs Fort Lauderdale United FC | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Chattanooga Red Wolves SC | target=Chattanooga Red Wolves SC vs Birmingham Legion FC | candidate=Chattanooga Red Wolves SC vs Birmingham Legion FC | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Curico Unido | target=Curico Unido vs Santiago Wanderers | candidate=Curico Unido vs Santiago Wanderers | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Floresta EC CE | target=Floresta EC CE vs Amazonas FC AM | candidate=Floresta EC CE vs Amazonas FC AM | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Forward Madison FC | target=Forward Madison FC vs Detroit City FC | candidate=Forward Madison FC vs Detroit City FC | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Fort Wayne FC | target=Fort Wayne FC vs Indy Eleven | candidate=Fort Wayne FC vs Indy Eleven | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=DC United | target=DC United vs Saint Louis City SC | candidate=DC United vs Saint Louis City SC | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Iwaki FC | target=Iwaki FC vs Matsumoto Yamaga FC | candidate=Iwaki FC vs Matsumoto Yamaga FC | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Ferencvarosi TC II | target=Ferencvarosi TC II vs Pecsi MFC | candidate=Ferencvarosi TC II vs Pecsi MFC | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Debreceni VSC II | target=Debreceni VSC II vs Tiszaujvaros | candidate=Debreceni VSC II vs Tiszaujvaros | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=V-Varen Nagasaki | target=V-Varen Nagasaki vs Vissel Kobe | candidate=V-Varen Nagasaki vs Vissel Kobe | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Bucheon FC 1995 | target=Bucheon FC 1995 vs FC Pohang Steelers | candidate=Bucheon FC 1995 vs FC Pohang Steelers | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=RB Omiya Ardija | target=RB Omiya Ardija vs AC Nagano Parceiro | candidate=RB Omiya Ardija vs AC Nagano Parceiro | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Hwaseong FC | target=Hwaseong FC vs Busan I Park | candidate=Hwaseong FC vs Busan I Park | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Paksi FC II | target=Paksi FC II vs Majosi SE | candidate=Paksi FC II vs Majosi SE | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Kagoshima United | target=Kagoshima United vs Roasso Kumamoto | candidate=Kagoshima United vs Roasso Kumamoto | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Fagiano Okayama | target=Fagiano Okayama vs Shimizu S-Pulse | candidate=Fagiano Okayama vs Shimizu S-Pulse | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Canberra White Eagles FC | target=Canberra White Eagles FC vs Canberra Juventus FC | candidate=Canberra White Eagles FC vs Canberra Juventus FC | confidence=1.0 | selected=False | reason=
+- src=events_bookmaker_filtered | query=Club Deportiva Minera | target=Club Deportiva Minera vs CD Coria | candidate=Club Deportiva Minera vs CD Coria | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=JEF United Chiba | target=JEF United Chiba vs Kashima Antlers | candidate=JEF United Chiba vs Kashima Antlers | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Lee Man FC | target=Lee Man FC vs Tai Po FC | candidate=Lee Man FC vs Tai Po FC | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Canberra White Eagles FC | target=Canberra White Eagles FC vs Canberra Juventus FC | candidate=Canberra White Eagles FC vs Canberra Juventus FC | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Bali United | target=Bali United vs Bhayangkara Presisi Indonesia FC | candidate=Bali United vs Bhayangkara Presisi Indonesia FC | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Bulls FC Academy U23 | target=Bulls FC Academy U23 vs Manly United FC | candidate=Bulls FC Academy U23 vs Manly United FC | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=FC Ryukyu | target=FC Ryukyu vs Gainare Tottori | candidate=FC Ryukyu vs Gainare Tottori | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Garuda FC | target=Garuda FC vs Palmerston Rovers | candidate=Garuda FC vs Palmerston Rovers | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Adelaide Olympic FC Reserve | target=Adelaide Olympic FC Reserve vs Cumberland United Reserve | candidate=Adelaide Olympic FC Reserve vs Cumberland United Reserve | confidence=1.0 | selected=True | reason=
 
 ## Errors / Status
 
-- event_selection: No event above confidence 0.72 for query 'Celtic'; best=0.58
-- event_selection: No event above confidence 0.72 for query 'Falkirk'; best=0.0
-- event_selection: No event above confidence 0.72 for query 'Hibernian'; best=0.5281
-- event_selection: No event above confidence 0.72 for query 'Sociedad B'; best=0.3153
-- event_selection: No event above confidence 0.72 for query 'Bayern Munich'; best=0.4976
-- event_selection: No event above confidence 0.72 for query 'Ein Frankfurt'; best=0.4596
-- event_selection: No event above confidence 0.72 for query 'Freiburg'; best=0.5012
-- event_selection: No event above confidence 0.72 for query 'Heidenheim'; best=0.0
-- event_selection: No event above confidence 0.72 for query 'Leverkusen'; best=0.6432
-- odds_parse: No 1X2 odds found in multi-odds payload for event 70232102
+- multi_odds_match: No multi-odds payload matched event 67691606
+- multi_odds_match: No multi-odds payload matched event 67645068
+- multi_odds_match: No multi-odds payload matched event 67648306
+- multi_odds_match: No multi-odds payload matched event 67648148
+- multi_odds_match: No multi-odds payload matched event 67645560
+- multi_odds_match: No multi-odds payload matched event 67648464
+- multi_odds_match: No multi-odds payload matched event 67648302
+- multi_odds_match: No multi-odds payload matched event 67648308
+- multi_odds_match: No multi-odds payload matched event 67904436
+- multi_odds_match: No multi-odds payload matched event 67692602

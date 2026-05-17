@@ -3,10 +3,10 @@
 Manual Bet365 odds input is parked as an optional fallback. It is not an active development blocker.
 Current priority: automatic/free-data forward-testing sources and robust fixture/model matching.
 
-Upcoming fixtures: 707
-Manual template rows: 707
+Upcoming fixtures: 641
+Manual template rows: 641
 Rows with complete manual odds: 0
-Rows missing manual odds: 707
+Rows missing manual odds: 641
 Manual forward snapshot rows: 0
 Manual odds mode: optional_fallback_paused
 Manual odds is blocker: False
@@ -19,23 +19,23 @@ Upcoming fixtures exist, but no automatic odds/proxy forward snapshot source is 
 ## Optional manual fallback status
 
 Manual odds are not required in the current phase. These rows are only kept for later fallback use:
-- 2026-05-16 17:30 | Almeria vs Las Palmas
-- 2026-05-16 18:00 | Arouca vs Tondela
-- 2026-05-16 17:00 | Asteras Tripolis vs Kifisia
-- 2026-05-16 21:30 | Atletico Mineiro MG vs Mirassol FC SP
-- 2026-05-16 14:30 | Bayern Munich vs FC Koln
-- 2026-05-16 23:00 | Brooklyn FC vs Hartford Athletic
-- 2026-05-16 21:30 | CA Penarol Montevideo vs Liverpool Montevideo
-- 2026-05-16 22:30 | CA River Plate (ARG) vs CA Rosario Central
-- 2026-05-16 22:00 | Capital CF DF vs Ceilandia EC DF
-- 2026-05-16 23:00 | Carolina Ascent vs Sporting Jacksonville
-- 2026-05-16 22:00 | Carolina Core FC vs Chicago Fire FC II
-- 2026-05-16 18:00 | Casa Pia vs Rio Ave
-- 2026-05-16 21:30 | CD O´Higgins vs Universidad de Concepcion
-- 2026-05-16 23:00 | CD Tolima vs Atletico Nacional Medellin
-- 2026-05-16 21:30 | CD Universidad Catolica del Ecuador vs Delfin SC
-- 2026-05-16 12:30 | Celtic vs Hearts
-- 2026-05-16 21:30 | Cerro Porteno vs Recoleta FC
-- 2026-05-16 15:15 | Ceuta vs Malaga
-- 2026-05-16 15:00 | Charleroi vs Westerlo
-- 2026-05-16 23:30 | Charlotte FC vs Toronto FC
+- 2026-05-17 16:15 | 07 Vestur Sorvagur vs NSI Runavik
+- 2026-05-17 13:30 | 1. FC Magdeburg vs 1 FC Kaiserslautern
+- 2026-05-17 12:00 | 1. FC Slovacko Uherske Hradiste vs FC Slovan Liberec
+- 2026-05-17 20:30 | 9 de Octubre FC vs CD El Nacional
+- 2026-05-17 13:00 | ACF Brescia vs Bologna FC
+- 2026-05-17 16:00 | ACF Fiorentina vs Lazio Rome
+- 2026-05-17 14:30 | FC Abdysh-Ata vs FC Alay
+- 2026-05-17 14:00 | AC Prato 1908 vs ASD Seravezza Pozzi Calcio
+- 2026-05-17 14:00 | AC Vigasio vs Obermais
+- 2026-05-17 16:00 | AD Cantolao vs Carlos Mannucci
+- 2026-05-17 07:00 | Adelaide Olympic FC vs Cumberland United
+- 2026-05-17 04:45 | Adelaide Olympic FC Reserve vs Cumberland United Reserve
+- 2026-05-17 17:30 | AEK vs Olympiakos
+- 2026-05-17 16:30 | AEK Athens vs Olympiacos Piraeus
+- 2026-05-17 17:00 | Af Elbasani vs KF Egnatia Rrogozhine
+- 2026-05-17 16:00 | AGF Aarhus vs Viborg FF
+- 2026-05-17 17:00 | Aguilas FC vs Utebo FC
+- 2026-05-17 13:00 | AIK DFF vs Piteaa IF DFF
+- 2026-05-17 13:00 | AJ Auxerre vs OGC Nice
+- 2026-05-17 13:00 | FC Aktobe vs FK Atyrau
