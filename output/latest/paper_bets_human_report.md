@@ -5,9 +5,9 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 
 ## Kort status
 
-- Aktuelle viste paper picks: **16**
-- Unikke loggede paper picks: **174**
-- Afventer i loggen: **171**
+- Aktuelle viste paper picks: **14**
+- Unikke loggede paper picks: **183**
+- Afventer i loggen: **180**
 - Afgjorte fundet i settled-filen: **210**
 - Skjulte U-/reserve-rækker: **14**
 - Vundne: **70**
@@ -43,11 +43,74 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **volume_observation**
 - Note: **expanded_volume_forward_observation_not_real_money**
 
+### Brentford vs Crystal Palace
+- Dato: **2026-05-17**
+- Kampstart: **15:00**
+- Spil: **Udebanesejr**
+- Odds: **4.40**
+- Status: **Afventer**
+- Type: **volume_observation**
+- Note: **expanded_volume_forward_observation_not_real_money**
+
+### Elche vs Getafe
+- Dato: **2026-05-17**
+- Kampstart: **18:00**
+- Spil: **Udebanesejr**
+- Odds: **4.00**
+- Status: **Afventer**
+- Type: **volume_observation**
+- Note: **expanded_volume_forward_observation_not_real_money**
+
+### Atalanta vs Bologna
+- Dato: **2026-05-17**
+- Kampstart: **17:00**
+- Spil: **Udebanesejr**
+- Odds: **5.00**
+- Status: **Afventer**
+- Type: **priority_proxy_observation**
+- Note: **expanded_volume_forward_observation_not_real_money**
+
+### Osasuna vs Espanol
+- Dato: **2026-05-17**
+- Kampstart: **18:00**
+- Spil: **Udebanesejr**
+- Odds: **4.00**
+- Status: **Afventer**
+- Type: **volume_observation**
+- Note: **expanded_volume_forward_observation_not_real_money**
+
 ### Roma vs Lazio
 - Dato: **2026-05-17**
 - Kampstart: **11:00**
 - Spil: **Uafgjort**
 - Odds: **4.50**
+- Status: **Afventer**
+- Type: **priority_proxy_observation**
+- Note: **expanded_volume_forward_observation_not_real_money**
+
+### Ath Madrid vs Girona
+- Dato: **2026-05-17**
+- Kampstart: **18:00**
+- Spil: **Udebanesejr**
+- Odds: **4.50**
+- Status: **Afventer**
+- Type: **priority_proxy_observation**
+- Note: **expanded_volume_forward_observation_not_real_money**
+
+### Wolves vs Fulham
+- Dato: **2026-05-17**
+- Kampstart: **15:00**
+- Spil: **Hjemmesejr**
+- Odds: **3.80**
+- Status: **Afventer**
+- Type: **priority_proxy_observation**
+- Note: **expanded_volume_forward_observation_not_real_money**
+
+### Ath Bilbao vs Celta
+- Dato: **2026-05-17**
+- Kampstart: **18:00**
+- Spil: **Udebanesejr**
+- Odds: **3.75**
 - Status: **Afventer**
 - Type: **priority_proxy_observation**
 - Note: **expanded_volume_forward_observation_not_real_money**
@@ -61,104 +124,23 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **volume_observation**
 - Note: **expanded_volume_forward_observation_not_real_money**
 
-### Gimhae FC vs Daegu FC
+### Sociedad vs Valencia
 - Dato: **2026-05-17**
-- Kampstart: **07:30**
-- Spil: **Hjemmesejr**
-- Odds: **4.75**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Heracles vs Groningen
-- Dato: **2026-05-17**
-- Kampstart: **13:30**
-- Spil: **Hjemmesejr**
-- Odds: **4.75**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Heracles Almelo vs FC Groningen
-- Dato: **2026-05-17**
-- Kampstart: **12:30**
-- Spil: **Hjemmesejr**
-- Odds: **4.75**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### V-Varen Nagasaki vs Vissel Kobe
-- Dato: **2026-05-17**
-- Kampstart: **04:00**
-- Spil: **Hjemmesejr**
-- Odds: **4.75**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### PEC Zwolle vs Feyenoord Rotterdam
-- Dato: **2026-05-17**
-- Kampstart: **12:30**
-- Spil: **Hjemmesejr**
-- Odds: **4.75**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Zwolle vs Feyenoord
-- Dato: **2026-05-17**
-- Kampstart: **13:30**
-- Spil: **Hjemmesejr**
-- Odds: **4.75**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Ternana vs AC Milan
-- Dato: **2026-05-17**
-- Kampstart: **13:00**
-- Spil: **Hjemmesejr**
-- Odds: **4.65**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Genoa CFC vs AC Milan
-- Dato: **2026-05-17**
-- Kampstart: **10:00**
-- Spil: **Hjemmesejr**
-- Odds: **4.65**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### La Coruna vs Andorra
-- Dato: **2026-05-17**
-- Kampstart: **13:00**
+- Kampstart: **18:00**
 - Spil: **Udebanesejr**
-- Odds: **5.01**
+- Odds: **3.40**
 - Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+- Type: **priority_proxy_observation**
+- Note: **expanded_volume_forward_observation_not_real_money**
 
-### RC Deportivo De La Coruna vs FC Andorra
+### Sevilla vs Real Madrid
 - Dato: **2026-05-17**
-- Kampstart: **12:00**
-- Spil: **Udebanesejr**
-- Odds: **5.01**
+- Kampstart: **18:00**
+- Spil: **Uafgjort**
+- Odds: **4.00**
 - Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Okayama Yunogo Belle vs Nittaidai FC
-- Dato: **2026-05-17**
-- Kampstart: **04:00**
-- Spil: **Udebanesejr**
-- Odds: **5.00**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+- Type: **priority_proxy_observation**
+- Note: **expanded_volume_forward_observation_not_real_money**
 
 ## Afgjorte paper picks
 

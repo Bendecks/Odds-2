@@ -1,8 +1,8 @@
 # Prediction Stability Report
 
-Total tracked predictions: 2036
-Stable predictions: 1990
-Unstable predictions: 46
+Total tracked predictions: 2266
+Stable predictions: 2218
+Unstable predictions: 48
 
 ## Most unstable predictions
 

@@ -3,11 +3,11 @@
 Purpose: distinguish true automatic forward inputs from historical market proxy and paused manual fallback.
 Football-Data and odds-api.io prices are treated as paper-test proxy prices until validated.
 
-Upcoming fixture rows: 641
-Fixture team rows unmatched: 1187
+Upcoming fixture rows: 465
+Fixture team rows unmatched: 843
 Ready for model-fixture join: False
-Automatic forward price rows: 262
-odds-api.io price rows: 51
+Automatic forward price rows: 271
+odds-api.io price rows: 60
 Football-Data price rows: 211
 Automatic forward status: automatic_forward_not_ready
 Blocker: fixture_model_team_matching_incomplete
@@ -19,11 +19,8 @@ Next development step: add_team_aliases_for_upcoming_fixtures
 - NSI Runavik | suggestion=nan | type=unmatched
 - 1. FC Magdeburg | suggestion=nan | type=unmatched
 - 1 FC Kaiserslautern | suggestion=nan | type=unmatched
-- 1. FC Slovacko Uherske Hradiste | suggestion=nan | type=unmatched
-- FC Slovan Liberec | suggestion=nan | type=unmatched
 - 9 de Octubre FC | suggestion=nan | type=unmatched
 - CD El Nacional | suggestion=nan | type=unmatched
-- ACF Brescia | suggestion=nan | type=unmatched
 - ACF Fiorentina | suggestion=Fiorentina | type=suggested_alias_needed
 - Lazio Rome | suggestion=nan | type=unmatched
 - FC Abdysh-Ata | suggestion=nan | type=unmatched
@@ -34,10 +31,6 @@ Next development step: add_team_aliases_for_upcoming_fixtures
 - Obermais | suggestion=nan | type=unmatched
 - AD Cantolao | suggestion=nan | type=unmatched
 - Carlos Mannucci | suggestion=nan | type=unmatched
-- Adelaide Olympic FC | suggestion=nan | type=unmatched
-- Cumberland United | suggestion=nan | type=unmatched
-- Adelaide Olympic FC Reserve | suggestion=nan | type=unmatched
-- Cumberland United Reserve | suggestion=nan | type=unmatched
 - AEK | suggestion=nan | type=unmatched
 - Olympiakos | suggestion=nan | type=unmatched
 - AEK Athens | suggestion=nan | type=unmatched
@@ -45,6 +38,13 @@ Next development step: add_team_aliases_for_upcoming_fixtures
 - Af Elbasani | suggestion=nan | type=unmatched
 - KF Egnatia Rrogozhine | suggestion=nan | type=unmatched
 - AGF Aarhus | suggestion=nan | type=unmatched
+- Viborg FF | suggestion=nan | type=unmatched
+- Aguilas FC | suggestion=nan | type=unmatched
+- Utebo FC | suggestion=nan | type=unmatched
+- AL Bataeh | suggestion=nan | type=unmatched
+- Shabab AL Ahli Dubai Club | suggestion=nan | type=unmatched
+- AL Wahda FC | suggestion=nan | type=unmatched
+- AL Dhafra U23 | suggestion=nan | type=unmatched
 
 ## Interpretation
 

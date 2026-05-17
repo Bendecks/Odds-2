@@ -1,24 +1,17 @@
 fixture_id,match_date,match_time,home_team,away_team,league,bookmaker,market_home_odds,market_draw_odds,market_away_odds,odds_captured_at_utc,odds_source_note
 odds_api_io_67849988,2026-05-17,16:15,07 Vestur Sorvagur,NSI Runavik,faroe-islands-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61515244,2026-05-17,13:30,1. FC Magdeburg,1 FC Kaiserslautern,germany-2-bundesliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_70223970,2026-05-17,12:00,1. FC Slovacko Uherske Hradiste,FC Slovan Liberec,czechia-1-liga-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_70350992,2026-05-17,20:30,9 de Octubre FC,CD El Nacional,ecuador-serie-b,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_62705717,2026-05-17,13:00,ACF Brescia,Bologna FC,italy-serie-b-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_62352472,2026-05-17,16:00,ACF Fiorentina,Lazio Rome,italy-serie-a-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71495162,2026-05-17,14:30,FC Abdysh-Ata,FC Alay,kyrgyzstan-top-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71467818,2026-05-17,14:00,AC Prato 1908,ASD Seravezza Pozzi Calcio,italy-serie-d-group-e,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71471574,2026-05-17,14:00,AC Vigasio,Obermais,italy-serie-d-group-c,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71325534,2026-05-17,16:00,AD Cantolao,Carlos Mannucci,peru-liga-2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_68051600,2026-05-17,07:00,Adelaide Olympic FC,Cumberland United,australia-south-australia-state-league-1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_68050298,2026-05-17,04:45,Adelaide Olympic FC Reserve,Cumberland United Reserve,australia-south-australia-state-league-1-reserves,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_G1_2026-05-17_AEK_Olympiakos,2026-05-17,17:30,AEK,Olympiakos,G1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_70231856,2026-05-17,16:30,AEK Athens,Olympiacos Piraeus,greece-super-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71424672,2026-05-17,17:00,Af Elbasani,KF Egnatia Rrogozhine,albania-kategoria-superiore,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_69653778,2026-05-17,16:00,AGF Aarhus,Viborg FF,denmark-superliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71300060,2026-05-17,17:00,Aguilas FC,Utebo FC,spain-segunda-federacion,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_66918122,2026-05-17,13:00,AIK DFF,Piteaa IF DFF,sweden-damallsvenskan,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_62245474,2026-05-17,13:00,AJ Auxerre,OGC Nice,france-seconde-ligue-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_69343020,2026-05-17,13:00,FC Aktobe,FK Atyrau,kazakhstan-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71491076,2026-05-17,14:10,AL Bataeh,Shabab AL Ahli Dubai Club,united-arab-emirates-u23-pro-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71491078,2026-05-17,14:10,AL Wahda FC,AL Dhafra U23,united-arab-emirates-u23-pro-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_70864180,2026-05-17,18:00,Al-Shabab FC (SA),Al-Ittihad Club,saudi-arabia-saudi-pro-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
@@ -28,55 +21,41 @@ odds_api_io_68751782,2026-05-17,18:00,America FC MG,Sao Paulo FC SP,brazil-u20-c
 odds_api_io_70321602,2026-05-17,19:00,America FC RN,Club Laguna SAF,brazil-brasileiro-serie-d,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_69255028,2026-05-17,21:00,Anapolis FC GO,Barra FC SC,brazil-brasileiro-serie-c,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_B1_2026-05-17_Anderlecht_Mechelen,2026-05-17,12:30,Anderlecht,Mechelen,B1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_69221030,2026-05-17,11:00,Angkor Tiger FC,Nagaworld FC,cambodia-cambodian-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_T1_2026-05-17_Antalyaspor_Kocaelispor,2026-05-17,18:00,Antalyaspor,Kocaelispor,T1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_67122868,2026-05-17,18:30,Argentino de Rosario,CA Central Cordoba Rosario,argentina-primera-c,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71494650,2026-05-17,20:00,Argentinos Juniors,CA Belgrano de Cordoba,argentina-liga-profesional,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_G1_2026-05-17_Aris_Levadeiakos,2026-05-17,15:00,Aris,Levadeiakos,G1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_70231956,2026-05-17,14:00,Aris Thessaloniki,APO Levadiakos FC,greece-super-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61515256,2026-05-17,13:30,Arminia Bielefeld,Hertha BSC,germany-2-bundesliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_61061679,2026-05-17,10:00,AS Roma,Lazio Rome,italy-serie-a,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_61788924,2026-05-17,16:30,AS La Jeunesse D Esch/Alzette,FC Progres Niederkorn,luxembourg-division-nationale,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71467824,2026-05-17,14:00,ASD Martina Calcio 1947,Paganese Calcio,italy-serie-d-group-h,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_62705719,2026-05-17,13:00,Asd Trastevere Calcio,Freedom FC,italy-serie-b-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_70881732,2026-05-17,16:00,Asociacion Deportiva Tarma,Comerciantes Unidos,peru-liga-1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_I1_2026-05-17_Atalanta_Bologna,2026-05-17,17:00,Atalanta,Bologna,serie_a,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61061665,2026-05-17,16:00,Atalanta BC,Bologna FC,italy-serie-a,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_SP1_2026-05-17_Ath_Bilbao_Celta,2026-05-17,18:00,Ath Bilbao,Celta,la_liga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_SP1_2026-05-17_Ath_Madrid_Girona,2026-05-17,18:00,Ath Madrid,Girona,la_liga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61624658,2026-05-17,17:00,Athletic Bilbao,RC Celta de Vigo,spain-laliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_61685716,2026-05-17,15:00,Athletic Bilbao B,CD Guadalajara,spain-primera-federacion,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68822890,2026-05-17,19:00,Athletic Club Sjdr MG,EC Juventude RS,brazil-brasileiro-serie-b,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71464030,2026-05-17,20:00,Atletico Avila FC,Dynamo Puerto FC,venezuela-segunda-division,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61624660,2026-05-17,17:00,Atletico Madrid,Girona FC,spain-laliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68685982,2026-05-17,17:00,Atletico Ottawa,HFX Wanderers FC,canada-canadian-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71439998,2026-05-17,14:00,Ayvalikgucu Belediyespor,52 Orduspor FK,turkiye-amateur-3-lig-playoffs,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_N1_2026-05-17_AZ_Alkmaar_NAC_Breda,2026-05-17,13:30,AZ Alkmaar,NAC Breda,N1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_62083182,2026-05-17,08:30,Bali United,Bhayangkara Presisi Indonesia FC,indonesia-liga-1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_71491080,2026-05-17,14:10,Baniyas,AL Jazira,united-arab-emirates-u23-pro-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_SP1_2026-05-17_Barcelona_Betis,2026-05-17,20:15,Barcelona,Betis,la_liga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61624662,2026-05-17,19:15,FC Barcelona,Real Betis Seville,spain-laliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71512076,2026-05-17,21:00,Barcelona SC,Liga Deportiva Universitaria de Quito,ecuador-superliga-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_63157259,2026-05-17,13:00,Baroka FC,Upington City FC,south-africa-championship,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71475324,2026-05-17,22:00,Barranquilla FC,Union Magdalena,colombia-primera-b,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_61970282,2026-05-17,12:00,Bayer Leverkusen,Werder Bremen,germany-amateur-women-bundesliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_71000982,2026-05-17,08:00,Beijing WFC,Jiangsu LFC,china-chinese-super-league-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_70969288,2026-05-17,11:30,BG Tampines Rovers,Lion City Sailors FC,singapore-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_D2_2026-05-17_Bielefeld_Hertha,2026-05-17,14:30,Bielefeld,Hertha,D2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_68377670,2026-05-17,11:00,BK Astrio,Galtabacks BK,sweden-division-2-promotion-playoffs,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68311602,2026-05-17,14:00,BK Olympic,Aatvidabergs FF,sweden-ettan-relegation/promotion,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_62037496,2026-05-17,13:00,Blekitni Stargard,MKS Notec Czarnkow,poland-iii-liga-group-2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_69221032,2026-05-17,11:00,Boeung Ket Angkor FC,MOI Kompong Dewa FC,cambodia-cambodian-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71464034,2026-05-17,19:00,Bolivar SC,Monagas SC B,venezuela-segunda-division,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_68320794,2026-05-17,12:00,Bollstanas SK,Falu BS FK,sweden-division-2-promotion-playoffs,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71483390,2026-05-17,17:00,Bollullos CF,Club Atletico Central,spain-amateur-tercera-federacion-group-10,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_66886780,2026-05-17,19:00,Botafogo FR RJ,SC Corinthians SP,brazil-brasileiro-serie-a,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_E0_2026-05-17_Brentford_Crystal_Palace,2026-05-17,15:00,Brentford,Crystal Palace,premier_league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_F1_2026-05-17_Brest_Angers,2026-05-17,20:00,Brest,Angers,ligue_1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67807388,2026-05-17,03:00,Broadmeadow Magic FC,Edgeworth FC,australia-northern-nsw-npl,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_62038108,2026-05-17,16:30,Bron Radom,Legia Warszawa II,poland-iii-liga-group-1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67817710,2026-05-17,10:00,Bucheon FC 1995,FC Pohang Steelers,republic-of-korea-k-league-1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_62161252,2026-05-17,15:00,Budaorsi SC,Veszprem FC,hungary-nb-iii,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67692600,2026-05-17,04:40,Bulls FC Academy,Manly United FC,australia-nsw-premier-league-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67694248,2026-05-17,07:00,Bulls FC Academy U23,Manly United FC,australia-u23-nsw-npl-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_70983346,2026-05-17,12:00,Buriram United,Ayutthaya United FC,thailand-fa-cup,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71475810,2026-05-17,16:00,CA Fenix Montevideo,Tacuarembo FC,uruguay-segunda-division,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61624674,2026-05-17,17:00,CA Osasuna,Espanyol Barcelona,spain-laliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_66886792,2026-05-17,22:30,CA Paranaense PR,CR Flamengo RJ,brazil-brasileiro-serie-a,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
@@ -86,386 +65,234 @@ fd_I1_2026-05-17_Cagliari_Torino,2026-05-17,19:45,Cagliari,Torino,serie_a,bet365
 odds_api_io_61061667,2026-05-17,18:45,Cagliari Calcio,Torino FC,italy-serie-a,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71467784,2026-05-17,14:00,Calcio Desenzano,US Grosseto,italy-serie-d-poule-scudetto,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71505196,2026-05-17,18:45,Calcio Lecco 1912,Calcio Catania,italy-serie-c-promotion-playoffs,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_69195322,2026-05-17,04:30,Canberra Olympic,Tuggeranong United FC,australia-capital-npl-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_69195814,2026-05-17,02:45,Canberra White Eagles FC,Canberra Juventus FC,australia-u23-capital-npl,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_63157261,2026-05-17,13:00,Casric Stars FC,Gomora United,south-africa-championship,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71516394,2026-05-17,22:00,Cavalier FC,Montego Bay United,jamaica-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_71541084,2026-05-17,19:00,CD Afiz,Deportivo Escara,bolivia-copa-simon-bolivar,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61685710,2026-05-17,15:00,CD Arenteiro,SD Ponferradina,spain-primera-federacion,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_71300072,2026-05-17,10:00,CD Atletico Baleares,Coruxo FC,spain-segunda-federacion,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_71483688,2026-05-17,11:00,CD Azuaga,Moralo CP,spain-amateur-tercera-federacion-group-14,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71483760,2026-05-17,15:00,CD Calahorra,CD Arnedo,spain-amateur-tercera-federacion-group-16,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71483866,2026-05-17,16:00,CD Caspe,CD Cuarte,spain-amateur-tercera-federacion-group-17,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71482416,2026-05-17,16:00,CD Guarnizo,CD Tropezon,spain-amateur-tercera-federacion-group-3,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71482712,2026-05-17,14:00,CD Leganes B,CF Trival Valderas Alcoron,spain-amateur-tercera-federacion-group-7,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_71483564,2026-05-17,10:00,CD Llosetense,CD Manacor,spain-amateur-tercera-federacion-group-11,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_71483872,2026-05-17,09:30,CD Manchego Ciudad Real,CD Tarancon,spain-amateur-tercera-federacion-group-18,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71454144,2026-05-17,15:00,CD Mosconia,CD Covadonga,spain-amateur-tercera-federacion-group-2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_71483754,2026-05-17,10:00,CD Subiza,CD Izarra,spain-amateur-tercera-federacion-group-15,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71325538,2026-05-17,18:10,CD Universidad Cesar Vallejo,CDU San Martin,peru-liga-2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_67122882,2026-05-17,18:30,CDM Leandro N. Alem,Deportivo Muniz,argentina-primera-c,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_71482450,2026-05-17,10:30,CE L'Hospitalet,CF Badalona,spain-amateur-tercera-federacion-group-5,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68822894,2026-05-17,21:30,Ceara SC CE,Fortaleza EC CE,brazil-brasileiro-serie-b,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67691606,2026-05-17,05:00,Central Coast Mariners Academy,Hills United FC Brumbies,australia-nsw-league-one,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_71459998,2026-05-17,13:00,Central Espanol FC,Defensor Sporting,uruguay-primera-division,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_70321604,2026-05-17,18:00,Central SC PE,Maguary PE,brazil-brasileiro-serie-d,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67645072,2026-05-17,06:00,Cerezo Osaka,Nagoya Grampus,japan-jleague,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_62705721,2026-05-17,13:00,Cesena FC,Frosinone,italy-serie-b-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71186496,2026-05-17,18:00,Chabab Atlas Khenifra,CODM Meknes,morocco-coupe-du-trone,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_66886796,2026-05-17,21:30,Chapecoense SC,Clube do Remo PA,brazil-brasileiro-serie-a,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_71483358,2026-05-17,10:30,Churriana de la Vega CF,CF Motril,spain-amateur-tercera-federacion-group-9,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_70323246,2026-05-17,19:00,Cianorte FC PR,Cascavel PR,brazil-brasileiro-serie-d,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_68156632,2026-05-17,23:00,FC Cincinnati 2,Chattanooga FC,usa-mls-next-pro,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71180490,2026-05-17,20:30,Club Alianza Lima,Universitario de Deportes,peru-liga-femenina,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71454738,2026-05-17,18:00,Club America,CF Monterrey,mexico-liga-mx-women-clausura,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_71475808,2026-05-17,13:00,Club Atletico Rentistas,Miramar Misiones,uruguay-segunda-division,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_B1_2026-05-17_Club_Brugge_St._Gilloise,2026-05-17,17:30,Club Brugge,St. Gilloise,B1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_70207434,2026-05-17,16:30,Club Brugge,Union Saint-Gilloise,belgium-pro-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_67119312,2026-05-17,18:30,Club Comunicaciones,Argentino de Quilmes,argentina-primera-b,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_71299758,2026-05-17,10:00,Club Deportiva Minera,CD Coria,spain-segunda-federacion,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_71426264,2026-05-17,13:00,Club General Caballero JLM,Sol de America Villa Elisa,paraguay-segunda-division,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71475814,2026-05-17,23:30,Club Oriental de Football,La Luz FC,uruguay-segunda-division,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71180486,2026-05-17,15:00,Club Yanapuma,Flamengo FBC,peru-liga-femenina,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_67681850,2026-05-17,19:00,Cobresal,Universidad de Chile,chile-primera-division,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_70579314,2026-05-17,13:00,College Corinthians FC,Killester Donnycarney FC,ireland-fai-cup,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_67681862,2026-05-17,21:30,Colo-Colo,Nublense,chile-primera-division,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_70774894,2026-05-17,15:00,Colombe Sportive Du Dja Et Lobo,Panthere Sportive,cameroon-elite-one,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_I1_2026-05-17_Como_Parma,2026-05-17,11:00,Como,Parma,serie_a,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_62705727,2026-05-17,13:00,Como 1907,Asd Vicenza Calcio,italy-serie-b-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_61061669,2026-05-17,10:00,Como 1907,Parma Calcio,italy-serie-a,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_68663484,2026-05-17,12:15,Cong An Ha Noi FC,Dong A Thanh Hoa,vietnam-v-league-1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_69653824,2026-05-17,12:00,FC Copenhagen,Randers FC,denmark-superliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_70322854,2026-05-17,19:00,CRA Catalano GO,Abecat Ouvidorense GO,brazil-brasileiro-serie-d,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_62036274,2026-05-17,10:00,Cracovia Krakow II,Chelmianka Chelm,poland-iii-liga-group-4,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68822898,2026-05-17,21:30,Criciuma EC SC,AC Goianiense GO,brazil-brasileiro-serie-b,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_61789404,2026-05-17,14:00,CS Fola Esch-Alzette,FC Marisca Mersch,luxembourg-promotion-d'honneur,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_62180514,2026-05-17,15:00,Csepel SC,Gyulai FC,hungary-nb-iii,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_D2_2026-05-17_Darmstadt_Paderborn,2026-05-17,14:30,Darmstadt,Paderborn,D2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_62160254,2026-05-17,09:00,Debreceni VSC II,Tiszaujvaros,hungary-nb-iii,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_70381492,2026-05-17,12:30,Dedza Dynamos FC,Blue Eagles Malawi,malawi-super-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_70962962,2026-05-17,13:00,Dempo SC,Diamond Harbour FC,india-i-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_69254654,2026-05-17,15:00,Deportes Iquique,Universidad Catolica,chile-primera-division-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_69254660,2026-05-17,15:00,Deportes Temuco,Huachipato,chile-primera-division-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_71300080,2026-05-17,10:00,Deportivo Alaves B,Real Jaen CF,spain-segunda-federacion,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_70881756,2026-05-17,18:15,Deportivo Garcilaso,UTC de Cajamarca,peru-liga-1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_67122890,2026-05-17,18:30,Deportivo Paraguayo,Club Lujan,argentina-primera-c,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71335222,2026-05-17,20:30,Deportivo Pereira FC SA,Real Cundinamarca,colombia-copa-colombia,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_71423420,2026-05-17,10:00,Deren,Hunters FC,mongolia-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_70162028,2026-05-17,12:00,Dfk Dainava B,FK Panevezys B,lithuania-ii-lyga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_71495134,2026-05-17,04:30,Diavorosso Hiroshima,Yamato Sylphid,japan-nadeshiko-league-div-2-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71491082,2026-05-17,14:10,Dibba Al Fujairah,AL Ain FC,united-arab-emirates-u23-pro-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_D2_2026-05-17_Dresden_Holstein_Kiel,2026-05-17,14:30,Dresden,Holstein Kiel,D2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_SC0_2026-05-17_Dundee_Aberdeen,2026-05-17,14:00,Dundee,Aberdeen,SC0,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61515258,2026-05-17,13:30,Dynamo Dresden,Holstein Kiel,germany-2-bundesliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67563284,2026-05-17,13:00,Dynamos Harare FC,Triangle United,zimbabwe-premier-soccer-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_71482276,2026-05-17,11:00,Ebk,Pallokerho Keski-Uusimaa,finland-ykkonen-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_66886794,2026-05-17,19:00,EC Bahia BA,Gremio FB Porto Alegrense RS,brazil-brasileiro-serie-a,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_61970274,2026-05-17,12:00,Eintracht Frankfurt,FC Union Berlin,germany-amateur-women-bundesliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_62037500,2026-05-17,13:00,Elana Torun,Sks Unia Swarzedz,poland-iii-liga-group-2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_SP1_2026-05-17_Elche_Getafe,2026-05-17,18:00,Elche,Getafe,la_liga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_D2_2026-05-17_Elversberg_Preußen_Münster,2026-05-17,14:30,Elversberg,Preußen Münster,D2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68310896,2026-05-17,14:00,Enkopings SK,Sollentuna FK,sweden-ettan-relegation/promotion,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_68320790,2026-05-17,11:00,Enskede IK,Helges IF,sweden-division-2-promotion-playoffs,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_62181570,2026-05-17,15:00,Erdi VSE,Kaposvari Rakoczi FC,hungary-nb-iii,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71039906,2026-05-17,14:30,ES Metlaoui,Esperance Sportive de Tunis,tunisia-tunisian-cup,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68311600,2026-05-17,14:00,Eskilsminne IF,Skovde AIK,sweden-ettan-relegation/promotion,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_66918126,2026-05-17,13:00,Eskilstuna United DFF,IK Uppsala Fotboll,sweden-damallsvenskan,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71172388,2026-05-17,21:00,Estudiantes de Merida,Carabobo FC,venezuela-primera-division,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_E0_2026-05-17_Everton_Sunderland,2026-05-17,15:00,Everton,Sunderland,premier_league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61301257,2026-05-17,14:00,Everton FC,Sunderland AFC,england-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_69670716,2026-05-17,14:00,FA Siauliai B,FK Ekranas,lithuania-1-lyga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67645068,2026-05-17,05:00,Fagiano Okayama,Shimizu S-Pulse,japan-jleague,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_68310898,2026-05-17,11:00,FBK Karlstad,Umea FC,sweden-ettan-relegation/promotion,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_T1_2026-05-17_Fenerbahce_Eyupspor,2026-05-17,18:00,Fenerbahce,Eyupspor,T1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61730238,2026-05-17,17:00,Fenerbahce Istanbul,Eyupspor,turkiye-super-lig,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_62181558,2026-05-17,09:00,Ferencvarosi TC II,Pecsi MFC,hungary-nb-iii,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_69255018,2026-05-17,19:00,Ferroviaria Araraquara SP,Brusque FC SC,brazil-brasileiro-serie-c,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_70321088,2026-05-17,20:00,Ferroviario AC CE,FC Atletico CE,brazil-brasileiro-serie-d,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68194642,2026-05-17,17:00,FH Hafnarfjordur,KA Akureyri,iceland-besta-deild,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_68377556,2026-05-17,12:00,Fittja IF,IF Eker Orebro,sweden-division-2-promotion-playoffs,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68492528,2026-05-17,14:00,FK Auda Riga,FC RFS,latvia-virsliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_69751550,2026-05-17,12:30,FK Austria Wien,LASK Linz,austria-bundesliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_70708878,2026-05-17,14:00,FK Cukaricki Belgrade,FK Partizan Belgrade,serbia-superliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_70681962,2026-05-17,15:00,FK Kabel Novi Sad,RFK Graficar Beograd,serbia-prva-liga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68492526,2026-05-17,16:00,FK Liepaja,BFC Daugavpils,latvia-virsliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_70708874,2026-05-17,15:00,FK Novi Pazar,FK Zeleznicar Pancevo,serbia-superliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_70708872,2026-05-17,16:30,FK Radnik Surdulica,FK Crvena Zvezda Belgrade,serbia-superliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71501374,2026-05-17,16:30,Fortune,Samger FC,gambia-division-one,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_69653826,2026-05-17,12:00,FC Fredericia,Silkeborg IF,denmark-superliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_71213396,2026-05-17,04:30,Fukien,Kwong Wah,hong-kong-china-2-division,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71501376,2026-05-17,16:30,Gambian Dutch Lions,Team Rhino,gambia-division-one,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67817712,2026-05-17,10:00,Gangwon FC,Ulsan HD FC,republic-of-korea-k-league-1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_71127906,2026-05-17,06:30,Garuda FC,Palmerston Rovers,australia-northern-territory-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_70971654,2026-05-17,16:00,GD Vitoria Sernache,FC Oliveira do Hospital,portugal-campeonato-de-portugal,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68310900,2026-05-17,14:00,Gefle IF,Assyriska FF,sweden-ettan-relegation/promotion,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_I1_2026-05-17_Genoa_Milan,2026-05-17,11:00,Genoa,Milan,serie_a,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_61061671,2026-05-17,10:00,Genoa CFC,AC Milan,italy-serie-a,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_68046518,2026-05-17,07:30,Gimhae FC,Daegu FC,republic-of-korea-k-league-2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71453942,2026-05-17,18:00,Gimnasia Y Esgrima La Plata,CA San Lorenzo de Almagro,argentina-primera-division-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_61062333,2026-05-17,12:45,GKS Katowice,Jagiellonia Bialystok,poland-ekstraklasa,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_61062335,2026-05-17,10:15,GKS Piast Gliwice,RKS Rakow Czestochowa,poland-ekstraklasa,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_62038110,2026-05-17,15:00,GKS Wikielec,KS Warta Sieradz,poland-iii-liga-group-1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_65026002,2026-05-17,15:00,Godolloi SK,Nyiregyhaza Spartacus FC II,hungary-nb-iii,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_D2_2026-05-17_Greuther_Furth_Fortuna_Dusseldorf,2026-05-17,14:30,Greuther Furth,Fortuna Dusseldorf,D2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_70379182,2026-05-17,23:30,Guabira Montero,CA Nacional Potosi,bolivia-division-profesional,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_69255020,2026-05-17,21:30,Guarani FC SP,Ituano FC SP,brazil-brasileiro-serie-c,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_70968234,2026-05-17,07:30,Guizhou Xufengtang,Shijiazhuang Gongfu FC,china-fa-cup,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_61970276,2026-05-17,12:00,Hamburger SV,Bayern Munich,germany-amateur-women-bundesliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_69279590,2026-05-17,13:30,Hamilton Academical WFC,Montrose FC,scotland-premier-league-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67126552,2026-05-17,12:00,Hammarby IF,Malmo FF,sweden-allsvenskan,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_D2_2026-05-17_Hannover_Nurnberg,2026-05-17,14:30,Hannover,Nurnberg,D2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61515248,2026-05-17,13:30,Hannover 96,1 FC Nuremberg,germany-2-bundesliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71312956,2026-05-17,14:30,Hapoel Petah Tikva Nahum,Hapoel Beer Sheva,israel-u19-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71501378,2026-05-17,16:30,Hawks FC,Bombada,gambia-division-one,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_69279558,2026-05-17,12:10,Heart of Midlothian WFC,Glasgow City LFC,scotland-premier-league-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_N1_2026-05-17_Heerenveen_Ajax,2026-05-17,13:30,Heerenveen,Ajax,N1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71324796,2026-05-17,18:00,Heips RJ,Coritiba FC PR,brazil-brasileiro-a3-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_62705723,2026-05-17,13:00,Hellas Verona,Lumezzane,italy-serie-b-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_70730374,2026-05-17,11:00,FC Helsingoer,Skive IK,denmark-2nd-division,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_N1_2026-05-17_Heracles_Groningen,2026-05-17,13:30,Heracles,Groningen,N1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_61320269,2026-05-17,12:30,Heracles Almelo,FC Groningen,netherlands-eredivisie,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67563280,2026-05-17,13:00,Highlanders FC,Ngezi Platinum,zimbabwe-premier-soccer-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67694246,2026-05-17,05:30,Hills United FC,Gladesville Ravens,australia-u23-nsw-npl-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_68663478,2026-05-17,10:00,Hoang Anh Gia Lai,Ha Tinh FC,vietnam-v-league-1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_71482274,2026-05-17,10:00,FC Honka,Ons Oulu,finland-ykkonen-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_67845758,2026-05-17,14:00,HPS,HJK Helsinki,finland-kansallinen-liiga-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_70966260,2026-05-17,13:30,FC Hradec Kralove,FK Pardubice,czechia-2-liga-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71085534,2026-05-17,15:00,FC Hradec Kralove,Slavia Prague,czechia-1-liga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_67681856,2026-05-17,16:30,Huachipato,Deportes Union La Calera,chile-primera-division,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_70968238,2026-05-17,11:30,Hubei Istar,Guangxi Hengchen FC,china-fa-cup,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71475812,2026-05-17,19:00,Huracan FC,CA Atenas de San Carlos,uruguay-segunda-division,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_68046520,2026-05-17,07:30,Hwaseong FC,Busan I Park,republic-of-korea-k-league-2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_68194640,2026-05-17,13:00,IBV Vestmannaeyjar,Vikingur Reykjavik,iceland-besta-deild,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67126560,2026-05-17,12:00,IF Brommapojkarna,Kalmar FF,sweden-allsvenskan,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67845752,2026-05-17,10:00,IF Gnistan,Tampereen Ilves,finland-kansallinen-liiga-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68310902,2026-05-17,14:00,IF Karlstad Fotbol,Vasalunds IF,sweden-ettan-relegation/promotion,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_66918132,2026-05-17,13:00,IFK Norrkoping DFK,IF Brommapojkarna,sweden-damallsvenskan,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68310904,2026-05-17,14:00,IFK Stocksund,Piteaa IF,sweden-ettan-relegation/promotion,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_67126102,2026-05-17,15:00,IFK Varnamo,Norrby IF,sweden-superettan,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_62180508,2026-05-17,11:00,III Keruleti Tve,Esmtk Budapest,hungary-nb-iii,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67648306,2026-05-17,05:00,FC Imabari,Kamatamare Sanuki,japan-jleague-2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_70318492,2026-05-17,21:00,Independencia FC AC,Araguaina TO,brazil-brasileiro-serie-d,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71379430,2026-05-17,20:00,Independiente Santa Fe,Independiente Medellin,colombia-liga-femenina,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_70319974,2026-05-17,20:00,Inhumas EC GO,AA Aparecidense GO,brazil-brasileiro-serie-d,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_I1_2026-05-17_Inter_Verona,2026-05-17,14:00,Inter,Verona,serie_a,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_66299202,2026-05-17,22:00,Inter Miami CF,Portland Timbers,usa-mls,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_61061673,2026-05-17,13:00,Inter Milano,Hellas Verona,italy-serie-a,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71479356,2026-05-17,22:00,Inter San Carlos,Adr Jicaral,costa-rica-liga-de-ascenso-clausura,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_68538254,2026-05-17,12:00,FC Inter Turku 2,KuPS Akatemia,finland-ykkonen,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_69880322,2026-05-17,17:00,Ismaily SC,Zed FC,egypt-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67648148,2026-05-17,05:00,Iwaki FC,Matsumoto Yamaga FC,japan-jleague-2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71483690,2026-05-17,16:00,CF Jaraiz,CD Badajoz,spain-amateur-tercera-federacion-group-14,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67645560,2026-05-17,05:00,JEF United Chiba,Kashima Antlers,japan-jleague,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67817706,2026-05-17,07:30,Jeju SK FC,FC Anyang,republic-of-korea-k-league-1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67817708,2026-05-17,07:40,Jeonbuk FC,Gimcheon Sangmu FC,republic-of-korea-k-league-1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61788920,2026-05-17,14:00,FC Jeunesse Canach,Atert Bissen,luxembourg-division-nationale,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_70968258,2026-05-17,11:30,Jiangxi Lushan,Dalian Kun City,china-fa-cup,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_68311596,2026-05-17,11:00,Jonkopings Sodra IF,Hassleholms IF,sweden-ettan-relegation/promotion,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_68377674,2026-05-17,11:00,Jonsereds IF,Lindome GIF,sweden-division-2-promotion-playoffs,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_71522764,2026-05-17,20:00,Jong Aruba,SV River Plate Aruba,aruba-division-honor,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_I1_2026-05-17_Juventus_Fiorentina,2026-05-17,11:00,Juventus,Fiorentina,serie_a,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_61061675,2026-05-17,10:30,Juventus Turin,ACF Fiorentina,italy-serie-a,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71486094,2026-05-17,15:30,Jypk,FC Lahti,finland-ykkonen-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67648464,2026-05-17,05:00,Kagoshima United,Roasso Kumamoto,japan-jleague-2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_69342848,2026-05-17,14:00,Kaisar Kyzylorda,Tobol Kostanay,kazakhstan-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_67604812,2026-05-17,15:00,KaPa Kapylan Pallo,PK-35 Helsinki,finland-ykkosliiga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_62036888,2026-05-17,10:00,Karkonosze Jelenia Gora,KS Polonia Nysa,poland-iii-liga-group-3,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_D2_2026-05-17_Karlsruhe_Bochum,2026-05-17,14:30,Karlsruhe,Bochum,D2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61515246,2026-05-17,13:30,Karlsruher SC,VfL Bochum,germany-2-bundesliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61651680,2026-05-17,15:00,Karpaty Lviv,Veres Rivne,ukraine-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_T1_2026-05-17_Kasimpasa_Galatasaray,2026-05-17,18:00,Kasimpasa,Galatasaray,T1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61730250,2026-05-17,17:00,Kasimpasa Istanbul,Galatasaray Istanbul,turkiye-super-lig,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67648302,2026-05-17,05:00,Kataller Toyama,Tokushima Vortis,japan-jleague-2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67645562,2026-05-17,10:00,Kawasaki Frontale,Machida Zelvia,japan-jleague,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_T1_2026-05-17_Kayserispor_Konyaspor,2026-05-17,15:00,Kayserispor,Konyaspor,T1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68194644,2026-05-17,17:30,Keflavik IF,Stjarnan Gardabae,iceland-besta-deild,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68306812,2026-05-17,14:00,KF Aegir,IF Vestri,iceland-1-deild,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71427438,2026-05-17,14:00,KF Dukagjini,FC Drita,kosovo-superliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_62160252,2026-05-17,09:00,Kisvarda FC II,Cigand SE,hungary-nb-iii,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61467291,2026-05-17,17:30,KKS 1925 Kalisz,Warta Poznan,poland-ii-liga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67648308,2026-05-17,05:00,Kochi United SC,Ehime FC,japan-jleague-2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_61651666,2026-05-17,12:30,Kolos Kovalivka,FC Obolon Kyiv,ukraine-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_62161246,2026-05-17,15:00,Komarom Vse,ETO Akademia,hungary-nb-iii,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68194648,2026-05-17,18:15,KR Reykjavik,Fram Reykjavik,iceland-besta-deild,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_61711830,2026-05-17,13:00,FC Kreuzlingen,FC Bavois,switzerland-promotion-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_63157265,2026-05-17,13:00,Kruger United,The Bees FC,south-africa-championship,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_61651672,2026-05-17,10:00,FC Kryvbas Kriviy Rih,FC Shakhtar Donetsk,ukraine-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_62036886,2026-05-17,10:00,KS Gornik Polkowice,MKS Kluczbork,poland-iii-liga-group-3,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61467281,2026-05-17,15:00,KS Hutnik Krakow SSA,Podhale Nowy Targ,poland-ii-liga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71262292,2026-05-17,15:30,KS Lechia Gdansk,Legia Warszawa,poland-ekstraklasa,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_70851482,2026-05-17,13:00,FC KTP,TPS,finland-ykkonen-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_61974270,2026-05-17,12:15,Kuching City FC,Kuala Lumpur City FC,malaysia-super-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68214656,2026-05-17,14:00,FC Kuressaare,Nomme Kalju FC,estonia-premium-liiga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67645070,2026-05-17,06:00,Kyoto Sanga FC,Sanfrecce Hiroshima,japan-jleague,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_71465130,2026-05-17,07:30,Kyrgyzstan,Afghanistan,international-youth-u20-friendly-games,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_69342850,2026-05-17,11:00,FC Kyzylzhar SK,FC Altai Oskemen,kazakhstan-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_SP2_2026-05-17_La_Coruna_Andorra,2026-05-17,13:00,La Coruna,Andorra,SP2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71482464,2026-05-17,16:00,CF La Nucia,Atletico Saguntino,spain-amateur-tercera-federacion-group-6,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_71482706,2026-05-17,10:00,Las Rozas CF,AD Torrejon CF,spain-amateur-tercera-federacion-group-7,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_62245476,2026-05-17,13:00,Le Mans FC,EA Guingamp,france-seconde-ligue-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_62037504,2026-05-17,10:00,Lech II Poznan,Zawisza Bydgoszcz,poland-iii-liga-group-2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_62038114,2026-05-17,10:00,Lechia Tomaszow Mazowiecki,Swit Nowy Dwor Mazowiecki,poland-iii-liga-group-1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_70813618,2026-05-17,07:00,Lee Man FC,Tai Po FC,hong-kong-china-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_E0_2026-05-17_Leeds_Brighton,2026-05-17,15:00,Leeds,Brighton,premier_league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61301259,2026-05-17,14:00,Leeds United,Brighton & Hove Albion,england-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_63157267,2026-05-17,13:00,Leicesterford City,Cape Town City FC,south-africa-championship,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61732304,2026-05-17,17:00,Leixoes SC,Lusitania FC Lourosa,portugal-liga-portugal-2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68687650,2026-05-17,18:00,Leones Futbol Club,Mushuc Runa SC,ecuador-ligapro-primera-a,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_63157269,2026-05-17,13:00,Lerumo Lions FC,Black Leopards,south-africa-championship,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_SP1_2026-05-17_Levante_Mallorca,2026-05-17,18:00,Levante,Mallorca,la_liga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61624666,2026-05-17,17:00,Levante UD,RCD Mallorca,spain-laliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_F1_2026-05-17_Lille_Auxerre,2026-05-17,20:00,Lille,Auxerre,ligue_1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61512164,2026-05-17,19:00,Lille OSC,AJ Auxerre,france-ligue-1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_SC0_2026-05-17_Livingston_Kilmarnock,2026-05-17,14:00,Livingston,Kilmarnock,SC0,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67904436,2026-05-17,05:00,Logan Roos FC,Redcliffe Dolphins,australia-queensland-premier-league-3-metro,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71411460,2026-05-17,14:00,Lommel SK,FCV Dender EH,belgium-pro-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_F1_2026-05-17_Lorient_Le_Havre,2026-05-17,20:00,Lorient,Le Havre,ligue_1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61512160,2026-05-17,19:00,FC Lorient,Le Havre AC,france-ligue-1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_70881758,2026-05-17,20:30,Los Chankas CYC,CD Moquegua,peru-liga-1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_62245480,2026-05-17,13:00,LOSC Lille,Saint Malo,france-seconde-ligue-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_70971652,2026-05-17,16:00,Louletano DC,AC Malveira,portugal-campeonato-de-portugal,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_70448382,2026-05-17,14:30,FC Lugano,FC Basel 1893,switzerland-super-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_68311598,2026-05-17,11:00,Lunds BK,Utsiktens BK,sweden-ettan-relegation/promotion,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_F1_2026-05-17_Lyon_Lens,2026-05-17,20:00,Lyon,Lens,ligue_1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67692602,2026-05-17,05:00,Macarthur Rams,Northern Tigers,australia-nsw-premier-league-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_D2_2026-05-17_Magdeburg_Kaiserslautern,2026-05-17,14:30,Magdeburg,Kaiserslautern,D2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67807826,2026-05-17,05:00,Maitland FC,Lake Macquarie City FC,australia-northern-nsw-premier-league-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71069098,2026-05-17,14:00,Mamelodi Sundowns,AS Far Rabat,international-clubs-caf-champions-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_E0_2026-05-17_Man_United_Nott'm_Forest,2026-05-17,12:30,Man United,Nott'm Forest,premier_league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_61301261,2026-05-17,11:30,Manchester United,Nottingham Forest,england-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68687642,2026-05-17,23:00,Manta FC,CS Emelec,ecuador-ligapro-primera-a,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_F1_2026-05-17_Marseille_Rennes,2026-05-17,20:00,Marseille,Rennes,ligue_1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_71341312,2026-05-17,13:00,Mashujaa FC,Azam FC,tanzania-federation-cup,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_68162384,2026-05-17,05:00,Melbourne Victory FC Youth,Preston Lions,australia-victoria-npl-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_65382126,2026-05-17,14:00,FC Mendrisio,USV Eschen-Mauren,switzerland-erste-liga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_61685720,2026-05-17,15:00,Merida AD,Unionistas de Salamanca CF,spain-primera-federacion,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71172390,2026-05-17,22:00,Metropolitanos FC,Deportivo Tachira,venezuela-primera-division,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_62245484,2026-05-17,13:00,Metz FC,Thonon Evian GG FC,france-seconde-ligue-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_62216468,2026-05-17,14:00,FC Meyrin,FC Echallens Region,switzerland-erste-liga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_66053720,2026-05-17,08:15,MFk Karvina B,FC Hlucin,czechia-msfl,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_69653782,2026-05-17,16:00,FC Midtjylland,Broendby IF,denmark-superliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_63004413,2026-05-17,12:30,Miedz Legnica,Ruch Chorzow,poland-i-liga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71501268,2026-05-17,22:30,Mighty Avengers,We United,dominica-dfa-premier,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_67126558,2026-05-17,14:30,Mjallby AIF,BK Hacken,sweden-allsvenskan,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67904440,2026-05-17,08:00,Moggill FC,North Lakes United,australia-queensland-premier-league-3-metro,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_70502988,2026-05-17,14:00,Mohun Bagan Super Giant,SC East Bengal,india-indian-super-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_68916302,2026-05-17,05:00,FC Mokpo,Gyeongju FC,republic-of-korea-k3-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67904152,2026-05-17,07:00,Moreton City Excelsior FC 2,Brisbane Knights,australia-queensland-premier-league-2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_62161242,2026-05-17,15:00,Mosonmagyarovari TE,FC Tatabanya,hungary-nb-iii,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_69279592,2026-05-17,15:00,Motherwell LFC,Aberdeen LFC,scotland-premier-league-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67904438,2026-05-17,07:00,MT Gravatt Hawks,North Brisbane FC,australia-queensland-premier-league-3-metro,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_62181556,2026-05-17,09:00,MTK Budapest II,Dunaujvaros Palhalma Agrospecial SE,hungary-nb-iii,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_61454193,2026-05-17,13:00,Mura Murska Sobota,NK Maribor,slovenia-prvaliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71478844,2026-05-17,19:15,Nacional - Humaita,Club Guarani,paraguay-camopeonato-femenino-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_68663480,2026-05-17,11:00,Nam Dinh FC,The Cong - Viettel FC,vietnam-v-league-1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_F1_2026-05-17_Nantes_Toulouse,2026-05-17,20:00,Nantes,Toulouse,ligue_1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_67844016,2026-05-17,21:00,FC Naples,Sporting Jax,usa-usl-league-one-cup,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_69880318,2026-05-17,14:00,National Bank of Egypt SC,El Gouna FC,egypt-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_61320271,2026-05-17,12:30,NEC Nijmegen,Go Ahead Eagles,netherlands-eredivisie,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68156626,2026-05-17,18:00,New England Revolution II,Orlando City B,usa-mls-next-pro,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_62778615,2026-05-17,11:00,New Taipei Hang Yuan,Tainan City,chinese-taipei-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_E0_2026-05-17_Newcastle_West_Ham,2026-05-17,17:30,Newcastle,West Ham,premier_league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_68728646,2026-05-17,05:30,NGU Loveledge Nagoya,Shizuoka SSU Bonita,japan-nadeshiko-league-div-1-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_F1_2026-05-17_Nice_Metz,2026-05-17,20:00,Nice,Metz,ligue_1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_N1_2026-05-17_Nijmegen_Go_Ahead_Eagles,2026-05-17,13:30,Nijmegen,Go Ahead Eagles,N1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61454697,2026-05-17,17:30,NK Brinje Grosuplje,Nafta 1903 Lendava,slovenia-2-liga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61286595,2026-05-17,16:45,NK Istra 1961,HNK Rijeka,croatia-hnl,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_69972722,2026-05-17,11:45,NK Jarun Zagreb,NK Dubrava Zagreb,croatia-prva-nl,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_62415644,2026-05-17,09:00,NK Osijek,HNK Rijeka,croatia-u19-prva-nl-juniori,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61286591,2026-05-17,14:00,NK Slaven Belupo,GNK Dinamo Zagreb,croatia-hnl,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_63534049,2026-05-17,15:00,NK Stupcanica Olovo,FK Sloboda Tuzla,bosnia-&-herzegovina-prva-liga-fed-bih,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67126112,2026-05-17,13:00,Nordic United FC,Falkenbergs FF,sweden-superettan,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71495168,2026-05-17,16:45,Nouakchott Kings,FC Nouadhibou,mauritania-super-d1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_69653828,2026-05-17,12:00,Odense Boldklub,Vejle BK,denmark-superliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_G1_2026-05-17_OFI_Crete_Volos_NFC,2026-05-17,15:00,OFI Crete,Volos NFC,G1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_70231958,2026-05-17,14:00,OFI Crete,Volos NPS,greece-super-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_70708876,2026-05-17,18:00,OFK Beograd,FK Vojvodina Novi Sad,serbia-superliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61512166,2026-05-17,19:00,OGC Nice,FC Metz,france-ligue-1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67648466,2026-05-17,05:00,Oita Trinita,Tegevajaro Miyazaki,japan-jleague-2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_68728640,2026-05-17,04:00,Okayama Yunogo Belle,Nittaidai FC,japan-nadeshiko-league-div-1-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61467295,2026-05-17,15:15,OKS Swit Szczecin,Slask II Wroclaw,poland-ii-liga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71456930,2026-05-17,16:00,Olimpico Totana,Union Molinense CF 2020,spain-amateur-tercera-federacion-group-13,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61454195,2026-05-17,15:30,Olimpija Ljubljana,NK Radomlje,slovenia-prvaliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61512256,2026-05-17,19:00,Olympique Lyon,Racing Club De Lens,france-ligue-1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61512174,2026-05-17,19:00,Olympique Marseille,Stade Rennais FC,france-ligue-1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_69342858,2026-05-17,15:00,FC Ordabasy,Zhetysu Taldykorgan,kazakhstan-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71379432,2026-05-17,20:00,Orsomarso SC,Internacional de Bogota,colombia-liga-femenina,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67648304,2026-05-17,05:00,FC Osaka,Zweigen Kanazawa,japan-jleague-2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_SP1_2026-05-17_Osasuna_Espanol,2026-05-17,18:00,Osasuna,Espanol,la_liga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67126104,2026-05-17,13:00,Osters IF,Ljungskile SK,sweden-superettan,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67126108,2026-05-17,11:00,Ostersunds FK,Sandvikens IF,sweden-superettan,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_SP1_2026-05-17_Oviedo_Alaves,2026-05-17,18:00,Oviedo,Alaves,la_liga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68685984,2026-05-17,21:00,Pacific FC,Inter Toronto FC,canada-canadian-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61732300,2026-05-17,19:30,FC Pacos Ferreira,FC Penafiel,portugal-liga-portugal-2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_68214654,2026-05-17,11:30,Paide Linnameeskond,FCI Levadia Tallinn,estonia-premium-liiga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_62181566,2026-05-17,09:00,Paksi FC II,Majosi SE,hungary-nb-iii,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_G1_2026-05-17_Panathinaikos_PAOK,2026-05-17,17:30,Panathinaikos,PAOK,G1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_70231858,2026-05-17,16:30,Panathinaikos Athens,PAOK Thessaloniki,greece-super-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_70232102,2026-05-17,12:00,Panserraikos FC,Panaitolikos Agrinio,greece-super-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_71426266,2026-05-17,13:00,Paraguari AC,Carapegua,paraguay-segunda-division,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61512170,2026-05-17,19:00,Paris FC,Paris Saint-Germain,france-ligue-1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_F1_2026-05-17_Paris_FC_Paris_SG,2026-05-17,20:00,Paris FC,Paris SG,ligue_1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_62352470,2026-05-17,16:00,Parma Calcio,Juventus Turin,italy-serie-a-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_69279560,2026-05-17,12:00,Partick Thistle LFC,Hibernian LFC,scotland-premier-league-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_61320275,2026-05-17,12:30,PEC Zwolle,Feyenoord Rotterdam,netherlands-eredivisie,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_62181562,2026-05-17,15:00,Penzugyor SE,Szekszardi UFC,hungary-nb-iii,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_62083184,2026-05-17,12:00,Persijap Jepara,Borneo Samarinda,indonesia-liga-1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_69767364,2026-05-17,07:00,Perth Redstar FC,Subiaco AFC,australia-npl-western-australia-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_69880320,2026-05-17,17:00,Petrojet FC,Modern Sport FC,egypt-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68156628,2026-05-17,19:00,Philadelphia Union II,Columbus Crew 2,usa-mls-next-pro,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_I1_2026-05-17_Pisa_Napoli,2026-05-17,11:00,Pisa,Napoli,serie_a,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_61061677,2026-05-17,10:00,Pisa SC,SSC Napoli,italy-serie-a,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67845754,2026-05-17,12:00,PK-35 Vantaa,VIFK,finland-kansallinen-liiga-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_63004421,2026-05-17,15:00,Pogon Grodzisk Mazowiecki,GKS Tychy,poland-i-liga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_63004415,2026-05-17,18:15,Polonia Bytom,WKS Slask Wroclaw,poland-i-liga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61732306,2026-05-17,19:30,Portimonense SAD,SC Farense,portugal-liga-portugal-2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_67912068,2026-05-17,22:00,Portland Thorns FC,Angel City FC,usa-national-womens-soccer-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71172366,2026-05-17,21:30,Portuguesa FC,Academia Puerto Cabello,venezuela-primera-division,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71505192,2026-05-17,18:00,Potenza Calcio,Ascoli Calcio 1898,italy-serie-c-promotion-playoffs,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_70983348,2026-05-17,12:00,Prachuap FC,Lamphun Warriors FC,thailand-fa-cup,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_69221028,2026-05-17,11:00,Preah Khan Reach Svay Rieng FC,Phnom Penh Crown FC,cambodia-cambodian-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_70319972,2026-05-17,20:00,Primavera AC MT,Luverdense EC MT,brazil-brasileiro-serie-d,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_62083186,2026-05-17,12:00,Psim Yogyakarta,Madura United,indonesia-liga-1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_62083188,2026-05-17,12:00,PSM Makassar,Persib Bandung,indonesia-liga-1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_N1_2026-05-17_PSV_Eindhoven_Twente,2026-05-17,13:30,PSV Eindhoven,Twente,N1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_61320281,2026-05-17,12:30,PSV Eindhoven,FC Twente Enschede,netherlands-eredivisie,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_62181578,2026-05-17,15:00,Pte Peac,Balatonlelle,hungary-nb-iii,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_62161250,2026-05-17,09:00,Puskas Akademia FC II,Bicskei Tc,hungary-nb-iii,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_68664054,2026-05-17,11:00,Quy Nhon Binh Dinh,Quang Ninh FC,vietnam-v-league-2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_61685714,2026-05-17,15:00,Racing Club de Ferrol,CA Osasuna B,spain-primera-federacion,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71460000,2026-05-17,18:00,Racing Club Montevideo,Cerro Largo FC,uruguay-primera-division,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_69279562,2026-05-17,15:00,Rangers LFC,Celtic LFC,scotland-premier-league-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61624668,2026-05-17,17:00,Rayo Vallecano,Villarreal CF,spain-laliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67648150,2026-05-17,05:00,RB Omiya Ardija,AC Nagano Parceiro,japan-jleague-2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_61623912,2026-05-17,12:00,RC Deportivo De La Coruna,FC Andorra,spain-laliga-2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_61685712,2026-05-17,15:00,RC Celta Fortuna,CD Lugo,spain-primera-federacion,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61685718,2026-05-17,15:00,Real Aviles CF,Barakaldo CF,spain-primera-federacion,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71501380,2026-05-17,16:30,Real de Banjul,Brikama United,gambia-division-one,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_61685726,2026-05-17,15:00,Real Madrid Castilla,Arenas Club Getxo,spain-primera-federacion,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61624672,2026-05-17,17:00,Real Oviedo,Deportivo Alaves,spain-laliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61624670,2026-05-17,17:00,Real Sociedad San Sebastian,Valencia CF,spain-laliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61623908,2026-05-17,19:15,Real Zaragoza,Sporting Gijon,spain-laliga-2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_70971596,2026-05-17,16:00,Rebordosa AC,GD Braganca,portugal-campeonato-de-portugal,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_66886786,2026-05-17,21:30,Red Bull Bragantino SP,EC Vitoria BA,brazil-brasileiro-serie-a,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67648462,2026-05-17,06:30,Reilac Shiga FC,Giravanz Kitakyushu,japan-jleague-2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_62705715,2026-05-17,13:00,Res Roma,SS Arezzo,italy-serie-b-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_70322104,2026-05-17,20:30,Retro FC PE,Decisao PE,brazil-brasileiro-serie-d,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_69501868,2026-05-17,10:00,Riga FC II,Marupes SC,latvia-1liga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_70663570,2026-05-17,12:00,Ringkoebing IF,Viby IF,denmark-amateur-danmarksserien,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61788918,2026-05-17,14:00,FC Rodange 91,FC Mamer 32,luxembourg-division-nationale,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_I1_2026-05-17_Roma_Lazio,2026-05-17,11:00,Roma,Lazio,serie_a,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_70207432,2026-05-17,11:30,RSC Anderlecht,Yellow-Red KV Mechelen,belgium-pro-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71474758,2026-05-17,19:00,Rubio Nu Reserve,Nacional Asuncion,paraguay-primera-division-reserve-apertura,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_61651674,2026-05-17,10:00,FC Rukh Lviv,FC Oleksandriya,ukraine-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67648468,2026-05-17,09:00,FC Ryukyu,Gainare Tottori,japan-jleague-2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_63185781,2026-05-17,14:00,Sabah Masazir,Neftchi Baku PFC,azerbaijan-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_67122894,2026-05-17,18:30,Sacachispas FC,CA Claypole,argentina-primera-c,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_69751548,2026-05-17,12:30,FC Salzburg,TSV Hartberg,austria-bundesliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67904150,2026-05-17,06:00,Samford Rangers,Taringa Rovers SFC,australia-queensland-premier-league-2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_70224430,2026-05-17,16:00,FC Samgurali Tskaltubo,FC Spaeri,georgia-erovnuli-liga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_70320676,2026-05-17,20:00,Sampaio Correa FC MA,Parnahyba SC PI,brazil-brasileiro-serie-d,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_66299200,2026-05-17,02:30,San Jose Earthquakes,FC Dallas,usa-mls,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_69090908,2026-05-17,23:00,San Francisco City,Davis Legacy,usa-usl-league-two,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68097906,2026-05-17,19:00,San Luis de Quillota,Puerto Montt,chile-primera-b,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68097908,2026-05-17,21:30,San Marcos de Arica,CD Antofagasta,chile-primera-b,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_61467279,2026-05-17,10:15,Sandecja Nowy Sacz,Olimpia Grudziadz,poland-ii-liga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_66886782,2026-05-17,14:00,Santos FC SP,Coritiba FC PR,brazil-brasileiro-serie-a,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68215848,2026-05-17,21:00,Santos FC SP,Red Bull Bragantino SP,brazil-campeonato-brasileiro-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_70318420,2026-05-17,21:00,Sao Raimundo EC RR,Manaus FC AM,brazil-brasileiro-serie-d,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_I1_2026-05-17_Sassuolo_Lecce,2026-05-17,19:45,Sassuolo,Lecce,serie_a,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61061681,2026-05-17,18:45,Sassuolo Calcio,US Lecce,italy-serie-a,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61789408,2026-05-17,14:00,SC Bettembourg,FC Etzella Ettelbruck,luxembourg-promotion-d'honneur,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_61320279,2026-05-17,12:30,SC Heerenveen,Ajax Amsterdam,netherlands-eredivisie,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_71457340,2026-05-17,09:00,SC Paderborn 07,1. FC Cologne,germany-amateur-u19-dfb-nachwuchsliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68822900,2026-05-17,23:30,SC Recife PE,CR Brasil AL,brazil-brasileiro-serie-b,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_62161248,2026-05-17,16:00,SC Sopron,Dorogi FC,hungary-nb-iii,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_70971598,2026-05-17,16:15,SC Vianense,Leca FC,portugal-campeonato-de-portugal,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
@@ -475,77 +302,51 @@ fd_D2_2026-05-17_Schalke_04_Braunschweig,2026-05-17,14:30,Schalke 04,Braunschwei
 odds_api_io_61515254,2026-05-17,13:30,Schalke 04,Eintracht Braunschweig,germany-2-bundesliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71300162,2026-05-17,16:00,SD Logrones,CD Castellon B,spain-segunda-federacion,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71483762,2026-05-17,16:30,SD Oyonesa,CD Varea,spain-amateur-tercera-federacion-group-16,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_68046516,2026-05-17,07:30,Seongnam Ilhwa,Gyeongnam FC,republic-of-korea-k-league-2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_69255030,2026-05-17,19:00,SER Caxias do Sul,Paysandu SC PA,brazil-brasileiro-serie-c,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_SP1_2026-05-17_Sevilla_Real_Madrid,2026-05-17,18:00,Sevilla,Real Madrid,la_liga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_61970272,2026-05-17,12:00,SGS Essen-Schonebeck 19/68,SC Freiburg,germany-amateur-women-bundesliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_71000984,2026-05-17,09:00,Shaanxi Chang An Athletic FC,Shandong Ticai,china-chinese-super-league-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_68916304,2026-05-17,05:00,Siheung Citizen FC,FC Gangneung,republic-of-korea-k3-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_70381490,2026-05-17,12:30,Silver Strikers,Masters FC,malawi-super-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71341314,2026-05-17,15:30,Simba SC,TRA United,tanzania-federation-cup,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_66053710,2026-05-17,15:00,SK Polanka Nad Odrou,FK Hodonin,czechia-msfl,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_69751552,2026-05-17,12:30,SK Sturm Graz,SK Rapid,austria-bundesliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_67849994,2026-05-17,14:00,Skala IF,B36 Torshavn,faroe-islands-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_69501872,2026-05-17,15:00,Skanstes SK,JFK Ventspils,latvia-1liga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68320796,2026-05-17,14:00,Skiljebo SK,Kungsangens IF,sweden-division-2-promotion-playoffs,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71085536,2026-05-17,15:00,FC Slovan Liberec,Sparta Prague,czechia-1-liga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_SP1_2026-05-17_Sociedad_Valencia,2026-05-17,18:00,Sociedad,Valencia,la_liga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_69653788,2026-05-17,16:00,Soenderjyske,FC Nordsjaelland,denmark-superliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67692246,2026-05-17,07:15,South Coast Flame FC,Mounties Wanderers FC,australia-nsw-league-two,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_70375222,2026-05-17,15:30,Southend United,Wealdstone FC,england-amateur-fa-trophy,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_N1_2026-05-17_Sparta_Rotterdam_Excelsior,2026-05-17,13:30,Sparta Rotterdam,Excelsior,N1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_61320267,2026-05-17,12:30,Sparta Rotterdam,Excelsior Rotterdam,netherlands-eredivisie,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61894050,2026-05-17,14:30,SPG Neudorf / Parndorf Juniors,Ufc Jennersdorf,austria-amateur-burgenland-burgenlandliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_70430834,2026-05-17,11:30,Sporting Club Delhi,Inter Kashi FC,india-indian-super-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_67844020,2026-05-17,23:00,Spokane Velocity FC,Las Vegas Lights,usa-usl-league-one-cup,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71296240,2026-05-17,18:00,Sporting FC Teotonio AL,Miguelense FC AL,brazil-alagoano-serie-b-u23,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71478922,2026-05-17,21:30,Sportivo Ameliano,Club Olimpia,paraguay-camopeonato-femenino-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71478842,2026-05-17,17:00,Sportivo San Lorenzo,Club Libertad,paraguay-camopeonato-femenino-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68042488,2026-05-17,20:00,Sportivo San Lorenzo,Sportivo Luqueno,paraguay-division-de-honor-apertura,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71505188,2026-05-17,18:00,S.S.D. Casarano Calcio,Union Brescia,italy-serie-c-promotion-playoffs,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_62352476,2026-05-17,13:00,SSD Napoli,Sassuolo Calcio,italy-serie-a-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71467826,2026-05-17,14:00,SSD Nissa FC,Reggina 1914,italy-serie-d-group-i,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_70448384,2026-05-17,14:30,FC St. Gallen 1879,FC Thun,switzerland-super-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_69279948,2026-05-17,15:00,St Johnstone Wfc,East Fife Lfc,scotland-premier-league-2-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_SC0_2026-05-17_St_Mirren_Dundee_United,2026-05-17,14:00,St Mirren,Dundee United,SC0,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61512168,2026-05-17,19:00,Stade Brest 29,Angers SCO,france-ligue-1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_68320180,2026-05-17,13:00,Stenungsunds IF,Motala AIF FK,sweden-division-2-promotion-playoffs,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71501430,2026-05-17,16:30,Steve Biko FC,Medina United FC,gambia-division-one,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_F1_2026-05-17_Strasbourg_Monaco,2026-05-17,20:00,Strasbourg,Monaco,ligue_1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61512176,2026-05-17,19:00,Strasbourg Alsace,AS Monaco,france-ligue-1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_70633274,2026-05-17,12:00,FC Sudburgenland,Linz AG Blau-Weiss / Kleinmunchen,austria-amateur-bundesliga-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61515242,2026-05-17,13:30,SV 07 Elversberg,SC Preussen 06 Munster,germany-2-bundesliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61515250,2026-05-17,13:30,SV Darmstadt 98,SC Paderborn 07,germany-2-bundesliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_66606556,2026-05-17,15:00,Svitavy,MFk Chrudim B,czechia-divize-c,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61788930,2026-05-17,14:00,Swift Hesperange,FC Victoria Rosport,luxembourg-division-nationale,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67692610,2026-05-17,07:40,Sydney Olympic FC,Western City Rangers FC,australia-nsw-premier-league-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67692606,2026-05-17,07:00,Sydney University SFC,Western Sydney Wanderers Youth,australia-nsw-premier-league-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_62161256,2026-05-17,16:00,Szombathelyi Mav Haladas VSE,Zsambeki SK,hungary-nb-iii,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_62778613,2026-05-17,08:00,Taichung Rock FC,AC Taipei,chinese-taipei-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_62778611,2026-05-17,08:00,Taiwan Power Company,Ming Chuan University,chinese-taipei-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71495166,2026-05-17,14:30,FC Talant,Oshmu-Aldiyer,kyrgyzstan-top-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_69108820,2026-05-17,11:00,Tampereen Ilves 2,P-Iirot,finland-kakkonen-playoffs,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_62778617,2026-05-17,08:00,Tatung FC,Taichung Futuro FC,chinese-taipei-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_61685722,2026-05-17,15:00,CF Talavera de La Reina,Ourense CF,spain-primera-federacion,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61685724,2026-05-17,15:00,Tenerife CD,Pontevedra CF,spain-primera-federacion,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71467820,2026-05-17,14:00,Teramo Calcio,Notaresco Calcio,italy-serie-d-group-f,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_62352474,2026-05-17,13:00,Ternana,AC Milan,italy-serie-a-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68194638,2026-05-17,16:00,Thor Akureyri,IA Akranes,iceland-besta-deild,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_66054230,2026-05-17,15:00,TJ Skastice,Sfk Elko Holesov,czechia-divize-e,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71495128,2026-05-17,16:00,Tmt,Greater Tomorrow FC,gambia-division-one,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_T1_2026-05-17_Trabzonspor_Genclerbirligi,2026-05-17,18:00,Trabzonspor,Genclerbirligi,T1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_63039311,2026-05-17,09:00,Trabzonspor,Genclerbirligi Ankara,turkiye-amateur-u19-elit-a,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61730252,2026-05-17,17:00,Trabzonspor,Genclerbirligi SK,turkiye-super-lig,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68311604,2026-05-17,14:00,Trelleborgs FF,FC Trollhattan,sweden-ettan-relegation/promotion,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_61970278,2026-05-17,12:00,TSG Hoffenheim,RB Leipzig,germany-amateur-women-bundesliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_70320592,2026-05-17,19:00,Tuna Luso PA,Aguia de Maraba FC PA,brazil-brasileiro-serie-d,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61732296,2026-05-17,14:30,UD Leiria,CD Feirense,portugal-liga-portugal-2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_61732298,2026-05-17,10:00,UD Oliveirense,FC Felgueiras 1932,portugal-liga-portugal-2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_71300076,2026-05-17,10:00,UD Poblense,CD Numancia,spain-segunda-federacion,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_71300106,2026-05-17,10:00,UD San Sebastian Reyes,CD Alcoyano,spain-segunda-federacion,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_I1_2026-05-17_Udinese_Cremonese,2026-05-17,19:45,Udinese,Cremonese,serie_a,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61061683,2026-05-17,18:45,Udinese Calcio,US Cremonese,italy-serie-a,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_62161254,2026-05-17,09:00,Ujpest FC II,Papai Perutz FC,hungary-nb-iii,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_71423418,2026-05-17,07:00,FC Ulaanbaatar,Khangarid,mongolia-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_71482412,2026-05-17,10:00,UM Escobedo,CD Laredo,spain-amateur-tercera-federacion-group-3,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68306814,2026-05-17,16:00,UMF Grindavik,Volsungur,iceland-1-deild,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71325540,2026-05-17,20:15,Union Comercio,CSC Deportivo Llacuabamba,peru-liga-2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_69254656,2026-05-17,16:00,Union Espanola,Palestino,chile-primera-division-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
@@ -556,87 +357,110 @@ odds_api_io_61788928,2026-05-17,14:00,US Mondorf-Les-Bains,Union Titus Petange,l
 odds_api_io_71505140,2026-05-17,18:00,US Salernitana,Ravenna FC 1913,italy-serie-c-promotion-playoffs,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71467812,2026-05-17,14:00,USD Casatese Merate,AC Chievo Verona,italy-serie-d-group-b,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_N1_2026-05-17_Utrecht_For_Sittard,2026-05-17,13:30,Utrecht,For Sittard,N1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_61320277,2026-05-17,12:30,FC Utrecht,Fortuna Sittard,netherlands-eredivisie,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_69767366,2026-05-17,07:00,Uwa Nedlands FC,Sorrento FC,australia-npl-western-australia-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67645066,2026-05-17,04:00,V-Varen Nagasaki,Vissel Kobe,japan-jleague,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71467780,2026-05-17,14:00,Vado FC,US Folgore Caratese,italy-serie-d-poule-scudetto,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_SP1_2026-05-17_Vallecano_Villarreal,2026-05-17,18:00,Vallecano,Villarreal,la_liga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68194646,2026-05-17,18:15,Valur Reykjavik,Breidablik Kopavogur,iceland-besta-deild,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_62180520,2026-05-17,10:00,Vasas SC II,Dunaharaszti MTK,hungary-nb-iii,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_67126562,2026-05-17,14:30,Vasteraas SK,AIK,sweden-allsvenskan,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_70730320,2026-05-17,11:00,Vendsyssel FF,AB Gladsaxe,denmark-2nd-division,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_62705725,2026-05-17,13:00,Venezia,San Marino Academy Calcio,italy-serie-b-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_61970284,2026-05-17,12:00,VfL Wolfsburg,1. FC Nuremberg,germany-amateur-women-bundesliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_70774886,2026-05-17,14:00,Victoria United Limbe,Aigle Royal Du Moungo,cameroon-elite-one,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71085538,2026-05-17,15:00,FC Viktoria Plzen,FK Jablonec,czechia-1-liga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_70224130,2026-05-17,11:00,FC Viktoria Plzen,Lokomotiva Brno Horni Herspice,czechia-1-liga-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68822904,2026-05-17,21:00,Vila Nova FC GO,Avai FC SC,brazil-brasileiro-serie-b,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71482452,2026-05-17,16:00,CF Vilanova I LA Geltru,UE Cornella,spain-amateur-tercera-federacion-group-5,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_70703488,2026-05-17,18:00,Vilavelhense FC ES,Porto Vitoria ES,brazil-copa-espirito-santo,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71421938,2026-05-17,18:00,Villarreal CF,CA Osasuna,spain-primera-federacion-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_66918134,2026-05-17,11:00,Vittsjo GIK,Djurgardens IF DFF,sweden-damallsvenskan,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_61320273,2026-05-17,12:30,FC Volendam,SC Telstar,netherlands-eredivisie,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_N1_2026-05-17_Volendam_Telstar,2026-05-17,13:30,Volendam,Telstar,N1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61898632,2026-05-17,16:00,VST Voelkermarkt,SVG Bleiburg,austria-amateur-karnten-karntner-liga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_62038118,2026-05-17,10:00,Widzew Lodz II,MKS Mlawianka Mlawa,poland-iii-liga-group-1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_69090872,2026-05-17,23:00,Wake FC,Tobacco Road FC,usa-usl-league-two,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_68156638,2026-05-17,23:00,Whitecaps FC 2,Tacoma Defiance,usa-mls-next-pro,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71493400,2026-05-17,15:00,Wiliete SC,Luanda City FC,angola-girabola,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_62038122,2026-05-17,12:00,Wisla Plock II,ZKS Olimpia Elblag,poland-iii-liga-group-1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61301265,2026-05-17,14:00,Wolverhampton Wanderers,Fulham FC,england-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_E0_2026-05-17_Wolves_Fulham,2026-05-17,15:00,Wolves,Fulham,premier_league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_70968254,2026-05-17,07:00,Wuhan Lianzhen FC,Guandong GZ-Power FC,china-fa-cup,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_67647988,2026-05-17,05:00,Yokohama FC,Tochigi SC,japan-jleague-2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_70448386,2026-05-17,14:30,Young Boys Bern,FC Sion,switzerland-super-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_61685728,2026-05-17,15:00,Zamora CF,CP Cacereno SAD,spain-primera-federacion,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_SP2_2026-05-17_Zaragoza_Sp_Gijon,2026-05-17,20:15,Zaragoza,Sp Gijon,SP2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_69342856,2026-05-17,12:00,FC Zhenis,FC Kairat Almaty,kazakhstan-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_63185773,2026-05-17,14:00,Zira FK,Sumqayit FK,azerbaijan-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_71286338,2026-05-17,11:00,FC Zurich,FC Winterthur,switzerland-u19-elite,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_71296238,2026-05-17,18:00,Zumbi EC AL,Desportivo Alianca AL,brazil-alagoano-serie-b-u23,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_N1_2026-05-17_Zwolle_Feyenoord,2026-05-17,13:30,Zwolle,Feyenoord,N1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_68310906,2026-05-18,17:30,AFC Eskilstuna,FC Arlanda,sweden-ettan-relegation/promotion,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_69744652,2026-05-18,17:30,AFC Hermannstadt,Fotbal Club FCSB,romania-superliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68822886,2026-05-18,22:00,AA Ponte Preta SP,Londrina EC PR,brazil-brasileiro-serie-b,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_67849990,2026-05-18,17:30,AB Argir,Vikingur Gota,faroe-islands-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_69255024,2026-05-18,23:00,AD Confianca SE,Maranhao AC MA,brazil-brasileiro-serie-c,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_69880328,2026-05-18,17:00,Al Mokawloon Al Arab,Wadi Degla SC,egypt-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_71498954,2026-05-18,15:20,AL Nasr SC (OMA),Samail SC,oman-omani-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_71498946,2026-05-18,15:20,Al Shabab,Al-Seeb,oman-omani-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_71498952,2026-05-18,15:20,Al-Khaboora,Al-Rustaq,oman-omani-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_68311606,2026-05-18,17:00,Angelholms FF,Kristianstad FC,sweden-ettan-relegation/promotion,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_68311608,2026-05-18,17:00,Ariana FC,Tvaakers IF,sweden-ettan-relegation/promotion,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_E0_2026-05-18_Arsenal_Burnley,2026-05-18,20:00,Arsenal,Burnley,premier_league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68156640,2026-05-18,00:30,Austin FC II,Saint Louis City SC 2,usa-mls-next-pro,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_71498944,2026-05-18,15:20,Bahla Club,Al Nahda,oman-omani-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71475326,2026-05-18,00:40,Bogota FC,Real Cartagena FC,colombia-primera-b,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_69255036,2026-05-18,23:00,Botafogo FC PB,AA Internacional Limeira SP,brazil-brasileiro-serie-c,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71477158,2026-05-18,01:00,CD FAS Santa Ana,Municipal Limeno,el-salvador-primera-division-clausura,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61623906,2026-05-18,18:30,CD Leganes,SD Huesca,spain-laliga-2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68097896,2026-05-18,23:00,CD Santa Cruz,Deportes Temuco,chile-primera-b,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_67119320,2026-05-18,18:30,CS Italiano,CSCD Laferrere,argentina-primera-b,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_71500626,2026-05-18,12:30,Defensor Sporting,Albion FC,uruguay-tercera-division-reserves,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_67681858,2026-05-18,00:00,Deportes Concepcion,CD Everton Vina del Mar,chile-primera-division,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71460006,2026-05-18,21:30,Deportivo Maldonado,Danubio FC,uruguay-primera-division,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_67126550,2026-05-18,17:00,Djurgardens IF,IK Sirius,sweden-allsvenskan,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68751772,2026-05-18,18:00,EC Bahia BA,CA Paranaense PR,brazil-u20-campeonato-brasileiro,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_69744644,2026-05-18,17:30,FC Farul Constanta,Metaloglobus Bucuresti,romania-superliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61651668,2026-05-18,10:00,FK Kudrivka,LNZ Cherkasy,ukraine-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_68306816,2026-05-18,19:15,Fylkir Reykjavik,IR Reykjavik,iceland-1-deild,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_69880330,2026-05-18,17:00,Ghazl El Mahallah,Al Ittihad Al Sakandary,egypt-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_67126110,2026-05-18,17:00,GIF Sundsvall,Landskrona BoIS,sweden-superettan,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_68306820,2026-05-18,19:15,Grotta,Afturelding,iceland-1-deild,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_67604816,2026-05-18,15:30,FC Haka Valkeakoski,HJK Klubi 04,finland-ykkosliiga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_70812670,2026-05-18,17:00,Hapoel Haifa FC,Bnei Sakhnin FC,israel-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_67849992,2026-05-18,17:30,HB Torshavn,Eb/Streymur,faroe-islands-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_68306818,2026-05-18,19:15,HK Kopavogur,UMF Njardvik,iceland-1-deild,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_71498942,2026-05-18,15:20,Ibri,Dhofar SCSC,oman-omani-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_67126106,2026-05-18,17:05,IK Oddevold,Orebro SK,sweden-superettan,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71335212,2026-05-18,00:30,Independiente Yumbo,Aguilas Doradas Rionegro,colombia-copa-colombia,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_68156634,2026-05-18,17:30,Inter Miami CF II,Crown Legacy FC,usa-mls-next-pro,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_69880326,2026-05-18,14:00,Kahrabaa Ismailia,Haras El Hodood,egypt-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68746500,2026-05-18,14:00,Kerala Blasters FC,FC Goa,india-indian-super-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_68311610,2026-05-18,17:00,Laholms FK,FC Rosengaard 1917,sweden-ettan-relegation/promotion,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 fd_SP2_2026-05-18_Leganes_Huesca,2026-05-18,19:30,Leganes,Huesca,SP2,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_71500630,2026-05-18,18:00,Liverpool Montevideo,La Luz FC Reserves,uruguay-tercera-division-reserves,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_70906790,2026-05-18,16:30,FC Lokomotiv 1929 Sofia,PFC Slavia Sofia,bulgaria-parva-liga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61062319,2026-05-18,17:00,MKS Arka Gdynia,Bruk-Bet Termalica Nieciecza,poland-ekstraklasa,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_71500628,2026-05-18,18:00,Montevideo Wanderers,Progreso,uruguay-tercera-division-reserves,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_71500632,2026-05-18,18:00,Nacional de Montevideo,Cerro Largo FC,uruguay-tercera-division-reserves,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_66299204,2026-05-18,00:00,Nashville SC,Los Angeles FC,usa-mls,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71474802,2026-05-18,15:30,NK Samobor,GNK Dinamo Zagreb,croatia-u19-prva-nl-juniori,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_71498950,2026-05-18,15:20,Oman Club,Sur SC,oman-omani-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_67126556,2026-05-18,17:00,Orgryte IS,IFK Goteborg,sweden-allsvenskan,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_70906786,2026-05-18,16:30,PFC Dobrudzha Dobrich,POFC Botev Vratsa,bulgaria-parva-liga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_70906788,2026-05-18,16:30,PFC Montana 1921,FK Spartak 1918 Varna,bulgaria-parva-liga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_71500636,2026-05-18,18:00,Penarol Montevideo,Club Oriental de Football,uruguay-tercera-division-reserves,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_69744646,2026-05-18,17:30,FC Petrolul Ploiesti,ASC Otelul Galati,romania-superliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_70906784,2026-05-18,16:30,PFK Beroe Stara Zagora,FK Septemvri Sofia,bulgaria-parva-liga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_71516396,2026-05-18,00:30,Portmore United,Mount Pleasant FC,jamaica-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71450708,2026-05-18,01:00,Pumas UNAM,CF Pachuca,mexico-liga-mx-clausura,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_63004427,2026-05-18,16:00,Puszcza Niepolomice,LKS Lodz,poland-i-liga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_71500634,2026-05-18,18:00,Racing Club Montevideo,Torque,uruguay-tercera-division-reserves,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_71522852,2026-05-18,00:00,Real Koyari,Atlantico Deportivo,aruba-division-honor,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_68156630,2026-05-18,01:00,San Jose Earthquakes II,Portland Timbers II,usa-mls-next-pro,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_71360370,2026-05-18,13:00,FC Shirak Gyumri,FC Urartu Yerevan,armenia-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_69109004,2026-05-18,15:30,SJK Akatemia/2,VPS Akatemia,finland-kakkonen-playoffs,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_71498948,2026-05-18,15:20,Sohar,Saham,oman-omani-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68160160,2026-05-18,09:30,South Melbourne FC,Caroline Springs George Cross FC,australia-victoria-npl,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_69880324,2026-05-18,14:00,Talaea El Gaish,Pharco FC,egypt-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_67699618,2026-05-18,11:30,Tanjong Pagar United,Hougang United FC,singapore-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_68306822,2026-05-18,19:15,Throttur Reykjavik,Leiknir Reykjavik,iceland-1-deild,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68097910,2026-05-18,23:00,Union Espanola,Deportes Iquique,chile-primera-b,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_69744650,2026-05-18,17:30,FC Unirea 2004 Slobozia,FC Uta Arad,romania-superliga,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_67912072,2026-05-18,00:00,Utah Royals FC,Racing Louisville FC,usa-national-womens-soccer-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_68685986,2026-05-18,01:00,Vancouver FC,Cavalry FC,canada-canadian-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_71500526,2026-05-18,18:45,Waterford FC,Drogheda United FC,ireland-premier-division,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
 odds_api_io_61651676,2026-05-18,10:00,FC Zorya Luhansk,FC Polissya Zhytomyr,ukraine-premier-league,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_68751804,2026-05-19,21:00,SC Corinthians SP,SE Palmeiras SP,brazil-u20-campeonato-brasileiro,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_68215840,2026-05-19,00:00,SE Palmeiras SP,Botafogo Fr RJ,brazil-campeonato-brasileiro-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_71128226,2026-05-21,21:00,Ferroviaria SP,SE Palmeiras SP,brazil-paulista-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_70075872,2026-05-21,00:30,SE Palmeiras SP,Cerro Porteno,international-clubs-copa-libertadores,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
-odds_api_io_70075752,2026-05-22,00:30,CD Universidad Catolica,Barcelona SC,international-clubs-copa-libertadores,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_69195330,2026-05-20,09:30,Canberra Olympic,Canberra Croatia FC,australia-capital-npl-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_71216950,2026-05-21,02:00,Colorado Rapids,San Jose Earthquakes,usa-us-open-cup,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_68050308,2026-05-23,03:15,Adelaide Croatia Raiders SC Reserve,Adelaide Olympic FC Reserve,australia-south-australia-state-league-1-reserves,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_69194930,2026-05-23,04:30,Canberra Olympic,Belconnen United,australia-capital-npl-1,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_69195828,2026-05-23,02:45,Canberra White Eagles FC,O'Connor Knights SC,australia-u23-capital-npl,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_67808894,2026-05-23,04:30,New Lambton FC Reserve,Broadmeadow Magic FC Reserve,australia-northern-nsw-league-one-reserves-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_68728650,2026-05-23,04:00,NGU Loveledge Nagoya,Okayama Yunogo Belle,japan-nadeshiko-league-div-1-women,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.
+odds_api_io_67808474,2026-05-23,04:30,Valentine FC Reserve,Broadmeadow Magic FC Reserve,australia-northern-nsw-npl-reserves,bet365_manual,,,,,Fill manually from Bet365 pre-match 1X2 odds. Observation only.

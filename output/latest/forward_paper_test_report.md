@@ -5,59 +5,15 @@ Dette er stadig paper-test og ikke rigtige anbefalinger.
 
 ## Kort status
 
-- Aktuelle forward picks: **16**
-- Loggede forward picks fra 2026+: **256**
-- Afventer forward picks: **168**
+- Aktuelle forward picks: **14**
+- Loggede forward picks fra 2026+: **271**
+- Afventer forward picks: **177**
 - Settled forward picks: **0**
 - Vundne forward: **0**
 - Tabte forward: **0**
 - ROI forward: **0.0 units**
 
 ## Aktuelle forward paper-picks
-
-### V-Varen Nagasaki vs Vissel Kobe
-- Dato: **2026-05-17**
-- Kampstart: **04:00**
-- Liga: **japan-jleague**
-- Spil: **Hjemmesejr**
-- Odds: **4.75**
-- Model probability: **0.377**
-- EV: **0.792**
-- Edge: **0.167**
-- Type: **Baseline-observation**
-
-### Okayama Yunogo Belle vs Nittaidai FC
-- Dato: **2026-05-17**
-- Kampstart: **04:00**
-- Liga: **japan-nadeshiko-league-div-1-women**
-- Spil: **Udebanesejr**
-- Odds: **5.00**
-- Model probability: **0.349**
-- EV: **0.744**
-- Edge: **0.149**
-- Type: **Baseline-observation**
-
-### Gimhae FC vs Daegu FC
-- Dato: **2026-05-17**
-- Kampstart: **07:30**
-- Liga: **republic-of-korea-k-league-2**
-- Spil: **Hjemmesejr**
-- Odds: **4.75**
-- Model probability: **0.377**
-- EV: **0.792**
-- Edge: **0.167**
-- Type: **Baseline-observation**
-
-### Genoa CFC vs AC Milan
-- Dato: **2026-05-17**
-- Kampstart: **10:00**
-- Liga: **italy-serie-a**
-- Spil: **Hjemmesejr**
-- Odds: **4.65**
-- Model probability: **0.377**
-- EV: **0.754**
-- Edge: **0.162**
-- Type: **Baseline-observation**
 
 ### Genoa vs Milan
 - Dato: **2026-05-17**
@@ -103,17 +59,6 @@ Dette er stadig paper-test og ikke rigtige anbefalinger.
 - Edge: **0.063**
 - Type: **Prioritet observation**
 
-### RC Deportivo De La Coruna vs FC Andorra
-- Dato: **2026-05-17**
-- Kampstart: **12:00**
-- Liga: **spain-laliga-2**
-- Spil: **Udebanesejr**
-- Odds: **5.01**
-- Model probability: **0.349**
-- EV: **0.747**
-- Edge: **0.149**
-- Type: **Baseline-observation**
-
 ### Man United vs Nott'm Forest
 - Dato: **2026-05-17**
 - Kampstart: **12:30**
@@ -125,71 +70,104 @@ Dette er stadig paper-test og ikke rigtige anbefalinger.
 - Edge: **0.148**
 - Type: **Volumen observation**
 
-### Heracles Almelo vs FC Groningen
+### Brentford vs Crystal Palace
 - Dato: **2026-05-17**
-- Kampstart: **12:30**
-- Liga: **netherlands-eredivisie**
-- Spil: **Hjemmesejr**
-- Odds: **4.75**
-- Model probability: **0.377**
-- EV: **0.792**
-- Edge: **0.167**
-- Type: **Baseline-observation**
-
-### PEC Zwolle vs Feyenoord Rotterdam
-- Dato: **2026-05-17**
-- Kampstart: **12:30**
-- Liga: **netherlands-eredivisie**
-- Spil: **Hjemmesejr**
-- Odds: **4.75**
-- Model probability: **0.377**
-- EV: **0.792**
-- Edge: **0.167**
-- Type: **Baseline-observation**
-
-### Ternana vs AC Milan
-- Dato: **2026-05-17**
-- Kampstart: **13:00**
-- Liga: **italy-serie-a-women**
-- Spil: **Hjemmesejr**
-- Odds: **4.65**
-- Model probability: **0.377**
-- EV: **0.754**
-- Edge: **0.162**
-- Type: **Baseline-observation**
-
-### La Coruna vs Andorra
-- Dato: **2026-05-17**
-- Kampstart: **13:00**
-- Liga: **SP2**
+- Kampstart: **15:00**
+- Liga: **premier_league**
 - Spil: **Udebanesejr**
-- Odds: **5.01**
-- Model probability: **0.349**
-- EV: **0.747**
-- Edge: **0.149**
-- Type: **Baseline-observation**
+- Odds: **4.40**
+- Model probability: **0.321**
+- EV: **0.414**
+- Edge: **0.094**
+- Type: **Volumen observation**
 
-### Heracles vs Groningen
+### Wolves vs Fulham
 - Dato: **2026-05-17**
-- Kampstart: **13:30**
-- Liga: **N1**
+- Kampstart: **15:00**
+- Liga: **premier_league**
 - Spil: **Hjemmesejr**
-- Odds: **4.75**
-- Model probability: **0.377**
-- EV: **0.792**
-- Edge: **0.167**
-- Type: **Baseline-observation**
+- Odds: **3.80**
+- Model probability: **0.355**
+- EV: **0.351**
+- Edge: **0.092**
+- Type: **Prioritet observation**
 
-### Zwolle vs Feyenoord
+### Atalanta vs Bologna
 - Dato: **2026-05-17**
-- Kampstart: **13:30**
-- Liga: **N1**
-- Spil: **Hjemmesejr**
-- Odds: **4.75**
-- Model probability: **0.377**
-- EV: **0.792**
-- Edge: **0.167**
-- Type: **Baseline-observation**
+- Kampstart: **17:00**
+- Liga: **serie_a**
+- Spil: **Udebanesejr**
+- Odds: **5.00**
+- Model probability: **0.270**
+- EV: **0.348**
+- Edge: **0.070**
+- Type: **Prioritet observation**
+
+### Elche vs Getafe
+- Dato: **2026-05-17**
+- Kampstart: **18:00**
+- Liga: **la_liga**
+- Spil: **Udebanesejr**
+- Odds: **4.00**
+- Model probability: **0.379**
+- EV: **0.516**
+- Edge: **0.129**
+- Type: **Volumen observation**
+
+### Osasuna vs Espanol
+- Dato: **2026-05-17**
+- Kampstart: **18:00**
+- Liga: **la_liga**
+- Spil: **Udebanesejr**
+- Odds: **4.00**
+- Model probability: **0.356**
+- EV: **0.424**
+- Edge: **0.106**
+- Type: **Volumen observation**
+
+### Ath Madrid vs Girona
+- Dato: **2026-05-17**
+- Kampstart: **18:00**
+- Liga: **la_liga**
+- Spil: **Udebanesejr**
+- Odds: **4.50**
+- Model probability: **0.281**
+- EV: **0.266**
+- Edge: **0.059**
+- Type: **Prioritet observation**
+
+### Ath Bilbao vs Celta
+- Dato: **2026-05-17**
+- Kampstart: **18:00**
+- Liga: **la_liga**
+- Spil: **Udebanesejr**
+- Odds: **3.75**
+- Model probability: **0.310**
+- EV: **0.161**
+- Edge: **0.043**
+- Type: **Prioritet observation**
+
+### Sociedad vs Valencia
+- Dato: **2026-05-17**
+- Kampstart: **18:00**
+- Liga: **la_liga**
+- Spil: **Udebanesejr**
+- Odds: **3.40**
+- Model probability: **0.367**
+- EV: **0.247**
+- Edge: **0.073**
+- Type: **Prioritet observation**
+
+### Sevilla vs Real Madrid
+- Dato: **2026-05-17**
+- Kampstart: **18:00**
+- Liga: **la_liga**
+- Spil: **Uafgjort**
+- Odds: **4.00**
+- Model probability: **0.275**
+- EV: **0.101**
+- Edge: **0.025**
+- Type: **Prioritet observation**
 
 ## Settled forward picks
 
@@ -197,46 +175,37 @@ Ingen settled forward-picks endnu i den rene forward-rapport.
 
 ## Afventer i forward-loggen
 
-- **2026-05-15 kl. 10:00** – Werribee City FC vs Malvern City FC – Hjemmesejr @ 3.75 – Baseline-observation
-- **2026-05-15 kl. 10:30** – Essendon Royals SC vs Moreland City FC – Udebanesejr @ 4.33 – Baseline-observation
-- **2026-05-15 kl. 10:30** – Caboolture FC vs North Star FC – Udebanesejr @ 3.75 – Baseline-observation
-- **2026-05-15 kl. 11:00** – PVF Cand B vs Ho Chi Minh City FC – Hjemmesejr @ 4.10 – Baseline-observation
-- **2026-05-15 kl. 11:00** – Cong An TP Ho Chi Minh City FC vs SHB Da Nang – Udebanesejr @ 3.40 – Baseline-observation
-- **2026-05-15 kl. 11:00** – PVF Cand B vs Ho Chi Minh City FC – Udebanesejr @ 3.60 – Baseline-observation
-- **2026-05-15 kl. 11:30** – Hangzhou Linping Wuyue vs Foshan Nanshi FC – Hjemmesejr @ 3.40 – Baseline-observation
-- **2026-05-15 kl. 11:30** – Curtin University SC vs Murdoch University Melville FC – Hjemmesejr @ 4.00 – Baseline-observation
 - **2026-05-15 kl. 11:35** – Tianjin Jinmen Tiger vs Chengdu Rongcheng – Hjemmesejr @ 4.75 – Baseline-observation
-- **2026-05-15 kl. 11:35** – Shanghai Port FC vs Zhejiang FC – Udebanesejr @ 3.60 – Baseline-observation
 - **2026-05-15 kl. 12:00** – Beijing Guoan vs Qingdao Hainiu FC – Uafgjort @ 5.25 – Baseline-observation
 - **2026-05-15 kl. 13:00** – Bnei Yehuda Tel Aviv FC vs MS Football Hapoel Kiryat Yam – Udebanesejr @ 4.00 – Baseline-observation
-- **2026-05-15 kl. 13:00** – Dire Dawa Kenema vs Bahir Dar Kenema FC – Hjemmesejr @ 3.75 – Baseline-observation
 - **2026-05-15 kl. 13:00** – FK Karvan Yevlakh vs Gabala FK – Hjemmesejr @ 4.50 – Baseline-observation
+- **2026-05-15 kl. 13:00** – Dire Dawa Kenema vs Bahir Dar Kenema FC – Hjemmesejr @ 3.75 – Baseline-observation
 - **2026-05-15 kl. 13:00** – Al Ittihad Ahli of Aleppo vs Al-Shorta SC – Uafgjort @ 5.00 – Baseline-observation
+- **2026-05-16 kl. 03:00** – Bay Olympic vs Auckland United FC – Uafgjort @ 5.00 – Baseline-observation
 - **2026-05-16 kl. 03:00** – Tauranga City AFC vs Western Springs AFC – Hjemmesejr @ 3.90 – Baseline-observation
 - **2026-05-16 kl. 03:00** – Melville United AFC vs Manukau United FC – Uafgjort @ 5.25 – Baseline-observation
-- **2026-05-16 kl. 03:00** – Bay Olympic vs Auckland United FC – Uafgjort @ 5.00 – Baseline-observation
-- **2026-05-16 kl. 04:00** – Lambton Jaffas FC vs Kahibah FC – Uafgjort @ 5.25 – Baseline-observation
 - **2026-05-16 kl. 04:00** – Mynavi Sendai Ladies vs Chifure AS Elfen Saitama – Udebanesejr @ 3.90 – Baseline-observation
-- **2026-05-16 kl. 05:00** – Albirex Niigata vs Nara Club – Udebanesejr @ 4.33 – Baseline-observation
+- **2026-05-16 kl. 04:00** – Lambton Jaffas FC vs Kahibah FC – Uafgjort @ 5.25 – Baseline-observation
 - **2026-05-16 kl. 05:00** – Fukushima United FC vs Hokkaido Consadole Sapporo – Hjemmesejr @ 3.40 – Baseline-observation
-- **2026-05-16 kl. 05:00** – Dangjin Citizen vs Daejeon Korail FC – Hjemmesejr @ 3.70 – Baseline-observation
-- **2026-05-16 kl. 05:00** – Essendon Royals SC vs South Melbourne FC – Hjemmesejr @ 3.60 – Baseline-observation
-- **2026-05-16 kl. 05:00** – Belmont Swansea United FC vs Valentine FC – Udebanesejr @ 4.75 – Baseline-observation
 - **2026-05-16 kl. 05:00** – Belmont Swansea United FC vs Valentine FC – Uafgjort @ 5.00 – Baseline-observation
+- **2026-05-16 kl. 05:00** – Essendon Royals SC vs South Melbourne FC – Hjemmesejr @ 3.60 – Baseline-observation
+- **2026-05-16 kl. 05:00** – Albirex Niigata vs Nara Club – Udebanesejr @ 4.33 – Baseline-observation
+- **2026-05-16 kl. 05:00** – Belmont Swansea United FC vs Valentine FC – Udebanesejr @ 4.75 – Baseline-observation
+- **2026-05-16 kl. 05:00** – Dangjin Citizen vs Daejeon Korail FC – Hjemmesejr @ 3.70 – Baseline-observation
 - **2026-05-16 kl. 05:30** – Adelaide Atletico VSC vs Eastern United – Udebanesejr @ 4.20 – Baseline-observation
 - **2026-05-16 kl. 11:30** – Falkirk FC vs Glasgow Rangers – Hjemmesejr @ 3.82 – Baseline-observation
 - **2026-05-16 kl. 12:00** – Real Sociedad San Sebastian B vs CD Mirandes – Hjemmesejr @ 3.35 – Baseline-observation
-- **2026-05-16 kl. 12:30** – Celtic vs Hearts – Udebanesejr @ 5.00 – Baseline-observation
 - **2026-05-16 kl. 12:30** – Falkirk vs Rangers – Hjemmesejr @ 3.82 – Baseline-observation
+- **2026-05-16 kl. 12:30** – Celtic vs Hearts – Udebanesejr @ 5.00 – Baseline-observation
 - **2026-05-16 kl. 13:30** – Borussia Monchengladbach vs TSG Hoffenheim – Hjemmesejr @ 4.50 – Baseline-observation
 - **2026-05-16 kl. 14:00** – Chelsea FC vs Manchester City – Hjemmesejr @ 4.50 – Baseline-observation
+- **2026-05-16 kl. 14:30** – Ein Frankfurt vs Stuttgart – Hjemmesejr @ 3.40 – Prioritet observation
+- **2026-05-16 kl. 14:30** – Freiburg vs RB Leipzig – Uafgjort @ 4.00 – Prioritet observation
 - **2026-05-16 kl. 14:30** – St Pauli vs Wolfsburg – Uafgjort @ 3.75 – Prioritet observation
 - **2026-05-16 kl. 14:30** – Union Berlin vs Augsburg – Uafgjort @ 3.90 – Prioritet observation
-- **2026-05-16 kl. 14:30** – Ein Frankfurt vs Stuttgart – Hjemmesejr @ 3.40 – Prioritet observation
 - **2026-05-16 kl. 14:30** – Werder Bremen vs Dortmund – Hjemmesejr @ 3.50 – Prioritet observation
-- **2026-05-16 kl. 14:30** – M'gladbach vs Hoffenheim – Uafgjort @ 4.50 – Prioritet observation
-- **2026-05-16 kl. 14:30** – Freiburg vs RB Leipzig – Uafgjort @ 4.00 – Prioritet observation
 - **2026-05-16 kl. 14:30** – Heidenheim vs Mainz – Udebanesejr @ 3.40 – Prioritet observation
+- **2026-05-16 kl. 14:30** – M'gladbach vs Hoffenheim – Uafgjort @ 4.50 – Prioritet observation
 - **2026-05-16 kl. 17:00** – Casa Pia Lisbon vs Rio Ave FC – Udebanesejr @ 5.00 – Baseline-observation
 - **2026-05-16 kl. 17:00** – SC Braga vs Estrela Amadora – Udebanesejr @ 5.00 – Baseline-observation
 - **2026-05-16 kl. 17:30** – Almeria vs Las Palmas – Udebanesejr @ 3.60 – Prioritet observation
@@ -245,18 +214,27 @@ Ingen settled forward-picks endnu i den rene forward-rapport.
 - **2026-05-17 kl. 04:00** – Okayama Yunogo Belle vs Nittaidai FC – Udebanesejr @ 5.00 – Baseline-observation
 - **2026-05-17 kl. 07:30** – Gimhae FC vs Daegu FC – Hjemmesejr @ 4.75 – Baseline-observation
 - **2026-05-17 kl. 10:00** – Genoa CFC vs AC Milan – Hjemmesejr @ 4.50 – Baseline-observation
-- **2026-05-17 kl. 11:00** – Juventus vs Fiorentina – Uafgjort @ 5.00 – Volumen observation
 - **2026-05-17 kl. 11:00** – Genoa vs Milan – Hjemmesejr @ 4.85 – Volumen observation
-- **2026-05-17 kl. 11:00** – Como vs Parma – Uafgjort @ 5.25 – Volumen observation
+- **2026-05-17 kl. 11:00** – Juventus vs Fiorentina – Uafgjort @ 5.00 – Volumen observation
 - **2026-05-17 kl. 11:00** – Roma vs Lazio – Uafgjort @ 4.09 – Prioritet observation
+- **2026-05-17 kl. 11:00** – Como vs Parma – Uafgjort @ 5.25 – Volumen observation
 - **2026-05-17 kl. 12:00** – RC Deportivo De La Coruna vs FC Andorra – Udebanesejr @ 5.01 – Baseline-observation
 - **2026-05-17 kl. 12:30** – Man United vs Nott'm Forest – Udebanesejr @ 5.25 – Volumen observation
 - **2026-05-17 kl. 12:30** – PEC Zwolle vs Feyenoord Rotterdam – Hjemmesejr @ 4.75 – Baseline-observation
 - **2026-05-17 kl. 12:30** – Heracles Almelo vs FC Groningen – Hjemmesejr @ 4.63 – Baseline-observation
 - **2026-05-17 kl. 13:00** – La Coruna vs Andorra – Udebanesejr @ 5.01 – Baseline-observation
 - **2026-05-17 kl. 13:00** – Ternana vs AC Milan – Hjemmesejr @ 4.50 – Baseline-observation
-- **2026-05-17 kl. 13:30** – Zwolle vs Feyenoord – Hjemmesejr @ 4.75 – Baseline-observation
 - **2026-05-17 kl. 13:30** – Heracles vs Groningen – Hjemmesejr @ 4.63 – Baseline-observation
+- **2026-05-17 kl. 13:30** – Zwolle vs Feyenoord – Hjemmesejr @ 4.75 – Baseline-observation
+- **2026-05-17 kl. 15:00** – Brentford vs Crystal Palace – Udebanesejr @ 4.33 – Volumen observation
+- **2026-05-17 kl. 15:00** – Wolves vs Fulham – Hjemmesejr @ 3.80 – Prioritet observation
+- **2026-05-17 kl. 17:00** – Atalanta vs Bologna – Udebanesejr @ 4.75 – Prioritet observation
+- **2026-05-17 kl. 18:00** – Sociedad vs Valencia – Udebanesejr @ 3.40 – Prioritet observation
+- **2026-05-17 kl. 18:00** – Elche vs Getafe – Udebanesejr @ 3.57 – Prioritet observation
+- **2026-05-17 kl. 18:00** – Ath Madrid vs Girona – Udebanesejr @ 4.50 – Prioritet observation
+- **2026-05-17 kl. 18:00** – Osasuna vs Espanol – Udebanesejr @ 3.80 – Prioritet observation
+- **2026-05-17 kl. 18:00** – Ath Bilbao vs Celta – Udebanesejr @ 3.75 – Prioritet observation
+- **2026-05-17 kl. 18:00** – Sevilla vs Real Madrid – Uafgjort @ 4.00 – Prioritet observation
 
 ## Settlement-check pending/noter
 

@@ -2,47 +2,48 @@
 
 Purpose: show whether API calls are producing usable direct event matches or mostly noisy fallback candidates.
 
-Candidate rows: 43480
-Selected rows before price quality filter: 80
-Calls used: 5 / 14
+Candidate rows: 29636
+Selected rows before price quality filter: 60
+Calls used: 14 / 14
 Max discovery calls: 13
-Events discovery rows: 583
-Search fallback used: False
-Search queries used: nan
+Events discovery rows: 394
+Search fallback used: True
+Search queries used: Como, Genoa, Juventus, Pisa, Roma, Anderlecht, Man United, La Coruna, AZ Alkmaar, Heerenveen
 Multi-odds attempted: True
 Raw price rows before quality filter: 60
-Accepted price rows after quality filter: 51
-Rejected price rows after quality filter: 9
-Latest rate-limit remaining: 41
+Accepted price rows after quality filter: 60
+Rejected price rows after quality filter: 0
+Latest rate-limit remaining: 28
 
 ## By discovery source
 
-- events_bookmaker_filtered: candidates=43480, selected=80, best_confidence=1.0, avg_confidence=0.25436329576816924
+- events_bookmaker_filtered: candidates=29610, selected=59, best_confidence=1.0, avg_confidence=0.2490221006416751
+- events_search_fallback: candidates=26, selected=1, best_confidence=0.84, avg_confidence=0.4517923076923077
 
 ## Top candidates
 
-- src=events_bookmaker_filtered | query=Iwaki FC | target=Iwaki FC vs Matsumoto Yamaga FC | candidate=Iwaki FC vs Matsumoto Yamaga FC | date=2026-05-17 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Ferencvarosi TC II | target=Ferencvarosi TC II vs Pecsi MFC | candidate=Ferencvarosi TC II vs Pecsi MFC | date=2026-05-17 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Debreceni VSC II | target=Debreceni VSC II vs Tiszaujvaros | candidate=Debreceni VSC II vs Tiszaujvaros | date=2026-05-17 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=V-Varen Nagasaki | target=V-Varen Nagasaki vs Vissel Kobe | candidate=V-Varen Nagasaki vs Vissel Kobe | date=2026-05-17 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Bucheon FC 1995 | target=Bucheon FC 1995 vs FC Pohang Steelers | candidate=Bucheon FC 1995 vs FC Pohang Steelers | date=2026-05-17 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=RB Omiya Ardija | target=RB Omiya Ardija vs AC Nagano Parceiro | candidate=RB Omiya Ardija vs AC Nagano Parceiro | date=2026-05-17 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Hwaseong FC | target=Hwaseong FC vs Busan I Park | candidate=Hwaseong FC vs Busan I Park | date=2026-05-17 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Paksi FC II | target=Paksi FC II vs Majosi SE | candidate=Paksi FC II vs Majosi SE | date=2026-05-17 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Kagoshima United | target=Kagoshima United vs Roasso Kumamoto | candidate=Kagoshima United vs Roasso Kumamoto | date=2026-05-17 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Fagiano Okayama | target=Fagiano Okayama vs Shimizu S-Pulse | candidate=Fagiano Okayama vs Shimizu S-Pulse | date=2026-05-17 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Canberra White Eagles FC | target=Canberra White Eagles FC vs Canberra Juventus FC | candidate=Canberra White Eagles FC vs Canberra Juventus FC | date=2026-05-17 | confidence=1.0 | selected=False
-- src=events_bookmaker_filtered | query=Club Deportiva Minera | target=Club Deportiva Minera vs CD Coria | candidate=Club Deportiva Minera vs CD Coria | date=2026-05-17 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=JEF United Chiba | target=JEF United Chiba vs Kashima Antlers | candidate=JEF United Chiba vs Kashima Antlers | date=2026-05-17 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Lee Man FC | target=Lee Man FC vs Tai Po FC | candidate=Lee Man FC vs Tai Po FC | date=2026-05-17 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Canberra White Eagles FC | target=Canberra White Eagles FC vs Canberra Juventus FC | candidate=Canberra White Eagles FC vs Canberra Juventus FC | date=2026-05-17 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Bali United | target=Bali United vs Bhayangkara Presisi Indonesia FC | candidate=Bali United vs Bhayangkara Presisi Indonesia FC | date=2026-05-17 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Bulls FC Academy U23 | target=Bulls FC Academy U23 vs Manly United FC | candidate=Bulls FC Academy U23 vs Manly United FC | date=2026-05-17 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=FC Ryukyu | target=FC Ryukyu vs Gainare Tottori | candidate=FC Ryukyu vs Gainare Tottori | date=2026-05-17 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Garuda FC | target=Garuda FC vs Palmerston Rovers | candidate=Garuda FC vs Palmerston Rovers | date=2026-05-17 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Adelaide Olympic FC Reserve | target=Adelaide Olympic FC Reserve vs Cumberland United Reserve | candidate=Adelaide Olympic FC Reserve vs Cumberland United Reserve | date=2026-05-17 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Wuhan Lianzhen FC | target=Wuhan Lianzhen FC vs Guandong GZ-Power FC | candidate=Wuhan Lianzhen FC vs Guandong GZ-Power FC | date=2026-05-17 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Gimhae FC | target=Gimhae FC vs Daegu FC | candidate=Gimhae FC vs Daegu FC | date=2026-05-17 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Hills United FC | target=Hills United FC vs Gladesville Ravens | candidate=Hills United FC vs Gladesville Ravens | date=2026-05-17 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=MTK Budapest II | target=MTK Budapest II vs Dunaujvaros Palhalma Agrospecial SE | candidate=MTK Budapest II vs Dunaujvaros Palhalma Agrospecial SE | date=2026-05-17 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Canberra Olympic | target=Canberra Olympic vs Tuggeranong United FC | candidate=Canberra Olympic vs Tuggeranong United FC | date=2026-05-17 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=KF Dukagjini | target=KF Dukagjini vs FC Drita | candidate=KF Dukagjini vs FC Drita | date=2026-05-17 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=AC Prato 1908 | target=AC Prato 1908 vs ASD Seravezza Pozzi Calcio | candidate=AC Prato 1908 vs ASD Seravezza Pozzi Calcio | date=2026-05-17 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Skiljebo SK | target=Skiljebo SK vs Kungsangens IF | candidate=Skiljebo SK vs Kungsangens IF | date=2026-05-17 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=National Bank of Egypt SC | target=National Bank of Egypt SC vs El Gouna FC | candidate=National Bank of Egypt SC vs El Gouna FC | date=2026-05-17 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=FC Meyrin | target=FC Meyrin vs FC Echallens Region | candidate=FC Meyrin vs FC Echallens Region | date=2026-05-17 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=IFK Stocksund | target=IFK Stocksund vs Piteaa IF | candidate=IFK Stocksund vs Piteaa IF | date=2026-05-17 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=FK Cukaricki Belgrade | target=FK Cukaricki Belgrade vs FK Partizan Belgrade | candidate=FK Cukaricki Belgrade vs FK Partizan Belgrade | date=2026-05-17 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Trelleborgs FF | target=Trelleborgs FF vs FC Trollhattan | candidate=Trelleborgs FF vs FC Trollhattan | date=2026-05-17 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=FC Kuressaare | target=FC Kuressaare vs Nomme Kalju FC | candidate=FC Kuressaare vs Nomme Kalju FC | date=2026-05-17 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Mohun Bagan Super Giant | target=Mohun Bagan Super Giant vs SC East Bengal | candidate=Mohun Bagan Super Giant vs SC East Bengal | date=2026-05-17 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Gefle IF | target=Gefle IF vs Assyriska FF | candidate=Gefle IF vs Assyriska FF | date=2026-05-17 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=ASD Martina Calcio 1947 | target=ASD Martina Calcio 1947 vs Paganese Calcio | candidate=ASD Martina Calcio 1947 vs Paganese Calcio | date=2026-05-17 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=FK Auda Riga | target=FK Auda Riga vs FC RFS | candidate=FK Auda Riga vs FC RFS | date=2026-05-17 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=IF Karlstad Fotbol | target=IF Karlstad Fotbol vs Vasalunds IF | candidate=IF Karlstad Fotbol vs Vasalunds IF | date=2026-05-17 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=US Mondorf-Les-Bains | target=US Mondorf-Les-Bains vs Union Titus Petange | candidate=US Mondorf-Les-Bains vs Union Titus Petange | date=2026-05-17 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=HPS | target=HPS vs HJK Helsinki | candidate=HPS vs HJK Helsinki | date=2026-05-17 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=NK Slaven Belupo | target=NK Slaven Belupo vs GNK Dinamo Zagreb | candidate=NK Slaven Belupo vs GNK Dinamo Zagreb | date=2026-05-17 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Leeds United | target=Leeds United vs Brighton & Hove Albion | candidate=Leeds United vs Brighton & Hove Albion | date=2026-05-17 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Kaisar Kyzylorda | target=Kaisar Kyzylorda vs Tobol Kostanay | candidate=Kaisar Kyzylorda vs Tobol Kostanay | date=2026-05-17 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Dynamo Dresden | target=Dynamo Dresden vs Holstein Kiel | candidate=Dynamo Dresden vs Holstein Kiel | date=2026-05-17 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Arminia Bielefeld | target=Arminia Bielefeld vs Hertha BSC | candidate=Arminia Bielefeld vs Hertha BSC | date=2026-05-17 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Teramo Calcio | target=Teramo Calcio vs Notaresco Calcio | candidate=Teramo Calcio vs Notaresco Calcio | date=2026-05-17 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=OFI Crete | target=OFI Crete vs Volos NPS | candidate=OFI Crete vs Volos NPS | date=2026-05-17 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=FA Siauliai B | target=FA Siauliai B vs FK Ekranas | candidate=FA Siauliai B vs FK Ekranas | date=2026-05-17 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=FC Rodange 91 | target=FC Rodange 91 vs FC Mamer 32 | candidate=FC Rodange 91 vs FC Mamer 32 | date=2026-05-17 | confidence=1.0 | selected=True
