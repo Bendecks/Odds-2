@@ -1,100 +1,59 @@
 event_id,sport,league,date_utc,date_denmark,home,away,status
-71557922,Tennis,ATP - French Open Men Singles,2026-05-18T15:00:00Z,2026-05-18 17:00,"Sachko, Vitaliy","Pinnington Jones, Jack",pending
-71557906,Tennis,ATP - French Open Men Singles,2026-05-18T15:05:00Z,2026-05-18 17:05,"Tomic, Bernard","Echargui, Moez",pending
-71545408,Tennis,"WTA - WTA Rabat, Morocco Women Doubles",2026-05-18T15:15:00Z,2026-05-18 17:15,Bhosale R / Plipuech P,Chong E / Kempen M,pending
-71558172,Tennis,"ATP - ATP Hamburg, Germany Men Singles",2026-05-18T15:00:00Z,2026-05-18 17:00,"Giron, Marcos","Shelton, Ben",pending
-71545096,Tennis,"Challenger - ATP Challenger Istanbul, Turkey Men Singles",2026-05-18T15:00:00Z,2026-05-18 17:00,"Mrva, Maxim","Forejtek, Jonas",pending
-71557736,Tennis,WTA - French Open Women Singles,2026-05-18T15:00:00Z,2026-05-18 17:00,"Korneeva, Alina","Hibino, Nao",pending
-71557924,Tennis,ATP - French Open Men Singles,2026-05-18T15:05:00Z,2026-05-18 17:05,"Bueno, Gonzalo","Bax, Florent",pending
-71557734,Tennis,WTA - French Open Women Singles,2026-05-18T15:05:00Z,2026-05-18 17:05,"Rus, Arantxa","Ortenzi, Jazmin",pending
-71557898,Tennis,ATP - French Open Men Singles,2026-05-18T15:10:00Z,2026-05-18 17:10,"Neumayer, Lukas","Bolt, Alex",pending
-71557778,Tennis,WTA - French Open Women Singles,2026-05-18T15:10:00Z,2026-05-18 17:10,"Klimovicova, Linda","Radivojevic, Lola",pending
-71557826,Tennis,WTA - French Open Women Singles,2026-05-18T15:20:00Z,2026-05-18 17:20,"Jorge, Matilde","Kalieva, Elvina",pending
-71557900,Tennis,ATP - French Open Men Singles,2026-05-18T15:30:00Z,2026-05-18 17:30,"Moro Canas, Alejandro","Napolitano, Stefano",pending
-71557742,Tennis,WTA - French Open Women Singles,2026-05-18T15:55:00Z,2026-05-18 17:55,"Day, Kayla","Dodin, Oceane",pending
-71557710,Tennis,"ATP - ATP Geneva, Switzerland Men Singles",2026-05-18T16:00:00Z,2026-05-18 18:00,"Brancaccio, Raul","Wawrinka, Stan",pending
-71545444,Tennis,"Challenger - ATP Challenger Cervia, Italy Men Singles",2026-05-18T16:00:00Z,2026-05-18 18:00,"Dhamne, Manas","Krueger, Mitchell",pending
-71557744,Tennis,WTA - French Open Women Singles,2026-05-18T16:10:00Z,2026-05-18 18:10,"Sasnovich, Aliaksandra","Osuigwe, Whitney",pending
-71543540,Tennis,"ATP - ATP Hamburg, Germany Men Singles",2026-05-18T16:10:00Z,2026-05-18 18:10,"Mensik, Jakub","Struff, Jan-Lennard",pending
-71557882,Tennis,ATP - French Open Men Singles,2026-05-18T15:20:00Z,2026-05-18 17:20,"Mejia, Nicolas","Llamas Ruiz, Pablo",pending
-71543686,Tennis,"WTA - WTA Strasbourg, France Women Singles",2026-05-18T15:30:00Z,2026-05-18 17:30,"Bouzkova, Marie","Siniakova, Katerina",pending
-71557758,Tennis,WTA - French Open Women Singles,2026-05-18T15:35:00Z,2026-05-18 17:35,"Bandecchi, Susan","Paquet, Chloe",pending
-71557888,Tennis,ATP - French Open Men Singles,2026-05-18T16:20:00Z,2026-05-18 18:20,"Gaubas, Vilius","Coria, Federico",pending
-71558112,Tennis,"ATP - ATP Geneva, Switzerland Men Singles",2026-05-18T17:10:00Z,2026-05-18 19:10,"Sonego, Lorenzo","Butvilas, Edas",pending
-71557760,Tennis,WTA - French Open Women Singles,2026-05-18T16:10:00Z,2026-05-18 18:10,"Salkova, Dominika","Podrez, Veronika",pending
-71557886,Tennis,ATP - French Open Men Singles,2026-05-18T16:15:00Z,2026-05-18 18:15,"Reis Da Silva, Joao Lucas","Hemery, Calvin",pending
-71557884,Tennis,ATP - French Open Men Singles,2026-05-18T16:15:00Z,2026-05-18 18:15,"Broom, Charles","Blanchet, Ugo",pending
-30931378,Esports,Valorant - Challengers EMEA,2026-05-18T17:45:00Z,2026-05-18 19:45,Ghools,Joblife,pending
-30959230,Esports,Valorant - Challengers EMEA,2026-05-18T17:45:00Z,2026-05-18 19:45,Reborn,Enterprise,pending
-71563330,Esports,Counter-Strike - CCT South American Series,2026-05-18T22:00:00Z,2026-05-19 00:00,Herewegoagain,Red Feet,pending
-30929811,Esports,Valorant - Challengers EMEA,2026-05-18T15:15:00Z,2026-05-18 17:15,AlQadsiah,UCAM,pending
-30993366,Esports,Valorant - Challengers EMEA,2026-05-18T15:15:00Z,2026-05-18 17:15,NAVI Junior,Besiktas,pending
-69880330,Football,Egypt - Premier League,2026-05-18T17:00:00Z,2026-05-18 19:00,Ghazl El Mahallah,Al Ittihad Al Sakandary,pending
-70812674,Football,Israel - Premier League,2026-05-18T17:00:00Z,2026-05-18 19:00,Hapoel Jerusalem FC,Ironi Tiberias,pending
-67126550,Football,Sweden - Allsvenskan,2026-05-18T17:00:00Z,2026-05-18 19:00,Djurgardens IF,IK Sirius,pending
-67126110,Football,Sweden - Superettan,2026-05-18T17:00:00Z,2026-05-18 19:00,GIF Sundsvall,Landskrona BoIS,pending
-67604816,Football,Finland - Ykkosliiga,2026-05-18T15:30:00Z,2026-05-18 17:30,FC Haka Valkeakoski,HJK Klubi 04,pending
-69880328,Football,Egypt - Premier League,2026-05-18T17:00:00Z,2026-05-18 19:00,Al Mokawloon Al Arab,Wadi Degla SC,pending
-70812668,Football,Israel - Premier League,2026-05-18T17:00:00Z,2026-05-18 19:00,Hapoel Ironi Kiryat Shmona FC,MS Ashdod,pending
-70812670,Football,Israel - Premier League,2026-05-18T17:00:00Z,2026-05-18 19:00,Hapoel Haifa FC,Bnei Sakhnin FC,pending
-70812672,Football,Israel - Premier League,2026-05-18T17:00:00Z,2026-05-18 19:00,Maccabi Bney Reine,Maccabi Netanya FC,pending
-67126556,Football,Sweden - Allsvenskan,2026-05-18T17:00:00Z,2026-05-18 19:00,Orgryte IS,IFK Goteborg,pending
-67126106,Football,Sweden - Superettan,2026-05-18T17:05:00Z,2026-05-18 19:05,IK Oddevold,Orebro SK,pending
-69744644,Football,Romania - Superliga,2026-05-18T17:30:00Z,2026-05-18 19:30,FC Farul Constanta,Metaloglobus Bucuresti,pending
-69744652,Football,Romania - Superliga,2026-05-18T17:30:00Z,2026-05-18 19:30,AFC Hermannstadt,Fotbal Club FCSB,pending
-69744650,Football,Romania - Superliga,2026-05-18T17:30:00Z,2026-05-18 19:30,FC Unirea 2004 Slobozia,FC Uta Arad,pending
-71546786,Football,Switzerland - Super League,2026-05-18T18:15:00Z,2026-05-18 20:15,FC Aarau,Grasshopper Club Zurich,pending
-67119320,Football,Argentina - Primera B,2026-05-18T18:30:00Z,2026-05-18 20:30,CS Italiano,CSCD Laferrere,pending
-67849990,Football,Faroe Islands - Premier League,2026-05-18T17:30:00Z,2026-05-18 19:30,AB Argir,Vikingur Gota,pending
-67849992,Football,Faroe Islands - Premier League,2026-05-18T17:30:00Z,2026-05-18 19:30,HB Torshavn,Eb/Streymur,pending
-69744646,Football,Romania - Superliga,2026-05-18T17:30:00Z,2026-05-18 19:30,FC Petrolul Ploiesti,ASC Otelul Galati,pending
-67122874,Football,Argentina - Primera C,2026-05-18T18:30:00Z,2026-05-18 20:30,CS Barracas,Defensores de Cambaceres,pending
-68822886,Football,Brazil - Brasileiro Serie B,2026-05-18T22:00:00Z,2026-05-19 00:00,AA Ponte Preta SP,Londrina EC PR,pending
-70322856,Football,Brazil - Brasileiro Serie D,2026-05-18T22:30:00Z,2026-05-19 00:30,Uberlandia EC MG,Betim Futebol MG,pending
-69255024,Football,Brazil - Brasileiro Serie C,2026-05-18T23:00:00Z,2026-05-19 01:00,AD Confianca SE,Maranhao AC MA,pending
-69255036,Football,Brazil - Brasileiro Serie C,2026-05-18T23:00:00Z,2026-05-19 01:00,Botafogo FC PB,AA Internacional Limeira SP,pending
-68215850,Football,"Brazil - Campeonato Brasileiro, Women",2026-05-18T23:00:00Z,2026-05-19 01:00,Sao Paulo FC SP,EC Juventude RS,pending
-68215838,Football,"Brazil - Campeonato Brasileiro, Women",2026-05-18T22:00:00Z,2026-05-19 00:00,Ferroviaria SP,EC Vitoria BA,pending
-61623906,Football,Spain - LaLiga 2,2026-05-18T18:30:00Z,2026-05-18 20:30,CD Leganes,SD Huesca,pending
-71324794,Football,"Brazil - Brasileiro A3, Women",2026-05-18T21:00:00Z,2026-05-18 23:00,Criciuma EC SC,AE Realidade Jovem SP,pending
-67122892,Football,Argentina - Primera C,2026-05-18T18:30:00Z,2026-05-18 20:30,CSDC Espanol,Club Mercedes,pending
-61301249,Football,England - Premier League,2026-05-18T19:00:00Z,2026-05-18 21:00,Arsenal FC,Burnley FC,pending
-68215840,Football,"Brazil - Campeonato Brasileiro, Women",2026-05-19T00:00:00Z,2026-05-19 02:00,SE Palmeiras SP,Botafogo Fr RJ,pending
-68215846,Football,"Brazil - Campeonato Brasileiro, Women",2026-05-19T00:00:00Z,2026-05-19 02:00,Cruzeiro EC MG,SC Corinthians SP,pending
+63300553,Baseball,USA - MLB,2026-05-18T22:40:00Z,2026-05-19 00:40,Philadelphia Phillies,Cincinnati Reds,pending
+63300821,Baseball,USA - MLB,2026-05-18T23:40:00Z,2026-05-19 01:40,Chicago Cubs,Milwaukee Brewers,pending
+63299679,Baseball,USA - MLB,2026-05-18T22:40:00Z,2026-05-19 00:40,Detroit Tigers,Cleveland Guardians,pending
+63299809,Baseball,USA - MLB,2026-05-18T22:45:00Z,2026-05-19 00:45,Washington Nationals,New York Mets,pending
+63300207,Baseball,USA - MLB,2026-05-18T23:10:00Z,2026-05-19 01:10,Kansas City Royals,Boston Red Sox,pending
+71451526,Baseball,"USA - NCAA, Regular Season",2026-05-18T18:00:00Z,2026-05-18 20:00,Bucknell Bison,Holy Cross Crusaders,pending
+63299525,Baseball,USA - MLB,2026-05-18T23:40:00Z,2026-05-19 01:40,Minnesota Twins,Houston Astros,pending
+63299761,Baseball,USA - MLB,2026-05-18T22:40:00Z,2026-05-19 00:40,Tampa Bay Rays,Baltimore Orioles,pending
+63300037,Baseball,USA - MLB,2026-05-18T22:40:00Z,2026-05-19 00:40,Miami Marlins,Atlanta Braves,pending
+63300533,Baseball,USA - MLB,2026-05-18T23:05:00Z,2026-05-19 01:05,New York Yankees,Toronto Blue Jays,pending
+63300529,Baseball,USA - MLB,2026-05-19T01:40:00Z,2026-05-19 03:40,San Diego Padres,Los Angeles Dodgers,pending
+63300295,Baseball,USA - MLB,2026-05-19T01:40:00Z,2026-05-19 03:40,Arizona Diamondbacks,San Francisco Giants,pending
+63300349,Baseball,USA - MLB,2026-05-19T01:40:00Z,2026-05-19 03:40,Seattle Mariners,Chicago White Sox,pending
+63300747,Baseball,USA - MLB,2026-05-19T00:40:00Z,2026-05-19 02:40,Colorado Rockies,Texas Rangers,pending
+63299657,Baseball,USA - MLB,2026-05-19T01:38:00Z,2026-05-19 03:38,Los Angeles Angels,Athletics,pending
 71532954,Basketball,Italy - Serie B,2026-05-18T19:00:00Z,2026-05-18 21:00,Pelle Livorno,Legnano Knights,pending
-70983436,Basketball,Paraguay - LNB,2026-05-18T22:30:00Z,2026-05-19 00:30,Colonias Gold,CA Ciudad Nueva,pending
 70504094,Basketball,Paraguay - LNB,2026-05-18T23:00:00Z,2026-05-19 01:00,Olimpia Kings,Deportivo San Jose,pending
-71494036,Basketball,Israel - National League,2026-05-18T16:00:00Z,2026-05-18 18:00,Elitzur Shomron Hlp,Ironi Nahariya,pending
+71474276,Basketball,Venezuela - SuperLiga,2026-05-18T23:00:00Z,2026-05-19 01:00,Brillantes Del Zulia,Gaiteros Del Zulia,pending
+71474298,Basketball,Venezuela - SuperLiga,2026-05-18T23:00:00Z,2026-05-19 01:00,Pioneros del Avila,Cocodrilos de Caracas,pending
 63468551,Basketball,Israel - Super League,2026-05-18T18:00:00Z,2026-05-18 20:00,Maccabi Raanana,Ironi Ness Ziona,pending
 71448632,Basketball,Italy - Serie A,2026-05-18T18:00:00Z,2026-05-18 20:00,Pallacanestro Brescia,Pallacanestro Trieste 2004,pending
 71576438,Basketball,Italy - Serie B,2026-05-18T18:30:00Z,2026-05-18 20:30,ASD Latina Basket,Treviglio Brianza Basket,pending
 71532952,Basketball,Italy - Serie B,2026-05-18T18:30:00Z,2026-05-18 20:30,Juvecaserta 2021,Herons Basket Montecatini,pending
-71474276,Basketball,Venezuela - SuperLiga,2026-05-18T23:00:00Z,2026-05-19 01:00,Brillantes Del Zulia,Gaiteros Del Zulia,pending
-63468579,Basketball,Israel - Super League,2026-05-18T15:40:00Z,2026-05-18 17:40,Elitzur Netanya,Hapoel Holon BC,pending
+70983436,Basketball,Paraguay - LNB,2026-05-18T22:30:00Z,2026-05-19 00:30,Colonias Gold,CA Ciudad Nueva,pending
+71474358,Basketball,Venezuela - SuperLiga,2026-05-18T23:00:00Z,2026-05-19 01:00,Marinos de Anzoategui,Spartans Distrito Capital,pending
 71474370,Basketball,Venezuela - SuperLiga,2026-05-18T23:00:00Z,2026-05-19 01:00,Trotamundos de Carabobo,Guaiqueries De Margarita,pending
 70504096,Basketball,Paraguay - LNB,2026-05-18T23:30:00Z,2026-05-19 01:30,Basket San Alfonso,Felix Perez Cardozo,pending
 70504098,Basketball,Paraguay - LNB,2026-05-18T23:30:00Z,2026-05-19 01:30,Deportivo Campoalto,Deportivo Amambay,pending
 71550420,Basketball,Argentina - LNB,2026-05-19T00:00:00Z,2026-05-19 02:00,Gimnasia de Comodoro,Independiente de Oliva,pending
-71474298,Basketball,Venezuela - SuperLiga,2026-05-18T23:00:00Z,2026-05-19 01:00,Pioneros del Avila,Cocodrilos de Caracas,pending
-71474358,Basketball,Venezuela - SuperLiga,2026-05-18T23:00:00Z,2026-05-19 01:00,Marinos de Anzoategui,Spartans Distrito Capital,pending
 68096372,Basketball,USA - WNBA,2026-05-19T00:00:00Z,2026-05-19 02:00,Dallas Wings,Washington Mystics,pending
 71550426,Basketball,Argentina - LNB,2026-05-19T00:05:00Z,2026-05-19 02:05,Regatas Corrientes,Ferro Carril Oeste,pending
 70505032,Basketball,USA - NBA,2026-05-19T00:30:00Z,2026-05-19 02:30,Oklahoma City Thunder,San Antonio Spurs,pending
-63299679,Baseball,USA - MLB,2026-05-18T22:40:00Z,2026-05-19 00:40,Detroit Tigers,Cleveland Guardians,pending
-63299761,Baseball,USA - MLB,2026-05-18T22:40:00Z,2026-05-19 00:40,Tampa Bay Rays,Baltimore Orioles,pending
-63300553,Baseball,USA - MLB,2026-05-18T22:40:00Z,2026-05-19 00:40,Philadelphia Phillies,Cincinnati Reds,pending
-63300821,Baseball,USA - MLB,2026-05-18T23:40:00Z,2026-05-19 01:40,Chicago Cubs,Milwaukee Brewers,pending
-71451526,Baseball,"USA - NCAA, Regular Season",2026-05-18T18:00:00Z,2026-05-18 20:00,Bucknell Bison,Holy Cross Crusaders,pending
-63300037,Baseball,USA - MLB,2026-05-18T22:40:00Z,2026-05-19 00:40,Miami Marlins,Atlanta Braves,pending
-63299809,Baseball,USA - MLB,2026-05-18T22:45:00Z,2026-05-19 00:45,Washington Nationals,New York Mets,pending
-63300533,Baseball,USA - MLB,2026-05-18T23:05:00Z,2026-05-19 01:05,New York Yankees,Toronto Blue Jays,pending
-63299525,Baseball,USA - MLB,2026-05-18T23:40:00Z,2026-05-19 01:40,Minnesota Twins,Houston Astros,pending
-63300207,Baseball,USA - MLB,2026-05-18T23:40:00Z,2026-05-19 01:40,Kansas City Royals,Boston Red Sox,pending
-63300295,Baseball,USA - MLB,2026-05-19T01:40:00Z,2026-05-19 03:40,Arizona Diamondbacks,San Francisco Giants,pending
-63300349,Baseball,USA - MLB,2026-05-19T01:40:00Z,2026-05-19 03:40,Seattle Mariners,Chicago White Sox,pending
-63300529,Baseball,USA - MLB,2026-05-19T01:40:00Z,2026-05-19 03:40,San Diego Padres,Los Angeles Dodgers,pending
-63300747,Baseball,USA - MLB,2026-05-19T00:40:00Z,2026-05-19 02:40,Colorado Rockies,Texas Rangers,pending
-63299657,Baseball,USA - MLB,2026-05-19T01:38:00Z,2026-05-19 03:38,Los Angeles Angels,Athletics,pending
+71578892,Tennis,"Challenger - ATP Challenger Bengaluru 3, India Men Singles",2026-05-19T04:30:00Z,2026-05-19 06:30,"Papa, Christopher","Bar Biryukov, Petr",pending
+71544416,Tennis,"Challenger - ATP Challenger Bengaluru 3, India Men Singles",2026-05-19T05:30:00Z,2026-05-19 07:30,"Jasika, Omar","Rawat, Sidharth",pending
+71544420,Tennis,"Challenger - ATP Challenger Bengaluru 3, India Men Singles",2026-05-19T05:30:00Z,2026-05-19 07:30,"Stewart, Hamish","Vishal Balsekar, Aditya",pending
+71544422,Tennis,"Challenger - ATP Challenger Bengaluru 3, India Men Singles",2026-05-19T05:30:00Z,2026-05-19 07:30,"Dev, S D Prajwal","Ivashka, Ilya",pending
+71544424,Tennis,"Challenger - ATP Challenger Bengaluru 3, India Men Singles",2026-05-19T05:30:00Z,2026-05-19 07:30,"Smith, Keegan","Sureshkumar, Manish",pending
+71558112,Tennis,"ATP - ATP Geneva, Switzerland Men Singles",2026-05-18T18:00:00Z,2026-05-18 20:00,"Sonego, Lorenzo","Butvilas, Edas",pending
+71544410,Tennis,"Challenger - ATP Challenger Bengaluru 3, India Men Singles",2026-05-19T04:30:00Z,2026-05-19 06:30,"Singh, Digvijay Pratap","Vithoontien, Leo",pending
+71546786,Football,Switzerland - Super League,2026-05-18T18:15:00Z,2026-05-18 20:15,FC Aarau,Grasshopper Club Zurich,pending
+67119320,Football,Argentina - Primera B,2026-05-18T18:30:00Z,2026-05-18 20:30,CS Italiano,CSCD Laferrere,pending
+67122874,Football,Argentina - Primera C,2026-05-18T18:30:00Z,2026-05-18 20:30,CS Barracas,Defensores de Cambaceres,pending
+67122892,Football,Argentina - Primera C,2026-05-18T18:30:00Z,2026-05-18 20:30,CSDC Espanol,Club Mercedes,pending
+61301249,Football,England - Premier League,2026-05-18T19:00:00Z,2026-05-18 21:00,Arsenal FC,Burnley FC,pending
+71324794,Football,"Brazil - Brasileiro A3, Women",2026-05-18T21:00:00Z,2026-05-18 23:00,Criciuma EC SC,AE Realidade Jovem SP,pending
+68215838,Football,"Brazil - Campeonato Brasileiro, Women",2026-05-18T22:00:00Z,2026-05-19 00:00,Ferroviaria SP,EC Vitoria BA,pending
+70322856,Football,Brazil - Brasileiro Serie D,2026-05-18T22:30:00Z,2026-05-19 00:30,Uberlandia EC MG,Betim Futebol MG,pending
+61623906,Football,Spain - LaLiga 2,2026-05-18T18:30:00Z,2026-05-18 20:30,CD Leganes,SD Huesca,pending
+68822886,Football,Brazil - Brasileiro Serie B,2026-05-18T22:00:00Z,2026-05-19 00:00,AA Ponte Preta SP,Londrina EC PR,pending
+69255024,Football,Brazil - Brasileiro Serie C,2026-05-18T23:00:00Z,2026-05-19 01:00,AD Confianca SE,Maranhao AC MA,pending
+69255036,Football,Brazil - Brasileiro Serie C,2026-05-18T23:00:00Z,2026-05-19 01:00,Botafogo FC PB,AA Internacional Limeira SP,pending
+68215850,Football,"Brazil - Campeonato Brasileiro, Women",2026-05-18T23:00:00Z,2026-05-19 01:00,Sao Paulo FC SP,EC Juventude RS,pending
+68215840,Football,"Brazil - Campeonato Brasileiro, Women",2026-05-19T00:00:00Z,2026-05-19 02:00,SE Palmeiras SP,Botafogo Fr RJ,pending
+68215846,Football,"Brazil - Campeonato Brasileiro, Women",2026-05-19T00:00:00Z,2026-05-19 02:00,Cruzeiro EC MG,SC Corinthians SP,pending
 69833422,Ice Hockey,International - World Championship,2026-05-18T18:20:00Z,2026-05-18 20:20,Germany,Switzerland,pending
 69833540,Ice Hockey,International - World Championship,2026-05-18T18:20:00Z,2026-05-18 20:20,Sweden,Czechia,pending
 70558184,Ice Hockey,USA - NHL,2026-05-18T23:30:00Z,2026-05-19 01:30,Buffalo Sabres,Montreal Canadiens,pending
+71563330,Esports,Counter-Strike - CCT South American Series,2026-05-18T22:00:00Z,2026-05-19 00:00,Herewegoagain,Red Feet,pending
