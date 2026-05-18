@@ -3,10 +3,10 @@
 Manual Bet365 odds input is parked as an optional fallback. It is not an active development blocker.
 Current priority: automatic/free-data forward-testing sources and robust fixture/model matching.
 
-Upcoming fixtures: 465
-Manual template rows: 465
+Upcoming fixtures: 101
+Manual template rows: 101
 Rows with complete manual odds: 0
-Rows missing manual odds: 465
+Rows missing manual odds: 101
 Manual forward snapshot rows: 0
 Manual odds mode: optional_fallback_paused
 Manual odds is blocker: False
@@ -19,23 +19,23 @@ Upcoming fixtures exist, but no automatic odds/proxy forward snapshot source is 
 ## Optional manual fallback status
 
 Manual odds are not required in the current phase. These rows are only kept for later fallback use:
-- 2026-05-17 16:15 | 07 Vestur Sorvagur vs NSI Runavik
-- 2026-05-17 13:30 | 1. FC Magdeburg vs 1 FC Kaiserslautern
-- 2026-05-17 20:30 | 9 de Octubre FC vs CD El Nacional
-- 2026-05-17 16:00 | ACF Fiorentina vs Lazio Rome
-- 2026-05-17 14:30 | FC Abdysh-Ata vs FC Alay
-- 2026-05-17 14:00 | AC Prato 1908 vs ASD Seravezza Pozzi Calcio
-- 2026-05-17 14:00 | AC Vigasio vs Obermais
-- 2026-05-17 16:00 | AD Cantolao vs Carlos Mannucci
-- 2026-05-17 17:30 | AEK vs Olympiakos
-- 2026-05-17 16:30 | AEK Athens vs Olympiacos Piraeus
-- 2026-05-17 17:00 | Af Elbasani vs KF Egnatia Rrogozhine
-- 2026-05-17 16:00 | AGF Aarhus vs Viborg FF
-- 2026-05-17 17:00 | Aguilas FC vs Utebo FC
-- 2026-05-17 14:10 | AL Bataeh vs Shabab AL Ahli Dubai Club
-- 2026-05-17 14:10 | AL Wahda FC vs AL Dhafra U23
-- 2026-05-17 18:00 | Al-Shabab FC (SA) vs Al-Ittihad Club
-- 2026-05-17 19:00 | Alagoinhas AC BA vs EC Jacuipense BA
-- 2026-05-17 21:00 | Albion FC vs Montevideo Wanderers
-- 2026-05-17 18:00 | America FC MG vs Sao Paulo FC SP
-- 2026-05-17 19:00 | America FC RN vs Club Laguna SAF
+- 2026-05-18 17:30 | AFC Eskilstuna vs FC Arlanda
+- 2026-05-18 17:30 | AFC Hermannstadt vs Fotbal Club FCSB
+- 2026-05-18 22:00 | AA Ponte Preta SP vs Londrina EC PR
+- 2026-05-18 17:30 | AB Argir vs Vikingur Gota
+- 2026-05-18 23:00 | AD Confianca SE vs Maranhao AC MA
+- 2026-05-18 17:00 | Al Mokawloon Al Arab vs Wadi Degla SC
+- 2026-05-18 15:20 | AL Nasr SC (OMA) vs Samail SC
+- 2026-05-18 15:20 | Al Shabab vs Al-Seeb
+- 2026-05-18 15:20 | Al-Khaboora vs Al-Rustaq
+- 2026-05-18 17:00 | Angelholms FF vs Kristianstad FC
+- 2026-05-18 17:00 | Ariana FC vs Tvaakers IF
+- 2026-05-18 20:00 | Arsenal vs Burnley
+- 2026-05-18 15:20 | Bahla Club vs Al Nahda
+- 2026-05-18 23:00 | Botafogo FC PB vs AA Internacional Limeira SP
+- 2026-05-18 18:30 | CD Leganes vs SD Huesca
+- 2026-05-18 23:00 | CD Santa Cruz vs Deportes Temuco
+- 2026-05-18 15:00 | Club Deportivo Magallanes vs Deportes Recoleta
+- 2026-05-18 21:00 | Criciuma EC SC vs AE Realidade Jovem SP
+- 2026-05-18 18:30 | CS Barracas vs Defensores de Cambaceres
+- 2026-05-18 18:30 | CS Italiano vs CSCD Laferrere

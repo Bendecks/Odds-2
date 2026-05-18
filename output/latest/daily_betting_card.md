@@ -10,430 +10,430 @@ No qualifying candidate bets today.
 
 ## Paper-Test Picks
 
-### Genoa vs Milan
+### FC Shirak Gyumri vs FC Urartu Yerevan
 
-- Date/time: 2026-05-17 11:00
-- League/phase: serie_a / automatic_forward_price_proxy
+- Date/time: 2026-05-18 13:00
+- League/phase: armenia-premier-league / automatic_forward_price_proxy
 - Selection: HOME
 - Market odds: 4.5
-- Fair odds: 2.9
-- Model probability: 0.3447
-- Probability band: 0.25-0.35
-- EV: 0.5512
-- Probability edge: 0.1225
-- Alignment penalty: 0.5512
-- Suppression action: none
-- Paper tier: volume_observation
-- Paper score: 0.2964
-- Prediction ID: d9610f99658e74875e25
+- Fair odds: 2.65
+- Model probability: 0.3772
+- Probability band: 0.35-0.45
+- EV: 0.6974
+- Probability edge: 0.155
+- Alignment penalty: 0.6974
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0712
+- Prediction ID: 87e4d3ecb36cf0e0cac5
 
-### Como vs Parma
+### Kahrabaa Ismailia vs Haras El Hodood
 
-- Date/time: 2026-05-17 11:00
-- League/phase: serie_a / automatic_forward_price_proxy
-- Selection: DRAW
-- Market odds: 5.69
-- Fair odds: 3.59
-- Model probability: 0.2785
-- Probability band: 0.25-0.35
-- EV: 0.5847
-- Probability edge: 0.1028
-- Alignment penalty: 0.5847
-- Suppression action: none
-- Paper tier: volume_observation
-- Paper score: 0.2885
-- Prediction ID: a7ae2a7dda5a794a8e9c
-
-### Juventus vs Fiorentina
-
-- Date/time: 2026-05-17 11:00
-- League/phase: serie_a / automatic_forward_price_proxy
-- Selection: DRAW
-- Market odds: 5.28
-- Fair odds: 3.56
-- Model probability: 0.2806
-- Probability band: 0.25-0.35
-- EV: 0.4816
-- Probability edge: 0.0912
-- Alignment penalty: 0.4816
-- Suppression action: none
-- Paper tier: volume_observation
-- Paper score: 0.279
-- Prediction ID: 2e4c3e1563ad12cfc54a
-
-### Brentford vs Crystal Palace
-
-- Date/time: 2026-05-17 15:00
-- League/phase: premier_league / automatic_forward_price_proxy
+- Date/time: 2026-05-18 14:00
+- League/phase: egypt-premier-league / automatic_forward_price_proxy
 - Selection: AWAY
-- Market odds: 4.4
-- Fair odds: 3.11
-- Model probability: 0.3213
+- Market odds: 4.5
+- Fair odds: 2.87
+- Model probability: 0.3488
 - Probability band: 0.25-0.35
-- EV: 0.4137
-- Probability edge: 0.094
-- Alignment penalty: 0.4137
-- Suppression action: none
-- Paper tier: volume_observation
-- Paper score: 0.2785
-- Prediction ID: a47f58bed083af006da6
+- EV: 0.5696
+- Probability edge: 0.1266
+- Alignment penalty: 0.5696
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0673
+- Prediction ID: 473ac8949aa72751eed9
 
-### Como vs Parma
+### CS Italiano vs CSCD Laferrere
 
-- Date/time: 2026-05-17 11:00
-- League/phase: serie_a / automatic_forward_price_proxy
+- Date/time: 2026-05-18 18:30
+- League/phase: argentina-primera-b / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 4.5
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.5696
+- Probability edge: 0.1266
+- Alignment penalty: 0.5696
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0673
+- Prediction ID: 5bdcc6df74beb2c3d338
+
+### AB Argir vs Vikingur Gota
+
+- Date/time: 2026-05-18 17:30
+- League/phase: faroe-islands-premier-league / automatic_forward_price_proxy
+- Selection: HOME
+- Market odds: 4.0
+- Fair odds: 2.65
+- Model probability: 0.3772
+- Probability band: 0.35-0.45
+- EV: 0.5088
+- Probability edge: 0.1272
+- Alignment penalty: 0.5088
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0669
+- Prediction ID: 0374dae2e85e4d6117d1
+
+### Laholms FK vs FC Rosengaard 1917
+
+- Date/time: 2026-05-18 17:00
+- League/phase: sweden-ettan-relegation/promotion / automatic_forward_price_proxy
+- Selection: HOME
+- Market odds: 4.0
+- Fair odds: 2.65
+- Model probability: 0.3772
+- Probability band: 0.35-0.45
+- EV: 0.5088
+- Probability edge: 0.1272
+- Alignment penalty: 0.5088
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0669
+- Prediction ID: 70ce18a7eee4d54df853
+
+### PFC Montana 1921 vs FK Spartak 1918 Varna
+
+- Date/time: 2026-05-18 16:30
+- League/phase: bulgaria-parva-liga / automatic_forward_price_proxy
 - Selection: DRAW
-- Market odds: 5.25
-- Fair odds: 3.59
-- Model probability: 0.2785
+- Market odds: 6.0
+- Fair odds: 3.65
+- Model probability: 0.274
 - Probability band: 0.25-0.35
-- EV: 0.4621
-- Probability edge: 0.088
-- Alignment penalty: 0.4621
-- Suppression action: none
-- Paper tier: volume_observation
-- Paper score: 0.2768
-- Prediction ID: a7ae2a7dda5a794a8e9c
+- EV: 0.644
+- Probability edge: 0.1073
+- Alignment penalty: 0.644
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.066
+- Prediction ID: da61ed2ac3e2e4aacd3c
 
-### Brentford vs Crystal Palace
+### FC Farul Constanta vs Metaloglobus Bucuresti
 
-- Date/time: 2026-05-17 15:00
-- League/phase: premier_league / automatic_forward_price_proxy
+- Date/time: 2026-05-18 17:30
+- League/phase: romania-superliga / automatic_forward_price_proxy
+- Selection: DRAW
+- Market odds: 6.0
+- Fair odds: 3.65
+- Model probability: 0.274
+- Probability band: 0.25-0.35
+- EV: 0.644
+- Probability edge: 0.1073
+- Alignment penalty: 0.644
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.066
+- Prediction ID: 9a4dfa9ee385f9298a5c
+
+### AL Nasr SC (OMA) vs Samail SC
+
+- Date/time: 2026-05-18 15:20
+- League/phase: oman-omani-league / automatic_forward_price_proxy
 - Selection: AWAY
 - Market odds: 4.33
-- Fair odds: 3.11
-- Model probability: 0.3213
+- Fair odds: 2.87
+- Model probability: 0.3488
 - Probability band: 0.25-0.35
-- EV: 0.3912
-- Probability edge: 0.0904
-- Alignment penalty: 0.3912
-- Suppression action: none
-- Paper tier: volume_observation
-- Paper score: 0.2761
-- Prediction ID: a47f58bed083af006da6
+- EV: 0.5113
+- Probability edge: 0.118
+- Alignment penalty: 0.5114
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0659
+- Prediction ID: ccc6ff91c63f8b17af03
 
-### Elche vs Getafe
+### Orgryte IS vs IFK Goteborg
 
-- Date/time: 2026-05-17 18:00
-- League/phase: la_liga / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 4.0
-- Fair odds: 2.64
-- Model probability: 0.3791
-- Probability band: 0.35-0.45
-- EV: 0.5164
-- Probability edge: 0.1291
-- Alignment penalty: 0.5164
-- Suppression action: monitor
-- Paper tier: volume_observation
-- Paper score: 0.2746
-- Prediction ID: b0f35dbd63117884340e
-
-### Juventus vs Fiorentina
-
-- Date/time: 2026-05-17 11:00
-- League/phase: serie_a / automatic_forward_price_proxy
-- Selection: DRAW
-- Market odds: 5.0
-- Fair odds: 3.56
-- Model probability: 0.2806
-- Probability band: 0.25-0.35
-- EV: 0.403
-- Probability edge: 0.0806
-- Alignment penalty: 0.403
-- Suppression action: none
-- Paper tier: volume_observation
-- Paper score: 0.2712
-- Prediction ID: 2e4c3e1563ad12cfc54a
-
-### Atalanta vs Bologna
-
-- Date/time: 2026-05-17 17:00
-- League/phase: serie_a / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 5.0
-- Fair odds: 3.71
-- Model probability: 0.2697
-- Probability band: 0.25-0.35
-- EV: 0.3485
-- Probability edge: 0.0697
-- Alignment penalty: 0.3485
-- Suppression action: none
-- Paper tier: priority_proxy_observation
-- Paper score: 0.2641
-- Prediction ID: 988b8f1a6d1fd4d2c1a1
-
-### Osasuna vs Espanol
-
-- Date/time: 2026-05-17 18:00
-- League/phase: la_liga / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 4.0
-- Fair odds: 2.81
-- Model probability: 0.3559
-- Probability band: 0.35-0.45
-- EV: 0.4236
-- Probability edge: 0.1059
-- Alignment penalty: 0.4236
-- Suppression action: monitor
-- Paper tier: volume_observation
-- Paper score: 0.2621
-- Prediction ID: 8bdb68a44f3daac4cacc
-
-### Roma vs Lazio
-
-- Date/time: 2026-05-17 11:00
-- League/phase: serie_a / automatic_forward_price_proxy
-- Selection: DRAW
-- Market odds: 4.5
-- Fair odds: 3.5
-- Model probability: 0.2857
-- Probability band: 0.25-0.35
-- EV: 0.2857
-- Probability edge: 0.0635
-- Alignment penalty: 0.2857
-- Suppression action: none
-- Paper tier: priority_proxy_observation
-- Paper score: 0.2597
-- Prediction ID: c5c29a85129d0737a287
-
-### Elche vs Getafe
-
-- Date/time: 2026-05-17 18:00
-- League/phase: la_liga / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 3.57
-- Fair odds: 2.64
-- Model probability: 0.3791
-- Probability band: 0.35-0.45
-- EV: 0.3534
-- Probability edge: 0.099
-- Alignment penalty: 0.3534
-- Suppression action: monitor
-- Paper tier: priority_proxy_observation
-- Paper score: 0.258
-- Prediction ID: b0f35dbd63117884340e
-
-### Atalanta vs Bologna
-
-- Date/time: 2026-05-17 17:00
-- League/phase: serie_a / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 4.75
-- Fair odds: 3.71
-- Model probability: 0.2697
-- Probability band: 0.25-0.35
-- EV: 0.2811
-- Probability edge: 0.0592
-- Alignment penalty: 0.2811
-- Suppression action: none
-- Paper tier: priority_proxy_observation
-- Paper score: 0.2571
-- Prediction ID: 988b8f1a6d1fd4d2c1a1
-
-### Ath Madrid vs Girona
-
-- Date/time: 2026-05-17 18:00
-- League/phase: la_liga / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 4.5
-- Fair odds: 3.55
-- Model probability: 0.2813
-- Probability band: 0.25-0.35
-- EV: 0.2658
-- Probability edge: 0.0591
-- Alignment penalty: 0.2659
-- Suppression action: none
-- Paper tier: priority_proxy_observation
-- Paper score: 0.257
-- Prediction ID: f43f2b5944584e695148
-
-### Ath Madrid vs Girona
-
-- Date/time: 2026-05-17 18:00
-- League/phase: la_liga / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 4.5
-- Fair odds: 3.55
-- Model probability: 0.2813
-- Probability band: 0.25-0.35
-- EV: 0.2658
-- Probability edge: 0.0591
-- Alignment penalty: 0.2659
-- Suppression action: none
-- Paper tier: priority_proxy_observation
-- Paper score: 0.257
-- Prediction ID: f43f2b5944584e695148
-
-### Osasuna vs Espanol
-
-- Date/time: 2026-05-17 18:00
-- League/phase: la_liga / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 3.8
-- Fair odds: 2.81
-- Model probability: 0.3559
-- Probability band: 0.35-0.45
-- EV: 0.3524
-- Probability edge: 0.0927
-- Alignment penalty: 0.3524
-- Suppression action: monitor
-- Paper tier: priority_proxy_observation
-- Paper score: 0.2548
-- Prediction ID: 8bdb68a44f3daac4cacc
-
-### Wolves vs Fulham
-
-- Date/time: 2026-05-17 15:00
-- League/phase: premier_league / automatic_forward_price_proxy
+- Date/time: 2026-05-18 17:00
+- League/phase: sweden-allsvenskan / automatic_forward_price_proxy
 - Selection: HOME
 - Market odds: 3.8
-- Fair odds: 2.81
-- Model probability: 0.3554
+- Fair odds: 2.65
+- Model probability: 0.3772
 - Probability band: 0.35-0.45
-- EV: 0.3505
-- Probability edge: 0.0922
-- Alignment penalty: 0.3505
-- Suppression action: monitor
-- Paper tier: priority_proxy_observation
-- Paper score: 0.2546
-- Prediction ID: d8db2a2ade0a2deba58b
+- EV: 0.4334
+- Probability edge: 0.114
+- Alignment penalty: 0.4334
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0651
+- Prediction ID: d10e5e26a91656bd2231
 
-### Wolves vs Fulham
+### Ariana FC vs Tvaakers IF
 
-- Date/time: 2026-05-17 15:00
-- League/phase: premier_league / automatic_forward_price_proxy
-- Selection: HOME
-- Market odds: 3.8
-- Fair odds: 2.81
-- Model probability: 0.3554
-- Probability band: 0.35-0.45
-- EV: 0.3505
-- Probability edge: 0.0922
-- Alignment penalty: 0.3505
-- Suppression action: monitor
-- Paper tier: priority_proxy_observation
-- Paper score: 0.2546
-- Prediction ID: d8db2a2ade0a2deba58b
-
-### Ath Bilbao vs Celta
-
-- Date/time: 2026-05-17 18:00
-- League/phase: la_liga / automatic_forward_price_proxy
+- Date/time: 2026-05-18 17:00
+- League/phase: sweden-ettan-relegation/promotion / automatic_forward_price_proxy
 - Selection: AWAY
+- Market odds: 4.2
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.465
+- Probability edge: 0.1107
+- Alignment penalty: 0.465
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0648
+- Prediction ID: ad4ec95ba8014cc9df61
+
+### MKS Arka Gdynia vs Bruk-Bet Termalica Nieciecza
+
+- Date/time: 2026-05-18 17:00
+- League/phase: poland-ekstraklasa / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 4.2
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.465
+- Probability edge: 0.1107
+- Alignment penalty: 0.465
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0648
+- Prediction ID: 2a63e2ee597e0ce57b42
+
+### Al-Khaboora vs Al-Rustaq
+
+- Date/time: 2026-05-18 15:20
+- League/phase: oman-omani-league / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 4.2
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.465
+- Probability edge: 0.1107
+- Alignment penalty: 0.465
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0648
+- Prediction ID: 942f850ba00ea1ef8143
+
+### Maccabi Bney Reine vs Maccabi Netanya FC
+
+- Date/time: 2026-05-18 17:00
+- League/phase: israel-premier-league / automatic_forward_price_proxy
+- Selection: HOME
 - Market odds: 3.75
-- Fair odds: 3.23
-- Model probability: 0.3097
-- Probability band: 0.25-0.35
-- EV: 0.1614
-- Probability edge: 0.043
-- Alignment penalty: 0.1614
-- Suppression action: none
-- Paper tier: priority_proxy_observation
-- Paper score: 0.2486
-- Prediction ID: ce88148ea2ce7fcb8c80
-
-### Roma vs Lazio
-
-- Date/time: 2026-05-17 11:00
-- League/phase: serie_a / automatic_forward_price_proxy
-- Selection: DRAW
-- Market odds: 4.09
-- Fair odds: 3.5
-- Model probability: 0.2857
-- Probability band: 0.25-0.35
-- EV: 0.1685
-- Probability edge: 0.0412
-- Alignment penalty: 0.1685
-- Suppression action: none
-- Paper tier: priority_proxy_observation
-- Paper score: 0.2466
-- Prediction ID: c5c29a85129d0737a287
-
-### Man United vs Nott'm Forest
-
-- Date/time: 2026-05-17 12:30
-- League/phase: premier_league / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 5.25
-- Fair odds: 2.95
-- Model probability: 0.3386
-- Probability band: 0.25-0.35
-- EV: 0.7776
-- Probability edge: 0.1481
-- Alignment penalty: 0.7777
-- Suppression action: none
-- Paper tier: volume_observation
-- Paper score: 0.2454
-- Prediction ID: c96b5c1181df6741a187
-
-### Man United vs Nott'm Forest
-
-- Date/time: 2026-05-17 12:30
-- League/phase: premier_league / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 5.25
-- Fair odds: 2.95
-- Model probability: 0.3386
-- Probability band: 0.25-0.35
-- EV: 0.7776
-- Probability edge: 0.1481
-- Alignment penalty: 0.7777
-- Suppression action: none
-- Paper tier: volume_observation
-- Paper score: 0.2454
-- Prediction ID: c96b5c1181df6741a187
-
-### Sociedad vs Valencia
-
-- Date/time: 2026-05-17 18:00
-- League/phase: la_liga / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 3.4
-- Fair odds: 2.73
-- Model probability: 0.3669
+- Fair odds: 2.65
+- Model probability: 0.3772
 - Probability band: 0.35-0.45
-- EV: 0.2475
-- Probability edge: 0.0728
-- Alignment penalty: 0.2475
-- Suppression action: monitor
-- Paper tier: priority_proxy_observation
-- Paper score: 0.2449
-- Prediction ID: 2b5042d9216aa7851f5f
+- EV: 0.4145
+- Probability edge: 0.1105
+- Alignment penalty: 0.4145
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0646
+- Prediction ID: 044467a3968c51b144cb
 
-### Genoa vs Milan
+### HB Torshavn vs Eb/Streymur
 
-- Date/time: 2026-05-17 11:00
-- League/phase: serie_a / automatic_forward_price_proxy
-- Selection: HOME
-- Market odds: 4.85
-- Fair odds: 2.9
-- Model probability: 0.3447
-- Probability band: 0.25-0.35
-- EV: 0.6718
-- Probability edge: 0.1385
-- Alignment penalty: 0.6718
-- Suppression action: none
-- Paper tier: volume_observation
-- Paper score: 0.2385
-- Prediction ID: d9610f99658e74875e25
-
-### Sevilla vs Real Madrid
-
-- Date/time: 2026-05-17 18:00
-- League/phase: la_liga / automatic_forward_price_proxy
+- Date/time: 2026-05-18 17:30
+- League/phase: faroe-islands-premier-league / automatic_forward_price_proxy
 - Selection: DRAW
-- Market odds: 4.0
-- Fair odds: 3.63
-- Model probability: 0.2753
+- Market odds: 5.75
+- Fair odds: 3.65
+- Model probability: 0.274
 - Probability band: 0.25-0.35
-- EV: 0.1012
-- Probability edge: 0.0253
-- Alignment penalty: 0.1012
-- Suppression action: none
-- Paper tier: priority_proxy_observation
-- Paper score: 0.2375
-- Prediction ID: 4eb3afa86b979c05a65a
+- EV: 0.5755
+- Probability edge: 0.1001
+- Alignment penalty: 0.5755
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0645
+- Prediction ID: f85fc9a5260cf5555c81
+
+### Hapoel Haifa FC vs Bnei Sakhnin FC
+
+- Date/time: 2026-05-18 17:00
+- League/phase: israel-premier-league / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 4.1
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.4301
+- Probability edge: 0.1049
+- Alignment penalty: 0.4301
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.064
+- Prediction ID: fb96a726d3b20352b25c
+
+### CSDC Espanol vs Club Mercedes
+
+- Date/time: 2026-05-18 18:30
+- League/phase: argentina-primera-c / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 4.1
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.4301
+- Probability edge: 0.1049
+- Alignment penalty: 0.4301
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.064
+- Prediction ID: 3730bd2b2b4f7f747481
+
+### CD Leganes vs SD Huesca
+
+- Date/time: 2026-05-18 18:30
+- League/phase: spain-laliga-2 / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 4.0
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.3952
+- Probability edge: 0.0988
+- Alignment penalty: 0.3952
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0632
+- Prediction ID: d411663a499bd3133e49
+
+### CD Leganes vs SD Huesca
+
+- Date/time: 2026-05-18 18:30
+- League/phase: spain-laliga-2 / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 4.0
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.3952
+- Probability edge: 0.0988
+- Alignment penalty: 0.3952
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0632
+- Prediction ID: d411663a499bd3133e49
+
+### Leganes vs Huesca
+
+- Date/time: 2026-05-18 19:30
+- League/phase: SP2 / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 4.0
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.3952
+- Probability edge: 0.0988
+- Alignment penalty: 0.3952
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0632
+- Prediction ID: 206b2c90f091c60d895b
+
+### Leganes vs Huesca
+
+- Date/time: 2026-05-18 19:30
+- League/phase: SP2 / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 4.0
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.3952
+- Probability edge: 0.0988
+- Alignment penalty: 0.3952
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0632
+- Prediction ID: 206b2c90f091c60d895b
+
+### South Melbourne FC vs Caroline Springs George Cross FC
+
+- Date/time: 2026-05-18 09:30
+- League/phase: australia-victoria-npl / automatic_forward_price_proxy
+- Selection: DRAW
+- Market odds: 5.5
+- Fair odds: 3.65
+- Model probability: 0.274
+- Probability band: 0.25-0.35
+- EV: 0.507
+- Probability edge: 0.0922
+- Alignment penalty: 0.507
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0631
+- Prediction ID: 0cda785d025989749d24
+
+### Al Shabab vs Al-Seeb
+
+- Date/time: 2026-05-18 15:20
+- League/phase: oman-omani-league / automatic_forward_price_proxy
+- Selection: HOME
+- Market odds: 3.5
+- Fair odds: 2.65
+- Model probability: 0.3772
+- Probability band: 0.35-0.45
+- EV: 0.3202
+- Probability edge: 0.0915
+- Alignment penalty: 0.3202
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0622
+- Prediction ID: 6a3c9a70545d90743806
+
+### Bahla Club vs Al Nahda
+
+- Date/time: 2026-05-18 15:20
+- League/phase: oman-omani-league / automatic_forward_price_proxy
+- Selection: HOME
+- Market odds: 3.4
+- Fair odds: 2.65
+- Model probability: 0.3772
+- Probability band: 0.35-0.45
+- EV: 0.2825
+- Probability edge: 0.0831
+- Alignment penalty: 0.2825
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0612
+- Prediction ID: 031188bee1454f27f0f5
+
+### Puszcza Niepolomice vs LKS Lodz
+
+- Date/time: 2026-05-18 16:00
+- League/phase: poland-i-liga / automatic_forward_price_proxy
+- Selection: HOME
+- Market odds: 3.3
+- Fair odds: 2.65
+- Model probability: 0.3772
+- Probability band: 0.35-0.45
+- EV: 0.2448
+- Probability edge: 0.0742
+- Alignment penalty: 0.2448
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0601
+- Prediction ID: 8610f1d80c05bd771d77
+
+### Kerala Blasters FC vs FC Goa
+
+- Date/time: 2026-05-18 14:00
+- League/phase: india-indian-super-league / automatic_forward_price_proxy
+- Selection: HOME
+- Market odds: 3.3
+- Fair odds: 2.65
+- Model probability: 0.3772
+- Probability band: 0.35-0.45
+- EV: 0.2448
+- Probability edge: 0.0742
+- Alignment penalty: 0.2448
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0601
+- Prediction ID: 696e809918977fe233c8
 
 ## Snapshot summary
 
