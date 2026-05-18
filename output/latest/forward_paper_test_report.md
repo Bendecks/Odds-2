@@ -6,8 +6,8 @@ Dette er stadig paper-test og ikke rigtige anbefalinger.
 ## Kort status
 
 - Aktuelle forward picks: **23**
-- Loggede forward picks fra 2026+: **296**
-- Afventer forward picks: **200**
+- Loggede forward picks fra 2026+: **317**
+- Afventer forward picks: **209**
 - Settled forward picks: **0**
 - Vundne forward: **0**
 - Tabte forward: **0**
@@ -15,32 +15,10 @@ Dette er stadig paper-test og ikke rigtige anbefalinger.
 
 ## Aktuelle forward paper-picks
 
-### South Melbourne FC vs Caroline Springs George Cross FC
+### Club Deportivo Magallanes vs Deportes Recoleta
 - Dato: **2026-05-18**
-- Kampstart: **09:30**
-- Liga: **australia-victoria-npl**
-- Spil: **Uafgjort**
-- Odds: **5.50**
-- Model probability: **0.274**
-- EV: **0.507**
-- Edge: **0.092**
-- Type: **Baseline-observation**
-
-### FC Shirak Gyumri vs FC Urartu Yerevan
-- Dato: **2026-05-18**
-- Kampstart: **13:00**
-- Liga: **armenia-premier-league**
-- Spil: **Hjemmesejr**
-- Odds: **4.50**
-- Model probability: **0.377**
-- EV: **0.697**
-- Edge: **0.155**
-- Type: **Baseline-observation**
-
-### Kahrabaa Ismailia vs Haras El Hodood
-- Dato: **2026-05-18**
-- Kampstart: **14:00**
-- Liga: **egypt-premier-league**
+- Kampstart: **15:00**
+- Liga: **chile-primera-division-women**
 - Spil: **Udebanesejr**
 - Odds: **4.50**
 - Model probability: **0.349**
@@ -48,70 +26,48 @@ Dette er stadig paper-test og ikke rigtige anbefalinger.
 - Edge: **0.127**
 - Type: **Baseline-observation**
 
-### Kerala Blasters FC vs FC Goa
-- Dato: **2026-05-18**
-- Kampstart: **14:00**
-- Liga: **india-indian-super-league**
-- Spil: **Hjemmesejr**
-- Odds: **3.30**
-- Model probability: **0.377**
-- EV: **0.245**
-- Edge: **0.074**
-- Type: **Baseline-observation**
-
 ### AL Nasr SC (OMA) vs Samail SC
 - Dato: **2026-05-18**
 - Kampstart: **15:20**
 - Liga: **oman-omani-league**
 - Spil: **Udebanesejr**
-- Odds: **4.33**
+- Odds: **5.00**
 - Model probability: **0.349**
-- EV: **0.511**
-- Edge: **0.118**
+- EV: **0.744**
+- Edge: **0.149**
 - Type: **Baseline-observation**
 
-### Al-Khaboora vs Al-Rustaq
+### AL Draih vs Al-Jabalain
 - Dato: **2026-05-18**
-- Kampstart: **15:20**
-- Liga: **oman-omani-league**
+- Kampstart: **16:05**
+- Liga: **saudi-arabia-division-1**
 - Spil: **Udebanesejr**
-- Odds: **4.20**
+- Odds: **4.75**
 - Model probability: **0.349**
-- EV: **0.465**
-- Edge: **0.111**
+- EV: **0.657**
+- Edge: **0.138**
 - Type: **Baseline-observation**
 
-### Al Shabab vs Al-Seeb
+### Kuwait SC vs Al Arabi
 - Dato: **2026-05-18**
-- Kampstart: **15:20**
-- Liga: **oman-omani-league**
-- Spil: **Hjemmesejr**
-- Odds: **3.50**
-- Model probability: **0.377**
-- EV: **0.320**
-- Edge: **0.091**
+- Kampstart: **16:15**
+- Liga: **kuwait-crown-prince-cup**
+- Spil: **Udebanesejr**
+- Odds: **4.75**
+- Model probability: **0.349**
+- EV: **0.657**
+- Edge: **0.138**
 - Type: **Baseline-observation**
 
-### Bahla Club vs Al Nahda
+### PFC Dobrudzha Dobrich vs POFC Botev Vratsa
 - Dato: **2026-05-18**
-- Kampstart: **15:20**
-- Liga: **oman-omani-league**
-- Spil: **Hjemmesejr**
-- Odds: **3.40**
-- Model probability: **0.377**
-- EV: **0.282**
-- Edge: **0.083**
-- Type: **Baseline-observation**
-
-### Puszcza Niepolomice vs LKS Lodz
-- Dato: **2026-05-18**
-- Kampstart: **16:00**
-- Liga: **poland-i-liga**
-- Spil: **Hjemmesejr**
-- Odds: **3.30**
-- Model probability: **0.377**
-- EV: **0.245**
-- Edge: **0.074**
+- Kampstart: **16:30**
+- Liga: **bulgaria-parva-liga**
+- Spil: **Udebanesejr**
+- Odds: **4.50**
+- Model probability: **0.349**
+- EV: **0.570**
+- Edge: **0.127**
 - Type: **Baseline-observation**
 
 ### PFC Montana 1921 vs FK Spartak 1918 Varna
@@ -119,10 +75,43 @@ Dette er stadig paper-test og ikke rigtige anbefalinger.
 - Kampstart: **16:30**
 - Liga: **bulgaria-parva-liga**
 - Spil: **Uafgjort**
-- Odds: **6.00**
+- Odds: **5.50**
 - Model probability: **0.274**
-- EV: **0.644**
-- Edge: **0.107**
+- EV: **0.507**
+- Edge: **0.092**
+- Type: **Baseline-observation**
+
+### Maccabi Bney Reine vs Maccabi Netanya FC
+- Dato: **2026-05-18**
+- Kampstart: **17:00**
+- Liga: **israel-premier-league**
+- Spil: **Hjemmesejr**
+- Odds: **4.50**
+- Model probability: **0.377**
+- EV: **0.697**
+- Edge: **0.155**
+- Type: **Baseline-observation**
+
+### MKS Arka Gdynia vs Bruk-Bet Termalica Nieciecza
+- Dato: **2026-05-18**
+- Kampstart: **17:00**
+- Liga: **poland-ekstraklasa**
+- Spil: **Udebanesejr**
+- Odds: **4.75**
+- Model probability: **0.349**
+- EV: **0.657**
+- Edge: **0.138**
+- Type: **Baseline-observation**
+
+### Hapoel Haifa FC vs Bnei Sakhnin FC
+- Dato: **2026-05-18**
+- Kampstart: **17:00**
+- Liga: **israel-premier-league**
+- Spil: **Udebanesejr**
+- Odds: **4.50**
+- Model probability: **0.349**
+- EV: **0.570**
+- Edge: **0.127**
 - Type: **Baseline-observation**
 
 ### Laholms FK vs FC Rosengaard 1917
@@ -141,54 +130,43 @@ Dette er stadig paper-test og ikke rigtige anbefalinger.
 - Kampstart: **17:00**
 - Liga: **sweden-allsvenskan**
 - Spil: **Hjemmesejr**
-- Odds: **3.80**
+- Odds: **3.90**
 - Model probability: **0.377**
-- EV: **0.433**
-- Edge: **0.114**
+- EV: **0.471**
+- Edge: **0.121**
 - Type: **Baseline-observation**
 
-### Ariana FC vs Tvaakers IF
+### GIF Sundsvall vs Landskrona BoIS
 - Dato: **2026-05-18**
 - Kampstart: **17:00**
-- Liga: **sweden-ettan-relegation/promotion**
-- Spil: **Udebanesejr**
-- Odds: **4.20**
-- Model probability: **0.349**
-- EV: **0.465**
-- Edge: **0.111**
-- Type: **Baseline-observation**
-
-### MKS Arka Gdynia vs Bruk-Bet Termalica Nieciecza
-- Dato: **2026-05-18**
-- Kampstart: **17:00**
-- Liga: **poland-ekstraklasa**
-- Spil: **Udebanesejr**
-- Odds: **4.20**
-- Model probability: **0.349**
-- EV: **0.465**
-- Edge: **0.111**
-- Type: **Baseline-observation**
-
-### Maccabi Bney Reine vs Maccabi Netanya FC
-- Dato: **2026-05-18**
-- Kampstart: **17:00**
-- Liga: **israel-premier-league**
+- Liga: **sweden-superettan**
 - Spil: **Hjemmesejr**
-- Odds: **3.75**
+- Odds: **3.40**
 - Model probability: **0.377**
-- EV: **0.414**
-- Edge: **0.111**
+- EV: **0.282**
+- Edge: **0.083**
 - Type: **Baseline-observation**
 
-### Hapoel Haifa FC vs Bnei Sakhnin FC
+### Al Mokawloon Al Arab vs Wadi Degla SC
 - Dato: **2026-05-18**
 - Kampstart: **17:00**
-- Liga: **israel-premier-league**
+- Liga: **egypt-premier-league**
 - Spil: **Udebanesejr**
-- Odds: **4.10**
+- Odds: **3.70**
 - Model probability: **0.349**
-- EV: **0.430**
-- Edge: **0.105**
+- EV: **0.291**
+- Edge: **0.079**
+- Type: **Baseline-observation**
+
+### IK Oddevold vs Orebro SK
+- Dato: **2026-05-18**
+- Kampstart: **17:05**
+- Liga: **sweden-superettan**
+- Spil: **Udebanesejr**
+- Odds: **4.20**
+- Model probability: **0.349**
+- EV: **0.465**
+- Edge: **0.111**
 - Type: **Baseline-observation**
 
 ### AB Argir vs Vikingur Gota
@@ -196,10 +174,10 @@ Dette er stadig paper-test og ikke rigtige anbefalinger.
 - Kampstart: **17:30**
 - Liga: **faroe-islands-premier-league**
 - Spil: **Hjemmesejr**
-- Odds: **4.00**
+- Odds: **4.33**
 - Model probability: **0.377**
-- EV: **0.509**
-- Edge: **0.127**
+- EV: **0.634**
+- Edge: **0.146**
 - Type: **Baseline-observation**
 
 ### FC Farul Constanta vs Metaloglobus Bucuresti
@@ -218,32 +196,21 @@ Dette er stadig paper-test og ikke rigtige anbefalinger.
 - Kampstart: **17:30**
 - Liga: **faroe-islands-premier-league**
 - Spil: **Uafgjort**
-- Odds: **5.75**
+- Odds: **5.50**
 - Model probability: **0.274**
-- EV: **0.576**
-- Edge: **0.100**
+- EV: **0.507**
+- Edge: **0.092**
 - Type: **Baseline-observation**
 
-### CS Italiano vs CSCD Laferrere
+### AL Ula vs Al-Orobah
 - Dato: **2026-05-18**
-- Kampstart: **18:30**
-- Liga: **argentina-primera-b**
+- Kampstart: **18:00**
+- Liga: **saudi-arabia-division-1**
 - Spil: **Udebanesejr**
-- Odds: **4.50**
+- Odds: **5.00**
 - Model probability: **0.349**
-- EV: **0.570**
-- Edge: **0.127**
-- Type: **Baseline-observation**
-
-### CSDC Espanol vs Club Mercedes
-- Dato: **2026-05-18**
-- Kampstart: **18:30**
-- Liga: **argentina-primera-c**
-- Spil: **Udebanesejr**
-- Odds: **4.10**
-- Model probability: **0.349**
-- EV: **0.430**
-- Edge: **0.105**
+- EV: **0.744**
+- Edge: **0.149**
 - Type: **Baseline-observation**
 
 ### CD Leganes vs SD Huesca
@@ -251,10 +218,43 @@ Dette er stadig paper-test og ikke rigtige anbefalinger.
 - Kampstart: **18:30**
 - Liga: **spain-laliga-2**
 - Spil: **Udebanesejr**
+- Odds: **4.33**
+- Model probability: **0.349**
+- EV: **0.511**
+- Edge: **0.118**
+- Type: **Baseline-observation**
+
+### CS Italiano vs CSCD Laferrere
+- Dato: **2026-05-18**
+- Kampstart: **18:30**
+- Liga: **argentina-primera-b**
+- Spil: **Udebanesejr**
 - Odds: **4.00**
 - Model probability: **0.349**
 - EV: **0.395**
 - Edge: **0.099**
+- Type: **Baseline-observation**
+
+### CSDC Espanol vs Club Mercedes
+- Dato: **2026-05-18**
+- Kampstart: **18:30**
+- Liga: **argentina-primera-c**
+- Spil: **Udebanesejr**
+- Odds: **3.60**
+- Model probability: **0.349**
+- EV: **0.256**
+- Edge: **0.071**
+- Type: **Baseline-observation**
+
+### Grotta vs Afturelding
+- Dato: **2026-05-18**
+- Kampstart: **19:15**
+- Liga: **iceland-1-deild**
+- Spil: **Hjemmesejr**
+- Odds: **4.75**
+- Model probability: **0.377**
+- EV: **0.792**
+- Edge: **0.167**
 - Type: **Baseline-observation**
 
 ### Leganes vs Huesca
@@ -262,10 +262,10 @@ Dette er stadig paper-test og ikke rigtige anbefalinger.
 - Kampstart: **19:30**
 - Liga: **SP2**
 - Spil: **Udebanesejr**
-- Odds: **4.00**
+- Odds: **4.33**
 - Model probability: **0.349**
-- EV: **0.395**
-- Edge: **0.099**
+- EV: **0.511**
+- Edge: **0.118**
 - Type: **Baseline-observation**
 
 ## Settled forward picks
@@ -274,34 +274,25 @@ Ingen settled forward-picks endnu i den rene forward-rapport.
 
 ## Afventer i forward-loggen
 
-- **2026-05-16 kl. 14:00** – Chelsea FC vs Manchester City – Hjemmesejr @ 4.50 – Baseline-observation
-- **2026-05-16 kl. 14:30** – Ein Frankfurt vs Stuttgart – Hjemmesejr @ 3.40 – Prioritet observation
-- **2026-05-16 kl. 14:30** – Freiburg vs RB Leipzig – Uafgjort @ 4.00 – Prioritet observation
-- **2026-05-16 kl. 14:30** – St Pauli vs Wolfsburg – Uafgjort @ 3.75 – Prioritet observation
-- **2026-05-16 kl. 14:30** – Union Berlin vs Augsburg – Uafgjort @ 3.90 – Prioritet observation
-- **2026-05-16 kl. 14:30** – Heidenheim vs Mainz – Udebanesejr @ 3.40 – Prioritet observation
-- **2026-05-16 kl. 14:30** – Werder Bremen vs Dortmund – Hjemmesejr @ 3.50 – Prioritet observation
-- **2026-05-16 kl. 14:30** – M'gladbach vs Hoffenheim – Uafgjort @ 4.50 – Prioritet observation
-- **2026-05-16 kl. 17:00** – Casa Pia Lisbon vs Rio Ave FC – Udebanesejr @ 5.00 – Baseline-observation
 - **2026-05-16 kl. 17:00** – SC Braga vs Estrela Amadora – Udebanesejr @ 5.00 – Baseline-observation
 - **2026-05-16 kl. 17:30** – Almeria vs Las Palmas – Udebanesejr @ 3.60 – Prioritet observation
 - **2026-05-16 kl. 18:00** – Casa Pia vs Rio Ave – Udebanesejr @ 5.00 – Baseline-observation
-- **2026-05-17 kl. 04:00** – Okayama Yunogo Belle vs Nittaidai FC – Udebanesejr @ 5.00 – Baseline-observation
 - **2026-05-17 kl. 04:00** – V-Varen Nagasaki vs Vissel Kobe – Hjemmesejr @ 4.75 – Baseline-observation
+- **2026-05-17 kl. 04:00** – Okayama Yunogo Belle vs Nittaidai FC – Udebanesejr @ 5.00 – Baseline-observation
 - **2026-05-17 kl. 07:30** – Gimhae FC vs Daegu FC – Hjemmesejr @ 4.75 – Baseline-observation
 - **2026-05-17 kl. 10:00** – Genoa CFC vs AC Milan – Hjemmesejr @ 4.50 – Baseline-observation
-- **2026-05-17 kl. 11:00** – Como vs Parma – Uafgjort @ 5.25 – Volumen observation
-- **2026-05-17 kl. 11:00** – Genoa vs Milan – Hjemmesejr @ 4.85 – Volumen observation
 - **2026-05-17 kl. 11:00** – Roma vs Lazio – Uafgjort @ 4.09 – Prioritet observation
 - **2026-05-17 kl. 11:00** – Juventus vs Fiorentina – Uafgjort @ 5.00 – Volumen observation
+- **2026-05-17 kl. 11:00** – Como vs Parma – Uafgjort @ 5.25 – Volumen observation
+- **2026-05-17 kl. 11:00** – Genoa vs Milan – Hjemmesejr @ 4.85 – Volumen observation
 - **2026-05-17 kl. 12:00** – RC Deportivo De La Coruna vs FC Andorra – Udebanesejr @ 5.01 – Baseline-observation
 - **2026-05-17 kl. 12:30** – Man United vs Nott'm Forest – Udebanesejr @ 5.25 – Volumen observation
 - **2026-05-17 kl. 12:30** – PEC Zwolle vs Feyenoord Rotterdam – Hjemmesejr @ 4.75 – Baseline-observation
 - **2026-05-17 kl. 12:30** – Heracles Almelo vs FC Groningen – Hjemmesejr @ 4.63 – Baseline-observation
 - **2026-05-17 kl. 13:00** – La Coruna vs Andorra – Udebanesejr @ 5.01 – Baseline-observation
 - **2026-05-17 kl. 13:00** – Ternana vs AC Milan – Hjemmesejr @ 4.50 – Baseline-observation
-- **2026-05-17 kl. 13:30** – Heracles vs Groningen – Hjemmesejr @ 4.63 – Baseline-observation
 - **2026-05-17 kl. 13:30** – Zwolle vs Feyenoord – Hjemmesejr @ 4.75 – Baseline-observation
+- **2026-05-17 kl. 13:30** – Heracles vs Groningen – Hjemmesejr @ 4.63 – Baseline-observation
 - **2026-05-17 kl. 15:00** – Wolves vs Fulham – Hjemmesejr @ 3.80 – Prioritet observation
 - **2026-05-17 kl. 15:00** – Brentford vs Crystal Palace – Udebanesejr @ 4.33 – Volumen observation
 - **2026-05-17 kl. 17:00** – Atalanta vs Bologna – Udebanesejr @ 4.75 – Prioritet observation
@@ -315,25 +306,34 @@ Ingen settled forward-picks endnu i den rene forward-rapport.
 - **2026-05-18 kl. 13:00** – FC Shirak Gyumri vs FC Urartu Yerevan – Hjemmesejr @ 4.50 – Baseline-observation
 - **2026-05-18 kl. 14:00** – Kahrabaa Ismailia vs Haras El Hodood – Udebanesejr @ 4.50 – Baseline-observation
 - **2026-05-18 kl. 14:00** – Kerala Blasters FC vs FC Goa – Hjemmesejr @ 3.30 – Baseline-observation
+- **2026-05-18 kl. 15:00** – Club Deportivo Magallanes vs Deportes Recoleta – Udebanesejr @ 4.50 – Baseline-observation
+- **2026-05-18 kl. 15:20** – AL Nasr SC (OMA) vs Samail SC – Udebanesejr @ 5.00 – Baseline-observation
 - **2026-05-18 kl. 15:20** – Bahla Club vs Al Nahda – Hjemmesejr @ 3.40 – Baseline-observation
-- **2026-05-18 kl. 15:20** – Al Shabab vs Al-Seeb – Hjemmesejr @ 3.50 – Baseline-observation
-- **2026-05-18 kl. 15:20** – AL Nasr SC (OMA) vs Samail SC – Udebanesejr @ 4.33 – Baseline-observation
 - **2026-05-18 kl. 15:20** – Al-Khaboora vs Al-Rustaq – Udebanesejr @ 4.20 – Baseline-observation
+- **2026-05-18 kl. 15:20** – Al Shabab vs Al-Seeb – Hjemmesejr @ 3.50 – Baseline-observation
 - **2026-05-18 kl. 16:00** – Puszcza Niepolomice vs LKS Lodz – Hjemmesejr @ 3.30 – Baseline-observation
-- **2026-05-18 kl. 16:30** – PFC Montana 1921 vs FK Spartak 1918 Varna – Uafgjort @ 6.00 – Baseline-observation
-- **2026-05-18 kl. 17:00** – Hapoel Haifa FC vs Bnei Sakhnin FC – Udebanesejr @ 4.10 – Baseline-observation
-- **2026-05-18 kl. 17:00** – Maccabi Bney Reine vs Maccabi Netanya FC – Hjemmesejr @ 3.75 – Baseline-observation
+- **2026-05-18 kl. 16:05** – AL Draih vs Al-Jabalain – Udebanesejr @ 4.75 – Baseline-observation
+- **2026-05-18 kl. 16:15** – Kuwait SC vs Al Arabi – Udebanesejr @ 4.75 – Baseline-observation
+- **2026-05-18 kl. 16:30** – PFC Montana 1921 vs FK Spartak 1918 Varna – Uafgjort @ 5.50 – Baseline-observation
+- **2026-05-18 kl. 16:30** – PFC Dobrudzha Dobrich vs POFC Botev Vratsa – Udebanesejr @ 4.50 – Baseline-observation
 - **2026-05-18 kl. 17:00** – Ariana FC vs Tvaakers IF – Udebanesejr @ 4.20 – Baseline-observation
-- **2026-05-18 kl. 17:00** – Orgryte IS vs IFK Goteborg – Hjemmesejr @ 3.80 – Baseline-observation
+- **2026-05-18 kl. 17:00** – GIF Sundsvall vs Landskrona BoIS – Hjemmesejr @ 3.40 – Baseline-observation
+- **2026-05-18 kl. 17:00** – Orgryte IS vs IFK Goteborg – Hjemmesejr @ 3.90 – Baseline-observation
+- **2026-05-18 kl. 17:00** – Hapoel Haifa FC vs Bnei Sakhnin FC – Udebanesejr @ 4.50 – Baseline-observation
+- **2026-05-18 kl. 17:00** – Al Mokawloon Al Arab vs Wadi Degla SC – Udebanesejr @ 3.70 – Baseline-observation
 - **2026-05-18 kl. 17:00** – Laholms FK vs FC Rosengaard 1917 – Hjemmesejr @ 4.00 – Baseline-observation
-- **2026-05-18 kl. 17:00** – MKS Arka Gdynia vs Bruk-Bet Termalica Nieciecza – Udebanesejr @ 4.20 – Baseline-observation
-- **2026-05-18 kl. 17:30** – HB Torshavn vs Eb/Streymur – Uafgjort @ 5.75 – Baseline-observation
+- **2026-05-18 kl. 17:00** – Maccabi Bney Reine vs Maccabi Netanya FC – Hjemmesejr @ 4.50 – Baseline-observation
+- **2026-05-18 kl. 17:00** – MKS Arka Gdynia vs Bruk-Bet Termalica Nieciecza – Udebanesejr @ 4.75 – Baseline-observation
+- **2026-05-18 kl. 17:05** – IK Oddevold vs Orebro SK – Udebanesejr @ 4.20 – Baseline-observation
+- **2026-05-18 kl. 17:30** – AB Argir vs Vikingur Gota – Hjemmesejr @ 4.33 – Baseline-observation
+- **2026-05-18 kl. 17:30** – HB Torshavn vs Eb/Streymur – Uafgjort @ 5.50 – Baseline-observation
 - **2026-05-18 kl. 17:30** – FC Farul Constanta vs Metaloglobus Bucuresti – Uafgjort @ 6.00 – Baseline-observation
-- **2026-05-18 kl. 17:30** – AB Argir vs Vikingur Gota – Hjemmesejr @ 4.00 – Baseline-observation
-- **2026-05-18 kl. 18:30** – CS Italiano vs CSCD Laferrere – Udebanesejr @ 4.50 – Baseline-observation
-- **2026-05-18 kl. 18:30** – CSDC Espanol vs Club Mercedes – Udebanesejr @ 4.10 – Baseline-observation
-- **2026-05-18 kl. 18:30** – CD Leganes vs SD Huesca – Udebanesejr @ 4.00 – Baseline-observation
-- **2026-05-18 kl. 19:30** – Leganes vs Huesca – Udebanesejr @ 4.00 – Baseline-observation
+- **2026-05-18 kl. 18:00** – AL Ula vs Al-Orobah – Udebanesejr @ 5.00 – Baseline-observation
+- **2026-05-18 kl. 18:30** – CD Leganes vs SD Huesca – Udebanesejr @ 4.33 – Baseline-observation
+- **2026-05-18 kl. 18:30** – CS Italiano vs CSCD Laferrere – Udebanesejr @ 4.00 – Baseline-observation
+- **2026-05-18 kl. 18:30** – CSDC Espanol vs Club Mercedes – Udebanesejr @ 3.60 – Baseline-observation
+- **2026-05-18 kl. 19:15** – Grotta vs Afturelding – Hjemmesejr @ 4.75 – Baseline-observation
+- **2026-05-18 kl. 19:30** – Leganes vs Huesca – Udebanesejr @ 4.33 – Baseline-observation
 
 ## Settlement-check pending/noter
 

@@ -9,13 +9,13 @@ Input price rows: 60
 Accepted price rows: 51
 Rejected price rows: 9
 Rejected U-/reserve rows: 9
-Forward prediction rows: 101
+Forward prediction rows: 198
 Rule: accept_only_direct_senior_home_away_match_against_forward_fixture_predictions
 
 ## Rejected prices
 
-- 2026-05-18 | Defensor Sporting vs Albion FC | odds_api_io_Bet365_ML | status=rejected_youth_or_reserve_match
 - 2026-05-18 | NK Samobor vs GNK Dinamo Zagreb | odds_api_io_Bet365_ML | status=rejected_youth_or_reserve_match
+- 2026-05-18 | AL Qadisiya vs AL Fateh | odds_api_io_Bet365_ML | status=rejected_youth_or_reserve_match
 - 2026-05-18 | Inter Miami CF II vs Crown Legacy FC | odds_api_io_Bet365_ML | status=rejected_youth_or_reserve_match
 - 2026-05-18 | EC Bahia BA vs CA Paranaense PR | odds_api_io_Bet365_ML | status=rejected_youth_or_reserve_match
 - 2026-05-18 | Liverpool Montevideo vs La Luz FC Reserves | odds_api_io_Bet365_ML | status=rejected_youth_or_reserve_match

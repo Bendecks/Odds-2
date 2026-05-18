@@ -1,17 +1,17 @@
 # Paper Test Log Status
 
-Raw log rows: 318
-Valid forward/proxy log rows: 315
-Deduped forward/proxy observation rows: 216
-Duplicate forward/proxy log rows: 99
-Valid automatic proxy observation rows: 315
-Deduped automatic proxy observation rows: 216
+Raw log rows: 339
+Valid forward/proxy log rows: 336
+Deduped forward/proxy observation rows: 225
+Duplicate forward/proxy log rows: 111
+Valid automatic proxy observation rows: 336
+Deduped automatic proxy observation rows: 225
 Invalid historical/proxy log rows excluded: 3
 Has valid forward log: True
 
 ## Deduped valid rows
 
-- 2026-05-16 | Real Sociedad San Sebastian B vs CD Mirandes | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0606
+- 2026-05-18 | Al Mokawloon Al Arab vs Wadi Degla SC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.060500000000000005
 - 2026-05-18 | Puszcza Niepolomice vs LKS Lodz | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0601
 - 2026-05-18 | Kerala Blasters FC vs FC Goa | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0601
 - 2026-05-14 | Viking FK 2 vs Akra | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.06
@@ -34,26 +34,26 @@ Has valid forward log: True
 
 ## Raw valid rows
 
-- 2026-05-18 | PFC Montana 1921 vs FK Spartak 1918 Varna | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-18 | FC Farul Constanta vs Metaloglobus Bucuresti | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-18 | AL Nasr SC (OMA) vs Samail SC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-18 | Orgryte IS vs IFK Goteborg | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-18 | Ariana FC vs Tvaakers IF | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-18 | MKS Arka Gdynia vs Bruk-Bet Termalica Nieciecza | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-18 | Al-Khaboora vs Al-Rustaq | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 - 2026-05-18 | Maccabi Bney Reine vs Maccabi Netanya FC | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-18 | HB Torshavn vs Eb/Streymur | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-18 | AL Ula vs Al-Orobah | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-18 | AL Nasr SC (OMA) vs Samail SC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-18 | AB Argir vs Vikingur Gota | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-18 | AL Draih vs Al-Jabalain | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-18 | Kuwait SC vs Al Arabi | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-18 | MKS Arka Gdynia vs Bruk-Bet Termalica Nieciecza | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-18 | Club Deportivo Magallanes vs Deportes Recoleta | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-18 | PFC Dobrudzha Dobrich vs POFC Botev Vratsa | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 - 2026-05-18 | Hapoel Haifa FC vs Bnei Sakhnin FC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-18 | Orgryte IS vs IFK Goteborg | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-18 | CD Leganes vs SD Huesca | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-18 | Leganes vs Huesca | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-18 | IK Oddevold vs Orebro SK | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-18 | CS Italiano vs CSCD Laferrere | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-18 | HB Torshavn vs Eb/Streymur | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-18 | PFC Montana 1921 vs FK Spartak 1918 Varna | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-18 | GIF Sundsvall vs Landskrona BoIS | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-18 | Al Mokawloon Al Arab vs Wadi Degla SC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 - 2026-05-18 | CSDC Espanol vs Club Mercedes | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-18 | CD Leganes vs SD Huesca | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-18 | CD Leganes vs SD Huesca | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-18 | Leganes vs Huesca | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-18 | Leganes vs Huesca | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-18 | South Melbourne FC vs Caroline Springs George Cross FC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-18 | Al Shabab vs Al-Seeb | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-18 | Bahla Club vs Al Nahda | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-18 | Puszcza Niepolomice vs LKS Lodz | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-18 | Kerala Blasters FC vs FC Goa | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 
 ## Invalid rows excluded
 

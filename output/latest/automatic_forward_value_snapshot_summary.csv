@@ -1,2 +1,2 @@
 forward_prediction_rows,proxy_price_rows,value_snapshot_rows,positive_ev_rows,matched_prediction_rows,odds_api_io_snapshot_rows,baseline_snapshot_rows,full_model_snapshot_rows,source_counts,source_type,real_money_ready
-101,57,183,77,53,156,174,9,"{'odds_api_io_Bet365_ML': 156, 'football_data_bet365_proxy': 9, 'football_data_max_market_proxy': 9, 'football_data_average_market_proxy': 9}",combined_automatic_forward_market_proxy,False
+198,57,189,84,55,162,180,9,"{'odds_api_io_Bet365_ML': 162, 'football_data_bet365_proxy': 9, 'football_data_max_market_proxy': 9, 'football_data_average_market_proxy': 9}",combined_automatic_forward_market_proxy,False
