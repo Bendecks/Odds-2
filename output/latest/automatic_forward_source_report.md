@@ -3,12 +3,12 @@
 Purpose: distinguish true automatic forward inputs from historical market proxy and paused manual fallback.
 Football-Data and odds-api.io prices are treated as paper-test proxy prices until validated.
 
-Upcoming fixture rows: 176
-Fixture team rows unmatched: 348
+Upcoming fixture rows: 210
+Fixture team rows unmatched: 412
 Ready for model-fixture join: False
-Automatic forward price rows: 42
-odds-api.io price rows: 42
-Football-Data price rows: 0
+Automatic forward price rows: 77
+odds-api.io price rows: 47
+Football-Data price rows: 30
 Automatic forward status: automatic_forward_not_ready
 Blocker: fixture_model_team_matching_incomplete
 Next development step: add_team_aliases_for_upcoming_fixtures
@@ -21,22 +21,18 @@ Next development step: add_team_aliases_for_upcoming_fixtures
 - Juve Stabia | suggestion=nan | type=unmatched
 - Afrique Football Elite | suggestion=nan | type=unmatched
 - AS Bakaridjan | suggestion=nan | type=unmatched
-- Al Kahrabaa SC | suggestion=nan | type=unmatched
-- Al-Gharraf SC | suggestion=nan | type=unmatched
 - AL Naft | suggestion=nan | type=unmatched
 - Duhok FC | suggestion=nan | type=unmatched
 - AL Talaba | suggestion=nan | type=unmatched
 - AL Karma | suggestion=nan | type=unmatched
-- Al-Horiyah | suggestion=nan | type=unmatched
-- Al-Jaish SC (Syr) | suggestion=nan | type=unmatched
 - AS Korofina | suggestion=nan | type=unmatched
 - Binga FC | suggestion=nan | type=unmatched
 - Audax Italiano | suggestion=nan | type=unmatched
 - CA Barracas Central | suggestion=nan | type=unmatched
+- Bagatelle | suggestion=nan | type=unmatched
+- Pride of Gall Hill | suggestion=nan | type=unmatched
 - Barra FC SC | suggestion=nan | type=unmatched
 - Concordia SC | suggestion=nan | type=unmatched
-- Bashundhara Kings | suggestion=nan | type=unmatched
-- Mohammedan SC Dhaka | suggestion=nan | type=unmatched
 - Ben Aknoun | suggestion=nan | type=unmatched
 - ES Mostaganem | suggestion=nan | type=unmatched
 - Boston Bolts | suggestion=nan | type=unmatched
@@ -45,6 +41,10 @@ Next development step: add_team_aliases_for_upcoming_fixtures
 - Central Espanol Reserve | suggestion=nan | type=unmatched
 - Manchester City | suggestion=nan | type=unmatched
 - CA Banfield | suggestion=nan | type=unmatched
+- CA Aldosivi Reserve | suggestion=nan | type=unmatched
+- CA Quilmes Reserve | suggestion=nan | type=unmatched
+- CA Lanus | suggestion=nan | type=unmatched
+- CA River Plate (URU) | suggestion=nan | type=unmatched
 
 ## Interpretation
 

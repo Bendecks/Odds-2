@@ -1,1 +1,12 @@
 fixture_id,league,league_id,season,match_date,match_time,home_team,away_team,source,fetched_at_utc
+fd_B1_2026-05-19_Charleroi_Oud-Heverlee_Leuven,B1,B1,upcoming,2026-05-19,19:30,Charleroi,Oud-Heverlee Leuven,football_data_fixtures_proxy,2026-05-19T14:42:13.894429+00:00
+fd_B1_2026-05-19_Genk_Antwerp,B1,B1,upcoming,2026-05-19,19:30,Genk,Antwerp,football_data_fixtures_proxy,2026-05-19T14:42:13.894429+00:00
+fd_B1_2026-05-19_Westerlo_Standard,B1,B1,upcoming,2026-05-19,19:30,Westerlo,Standard,football_data_fixtures_proxy,2026-05-19T14:42:13.894429+00:00
+fd_B1_2026-05-21_Anderlecht_St_Truiden,B1,B1,upcoming,2026-05-21,19:30,Anderlecht,St Truiden,football_data_fixtures_proxy,2026-05-19T14:42:13.894429+00:00
+fd_B1_2026-05-21_Gent_St._Gilloise,B1,B1,upcoming,2026-05-21,19:30,Gent,St. Gilloise,football_data_fixtures_proxy,2026-05-19T14:42:13.894429+00:00
+fd_B1_2026-05-21_Mechelen_Club_Brugge,B1,B1,upcoming,2026-05-21,19:30,Mechelen,Club Brugge,football_data_fixtures_proxy,2026-05-19T14:42:13.894429+00:00
+fd_E0_2026-05-19_Bournemouth_Man_City,premier_league,E0,upcoming,2026-05-19,19:30,Bournemouth,Man City,football_data_fixtures_proxy,2026-05-19T14:42:13.894429+00:00
+fd_E0_2026-05-19_Chelsea_Tottenham,premier_league,E0,upcoming,2026-05-19,20:15,Chelsea,Tottenham,football_data_fixtures_proxy,2026-05-19T14:42:13.894429+00:00
+fd_G1_2026-05-21_Atromitos_Panserraikos,G1,G1,upcoming,2026-05-21,16:00,Atromitos,Panserraikos,football_data_fixtures_proxy,2026-05-19T14:42:13.894429+00:00
+fd_G1_2026-05-21_Kifisia_Larisa,G1,G1,upcoming,2026-05-21,17:00,Kifisia,Larisa,football_data_fixtures_proxy,2026-05-19T14:42:13.894429+00:00
+fd_G1_2026-05-21_Panetolikos_Asteras_Tripolis,G1,G1,upcoming,2026-05-21,17:00,Panetolikos,Asteras Tripolis,football_data_fixtures_proxy,2026-05-19T14:42:13.894429+00:00

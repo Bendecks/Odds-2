@@ -2,28 +2,28 @@
 
 Probability-only forward prediction log. This is not a betting log and contains no stake or real-money signal.
 
-Current forward fixture predictions: 176
+Current forward fixture predictions: 210
 New forward fixture predictions logged: 0
-Total forward fixture predictions logged: 2332
+Total forward fixture predictions logged: 2427
 Log type: probability_only_no_market_prices
 
-- 2026-05-21 2026-05-19 18:00:00 | Al-Fayha FC vs Al Hilal SFC | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-21 2026-05-19 18:00:00 | Al-Hazm vs Al-Taawoun FC | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-21 2026-05-19 18:00:00 | Al-Ittihad Club vs Al Qadsiah | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-21 2026-05-19 18:00:00 | Al-Kholood vs Al-Fateh SC | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-21 2026-05-19 18:00:00 | Al-Riyadh SC vs Al-Okhdood Club | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-21 2026-05-19 18:00:00 | IA Akranes vs IBV Vestmannaeyjar | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-21 2026-05-19 18:00:00 | Neom SC vs Al-Ittifaq FC | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-21 2026-05-19 18:30:00 | KAA Gent vs Union Saint-Gilloise | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-21 2026-05-19 18:30:00 | RSC Anderlecht vs St. Truidense VV | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-21 2026-05-19 18:30:00 | VFL Wolfsburg vs SC Paderborn 07 | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-21 2026-05-19 18:30:00 | Yellow-Red KV Mechelen vs Club Brugge | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-21 2026-05-19 19:00:00 | Partick Thistle FC vs St Mirren FC | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-21 2026-05-19 19:00:00 | FC Utrecht vs SC Heerenveen | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-21 2026-05-19 21:00:00 | Ferroviaria SP vs SE Palmeiras SP | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-21 2026-05-19 22:00:00 | Academia Puerto Cabello vs CA Juventud de Las Piedras | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-21 2026-05-19 22:00:00 | Atletico Mineiro MG vs CS Cienciano | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-21 2026-05-19 22:00:00 | Deportivo La Guaira vs Independiente Rivadavia | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-22 2026-05-19 00:30:00 | CA Penarol Montevideo vs SC Corinthians SP | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-23 2026-05-19 05:00:00 | Quinns FC Reserve vs Mandurah City FC Reserves | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-23 2026-05-19 13:00:00 | Cruzeiro EC MG vs Boston City FC MG | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-20 2026-05-19 23:00:00 | Seacoast United Phantoms vs Western Mass Pioneers | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-20 2026-05-19 23:30:00 | East Atlanta FC vs Columbus United FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-20 2026-05-19 23:30:00 | Fort Wayne FC vs Corpus Christi FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-20 2026-05-19 23:30:00 | Morris Elite SC vs Ironbound SC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-20 2026-05-19 23:30:00 | New Jersey Copa FC vs Paisley Athletic FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-20 2026-05-19 23:30:00 | Northern Virginia FC vs Lancaster Inferno | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-21 2026-05-19 08:00:00 | Hapoel Ironi Kiryat Shmona vs Hapoel Ako | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-21 2026-05-19 16:00:00 | Atromitos vs Panserraikos | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-21 2026-05-19 17:00:00 | Kifisia vs Larisa | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-21 2026-05-19 17:00:00 | Panetolikos vs Asteras Tripolis | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-21 2026-05-19 19:30:00 | Anderlecht vs St Truiden | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-21 2026-05-19 19:30:00 | Gent vs St. Gilloise | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-21 2026-05-19 19:30:00 | Mechelen vs Club Brugge | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-22 2026-05-19 11:30:00 | Hubei Istar vs Chengdu Rongcheng B | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-22 2026-05-19 16:15:00 | HNK Hajduk Split vs HNK Vukovar 1991 | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-23 2026-05-19 05:00:00 | Uwa Nedlands FC Reserves vs Murdoch University Melville FC Reserves | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-23 2026-05-19 07:00:00 | UWA Nedlands FC vs Murdoch University Melville FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-23 2026-05-19 08:00:00 | HNK Hajduk Split vs NK Osijek | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-23 2026-05-19 11:00:00 | Shanghai Port FC vs Tianjin Jinmen Tiger | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-23 2026-05-19 12:00:00 | Dalian Yingbo FC vs Chengdu Rongcheng | H=0.37720000000000004 D=0.274 A=0.3488

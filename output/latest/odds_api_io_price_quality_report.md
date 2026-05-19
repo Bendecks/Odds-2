@@ -5,21 +5,15 @@ A price is accepted only when API home/away/date directly matches a senior-team 
 Youth, U-teams, reserve teams, academy teams and B-teams are rejected before paper-pick generation.
 Swapped home/away matches are rejected because venue affects both model probabilities and market odds.
 
-Input price rows: 59
-Accepted price rows: 42
-Rejected price rows: 17
-Rejected U-/reserve rows: 17
-Forward prediction rows: 176
+Input price rows: 60
+Accepted price rows: 47
+Rejected price rows: 13
+Rejected U-/reserve rows: 13
+Forward prediction rows: 210
 Rule: accept_only_direct_senior_home_away_match_against_forward_fixture_predictions
 
 ## Rejected prices
 
-- 2026-05-19 | Turkmenistan vs Uzbekistan | odds_api_io_Bet365_ML | status=rejected_youth_or_reserve_match
-- 2026-05-19 | HNK Hajduk Split vs NK Mladost Zdralovi | odds_api_io_Bet365_ML | status=rejected_youth_or_reserve_match
-- 2026-05-19 | Hapoel Ironi Kiryat Shmona vs Maccabi Herzliya | odds_api_io_Bet365_ML | status=rejected_youth_or_reserve_match
-- 2026-05-19 | Juventud de Las Piedras vs Colon FC Reserve | odds_api_io_Bet365_ML | status=rejected_youth_or_reserve_match
-- 2026-05-19 | Tajikistan vs Kyrgyzstan | odds_api_io_Bet365_ML | status=rejected_youth_or_reserve_match
-- 2026-05-19 | Uwa Nedlands FC Reserves vs Inglewood United Reserves | odds_api_io_Bet365_ML | status=rejected_youth_or_reserve_match
 - 2026-05-19 | Boston River vs Central Espanol Reserve | odds_api_io_Bet365_ML | status=rejected_youth_or_reserve_match
 - 2026-05-19 | CA River Plate (URU) vs Deportivo Maldonado Reserve | odds_api_io_Bet365_ML | status=rejected_youth_or_reserve_match
 - 2026-05-19 | Sarpsborg 08 2 vs Lyn 1896 FK II | odds_api_io_Bet365_ML | status=rejected_youth_or_reserve_match
@@ -31,3 +25,5 @@ Rule: accept_only_direct_senior_home_away_match_against_forward_fixture_predicti
 - 2026-05-19 | Independiente Reserve vs Estudiantes de Rio Cuarto Reserve | odds_api_io_Bet365_ML | status=rejected_youth_or_reserve_match
 - 2026-05-19 | San Lorenzo de Almagro Res. vs Racing Club Avellaneda | odds_api_io_Bet365_ML | status=rejected_youth_or_reserve_match
 - 2026-05-19 | San Martin de San Juan Reserve vs Independiente Rivadavia de Mendoza Reserve | odds_api_io_Bet365_ML | status=rejected_youth_or_reserve_match
+- 2026-05-19 | Vila Nova FC GO vs Coritiba FC PR | odds_api_io_Bet365_ML | status=rejected_youth_or_reserve_match
+- 2026-05-19 | SC Corinthians SP vs SE Palmeiras SP | odds_api_io_Bet365_ML | status=rejected_youth_or_reserve_match

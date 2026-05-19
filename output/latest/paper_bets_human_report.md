@@ -5,9 +5,9 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 
 ## Kort status
 
-- Aktuelle viste paper picks: **25**
-- Unikke loggede paper picks: **240**
-- Afventer i loggen: **237**
+- Aktuelle viste paper picks: **17**
+- Unikke loggede paper picks: **252**
+- Afventer i loggen: **249**
 - Afgjorte fundet i settled-filen: **210**
 - Skjulte U-/reserve-rækker: **14**
 - Vundne: **70**
@@ -16,11 +16,83 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 
 ## Aktuelle paper picks
 
-### Klaipedos Fsm vs Dfk Dainava Alytus
+### Bournemouth vs Man City
 - Dato: **2026-05-19**
-- Kampstart: **15:00**
+- Kampstart: **19:30**
 - Spil: **Hjemmesejr**
-- Odds: **4.50**
+- Odds: **4.75**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Bournemouth vs Manchester City
+- Dato: **2026-05-19**
+- Kampstart: **18:30**
+- Spil: **Hjemmesejr**
+- Odds: **4.75**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### AFC Bournemouth vs Manchester City
+- Dato: **2026-05-19**
+- Kampstart: **18:30**
+- Spil: **Hjemmesejr**
+- Odds: **4.75**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Gent vs St. Gilloise
+- Dato: **2026-05-21**
+- Kampstart: **19:30**
+- Spil: **Hjemmesejr**
+- Odds: **4.60**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Royal Charleroi SC vs Oud-Heverlee Leuven
+- Dato: **2026-05-19**
+- Kampstart: **18:30**
+- Spil: **Udebanesejr**
+- Odds: **5.00**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Charleroi vs Oud-Heverlee Leuven
+- Dato: **2026-05-19**
+- Kampstart: **19:30**
+- Spil: **Udebanesejr**
+- Odds: **5.00**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### CS Constantine vs USM Khenchela
+- Dato: **2026-05-19**
+- Kampstart: **16:45**
+- Spil: **Udebanesejr**
+- Odds: **5.00**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### IF Sao Joseense PR vs Azuriz FC PR
+- Dato: **2026-05-19**
+- Kampstart: **22:00**
+- Spil: **Udebanesejr**
+- Odds: **4.75**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Fluminense FC RJ vs Club Bolivar
+- Dato: **2026-05-19**
+- Kampstart: **22:00**
+- Spil: **Uafgjort**
+- Odds: **6.25**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
@@ -29,43 +101,7 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Dato: **2026-05-19**
 - Kampstart: **16:00**
 - Spil: **Udebanesejr**
-- Odds: **5.00**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Boston Bolts vs Vermont Green FC
-- Dato: **2026-05-19**
-- Kampstart: **18:00**
-- Spil: **Hjemmesejr**
 - Odds: **4.33**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### AC Monza vs Juve Stabia
-- Dato: **2026-05-19**
-- Kampstart: **18:00**
-- Spil: **Udebanesejr**
-- Odds: **4.75**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Bashundhara Kings vs Mohammedan SC Dhaka
-- Dato: **2026-05-19**
-- Kampstart: **11:30**
-- Spil: **Udebanesejr**
-- Odds: **4.20**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Hapoel Be`er Sheva FC vs Maccabi Tel Aviv FC
-- Dato: **2026-05-19**
-- Kampstart: **17:30**
-- Spil: **Udebanesejr**
-- Odds: **4.20**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
@@ -79,56 +115,38 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Qingdao West Coast FC vs Beijing Guoan
-- Dato: **2026-05-19**
-- Kampstart: **12:00**
-- Spil: **Hjemmesejr**
-- Odds: **3.60**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### FC Haka J vs Saaksjaerven Loiske
-- Dato: **2026-05-19**
-- Kampstart: **16:00**
-- Spil: **Uafgjort**
-- Odds: **5.50**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Rajasthan United vs Chanmari FC
-- Dato: **2026-05-19**
-- Kampstart: **13:00**
-- Spil: **Udebanesejr**
-- Odds: **3.80**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Hapoel Petah Tikva FC vs Beitar Jerusalem FC
+### Hapoel Be`er Sheva FC vs Maccabi Tel Aviv FC
 - Dato: **2026-05-19**
 - Kampstart: **17:30**
-- Spil: **Uafgjort**
-- Odds: **5.00**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Boston Bolts vs Vermont Green FC
-- Dato: **2026-05-19**
-- Kampstart: **18:00**
-- Spil: **Uafgjort**
-- Odds: **5.00**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### MB Rouissat vs Paradou AC
-- Dato: **2026-05-19**
-- Kampstart: **15:00**
 - Spil: **Udebanesejr**
-- Odds: **3.60**
+- Odds: **4.10**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Chelsea vs Tottenham
+- Dato: **2026-05-19**
+- Kampstart: **20:15**
+- Spil: **Udebanesejr**
+- Odds: **4.00**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### LVU Rush vs Delaware FC
+- Dato: **2026-05-19**
+- Kampstart: **23:00**
+- Spil: **Udebanesejr**
+- Odds: **4.00**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Mechelen vs Club Brugge
+- Dato: **2026-05-21**
+- Kampstart: **19:30**
+- Spil: **Uafgjort**
+- Odds: **5.25**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
@@ -137,61 +155,16 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Dato: **2026-05-19**
 - Kampstart: **16:00**
 - Spil: **Hjemmesejr**
-- Odds: **3.20**
+- Odds: **3.30**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Northeast United FC vs Mohammedan SC
+### Ben Aknoun vs ES Mostaganem
 - Dato: **2026-05-19**
-- Kampstart: **11:30**
+- Kampstart: **15:00**
 - Spil: **Uafgjort**
-- Odds: **4.75**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Chengdu Rongcheng vs Shanghai Port FC
-- Dato: **2026-05-19**
-- Kampstart: **12:00**
-- Spil: **Uafgjort**
-- Odds: **4.50**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Derby Academie vs Onze Createurs
-- Dato: **2026-05-19**
-- Kampstart: **16:30**
-- Spil: **Udebanesejr**
-- Odds: **3.30**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Al Kahrabaa SC vs Al-Gharraf SC
-- Dato: **2026-05-19**
-- Kampstart: **14:30**
-- Spil: **Udebanesejr**
-- Odds: **3.30**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Diyala FC vs Amanat Baghdad SC
-- Dato: **2026-05-19**
-- Kampstart: **14:30**
-- Spil: **Udebanesejr**
-- Odds: **3.30**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Deportivo Capiata vs Club Fernando de La Mora
-- Dato: **2026-05-19**
-- Kampstart: **13:00**
-- Spil: **Udebanesejr**
-- Odds: **3.25**
+- Odds: **5.00**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
