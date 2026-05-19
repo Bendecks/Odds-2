@@ -5,9 +5,9 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 
 ## Kort status
 
-- Aktuelle viste paper picks: **23**
-- Unikke loggede paper picks: **215**
-- Afventer i loggen: **212**
+- Aktuelle viste paper picks: **25**
+- Unikke loggede paper picks: **240**
+- Afventer i loggen: **237**
 - Afgjorte fundet i settled-filen: **210**
 - Skjulte U-/reserve-rækker: **14**
 - Vundne: **70**
@@ -16,182 +16,182 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 
 ## Aktuelle paper picks
 
-### Grotta vs Afturelding
-- Dato: **2026-05-18**
-- Kampstart: **19:15**
-- Spil: **Hjemmesejr**
-- Odds: **4.75**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Maccabi Bney Reine vs Maccabi Netanya FC
-- Dato: **2026-05-18**
-- Kampstart: **17:00**
+### Klaipedos Fsm vs Dfk Dainava Alytus
+- Dato: **2026-05-19**
+- Kampstart: **15:00**
 - Spil: **Hjemmesejr**
 - Odds: **4.50**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### AL Ula vs Al-Orobah
-- Dato: **2026-05-18**
+### Hapoel Acre FC vs Hapoel Hadera FC
+- Dato: **2026-05-19**
+- Kampstart: **16:00**
+- Spil: **Udebanesejr**
+- Odds: **5.00**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Boston Bolts vs Vermont Green FC
+- Dato: **2026-05-19**
+- Kampstart: **18:00**
+- Spil: **Hjemmesejr**
+- Odds: **4.33**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### AC Monza vs Juve Stabia
+- Dato: **2026-05-19**
 - Kampstart: **18:00**
 - Spil: **Udebanesejr**
-- Odds: **5.00**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### AL Nasr SC (OMA) vs Samail SC
-- Dato: **2026-05-18**
-- Kampstart: **15:20**
-- Spil: **Udebanesejr**
-- Odds: **5.00**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### AB Argir vs Vikingur Gota
-- Dato: **2026-05-18**
-- Kampstart: **17:30**
-- Spil: **Hjemmesejr**
-- Odds: **4.33**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### AL Draih vs Al-Jabalain
-- Dato: **2026-05-18**
-- Kampstart: **16:05**
-- Spil: **Udebanesejr**
 - Odds: **4.75**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Kuwait SC vs Al Arabi
-- Dato: **2026-05-18**
-- Kampstart: **16:15**
-- Spil: **Udebanesejr**
-- Odds: **4.75**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### MKS Arka Gdynia vs Bruk-Bet Termalica Nieciecza
-- Dato: **2026-05-18**
-- Kampstart: **17:00**
-- Spil: **Udebanesejr**
-- Odds: **4.75**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Club Deportivo Magallanes vs Deportes Recoleta
-- Dato: **2026-05-18**
-- Kampstart: **15:00**
-- Spil: **Udebanesejr**
-- Odds: **4.50**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### PFC Dobrudzha Dobrich vs POFC Botev Vratsa
-- Dato: **2026-05-18**
-- Kampstart: **16:30**
-- Spil: **Udebanesejr**
-- Odds: **4.50**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Hapoel Haifa FC vs Bnei Sakhnin FC
-- Dato: **2026-05-18**
-- Kampstart: **17:00**
-- Spil: **Udebanesejr**
-- Odds: **4.50**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Laholms FK vs FC Rosengaard 1917
-- Dato: **2026-05-18**
-- Kampstart: **17:00**
-- Spil: **Hjemmesejr**
-- Odds: **4.00**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Orgryte IS vs IFK Goteborg
-- Dato: **2026-05-18**
-- Kampstart: **17:00**
-- Spil: **Hjemmesejr**
-- Odds: **3.90**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### FC Farul Constanta vs Metaloglobus Bucuresti
-- Dato: **2026-05-18**
-- Kampstart: **17:30**
-- Spil: **Uafgjort**
-- Odds: **6.00**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### CD Leganes vs SD Huesca
-- Dato: **2026-05-18**
-- Kampstart: **18:30**
-- Spil: **Udebanesejr**
-- Odds: **4.33**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Leganes vs Huesca
-- Dato: **2026-05-18**
-- Kampstart: **19:30**
-- Spil: **Udebanesejr**
-- Odds: **4.33**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### IK Oddevold vs Orebro SK
-- Dato: **2026-05-18**
-- Kampstart: **17:05**
+### Bashundhara Kings vs Mohammedan SC Dhaka
+- Dato: **2026-05-19**
+- Kampstart: **11:30**
 - Spil: **Udebanesejr**
 - Odds: **4.20**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### CS Italiano vs CSCD Laferrere
-- Dato: **2026-05-18**
-- Kampstart: **18:30**
+### Hapoel Be`er Sheva FC vs Maccabi Tel Aviv FC
+- Dato: **2026-05-19**
+- Kampstart: **17:30**
 - Spil: **Udebanesejr**
-- Odds: **4.00**
+- Odds: **4.20**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### HB Torshavn vs Eb/Streymur
-- Dato: **2026-05-18**
+### FC Kiisto vs Vpv
+- Dato: **2026-05-19**
+- Kampstart: **16:00**
+- Spil: **Uafgjort**
+- Odds: **5.75**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Qingdao West Coast FC vs Beijing Guoan
+- Dato: **2026-05-19**
+- Kampstart: **12:00**
+- Spil: **Hjemmesejr**
+- Odds: **3.60**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### FC Haka J vs Saaksjaerven Loiske
+- Dato: **2026-05-19**
+- Kampstart: **16:00**
+- Spil: **Uafgjort**
+- Odds: **5.50**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Rajasthan United vs Chanmari FC
+- Dato: **2026-05-19**
+- Kampstart: **13:00**
+- Spil: **Udebanesejr**
+- Odds: **3.80**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Hapoel Petah Tikva FC vs Beitar Jerusalem FC
+- Dato: **2026-05-19**
 - Kampstart: **17:30**
 - Spil: **Uafgjort**
-- Odds: **5.50**
+- Odds: **5.00**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### PFC Montana 1921 vs FK Spartak 1918 Varna
-- Dato: **2026-05-18**
-- Kampstart: **16:30**
+### Boston Bolts vs Vermont Green FC
+- Dato: **2026-05-19**
+- Kampstart: **18:00**
 - Spil: **Uafgjort**
-- Odds: **5.50**
+- Odds: **5.00**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### MB Rouissat vs Paradou AC
+- Dato: **2026-05-19**
+- Kampstart: **15:00**
+- Spil: **Udebanesejr**
+- Odds: **3.60**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Hapoel Ra`anana FC vs FC Kafr Qasim
+- Dato: **2026-05-19**
+- Kampstart: **16:00**
+- Spil: **Hjemmesejr**
+- Odds: **3.20**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Northeast United FC vs Mohammedan SC
+- Dato: **2026-05-19**
+- Kampstart: **11:30**
+- Spil: **Uafgjort**
+- Odds: **4.75**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Chengdu Rongcheng vs Shanghai Port FC
+- Dato: **2026-05-19**
+- Kampstart: **12:00**
+- Spil: **Uafgjort**
+- Odds: **4.50**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Derby Academie vs Onze Createurs
+- Dato: **2026-05-19**
+- Kampstart: **16:30**
+- Spil: **Udebanesejr**
+- Odds: **3.30**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Al Kahrabaa SC vs Al-Gharraf SC
+- Dato: **2026-05-19**
+- Kampstart: **14:30**
+- Spil: **Udebanesejr**
+- Odds: **3.30**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Diyala FC vs Amanat Baghdad SC
+- Dato: **2026-05-19**
+- Kampstart: **14:30**
+- Spil: **Udebanesejr**
+- Odds: **3.30**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Deportivo Capiata vs Club Fernando de La Mora
+- Dato: **2026-05-19**
+- Kampstart: **13:00**
+- Spil: **Udebanesejr**
+- Odds: **3.25**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**

@@ -3,10 +3,10 @@
 Manual Bet365 odds input is parked as an optional fallback. It is not an active development blocker.
 Current priority: automatic/free-data forward-testing sources and robust fixture/model matching.
 
-Upcoming fixtures: 198
-Manual template rows: 198
+Upcoming fixtures: 176
+Manual template rows: 176
 Rows with complete manual odds: 0
-Rows missing manual odds: 198
+Rows missing manual odds: 176
 Manual forward snapshot rows: 0
 Manual odds mode: optional_fallback_paused
 Manual odds is blocker: False
@@ -19,23 +19,23 @@ Upcoming fixtures exist, but no automatic odds/proxy forward snapshot source is 
 ## Optional manual fallback status
 
 Manual odds are not required in the current phase. These rows are only kept for later fallback use:
-- 2026-05-18 17:30 | AFC Eskilstuna vs FC Arlanda
-- 2026-05-18 17:30 | AFC Hermannstadt vs Fotbal Club FCSB
-- 2026-05-18 22:00 | AA Ponte Preta SP vs Londrina EC PR
-- 2026-05-18 18:15 | FC Aarau vs Grasshopper Club Zurich
-- 2026-05-18 17:30 | AB Argir vs Vikingur Gota
-- 2026-05-18 23:00 | AD Confianca SE vs Maranhao AC MA
-- 2026-05-18 16:05 | AL Draih vs Al-Jabalain
-- 2026-05-18 17:00 | Al Mokawloon Al Arab vs Wadi Degla SC
-- 2026-05-18 15:20 | AL Nasr SC (OMA) vs Samail SC
-- 2026-05-18 17:15 | AL Qadisiya vs AL Fateh
-- 2026-05-18 15:20 | Al Shabab vs Al-Seeb
-- 2026-05-18 18:00 | AL Ula vs Al-Orobah
-- 2026-05-18 15:20 | Al-Khaboora vs Al-Rustaq
-- 2026-05-18 17:00 | Angelholms FF vs Kristianstad FC
-- 2026-05-18 17:00 | Ariana FC vs Tvaakers IF
-- 2026-05-18 20:00 | Arsenal vs Burnley
-- 2026-05-18 15:20 | Bahla Club vs Al Nahda
-- 2026-05-18 23:00 | Botafogo FC PB vs AA Internacional Limeira SP
-- 2026-05-18 18:30 | CD Leganes vs SD Huesca
-- 2026-05-18 23:00 | CD Santa Cruz vs Deportes Temuco
+- 2026-05-19 18:30 | AFC Bournemouth vs Manchester City
+- 2026-05-19 18:00 | AC Monza vs Juve Stabia
+- 2026-05-19 18:30 | Afrique Football Elite vs AS Bakaridjan
+- 2026-05-19 14:30 | Al Kahrabaa SC vs Al-Gharraf SC
+- 2026-05-19 17:00 | AL Naft vs Duhok FC
+- 2026-05-19 17:00 | AL Talaba vs AL Karma
+- 2026-05-19 13:00 | Al-Horiyah vs Al-Jaish SC (Syr)
+- 2026-05-19 16:30 | AS Korofina vs Binga FC
+- 2026-05-19 22:00 | Audax Italiano vs CA Barracas Central
+- 2026-05-19 18:00 | Barra FC SC vs Concordia SC
+- 2026-05-19 11:30 | Bashundhara Kings vs Mohammedan SC Dhaka
+- 2026-05-19 15:00 | Ben Aknoun vs ES Mostaganem
+- 2026-05-19 18:00 | Boston Bolts vs Vermont Green FC
+- 2026-05-19 17:00 | Boston River vs Central Espanol Reserve
+- 2026-05-19 18:30:00 | Bournemouth vs Manchester City
+- 2026-05-19 18:00 | CA Banfield vs CA Aldosivi Reserve
+- 2026-05-19 18:00 | CA Quilmes Reserve vs CA Lanus
+- 2026-05-19 17:00 | CA River Plate (URU) vs Deportivo Maldonado Reserve
+- 2026-05-19 22:00 | CA Rosario Central vs UCV FC
+- 2026-05-19 19:15 | Chelsea FC vs Tottenham Hotspur

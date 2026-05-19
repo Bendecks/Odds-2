@@ -3,48 +3,48 @@
 Purpose: distinguish true automatic forward inputs from historical market proxy and paused manual fallback.
 Football-Data and odds-api.io prices are treated as paper-test proxy prices until validated.
 
-Upcoming fixture rows: 198
-Fixture team rows unmatched: 390
+Upcoming fixture rows: 176
+Fixture team rows unmatched: 348
 Ready for model-fixture join: False
-Automatic forward price rows: 57
-odds-api.io price rows: 51
-Football-Data price rows: 6
+Automatic forward price rows: 42
+odds-api.io price rows: 42
+Football-Data price rows: 0
 Automatic forward status: automatic_forward_not_ready
 Blocker: fixture_model_team_matching_incomplete
 Next development step: add_team_aliases_for_upcoming_fixtures
 
 ## Team matching
 
-- AFC Eskilstuna | suggestion=nan | type=unmatched
-- FC Arlanda | suggestion=nan | type=unmatched
-- AFC Hermannstadt | suggestion=nan | type=unmatched
-- Fotbal Club FCSB | suggestion=nan | type=unmatched
-- AA Ponte Preta SP | suggestion=nan | type=unmatched
-- Londrina EC PR | suggestion=nan | type=unmatched
-- FC Aarau | suggestion=nan | type=unmatched
-- Grasshopper Club Zurich | suggestion=nan | type=unmatched
-- AB Argir | suggestion=nan | type=unmatched
-- Vikingur Gota | suggestion=nan | type=unmatched
-- AD Confianca SE | suggestion=nan | type=unmatched
-- Maranhao AC MA | suggestion=nan | type=unmatched
-- AL Draih | suggestion=nan | type=unmatched
-- Al-Jabalain | suggestion=nan | type=unmatched
-- Al Mokawloon Al Arab | suggestion=nan | type=unmatched
-- Wadi Degla SC | suggestion=nan | type=unmatched
-- AL Nasr SC (OMA) | suggestion=nan | type=unmatched
-- Samail SC | suggestion=nan | type=unmatched
-- AL Qadisiya | suggestion=nan | type=unmatched
-- AL Fateh | suggestion=nan | type=unmatched
-- Al Shabab | suggestion=nan | type=unmatched
-- Al-Seeb | suggestion=nan | type=unmatched
-- AL Ula | suggestion=nan | type=unmatched
-- Al-Orobah | suggestion=nan | type=unmatched
-- Al-Khaboora | suggestion=nan | type=unmatched
-- Al-Rustaq | suggestion=nan | type=unmatched
-- Angelholms FF | suggestion=nan | type=unmatched
-- Kristianstad FC | suggestion=nan | type=unmatched
-- Ariana FC | suggestion=nan | type=unmatched
-- Tvaakers IF | suggestion=nan | type=unmatched
+- AFC Bournemouth | suggestion=Bournemouth | type=suggested_alias_needed
+- Manchester City | suggestion=nan | type=unmatched
+- AC Monza | suggestion=nan | type=unmatched
+- Juve Stabia | suggestion=nan | type=unmatched
+- Afrique Football Elite | suggestion=nan | type=unmatched
+- AS Bakaridjan | suggestion=nan | type=unmatched
+- Al Kahrabaa SC | suggestion=nan | type=unmatched
+- Al-Gharraf SC | suggestion=nan | type=unmatched
+- AL Naft | suggestion=nan | type=unmatched
+- Duhok FC | suggestion=nan | type=unmatched
+- AL Talaba | suggestion=nan | type=unmatched
+- AL Karma | suggestion=nan | type=unmatched
+- Al-Horiyah | suggestion=nan | type=unmatched
+- Al-Jaish SC (Syr) | suggestion=nan | type=unmatched
+- AS Korofina | suggestion=nan | type=unmatched
+- Binga FC | suggestion=nan | type=unmatched
+- Audax Italiano | suggestion=nan | type=unmatched
+- CA Barracas Central | suggestion=nan | type=unmatched
+- Barra FC SC | suggestion=nan | type=unmatched
+- Concordia SC | suggestion=nan | type=unmatched
+- Bashundhara Kings | suggestion=nan | type=unmatched
+- Mohammedan SC Dhaka | suggestion=nan | type=unmatched
+- Ben Aknoun | suggestion=nan | type=unmatched
+- ES Mostaganem | suggestion=nan | type=unmatched
+- Boston Bolts | suggestion=nan | type=unmatched
+- Vermont Green FC | suggestion=nan | type=unmatched
+- Boston River | suggestion=nan | type=unmatched
+- Central Espanol Reserve | suggestion=nan | type=unmatched
+- Manchester City | suggestion=nan | type=unmatched
+- CA Banfield | suggestion=nan | type=unmatched
 
 ## Interpretation
 

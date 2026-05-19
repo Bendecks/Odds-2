@@ -1,3 +1,1 @@
 fixture_id,league,league_id,season,match_date,match_time,home_team,away_team,source,fetched_at_utc
-fd_E0_2026-05-18_Arsenal_Burnley,premier_league,E0,upcoming,2026-05-18,20:00,Arsenal,Burnley,football_data_fixtures_proxy,2026-05-18T14:57:39.971554+00:00
-fd_SP2_2026-05-18_Leganes_Huesca,SP2,SP2,upcoming,2026-05-18,19:30,Leganes,Huesca,football_data_fixtures_proxy,2026-05-18T14:57:39.971554+00:00
