@@ -8,10 +8,10 @@ Captures provider rate-limit headers from each authenticated API response.
 Not real-money ready until validated against forward results and other sources.
 
 Enabled: True
-Calls used: 8 / 14
+Calls used: 3 / 14
 Max discovery calls: 13
 Events bookmaker: Bet365
-Events discovery rows: 240
+Events discovery rows: 223
 Events max pages: 6
 Events lookahead days: 14
 Max events per page/search: 180
@@ -19,73 +19,73 @@ Max priced events: 80
 Minimum event match confidence: 0.72
 Discovery mode: bookmaker_filtered_events_then_search_fallback_then_reserved_multi_odds
 Query source: forward_fixture_predictions
-Search fallback used: True
-Search queries used: Bournemouth, Bournemouth, Charleroi, Genk, Westerlo
-Selected event IDs: 71344708, 71218292, 71344710, 71360374, 71238550, 69923680, 70929780, 70929778, 70929782, 69924108, 71523836, 70929784, 67919906, 71579002, 71579010, 71553430, 71344712, 71553498, 71553500, 71500640, 71500642, 71218290, 71218286, 67126100, 67921076, 70812414, 70812412, 70812416, 71477636, 71001772, 69090916, 68158802, 68158822, 68158812, 69688810, 68158816, 68158808, 68158828, 69688866, 61301247, 71579006, 70207506, 70207508, 71540168, 70207504, 71579014, 71344714, 71426272, 71173724, 68751804, 70075272, 70076108, 70075680, 70075712, 71506796, 70075248, 71577480, 71354860, 69090918, 68971756, 71216944, 70076022, 70075784, 71216948, 70075750, 70075172, 71577482, 69090926, 70075102, 70075200, 70076106, 68532510, 71564480, 71550354, 69195330
+Search fallback used: False
+Search queries used: 
+Selected event IDs: 68532510, 71564480, 71550354, 69195330, 69195326, 69195328, 71423470, 68532514, 68995164, 70241506, 71491232, 68995166, 68995168, 70926690, 71427486, 70224450, 68995170, 71426276, 70372968, 71426274, 65867826, 71491226, 71267604, 71553502, 71553504, 71039180, 71039184, 71553506, 71018812, 71218282, 70926694, 71501228, 68492530, 69090928, 70224448, 66053824, 66614160, 67091400, 71427488, 66053814, 70929722, 70929728, 70929726, 70929724, 71553482, 71218280, 71122914, 71218294, 68492532, 71183230, 67091402, 68214660, 68214666, 71208150, 70683972, 71509098, 69924106, 71423454, 71344718, 71344720, 71344716, 71558030, 67017952, 71342374, 71553510, 71553508, 71427484, 70224446, 67017938, 71218284, 67126668, 66918130, 67017940, 70302534, 67017942, 71386150, 67017944, 67017946, 71562580, 67017948
 Multi-odds attempted: True
 Multi-odds skipped reason: 
 Bookmakers requested: Bet365
 Odds endpoint mode: multi_event_documented_endpoint
 Selected bookmakers: Bet365
 Selected markets: ML
-Fixture rows: 242
-Event selection diagnostic rows: 16193
-Selected event rows: 75
+Fixture rows: 223
+Event selection diagnostic rows: 14680
+Selected event rows: 80
 Priced event rows: 10
 Price rows: 10
 Errors/status rows: 70
 
 ## Provider rate-limit headers
 
-Header rows captured: 8
+Header rows captured: 3
 Latest x-ratelimit-limit: 100
-Latest x-ratelimit-remaining: 50
-Latest x-ratelimit-reset: 2026-05-19T15:34:23Z
+Latest x-ratelimit-remaining: 84
+Latest x-ratelimit-reset: 2026-05-20T03:35:27Z
 Latest retry-after: None
 
-- 2026-05-19 15:00 | Ben Aknoun vs ES Mostaganem | odds_api_io_Bet365_ML | 1.285/5.0/8.5
-- 2026-05-19 15:00 | Klaipedos Fsm vs Dfk Dainava Alytus | odds_api_io_Bet365_ML | 5.5/4.0/1.45
-- 2026-05-19 15:00 | MB Rouissat vs Paradou AC | odds_api_io_Bet365_ML | 1.95/3.0/3.6
-- 2026-05-19 15:00 | FC Noah Yerevan vs Ararat Yerevan FC | odds_api_io_Bet365_ML | 1.125/9.0/11.0
-- 2026-05-19 15:00 | Velez Nevesinje vs FK Vlasenica | odds_api_io_Bet365_ML | 1.42/4.1/6.5
-- 2026-05-19 16:00 | FC Haka J vs Saaksjaerven Loiske | odds_api_io_Bet365_ML | 1.071/13.0/19.0
-- 2026-05-19 16:00 | Hapoel Acre FC vs Hapoel Hadera FC | odds_api_io_Bet365_ML | 1.666/3.4/4.333
-- 2026-05-19 16:00 | Hapoel Nof Hagalil FC vs Ironi Modiin | odds_api_io_Bet365_ML | 2.625/3.0/2.45
-- 2026-05-19 16:00 | Hapoel Ra`anana FC vs FC Kafr Qasim | odds_api_io_Bet365_ML | 3.3/3.3/1.95
-- 2026-05-19 16:00 | FC Kiisto vs Vpv | odds_api_io_Bet365_ML | 1.27/5.75/7.5
+- 2026-05-20 05:00 | Melbourne City FC vs Tokyo Verdy Beleza | odds_api_io_Bet365_ML | 2.75/3.7/2.05
+- 2026-05-20 07:30 | Taichung Blue Whale vs New Taipei Hang Yuen | odds_api_io_Bet365_ML | 3.6/4.0/1.7
+- 2026-05-20 09:00 | Sydney Olympic FC vs University of NSW | odds_api_io_Bet365_ML | 3.9/4.1/1.615
+- 2026-05-20 09:30 | Canberra Olympic vs Canberra Croatia FC | odds_api_io_Bet365_ML | 3.8/3.9/1.666
+- 2026-05-20 09:30 | Tuggeranong United FC vs Belconnen United | odds_api_io_Bet365_ML | 41.0/19.0/1.025
+- 2026-05-20 09:30 | West Canberra Wanderers FC vs Majura FC | odds_api_io_Bet365_ML | 1.071/10.0/26.0
+- 2026-05-20 10:00 | Hunters FC vs FC Ulaanbaatar | odds_api_io_Bet365_ML | 9.0/6.0/1.2
+- 2026-05-20 10:00 | Naegohyang Womens FC vs Suwon WFC | odds_api_io_Bet365_ML | 2.0/3.5/3.1
+- 2026-05-20 11:00 | Liaoning Tieren FC vs Qingdao Hainiu FC | odds_api_io_Bet365_ML | 2.2/3.5/3.1
+- 2026-05-20 11:00 | Preah Khan Reach Svay Rieng FC vs Boeung Ket Angkor FC | odds_api_io_Bet365_ML | 1.7/3.9/3.7
 
 ## Event selection diagnostics
 
-- src=events_bookmaker_filtered | query=FC Noah Yerevan | target=FC Noah Yerevan vs Ararat Yerevan FC | candidate=FC Noah Yerevan vs Ararat Yerevan FC | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=CSD Independiente del Valle | target=CSD Independiente del Valle vs Libertad Asuncion | candidate=CSD Independiente del Valle vs Libertad Asuncion | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Sydney Olympic FC | target=Sydney Olympic FC vs University of NSW | candidate=Sydney Olympic FC vs University of NSW | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Velez Nevesinje | target=Velez Nevesinje vs FK Vlasenica | candidate=Velez Nevesinje vs FK Vlasenica | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=CA Banfield | target=CA Banfield vs CA Aldosivi Reserve | candidate=CA Banfield vs CA Aldosivi Reserve | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Boston Bolts | target=Boston Bolts vs Vermont Green FC | candidate=Boston Bolts vs Vermont Green FC | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Hapoel Be`er Sheva FC | target=Hapoel Be`er Sheva FC vs Maccabi Tel Aviv FC | candidate=Hapoel Be`er Sheva FC vs Maccabi Tel Aviv FC | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Barra FC SC | target=Barra FC SC vs Concordia SC | candidate=Barra FC SC vs Concordia SC | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=CD Cuenca | target=CD Cuenca vs Recoleta FC | candidate=CD Cuenca vs Recoleta FC | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=FC Haka J | target=FC Haka J vs Saaksjaerven Loiske | candidate=FC Haka J vs Saaksjaerven Loiske | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=America de Cali | target=America de Cali vs CA Tigre | candidate=America de Cali vs CA Tigre | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Midlakes United | target=Midlakes United vs FC Olympia | candidate=Midlakes United vs FC Olympia | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Hapoel Acre FC | target=Hapoel Acre FC vs Hapoel Hadera FC | candidate=Hapoel Acre FC vs Hapoel Hadera FC | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Ellerton FC | target=Ellerton FC vs Paradise SC | candidate=Ellerton FC vs Paradise SC | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Hapoel Nof Hagalil FC | target=Hapoel Nof Hagalil FC vs Ironi Modiin | candidate=Hapoel Nof Hagalil FC vs Ironi Modiin | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Sao Paulo FC SP | target=Sao Paulo FC SP vs Millonarios FC | candidate=Sao Paulo FC SP vs Millonarios FC | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Hapoel Ra`anana FC | target=Hapoel Ra`anana FC vs FC Kafr Qasim | candidate=Hapoel Ra`anana FC vs FC Kafr Qasim | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Boca Juniors | target=Boca Juniors vs Cruzeiro EC MG | candidate=Boca Juniors vs Cruzeiro EC MG | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=FC Kiisto | target=FC Kiisto vs Vpv | candidate=FC Kiisto vs Vpv | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Helsingborgs IF | target=Helsingborgs IF vs Varbergs BoIS | candidate=Helsingborgs IF vs Varbergs BoIS | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Kuopion Palloseura | target=Kuopion Palloseura vs FF Jaro | candidate=Kuopion Palloseura vs FF Jaro | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=SK Polanka Nad Odrou | target=SK Polanka Nad Odrou vs MFk Karvina B | candidate=SK Polanka Nad Odrou vs MFk Karvina B | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Shanghai Shenhua FC | target=Shanghai Shenhua FC vs Wuhan Three Towns FC | candidate=Shanghai Shenhua FC vs Wuhan Three Towns FC | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Melbourne City FC | target=Melbourne City FC vs Tokyo Verdy Beleza | candidate=Melbourne City FC vs Tokyo Verdy Beleza | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=IK Start | target=IK Start vs Bodoe/Glimt | candidate=IK Start vs Bodoe/Glimt | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Al Masry Club | target=Al Masry Club vs AL Ahly SC (EGY) | candidate=Al Masry Club vs AL Ahly SC (EGY) | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=FK Ataka | target=FK Ataka vs FA Siauliai | candidate=FK Ataka vs FA Siauliai | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Hunters FC | target=Hunters FC vs FC Ulaanbaatar | candidate=Hunters FC vs FC Ulaanbaatar | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Grobinas SC/LFS | target=Grobinas SC/LFS vs SK Super Nova | candidate=Grobinas SC/LFS vs SK Super Nova | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=de Graafschap | target=de Graafschap vs ADO Den Haag | candidate=de Graafschap vs ADO Den Haag | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=ES Zarzis | target=ES Zarzis vs CA Bizertin | candidate=ES Zarzis vs CA Bizertin | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Al Shorta SC | target=Al Shorta SC vs Erbil SC | candidate=Al Shorta SC vs Erbil SC | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=FC Gareji Sagarejo | target=FC Gareji Sagarejo vs FC Merani Martvili | candidate=FC Gareji Sagarejo vs FC Merani Martvili | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=FC Kuressaare | target=FC Kuressaare vs FC Nomme United | candidate=FC Kuressaare vs FC Nomme United | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=SCU Torreense | target=SCU Torreense vs Casa Pia Lisbon | candidate=SCU Torreense vs Casa Pia Lisbon | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Newroz SC | target=Newroz SC vs Zakho FC | candidate=Newroz SC vs Zakho FC | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=CR Temouchent | target=CR Temouchent vs US Chaouia | candidate=CR Temouchent vs US Chaouia | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Canberra Olympic | target=Canberra Olympic vs Canberra Croatia FC | candidate=Canberra Olympic vs Canberra Croatia FC | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=PFC Lokomotiv Plovdiv | target=PFC Lokomotiv Plovdiv vs PFC CSKA Sofia | candidate=PFC Lokomotiv Plovdiv vs PFC CSKA Sofia | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Maccabi Petah Tikva FC | target=Maccabi Petah Tikva FC vs Bnei Yehuda Tel Aviv FC | candidate=Maccabi Petah Tikva FC vs Bnei Yehuda Tel Aviv FC | confidence=1.0 | selected=True | reason=
 
 ## Errors / Status
 
-- event_selection: No event above confidence 0.72 for query 'Bournemouth'; best=0.0
-- event_selection: No event above confidence 0.72 for query 'Bournemouth'; best=0.0
-- event_selection: No event above confidence 0.72 for query 'Charleroi'; best=0.0
-- event_selection: No event above confidence 0.72 for query 'Genk'; best=0.467
-- event_selection: No event above confidence 0.72 for query 'Westerlo'; best=0.4425
-- multi_odds_match: No multi-odds payload matched event 71523836
-- multi_odds_match: No multi-odds payload matched event 70929784
-- multi_odds_match: No multi-odds payload matched event 67919906
-- multi_odds_match: No multi-odds payload matched event 71579002
-- multi_odds_match: No multi-odds payload matched event 71579010
+- multi_odds_match: No multi-odds payload matched event 71491232
+- multi_odds_match: No multi-odds payload matched event 68995166
+- multi_odds_match: No multi-odds payload matched event 68995168
+- multi_odds_match: No multi-odds payload matched event 70926690
+- multi_odds_match: No multi-odds payload matched event 71427486
+- multi_odds_match: No multi-odds payload matched event 70224450
+- multi_odds_match: No multi-odds payload matched event 68995170
+- multi_odds_match: No multi-odds payload matched event 71426276
+- multi_odds_match: No multi-odds payload matched event 70372968
+- multi_odds_match: No multi-odds payload matched event 71426274

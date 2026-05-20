@@ -3,48 +3,48 @@
 Purpose: distinguish true automatic forward inputs from historical market proxy and paused manual fallback.
 Football-Data and odds-api.io prices are treated as paper-test proxy prices until validated.
 
-Upcoming fixture rows: 210
-Fixture team rows unmatched: 412
+Upcoming fixture rows: 234
+Fixture team rows unmatched: 465
 Ready for model-fixture join: False
-Automatic forward price rows: 77
-odds-api.io price rows: 47
-Football-Data price rows: 30
+Automatic forward price rows: 73
+odds-api.io price rows: 58
+Football-Data price rows: 15
 Automatic forward status: automatic_forward_not_ready
 Blocker: fixture_model_team_matching_incomplete
 Next development step: add_team_aliases_for_upcoming_fixtures
 
 ## Team matching
 
-- AFC Bournemouth | suggestion=Bournemouth | type=suggested_alias_needed
-- Manchester City | suggestion=nan | type=unmatched
-- AC Monza | suggestion=nan | type=unmatched
-- Juve Stabia | suggestion=nan | type=unmatched
-- Afrique Football Elite | suggestion=nan | type=unmatched
-- AS Bakaridjan | suggestion=nan | type=unmatched
-- AL Naft | suggestion=nan | type=unmatched
-- Duhok FC | suggestion=nan | type=unmatched
-- AL Talaba | suggestion=nan | type=unmatched
-- AL Karma | suggestion=nan | type=unmatched
-- AS Korofina | suggestion=nan | type=unmatched
-- Binga FC | suggestion=nan | type=unmatched
-- Audax Italiano | suggestion=nan | type=unmatched
-- CA Barracas Central | suggestion=nan | type=unmatched
-- Bagatelle | suggestion=nan | type=unmatched
-- Pride of Gall Hill | suggestion=nan | type=unmatched
-- Barra FC SC | suggestion=nan | type=unmatched
-- Concordia SC | suggestion=nan | type=unmatched
-- Ben Aknoun | suggestion=nan | type=unmatched
-- ES Mostaganem | suggestion=nan | type=unmatched
-- Boston Bolts | suggestion=nan | type=unmatched
-- Vermont Green FC | suggestion=nan | type=unmatched
-- Boston River | suggestion=nan | type=unmatched
-- Central Espanol Reserve | suggestion=nan | type=unmatched
-- Manchester City | suggestion=nan | type=unmatched
-- CA Banfield | suggestion=nan | type=unmatched
-- CA Aldosivi Reserve | suggestion=nan | type=unmatched
-- CA Quilmes Reserve | suggestion=nan | type=unmatched
-- CA Lanus | suggestion=nan | type=unmatched
-- CA River Plate (URU) | suggestion=nan | type=unmatched
+- 3B Sport AM | suggestion=nan | type=unmatched
+- CR Vasco da Gama RJ | suggestion=nan | type=unmatched
+- Aalesunds FK | suggestion=nan | type=unmatched
+- SK Brann | suggestion=nan | type=unmatched
+- Aasane Fotball | suggestion=nan | type=unmatched
+- Sandnes Ulf | suggestion=nan | type=unmatched
+- AC Connecticut | suggestion=nan | type=unmatched
+- Connecticut Rush | suggestion=nan | type=unmatched
+- Academia Puerto Cabello B | suggestion=nan | type=unmatched
+- Deportivo Lara | suggestion=nan | type=unmatched
+- Al Masry Club | suggestion=nan | type=unmatched
+- AL Ahly SC (EGY) | suggestion=nan | type=unmatched
+- AL Minaa | suggestion=nan | type=unmatched
+- AL Mosul SC | suggestion=nan | type=unmatched
+- AL Najaf | suggestion=nan | type=unmatched
+- AL Karkh | suggestion=nan | type=unmatched
+- Al Quwa Al Jawiya | suggestion=nan | type=unmatched
+- Al Zawraa | suggestion=nan | type=unmatched
+- Al Shorta SC | suggestion=nan | type=unmatched
+- Erbil SC | suggestion=nan | type=unmatched
+- Al-Khaleej Club | suggestion=nan | type=unmatched
+- Al Ahli Saudi FC | suggestion=nan | type=unmatched
+- Al-Najma | suggestion=nan | type=unmatched
+- Al-Shabab FC (SA) | suggestion=nan | type=unmatched
+- America FC RJ | suggestion=nan | type=unmatched
+- Marica FC RJ | suggestion=nan | type=unmatched
+- Aragvi Dusheti | suggestion=nan | type=unmatched
+- FC Kolkheti-1913 Poti | suggestion=nan | type=unmatched
+- Ascoli Calcio 1898 | suggestion=nan | type=unmatched
+- Potenza Calcio | suggestion=nan | type=unmatched
 
 ## Interpretation
 

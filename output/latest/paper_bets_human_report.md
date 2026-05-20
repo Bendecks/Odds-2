@@ -5,9 +5,9 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 
 ## Kort status
 
-- Aktuelle viste paper picks: **17**
-- Unikke loggede paper picks: **252**
-- Afventer i loggen: **249**
+- Aktuelle viste paper picks: **23**
+- Unikke loggede paper picks: **273**
+- Afventer i loggen: **270**
 - Afgjorte fundet i settled-filen: **210**
 - Skjulte U-/reserve-rækker: **14**
 - Vundne: **70**
@@ -16,29 +16,11 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 
 ## Aktuelle paper picks
 
-### Bournemouth vs Man City
-- Dato: **2026-05-19**
-- Kampstart: **19:30**
-- Spil: **Hjemmesejr**
-- Odds: **4.75**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Bournemouth vs Manchester City
-- Dato: **2026-05-19**
+### KAA Gent vs Union Saint-Gilloise
+- Dato: **2026-05-21**
 - Kampstart: **18:30**
 - Spil: **Hjemmesejr**
-- Odds: **4.75**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### AFC Bournemouth vs Manchester City
-- Dato: **2026-05-19**
-- Kampstart: **18:30**
-- Spil: **Hjemmesejr**
-- Odds: **4.75**
+- Odds: **4.60**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
@@ -52,92 +34,137 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Royal Charleroi SC vs Oud-Heverlee Leuven
-- Dato: **2026-05-19**
-- Kampstart: **18:30**
-- Spil: **Udebanesejr**
-- Odds: **5.00**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Charleroi vs Oud-Heverlee Leuven
-- Dato: **2026-05-19**
-- Kampstart: **19:30**
-- Spil: **Udebanesejr**
-- Odds: **5.00**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### CS Constantine vs USM Khenchela
-- Dato: **2026-05-19**
-- Kampstart: **16:45**
-- Spil: **Udebanesejr**
-- Odds: **5.00**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### IF Sao Joseense PR vs Azuriz FC PR
-- Dato: **2026-05-19**
-- Kampstart: **22:00**
+### ES Zarzis vs CA Bizertin
+- Dato: **2026-05-20**
+- Kampstart: **14:30**
 - Spil: **Udebanesejr**
 - Odds: **4.75**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Fluminense FC RJ vs Club Bolivar
-- Dato: **2026-05-19**
-- Kampstart: **22:00**
+### FK Drina Zvornik vs FK Slavija Sarajevo
+- Dato: **2026-05-20**
+- Kampstart: **15:00**
+- Spil: **Udebanesejr**
+- Odds: **4.75**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Flint City Bucks vs Lansing City Football
+- Dato: **2026-05-20**
+- Kampstart: **15:00**
+- Spil: **Uafgjort**
+- Odds: **6.50**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### FC Chernigiv vs FC Dynamo Kyiv
+- Dato: **2026-05-20**
+- Kampstart: **15:00**
 - Spil: **Uafgjort**
 - Odds: **6.25**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Hapoel Acre FC vs Hapoel Hadera FC
-- Dato: **2026-05-19**
+### SFC Shturmi Sartichala vs FC Gori
+- Dato: **2026-05-20**
 - Kampstart: **16:00**
 - Spil: **Udebanesejr**
-- Odds: **4.33**
+- Odds: **4.50**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### FC Kiisto vs Vpv
-- Dato: **2026-05-19**
-- Kampstart: **16:00**
+### AL Najaf vs AL Karkh
+- Dato: **2026-05-20**
+- Kampstart: **14:30**
+- Spil: **Hjemmesejr**
+- Odds: **4.00**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Hunters FC vs FC Ulaanbaatar
+- Dato: **2026-05-20**
+- Kampstart: **10:00**
 - Spil: **Uafgjort**
-- Odds: **5.75**
+- Odds: **6.00**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Hapoel Be`er Sheva FC vs Maccabi Tel Aviv FC
-- Dato: **2026-05-19**
-- Kampstart: **17:30**
+### FC Meshakhte Tkibuli vs FC Torpedo Kutaisi
+- Dato: **2026-05-20**
+- Kampstart: **12:00**
+- Spil: **Hjemmesejr**
+- Odds: **3.90**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### FK Tukums 2000/TSS vs Riga FC
+- Dato: **2026-05-20**
+- Kampstart: **15:00**
+- Spil: **Uafgjort**
+- Odds: **6.00**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Canberra Olympic vs Canberra Croatia FC
+- Dato: **2026-05-20**
+- Kampstart: **09:30**
+- Spil: **Hjemmesejr**
+- Odds: **3.80**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Bashundhara Kings vs Mohammedan SC Dhaka
+- Dato: **2026-05-20**
+- Kampstart: **11:30**
 - Spil: **Udebanesejr**
-- Odds: **4.10**
+- Odds: **4.20**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Chelsea vs Tottenham
-- Dato: **2026-05-19**
-- Kampstart: **20:15**
+### Selangor FC vs Buriram United
+- Dato: **2026-05-20**
+- Kampstart: **13:00**
+- Spil: **Hjemmesejr**
+- Odds: **3.70**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### FK Jablonec vs MFK Karvina
+- Dato: **2026-05-20**
+- Kampstart: **16:00**
 - Spil: **Udebanesejr**
 - Odds: **4.00**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### LVU Rush vs Delaware FC
-- Dato: **2026-05-19**
-- Kampstart: **23:00**
+### Taichung Blue Whale vs New Taipei Hang Yuen
+- Dato: **2026-05-20**
+- Kampstart: **07:30**
+- Spil: **Hjemmesejr**
+- Odds: **3.60**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Maccabi Petah Tikva FC vs Bnei Yehuda Tel Aviv FC
+- Dato: **2026-05-20**
+- Kampstart: **15:45**
 - Spil: **Udebanesejr**
-- Odds: **4.00**
+- Odds: **3.90**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
@@ -151,20 +178,20 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Hapoel Ra`anana FC vs FC Kafr Qasim
-- Dato: **2026-05-19**
+### Nomme Kalju FC vs Harju JK Laagri
+- Dato: **2026-05-20**
 - Kampstart: **16:00**
-- Spil: **Hjemmesejr**
-- Odds: **3.30**
+- Spil: **Uafgjort**
+- Odds: **5.25**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Ben Aknoun vs ES Mostaganem
-- Dato: **2026-05-19**
-- Kampstart: **15:00**
+### Yellow-Red KV Mechelen vs Club Brugge
+- Dato: **2026-05-21**
+- Kampstart: **18:30**
 - Spil: **Uafgjort**
-- Odds: **5.00**
+- Odds: **5.25**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
