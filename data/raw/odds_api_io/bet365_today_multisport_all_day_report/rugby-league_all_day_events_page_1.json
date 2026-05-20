@@ -1,1 +1,1 @@
-{"error":"Invalid sport slug"}
+{"status":"error","code":502,"message":"Application failed to respond","request_id":"B4Svg2cOTA-Tp8Auqmzx2A"}
