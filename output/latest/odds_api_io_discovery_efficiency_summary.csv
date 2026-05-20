@@ -1,2 +1,2 @@
 candidate_rows,selected_rows,calls_used,max_calls,max_discovery_calls,events_discovery_rows,search_fallback_used,search_queries_used,multi_odds_attempted,raw_price_rows_before_quality_filter,accepted_price_rows_after_quality_filter,rejected_price_rows_after_quality_filter,latest_rate_limit_remaining,recommendation
-14680,80,3,14,13,223,False,,True,60,58,2,84,Prefer bookmaker-filtered events scan; disable broad search fallback when rate-limit remaining is low or when it mostly produces unrelated events.
+0,0,8,14,13,0,True,"Atromitos, Kifisia, Panetolikos, Anderlecht, Gent, Mechelen, Brighton and Hove Albion",False,0,0,0,0,Prefer bookmaker-filtered events scan; disable broad search fallback when rate-limit remaining is low or when it mostly produces unrelated events.

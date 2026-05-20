@@ -7,7 +7,7 @@ Forward test status: observe_only_with_forward_picks
 - Data leakage risk: medium
 - Sample recommendation: paper_tracking_only
 - System readiness: observation_only
-- Forward-eligible paper-test picks: 25
+- Forward-eligible paper-test picks: 12
 
 ## Interpretation
 

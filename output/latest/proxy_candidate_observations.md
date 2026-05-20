@@ -4,23 +4,19 @@ Intermediate layer between paper-test picks and real candidate bets.
 These rows are proxy/paper observations only and must not be treated as real-money candidates.
 Deduplicated by match date, normalized teams, and selection; best proxy score is kept.
 
-Automatic value rows: 246
-Pre-dedupe proxy candidate observation rows: 80
-Proxy candidate observation rows: 12
+Automatic value rows: 45
+Pre-dedupe proxy candidate observation rows: 17
+Proxy candidate observation rows: 8
 Proxy candidate-like rows: 0
-Suppressed proxy watchlist rows: 0
+Suppressed proxy watchlist rows: 7
 Dedupe strategy: match_date_normalized_teams_selection_keep_best_score
 Real-money ready: False
 
-- 2026-05-20 | Canberra Olympic vs Canberra Croatia FC | selection=HOME | source=odds_api_io_Bet365_ML | odds=3.8 | prob=0.3772 | EV=0.43336 | edge=0.114042 | penalty=0.4333594266562293 | tier=proxy_watchlist | score=0.2649
-- 2026-05-20 | Selangor FC vs Buriram United | selection=HOME | source=odds_api_io_Bet365_ML | odds=3.7 | prob=0.3772 | EV=0.39564 | edge=0.10693 | penalty=0.39564139564139555 | tier=proxy_watchlist | score=0.2616
-- 2026-05-20 | Taichung Blue Whale vs New Taipei Hang Yuen | selection=HOME | source=odds_api_io_Bet365_ML | odds=3.6 | prob=0.3772 | EV=0.35792 | edge=0.099422 | penalty=0.35791891366486883 | tier=proxy_watchlist | score=0.2583
-- 2026-05-20 | SK Sparta Kolin vs FK Varnsdorf | selection=HOME | source=odds_api_io_Bet365_ML | odds=3.3 | prob=0.3772 | EV=0.24476 | edge=0.07417 | penalty=0.2447612447612446 | tier=proxy_watchlist | score=0.2477
-- 2026-05-20 | Tampereen Ilves vs FC Inter Turku | selection=HOME | source=odds_api_io_Bet365_ML | odds=3.3 | prob=0.3772 | EV=0.24476 | edge=0.07417 | penalty=0.2447612447612446 | tier=proxy_watchlist | score=0.2477
-- 2026-05-20 | Zhejiang FC vs Shandong Taishan FC | selection=HOME | source=odds_api_io_Bet365_ML | odds=3.0 | prob=0.3772 | EV=0.1316 | edge=0.043867 | penalty=0.13160113160113163 | tier=proxy_watchlist | score=0.236
-- 2026-05-20 | FC Kuressaare vs FC Nomme United | selection=HOME | source=odds_api_io_Bet365_ML | odds=2.875 | prob=0.3772 | EV=0.08445 | edge=0.029374 | penalty=0.08445027111256764 | tier=proxy_watchlist | score=0.2308
-- 2026-05-20 | Melbourne City FC vs Tokyo Verdy Beleza | selection=HOME | source=odds_api_io_Bet365_ML | odds=2.75 | prob=0.3772 | EV=0.0373 | edge=0.013564 | penalty=0.037301037301037177 | tier=proxy_watchlist | score=0.2253
-- 2026-05-20 | Peimari Utd vs Eupa | selection=HOME | source=odds_api_io_Bet365_ML | odds=2.75 | prob=0.3772 | EV=0.0373 | edge=0.013564 | penalty=0.037301037301037177 | tier=proxy_watchlist | score=0.2253
-- 2026-05-20 | Chongqing Tonglianglong FC vs Yunnan Yukun | selection=HOME | source=odds_api_io_Bet365_ML | odds=2.7 | prob=0.3772 | EV=0.01844 | edge=0.00683 | penalty=0.01844101844101842 | tier=proxy_watchlist | score=0.223
-- 2026-05-20 | AL Najaf vs AL Karkh | selection=HOME | source=odds_api_io_Bet365_ML | odds=4.0 | prob=0.3772 | EV=0.5088 | edge=0.1272 | penalty=0.5087999999999999 | tier=proxy_watchlist | score=0.2145
-- 2026-05-20 | FC Meshakhte Tkibuli vs FC Torpedo Kutaisi | selection=HOME | source=odds_api_io_Bet365_ML | odds=3.9 | prob=0.3772 | EV=0.47108 | edge=0.12079 | penalty=0.4710814710814708 | tier=proxy_watchlist | score=0.212
+- 2026-05-21 | Gent vs St. Gilloise | selection=HOME | source=football_data_average_market_proxy | odds=4.32 | prob=0.3772 | EV=0.629504 | edge=0.145719 | penalty=0.6295073893753698 | tier=proxy_watchlist | score=0.1903
+- 2026-05-21 | Mechelen vs Club Brugge | selection=DRAW | source=football_data_max_market_proxy | odds=5.25 | prob=0.274 | EV=0.4385 | edge=0.083524 | penalty=0.4385014385014385 | tier=suppressed_proxy_watchlist | score=0.1025
+- 2026-05-21 | Kifisia vs Larisa | selection=AWAY | source=football_data_max_market_proxy | odds=3.2 | prob=0.3488 | EV=0.11616 | edge=0.0363 | penalty=0.11616000000000004 | tier=suppressed_proxy_watchlist | score=0.0947
+- 2026-05-21 | Anderlecht vs St Truiden | selection=AWAY | source=football_data_max_market_proxy | odds=3.1 | prob=0.3488 | EV=0.08128 | edge=0.026219 | penalty=0.08127881059330822 | tier=suppressed_proxy_watchlist | score=0.0932
+- 2026-05-21 | Panetolikos vs Asteras Tripolis | selection=AWAY | source=football_data_max_market_proxy | odds=3.05 | prob=0.3488 | EV=0.06384 | edge=0.020931 | penalty=0.06383952127221537 | tier=suppressed_proxy_watchlist | score=0.0924
+- 2026-05-21 | Atromitos vs Panserraikos | selection=DRAW | source=football_data_max_market_proxy | odds=4.0 | prob=0.274 | EV=0.096 | edge=0.024 | penalty=0.09600000000000009 | tier=suppressed_proxy_watchlist | score=0.0908
+- 2026-05-21 | Gent vs St. Gilloise | selection=DRAW | source=football_data_max_market_proxy | odds=3.8 | prob=0.274 | EV=0.0412 | edge=0.010842 | penalty=0.041199583520166616 | tier=suppressed_proxy_watchlist | score=0.0886
+- 2026-05-21 | Anderlecht vs St Truiden | selection=DRAW | source=football_data_bet365_proxy | odds=3.75 | prob=0.274 | EV=0.0275 | edge=0.007333 | penalty=0.027498715626605552 | tier=suppressed_proxy_watchlist | score=0.0881

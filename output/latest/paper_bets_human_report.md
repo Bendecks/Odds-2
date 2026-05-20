@@ -5,9 +5,9 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 
 ## Kort status
 
-- Aktuelle viste paper picks: **23**
-- Unikke loggede paper picks: **273**
-- Afventer i loggen: **270**
+- Aktuelle viste paper picks: **6**
+- Unikke loggede paper picks: **277**
+- Afventer i loggen: **274**
 - Afgjorte fundet i settled-filen: **210**
 - Skjulte U-/reserve-rækker: **14**
 - Vundne: **70**
@@ -16,155 +16,11 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 
 ## Aktuelle paper picks
 
-### KAA Gent vs Union Saint-Gilloise
-- Dato: **2026-05-21**
-- Kampstart: **18:30**
-- Spil: **Hjemmesejr**
-- Odds: **4.60**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
 ### Gent vs St. Gilloise
 - Dato: **2026-05-21**
 - Kampstart: **19:30**
 - Spil: **Hjemmesejr**
 - Odds: **4.60**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### ES Zarzis vs CA Bizertin
-- Dato: **2026-05-20**
-- Kampstart: **14:30**
-- Spil: **Udebanesejr**
-- Odds: **4.75**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### FK Drina Zvornik vs FK Slavija Sarajevo
-- Dato: **2026-05-20**
-- Kampstart: **15:00**
-- Spil: **Udebanesejr**
-- Odds: **4.75**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Flint City Bucks vs Lansing City Football
-- Dato: **2026-05-20**
-- Kampstart: **15:00**
-- Spil: **Uafgjort**
-- Odds: **6.50**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### FC Chernigiv vs FC Dynamo Kyiv
-- Dato: **2026-05-20**
-- Kampstart: **15:00**
-- Spil: **Uafgjort**
-- Odds: **6.25**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### SFC Shturmi Sartichala vs FC Gori
-- Dato: **2026-05-20**
-- Kampstart: **16:00**
-- Spil: **Udebanesejr**
-- Odds: **4.50**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### AL Najaf vs AL Karkh
-- Dato: **2026-05-20**
-- Kampstart: **14:30**
-- Spil: **Hjemmesejr**
-- Odds: **4.00**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Hunters FC vs FC Ulaanbaatar
-- Dato: **2026-05-20**
-- Kampstart: **10:00**
-- Spil: **Uafgjort**
-- Odds: **6.00**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### FC Meshakhte Tkibuli vs FC Torpedo Kutaisi
-- Dato: **2026-05-20**
-- Kampstart: **12:00**
-- Spil: **Hjemmesejr**
-- Odds: **3.90**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### FK Tukums 2000/TSS vs Riga FC
-- Dato: **2026-05-20**
-- Kampstart: **15:00**
-- Spil: **Uafgjort**
-- Odds: **6.00**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Canberra Olympic vs Canberra Croatia FC
-- Dato: **2026-05-20**
-- Kampstart: **09:30**
-- Spil: **Hjemmesejr**
-- Odds: **3.80**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Bashundhara Kings vs Mohammedan SC Dhaka
-- Dato: **2026-05-20**
-- Kampstart: **11:30**
-- Spil: **Udebanesejr**
-- Odds: **4.20**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Selangor FC vs Buriram United
-- Dato: **2026-05-20**
-- Kampstart: **13:00**
-- Spil: **Hjemmesejr**
-- Odds: **3.70**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### FK Jablonec vs MFK Karvina
-- Dato: **2026-05-20**
-- Kampstart: **16:00**
-- Spil: **Udebanesejr**
-- Odds: **4.00**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Taichung Blue Whale vs New Taipei Hang Yuen
-- Dato: **2026-05-20**
-- Kampstart: **07:30**
-- Spil: **Hjemmesejr**
-- Odds: **3.60**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Maccabi Petah Tikva FC vs Bnei Yehuda Tel Aviv FC
-- Dato: **2026-05-20**
-- Kampstart: **15:45**
-- Spil: **Udebanesejr**
-- Odds: **3.90**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
@@ -178,20 +34,38 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Nomme Kalju FC vs Harju JK Laagri
-- Dato: **2026-05-20**
-- Kampstart: **16:00**
-- Spil: **Uafgjort**
-- Odds: **5.25**
+### Kifisia vs Larisa
+- Dato: **2026-05-21**
+- Kampstart: **17:00**
+- Spil: **Udebanesejr**
+- Odds: **3.20**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Yellow-Red KV Mechelen vs Club Brugge
+### Anderlecht vs St Truiden
 - Dato: **2026-05-21**
-- Kampstart: **18:30**
+- Kampstart: **19:30**
+- Spil: **Udebanesejr**
+- Odds: **3.10**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Panetolikos vs Asteras Tripolis
+- Dato: **2026-05-21**
+- Kampstart: **17:00**
+- Spil: **Udebanesejr**
+- Odds: **3.05**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Atromitos vs Panserraikos
+- Dato: **2026-05-21**
+- Kampstart: **16:00**
 - Spil: **Uafgjort**
-- Odds: **5.25**
+- Odds: **4.00**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**

@@ -2,7 +2,7 @@
 
 Probability-only forward prediction log. This is not a betting log and contains no stake or real-money signal.
 
-Current forward fixture predictions: 234
+Current forward fixture predictions: 7
 New forward fixture predictions logged: 0
 Total forward fixture predictions logged: 2504
 Log type: probability_only_no_market_prices

@@ -4,43 +4,43 @@ Combined automatic forward market proxy joined to forward probability prediction
 Includes capped odds-api.io proxy when available. Not live/full-market coverage and not real-money ready.
 Baseline model rows are coverage-expansion observations only.
 
-Forward prediction rows: 234
-Proxy price rows: 73
-Matched prediction rows: 67
-Value snapshot rows: 246
-odds-api.io snapshot rows: 174
-Baseline snapshot rows: 246
+Forward prediction rows: 7
+Proxy price rows: 15
+Matched prediction rows: 6
+Value snapshot rows: 45
+odds-api.io snapshot rows: 0
+Baseline snapshot rows: 45
 Full model snapshot rows: 0
-Positive EV rows: 123
-Source counts: {'odds_api_io_Bet365_ML': 174, 'football_data_max_market_proxy': 27, 'football_data_average_market_proxy': 27, 'football_data_bet365_proxy': 18}
+Positive EV rows: 24
+Source counts: {'football_data_max_market_proxy': 18, 'football_data_average_market_proxy': 18, 'football_data_bet365_proxy': 9}
 
-- 2026-05-20 | Tuggeranong United FC vs Belconnen United | coverage=baseline_unmatched_fixture | sel=HOME | src=odds_api_io_Bet365_ML | odds=41.0 | prob=0.3772 | EV=14.4652 | match=1.0
-- 2026-05-20 | West Canberra Wanderers FC vs Majura FC | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=26.0 | prob=0.3488 | EV=8.0688 | match=1.0
-- 2026-05-20 | Hacken Gothenburg vs Vaxjo DFF | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=19.0 | prob=0.3488 | EV=5.6272 | match=1.0
-- 2026-05-20 | FC Chernigiv vs FC Dynamo Kyiv | coverage=baseline_unmatched_fixture | sel=HOME | src=odds_api_io_Bet365_ML | odds=15.0 | prob=0.3772 | EV=4.658 | match=1.0
-- 2026-05-20 | FK Atmosfera vs FK Panevezys | coverage=baseline_unmatched_fixture | sel=HOME | src=odds_api_io_Bet365_ML | odds=15.0 | prob=0.3772 | EV=4.658 | match=1.0
-- 2026-05-20 | Tuggeranong United FC vs Belconnen United | coverage=baseline_unmatched_fixture | sel=DRAW | src=odds_api_io_Bet365_ML | odds=19.0 | prob=0.274 | EV=4.206 | match=1.0
-- 2026-05-20 | Flint City Bucks vs Lansing City Football | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=13.0 | prob=0.3488 | EV=3.5344 | match=1.0
-- 2026-05-20 | IK Start vs Bodoe/Glimt | coverage=baseline_unmatched_fixture | sel=HOME | src=odds_api_io_Bet365_ML | odds=10.0 | prob=0.3772 | EV=2.772 | match=1.0
-- 2026-05-20 | El Bayadh vs JS Saoura | coverage=baseline_unmatched_fixture | sel=HOME | src=odds_api_io_Bet365_ML | odds=9.0 | prob=0.3772 | EV=2.3948 | match=1.0
-- 2026-05-20 | Hunters FC vs FC Ulaanbaatar | coverage=baseline_unmatched_fixture | sel=HOME | src=odds_api_io_Bet365_ML | odds=9.0 | prob=0.3772 | EV=2.3948 | match=1.0
-- 2026-05-20 | FK Tukums 2000/TSS vs Riga FC | coverage=baseline_unmatched_fixture | sel=HOME | src=odds_api_io_Bet365_ML | odds=8.5 | prob=0.3772 | EV=2.2062 | match=1.0
-- 2026-05-20 | CS Sfaxien vs Stade Gabesien | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=8.0 | prob=0.3488 | EV=1.7904 | match=1.0
-- 2026-05-20 | West Canberra Wanderers FC vs Majura FC | coverage=baseline_unmatched_fixture | sel=DRAW | src=odds_api_io_Bet365_ML | odds=10.0 | prob=0.274 | EV=1.74 | match=1.0
 - 2026-05-21 | Mechelen vs Club Brugge | coverage=baseline_unmatched_fixture | sel=HOME | src=football_data_max_market_proxy | odds=7.0 | prob=0.3772 | EV=1.6404 | match=1.0
-- 2026-05-21 | Yellow-Red KV Mechelen vs Club Brugge | coverage=baseline_unmatched_fixture | sel=HOME | src=football_data_max_market_proxy | odds=7.0 | prob=0.3772 | EV=1.6404 | match=0.96
-- 2026-05-21 | Yellow-Red KV Mechelen vs Club Brugge | coverage=baseline_unmatched_fixture | sel=HOME | src=football_data_bet365_proxy | odds=7.0 | prob=0.3772 | EV=1.6404 | match=0.96
 - 2026-05-21 | Mechelen vs Club Brugge | coverage=baseline_unmatched_fixture | sel=HOME | src=football_data_bet365_proxy | odds=7.0 | prob=0.3772 | EV=1.6404 | match=1.0
-- 2026-05-20 | Nomme Kalju FC vs Harju JK Laagri | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=7.5 | prob=0.3488 | EV=1.616 | match=1.0
 - 2026-05-21 | Mechelen vs Club Brugge | coverage=baseline_unmatched_fixture | sel=HOME | src=football_data_average_market_proxy | odds=6.57 | prob=0.3772 | EV=1.478204 | match=1.0
-- 2026-05-21 | Yellow-Red KV Mechelen vs Club Brugge | coverage=baseline_unmatched_fixture | sel=HOME | src=football_data_average_market_proxy | odds=6.57 | prob=0.3772 | EV=1.478204 | match=0.96
-- 2026-05-20 | Hacken Gothenburg vs Vaxjo DFF | coverage=baseline_unmatched_fixture | sel=DRAW | src=odds_api_io_Bet365_ML | odds=8.5 | prob=0.274 | EV=1.329 | match=1.0
-- 2026-05-20 | FK Atmosfera vs FK Panevezys | coverage=baseline_unmatched_fixture | sel=DRAW | src=odds_api_io_Bet365_ML | odds=8.5 | prob=0.274 | EV=1.329 | match=1.0
-- 2026-05-20 | Kuopion Palloseura vs FF Jaro | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=6.5 | prob=0.3488 | EV=1.2672 | match=1.0
-- 2026-05-20 | FK Fotbal Trinec vs 1. FC Slovacko B | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=6.5 | prob=0.3488 | EV=1.2672 | match=1.0
 - 2026-05-21 | Atromitos vs Panserraikos | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_max_market_proxy | odds=6.0 | prob=0.3488 | EV=1.0928 | match=1.0
-- 2026-05-20 | FK Transinvest vs FC Hegelmann Kaunas | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=6.0 | prob=0.3488 | EV=1.0928 | match=1.0
-- 2026-05-20 | Kks Lech Poznan vs GKS Katowice | coverage=baseline_unmatched_fixture | sel=HOME | src=odds_api_io_Bet365_ML | odds=5.5 | prob=0.3772 | EV=1.0746 | match=1.0
-- 2026-05-20 | PFC Lokomotiv Plovdiv vs PFC CSKA Sofia | coverage=baseline_unmatched_fixture | sel=HOME | src=odds_api_io_Bet365_ML | odds=5.5 | prob=0.3772 | EV=1.0746 | match=1.0
-- 2026-05-20 | Taguig FC vs Dynamic Herb Cebu FC | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=5.75 | prob=0.3488 | EV=1.0056 | match=1.0
-- 2026-05-20 | FC Iberia 1999 vs FC Gagra | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=5.75 | prob=0.3488 | EV=1.0056 | match=1.0
+- 2026-05-21 | Atromitos vs Panserraikos | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_average_market_proxy | odds=5.28 | prob=0.3488 | EV=0.841664 | match=1.0
+- 2026-05-21 | Gent vs St. Gilloise | coverage=baseline_unmatched_fixture | sel=HOME | src=football_data_max_market_proxy | odds=4.6 | prob=0.3772 | EV=0.73512 | match=1.0
+- 2026-05-21 | Gent vs St. Gilloise | coverage=baseline_unmatched_fixture | sel=HOME | src=football_data_bet365_proxy | odds=4.5 | prob=0.3772 | EV=0.6974 | match=1.0
+- 2026-05-21 | Gent vs St. Gilloise | coverage=baseline_unmatched_fixture | sel=HOME | src=football_data_average_market_proxy | odds=4.32 | prob=0.3772 | EV=0.629504 | match=1.0
+- 2026-05-21 | Mechelen vs Club Brugge | coverage=baseline_unmatched_fixture | sel=DRAW | src=football_data_max_market_proxy | odds=5.25 | prob=0.274 | EV=0.4385 | match=1.0
+- 2026-05-21 | Mechelen vs Club Brugge | coverage=baseline_unmatched_fixture | sel=DRAW | src=football_data_average_market_proxy | odds=5.0 | prob=0.274 | EV=0.37 | match=1.0
+- 2026-05-21 | Mechelen vs Club Brugge | coverage=baseline_unmatched_fixture | sel=DRAW | src=football_data_bet365_proxy | odds=4.75 | prob=0.274 | EV=0.3015 | match=1.0
+- 2026-05-21 | Kifisia vs Larisa | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_max_market_proxy | odds=3.2 | prob=0.3488 | EV=0.11616 | match=1.0
+- 2026-05-21 | Atromitos vs Panserraikos | coverage=baseline_unmatched_fixture | sel=DRAW | src=football_data_max_market_proxy | odds=4.0 | prob=0.274 | EV=0.096 | match=1.0
+- 2026-05-21 | Anderlecht vs St Truiden | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_max_market_proxy | odds=3.1 | prob=0.3488 | EV=0.08128 | match=1.0
+- 2026-05-21 | Panetolikos vs Asteras Tripolis | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_max_market_proxy | odds=3.05 | prob=0.3488 | EV=0.06384 | match=1.0
+- 2026-05-21 | Anderlecht vs St Truiden | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_bet365_proxy | odds=3.0 | prob=0.3488 | EV=0.0464 | match=1.0
+- 2026-05-21 | Gent vs St. Gilloise | coverage=baseline_unmatched_fixture | sel=DRAW | src=football_data_max_market_proxy | odds=3.8 | prob=0.274 | EV=0.0412 | match=1.0
+- 2026-05-21 | Kifisia vs Larisa | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_average_market_proxy | odds=2.98 | prob=0.3488 | EV=0.039424 | match=1.0
+- 2026-05-21 | Anderlecht vs St Truiden | coverage=baseline_unmatched_fixture | sel=DRAW | src=football_data_bet365_proxy | odds=3.75 | prob=0.274 | EV=0.0275 | match=1.0
+- 2026-05-21 | Anderlecht vs St Truiden | coverage=baseline_unmatched_fixture | sel=DRAW | src=football_data_max_market_proxy | odds=3.75 | prob=0.274 | EV=0.0275 | match=1.0
+- 2026-05-21 | Anderlecht vs St Truiden | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_average_market_proxy | odds=2.92 | prob=0.3488 | EV=0.018496 | match=1.0
+- 2026-05-21 | Atromitos vs Panserraikos | coverage=baseline_unmatched_fixture | sel=DRAW | src=football_data_average_market_proxy | odds=3.71 | prob=0.274 | EV=0.01654 | match=1.0
+- 2026-05-21 | Gent vs St. Gilloise | coverage=baseline_unmatched_fixture | sel=DRAW | src=football_data_bet365_proxy | odds=3.7 | prob=0.274 | EV=0.0138 | match=1.0
+- 2026-05-21 | Panetolikos vs Asteras Tripolis | coverage=baseline_unmatched_fixture | sel=AWAY | src=football_data_average_market_proxy | odds=2.9 | prob=0.3488 | EV=0.01152 | match=1.0
+- 2026-05-21 | Anderlecht vs St Truiden | coverage=baseline_unmatched_fixture | sel=DRAW | src=football_data_average_market_proxy | odds=3.61 | prob=0.274 | EV=-0.01086 | match=1.0
+- 2026-05-21 | Gent vs St. Gilloise | coverage=baseline_unmatched_fixture | sel=DRAW | src=football_data_average_market_proxy | odds=3.61 | prob=0.274 | EV=-0.01086 | match=1.0
+- 2026-05-21 | Panetolikos vs Asteras Tripolis | coverage=baseline_unmatched_fixture | sel=HOME | src=football_data_max_market_proxy | odds=2.4 | prob=0.3772 | EV=-0.09472 | match=1.0
+- 2026-05-21 | Panetolikos vs Asteras Tripolis | coverage=baseline_unmatched_fixture | sel=DRAW | src=football_data_max_market_proxy | odds=3.3 | prob=0.274 | EV=-0.0958 | match=1.0
+- 2026-05-21 | Kifisia vs Larisa | coverage=baseline_unmatched_fixture | sel=DRAW | src=football_data_max_market_proxy | odds=3.25 | prob=0.274 | EV=-0.1095 | match=1.0
+- 2026-05-21 | Kifisia vs Larisa | coverage=baseline_unmatched_fixture | sel=HOME | src=football_data_max_market_proxy | odds=2.3 | prob=0.3772 | EV=-0.13244 | match=1.0

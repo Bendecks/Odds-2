@@ -1,20 +1,16 @@
 # Paper Test Log Status
 
-Raw log rows: 410
-Valid forward/proxy log rows: 407
-Deduped forward/proxy observation rows: 283
-Duplicate forward/proxy log rows: 124
-Valid automatic proxy observation rows: 407
-Deduped automatic proxy observation rows: 283
+Raw log rows: 418
+Valid forward/proxy log rows: 415
+Deduped forward/proxy observation rows: 287
+Duplicate forward/proxy log rows: 128
+Valid automatic proxy observation rows: 415
+Deduped automatic proxy observation rows: 287
 Invalid historical/proxy log rows excluded: 3
 Has valid forward log: True
 
 ## Deduped valid rows
 
-- 2026-05-15 | Shanghai Port FC vs Zhejiang FC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0596
-- 2026-05-19 | MB Rouissat vs Paradou AC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0596
-- 2026-05-14 | Kjp Kouvola vs Lautp | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0596
-- 2026-05-14 | Ntnui vs Orkla | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.058600000000000006
 - 2026-05-15 | Melbourne Knights FC vs Eltham Redbacks FC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.058600000000000006
 - 2026-05-15 | Brisbane Roar FC vs Lions FC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0585
 - 2026-05-15 | Broadmeadow Magic FC vs Newcastle Olympic FC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0585
@@ -28,20 +24,16 @@ Has valid forward log: True
 - 2026-05-19 | Diyala FC vs Amanat Baghdad SC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0567
 - 2026-05-19 | Deportivo Capiata vs Club Fernando de La Mora | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.056100000000000004
 - 2026-05-19 | SV Ried vs Wolfsberger AC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.055600000000000004
+- 2026-05-21 | Kifisia vs Larisa | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.055600000000000004
 - 2026-05-19 | Hapoel Nof Hagalil FC vs Ironi Modiin | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.055600000000000004
 - 2026-05-19 | AS Korofina vs Binga FC | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.055600000000000004
 - 2026-05-19 | Rtc FC vs Paro FC | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0553
+- 2026-05-21 | Anderlecht vs St Truiden | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0546
+- 2026-05-21 | Panetolikos vs Asteras Tripolis | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.054
+- 2026-05-21 | Atromitos vs Panserraikos | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0533
 
 ## Raw valid rows
 
-- 2026-05-20 | ES Zarzis vs CA Bizertin | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-20 | FK Drina Zvornik vs FK Slavija Sarajevo | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-20 | Flint City Bucks vs Lansing City Football | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-20 | FC Chernigiv vs FC Dynamo Kyiv | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-20 | SFC Shturmi Sartichala vs FC Gori | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-20 | AL Najaf vs AL Karkh | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-20 | Hunters FC vs FC Ulaanbaatar | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-20 | FC Meshakhte Tkibuli vs FC Torpedo Kutaisi | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 - 2026-05-20 | FK Tukums 2000/TSS vs Riga FC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 - 2026-05-20 | Canberra Olympic vs Canberra Croatia FC | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 - 2026-05-20 | Bashundhara Kings vs Mohammedan SC Dhaka | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
@@ -54,6 +46,14 @@ Has valid forward log: True
 - 2026-05-20 | Preah Khan Reach Svay Rieng FC vs Boeung Ket Angkor FC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 - 2026-05-20 | SK Sparta Kolin vs FK Varnsdorf | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 - 2026-05-20 | Tampereen Ilves vs FC Inter Turku | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-21 | Kifisia vs Larisa | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-21 | Anderlecht vs St Truiden | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-21 | Panetolikos vs Asteras Tripolis | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-21 | Anderlecht vs St Truiden | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-21 | Atromitos vs Panserraikos | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-21 | Kifisia vs Larisa | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-21 | Panetolikos vs Asteras Tripolis | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-21 | Atromitos vs Panserraikos | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 
 ## Invalid rows excluded
 

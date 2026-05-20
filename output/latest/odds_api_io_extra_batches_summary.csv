@@ -1,2 +1,2 @@
 existing_price_rows_before_extra,extra_selected_event_rows,extra_price_rows,combined_price_rows,extra_calls_used,extra_max_calls,max_total_price_events,min_direct_match_confidence,latest_rate_limit_remaining,errors
-10,70,50,60,5,5,80,0.72,79,0
+0,0,0,0,0,5,80,0.72,,1
