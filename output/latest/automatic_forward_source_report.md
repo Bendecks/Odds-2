@@ -3,11 +3,11 @@
 Purpose: distinguish true automatic forward inputs from historical market proxy and paused manual fallback.
 Football-Data and odds-api.io prices are treated as paper-test proxy prices until validated.
 
-Upcoming fixture rows: 611
-Fixture team rows unmatched: 1199
+Upcoming fixture rows: 310
+Fixture team rows unmatched: 619
 Ready for model-fixture join: False
-Automatic forward price rows: 70
-odds-api.io price rows: 55
+Automatic forward price rows: 53
+odds-api.io price rows: 38
 Football-Data price rows: 15
 Automatic forward status: automatic_forward_not_ready
 Blocker: fixture_model_team_matching_incomplete
@@ -15,20 +15,18 @@ Next development step: add_team_aliases_for_upcoming_fixtures
 
 ## Team matching
 
-- A Sakiet Edayer | suggestion=nan | type=unmatched
-- JS Omrane | suggestion=nan | type=unmatched
 - Academia Puerto Cabello | suggestion=nan | type=unmatched
 - CA Juventud de Las Piedras | suggestion=nan | type=unmatched
 - Acao Futebol MT | suggestion=nan | type=unmatched
 - SC Recife PE | suggestion=nan | type=unmatched
-- Adama City FC | suggestion=nan | type=unmatched
-- Welwalo Adigrat | suggestion=nan | type=unmatched
 - AE Kifisia FC | suggestion=nan | type=unmatched
 - AE Larissa FC | suggestion=nan | type=unmatched
 - Aguilas Doradas Rionegro | suggestion=nan | type=unmatched
 - Deportivo Pereira FC SA | suggestion=nan | type=unmatched
 - Ajax Amsterdam | suggestion=nan | type=unmatched
 - FC Groningen | suggestion=nan | type=unmatched
+- AL Ansar SC | suggestion=nan | type=unmatched
+- Nejmeh SC | suggestion=nan | type=unmatched
 - Al Arabi | suggestion=nan | type=unmatched
 - AL Tadhamon | suggestion=nan | type=unmatched
 - AL Budaiya | suggestion=nan | type=unmatched
@@ -45,6 +43,8 @@ Next development step: add_team_aliases_for_upcoming_fixtures
 - Al Qadsiah | suggestion=nan | type=unmatched
 - Al-Kholood | suggestion=nan | type=unmatched
 - Al-Fateh SC | suggestion=nan | type=unmatched
+- Al-Najma Manama | suggestion=nan | type=unmatched
+- Al Ittihad | suggestion=nan | type=unmatched
 
 ## Interpretation
 

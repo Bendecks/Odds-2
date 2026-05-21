@@ -6,8 +6,8 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 ## Kort status
 
 - Aktuelle viste paper picks: **21**
-- Unikke loggede paper picks: **294**
-- Afventer i loggen: **291**
+- Unikke loggede paper picks: **305**
+- Afventer i loggen: **302**
 - Afgjorte fundet i settled-filen: **210**
 - Skjulte U-/reserve-rækker: **14**
 - Vundne: **70**
@@ -16,11 +16,11 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 
 ## Aktuelle paper picks
 
-### Gent vs St. Gilloise
+### Al-Hazm vs Al-Taawoun FC
 - Dato: **2026-05-21**
-- Kampstart: **19:30**
+- Kampstart: **18:00**
 - Spil: **Hjemmesejr**
-- Odds: **4.60**
+- Odds: **4.75**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
@@ -34,20 +34,11 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Arba Minch Ketema vs Sidama Bunna SC
+### Gent vs St. Gilloise
 - Dato: **2026-05-21**
-- Kampstart: **12:00**
+- Kampstart: **19:30**
 - Spil: **Hjemmesejr**
-- Odds: **4.50**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Jkt Tanzania vs Fountain Gate FC
-- Dato: **2026-05-21**
-- Kampstart: **13:00**
-- Spil: **Udebanesejr**
-- Odds: **5.00**
+- Odds: **4.60**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
@@ -61,20 +52,47 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### FC Lasten vs Ylojarvi United FC
+### Namungo FC vs Mbeya City FC
 - Dato: **2026-05-21**
-- Kampstart: **17:00**
+- Kampstart: **18:00**
 - Spil: **Udebanesejr**
-- Odds: **4.33**
+- Odds: **4.75**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Al-Hazm vs Al-Taawoun FC
+### FC Killas vs FC Melgar
 - Dato: **2026-05-21**
-- Kampstart: **18:00**
+- Kampstart: **16:00**
 - Spil: **Hjemmesejr**
-- Odds: **3.75**
+- Odds: **3.70**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### FC Rustavi vs FC Samgurali Tskaltubo
+- Dato: **2026-05-21**
+- Kampstart: **17:00**
+- Spil: **Udebanesejr**
+- Odds: **4.00**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Atromitos vs Panserraikos
+- Dato: **2026-05-21**
+- Kampstart: **16:00**
+- Spil: **Uafgjort**
+- Odds: **5.50**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Atromitos Athinon vs Panserraikos FC
+- Dato: **2026-05-21**
+- Kampstart: **15:00**
+- Spil: **Uafgjort**
+- Odds: **5.50**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
@@ -83,34 +101,7 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Dato: **2026-05-21**
 - Kampstart: **16:45**
 - Spil: **Udebanesejr**
-- Odds: **4.10**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Mohun Bagan Super Giant vs Sporting Club Delhi
-- Dato: **2026-05-21**
-- Kampstart: **14:00**
-- Spil: **Uafgjort**
-- Odds: **5.50**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### IK Tord vs Skara FC
-- Dato: **2026-05-21**
-- Kampstart: **17:00**
-- Spil: **Hjemmesejr**
-- Odds: **3.50**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### A Sakiet Edayer vs JS Omrane
-- Dato: **2026-05-21**
-- Kampstart: **14:30**
-- Spil: **Hjemmesejr**
-- Odds: **3.50**
+- Odds: **3.90**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
@@ -133,56 +124,65 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Al Arabi vs AL Tadhamon
-- Dato: **2026-05-21**
-- Kampstart: **16:15**
-- Spil: **Uafgjort**
-- Odds: **5.25**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### SK Treibach vs FC Gleisdorf 09
-- Dato: **2026-05-21**
-- Kampstart: **17:00**
-- Spil: **Hjemmesejr**
-- Odds: **3.40**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Al-Riyadh SC vs Al-Okhdood Club
-- Dato: **2026-05-21**
-- Kampstart: **18:00**
-- Spil: **Uafgjort**
-- Odds: **5.00**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Tarup-Paarup IF vs Vorup FB
-- Dato: **2026-05-21**
-- Kampstart: **17:00**
-- Spil: **Uafgjort**
-- Odds: **5.00**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Khangarid vs Central Stallions FC
-- Dato: **2026-05-21**
-- Kampstart: **07:00**
-- Spil: **Hjemmesejr**
-- Odds: **3.25**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Wadi Degla SC vs Zed FC
+### Ilzer SV vs USV Gnas
 - Dato: **2026-05-21**
 - Kampstart: **17:00**
 - Spil: **Udebanesejr**
-- Odds: **3.60**
+- Odds: **3.80**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Grasshopper Club Zurich vs FC Aarau
+- Dato: **2026-05-21**
+- Kampstart: **18:15**
+- Spil: **Udebanesejr**
+- Odds: **3.75**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### KF Ferizaj vs KF Dukagjini
+- Dato: **2026-05-21**
+- Kampstart: **18:00**
+- Spil: **Hjemmesejr**
+- Odds: **3.30**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### FC Lasten vs Ylojarvi United FC
+- Dato: **2026-05-21**
+- Kampstart: **17:00**
+- Spil: **Uafgjort**
+- Odds: **5.00**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### IK Tord vs Skara FC
+- Dato: **2026-05-21**
+- Kampstart: **17:00**
+- Spil: **Hjemmesejr**
+- Odds: **3.20**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Al-Najma Manama vs Al Ittihad
+- Dato: **2026-05-21**
+- Kampstart: **16:00**
+- Spil: **Udebanesejr**
+- Odds: **3.50**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Boca Juniors vs CA River Plate (ARG)
+- Dato: **2026-05-21**
+- Kampstart: **18:00**
+- Spil: **Udebanesejr**
+- Odds: **3.50**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
@@ -191,7 +191,7 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Dato: **2026-05-21**
 - Kampstart: **16:30**
 - Spil: **Hjemmesejr**
-- Odds: **3.20**
+- Odds: **3.10**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
