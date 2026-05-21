@@ -1,7 +1,7 @@
 fixture_id,league,league_id,season,match_date,match_time,home_team,away_team,source,fetched_at_utc
-fd_B1_2026-05-21_Anderlecht_St_Truiden,B1,B1,upcoming,2026-05-21,19:30,Anderlecht,St Truiden,football_data_fixtures_proxy,2026-05-20T14:42:23.207917+00:00
-fd_B1_2026-05-21_Gent_St._Gilloise,B1,B1,upcoming,2026-05-21,19:30,Gent,St. Gilloise,football_data_fixtures_proxy,2026-05-20T14:42:23.207917+00:00
-fd_B1_2026-05-21_Mechelen_Club_Brugge,B1,B1,upcoming,2026-05-21,19:30,Mechelen,Club Brugge,football_data_fixtures_proxy,2026-05-20T14:42:23.207917+00:00
-fd_G1_2026-05-21_Atromitos_Panserraikos,G1,G1,upcoming,2026-05-21,16:00,Atromitos,Panserraikos,football_data_fixtures_proxy,2026-05-20T14:42:23.207917+00:00
-fd_G1_2026-05-21_Kifisia_Larisa,G1,G1,upcoming,2026-05-21,17:00,Kifisia,Larisa,football_data_fixtures_proxy,2026-05-20T14:42:23.207917+00:00
-fd_G1_2026-05-21_Panetolikos_Asteras_Tripolis,G1,G1,upcoming,2026-05-21,17:00,Panetolikos,Asteras Tripolis,football_data_fixtures_proxy,2026-05-20T14:42:23.207917+00:00
+fd_B1_2026-05-21_Anderlecht_St_Truiden,B1,B1,upcoming,2026-05-21,19:30,Anderlecht,St Truiden,football_data_fixtures_proxy,2026-05-21T02:36:26.037043+00:00
+fd_B1_2026-05-21_Gent_St._Gilloise,B1,B1,upcoming,2026-05-21,19:30,Gent,St. Gilloise,football_data_fixtures_proxy,2026-05-21T02:36:26.037043+00:00
+fd_B1_2026-05-21_Mechelen_Club_Brugge,B1,B1,upcoming,2026-05-21,19:30,Mechelen,Club Brugge,football_data_fixtures_proxy,2026-05-21T02:36:26.037043+00:00
+fd_G1_2026-05-21_Atromitos_Panserraikos,G1,G1,upcoming,2026-05-21,16:00,Atromitos,Panserraikos,football_data_fixtures_proxy,2026-05-21T02:36:26.037043+00:00
+fd_G1_2026-05-21_Kifisia_Larisa,G1,G1,upcoming,2026-05-21,17:00,Kifisia,Larisa,football_data_fixtures_proxy,2026-05-21T02:36:26.037043+00:00
+fd_G1_2026-05-21_Panetolikos_Asteras_Tripolis,G1,G1,upcoming,2026-05-21,17:00,Panetolikos,Asteras Tripolis,football_data_fixtures_proxy,2026-05-21T02:36:26.037043+00:00
