@@ -1,79 +1,4 @@
 sport_query,event_id,date_denmark,home,away,league,sport,bookmaker_count,status,reason
-football,71186824,2026-05-22 16:30,AC Omonia Nicosia,Apollon Limassol,Cyprus - 1st Division,Football,0,pending,not_good_competition_or_low_coverage
-football,71186826,2026-05-22 16:30,Aris Limassol FC,AEK Larnaca,Cyprus - 1st Division,Football,0,pending,not_good_competition_or_low_coverage
-football,71186828,2026-05-22 16:30,Pafos FC,APOEL Nikosia,Cyprus - 1st Division,Football,0,pending,not_good_competition_or_low_coverage
-football,71589718,2026-05-22 17:00,AS Armee,FC Brakna,Mauritania - Super D2,Football,0,pending,not_good_competition_or_low_coverage
-football,68492538,2026-05-22 17:00,FK Auda Riga,FK Liepaja,Latvia - Virsliga,Football,0,pending,not_good_competition_or_low_coverage
-football,70906792,2026-05-22 17:00,POFC Botev Vratsa,PFK Beroe Stara Zagora,Bulgaria - Parva Liga,Football,0,pending,not_good_competition_or_low_coverage
-football,70906794,2026-05-22 17:00,FK Spartak 1918 Varna,FC Lokomotiv 1929 Sofia,Bulgaria - Parva Liga,Football,0,pending,not_good_competition_or_low_coverage
-football,70906796,2026-05-22 17:00,FK Septemvri Sofia,PFC Dobrudzha Dobrich,Bulgaria - Parva Liga,Football,0,pending,not_good_competition_or_low_coverage
-football,62036296,2026-05-22 17:00,Korona II Kielce SA,MKS Czarni Polaniec,"Poland - III Liga, Group 4",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,67790442,2026-05-22 17:00,Rekord Bielsko-Biala,AZS UJ Krakow,"Poland - Ekstraliga, Women",Football,0,pending,not_good_competition_or_low_coverage
-football,69920644,2026-05-22 17:15,Sexypoxyt,PPJ/Ruoholahti,Finland - Kolmonen,Football,0,pending,not_good_competition_or_low_coverage
-football,71589682,2026-05-22 17:30,HJK Akatemia,FC Lahti,"Finland - Ykkonen, Women",Football,0,pending,not_good_competition_or_low_coverage
-football,62036298,2026-05-22 17:30,Sokol Kolbuszowa Dolna,Wislanie Skawina,"Poland - III Liga, Group 4",Football,0,pending,not_good_competition_or_low_coverage
-football,71183116,2026-05-22 17:30,NK Kustosija Zagreb,NK Uljanik,Croatia - Druga NL,Football,0,pending,not_good_competition_or_low_coverage
-football,68538256,2026-05-22 17:30,Tampere United,JJK Jyvaskyla,Finland - Ykkonen,Football,0,pending,not_good_competition_or_low_coverage
-football,69924674,2026-05-22 17:30,Kjp Kouvola,Kopa,Finland - Kolmonen,Football,0,pending,not_good_competition_or_low_coverage
-football,70683976,2026-05-22 17:30,Vg-62,Jyty Turku,Finland - Kolmonen,Football,0,pending,not_good_competition_or_low_coverage
-football,62037524,2026-05-22 17:30,Gzs Tluchovia Tluchowo,Blekitni Stargard,"Poland - III Liga, Group 2",Football,0,pending,not_good_competition_or_low_coverage
-football,71037644,2026-05-22 17:40,Al Jazira (UAE),Al Ain FC,United Arab Emirates - Presidents Cup,Football,0,pending,not_good_competition_or_low_coverage
-football,70318296,2026-05-22 18:00,Aarhus Fremad,Aalborg BK,Denmark - 1. Division,Football,0,pending,not_good_competition_or_low_coverage
-football,61737340,2026-05-22 18:00,FK Rudar Prijedor,HSK Zrinjski Mostar,Bosnia & Herzegovina - Premijer Liga,Football,0,pending,not_good_competition_or_low_coverage
-football,61737342,2026-05-22 18:00,HSK Posusje,FK Sloga Doboj,Bosnia & Herzegovina - Premijer Liga,Football,0,pending,not_good_competition_or_low_coverage
-football,61737344,2026-05-22 18:00,FK Radnik Bijeljina,FK Borac Banja Luka,Bosnia & Herzegovina - Premijer Liga,Football,0,pending,not_good_competition_or_low_coverage
-football,61898644,2026-05-22 18:00,SAK Celovec/Klagenfurt,KAC 1909,"Austria Amateur - Karnten, Karntner Liga",Football,0,pending,not_good_competition_or_low_coverage
-football,61911610,2026-05-22 18:00,SC Red Star Penzing,SK Slovan HAC,"Austria Amateur - Wien, Wiener Stadtliga",Football,0,pending,not_good_competition_or_low_coverage
-football,62038140,2026-05-22 18:00,KS Warta Sieradz,Wigry Suwalki,"Poland - III Liga, Group 1",Football,0,pending,not_good_competition_or_low_coverage
-football,62274234,2026-05-22 18:00,SV Leobendorf,Favoritner AC,Austria Amateur - Regionalliga Ost,Football,0,pending,not_good_competition_or_low_coverage
-football,69670718,2026-05-22 18:00,Hegelmann Litauen B,FC Neptunas Klaipeda,Lithuania - 1 Lyga,Football,0,pending,not_good_competition_or_low_coverage
-football,69670720,2026-05-22 18:00,Dfk Dainava Alytus,Be1 Nfa,Lithuania - 1 Lyga,Football,0,pending,not_good_competition_or_low_coverage
-football,69670722,2026-05-22 18:00,FK Ekranas,FK Transinvest B,Lithuania - 1 Lyga,Football,0,pending,not_good_competition_or_low_coverage
-football,69670724,2026-05-22 18:00,FK Jonava,FK Babrungas Plunge,Lithuania - 1 Lyga,Football,0,pending,not_good_competition_or_low_coverage
-football,70654946,2026-05-22 18:00,Mps,Leppavaaran Pallo,Finland - Kolmonen,Football,0,pending,not_good_competition_or_low_coverage
-football,61467303,2026-05-22 18:00,Zaglebie Sosnowiec,KKS 1925 Kalisz,Poland - II Liga,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,62037514,2026-05-22 18:00,MKS Flota Swinoujscie,Cartusia Kartuzy,"Poland - III Liga, Group 2",Football,0,pending,not_good_competition_or_low_coverage
-football,61286603,2026-05-22 18:15,HNK Hajduk Split,HNK Vukovar 1991,Croatia - HNL,Football,0,pending,not_good_competition_or_low_coverage
-football,61687634,2026-05-22 18:30,Marbella FC,CD Teruel,Spain - Primera Federacion,Football,0,pending,not_good_competition_or_low_coverage
-football,66606322,2026-05-22 18:30,FC Chomutov,FK Seko Louny,Czechia - Divize B,Football,0,pending,not_good_competition_or_low_coverage
-football,67919634,2026-05-22 18:30,Molde FK 2,Spjelkavik IL,Norway - 3rd Division Group 2,Football,0,pending,not_good_competition_or_low_coverage
-football,70162040,2026-05-22 18:30,Vilnius Football Academy,FK Suduva Marijampole B,Lithuania - II Lyga,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,67919910,2026-05-22 18:30,Vard Haugesund,Stord FK,Norway - 3rd Division Group 3,Football,0,pending,not_good_competition_or_low_coverage
-football,71589720,2026-05-22 18:45,ASAC Concorde,Garde,Mauritania - Super D2,Football,0,pending,not_good_competition_or_low_coverage
-football,61898646,2026-05-22 18:45,SV Spittal/Drau,FC Lendorf,"Austria Amateur - Karnten, Karntner Liga",Football,0,pending,not_good_competition_or_low_coverage
-football,70684202,2026-05-22 18:45,TiPS Vantaa,MPS/Atletico Malmi,Finland - Kolmonen,Football,0,pending,not_good_competition_or_low_coverage
-football,71589722,2026-05-22 19:00,FC Oasis,Olympique de Sebkha,Mauritania - Super D2,Football,0,pending,not_good_competition_or_low_coverage
-football,61466391,2026-05-22 19:00,USV St. Anna am Aigen,SV Lafnitz,Austria Amateur - Regionalliga Centre,Football,0,pending,not_good_competition_or_low_coverage
-football,69972736,2026-05-22 19:00,NK Karlovac 1919,NK Jarun Zagreb,Croatia - Prva NL,Football,0,pending,not_good_competition_or_low_coverage
-football,62036912,2026-05-22 19:00,SKRA Czestochowa,LKS Goczalkowice-Zdroj,"Poland - III Liga, Group 3",Football,0,pending,not_good_competition_or_low_coverage
-football,61541440,2026-05-22 19:00,FC Lauterach,SC Imst 1933,Austria Amateur - Regionalliga West,Football,0,pending,not_good_competition_or_low_coverage
-football,61902050,2026-05-22 19:00,SV Allerheiligen,SV Tillmitsch,"Austria Amateur - Steiermark, Landesliga",Football,0,pending,not_good_competition_or_low_coverage
-football,61902060,2026-05-22 19:00,SV Pachern,Fsc Eggendorf Hartberg II,"Austria Amateur - Steiermark, Landesliga",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,61902062,2026-05-22 19:00,TUS Bad Waltersdorf,ASK Koflach,"Austria Amateur - Steiermark, Landesliga",Football,0,pending,not_good_competition_or_low_coverage
-football,61940286,2026-05-22 19:00,Spartak Myjava,AS Trencin B,Slovakia - 3. Liga,Football,0,pending,not_good_competition_or_low_coverage
-football,67473272,2026-05-22 19:00,Jitex Molndal BK,IFK Goteborg,"Sweden Amateur - Elitettan, Women",Football,0,pending,not_good_competition_or_low_coverage
-football,67473280,2026-05-22 19:00,Orebro SK Soder,KIF Orebro DFF,"Sweden Amateur - Elitettan, Women",Football,0,pending,not_good_competition_or_low_coverage
-football,67919638,2026-05-22 19:00,Byaasen,Fk Kvik Trondheim,Norway - 3rd Division Group 2,Football,0,pending,not_good_competition_or_low_coverage
-football,67919642,2026-05-22 19:00,Orkla,Melhus,Norway - 3rd Division Group 2,Football,0,pending,not_good_competition_or_low_coverage
-football,68311612,2026-05-22 19:00,Kristianstad FC,Hassleholms IF,"Sweden - Ettan, Relegation/Promotion",Football,0,pending,not_good_competition_or_low_coverage
-football,68311614,2026-05-22 19:00,Lunds BK,Eskilsminne IF,"Sweden - Ettan, Relegation/Promotion",Football,0,pending,not_good_competition_or_low_coverage
-football,68344658,2026-05-22 19:00,IFK Karlshamn,Vaxjo Norra,"Sweden - Division 2, Promotion Playoffs",Football,0,pending,not_good_competition_or_low_coverage
-football,68344660,2026-05-22 19:00,Linero IF,IFK Trelleborg,"Sweden - Division 2, Promotion Playoffs",Football,0,pending,not_good_competition_or_low_coverage
-football,68344662,2026-05-22 19:00,Staffanstorp United,Nosaby IF,"Sweden - Division 2, Promotion Playoffs",Football,0,pending,not_good_competition_or_low_coverage
-football,68377678,2026-05-22 19:00,Hestrafors IF,Jonsereds IF,"Sweden - Division 2, Promotion Playoffs",Football,0,pending,not_good_competition_or_low_coverage
-football,68377682,2026-05-22 19:00,Lindome GIF,Torslanda IK,"Sweden - Division 2, Promotion Playoffs",Football,0,pending,not_good_competition_or_low_coverage
-football,69921776,2026-05-22 19:00,MK United,Atlantis FC/Akatemia,Finland - Kolmonen,Football,0,pending,not_good_competition_or_low_coverage
-football,70730322,2026-05-22 19:00,AB Gladsaxe,HIK Hellerup,Denmark - 2nd Division,Football,0,pending,not_good_competition_or_low_coverage
-football,70730376,2026-05-22 19:00,Brabrand IF,Skive IK,Denmark - 2nd Division,Football,0,pending,not_good_competition_or_low_coverage
-football,70730784,2026-05-22 19:00,Odder IGF,Vejgaard BK,Denmark - 3rd Division,Football,0,pending,not_good_competition_or_low_coverage
-football,62274226,2026-05-22 19:30,SV Oberwart,FCM Traiskirchen,Austria Amateur - Regionalliga Ost,Football,0,pending,not_good_competition_or_low_coverage
-football,62274228,2026-05-22 19:30,SV Horn,SR Donaufeld,Austria Amateur - Regionalliga Ost,Football,0,pending,not_good_competition_or_low_coverage
-football,62274230,2026-05-22 19:30,SV Donau,SC Wiener Viktoria,Austria Amateur - Regionalliga Ost,Football,0,pending,not_good_competition_or_low_coverage
-football,62274232,2026-05-22 19:30,TWL Elektra,SC/ESV Parndorf 1919,Austria Amateur - Regionalliga Ost,Football,0,pending,not_good_competition_or_low_coverage
-football,64088107,2026-05-22 19:30,Wiener Sport-Club,SC Neusiedl am See 1919,Austria Amateur - Regionalliga Ost,Football,0,pending,not_good_competition_or_low_coverage
-football,68320182,2026-05-22 19:30,IFK Skovde FK,IFK Kumla,"Sweden - Division 2, Promotion Playoffs",Football,0,pending,not_good_competition_or_low_coverage
-football,68377686,2026-05-22 19:30,Qviding FIF,Onsala BK,"Sweden - Division 2, Promotion Playoffs",Football,0,pending,not_good_competition_or_low_coverage
-football,68320194,2026-05-22 19:30,Vanersborgs IF,Husqvarna FF,"Sweden - Division 2, Promotion Playoffs",Football,0,pending,not_good_competition_or_low_coverage
 football,71517794,2026-05-22 19:45,Trabzonspor,Konyaspor,Turkiye - Turkiye Kupasi,Football,0,pending,not_good_competition_or_low_coverage
 football,68194652,2026-05-22 20:00,KA Akureyri,Valur Reykjavik,Iceland - Besta deild,Football,0,pending,not_good_competition_or_low_coverage
 football,68194654,2026-05-22 20:00,Keflavik IF,Thor Akureyri,Iceland - Besta deild,Football,0,pending,not_good_competition_or_low_coverage
@@ -126,52 +51,105 @@ football,69091018,2026-05-23 03:30,Midlakes United,Tacoma Stars,USA - USL League
 football,69232186,2026-05-23 04:00,Mexico,Ghana,International - Int. Friendly Games,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
 football,67808468,2026-05-23 04:00,Newcastle Olympic FC Reserve,Charlestown Azzurri FC Reserve,"Australia - Northern NSW NPL, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
 football,69195826,2026-05-23 04:00,Canberra Olympic FC,Belconnen United FC,Australia - U23 Capital NPL,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-tennis,71650068,2026-05-22 17:00,"Brain, Lachlan","Badlani, Aryan",UTR Men - UTR PTT Madison Men 01,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71650078,2026-05-22 17:00,"Touban, Bassil","Nissen, Jens Holger",UTR Men - UTR PTT Madison Men 01,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,155266,2026-05-22 17:00,Gustavo Ribeiro De Almeida,Kaua Lorenzo Santos Gava,ITF Men - Maringa,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71649926,2026-05-22 17:00,"Sloan, Jenna","Cranford, Georgia",UTR Women - UTR PTT Madison Women 01,Tennis,0,settled,not_good_competition_or_low_coverage
-tennis,71649932,2026-05-22 17:00,"Madatali, Skye","Farrakhova, Kira",UTR Women - UTR PTT Madison Women 01,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71649934,2026-05-22 17:30,"Manyoma Velasquez, Mariana","Reynoldson, Ellison",UTR Women - UTR PTT Madison Women 01,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,549115,2026-05-22 18:00,Mateus Alves,Ezequiel Monferrer,ITF Men - Maringa,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71650768,2026-05-22 18:00,"Crowder, Riley","Gilbert, Ariana",UTR Women - UTR PTT Tuscaloosa Women 01,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71650770,2026-05-22 18:00,"Bowman, Addison","Salibayeva, Amina",UTR Women - UTR PTT Tuscaloosa Women 01,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71652352,2026-05-22 18:00,"Kalina, Vit","Renfrow, Noble",UTR Men - UTR Tuscaloosa M01,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71652482,2026-05-22 18:00,"Deem, AJ","Hegarty, Theo",UTR Men - UTR Tuscaloosa M01,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,155426,2026-05-22 18:00,Santiago Giamichelle,Wilson Leite,ITF Men - Maringa,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71650058,2026-05-22 18:10,"Altur Fernandez, Alberto","Adesoro, Ashton",UTR Men - UTR PTT Madison Men 01,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71650060,2026-05-22 18:10,"Fishback, Drew","Corwin, Oscar",UTR Men - UTR PTT Madison Men 01,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71650070,2026-05-22 18:10,"Balthazor, Nolan","Zavala, Avery",UTR Men - UTR PTT Madison Men 01,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71649938,2026-05-22 18:10,"Sholokhova, Maria","Jara, Sydney",UTR Women - UTR PTT Madison Women 01,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71649940,2026-05-22 18:10,"Kennedy, Joanna","Ivanova, Ekaterina",UTR Women - UTR PTT Madison Women 01,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71652344,2026-05-22 19:10,"Aguiard, Enzo","Fedoryshyn, Nazar",UTR Men - UTR Tuscaloosa M01,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71650782,2026-05-22 19:10,"Webster, Savannah","Vyrlan, Esther",UTR Women - UTR PTT Tuscaloosa Women 01,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71528414,2026-05-22 19:30,"Miroshnichenko, Veronica","Jones, Marika",UTR Women - UTR PTT Newport Beach Women 12,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71561006,2026-05-22 19:30,"Eliscu, Aaron","Baker, Blu",UTR Men - UTR PTT Newport Beach Men 12,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71646858,2026-05-22 19:30,"Sachdev, Rohan","Hakopian, George",UTR Men - UTR PTT Newport Beach Men 12,Tennis,0,pending,not_good_competition_or_low_coverage
+football,68050304,2026-05-23 04:30,Eastern United Reserve,Adelaide Blue Eagles Reserves,"Australia - South Australia State League 1, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,68161328,2026-05-23 04:30,Green Gully SC,Heidelberg United FC,Australia - U23 Victoria NPL,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,69091022,2026-05-23 04:30,Davis Legacy,Almaden FC,USA - USL League Two,Football,0,pending,not_good_competition_or_low_coverage
+football,67905200,2026-05-23 04:45,Gold Coast United FC,Rochedale Rovers,Australia - U23 Queensland NPL,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,68050032,2026-05-23 04:45,Croydon Kings FC Reserve,North Eastern Metrostars SC Reserves,"Australia - South Australia NPL, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,68050306,2026-05-23 04:45,Adelaide Atletico Victory Reserves,South Adelaide Reserve,"Australia - South Australia State League 1, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,68160942,2026-05-23 04:45,Port Melbourne Sharks SC,Brunswick Juventus FC,Australia - U23 Victoria Premier League 1,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,69195828,2026-05-23 04:45,Canberra White Eagles FC,O'Connor Knights SC,Australia - U23 Capital NPL,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,69195830,2026-05-23 04:45,Queanbeyan City FC,Canberra Juventus FC,Australia - U23 Capital NPL,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,67905678,2026-05-23 05:00,Holland Park Hawks,Sunshine Coast Wanderers,Australia - U23 Queensland Premier League 1,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,68161330,2026-05-23 05:00,Bentleigh Greens SC,Caroline Springs George Cross FC,Australia - U23 Victoria NPL,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,69115744,2026-05-23 05:00,Perth Redstar FC,Perth SC,Australia - U23 Western Australia NPL,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,69462636,2026-05-23 05:00,Upper Hutt City FC,Wellington Phoenix FC Reserve,New Zealand - National League,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,71549044,2026-05-23 05:00,FC Fujizakura,Jfa Academy Fukushima,"Japan - Nadeshiko League, Div 2, Women",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,68050036,2026-05-23 05:15,Playford City Reserve,West Adelaide SC Reserve,"Australia - South Australia NPL, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,68050038,2026-05-23 05:15,Campbelltown City SC Reserve,Sturt Lions Reserve,"Australia - South Australia NPL, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,68050042,2026-05-23 05:15,Adelaide Comets Reserves,Para Hills Knights SC Reserve,"Australia - South Australia NPL, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,68050308,2026-05-23 05:15,Adelaide Croatia Raiders SC Reserve,Adelaide Olympic FC Reserve,"Australia - South Australia State League 1, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,68050310,2026-05-23 05:15,Modbury Jets SC Reserve,Cumberland United Reserve,"Australia - South Australia State League 1, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,68050312,2026-05-23 05:15,Fulham United FC Reserve,The Cove FC Reserves,"Australia - South Australia State League 1, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,68050314,2026-05-23 05:15,Salisbury United Reserve,Adelaide Cobras Reserves,"Australia - South Australia State League 1, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,67905202,2026-05-23 06:00,Moreton City Excelsior U23,Brisbane City,Australia - U23 Queensland NPL,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,68728648,2026-05-23 06:00,Nittaidai FC,Iga FC Kunoichi,"Japan - Nadeshiko League, Div. 1, Women",Football,0,pending,not_good_competition_or_low_coverage
+football,68728650,2026-05-23 06:00,NGU Loveledge Nagoya,Okayama Yunogo Belle,"Japan - Nadeshiko League, Div. 1, Women",Football,0,pending,not_good_competition_or_low_coverage
+football,68728656,2026-05-23 06:00,Vonds Ichihara FC,Shizuoka SSU Bonita,"Japan - Nadeshiko League, Div. 1, Women",Football,0,pending,not_good_competition_or_low_coverage
+football,67807392,2026-05-23 06:00,Newcastle Olympic FC,Charlestown Azzurri FC,Australia - Northern NSW NPL,Football,0,pending,not_good_competition_or_low_coverage
+football,67690874,2026-05-23 06:15,University of Nsw,Sydney United 58 FC,Australia - NSW NPL 1,Football,0,pending,not_good_competition_or_low_coverage
+football,71549046,2026-05-23 06:30,Diavorosso Hiroshima,Speranza Osaka,"Japan - Nadeshiko League, Div 2, Women",Football,0,pending,not_good_competition_or_low_coverage
+football,67808472,2026-05-23 06:30,Edgeworth FC Reserve,Lambton Jaffas FC Reserve,"Australia - Northern NSW NPL, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,68162388,2026-05-23 06:30,South Melbourne FC,Bentleigh Greens SC,"Australia - Victoria NPL, Women",Football,0,pending,not_good_competition_or_low_coverage
+football,68680064,2026-05-23 06:30,Clarence Zebras FC,Kingborough Lions United FC,Australia - Tasmania NPL,Football,0,pending,not_good_competition_or_low_coverage
+football,68680066,2026-05-23 06:30,Riverside Olympic FC,South Hobart FC,Australia - Tasmania NPL,Football,0,pending,not_good_competition_or_low_coverage
+football,68680068,2026-05-23 06:30,South East United FC,Ulverstone SC,Australia - Tasmania NPL,Football,0,pending,not_good_competition_or_low_coverage
+football,69194930,2026-05-23 06:30,Canberra Olympic,Belconnen United,Australia - Capital NPL 1,Football,0,pending,not_good_competition_or_low_coverage
+football,67905680,2026-05-23 06:45,North Star,Logan Lightning,Australia - U23 Queensland Premier League 1,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,67645076,2026-05-23 07:00,Sanfrecce Hiroshima,Nagoya Grampus,Japan - J.League,Football,0,pending,not_good_competition_or_low_coverage
+football,67645078,2026-05-23 07:00,Avispa Fukuoka,Vissel Kobe,Japan - J.League,Football,0,pending,not_good_competition_or_low_coverage
+football,67647990,2026-05-23 07:00,Vegalta Sendai,Yokohama FC,Japan - J.League 2,Football,0,pending,not_good_competition_or_low_coverage
+football,67648152,2026-05-23 07:00,Hokkaido Consadole Sapporo,Jubilo Iwata,Japan - J.League 2,Football,0,pending,not_good_competition_or_low_coverage
+football,67648154,2026-05-23 07:00,Fujieda MYFC,Iwaki FC,Japan - J.League 2,Football,0,pending,not_good_competition_or_low_coverage
+football,67648156,2026-05-23 07:00,FC Gifu,RB Omiya Ardija,Japan - J.League 2,Football,0,pending,not_good_competition_or_low_coverage
+football,67648310,2026-05-23 07:00,Albirex Niigata,Ehime FC,Japan - J.League 2,Football,0,pending,not_good_competition_or_low_coverage
+football,67648312,2026-05-23 07:00,Nara Club,Kataller Toyama,Japan - J.League 2,Football,0,pending,not_good_competition_or_low_coverage
+football,67648470,2026-05-23 07:00,Renofa Yamaguchi,Roasso Kumamoto,Japan - J.League 2,Football,0,pending,not_good_competition_or_low_coverage
+football,67648472,2026-05-23 07:00,Sagan Tosu,FC Ryukyu,Japan - J.League 2,Football,0,pending,not_good_competition_or_low_coverage
+football,67878244,2026-05-23 07:00,Gold Coast United FC,Rochedale Rovers,Australia - Queensland NPL,Football,0,pending,not_good_competition_or_low_coverage
+football,68048870,2026-05-23 07:00,Croydon FC,North Eastern Metrostars SC,Australia - South Australia NPL,Football,0,pending,not_good_competition_or_low_coverage
+football,68048872,2026-05-23 07:00,Adelaide City FC,FK Beograd,Australia - South Australia NPL,Football,0,pending,not_good_competition_or_low_coverage
+football,68161332,2026-05-23 07:00,Dandenong City SC,ST Albans Saints Dinamo SC,Australia - U23 Victoria NPL,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,68162390,2026-05-23 07:00,Avondale FC,Alamein FC,"Australia - Victoria NPL, Women",Football,0,pending,not_good_competition_or_low_coverage
+football,68162392,2026-05-23 07:00,Essendon Royals SC,Box Hill United,"Australia - Victoria NPL, Women",Football,0,pending,not_good_competition_or_low_coverage
+football,68162394,2026-05-23 07:00,Keilor Park SC,Spring Hills FC,"Australia - Victoria NPL, Women",Football,0,pending,not_good_competition_or_low_coverage
+football,68162396,2026-05-23 07:00,Melbourne Victory FC Youth,FC Bulleen Lions,"Australia - Victoria NPL, Women",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,68916306,2026-05-23 07:00,Busan Transportation Corporation FC,Chuncheon FC,Republic of Korea - K3 League,Football,0,pending,not_good_competition_or_low_coverage
+football,68916308,2026-05-23 07:00,Siheung Citizen FC,Dangjin Citizen,Republic of Korea - K3 League,Football,0,pending,not_good_competition_or_low_coverage
+football,68916310,2026-05-23 07:00,Gyeongju FC,Yeoju FC,Republic of Korea - K3 League,Football,0,pending,not_good_competition_or_low_coverage
+football,68916318,2026-05-23 07:00,Changwon FC,Ulsan Citizen FC,Republic of Korea - K3 League,Football,0,pending,not_good_competition_or_low_coverage
+football,69115746,2026-05-23 07:00,Dianella White Eagles SC,Armadale SC,Australia - U23 Western Australia NPL,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,69115748,2026-05-23 07:00,Sorrento FC,Olympic Kingsway SC,Australia - U23 Western Australia NPL,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,69115750,2026-05-23 07:00,Balcatta Etna FC,Western Knights SC,Australia - U23 Western Australia NPL,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,69115754,2026-05-23 07:00,Stirling Macedonia FC,Bayswater City SC,Australia - U23 Western Australia NPL,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,69194932,2026-05-23 07:00,Canberra White Eagles FC,O'Connor Knights FC,Australia - Capital NPL 1,Football,0,pending,not_good_competition_or_low_coverage
+football,69194934,2026-05-23 07:00,Queanbeyan City FC,Canberra Juventus FC,Australia - Capital NPL 1,Football,0,pending,not_good_competition_or_low_coverage
+football,69768180,2026-05-23 07:00,Subiaco AFC Reserve,Curtin University SC Reserves,"Australia - Western Australia State League 1, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,69768182,2026-05-23 07:00,Joondalup City FC Reserve,Inglewood United Reserves,"Australia - Western Australia State League 1, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,69768184,2026-05-23 07:00,Gwelup Croatia SC Reserves,Kingsley Westside FC,"Australia - Western Australia State League 1, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,69768186,2026-05-23 07:00,Cockburn City SC Reserves,Floreat Athena FC Reserves,"Australia - Western Australia State League 1, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,69768188,2026-05-23 07:00,Quinns FC Reserve,Mandurah City FC Reserves,"Australia - Western Australia State League 1, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,69768190,2026-05-23 07:00,Uwa Nedlands FC Reserves,Murdoch University Melville FC Reserves,"Australia - Western Australia State League 1, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,68916316,2026-05-23 07:00,Pocheon Citizen FC,Jeonbuk FC II,Republic of Korea - K3 League,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,68050992,2026-05-23 07:15,Metrostars Reserve,Campbelltown City SC Reserves,"Australia - South Australia NPL, Reserves, Women",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,68048874,2026-05-23 07:30,Playford City,West Adelaide SC,Australia - South Australia NPL,Football,0,pending,not_good_competition_or_low_coverage
+football,68048876,2026-05-23 07:30,Campbelltown City SC,Sturt Lions,Australia - South Australia NPL,Football,0,pending,not_good_competition_or_low_coverage
+football,68048878,2026-05-23 07:30,Adelaide United FC,West Torrens Birkalla,Australia - South Australia NPL,Football,0,pending,not_good_competition_or_low_coverage
+football,68048880,2026-05-23 07:30,Adelaide Comets FC,Para Hills Knights SC,Australia - South Australia NPL,Football,0,pending,not_good_competition_or_low_coverage
+football,68051614,2026-05-23 07:30,Adelaide Atletico VSC,South Adelaide FC,Australia - South Australia State League 1,Football,0,pending,not_good_competition_or_low_coverage
+football,68051616,2026-05-23 07:30,Adelaide Croatia Raiders SC,Adelaide Olympic FC,Australia - South Australia State League 1,Football,0,pending,not_good_competition_or_low_coverage
+football,68051618,2026-05-23 07:30,Modbury Jets SC,Cumberland United,Australia - South Australia State League 1,Football,0,pending,not_good_competition_or_low_coverage
+football,68051620,2026-05-23 07:30,Fulham United FC,The Cove FC,Australia - South Australia State League 1,Football,0,pending,not_good_competition_or_low_coverage
+football,68051622,2026-05-23 07:30,Salisbury United,Adelaide Cobras,Australia - South Australia State League 1,Football,0,pending,not_good_competition_or_low_coverage
+football,69195832,2026-05-23 07:30,Tigers FC,Brindabella Blues FC,Australia - U23 Capital NPL,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+tennis,71652344,2026-05-22 19:50,"Aguiard, Enzo","Fedoryshyn, Nazar",UTR Men - UTR Tuscaloosa M01,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,71650064,2026-05-22 20:00,"Patel, Shaan","Freshwater, William",UTR Men - UTR PTT Madison Men 01,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71650066,2026-05-22 20:00,"Patrick, Nicholas","Beduhn, Collin",UTR Men - UTR PTT Madison Men 01,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,71649936,2026-05-22 20:00,"Chennamsetty, Shravani","Parr, Sophie",UTR Women - UTR PTT Madison Women 01,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71652350,2026-05-22 20:20,"Johnson, Cooper","Newton, James",UTR Men - UTR Tuscaloosa M01,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71650766,2026-05-22 20:20,"Davis, Germany","Sharabura, Kate",UTR Women - UTR PTT Tuscaloosa Women 01,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71650776,2026-05-22 20:20,"Shelton, McKenzie","Brown, Baylen",UTR Women - UTR PTT Tuscaloosa Women 01,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71650066,2026-05-22 20:10,"Patrick, Nicholas","Beduhn, Collin",UTR Men - UTR PTT Madison Men 01,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71650776,2026-05-22 20:35,"Shelton, McKenzie","Brown, Baylen",UTR Women - UTR PTT Tuscaloosa Women 01,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71650766,2026-05-22 20:45,"Davis, Germany","Sharabura, Kate",UTR Women - UTR PTT Tuscaloosa Women 01,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71652350,2026-05-22 21:00,"Johnson, Cooper","Newton, James",UTR Men - UTR Tuscaloosa M01,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,71528424,2026-05-22 21:30,"Harmon, Alexia","Fairclough, Lily",UTR Women - UTR PTT Newport Beach Women 12,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,71528658,2026-05-22 21:30,"Stewart, Mitchell","Calvelo, Xavier",UTR Men - UTR PTT Newport Beach Men 12,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71652414,2026-05-22 21:30,"Simkin, Nicolas","Hull, Louis",UTR Men - UTR Tuscaloosa M01,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71650772,2026-05-22 21:30,"Kulevich, Georgia","Carneiro, Olivia",UTR Women - UTR PTT Tuscaloosa Women 01,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71650774,2026-05-22 21:30,"Aulia, Audrey","Spiers, Kerrigan",UTR Women - UTR PTT Tuscaloosa Women 01,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,71647144,2026-05-22 21:30,"Grechkina, Anastasia","Mar, Tricia",UTR Women - UTR PTT Newport Beach Women 12,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71650772,2026-05-22 21:45,"Kulevich, Georgia","Carneiro, Olivia",UTR Women - UTR PTT Tuscaloosa Women 01,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71650774,2026-05-22 21:55,"Aulia, Audrey","Spiers, Kerrigan",UTR Women - UTR PTT Tuscaloosa Women 01,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71652414,2026-05-22 22:10,"Simkin, Nicolas","Hull, Louis",UTR Men - UTR Tuscaloosa M01,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,71528390,2026-05-23 03:30,"Friedman, Lauren","Farm, Raegan",UTR Women - UTR PTT Newport Beach Women 12,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,71528442,2026-05-23 03:30,"Nicholson, Scarlett","Vustsina, Ahniya",UTR Women - UTR PTT Newport Beach Women 12,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,71528638,2026-05-23 03:30,"Lee, Karl Kazuma","Djakouris, Antreas",UTR Men - UTR PTT Newport Beach Men 12,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,71528666,2026-05-23 03:30,"Clark, Miles","Falck, Reece",UTR Men - UTR PTT Newport Beach Men 12,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,71632542,2026-05-23 03:30,"Quirijns, Kaj","Alcantara, Andre",UTR Men - UTR PTT Newport Beach Men 12,Tennis,0,pending,not_good_competition_or_low_coverage
-basketball,71561136,2026-05-22 17:15,BC Lietkabelis Panevezys,BC Siauliai,Lithuania - LKL,Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,71506938,2026-05-22 17:50,BC Jonava,BC Zalgiris Kaunas,Lithuania - LKL,Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,71452728,2026-05-22 18:00,Basket Brno,BK Pardubice,Czech Republic - NBL,Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,71489458,2026-05-22 18:30,Rasta Vechta,Alba Berlin,Germany - BBL,Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,71638794,2026-05-22 18:30,KK Cibona,Kk Split,Croatia - Premijer liga,Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,71501246,2026-05-22 19:00,Fus Rabat,RSSB Tigers,International - Basketball Africa League,Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,71622112,2026-05-22 19:30,Donar Groningen,Zorg En Zekerheid Leiden,Netherlands - BNXT Dutch League,Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,71415206,2026-05-22 20:00,Szolnoki Olaj Kk,Falco KC Szombathely,Hungary - NB I. A,Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,71458822,2026-05-22 20:00,Basket Le Havre,CEP Lorient,France - Nationale 1,Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,71458944,2026-05-22 20:00,Mulhouse Basket Agglomeration,Tours Metropole Basket,France - Nationale 1,Basketball,0,pending,not_good_competition_or_low_coverage
@@ -192,15 +170,12 @@ basketball,71535522,2026-05-23 02:15,Defensor Sporting,CA Penarol,Uruguay - LUB,
 basketball,71490948,2026-05-23 02:30,CD Atletico Puerto Varas,CD Las Animas,Chile - Liga Nacional,Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,71232574,2026-05-23 03:15,Brujos Izalco,Salvadorenos BC,El Salvador - Liga Mayor de Baloncesto,Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,67965256,2026-05-23 04:00,Fraser Valley Bandits,Edmonton Stingers,Canada - CEBL,Basketball,0,pending,not_good_competition_or_low_coverage
+basketball,66647018,2026-05-23 06:00,Franklin Bulls,Hawke's Bay Hawks,New Zealand - NBL,Basketball,0,pending,not_good_competition_or_low_coverage
+basketball,71543594,2026-05-23 07:30,Nagasaki Velca,Ryukyu Golden Kings Okinawa,Japan - B1 League,Basketball,0,pending,not_good_competition_or_low_coverage
 american-football,68165640,2026-05-23 02:00,Orlando Storm,DC Defenders,USA - UFL,American Football,0,pending,not_good_competition_or_low_coverage
+cricket,71260640,2026-05-23 06:30,Sri Lanka A,New Zealand A,"International - T20 Series Sri Lanka A vs New Zealand A, Women",Cricket,0,pending,not_good_competition_or_low_coverage
 rugby-union,,,,,,,,,"HTTP 400: {""error"":""Invalid sport slug""}"
 rugby-league,,,,,,,,,"HTTP 400: {""error"":""Invalid sport slug""}"
-handball,61966738,2026-05-22 16:30,CS Rapid Bucuresti,CS Minaur Baia Mare,"Romania - Liga Nationala, Women",Handball,0,pending,not_good_competition_or_low_coverage
-handball,71200938,2026-05-22 17:00,RK Kastela,RK Zagreb,Croatia - Croatian Cup,Handball,0,pending,not_good_competition_or_low_coverage
-handball,61966734,2026-05-22 17:00,SCM Universitatea Craiova,HC Zalau,"Romania - Liga Nationala, Women",Handball,0,pending,not_good_competition_or_low_coverage
-handball,63078035,2026-05-22 18:00,Cegledi KKSE,DVTK,Hungary - NB I/B,Handball,0,pending,not_good_competition_or_low_coverage
-handball,62091432,2026-05-22 19:00,VfL Lubeck Schwartau,HC Oppenweiler/Backnang,Germany - 2. HBL,Handball,0,pending,not_good_competition_or_low_coverage
-handball,71200936,2026-05-22 19:30,HRK Gorica,RK Nexe,Croatia - Croatian Cup,Handball,0,pending,not_good_competition_or_low_coverage
 handball,62091446,2026-05-22 20:00,Dessau-Rosslauer HV 06,SG BBM Bietigheim,Germany - 2. HBL,Handball,0,pending,not_good_competition_or_low_coverage
 handball,62205548,2026-05-22 21:00,FC Barcelona,BM Torrelavega,Spain - Liga Asobal,Handball,0,pending,not_good_competition_or_low_coverage
 handball,62205558,2026-05-22 21:00,BM Caserio Ciudad Real,CB Cangas,Spain - Liga Asobal,Handball,0,pending,not_good_competition_or_low_coverage
@@ -209,4 +184,4 @@ handball,62205560,2026-05-22 21:00,Bidasoa Irun,BM Granollers,Spain - Liga Asoba
 handball,62205546,2026-05-22 21:00,Quabit BM Guadalajara,BM Ciudad Encantada Cuenca,Spain - Liga Asobal,Handball,0,pending,not_good_competition_or_low_coverage
 handball,62205550,2026-05-22 21:00,BM Huesca,BM Logrono La Rioja,Spain - Liga Asobal,Handball,0,pending,not_good_competition_or_low_coverage
 handball,62205556,2026-05-22 21:00,BM Puente Genil,Villa de Aranda,Spain - Liga Asobal,Handball,0,pending,not_good_competition_or_low_coverage
-esports,31113087,2026-05-22 17:00,Liquid Academy,Joblife,Valorant - Challengers EMEA,Esports,0,pending,excluded_youth_reserve_friendly_or_exhibition
+handball,62381374,2026-05-23 06:00,Osaki Osol,Ryukyu Corazon,Japan - Japan Handball League,Handball,0,pending,not_good_competition_or_low_coverage
