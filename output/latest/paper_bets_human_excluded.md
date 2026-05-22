@@ -1,13 +1,6 @@
 # Skjulte U-/reserve-rækker
 
-Skjulte rækker: 22
-
-## Aktuelle
-
-- 2026-05-23 kl. 02:30 – Eastern United Reserve vs Adelaide Blue Eagles Reserves
-- 2026-05-23 kl. 04:00 – Moreton City Excelsior U23 vs Brisbane City
-- 2026-05-22 kl. 08:15 – Northcote City FC vs Brunswick City SC
-- 2026-05-23 kl. 02:30 – Green Gully SC vs Heidelberg United FC
+Skjulte rækker: 18
 
 ## Log
 

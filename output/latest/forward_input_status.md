@@ -3,10 +3,10 @@
 Manual Bet365 odds input is parked as an optional fallback. It is not an active development blocker.
 Current priority: automatic/free-data forward-testing sources and robust fixture/model matching.
 
-Upcoming fixtures: 551
-Manual template rows: 551
+Upcoming fixtures: 778
+Manual template rows: 778
 Rows with complete manual odds: 0
-Rows missing manual odds: 551
+Rows missing manual odds: 778
 Manual forward snapshot rows: 0
 Manual odds mode: optional_fallback_paused
 Manual odds is blocker: False
@@ -28,14 +28,14 @@ Manual odds are not required in the current phase. These rows are only kept for 
 - 2026-05-22 19:15 | Afturelding vs Throttur Reykjavik
 - 2026-05-22 17:00 | Ajel de Rufisque vs ASC Linguere
 - 2026-05-22 15:40 | Al Jazira (UAE) vs Al Ain FC
-- 2026-05-22 10:00 | FC Altai Oskemen vs FC Okzhetpes
-- 2026-05-22 08:30 | Arema FC vs Psim Yogyakarta
 - 2026-05-22 14:30 | Aris Limassol FC vs AEK Larnaca
 - 2026-05-22 18:30 | Arsenal de Sarandi vs CA Villa San Carlos
+- 2026-05-22 15:00 | AS Armee vs FC Brakna
 - 2026-05-22 16:30 | AS Real Bamako vs FC Diarra
-- 2026-05-22 12:00 | FC Astana vs Ulytau FC
+- 2026-05-22 16:45 | ASAC Concorde vs Garde
 - 2026-05-22 18:45 | Athlone Town AFC vs Cork City FC
-- 2026-05-22 07:00 | Auckland FC Reserves vs Eastern Suburbs AFC
 - 2026-05-22 18:00 | Ayacucho FC vs AD Comerciantes FC
 - 2026-05-22 18:00 | AZ Alkmaar vs Excelsior Rotterdam
 - 2026-05-22 15:30 | Azam FC vs Tanzania Prisons
+- 2026-05-22 17:00 | Brabrand IF vs Skive IK
+- 2026-05-22 19:15 | Breidablik Kopavogur vs KR Reykjavik

@@ -3,12 +3,12 @@
 Purpose: distinguish true automatic forward inputs from historical market proxy and paused manual fallback.
 Football-Data and odds-api.io prices are treated as paper-test proxy prices until validated.
 
-Upcoming fixture rows: 551
-Fixture team rows unmatched: 1093
+Upcoming fixture rows: 778
+Fixture team rows unmatched: 1489
 Ready for model-fixture join: False
-Automatic forward price rows: 53
-odds-api.io price rows: 53
-Football-Data price rows: 0
+Automatic forward price rows: 195
+odds-api.io price rows: 57
+Football-Data price rows: 138
 Automatic forward status: automatic_forward_not_ready
 Blocker: fixture_model_team_matching_incomplete
 Next development step: add_team_aliases_for_upcoming_fixtures
@@ -33,18 +33,18 @@ Next development step: add_team_aliases_for_upcoming_fixtures
 - ASC Linguere | suggestion=nan | type=unmatched
 - Al Jazira (UAE) | suggestion=nan | type=unmatched
 - Al Ain FC | suggestion=nan | type=unmatched
-- FC Altai Oskemen | suggestion=nan | type=unmatched
-- FC Okzhetpes | suggestion=nan | type=unmatched
-- Arema FC | suggestion=Parma | type=suggested_alias_needed
-- Psim Yogyakarta | suggestion=nan | type=unmatched
 - Aris Limassol FC | suggestion=nan | type=unmatched
 - AEK Larnaca | suggestion=nan | type=unmatched
 - Arsenal de Sarandi | suggestion=nan | type=unmatched
 - CA Villa San Carlos | suggestion=nan | type=unmatched
+- AS Armee | suggestion=nan | type=unmatched
+- FC Brakna | suggestion=nan | type=unmatched
 - AS Real Bamako | suggestion=nan | type=unmatched
 - FC Diarra | suggestion=nan | type=unmatched
-- FC Astana | suggestion=nan | type=unmatched
-- Ulytau FC | suggestion=nan | type=unmatched
+- ASAC Concorde | suggestion=nan | type=unmatched
+- Garde | suggestion=nan | type=unmatched
+- Athlone Town AFC | suggestion=nan | type=unmatched
+- Cork City FC | suggestion=nan | type=unmatched
 
 ## Interpretation
 

@@ -1,11 +1,11 @@
 # Paper Test Log Status
 
-Raw log rows: 477
-Valid forward/proxy log rows: 474
-Deduped forward/proxy observation rows: 340
-Duplicate forward/proxy log rows: 134
-Valid automatic proxy observation rows: 474
-Deduped automatic proxy observation rows: 340
+Raw log rows: 502
+Valid forward/proxy log rows: 499
+Deduped forward/proxy observation rows: 363
+Duplicate forward/proxy log rows: 136
+Valid automatic proxy observation rows: 499
+Deduped automatic proxy observation rows: 363
 Invalid historical/proxy log rows excluded: 3
 Has valid forward log: True
 
@@ -34,26 +34,26 @@ Has valid forward log: True
 
 ## Raw valid rows
 
-- 2026-05-23 | Eastern United Reserve vs Adelaide Blue Eagles Reserves | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-22 | Eastern United vs Adelaide Blue Eagles | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-22 | Xuan Thien Phu Tho FC vs CS. Dong Thap | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-22 | Moreton City Excelsior FC vs Brisbane City FC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-23 | Moreton City Excelsior U23 vs Brisbane City | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-22 | Dewa United vs Bali United | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-22 | West Torrens Birkalla vs Modbury Vista | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-22 | FK Septemvri Sofia vs PFC Dobrudzha Dobrich | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-22 | Northcote City FC vs Brunswick City SC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-22 | Dalian Yingbo B vs Taian Tiankuang | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-22 | Green Gully SC vs Heidelberg United FC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-22 | Preston Lions vs Heidelberg United FC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-23 | Green Gully SC vs Heidelberg United FC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-22 | Kongsvinger IL Toppfotball 2 vs Tromsoe 2 | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-22 | Al Jazira (UAE) vs Al Ain FC | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-22 | HNK Hajduk Split vs HNK Vukovar 1991 | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-22 | Ajel de Rufisque vs ASC Linguere | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-22 | ASAC Concorde vs Garde | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-22 | SC Red Star Penzing vs SK Slovan HAC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-22 | Vg-62 vs Jyty Turku | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-22 | AB Gladsaxe vs HIK Hellerup | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-22 | Tampereen Ilves vs HPS | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-22 | NK Kustosija Zagreb vs NK Uljanik | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-22 | Pafos FC vs APOEL Nikosia | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-22 | Mps vs Leppavaaran Pallo | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-22 | FK Zeleznicar Pancevo vs FK Cukaricki Belgrade | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-22 | Broendby IF vs Kolding IF | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-22 | FK Radnik Bijeljina vs FK Borac Banja Luka | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 - 2026-05-22 | AC Omonia Nicosia vs Apollon Limassol | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-22 | FK Auda Riga vs FK Liepaja | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-22 | Ganzhou Ruishi FC vs Shenzhen 2028 FC | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-22 | Ho Chi Minh City FC vs Truong Tuoi Dong Nai FC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-22 | Turan Tovuz vs Sabah Masazir | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-22 | Fraser Park FC vs Camden Tigers FC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-22 | SV Leobendorf vs Favoritner AC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-22 | Vard Haugesund vs Stord FK | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-22 | FK Jonava vs FK Babrungas Plunge | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-22 | Sexypoxyt vs PPJ/Ruoholahti | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-22 | Kjp Kouvola vs Kopa | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 
 ## Invalid rows excluded
 

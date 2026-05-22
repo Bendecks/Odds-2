@@ -1,2 +1,2 @@
 fixture_rows,source_counts,errors,dedupe_strategy
-551,"{""odds_api_io_events_bookmaker_filtered"": 547, ""odds_api_io_events_search"": 3, ""thesportsdb_eventsnextleague"": 1}",0,date_normalized_home_away_prefer_odds_api_then_football_data
+778,"{""football_data_fixtures_proxy"": 47, ""odds_api_io_events_bookmaker_filtered"": 726, ""odds_api_io_events_search"": 4, ""thesportsdb_eventsnextleague"": 1}",0,date_normalized_home_away_prefer_odds_api_then_football_data
