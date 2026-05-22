@@ -1,2 +1,2 @@
 raw_log_rows,valid_forward_log_rows,deduped_forward_log_rows,duplicate_forward_log_rows,valid_proxy_observation_rows,deduped_proxy_observation_rows,invalid_historical_proxy_log_rows,has_valid_forward_log
-452,449,315,134,449,315,3,True
+477,474,340,134,474,340,3,True

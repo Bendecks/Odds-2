@@ -1,21 +1,21 @@
 # Paper Test Log Status
 
-Raw log rows: 452
-Valid forward/proxy log rows: 449
-Deduped forward/proxy observation rows: 315
+Raw log rows: 477
+Valid forward/proxy log rows: 474
+Deduped forward/proxy observation rows: 340
 Duplicate forward/proxy log rows: 134
-Valid automatic proxy observation rows: 449
-Deduped automatic proxy observation rows: 315
+Valid automatic proxy observation rows: 474
+Deduped automatic proxy observation rows: 340
 Invalid historical/proxy log rows excluded: 3
 Has valid forward log: True
 
 ## Deduped valid rows
 
-- 2026-05-21 | Boca Juniors vs CA River Plate (ARG) | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.058600000000000006
 - 2026-05-15 | Brisbane Roar FC vs Lions FC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0585
 - 2026-05-15 | Broadmeadow Magic FC vs Newcastle Olympic FC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0585
 - 2026-05-15 | Semen Padang FC vs Persebaya Surabaya | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0585
 - 2026-05-19 | Northeast United FC vs Mohammedan SC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0585
+- 2026-05-22 | Fraser Park FC vs Camden Tigers FC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0585
 - 2026-05-15 | Maitland FC Reserve vs Cooks Hill United FC Reserve | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0577
 - 2026-05-15 | Cong An TP Ho Chi Minh City FC vs SHB Da Nang | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0577
 - 2026-05-19 | Chengdu Rongcheng vs Shanghai Port FC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0568
@@ -34,26 +34,26 @@ Has valid forward log: True
 
 ## Raw valid rows
 
-- 2026-05-21 | Khangarid vs Central Stallions FC | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-21 | Wadi Degla SC vs Zed FC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-21 | Broendby IF vs FC Copenhagen | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-21 | AL Budaiya vs Manama Club | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-21 | Al-Hazm vs Al-Taawoun FC | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-21 | Namungo FC vs Mbeya City FC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-21 | FC Killas vs FC Melgar | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-21 | FC Rustavi vs FC Samgurali Tskaltubo | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-21 | Atromitos vs Panserraikos | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-21 | Atromitos Athinon vs Panserraikos FC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-21 | Ajax Amsterdam vs FC Groningen | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-21 | Ilzer SV vs USV Gnas | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-21 | Grasshopper Club Zurich vs FC Aarau | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-21 | KF Ferizaj vs KF Dukagjini | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-21 | FC Lasten vs Ylojarvi United FC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-21 | IK Tord vs Skara FC | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-21 | Al-Najma Manama vs Al Ittihad | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-21 | Boca Juniors vs CA River Plate (ARG) | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-21 | Broendby IF vs FC Copenhagen | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-21 | BFC Daugavpils vs Ogre United | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-23 | Eastern United Reserve vs Adelaide Blue Eagles Reserves | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-22 | Eastern United vs Adelaide Blue Eagles | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-22 | Xuan Thien Phu Tho FC vs CS. Dong Thap | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-22 | Moreton City Excelsior FC vs Brisbane City FC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-23 | Moreton City Excelsior U23 vs Brisbane City | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-22 | Dewa United vs Bali United | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-22 | West Torrens Birkalla vs Modbury Vista | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-22 | FK Septemvri Sofia vs PFC Dobrudzha Dobrich | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-22 | Northcote City FC vs Brunswick City SC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-22 | Dalian Yingbo B vs Taian Tiankuang | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-22 | Green Gully SC vs Heidelberg United FC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-22 | Preston Lions vs Heidelberg United FC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-23 | Green Gully SC vs Heidelberg United FC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-22 | Kongsvinger IL Toppfotball 2 vs Tromsoe 2 | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-22 | AC Omonia Nicosia vs Apollon Limassol | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-22 | FK Auda Riga vs FK Liepaja | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-22 | Ganzhou Ruishi FC vs Shenzhen 2028 FC | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-22 | Ho Chi Minh City FC vs Truong Tuoi Dong Nai FC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-22 | Turan Tovuz vs Sabah Masazir | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-22 | Fraser Park FC vs Camden Tigers FC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 
 ## Invalid rows excluded
 
