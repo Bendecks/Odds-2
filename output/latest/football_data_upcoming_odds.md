@@ -3,8 +3,8 @@
 Free delayed market proxy. Not live odds and not real-money ready.
 
 Raw rows: 47
-Upcoming fixture rows: 47
-Proxy price rows: 138
+Upcoming fixture rows: 46
+Proxy price rows: 135
 Sources attempted: 1
 Errors: 0
 

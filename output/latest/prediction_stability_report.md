@@ -1,8 +1,8 @@
 # Prediction Stability Report
 
-Total tracked predictions: 3162
-Stable predictions: 3090
-Unstable predictions: 72
+Total tracked predictions: 3333
+Stable predictions: 3255
+Unstable predictions: 78
 
 ## Most unstable predictions
 
@@ -14,5 +14,5 @@ Unstable predictions: 72
 - 1e63a316578345cf188d | ev_std=0.3634 | prob_std=0.1016
 - 0812a199b234b7ea920f | ev_std=0.3478 | prob_std=0.0937
 - 86b8ff3e620a764e8acc | ev_std=0.3369 | prob_std=0.0353
+- 1053222cf975a575cdf2 | ev_std=0.3162 | prob_std=0.0730
 - 6f71e3e6e73803415cf1 | ev_std=0.2861 | prob_std=0.0542
-- fc1f479ff1b26e7289bf | ev_std=0.2669 | prob_std=0.0732

@@ -2,7 +2,7 @@
 
 Fixtures derived from Football-Data fixtures.csv. Used for automatic proxy forward modeling.
 
-Upcoming fixture rows: 47
+Upcoming fixture rows: 46
 
 - 2026-05-23 19:45 | Antwerp vs Westerlo | B1
 - 2026-05-23 19:45 | Oud-Heverlee Leuven vs Genk | B1
@@ -20,7 +20,6 @@ Upcoming fixture rows: 47
 - 2026-05-24 16:00 | Sunderland vs Chelsea | premier_league
 - 2026-05-24 16:00 | Tottenham vs Everton | premier_league
 - 2026-05-24 16:00 | West Ham vs Leeds | premier_league
-- 2026-05-22 19:45 | Fiorentina vs Atalanta | serie_a
 - 2026-05-23 17:00 | Bologna vs Inter | serie_a
 - 2026-05-23 19:45 | Lazio vs Pisa | serie_a
 - 2026-05-24 14:00 | Parma vs Sassuolo | serie_a

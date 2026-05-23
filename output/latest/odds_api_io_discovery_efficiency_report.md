@@ -2,47 +2,47 @@
 
 Purpose: show whether API calls are producing usable direct event matches or mostly noisy fallback candidates.
 
-Candidate rows: 56520
-Selected rows before price quality filter: 80
-Calls used: 6 / 14
+Candidate rows: 69320
+Selected rows before price quality filter: 82
+Calls used: 7 / 14
 Max discovery calls: 13
-Events discovery rows: 746
+Events discovery rows: 906
 Search fallback used: False
 Search queries used: nan
 Multi-odds attempted: True
-Raw price rows before quality filter: 60
-Accepted price rows after quality filter: 57
-Rejected price rows after quality filter: 3
-Latest rate-limit remaining: 52
+Raw price rows before quality filter: 54
+Accepted price rows after quality filter: 29
+Rejected price rows after quality filter: 25
+Latest rate-limit remaining: 47
 
 ## By discovery source
 
-- events_bookmaker_filtered: candidates=56520, selected=80, best_confidence=1.0, avg_confidence=0.1903151380042463
+- events_bookmaker_filtered: candidates=69320, selected=82, best_confidence=1.0, avg_confidence=0.23639841171379114
 
 ## Top candidates
 
-- src=events_bookmaker_filtered | query=AC Omonia Nicosia | target=AC Omonia Nicosia vs Apollon Limassol | candidate=AC Omonia Nicosia vs Apollon Limassol | date=2026-05-22 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=AS Armee | target=AS Armee vs FC Brakna | candidate=AS Armee vs FC Brakna | date=2026-05-22 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Zaglebie Sosnowiec | target=Zaglebie Sosnowiec vs KKS 1925 Kalisz | candidate=Zaglebie Sosnowiec vs KKS 1925 Kalisz | date=2026-05-22 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Hestrafors IF | target=Hestrafors IF vs Jonsereds IF | candidate=Hestrafors IF vs Jonsereds IF | date=2026-05-22 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=FC Chomutov | target=FC Chomutov vs FK Seko Louny | candidate=FC Chomutov vs FK Seko Louny | date=2026-05-22 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=IFK Karlshamn | target=IFK Karlshamn vs Vaxjo Norra | candidate=IFK Karlshamn vs Vaxjo Norra | date=2026-05-22 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Jitex Molndal BK | target=Jitex Molndal BK vs IFK Goteborg | candidate=Jitex Molndal BK vs IFK Goteborg | date=2026-05-22 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Sumqayit FK | target=Sumqayit FK vs Qarabag FK | candidate=Sumqayit FK vs Qarabag FK | date=2026-05-22 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Djurgardens IF | target=Djurgardens IF vs IF Brommapojkarna | candidate=Djurgardens IF vs IF Brommapojkarna | date=2026-05-22 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Djoliba AC | target=Djoliba AC vs Usfas Bamako | candidate=Djoliba AC vs Usfas Bamako | date=2026-05-22 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=SV Leobendorf | target=SV Leobendorf vs Favoritner AC | candidate=SV Leobendorf vs Favoritner AC | date=2026-05-22 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=SV Allerheiligen | target=SV Allerheiligen vs SV Tillmitsch | candidate=SV Allerheiligen vs SV Tillmitsch | date=2026-05-22 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Vg-62 | target=Vg-62 vs Jyty Turku | candidate=Vg-62 vs Jyty Turku | date=2026-05-22 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=FK Auda Riga | target=FK Auda Riga vs FK Liepaja | candidate=FK Auda Riga vs FK Liepaja | date=2026-05-22 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Dakar Sacre Coeur | target=Dakar Sacre Coeur vs Teungueth FC | candidate=Dakar Sacre Coeur vs Teungueth FC | date=2026-05-22 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Tampere United | target=Tampere United vs JJK Jyvaskyla | candidate=Tampere United vs JJK Jyvaskyla | date=2026-05-22 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=SC Red Star Penzing | target=SC Red Star Penzing vs SK Slovan HAC | candidate=SC Red Star Penzing vs SK Slovan HAC | date=2026-05-22 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Marbella FC | target=Marbella FC vs CD Teruel | candidate=Marbella FC vs CD Teruel | date=2026-05-22 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Broendby IF | target=Broendby IF vs Kolding IF | candidate=Broendby IF vs Kolding IF | date=2026-05-22 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Kuopion Palloseura | target=Kuopion Palloseura vs IF Gnistan | candidate=Kuopion Palloseura vs IF Gnistan | date=2026-05-22 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=FC Lauterach | target=FC Lauterach vs SC Imst 1933 | candidate=FC Lauterach vs SC Imst 1933 | date=2026-05-22 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=NK Kustosija Zagreb | target=NK Kustosija Zagreb vs NK Uljanik | candidate=NK Kustosija Zagreb vs NK Uljanik | date=2026-05-22 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Kristianstad FC | target=Kristianstad FC vs Hassleholms IF | candidate=Kristianstad FC vs Hassleholms IF | date=2026-05-22 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Pafos FC | target=Pafos FC vs APOEL Nikosia | candidate=Pafos FC vs APOEL Nikosia | date=2026-05-22 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Byaasen | target=Byaasen vs Fk Kvik Trondheim | candidate=Byaasen vs Fk Kvik Trondheim | date=2026-05-22 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Clarence Zebras FC 2 | target=Clarence Zebras FC 2 vs Olympia Warriors Hobart | candidate=Clarence Zebras FC 2 vs Olympia Warriors Hobart | date=2026-05-23 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Playford City Reserve | target=Playford City Reserve vs West Adelaide SC Reserve | candidate=Playford City Reserve vs West Adelaide SC Reserve | date=2026-05-23 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Tokyo Verdy Beleza | target=Tokyo Verdy Beleza vs Naegohyang Womens FC | candidate=Tokyo Verdy Beleza vs Naegohyang Womens FC | date=2026-05-23 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Dandenong City SC | target=Dandenong City SC vs ST Albans Saints Dinamo SC | candidate=Dandenong City SC vs ST Albans Saints Dinamo SC | date=2026-05-23 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Canberra Olympic | target=Canberra Olympic vs Belconnen United | candidate=Canberra Olympic vs Belconnen United | date=2026-05-23 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Sanfrecce Hiroshima | target=Sanfrecce Hiroshima vs Nagoya Grampus | candidate=Sanfrecce Hiroshima vs Nagoya Grampus | date=2026-05-23 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Changwon FC | target=Changwon FC vs Ulsan Citizen FC | candidate=Changwon FC vs Ulsan Citizen FC | date=2026-05-23 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=North Sunshine Eagles FC | target=North Sunshine Eagles FC vs Langwarrin SC | candidate=North Sunshine Eagles FC vs Langwarrin SC | date=2026-05-23 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=South Melbourne FC | target=South Melbourne FC vs Bentleigh Greens SC | candidate=South Melbourne FC vs Bentleigh Greens SC | date=2026-05-23 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Manukau United FC | target=Manukau United FC vs Tauranga City AFC | candidate=Manukau United FC vs Tauranga City AFC | date=2026-05-23 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Edgeworth FC Reserve | target=Edgeworth FC Reserve vs Lambton Jaffas FC Reserve | candidate=Edgeworth FC Reserve vs Lambton Jaffas FC Reserve | date=2026-05-23 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Dianella White Eagles SC | target=Dianella White Eagles SC vs Armadale SC | candidate=Dianella White Eagles SC vs Armadale SC | date=2026-05-23 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Dianella White Eagles SC | target=Dianella White Eagles SC vs Armadale SC | candidate=Dianella White Eagles SC vs Armadale SC | date=2026-05-23 | confidence=1.0 | selected=False
+- src=events_bookmaker_filtered | query=Launceston United | target=Launceston United vs South Hobart FC | candidate=Launceston United vs South Hobart FC | date=2026-05-23 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Canberra White Eagles FC | target=Canberra White Eagles FC vs O'Connor Knights FC | candidate=Canberra White Eagles FC vs O'Connor Knights FC | date=2026-05-23 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Modbury Jets SC Reserve | target=Modbury Jets SC Reserve vs Cumberland United Reserve | candidate=Modbury Jets SC Reserve vs Cumberland United Reserve | date=2026-05-23 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Salisbury United Reserve | target=Salisbury United Reserve vs Adelaide Cobras Reserves | candidate=Salisbury United Reserve vs Adelaide Cobras Reserves | date=2026-05-23 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Gold Coast United FC | target=Gold Coast United FC vs Rochedale Rovers | candidate=Gold Coast United FC vs Rochedale Rovers | date=2026-05-23 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Christchurch United FC | target=Christchurch United FC vs Coastal Spirit FC | candidate=Christchurch United FC vs Coastal Spirit FC | date=2026-05-23 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=University of Nsw | target=University of Nsw vs Sydney United 58 FC | candidate=University of NSW vs Sydney United 58 FC | date=2026-05-23 | confidence=1.0 | selected=False
+- src=events_bookmaker_filtered | query=Bentleigh Greens SC | target=Bentleigh Greens SC vs Caroline Springs George Cross FC | candidate=Bentleigh Greens SC vs Caroline Springs George Cross FC | date=2026-05-23 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Albirex Niigata | target=Albirex Niigata vs Ehime FC | candidate=Albirex Niigata vs Ehime FC | date=2026-05-23 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Queanbeyan City FC | target=Queanbeyan City FC vs Canberra Juventus FC | candidate=Queanbeyan City FC vs Canberra Juventus FC | date=2026-05-23 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Subiaco AFC Reserve | target=Subiaco AFC Reserve vs Curtin University SC Reserves | candidate=Subiaco AFC Reserve vs Curtin University SC Reserves | date=2026-05-23 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Campbelltown City SC Reserve | target=Campbelltown City SC Reserve vs Sturt Lions Reserve | candidate=Campbelltown City SC Reserve vs Sturt Lions Reserve | date=2026-05-23 | confidence=1.0 | selected=True

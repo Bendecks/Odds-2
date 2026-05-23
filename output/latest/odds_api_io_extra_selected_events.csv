@@ -1,71 +1,74 @@
 raw_event_id,fixture_id,match_date,match_time,home_team,away_team,league,direct_match_confidence
-67790442,odds_api_io_67790442,2026-05-22,15:00,Rekord Bielsko-Biala,AZS UJ Krakow,poland-ekstraliga-women,1.0
-69920644,odds_api_io_69920644,2026-05-22,15:15,Sexypoxyt,PPJ/Ruoholahti,finland-kolmonen,1.0
-70479408,odds_api_io_70479408,2026-05-22,15:30,Azam FC,Tanzania Prisons,tanzania-premier-league,1.0
-62037524,odds_api_io_62037524,2026-05-22,15:30,Gzs Tluchovia Tluchowo,Blekitni Stargard,poland-iii-liga-group-2,1.0
-71589682,odds_api_io_71589682,2026-05-22,15:30,HJK Akatemia,FC Lahti,finland-ykkonen-women,1.0
-69924674,odds_api_io_69924674,2026-05-22,15:30,Kjp Kouvola,Kopa,finland-kolmonen,1.0
-67845760,odds_api_io_67845760,2026-05-22,15:30,Kuopion Palloseura,IF Gnistan,finland-kansallinen-liiga-women,1.0
-71183116,odds_api_io_71183116,2026-05-22,15:30,NK Kustosija Zagreb,NK Uljanik,croatia-druga-nl,1.0
-67604820,odds_api_io_67604820,2026-05-22,15:30,SJK Akatemia,FC Haka Valkeakoski,finland-ykkosliiga,1.0
-62036298,odds_api_io_62036298,2026-05-22,15:30,Sokol Kolbuszowa Dolna,Wislanie Skawina,poland-iii-liga-group-4,1.0
-63185791,odds_api_io_63185791,2026-05-22,15:30,Sumqayit FK,Qarabag FK,azerbaijan-premier-league,1.0
-68538256,odds_api_io_68538256,2026-05-22,15:30,Tampere United,JJK Jyvaskyla,finland-ykkonen,1.0
-70683976,odds_api_io_70683976,2026-05-22,15:30,Vg-62,Jyty Turku,finland-kolmonen,1.0
-71037644,odds_api_io_71037644,2026-05-22,15:40,Al Jazira (UAE),Al Ain FC,united-arab-emirates-presidents-cup,1.0
-70318296,odds_api_io_70318296,2026-05-22,16:00,Aarhus Fremad,Aalborg BK,denmark-1-division,1.0
-69670720,odds_api_io_69670720,2026-05-22,16:00,Dfk Dainava Alytus,Be1 Nfa,lithuania-1-lyga,1.0
-69670722,odds_api_io_69670722,2026-05-22,16:00,FK Ekranas,FK Transinvest B,lithuania-1-lyga,1.0
-69670724,odds_api_io_69670724,2026-05-22,16:00,FK Jonava,FK Babrungas Plunge,lithuania-1-lyga,1.0
-61737344,odds_api_io_61737344,2026-05-22,16:00,FK Radnik Bijeljina,FK Borac Banja Luka,bosnia-&-herzegovina-premijer-liga,1.0
-61737340,odds_api_io_61737340,2026-05-22,16:00,FK Rudar Prijedor,HSK Zrinjski Mostar,bosnia-&-herzegovina-premijer-liga,1.0
-69670718,odds_api_io_69670718,2026-05-22,16:00,Hegelmann Litauen B,FC Neptunas Klaipeda,lithuania-1-lyga,1.0
-61737342,odds_api_io_61737342,2026-05-22,16:00,HSK Posusje,FK Sloga Doboj,bosnia-&-herzegovina-premijer-liga,1.0
-62038140,odds_api_io_62038140,2026-05-22,16:00,KS Warta Sieradz,Wigry Suwalki,poland-iii-liga-group-1,1.0
-62037514,odds_api_io_62037514,2026-05-22,16:00,MKS Flota Swinoujscie,Cartusia Kartuzy,poland-iii-liga-group-2,1.0
-70654946,odds_api_io_70654946,2026-05-22,16:00,Mps,Leppavaaran Pallo,finland-kolmonen,1.0
-66918146,odds_api_io_66918146,2026-05-22,16:00,Piteaa IF DFF,Djurgardens IF DFF,sweden-damallsvenskan,1.0
-61898644,odds_api_io_61898644,2026-05-22,16:00,SAK Celovec/Klagenfurt,KAC 1909,austria-amateur-karnten-karntner-liga,1.0
-61911610,odds_api_io_61911610,2026-05-22,16:00,SC Red Star Penzing,SK Slovan HAC,austria-amateur-wien-wiener-stadtliga,1.0
-62274234,odds_api_io_62274234,2026-05-22,16:00,SV Leobendorf,Favoritner AC,austria-amateur-regionalliga-ost,1.0
-67845762,odds_api_io_67845762,2026-05-22,16:00,Tampereen Ilves,HPS,finland-kansallinen-liiga-women,1.0
-61467303,odds_api_io_61467303,2026-05-22,16:00,Zaglebie Sosnowiec,KKS 1925 Kalisz,poland-ii-liga,1.0
-61286603,odds_api_io_61286603,2026-05-22,16:15,HNK Hajduk Split,HNK Vukovar 1991,croatia-hnl,1.0
-71579030,odds_api_io_71579030,2026-05-22,16:30,AS Real Bamako,FC Diarra,mali-ligue-1,1.0
-66606322,odds_api_io_66606322,2026-05-22,16:30,FC Chomutov,FK Seko Louny,czechia-divize-b,1.0
-71621906,odds_api_io_71621906,2026-05-22,16:30,Djoliba AC,Usfas Bamako,mali-ligue-1,1.0
-61687634,odds_api_io_61687634,2026-05-22,16:30,Marbella FC,CD Teruel,spain-primera-federacion,1.0
-67919634,odds_api_io_67919634,2026-05-22,16:30,Molde FK 2,Spjelkavik IL,norway-3rd-division-group-2,1.0
-67919910,odds_api_io_67919910,2026-05-22,16:30,Vard Haugesund,Stord FK,norway-3rd-division-group-3,1.0
-70162040,odds_api_io_70162040,2026-05-22,16:30,Vilnius Football Academy,FK Suduva Marijampole B,lithuania-ii-lyga,1.0
-71589720,odds_api_io_71589720,2026-05-22,16:45,ASAC Concorde,Garde,mauritania-super-d2,1.0
-61898646,odds_api_io_61898646,2026-05-22,16:45,SV Spittal/Drau,FC Lendorf,austria-amateur-karnten-karntner-liga,1.0
-70684202,odds_api_io_70684202,2026-05-22,16:45,TiPS Vantaa,MPS/Atletico Malmi,finland-kolmonen,1.0
-70730322,odds_api_io_70730322,2026-05-22,17:00,AB Gladsaxe,HIK Hellerup,denmark-2nd-division,1.0
-71613278,odds_api_io_71613278,2026-05-22,17:00,Ajel de Rufisque,ASC Linguere,senegal-ligue-1,1.0
-70730376,odds_api_io_70730376,2026-05-22,17:00,Brabrand IF,Skive IK,denmark-2nd-division,1.0
-67149482,odds_api_io_67149482,2026-05-22,17:00,Broendby IF,Kolding IF,denmark-kvindeligaen-women,1.0
-67919638,odds_api_io_67919638,2026-05-22,17:00,Byaasen,Fk Kvik Trondheim,norway-3rd-division-group-2,1.0
-71613276,odds_api_io_71613276,2026-05-22,17:00,Dakar Sacre Coeur,Teungueth FC,senegal-ligue-1,1.0
-67126566,odds_api_io_67126566,2026-05-22,17:00,Djurgardens IF,IF Brommapojkarna,sweden-allsvenskan,1.0
-68377678,odds_api_io_68377678,2026-05-22,17:00,Hestrafors IF,Jonsereds IF,sweden-division-2-promotion-playoffs,1.0
-68344658,odds_api_io_68344658,2026-05-22,17:00,IFK Karlshamn,Vaxjo Norra,sweden-division-2-promotion-playoffs,1.0
-67473272,odds_api_io_67473272,2026-05-22,17:00,Jitex Molndal BK,IFK Goteborg,sweden-amateur-elitettan-women,1.0
-68311612,odds_api_io_68311612,2026-05-22,17:00,Kristianstad FC,Hassleholms IF,sweden-ettan-relegation/promotion,1.0
-61541440,odds_api_io_61541440,2026-05-22,17:00,FC Lauterach,SC Imst 1933,austria-amateur-regionalliga-west,1.0
-68377682,odds_api_io_68377682,2026-05-22,17:00,Lindome GIF,Torslanda IK,sweden-division-2-promotion-playoffs,1.0
-68344660,odds_api_io_68344660,2026-05-22,17:00,Linero IF,IFK Trelleborg,sweden-division-2-promotion-playoffs,1.0
-68311614,odds_api_io_68311614,2026-05-22,17:00,Lunds BK,Eskilsminne IF,sweden-ettan-relegation/promotion,1.0
-69921776,odds_api_io_69921776,2026-05-22,17:00,MK United,Atlantis FC/Akatemia,finland-kolmonen,1.0
-69972736,odds_api_io_69972736,2026-05-22,17:00,NK Karlovac 1919,NK Jarun Zagreb,croatia-prva-nl,1.0
-71589722,odds_api_io_71589722,2026-05-22,17:00,FC Oasis,Olympique de Sebkha,mauritania-super-d2,1.0
-70730784,odds_api_io_70730784,2026-05-22,17:00,Odder IGF,Vejgaard BK,denmark-3rd-division,1.0
-67473280,odds_api_io_67473280,2026-05-22,17:00,Orebro SK Soder,KIF Orebro DFF,sweden-amateur-elitettan-women,1.0
-67919642,odds_api_io_67919642,2026-05-22,17:00,Orkla,Melhus,norway-3rd-division-group-2,1.0
-69880344,odds_api_io_69880344,2026-05-22,17:00,Pharco FC,National Bank of Egypt SC,egypt-premier-league,1.0
-62036912,odds_api_io_62036912,2026-05-22,17:00,SKRA Czestochowa,LKS Goczalkowice-Zdroj,poland-iii-liga-group-3,1.0
-61940286,odds_api_io_61940286,2026-05-22,17:00,Spartak Myjava,AS Trencin B,slovakia-3-liga,1.0
-68344662,odds_api_io_68344662,2026-05-22,17:00,Staffanstorp United,Nosaby IF,sweden-division-2-promotion-playoffs,1.0
-61902050,odds_api_io_61902050,2026-05-22,17:00,SV Allerheiligen,SV Tillmitsch,austria-amateur-steiermark-landesliga,1.0
-61902060,odds_api_io_61902060,2026-05-22,17:00,SV Pachern,Fsc Eggendorf Hartberg II,austria-amateur-steiermark-landesliga,1.0
-61902062,odds_api_io_61902062,2026-05-22,17:00,TUS Bad Waltersdorf,ASK Koflach,austria-amateur-steiermark-landesliga,1.0
+68686532,odds_api_io_68686532,2026-05-23,02:15,Clarence Zebras FC 2,Olympia Warriors Hobart,australia-tasmania-southern-championship,1.0
+68686928,odds_api_io_68686928,2026-05-23,02:15,Launceston United,South Hobart FC,australia-tasmania-super-league-women,1.0
+68686534,odds_api_io_68686534,2026-05-23,02:15,Taroona,University of Tasmania,australia-tasmania-southern-championship,1.0
+68050314,odds_api_io_68050314,2026-05-23,03:15,Salisbury United Reserve,Adelaide Cobras Reserves,australia-south-australia-state-league-1-reserves,0.74
+68051614,odds_api_io_68051614,2026-05-23,05:30,Adelaide Atletico VSC,South Adelaide FC,australia-south-australia-state-league-1,0.92
+69194932,odds_api_io_69194932,2026-05-23,05:00,Canberra White Eagles FC,O'Connor Knights FC,australia-capital-npl-1,1.0
+68048870,odds_api_io_68048870,2026-05-23,05:00,Croydon FC,North Eastern Metrostars SC,australia-south-australia-npl,0.92
+67905200,odds_api_io_67905200,2026-05-23,02:45,Gold Coast United FC,Rochedale Rovers,australia-u23-queensland-npl,1.0
+68160942,odds_api_io_68160942,2026-05-23,02:45,Port Melbourne Sharks SC,Brunswick Juventus FC,australia-u23-victoria-premier-league-1,1.0
+69195830,odds_api_io_69195830,2026-05-23,02:45,Queanbeyan City FC,Canberra Juventus FC,australia-u23-capital-npl,1.0
+69460620,odds_api_io_69460620,2026-05-23,03:00,Auckland United FC,East Coast Bays,new-zealand-national-league,1.0
+69460616,odds_api_io_69460616,2026-05-23,03:00,Auckland City FC,Melville United AFC,new-zealand-national-league,1.0
+68161330,odds_api_io_68161330,2026-05-23,03:00,Bentleigh Greens SC,Caroline Springs George Cross FC,australia-u23-victoria-npl,1.0
+71549044,odds_api_io_71549044,2026-05-23,03:00,FC Fujizakura,Jfa Academy Fukushima,japan-nadeshiko-league-div-2-women,1.0
+67905678,odds_api_io_67905678,2026-05-23,03:00,Holland Park Hawks,Sunshine Coast Wanderers,australia-u23-queensland-premier-league-1,1.0
+69460614,odds_api_io_69460614,2026-05-23,03:00,Manukau United FC,Tauranga City AFC,new-zealand-national-league,1.0
+69115744,odds_api_io_69115744,2026-05-23,03:00,Perth Redstar FC,Perth SC,australia-u23-western-australia-npl,1.0
+69462636,odds_api_io_69462636,2026-05-23,03:00,Upper Hutt City FC,Wellington Phoenix FC Reserve,new-zealand-national-league,1.0
+68050042,odds_api_io_68050042,2026-05-23,03:15,Adelaide Comets Reserves,Para Hills Knights SC Reserve,australia-south-australia-npl-reserves,1.0
+68050308,odds_api_io_68050308,2026-05-23,03:15,Adelaide Croatia Raiders SC Reserve,Adelaide Olympic FC Reserve,australia-south-australia-state-league-1-reserves,1.0
+68050038,odds_api_io_68050038,2026-05-23,03:15,Campbelltown City SC Reserve,Sturt Lions Reserve,australia-south-australia-npl-reserves,1.0
+68050312,odds_api_io_68050312,2026-05-23,03:15,Fulham United FC Reserve,The Cove FC Reserves,australia-south-australia-state-league-1-reserves,1.0
+68050310,odds_api_io_68050310,2026-05-23,03:15,Modbury Jets SC Reserve,Cumberland United Reserve,australia-south-australia-state-league-1-reserves,1.0
+68050036,odds_api_io_68050036,2026-05-23,03:15,Playford City Reserve,West Adelaide SC Reserve,australia-south-australia-npl-reserves,1.0
+68051622,odds_api_io_68051622,2026-05-23,05:30,Salisbury United,Adelaide Cobras,australia-south-australia-state-league-1,0.92
+67905202,odds_api_io_67905202,2026-05-23,04:00,Moreton City Excelsior U23,Brisbane City,australia-u23-queensland-npl,1.0
+67807392,odds_api_io_67807392,2026-05-23,04:00,Newcastle Olympic FC,Charlestown Azzurri FC,australia-northern-nsw-npl,1.0
+68728650,odds_api_io_68728650,2026-05-23,04:00,NGU Loveledge Nagoya,Okayama Yunogo Belle,japan-nadeshiko-league-div-1-women,1.0
+68728648,odds_api_io_68728648,2026-05-23,04:00,Nittaidai FC,Iga FC Kunoichi,japan-nadeshiko-league-div-1-women,1.0
+68728656,odds_api_io_68728656,2026-05-23,04:00,Vonds Ichihara FC,Shizuoka SSU Bonita,japan-nadeshiko-league-div-1-women,1.0
+67690874,odds_api_io_67690874,2026-05-23,04:15,University of Nsw,Sydney United 58 FC,australia-nsw-npl-1,1.0
+69194930,odds_api_io_69194930,2026-05-23,04:30,Canberra Olympic,Belconnen United,australia-capital-npl-1,1.0
+68680064,odds_api_io_68680064,2026-05-23,04:30,Clarence Zebras FC,Kingborough Lions United FC,australia-tasmania-npl,1.0
+71549046,odds_api_io_71549046,2026-05-23,04:30,Diavorosso Hiroshima,Speranza Osaka,japan-nadeshiko-league-div-2-women,1.0
+67808472,odds_api_io_67808472,2026-05-23,04:30,Edgeworth FC Reserve,Lambton Jaffas FC Reserve,australia-northern-nsw-npl-reserves,1.0
+68680066,odds_api_io_68680066,2026-05-23,04:30,Riverside Olympic FC,South Hobart FC,australia-tasmania-npl,1.0
+68680068,odds_api_io_68680068,2026-05-23,04:30,South East United FC,Ulverstone SC,australia-tasmania-npl,1.0
+68162388,odds_api_io_68162388,2026-05-23,04:30,South Melbourne FC,Bentleigh Greens SC,australia-victoria-npl-women,1.0
+68686930,odds_api_io_68686930,2026-05-23,04:30,Taroona,Devonport City SC,australia-tasmania-super-league-women,1.0
+67905680,odds_api_io_67905680,2026-05-23,04:45,North Star,Logan Lightning,australia-u23-queensland-premier-league-1,1.0
+68048872,odds_api_io_68048872,2026-05-23,05:00,Adelaide City FC,FK Beograd,australia-south-australia-npl,1.0
+67648310,odds_api_io_67648310,2026-05-23,05:00,Albirex Niigata,Ehime FC,japan-jleague-2,1.0
+67645078,odds_api_io_67645078,2026-05-23,05:00,Avispa Fukuoka,Vissel Kobe,japan-jleague,1.0
+68162390,odds_api_io_68162390,2026-05-23,05:00,Avondale FC,Alamein FC,australia-victoria-npl-women,1.0
+69115750,odds_api_io_69115750,2026-05-23,05:00,Balcatta Etna FC,Western Knights SC,australia-u23-western-australia-npl,1.0
+69460622,odds_api_io_69460622,2026-05-23,05:00,Birkenhead United AFC,Bay Olympic,new-zealand-national-league,1.0
+68916306,odds_api_io_68916306,2026-05-23,05:00,Busan Transportation Corporation FC,Chuncheon FC,republic-of-korea-k3-league,1.0
+68916318,odds_api_io_68916318,2026-05-23,05:00,Changwon FC,Ulsan Citizen FC,republic-of-korea-k3-league,1.0
+69463280,odds_api_io_69463280,2026-05-23,05:00,Christchurch United FC,Coastal Spirit FC,new-zealand-national-league,1.0
+69768186,odds_api_io_69768186,2026-05-23,05:00,Cockburn City SC Reserves,Floreat Athena FC Reserves,australia-western-australia-state-league-1-reserves,1.0
+68161332,odds_api_io_68161332,2026-05-23,05:00,Dandenong City SC,ST Albans Saints Dinamo SC,australia-u23-victoria-npl,1.0
+69115746,odds_api_io_69115746,2026-05-23,05:00,Dianella White Eagles SC,Armadale SC,australia-u23-western-australia-npl,1.0
+68162392,odds_api_io_68162392,2026-05-23,05:00,Essendon Royals SC,Box Hill United,australia-victoria-npl-women,1.0
+67648154,odds_api_io_67648154,2026-05-23,05:00,Fujieda MYFC,Iwaki FC,japan-jleague-2,1.0
+67648156,odds_api_io_67648156,2026-05-23,05:00,FC Gifu,RB Omiya Ardija,japan-jleague-2,1.0
+69768184,odds_api_io_69768184,2026-05-23,05:00,Gwelup Croatia SC Reserves,Kingsley Westside FC,australia-western-australia-state-league-1-reserves,1.0
+68916310,odds_api_io_68916310,2026-05-23,05:00,Gyeongju FC,Yeoju FC,republic-of-korea-k3-league,1.0
+67648152,odds_api_io_67648152,2026-05-23,05:00,Hokkaido Consadole Sapporo,Jubilo Iwata,japan-jleague-2,1.0
+69768182,odds_api_io_69768182,2026-05-23,05:00,Joondalup City FC Reserve,Inglewood United Reserves,australia-western-australia-state-league-1-reserves,1.0
+68162394,odds_api_io_68162394,2026-05-23,05:00,Keilor Park SC,Spring Hills FC,australia-victoria-npl-women,1.0
+68162396,odds_api_io_68162396,2026-05-23,05:00,Melbourne Victory FC Youth,FC Bulleen Lions,australia-victoria-npl-women,1.0
+67648312,odds_api_io_67648312,2026-05-23,05:00,Nara Club,Kataller Toyama,japan-jleague-2,1.0
+68160568,odds_api_io_68160568,2026-05-23,05:00,North Sunshine Eagles FC,Langwarrin SC,australia-victoria-premier-league-1,1.0
+68916316,odds_api_io_68916316,2026-05-23,05:00,Pocheon Citizen FC,Jeonbuk FC II,republic-of-korea-k3-league,1.0
+68160570,odds_api_io_68160570,2026-05-23,05:00,Port Melbourne Sharks,Brunswick Juventus FC,australia-victoria-premier-league-1,1.0
+69768188,odds_api_io_69768188,2026-05-23,05:00,Quinns FC Reserve,Mandurah City FC Reserves,australia-western-australia-state-league-1-reserves,1.0
+67648470,odds_api_io_67648470,2026-05-23,05:00,Renofa Yamaguchi,Roasso Kumamoto,japan-jleague-2,1.0
+67648472,odds_api_io_67648472,2026-05-23,05:00,Sagan Tosu,FC Ryukyu,japan-jleague-2,1.0
+67645076,odds_api_io_67645076,2026-05-23,05:00,Sanfrecce Hiroshima,Nagoya Grampus,japan-jleague,1.0
+68916308,odds_api_io_68916308,2026-05-23,05:00,Siheung Citizen FC,Dangjin Citizen,republic-of-korea-k3-league,1.0
+69115748,odds_api_io_69115748,2026-05-23,05:00,Sorrento FC,Olympic Kingsway SC,australia-u23-western-australia-npl,1.0
+69115754,odds_api_io_69115754,2026-05-23,05:00,Stirling Macedonia FC,Bayswater City SC,australia-u23-western-australia-npl,1.0
+69768180,odds_api_io_69768180,2026-05-23,05:00,Subiaco AFC Reserve,Curtin University SC Reserves,australia-western-australia-state-league-1-reserves,1.0
