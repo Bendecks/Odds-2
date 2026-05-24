@@ -1,47 +1,33 @@
 fixture_id,league,league_id,season,match_date,match_time,home_team,away_team,source,fetched_at_utc
-fd_B1_2026-05-23_Antwerp_Westerlo,B1,B1,upcoming,2026-05-23,19:45,Antwerp,Westerlo,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_B1_2026-05-23_Oud-Heverlee_Leuven_Genk,B1,B1,upcoming,2026-05-23,19:45,Oud-Heverlee Leuven,Genk,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_B1_2026-05-23_Standard_Charleroi,B1,B1,upcoming,2026-05-23,19:45,Standard,Charleroi,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_B1_2026-05-24_Club_Brugge_Gent,B1,B1,upcoming,2026-05-24,17:30,Club Brugge,Gent,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_B1_2026-05-24_St_Truiden_Mechelen,B1,B1,upcoming,2026-05-24,17:30,St Truiden,Mechelen,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_B1_2026-05-24_St._Gilloise_Anderlecht,B1,B1,upcoming,2026-05-24,17:30,St. Gilloise,Anderlecht,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_E0_2026-05-24_Brighton_Man_United,premier_league,E0,upcoming,2026-05-24,16:00,Brighton,Man United,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_E0_2026-05-24_Burnley_Wolves,premier_league,E0,upcoming,2026-05-24,16:00,Burnley,Wolves,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_E0_2026-05-24_Crystal_Palace_Arsenal,premier_league,E0,upcoming,2026-05-24,16:00,Crystal Palace,Arsenal,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_E0_2026-05-24_Fulham_Newcastle,premier_league,E0,upcoming,2026-05-24,16:00,Fulham,Newcastle,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_E0_2026-05-24_Liverpool_Brentford,premier_league,E0,upcoming,2026-05-24,16:00,Liverpool,Brentford,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_E0_2026-05-24_Man_City_Aston_Villa,premier_league,E0,upcoming,2026-05-24,16:00,Man City,Aston Villa,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_E0_2026-05-24_Nott'm_Forest_Bournemouth,premier_league,E0,upcoming,2026-05-24,16:00,Nott'm Forest,Bournemouth,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_E0_2026-05-24_Sunderland_Chelsea,premier_league,E0,upcoming,2026-05-24,16:00,Sunderland,Chelsea,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_E0_2026-05-24_Tottenham_Everton,premier_league,E0,upcoming,2026-05-24,16:00,Tottenham,Everton,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_E0_2026-05-24_West_Ham_Leeds,premier_league,E0,upcoming,2026-05-24,16:00,West Ham,Leeds,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_I1_2026-05-23_Bologna_Inter,serie_a,I1,upcoming,2026-05-23,17:00,Bologna,Inter,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_I1_2026-05-23_Lazio_Pisa,serie_a,I1,upcoming,2026-05-23,19:45,Lazio,Pisa,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_I1_2026-05-24_Parma_Sassuolo,serie_a,I1,upcoming,2026-05-24,14:00,Parma,Sassuolo,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_I1_2026-05-24_Napoli_Udinese,serie_a,I1,upcoming,2026-05-24,17:00,Napoli,Udinese,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_I1_2026-05-24_Cremonese_Como,serie_a,I1,upcoming,2026-05-24,19:45,Cremonese,Como,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_I1_2026-05-24_Lecce_Genoa,serie_a,I1,upcoming,2026-05-24,19:45,Lecce,Genoa,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_I1_2026-05-24_Milan_Cagliari,serie_a,I1,upcoming,2026-05-24,19:45,Milan,Cagliari,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_I1_2026-05-24_Torino_Juventus,serie_a,I1,upcoming,2026-05-24,19:45,Torino,Juventus,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_I1_2026-05-24_Verona_Roma,serie_a,I1,upcoming,2026-05-24,19:45,Verona,Roma,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_SP1_2026-05-23_Alaves_Vallecano,la_liga,SP1,upcoming,2026-05-23,20:00,Alaves,Vallecano,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_SP1_2026-05-23_Betis_Levante,la_liga,SP1,upcoming,2026-05-23,20:00,Betis,Levante,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_SP1_2026-05-23_Celta_Sevilla,la_liga,SP1,upcoming,2026-05-23,20:00,Celta,Sevilla,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_SP1_2026-05-23_Espanol_Sociedad,la_liga,SP1,upcoming,2026-05-23,20:00,Espanol,Sociedad,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_SP1_2026-05-23_Getafe_Osasuna,la_liga,SP1,upcoming,2026-05-23,20:00,Getafe,Osasuna,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_SP1_2026-05-23_Girona_Elche,la_liga,SP1,upcoming,2026-05-23,20:00,Girona,Elche,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_SP1_2026-05-23_Mallorca_Oviedo,la_liga,SP1,upcoming,2026-05-23,20:00,Mallorca,Oviedo,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_SP1_2026-05-23_Real_Madrid_Ath_Bilbao,la_liga,SP1,upcoming,2026-05-23,20:00,Real Madrid,Ath Bilbao,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_SP1_2026-05-23_Valencia_Barcelona,la_liga,SP1,upcoming,2026-05-23,20:00,Valencia,Barcelona,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_SP1_2026-05-24_Villarreal_Ath_Madrid,la_liga,SP1,upcoming,2026-05-24,20:00,Villarreal,Ath Madrid,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_SP2_2026-05-24_Albacete_Sociedad_B,SP2,SP2,upcoming,2026-05-24,15:15,Albacete,Sociedad B,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_SP2_2026-05-24_Andorra_Ceuta,SP2,SP2,upcoming,2026-05-24,15:15,Andorra,Ceuta,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_SP2_2026-05-24_Cadiz_Leganes,SP2,SP2,upcoming,2026-05-24,17:30,Cadiz,Leganes,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_SP2_2026-05-24_Cultural_Leonesa_Burgos,SP2,SP2,upcoming,2026-05-24,17:30,Cultural Leonesa,Burgos,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_SP2_2026-05-24_Eibar_Cordoba,SP2,SP2,upcoming,2026-05-24,17:30,Eibar,Cordoba,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_SP2_2026-05-24_Huesca_Castellon,SP2,SP2,upcoming,2026-05-24,17:30,Huesca,Castellon,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_SP2_2026-05-24_Las_Palmas_Zaragoza,SP2,SP2,upcoming,2026-05-24,17:30,Las Palmas,Zaragoza,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_SP2_2026-05-24_Malaga_Santander,SP2,SP2,upcoming,2026-05-24,17:30,Malaga,Santander,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_SP2_2026-05-24_Mirandes_Granada,SP2,SP2,upcoming,2026-05-24,17:30,Mirandes,Granada,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_SP2_2026-05-24_Sp_Gijon_Almeria,SP2,SP2,upcoming,2026-05-24,17:30,Sp Gijon,Almeria,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
-fd_SP2_2026-05-24_Valladolid_La_Coruna,SP2,SP2,upcoming,2026-05-24,17:30,Valladolid,La Coruna,football_data_fixtures_proxy,2026-05-23T02:14:48.948729+00:00
+fd_B1_2026-05-24_Club_Brugge_Gent,B1,B1,upcoming,2026-05-24,17:30,Club Brugge,Gent,football_data_fixtures_proxy,2026-05-24T02:33:29.045569+00:00
+fd_B1_2026-05-24_St_Truiden_Mechelen,B1,B1,upcoming,2026-05-24,17:30,St Truiden,Mechelen,football_data_fixtures_proxy,2026-05-24T02:33:29.045569+00:00
+fd_B1_2026-05-24_St._Gilloise_Anderlecht,B1,B1,upcoming,2026-05-24,17:30,St. Gilloise,Anderlecht,football_data_fixtures_proxy,2026-05-24T02:33:29.045569+00:00
+fd_E0_2026-05-24_Brighton_Man_United,premier_league,E0,upcoming,2026-05-24,16:00,Brighton,Man United,football_data_fixtures_proxy,2026-05-24T02:33:29.045569+00:00
+fd_E0_2026-05-24_Burnley_Wolves,premier_league,E0,upcoming,2026-05-24,16:00,Burnley,Wolves,football_data_fixtures_proxy,2026-05-24T02:33:29.045569+00:00
+fd_E0_2026-05-24_Crystal_Palace_Arsenal,premier_league,E0,upcoming,2026-05-24,16:00,Crystal Palace,Arsenal,football_data_fixtures_proxy,2026-05-24T02:33:29.045569+00:00
+fd_E0_2026-05-24_Fulham_Newcastle,premier_league,E0,upcoming,2026-05-24,16:00,Fulham,Newcastle,football_data_fixtures_proxy,2026-05-24T02:33:29.045569+00:00
+fd_E0_2026-05-24_Liverpool_Brentford,premier_league,E0,upcoming,2026-05-24,16:00,Liverpool,Brentford,football_data_fixtures_proxy,2026-05-24T02:33:29.045569+00:00
+fd_E0_2026-05-24_Man_City_Aston_Villa,premier_league,E0,upcoming,2026-05-24,16:00,Man City,Aston Villa,football_data_fixtures_proxy,2026-05-24T02:33:29.045569+00:00
+fd_E0_2026-05-24_Nott'm_Forest_Bournemouth,premier_league,E0,upcoming,2026-05-24,16:00,Nott'm Forest,Bournemouth,football_data_fixtures_proxy,2026-05-24T02:33:29.045569+00:00
+fd_E0_2026-05-24_Sunderland_Chelsea,premier_league,E0,upcoming,2026-05-24,16:00,Sunderland,Chelsea,football_data_fixtures_proxy,2026-05-24T02:33:29.045569+00:00
+fd_E0_2026-05-24_Tottenham_Everton,premier_league,E0,upcoming,2026-05-24,16:00,Tottenham,Everton,football_data_fixtures_proxy,2026-05-24T02:33:29.045569+00:00
+fd_E0_2026-05-24_West_Ham_Leeds,premier_league,E0,upcoming,2026-05-24,16:00,West Ham,Leeds,football_data_fixtures_proxy,2026-05-24T02:33:29.045569+00:00
+fd_I1_2026-05-24_Parma_Sassuolo,serie_a,I1,upcoming,2026-05-24,14:00,Parma,Sassuolo,football_data_fixtures_proxy,2026-05-24T02:33:29.045569+00:00
+fd_I1_2026-05-24_Napoli_Udinese,serie_a,I1,upcoming,2026-05-24,17:00,Napoli,Udinese,football_data_fixtures_proxy,2026-05-24T02:33:29.045569+00:00
+fd_I1_2026-05-24_Cremonese_Como,serie_a,I1,upcoming,2026-05-24,19:45,Cremonese,Como,football_data_fixtures_proxy,2026-05-24T02:33:29.045569+00:00
+fd_I1_2026-05-24_Lecce_Genoa,serie_a,I1,upcoming,2026-05-24,19:45,Lecce,Genoa,football_data_fixtures_proxy,2026-05-24T02:33:29.045569+00:00
+fd_I1_2026-05-24_Milan_Cagliari,serie_a,I1,upcoming,2026-05-24,19:45,Milan,Cagliari,football_data_fixtures_proxy,2026-05-24T02:33:29.045569+00:00
+fd_I1_2026-05-24_Torino_Juventus,serie_a,I1,upcoming,2026-05-24,19:45,Torino,Juventus,football_data_fixtures_proxy,2026-05-24T02:33:29.045569+00:00
+fd_I1_2026-05-24_Verona_Roma,serie_a,I1,upcoming,2026-05-24,19:45,Verona,Roma,football_data_fixtures_proxy,2026-05-24T02:33:29.045569+00:00
+fd_SP1_2026-05-24_Villarreal_Ath_Madrid,la_liga,SP1,upcoming,2026-05-24,20:00,Villarreal,Ath Madrid,football_data_fixtures_proxy,2026-05-24T02:33:29.045569+00:00
+fd_SP2_2026-05-24_Albacete_Sociedad_B,SP2,SP2,upcoming,2026-05-24,15:15,Albacete,Sociedad B,football_data_fixtures_proxy,2026-05-24T02:33:29.045569+00:00
+fd_SP2_2026-05-24_Andorra_Ceuta,SP2,SP2,upcoming,2026-05-24,15:15,Andorra,Ceuta,football_data_fixtures_proxy,2026-05-24T02:33:29.045569+00:00
+fd_SP2_2026-05-24_Cadiz_Leganes,SP2,SP2,upcoming,2026-05-24,17:30,Cadiz,Leganes,football_data_fixtures_proxy,2026-05-24T02:33:29.045569+00:00
+fd_SP2_2026-05-24_Cultural_Leonesa_Burgos,SP2,SP2,upcoming,2026-05-24,17:30,Cultural Leonesa,Burgos,football_data_fixtures_proxy,2026-05-24T02:33:29.045569+00:00
+fd_SP2_2026-05-24_Eibar_Cordoba,SP2,SP2,upcoming,2026-05-24,17:30,Eibar,Cordoba,football_data_fixtures_proxy,2026-05-24T02:33:29.045569+00:00
+fd_SP2_2026-05-24_Huesca_Castellon,SP2,SP2,upcoming,2026-05-24,17:30,Huesca,Castellon,football_data_fixtures_proxy,2026-05-24T02:33:29.045569+00:00
+fd_SP2_2026-05-24_Las_Palmas_Zaragoza,SP2,SP2,upcoming,2026-05-24,17:30,Las Palmas,Zaragoza,football_data_fixtures_proxy,2026-05-24T02:33:29.045569+00:00
+fd_SP2_2026-05-24_Malaga_Santander,SP2,SP2,upcoming,2026-05-24,17:30,Malaga,Santander,football_data_fixtures_proxy,2026-05-24T02:33:29.045569+00:00
+fd_SP2_2026-05-24_Mirandes_Granada,SP2,SP2,upcoming,2026-05-24,17:30,Mirandes,Granada,football_data_fixtures_proxy,2026-05-24T02:33:29.045569+00:00
+fd_SP2_2026-05-24_Sp_Gijon_Almeria,SP2,SP2,upcoming,2026-05-24,17:30,Sp Gijon,Almeria,football_data_fixtures_proxy,2026-05-24T02:33:29.045569+00:00
+fd_SP2_2026-05-24_Valladolid_La_Coruna,SP2,SP2,upcoming,2026-05-24,17:30,Valladolid,La Coruna,football_data_fixtures_proxy,2026-05-24T02:33:29.045569+00:00

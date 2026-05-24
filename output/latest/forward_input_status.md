@@ -3,10 +3,10 @@
 Manual Bet365 odds input is parked as an optional fallback. It is not an active development blocker.
 Current priority: automatic/free-data forward-testing sources and robust fixture/model matching.
 
-Upcoming fixtures: 909
-Manual template rows: 909
+Upcoming fixtures: 492
+Manual template rows: 492
 Rows with complete manual odds: 0
-Rows missing manual odds: 909
+Rows missing manual odds: 492
 Manual forward snapshot rows: 0
 Manual odds mode: optional_fallback_paused
 Manual odds is blocker: False
@@ -19,23 +19,23 @@ Upcoming fixtures exist, but no automatic odds/proxy forward snapshot source is 
 ## Optional manual fallback status
 
 Manual odds are not required in the current phase. These rows are only kept for later fallback use:
-- 2026-05-23 22:00 | 12 de Junio de Villa Hayes vs Tacuary Asuncion
-- 2026-05-23 12:00 | 1.SK Prostejov vs FC Silon Taborsko
-- 2026-05-23 19:30 | 3B Sport AM vs Vila Nova FC GO
-- 2026-05-23 23:00 | AFC Ann Arbor vs Lansing City Football
-- 2026-05-23 14:30 | AFC Chindia Targoviste vs FC Farul Constanta
-- 2026-05-23 19:00 | Abecat Ouvidorense GO vs Operario FC MS
-- 2026-05-23 18:30 | AC Goianiense GO vs Royal GO
-- 2026-05-23 16:00 | AC Malveira vs GD Vitoria Sernache
-- 2026-05-23 07:00 | AC Nagano Parceiro vs Ventforet Kofu
-- 2026-05-23 22:00 | Academia Puerto Cabello vs UCV FC
-- 2026-05-23 05:30 | Adelaide United FC vs West Torrens Birkalla
-- 2026-05-23 02:45 | Adelaide Atletico Victory Reserves vs South Adelaide Reserve
-- 2026-05-23 05:30 | Adelaide Atletico VSC vs South Adelaide FC
-- 2026-05-23 05:00 | Adelaide City FC vs FK Beograd
-- 2026-05-23 05:30 | Adelaide Comets FC vs Para Hills Knights SC
-- 2026-05-23 03:15 | Adelaide Comets Reserves vs Para Hills Knights SC Reserve
-- 2026-05-23 05:30 | Adelaide Croatia Raiders SC vs Adelaide Olympic FC
-- 2026-05-23 03:15 | Adelaide Croatia Raiders SC Reserve vs Adelaide Olympic FC Reserve
-- 2026-05-23 14:00 | FC Aktobe vs FC Kyzylzhar SK
-- 2026-05-23 16:10 | AL Draih vs AL Ula
+- 2026-05-24 08:15 | 1. FC Slovacko B vs SK Polanka Nad Odrou
+- 2026-05-24 14:00 | AFC Eskilstuna vs Vasalunds IF
+- 2026-05-24 14:30 | AFC Hermannstadt vs SC FC Voluntari
+- 2026-05-24 19:30 | AA Internacional Limeira SP vs AO Itabaiana SE
+- 2026-05-24 14:00 | Aatvidabergs FF vs Laholms FK
+- 2026-05-24 19:00 | ABC FC RN vs America FC RN
+- 2026-05-24 19:00 | AC Goianiense GO vs Sao Bernardo FC
+- 2026-05-24 18:45 | AC Milan vs Cagliari Calcio
+- 2026-05-24 19:00 | Acao Futebol MT vs Itabirito FC MG
+- 2026-05-24 18:30 | AD Berazategui vs Argentino de Rosario
+- 2026-05-24 21:00 | AD Confianca SE vs Figueirense FC SC
+- 2026-05-24 17:00 | Adr Jicaral vs Inter San Carlos
+- 2026-05-24 12:00 | AE Uberabinha MG vs Inter de Minas MG
+- 2026-05-24 17:00 | Af Elbasani vs FC Dinamo City
+- 2026-05-24 16:30 | Afrique Football Elite vs Binga FC
+- 2026-05-24 10:00 | Aguilas FC vs UD Poblense
+- 2026-05-24 10:15 | Ajax Amsterdam vs FC Utrecht
+- 2026-05-24 17:25 | Al-Nasr SC vs Kuwait SC
+- 2026-05-24 15:15 | Albacete vs Sociedad B
+- 2026-05-24 14:15 | Albacete Balompie vs Real Sociedad San Sebastian B

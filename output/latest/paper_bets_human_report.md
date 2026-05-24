@@ -5,193 +5,130 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 
 ## Kort status
 
-- Aktuelle viste paper picks: **21**
-- Unikke loggede paper picks: **370**
-- Afventer i loggen: **367**
+- Aktuelle viste paper picks: **13**
+- Unikke loggede paper picks: **383**
+- Afventer i loggen: **380**
 - Afgjorte fundet i settled-filen: **210**
-- Skjulte U-/reserve-rækker: **26**
+- Skjulte U-/reserve-rækker: **22**
 - Vundne: **70**
 - Tabte: **140**
 - Samlet ROI i units: **-3.45**
 
 ## Aktuelle paper picks
 
-### Manukau United FC vs Tauranga City AFC
-- Dato: **2026-05-23**
-- Kampstart: **03:00**
-- Spil: **Hjemmesejr**
-- Odds: **4.75**
+### Man City vs Aston Villa
+- Dato: **2026-05-24**
+- Kampstart: **16:00**
+- Spil: **Uafgjort**
+- Odds: **5.93**
 - Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+- Type: **volume_observation**
+- Note: **expanded_volume_forward_observation_not_real_money**
 
-### Avispa Fukuoka vs Vissel Kobe
-- Dato: **2026-05-23**
-- Kampstart: **05:00**
-- Spil: **Hjemmesejr**
-- Odds: **4.50**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Clarence Zebras FC vs Kingborough Lions United FC
-- Dato: **2026-05-23**
-- Kampstart: **04:30**
-- Spil: **Hjemmesejr**
-- Odds: **4.33**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Croydon FC vs North Eastern Metrostars SC
-- Dato: **2026-05-23**
-- Kampstart: **05:00**
-- Spil: **Hjemmesejr**
-- Odds: **3.75**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Canberra Olympic vs Belconnen United
-- Dato: **2026-05-23**
-- Kampstart: **04:30**
+### Liverpool vs Brentford
+- Dato: **2026-05-24**
+- Kampstart: **16:00**
 - Spil: **Udebanesejr**
 - Odds: **4.00**
 - Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+- Type: **priority_proxy_observation**
+- Note: **expanded_volume_forward_observation_not_real_money**
 
-### Davis Legacy vs Almaden FC
-- Dato: **2026-05-23**
-- Kampstart: **02:30**
-- Spil: **Hjemmesejr**
-- Odds: **3.60**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Canberra White Eagles FC vs O'Connor Knights FC
-- Dato: **2026-05-23**
-- Kampstart: **05:00**
-- Spil: **Hjemmesejr**
-- Odds: **3.50**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Manukau United FC vs Tauranga City AFC
-- Dato: **2026-05-23**
-- Kampstart: **03:00**
-- Spil: **Uafgjort**
-- Odds: **5.25**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Auckland City FC vs Melville United AFC
-- Dato: **2026-05-23**
-- Kampstart: **03:00**
-- Spil: **Uafgjort**
-- Odds: **5.25**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Changwon FC vs Ulsan Citizen FC
-- Dato: **2026-05-23**
-- Kampstart: **05:00**
+### Tottenham vs Everton
+- Dato: **2026-05-24**
+- Kampstart: **16:00**
 - Spil: **Udebanesejr**
-- Odds: **3.80**
+- Odds: **4.30**
 - Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+- Type: **volume_observation**
+- Note: **expanded_volume_forward_observation_not_real_money**
 
-### South East United FC vs Ulverstone SC
-- Dato: **2026-05-23**
-- Kampstart: **04:30**
+### Crystal Palace vs Arsenal
+- Dato: **2026-05-24**
+- Kampstart: **16:00**
+- Spil: **Hjemmesejr**
+- Odds: **4.33**
+- Status: **Afventer**
+- Type: **priority_proxy_observation**
+- Note: **expanded_volume_forward_observation_not_real_money**
+
+### Brighton vs Man United
+- Dato: **2026-05-24**
+- Kampstart: **16:00**
 - Spil: **Udebanesejr**
 - Odds: **3.75**
 - Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+- Type: **priority_proxy_observation**
+- Note: **expanded_volume_forward_observation_not_real_money**
 
-### Busan Transportation Corporation FC vs Chuncheon FC
-- Dato: **2026-05-23**
-- Kampstart: **05:00**
+### West Ham vs Leeds
+- Dato: **2026-05-24**
+- Kampstart: **16:00**
 - Spil: **Udebanesejr**
-- Odds: **3.70**
+- Odds: **4.00**
 - Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+- Type: **priority_proxy_observation**
+- Note: **expanded_volume_forward_observation_not_real_money**
 
-### University of Nsw vs Sydney United 58 FC
-- Dato: **2026-05-23**
-- Kampstart: **04:15**
-- Spil: **Hjemmesejr**
-- Odds: **3.30**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### South East United FC vs Ulverstone SC
-- Dato: **2026-05-23**
-- Kampstart: **04:30**
-- Spil: **Uafgjort**
-- Odds: **5.00**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Adelaide Atletico VSC vs South Adelaide FC
-- Dato: **2026-05-23**
-- Kampstart: **05:30**
-- Spil: **Udebanesejr**
-- Odds: **3.60**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Adelaide Atletico VSC vs South Adelaide FC
-- Dato: **2026-05-23**
-- Kampstart: **05:30**
-- Spil: **Uafgjort**
-- Odds: **4.75**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Vonds Ichihara FC vs Shizuoka SSU Bonita
-- Dato: **2026-05-23**
-- Kampstart: **04:00**
-- Spil: **Uafgjort**
-- Odds: **4.75**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Canberra Olympic vs Belconnen United
-- Dato: **2026-05-23**
-- Kampstart: **04:30**
-- Spil: **Uafgjort**
-- Odds: **4.50**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Clarence Zebras FC vs Kingborough Lions United FC
-- Dato: **2026-05-23**
-- Kampstart: **04:30**
+### Napoli vs Udinese
+- Dato: **2026-05-24**
+- Kampstart: **17:00**
 - Spil: **Uafgjort**
 - Odds: **4.33**
 - Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+- Type: **priority_proxy_observation**
+- Note: **expanded_volume_forward_observation_not_real_money**
 
-### Auckland United FC vs East Coast Bays
-- Dato: **2026-05-23**
-- Kampstart: **03:00**
+### Nott'm Forest vs Bournemouth
+- Dato: **2026-05-24**
+- Kampstart: **16:00**
+- Spil: **Hjemmesejr**
+- Odds: **3.30**
+- Status: **Afventer**
+- Type: **priority_proxy_observation**
+- Note: **expanded_volume_forward_observation_not_real_money**
+
+### Parma vs Sassuolo
+- Dato: **2026-05-24**
+- Kampstart: **14:00**
+- Spil: **Hjemmesejr**
+- Odds: **2.70**
+- Status: **Afventer**
+- Type: **priority_proxy_observation**
+- Note: **expanded_volume_forward_observation_not_real_money**
+
+### Burnley vs Wolves
+- Dato: **2026-05-24**
+- Kampstart: **16:00**
 - Spil: **Udebanesejr**
-- Odds: **3.20**
+- Odds: **2.90**
+- Status: **Afventer**
+- Type: **priority_proxy_observation**
+- Note: **expanded_volume_forward_observation_not_real_money**
+
+### Cadiz vs Leganes
+- Dato: **2026-05-24**
+- Kampstart: **17:30**
+- Spil: **Udebanesejr**
+- Odds: **3.25**
+- Status: **Afventer**
+- Type: **priority_proxy_observation**
+- Note: **expanded_volume_forward_observation_not_real_money**
+
+### Fulham vs Newcastle
+- Dato: **2026-05-24**
+- Kampstart: **16:00**
+- Spil: **Uafgjort**
+- Odds: **3.80**
+- Status: **Afventer**
+- Type: **priority_proxy_observation**
+- Note: **expanded_volume_forward_observation_not_real_money**
+
+### Melbourne Knights vs North Geelong Warriors FC
+- Dato: **2026-05-24**
+- Kampstart: **05:00**
+- Spil: **Udebanesejr**
+- Odds: **5.00**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**

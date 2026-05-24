@@ -1,11 +1,11 @@
 # Paper Test Log Status
 
-Raw log rows: 527
-Valid forward/proxy log rows: 524
-Deduped forward/proxy observation rows: 388
-Duplicate forward/proxy log rows: 136
-Valid automatic proxy observation rows: 524
-Deduped automatic proxy observation rows: 388
+Raw log rows: 552
+Valid forward/proxy log rows: 549
+Deduped forward/proxy observation rows: 401
+Duplicate forward/proxy log rows: 148
+Valid automatic proxy observation rows: 549
+Deduped automatic proxy observation rows: 401
 Invalid historical/proxy log rows excluded: 3
 Has valid forward log: True
 
@@ -34,26 +34,26 @@ Has valid forward log: True
 
 ## Raw valid rows
 
-- 2026-05-23 | Canberra Olympic vs Belconnen United | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-23 | Davis Legacy vs Almaden FC | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-23 | Canberra White Eagles FC vs O'Connor Knights SC | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-23 | Canberra White Eagles FC vs O'Connor Knights FC | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-23 | Manukau United FC vs Tauranga City AFC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-23 | Auckland City FC vs Melville United AFC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-23 | Changwon FC vs Ulsan Citizen FC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-23 | South East United FC vs Ulverstone SC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-23 | Busan Transportation Corporation FC vs Chuncheon FC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-23 | University of Nsw vs Sydney United 58 FC | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-23 | South East United FC vs Ulverstone SC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-23 | Adelaide Atletico Victory Reserves vs South Adelaide Reserve | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-23 | Adelaide Atletico VSC vs South Adelaide FC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-23 | Adelaide Atletico VSC vs South Adelaide FC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-23 | Adelaide Atletico Victory Reserves vs South Adelaide Reserve | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-23 | Vonds Ichihara FC vs Shizuoka SSU Bonita | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-23 | Canberra Olympic vs Belconnen United | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-23 | Clarence Zebras FC vs Kingborough Lions United FC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-23 | Auckland United FC vs East Coast Bays | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-23 | Avondale FC vs Alamein FC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-24 | Brighton vs Man United | selection=away | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
+- 2026-05-24 | West Ham vs Leeds | selection=away | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
+- 2026-05-24 | Crystal Palace vs Arsenal | selection=home | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
+- 2026-05-24 | Tottenham vs Everton | selection=away | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
+- 2026-05-24 | Napoli vs Udinese | selection=draw | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
+- 2026-05-24 | Brighton vs Man United | selection=away | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
+- 2026-05-24 | West Ham vs Leeds | selection=away | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
+- 2026-05-24 | Napoli vs Udinese | selection=draw | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
+- 2026-05-24 | Nott'm Forest vs Bournemouth | selection=home | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
+- 2026-05-24 | Nott'm Forest vs Bournemouth | selection=home | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
+- 2026-05-24 | Parma vs Sassuolo | selection=home | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
+- 2026-05-24 | Parma vs Sassuolo | selection=home | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
+- 2026-05-24 | Burnley vs Wolves | selection=away | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
+- 2026-05-24 | Burnley vs Wolves | selection=away | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
+- 2026-05-24 | Cadiz vs Leganes | selection=away | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
+- 2026-05-24 | Fulham vs Newcastle | selection=draw | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
+- 2026-05-24 | Fulham vs Newcastle | selection=draw | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
+- 2026-05-24 | Man City vs Aston Villa | selection=draw | phase=automatic_forward_price_proxy | tier=volume_observation
+- 2026-05-24 | Cadiz vs Leganes | selection=away | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
+- 2026-05-24 | Melbourne Knights vs North Geelong Warriors FC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 
 ## Invalid rows excluded
 

@@ -1,26 +1,26 @@
 discovery_source,query,target_home_team,target_away_team,target_match_date,candidate_event_id,candidate_home_team,candidate_away_team,candidate_match_date,event_match_confidence,selected,rejection_reason,selected_bool,event_match_confidence_num
-events_bookmaker_filtered,Clarence Zebras FC 2,Clarence Zebras FC 2,Olympia Warriors Hobart,2026-05-23,68686532,Clarence Zebras FC 2,Olympia Warriors Hobart,2026-05-23,1.0,True,,True,1.0
-events_bookmaker_filtered,Playford City Reserve,Playford City Reserve,West Adelaide SC Reserve,2026-05-23,68050036,Playford City Reserve,West Adelaide SC Reserve,2026-05-23,1.0,True,,True,1.0
-events_bookmaker_filtered,Tokyo Verdy Beleza,Tokyo Verdy Beleza,Naegohyang Womens FC,2026-05-23,68532512,Tokyo Verdy Beleza,Naegohyang Womens FC,2026-05-23,1.0,True,,True,1.0
-events_bookmaker_filtered,Dandenong City SC,Dandenong City SC,ST Albans Saints Dinamo SC,2026-05-23,68161332,Dandenong City SC,ST Albans Saints Dinamo SC,2026-05-23,1.0,True,,True,1.0
-events_bookmaker_filtered,Canberra Olympic,Canberra Olympic,Belconnen United,2026-05-23,69194930,Canberra Olympic,Belconnen United,2026-05-23,1.0,True,,True,1.0
-events_bookmaker_filtered,Sanfrecce Hiroshima,Sanfrecce Hiroshima,Nagoya Grampus,2026-05-23,67645076,Sanfrecce Hiroshima,Nagoya Grampus,2026-05-23,1.0,True,,True,1.0
-events_bookmaker_filtered,Changwon FC,Changwon FC,Ulsan Citizen FC,2026-05-23,68916318,Changwon FC,Ulsan Citizen FC,2026-05-23,1.0,True,,True,1.0
-events_bookmaker_filtered,North Sunshine Eagles FC,North Sunshine Eagles FC,Langwarrin SC,2026-05-23,68160568,North Sunshine Eagles FC,Langwarrin SC,2026-05-23,1.0,True,,True,1.0
-events_bookmaker_filtered,South Melbourne FC,South Melbourne FC,Bentleigh Greens SC,2026-05-23,68162388,South Melbourne FC,Bentleigh Greens SC,2026-05-23,1.0,True,,True,1.0
-events_bookmaker_filtered,Manukau United FC,Manukau United FC,Tauranga City AFC,2026-05-23,69460614,Manukau United FC,Tauranga City AFC,2026-05-23,1.0,True,,True,1.0
-events_bookmaker_filtered,Edgeworth FC Reserve,Edgeworth FC Reserve,Lambton Jaffas FC Reserve,2026-05-23,67808472,Edgeworth FC Reserve,Lambton Jaffas FC Reserve,2026-05-23,1.0,True,,True,1.0
-events_bookmaker_filtered,Dianella White Eagles SC,Dianella White Eagles SC,Armadale SC,2026-05-23,69115746,Dianella White Eagles SC,Armadale SC,2026-05-23,1.0,True,,True,1.0
-events_bookmaker_filtered,Dianella White Eagles SC,Dianella White Eagles SC,Armadale SC,2026-05-23,69115210,Dianella White Eagles SC,Armadale SC,2026-05-23,1.0,False,,False,1.0
-events_bookmaker_filtered,Launceston United,Launceston United,South Hobart FC,2026-05-23,68686928,Launceston United,South Hobart FC,2026-05-23,1.0,True,,True,1.0
-events_bookmaker_filtered,Canberra White Eagles FC,Canberra White Eagles FC,O'Connor Knights FC,2026-05-23,69194932,Canberra White Eagles FC,O'Connor Knights FC,2026-05-23,1.0,True,,True,1.0
-events_bookmaker_filtered,Modbury Jets SC Reserve,Modbury Jets SC Reserve,Cumberland United Reserve,2026-05-23,68050310,Modbury Jets SC Reserve,Cumberland United Reserve,2026-05-23,1.0,True,,True,1.0
-events_bookmaker_filtered,Salisbury United Reserve,Salisbury United Reserve,Adelaide Cobras Reserves,2026-05-23,68050314,Salisbury United Reserve,Adelaide Cobras Reserves,2026-05-23,1.0,True,,True,1.0
-events_bookmaker_filtered,Gold Coast United FC,Gold Coast United FC,Rochedale Rovers,2026-05-23,67905200,Gold Coast United FC,Rochedale Rovers,2026-05-23,1.0,True,,True,1.0
-events_bookmaker_filtered,Christchurch United FC,Christchurch United FC,Coastal Spirit FC,2026-05-23,69463280,Christchurch United FC,Coastal Spirit FC,2026-05-23,1.0,True,,True,1.0
-events_bookmaker_filtered,University of Nsw,University of Nsw,Sydney United 58 FC,2026-05-23,67693068,University of NSW,Sydney United 58 FC,2026-05-23,1.0,False,,False,1.0
-events_bookmaker_filtered,Bentleigh Greens SC,Bentleigh Greens SC,Caroline Springs George Cross FC,2026-05-23,68161330,Bentleigh Greens SC,Caroline Springs George Cross FC,2026-05-23,1.0,True,,True,1.0
-events_bookmaker_filtered,Albirex Niigata,Albirex Niigata,Ehime FC,2026-05-23,67648310,Albirex Niigata,Ehime FC,2026-05-23,1.0,True,,True,1.0
-events_bookmaker_filtered,Queanbeyan City FC,Queanbeyan City FC,Canberra Juventus FC,2026-05-23,69195830,Queanbeyan City FC,Canberra Juventus FC,2026-05-23,1.0,True,,True,1.0
-events_bookmaker_filtered,Subiaco AFC Reserve,Subiaco AFC Reserve,Curtin University SC Reserves,2026-05-23,69768180,Subiaco AFC Reserve,Curtin University SC Reserves,2026-05-23,1.0,True,,True,1.0
-events_bookmaker_filtered,Campbelltown City SC Reserve,Campbelltown City SC Reserve,Sturt Lions Reserve,2026-05-23,68050038,Campbelltown City SC Reserve,Sturt Lions Reserve,2026-05-23,1.0,True,,True,1.0
+events_bookmaker_filtered,Bigfoot FC,Bigfoot FC,West Seattle Junction FC,2026-05-24,69091090,Bigfoot FC,West Seattle Junction FC,2026-05-24,1.0,True,,True,1.0
+events_search_fallback,Albacete Basket,Albacete Basket,AB Castello,2026-05-24,71562550,Albacete Basket,AB Castello,2026-05-24,1.0,True,,True,1.0
+events_bookmaker_filtered,Illawarra Stingrays,Illawarra Stingrays,Hills United FC,2026-05-24,67692622,Illawarra Stingrays,Hills United FC,2026-05-24,1.0,True,,True,1.0
+events_bookmaker_filtered,Hellenic Athletic Club,Hellenic Athletic Club,Port Darwin FC,2026-05-24,71127914,Hellenic Athletic Club,Port Darwin FC,2026-05-24,1.0,True,,True,1.0
+events_bookmaker_filtered,Balcatta FC,Balcatta FC,Perth Redstar FC,2026-05-24,69767372,Balcatta FC,Perth Redstar FC,2026-05-24,1.0,True,,True,1.0
+events_bookmaker_filtered,Astorps FF,Astorps FF,Vastra Frolunda IF,2026-05-24,68377700,Astorps FF,Vastra Frolunda IF,2026-05-24,1.0,True,,True,1.0
+events_bookmaker_filtered,Zweigen Kanazawa,Zweigen Kanazawa,Kochi United SC,2026-05-24,68664144,Zweigen Kanazawa,Kochi United SC,2026-05-24,1.0,True,,True,1.0
+events_bookmaker_filtered,CD Covadonga,CD Covadonga,CD Mosconia,2026-05-24,71454146,CD Covadonga,CD Mosconia,2026-05-24,1.0,True,,True,1.0
+events_bookmaker_filtered,Sparta Prague,Sparta Prague,1. FC Slovacko Uherske Hradiste,2026-05-24,70223974,Sparta Prague,1. FC Slovacko Uherske Hradiste,2026-05-24,1.0,True,,True,1.0
+events_bookmaker_filtered,Gold Coast United FC,Gold Coast United FC,Eastern Suburbs FC,2026-05-24,67904756,Gold Coast United FC,Eastern Suburbs FC,2026-05-24,1.0,True,,True,1.0
+events_bookmaker_filtered,Becamex Ho Chi Minh City,Becamex Ho Chi Minh City,Song Lam Nghe An,2026-05-24,68663494,Becamex Ho Chi Minh City,Song Lam Nghe An,2026-05-24,1.0,True,,True,1.0
+events_bookmaker_filtered,Montedio Yamagata,Montedio Yamagata,Shonan Bellmare,2026-05-24,67647998,Montedio Yamagata,Shonan Bellmare,2026-05-24,1.0,True,,True,1.0
+events_bookmaker_filtered,Giravanz Kitakyushu,Giravanz Kitakyushu,Kagoshima United,2026-05-24,67648476,Giravanz Kitakyushu,Kagoshima United,2026-05-24,1.0,True,,True,1.0
+events_bookmaker_filtered,Wollongong Wolves FC,Wollongong Wolves FC,St George Saints FC,2026-05-24,67690880,Wollongong Wolves FC,St George Saints FC,2026-05-24,1.0,True,,True,1.0
+events_bookmaker_filtered,Angby IF,Angby IF,Bollstanas SK,2026-05-24,68320804,Angby IF,Bollstanas SK,2026-05-24,1.0,True,,True,1.0
+events_bookmaker_filtered,Eastern District,Eastern District,North District FC,2026-05-24,69760548,Eastern District,North District FC,2026-05-24,1.0,True,,True,1.0
+events_bookmaker_filtered,Island Bay United,Island Bay United,Petone FC,2026-05-24,69462626,Island Bay United,Petone FC,2026-05-24,1.0,True,,True,1.0
+events_bookmaker_filtered,Central Stallions FC,Central Stallions FC,Hunters FC,2026-05-24,71423492,Central Stallions FC,Hunters FC,2026-05-24,1.0,True,,True,1.0
+events_bookmaker_filtered,NHK Spring Yokohama FC Seagulls,NHK Spring Yokohama FC Seagulls,AS Harima Albion,2026-05-24,68728654,NHK Spring Yokohama FC Seagulls,AS Harima Albion,2026-05-24,1.0,True,,True,1.0
+events_bookmaker_filtered,Tokyo Verdy,Tokyo Verdy,Yokohama F Marinos,2026-05-24,67645572,Tokyo Verdy,Yokohama F Marinos,2026-05-24,1.0,True,,True,1.0
+events_bookmaker_filtered,Kamatamare Sanuki,Kamatamare Sanuki,FC Osaka,2026-05-24,67648314,Kamatamare Sanuki,FC Osaka,2026-05-24,1.0,True,,True,1.0
+events_bookmaker_filtered,Vanraure Hachinohe FC,Vanraure Hachinohe FC,Tochigi SC,2026-05-24,67647994,Vanraure Hachinohe FC,Tochigi SC,2026-05-24,1.0,True,,True,1.0
+events_bookmaker_filtered,Ha Tinh FC,Ha Tinh FC,Cong An Ha Noi FC,2026-05-24,68663496,Ha Tinh FC,Cong An Ha Noi FC,2026-05-24,1.0,True,,True,1.0
+events_bookmaker_filtered,Central Coast Mariners Academy,Central Coast Mariners Academy,Prospect United,2026-05-24,67691622,Central Coast Mariners Academy,Prospect United,2026-05-24,1.0,True,,True,1.0
+events_bookmaker_filtered,BK Astrio,BK Astrio,Landvetter IS,2026-05-24,68377696,BK Astrio,Landvetter IS,2026-05-24,1.0,True,,True,1.0

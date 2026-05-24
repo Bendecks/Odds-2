@@ -5,28 +5,27 @@ This report is paper/proxy-only and never real-money ready.
 
 Proxy candidate rows: 12
 Explained rows: 12
-Distinct blockers: 4
-Top blocker: ev_above_real_candidate_cap_possible_overconfidence
+Distinct blockers: 3
+Top blocker: market_alignment_penalty_too_high_for_real_candidate
 Real-money ready: False
 
 ## Blocker summary
 
-- ev_above_real_candidate_cap_possible_overconfidence: 12
-- market_alignment_penalty_too_high_for_real_candidate: 12
-- probability_or_league_rule_suppressed: 5
-- low_probability_band_under_0_35: 5
+- market_alignment_penalty_too_high_for_real_candidate: 8
+- ev_above_real_candidate_cap_possible_overconfidence: 6
+- watchlist_only_pending_forward_settlement: 4
 
 ## Row explanations
 
-- 2026-05-23 | Croydon Kings FC Reserve vs North Eastern Metrostars SC Reserves | sel=HOME | score=0.2633 | blockers=ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate | improve=calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration
-- 2026-05-23 | Croydon FC vs North Eastern Metrostars SC | sel=HOME | score=0.2633 | blockers=ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate | improve=calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration
-- 2026-05-23 | Davis Legacy vs Almaden FC | sel=HOME | score=0.2583 | blockers=ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate | improve=calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration
-- 2026-05-23 | Canberra White Eagles FC vs O'Connor Knights SC | sel=HOME | score=0.2549 | blockers=ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate | improve=calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration
-- 2026-05-23 | Canberra White Eagles FC vs O'Connor Knights FC | sel=HOME | score=0.2549 | blockers=ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate | improve=calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration
-- 2026-05-23 | University of Nsw vs Sydney United 58 FC | sel=HOME | score=0.2477 | blockers=ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate | improve=calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration
-- 2026-05-23 | Clarence Zebras FC vs Kingborough Lions United FC | sel=HOME | score=0.2223 | blockers=ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate | improve=calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration
-- 2026-05-23 | Canberra Olympic vs Belconnen United | sel=AWAY | score=0.123 | blockers=probability_or_league_rule_suppressed; low_probability_band_under_0_35; ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate | improve=collect settled forward results before trusting low-probability selections; calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration
-- 2026-05-23 | Changwon FC vs Ulsan Citizen FC | sel=AWAY | score=0.1201 | blockers=probability_or_league_rule_suppressed; low_probability_band_under_0_35; ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate | improve=collect settled forward results before trusting low-probability selections; calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration
-- 2026-05-23 | Auckland City FC vs Melville United AFC | sel=DRAW | score=0.1196 | blockers=probability_or_league_rule_suppressed; low_probability_band_under_0_35; ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate | improve=collect settled forward results before trusting low-probability selections; calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration
-- 2026-05-23 | Manukau United FC vs Tauranga City AFC | sel=DRAW | score=0.1196 | blockers=probability_or_league_rule_suppressed; low_probability_band_under_0_35; ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate | improve=collect settled forward results before trusting low-probability selections; calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration
-- 2026-05-23 | South East United FC vs Ulverstone SC | sel=AWAY | score=0.1194 | blockers=probability_or_league_rule_suppressed; low_probability_band_under_0_35; ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate | improve=collect settled forward results before trusting low-probability selections; calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration
+- 2026-05-24 | Giravanz Kitakyushu vs Kagoshima United | sel=HOME | score=0.2649 | blockers=ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate | improve=calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration
+- 2026-05-24 | Hellenic Athletic Club vs Port Darwin FC | sel=HOME | score=0.2649 | blockers=ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate | improve=calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration
+- 2026-05-24 | Western City Rangers FC vs Macarthur Rams | sel=HOME | score=0.2649 | blockers=ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate | improve=calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration
+- 2026-05-24 | Kamatamare Sanuki vs FC Osaka | sel=HOME | score=0.2583 | blockers=ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate | improve=calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration
+- 2026-05-24 | Launceston City FC vs Devonport City SC | sel=HOME | score=0.2549 | blockers=ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate | improve=calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration
+- 2026-05-24 | Montedio Yamagata vs Shonan Bellmare | sel=HOME | score=0.2439 | blockers=ev_above_real_candidate_cap_possible_overconfidence; market_alignment_penalty_too_high_for_real_candidate | improve=calibration should reduce overconfident EV spikes; needs better market alignment or stricter probability calibration
+- 2026-05-24 | Preston Lions FC vs Oakleigh Cannons | sel=HOME | score=0.24 | blockers=market_alignment_penalty_too_high_for_real_candidate | improve=needs better market alignment or stricter probability calibration
+- 2026-05-24 | Yongin City FC vs Chungnam Asan FC | sel=HOME | score=0.24 | blockers=market_alignment_penalty_too_high_for_real_candidate | improve=needs better market alignment or stricter probability calibration
+- 2026-05-24 | Kahibah FC Reserve vs Adamstown Rosebud FC Reserve | sel=HOME | score=0.236 | blockers=watchlist_only_pending_forward_settlement | improve=monitor until settled forward sample is large enough
+- 2026-05-24 | Orca Kamogawa FC vs Viamaterasu Miyazaki | sel=HOME | score=0.236 | blockers=watchlist_only_pending_forward_settlement | improve=monitor until settled forward sample is large enough
+- 2026-05-24 | Kahibah FC vs Adamstown Rosebud FC | sel=HOME | score=0.236 | blockers=watchlist_only_pending_forward_settlement | improve=monitor until settled forward sample is large enough
+- 2026-05-24 | Mito Hollyhock vs Kawasaki Frontale | sel=HOME | score=0.236 | blockers=watchlist_only_pending_forward_settlement | improve=monitor until settled forward sample is large enough

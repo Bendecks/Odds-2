@@ -1,13 +1,6 @@
 # Skjulte U-/reserve-rækker
 
-Skjulte rækker: 26
-
-## Aktuelle
-
-- 2026-05-23 kl. 02:45 – Croydon Kings FC Reserve vs North Eastern Metrostars SC Reserves
-- 2026-05-23 kl. 02:45 – Canberra White Eagles FC vs O'Connor Knights SC
-- 2026-05-23 kl. 02:45 – Adelaide Atletico Victory Reserves vs South Adelaide Reserve
-- 2026-05-23 kl. 02:45 – Adelaide Atletico Victory Reserves vs South Adelaide Reserve
+Skjulte rækker: 22
 
 ## Log
 
