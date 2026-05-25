@@ -1,17 +1,17 @@
 # Paper Test Log Status
 
-Raw log rows: 552
-Valid forward/proxy log rows: 549
-Deduped forward/proxy observation rows: 401
+Raw log rows: 577
+Valid forward/proxy log rows: 574
+Deduped forward/proxy observation rows: 426
 Duplicate forward/proxy log rows: 148
-Valid automatic proxy observation rows: 549
-Deduped automatic proxy observation rows: 401
+Valid automatic proxy observation rows: 574
+Deduped automatic proxy observation rows: 426
 Invalid historical/proxy log rows excluded: 3
 Has valid forward log: True
 
 ## Deduped valid rows
 
-- 2026-05-23 | Vonds Ichihara FC vs Shizuoka SSU Bonita | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0585
+- 2026-05-25 | HamKam vs Lillestroem SK | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0579
 - 2026-05-15 | Maitland FC Reserve vs Cooks Hill United FC Reserve | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0577
 - 2026-05-15 | Cong An TP Ho Chi Minh City FC vs SHB Da Nang | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0577
 - 2026-05-19 | Chengdu Rongcheng vs Shanghai Port FC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation | score=0.0568
@@ -34,26 +34,26 @@ Has valid forward log: True
 
 ## Raw valid rows
 
-- 2026-05-24 | Brighton vs Man United | selection=away | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
-- 2026-05-24 | West Ham vs Leeds | selection=away | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
-- 2026-05-24 | Crystal Palace vs Arsenal | selection=home | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
-- 2026-05-24 | Tottenham vs Everton | selection=away | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
-- 2026-05-24 | Napoli vs Udinese | selection=draw | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
-- 2026-05-24 | Brighton vs Man United | selection=away | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
-- 2026-05-24 | West Ham vs Leeds | selection=away | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
-- 2026-05-24 | Napoli vs Udinese | selection=draw | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
-- 2026-05-24 | Nott'm Forest vs Bournemouth | selection=home | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
-- 2026-05-24 | Nott'm Forest vs Bournemouth | selection=home | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
-- 2026-05-24 | Parma vs Sassuolo | selection=home | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
-- 2026-05-24 | Parma vs Sassuolo | selection=home | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
-- 2026-05-24 | Burnley vs Wolves | selection=away | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
-- 2026-05-24 | Burnley vs Wolves | selection=away | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
-- 2026-05-24 | Cadiz vs Leganes | selection=away | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
-- 2026-05-24 | Fulham vs Newcastle | selection=draw | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
-- 2026-05-24 | Fulham vs Newcastle | selection=draw | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
-- 2026-05-24 | Man City vs Aston Villa | selection=draw | phase=automatic_forward_price_proxy | tier=volume_observation
-- 2026-05-24 | Cadiz vs Leganes | selection=away | phase=automatic_forward_price_proxy | tier=priority_proxy_observation
-- 2026-05-24 | Melbourne Knights vs North Geelong Warriors FC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-25 | Eb/Streymur vs NSI Runavik | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-25 | Volsungur vs Keflavik IF | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-25 | Fram vs Thor/KA | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-25 | FA Siauliai vs FK Riteriai | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-25 | FK Haugesund vs Moss FK | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-25 | Bnei Yehuda Tel Aviv FC vs Maccabi Herzliya | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-25 | Lyn 1896 FK vs Stroemmen IF | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-25 | Ogre United vs Grobinas SC/LFS | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-25 | Hoedd IL vs Egersunds IK | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-25 | PFC Lokomotiv Plovdiv vs Botev Plovdiv | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-25 | Kolding IF vs Hillerod Fodbold | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-25 | Bhutan vs Nepal | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-25 | Asker Fotball vs Gamle Oslo FK | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-25 | Strindheim TF vs Nardo FK | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-25 | SK Rapid vs SV Ried | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-25 | Stroemsgodset IF vs Bryne FK | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-25 | SV Dinamo Helfort 15 vs SV Schwechat | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-25 | Naestved HG vs Esbjerg FB | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-25 | Valerenga IF 2 vs Heming | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-25 | HamKam vs Lillestroem SK | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 
 ## Invalid rows excluded
 

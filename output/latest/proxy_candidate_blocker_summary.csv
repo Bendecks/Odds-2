@@ -1,4 +1,5 @@
 blocker,rows
 market_alignment_penalty_too_high_for_real_candidate,8
 ev_above_real_candidate_cap_possible_overconfidence,6
-watchlist_only_pending_forward_settlement,4
+watchlist_only_pending_forward_settlement,2
+edge_below_candidate_threshold,2

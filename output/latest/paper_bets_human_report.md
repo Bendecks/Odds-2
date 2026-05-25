@@ -5,9 +5,9 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 
 ## Kort status
 
-- Aktuelle viste paper picks: **13**
-- Unikke loggede paper picks: **383**
-- Afventer i loggen: **380**
+- Aktuelle viste paper picks: **25**
+- Unikke loggede paper picks: **408**
+- Afventer i loggen: **405**
 - Afgjorte fundet i settled-filen: **210**
 - Skjulte U-/reserve-rækker: **22**
 - Vundne: **70**
@@ -16,119 +16,182 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 
 ## Aktuelle paper picks
 
-### Man City vs Aston Villa
-- Dato: **2026-05-24**
-- Kampstart: **16:00**
-- Spil: **Uafgjort**
-- Odds: **5.93**
+### AS Fortuna vs Colombe Sportive Du Dja Et Lobo
+- Dato: **2026-05-25**
+- Kampstart: **15:00**
+- Spil: **Hjemmesejr**
+- Odds: **4.75**
 - Status: **Afventer**
-- Type: **volume_observation**
-- Note: **expanded_volume_forward_observation_not_real_money**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Liverpool vs Brentford
-- Dato: **2026-05-24**
-- Kampstart: **16:00**
+### Haukar Hafnarfjordur vs UMF Selfoss
+- Dato: **2026-05-25**
+- Kampstart: **14:00**
 - Spil: **Udebanesejr**
+- Odds: **5.00**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Sotra SK vs Bjarg
+- Dato: **2026-05-25**
+- Kampstart: **12:00**
+- Spil: **Udebanesejr**
+- Odds: **4.75**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Stade Gabesien vs US Tataouine
+- Dato: **2026-05-25**
+- Kampstart: **15:00**
+- Spil: **Udebanesejr**
+- Odds: **4.75**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### FC Samgurali Tskaltubo vs FC Iberia 1999
+- Dato: **2026-05-25**
+- Kampstart: **15:00**
+- Spil: **Hjemmesejr**
 - Odds: **4.00**
 - Status: **Afventer**
-- Type: **priority_proxy_observation**
-- Note: **expanded_volume_forward_observation_not_real_money**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Tottenham vs Everton
-- Dato: **2026-05-24**
-- Kampstart: **16:00**
-- Spil: **Udebanesejr**
-- Odds: **4.30**
+### Eb/Streymur vs NSI Runavik
+- Dato: **2026-05-25**
+- Kampstart: **14:00**
+- Spil: **Uafgjort**
+- Odds: **6.00**
 - Status: **Afventer**
-- Type: **volume_observation**
-- Note: **expanded_volume_forward_observation_not_real_money**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Crystal Palace vs Arsenal
-- Dato: **2026-05-24**
+### Volsungur vs Keflavik IF
+- Dato: **2026-05-25**
+- Kampstart: **13:00**
+- Spil: **Hjemmesejr**
+- Odds: **3.90**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Fram vs Thor/KA
+- Dato: **2026-05-25**
 - Kampstart: **16:00**
 - Spil: **Hjemmesejr**
-- Odds: **4.33**
+- Odds: **3.50**
 - Status: **Afventer**
-- Type: **priority_proxy_observation**
-- Note: **expanded_volume_forward_observation_not_real_money**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Brighton vs Man United
-- Dato: **2026-05-24**
-- Kampstart: **16:00**
-- Spil: **Udebanesejr**
-- Odds: **3.75**
-- Status: **Afventer**
-- Type: **priority_proxy_observation**
-- Note: **expanded_volume_forward_observation_not_real_money**
-
-### West Ham vs Leeds
-- Dato: **2026-05-24**
-- Kampstart: **16:00**
-- Spil: **Udebanesejr**
-- Odds: **4.00**
-- Status: **Afventer**
-- Type: **priority_proxy_observation**
-- Note: **expanded_volume_forward_observation_not_real_money**
-
-### Napoli vs Udinese
-- Dato: **2026-05-24**
-- Kampstart: **17:00**
+### FA Siauliai vs FK Riteriai
+- Dato: **2026-05-25**
+- Kampstart: **15:30**
 - Spil: **Uafgjort**
-- Odds: **4.33**
+- Odds: **5.25**
 - Status: **Afventer**
-- Type: **priority_proxy_observation**
-- Note: **expanded_volume_forward_observation_not_real_money**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Nott'm Forest vs Bournemouth
-- Dato: **2026-05-24**
+### FK Haugesund vs Moss FK
+- Dato: **2026-05-25**
+- Kampstart: **15:00**
+- Spil: **Udebanesejr**
+- Odds: **3.80**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Bnei Yehuda Tel Aviv FC vs Maccabi Herzliya
+- Dato: **2026-05-25**
 - Kampstart: **16:00**
+- Spil: **Hjemmesejr**
+- Odds: **3.40**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Lyn 1896 FK vs Stroemmen IF
+- Dato: **2026-05-25**
+- Kampstart: **15:00**
+- Spil: **Udebanesejr**
+- Odds: **3.70**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Ogre United vs Grobinas SC/LFS
+- Dato: **2026-05-25**
+- Kampstart: **15:00**
 - Spil: **Hjemmesejr**
 - Odds: **3.30**
 - Status: **Afventer**
-- Type: **priority_proxy_observation**
-- Note: **expanded_volume_forward_observation_not_real_money**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Parma vs Sassuolo
-- Dato: **2026-05-24**
-- Kampstart: **14:00**
+### Hoedd IL vs Egersunds IK
+- Dato: **2026-05-25**
+- Kampstart: **15:00**
 - Spil: **Hjemmesejr**
-- Odds: **2.70**
+- Odds: **3.30**
 - Status: **Afventer**
-- Type: **priority_proxy_observation**
-- Note: **expanded_volume_forward_observation_not_real_money**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Burnley vs Wolves
-- Dato: **2026-05-24**
-- Kampstart: **16:00**
-- Spil: **Udebanesejr**
-- Odds: **2.90**
+### PFC Lokomotiv Plovdiv vs Botev Plovdiv
+- Dato: **2026-05-25**
+- Kampstart: **14:45**
+- Spil: **Hjemmesejr**
+- Odds: **3.30**
 - Status: **Afventer**
-- Type: **priority_proxy_observation**
-- Note: **expanded_volume_forward_observation_not_real_money**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Cadiz vs Leganes
-- Dato: **2026-05-24**
-- Kampstart: **17:30**
-- Spil: **Udebanesejr**
-- Odds: **3.25**
+### Kolding IF vs Hillerod Fodbold
+- Dato: **2026-05-25**
+- Kampstart: **11:00**
+- Spil: **Hjemmesejr**
+- Odds: **3.30**
 - Status: **Afventer**
-- Type: **priority_proxy_observation**
-- Note: **expanded_volume_forward_observation_not_real_money**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Fulham vs Newcastle
-- Dato: **2026-05-24**
+### Bhutan vs Nepal
+- Dato: **2026-05-25**
+- Kampstart: **11:00**
+- Spil: **Uafgjort**
+- Odds: **5.00**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Asker Fotball vs Gamle Oslo FK
+- Dato: **2026-05-25**
 - Kampstart: **16:00**
 - Spil: **Uafgjort**
-- Odds: **3.80**
-- Status: **Afventer**
-- Type: **priority_proxy_observation**
-- Note: **expanded_volume_forward_observation_not_real_money**
-
-### Melbourne Knights vs North Geelong Warriors FC
-- Dato: **2026-05-24**
-- Kampstart: **05:00**
-- Spil: **Udebanesejr**
 - Odds: **5.00**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Strindheim TF vs Nardo FK
+- Dato: **2026-05-25**
+- Kampstart: **12:00**
+- Spil: **Udebanesejr**
+- Odds: **3.50**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### SK Rapid vs SV Ried
+- Dato: **2026-05-25**
+- Kampstart: **15:00**
+- Spil: **Udebanesejr**
+- Odds: **3.50**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**

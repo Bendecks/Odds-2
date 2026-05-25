@@ -6,18 +6,13 @@ Youth, U-teams, reserve teams, academy teams and B-teams are rejected before pap
 Swapped home/away matches are rejected because venue affects both model probabilities and market odds.
 
 Input price rows: 60
-Accepted price rows: 53
-Rejected price rows: 7
-Rejected U-/reserve rows: 7
-Forward prediction rows: 300
+Accepted price rows: 58
+Rejected price rows: 2
+Rejected U-/reserve rows: 2
+Forward prediction rows: 228
 Rule: accept_only_direct_senior_home_away_match_against_forward_fixture_predictions
 
 ## Rejected prices
 
-- 2026-05-24 | Blacktown City FC vs Sydney Olympic FC | odds_api_io_Bet365_ML | status=rejected_youth_or_reserve_match
-- 2026-05-24 | Kahibah FC Reserve vs Adamstown Rosebud FC Reserve | odds_api_io_Bet365_ML | status=rejected_youth_or_reserve_match
-- 2026-05-24 | Wollongong Wolves FC vs St George FC | odds_api_io_Bet365_ML | status=rejected_youth_or_reserve_match
-- 2026-05-24 | Boroondara Eagles vs Melbourne City Youth | odds_api_io_Bet365_ML | status=rejected_youth_or_reserve_match
-- 2026-05-24 | Central Coast Mariners Academy vs Prospect United | odds_api_io_Bet365_ML | status=rejected_youth_or_reserve_match
-- 2026-05-24 | St George Willawong vs Ipswich FC | odds_api_io_Bet365_ML | status=rejected_youth_or_reserve_match
-- 2026-05-24 | Real Madrid vs FC Barcelona | odds_api_io_Bet365_ML | status=rejected_youth_or_reserve_match
+- 2026-05-25 | Montevideo Wanderers vs Liverpool Montevideo | odds_api_io_Bet365_ML | status=rejected_youth_or_reserve_match
+- 2026-05-25 | Albion FC vs Boston River | odds_api_io_Bet365_ML | status=rejected_youth_or_reserve_match
