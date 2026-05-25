@@ -1,31 +1,12 @@
 sport_query,event_id,date_denmark,home,away,league,sport,bookmaker_count,status,reason
-football,70905780,2026-05-25 19:30,FC CSKA 1948,PFC Levski Sofia,Bulgaria - Parva Liga,Football,0,pending,not_good_competition_or_low_coverage
-football,70905782,2026-05-25 19:30,PFC Ludogorets 1945 Razgrad,PFC CSKA Sofia,Bulgaria - Parva Liga,Football,0,pending,not_good_competition_or_low_coverage
-football,71668808,2026-05-25 20:00,Progreso,Defensor Sporting,"Uruguay - Tercera Division, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,71668810,2026-05-25 20:00,La Luz FC Reserves,Juventud de Las Piedras,"Uruguay - Tercera Division, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,71668812,2026-05-25 20:00,Colon FC Reserve,Racing Club Montevideo,"Uruguay - Tercera Division, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,71668814,2026-05-25 20:00,Cerro Largo FC,Club Oriental de Football,"Uruguay - Tercera Division, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,71668816,2026-05-25 20:00,Penarol Montevideo,Deportivo Maldonado Reserve,"Uruguay - Tercera Division, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,71600978,2026-05-25 20:00,Legnago Salus,Union Clodiense,"Italy - Serie D, Group C",Football,0,pending,not_good_competition_or_low_coverage
-football,71372692,2026-05-25 20:00,Club Ada Jaen,CD Universidad Cesar Vallejo,Peru - Liga 2,Football,0,pending,not_good_competition_or_low_coverage
-football,61737348,2026-05-25 20:30,FK Sarajevo,FK Zeljeznicar Sarajevo,Bosnia & Herzegovina - Premijer Liga,Football,0,pending,not_good_competition_or_low_coverage
-football,71701748,2026-05-25 20:30,Parma Calcio 1913 U20,Cesena FC,Italy - Primavera 1,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,66854118,2026-05-25 20:45,Derry City FC,Shelbourne FC,Ireland - Premier Division,Football,0,pending,not_good_competition_or_low_coverage
-football,71567540,2026-05-25 20:45,Treaty United,Cork City FC,Ireland - First Division,Football,0,pending,not_good_competition_or_low_coverage
-football,66854116,2026-05-25 21:00,Bohemians Dublin FC,Shamrock Rovers,Ireland - Premier Division,Football,0,pending,not_good_competition_or_low_coverage
-football,71645622,2026-05-25 21:00,Sportivo Luqueno,Olimpia Asuncion,"Paraguay - Primera Division Reserve, Apertura",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,69091120,2026-05-25 21:00,Lorain County Leviathan FC,FC Buffalo,USA - USL League Two,Football,0,pending,not_good_competition_or_low_coverage
-football,68194432,2026-05-25 21:15,Throttur Reykjavik,Stjarnan,"Iceland - Besta deild, Women",Football,0,pending,not_good_competition_or_low_coverage
-football,68194434,2026-05-25 21:15,Breidablik Kopavogur,FH Hafnarfjordur,"Iceland - Besta deild, Women",Football,0,pending,not_good_competition_or_low_coverage
-football,68194436,2026-05-25 21:15,Vikingur Reykjavik,Valur Reykjavik,"Iceland - Besta deild, Women",Football,0,pending,not_good_competition_or_low_coverage
-football,69091122,2026-05-25 21:30,FC Olympia,West Seattle Junction FC,USA - USL League Two,Football,0,pending,not_good_competition_or_low_coverage
-football,71377104,2026-05-25 22:15,FC Melgar,Atletico Andahuaylas,Peru - Liga Femenina,Football,0,pending,not_good_competition_or_low_coverage
-football,71372596,2026-05-25 22:30,Comerciantes Unidos,Deportivo Garcilaso,Peru - Liga 1,Football,0,pending,not_good_competition_or_low_coverage
 football,71377106,2026-05-26 01:00,Flamengo FBC,Universitario de Deportes,Peru - Liga Femenina,Football,0,pending,not_good_competition_or_low_coverage
 football,68097914,2026-05-26 02:00,Deportes Copiapo,Union Espanola,Chile - Primera B,Football,0,pending,not_good_competition_or_low_coverage
 football,68687668,2026-05-26 02:00,SD Aucas,Manta FC,Ecuador - LigaPro Primera A,Football,0,pending,not_good_competition_or_low_coverage
 football,71523522,2026-05-26 02:00,R.K.S.V. Scherpenheuvel,Inter Willemstad,Curacao - Prome Divishon,Football,0,pending,not_good_competition_or_low_coverage
 football,71677026,2026-05-26 03:00,Real Cartagena FC,Envigado FC,Colombia - Primera B,Football,0,pending,not_good_competition_or_low_coverage
+football,69910672,2026-05-26 09:30,Taian Tiankuang,Dalian Kewei,China - China League 2,Football,0,pending,not_good_competition_or_low_coverage
+football,69910674,2026-05-26 10:00,Shanghai Port B,Lanzhou Longyuan Athletic,China - China League 2,Football,0,pending,not_good_competition_or_low_coverage
+football,69910938,2026-05-26 10:00,Shenzhen 2028 FC,Wenzhou Professional FC,China - China League 2,Football,0,pending,not_good_competition_or_low_coverage
 tennis,71715120,2026-05-26 01:00,"Liope, Faustine","Shibata, Shiho",UTR Women - UTR PTT Gold Coast Women 03,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,71659344,2026-05-26 01:00,"Jasika, Omar","Jankoski, Daniel",UTR Men - UTR PTT Gold Coast Men 03,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,71659346,2026-05-26 01:00,"Loh, Brendan","Schoeman, Marcus",UTR Men - UTR PTT Gold Coast Men 03,Tennis,0,pending,not_good_competition_or_low_coverage
@@ -35,14 +16,18 @@ tennis,71659544,2026-05-26 02:00,"Giesen, Jonty","Staley, Jera",UTR Men - UTR PT
 tennis,71659528,2026-05-26 03:30,"Stevens, Zane","Dikkenberg, Elijah",UTR Men - UTR PTT Gold Coast Men 03,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,71715100,2026-05-26 03:30,"McPhee, Kaylah","Xu, Miranda",UTR Women - UTR PTT Gold Coast Women 03,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,71659536,2026-05-26 03:30,"Wensley, Sam","Papac, Tomislav Edward",UTR Men - UTR PTT Gold Coast Men 03,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,155664,2026-05-26 04:00,Taisei Ichikawa,Yuto Oki,ITF Men - Gimcheon,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,156218,2026-05-26 04:00,Seongwoo Cho,Daisuke Sumizawa,ITF Men - Gimcheon,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,31338276,2026-05-26 04:00,Kokoro Isomura,Duckhee Lee,ITF Men - Gimcheon,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,155847,2026-05-26 04:00,Uisung Park,Makoto Ochi,ITF Men - Gimcheon,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,156136,2026-05-26 05:00,Yeonsu Jeong,Shinji Hazawa,ITF Men - Gimcheon,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,31338278,2026-05-26 05:00,Sungbeen Sim,Tai Leonard Sach,ITF Men - Gimcheon,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,155662,2026-05-26 05:00,Hoyoung Roh,Hunter Heck,ITF Men - Gimcheon,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,156215,2026-05-26 05:00,Chan-Yeong Oh,Jaesung Choe,ITF Men - Gimcheon,Tennis,0,pending,not_good_competition_or_low_coverage
-basketball,71567388,2026-05-25 20:00,Sporting Cp,FC Porto,Portugal - LPB,Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,71638800,2026-05-25 20:30,KK Dubrovnik,KK Zadar,Croatia - Premijer liga,Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,71631760,2026-05-25 21:00,AS Monaco,JL Bourg Basket,France - Pro A,Basketball,0,pending,not_good_competition_or_low_coverage
+tennis,156804,2026-05-26 08:00,Yanki Erel,Ids Waterbolk,ITF Men - Kutaisi,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,156258,2026-05-26 10:30,Maxwell Mckennon,Ioannis Kountourakis,ITF Men - Kayseri,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,551637,2026-05-26 10:30,Denis Constantin Spiridon,Hitesh Chauhan,ITF Men - Kayseri,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,551639,2026-05-26 10:30,Rafael De Alba,Dimitris Azoidis,ITF Men - Kayseri,Tennis,0,pending,not_good_competition_or_low_coverage
 basketball,71593190,2026-05-26 01:15,Club Nacional,Aguada,Uruguay - LUB,Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,67965264,2026-05-26 01:30,Hamilton Honey Badgers,Winnipeg Sea Bears,Canada - CEBL,Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,71116856,2026-05-26 02:00,Mets de Guaynabo,Criollos de Caguas,Puerto Rico - BSN,Basketball,0,pending,not_good_competition_or_low_coverage
@@ -50,10 +35,10 @@ basketball,71116866,2026-05-26 02:00,Osos de Manati,Cangrejeros de Santurce,Puer
 basketball,71688650,2026-05-26 02:30,CD Puente Alto,CD Colegio Los Leones,Chile - Liga Nacional,Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,71649948,2026-05-26 03:00,Caimanes Del Llano,Paisas Basketball,Colombia - LBP,Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,71232584,2026-05-26 03:15,ITD Santa Tecla BKB,San Salvador BC,El Salvador - Liga Mayor de Baloncesto,Basketball,0,pending,not_good_competition_or_low_coverage
-baseball,71238040,2026-05-25 20:00,Lenadores de Las Tunas,Cazadores de Artemisa,Cuba - Liga Elite,Baseball,0,pending,not_good_competition_or_low_coverage
-baseball,71238042,2026-05-25 20:00,Leones de Industriales,Cocodrilos de Matanzas,Cuba - Liga Elite,Baseball,0,pending,not_good_competition_or_low_coverage
-baseball,71238044,2026-05-25 20:00,Cachorros de Holguin,Huracanes de Mayabeque,Cuba - Liga Elite,Baseball,0,pending,not_good_competition_or_low_coverage
+ice-hockey,71616622,2026-05-26 01:35,Fort Wayne Komets,Kansas City Mavericks,USA - ECHL,Ice Hockey,0,pending,not_good_competition_or_low_coverage
+baseball,67360808,2026-05-26 03:30,Charros de Jalisco,Sultanes de Monterrey,Mexico - Mexican League,Baseball,0,pending,not_good_competition_or_low_coverage
 cricket,71629336,2026-05-26 03:30,"Hong Kong, China",Thailand,"International - T20 Asian Games, Women, Qualifier",Cricket,0,pending,not_good_competition_or_low_coverage
+cricket,71629338,2026-05-26 08:00,China,Indonesia,"International - T20 Asian Games, Women, Qualifier",Cricket,0,pending,not_good_competition_or_low_coverage
 rugby-union,,,,,,,,,"HTTP 400: {""error"":""Invalid sport slug""}"
 rugby-league,,,,,,,,,"HTTP 400: {""error"":""Invalid sport slug""}"
-handball,62091434,2026-05-25 19:30,HC Elbflorenz 2006,TSV Bayer Dormagen,Germany - 2. HBL,Handball,0,pending,not_good_competition_or_low_coverage
+esports,70369240,2026-05-26 10:00,Gen.G Global Academy,KT Rolster Challengers,League of Legends - LCK CL,Esports,0,pending,excluded_youth_reserve_friendly_or_exhibition
