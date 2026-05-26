@@ -3,8 +3,8 @@
 Purpose: distinguish true automatic forward inputs from historical market proxy and paused manual fallback.
 Football-Data and odds-api.io prices are treated as paper-test proxy prices until validated.
 
-Upcoming fixture rows: 262
-Fixture team rows unmatched: 517
+Upcoming fixture rows: 196
+Fixture team rows unmatched: 387
 Ready for model-fixture join: False
 Automatic forward price rows: 47
 odds-api.io price rows: 47
@@ -30,6 +30,8 @@ Next development step: add_team_aliases_for_upcoming_fixtures
 - BFC Daugavpils | suggestion=nan | type=unmatched
 - FK Auda Riga | suggestion=nan | type=unmatched
 - FC Badalona Women | suggestion=nan | type=unmatched
+- Bahcesehir Koleji | suggestion=nan | type=unmatched
+- Trabzonspor Basketbol | suggestion=nan | type=unmatched
 - FC Banik Ostrava | suggestion=nan | type=unmatched
 - FC Silon Taborsko | suggestion=nan | type=unmatched
 - BK Olympic | suggestion=nan | type=unmatched
@@ -43,8 +45,6 @@ Next development step: add_team_aliases_for_upcoming_fixtures
 - CA Ituzaingo | suggestion=nan | type=unmatched
 - CSCD Laferrere | suggestion=nan | type=unmatched
 - CA Lanus | suggestion=nan | type=unmatched
-- Mirassol FC SP | suggestion=nan | type=unmatched
-- Cape Town City FC | suggestion=nan | type=unmatched
 
 ## Interpretation
 

@@ -3,9 +3,9 @@
 Diagnostics for exact bookmaker names and selected bookmaker state.
 This is not a betting signal and does not affect real-money readiness.
 
-Generated UTC: 2026-05-26T02:32:36.786309+00:00
-All bookmaker rows: 277
-Active bookmaker rows: 247
+Generated UTC: 2026-05-26T14:51:24.688068+00:00
+All bookmaker rows: 278
+Active bookmaker rows: 248
 Selected bookmaker rows: 2
 Configured bookmakers: Bet365
 Configured bookmakers found: 1 / 1

@@ -1,12 +1,5 @@
 raw_event_id,fixture_id,match_date,match_time,home_team,away_team,league,direct_match_confidence
-71636230,odds_api_io_71636230,2026-05-26,15:00,Club Yanapuma,Club Alianza Lima,peru-liga-femenina,1.0
-68492546,odds_api_io_68492546,2026-05-26,15:00,FS Jelgava,FK Liepaja,latvia-virsliga,1.0
-71575786,odds_api_io_71575786,2026-05-26,15:00,IFK Mariehamn,FC Lahti,finland-suomen-cup,1.0
-71522064,odds_api_io_71522064,2026-05-26,15:30,JaPS,Kuopion Palloseura,finland-suomen-cup,1.0
-68492548,odds_api_io_68492548,2026-05-26,16:00,BFC Daugavpils,FK Auda Riga,latvia-virsliga,1.0
-71685808,odds_api_io_71685808,2026-05-26,16:00,FC Banik Ostrava,FC Silon Taborsko,czechia-1-liga,1.0
-71401842,odds_api_io_71401842,2026-05-26,16:00,BK Olympic,Ariana FC,sweden-svenska-cup,1.0
-67920372,odds_api_io_67920372,2026-05-26,16:00,Brodd,Odds BK 2,norway-3rd-division-group-4,1.0
+71553982,odds_api_io_71553982,2026-05-26,15:00,Bahcesehir Koleji,Trabzonspor Basketbol,turkiye-super-lig,1.0
 71536140,odds_api_io_71536140,2026-05-26,16:00,FC Honka,VJS,finland-suomen-cup,1.0
 69924118,odds_api_io_69924118,2026-05-26,16:00,KPV/Akatemia,FC Kiisto,finland-kolmonen,1.0
 67017078,odds_api_io_67017078,2026-05-26,16:00,LSK Kvinner FK,Hoenefoss BK,norway-toppserien-women,1.0
@@ -35,6 +28,7 @@ raw_event_id,fixture_id,match_date,match_time,home_team,away_team,league,direct_
 71576560,odds_api_io_71576560,2026-05-26,18:00,Inhumas EC GO,AA Aparecidense GO,brazil-u20-goiano-1-divisao,1.0
 68158834,odds_api_io_68158834,2026-05-26,18:00,Racing Club Avellaneda,CA Tigre Reserve,argentina-copa-proyeccion-final-reserves,1.0
 68158848,odds_api_io_68158848,2026-05-26,18:00,San Martin de San Juan Reserve,Colon de Santa Fe Reserve,argentina-copa-proyeccion-final-reserves,1.0
+71668818,odds_api_io_71668818,2026-05-26,18:00,Torque,CA River Plate (URU),uruguay-tercera-division-reserves,1.0
 70531730,odds_api_io_70531730,2026-05-26,18:30,CD Armenio,Argentino de Merlo,argentina-primera-b,1.0
 70531740,odds_api_io_70531740,2026-05-26,18:30,CS Dock Sud,Real Pilar FC,argentina-primera-b,1.0
 70531732,odds_api_io_70531732,2026-05-26,18:30,CSD Flandria,Arsenal de Sarandi,argentina-primera-b,1.0
@@ -69,3 +63,9 @@ raw_event_id,fixture_id,match_date,match_time,home_team,away_team,league,direct_
 70075658,odds_api_io_70075658,2026-05-27,00:30,CR Flamengo RJ,Cusco FC,international-clubs-copa-libertadores,1.0
 70075660,odds_api_io_70075660,2026-05-27,00:30,Estudiantes de La Plata,Independiente Medellin,international-clubs-copa-libertadores,1.0
 70075202,odds_api_io_70075202,2026-05-27,00:30,Santos FC SP,CD Cuenca,international-clubs-copa-sudamericana,1.0
+70075684,odds_api_io_70075684,2026-05-27,00:30,Universitario de Deportes,CD Tolima,international-clubs-copa-libertadores,1.0
+69910676,odds_api_io_69910676,2026-05-27,07:00,Dalian Yingbo B,Shandong Taishan B,china-china-league-2,1.0
+69910678,odds_api_io_69910678,2026-05-27,07:00,Shanxi Chongde Ronghai,Qingdao Red Lions,china-china-league-2,1.0
+71267616,odds_api_io_71267616,2026-05-27,07:30,Stallion Laguna FC,Dynamic Herb Cebu FC,philippines-philippines-footb-league,1.0
+69910680,odds_api_io_69910680,2026-05-27,08:00,Changchun Xidu,Beijing Institute of Technology,china-china-league-2,1.0
+69910944,odds_api_io_69910944,2026-05-27,08:00,Xiamen Feilu,Jiangxi Lushan,china-china-league-2,1.0
