@@ -10,27 +10,10 @@ No qualifying candidate bets today.
 
 ## Paper-Test Picks
 
-### AS Fortuna vs Colombe Sportive Du Dja Et Lobo
+### CA Paranaense PR vs Mirassol FC SP
 
-- Date/time: 2026-05-25 15:00
-- League/phase: cameroon-elite-one / automatic_forward_price_proxy
-- Selection: HOME
-- Market odds: 4.75
-- Fair odds: 2.65
-- Model probability: 0.3772
-- Probability band: 0.35-0.45
-- EV: 0.7917
-- Probability edge: 0.1667
-- Alignment penalty: 0.7917
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.0733
-- Prediction ID: d5af9519ccc18184555a
-
-### Haukar Hafnarfjordur vs UMF Selfoss
-
-- Date/time: 2026-05-25 14:00
-- League/phase: iceland-1-deild-women / automatic_forward_price_proxy
+- Date/time: 2026-05-30 19:00
+- League/phase: brazil-brasileiro-serie-a / automatic_forward_price_proxy
 - Selection: AWAY
 - Market odds: 5.0
 - Fair odds: 2.87
@@ -42,12 +25,29 @@ No qualifying candidate bets today.
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
 - Paper score: 0.0711
-- Prediction ID: f328e1595c86ec48ddd5
+- Prediction ID: 22718fc795bc90ca9770
 
-### Sotra SK vs Bjarg
+### CA Lanus vs Mirassol FC SP
 
-- Date/time: 2026-05-25 12:00
-- League/phase: norway-2nd-division-group-1 / automatic_forward_price_proxy
+- Date/time: 2026-05-26 22:00
+- League/phase: international-clubs-copa-libertadores / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 5.0
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.744
+- Probability edge: 0.1488
+- Alignment penalty: 0.744
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0711
+- Prediction ID: 3df735352680bd55ad55
+
+### Raade IL vs Sarpsborg 08 2
+
+- Date/time: 2026-05-26 17:00
+- League/phase: norway-3rd-division-group-6 / automatic_forward_price_proxy
 - Selection: AWAY
 - Market odds: 4.75
 - Fair odds: 2.87
@@ -59,46 +59,46 @@ No qualifying candidate bets today.
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
 - Paper score: 0.0692
-- Prediction ID: beba049736da2a3aba17
+- Prediction ID: 1ca215aea15e1e0e5a05
 
-### Stade Gabesien vs US Tataouine
+### SK Brann vs Lyn
 
-- Date/time: 2026-05-25 15:00
-- League/phase: tunisia-ligue-2 / automatic_forward_price_proxy
+- Date/time: 2026-05-26 16:00
+- League/phase: norway-toppserien-women / automatic_forward_price_proxy
+- Selection: DRAW
+- Market odds: 6.5
+- Fair odds: 3.65
+- Model probability: 0.274
+- Probability band: 0.25-0.35
+- EV: 0.781
+- Probability edge: 0.1202
+- Alignment penalty: 0.781
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0687
+- Prediction ID: d2ab0d98d6d970627dca
+
+### Shanghai Port B vs Lanzhou Longyuan Athletic
+
+- Date/time: 2026-05-26 08:00
+- League/phase: china-china-league-2 / automatic_forward_price_proxy
 - Selection: AWAY
-- Market odds: 4.75
+- Market odds: 4.5
 - Fair odds: 2.87
 - Model probability: 0.3488
 - Probability band: 0.25-0.35
-- EV: 0.6568
-- Probability edge: 0.1383
-- Alignment penalty: 0.6568
+- EV: 0.5696
+- Probability edge: 0.1266
+- Alignment penalty: 0.5696
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
-- Paper score: 0.0692
-- Prediction ID: 15fce3f11e2af56d72df
+- Paper score: 0.0673
+- Prediction ID: 52b7c783f612db4d39b5
 
-### FC Samgurali Tskaltubo vs FC Iberia 1999
+### FC Banik Ostrava vs FC Silon Taborsko
 
-- Date/time: 2026-05-25 15:00
-- League/phase: georgia-erovnuli-liga / automatic_forward_price_proxy
-- Selection: HOME
-- Market odds: 4.0
-- Fair odds: 2.65
-- Model probability: 0.3772
-- Probability band: 0.35-0.45
-- EV: 0.5088
-- Probability edge: 0.1272
-- Alignment penalty: 0.5088
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.0669
-- Prediction ID: cf49b323772e60d8dc66
-
-### Eb/Streymur vs NSI Runavik
-
-- Date/time: 2026-05-25 14:00
-- League/phase: faroe-islands-premier-league / automatic_forward_price_proxy
+- Date/time: 2026-05-26 16:00
+- League/phase: czechia-1-liga / automatic_forward_price_proxy
 - Selection: DRAW
 - Market odds: 6.0
 - Fair odds: 3.65
@@ -110,29 +110,165 @@ No qualifying candidate bets today.
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
 - Paper score: 0.066
-- Prediction ID: 98b4534ca784f3356e61
+- Prediction ID: 1361c88012bf7bbc987a
 
-### Volsungur vs Keflavik IF
+### Atletico Madrid vs CD Tenerife
 
-- Date/time: 2026-05-25 13:00
-- League/phase: iceland-1-deild-women / automatic_forward_price_proxy
+- Date/time: 2026-05-26 19:00
+- League/phase: spain-primera-division-women / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 4.33
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.5113
+- Probability edge: 0.118
+- Alignment penalty: 0.5114
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0659
+- Prediction ID: 9d464ecc28379ec251fe
+
+### KR Reykjavik vs Valur Reykjavik
+
+- Date/time: 2026-05-26 19:15
+- League/phase: iceland-besta-deild / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 4.33
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.5113
+- Probability edge: 0.118
+- Alignment penalty: 0.5114
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0659
+- Prediction ID: 8fa7728e5d5ce15e9cab
+
+### Brodd vs Odds BK 2
+
+- Date/time: 2026-05-26 16:00
+- League/phase: norway-3rd-division-group-4 / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 4.2
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.465
+- Probability edge: 0.1107
+- Alignment penalty: 0.465
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0648
+- Prediction ID: 2ee493ecfcb705af9e3e
+
+### Waterford FC vs Shamrock Rovers FC
+
+- Date/time: 2026-05-26 18:45
+- League/phase: ireland-premier-division-women / automatic_forward_price_proxy
+- Selection: DRAW
+- Market odds: 5.75
+- Fair odds: 3.65
+- Model probability: 0.274
+- Probability band: 0.25-0.35
+- EV: 0.5755
+- Probability edge: 0.1001
+- Alignment penalty: 0.5755
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0645
+- Prediction ID: 3ff63018670cbbdadf7c
+
+### Chengdu Rongcheng B vs Guizhou Guiyang Athletic
+
+- Date/time: 2026-05-26 11:35
+- League/phase: china-china-league-2 / automatic_forward_price_proxy
 - Selection: HOME
-- Market odds: 3.9
+- Market odds: 3.7
 - Fair odds: 2.65
 - Model probability: 0.3772
 - Probability band: 0.35-0.45
-- EV: 0.4711
-- Probability edge: 0.1208
-- Alignment penalty: 0.4711
+- EV: 0.3956
+- Probability edge: 0.1069
+- Alignment penalty: 0.3956
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
-- Paper score: 0.066
-- Prediction ID: 3111c786a4f3c773175e
+- Paper score: 0.0641
+- Prediction ID: 4eb82e4caccfd4fd9faf
 
-### Fram vs Thor/KA
+### Greuther Furth vs Rot-Weiss Essen
 
-- Date/time: 2026-05-25 16:00
-- League/phase: iceland-besta-deild-women / automatic_forward_price_proxy
+- Date/time: 2026-05-26 18:30
+- League/phase: germany-2-bundesliga / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 4.1
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.4301
+- Probability edge: 0.1049
+- Alignment penalty: 0.4301
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.064
+- Prediction ID: 2429c5b59d32537a7366
+
+### Stabaek Fotball vs Haugesund
+
+- Date/time: 2026-05-26 16:00
+- League/phase: norway-toppserien-women / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 4.0
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.3952
+- Probability edge: 0.0988
+- Alignment penalty: 0.3952
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0632
+- Prediction ID: 3d1c754eb35d9b7f04b9
+
+### FS Jelgava vs FK Liepaja
+
+- Date/time: 2026-05-26 15:00
+- League/phase: latvia-virsliga / automatic_forward_price_proxy
+- Selection: HOME
+- Market odds: 3.6
+- Fair odds: 2.65
+- Model probability: 0.3772
+- Probability band: 0.35-0.45
+- EV: 0.3579
+- Probability edge: 0.0994
+- Alignment penalty: 0.3579
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0632
+- Prediction ID: 160df6fb5f728f33b5d4
+
+### LSK Kvinner FK vs Hoenefoss BK
+
+- Date/time: 2026-05-26 16:00
+- League/phase: norway-toppserien-women / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 4.0
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.3952
+- Probability edge: 0.0988
+- Alignment penalty: 0.3952
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0632
+- Prediction ID: 4e75dca009228e8ea798
+
+### BFC Daugavpils vs FK Auda Riga
+
+- Date/time: 2026-05-26 16:00
+- League/phase: latvia-virsliga / automatic_forward_price_proxy
 - Selection: HOME
 - Market odds: 3.5
 - Fair odds: 2.65
@@ -144,12 +280,12 @@ No qualifying candidate bets today.
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
 - Paper score: 0.0622
-- Prediction ID: 7ee8f78f4eda2b963e0a
+- Prediction ID: 2119a8b603622925a07c
 
-### FA Siauliai vs FK Riteriai
+### SK Herd vs Aalesund FK 2
 
-- Date/time: 2026-05-25 15:30
-- League/phase: lithuania-a-lyga / automatic_forward_price_proxy
+- Date/time: 2026-05-26 16:00
+- League/phase: norway-3rd-division-group-2 / automatic_forward_price_proxy
 - Selection: DRAW
 - Market odds: 5.25
 - Fair odds: 3.65
@@ -161,12 +297,12 @@ No qualifying candidate bets today.
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
 - Paper score: 0.0616
-- Prediction ID: 2444a5cf1b44aaba7e45
+- Prediction ID: 0f414fd6e261af8f52dd
 
-### FK Haugesund vs Moss FK
+### Deportivo Camioneros vs CA Villa San Carlos
 
-- Date/time: 2026-05-25 15:00
-- League/phase: norway-1st-division / automatic_forward_price_proxy
+- Date/time: 2026-05-26 18:30
+- League/phase: argentina-primera-b / automatic_forward_price_proxy
 - Selection: AWAY
 - Market odds: 3.8
 - Fair odds: 2.87
@@ -178,12 +314,12 @@ No qualifying candidate bets today.
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
 - Paper score: 0.0614
-- Prediction ID: d5e811a26ebc2e1717b2
+- Prediction ID: 64e94e73dfa04186dd62
 
-### Bnei Yehuda Tel Aviv FC vs Maccabi Herzliya
+### CSD Flandria vs Arsenal de Sarandi
 
-- Date/time: 2026-05-25 16:00
-- League/phase: israel-national-league / automatic_forward_price_proxy
+- Date/time: 2026-05-26 18:30
+- League/phase: argentina-primera-b / automatic_forward_price_proxy
 - Selection: HOME
 - Market odds: 3.4
 - Fair odds: 2.65
@@ -195,97 +331,29 @@ No qualifying candidate bets today.
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
 - Paper score: 0.0612
-- Prediction ID: 9e58ed12b232d08a5d28
+- Prediction ID: ea889d71ba0473ae90e8
 
-### Lyn 1896 FK vs Stroemmen IF
+### Cape Town City FC vs Milford FC
 
-- Date/time: 2026-05-25 15:00
-- League/phase: norway-1st-division / automatic_forward_price_proxy
+- Date/time: 2026-05-26 13:00
+- League/phase: south-africa-premiership / automatic_forward_price_proxy
 - Selection: AWAY
-- Market odds: 3.7
+- Market odds: 3.75
 - Fair odds: 2.87
 - Model probability: 0.3488
 - Probability band: 0.25-0.35
-- EV: 0.2906
-- Probability edge: 0.0785
-- Alignment penalty: 0.2906
+- EV: 0.308
+- Probability edge: 0.0821
+- Alignment penalty: 0.308
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
-- Paper score: 0.0605
-- Prediction ID: 9b52ea70e3ed4778686b
+- Paper score: 0.061
+- Prediction ID: 598dd37c19a53d784819
 
-### Ogre United vs Grobinas SC/LFS
+### FC Alashkert Yerevan vs FC Shirak Gyumri
 
-- Date/time: 2026-05-25 15:00
-- League/phase: latvia-virsliga / automatic_forward_price_proxy
-- Selection: HOME
-- Market odds: 3.3
-- Fair odds: 2.65
-- Model probability: 0.3772
-- Probability band: 0.35-0.45
-- EV: 0.2448
-- Probability edge: 0.0742
-- Alignment penalty: 0.2448
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.0601
-- Prediction ID: b1cdc8847e110ca03289
-
-### Hoedd IL vs Egersunds IK
-
-- Date/time: 2026-05-25 15:00
-- League/phase: norway-1st-division / automatic_forward_price_proxy
-- Selection: HOME
-- Market odds: 3.3
-- Fair odds: 2.65
-- Model probability: 0.3772
-- Probability band: 0.35-0.45
-- EV: 0.2448
-- Probability edge: 0.0742
-- Alignment penalty: 0.2448
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.0601
-- Prediction ID: 85797289b02901742388
-
-### PFC Lokomotiv Plovdiv vs Botev Plovdiv
-
-- Date/time: 2026-05-25 14:45
-- League/phase: bulgaria-parva-liga / automatic_forward_price_proxy
-- Selection: HOME
-- Market odds: 3.3
-- Fair odds: 2.65
-- Model probability: 0.3772
-- Probability band: 0.35-0.45
-- EV: 0.2448
-- Probability edge: 0.0742
-- Alignment penalty: 0.2448
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.0601
-- Prediction ID: c3c5b4a5d52fbef99002
-
-### Kolding IF vs Hillerod Fodbold
-
-- Date/time: 2026-05-25 11:00
-- League/phase: denmark-1-division / automatic_forward_price_proxy
-- Selection: HOME
-- Market odds: 3.3
-- Fair odds: 2.65
-- Model probability: 0.3772
-- Probability band: 0.35-0.45
-- EV: 0.2448
-- Probability edge: 0.0742
-- Alignment penalty: 0.2448
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.0601
-- Prediction ID: 0f4575e80f8e76773f63
-
-### Bhutan vs Nepal
-
-- Date/time: 2026-05-25 11:00
-- League/phase: international-saff-championship-women / automatic_forward_price_proxy
+- Date/time: 2026-05-26 15:00
+- League/phase: armenia-premier-league / automatic_forward_price_proxy
 - Selection: DRAW
 - Market odds: 5.0
 - Fair odds: 3.65
@@ -297,29 +365,12 @@ No qualifying candidate bets today.
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
 - Paper score: 0.06
-- Prediction ID: 7201da1cf0ae97144b22
+- Prediction ID: 66cc48685940eea88599
 
-### Asker Fotball vs Gamle Oslo FK
+### Taian Tiankuang vs Dalian Kewei
 
-- Date/time: 2026-05-25 16:00
-- League/phase: norway-3rd-division-group-1 / automatic_forward_price_proxy
-- Selection: DRAW
-- Market odds: 5.0
-- Fair odds: 3.65
-- Model probability: 0.274
-- Probability band: 0.25-0.35
-- EV: 0.37
-- Probability edge: 0.074
-- Alignment penalty: 0.37
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.06
-- Prediction ID: 90ce9a8d6bb83ae77573
-
-### Strindheim TF vs Nardo FK
-
-- Date/time: 2026-05-25 12:00
-- League/phase: norway-3rd-division-group-2 / automatic_forward_price_proxy
+- Date/time: 2026-05-26 07:30
+- League/phase: china-china-league-2 / automatic_forward_price_proxy
 - Selection: AWAY
 - Market odds: 3.5
 - Fair odds: 2.87
@@ -331,12 +382,12 @@ No qualifying candidate bets today.
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
 - Paper score: 0.0586
-- Prediction ID: 724a77befb27d9f18e06
+- Prediction ID: b6bbedb3d947bff385f6
 
-### SK Rapid vs SV Ried
+### Aasane Fotball 2 vs Gneist
 
-- Date/time: 2026-05-25 15:00
-- League/phase: austria-bundesliga / automatic_forward_price_proxy
+- Date/time: 2026-05-26 17:00
+- League/phase: norway-3rd-division-group-3 / automatic_forward_price_proxy
 - Selection: AWAY
 - Market odds: 3.5
 - Fair odds: 2.87
@@ -348,12 +399,12 @@ No qualifying candidate bets today.
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
 - Paper score: 0.0586
-- Prediction ID: fc23d2777fbbf9ee11ba
+- Prediction ID: 7c9a6854a577a24f7086
 
-### Stroemsgodset IF vs Bryne FK
+### Brodd vs Odds BK 2
 
-- Date/time: 2026-05-25 15:00
-- League/phase: norway-1st-division / automatic_forward_price_proxy
+- Date/time: 2026-05-26 16:00
+- League/phase: norway-3rd-division-group-4 / automatic_forward_price_proxy
 - Selection: DRAW
 - Market odds: 4.75
 - Fair odds: 3.65
@@ -365,12 +416,12 @@ No qualifying candidate bets today.
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
 - Paper score: 0.0585
-- Prediction ID: cb6b217a4d92234cb602
+- Prediction ID: 2ee493ecfcb705af9e3e
 
-### SV Dinamo Helfort 15 vs SV Schwechat
+### JaPS vs Kuopion Palloseura
 
-- Date/time: 2026-05-25 15:00
-- League/phase: austria-amateur-wien-wiener-stadtliga / automatic_forward_price_proxy
+- Date/time: 2026-05-26 15:30
+- League/phase: finland-suomen-cup / automatic_forward_price_proxy
 - Selection: DRAW
 - Market odds: 4.75
 - Fair odds: 3.65
@@ -382,58 +433,7 @@ No qualifying candidate bets today.
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
 - Paper score: 0.0585
-- Prediction ID: 27aa0355ccbb0c315eee
-
-### Naestved HG vs Esbjerg FB
-
-- Date/time: 2026-05-25 12:00
-- League/phase: denmark-b-liga-women / automatic_forward_price_proxy
-- Selection: DRAW
-- Market odds: 4.75
-- Fair odds: 3.65
-- Model probability: 0.274
-- Probability band: 0.25-0.35
-- EV: 0.3015
-- Probability edge: 0.0635
-- Alignment penalty: 0.3015
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.0585
-- Prediction ID: 0eb9030f549cfce194f7
-
-### Valerenga IF 2 vs Heming
-
-- Date/time: 2026-05-25 12:00
-- League/phase: norway-3rd-division-group-1 / automatic_forward_price_proxy
-- Selection: HOME
-- Market odds: 3.1
-- Fair odds: 2.65
-- Model probability: 0.3772
-- Probability band: 0.35-0.45
-- EV: 0.1693
-- Probability edge: 0.0546
-- Alignment penalty: 0.1693
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.0579
-- Prediction ID: 50ea9c15cf26ab8d3837
-
-### HamKam vs Lillestroem SK
-
-- Date/time: 2026-05-25 15:00
-- League/phase: norway-eliteserien / automatic_forward_price_proxy
-- Selection: HOME
-- Market odds: 3.1
-- Fair odds: 2.65
-- Model probability: 0.3772
-- Probability band: 0.35-0.45
-- EV: 0.1693
-- Probability edge: 0.0546
-- Alignment penalty: 0.1693
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.0579
-- Prediction ID: 0b4e025f28407bf74bac
+- Prediction ID: 8ec12d5d8bb51c841a4c
 
 ## Snapshot summary
 

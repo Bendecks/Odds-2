@@ -1,2 +1,2 @@
 fixture_rows,source_counts,errors,dedupe_strategy
-228,"{""odds_api_io_events_bookmaker_filtered"": 228}",0,date_normalized_home_away_prefer_odds_api_then_football_data
+262,"{""odds_api_io_events_bookmaker_filtered"": 259, ""odds_api_io_events_search"": 3}",0,date_normalized_home_away_prefer_odds_api_then_football_data

@@ -2,29 +2,29 @@
 
 This report combines repo-estimated Odds-API.io usage with provider rate-limit headers when available.
 
-Generated UTC: 2026-05-25T02:43:11.974717+00:00
-Latest run calls used: 2 / 14
+Generated UTC: 2026-05-26T02:32:35.809129+00:00
+Latest run calls used: 3 / 14
 Latest endpoint mode: multi_event_documented_endpoint
-Latest search queries: nan
+Latest search queries: EC Pinheiros SP
 Latest priced event rows: 10
 Latest errors/status rows: 70
 
 ## Provider rate-limit headers
 
 x-ratelimit-limit: 100
-x-ratelimit-remaining: 73
-remaining ratio: 0.73
-x-ratelimit-reset: 2026-05-25T03:15:11Z
+x-ratelimit-remaining: 62
+remaining ratio: 0.62
+x-ratelimit-reset: 2026-05-26T03:05:59Z
 retry-after: None
 
 ## Estimated repo-driven req/hr
 
-- Last 1h: 2 calls across 1 runs => 2.0 req/hr
-- Last 6h: 2 calls across 1 runs => 0.3333 req/hr
-- Last 12h: 2 calls across 1 runs => 0.1667 req/hr
-- Last 24h: 2 calls across 1 runs => 0.0833 req/hr
-- Last 72h: 20 calls across 4 runs => 0.2778 req/hr
-- Last 168h: 67 calls across 12 runs => 0.3988 req/hr
+- Last 1h: 3 calls across 1 runs => 3.0 req/hr
+- Last 6h: 3 calls across 1 runs => 0.5 req/hr
+- Last 12h: 3 calls across 1 runs => 0.25 req/hr
+- Last 24h: 5 calls across 2 runs => 0.2083 req/hr
+- Last 72h: 10 calls across 3 runs => 0.1389 req/hr
+- Last 168h: 66 calls across 12 runs => 0.3929 req/hr
 
 ## Interpretation
 
