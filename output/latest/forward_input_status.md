@@ -3,10 +3,10 @@
 Manual Bet365 odds input is parked as an optional fallback. It is not an active development blocker.
 Current priority: automatic/free-data forward-testing sources and robust fixture/model matching.
 
-Upcoming fixtures: 196
-Manual template rows: 196
+Upcoming fixtures: 187
+Manual template rows: 187
 Rows with complete manual odds: 0
-Rows missing manual odds: 196
+Rows missing manual odds: 187
 Manual forward snapshot rows: 0
 Manual odds mode: optional_fallback_paused
 Manual odds is blocker: False
@@ -19,23 +19,23 @@ Upcoming fixtures exist, but no automatic odds/proxy forward snapshot source is 
 ## Optional manual fallback status
 
 Manual odds are not required in the current phase. These rows are only kept for later fallback use:
-- 2026-05-26 17:00 | Aasane Fotball 2 vs Gneist
-- 2026-05-26 15:00 | FC Alashkert Yerevan vs FC Shirak Gyumri
-- 2026-05-26 17:00 | Alhama CF vs Levante UD
-- 2026-05-26 18:00 | Argentinos Juniors Reserve vs CA Banfield
-- 2026-05-26 18:45 | AS Saint-Etienne vs OGC Nice
-- 2026-05-26 19:00 | Atletico Madrid vs CD Tenerife
-- 2026-05-26 16:00 | BFC Daugavpils vs FK Auda Riga
-- 2026-05-26 17:00 | FC Badalona Women vs Real Madrid
-- 2026-05-26 15:00 | Bahcesehir Koleji vs Trabzonspor Basketbol
-- 2026-05-26 16:00 | FC Banik Ostrava vs FC Silon Taborsko
-- 2026-05-26 16:00 | BK Olympic vs Ariana FC
-- 2026-05-26 16:00 | Brodd vs Odds BK 2
-- 2026-05-26 22:00 | CA Brown de Adrogue vs CA Talleres de Remedios
-- 2026-05-26 18:00 | CA Huracan vs Ferro Carril Oeste
-- 2026-05-26 22:30 | CA Ituzaingo vs CSCD Laferrere
-- 2026-05-26 22:00 | CA Lanus vs Mirassol FC SP
-- 2026-05-26 18:30 | CD Armenio vs Argentino de Merlo
-- 2026-05-26 22:00 | CD Palestino vs Deportivo Riestra AFBC
-- 2026-05-26 22:00 | Club Comunicaciones vs CD UAI Urquiza
-- 2026-05-26 15:00 | Club Yanapuma vs Club Alianza Lima
+- 2026-05-27 19:30 | 3B Sport AM vs Acao Futebol MT
+- 2026-05-27 23:00 | AC Connecticut vs Albany Rush
+- 2026-05-27 18:00 | AC Goianiense GO vs Operario Ferroviario EC PR
+- 2026-05-27 18:00 | ADO 20 Heemskerk vs FC Lisse
+- 2026-05-27 17:00 | AIK DFF vs Hacken Gothenburg
+- 2026-05-27 15:00 | AL Karma vs Diyala FC
+- 2026-05-27 17:30 | Al Zawraa vs AL Naft
+- 2026-05-27 16:00 | Al-Merrikh SC (SDN) vs Apr FC
+- 2026-05-27 14:30 | FC Alga vs FC Bishkek City
+- 2026-05-27 11:00 | FC Altai Oskemen vs FC Astana
+- 2026-05-27 15:00 | Amanat Baghdad SC vs Al-Gharraf SC
+- 2026-05-27 18:00 | America FC MG vs CR Flamengo RJ
+- 2026-05-27 18:30 | Argentino de Quilmes vs CA Excursionistas
+- 2026-05-27 22:00 | Atletico Mineiro MG vs Academia Puerto Cabello
+- 2026-05-27 18:00 | Atletico Mineiro MG vs Chapecoense SC
+- 2026-05-27 18:00 | Atletico Tucuman Reserve vs CD Godoy Cruz
+- 2026-05-27 14:00 | Avai FC SC vs CR Vasco da Gama RJ
+- 2026-05-27 22:00 | Avai FC SC vs Volta Redonda FC RJ
+- 2026-05-27 17:00 | FC Barcelona vs Real Sociedad San Sebastian
+- 2026-05-27 22:00 | Black Rock FC vs Vermont Green FC

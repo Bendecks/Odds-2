@@ -1,7 +1,7 @@
 requested_name,found,canonical_name,active,is_configured
 Bet365,True,Bet365,True,True
 Unibet,True,Unibet,True,False
-SingBet,True,SingBet,True,False
+SingBet,True,SingBet,False,False
 Pinnacle,False,,,False
 Betfair,False,,,False
 1xbet,True,1xbet,True,False

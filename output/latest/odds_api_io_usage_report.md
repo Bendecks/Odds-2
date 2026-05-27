@@ -2,28 +2,28 @@
 
 This report combines repo-estimated Odds-API.io usage with provider rate-limit headers when available.
 
-Generated UTC: 2026-05-26T14:51:23.437537+00:00
-Latest run calls used: 5 / 14
+Generated UTC: 2026-05-27T02:42:10.577151+00:00
+Latest run calls used: 3 / 14
 Latest endpoint mode: multi_event_documented_endpoint
-Latest search queries: Bahcesehir Koleji, EC Pinheiros SP
+Latest search queries: America FC MG
 Latest priced event rows: 10
 Latest errors/status rows: 70
 
 ## Provider rate-limit headers
 
 x-ratelimit-limit: 100
-x-ratelimit-remaining: 35
-remaining ratio: 0.35
-x-ratelimit-reset: 2026-05-26T15:39:17Z
+x-ratelimit-remaining: 62
+remaining ratio: 0.62
+x-ratelimit-reset: 2026-05-27T03:14:01Z
 retry-after: None
 
 ## Estimated repo-driven req/hr
 
-- Last 1h: 5 calls across 1 runs => 5.0 req/hr
-- Last 6h: 5 calls across 1 runs => 0.8333 req/hr
-- Last 12h: 5 calls across 1 runs => 0.4167 req/hr
+- Last 1h: 3 calls across 1 runs => 3.0 req/hr
+- Last 6h: 3 calls across 1 runs => 0.5 req/hr
+- Last 12h: 8 calls across 2 runs => 0.6667 req/hr
 - Last 24h: 8 calls across 2 runs => 0.3333 req/hr
-- Last 72h: 15 calls across 4 runs => 0.2083 req/hr
+- Last 72h: 13 calls across 4 runs => 0.1806 req/hr
 - Last 168h: 59 calls across 11 runs => 0.3512 req/hr
 
 ## Interpretation

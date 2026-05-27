@@ -2,28 +2,28 @@
 
 Probability-only forward prediction log. This is not a betting log and contains no stake or real-money signal.
 
-Current forward fixture predictions: 196
+Current forward fixture predictions: 187
 New forward fixture predictions logged: 0
-Total forward fixture predictions logged: 3896
+Total forward fixture predictions logged: 3966
 Log type: probability_only_no_market_prices
 
-- 2026-05-28 2026-05-26 10:00:00 | FC Okzhetpes vs FC Aktobe | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-28 2026-05-26 11:00:00 | FC Kyzylzhar SK vs Zhetysu Taldykorgan | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-28 2026-05-26 13:00:00 | FK Atyrau vs Tobol Kostanay | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-28 2026-05-26 13:00:00 | FK Kukesi vs Butrinti Sarande | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-28 2026-05-26 14:00:00 | Ismaily SC vs Pharco FC | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-28 2026-05-26 14:00:00 | Kaisar Kyzylorda vs FC Yelimai | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-28 2026-05-26 14:00:00 | Petrojet FC vs El Gouna FC | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-28 2026-05-26 14:00:00 | FC Zhenis vs FC Kaspiy Aktau | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-28 2026-05-26 15:00:00 | FC Ordabasy vs FC Kairat Almaty | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-28 2026-05-26 15:00:00 | Trabzonspor Basketbol vs Bahcesehir Koleji | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-28 2026-05-26 15:30:00 | FC Jazz vs SalPa | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-28 2026-05-26 16:00:00 | Parnu JK Vaprus II vs Viljandi JK Tulevik | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-28 2026-05-26 16:00:00 | FC Tallinn vs Maardu Linnameeskond | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-28 2026-05-26 17:00:00 | Kolding IF vs Dbk Fortuna Hjoerring | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-28 2026-05-26 17:00:00 | FCM Traiskirchen vs SC Neusiedl am See 1919 | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-28 2026-05-26 17:30:00 | Hedensted IF vs Fuglebakken KFUM | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-28 2026-05-26 19:00:00 | Casa Pia Lisbon vs SCU Torreense | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-30 2026-05-26 06:15:00 | Logan Lightning vs Holland Park Hawks | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-30 2026-05-26 09:00:00 | Grange Thistle vs Logan Lightning | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-30 2026-05-26 13:00:00 | Magesi FC vs Cape Town City FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-28 2026-05-27 15:00:00 | AL Karkh vs Al Shorta SC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-28 2026-05-27 15:00:00 | AL Minaa vs AL Talaba | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-28 2026-05-27 15:00:00 | AL Naft Maysan vs Al Quwa Al Jawiya | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-28 2026-05-27 15:00:00 | Toolon Taisto vs FC Kontu | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-28 2026-05-27 15:30:00 | Kultsu FC vs Kjp Kouvola | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-28 2026-05-27 15:45:00 | Mikkelin Pallo-Kissat vs HaPK Edustus | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-28 2026-05-27 16:00:00 | FC Ylivieska vs Lapuan Virkia | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-28 2026-05-27 16:20:00 | Al-Fahaheel vs Al-Salmiya SC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-28 2026-05-27 17:00:00 | PPJ/Ruoholahti vs Mps | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-28 2026-05-27 17:20:00 | Ylojarvi United FC vs FC Haka J | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-28 2026-05-27 17:30:00 | Zakho FC vs Erbil SC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-28 2026-05-27 18:30:00 | East Fife Lfc vs Falkirk FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-28 2026-05-27 18:30:00 | FK Decic Tuzi vs FK Mornar Bar | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-28 2026-05-27 18:45:00 | Ireland vs Qatar | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-28 2026-05-27 19:00:00 | CA Piauiense PI vs Santos FC SP | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-28 2026-05-27 22:00:00 | CA River Plate (Arg) vs San Lorenzo de Almagro Res. | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-29 2026-05-27 00:00:00 | Edgewater Castle vs Sueno FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-30 2026-05-27 18:00:00 | Sertaozinho FC SP vs Santos FC SP | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-30 2026-05-27 18:15:00 | FC Killas vs Universitario de Deportes | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-30 2026-05-27 21:30:00 | Rochester FC vs Edgewater Castle | H=0.37720000000000004 D=0.274 A=0.3488

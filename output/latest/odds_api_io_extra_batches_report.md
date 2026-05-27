@@ -10,42 +10,42 @@ Combined price rows: 59
 Extra calls used: 5 / 5
 Max total price events: 80
 Minimum direct match confidence: 0.72
-Latest rate-limit remaining: 30
+Latest rate-limit remaining: 57
 Errors/status rows: 1
 
 ## New extra prices
 
-- 2026-05-26 16:00 | FC Honka vs VJS | odds_api_io_Bet365_ML | 2.75/3.5/2.1
-- 2026-05-26 16:00 | KPV/Akatemia vs FC Kiisto | odds_api_io_Bet365_ML | 8.0/7.0/1.222
-- 2026-05-26 16:00 | LSK Kvinner FK vs Hoenefoss BK | odds_api_io_Bet365_ML | 1.533/3.8/4.75
-- 2026-05-26 16:00 | Lyn 1896 FK II vs Drobak-Frogn | odds_api_io_Bet365_ML | 1.666/4.2/3.6
-- 2026-05-26 16:00 | Molde FK vs Rosenborg BK Kvinner | odds_api_io_Bet365_ML | 6.5/5.0/1.333
-- 2026-05-26 16:00 | SK Brann vs Lyn | odds_api_io_Bet365_ML | 1.142/7.0/15.0
-- 2026-05-26 16:00 | SK Herd vs Aalesund FK 2 | odds_api_io_Bet365_ML | 1.3/5.25/6.25
-- 2026-05-26 16:00 | Stabaek Fotball vs Haugesund | odds_api_io_Bet365_ML | 1.727/3.5/3.9
-- 2026-05-26 16:00 | Stroemsgodset 2 vs Lillestrom SK 2 | odds_api_io_Bet365_ML | 2.2/5.0/2.15
-- 2026-05-26 16:00 | Vaalerenga Oslo vs Bodoe/Glimt | odds_api_io_Bet365_ML | 1.015/26.0/41.0
-- 2026-05-26 16:30 | Defensa Y Justicia Reserve vs Independiente Reserve | odds_api_io_Bet365_ML | 2.15/3.7/2.8
-- 2026-05-26 17:00 | Aasane Fotball 2 vs Gneist | odds_api_io_Bet365_ML | 1.7/4.5/3.3
-- 2026-05-26 17:00 | Alhama CF vs Levante UD | odds_api_io_Bet365_ML | 2.25/3.2/2.8
-- 2026-05-26 17:00 | FC Badalona Women vs Real Madrid | odds_api_io_Bet365_ML | 4.333/4.333/1.533
-- 2026-05-26 17:00 | Gil Vicente FC vs Santa Clara | odds_api_io_Bet365_ML | 1.55/3.9/4.75
-- 2026-05-26 17:00 | Granada CF vs Madrid CFF | odds_api_io_Bet365_ML | 2.15/3.4/2.8
-- 2026-05-26 17:00 | Orebro SK vs Helsingborgs IF | odds_api_io_Bet365_ML | 2.25/3.3/2.875
-- 2026-05-26 17:00 | Raade IL vs Sarpsborg 08 2 | odds_api_io_Bet365_ML | 1.222/6.0/7.5
-- 2026-05-26 17:00 | Sevilla FC vs SD Eibar | odds_api_io_Bet365_ML | 1.95/3.5/3.1
-- 2026-05-26 17:00 | SK Super Nova II vs Valmiera FC | odds_api_io_Bet365_ML | 4.0/4.2/1.571
-- 2026-05-26 17:30 | Hapoel Be`er Sheva FC vs Maccabi Tel Aviv FC | odds_api_io_Bet365_ML | 1.95/3.75/3.1
-- 2026-05-26 18:00 | Argentinos Juniors Reserve vs CA Banfield | odds_api_io_Bet365_ML | 1.7/3.5/4.75
-- 2026-05-26 18:00 | CA Huracan vs Ferro Carril Oeste | odds_api_io_Bet365_ML | 1.615/3.5/5.0
-- 2026-05-26 18:00 | Estudiantes de Rio Cuarto Reserve vs Boca Juniors | odds_api_io_Bet365_ML | 6.5/4.2/1.4
-- 2026-05-26 18:00 | Fluminense FC RJ vs Cruzeiro EC MG | odds_api_io_Bet365_ML | 2.375/3.2/2.7
-- 2026-05-26 18:00 | Inhumas EC GO vs AA Aparecidense GO | odds_api_io_Bet365_ML | 2.05/3.2/3.2
-- 2026-05-26 18:00 | Racing Club Avellaneda vs CA Tigre Reserve | odds_api_io_Bet365_ML | 1.666/3.4/4.75
-- 2026-05-26 18:00 | San Martin de San Juan Reserve vs Colon de Santa Fe Reserve | odds_api_io_Bet365_ML | 4.5/3.6/1.65
-- 2026-05-26 18:00 | Torque vs CA River Plate (URU) | odds_api_io_Bet365_ML | 1.727/3.9/3.6
-- 2026-05-26 18:30 | CD Armenio vs Argentino de Merlo | odds_api_io_Bet365_ML | 3.1/2.6/2.4
+- 2026-05-27 11:00 | Guangzhou Dandelion Alpha FC vs Ganzhou Ruishi FC | odds_api_io_Bet365_ML | 1.7/3.1/4.75
+- 2026-05-27 11:30 | Nantong Haimen Codion vs Shanghai Second | odds_api_io_Bet365_ML | 1.571/3.6/5.0
+- 2026-05-27 11:30 | Wuhan Three Towns B vs Guangdong Mingtu | odds_api_io_Bet365_ML | 2.2/2.875/3.2
+- 2026-05-27 12:00 | Buriram United vs Selangor FC | odds_api_io_Bet365_ML | 1.45/4.333/5.25
+- 2026-05-27 12:30 | Mighty Wanderers FC vs Karonga United FC | odds_api_io_Bet365_ML | 1.5/3.4/6.25
+- 2026-05-27 13:00 | Gazelle FA de Garoua vs Stade Renard | odds_api_io_Bet365_ML | 1.3/4.2/9.0
+- 2026-05-27 13:00 | FC Irtysh Pavlodar vs Ulytau FC | odds_api_io_Bet365_ML | 2.4/3.1/2.625
+- 2026-05-27 13:00 | Manila Digger FC vs Kaya FC–Iloilo | odds_api_io_Bet365_ML | 5.0/4.75/1.42
+- 2026-05-27 13:00 | Shahrdari Nowshahr vs FC Pars Jonoubi Jam | odds_api_io_Bet365_ML | 2.625/2.6/2.875
+- 2026-05-27 13:15 | Niroye Zamini Tehran vs Havadar SC | odds_api_io_Bet365_ML | 2.5/2.625/2.9
+- 2026-05-27 13:30 | Sanat Mes Kerman FC vs Nassaji Mazandaran FC | odds_api_io_Bet365_ML | 3.6/2.625/2.15
+- 2026-05-27 14:00 | Avai FC SC vs CR Vasco da Gama RJ | odds_api_io_Bet365_ML | 4.75/4.0/1.533
+- 2026-05-27 14:00 | Pakhtakor vs FC Kattaqorgon | odds_api_io_Bet365_ML | 1.1/8.0/13.0
+- 2026-05-27 14:00 | FC Yaypan Fergana vs FK Termez Surkhon | odds_api_io_Bet365_ML | 3.0/3.1/2.2
+- 2026-05-27 14:30 | FC Alga vs FC Bishkek City | odds_api_io_Bet365_ML | 1.727/3.4/4.1
+- 2026-05-27 15:00 | AL Karma vs Diyala FC | odds_api_io_Bet365_ML | 1.7/3.5/4.2
+- 2026-05-27 15:00 | Amanat Baghdad SC vs Al-Gharraf SC | odds_api_io_Bet365_ML | 2.55/3.1/2.55
+- 2026-05-27 15:00 | Coton Sport de Garoua vs Panthere Sportive | odds_api_io_Bet365_ML | 1.48/3.6/6.25
+- 2026-05-27 15:00 | Duhok FC vs Al Kahrabaa SC | odds_api_io_Bet365_ML | 2.1/3.2/3.0
+- 2026-05-27 15:00 | FK Famos Vojkovici vs FK Zvijezda 09 | odds_api_io_Bet365_ML | 1.833/3.25/3.8
+- 2026-05-27 15:00 | FC KTP vs FC Honka | odds_api_io_Bet365_ML | 7.0/6.5/1.222
+- 2026-05-27 15:00 | Velez Nevesinje vs FK Sutjeska Foca | odds_api_io_Bet365_ML | 1.65/3.6/4.5
+- 2026-05-27 15:30 | ETO FC Gyor vs MTK Hungaria Budapest | odds_api_io_Bet365_ML | 2.15/3.6/2.7
+- 2026-05-27 15:30 | Jypk vs Ons Oulu | odds_api_io_Bet365_ML | 2.25/3.75/2.5
+- 2026-05-27 15:30 | SJK Akatemia/2 vs JS Hercules | odds_api_io_Bet365_ML | 1.95/4.1/2.75
+- 2026-05-27 15:30 | Tampereen Ilves vs Turun Palloseura | odds_api_io_Bet365_ML | 1.666/4.0/3.9
+- 2026-05-27 16:00 | Al-Merrikh SC (SDN) vs Apr FC | odds_api_io_Bet365_ML | 2.45/2.9/2.7
+- 2026-05-27 16:00 | HJK Klubi 04 vs PK-35 Helsinki | odds_api_io_Bet365_ML | 3.1/3.4/1.95
+- 2026-05-27 16:00 | JJK Jyvaskyla/2 vs Komeetat | odds_api_io_Bet365_ML | 1.111/9.5/13.0
+- 2026-05-27 16:00 | JK Tallinna Kalev vs Viimsi JK | odds_api_io_Bet365_ML | 3.5/4.0/1.727
 
 ## Errors / Status
 
-- extra_odds_parse: No 1X2 odds found for event 71553982
+- extra_multi_odds_match: No odds payload matched event 68751822

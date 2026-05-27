@@ -210,6 +210,7 @@ Quickcasino DK,True,all_bookmakers
 Quickcasino SE,True,all_bookmakers
 QuickWin,True,all_bookmakers
 Quigioco IT,True,all_bookmakers
+QuinnBet,True,all_bookmakers
 Rabona,True,all_bookmakers
 Rainbet,True,all_bookmakers
 RajBet,True,all_bookmakers
@@ -221,7 +222,7 @@ Rolletto,True,all_bookmakers
 Roobet,True,all_bookmakers
 Sbobet,True,all_bookmakers
 Sharp Exchange,True,all_bookmakers
-SingBet,True,all_bookmakers
+SingBet,False,all_bookmakers
 Sisal IT,True,all_bookmakers
 Skybet,False,all_bookmakers
 SkyExchange,True,all_bookmakers

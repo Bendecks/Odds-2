@@ -3,8 +3,8 @@
 Diagnostics for exact bookmaker names and selected bookmaker state.
 This is not a betting signal and does not affect real-money readiness.
 
-Generated UTC: 2026-05-26T14:51:24.688068+00:00
-All bookmaker rows: 278
+Generated UTC: 2026-05-27T02:42:11.267676+00:00
+All bookmaker rows: 279
 Active bookmaker rows: 248
 Selected bookmaker rows: 2
 Configured bookmakers: Bet365
@@ -22,7 +22,7 @@ Latest x-ratelimit-reset: None
 
 - requested=Bet365 | found=True | canonical=Bet365 | active=True | configured=True
 - requested=Unibet | found=True | canonical=Unibet | active=True | configured=False
-- requested=SingBet | found=True | canonical=SingBet | active=True | configured=False
+- requested=SingBet | found=True | canonical=SingBet | active=False | configured=False
 - requested=Pinnacle | found=False | canonical=nan | active=None | configured=False
 - requested=Betfair | found=False | canonical=nan | active=None | configured=False
 - requested=1xbet | found=True | canonical=1xbet | active=True | configured=False
