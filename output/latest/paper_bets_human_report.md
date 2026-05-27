@@ -6,8 +6,8 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 ## Kort status
 
 - Aktuelle viste paper picks: **25**
-- Unikke loggede paper picks: **468**
-- Afventer i loggen: **465**
+- Unikke loggede paper picks: **485**
+- Afventer i loggen: **482**
 - Afgjorte fundet i settled-filen: **210**
 - Skjulte U-/reserve-rækker: **22**
 - Vundne: **70**
@@ -16,27 +16,27 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 
 ## Aktuelle paper picks
 
-### Nantong Haimen Codion vs Shanghai Second
+### Al Zawraa vs AL Naft
 - Dato: **2026-05-27**
-- Kampstart: **11:30**
+- Kampstart: **17:30**
 - Spil: **Udebanesejr**
 - Odds: **5.00**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Guangzhou Dandelion Alpha FC vs Ganzhou Ruishi FC
+### Tampereen Ilves vs Turun Palloseura
 - Dato: **2026-05-27**
-- Kampstart: **11:00**
+- Kampstart: **15:30**
 - Spil: **Udebanesejr**
 - Odds: **4.75**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### FC KTP vs FC Honka
+### JJK Jyvaskyla/2 vs Komeetat
 - Dato: **2026-05-27**
-- Kampstart: **15:00**
+- Kampstart: **16:00**
 - Spil: **Uafgjort**
 - Odds: **6.50**
 - Status: **Afventer**
@@ -47,97 +47,7 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Dato: **2026-05-27**
 - Kampstart: **17:00**
 - Spil: **Uafgjort**
-- Odds: **6.50**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Velez Nevesinje vs FK Sutjeska Foca
-- Dato: **2026-05-27**
-- Kampstart: **15:00**
-- Spil: **Udebanesejr**
-- Odds: **4.50**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Davao Aguilas vs Taguig FC
-- Dato: **2026-05-27**
-- Kampstart: **10:15**
-- Spil: **Uafgjort**
 - Odds: **6.00**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Dalian Yingbo B vs Shandong Taishan B
-- Dato: **2026-05-27**
-- Kampstart: **07:00**
-- Spil: **Hjemmesejr**
-- Odds: **3.90**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### AL Karma vs Diyala FC
-- Dato: **2026-05-27**
-- Kampstart: **15:00**
-- Spil: **Udebanesejr**
-- Odds: **4.20**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### FC Alga vs FC Bishkek City
-- Dato: **2026-05-27**
-- Kampstart: **14:30**
-- Spil: **Udebanesejr**
-- Odds: **4.10**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Changchun Xidu vs Beijing Institute of Technology
-- Dato: **2026-05-27**
-- Kampstart: **08:00**
-- Spil: **Udebanesejr**
-- Odds: **4.00**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### The Gap FC vs Virginia United
-- Dato: **2026-05-27**
-- Kampstart: **10:30**
-- Spil: **Udebanesejr**
-- Odds: **4.00**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Sanat Mes Kerman FC vs Nassaji Mazandaran FC
-- Dato: **2026-05-27**
-- Kampstart: **13:30**
-- Spil: **Hjemmesejr**
-- Odds: **3.60**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Al Zawraa vs AL Naft
-- Dato: **2026-05-27**
-- Kampstart: **17:30**
-- Spil: **Udebanesejr**
-- Odds: **4.00**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Tampereen Ilves vs Turun Palloseura
-- Dato: **2026-05-27**
-- Kampstart: **15:30**
-- Spil: **Udebanesejr**
-- Odds: **3.90**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
@@ -146,25 +56,25 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Dato: **2026-05-27**
 - Kampstart: **16:00**
 - Spil: **Hjemmesejr**
-- Odds: **3.50**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### FK Famos Vojkovici vs FK Zvijezda 09
-- Dato: **2026-05-27**
-- Kampstart: **15:00**
-- Spil: **Udebanesejr**
-- Odds: **3.80**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Newroz SC vs AL Mosul SC
-- Dato: **2026-05-27**
-- Kampstart: **17:30**
-- Spil: **Udebanesejr**
 - Odds: **3.75**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### CA Defensores Unidos vs Villa Dalmine
+- Dato: **2026-05-27**
+- Kampstart: **18:30**
+- Spil: **Hjemmesejr**
+- Odds: **3.70**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### HK Kopavogur vs Volsungur
+- Dato: **2026-05-27**
+- Kampstart: **18:00**
+- Spil: **Uafgjort**
+- Odds: **5.50**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
@@ -178,20 +88,110 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Shanxi Chongde Ronghai vs Qingdao Red Lions
+### HJK Klubi 04 vs PK-35 Helsinki
 - Dato: **2026-05-27**
-- Kampstart: **07:00**
-- Spil: **Udebanesejr**
-- Odds: **3.50**
+- Kampstart: **16:00**
+- Spil: **Hjemmesejr**
+- Odds: **3.25**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Manila Digger FC vs Kaya FC–Iloilo
+### Heips RJ vs Coritiba FC PR
 - Dato: **2026-05-27**
-- Kampstart: **13:00**
+- Kampstart: **18:00**
 - Spil: **Uafgjort**
 - Odds: **4.75**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Newroz SC vs AL Mosul SC
+- Dato: **2026-05-27**
+- Kampstart: **17:30**
+- Spil: **Udebanesejr**
+- Odds: **3.40**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### SK Artis Brno vs 1. FC Slovacko Uherske Hradiste
+- Dato: **2026-05-27**
+- Kampstart: **16:00**
+- Spil: **Hjemmesejr**
+- Odds: **3.00**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Al-Merrikh SC (SDN) vs Apr FC
+- Dato: **2026-05-27**
+- Kampstart: **16:00**
+- Spil: **Hjemmesejr**
+- Odds: **3.00**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Tampereen Ilves vs Turun Palloseura
+- Dato: **2026-05-27**
+- Kampstart: **15:30**
+- Spil: **Uafgjort**
+- Odds: **4.50**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### SJK Akatemia/2 vs JS Hercules
+- Dato: **2026-05-27**
+- Kampstart: **15:30**
+- Spil: **Uafgjort**
+- Odds: **4.33**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### VVSB Noordwijkerhout vs Excelsior Maassluis
+- Dato: **2026-05-27**
+- Kampstart: **18:00**
+- Spil: **Hjemmesejr**
+- Odds: **2.90**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### IF Vestri vs UMF Njardvik
+- Dato: **2026-05-27**
+- Kampstart: **18:00**
+- Spil: **Hjemmesejr**
+- Odds: **2.80**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### JK Tallinna Kalev vs Viimsi JK
+- Dato: **2026-05-27**
+- Kampstart: **16:00**
+- Spil: **Uafgjort**
+- Odds: **4.10**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### ETO FC Gyor vs MTK Hungaria Budapest
+- Dato: **2026-05-27**
+- Kampstart: **15:30**
+- Spil: **Udebanesejr**
+- Odds: **3.00**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### SJK Akatemia/2 vs JS Hercules
+- Dato: **2026-05-27**
+- Kampstart: **15:30**
+- Spil: **Udebanesejr**
+- Odds: **3.00**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**

@@ -1,26 +1,26 @@
 discovery_source,query,target_home_team,target_away_team,target_match_date,candidate_event_id,candidate_home_team,candidate_away_team,candidate_match_date,event_match_confidence,selected,rejection_reason,selected_bool,event_match_confidence_num
-events_bookmaker_filtered,Velez Nevesinje,Velez Nevesinje,FK Sutjeska Foca,2026-05-27,71238560,Velez Nevesinje,FK Sutjeska Foca,2026-05-27,1.0,True,,True,1.0
-events_bookmaker_filtered,IF Vestri,IF Vestri,UMF Njardvik,2026-05-27,68306838,IF Vestri,UMF Njardvik,2026-05-27,1.0,True,,True,1.0
-events_bookmaker_filtered,Sejong Sportstoto WFC,Sejong Sportstoto WFC,Gyeongju FC,2026-05-27,69976278,Sejong Sportstoto WFC,Gyeongju FC,2026-05-27,1.0,True,,True,1.0
-events_search_fallback,America FC MG,America FC MG,CR Flamengo RJ,2026-05-27,68751822,America FC MG,CR Flamengo RJ,2026-05-27,1.0,True,,True,1.0
-events_bookmaker_filtered,Avai FC SC,Avai FC SC,CR Vasco da Gama RJ,2026-05-27,68751828,Avai FC SC,CR Vasco da Gama RJ,2026-05-27,1.0,True,,True,1.0
-events_bookmaker_filtered,Stallion Laguna FC,Stallion Laguna FC,Dynamic Herb Cebu FC,2026-05-27,71267616,Stallion Laguna FC,Dynamic Herb Cebu FC,2026-05-27,1.0,True,,True,1.0
-events_bookmaker_filtered,Newroz SC,Newroz SC,AL Mosul SC,2026-05-27,71685280,Newroz SC,AL Mosul SC,2026-05-27,1.0,True,,True,1.0
-events_bookmaker_filtered,Niroye Zamini Tehran,Niroye Zamini Tehran,Havadar SC,2026-05-27,70946082,Niroye Zamini Tehran,Havadar SC,2026-05-27,1.0,True,,True,1.0
+events_bookmaker_filtered,Coton Sport de Garoua,Coton Sport de Garoua,Panthere Sportive,2026-05-27,70773710,Coton Sport de Garoua,Panthere Sportive,2026-05-27,1.0,True,,True,1.0
+events_bookmaker_filtered,SJK Akatemia/2,SJK Akatemia/2,JS Hercules,2026-05-27,69109016,SJK Akatemia/2,JS Hercules,2026-05-27,1.0,True,,True,1.0
+events_bookmaker_filtered,San Francisco Glens SC,San Francisco Glens SC,Davis Legacy,2026-05-27,69091140,San Francisco Glens SC,Davis Legacy,2026-05-27,1.0,True,,True,1.0
+events_bookmaker_filtered,Al-Merrikh SC (SDN),Al-Merrikh SC (SDN),Apr FC,2026-05-27,67782936,Al-Merrikh SC (SDN),Apr FC,2026-05-27,1.0,True,,True,1.0
+events_bookmaker_filtered,Throttur Reykjavik,Throttur Reykjavik,Grotta,2026-05-27,68306846,Throttur Reykjavik,Grotta,2026-05-27,1.0,True,,True,1.0
+events_bookmaker_filtered,UMF Grindavik,UMF Grindavik,Afturelding,2026-05-27,68306844,UMF Grindavik,Afturelding,2026-05-27,1.0,True,,True,1.0
 events_bookmaker_filtered,Tampereen Ilves,Tampereen Ilves,Turun Palloseura,2026-05-27,71553484,Tampereen Ilves,Turun Palloseura,2026-05-27,1.0,True,,True,1.0
-events_bookmaker_filtered,Goias EC GO,Goias EC GO,Mirassol FC SP,2026-05-27,69688814,Goias EC GO,Mirassol FC SP,2026-05-27,1.0,True,,True,1.0
-events_bookmaker_filtered,Davao Aguilas,Davao Aguilas,Taguig FC,2026-05-27,71267618,Davao Aguilas,Taguig FC,2026-05-27,1.0,True,,True,1.0
-events_bookmaker_filtered,AC Goianiense GO,AC Goianiense GO,Operario Ferroviario EC PR,2026-05-27,69688872,AC Goianiense GO,Operario Ferroviario EC PR,2026-05-27,1.0,True,,True,1.0
-events_bookmaker_filtered,Shahrdari Nowshahr,Shahrdari Nowshahr,FC Pars Jonoubi Jam,2026-05-27,70946056,Shahrdari Nowshahr,FC Pars Jonoubi Jam,2026-05-27,1.0,True,,True,1.0
+events_bookmaker_filtered,3B Sport AM,3B Sport AM,Acao Futebol MT,2026-05-27,71615568,3B Sport AM,Acao Futebol MT,2026-05-27,1.0,True,,True,1.0
+events_bookmaker_filtered,CA Defensores Unidos,CA Defensores Unidos,Villa Dalmine,2026-05-27,70531736,CA Defensores Unidos,Villa Dalmine,2026-05-27,1.0,True,,True,1.0
+events_bookmaker_filtered,Primorje Ajdovscina,Primorje Ajdovscina,Nafta 1903 Lendava,2026-05-27,71679670,Primorje Ajdovscina,Nafta 1903 Lendava,2026-05-27,1.0,True,,True,1.0
+events_bookmaker_filtered,JK Tallinna Kalev,JK Tallinna Kalev,Viimsi JK,2026-05-27,68774162,JK Tallinna Kalev,Viimsi JK,2026-05-27,1.0,True,,True,1.0
+events_bookmaker_filtered,CF Esperanca D Andorra,CF Esperanca D Andorra,Sporting Club DE Escaldes,2026-05-27,71738554,CF Esperanca D Andorra,Sporting Club DE Escaldes,2026-05-27,1.0,True,,True,1.0
+events_bookmaker_filtered,Jamaica,Jamaica,India,2026-05-27,71284950,Jamaica,India,2026-05-27,1.0,True,,True,1.0
+events_bookmaker_filtered,Fylkir Reykjavik,Fylkir Reykjavik,Leiknir Reykjavik,2026-05-27,68306842,Fylkir Reykjavik,Leiknir Reykjavik,2026-05-27,1.0,True,,True,1.0
+events_bookmaker_filtered,KF Aegir,KF Aegir,IR Reykjavik,2026-05-27,68306840,KF Aegir,IR Reykjavik,2026-05-27,1.0,True,,True,1.0
+events_bookmaker_filtered,Vinotinto FC Ecuador,Vinotinto FC Ecuador,Orense SC,2026-05-27,71355154,Vinotinto FC Ecuador,Orense SC,2026-05-27,1.0,True,,True,1.0
+events_bookmaker_filtered,RC Deportivo De La Coruna,RC Deportivo De La Coruna,RCD Espanyol Barcelona,2026-05-27,61688400,RC Deportivo De La Coruna,RCD Espanyol Barcelona,2026-05-27,1.0,True,,True,1.0
+events_bookmaker_filtered,HJK Klubi 04,HJK Klubi 04,PK-35 Helsinki,2026-05-27,67604828,HJK Klubi 04,PK-35 Helsinki,2026-05-27,1.0,True,,True,1.0
+events_bookmaker_filtered,CR Brasil AL,CR Brasil AL,Gremio Novorizontino SP,2026-05-27,69688818,CR Brasil AL,Gremio Novorizontino SP,2026-05-27,1.0,True,,True,1.0
+events_bookmaker_filtered,Boyaca Chico FC,Boyaca Chico FC,Llaneros FC,2026-05-27,71335392,Boyaca Chico FC,Llaneros FC,2026-05-27,1.0,True,,True,1.0
+events_bookmaker_filtered,Calcio Catania,Calcio Catania,Ascoli Calcio 1898,2026-05-27,71636148,Calcio Catania,Ascoli Calcio 1898,2026-05-27,1.0,True,,True,1.0
+events_bookmaker_filtered,JJK Jyvaskyla/2,JJK Jyvaskyla/2,Komeetat,2026-05-27,70711924,JJK Jyvaskyla/2,Komeetat,2026-05-27,1.0,True,,True,1.0
+events_bookmaker_filtered,Crystal Palace,Crystal Palace,Rayo Vallecano,2026-05-27,69340066,Crystal Palace,Rayo Vallecano,2026-05-27,1.0,True,,True,1.0
+events_bookmaker_filtered,Jypk,Jypk,Ons Oulu,2026-05-27,71734956,Jypk,Ons Oulu,2026-05-27,1.0,True,,True,1.0
 events_bookmaker_filtered,VV Sparta Nijkerk,VV Sparta Nijkerk,IJsselmeervogels,2026-05-27,71732456,VV Sparta Nijkerk,IJsselmeervogels,2026-05-27,1.0,True,,True,1.0
-events_bookmaker_filtered,ADO 20 Heemskerk,ADO 20 Heemskerk,FC Lisse,2026-05-27,71732466,ADO 20 Heemskerk,FC Lisse,2026-05-27,1.0,True,,True,1.0
-events_bookmaker_filtered,Manila Digger FC,Manila Digger FC,Kaya FC–Iloilo,2026-05-27,71267620,Manila Digger FC,Kaya FC–Iloilo,2026-05-27,1.0,True,,True,1.0
-events_bookmaker_filtered,Changchun Xidu,Changchun Xidu,Beijing Institute of Technology,2026-05-27,69910680,Changchun Xidu,Beijing Institute of Technology,2026-05-27,1.0,True,,True,1.0
-events_bookmaker_filtered,Velez Sarsfield Reserve,Velez Sarsfield Reserve,Instituto AC Cordoba Reserves,2026-05-27,68158830,Velez Sarsfield Reserve,Instituto AC Cordoba Reserves,2026-05-27,1.0,True,,True,1.0
-events_bookmaker_filtered,Pakhtakor,Pakhtakor,FC Kattaqorgon,2026-05-27,71736646,Pakhtakor,FC Kattaqorgon,2026-05-27,1.0,True,,True,1.0
-events_bookmaker_filtered,Eskilstuna United DFF,Eskilstuna United DFF,Hammarby IF,2026-05-27,71072680,Eskilstuna United DFF,Hammarby IF,2026-05-27,1.0,True,,True,1.0
-events_bookmaker_filtered,FC Irtysh Pavlodar,FC Irtysh Pavlodar,Ulytau FC,2026-05-27,69342880,FC Irtysh Pavlodar,Ulytau FC,2026-05-27,1.0,True,,True,1.0
-events_bookmaker_filtered,Atletico Mineiro MG,Atletico Mineiro MG,Chapecoense SC,2026-05-27,69688816,Atletico Mineiro MG,Chapecoense SC,2026-05-27,1.0,True,,True,1.0
-events_bookmaker_filtered,Fortaleza EC CE,Fortaleza EC CE,SE Palmeiras SP,2026-05-27,68751820,Fortaleza EC CE,SE Palmeiras SP,2026-05-27,1.0,True,,True,1.0
-events_bookmaker_filtered,FC KTP,FC KTP,FC Honka,2026-05-27,71679480,FC KTP,FC Honka,2026-05-27,1.0,True,,True,1.0
-events_bookmaker_filtered,The Gap FC,The Gap FC,Virginia United,2026-05-27,71633030,The Gap FC,Virginia United,2026-05-27,1.0,True,,True,1.0

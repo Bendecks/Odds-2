@@ -1,31 +1,9 @@
 raw_event_id,fixture_id,match_date,match_time,home_team,away_team,league,direct_match_confidence
-69910946,odds_api_io_69910946,2026-05-27,11:00,Guangzhou Dandelion Alpha FC,Ganzhou Ruishi FC,china-china-league-2,1.0
-69910682,odds_api_io_69910682,2026-05-27,11:30,Nantong Haimen Codion,Shanghai Second,china-china-league-2,1.0
-69910948,odds_api_io_69910948,2026-05-27,11:30,Wuhan Three Towns B,Guangdong Mingtu,china-china-league-2,1.0
-71491228,odds_api_io_71491228,2026-05-27,12:00,Buriram United,Selangor FC,international-clubs-asean-club-championship,1.0
-71574410,odds_api_io_71574410,2026-05-27,12:30,Mighty Wanderers FC,Karonga United FC,malawi-super-league,1.0
-70773706,odds_api_io_70773706,2026-05-27,13:00,Gazelle FA de Garoua,Stade Renard,cameroon-elite-one,1.0
-69342880,odds_api_io_69342880,2026-05-27,13:00,FC Irtysh Pavlodar,Ulytau FC,kazakhstan-premier-league,1.0
-71267620,odds_api_io_71267620,2026-05-27,13:00,Manila Digger FC,Kaya FC–Iloilo,philippines-philippines-footb-league,1.0
-70946056,odds_api_io_70946056,2026-05-27,13:00,Shahrdari Nowshahr,FC Pars Jonoubi Jam,iran-azadegan-league,1.0
-70946082,odds_api_io_70946082,2026-05-27,13:15,Niroye Zamini Tehran,Havadar SC,iran-azadegan-league,1.0
-70946052,odds_api_io_70946052,2026-05-27,13:30,Sanat Mes Kerman FC,Nassaji Mazandaran FC,iran-azadegan-league,1.0
-68751828,odds_api_io_68751828,2026-05-27,14:00,Avai FC SC,CR Vasco da Gama RJ,brazil-u20-campeonato-brasileiro,1.0
-71736646,odds_api_io_71736646,2026-05-27,14:00,Pakhtakor,FC Kattaqorgon,uzbekistan-cup,1.0
-71736642,odds_api_io_71736642,2026-05-27,14:00,FC Yaypan Fergana,FK Termez Surkhon,uzbekistan-cup,1.0
-71650104,odds_api_io_71650104,2026-05-27,14:30,FC Alga,FC Bishkek City,kyrgyzstan-top-league,1.0
-71685274,odds_api_io_71685274,2026-05-27,15:00,AL Karma,Diyala FC,iraq-iraqi-league,1.0
-71685276,odds_api_io_71685276,2026-05-27,15:00,Amanat Baghdad SC,Al-Gharraf SC,iraq-iraqi-league,1.0
 70773710,odds_api_io_70773710,2026-05-27,15:00,Coton Sport de Garoua,Panthere Sportive,cameroon-elite-one,1.0
 71685272,odds_api_io_71685272,2026-05-27,15:00,Duhok FC,Al Kahrabaa SC,iraq-iraqi-league,1.0
 71238562,odds_api_io_71238562,2026-05-27,15:00,FK Famos Vojkovici,FK Zvijezda 09,bosnia-&-herzegovina-prva-liga-rep-of-srpska,1.0
 71679480,odds_api_io_71679480,2026-05-27,15:00,FC KTP,FC Honka,finland-suomen-cup-women,1.0
 71238560,odds_api_io_71238560,2026-05-27,15:00,Velez Nevesinje,FK Sutjeska Foca,bosnia-&-herzegovina-prva-liga-rep-of-srpska,1.0
-71577986,odds_api_io_71577986,2026-05-27,15:30,ETO FC Gyor,MTK Hungaria Budapest,hungary-nb-i-women,1.0
-71734956,odds_api_io_71734956,2026-05-27,15:30,Jypk,Ons Oulu,finland-ykkonen-women,1.0
-69109016,odds_api_io_69109016,2026-05-27,15:30,SJK Akatemia/2,JS Hercules,finland-kakkonen-playoffs,1.0
-71553484,odds_api_io_71553484,2026-05-27,15:30,Tampereen Ilves,Turun Palloseura,finland-suomen-cup,1.0
-67782936,odds_api_io_67782936,2026-05-27,16:00,Al-Merrikh SC (SDN),Apr FC,rwanda-premier-league,1.0
 67604828,odds_api_io_67604828,2026-05-27,16:00,HJK Klubi 04,PK-35 Helsinki,finland-ykkosliiga,1.0
 70711924,odds_api_io_70711924,2026-05-27,16:00,JJK Jyvaskyla/2,Komeetat,finland-kolmonen,1.0
 68774162,odds_api_io_68774162,2026-05-27,16:00,JK Tallinna Kalev,Viimsi JK,estonia-esiliiga,1.0
@@ -69,3 +47,30 @@ raw_event_id,fixture_id,match_date,match_time,home_team,away_team,league,direct_
 71732456,odds_api_io_71732456,2026-05-27,18:00,VV Sparta Nijkerk,IJsselmeervogels,netherlands-tweede-divisie,1.0
 71732476,odds_api_io_71732476,2026-05-27,18:00,VVSB Noordwijkerhout,Excelsior Maassluis,netherlands-tweede-divisie,1.0
 70531734,odds_api_io_70531734,2026-05-27,18:30,Argentino de Quilmes,CA Excursionistas,argentina-primera-b,1.0
+71615334,odds_api_io_71615334,2026-05-27,18:30,Botafogo Fr RJ,EC Juventude RS,brazil-copa-do-brasil-women,1.0
+70531736,odds_api_io_70531736,2026-05-27,18:30,CA Defensores Unidos,Villa Dalmine,argentina-primera-b,1.0
+71738554,odds_api_io_71738554,2026-05-27,18:30,CF Esperanca D Andorra,Sporting Club DE Escaldes,andorra-primera-divisio,1.0
+71284950,odds_api_io_71284950,2026-05-27,18:30,Jamaica,India,international-int-friendly-games,1.0
+71636148,odds_api_io_71636148,2026-05-27,19:00,Calcio Catania,Ascoli Calcio 1898,italy-serie-c-promotion-playoffs,1.0
+69340066,odds_api_io_69340066,2026-05-27,19:00,Crystal Palace,Rayo Vallecano,international-clubs-uefa-conference-league,1.0
+61688400,odds_api_io_61688400,2026-05-27,19:00,RC Deportivo De La Coruna,RCD Espanyol Barcelona,spain-primera-division-women,1.0
+68306842,odds_api_io_68306842,2026-05-27,19:15,Fylkir Reykjavik,Leiknir Reykjavik,iceland-1-deild,1.0
+68306840,odds_api_io_68306840,2026-05-27,19:15,KF Aegir,IR Reykjavik,iceland-1-deild,1.0
+68306846,odds_api_io_68306846,2026-05-27,19:15,Throttur Reykjavik,Grotta,iceland-1-deild,1.0
+68306844,odds_api_io_68306844,2026-05-27,19:15,UMF Grindavik,Afturelding,iceland-1-deild,1.0
+71615568,odds_api_io_71615568,2026-05-27,19:30,3B Sport AM,Acao Futebol MT,brazil-copa-do-brasil-women,1.0
+71445308,odds_api_io_71445308,2026-05-27,20:00,Marica FC RJ,Olaria RJ,brazil-carioca-serie-a2,1.0
+69091140,odds_api_io_69091140,2026-05-27,20:00,San Francisco Glens SC,Davis Legacy,usa-usl-league-two,1.0
+71355154,odds_api_io_71355154,2026-05-27,20:30,Vinotinto FC Ecuador,Orense SC,ecuador-copa-ecuador,1.0
+71335392,odds_api_io_71335392,2026-05-27,21:00,Boyaca Chico FC,Llaneros FC,colombia-copa-colombia,1.0
+68989440,odds_api_io_68989440,2026-05-27,21:00,Virginia Atlantic WFC,Virginia Development Academy,usa-usl-w-league,1.0
+71615692,odds_api_io_71615692,2026-05-27,21:30,SC Internacional RS,Gremio FB Porto Alegrense RS,brazil-copa-do-brasil-women,1.0
+70075150,odds_api_io_70075150,2026-05-27,22:00,Atletico Mineiro MG,Academia Puerto Cabello,international-clubs-copa-sudamericana,1.0
+71463786,odds_api_io_71463786,2026-05-27,22:00,Avai FC SC,Volta Redonda FC RJ,brazil-copa-sul-sudeste,1.0
+69091142,odds_api_io_69091142,2026-05-27,22:00,Black Rock FC,Vermont Green FC,usa-usl-league-two,1.0
+70075228,odds_api_io_70075228,2026-05-27,22:00,Caracas FC,Botafogo FR RJ,international-clubs-copa-sudamericana,1.0
+71463600,odds_api_io_71463600,2026-05-27,22:00,Chapecoense SC,Gremio Novorizontino SP,brazil-copa-sul-sudeste,1.0
+70075152,odds_api_io_70075152,2026-05-27,22:00,Cienciano,CA Juventud de Las Piedras,international-clubs-copa-sudamericana,1.0
+70075274,odds_api_io_70075274,2026-05-27,22:00,Club Olimpia,Audax Italiano,international-clubs-copa-sudamericana,1.0
+70075276,odds_api_io_70075276,2026-05-27,22:00,CR Vasco da Gama RJ,CA Barracas Central,international-clubs-copa-sudamericana,1.0
+70076110,odds_api_io_70076110,2026-05-27,22:00,CSD Independiente del Valle,CA Rosario Central,international-clubs-copa-libertadores,1.0
