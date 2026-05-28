@@ -3,10 +3,10 @@
 Manual Bet365 odds input is parked as an optional fallback. It is not an active development blocker.
 Current priority: automatic/free-data forward-testing sources and robust fixture/model matching.
 
-Upcoming fixtures: 169
-Manual template rows: 169
+Upcoming fixtures: 447
+Manual template rows: 447
 Rows with complete manual odds: 0
-Rows missing manual odds: 169
+Rows missing manual odds: 447
 Manual forward snapshot rows: 0
 Manual odds mode: optional_fallback_paused
 Manual odds is blocker: False
@@ -19,23 +19,23 @@ Upcoming fixtures exist, but no automatic odds/proxy forward snapshot source is 
 ## Optional manual fallback status
 
 Manual odds are not required in the current phase. These rows are only kept for later fallback use:
-- 2026-05-27 19:30 | 3B Sport AM vs Acao Futebol MT
-- 2026-05-27 23:00 | AC Connecticut vs Albany Rush
-- 2026-05-27 18:00 | AC Goianiense GO vs Operario Ferroviario EC PR
-- 2026-05-27 18:00 | ADO 20 Heemskerk vs FC Lisse
-- 2026-05-27 17:00 | AIK DFF vs Hacken Gothenburg
-- 2026-05-27 17:30 | Al Zawraa vs AL Naft
-- 2026-05-27 16:00 | Al-Merrikh SC (SDN) vs Apr FC
-- 2026-05-27 18:00 | America FC MG vs CR Flamengo RJ
-- 2026-05-27 18:30 | Argentino de Quilmes vs CA Excursionistas
-- 2026-05-27 22:00 | Atletico Mineiro MG vs Academia Puerto Cabello
-- 2026-05-27 18:00 | Atletico Mineiro MG vs Chapecoense SC
-- 2026-05-27 18:00 | Atletico Tucuman Reserve vs CD Godoy Cruz
-- 2026-05-27 22:00 | Avai FC SC vs Volta Redonda FC RJ
-- 2026-05-27 17:00 | FC Barcelona vs Real Sociedad San Sebastian
-- 2026-05-27 22:00 | Black Rock FC vs Vermont Green FC
-- 2026-05-27 23:00 | Boston Bolts vs New England FC
-- 2026-05-27 18:30 | Botafogo Fr RJ vs EC Juventude RS
-- 2026-05-27 21:00 | Boyaca Chico FC vs Llaneros FC
-- 2026-05-27 18:00 | CA Belgrano vs CA Quilmes Reserve
-- 2026-05-27 18:30 | CA Defensores Unidos vs Villa Dalmine
+- 2026-05-28 17:00 | 1. FC Lokomotive Leipzig vs FC Wurzburger Kickers
+- 2026-05-28 18:30 | ACF Fiorentina vs Parma Calcio 1913 U20
+- 2026-05-28 15:00 | AL Karkh vs Al Shorta SC
+- 2026-05-28 15:00 | AL Minaa vs AL Talaba
+- 2026-05-28 15:00 | AL Naft Maysan vs Al Quwa Al Jawiya
+- 2026-05-28 16:20 | Al-Fahaheel vs Al-Salmiya SC
+- 2026-05-28 17:30 | Assyriska FF vs Vasalunds IF
+- 2026-05-28 19:00 | Atletico Mineiro MG vs EC Vitoria BA
+- 2026-05-28 07:00 | Auckland FC Reserves vs Auckland United FC
+- 2026-05-28 07:00 | Birkenhead United AFC vs East Coast Bays
+- 2026-05-28 18:00 | CA Aldosivi Reserve vs CA Talleres de Cordoba Reserve
+- 2026-05-28 18:00 | CA Lanus vs CA Platense
+- 2026-05-28 19:00 | CA Piauiense PI vs Santos FC SP
+- 2026-05-28 22:00 | CA River Plate (Arg) vs San Lorenzo de Almagro Res.
+- 2026-05-28 18:00 | CA Sarmiento de Junin vs Rosario Central Reserve
+- 2026-05-28 18:00 | CA Union Santa Fe Reserve vs Gimnasia de Mendoza Reserve
+- 2026-05-28 19:00 | Casa Pia Lisbon vs SCU Torreense
+- 2026-05-28 23:00 | CD El Nacional vs CD Universidad Catolica del Ecuador
+- 2026-05-28 20:00 | CD Real Santander vs Once Caldas Sa
+- 2026-05-28 22:00 | Cerro Porteno vs Sporting Cristal

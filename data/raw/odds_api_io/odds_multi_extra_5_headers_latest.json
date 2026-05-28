@@ -1,9 +1,9 @@
 {
-  "captured_at_utc": "2026-05-27T15:00:28.940770+00:00",
+  "captured_at_utc": "2026-05-28T02:28:52.345530+00:00",
   "label": "odds_multi_extra_5",
   "status_code": 200,
   "x_ratelimit_limit": "100",
-  "x_ratelimit_remaining": "42",
-  "x_ratelimit_reset": "2026-05-27T15:24:03Z",
+  "x_ratelimit_remaining": "52",
+  "x_ratelimit_reset": "2026-05-28T02:57:51Z",
   "retry_after": null
 }
