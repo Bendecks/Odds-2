@@ -1,2 +1,2 @@
 forward_prediction_rows,automatic_price_rows,value_snapshot_rows,matches_with_any_automatic_price,matches_with_fresh_api_price,matches_with_odds_api_io_price,fresh_api_match_coverage_rate,odds_api_io_match_coverage_rate,real_money_ready
-300,49,147,49,49,49,0.1633,0.1633,False
+300,44,132,44,44,44,0.1467,0.1467,False

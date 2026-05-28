@@ -1,9 +1,9 @@
 {
-  "captured_at_utc": "2026-05-28T02:28:04.657641+00:00",
+  "captured_at_utc": "2026-05-28T15:33:30.550303+00:00",
   "label": "events_search_7",
   "status_code": 200,
   "x_ratelimit_limit": "100",
-  "x_ratelimit_remaining": "64",
-  "x_ratelimit_reset": "2026-05-28T02:57:51Z",
+  "x_ratelimit_remaining": "69",
+  "x_ratelimit_reset": "2026-05-28T16:25:43Z",
   "retry_after": null
 }

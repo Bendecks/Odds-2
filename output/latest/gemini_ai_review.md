@@ -1,27 +1,16 @@
 # Gemini AI Review
 
-Gemini review was not generated.
+Model used: `gemini-2.0-flash`
 
-Reason: Gemini request failed or returned no usable text.
-
-Errors:
-- gemini-1.5-flash: HTTP 404 {
-  "error": {
-    "code": 404,
-    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.",
-    "status": "NOT_FOUND"
-  }
-}
-
-- gemini-2.0-flash: HTTP 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\nPlease retry in 35.717295891s.",
-    "status": "RESOURCE_EXHAUSTED",
-    "details": [
-      {
-        "@type": "type.googleapis.com/google.rpc.Help",
-        "links": [
-          {
-            "description": "Learn more about Gemini API quotas",
-            "url": "https://ai.google.dev/gemini-a
+1.  Current system status: `proxy_paper_testing_started`
+2.  Biggest weakness: Negative CLV trend.
+3.  Best next development step: Improve fixture/model team matching for automatic odds ingestion.
+4.  Readiness: paper-test-ready
+5.  One concrete change to prioritize next: add_team_aliases_for_upcoming_fixtures
+6.  Suppression rules look: reasonable
+7.  Probability calibration layer looks: too aggressive
+8.  Paper-test pick filter is: too loose
+9.  Probability band to protect, suppress, or monitor next: Monitor 0.35-0.45
+10. Calibration impact should be: reduced
+11. Blocking true forward paper-testing right now: model matching
+12. Manual odds instructions are: sufficient
