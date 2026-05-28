@@ -1,12 +1,4 @@
 sport_query,event_id,date_denmark,home,away,league,sport,bookmaker_count,status,reason
-football,71505358,2026-05-28 15:00,FK Kukesi,Butrinti Sarande,Albania - Kategoria e Pare,Football,0,pending,not_good_competition_or_low_coverage
-football,71704136,2026-05-28 16:00,FK Septemvri Sofia,FC Yantra Gabrovo,Bulgaria - Parva Liga,Football,0,pending,not_good_competition_or_low_coverage
-football,62641029,2026-05-28 16:00,Soenderjyske,FC Nordsjaelland,Denmark - U19 Ligaen,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,71704158,2026-05-28 16:30,Ilbirs Bishkek FC,FC Abdysh-Ata,Kyrgyzstan - Top League,Football,0,pending,not_good_competition_or_low_coverage
-football,71685282,2026-05-28 17:00,AL Minaa,AL Talaba,Iraq - Iraqi League,Football,0,pending,not_good_competition_or_low_coverage
-football,71685284,2026-05-28 17:00,AL Karkh,Al Shorta SC,Iraq - Iraqi League,Football,0,pending,not_good_competition_or_low_coverage
-football,71685286,2026-05-28 17:00,AL Naft Maysan,Al Quwa Al Jawiya,Iraq - Iraqi League,Football,0,pending,not_good_competition_or_low_coverage
-football,70684208,2026-05-28 17:00,Toolon Taisto,FC Kontu,Finland - Kolmonen,Football,0,pending,not_good_competition_or_low_coverage
 football,71704428,2026-05-28 17:30,Chrobry Glogow,LKS Lodz,Poland - I Liga,Football,0,pending,not_good_competition_or_low_coverage
 football,68538268,2026-05-28 17:30,FC Jazz,SalPa,Finland - Ykkonen,Football,0,pending,not_good_competition_or_low_coverage
 football,69924684,2026-05-28 17:30,Kultsu FC,Kjp Kouvola,Finland - Kolmonen,Football,0,pending,not_good_competition_or_low_coverage
@@ -42,38 +34,61 @@ football,71615688,2026-05-28 23:00,CR Vasco da Gama RJ,America FC MG,"Brazil - C
 football,71615454,2026-05-28 23:30,Cruzeiro EC MG,Doce Mel EC BA,"Brazil - Copa do Brasil, Women",Football,0,pending,not_good_competition_or_low_coverage
 football,68158832,2026-05-29 00:00,CA River Plate (Arg),San Lorenzo de Almagro Res.,"Argentina - Copa Proyeccion Final, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
 football,71355212,2026-05-29 01:00,CD El Nacional,CD Universidad Catolica del Ecuador,Ecuador - Copa Ecuador,Football,0,pending,not_good_competition_or_low_coverage
-tennis,158056,2026-05-28 14:00,Jordi Garcia Mestre,Luca Staeheli,ITF Men - Kranjska Gora,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,158053,2026-05-28 14:00,Kai Wehnelt,Cruz Hewitt,ITF Men - Troisdorf,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,158333,2026-05-28 15:15,Matteo Sciahbasi,Manuel Mazza,ITF Men - Grado,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,31404443,2026-05-28 15:15,Kenny De Schepper,Marvin Moeller,ITF Men - Troisdorf,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,158335,2026-05-28 16:15,Filippo Mazzola,Giuseppe La Vela,ITF Men - Kranjska Gora,Tennis,0,pending,not_good_competition_or_low_coverage
+football,69091202,2026-05-29 01:30,Patuxent Football Athletics,Annapolis Blues FC,USA - USL League Two,Football,0,pending,not_good_competition_or_low_coverage
+football,69091204,2026-05-29 02:00,Edgewater Castle,Sueno FC,USA - USL League Two,Football,0,pending,not_good_competition_or_low_coverage
+football,69091206,2026-05-29 02:00,Houston FC,Laredo Heat SC,USA - USL League Two,Football,0,pending,not_good_competition_or_low_coverage
+football,71517962,2026-05-29 02:00,Nacional FC AM,Paysandu SC PA,Brazil - Copa Verde,Football,0,pending,not_good_competition_or_low_coverage
+football,71705032,2026-05-29 02:30,Orsomarso SC,CDP Junior FC,Colombia - Liga Femenina,Football,0,pending,not_good_competition_or_low_coverage
+football,68989156,2026-05-29 04:00,Utah United,Real Colorado,USA - USL W League,Football,0,pending,not_good_competition_or_low_coverage
+football,69091222,2026-05-29 04:00,Tacoma Stars,FC Olympia,USA - USL League Two,Football,0,pending,not_good_competition_or_low_coverage
 tennis,158323,2026-05-28 17:30,Niels Mcdonald,Marcel Zielinski,ITF Men - Troisdorf,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,158054,2026-05-28 17:30,Pierluigi Basile,Oskar Brostrom Poulsen,ITF Men - Grado,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,158056,2026-05-28 18:00,Jordi Garcia Mestre,Luca Staeheli,ITF Men - Kranjska Gora,Tennis,0,live,not_good_competition_or_low_coverage
 tennis,553764,2026-05-28 18:00,Alexandre Reco,Maxime Chazal,ITF Men - Carnac,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71667874,2026-05-28 18:00,"Patil, Ritesh","Haviv, Raz",UTR Men - UTR PTT San Luis Obispo Men 01,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71750240,2026-05-28 18:00,"Hill, Sean","Morgan, Ryan",UTR Men - UTR PTT San Luis Obispo Men 01,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71667882,2026-05-28 18:00,"Kamyshev, Sean","Deem, AJ",UTR Men - UTR PTT San Luis Obispo Men 01,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,158063,2026-05-28 19:00,Spencer Johnson,Ozan Baris,ITF Men - Lakewood,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,158064,2026-05-28 19:00,Kaylan Bigun,Alexander Guajardo,ITF Men - Lakewood,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,158441,2026-05-28 19:00,Theodore Dean,Iiro Vasa,ITF Men - Lakewood,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,158720,2026-05-28 19:00,Noah Johnston,Lucas Marionneau,ITF Men - Lakewood,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,158721,2026-05-28 19:00,Mikael Arseneault,Noah Zamora,ITF Men - Lakewood,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71667832,2026-05-28 19:00,"Buntrock, Kennedy","Kholdarova, Sadbaroy",UTR Women - UTR PTT San Luis Obispo Women 01,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71667842,2026-05-28 19:00,"Jakupovic-Kljako, Tia Bonita","Gullacksen, Nikoline",UTR Women - UTR PTT San Luis Obispo Women 01,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71667874,2026-05-28 19:00,"Patil, Ritesh","Haviv, Raz",UTR Men - UTR PTT San Luis Obispo Men 01,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71750240,2026-05-28 19:00,"Hill, Sean","Morgan, Ryan",UTR Men - UTR PTT San Luis Obispo Men 01,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71667882,2026-05-28 19:00,"Kamyshev, Sean","Deem, AJ",UTR Men - UTR PTT San Luis Obispo Men 01,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,158442,2026-05-28 19:00,Oliver Ojakaar,Will Mayew,ITF Men - Lakewood,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,158719,2026-05-28 19:00,Marko Mesarovic,Amit Vales,ITF Men - Lakewood,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71746760,2026-05-28 19:10,"Hoffmann, Niels","Boparai, Manveer",UTR Men - UTR PTT San Luis Obispo Men 01,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71750798,2026-05-28 19:10,"Bushuev, Pavel","Balthazor, Nolan",UTR Men - UTR PTT San Luis Obispo Men 01,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71667888,2026-05-28 19:10,"Matthysen, Leo","Jirousek, Tomas",UTR Men - UTR PTT San Luis Obispo Men 01,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71667828,2026-05-28 21:00,"Lubbe, Jovan","Gamble, Jon",UTR Men - UTR PTT San Luis Obispo Men 01,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71667872,2026-05-28 21:00,"Doig, Connor Thomas","Eliscu, Aaron",UTR Men - UTR PTT San Luis Obispo Men 01,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,158064,2026-05-28 19:15,Kaylan Bigun,Alexander Guajardo,ITF Men - Lakewood,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,158721,2026-05-28 19:15,Mikael Arseneault,Noah Zamora,ITF Men - Lakewood,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,158717,2026-05-28 19:15,Maxwell Exsted,Vit Kalina,ITF Men - Lakewood,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71746760,2026-05-28 20:10,"Hoffmann, Niels","Boparai, Manveer",UTR Men - UTR PTT San Luis Obispo Men 01,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71750798,2026-05-28 20:10,"Bushuev, Pavel","Balthazor, Nolan",UTR Men - UTR PTT San Luis Obispo Men 01,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71667814,2026-05-28 20:10,"Isaacs, Allison Nicole","Vyrlan, Esther",UTR Women - UTR PTT San Luis Obispo Women 01,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71667824,2026-05-28 20:10,"Aulia, Audrey","Adrover Gallego, Isabel",UTR Women - UTR PTT San Luis Obispo Women 01,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71667850,2026-05-28 20:10,"Ozerets, Alexandra","Zamburek, Ana Carmen",UTR Women - UTR PTT San Luis Obispo Women 01,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71667888,2026-05-28 20:10,"Matthysen, Leo","Jirousek, Tomas",UTR Men - UTR PTT San Luis Obispo Men 01,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71667828,2026-05-28 22:00,"Lubbe, Jovan","Gamble, Jon",UTR Men - UTR PTT San Luis Obispo Men 01,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71667864,2026-05-28 22:00,"Goldberg, Sonya","Fairclough, Lily",UTR Women - UTR PTT San Luis Obispo Women 01,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71667872,2026-05-28 22:00,"Doig, Connor Thomas","Eliscu, Aaron",UTR Men - UTR PTT San Luis Obispo Men 01,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71667876,2026-05-28 22:00,"Gardiner, Kate","Lynch, Natalie",UTR Women - UTR PTT San Luis Obispo Women 01,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,71659350,2026-05-29 00:00,"Jones, Scott","Tripathi, Eric",UTR Men - UTR PTT Gold Coast Men 03,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71715100,2026-05-29 00:00,"McPhee, Kaylah","Xu, Miranda",UTR Women - UTR PTT Gold Coast Women 03,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,71659370,2026-05-29 00:00,"Ambler, Casey","Mehrotra, Arjun",UTR Men - UTR PTT Gold Coast Men 03,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,71659536,2026-05-29 00:00,"Wensley, Sam","Papac, Tomislav Edward",UTR Men - UTR PTT Gold Coast Men 03,Tennis,0,pending,not_good_competition_or_low_coverage
-basketball,71596016,2026-05-28 13:30,Pelita Jaya Jakarta,Rans Simba Bogor,Indonesia - IBL,Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,71680580,2026-05-28 13:35,Shanghai Sharks,Zhejiang Lions,China - CBA,Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,71596010,2026-05-28 14:00,Tangerang Hawks,Dewa United Banten,Indonesia - IBL,Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,71056930,2026-05-28 14:30,Da Nang Dragons,Ho Chi Minh City Wings,Vietnam - VBA,Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,71493470,2026-05-28 15:45,AL Riyadi Beirut,Beirut SC,Lebanon - First Division,Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,71558884,2026-05-28 17:00,Panathinaikos BC,PAOK BC,Greece - Greek Basketball League,Basketball,0,pending,not_good_competition_or_low_coverage
+tennis,71739610,2026-05-29 01:10,"Idzikowski, Ella","Liope, Faustine",UTR Women - UTR PTT Gold Coast Women 03,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71659342,2026-05-29 02:30,"Jones, Scott","Schoeman, Marcus",UTR Men - UTR PTT Gold Coast Men 03,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71715118,2026-05-29 02:30,"Tran, Emma","Xu, Miranda",UTR Women - UTR PTT Gold Coast Women 03,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71659372,2026-05-29 02:30,"Jasika, Omar","Mehrotra, Arjun",UTR Men - UTR PTT Gold Coast Men 03,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,158145,2026-05-29 03:00,Hikaru Shiraishi,Hiromasa Koyama,ITF Men - Karuizawa,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,158347,2026-05-29 03:00,Shu Matsuoka,Evan Zhu,ITF Men - Karuizawa,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,158348,2026-05-29 03:00,Jake Delaney,Leo Vithoontien,ITF Men - Karuizawa,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,158722,2026-05-29 03:00,Sora Fukuda,Koki Matsuda,ITF Men - Karuizawa,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,554212,2026-05-29 04:00,Sanhui Shin,Yeonsu Jeong,ITF Men - Gimcheon,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,554214,2026-05-29 04:00,Alan Magadan,Keisuke Saitoh,ITF Men - Gimcheon,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,554268,2026-05-29 04:00,Lachlan Mcfadzean,Shintaro Imai,ITF Men - Luan,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,554269,2026-05-29 04:00,Minghui Zhang,Yaojie Zeng,ITF Men - Luan,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,554270,2026-05-29 04:00,Tianhui Zhang,Shu Muto,ITF Men - Luan,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,554271,2026-05-29 04:00,Ashton McLeod,Yan Cheng Chen,ITF Men - Luan,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,158444,2026-05-29 04:00,Uisung Park,Matthew Dellavedova,ITF Men - Gimcheon,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71659508,2026-05-29 04:00,"Wensley, Sam","Brownrigg, Noah",UTR Men - UTR PTT Gold Coast Men 03,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,31470710,2026-05-29 05:00,Hugo Hashimoto,Dong Ju Kim,ITF Men - Gimcheon,Tennis,0,pending,not_good_competition_or_low_coverage
 basketball,71684208,2026-05-28 17:50,BC Lietkabelis Panevezys,BC Zalgiris Kaunas,Lithuania - LKL,Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,71726708,2026-05-28 19:00,Dubai Basketball,Buducnost Podgorica,International - Liga ABA,Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,71776738,2026-05-28 19:00,Igokea Aleksandrovac,KK Bosna Royal Sarajevo,Bosnia & Herzegovina - 1st Division,Basketball,0,pending,not_good_competition_or_low_coverage
@@ -87,12 +102,17 @@ basketball,71684814,2026-05-28 21:00,SIG Strasbourg,Paris Basketball,France - Pr
 basketball,71056690,2026-05-29 01:00,Sodie Mesquita,SESI / Araraquara,"Brazil - LBF, Women",Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,71764214,2026-05-29 01:00,Sesi/Franca BC SP,Brasilia Basquete,Brazil - NBB,Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,71652712,2026-05-29 01:15,Aguada,Club Nacional,Uruguay - LUB,Basketball,0,pending,not_good_competition_or_low_coverage
-cricket,70673130,2026-05-28 14:00,Scotland,Netherlands,"International - T20 Scotland Tri-Series, Women",Cricket,0,pending,not_good_competition_or_low_coverage
-cricket,70673114,2026-05-28 17:00,Ireland,West Indies,"International - T20 Ireland Tri-Series, Women",Cricket,0,pending,not_good_competition_or_low_coverage
+basketball,71116874,2026-05-29 02:00,Aguada Santeros,Atleticos de San German,Puerto Rico - BSN,Basketball,0,pending,not_good_competition_or_low_coverage
+basketball,71748474,2026-05-29 02:30,CD Espanol Osorno,CD Atletico Puerto Varas,Chile - Liga Nacional,Basketball,0,pending,not_good_competition_or_low_coverage
+basketball,71232590,2026-05-29 03:15,Salvadorenos BC,A Lobos BKB Chalchuapa,El Salvador - Liga Mayor de Baloncesto,Basketball,0,pending,not_good_competition_or_low_coverage
+basketball,71232592,2026-05-29 03:15,CB Cojute,Santa Ana BC,El Salvador - Liga Mayor de Baloncesto,Basketball,0,pending,not_good_competition_or_low_coverage
 cricket,71723216,2026-05-28 18:30,Keraniganj Challengers,Mec Study Group,Kuwait - T20 KCC Falcons Champions Trophy,Cricket,0,pending,not_good_competition_or_low_coverage
 cricket,66650198,2026-05-28 19:30,England,India,"International - T20 Series England vs. India, Women",Cricket,0,pending,not_good_competition_or_low_coverage
 cricket,71723218,2026-05-28 21:45,Challenging Stars,Reddy Riders,Kuwait - T20 KCC Falcons Champions Trophy,Cricket,0,pending,not_good_competition_or_low_coverage
 rugby-union,,,,,,,,,"HTTP 400: {""error"":""Invalid sport slug""}"
 rugby-league,,,,,,,,,"HTTP 400: {""error"":""Invalid sport slug""}"
 handball,71746074,2026-05-28 18:00,WAT Atzgersdorf,Hypo Niederosterreich,"Austria - WHA Meisterliga, Women",Handball,0,pending,not_good_competition_or_low_coverage
+handball,71704322,2026-05-28 20:00,Pontault Combault,Caen Handball,France - LNH Proligue,Handball,0,pending,not_good_competition_or_low_coverage
 handball,61810572,2026-05-28 20:00,Limoges Handball,Chambery Savoie Mont Blanc Handball,France - LNH Division 1,Handball,0,pending,not_good_competition_or_low_coverage
+handball,71704320,2026-05-28 20:30,Billere HB Pau Pyrenees,US Ivry Handball,France - LNH Proligue,Handball,0,pending,not_good_competition_or_low_coverage
+handball,69106974,2026-05-28 20:30,Madeira Andebol Sad,ABC Braga/UMinho,"Portugal - 1. Divisao, Women",Handball,0,pending,not_good_competition_or_low_coverage
