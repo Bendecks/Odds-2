@@ -1,2 +1,2 @@
 forward_log_rows,parseable_kickoffs,eligible_to_check,api_calls_used,settled_forward_picks,pending_forward_picks,wins,losses,roi_units,api_key_present,settlement_min_hours_after_kickoff
-529,529,0,0,0,529,0,0,0.0,True,2.0
+547,547,0,0,0,547,0,0,0.0,True,2.0
