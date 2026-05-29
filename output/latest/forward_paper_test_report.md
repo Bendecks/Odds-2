@@ -359,32 +359,32 @@ Ingen settled forward-picks endnu i den rene forward-rapport.
 
 ## Settlement-check pending/noter
 
-- 2026-05-14 2026-05-29 20:00:00 – Astillero FC (Ecu) vs Guayaquil City FC – note: not_eligible_yet_or_call_cap
-- 2026-05-11 2026-05-29 20:00:00 – Vallecano vs Girona – note: not_eligible_yet_or_call_cap
 - 2026-05-11 2026-05-29 20:00:00 – Tottenham vs Leeds – note: not_eligible_yet_or_call_cap
+- 2026-05-11 2026-05-29 20:00:00 – Vallecano vs Girona – note: not_eligible_yet_or_call_cap
+- 2026-05-13 2026-05-29 20:00:00 – Lens vs Paris SG – note: not_eligible_yet_or_call_cap
 - 2026-05-13 2026-05-29 20:00:00 – Lens vs Paris SG – note: not_eligible_yet_or_call_cap
 - 2026-05-13 2026-05-29 20:00:00 – Motherwell vs Celtic – note: not_eligible_yet_or_call_cap
+- 2026-05-11 2026-05-29 20:15:00 – Estrela vs Famalicao – note: not_eligible_yet_or_call_cap
 - 2026-05-19 2026-05-29 20:15:00 – Chelsea vs Tottenham – note: not_eligible_yet_or_call_cap
 - 2026-05-11 2026-05-29 20:15:00 – Tondela vs Moreirense – note: not_eligible_yet_or_call_cap
-- 2026-05-11 2026-05-29 20:15:00 – Estrela vs Famalicao – note: not_eligible_yet_or_call_cap
 - 2026-05-12 2026-05-29 20:30:00 – Osasuna vs Ath Madrid – note: not_eligible_yet_or_call_cap
 - 2026-05-14 2026-05-29 20:30:00 – Vinotinto FC Ecuador vs Club Deportivo Cuenca Juniors – note: not_eligible_yet_or_call_cap
 - 2026-05-12 2026-05-29 20:30:00 – Osasuna vs Ath Madrid – note: not_eligible_yet_or_call_cap
-- 2026-05-14 2026-05-29 20:30:00 – Real Madrid vs Oviedo – note: not_eligible_yet_or_call_cap
 - 2026-05-13 2026-05-29 20:30:00 – Getafe vs Mallorca – note: not_eligible_yet_or_call_cap
+- 2026-05-14 2026-05-29 20:30:00 – Real Madrid vs Oviedo – note: not_eligible_yet_or_call_cap
 - 2026-05-13 2026-05-29 20:30:00 – Alaves vs Barcelona – note: not_eligible_yet_or_call_cap
 - 2026-05-28 2026-05-29 21:00:00 – CR Vasco da Gama RJ vs America FC MG – note: not_eligible_yet_or_call_cap
+- 2026-05-26 2026-05-29 22:00:00 – LDU Quito vs Always Ready – note: not_eligible_yet_or_call_cap
 - 2026-05-26 2026-05-29 22:00:00 – Deportivo Merlo vs CSD Liniers – note: not_eligible_yet_or_call_cap
-- 2026-05-19 2026-05-29 22:00:00 – IF Sao Joseense PR vs Azuriz FC PR – note: not_eligible_yet_or_call_cap
-- 2026-05-14 2026-05-29 22:00:00 – Tigres FC vs Envigado FC – note: not_eligible_yet_or_call_cap
-- 2026-05-14 2026-05-29 22:00:00 – AD Confianca SE vs Gremio FB Porto Alegrense RS – note: not_eligible_yet_or_call_cap
 - 2026-05-28 2026-05-29 22:00:00 – SE Palmeiras SP vs CD Junior FC – note: not_eligible_yet_or_call_cap
 - 2026-05-26 2026-05-29 22:00:00 – Club Comunicaciones vs CD UAI Urquiza – note: not_eligible_yet_or_call_cap
-- 2026-05-26 2026-05-29 22:00:00 – CA Lanus vs Mirassol FC SP – note: not_eligible_yet_or_call_cap
-- 2026-05-26 2026-05-29 22:00:00 – LDU Quito vs Always Ready – note: not_eligible_yet_or_call_cap
+- 2026-05-14 2026-05-29 22:00:00 – Tigres FC vs Envigado FC – note: not_eligible_yet_or_call_cap
+- 2026-05-14 2026-05-29 22:00:00 – AD Confianca SE vs Gremio FB Porto Alegrense RS – note: not_eligible_yet_or_call_cap
 - 2026-05-19 2026-05-29 22:00:00 – Fluminense FC RJ vs Club Bolivar – note: not_eligible_yet_or_call_cap
-- 2026-05-14 2026-05-29 22:30:00 – Santos FC SP vs SE Palmeiras SP – note: not_eligible_yet_or_call_cap
+- 2026-05-19 2026-05-29 22:00:00 – IF Sao Joseense PR vs Azuriz FC PR – note: not_eligible_yet_or_call_cap
+- 2026-05-26 2026-05-29 22:00:00 – CA Lanus vs Mirassol FC SP – note: not_eligible_yet_or_call_cap
 - 2026-05-14 2026-05-29 22:30:00 – SC Corinthians SP vs Barra FC SC – note: not_eligible_yet_or_call_cap
+- 2026-05-14 2026-05-29 22:30:00 – Santos FC SP vs SE Palmeiras SP – note: not_eligible_yet_or_call_cap
 - 2026-05-12 2026-05-29 23:00:00 – St Andrew Lions vs Ellerton FC – note: not_eligible_yet_or_call_cap
 - 2026-05-19 2026-05-29 23:00:00 – LVU Rush vs Delaware FC – note: not_eligible_yet_or_call_cap
 - 2026-05-28 2026-05-29 23:00:00 – CD El Nacional vs CD Universidad Catolica del Ecuador – note: not_eligible_yet_or_call_cap
