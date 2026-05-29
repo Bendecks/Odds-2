@@ -17,49 +17,7 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 
 ## Current rows needing odds
 
-- 2026-05-28 17:00 | 1. FC Lokomotive Leipzig vs FC Wurzburger Kickers
-- 2026-05-28 18:30 | ACF Fiorentina vs Parma Calcio 1913 U20
-- 2026-05-28 16:20 | Al-Fahaheel vs Al-Salmiya SC
-- 2026-05-28 17:30 | Assyriska FF vs Vasalunds IF
-- 2026-05-28 19:00 | Atletico Mineiro MG vs EC Vitoria BA
-- 2026-05-28 18:00 | CA Aldosivi Reserve vs CA Talleres de Cordoba Reserve
-- 2026-05-28 18:00 | CA Lanus vs CA Platense
-- 2026-05-28 19:00 | CA Piauiense PI vs Santos FC SP
-- 2026-05-28 22:00 | CA River Plate (Arg) vs San Lorenzo de Almagro Res.
-- 2026-05-28 18:00 | CA Sarmiento de Junin vs Rosario Central Reserve
-- 2026-05-28 18:00 | CA Union Santa Fe Reserve vs Gimnasia de Mendoza Reserve
-- 2026-05-28 19:00 | Casa Pia Lisbon vs SCU Torreense
-- 2026-05-28 23:00 | CD El Nacional vs CD Universidad Catolica del Ecuador
-- 2026-05-28 20:00 | CD Real Santander vs Once Caldas Sa
-- 2026-05-28 22:00 | Cerro Porteno vs Sporting Cristal
-- 2026-05-28 21:00 | CR Vasco da Gama RJ vs America FC MG
-- 2026-05-28 21:30 | Cruzeiro EC MG vs Doce Mel EC BA
-- 2026-05-28 16:00 | Deportivo Maldonado Reserve vs Liverpool Montevideo
-- 2026-05-28 18:30 | East Fife Lfc vs Falkirk FC
-- 2026-05-28 18:30 | FK Decic Tuzi vs FK Mornar Bar
-- 2026-05-28 18:00 | Gimnasia de la Plata Reserve vs CA Barracas Central Reserve
-- 2026-05-28 17:30 | Hedensted IF vs Fuglebakken KFUM
-- 2026-05-28 18:45 | Ireland vs Qatar
-- 2026-05-28 17:00 | Kolding IF vs Dbk Fortuna Hjoerring
-- 2026-05-28 20:30 | Llaneros FC vs Independiente Santa Fe
-- 2026-05-28 17:00 | FCM Traiskirchen vs SC Neusiedl am See 1919
-- 2026-05-28 15:45 | Mikkelin Pallo-Kissat vs HaPK Edustus
-- 2026-05-28 18:00 | Nacional de Montevideo vs La Luz FC Reserves
-- 2026-05-28 23:00 | Paradise SC vs Kickstart Rush
-- 2026-05-28 23:30 | Patuxent Football Athletics vs Annapolis Blues FC
-- 2026-05-28 17:00 | PPJ/Ruoholahti vs Mps
-- 2026-05-28 18:00 | Progreso vs Defensor Sporting
-- 2026-05-28 16:00 | Puskas Akademia Felcsut vs Ferencvarosi Budapest
-- 2026-05-28 18:00 | Red Bull Bragantino SP vs SC Corinthians SP
-- 2026-05-28 22:00 | SE Palmeiras SP vs CD Junior FC
-- 2026-05-28 16:00 | FC Tallinn vs Maardu Linnameeskond
-- 2026-05-28 16:00 | FC Torpedo Kutaisi vs FC Gagra
-- 2026-05-28 18:30 | Wieczysta Krakow vs Polonia Warszawa
-- 2026-05-28 16:00 | FC Ylivieska vs Lapuan Virkia
-- 2026-05-28 17:20 | Ylojarvi United FC vs FC Haka J
-- 2026-05-28 17:30 | Zakho FC vs Erbil SC
 - 2026-05-29 23:00 | AFC Ann Arbor vs Union FC Macomb
-- 2026-05-29 15:00 | A Sakiet Edayer vs ES Hammam Sousse
 - 2026-05-29 18:00 | AA Flamengo SP vs Referencia FC SP
 - 2026-05-29 17:00 | Aalesunds FK vs HamKam
 - 2026-05-29 18:35 | Aberdeen LFC vs Queen's Park LFC
@@ -75,7 +33,6 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-29 14:15 | Al Urooba UAE vs Masfoot Sports Club
 - 2026-05-29 14:15 | Al-Dhaid vs Emirates Club
 - 2026-05-29 14:15 | Al-Hamriyah vs Dubai United FC
-- 2026-05-29 00:30 | America de Cali vs CSD Macara
 - 2026-05-29 21:00 | America de Cali Sa vs International FC
 - 2026-05-29 22:30 | America FC RN vs Central SC PE
 - 2026-05-29 16:00 | Andorra vs Iraq
@@ -88,15 +45,13 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-29 14:00 | Atletico Mineiro MG vs Chapecoense SC
 - 2026-05-29 20:00 | Atletico Nacional SA vs Internacional de Bogota
 - 2026-05-29 17:00 | Austria Lustenau II vs FC Egg
-- 2026-05-29 08:30 | Baduraliya CC vs Colombo CC
 - 2026-05-29 17:00 | BK Fremad Amager vs Skive IK
 - 2026-05-29 08:00 | Blacktown Spartans FC vs Western City Rangers FC
-- 2026-05-29 00:30 | Boca Juniors vs CD Universidad Catolica
+- 2026-05-29 18:30 | Bosnia and Herzegovina vs North Macedonia
 - 2026-05-29 18:00 | Boston City FC MG vs Coimbra Sports MG
 - 2026-05-29 18:45 | Bray Wanderers AFC vs Wexford FC
 - 2026-05-29 10:00 | Broadmeadow Magic FC vs Maitland FC
 - 2026-05-29 09:30 | Brunswick City SC vs Manningham United Blues
-- 2026-05-29 00:30 | CA Tigre vs Alianza Atletico
 - 2026-05-29 10:00 | Campbelltown City SC vs Salisbury Inter
 - 2026-05-29 18:00 | Carlos Renaux SC vs Joinville EC SC
 - 2026-05-29 11:00 | Casuarina FC vs Hellenic Athletic Club
@@ -105,10 +60,8 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-29 18:45 | Cobh Ramblers vs Kerry FC
 - 2026-05-29 22:00 | Cobresal vs Nublense
 - 2026-05-29 18:45 | Cork City FC vs Finn Harps FC
-- 2026-05-29 00:30 | Cruzeiro EC MG vs Barcelona SC
 - 2026-05-29 20:00 | CS Santos FC vs Union Minas
 - 2026-05-29 21:00 | Cucuta Deportivo FC vs Fortaleza FC
-- 2026-05-29 20:30 | Cumbaya FC vs CD Independiente Juniors
 - 2026-05-29 15:00 | Deportes Temuco vs Santiago Wanderers
 - 2026-05-29 18:00 | Desportivo Brasil SP vs EC Santo Andre SP
 - 2026-05-29 16:00 | Dfk Dainava Alytus vs FK Ekranas
@@ -120,7 +73,6 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-29 14:15 | Dubai City Football Club vs Dibba Al-Hisn SC
 - 2026-05-29 18:45 | Dundalk FC vs Derry City FC
 - 2026-05-29 17:30 | EB/Streymur II vs HB Torshavn II
-- 2026-05-29 00:00 | Edgewater Castle vs Sueno FC
 - 2026-05-29 20:00 | Envigado FC vs Real Cartagena FC
 - 2026-05-29 16:15 | Etela-Espoon Pallo vs Sexypoxyt
 - 2026-05-29 10:00 | Ethiopia Nigd Bank vs Ethio Electric
@@ -155,7 +107,6 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-29 16:00 | Hoenefoss BK vs Stabaek Fotball
 - 2026-05-29 17:00 | Hoersholm-Usseroed IK vs FA 2000
 - 2026-05-29 17:30 | Horsens FS vs Aalborg Freja
-- 2026-05-29 00:00 | Houston FC vs Laredo Heat SC
 - 2026-05-29 15:30 | HPS vs Kuopion Palloseura
 - 2026-05-29 23:30 | Huaquillas FC vs Leones Futbol Club
 - 2026-05-29 15:30 | Huima/Urho vs GBK Kokkola
@@ -182,7 +133,6 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-29 18:00 | Maua FC SP vs GD Prudente SP
 - 2026-05-29 16:00 | MKS Kluczbork vs KS Sleza Wroclaw
 - 2026-05-29 16:00 | MPS/Atletico Malmi vs Ppj/Lauttasaari
-- 2026-05-29 00:00 | Nacional FC AM vs Paysandu SC PA
 - 2026-05-29 17:00 | Nacka FC vs Nykopings BIS
 - 2026-05-29 17:00 | Naestved BK vs AB Gladsaxe
 - 2026-05-29 17:00 | National Bank of Egypt SC vs Al Ittihad Al Sakandary
@@ -192,7 +142,6 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-29 15:30 | NK Opatija vs NK Karlovac 1919
 - 2026-05-29 15:30 | NK Rudes Zagreb vs NK Sesvete
 - 2026-05-29 15:30 | NK Solin vs NK Uskok
-- 2026-05-29 08:15 | North Star vs Brisbane Strikers
 - 2026-05-29 09:30 | Nunawading City vs Altona City SC
 - 2026-05-29 23:00 | Ocean City Nor Easters vs Delaware FC
 - 2026-05-29 18:45 | OGC Nice vs AS Saint-Etienne
@@ -200,9 +149,8 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-29 22:30 | One Knoxville SC vs Greenville Triumph SC
 - 2026-05-29 17:00 | Orgryte IS vs IF Elfsborg
 - 2026-05-29 23:00 | Orlando Pride vs Bay FC
-- 2026-05-29 00:30 | Orsomarso SC vs CDP Junior FC
 - 2026-05-29 16:00 | PFC Ludogorets 1945 Razgrad vs PFC Lokomotiv Plovdiv
-- 2026-05-29 04:15 | Panadura SC vs Sinhalese Sports Club
+- 2026-05-29 02:30 | Piratas de Campeche vs Tigres de Quintana Roo
 - 2026-05-29 15:30 | PK Keski-Uusimaa vs KuPS Akatemia
 - 2026-05-29 15:30 | Pogon Sokol Lubaczow vs Star Starachowice
 - 2026-05-29 19:00 | Real Madrid Castilla vs CE Sabadell FC
@@ -233,9 +181,9 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-29 23:00 | FC Supra Du Quebec vs Inter Toronto FC
 - 2026-05-29 17:00 | SV Donau Klagenfurt vs SV Spittal/Drau
 - 2026-05-29 17:00 | SV Pachern vs Ilzer SV
-- 2026-05-29 02:00 | Tacoma Stars vs FC Olympia
 - 2026-05-29 16:00 | Tampereen Ilves 2 vs HJS
 - 2026-05-29 18:00 | Tanabi EC SP vs Ituano FC SP
+- 2026-05-29 08:30 | Taroona vs South Hobart FC
 - 2026-05-29 16:00 | Thisted FC vs FC Roskilde
 - 2026-05-29 17:00 | Torns IF vs Linero IF
 - 2026-05-29 23:00 | Toronto FC II vs Philadelphia Union II
@@ -243,7 +191,6 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-29 16:30 | UFV Thalgau vs Union Henndorf
 - 2026-05-29 18:00 | Uniao Sao Joao EC SP vs Ibrachina FC SP
 - 2026-05-29 18:45 | University College Dublin vs Athlone Town AFC
-- 2026-05-29 02:00 | Utah United vs Real Colorado
 - 2026-05-29 17:00 | Vaalerenga IF vs Kristiansund BK
 - 2026-05-29 19:15 | Valur Reykjavik vs Throttur Reykjavik
 - 2026-05-29 17:15 | Vanersborgs FK vs Grebbestads IF
@@ -254,12 +201,12 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-29 17:30 | Wiener Sport-Club vs SV Leobendorf
 - 2026-05-29 13:00 | Wolaita Dicha SC vs Negelle Arsi
 - 2026-05-29 16:30 | Wolfsberger AC (A) vs SC Kalsdorf
-- 2026-05-29 09:30 | Wynnum Wolves FC vs Brisbane Roar FC
 - 2026-05-29 14:00 | Zed FC vs Kahrabaa Ismailia
 - 2026-05-30 14:00 | FC 1980 Wien vs LAC Inter
 - 2026-05-30 20:30 | 22 de Julio vs San Antonio FC
 - 2026-05-30 20:30 | 9 de Octubre FC vs Club Deportivo Cuenca Juniors
 - 2026-05-30 13:00 | Aalborg BK vs HB Koege
+- 2026-05-30 18:00 | AB Argir vs NSI Runavik
 - 2026-05-30 07:00 | AC Carina vs Logan Roos FC
 - 2026-05-30 19:00 | AC Goianiense GO vs Goias EC GO
 - 2026-05-30 14:15 | AD Ceuta vs Albacete Balompie
@@ -270,7 +217,8 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-30 16:00 | Al Ittihad vs AL Budaiya
 - 2026-05-30 16:00 | Al-Najma Manama vs Manama Club
 - 2026-05-30 05:00 | Alamein FC vs Keilor Park SC
-- 2026-05-30 08:15 | Altona Magic SC vs Oakleigh Cannons
+- 2026-05-30 05:00 | Albirex Niigata vs Kagoshima United
+- 2026-05-30 06:00 | Altona Magic SC vs Oakleigh Cannons FC
 - 2026-05-30 20:00 | AO Itabaiana SE vs Volta Redonda FC RJ
 - 2026-05-30 18:30 | Argentino de Rosario vs Club Estrella Del Sur (Alejandro Korn)
 - 2026-05-30 14:00 | Ariana FC vs Laholms FK
@@ -287,13 +235,16 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-30 13:00 | B93 Copenhagen vs Aarhus Fremad
 - 2026-05-30 02:00 | Ballard FC vs Midlakes United
 - 2026-05-30 07:00 | Bankstown United FC vs Fraser Park FC
+- 2026-05-30 07:00 | Bayside Argonauts FC vs Werribee City FC
 - 2026-05-30 06:30 | Belconnen United vs Canberra Croatia FC
 - 2026-05-30 18:00 | Bentin Tacna Heroica vs CD Estudiantil Cni
-- 2026-05-30 14:00 | FC Black Stars vs SV Muttenz
+- 2026-05-30 01:10 | Boca Juniors vs Quimsa Santiogo Del Estero
 - 2026-05-30 09:00 | Bonnyrigg W. E. vs Mounties Wanderers FC
 - 2026-05-30 21:00 | Botafogo FC PB vs Maringa FC PR
 - 2026-05-30 05:00 | Brindabella Blues FC vs Canberra Olympic
-- 2026-05-30 09:00 | Brunswick Juventus FC vs Eltham Redbacks FC
+- 2026-05-30 05:00 | Brunswick City SC vs Manningham United Blues FC
+- 2026-05-30 07:00 | Brunswick Juventus FC vs Eltham Redbacks FC
+- 2026-05-30 10:00 | Budapest Honved vs Diosgyori VTK
 - 2026-05-30 06:00 | FC Bulleen Lions vs Avondale FC
 - 2026-05-30 17:30 | CA Claypole vs CA Central Cordoba Rosario
 - 2026-05-30 17:30 | CA Lugano vs Deportivo Paraguayo
@@ -305,7 +256,7 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-30 05:00 | Canberra Juventus FC vs Tuggeranong Utd
 - 2026-05-30 07:00 | Canterbury Bankstown FC vs Inter Lions FC
 - 2026-05-30 09:00 | Canterbury Bankstown Berries vs Inter Lions FC
-- 2026-05-30 08:00 | Caroline Springs George Cross FC vs Green Gully SC
+- 2026-05-30 05:15 | Caroline Springs George Cross FC vs Green Gully SC
 - 2026-05-30 18:00 | CE Gramadense RS vs SERC Brasil de Farroupilha RS
 - 2026-05-30 15:30 | Central Ballester vs CSDC Espanol
 - 2026-05-30 06:00 | Cerezo Osaka vs FC Tokyo
@@ -320,7 +271,9 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-30 22:00 | Colon FC vs Miramar Misiones
 - 2026-05-30 04:00 | Cooks Hill United vs Valentine FC
 - 2026-05-30 19:00 | CR Flamengo RJ vs Coritiba FC PR
+- 2026-05-30 13:00 | Cruzeiro EC MG vs EC Villa Real MG
 - 2026-05-30 17:30 | CS Dock Sud vs CA Brown de Adrogue
+- 2026-05-30 20:30 | Cumbaya FC vs CD Independiente Juniors
 - 2026-05-30 07:00 | Curtin University SC vs Joondalup City
 - 2026-05-30 05:00 | Curtin University SC Reserves vs Joondalup City FC Reserve
 - 2026-05-30 11:00 | Dalian Kun City vs Shijiazhuang Gongfu FC
@@ -338,7 +291,10 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-30 04:00 | Edgeworth FC vs Kahibah FC
 - 2026-05-30 11:00 | Eskilsminne IF vs Trelleborgs FF
 - 2026-05-30 13:00 | Falkenbergs FF vs IK Oddevold
+- 2026-05-30 08:00 | Ferencvarosi TC vs MTK Budapest
+- 2026-05-30 14:00 | FH Hafnarfjordur vs Fram
 - 2026-05-30 14:00 | FK Auda Riga vs Ogre United
+- 2026-05-30 12:00 | FK Austria Wien vs SKN St. Polten
 - 2026-05-30 12:30 | FK Banga Gargzdai vs FA Siauliai
 - 2026-05-30 15:30 | FK Leotar Trebinje vs FK Drina Zvornik
 - 2026-05-30 12:00 | FK Liepaja vs FK Tukums 2000/TSS
@@ -355,10 +311,12 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-30 06:45 | Glenorchy Knights FC vs Launceston City FC
 - 2026-05-30 02:45 | Gold Coast United FC vs Peninsula Power
 - 2026-05-30 02:45 | Gold Coast Knights FC vs Eastern Suburbs
+- 2026-05-30 07:00 | Goulburn Valley Suns vs Essendon Royals SC
 - 2026-05-30 19:00 | Granada CF vs Sporting Gijon
 - 2026-05-30 09:00 | Grange Thistle vs Logan Lightning
 - 2026-05-30 07:00 | Grange Thistle vs Souths United FC
 - 2026-05-30 20:30 | Gremio FB Porto Alegrense RS vs SC Corinthians SP
+- 2026-05-30 14:00 | Grindavik/Njarovik vs Breidablik Kopavogur
 - 2026-05-30 11:30 | Guangxi Hengchen FC vs Foshan Nanshi FC
 - 2026-05-30 07:00 | Gwelup Croatia SC vs Quinns FC
 - 2026-05-30 05:00 | Gwelup Croatia SC Reserves vs Quinns FC Reserve
@@ -376,6 +334,7 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-30 13:00 | Hobro IK vs Middelfart BK
 - 2026-05-30 04:00 | Hume City vs South Melbourne FC
 - 2026-05-30 07:00 | Hurstville FC vs Rydalmere Lions FC
+- 2026-05-30 11:30 | IF Fuglafjordur vs B71 Sandoy
 - 2026-05-30 14:00 | IF Gnistan vs Seinajoen JK
 - 2026-05-30 14:00 | IF Karlstad Fotbol vs Sollentuna FK
 - 2026-05-30 14:00 | IFK Kumla vs Herrestads AIF
@@ -385,17 +344,21 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-30 21:00 | Instituto AC Cordoba vs CA Lanus
 - 2026-05-30 09:00 | Ipswich FC vs Robina City
 - 2026-05-30 17:30 | Kansas City NWSL vs Boston Legacy FC
+- 2026-05-30 14:00 | Keflavik IF vs IA Akranes
+- 2026-05-30 18:00 | KI Klaksvik vs Eb/Streymur
 - 2026-05-30 12:30 | KKS 1925 Kalisz vs Unia Skierniewice
+- 2026-05-30 14:00 | KR Reykjavik vs HK Kopavogur
 - 2026-05-30 12:30 | KS Hutnik Krakow SSA vs ZKS Stal Stalowa Wola
 - 2026-05-30 14:00 | Kuopion Palloseura vs FC Inter Turku
+- 2026-05-30 11:00 | KV Vesturbaer vs KF Fjallabyggd
 - 2026-05-30 10:00 | Kyoto Sanga FC vs Kashiwa Reysol
 - 2026-05-30 14:00 | FC Lahti vs Tampereen Ilves
 - 2026-05-30 11:00 | Landskrona BoIS vs IK Brage
-- 2026-05-30 21:30 | LDU Quito vs Orense SC
 - 2026-05-30 11:00 | Ljungskile SK vs Varbergs BoIS
 - 2026-05-30 12:30 | LKS Lodz II vs Sokol Kleczew
 - 2026-05-30 23:00 | Louisville City FC vs Tampa Bay Rowdies
 - 2026-05-30 06:30 | Macarthur Rams vs Central Coast Mariners Academy
+- 2026-05-30 20:00 | Magnus Sorocaba SP vs Boca Juniors
 - 2026-05-30 06:30 | Maitland FC vs Belmont Swansea United FC
 - 2026-05-30 13:00 | Malmo FF vs Halmstads BK
 - 2026-05-30 07:00 | Mandurah City vs Floreat Athena
@@ -403,17 +366,25 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-30 07:00 | Manly United FC vs Blacktown City FC
 - 2026-05-30 19:00 | Manta FC vs Libertad Loja
 - 2026-05-30 07:00 | Marconi Stallions FC vs Rockdale Ilinden FC
-- 2026-05-30 08:15 | FC Melbourne Srbija vs Langwarrin SC
+- 2026-05-30 05:00 | FC Melbourne Srbija vs Langwarrin SC
+- 2026-05-30 10:00 | FC Meshakhte Tkibuli vs FC Dinamo Tbilisi
+- 2026-05-30 07:00 | Metrostars vs West Adelaide
+- 2026-05-30 02:30 | Metrostars Reserve vs West Adelaide Reserve
 - 2026-05-30 08:00 | Mitchelton FC vs Caboolture FC
 - 2026-05-30 12:30 | MKS Chojniczanka Chojnice vs Rekord Bielsko Biala
+- 2026-05-30 08:15 | Modbury Vista vs Flinders United Wfc
+- 2026-05-30 02:15 | Modbury Vista Reserves vs Flinders United Wfc Reserves
 - 2026-05-30 14:00 | Molde FK vs Sandefjord Fotball
 - 2026-05-30 07:45 | Monaro Panthers FC vs Canberra White Eagles FC
+- 2026-05-30 04:00 | Moreland City FC vs Eastern Lions SC
 - 2026-05-30 07:00 | Moreton City Excelsior FC 2 vs Pine Hills
 - 2026-05-30 14:00 | Moss FK vs Stabaek IF
 - 2026-05-30 07:00 | Murdoch University Melville FC vs Kingsley Westside FC
 - 2026-05-30 05:00 | Nagoya Grampus vs Machida Zelvia
 - 2026-05-30 02:00 | Napier City Rovers AFC vs Island Bay United
 - 2026-05-30 09:45 | North Eastern Metrostars SC vs Campbelltown City SC
+- 2026-05-30 04:45 | North Eastern Metrostars SC Reserves vs Campbelltown City SC Reserve
+- 2026-05-30 07:00 | North Geelong Warriors FC vs North Sunshine Eagles FC
 - 2026-05-30 05:00 | NWS Spirit FC vs Gladesville Ravens
 - 2026-05-30 05:00 | O'Connor Knights FC vs Queanbeyan City FC
 - 2026-05-30 14:00 | Odds BK vs Lyn 1896 FK
@@ -423,6 +394,7 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-30 15:00 | Osters IF vs Norrby IF
 - 2026-05-30 22:00 | Pacific FC vs Atletico Ottawa
 - 2026-05-30 05:30 | Para Hills Knights SC vs Croydon FC
+- 2026-05-30 03:15 | Para Hills Knights SC Reserve vs Croydon Kings FC Reserve
 - 2026-05-30 16:00 | Paris Saint-Germain vs Arsenal FC
 - 2026-05-30 11:30 | Parnu JK Vaprus vs Nomme Kalju FC
 - 2026-05-30 19:00 | Paysandu FC vs CS Cerrito
@@ -431,6 +403,7 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-30 10:30 | Port Darwin FC vs Garuda FC
 - 2026-05-30 22:30 | Portland Hearts of Pine vs Spokane Velocity FC
 - 2026-05-30 20:00 | Portland Thorns FC vs Utah Royals FC
+- 2026-05-30 09:00 | Puskas Akademia vs Illes Akademia
 - 2026-05-30 10:00 | Qingdao West Coast FC vs Shanghai Shenhua FC
 - 2026-05-30 13:00 | Racing Club Montevideo vs Defensor Sporting
 - 2026-05-30 00:00 | Racing Louisville FC vs Denver Summit FC
@@ -441,10 +414,11 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-30 06:45 | Riverside Olympic FC vs Kingborough Lions United FC
 - 2026-05-30 08:15 | Rochedale Rovers vs Moreton City Excelsior FC
 - 2026-05-30 06:00 | Rochedale Rovers vs Moreton City Excelsior U23
+- 2026-05-30 21:30 | Rochester FC vs Edgewater Castle
 - 2026-05-30 13:00 | RSC Anderlecht vs SV Zulte Waregem
 - 2026-05-30 12:30 | Sandecja Nowy Sacz vs Zaglebie Sosnowiec
 - 2026-05-30 05:00 | Sanfrecce Hiroshima vs Kawasaki Frontale
-- 2026-05-30 23:30 | Santos FC SP vs EC Vitoria BA
+- 2026-05-30 23:00 | Santos FC SP vs EC Vitoria BA
 - 2026-05-30 23:30 | Sarasota Paradise vs New York Cosmos
 - 2026-05-30 23:30 | SC Recife PE vs Nautico PE
 - 2026-05-30 15:00 | SC Wiener Viktoria vs SV Oberwart
@@ -462,35 +436,46 @@ Use decimal odds from Bet365 1X2 / Full Time Result before kickoff.
 - 2026-05-30 08:30 | St George Saints FC vs St George City FA
 - 2026-05-30 07:00 | Stirling Macedonia FC vs Balcatta
 - 2026-05-30 05:00 | Stirling Macedonia FC vs Balcatta Etna FC
+- 2026-05-30 14:00 | Stjarnan vs IBV Vestmannaeyjar
 - 2026-05-30 05:30 | Sturt Lions vs FK Beograd
 - 2026-05-30 07:00 | Subiaco AFC vs UWA Nedlands FC
 - 2026-05-30 05:00 | Subiaco AFC Reserve vs Uwa Nedlands FC Reserves
 - 2026-05-30 10:00 | Suwon FC vs Seongnam Ilhwa
 - 2026-05-30 11:00 | Suzhou Dongwu vs Wuxi Wugou
+- 2026-05-30 13:30 | SV Kuchl vs FC Lustenau
+- 2026-05-30 14:00 | SV Lafnitz vs SK Treibach
 - 2026-05-30 13:30 | SV Seekirchen vs FC Dornbirn
 - 2026-05-30 07:00 | Sydney Olympic FC vs SD Raiders FC
+- 2026-05-30 07:00 | Tai Po FC vs Eastern District
 - 2026-05-30 10:30 | Tainan City vs New Taipei Hang Yuan
+- 2026-05-30 14:00 | Thor/KA vs Vikingur Reykjavik
 - 2026-05-30 14:00 | FC Trollhattan vs Aatvidabergs FF
 - 2026-05-30 14:00 | Tvaakers IF vs Kristianstad FC
 - 2026-05-30 14:00 | Ufc Jennersdorf vs ASK Royal Sped Klingenbach
+- 2026-05-30 16:00 | UMF Selfoss vs Volsungur
 - 2026-05-30 12:00 | Union Mauer vs SC Retz
 - 2026-05-30 21:30 | Universidad de Chile vs Deportes Concepcion
 - 2026-05-30 00:30 | Universidad de Concepcion vs Deportes Union La Calera
 - 2026-05-30 03:00 | University of NSW vs Wollongong Wolves FC
 - 2026-05-30 16:00 | Uruguay Montevideo FC vs Plaza Colonia
+- 2026-05-30 23:00 | Utah United vs Colorado International Soccer Academy
 - 2026-05-30 08:00 | V-Varen Nagasaki vs Mito Hollyhock
 - 2026-05-30 14:00 | VfB Hohenems vs Wacker Innsbruck
 - 2026-05-30 05:00 | Vissel Kobe vs Kashima Antlers
 - 2026-05-30 22:30 | Washington Spirit vs Seattle Reign FC
+- 2026-05-30 10:15 | West Torrens Birkalla Reserve vs Adelaide Comets Reserves
 - 2026-05-30 07:00 | Western Knights SC vs Perth Azzurri
 - 2026-05-30 05:00 | Western Knights SC vs Perth SC
+- 2026-05-30 09:00 | Whittlesea United SC vs Springvale White Eagles
+- 2026-05-30 05:00 | Yokohama FC vs RB Omiya Ardija
 - 2026-05-30 07:30 | Yongin City FC vs Daegu FC
-- 2026-05-31 17:00 | Chicago Stars FC vs San Diego Wave FC
-- 2026-05-31 00:00 | FC Motown STA vs Cedar Stars
-- 2026-05-31 11:00 | Nepal vs Sri Lanka
-- 2026-05-31 08:30 | Nugegoda Sports Welfare Club vs Baduraliya CC
-- 2026-05-31 12:00 | Posta Rangers FC vs Ulinzi Stars FC
-- 2026-05-31 04:15 | Sinhalese Sports Club vs Ace Capital CC
+- 2026-05-31 22:00 | Chicago Dutch Lions FC vs Edgewater Castle
+- 2026-05-31 23:30 | Cruzeiro EC MG vs Fluminense FC RJ
+- 2026-05-31 00:00 | Deportivo Toluca FC vs Tigres UANL
+- 2026-05-31 19:00 | Gotham FC vs Houston Dash
+- 2026-05-31 21:00 | Manaus FC AM vs Nacional FC AM
+- 2026-05-31 19:00 | Tacoma Stars vs Portland Bangers FC
+- 2026-05-31 02:00 | Utah United vs Colorado International Soccer Academy
 
 ## After filling odds
 

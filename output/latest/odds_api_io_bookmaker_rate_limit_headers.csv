@@ -1,3 +1,3 @@
 captured_at_utc,label,status_code,x_ratelimit_limit,x_ratelimit_remaining,x_ratelimit_reset,retry_after
-2026-05-28T15:34:26.535769+00:00,bookmakers,200,,,,
-2026-05-28T15:34:26.718709+00:00,bookmakers_selected,200,,,,
+2026-05-29T02:33:25.292297+00:00,bookmakers,200,,,,
+2026-05-29T02:33:25.421304+00:00,bookmakers_selected,200,,,,

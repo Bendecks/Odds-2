@@ -3,10 +3,10 @@
 Manual Bet365 odds input is parked as an optional fallback. It is not an active development blocker.
 Current priority: automatic/free-data forward-testing sources and robust fixture/model matching.
 
-Upcoming fixtures: 474
-Manual template rows: 474
+Upcoming fixtures: 459
+Manual template rows: 459
 Rows with complete manual odds: 0
-Rows missing manual odds: 474
+Rows missing manual odds: 459
 Manual forward snapshot rows: 0
 Manual odds mode: optional_fallback_paused
 Manual odds is blocker: False
@@ -19,23 +19,23 @@ Upcoming fixtures exist, but no automatic odds/proxy forward snapshot source is 
 ## Optional manual fallback status
 
 Manual odds are not required in the current phase. These rows are only kept for later fallback use:
-- 2026-05-28 17:00 | 1. FC Lokomotive Leipzig vs FC Wurzburger Kickers
-- 2026-05-28 18:30 | ACF Fiorentina vs Parma Calcio 1913 U20
-- 2026-05-28 16:20 | Al-Fahaheel vs Al-Salmiya SC
-- 2026-05-28 17:30 | Assyriska FF vs Vasalunds IF
-- 2026-05-28 19:00 | Atletico Mineiro MG vs EC Vitoria BA
-- 2026-05-28 18:00 | CA Aldosivi Reserve vs CA Talleres de Cordoba Reserve
-- 2026-05-28 18:00 | CA Lanus vs CA Platense
-- 2026-05-28 19:00 | CA Piauiense PI vs Santos FC SP
-- 2026-05-28 22:00 | CA River Plate (Arg) vs San Lorenzo de Almagro Res.
-- 2026-05-28 18:00 | CA Sarmiento de Junin vs Rosario Central Reserve
-- 2026-05-28 18:00 | CA Union Santa Fe Reserve vs Gimnasia de Mendoza Reserve
-- 2026-05-28 19:00 | Casa Pia Lisbon vs SCU Torreense
-- 2026-05-28 23:00 | CD El Nacional vs CD Universidad Catolica del Ecuador
-- 2026-05-28 20:00 | CD Real Santander vs Once Caldas Sa
-- 2026-05-28 22:00 | Cerro Porteno vs Sporting Cristal
-- 2026-05-28 21:00 | CR Vasco da Gama RJ vs America FC MG
-- 2026-05-28 21:30 | Cruzeiro EC MG vs Doce Mel EC BA
-- 2026-05-28 16:00 | Deportivo Maldonado Reserve vs Liverpool Montevideo
-- 2026-05-28 18:30 | East Fife Lfc vs Falkirk FC
-- 2026-05-28 18:30 | FK Decic Tuzi vs FK Mornar Bar
+- 2026-05-29 23:00 | AFC Ann Arbor vs Union FC Macomb
+- 2026-05-29 18:00 | AA Flamengo SP vs Referencia FC SP
+- 2026-05-29 17:00 | Aalesunds FK vs HamKam
+- 2026-05-29 18:35 | Aberdeen LFC vs Queen's Park LFC
+- 2026-05-29 18:00 | AC Monza vs US Catanzaro
+- 2026-05-29 10:00 | Adelaide Olympic FC vs Fulham United FC
+- 2026-05-29 10:45 | Adelaide University vs Adelaide Comets FC
+- 2026-05-29 08:45 | Adelaide University FC Reserve vs Adelaide Comets FC Reserves
+- 2026-05-29 18:00 | AE Velo Clube SP vs CA Bandeirante SP
+- 2026-05-29 14:15 | AL Ittifaq vs Gulf United
+- 2026-05-29 14:15 | AL Jazira AL Hamra vs Fujairah FC
+- 2026-05-29 14:00 | Al Mokawloon Al Arab vs Modern Sport FC
+- 2026-05-29 16:20 | Al Shabab Kuwait vs AL Tadhamon
+- 2026-05-29 14:15 | Al Urooba UAE vs Masfoot Sports Club
+- 2026-05-29 14:15 | Al-Dhaid vs Emirates Club
+- 2026-05-29 14:15 | Al-Hamriyah vs Dubai United FC
+- 2026-05-29 21:00 | America de Cali Sa vs International FC
+- 2026-05-29 22:30 | America FC RN vs Central SC PE
+- 2026-05-29 16:00 | Andorra vs Iraq
+- 2026-05-29 16:00 | Apollon Limassol vs Pafos FC

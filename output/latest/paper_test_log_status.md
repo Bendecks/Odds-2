@@ -1,11 +1,11 @@
 # Paper Test Log Status
 
-Raw log rows: 720
-Valid forward/proxy log rows: 717
-Deduped forward/proxy observation rows: 546
-Duplicate forward/proxy log rows: 171
-Valid automatic proxy observation rows: 717
-Deduped automatic proxy observation rows: 546
+Raw log rows: 744
+Valid forward/proxy log rows: 741
+Deduped forward/proxy observation rows: 569
+Duplicate forward/proxy log rows: 172
+Valid automatic proxy observation rows: 741
+Deduped automatic proxy observation rows: 569
 Invalid historical/proxy log rows excluded: 3
 Has valid forward log: True
 
@@ -34,26 +34,26 @@ Has valid forward log: True
 
 ## Raw valid rows
 
-- 2026-05-29 | Utah United vs Real Colorado | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-29 | Manukau United FC vs Fencibles United FC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-29 | Houston FC vs Laredo Heat SC | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-28 | Kolding IF vs Dbk Fortuna Hjoerring | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-28 | SE Palmeiras SP vs CD Junior FC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-28 | FCM Traiskirchen vs SC Neusiedl am See 1919 | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-29 | Kopa vs Lautp | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-29 | West Torrens Birkalla vs Adelaide Comets FC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-29 | Al-Hamriyah vs Dubai United FC | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-29 | FC Dila Gori vs FC Samgurali Tskaltubo | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-29 | NK Opatija vs NK Karlovac 1919 | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-29 | PK Keski-Uusimaa vs KuPS Akatemia | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 - 2026-05-29 | Shaanxi Union FC vs Nanjing City | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-29 | Cruzeiro EC MG vs Barcelona SC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-29 | CA Tigre vs Alianza Atletico | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-29 | Utah United vs Real Colorado | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-28 | CA Piauiense PI vs Santos FC SP | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-29 | Western Springs AFC vs Bay Olympic | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-28 | FC Tallinn vs Maardu Linnameeskond | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-28 | CD El Nacional vs CD Universidad Catolica del Ecuador | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-28 | Ylojarvi United FC vs FC Haka J | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-28 | FK Decic Tuzi vs FK Mornar Bar | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-28 | Mikkelin Pallo-Kissat vs HaPK Edustus | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-28 | Casa Pia Lisbon vs SCU Torreense | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-29 | Tacoma Stars vs FC Olympia | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-29 | Houston FC vs Laredo Heat SC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-29 | Huima/Urho vs GBK Kokkola | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-29 | Fardu Ferghana vs Olimpik Mobiuz | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-29 | Guandong GZ-Power FC vs Shenzhen Juniors FC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-29 | Majd FC vs Hatta SC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-29 | Malvern City FC vs Box Hill United FC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-29 | AL Ittifaq vs Gulf United | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-29 | Al Urooba UAE vs Masfoot Sports Club | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-29 | KPV Kokkola vs FC Inter Turku 2 | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-29 | FK Babrungas Plunge vs FK Minija 2017 | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-29 | Olympic Kingsway SC vs Dianella White Eagles SC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-30 | Olympic Kingsway SC vs Dianella White Eagles SC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-29 | FC KTP Kotka vs SJK Akatemia | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-29 | KaaPo vs LTU | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 
 ## Invalid rows excluded
 
