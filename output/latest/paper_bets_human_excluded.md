@@ -1,11 +1,6 @@
 # Skjulte U-/reserve-rækker
 
-Skjulte rækker: 26
-
-## Aktuelle
-
-- 2026-05-29 kl. 08:00 – Blacktown Spartans FC vs Western City Rangers FC
-- 2026-05-30 kl. 05:00 – Olympic Kingsway SC vs Dianella White Eagles SC
+Skjulte rækker: 24
 
 ## Log
 

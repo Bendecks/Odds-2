@@ -1,11 +1,11 @@
 # Paper Test Log Status
 
-Raw log rows: 744
-Valid forward/proxy log rows: 741
-Deduped forward/proxy observation rows: 569
-Duplicate forward/proxy log rows: 172
-Valid automatic proxy observation rows: 741
-Deduped automatic proxy observation rows: 569
+Raw log rows: 769
+Valid forward/proxy log rows: 766
+Deduped forward/proxy observation rows: 587
+Duplicate forward/proxy log rows: 179
+Valid automatic proxy observation rows: 766
+Deduped automatic proxy observation rows: 587
 Invalid historical/proxy log rows excluded: 3
 Has valid forward log: True
 
@@ -34,26 +34,26 @@ Has valid forward log: True
 
 ## Raw valid rows
 
-- 2026-05-29 | Kopa vs Lautp | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-29 | West Torrens Birkalla vs Adelaide Comets FC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-29 | Al-Hamriyah vs Dubai United FC | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-29 | FC Dila Gori vs FC Samgurali Tskaltubo | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-29 | NK Opatija vs NK Karlovac 1919 | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-29 | PK Keski-Uusimaa vs KuPS Akatemia | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-29 | Shaanxi Union FC vs Nanjing City | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-29 | Huima/Urho vs GBK Kokkola | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-29 | Fardu Ferghana vs Olimpik Mobiuz | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-29 | Guandong GZ-Power FC vs Shenzhen Juniors FC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-29 | Majd FC vs Hatta SC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-29 | Malvern City FC vs Box Hill United FC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-29 | AL Ittifaq vs Gulf United | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-29 | Al Urooba UAE vs Masfoot Sports Club | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-29 | KPV Kokkola vs FC Inter Turku 2 | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-29 | FK Babrungas Plunge vs FK Minija 2017 | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-29 | Olympic Kingsway SC vs Dianella White Eagles SC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-30 | Olympic Kingsway SC vs Dianella White Eagles SC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-29 | FC KTP Kotka vs SJK Akatemia | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 - 2026-05-29 | KaaPo vs LTU | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-29 | NK Rudes Zagreb vs NK Sesvete | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-29 | Landvetter IS vs Qviding FIF | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-29 | FK Transinvest vs FC Hegelmann Kaunas | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-29 | TPV Tampere vs Tampere United | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-29 | FK Babrungas Plunge vs FK Minija 2017 | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-29 | SC Zulimanit vs Tou | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-29 | FK Garliava vs FA Siauliai B | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-29 | Fredrikstad FK vs IK Start | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-29 | FK Riteriai vs FK Suduva Marijampole | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-29 | Huima/Urho vs GBK Kokkola | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-29 | Deportes Temuco vs Santiago Wanderers | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-29 | PK Keski-Uusimaa vs KuPS Akatemia | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-29 | HPS vs Kuopion Palloseura | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-29 | Hoersholm-Usseroed IK vs FA 2000 | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-29 | FC Dila Gori vs FC Samgurali Tskaltubo | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-29 | Wolfsberger AC (A) vs SC Kalsdorf | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-29 | Pogon Sokol Lubaczow vs Star Starachowice | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-29 | MKS Kluczbork vs KS Sleza Wroclaw | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-29 | KaaPo vs LTU | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 
 ## Invalid rows excluded
 
