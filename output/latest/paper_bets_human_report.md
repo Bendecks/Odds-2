@@ -5,166 +5,193 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 
 ## Kort status
 
-- Aktuelle viste paper picks: **17**
-- Unikke loggede paper picks: **584**
-- Afventer i loggen: **581**
+- Aktuelle viste paper picks: **25**
+- Unikke loggede paper picks: **609**
+- Afventer i loggen: **606**
 - Afgjorte fundet i settled-filen: **210**
-- Skjulte U-/reserve-rækker: **40**
+- Skjulte U-/reserve-rækker: **32**
 - Vundne: **70**
 - Tabte: **140**
 - Samlet ROI i units: **-3.45**
 
 ## Aktuelle paper picks
 
-### FC Osaka vs Reilac Shiga FC
+### NK Trnje vs NK Dugo Selo
 - Dato: **2026-05-30**
-- Kampstart: **05:00**
+- Kampstart: **14:00**
+- Spil: **Hjemmesejr**
+- Odds: **4.75**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Ufc Jennersdorf vs ASK Royal Sped Klingenbach
+- Dato: **2026-05-30**
+- Kampstart: **14:00**
+- Spil: **Hjemmesejr**
+- Odds: **4.75**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### VfB Hohenems vs Wacker Innsbruck
+- Dato: **2026-05-30**
+- Kampstart: **14:00**
+- Spil: **Hjemmesejr**
+- Odds: **4.75**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Stjarnan vs IBV Vestmannaeyjar
+- Dato: **2026-05-30**
+- Kampstart: **14:00**
 - Spil: **Udebanesejr**
 - Odds: **5.00**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Alamein FC vs Keilor Park SC
+### FC Mendrisio vs AC Taverne
 - Dato: **2026-05-30**
-- Kampstart: **05:00**
+- Kampstart: **14:00**
+- Spil: **Hjemmesejr**
+- Odds: **4.33**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Odds BK vs Lyn 1896 FK
+- Dato: **2026-05-30**
+- Kampstart: **14:00**
 - Spil: **Udebanesejr**
 - Odds: **4.75**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Adelaide Croatia Raiders SC vs Modbury Jets SC
+### Club Deportivo Libertad FC vs Club Deportivo Amanecer
 - Dato: **2026-05-30**
-- Kampstart: **05:30**
+- Kampstart: **14:30**
 - Spil: **Hjemmesejr**
-- Odds: **3.90**
+- Odds: **4.10**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### O'Connor Knights FC vs Queanbeyan City FC
+### SV Kuchl vs FC Lustenau
 - Dato: **2026-05-30**
-- Kampstart: **05:00**
-- Spil: **Hjemmesejr**
-- Odds: **3.90**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Sanfrecce Hiroshima vs Kawasaki Frontale
-- Dato: **2026-05-30**
-- Kampstart: **05:00**
+- Kampstart: **13:30**
 - Spil: **Udebanesejr**
-- Odds: **4.33**
+- Odds: **4.50**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### NWS Spirit FC vs Gladesville Ravens
+### FC Meyrin vs CS Chenois
 - Dato: **2026-05-30**
-- Kampstart: **05:00**
+- Kampstart: **14:00**
+- Spil: **Hjemmesejr**
+- Odds: **4.00**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### FK Auda Riga vs Ogre United
+- Dato: **2026-05-30**
+- Kampstart: **14:00**
+- Spil: **Uafgjort**
+- Odds: **6.00**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### FK Fyllingsdalen vs Viking FK
+- Dato: **2026-05-30**
+- Kampstart: **14:00**
 - Spil: **Uafgjort**
 - Odds: **5.75**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Bunnys Gunma FC White Star vs Diavorosso Hiroshima
+### FC Telavi vs FC Gori
 - Dato: **2026-05-30**
-- Kampstart: **04:00**
+- Kampstart: **14:00**
+- Spil: **Udebanesejr**
+- Odds: **4.10**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### IK Kongahalla vs Astorps FF
+- Dato: **2026-05-30**
+- Kampstart: **14:00**
 - Spil: **Hjemmesejr**
 - Odds: **3.60**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Para Hills Knights SC vs Croydon FC
+### NK Hrvace vs NK Dubrava Zagreb
 - Dato: **2026-05-30**
-- Kampstart: **05:30**
+- Kampstart: **14:00**
+- Spil: **Udebanesejr**
+- Odds: **4.00**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### IF Elfsborg vs Enskede IK
+- Dato: **2026-05-30**
+- Kampstart: **14:00**
 - Spil: **Uafgjort**
-- Odds: **5.50**
+- Odds: **5.25**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Vegalta Sendai vs Ventforet Kofu
+### Grindavik/Njarovik vs Breidablik Kopavogur
 - Dato: **2026-05-30**
-- Kampstart: **05:00**
-- Spil: **Udebanesejr**
-- Odds: **3.80**
+- Kampstart: **14:00**
+- Spil: **Uafgjort**
+- Odds: **5.25**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Nara Club vs Oita Trinita
+### Gamle Oslo FK vs Frigg Oslo FK
 - Dato: **2026-05-30**
-- Kampstart: **05:00**
+- Kampstart: **13:30**
+- Spil: **Uafgjort**
+- Odds: **5.25**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### NK BSK Bijelo Brdo vs NK Croatia Zmijavci
+- Dato: **2026-05-30**
+- Kampstart: **14:00**
 - Spil: **Hjemmesejr**
-- Odds: **3.25**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Renofa Yamaguchi FC Ladies vs Nankatsu SC
-- Dato: **2026-05-30**
-- Kampstart: **04:00**
-- Spil: **Udebanesejr**
-- Odds: **3.50**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Cumberland United vs Salisbury United
-- Dato: **2026-05-30**
-- Kampstart: **05:30**
-- Spil: **Udebanesejr**
-- Odds: **3.50**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Cooks Hill United vs Valentine FC
-- Dato: **2026-05-30**
-- Kampstart: **04:00**
-- Spil: **Udebanesejr**
 - Odds: **3.40**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Avondale FC vs Bentleigh Greens
+### CS Minerul Lupeni vs CSM Unirea Alba Iulia
 - Dato: **2026-05-30**
-- Kampstart: **05:00**
-- Spil: **Uafgjort**
-- Odds: **4.50**
+- Kampstart: **14:30**
+- Spil: **Hjemmesejr**
+- Odds: **3.40**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### O'Connor Knights FC vs Queanbeyan City FC
+### Hammarby Talang FF vs AFC Eskilstuna
 - Dato: **2026-05-30**
-- Kampstart: **05:00**
+- Kampstart: **14:00**
 - Spil: **Uafgjort**
-- Odds: **4.50**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Cooks Hill United vs Valentine FC
-- Dato: **2026-05-30**
-- Kampstart: **04:00**
-- Spil: **Uafgjort**
-- Odds: **4.20**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Alamein FC vs Keilor Park SC
-- Dato: **2026-05-30**
-- Kampstart: **05:00**
-- Spil: **Uafgjort**
-- Odds: **4.20**
+- Odds: **5.00**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**

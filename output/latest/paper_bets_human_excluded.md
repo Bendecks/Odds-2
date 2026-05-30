@@ -1,17 +1,6 @@
 # Skjulte U-/reserve-rækker
 
-Skjulte rækker: 40
-
-## Aktuelle
-
-- 2026-05-30 kl. 02:45 – Gold Coast United FC vs Peninsula Power
-- 2026-05-30 kl. 02:30 – O'Connor Knights SC vs Queanbeyan City FC
-- 2026-05-30 kl. 03:15 – Adelaide Croatia Raiders SC Reserve vs Modbury Jets SC Reserve
-- 2026-05-30 kl. 03:15 – Para Hills Knights SC Reserve vs Croydon Kings FC Reserve
-- 2026-05-30 kl. 03:15 – Cumberland United Reserve vs Salisbury United Reserve
-- 2026-05-30 kl. 02:30 – O'Connor Knights SC vs Queanbeyan City FC
-- 2026-05-30 kl. 02:45 – Gold Coast United FC vs Peninsula Power
-- 2026-05-30 kl. 02:30 – Canberra Juventus FC vs Tuggeranong United FC
+Skjulte rækker: 32
 
 ## Log
 

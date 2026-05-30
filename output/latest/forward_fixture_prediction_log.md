@@ -4,26 +4,26 @@ Probability-only forward prediction log. This is not a betting log and contains 
 
 Current forward fixture predictions: 300
 New forward fixture predictions logged: 0
-Total forward fixture predictions logged: 4492
+Total forward fixture predictions logged: 4690
 Log type: probability_only_no_market_prices
 
-- 2026-05-30 2026-05-30 14:00:00 | IFK Kumla vs Herrestads AIF | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-30 2026-05-30 14:00:00 | IK Kongahalla vs Astorps FF | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-30 2026-05-30 14:00:00 | Keflavik IF vs IA Akranes | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-30 2026-05-30 14:00:00 | KR Reykjavik vs HK Kopavogur | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-30 2026-05-30 14:00:00 | FC Lausanne Sports vs FC Schaffhausen | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-30 2026-05-30 14:00:00 | LKS Goczalkowice-Zdroj vs Zaglebie Lubin II | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-30 2026-05-30 14:00:00 | FC Mendrisio vs AC Taverne | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-30 2026-05-30 14:00:00 | FC Meyrin vs CS Chenois | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-30 2026-05-30 14:00:00 | NK BSK Bijelo Brdo vs NK Croatia Zmijavci | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-30 2026-05-30 14:00:00 | NK Hrvace vs NK Dubrava Zagreb | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-30 2026-05-30 14:00:00 | NK Hrvatski Dragovoljac vs NK Bjelovar | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-30 2026-05-30 14:00:00 | NK Jarun Zagreb vs HNK Cibalia Vinkovci | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-30 2026-05-30 14:00:00 | NK Trnje vs NK Dugo Selo | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-30 2026-05-30 14:00:00 | NK Varteks vs NK Segesta | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-30 2026-05-30 14:00:00 | Orijent 1919 Rijeka vs NK Dugopolje | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-30 2026-05-30 14:00:00 | Sarpsborg 08 2 vs Oppsal IF | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-30 2026-05-30 14:00:00 | SC Cham vs FC Biel-Bienne | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-30 2026-05-30 14:00:00 | Stjarnan vs IBV Vestmannaeyjar | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-30 2026-05-30 14:00:00 | SV Lafnitz vs SK Treibach | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-05-30 2026-05-30 14:00:00 | Thor/KA vs Vikingur Reykjavik | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-31 2026-05-30 05:00:00 | Macarthur Rams vs Illawarra Stingrays | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-31 2026-05-30 05:00:00 | Montedio Yamagata vs Matsumoto Yamaga FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-31 2026-05-30 05:00:00 | Palm Beach SC vs Virginia United | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-31 2026-05-30 05:00:00 | Shimizu S-Pulse vs Yokohama F Marinos | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-31 2026-05-30 05:00:00 | Siheung Citizen FC vs FC Mokpo | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-31 2026-05-30 05:00:00 | ST Albans Saints Dinamo SC vs Preston Lions FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-31 2026-05-30 05:00:00 | Tochigi SC vs AC Nagano Parceiro | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-31 2026-05-30 05:00:00 | West Adelaide SC Reserve vs Adelaide City FC Reserve | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-31 2026-05-30 05:00:00 | Zweigen Kanazawa vs Gainare Tottori | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-31 2026-05-30 05:30:00 | Heidelberg United FC vs Dandenong Thunder FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-31 2026-05-30 06:15:00 | Tuggeranong United FC vs Majura FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-31 2026-05-30 06:30:00 | Darwin Hearts FC vs Palmerston Rovers | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-31 2026-05-30 07:00:00 | Ipswich Knights vs North Pine | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-31 2026-05-30 07:00:00 | Mitchelton FC vs SWQ Thunder FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-31 2026-05-30 07:00:00 | Moreton City Excelsior vs The Gap FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-31 2026-05-30 07:00:00 | North Lakes United vs MT Gravatt Hawks | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-31 2026-05-30 07:00:00 | Perth Azzurri vs Sorrento FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-31 2026-05-30 07:00:00 | Redcliffe Dolphins vs Springfield United | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-31 2026-05-30 07:00:00 | Sydney Olympic FC vs Western Sydney Wanderers Youth | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-05-31 2026-05-30 07:00:00 | Uwa Nedlands FC vs Balcatta FC | H=0.37720000000000004 D=0.274 A=0.3488

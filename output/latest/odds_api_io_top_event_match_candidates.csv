@@ -1,26 +1,26 @@
 discovery_source,query,target_home_team,target_away_team,target_match_date,candidate_event_id,candidate_home_team,candidate_away_team,candidate_match_date,event_match_confidence,selected,rejection_reason,selected_bool,event_match_confidence_num
-events_bookmaker_filtered,Canberra Juventus FC,Canberra Juventus FC,Tuggeranong United FC,2026-05-30,69195836,Canberra Juventus FC,Tuggeranong United FC,2026-05-30,1.0,True,,True,1.0
-events_bookmaker_filtered,Canberra Juventus FC,Canberra Juventus FC,Tuggeranong United FC,2026-05-30,69194942,Canberra Juventus FC,Tuggeranong Utd,2026-05-30,1.0,False,,False,1.0
-events_bookmaker_filtered,Gold Coast United FC,Gold Coast United FC,Peninsula Power,2026-05-30,67878254,Gold Coast United FC,Peninsula Power FC,2026-05-30,1.0,False,,False,1.0
-events_bookmaker_filtered,Gwelup Croatia SC Reserves,Gwelup Croatia SC Reserves,Quinns FC Reserve,2026-05-30,69768196,Gwelup Croatia SC Reserves,Quinns FC Reserve,2026-05-30,1.0,True,,True,1.0
-events_bookmaker_filtered,Launceston United,Launceston United,Kingborough Lions United FC,2026-05-30,68686942,Launceston United,Kingborough Lions United FC,2026-05-30,1.0,True,,True,1.0
-events_bookmaker_filtered,Nara Club,Nara Club,Oita Trinita,2026-05-30,71715874,Nara Club,Oita Trinita,2026-05-30,1.0,True,,True,1.0
-events_bookmaker_filtered,Moreland City FC,Moreland City FC,Eastern Lions SC,2026-05-30,68161728,Moreland City FC,Eastern Lions SC,2026-05-30,1.0,True,,True,1.0
-events_bookmaker_filtered,FC Melbourne Srbija,FC Melbourne Srbija,Langwarrin SC,2026-05-30,68160584,FC Melbourne Srbija,Langwarrin SC,2026-05-30,1.0,False,,False,1.0
-events_bookmaker_filtered,Cooks Hill United,Cooks Hill United,Valentine FC,2026-05-30,67807404,Cooks Hill United,Valentine FC,2026-05-30,1.0,True,,True,1.0
-events_bookmaker_filtered,Avondale FC,Avondale FC,Bentleigh Greens,2026-05-30,68160200,Avondale FC,Bentleigh Greens,2026-05-30,1.0,True,,True,1.0
-events_bookmaker_filtered,Cerezo Osaka,Cerezo Osaka,FC Tokyo,2026-05-30,71717650,Cerezo Osaka,FC Tokyo,2026-05-30,1.0,True,,True,1.0
-events_bookmaker_filtered,Subiaco AFC Reserve,Subiaco AFC Reserve,Uwa Nedlands FC Reserves,2026-05-30,69768200,Subiaco AFC Reserve,Uwa Nedlands FC Reserves,2026-05-30,1.0,True,,True,1.0
-events_bookmaker_filtered,Riverside Olympic FC,Riverside Olympic FC,Kingborough Lions United FC,2026-05-30,68680076,Riverside Olympic FC,Kingborough Lions United FC,2026-05-30,1.0,True,,True,1.0
-events_bookmaker_filtered,Altona Magic SC,Altona Magic SC,Oakleigh Cannons FC,2026-05-30,68160206,Altona Magic SC,Oakleigh Cannons,2026-05-30,1.0,False,,False,1.0
-events_bookmaker_filtered,Maitland FC Reserve,Maitland FC Reserve,Belmont Swansea United FC Reserves,2026-05-30,67808484,Maitland FC Reserve,Belmont Swansea United FC Reserves,2026-05-30,1.0,True,,True,1.0
-events_bookmaker_filtered,Sturt Lions,Sturt Lions,FK Beograd,2026-05-30,68048886,Sturt Lions,FK Beograd,2026-05-30,1.0,True,,True,1.0
-events_bookmaker_filtered,O'Connor Knights FC,O'Connor Knights FC,Queanbeyan City FC,2026-05-30,69194944,O'Connor Knights FC,Queanbeyan City FC,2026-05-30,1.0,True,,True,1.0
-events_bookmaker_filtered,FC Osaka,FC Osaka,Reilac Shiga FC,2026-05-30,71715870,FC Osaka,Reilac Shiga FC,2026-05-30,1.0,True,,True,1.0
-events_bookmaker_filtered,Olympic Kingsway SC,Olympic Kingsway SC,Dianella White Eagles SC,2026-05-30,69115766,Olympic Kingsway SC,Dianella White Eagles SC,2026-05-30,1.0,True,,True,1.0
-events_bookmaker_filtered,Vissel Kobe,Vissel Kobe,Kashima Antlers,2026-05-30,71716610,Vissel Kobe,Kashima Antlers,2026-05-30,1.0,True,,True,1.0
-events_bookmaker_filtered,Western Knights SC,Western Knights SC,Perth SC,2026-05-30,69115764,Western Knights SC,Perth SC,2026-05-30,1.0,True,,True,1.0
-events_bookmaker_filtered,Hume City,Hume City,South Melbourne FC,2026-05-30,68160196,Hume City,South Melbourne FC,2026-05-30,1.0,True,,True,1.0
-events_bookmaker_filtered,Adelaide Croatia Raiders SC Reserve,Adelaide Croatia Raiders SC Reserve,Modbury Jets SC Reserve,2026-05-30,68050322,Adelaide Croatia Raiders SC Reserve,Modbury Jets SC Reserve,2026-05-30,1.0,True,,True,1.0
-events_bookmaker_filtered,Armadale SC,Armadale SC,Perth Glory FC,2026-05-30,69115226,Armadale SC,Perth Glory FC,2026-05-30,1.0,True,,True,1.0
-events_bookmaker_filtered,Cumberland United,Cumberland United,Salisbury United,2026-05-30,68051630,Cumberland United,Salisbury United,2026-05-30,1.0,True,,True,1.0
+events_bookmaker_filtered,FC Deutschkreutz,FC Deutschkreutz,SV Eberau,2026-05-30,61894084,FC Deutschkreutz,SV Eberau,2026-05-30,1.0,True,,True,1.0
+events_bookmaker_filtered,FK Seko Louny,FK Seko Louny,SK Steti,2026-05-30,66606338,FK Seko Louny,SK Steti,2026-05-30,1.0,True,,True,1.0
+events_bookmaker_filtered,Gamle Oslo FK,Gamle Oslo FK,Frigg Oslo FK,2026-05-30,67919294,Gamle Oslo FK,Frigg Oslo FK,2026-05-30,1.0,True,,True,1.0
+events_bookmaker_filtered,Osters IF,Osters IF,Norrby IF,2026-05-30,67126138,Osters IF,Norrby IF,2026-05-30,1.0,True,,True,1.0
+events_bookmaker_filtered,Bollstanas SK,Bollstanas SK,Sunnersta AIF,2026-05-30,68320820,Bollstanas SK,Sunnersta AIF,2026-05-30,1.0,True,,True,1.0
+events_bookmaker_filtered,Kuopion Palloseura,Kuopion Palloseura,FC Inter Turku,2026-05-30,67091332,Kuopion Palloseura,FC Inter Turku,2026-05-30,1.0,True,,True,1.0
+events_bookmaker_filtered,Flamengo de Sucre,Flamengo de Sucre,Atletico Juniors de Yotala,2026-05-30,71813846,Flamengo de Sucre,Atletico Juniors de Yotala,2026-05-30,1.0,True,,True,1.0
+events_bookmaker_filtered,NK Jarun Zagreb,NK Jarun Zagreb,HNK Cibalia Vinkovci,2026-05-30,69972746,NK Jarun Zagreb,HNK Cibalia Vinkovci,2026-05-30,1.0,True,,True,1.0
+events_bookmaker_filtered,Odds BK,Odds BK,Lyn 1896 FK,2026-05-30,67017978,Odds BK,Lyn 1896 FK,2026-05-30,1.0,True,,True,1.0
+events_bookmaker_filtered,FC Lahti,FC Lahti,Tampereen Ilves,2026-05-30,67091336,FC Lahti,Tampereen Ilves,2026-05-30,1.0,True,,True,1.0
+events_bookmaker_filtered,IF Elfsborg,IF Elfsborg,Enskede IK,2026-05-30,70365244,IF Elfsborg,Enskede IK,2026-05-30,1.0,True,,True,1.0
+events_bookmaker_filtered,SV Kuchl,SV Kuchl,FC Lustenau,2026-05-30,61541450,SV Kuchl,FC Lustenau,2026-05-30,1.0,True,,True,1.0
+events_bookmaker_filtered,Tvaakers IF,Tvaakers IF,Kristianstad FC,2026-05-30,68311636,Tvaakers IF,Kristianstad FC,2026-05-30,1.0,True,,True,1.0
+events_bookmaker_filtered,Orijent 1919 Rijeka,Orijent 1919 Rijeka,NK Dugopolje,2026-05-30,69972744,Orijent 1919 Rijeka,NK Dugopolje,2026-05-30,1.0,True,,True,1.0
+events_bookmaker_filtered,FC Meyrin,FC Meyrin,CS Chenois,2026-05-30,62216498,FC Meyrin,CS Chenois,2026-05-30,1.0,True,,True,1.0
+events_bookmaker_filtered,Patriotas FC PR,Patriotas FC PR,City London FC PR U20,2026-05-30,71732928,Patriotas FC PR,City London FC PR U20,2026-05-30,1.0,True,,True,1.0
+events_bookmaker_filtered,IFK Kumla,IFK Kumla,Herrestads AIF,2026-05-30,68320202,IFK Kumla,Herrestads AIF,2026-05-30,1.0,True,,True,1.0
+events_bookmaker_filtered,SE Palmeiras SP,SE Palmeiras SP,SC Corinthians SP,2026-05-30,71615194,SE Palmeiras SP,SC Corinthians SP,2026-05-30,1.0,True,,True,1.0
+events_bookmaker_filtered,SC Cham,SC Cham,FC Biel-Bienne,2026-05-30,61711896,SC Cham,FC Biel-Bienne,2026-05-30,1.0,True,,True,1.0
+events_bookmaker_filtered,VfB Hohenems,VfB Hohenems,Wacker Innsbruck,2026-05-30,61541456,VfB Hohenems,Wacker Innsbruck,2026-05-30,1.0,True,,True,1.0
+events_bookmaker_filtered,LKS Goczalkowice-Zdroj,LKS Goczalkowice-Zdroj,Zaglebie Lubin II,2026-05-30,62036926,LKS Goczalkowice-Zdroj,Zaglebie Lubin II,2026-05-30,1.0,True,,True,1.0
+events_bookmaker_filtered,NK Varteks,NK Varteks,NK Segesta,2026-05-30,71732836,NK Varteks,NK Segesta,2026-05-30,1.0,True,,True,1.0
+events_bookmaker_filtered,Stjarnan,Stjarnan,IBV Vestmannaeyjar,2026-05-30,68194446,Stjarnan,IBV Vestmannaeyjar,2026-05-30,1.0,True,,True,1.0
+events_bookmaker_filtered,Grindavik/Njarovik,Grindavik/Njarovik,Breidablik Kopavogur,2026-05-30,71622034,Grindavik/Njarovik,Breidablik Kopavogur,2026-05-30,1.0,True,,True,1.0
+events_bookmaker_filtered,Rosenborg BK Kvinner,Rosenborg BK Kvinner,LSK Kvinner FK,2026-05-30,67017096,Rosenborg BK Kvinner,LSK Kvinner FK,2026-05-30,1.0,True,,True,1.0

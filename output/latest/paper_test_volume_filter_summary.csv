@@ -1,2 +1,2 @@
 forward_rows_before_filter,max_visible_paper_picks,odds_range,probability_range,edge_range,ev_range,max_alignment_penalty,rows_after_observation_filter,current_paper_picks,newly_logged_picks,total_logged_paper_rows,source_used
-117,25,1.3-9.0,0.15-0.72,-0.03-0.32,-0.05-1.1,0.8,48,25,25,794,automatic_forward_value_snapshots
+231,25,1.3-9.0,0.15-0.72,-0.03-0.32,-0.05-1.1,0.8,97,25,25,819,automatic_forward_value_snapshots

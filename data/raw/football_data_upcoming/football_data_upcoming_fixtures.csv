@@ -1,1 +1,13 @@
 fixture_id,league,league_id,season,match_date,match_time,home_team,away_team,source,fetched_at_utc
+fd_B1_2026-05-31_Gent_Genk,B1,B1,upcoming,2026-05-31,17:30,Gent,Genk,football_data_fixtures_proxy,2026-05-30T13:08:02.122246+00:00
+fd_SP2_2026-05-30_Ceuta_Albacete,SP2,SP2,upcoming,2026-05-30,15:15,Ceuta,Albacete,football_data_fixtures_proxy,2026-05-30T13:08:02.122246+00:00
+fd_SP2_2026-05-30_Sociedad_B_Cultural_Leonesa,SP2,SP2,upcoming,2026-05-30,15:15,Sociedad B,Cultural Leonesa,football_data_fixtures_proxy,2026-05-30T13:08:02.122246+00:00
+fd_SP2_2026-05-30_Granada_Sp_Gijon,SP2,SP2,upcoming,2026-05-30,20:00,Granada,Sp Gijon,football_data_fixtures_proxy,2026-05-30T13:08:02.122246+00:00
+fd_SP2_2026-05-31_Almeria_Valladolid,SP2,SP2,upcoming,2026-05-31,17:30,Almeria,Valladolid,football_data_fixtures_proxy,2026-05-30T13:08:02.122246+00:00
+fd_SP2_2026-05-31_Burgos_Andorra,SP2,SP2,upcoming,2026-05-31,17:30,Burgos,Andorra,football_data_fixtures_proxy,2026-05-30T13:08:02.122246+00:00
+fd_SP2_2026-05-31_Castellon_Eibar,SP2,SP2,upcoming,2026-05-31,17:30,Castellon,Eibar,football_data_fixtures_proxy,2026-05-30T13:08:02.122246+00:00
+fd_SP2_2026-05-31_La_Coruna_Las_Palmas,SP2,SP2,upcoming,2026-05-31,17:30,La Coruna,Las Palmas,football_data_fixtures_proxy,2026-05-30T13:08:02.122246+00:00
+fd_SP2_2026-05-31_Santander_Cadiz,SP2,SP2,upcoming,2026-05-31,17:30,Santander,Cadiz,football_data_fixtures_proxy,2026-05-30T13:08:02.122246+00:00
+fd_SP2_2026-05-31_Zaragoza_Malaga,SP2,SP2,upcoming,2026-05-31,17:30,Zaragoza,Malaga,football_data_fixtures_proxy,2026-05-30T13:08:02.122246+00:00
+fd_SP2_2026-05-31_Cordoba_Huesca,SP2,SP2,upcoming,2026-05-31,20:00,Cordoba,Huesca,football_data_fixtures_proxy,2026-05-30T13:08:02.122246+00:00
+fd_SP2_2026-05-31_Leganes_Mirandes,SP2,SP2,upcoming,2026-05-31,20:00,Leganes,Mirandes,football_data_fixtures_proxy,2026-05-30T13:08:02.122246+00:00

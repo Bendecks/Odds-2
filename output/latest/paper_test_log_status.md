@@ -1,11 +1,11 @@
 # Paper Test Log Status
 
-Raw log rows: 794
-Valid forward/proxy log rows: 791
-Deduped forward/proxy observation rows: 612
+Raw log rows: 819
+Valid forward/proxy log rows: 816
+Deduped forward/proxy observation rows: 637
 Duplicate forward/proxy log rows: 179
-Valid automatic proxy observation rows: 791
-Deduped automatic proxy observation rows: 612
+Valid automatic proxy observation rows: 816
+Deduped automatic proxy observation rows: 637
 Invalid historical/proxy log rows excluded: 3
 Has valid forward log: True
 
@@ -34,26 +34,26 @@ Has valid forward log: True
 
 ## Raw valid rows
 
-- 2026-05-30 | O'Connor Knights FC vs Queanbeyan City FC | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-30 | Adelaide Croatia Raiders SC Reserve vs Modbury Jets SC Reserve | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-30 | Sanfrecce Hiroshima vs Kawasaki Frontale | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-30 | NWS Spirit FC vs Gladesville Ravens | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-30 | Bunnys Gunma FC White Star vs Diavorosso Hiroshima | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-30 | Para Hills Knights SC Reserve vs Croydon Kings FC Reserve | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-30 | Para Hills Knights SC vs Croydon FC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-30 | Vegalta Sendai vs Ventforet Kofu | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-30 | Nara Club vs Oita Trinita | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-30 | Renofa Yamaguchi FC Ladies vs Nankatsu SC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-30 | Cumberland United Reserve vs Salisbury United Reserve | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-30 | Cumberland United vs Salisbury United | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-30 | Cooks Hill United vs Valentine FC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-30 | O'Connor Knights SC vs Queanbeyan City FC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-30 | Avondale FC vs Bentleigh Greens | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-30 | O'Connor Knights FC vs Queanbeyan City FC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-30 | Gold Coast United FC vs Peninsula Power | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-30 | Canberra Juventus FC vs Tuggeranong United FC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-30 | Cooks Hill United vs Valentine FC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-30 | Alamein FC vs Keilor Park SC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-30 | Odds BK vs Lyn 1896 FK | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-30 | Club Deportivo Libertad FC vs Club Deportivo Amanecer | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-30 | SV Kuchl vs FC Lustenau | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-30 | FC Meyrin vs CS Chenois | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-30 | FK Auda Riga vs Ogre United | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-30 | FK Fyllingsdalen vs Viking FK | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-30 | FC Telavi vs FC Gori | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-30 | IK Kongahalla vs Astorps FF | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-30 | NK Hrvace vs NK Dubrava Zagreb | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-30 | IF Elfsborg vs Enskede IK | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-30 | Grindavik/Njarovik vs Breidablik Kopavogur | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-30 | Gamle Oslo FK vs Frigg Oslo FK | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-30 | NK BSK Bijelo Brdo vs NK Croatia Zmijavci | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-30 | CS Minerul Lupeni vs CSM Unirea Alba Iulia | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-30 | Hammarby Talang FF vs AFC Eskilstuna | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-30 | SV Kuchl vs FC Lustenau | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-30 | SV Lafnitz vs SK Treibach | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-30 | Ariana FC vs Laholms FK | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-30 | NK Hrvatski Dragovoljac vs NK Bjelovar | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-05-30 | FC Lausanne Sports vs FC Schaffhausen | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 
 ## Invalid rows excluded
 
