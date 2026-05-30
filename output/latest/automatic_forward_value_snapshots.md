@@ -5,42 +5,42 @@ Includes capped odds-api.io proxy when available. Not live/full-market coverage 
 Baseline model rows are coverage-expansion observations only.
 
 Forward prediction rows: 300
-Proxy price rows: 58
-Matched prediction rows: 58
-Value snapshot rows: 174
-odds-api.io snapshot rows: 174
-Baseline snapshot rows: 174
+Proxy price rows: 30
+Matched prediction rows: 37
+Value snapshot rows: 117
+odds-api.io snapshot rows: 117
+Baseline snapshot rows: 117
 Full model snapshot rows: 0
-Positive EV rows: 92
-Source counts: {'odds_api_io_Bet365_ML': 174}
+Positive EV rows: 51
+Source counts: {'odds_api_io_Bet365_ML': 117}
 
-- 2026-05-29 | HJK Helsinki vs VIFK | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=51.0 | prob=0.3488 | EV=16.7888 | match=1.0
-- 2026-05-29 | Harju JK Laagri vs Paide Linnameeskond | coverage=baseline_unmatched_fixture | sel=HOME | src=odds_api_io_Bet365_ML | odds=17.0 | prob=0.3772 | EV=5.4124 | match=1.0
-- 2026-05-29 | SR Donaufeld vs TWL Elektra | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=17.0 | prob=0.3488 | EV=4.9296 | match=1.0
-- 2026-05-29 | South Africa vs Nicaragua | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=17.0 | prob=0.3488 | EV=4.9296 | match=1.0
-- 2026-05-29 | HJK Helsinki vs VIFK | coverage=baseline_unmatched_fixture | sel=DRAW | src=odds_api_io_Bet365_ML | odds=17.0 | prob=0.274 | EV=3.658 | match=1.0
-- 2026-05-29 | Riga FC vs Grobinas SC/LFS | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=13.0 | prob=0.3488 | EV=3.5344 | match=1.0
-- 2026-05-29 | Andorra vs Iraq | coverage=baseline_unmatched_fixture | sel=HOME | src=odds_api_io_Bet365_ML | odds=8.5 | prob=0.3772 | EV=2.2062 | match=1.0
-- 2026-05-29 | FK Riteriai vs FK Suduva Marijampole | coverage=baseline_unmatched_fixture | sel=HOME | src=odds_api_io_Bet365_ML | odds=8.0 | prob=0.3772 | EV=2.0176 | match=1.0
-- 2026-05-29 | MKS Kluczbork vs KS Sleza Wroclaw | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=8.5 | prob=0.3488 | EV=1.9648 | match=1.0
-- 2026-05-29 | FK Garliava vs FA Siauliai B | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=7.5 | prob=0.3488 | EV=1.616 | match=1.0
-- 2026-05-29 | SR Donaufeld vs TWL Elektra | coverage=baseline_unmatched_fixture | sel=DRAW | src=odds_api_io_Bet365_ML | odds=9.5 | prob=0.274 | EV=1.603 | match=1.0
-- 2026-05-29 | Harju JK Laagri vs Paide Linnameeskond | coverage=baseline_unmatched_fixture | sel=DRAW | src=odds_api_io_Bet365_ML | odds=9.5 | prob=0.274 | EV=1.603 | match=1.0
-- 2026-05-29 | NK Opatija vs NK Karlovac 1919 | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=7.0 | prob=0.3488 | EV=1.4416 | match=1.0
-- 2026-05-29 | SC Zulimanit vs Tou | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=6.25 | prob=0.3488 | EV=1.18 | match=1.0
-- 2026-05-29 | KPV Kokkola vs FC Inter Turku 2 | coverage=baseline_unmatched_fixture | sel=HOME | src=odds_api_io_Bet365_ML | odds=5.5 | prob=0.3772 | EV=1.0746 | match=1.0
-- 2026-05-29 | Riga FC vs Grobinas SC/LFS | coverage=baseline_unmatched_fixture | sel=DRAW | src=odds_api_io_Bet365_ML | odds=7.5 | prob=0.274 | EV=1.055 | match=1.0
-- 2026-05-29 | FC KTP Kotka vs SJK Akatemia | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=5.75 | prob=0.3488 | EV=1.0056 | match=1.0
-- 2026-05-29 | PFC Ludogorets 1945 Razgrad vs PFC Lokomotiv Plovdiv | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=5.5 | prob=0.3488 | EV=0.9184 | match=1.0
-- 2026-05-29 | South Africa vs Nicaragua | coverage=baseline_unmatched_fixture | sel=DRAW | src=odds_api_io_Bet365_ML | odds=7.0 | prob=0.274 | EV=0.918 | match=1.0
-- 2026-05-29 | FC Iberia 1999 vs FC Dinamo Batumi | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=5.25 | prob=0.3488 | EV=0.8312 | match=1.0
-- 2026-05-29 | Gerasd. Stammersd. vs SV Dinamo Helfort 15 | coverage=baseline_unmatched_fixture | sel=HOME | src=odds_api_io_Bet365_ML | odds=4.75 | prob=0.3772 | EV=0.7917 | match=1.0
-- 2026-05-29 | Hoenefoss BK vs Stabaek Fotball | coverage=baseline_unmatched_fixture | sel=HOME | src=odds_api_io_Bet365_ML | odds=4.75 | prob=0.3772 | EV=0.7917 | match=1.0
-- 2026-05-29 | Kopa vs Lautp | coverage=baseline_unmatched_fixture | sel=HOME | src=odds_api_io_Bet365_ML | odds=4.5 | prob=0.3772 | EV=0.6974 | match=1.0
-- 2026-05-29 | SC Red Star Penzing vs WAF Vorwarts Brigittenau | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=4.75 | prob=0.3488 | EV=0.6568 | match=1.0
-- 2026-05-29 | Dfk Dainava Alytus vs FK Ekranas | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=4.75 | prob=0.3488 | EV=0.6568 | match=1.0
-- 2026-05-29 | KaaPo vs LTU | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=4.333 | prob=0.3488 | EV=0.51135 | match=1.0
-- 2026-05-29 | Landvetter IS vs Qviding FIF | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=4.333 | prob=0.3488 | EV=0.51135 | match=1.0
-- 2026-05-29 | NK Rudes Zagreb vs NK Sesvete | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=4.333 | prob=0.3488 | EV=0.51135 | match=1.0
-- 2026-05-29 | FK Garliava vs FA Siauliai B | coverage=baseline_unmatched_fixture | sel=DRAW | src=odds_api_io_Bet365_ML | odds=5.5 | prob=0.274 | EV=0.507 | match=1.0
-- 2026-05-29 | SC Zulimanit vs Tou | coverage=baseline_unmatched_fixture | sel=DRAW | src=odds_api_io_Bet365_ML | odds=5.5 | prob=0.274 | EV=0.507 | match=1.0
+- 2026-05-30 | Metrostars Reserve vs West Adelaide Reserve | coverage=baseline_unmatched_fixture | sel=HOME | src=odds_api_io_Bet365_ML | odds=34.0 | prob=0.3772 | EV=11.8248 | match=0.92
+- 2026-05-30 | Metrostars vs West Adelaide | coverage=baseline_unmatched_fixture | sel=HOME | src=odds_api_io_Bet365_ML | odds=34.0 | prob=0.3772 | EV=11.8248 | match=1.0
+- 2026-05-30 | Metrostars Reserve vs West Adelaide Reserve | coverage=baseline_unmatched_fixture | sel=DRAW | src=odds_api_io_Bet365_ML | odds=13.0 | prob=0.274 | EV=2.562 | match=0.92
+- 2026-05-30 | Metrostars vs West Adelaide | coverage=baseline_unmatched_fixture | sel=DRAW | src=odds_api_io_Bet365_ML | odds=13.0 | prob=0.274 | EV=2.562 | match=1.0
+- 2026-05-30 | NWS Spirit FC vs Gladesville Ravens | coverage=baseline_unmatched_fixture | sel=HOME | src=odds_api_io_Bet365_ML | odds=7.5 | prob=0.3772 | EV=1.829 | match=1.0
+- 2026-05-30 | Avondale FC vs Bentleigh Greens | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=8.0 | prob=0.3488 | EV=1.7904 | match=1.0
+- 2026-05-30 | Para Hills Knights SC Reserve vs Croydon Kings FC Reserve | coverage=baseline_unmatched_fixture | sel=HOME | src=odds_api_io_Bet365_ML | odds=7.0 | prob=0.3772 | EV=1.6404 | match=0.92
+- 2026-05-30 | Para Hills Knights SC vs Croydon FC | coverage=baseline_unmatched_fixture | sel=HOME | src=odds_api_io_Bet365_ML | odds=7.0 | prob=0.3772 | EV=1.6404 | match=1.0
+- 2026-05-30 | FC Osaka vs Reilac Shiga FC | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=5.0 | prob=0.3488 | EV=0.744 | match=1.0
+- 2026-05-30 | Alamein FC vs Keilor Park SC | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=4.75 | prob=0.3488 | EV=0.6568 | match=1.0
+- 2026-05-30 | NWS Spirit FC vs Gladesville Ravens | coverage=baseline_unmatched_fixture | sel=DRAW | src=odds_api_io_Bet365_ML | odds=5.75 | prob=0.274 | EV=0.5755 | match=1.0
+- 2026-05-30 | Sanfrecce Hiroshima vs Kawasaki Frontale | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=4.333 | prob=0.3488 | EV=0.51135 | match=1.0
+- 2026-05-30 | Gold Coast United FC vs Peninsula Power | coverage=baseline_unmatched_fixture | sel=HOME | src=odds_api_io_Bet365_ML | odds=4.0 | prob=0.3772 | EV=0.5088 | match=1.0
+- 2026-05-30 | Para Hills Knights SC Reserve vs Croydon Kings FC Reserve | coverage=baseline_unmatched_fixture | sel=DRAW | src=odds_api_io_Bet365_ML | odds=5.5 | prob=0.274 | EV=0.507 | match=0.92
+- 2026-05-30 | Para Hills Knights SC vs Croydon FC | coverage=baseline_unmatched_fixture | sel=DRAW | src=odds_api_io_Bet365_ML | odds=5.5 | prob=0.274 | EV=0.507 | match=1.0
+- 2026-05-30 | Adelaide Croatia Raiders SC Reserve vs Modbury Jets SC Reserve | coverage=baseline_unmatched_fixture | sel=HOME | src=odds_api_io_Bet365_ML | odds=3.9 | prob=0.3772 | EV=0.47108 | match=0.92
+- 2026-05-30 | O'Connor Knights SC vs Queanbeyan City FC | coverage=baseline_unmatched_fixture | sel=HOME | src=odds_api_io_Bet365_ML | odds=3.9 | prob=0.3772 | EV=0.47108 | match=0.96
+- 2026-05-30 | O'Connor Knights FC vs Queanbeyan City FC | coverage=baseline_unmatched_fixture | sel=HOME | src=odds_api_io_Bet365_ML | odds=3.9 | prob=0.3772 | EV=0.47108 | match=1.0
+- 2026-05-30 | Adelaide Croatia Raiders SC vs Modbury Jets SC | coverage=baseline_unmatched_fixture | sel=HOME | src=odds_api_io_Bet365_ML | odds=3.9 | prob=0.3772 | EV=0.47108 | match=1.0
+- 2026-05-30 | Bunnys Gunma FC White Star vs Diavorosso Hiroshima | coverage=baseline_unmatched_fixture | sel=HOME | src=odds_api_io_Bet365_ML | odds=3.6 | prob=0.3772 | EV=0.35792 | match=1.0
+- 2026-05-30 | Vegalta Sendai vs Ventforet Kofu | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=3.8 | prob=0.3488 | EV=0.32544 | match=1.0
+- 2026-05-30 | O'Connor Knights SC vs Queanbeyan City FC | coverage=baseline_unmatched_fixture | sel=DRAW | src=odds_api_io_Bet365_ML | odds=4.5 | prob=0.274 | EV=0.233 | match=0.96
+- 2026-05-30 | O'Connor Knights FC vs Queanbeyan City FC | coverage=baseline_unmatched_fixture | sel=DRAW | src=odds_api_io_Bet365_ML | odds=4.5 | prob=0.274 | EV=0.233 | match=1.0
+- 2026-05-30 | Avondale FC vs Bentleigh Greens | coverage=baseline_unmatched_fixture | sel=DRAW | src=odds_api_io_Bet365_ML | odds=4.5 | prob=0.274 | EV=0.233 | match=1.0
+- 2026-05-30 | Nara Club vs Oita Trinita | coverage=baseline_unmatched_fixture | sel=HOME | src=odds_api_io_Bet365_ML | odds=3.25 | prob=0.3772 | EV=0.2259 | match=1.0
+- 2026-05-30 | Cumberland United vs Salisbury United | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=3.5 | prob=0.3488 | EV=0.2208 | match=1.0
+- 2026-05-30 | Renofa Yamaguchi FC Ladies vs Nankatsu SC | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=3.5 | prob=0.3488 | EV=0.2208 | match=1.0
+- 2026-05-30 | Cumberland United Reserve vs Salisbury United Reserve | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=3.5 | prob=0.3488 | EV=0.2208 | match=0.92
+- 2026-05-30 | Cooks Hill United vs Valentine FC | coverage=baseline_unmatched_fixture | sel=AWAY | src=odds_api_io_Bet365_ML | odds=3.4 | prob=0.3488 | EV=0.18592 | match=1.0
+- 2026-05-30 | Cooks Hill United vs Valentine FC | coverage=baseline_unmatched_fixture | sel=DRAW | src=odds_api_io_Bet365_ML | odds=4.2 | prob=0.274 | EV=0.1508 | match=1.0

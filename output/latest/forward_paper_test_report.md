@@ -5,9 +5,9 @@ Dette er stadig paper-test og ikke rigtige anbefalinger.
 
 ## Kort status
 
-- Aktuelle forward picks: **25**
-- Loggede forward picks fra 2026+: **737**
-- Afventer forward picks: **561**
+- Aktuelle forward picks: **17**
+- Loggede forward picks fra 2026+: **754**
+- Afventer forward picks: **578**
 - Settled forward picks: **0**
 - Vundne forward: **0**
 - Tabte forward: **0**
@@ -15,10 +15,10 @@ Dette er stadig paper-test og ikke rigtige anbefalinger.
 
 ## Aktuelle forward paper-picks
 
-### FK Babrungas Plunge vs FK Minija 2017
-- Dato: **2026-05-29**
-- Kampstart: **15:00**
-- Liga: **lithuania-1-lyga**
+### Bunnys Gunma FC White Star vs Diavorosso Hiroshima
+- Dato: **2026-05-30**
+- Kampstart: **04:00**
+- Liga: **japan-nadeshiko-league-div-2-women**
 - Spil: **Hjemmesejr**
 - Odds: **3.60**
 - Model probability: **0.377**
@@ -26,21 +26,10 @@ Dette er stadig paper-test og ikke rigtige anbefalinger.
 - Edge: **0.099**
 - Type: **Baseline-observation**
 
-### Deportes Temuco vs Santiago Wanderers
-- Dato: **2026-05-29**
-- Kampstart: **15:00**
-- Liga: **chile-primera-division-women**
-- Spil: **Hjemmesejr**
-- Odds: **3.40**
-- Model probability: **0.377**
-- EV: **0.282**
-- Edge: **0.083**
-- Type: **Baseline-observation**
-
-### FC Dila Gori vs FC Samgurali Tskaltubo
-- Dato: **2026-05-29**
-- Kampstart: **15:00**
-- Liga: **georgia-erovnuli-liga**
+### Renofa Yamaguchi FC Ladies vs Nankatsu SC
+- Dato: **2026-05-30**
+- Kampstart: **04:00**
+- Liga: **japan-nadeshiko-league-div-2-women**
 - Spil: **Udebanesejr**
 - Odds: **3.50**
 - Model probability: **0.349**
@@ -48,21 +37,65 @@ Dette er stadig paper-test og ikke rigtige anbefalinger.
 - Edge: **0.063**
 - Type: **Baseline-observation**
 
-### Kopa vs Lautp
-- Dato: **2026-05-29**
-- Kampstart: **15:30**
-- Liga: **finland-kolmonen**
+### Cooks Hill United vs Valentine FC
+- Dato: **2026-05-30**
+- Kampstart: **04:00**
+- Liga: **australia-northern-nsw-npl**
+- Spil: **Udebanesejr**
+- Odds: **3.40**
+- Model probability: **0.349**
+- EV: **0.186**
+- Edge: **0.055**
+- Type: **Baseline-observation**
+
+### Cooks Hill United vs Valentine FC
+- Dato: **2026-05-30**
+- Kampstart: **04:00**
+- Liga: **australia-northern-nsw-npl**
+- Spil: **Uafgjort**
+- Odds: **4.20**
+- Model probability: **0.274**
+- EV: **0.151**
+- Edge: **0.036**
+- Type: **Baseline-observation**
+
+### FC Osaka vs Reilac Shiga FC
+- Dato: **2026-05-30**
+- Kampstart: **05:00**
+- Liga: **japan-jleague-2**
+- Spil: **Udebanesejr**
+- Odds: **5.00**
+- Model probability: **0.349**
+- EV: **0.744**
+- Edge: **0.149**
+- Type: **Baseline-observation**
+
+### Alamein FC vs Keilor Park SC
+- Dato: **2026-05-30**
+- Kampstart: **05:00**
+- Liga: **australia-victoria-npl-women**
+- Spil: **Udebanesejr**
+- Odds: **4.75**
+- Model probability: **0.349**
+- EV: **0.657**
+- Edge: **0.138**
+- Type: **Baseline-observation**
+
+### O'Connor Knights FC vs Queanbeyan City FC
+- Dato: **2026-05-30**
+- Kampstart: **05:00**
+- Liga: **australia-capital-npl-1**
 - Spil: **Hjemmesejr**
-- Odds: **4.50**
+- Odds: **3.90**
 - Model probability: **0.377**
-- EV: **0.697**
-- Edge: **0.155**
+- EV: **0.471**
+- Edge: **0.121**
 - Type: **Baseline-observation**
 
-### KaaPo vs LTU
-- Dato: **2026-05-29**
-- Kampstart: **15:30**
-- Liga: **finland-kolmonen**
+### Sanfrecce Hiroshima vs Kawasaki Frontale
+- Dato: **2026-05-30**
+- Kampstart: **05:00**
+- Liga: **japan-jleague**
 - Spil: **Udebanesejr**
 - Odds: **4.33**
 - Model probability: **0.349**
@@ -70,21 +103,21 @@ Dette er stadig paper-test og ikke rigtige anbefalinger.
 - Edge: **0.118**
 - Type: **Baseline-observation**
 
-### NK Rudes Zagreb vs NK Sesvete
-- Dato: **2026-05-29**
-- Kampstart: **15:30**
-- Liga: **croatia-prva-nl**
-- Spil: **Udebanesejr**
-- Odds: **4.33**
-- Model probability: **0.349**
-- EV: **0.511**
-- Edge: **0.118**
+### NWS Spirit FC vs Gladesville Ravens
+- Dato: **2026-05-30**
+- Kampstart: **05:00**
+- Liga: **australia-nsw-premier-league-women**
+- Spil: **Uafgjort**
+- Odds: **5.75**
+- Model probability: **0.274**
+- EV: **0.576**
+- Edge: **0.100**
 - Type: **Baseline-observation**
 
-### Huima/Urho vs GBK Kokkola
-- Dato: **2026-05-29**
-- Kampstart: **15:30**
-- Liga: **finland-kakkonen-playoffs**
+### Vegalta Sendai vs Ventforet Kofu
+- Dato: **2026-05-30**
+- Kampstart: **05:00**
+- Liga: **japan-jleague-2**
 - Spil: **Udebanesejr**
 - Odds: **3.80**
 - Model probability: **0.349**
@@ -92,202 +125,81 @@ Dette er stadig paper-test og ikke rigtige anbefalinger.
 - Edge: **0.086**
 - Type: **Baseline-observation**
 
-### PK Keski-Uusimaa vs KuPS Akatemia
-- Dato: **2026-05-29**
-- Kampstart: **15:30**
-- Liga: **finland-ykkonen**
-- Spil: **Udebanesejr**
-- Odds: **3.70**
-- Model probability: **0.349**
-- EV: **0.291**
-- Edge: **0.079**
-- Type: **Baseline-observation**
-
-### HPS vs Kuopion Palloseura
-- Dato: **2026-05-29**
-- Kampstart: **15:30**
-- Liga: **finland-kansallinen-liiga-women**
-- Spil: **Hjemmesejr**
-- Odds: **3.30**
-- Model probability: **0.377**
-- EV: **0.245**
-- Edge: **0.074**
-- Type: **Baseline-observation**
-
-### Pogon Sokol Lubaczow vs Star Starachowice
-- Dato: **2026-05-29**
-- Kampstart: **15:30**
-- Liga: **poland-iii-liga-group-4**
-- Spil: **Udebanesejr**
-- Odds: **3.50**
-- Model probability: **0.349**
-- EV: **0.221**
-- Edge: **0.063**
-- Type: **Baseline-observation**
-
-### KaaPo vs LTU
-- Dato: **2026-05-29**
-- Kampstart: **15:30**
-- Liga: **finland-kolmonen**
-- Spil: **Uafgjort**
-- Odds: **4.75**
-- Model probability: **0.274**
-- EV: **0.301**
-- Edge: **0.063**
-- Type: **Baseline-observation**
-
-### Hoenefoss BK vs Stabaek Fotball
-- Dato: **2026-05-29**
-- Kampstart: **16:00**
-- Liga: **norway-toppserien-women**
-- Spil: **Hjemmesejr**
-- Odds: **4.75**
-- Model probability: **0.377**
-- EV: **0.792**
-- Edge: **0.167**
-- Type: **Baseline-observation**
-
-### Gerasd. Stammersd. vs SV Dinamo Helfort 15
-- Dato: **2026-05-29**
-- Kampstart: **16:00**
-- Liga: **austria-amateur-wien-wiener-stadtliga**
-- Spil: **Hjemmesejr**
-- Odds: **4.75**
-- Model probability: **0.377**
-- EV: **0.792**
-- Edge: **0.167**
-- Type: **Baseline-observation**
-
-### SC Red Star Penzing vs WAF Vorwarts Brigittenau
-- Dato: **2026-05-29**
-- Kampstart: **16:00**
-- Liga: **austria-amateur-wien-wiener-stadtliga**
-- Spil: **Udebanesejr**
-- Odds: **4.75**
-- Model probability: **0.349**
-- EV: **0.657**
-- Edge: **0.138**
-- Type: **Baseline-observation**
-
-### Dfk Dainava Alytus vs FK Ekranas
-- Dato: **2026-05-29**
-- Kampstart: **16:00**
-- Liga: **lithuania-1-lyga**
-- Spil: **Udebanesejr**
-- Odds: **4.75**
-- Model probability: **0.349**
-- EV: **0.657**
-- Edge: **0.138**
-- Type: **Baseline-observation**
-
-### FK Transinvest vs FC Hegelmann Kaunas
-- Dato: **2026-05-29**
-- Kampstart: **16:00**
-- Liga: **lithuania-a-lyga**
-- Spil: **Udebanesejr**
-- Odds: **4.10**
-- Model probability: **0.349**
-- EV: **0.430**
-- Edge: **0.105**
-- Type: **Baseline-observation**
-
-### TPV Tampere vs Tampere United
-- Dato: **2026-05-29**
-- Kampstart: **16:00**
-- Liga: **finland-ykkonen**
-- Spil: **Hjemmesejr**
-- Odds: **3.60**
-- Model probability: **0.377**
-- EV: **0.358**
-- Edge: **0.099**
-- Type: **Baseline-observation**
-
-### MKS Kluczbork vs KS Sleza Wroclaw
-- Dato: **2026-05-29**
-- Kampstart: **16:00**
-- Liga: **poland-iii-liga-group-3**
-- Spil: **Uafgjort**
-- Odds: **4.75**
-- Model probability: **0.274**
-- EV: **0.301**
-- Edge: **0.063**
-- Type: **Baseline-observation**
-
-### FK Garliava vs FA Siauliai B
-- Dato: **2026-05-29**
-- Kampstart: **16:30**
-- Liga: **lithuania-1-lyga**
-- Spil: **Uafgjort**
-- Odds: **5.50**
-- Model probability: **0.274**
-- EV: **0.507**
-- Edge: **0.092**
-- Type: **Baseline-observation**
-
-### Wolfsberger AC (A) vs SC Kalsdorf
-- Dato: **2026-05-29**
-- Kampstart: **16:30**
-- Liga: **austria-amateur-regionalliga-centre**
-- Spil: **Udebanesejr**
-- Odds: **3.50**
-- Model probability: **0.349**
-- EV: **0.221**
-- Edge: **0.063**
-- Type: **Baseline-observation**
-
-### SC Zulimanit vs Tou
-- Dato: **2026-05-29**
-- Kampstart: **16:45**
-- Liga: **finland-kolmonen**
-- Spil: **Uafgjort**
-- Odds: **5.50**
-- Model probability: **0.274**
-- EV: **0.507**
-- Edge: **0.092**
-- Type: **Baseline-observation**
-
-### Landvetter IS vs Qviding FIF
-- Dato: **2026-05-29**
-- Kampstart: **17:00**
-- Liga: **sweden-division-2-promotion-playoffs**
-- Spil: **Udebanesejr**
-- Odds: **4.33**
-- Model probability: **0.349**
-- EV: **0.511**
-- Edge: **0.118**
-- Type: **Baseline-observation**
-
-### Fredrikstad FK vs IK Start
-- Dato: **2026-05-29**
-- Kampstart: **17:00**
-- Liga: **norway-eliteserien**
-- Spil: **Udebanesejr**
-- Odds: **3.90**
-- Model probability: **0.349**
-- EV: **0.360**
-- Edge: **0.092**
-- Type: **Baseline-observation**
-
-### FK Riteriai vs FK Suduva Marijampole
-- Dato: **2026-05-29**
-- Kampstart: **17:00**
-- Liga: **lithuania-a-lyga**
-- Spil: **Uafgjort**
-- Odds: **5.25**
-- Model probability: **0.274**
-- EV: **0.439**
-- Edge: **0.084**
-- Type: **Baseline-observation**
-
-### Hoersholm-Usseroed IK vs FA 2000
-- Dato: **2026-05-29**
-- Kampstart: **17:00**
-- Liga: **denmark-3rd-division**
+### Nara Club vs Oita Trinita
+- Dato: **2026-05-30**
+- Kampstart: **05:00**
+- Liga: **japan-jleague-2**
 - Spil: **Hjemmesejr**
 - Odds: **3.25**
 - Model probability: **0.377**
 - EV: **0.226**
 - Edge: **0.070**
+- Type: **Baseline-observation**
+
+### Avondale FC vs Bentleigh Greens
+- Dato: **2026-05-30**
+- Kampstart: **05:00**
+- Liga: **australia-victoria-npl**
+- Spil: **Uafgjort**
+- Odds: **4.50**
+- Model probability: **0.274**
+- EV: **0.233**
+- Edge: **0.052**
+- Type: **Baseline-observation**
+
+### O'Connor Knights FC vs Queanbeyan City FC
+- Dato: **2026-05-30**
+- Kampstart: **05:00**
+- Liga: **australia-capital-npl-1**
+- Spil: **Uafgjort**
+- Odds: **4.50**
+- Model probability: **0.274**
+- EV: **0.233**
+- Edge: **0.052**
+- Type: **Baseline-observation**
+
+### Alamein FC vs Keilor Park SC
+- Dato: **2026-05-30**
+- Kampstart: **05:00**
+- Liga: **australia-victoria-npl-women**
+- Spil: **Uafgjort**
+- Odds: **4.20**
+- Model probability: **0.274**
+- EV: **0.151**
+- Edge: **0.036**
+- Type: **Baseline-observation**
+
+### Adelaide Croatia Raiders SC vs Modbury Jets SC
+- Dato: **2026-05-30**
+- Kampstart: **05:30**
+- Liga: **australia-south-australia-state-league-1**
+- Spil: **Hjemmesejr**
+- Odds: **3.90**
+- Model probability: **0.377**
+- EV: **0.471**
+- Edge: **0.121**
+- Type: **Baseline-observation**
+
+### Para Hills Knights SC vs Croydon FC
+- Dato: **2026-05-30**
+- Kampstart: **05:30**
+- Liga: **australia-south-australia-npl**
+- Spil: **Uafgjort**
+- Odds: **5.50**
+- Model probability: **0.274**
+- EV: **0.507**
+- Edge: **0.092**
+- Type: **Baseline-observation**
+
+### Cumberland United vs Salisbury United
+- Dato: **2026-05-30**
+- Kampstart: **05:30**
+- Liga: **australia-south-australia-state-league-1**
+- Spil: **Udebanesejr**
+- Odds: **3.50**
+- Model probability: **0.349**
+- EV: **0.221**
+- Edge: **0.063**
 - Type: **Baseline-observation**
 
 ## Settled forward picks
@@ -296,23 +208,6 @@ Ingen settled forward-picks endnu i den rene forward-rapport.
 
 ## Afventer i forward-loggen
 
-- **2026-05-28 kl. 23:30** – Patuxent Football Athletics vs Annapolis Blues FC – Uafgjort @ 6.50 – Baseline-observation
-- **2026-05-29 kl. 02:00** – Utah United vs Real Colorado – Udebanesejr @ 4.50 – Baseline-observation
-- **2026-05-29 kl. 07:00** – Manukau United FC vs Fencibles United FC – Uafgjort @ 6.25 – Baseline-observation
-- **2026-05-29 kl. 00:00** – Houston FC vs Laredo Heat SC – Hjemmesejr @ 4.00 – Baseline-observation
-- **2026-05-28 kl. 17:00** – Kolding IF vs Dbk Fortuna Hjoerring – Hjemmesejr @ 3.90 – Baseline-observation
-- **2026-05-28 kl. 22:00** – SE Palmeiras SP vs CD Junior FC – Uafgjort @ 6.00 – Baseline-observation
-- **2026-05-28 kl. 17:00** – FCM Traiskirchen vs SC Neusiedl am See 1919 – Uafgjort @ 5.75 – Baseline-observation
-- **2026-05-29 kl. 00:30** – Cruzeiro EC MG vs Barcelona SC – Uafgjort @ 5.25 – Baseline-observation
-- **2026-05-29 kl. 00:30** – CA Tigre vs Alianza Atletico – Uafgjort @ 5.25 – Baseline-observation
-- **2026-05-29 kl. 02:00** – Utah United vs Real Colorado – Uafgjort @ 5.25 – Baseline-observation
-- **2026-05-28 kl. 19:00** – CA Piauiense PI vs Santos FC SP – Hjemmesejr @ 3.40 – Baseline-observation
-- **2026-05-29 kl. 07:00** – Western Springs AFC vs Bay Olympic – Uafgjort @ 5.00 – Baseline-observation
-- **2026-05-28 kl. 16:00** – FC Tallinn vs Maardu Linnameeskond – Hjemmesejr @ 3.25 – Baseline-observation
-- **2026-05-28 kl. 23:00** – CD El Nacional vs CD Universidad Catolica del Ecuador – Uafgjort @ 4.75 – Baseline-observation
-- **2026-05-28 kl. 17:20** – Ylojarvi United FC vs FC Haka J – Uafgjort @ 4.75 – Baseline-observation
-- **2026-05-28 kl. 18:30** – FK Decic Tuzi vs FK Mornar Bar – Hjemmesejr @ 3.10 – Baseline-observation
-- **2026-05-28 kl. 15:45** – Mikkelin Pallo-Kissat vs HaPK Edustus – Udebanesejr @ 3.40 – Baseline-observation
 - **2026-05-28 kl. 19:00** – Casa Pia Lisbon vs SCU Torreense – Udebanesejr @ 3.40 – Baseline-observation
 - **2026-05-29 kl. 02:00** – Tacoma Stars vs FC Olympia – Uafgjort @ 4.50 – Baseline-observation
 - **2026-05-29 kl. 00:00** – Houston FC vs Laredo Heat SC – Uafgjort @ 4.50 – Baseline-observation
@@ -356,6 +251,23 @@ Ingen settled forward-picks endnu i den rene forward-rapport.
 - **2026-05-29 kl. 15:30** – Pogon Sokol Lubaczow vs Star Starachowice – Udebanesejr @ 3.50 – Baseline-observation
 - **2026-05-29 kl. 16:00** – MKS Kluczbork vs KS Sleza Wroclaw – Uafgjort @ 4.75 – Baseline-observation
 - **2026-05-29 kl. 15:30** – KaaPo vs LTU – Uafgjort @ 4.75 – Baseline-observation
+- **2026-05-30 kl. 05:00** – FC Osaka vs Reilac Shiga FC – Udebanesejr @ 5.00 – Baseline-observation
+- **2026-05-30 kl. 05:00** – Alamein FC vs Keilor Park SC – Udebanesejr @ 4.75 – Baseline-observation
+- **2026-05-30 kl. 05:30** – Adelaide Croatia Raiders SC vs Modbury Jets SC – Hjemmesejr @ 3.90 – Baseline-observation
+- **2026-05-30 kl. 05:00** – O'Connor Knights FC vs Queanbeyan City FC – Hjemmesejr @ 3.90 – Baseline-observation
+- **2026-05-30 kl. 05:00** – Sanfrecce Hiroshima vs Kawasaki Frontale – Udebanesejr @ 4.33 – Baseline-observation
+- **2026-05-30 kl. 05:00** – NWS Spirit FC vs Gladesville Ravens – Uafgjort @ 5.75 – Baseline-observation
+- **2026-05-30 kl. 04:00** – Bunnys Gunma FC White Star vs Diavorosso Hiroshima – Hjemmesejr @ 3.60 – Baseline-observation
+- **2026-05-30 kl. 05:30** – Para Hills Knights SC vs Croydon FC – Uafgjort @ 5.50 – Baseline-observation
+- **2026-05-30 kl. 05:00** – Vegalta Sendai vs Ventforet Kofu – Udebanesejr @ 3.80 – Baseline-observation
+- **2026-05-30 kl. 05:00** – Nara Club vs Oita Trinita – Hjemmesejr @ 3.25 – Baseline-observation
+- **2026-05-30 kl. 04:00** – Renofa Yamaguchi FC Ladies vs Nankatsu SC – Udebanesejr @ 3.50 – Baseline-observation
+- **2026-05-30 kl. 05:30** – Cumberland United vs Salisbury United – Udebanesejr @ 3.50 – Baseline-observation
+- **2026-05-30 kl. 04:00** – Cooks Hill United vs Valentine FC – Udebanesejr @ 3.40 – Baseline-observation
+- **2026-05-30 kl. 05:00** – Avondale FC vs Bentleigh Greens – Uafgjort @ 4.50 – Baseline-observation
+- **2026-05-30 kl. 05:00** – O'Connor Knights FC vs Queanbeyan City FC – Uafgjort @ 4.50 – Baseline-observation
+- **2026-05-30 kl. 04:00** – Cooks Hill United vs Valentine FC – Uafgjort @ 4.20 – Baseline-observation
+- **2026-05-30 kl. 05:00** – Alamein FC vs Keilor Park SC – Uafgjort @ 4.20 – Baseline-observation
 
 ## Settlement-check pending/noter
 

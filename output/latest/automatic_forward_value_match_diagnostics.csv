@@ -1,301 +1,301 @@
 prediction_id,match_date,home_team,away_team,model_source,model_coverage,candidate_rows,best_home_team,best_away_team,best_match_confidence,matched_rows,matched_odds_api_io_rows
-504e0ec87110fe149c9f,2026-05-29,Deportes Temuco,Santiago Wanderers,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Deportes Temuco,Santiago Wanderers,1.0,1,1
-c490c58bbb084c9c174a,2026-05-29,FC Dila Gori,FC Samgurali Tskaltubo,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FC Dila Gori,FC Samgurali Tskaltubo,1.0,1,1
-976781fc0c9d771ef34f,2026-05-29,FK Babrungas Plunge,FK Minija 2017,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FK Babrungas Plunge,FK Minija 2017,1.0,1,1
-26ca2837ee97d6616b34,2026-05-29,Riga FC,Grobinas SC/LFS,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Riga FC,Grobinas SC/LFS,1.0,1,1
-e0e2b6a324260fbc019a,2026-05-29,FC Haka Valkeakoski,JIPPO,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FC Haka Valkeakoski,JIPPO,1.0,1,1
-2ffc3ed4a14b5df1ff90,2026-05-29,HJK Helsinki,VIFK,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,HJK Helsinki,VIFK,1.0,1,1
-0d1b56b14ab980b61197,2026-05-29,HPS,Kuopion Palloseura,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,HPS,Kuopion Palloseura,1.0,1,1
-cbb184fdf298075c5828,2026-05-29,Huima/Urho,GBK Kokkola,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Huima/Urho,GBK Kokkola,1.0,1,1
-41dc00cffd3131318812,2026-05-29,KaaPo,LTU,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,KaaPo,LTU,1.0,1,1
-c844df48610a903f2b98,2026-05-29,Kopa,Lautp,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Kopa,Lautp,1.0,1,1
-1f11bf26abe3deb1b92d,2026-05-29,KPV Kokkola,FC Inter Turku 2,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,KPV Kokkola,FC Inter Turku 2,1.0,1,1
-841b0204137597ceb0c4,2026-05-29,FC KTP Kotka,SJK Akatemia,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FC KTP Kotka,SJK Akatemia,1.0,1,1
-910f973c3e8cd7d33fb9,2026-05-29,NK Mladost Zdralovi,NK Kustosija Zagreb,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,NK Mladost Zdralovi,NK Kustosija Zagreb,1.0,1,1
-e103681fd50acc241f6a,2026-05-29,NK Opatija,NK Karlovac 1919,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,NK Opatija,NK Karlovac 1919,1.0,1,1
-44fa0dbc81517833a57f,2026-05-29,NK Rudes Zagreb,NK Sesvete,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,NK Rudes Zagreb,NK Sesvete,1.0,1,1
-76b52bac688fe95bafd7,2026-05-29,NK Solin,NK Uskok,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,NK Solin,NK Uskok,1.0,1,1
-bd482ff9f5aff658c4cc,2026-05-29,PK Keski-Uusimaa,KuPS Akatemia,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,PK Keski-Uusimaa,KuPS Akatemia,1.0,1,1
-2fab79665bd93a6401f8,2026-05-29,Pogon Sokol Lubaczow,Star Starachowice,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Pogon Sokol Lubaczow,Star Starachowice,1.0,1,1
-7fce331f8db3a1708245,2026-05-29,Andorra,Iraq,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Andorra,Iraq,1.0,1,1
-92e0bf3be9d2e972ea5b,2026-05-29,Apollon Limassol,Pafos FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Apollon Limassol,Pafos FC,1.0,1,1
-846bdcdf400bce746ce1,2026-05-29,Dfk Dainava Alytus,FK Ekranas,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Dfk Dainava Alytus,FK Ekranas,1.0,1,1
-b90ee437d62d3b1ae033,2026-05-29,FK Jezero Plav,FK Iskra Danilovgrad,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FK Jezero Plav,FK Iskra Danilovgrad,1.0,1,1
-45f68987c73bdd3a9308,2026-05-29,FK Transinvest,FC Hegelmann Kaunas,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FK Transinvest,FC Hegelmann Kaunas,1.0,1,1
-b6fc4312325a234a803b,2026-05-29,Gerasd. Stammersd.,SV Dinamo Helfort 15,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Gerasd. Stammersd.,SV Dinamo Helfort 15,1.0,1,1
-d7885e672530623e2d89,2026-05-29,Harju JK Laagri,Paide Linnameeskond,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Harju JK Laagri,Paide Linnameeskond,1.0,1,1
-054b0991a859d0d66b81,2026-05-29,Hoenefoss BK,Stabaek Fotball,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Hoenefoss BK,Stabaek Fotball,1.0,1,1
-c05bb76e4848f9da7798,2026-05-29,KaPa Kapylan Pallo,JaPS,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,KaPa Kapylan Pallo,JaPS,1.0,1,1
-3875d898b15acc6e1596,2026-05-29,MKS Kluczbork,KS Sleza Wroclaw,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,MKS Kluczbork,KS Sleza Wroclaw,1.0,1,1
-7ec715012c9cf7ac8c94,2026-05-29,MPS/Atletico Malmi,Ppj/Lauttasaari,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,MPS/Atletico Malmi,Ppj/Lauttasaari,1.0,1,1
-935c780a5e438c2b92ca,2026-05-29,PFC Ludogorets 1945 Razgrad,PFC Lokomotiv Plovdiv,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,PFC Ludogorets 1945 Razgrad,PFC Lokomotiv Plovdiv,1.0,1,1
-987386ccd7b4773cb5b7,2026-05-29,SC Red Star Penzing,WAF Vorwarts Brigittenau,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,SC Red Star Penzing,WAF Vorwarts Brigittenau,1.0,1,1
-1dc87ab372d4332eb1be,2026-05-29,South Africa,Nicaragua,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,South Africa,Nicaragua,1.0,1,1
-81e3651fa349c4b702e8,2026-05-29,SR Donaufeld,TWL Elektra,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,SR Donaufeld,TWL Elektra,1.0,1,1
-0e85280811eed144c0b1,2026-05-29,FC Stadlau,Simmeringer SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FC Stadlau,Simmeringer SC,1.0,1,1
-09820c20ba597fd4bc78,2026-05-29,Tampereen Ilves 2,HJS,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Tampereen Ilves 2,HJS,1.0,1,1
-2fae0f9d10622387ceb1,2026-05-29,Thisted FC,FC Roskilde,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Thisted FC,FC Roskilde,1.0,1,1
-71a87633d76298149e57,2026-05-29,TPV Tampere,Tampere United,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,TPV Tampere,Tampere United,1.0,1,1
-b3b58fc7b4a8f2a84c8a,2026-05-29,Etela-Espoon Pallo,Sexypoxyt,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Etela-Espoon Pallo,Sexypoxyt,1.0,1,1
-d4185efd895e53f40473,2026-05-29,Al Shabab Kuwait,AL Tadhamon,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Al Shabab Kuwait,AL Tadhamon,1.0,1,1
-334a9e2bc254282e75e2,2026-05-29,FK Garliava,FA Siauliai B,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FK Garliava,FA Siauliai B,1.0,1,1
-1cefff988e189842e08c,2026-05-29,Hinna,Varhaug,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Hinna,Varhaug,1.0,1,1
-6aef82a22ebe9e87688f,2026-05-29,UFV Thalgau,Union Henndorf,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,UFV Thalgau,Union Henndorf,1.0,1,1
-991d6692dd7a06894609,2026-05-29,Wolfsberger AC (A),SC Kalsdorf,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Wolfsberger AC (A),SC Kalsdorf,1.0,1,1
-5c005189ab430826da7e,2026-05-29,SC Zulimanit,Tou,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,SC Zulimanit,Tou,1.0,1,1
-7805f27db8978b324081,2026-05-29,Aalesunds FK,HamKam,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Aalesunds FK,HamKam,1.0,1,1
-9c5b9697ed9b0ea14f23,2026-05-29,Aragvi Dusheti,FC Merani Martvili,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Aragvi Dusheti,FC Merani Martvili,1.0,1,1
-18c1802d567cdc23f403,2026-05-29,Austria Lustenau II,FC Egg,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Thisted FC,FC Roskilde,0.2832,0,0
-fc17057b24a8dc009169,2026-05-29,BK Fremad Amager,Skive IK,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,BK Fremad Amager,Skive IK,1.0,1,1
-1a8131983f2392e15c43,2026-05-29,Fehring 1947,SV Lebring,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Fehring 1947,SV Lebring,1.0,1,1
-1ac77c6d9ee435b7d7d7,2026-05-29,FK Riteriai,FK Suduva Marijampole,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FK Riteriai,FK Suduva Marijampole,1.0,1,1
-814646f881f1d5db421f,2026-05-29,Fredrikstad FK,IK Start,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Fredrikstad FK,IK Start,1.0,1,1
-d191443fbfdff9ce416c,2026-05-29,Galtabacks BK,Lindome GIF,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Galtabacks BK,Lindome GIF,1.0,1,1
-f5bedca72e7805f4be50,2026-05-29,Ghazl El Mahallah,Haras El Hodood,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Ghazl El Mahallah,Haras El Hodood,1.0,1,1
-f90a2b5cb9f2f982c345,2026-05-29,FC Gleisdorf 09,SV Ried II,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,BK Fremad Amager,Skive IK,0.3849,0,0
-e432a8546a73a65fc55d,2026-05-29,Hoersholm-Usseroed IK,FA 2000,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Hoersholm-Usseroed IK,FA 2000,1.0,1,1
-fc114a8b4dcbeffac402,2026-05-29,FC Iberia 1999,FC Dinamo Batumi,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FC Iberia 1999,FC Dinamo Batumi,1.0,1,1
-51ff9d2fc8d8226fcd52,2026-05-29,KFUM Oslo,Tromsoe IL,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,KFUM Oslo,Tromsoe IL,1.0,1,1
-73e5db567d4c662f3be4,2026-05-29,Kungsangens IF,IK Franke,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Kungsangens IF,IK Franke,1.0,1,1
-a37f4306eb6f26c46047,2026-05-29,Landvetter IS,Qviding FIF,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Landvetter IS,Qviding FIF,1.0,1,1
-173726ae3164b932ff9a,2026-05-29,Nacka FC,Nykopings BIS,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Nacka FC,Nykopings BIS,1.0,1,1
-fae19f47ab8e85f7a651,2026-05-29,Naestved BK,AB Gladsaxe,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Hoenefoss BK,Stabaek Fotball,0.4147,0,0
-704b6d70ed3726f6a1f9,2026-05-29,National Bank of Egypt SC,Al Ittihad Al Sakandary,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Al Shabab Kuwait,AL Tadhamon,0.3766,0,0
-7c78740b778eb0570c6f,2026-05-29,Orgryte IS,IF Elfsborg,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Wolfsberger AC (A),SC Kalsdorf,0.4058,0,0
-bb8c139b31779809481b,2026-05-29,Rosenborg BK,Bodoe/Glimt,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Galtabacks BK,Lindome GIF,0.3873,0,0
-c25112efc1f3a1716c3e,2026-05-29,FC Rustavi,FC Spaeri,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FC Stadlau,Simmeringer SC,0.4143,0,0
-3a9fc262f3a1a43a6507,2026-05-29,SC/ESV Parndorf 1919,FC Marchfeld Donauauen,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,SC Red Star Penzing,WAF Vorwarts Brigittenau,0.319,0,0
-edaa0eca7f6cfe0f1333,2026-05-29,SK Brann,Sarpsborg 08,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,SC Red Star Penzing,WAF Vorwarts Brigittenau,0.3889,0,0
-77d5a42ad250090c8f26,2026-05-29,SK Hranice,MFk Karvina B,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FK Transinvest,FC Hegelmann Kaunas,0.4986,0,0
-24a9e41535d06bdddcbb,2026-05-29,SK Super Nova,FC RFS,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Apollon Limassol,Pafos FC,0.3534,0,0
-0da190dddf5bebca8267,2026-05-29,Skara FC,IFK Skovde FK,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,BK Fremad Amager,Skive IK,0.4286,0,0
-cd8e5b3cccbaedbb5373,2026-05-29,SV Donau Klagenfurt,SV Spittal/Drau,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,SR Donaufeld,TWL Elektra,0.4119,0,0
-dfb959c6ce201db599b4,2026-05-29,SV Pachern,Ilzer SV,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,TPV Tampere,Tampere United,0.3714,0,0
-e8e5ae5c64159290416e,2026-05-29,Torns IF,Linero IF,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Galtabacks BK,Lindome GIF,0.4929,0,0
-a0084adf1afbbc9af970,2026-05-29,Vaalerenga IF,Kristiansund BK,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Kungsangens IF,IK Franke,0.4306,0,0
-2f4ef733eb69ec010de9,2026-05-29,Vaxjo Norra,Rappe GOIF,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Andorra,Iraq,0.4762,0,0
-3d1cc873811fc6f68be5,2026-05-29,Favoritner AC,SV Gloggnitz,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FK Riteriai,FK Suduva Marijampole,0.4129,0,0
-241ee4c0dc9a3e2a7a7e,2026-05-29,Vanersborgs FK,Grebbestads IF,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Hoenefoss BK,Stabaek Fotball,0.4032,0,0
-81ad5143cb9ee821a0e6,2026-05-29,ASV Siegendorf,ASK Horitschon/U,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Gerasd. Stammersd.,SV Dinamo Helfort 15,0.3667,0,0
-453d55418841a05a17d0,2026-05-29,FC Differdange 03,FC Victoria Rosport,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Gerasd. Stammersd.,SV Dinamo Helfort 15,0.3611,0,0
-2ac353b425038c34959d,2026-05-29,FC Dinamo Bucuresti 1948,Fotbal Club FCSB,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FC Dila Gori,FC Samgurali Tskaltubo,0.3818,0,0
-d24c418840c27701a6de,2026-05-29,EB/Streymur II,HB Torshavn II,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,BK Fremad Amager,Skive IK,0.3485,0,0
-f22eaded39b1e7b98b2f,2026-05-29,Hestrafors IF,IF Boljan Falkenberg,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Hoenefoss BK,Stabaek Fotball,0.4114,0,0
-17ac3ffb43465cd67e02,2026-05-29,Horsens FS,Aalborg Freja,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Kungsangens IF,IK Franke,0.4318,0,0
-fff63c3e7c85801ebee5,2026-05-29,IFK Berga,Solvesborgs GIF,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Wolfsberger AC (A),SC Kalsdorf,0.453,0,0
-fe8a33bc82912cd536d8,2026-05-29,Skala IF,07 Vestur Sorvagur,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FC Stadlau,Simmeringer SC,0.3917,0,0
-368023d67227615cca26,2026-05-29,Wiener Sport-Club,SV Leobendorf,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Wolfsberger AC (A),SC Kalsdorf,0.4631,0,0
-853fdf37e57cda35bb3f,2026-05-29,Atletico Andahuaylas,Club Yanapuma,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,MPS/Atletico Malmi,Ppj/Lauttasaari,0.468,0,0
-dc53bea888c7d52ee9f3,2026-05-29,AA Flamengo SP,Referencia FC SP,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FC Haka Valkeakoski,JIPPO,0.3444,0,0
-12f99f8efd9fb99ccf15,2026-05-29,AC Monza,US Catanzaro,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,NK Mladost Zdralovi,NK Kustosija Zagreb,0.3787,0,0
-a9f379a9fb1c11ae714e,2026-05-29,AE Velo Clube SP,CA Bandeirante SP,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Deportes Temuco,Santiago Wanderers,0.3862,0,0
-f5a6a57969367c5173bf,2026-05-29,Boston City FC MG,Coimbra Sports MG,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,SC Red Star Penzing,WAF Vorwarts Brigittenau,0.338,0,0
-7bd4231c5ec7a6108982,2026-05-29,Carlos Renaux SC,Joinville EC SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FC Stadlau,Simmeringer SC,0.3808,0,0
-bee7cdfde2a1ec12a905,2026-05-29,Desportivo Brasil SP,EC Santo Andre SP,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Deportes Temuco,Santiago Wanderers,0.5429,0,0
-878a6406275ea50e5314,2026-05-29,DSVK Traktors,Leevon PPK,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FK Transinvest,FC Hegelmann Kaunas,0.3761,0,0
-31d1a92b25623239be7a,2026-05-29,Gamla Upsala SK,Orebro SK Soder,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FC Stadlau,Simmeringer SC,0.3542,0,0
-5fa53eef2725d17ae6d4,2026-05-29,Gremio Osasco Audax EC SP,Capivariano FC SP,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FC Stadlau,Simmeringer SC,0.3393,0,0
-863a42b40bb9e417d5cd,2026-05-29,Mamelodi Sundowns,RB Leipzig,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Fehring 1947,SV Lebring,0.3534,0,0
-56e4954ce08730f70168,2026-05-29,Maua FC SP,GD Prudente SP,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Dfk Dainava Alytus,FK Ekranas,0.3267,0,0
-aba14d26a10b2501a286,2026-05-29,SC Aguai SP,Osasco Sporting SP,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FC Stadlau,Simmeringer SC,0.3854,0,0
-dd54608e5f6f15a0e607,2026-05-29,Tanabi EC SP,Ituano FC SP,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FK Transinvest,FC Hegelmann Kaunas,0.3908,0,0
-10a020295077d3dac6ec,2026-05-29,Uniao Sao Joao EC SP,Ibrachina FC SP,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Kungsangens IF,IK Franke,0.3375,0,0
-0856bc167885ff1a542c,2026-05-29,Bosnia and Herzegovina,North Macedonia,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,SC Red Star Penzing,WAF Vorwarts Brigittenau,0.3233,0,0
-f4405164bf87e5778666,2026-05-29,Aberdeen LFC,Queen's Park LFC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Tampereen Ilves 2,HJS,0.3551,0,0
-c040fda797f7693cc11b,2026-05-29,Bray Wanderers AFC,Wexford FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Gerasd. Stammersd.,SV Dinamo Helfort 15,0.3669,0,0
-31188cb3621188444a8f,2026-05-29,Cobh Ramblers,Kerry FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,BK Fremad Amager,Skive IK,0.3952,0,0
-80081531630155f40101,2026-05-29,Cork City FC,Finn Harps FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Nacka FC,Nykopings BIS,0.3961,0,0
-989c8ddc4940b6771d9d,2026-05-29,Drogheda United FC,Waterford FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Riga FC,Grobinas SC/LFS,0.3333,0,0
-7fb310b391d26e133b9d,2026-05-29,Dundalk FC,Derry City FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Andorra,Iraq,0.3254,0,0
-a1dccd3ec05e1075b1a9,2026-05-29,Longford Town FC,Treaty United,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Andorra,Iraq,0.4,0,0
-f43163ce492c9d04f0c3,2026-05-29,OGC Nice,AS Saint-Etienne,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,SC Red Star Penzing,WAF Vorwarts Brigittenau,0.3481,0,0
-2ed4600efd455b712b4b,2026-05-29,Shelbourne FC,Galway United FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,MKS Kluczbork,KS Sleza Wroclaw,0.3538,0,0
-a41a36114d6b7dcb9eef,2026-05-29,Sligo Rovers FC,Bohemians Dublin FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FK Transinvest,FC Hegelmann Kaunas,0.3798,0,0
-a448c9acaff213e21dd7,2026-05-29,University College Dublin,Athlone Town AFC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Pogon Sokol Lubaczow,Star Starachowice,0.3479,0,0
-c01b82b05fe122b7b53f,2026-05-29,Lisburn LFC,Crusaders Strikers FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Aalesunds FK,HamKam,0.3214,0,0
-02d4d2f5439cef9da259,2026-05-29,Real Madrid Castilla,CE Sabadell FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Fredrikstad FK,IK Start,0.3638,0,0
-313b9c16795f2f2f0e80,2026-05-29,San Antonio Bulo Bulo,Guabira Montero,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Kungsangens IF,IK Franke,0.3512,0,0
-75b230877017e1ed5239,2026-05-29,Shamrock Rovers,Saint Patrick´s Athletic FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FK Riteriai,FK Suduva Marijampole,0.3923,0,0
-b358adb120cffa372bd5,2026-05-29,FH Hafnarfjordur,IA Akranes,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Dfk Dainava Alytus,FK Ekranas,0.4765,0,0
-874a57fd79013958e667,2026-05-29,Fram Reykjavik,Breidablik Kopavogur,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Fredrikstad FK,IK Start,0.3571,0,0
-64fa2fccb638fe9aca53,2026-05-29,Sportivo Luqueno,Sportivo San Lorenzo,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Pogon Sokol Lubaczow,Star Starachowice,0.3836,0,0
-2b0c2bcf2f7177ad9232,2026-05-29,Valur Reykjavik,Throttur Reykjavik,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Aalesunds FK,HamKam,0.3102,0,0
-d8c1209ecce0c95fe4c4,2026-05-29,Asociacion Deportivo Cali,Asociacion Deportivo Pasto,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Deportes Temuco,Santiago Wanderers,0.3795,0,0
-e8a4fb2b9f9d117a1ad2,2026-05-29,Atletico Grau,CD Moquegua,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,MPS/Atletico Malmi,Ppj/Lauttasaari,0.3995,0,0
-67d7e23d65bc722e5180,2026-05-29,Atletico Nacional SA,Internacional de Bogota,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Ghazl El Mahallah,Haras El Hodood,0.3741,0,0
-324e59064a954e9149a1,2026-05-29,CS Santos FC,Union Minas,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FK Transinvest,FC Hegelmann Kaunas,0.3961,0,0
-41dd310dc75635479c28,2026-05-29,Envigado FC,Real Cartagena FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Fredrikstad FK,IK Start,0.3636,0,0
-b70516d38dd96aa918d4,2026-05-29,Fortaleza FC,CA Bucaramanga Sa,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FC Stadlau,Simmeringer SC,0.4113,0,0
-ccd7037c4709c2eac638,2026-05-29,Sol de America Villa Elisa,Deportivo Santani,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FC Iberia 1999,FC Dinamo Batumi,0.3685,0,0
-837d61f0b64405c15d48,2026-05-29,Cde Juventud Italiana,CD Tecnico Universitario,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FK Garliava,FA Siauliai B,0.3226,0,0
-0d53aecaa3ab746f6955,2026-05-29,America de Cali Sa,International FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Aragvi Dusheti,FC Merani Martvili,0.4688,0,0
-494b78dc4eadddb911b6,2026-05-29,Cucuta Deportivo FC,Fortaleza FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Kungsangens IF,IK Franke,0.3556,0,0
-96b81bfb3fa69dc29ad3,2026-05-29,Cobresal,Nublense,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FC Stadlau,Simmeringer SC,0.3364,0,0
-ecb525e603abbfc66037,2026-05-29,America FC RN,Central SC PE,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Riga FC,Grobinas SC/LFS,0.3929,0,0
-cd310d8e96f8257ce6f5,2026-05-29,Cerro Largo FC,CA Cerro,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FK Jezero Plav,FK Iskra Danilovgrad,0.3471,0,0
-b8481f3f74a476aacf5b,2026-05-29,Independiente Campo Grande,12 de Junio de Villa Hayes,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Deportes Temuco,Santiago Wanderers,0.3088,0,0
-94a58eb229a2ef35d0e9,2026-05-29,One Knoxville SC,Greenville Triumph SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,KPV Kokkola,FC Inter Turku 2,0.3246,0,0
-ba3dc6464d0b2c06a51b,2026-05-29,AFC Ann Arbor,Union FC Macomb,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,UFV Thalgau,Union Henndorf,0.3601,0,0
-0b1bf306a6ed2cc2ccf9,2026-05-29,Forward Madison FC,Corpus Christi FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,SC Red Star Penzing,WAF Vorwarts Brigittenau,0.3607,0,0
-575b5553096ed1501388,2026-05-29,Ocean City Nor Easters,Delaware FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Gerasd. Stammersd.,SV Dinamo Helfort 15,0.3853,0,0
-cfc49bdf2df6d64105a7,2026-05-29,Orlando Pride,Bay FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Andorra,Iraq,0.3929,0,0
-0630e5c4addef76dd1d7,2026-05-29,FC Supra Du Quebec,Inter Toronto FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,KPV Kokkola,FC Inter Turku 2,0.3846,0,0
-bc29b2edba85b7849004,2026-05-29,Toronto FC II,Philadelphia Union II,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FK Transinvest,FC Hegelmann Kaunas,0.3559,0,0
-cd0c3c86f9ed1e8a9061,2026-05-29,Hartford Athletic,Hudson Valley Crusaders,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,MPS/Atletico Malmi,Ppj/Lauttasaari,0.3316,0,0
-e0e3839613f8c759d772,2026-05-29,Huaquillas FC,Leones Futbol Club,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FC Stadlau,Simmeringer SC,0.3327,0,0
-ea77e5b0cf5fb01936d7,2026-05-29,Western Mass Pioneers,Connecticut Rush,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Deportes Temuco,Santiago Wanderers,0.3431,0,0
-cee29d504014b345da0e,2026-05-30,Eastern Suburbs AFC,Auckland City FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Aalesunds FK,HamKam,0.3867,0,0
-9b6493776f88d530f62d,2026-05-30,EC Juventude RS,America FC MG,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Gerasd. Stammersd.,SV Dinamo Helfort 15,0.328,0,0
-242e4706a83767700455,2026-05-30,Municipal Puente Alto,CD Comunal Cabrero,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FK Babrungas Plunge,FK Minija 2017,0.3312,0,0
-7d9aac791e5f87dfcc8f,2026-05-30,Racing Louisville FC,Denver Summit FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Aragvi Dusheti,FC Merani Martvili,0.3721,0,0
-cd6911cf779bda6602ff,2026-05-30,Universidad de Concepcion,Deportes Union La Calera,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,NK Mladost Zdralovi,NK Kustosija Zagreb,0.3219,0,0
-9a6acb6afef631d22fdf,2026-05-30,Pericos de Puebla,Piratas de Campeche,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FK Jezero Plav,FK Iskra Danilovgrad,0.3797,0,0
-4a1b036d7e2e5111e508,2026-05-30,Atletico FC Cali,Millonarios FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,MPS/Atletico Malmi,Ppj/Lauttasaari,0.5409,0,0
-0adc9cad32bb4e135bb4,2026-05-30,Avondale FC,Bentleigh Greens SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FC Stadlau,Simmeringer SC,0.4121,0,0
-3f63453025295c50475a,2026-05-30,Ballard FC,Midlakes United,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Harju JK Laagri,Paide Linnameeskond,0.404,0,0
-8d2ffa56164df35ab12e,2026-05-30,Edgeworth FC Reserve,Kahibah FC Reserve,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Deportes Temuco,Santiago Wanderers,0.4309,0,0
-65c5a2114de4b98cf257,2026-05-30,Napier City Rovers AFC,Island Bay United,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FK Garliava,FA Siauliai B,0.3712,0,0
-d8f33bae14e9c75fbcd5,2026-05-30,Real Monarchs SLC,Sporting Kansas City II,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Deportes Temuco,Santiago Wanderers,0.3785,0,0
-553a0822475707d248ca,2026-05-30,Devonport City SC,Glenorchy Knights,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Deportes Temuco,Santiago Wanderers,0.4106,0,0
-e4929d7b06a9322ebdee,2026-05-30,Modbury Vista Reserves,Flinders United Wfc Reserves,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Deportes Temuco,Santiago Wanderers,0.3784,0,0
-f5593863ea9bafd45cb7,2026-05-30,Riverside Olympic,Launceston City,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Kopa,Lautp,0.3619,0,0
-171fdc924fb19b834f21,2026-05-30,Canberra Juventus FC,Tuggeranong United FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Dfk Dainava Alytus,FK Ekranas,0.3905,0,0
-02b998f6457e5bc69da4,2026-05-30,Metrostars Reserve,West Adelaide Reserve,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Deportes Temuco,Santiago Wanderers,0.331,0,0
-5a134168720c4ab65e3d,2026-05-30,O'Connor Knights SC,Queanbeyan City FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Kungsangens IF,IK Franke,0.3094,0,0
-0a4b4fec4d8914667e42,2026-05-30,Gold Coast United FC,Peninsula Power,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Pogon Sokol Lubaczow,Star Starachowice,0.3875,0,0
-ae0151f72ef83bb54e64,2026-05-30,Plympton FC Reserve,Adelaide University SC Reserves,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,NK Rudes Zagreb,NK Sesvete,0.3155,0,0
-dd61b6720e3fedf21687,2026-05-30,University of NSW,Wollongong Wolves FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FK Transinvest,FC Hegelmann Kaunas,0.3451,0,0
-af02f28dfb6d44a89b29,2026-05-30,Adelaide Cobras Reserves,Adelaide Atletico Victory Reserves,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Gerasd. Stammersd.,SV Dinamo Helfort 15,0.3361,0,0
-751d61fecb0a3d025973,2026-05-30,Adelaide Croatia Raiders SC Reserve,Modbury Jets SC Reserve,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,SC Red Star Penzing,WAF Vorwarts Brigittenau,0.2786,0,0
-ced3841bdcc0d7d4b784,2026-05-30,Cumberland United Reserve,Salisbury United Reserve,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Gerasd. Stammersd.,SV Dinamo Helfort 15,0.3704,0,0
-4c864b3bc0efa0ddbd4d,2026-05-30,Para Hills Knights SC Reserve,Croydon Kings FC Reserve,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,NK Rudes Zagreb,NK Sesvete,0.3622,0,0
-b162fc401c9763b872a1,2026-05-30,South Adelaide Reserve,Eastern United Reserve,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FC Stadlau,Simmeringer SC,0.4138,0,0
-7a152b9a555df4283563,2026-05-30,Campbelltown City SC Reserves,Salisbury Inter Reserve,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Deportes Temuco,Santiago Wanderers,0.338,0,0
-105f32d17d2092b28ddf,2026-05-30,Brindabella Blues FC,Canberra Olympic FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FC Iberia 1999,FC Dinamo Batumi,0.351,0,0
-ad13b159faef2a374ce0,2026-05-30,Bunnys Gunma FC White Star,Diavorosso Hiroshima,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,SC Red Star Penzing,WAF Vorwarts Brigittenau,0.395,0,0
-bc9ba849268d9d2b8f81,2026-05-30,Cooks Hill United,Valentine FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Galtabacks BK,Lindome GIF,0.3739,0,0
-ca8257eb2f493c48ab82,2026-05-30,Edgeworth FC,Kahibah FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FC Dila Gori,FC Samgurali Tskaltubo,0.3376,0,0
-fabd8092db3bcdbd695d,2026-05-30,Heidelberg United FC U20,Melbourne Victory FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FC Stadlau,Simmeringer SC,0.3687,0,0
-d34b76b886f6ccf01a73,2026-05-30,Hume City,South Melbourne FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,TPV Tampere,Tampere United,0.3606,0,0
-a0c0c7e672a24ab281ac,2026-05-30,Moreland City FC,Eastern Lions SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FC Stadlau,Simmeringer SC,0.3667,0,0
-a1d21c6388d6a19af81a,2026-05-30,Renofa Yamaguchi FC Ladies,Nankatsu SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Aragvi Dusheti,FC Merani Martvili,0.343,0,0
-5cb72874428c0f62bb0f,2026-05-30,Belconnen United FC,Canberra Croatia FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Kungsangens IF,IK Franke,0.2939,0,0
-33a3c2efcd0963848100,2026-05-30,Maitland FC Reserve,Belmont Swansea United FC Reserves,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,NK Rudes Zagreb,NK Sesvete,0.3994,0,0
-239581c151851dea5521,2026-05-30,North Eastern Metrostars SC Reserves,Campbelltown City SC Reserve,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,TPV Tampere,Tampere United,0.3584,0,0
-8d24d9a015559ce4b93c,2026-05-30,Alamein FC,Keilor Park SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FC Stadlau,Simmeringer SC,0.4286,0,0
-ac7e6c9e1de6a1f9ddd0,2026-05-30,Albirex Niigata,Kagoshima United,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Aalesunds FK,HamKam,0.3481,0,0
-800d69ec779d78cdcbf5,2026-05-30,Avondale FC,Bentleigh Greens,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,NK Mladost Zdralovi,NK Kustosija Zagreb,0.3852,0,0
-fd8d8f2ff7dd1d8abf39,2026-05-30,Brunswick City SC,Manningham United Blues FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Nacka FC,Nykopings BIS,0.4178,0,0
-04620cf5f322b68ce253,2026-05-30,Curtin University SC Reserves,Joondalup City FC Reserve,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,NK Rudes Zagreb,NK Sesvete,0.3586,0,0
-7f0ad8ca81c209a3cb8f,2026-05-30,Fremantle City FC,Perth Redstar FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Fredrikstad FK,IK Start,0.412,0,0
-3cc0a7bba1bfb41d93ff,2026-05-30,FC Gangneung,Changwon FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FK Transinvest,FC Hegelmann Kaunas,0.3406,0,0
-4190dc493573465be97c,2026-05-30,Gwelup Croatia SC Reserves,Quinns FC Reserve,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,NK Rudes Zagreb,NK Sesvete,0.372,0,0
-2063767724377eed5d56,2026-05-30,Inglewood United Reserves,Cockburn City SC Reserves,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,NK Rudes Zagreb,NK Sesvete,0.4152,0,0
-19542ca4f02e3a18984a,2026-05-30,Jeonbuk FC II,Busan Transportation Corporation FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FK Riteriai,FK Suduva Marijampole,0.3226,0,0
-faf2bffcc16bd7f43f32,2026-05-30,Kochi United SC,Renofa Yamaguchi,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,KFUM Oslo,Tromsoe IL,0.3303,0,0
-ae9ec5273154e1ff1a8e,2026-05-30,Mandurah City FC Reserves,Floreat Athena FC Reserves,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,SC Red Star Penzing,WAF Vorwarts Brigittenau,0.3517,0,0
-90b730860e1e01107f9e,2026-05-30,FC Melbourne Srbija,Langwarrin SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Riga FC,Grobinas SC/LFS,0.4,0,0
-c57e1fcf88e9d54e3590,2026-05-30,Murdoch University Melville FC Reserves,Kingsley Westside FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,NK Mladost Zdralovi,NK Kustosija Zagreb,0.3399,0,0
-7a83048f75380e3030d8,2026-05-30,Nagoya Grampus,Machida Zelvia,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,NK Mladost Zdralovi,NK Kustosija Zagreb,0.3333,0,0
-a28705906846b12276e8,2026-05-30,Nara Club,Oita Trinita,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Nacka FC,Nykopings BIS,0.3743,0,0
-8c4b4e04319a4832ed49,2026-05-30,NWS Spirit FC,Gladesville Ravens,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Kungsangens IF,IK Franke,0.3519,0,0
-2e88f4ca9076eedca8c4,2026-05-30,O'Connor Knights FC,Queanbeyan City FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Dfk Dainava Alytus,FK Ekranas,0.3176,0,0
-f18f97de5f25c3a22bcd,2026-05-30,Olympic Kingsway SC,Dianella White Eagles SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Kungsangens IF,IK Franke,0.303,0,0
-f17c8b114b33f8261a24,2026-05-30,FC Osaka,Reilac Shiga FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Nacka FC,Nykopings BIS,0.42,0,0
-13b539b6e9250d04b8d1,2026-05-30,Sanfrecce Hiroshima,Kawasaki Frontale,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Aragvi Dusheti,FC Merani Martvili,0.3693,0,0
-601e56d92e68a3f8fac2,2026-05-30,SC Sagamihara,Fujieda MYFC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FK Garliava,FA Siauliai B,0.3804,0,0
-8de88f859f20334e96ec,2026-05-30,Shonan Bellmare,Iwaki FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,HJK Helsinki,VIFK,0.3704,0,0
-b9fe73f307d4b4d7bf80,2026-05-30,Sorrento FC,Bayswater City SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Deportes Temuco,Santiago Wanderers,0.4174,0,0
-2146044379d0a570d623,2026-05-30,Stirling Macedonia FC,Balcatta Etna FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,SR Donaufeld,TWL Elektra,0.4417,0,0
-84e8d3cc7a53c187c734,2026-05-30,Subiaco AFC Reserve,Uwa Nedlands FC Reserves,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,SC Red Star Penzing,WAF Vorwarts Brigittenau,0.3722,0,0
-33e6dc60af3d471a9f27,2026-05-30,The Cove FC Reserves,Adelaide Blue Eagles Reserves,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FK Transinvest,FC Hegelmann Kaunas,0.3491,0,0
-3a22270936cf17aa57c7,2026-05-30,Tochigi City FC,Jubilo Iwata,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FC KTP Kotka,SJK Akatemia,0.3333,0,0
-eb697ff04ab89906c314,2026-05-30,Tokushima Vortis,Sagan Tosu,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FC Dila Gori,FC Samgurali Tskaltubo,0.4814,0,0
-237d3bdeb3ed73e070a8,2026-05-30,Vegalta Sendai,Ventforet Kofu,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Gerasd. Stammersd.,SV Dinamo Helfort 15,0.4059,0,0
-525750b0cd174f8cf348,2026-05-30,Vissel Kobe,Kashima Antlers,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,KPV Kokkola,FC Inter Turku 2,0.3604,0,0
-fef95701866483d80a6b,2026-05-30,Western Knights SC,Perth SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Gerasd. Stammersd.,SV Dinamo Helfort 15,0.3193,0,0
-ba8d14a36e02d015cbbf,2026-05-30,Yokohama FC,RB Omiya Ardija,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,South Africa,Nicaragua,0.3667,0,0
-93e0abee3a319c8e57f9,2026-05-30,Caroline Springs George Cross FC,Green Gully SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FK Transinvest,FC Hegelmann Kaunas,0.3163,0,0
-e69a50e1f7a996ffe2d7,2026-05-30,Adelaide United FC,Playford City,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Apollon Limassol,Pafos FC,0.4327,0,0
-91f713af16a2194858c6,2026-05-30,Adelaide Cobras,Adelaide Atletico VSC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FC Stadlau,Simmeringer SC,0.3532,0,0
-ffa753cd81488c2ce9ff,2026-05-30,Adelaide Croatia Raiders SC,Modbury Jets SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FC Stadlau,Simmeringer SC,0.3245,0,0
-07e98493cd3adf036758,2026-05-30,Cumberland United,Salisbury United,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Wolfsberger AC (A),SC Kalsdorf,0.3929,0,0
-69b3a4ccc19bc031e026,2026-05-30,Monaro Panthers FC,Canberra White Eagles FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Harju JK Laagri,Paide Linnameeskond,0.3417,0,0
-54b68b371ea80e4bc3c7,2026-05-30,Para Hills Knights SC,Croydon FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Thisted FC,FC Roskilde,0.3429,0,0
-228530559c9f74d8d88d,2026-05-30,South Adelaide FC,Eastern United,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FC Stadlau,Simmeringer SC,0.4762,0,0
-73bbebc3ace4541da550,2026-05-30,South Melbourne FC,Preston Lions,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,TPV Tampere,Tampere United,0.3808,0,0
-5d53395c9daca6dab17c,2026-05-30,Sturt Lions,FK Beograd,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Dfk Dainava Alytus,FK Ekranas,0.4034,0,0
-1551de87871e5be3340f,2026-05-30,Altona Magic SC,Oakleigh Cannons FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Harju JK Laagri,Paide Linnameeskond,0.4,0,0
-6f6c6d6e4dc2121d4e8f,2026-05-30,FC Bulleen Lions,Avondale FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Apollon Limassol,Pafos FC,0.3952,0,0
-588f9994ffd10219e1d3,2026-05-30,Caboolture Sports FC,Capalaba FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FC Dila Gori,FC Samgurali Tskaltubo,0.339,0,0
-606df0aebb9f3e7fd3f8,2026-05-30,Cerezo Osaka,FC Tokyo,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,SC Zulimanit,Tou,0.375,0,0
-309acce4ed5603e732cb,2026-05-30,Rochedale Rovers,Moreton City Excelsior U23,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Gerasd. Stammersd.,SV Dinamo Helfort 15,0.3826,0,0
-43ea9502cef3cff1ca2f,2026-05-30,South Coast Flame FC,Sydney University SFC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,South Africa,Nicaragua,0.383,0,0
-39cd261a529c4cb54d5c,2026-05-30,Heidelberg United FC,Melbourne Victory FC Youth,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Aragvi Dusheti,FC Merani Martvili,0.3092,0,0
-1ed25ad9586602be9a04,2026-05-30,Hakoah,Bankstown City FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Kopa,Lautp,0.4,0,0
-5fa13a5b3a207313f890,2026-05-30,Macarthur Rams,Central Coast Mariners Academy,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,NK Mladost Zdralovi,NK Kustosija Zagreb,0.3451,0,0
-a55b939abe061a846e46,2026-05-30,Maitland FC,Belmont Swansea United FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FC Stadlau,Simmeringer SC,0.3379,0,0
-99814705d888855f7053,2026-05-30,St George FC,St George City FA,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,TPV Tampere,Tampere United,0.4605,0,0
-d32e2481f797cb825e10,2026-05-30,Glenorchy Knights FC,Launceston City FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Al Shabab Kuwait,AL Tadhamon,0.3723,0,0
-bc7a45422949c07f940f,2026-05-30,Launceston United,Kingborough Lions United FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Landvetter IS,Qviding FIF,0.396,0,0
-e1e5f384da383549221e,2026-05-30,Riverside Olympic FC,Kingborough Lions United FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FK Riteriai,FK Suduva Marijampole,0.3195,0,0
-3ada8bbf1fd3a66a53c4,2026-05-30,AC Carina,Logan Roos FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Riga FC,Grobinas SC/LFS,0.3908,0,0
-0188a791c36109ff9990,2026-05-30,Armadale SC,Perth Glory FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Aragvi Dusheti,FC Merani Martvili,0.3538,0,0
-3c9d1621207abec2e64c,2026-05-30,Avispa Fukuoka,JEF United Chiba,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FC KTP Kotka,SJK Akatemia,0.4513,0,0
-201f98b8bd3382ee5fda,2026-05-30,Bankstown United FC,Fraser Park FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Kungsangens IF,IK Franke,0.3579,0,0
-cebab08bc3ac369a65df,2026-05-30,Bayside Argonauts FC,Werribee City FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,SR Donaufeld,TWL Elektra,0.3648,0,0
-f8a2375be4c41d8b8af9,2026-05-30,Brunswick Juventus FC,Eltham Redbacks FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FK Transinvest,FC Hegelmann Kaunas,0.4123,0,0
-29c2f3767af92162694f,2026-05-30,Canterbury Bankstown FC,Inter Lions FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Landvetter IS,Qviding FIF,0.4232,0,0
-552025ae44de895b82c4,2026-05-30,Curtin University SC,Joondalup City,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,SC Zulimanit,Tou,0.3542,0,0
-28bdb3a455921b0942d4,2026-05-30,Dangjin Citizen,Yangpyeong FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Kungsangens IF,IK Franke,0.3303,0,0
-b537016dd8d765f5dd6e,2026-05-30,Dulwich Hill,Hills United FC Brumbies,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FC Iberia 1999,FC Dinamo Batumi,0.3092,0,0
-6c5147c4e0a57c84a47f,2026-05-30,Ehime FC,Roasso Kumamoto,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Thisted FC,FC Roskilde,0.4239,0,0
-fb1a7f5e87a04b0c9dce,2026-05-30,Gamba Osaka,Tokyo Verdy,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,KFUM Oslo,Tromsoe IL,0.3905,0,0
-52bb6c7cd785f099b5e9,2026-05-30,Goulburn Valley Suns,Essendon Royals SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FK Transinvest,FC Hegelmann Kaunas,0.3235,0,0
-b4f4d0dd8345c4dcbd5e,2026-05-30,Gwelup Croatia SC,Quinns FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Landvetter IS,Qviding FIF,0.3098,0,0
-09e24bb1966fdae88596,2026-05-30,Hawkesbury City SC,Gladesville Ryde Magic,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Galtabacks BK,Lindome GIF,0.3357,0,0
-85b7a5e827fb8c2db45a,2026-05-30,Hurstville FC,Rydalmere Lions FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FC Stadlau,Simmeringer SC,0.3834,0,0
-e46eede31636a1a7eb85,2026-05-30,Inglewood United,Cockburn City,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Thisted FC,FC Roskilde,0.3125,0,0
-d682eda611dd94ea9545,2026-05-30,Mandurah City,Floreat Athena,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Andorra,Iraq,0.4444,0,0
-23408115f12163141b49,2026-05-30,Manly United FC,Blacktown City FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Huima/Urho,GBK Kokkola,0.3208,0,0
-26f949a0ff45df3d148b,2026-05-30,Marconi Stallions FC,Rockdale Ilinden FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,KFUM Oslo,Tromsoe IL,0.4231,0,0
-9011d624c4adf000074a,2026-05-30,Metrostars,West Adelaide,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FC KTP Kotka,SJK Akatemia,0.4105,0,0
-5f0813778d59f0a46270,2026-05-30,Moreton City Excelsior FC 2,Pine Hills,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Tampereen Ilves 2,HJS,0.4038,0,0
-bfa14572615f13cffbe2,2026-05-30,Murdoch University Melville FC,Kingsley Westside FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,NK Mladost Zdralovi,NK Kustosija Zagreb,0.3684,0,0
-cb07d689ff4a9bfc65d4,2026-05-30,North Geelong Warriors FC,North Sunshine Eagles FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Deportes Temuco,Santiago Wanderers,0.3416,0,0
-2ef7a221a599e77d3f1b,2026-05-30,Sorrento FC,Bayswater City,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Deportes Temuco,Santiago Wanderers,0.4026,0,0
-3f0922f1e629a6371391,2026-05-30,Stirling Macedonia FC,Balcatta,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,MPS/Atletico Malmi,Ppj/Lauttasaari,0.3684,0,0
-fb368668f7bcd3eb6e42,2026-05-30,Subiaco AFC,UWA Nedlands FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Dfk Dainava Alytus,FK Ekranas,0.3754,0,0
-453aa2684f35eae9b125,2026-05-30,Sydney Olympic FC,SD Raiders FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Kungsangens IF,IK Franke,0.3891,0,0
-58e1fd9a4a6984831bc2,2026-05-30,Tai Po FC,Eastern District,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FC Stadlau,Simmeringer SC,0.3872,0,0
-db15cbe7610862222a21,2026-05-30,Western Knights SC,Perth Azzurri,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,SC Red Star Penzing,WAF Vorwarts Brigittenau,0.3243,0,0
-0bda2aea8d80b606cfaa,2026-05-30,Yanbian Longding,Changchun Yatai,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Aragvi Dusheti,FC Merani Martvili,0.3667,0,0
-0df4e1c7501b13bd310e,2026-05-30,Chungnam Asan FC,Suwon Bluewings,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Fehring 1947,SV Lebring,0.4,0,0
-9f9850c930a44ce475ac,2026-05-30,Mungyeong Sangmu Wfc,Hwacheon KSPO FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Wolfsberger AC (A),SC Kalsdorf,0.3472,0,0
-174324ff70f2c433ea83,2026-05-30,Stallion Laguna FC,Davao Aguilas,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Apollon Limassol,Pafos FC,0.4247,0,0
-71750163627da0d953bd,2026-05-30,The Cove FC,Adelaide Blue Eagles,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Deportes Temuco,Santiago Wanderers,0.349,0,0
-0386b92d3fc78149f97a,2026-05-30,Yongin City FC,Daegu FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Hinna,Varhaug,0.3485,0,0
-ae30fad5bedd7bda0e2a,2026-05-30,Adamstown Rosebud FC,Newcastle Olympic FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,NK Rudes Zagreb,NK Sesvete,0.3995,0,0
-5766bdc857a242e50e99,2026-05-30,Caboolture FC,Capalaba Bulldogs,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FC Dila Gori,FC Samgurali Tskaltubo,0.3246,0,0
-24ce59b952414eb8e3bd,2026-05-30,Chuncheon FC,Gyeongju FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,SC Zulimanit,Tou,0.3247,0,0
-639298983c4316761a63,2026-05-30,Ferencvarosi TC,MTK Budapest,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,FK Riteriai,FK Suduva Marijampole,0.4044,0,0
-c9b8c9813520c49c5957,2026-05-30,Mitchelton FC,Caboolture FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,KaaPo,LTU,0.5267,0,0
-af619eb18d0577532639,2026-05-30,V-Varen Nagasaki,Mito Hollyhock,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Aragvi Dusheti,FC Merani Martvili,0.3379,0,0
-aa33934026a0b5ac6291,2026-05-30,Modbury Vista,Flinders United Wfc,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Galtabacks BK,Lindome GIF,0.3626,0,0
-f564dbecfac9071d8269,2026-05-30,Rochedale Rovers,Moreton City Excelsior FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Gerasd. Stammersd.,SV Dinamo Helfort 15,0.3767,0,0
-0aa8cff517590f20c52c,2026-05-30,FC Viktoria Marianske Lazne,SK Ujezd Praha 4,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Dfk Dainava Alytus,FK Ekranas,0.3498,0,0
-ca061956d26965105666,2026-05-30,Hakoah Sydney City East FC,Bankstown City FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,NK Solin,NK Uskok,0.3846,0,0
-f9c946c6d9e0aa0c8551,2026-05-30,St George Saints FC,St George City FA,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Wolfsberger AC (A),SC Kalsdorf,0.4233,0,0
-f45b7c1a5397b2ee9a53,2026-05-30,Adamstown Rosebud JFC,Newcastle Olympic FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,NK Rudes Zagreb,NK Sesvete,0.3852,0,0
-e7a53232639afd3c30a8,2026-05-30,Bonnyrigg W. E.,Mounties Wanderers FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Deportes Temuco,Santiago Wanderers,0.504,0,0
-d12c271475a85bbfe98e,2026-05-30,Camden Tigers FC,Central Coast United FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Dfk Dainava Alytus,FK Ekranas,0.3787,0,0
-bd1fe2ca9f3998c8319f,2026-05-30,Canterbury Bankstown Berries,Inter Lions FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Galtabacks BK,Lindome GIF,0.4435,0,0
-c78056644689b47680c7,2026-05-30,CS. Dong Thap,DH van Hien,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,UFV Thalgau,Union Henndorf,0.3739,0,0
-9bff1ef0b45abf1d41c2,2026-05-30,Dulwich Hill,Hills United FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Tampereen Ilves 2,HJS,0.3534,0,0
-9351643332651db6fb60,2026-05-30,K. Khanh Hoa,Quang Ninh FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,UFV Thalgau,Union Henndorf,0.3902,0,0
-a3768941343ab2c71192,2026-05-30,Kataller Toyama,Tegevajaro Miyazaki,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,NK Mladost Zdralovi,NK Kustosija Zagreb,0.3344,0,0
-b686251ce7f3edfd64b7,2026-05-30,Puskas Akademia,Illes Akademia,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,PK Keski-Uusimaa,KuPS Akatemia,0.4946,0,0
-a55c1d365248120f306c,2026-05-30,PVF Cand B,Xuan Thien Phu Tho FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,UFV Thalgau,Union Henndorf,0.3616,0,0
-e74a4992d60deff68a98,2026-05-30,Quy Nhon Binh Dinh,Bac Ninh,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Hinna,Varhaug,0.3072,0,0
-b4661c1f8ffdc482fe8d,2026-05-30,Truong Tuoi Dong Nai FC,Long An FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Kungsangens IF,IK Franke,0.3934,0,0
-cea6348355ea5d7efbee,2026-05-30,Whittlesea United SC,Springvale White Eagles,baseline_league_average_forward_fixture,baseline_unmatched_fixture,58,Deportes Temuco,Santiago Wanderers,0.3737,0,0
+171fdc924fb19b834f21,2026-05-30,Canberra Juventus FC,Tuggeranong United FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Canberra Juventus FC,Tuggeranong Utd,1.0,1,1
+02b998f6457e5bc69da4,2026-05-30,Metrostars Reserve,West Adelaide Reserve,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Metrostars,West Adelaide,0.92,1,1
+5a134168720c4ab65e3d,2026-05-30,O'Connor Knights SC,Queanbeyan City FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,O'Connor Knights FC,Queanbeyan City FC,0.96,1,1
+0a4b4fec4d8914667e42,2026-05-30,Gold Coast United FC,Peninsula Power,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Gold Coast United FC,Peninsula Power FC,1.0,1,1
+dd61b6720e3fedf21687,2026-05-30,University of NSW,Wollongong Wolves FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,University of Nsw,Wollongong Wolves FC,1.0,1,1
+af02f28dfb6d44a89b29,2026-05-30,Adelaide Cobras Reserves,Adelaide Atletico Victory Reserves,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Adelaide Cobras,Adelaide Atletico VSC,0.8236,1,1
+751d61fecb0a3d025973,2026-05-30,Adelaide Croatia Raiders SC Reserve,Modbury Jets SC Reserve,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Adelaide Croatia Raiders SC,Modbury Jets SC,0.92,1,1
+ced3841bdcc0d7d4b784,2026-05-30,Cumberland United Reserve,Salisbury United Reserve,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Cumberland United,Salisbury United,0.92,1,1
+4c864b3bc0efa0ddbd4d,2026-05-30,Para Hills Knights SC Reserve,Croydon Kings FC Reserve,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Para Hills Knights SC,Croydon FC,0.92,1,1
+b162fc401c9763b872a1,2026-05-30,South Adelaide Reserve,Eastern United Reserve,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,South Adelaide FC,Eastern United,0.92,1,1
+7a152b9a555df4283563,2026-05-30,Campbelltown City SC Reserves,Salisbury Inter Reserve,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Cumberland United,Salisbury United,0.6267,0,0
+105f32d17d2092b28ddf,2026-05-30,Brindabella Blues FC,Canberra Olympic FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Nagoya Grampus,Machida Zelvia,0.3602,0,0
+ad13b159faef2a374ce0,2026-05-30,Bunnys Gunma FC White Star,Diavorosso Hiroshima,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Bunnys Gunma FC White Star,Diavorosso Hiroshima,1.0,1,1
+bc9ba849268d9d2b8f81,2026-05-30,Cooks Hill United,Valentine FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Cooks Hill United,Valentine FC,1.0,1,1
+ca8257eb2f493c48ab82,2026-05-30,Edgeworth FC,Kahibah FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Albirex Niigata,Kagoshima United,0.4375,0,0
+d34b76b886f6ccf01a73,2026-05-30,Hume City,South Melbourne FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Hume City,South Melbourne FC,1.0,1,1
+a0c0c7e672a24ab281ac,2026-05-30,Moreland City FC,Eastern Lions SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Moreland City FC,Eastern Lions SC,1.0,2,2
+a1d21c6388d6a19af81a,2026-05-30,Renofa Yamaguchi FC Ladies,Nankatsu SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Renofa Yamaguchi FC Ladies,Nankatsu SC,1.0,1,1
+5cb72874428c0f62bb0f,2026-05-30,Belconnen United FC,Canberra Croatia FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,O'Connor Knights FC,Queanbeyan City FC,0.3923,0,0
+33a3c2efcd0963848100,2026-05-30,Maitland FC Reserve,Belmont Swansea United FC Reserves,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Gold Coast United FC,Peninsula Power FC,0.359,0,0
+239581c151851dea5521,2026-05-30,North Eastern Metrostars SC Reserves,Campbelltown City SC Reserve,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Metrostars,West Adelaide,0.585,0,0
+8d24d9a015559ce4b93c,2026-05-30,Alamein FC,Keilor Park SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Alamein FC,Keilor Park SC,1.0,1,1
+ac7e6c9e1de6a1f9ddd0,2026-05-30,Albirex Niigata,Kagoshima United,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Albirex Niigata,Kagoshima United,1.0,1,1
+800d69ec779d78cdcbf5,2026-05-30,Avondale FC,Bentleigh Greens,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Avondale FC,Bentleigh Greens,1.0,1,1
+fd8d8f2ff7dd1d8abf39,2026-05-30,Brunswick City SC,Manningham United Blues FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Canberra Juventus FC,Tuggeranong Utd,0.3206,0,0
+04620cf5f322b68ce253,2026-05-30,Curtin University SC Reserves,Joondalup City FC Reserve,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,University of Nsw,Wollongong Wolves FC,0.4373,0,0
+7f0ad8ca81c209a3cb8f,2026-05-30,Fremantle City FC,Perth Redstar FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Avondale FC,Bentleigh Greens,0.4767,0,0
+3cc0a7bba1bfb41d93ff,2026-05-30,FC Gangneung,Changwon FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,FC Gangneung,Changwon FC,1.0,1,1
+4190dc493573465be97c,2026-05-30,Gwelup Croatia SC Reserves,Quinns FC Reserve,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Gold Coast United FC,Peninsula Power FC,0.4013,0,0
+2063767724377eed5d56,2026-05-30,Inglewood United Reserves,Cockburn City SC Reserves,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Adelaide Croatia Raiders SC,Modbury Jets SC,0.3778,0,0
+19542ca4f02e3a18984a,2026-05-30,Jeonbuk FC II,Busan Transportation Corporation FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Cooks Hill United,Valentine FC,0.322,0,0
+faf2bffcc16bd7f43f32,2026-05-30,Kochi United SC,Renofa Yamaguchi,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Kochi United SC,Renofa Yamaguchi,1.0,1,1
+ae9ec5273154e1ff1a8e,2026-05-30,Mandurah City FC Reserves,Floreat Athena FC Reserves,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Avondale FC,Bentleigh Greens,0.3538,0,0
+90b730860e1e01107f9e,2026-05-30,FC Melbourne Srbija,Langwarrin SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Adelaide Cobras,Adelaide Atletico VSC,0.3672,0,0
+c57e1fcf88e9d54e3590,2026-05-30,Murdoch University Melville FC Reserves,Kingsley Westside FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,University of Nsw,Wollongong Wolves FC,0.4218,0,0
+7a83048f75380e3030d8,2026-05-30,Nagoya Grampus,Machida Zelvia,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Nagoya Grampus,Machida Zelvia,1.0,1,1
+a28705906846b12276e8,2026-05-30,Nara Club,Oita Trinita,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Nara Club,Oita Trinita,1.0,1,1
+8c4b4e04319a4832ed49,2026-05-30,NWS Spirit FC,Gladesville Ravens,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,NWS Spirit FC,Gladesville Ravens,1.0,1,1
+2e88f4ca9076eedca8c4,2026-05-30,O'Connor Knights FC,Queanbeyan City FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,O'Connor Knights FC,Queanbeyan City FC,1.0,1,1
+f18f97de5f25c3a22bcd,2026-05-30,Olympic Kingsway SC,Dianella White Eagles SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Adelaide Croatia Raiders SC,Modbury Jets SC,0.3534,0,0
+f17c8b114b33f8261a24,2026-05-30,FC Osaka,Reilac Shiga FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,FC Osaka,Reilac Shiga FC,1.0,1,1
+13b539b6e9250d04b8d1,2026-05-30,Sanfrecce Hiroshima,Kawasaki Frontale,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Sanfrecce Hiroshima,Kawasaki Frontale,1.0,1,1
+601e56d92e68a3f8fac2,2026-05-30,SC Sagamihara,Fujieda MYFC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,SC Sagamihara,Fujieda MYFC,1.0,1,1
+8de88f859f20334e96ec,2026-05-30,Shonan Bellmare,Iwaki FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Shonan Bellmare,Iwaki FC,1.0,1,1
+b9fe73f307d4b4d7bf80,2026-05-30,Sorrento FC,Bayswater City SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Moreland City FC,Eastern Lions SC,0.5357,0,0
+2146044379d0a570d623,2026-05-30,Stirling Macedonia FC,Balcatta Etna FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Renofa Yamaguchi FC Ladies,Nankatsu SC,0.3374,0,0
+84e8d3cc7a53c187c734,2026-05-30,Subiaco AFC Reserve,Uwa Nedlands FC Reserves,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Metrostars,West Adelaide,0.354,0,0
+33e6dc60af3d471a9f27,2026-05-30,The Cove FC Reserves,Adelaide Blue Eagles Reserves,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Adelaide Cobras,Adelaide Atletico VSC,0.4475,0,0
+3a22270936cf17aa57c7,2026-05-30,Tochigi City FC,Jubilo Iwata,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Tochigi City FC,Jubilo Iwata,1.0,1,1
+eb697ff04ab89906c314,2026-05-30,Tokushima Vortis,Sagan Tosu,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Tokushima Vortis,Sagan Tosu,1.0,1,1
+237d3bdeb3ed73e070a8,2026-05-30,Vegalta Sendai,Ventforet Kofu,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Vegalta Sendai,Ventforet Kofu,1.0,1,1
+525750b0cd174f8cf348,2026-05-30,Vissel Kobe,Kashima Antlers,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Adelaide Cobras,Adelaide Atletico VSC,0.4145,0,0
+fef95701866483d80a6b,2026-05-30,Western Knights SC,Perth SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Adelaide Croatia Raiders SC,Modbury Jets SC,0.3952,0,0
+ba8d14a36e02d015cbbf,2026-05-30,Yokohama FC,RB Omiya Ardija,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Kochi United SC,Renofa Yamaguchi,0.381,0,0
+93e0abee3a319c8e57f9,2026-05-30,Caroline Springs George Cross FC,Green Gully SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Adelaide Cobras,Adelaide Atletico VSC,0.3818,0,0
+e69a50e1f7a996ffe2d7,2026-05-30,Adelaide United FC,Playford City,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,South Adelaide FC,Eastern United,0.5933,0,0
+91f713af16a2194858c6,2026-05-30,Adelaide Cobras,Adelaide Atletico VSC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Adelaide Cobras,Adelaide Atletico VSC,1.0,1,1
+ffa753cd81488c2ce9ff,2026-05-30,Adelaide Croatia Raiders SC,Modbury Jets SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Adelaide Croatia Raiders SC,Modbury Jets SC,1.0,1,1
+07e98493cd3adf036758,2026-05-30,Cumberland United,Salisbury United,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Cumberland United,Salisbury United,1.0,1,1
+69b3a4ccc19bc031e026,2026-05-30,Monaro Panthers FC,Canberra White Eagles FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Moreland City FC,Eastern Lions SC,0.4066,0,0
+54b68b371ea80e4bc3c7,2026-05-30,Para Hills Knights SC,Croydon FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Para Hills Knights SC,Croydon FC,1.0,1,1
+228530559c9f74d8d88d,2026-05-30,South Adelaide FC,Eastern United,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,South Adelaide FC,Eastern United,1.0,2,2
+73bbebc3ace4541da550,2026-05-30,South Melbourne FC,Preston Lions,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Moreland City FC,Eastern Lions SC,0.5187,0,0
+5d53395c9daca6dab17c,2026-05-30,Sturt Lions,FK Beograd,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Metrostars,West Adelaide,0.3209,0,0
+1551de87871e5be3340f,2026-05-30,Altona Magic SC,Oakleigh Cannons FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Tokushima Vortis,Sagan Tosu,0.4243,0,0
+6f6c6d6e4dc2121d4e8f,2026-05-30,FC Bulleen Lions,Avondale FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Sanfrecce Hiroshima,Kawasaki Frontale,0.4275,0,0
+588f9994ffd10219e1d3,2026-05-30,Caboolture Sports FC,Capalaba FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Albirex Niigata,Kagoshima United,0.3051,0,0
+606df0aebb9f3e7fd3f8,2026-05-30,Cerezo Osaka,FC Tokyo,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,FC Osaka,Reilac Shiga FC,0.46,0,0
+43ea9502cef3cff1ca2f,2026-05-30,South Coast Flame FC,Sydney University SFC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,South Adelaide FC,Eastern United,0.438,0,0
+39cd261a529c4cb54d5c,2026-05-30,Heidelberg United FC,Melbourne Victory FC Youth,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Adelaide Cobras,Adelaide Atletico VSC,0.4218,0,0
+1ed25ad9586602be9a04,2026-05-30,Hakoah,Bankstown City FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,FC Osaka,Reilac Shiga FC,0.3904,0,0
+5fa13a5b3a207313f890,2026-05-30,Macarthur Rams,Central Coast Mariners Academy,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Nagoya Grampus,Machida Zelvia,0.3636,0,0
+a55b939abe061a846e46,2026-05-30,Maitland FC,Belmont Swansea United FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Moreland City FC,Eastern Lions SC,0.506,0,0
+99814705d888855f7053,2026-05-30,St George FC,St George City FA,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,South Adelaide FC,Eastern United,0.4279,0,0
+d32e2481f797cb825e10,2026-05-30,Glenorchy Knights FC,Launceston City FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,O'Connor Knights FC,Queanbeyan City FC,0.5333,0,0
+bc7a45422949c07f940f,2026-05-30,Launceston United,Kingborough Lions United FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,University of Nsw,Wollongong Wolves FC,0.4063,0,0
+e1e5f384da383549221e,2026-05-30,Riverside Olympic FC,Kingborough Lions United FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,University of Nsw,Wollongong Wolves FC,0.3824,0,0
+3ada8bbf1fd3a66a53c4,2026-05-30,AC Carina,Logan Roos FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Tokushima Vortis,Sagan Tosu,0.46,0,0
+0188a791c36109ff9990,2026-05-30,Armadale SC,Perth Glory FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Avondale FC,Bentleigh Greens,0.4854,0,0
+3c9d1621207abec2e64c,2026-05-30,Avispa Fukuoka,JEF United Chiba,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,FC Osaka,Reilac Shiga FC,0.396,0,0
+201f98b8bd3382ee5fda,2026-05-30,Bankstown United FC,Fraser Park FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Alamein FC,Keilor Park SC,0.4467,0,0
+cebab08bc3ac369a65df,2026-05-30,Bayside Argonauts FC,Werribee City FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Adelaide Cobras,Adelaide Atletico VSC,0.3567,0,0
+f8a2375be4c41d8b8af9,2026-05-30,Brunswick Juventus FC,Eltham Redbacks FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Canberra Juventus FC,Tuggeranong Utd,0.3912,0,0
+29c2f3767af92162694f,2026-05-30,Canterbury Bankstown FC,Inter Lions FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Canberra Juventus FC,Tuggeranong Utd,0.4697,0,0
+552025ae44de895b82c4,2026-05-30,Curtin University SC,Joondalup City,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,University of Nsw,Wollongong Wolves FC,0.4782,0,0
+28bdb3a455921b0942d4,2026-05-30,Dangjin Citizen,Yangpyeong FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,FC Gangneung,Changwon FC,0.5278,0,0
+b537016dd8d765f5dd6e,2026-05-30,Dulwich Hill,Hills United FC Brumbies,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Cooks Hill United,Valentine FC,0.3597,0,0
+6c5147c4e0a57c84a47f,2026-05-30,Ehime FC,Roasso Kumamoto,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Hume City,South Melbourne FC,0.4667,0,0
+fb1a7f5e87a04b0c9dce,2026-05-30,Gamba Osaka,Tokyo Verdy,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,FC Osaka,Reilac Shiga FC,0.5035,0,0
+52bb6c7cd785f099b5e9,2026-05-30,Goulburn Valley Suns,Essendon Royals SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Moreland City FC,Eastern Lions SC,0.4013,0,0
+b4f4d0dd8345c4dcbd5e,2026-05-30,Gwelup Croatia SC,Quinns FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Gold Coast United FC,Peninsula Power FC,0.4021,0,0
+85b7a5e827fb8c2db45a,2026-05-30,Hurstville FC,Rydalmere Lions FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Moreland City FC,Eastern Lions SC,0.4014,0,0
+e46eede31636a1a7eb85,2026-05-30,Inglewood United,Cockburn City,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,FC Gangneung,Changwon FC,0.3542,0,0
+d682eda611dd94ea9545,2026-05-30,Mandurah City,Floreat Athena,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Moreland City FC,Eastern Lions SC,0.4167,0,0
+23408115f12163141b49,2026-05-30,Manly United FC,Blacktown City FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Moreland City FC,Eastern Lions SC,0.326,0,0
+26f949a0ff45df3d148b,2026-05-30,Marconi Stallions FC,Rockdale Ilinden FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Cooks Hill United,Valentine FC,0.4252,0,0
+9011d624c4adf000074a,2026-05-30,Metrostars,West Adelaide,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Metrostars,West Adelaide,1.0,1,1
+5f0813778d59f0a46270,2026-05-30,Moreton City Excelsior FC 2,Pine Hills,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Moreland City FC,Eastern Lions SC,0.339,0,0
+bfa14572615f13cffbe2,2026-05-30,Murdoch University Melville FC,Kingsley Westside FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,University of Nsw,Wollongong Wolves FC,0.4265,0,0
+cb07d689ff4a9bfc65d4,2026-05-30,North Geelong Warriors FC,North Sunshine Eagles FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Bunnys Gunma FC White Star,Diavorosso Hiroshima,0.3485,0,0
+2ef7a221a599e77d3f1b,2026-05-30,Sorrento FC,Bayswater City,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Moreland City FC,Eastern Lions SC,0.45,0,0
+3f0922f1e629a6371391,2026-05-30,Stirling Macedonia FC,Balcatta,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Tochigi City FC,Jubilo Iwata,0.37,0,0
+fb368668f7bcd3eb6e42,2026-05-30,Subiaco AFC,UWA Nedlands FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,FC Osaka,Reilac Shiga FC,0.381,0,0
+58e1fd9a4a6984831bc2,2026-05-30,Tai Po FC,Eastern District,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,South Adelaide FC,Eastern United,0.61,0,0
+db15cbe7610862222a21,2026-05-30,Western Knights SC,Perth Azzurri,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Metrostars,West Adelaide,0.3709,0,0
+0bda2aea8d80b606cfaa,2026-05-30,Yanbian Longding,Changchun Yatai,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,FC Gangneung,Changwon FC,0.4609,0,0
+0df4e1c7501b13bd310e,2026-05-30,Chungnam Asan FC,Suwon Bluewings,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Hume City,South Melbourne FC,0.3431,0,0
+9f9850c930a44ce475ac,2026-05-30,Mungyeong Sangmu Wfc,Hwacheon KSPO FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,University of Nsw,Wollongong Wolves FC,0.3667,0,0
+174324ff70f2c433ea83,2026-05-30,Stallion Laguna FC,Davao Aguilas,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Alamein FC,Keilor Park SC,0.33,0,0
+71750163627da0d953bd,2026-05-30,The Cove FC,Adelaide Blue Eagles,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Adelaide Cobras,Adelaide Atletico VSC,0.491,0,0
+0386b92d3fc78149f97a,2026-05-30,Yongin City FC,Daegu FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,FC Gangneung,Changwon FC,0.3538,0,0
+ae30fad5bedd7bda0e2a,2026-05-30,Adamstown Rosebud FC,Newcastle Olympic FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,South Adelaide FC,Eastern United,0.3565,0,0
+5766bdc857a242e50e99,2026-05-30,Caboolture FC,Capalaba Bulldogs,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Avondale FC,Bentleigh Greens,0.3434,0,0
+24ce59b952414eb8e3bd,2026-05-30,Chuncheon FC,Gyeongju FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Canberra Juventus FC,Tuggeranong Utd,0.3785,0,0
+639298983c4316761a63,2026-05-30,Ferencvarosi TC,MTK Budapest,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Sanfrecce Hiroshima,Kawasaki Frontale,0.3387,0,0
+c9b8c9813520c49c5957,2026-05-30,Mitchelton FC,Caboolture FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Cumberland United,Salisbury United,0.4105,0,0
+af619eb18d0577532639,2026-05-30,V-Varen Nagasaki,Mito Hollyhock,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Vegalta Sendai,Ventforet Kofu,0.3429,0,0
+aa33934026a0b5ac6291,2026-05-30,Modbury Vista,Flinders United Wfc,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Gold Coast United FC,Peninsula Power FC,0.3774,0,0
+f564dbecfac9071d8269,2026-05-30,Rochedale Rovers,Moreton City Excelsior FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Adelaide Croatia Raiders SC,Modbury Jets SC,0.4048,0,0
+0aa8cff517590f20c52c,2026-05-30,FC Viktoria Marianske Lazne,SK Ujezd Praha 4,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,SC Sagamihara,Fujieda MYFC,0.3389,0,0
+ca061956d26965105666,2026-05-30,Hakoah Sydney City East FC,Bankstown City FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,South Adelaide FC,Eastern United,0.3542,0,0
+f9c946c6d9e0aa0c8551,2026-05-30,St George Saints FC,St George City FA,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,South Adelaide FC,Eastern United,0.4105,0,0
+f45b7c1a5397b2ee9a53,2026-05-30,Adamstown Rosebud JFC,Newcastle Olympic FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,South Adelaide FC,Eastern United,0.3463,0,0
+e7a53232639afd3c30a8,2026-05-30,Bonnyrigg W. E.,Mounties Wanderers FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,O'Connor Knights FC,Queanbeyan City FC,0.3855,0,0
+d12c271475a85bbfe98e,2026-05-30,Camden Tigers FC,Central Coast United FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Adelaide Cobras,Adelaide Atletico VSC,0.3908,0,0
+bd1fe2ca9f3998c8319f,2026-05-30,Canterbury Bankstown Berries,Inter Lions FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Canberra Juventus FC,Tuggeranong Utd,0.4468,0,0
+c78056644689b47680c7,2026-05-30,CS. Dong Thap,DH van Hien,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Cooks Hill United,Valentine FC,0.3818,0,0
+9bff1ef0b45abf1d41c2,2026-05-30,Dulwich Hill,Hills United FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Cooks Hill United,Valentine FC,0.3442,0,0
+9351643332651db6fb60,2026-05-30,K. Khanh Hoa,Quang Ninh FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,O'Connor Knights FC,Queanbeyan City FC,0.3611,0,0
+a3768941343ab2c71192,2026-05-30,Kataller Toyama,Tegevajaro Miyazaki,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Shonan Bellmare,Iwaki FC,0.3333,0,0
+b686251ce7f3edfd64b7,2026-05-30,Puskas Akademia,Illes Akademia,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,SC Sagamihara,Fujieda MYFC,0.381,0,0
+a55c1d365248120f306c,2026-05-30,PVF Cand B,Xuan Thien Phu Tho FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Nara Club,Oita Trinita,0.3579,0,0
+e74a4992d60deff68a98,2026-05-30,Quy Nhon Binh Dinh,Bac Ninh,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Cooks Hill United,Valentine FC,0.3424,0,0
+b4661c1f8ffdc482fe8d,2026-05-30,Truong Tuoi Dong Nai FC,Long An FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Tochigi City FC,Jubilo Iwata,0.3587,0,0
+cea6348355ea5d7efbee,2026-05-30,Whittlesea United SC,Springvale White Eagles,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Kochi United SC,Renofa Yamaguchi,0.3663,0,0
+c9ca008d7e66cf449e5b,2026-05-30,AZS UJ Krakow,KKP Stomilanki Olsztyn,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Sanfrecce Hiroshima,Kawasaki Frontale,0.2989,0,0
+fed6e89c99ab6ebcb894,2026-05-30,Czarni Sosnowiec,UKS SMS Lodz,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Adelaide Croatia Raiders SC,Modbury Jets SC,0.3109,0,0
+1bf81491b57353a0023e,2026-05-30,FC Elva,Viimsi JK,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Moreland City FC,Eastern Lions SC,0.37,0,0
+5e8f9d6e814908a4ab0f,2026-05-30,Kks Lech Poznan,Rekord Bielsko-Biala,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Kochi United SC,Renofa Yamaguchi,0.3128,0,0
+428ffba5423a0c630dc7,2026-05-30,Pogon Szczecin,WKS Slask Wroclaw,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Sanfrecce Hiroshima,Kawasaki Frontale,0.3565,0,0
+632a2be424e9ef918411,2026-05-30,Pogon Tczew,Gornik Leczna,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Nara Club,Oita Trinita,0.35,0,0
+4c5d142c98b06fdfbef8,2026-05-30,North Eastern Metrostars SC,Campbelltown City SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Metrostars,West Adelaide,0.585,0,0
+a70e703aef54db499d3c,2026-05-30,Budapest Honved,Diosgyori VTK,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Bunnys Gunma FC White Star,Diavorosso Hiroshima,0.37,0,0
+679ab57b4318092c7933,2026-05-30,Clube de Albergaria,CS Maritimo Madeira,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Metrostars,West Adelaide,0.3254,0,0
+28b5dd8b930d07cf8923,2026-05-30,FK Suduva Marijampole B,Kedainiai Nevezis,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,SC Sagamihara,Fujieda MYFC,0.3426,0,0
+ed5c4b150a28601cfb89,2026-05-30,Gimhae FC,Gimpo FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,FC Gangneung,Changwon FC,0.3538,0,0
+ce57bad6664e61ba5506,2026-05-30,Glostrup FK,BK Skjold,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Metrostars,West Adelaide,0.3268,0,0
+49d75290bf9c5e100b0a,2026-05-30,Jagiellonia II Bialystok,KS Wasilkow,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Sanfrecce Hiroshima,Kawasaki Frontale,0.3306,0,0
+ad66c50e45d959254e58,2026-05-30,Kyoto Sanga FC,Kashiwa Reysol,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,FC Osaka,Reilac Shiga FC,0.4423,0,0
+9e15a9d53f98eb65fa6c,2026-05-30,FC Meshakhte Tkibuli,FC Dinamo Tbilisi,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Bunnys Gunma FC White Star,Diavorosso Hiroshima,0.3559,0,0
+46b9a882af4727e9a7c6,2026-05-30,Qingdao West Coast FC,Shanghai Shenhua FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Gold Coast United FC,Peninsula Power FC,0.4147,0,0
+391de2a065ab8aeac983,2026-05-30,Sidama Bunna SC,Adama City FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,SC Sagamihara,Fujieda MYFC,0.3786,0,0
+ee4bc2b322e0df63ff7f,2026-05-30,Suwon FC,Seongnam Ilhwa,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Moreland City FC,Eastern Lions SC,0.3205,0,0
+ddb4d3004521c2b8a91b,2026-05-30,Ulsan Citizen FC,Pocheon Citizen FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,FC Gangneung,Changwon FC,0.3557,0,0
+19a8a0f1b512ea757af0,2026-05-30,Dynamic Herb Cebu FC,Kaya FC–Iloilo,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Nara Club,Oita Trinita,0.3974,0,0
+aba2ba5d03c4632a5a87,2026-05-30,West Torrens Birkalla Reserve,Adelaide Comets Reserves,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Adelaide Cobras,Adelaide Atletico VSC,0.403,0,0
+52593133c5f5788db771,2026-05-30,Port Darwin FC,Garuda FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,South Adelaide FC,Eastern United,0.3938,0,0
+681b200e548c87a17f69,2026-05-30,Tainan City,New Taipei Hang Yuan,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Avondale FC,Bentleigh Greens,0.381,0,0
+d26ae94f6b6cee8fa1f7,2026-05-30,Bjarg,FK Eik Toensberg 871,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Cumberland United,Salisbury United,0.2713,0,0
+d8759cebdaed62180bbb,2026-05-30,BK Forward,Raagsveds IF,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Moreland City FC,Eastern Lions SC,0.3294,0,0
+d78c70146ddb674c2e42,2026-05-30,Dalian Kun City,Shijiazhuang Gongfu FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,FC Gangneung,Changwon FC,0.4327,0,0
+45a8a0d0a39724ea8c9e,2026-05-30,Enskede IK,Angby IF,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Moreland City FC,Eastern Lions SC,0.3333,0,0
+a4a27b67c69c4f7db82d,2026-05-30,Eskilsminne IF,Trelleborgs FF,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Moreland City FC,Eastern Lions SC,0.3364,0,0
+40914b1487e16926c3dc,2026-05-30,FK Tauras Taurage,Hegelmann Litauen B,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Metrostars,West Adelaide,0.3356,0,0
+f1d1f4210407142dd014,2026-05-30,FC Helsingoer,Brabrand IF,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Alamein FC,Keilor Park SC,0.3365,0,0
+2ac1f4450ba18637cb46,2026-05-30,Heming,FK Union Carl Berner,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Hume City,South Melbourne FC,0.3429,0,0
+1273775b4286ea2088cc,2026-05-30,Henan,Zhejiang FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,FC Gangneung,Changwon FC,0.3929,0,0
+c4ce010e0c036acef883,2026-05-30,Holbaek B&I,IF Lyseng,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,FC Osaka,Reilac Shiga FC,0.4127,0,0
+91471ed7dc0a7e5d629c,2026-05-30,IFK Goteborg,BK Hacken Academy,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Metrostars,West Adelaide,0.2697,0,0
+24a990c9a9d51cb7a1e5,2026-05-30,Ishoej IF,Vsk Aarhus,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Sanfrecce Hiroshima,Kawasaki Frontale,0.291,0,0
+77b101676956349d7de2,2026-05-30,KV Vesturbaer,KF Fjallabyggd,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Metrostars,West Adelaide,0.3591,0,0
+2818dd71a678fa538f09,2026-05-30,Lillestrom SK 2,Alta IF,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Metrostars,West Adelaide,0.4,0,0
+33fab052f1f3855658ef,2026-05-30,Lyngby,Silkeborg IF,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Alamein FC,Keilor Park SC,0.3462,0,0
+0028c012085dbca27142,2026-05-30,FC Neptunas Klaipeda,Be1 Nfa,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,O'Connor Knights FC,Queanbeyan City FC,0.328,0,0
+fee7bb20787b532d256c,2026-05-30,Nordstrand,KFUM 2,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Moreland City FC,Eastern Lions SC,0.3232,0,0
+c4a022fdca5da85f6078,2026-05-30,Onsala BK,BK Astrio,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Nara Club,Oita Trinita,0.4683,0,0
+d1c7146ade74b4b6c6ed,2026-05-30,FC Silon Taborsko,FC Banik Ostrava,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Tokushima Vortis,Sagan Tosu,0.4174,0,0
+b1111def008cfb7957a4,2026-05-30,Smedby AIS,FOC Farsta,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Alamein FC,Keilor Park SC,0.3848,0,0
+57a327f75e0095895bc6,2026-05-30,Suzhou Dongwu,Wuxi Wugou,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,University of Nsw,Wollongong Wolves FC,0.3148,0,0
+a8660eb9b0dc00cef311,2026-05-30,Taby FK,Skiljebo SK,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,FC Osaka,Reilac Shiga FC,0.3406,0,0
+fe287ad007d97222d180,2026-05-30,UD Tamaraceite,UD San Fernando,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Tokushima Vortis,Sagan Tosu,0.3667,0,0
+3d9470154b2c324c8bc0,2026-05-30,Ullern,Konnerud,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Alamein FC,Keilor Park SC,0.3671,0,0
+32e0750a2aec85037ab6,2026-05-30,Dziugas,FK Panevezys,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Adelaide Cobras,Adelaide Atletico VSC,0.3333,0,0
+118a04220cca40aee89b,2026-05-30,Grei Kvinner Elite FK,Bryne FK,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Adelaide Croatia Raiders SC,Modbury Jets SC,0.3632,0,0
+91091a84cc461370f220,2026-05-30,Guangxi Hengchen FC,Foshan Nanshi FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,FC Gangneung,Changwon FC,0.4705,0,0
+83c045b12dbb68ab8c87,2026-05-30,IF Fuglafjordur,B71 Sandoy,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Tokushima Vortis,Sagan Tosu,0.329,0,0
+51d70b3a36855d6167e8,2026-05-30,Parnu JK Vaprus,Nomme Kalju FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Vegalta Sendai,Ventforet Kofu,0.3434,0,0
+84680d5d40e25ffe5e6d,2026-05-30,Chengdu Rongcheng,Shandong Taishan FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,FC Gangneung,Changwon FC,0.4006,0,0
+f8deb9fa2d086f3447ea,2026-05-30,Aalesund FK,SK Brann,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,FC Gangneung,Changwon FC,0.3875,0,0
+f426553c90f32e0fa32e,2026-05-30,Baerum SK,SF Grei,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Metrostars,West Adelaide,0.3579,0,0
+0e4742c121f2b2993bf9,2026-05-30,Chongqing Tonglianglong FC,Beijing Guoan,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,FC Gangneung,Changwon FC,0.378,0,0
+fbe477499d5045be89c4,2026-05-30,FK Austria Wien,SKN St. Polten,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Tokushima Vortis,Sagan Tosu,0.3997,0,0
+f36d236a77b2a9e184d0,2026-05-30,Fk Kvik Trondheim,Orkla,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Sanfrecce Hiroshima,Kawasaki Frontale,0.3131,0,0
+7c61c14c752deca28fc2,2026-05-30,FK Liepaja,FK Tukums 2000/TSS,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Renofa Yamaguchi FC Ladies,Nankatsu SC,0.2894,0,0
+c21dfe47fa184612f776,2026-05-30,FK Transinvest B,FK Kauno Zalgiris B,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Renofa Yamaguchi FC Ladies,Nankatsu SC,0.3205,0,0
+4a20476c15328c38eda6,2026-05-30,Follo,Ullensaker/Kisa,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Gold Coast United FC,Peninsula Power FC,0.3667,0,0
+cd59af70ccf404579900,2026-05-30,HIK Hellerup,Vendsyssel FF,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Cooks Hill United,Valentine FC,0.3636,0,0
+6980d1ada4ae3f103134,2026-05-30,HJK Helsinki,IFK Mariehamn,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,NWS Spirit FC,Gladesville Ravens,0.3431,0,0
+31b2a420c3c915a080df,2026-05-30,IFK Luleaa,IFK Umea,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Albirex Niigata,Kagoshima United,0.3365,0,0
+5236d385ad0fe9708361,2026-05-30,Kawempe Muslim Ladies,Uganda Martyrs H/S,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Tokushima Vortis,Sagan Tosu,0.4305,0,0
+d324a6d8bab2dc885b6d,2026-05-30,Kjelsaas,Eidsvold TF,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,FC Osaka,Reilac Shiga FC,0.3612,0,0
+e3f614b06309d7fa5d5d,2026-05-30,Nardo FK,Rosenborg BK 2,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,University of Nsw,Wollongong Wolves FC,0.3213,0,0
+e0ffa6ea4ff2caff4b90,2026-05-30,FC Nordsjaelland,Broendby IF,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Moreland City FC,Eastern Lions SC,0.4815,0,0
+1138b29c02f89a508e17,2026-05-30,Scotland,Curacao,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Cumberland United,Salisbury United,0.4028,0,0
+cd0a5c135ca680e659c9,2026-05-30,Shenzhen Peng City,Qingdao Hainiu FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Shonan Bellmare,Iwaki FC,0.3722,0,0
+19d38cde0ee5e626f549,2026-05-30,SK Djerv 1919,Varegg,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,South Adelaide FC,Eastern United,0.302,0,0
+f0f0f1f6d13ae97cc9d6,2026-05-30,Union Mauer,SC Retz,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Hume City,South Melbourne FC,0.3818,0,0
+5287719b3c9f27ddc0b7,2026-05-30,Creck SC,Blue Eagles Malawi,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Kochi United SC,Renofa Yamaguchi,0.3971,0,0
+675aaef0dac847970b43,2026-05-30,Ekhaya FC,Masters FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,South Adelaide FC,Eastern United,0.4571,0,0
+6a2765cf00ea705db5e2,2026-05-30,Excelsior Maassluis,VVSB Noordwijkerhout,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Gold Coast United FC,Peninsula Power FC,0.3094,0,0
+6e225a9175271d452c9d,2026-05-30,FK Banga Gargzdai,FA Siauliai,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,SC Sagamihara,Fujieda MYFC,0.3762,0,0
+fb8c5f8db0bf93af4c2e,2026-05-30,KKS 1925 Kalisz,Unia Skierniewice,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,South Adelaide FC,Eastern United,0.3807,0,0
+837860a5c694f6263e26,2026-05-30,KS Hutnik Krakow SSA,ZKS Stal Stalowa Wola,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,University of Nsw,Wollongong Wolves FC,0.3464,0,0
+132e77cbe79e096d5d87,2026-05-30,FC Lisse,ADO 20 Heemskerk,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,South Adelaide FC,Eastern United,0.3318,0,0
+f6fdbc9ba3a689ce9391,2026-05-30,LKS Lodz II,Sokol Kleczew,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,NWS Spirit FC,Gladesville Ravens,0.3518,0,0
+29f988a1a4639c05d62d,2026-05-30,Mitundu Baptist,Civil Service United FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Gold Coast United FC,Peninsula Power FC,0.3786,0,0
+569ed771530cd1ed7ebe,2026-05-30,MKS Chojniczanka Chojnice,Rekord Bielsko Biala,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Tochigi City FC,Jubilo Iwata,0.375,0,0
+3bfa83057d0d5950efba,2026-05-30,OKS Swit Szczecin,Olimpia Grudziadz,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Kochi United SC,Renofa Yamaguchi,0.3418,0,0
+5e90309c9443f5c56c56,2026-05-30,Podbeskidzie Bielsko-Biała,Podhale Nowy Targ,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Adelaide Croatia Raiders SC,Modbury Jets SC,0.3449,0,0
+59218f138edfdfa97c2c,2026-05-30,Sandecja Nowy Sacz,Zaglebie Sosnowiec,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Adelaide Cobras,Adelaide Atletico VSC,0.3613,0,0
+fed3aa76121ec69cacf9,2026-05-30,Aalborg BK,HB Koege,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Avondale FC,Bentleigh Greens,0.3333,0,0
+5a66edfc82706eab0a6f,2026-05-30,ADO Den Haag,SC Cambuur,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Cumberland United,Salisbury United,0.3541,0,0
+35627d1b739753c11a03,2026-05-30,AIK,IK Sirius,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,FC Osaka,Reilac Shiga FC,0.4405,0,0
+d1f12e5d51ad62dd3af2,2026-05-30,B93 Copenhagen,Aarhus Fremad,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Sanfrecce Hiroshima,Kawasaki Frontale,0.3545,0,0
+cf28955bc56ed01a5669,2026-05-30,Croatia,Greece,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Adelaide Croatia Raiders SC,Modbury Jets SC,0.6029,0,0
+643ccf6d276817d3331d,2026-05-30,Cruzeiro EC MG,EC Villa Real MG,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Kochi United SC,Renofa Yamaguchi,0.3693,0,0
+33a6e8f9f203b871c1b7,2026-05-30,Djurgardens IF DFF,Eskilstuna United DFF,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,South Adelaide FC,Eastern United,0.378,0,0
+d97145264835ddd5cdb1,2026-05-30,Dynamos Harare FC,Ngezi Platinum,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,FC Osaka,Reilac Shiga FC,0.4028,0,0
+276cb93ae1bb1b958699,2026-05-30,Falkenbergs FF,IK Oddevold,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Metrostars,West Adelaide,0.3333,0,0
+3be104ff852bb3c2283c,2026-05-30,Fittja IF,Lindo FF,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Vegalta Sendai,Ventforet Kofu,0.3557,0,0
+1b28310328a1a7d64c7a,2026-05-30,Fortuna Sittard,FC Groningen,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Canberra Juventus FC,Tuggeranong Utd,0.375,0,0
+80656b02ca8a494d2a9a,2026-05-30,GAIS,Kalmar FF,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Alamein FC,Keilor Park SC,0.3992,0,0
+f3abc8f7f24aa6d19c74,2026-05-30,GIF Sundsvall,Sandvikens IF,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Vegalta Sendai,Ventforet Kofu,0.4074,0,0
+51835e861a721fe1258f,2026-05-30,Hobro IK,Middelfart BK,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Shonan Bellmare,Iwaki FC,0.3406,0,0
+b3b310134ec5e807388b,2026-05-30,IFK Norrkoping DFK,Piteaa IF DFF,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Moreland City FC,Eastern Lions SC,0.3263,0,0
+a3cb536f5b814577179d,2026-05-30,IJsselmeervogels,VV Sparta Nijkerk,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Metrostars,West Adelaide,0.359,0,0
+44162aa831ac830c93e9,2026-05-30,IK Uppsala Fotboll,AIK DFF,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Adelaide Cobras,Adelaide Atletico VSC,0.289,0,0
+c03a5094c4583fda3bd9,2026-05-30,KFC Komarno B,Spartak Myjava,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Nara Club,Oita Trinita,0.3538,0,0
+2ed83fbf6a6a251079b6,2026-05-30,Kitara FC,SC Villa,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,FC Osaka,Reilac Shiga FC,0.3818,0,0
+a762af451c68a509b408,2026-05-30,Magesi FC,Cape Town City FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,FC Gangneung,Changwon FC,0.3667,0,0
+d27bef5431cb12d9306e,2026-05-30,Malmo FF,Halmstads BK,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Moreland City FC,Eastern Lions SC,0.3036,0,0
+f2d52e2350b87c596e7f,2026-05-30,Manila Digger FC,Taguig FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Albirex Niigata,Kagoshima United,0.3786,0,0
+c156cd6fda8343f77fe5,2026-05-30,FC Pakhtakor Tashkent II,FK Gazalkent,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Vegalta Sendai,Ventforet Kofu,0.344,0,0
+bcb19b1e765331343703,2026-05-30,FC Petrzalka B,FC Zolik Malacky,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Nara Club,Oita Trinita,0.36,0,0
+ee885aea3bbd92cdbb89,2026-05-30,Racing Club Montevideo,Defensor Sporting,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Gold Coast United FC,Peninsula Power FC,0.375,0,0
+9883d3e6731aac0a66a9,2026-05-30,Resistencia SC,Club Fernando de La Mora,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Metrostars,West Adelaide,0.3705,0,0
+457a0951f90b71e5e351,2026-05-30,RSC Anderlecht,SV Zulte Waregem,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,South Adelaide FC,Eastern United,0.4239,0,0
+a0ee9d620000db26c287,2026-05-30,Spjelkavik IL,Byaasen,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,South Adelaide FC,Eastern United,0.4709,0,0
+47d82cf94c8fece1dbbd,2026-05-30,SV Dvs 33 Ermelo,FC Rijnvogels,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,South Adelaide FC,Eastern United,0.2843,0,0
+36365c8f6e41307ef585,2026-05-30,Vindbjart FK,Madla,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Nagoya Grampus,Machida Zelvia,0.3785,0,0
+1d6fe9e9d013e3dec585,2026-05-30,Warta Gorzow Wielkopolski,GKS Pniowek Pawlowice,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Alamein FC,Keilor Park SC,0.2938,0,0
+5a4e6b7ff5c2aceee122,2026-05-30,Gamle Oslo FK,Frigg Oslo FK,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Adelaide Cobras,Adelaide Atletico VSC,0.3613,0,0
+718880fb3e6fad542e10,2026-05-30,Patriotas FC PR,City London FC PR U20,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Para Hills Knights SC,Croydon FC,0.3818,0,0
+03b383648ac98802eefc,2026-05-30,SV Kuchl,FC Lustenau,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,South Adelaide FC,Eastern United,0.403,0,0
+38077a380a40a0042520,2026-05-30,SV Seekirchen,FC Dornbirn,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,NWS Spirit FC,Gladesville Ravens,0.3328,0,0
+d2742d32d0269024a711,2026-05-30,Zimbabwe,India,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Shonan Bellmare,Iwaki FC,0.3304,0,0
+2005e5265bbf414d999b,2026-05-30,FC 1980 Wien,LAC Inter,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,South Adelaide FC,Eastern United,0.3804,0,0
+c433f7e7d8918005c4ef,2026-05-30,Ariana FC,Laholms FK,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Albirex Niigata,Kagoshima United,0.396,0,0
+4d881596d9d6f129eda9,2026-05-30,ASKO Kohfidisch,SV Leithaprodersdorf,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,NWS Spirit FC,Gladesville Ravens,0.3442,0,0
+36fc93ec0a3c54d9718c,2026-05-30,ASKO Kottmannsdorf,SVG Bleiburg,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Cumberland United,Salisbury United,0.4286,0,0
+b8447ce9f3a99235deb7,2026-05-30,Bollstanas SK,Sunnersta AIF,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Metrostars,West Adelaide,0.4482,0,0
+9d53b5ef564802eb54e7,2026-05-30,FC Concordia Basel,Grasshopper Club Zurich II,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Nara Club,Oita Trinita,0.3399,0,0
+6101dc563fa68e4588ef,2026-05-30,FC Deutschkreutz,SV Eberau,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Metrostars,West Adelaide,0.3557,0,0
+f69ef364cd6bc21c9747,2026-05-30,FH Hafnarfjordur,Fram,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,SC Sagamihara,Fujieda MYFC,0.3522,0,0
+d1e0220109885c6d7d87,2026-05-30,FK Auda Riga,Ogre United,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Vegalta Sendai,Ventforet Kofu,0.3205,0,0
+7d6ad88653f389d8fd85,2026-05-30,FK Fyllingsdalen,Viking FK,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Shonan Bellmare,Iwaki FC,0.3756,0,0
+234d735f0070985adf39,2026-05-30,Grindavik/Njarovik,Breidablik Kopavogur,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Vegalta Sendai,Ventforet Kofu,0.3327,0,0
+e42f6092edd1b9d69f60,2026-05-30,Hammarby Talang FF,AFC Eskilstuna,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,South Adelaide FC,Eastern United,0.3355,0,0
+ae2f199dc19088b6d9c0,2026-05-30,Hassleholms IF,Utsiktens BK,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,South Adelaide FC,Eastern United,0.3534,0,0
+8cbd933f8635a44321d2,2026-05-30,HB Torshavn,Vikingur Gota,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,FC Osaka,Reilac Shiga FC,0.3475,0,0
+ec9b8cfdc61c2a0a4c34,2026-05-30,IF Elfsborg,Enskede IK,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Metrostars,West Adelaide,0.3602,0,0
+5dcf69bb1c1becabf5da,2026-05-30,IF Gnistan,Seinajoen JK,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Albirex Niigata,Kagoshima United,0.3829,0,0
+ea9de1522bd598fbb036,2026-05-30,IF Karlstad Fotbol,Sollentuna FK,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Cooks Hill United,Valentine FC,0.3344,0,0
+a66ad2000874962f24f3,2026-05-30,IFK Kumla,Herrestads AIF,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Metrostars,West Adelaide,0.3645,0,0
+05e050fe3bc0f6f682db,2026-05-30,IK Kongahalla,Astorps FF,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,South Adelaide FC,Eastern United,0.3834,0,0
+06d1664516f3afaca4f8,2026-05-30,Keflavik IF,IA Akranes,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Adelaide Cobras,Adelaide Atletico VSC,0.3536,0,0
+26d095cb769fa4e699a0,2026-05-30,KR Reykjavik,HK Kopavogur,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Vegalta Sendai,Ventforet Kofu,0.3077,0,0
+b34a0fd659212c038adc,2026-05-30,Kuopion Palloseura,FC Inter Turku,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Vegalta Sendai,Ventforet Kofu,0.3563,0,0
+bd782c54231104474e60,2026-05-30,FC Lahti,Tampereen Ilves,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Alamein FC,Keilor Park SC,0.3879,0,0
+7144d061fae9469aa41c,2026-05-30,FC Lausanne Sports,FC Schaffhausen,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Tokushima Vortis,Sagan Tosu,0.4399,0,0
+db412a5e7bca2b648fcd,2026-05-30,LKS Goczalkowice-Zdroj,Zaglebie Lubin II,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,NWS Spirit FC,Gladesville Ravens,0.325,0,0
+4b665226bda093e10ca5,2026-05-30,FC Mendrisio,AC Taverne,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Moreland City FC,Eastern Lions SC,0.4276,0,0
+7b698a758a90719aaf07,2026-05-30,FC Meyrin,CS Chenois,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Cumberland United,Salisbury United,0.4079,0,0
+39ea1ccd3dcd01dcf10d,2026-05-30,Molde FK,Sandefjord Fotball,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Moreland City FC,Eastern Lions SC,0.3676,0,0
+478110fccf694f211890,2026-05-30,Moss FK,Stabaek IF,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Metrostars,West Adelaide,0.4527,0,0
+3739aaa204a4f3c5e229,2026-05-30,NK BSK Bijelo Brdo,NK Croatia Zmijavci,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Adelaide Cobras,Adelaide Atletico VSC,0.3265,0,0
+b7f88fc8a4bdb497fb76,2026-05-30,NK Hrvace,NK Dubrava Zagreb,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Nagoya Grampus,Machida Zelvia,0.3352,0,0
+b2ae8b21085d1e43ce30,2026-05-30,NK Hrvatski Dragovoljac,NK Bjelovar,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Nagoya Grampus,Machida Zelvia,0.3351,0,0
+1f2f9bc943cd776f3dcf,2026-05-30,NK Jarun Zagreb,HNK Cibalia Vinkovci,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Nara Club,Oita Trinita,0.3958,0,0
+74de2fa5b80706c2e2f7,2026-05-30,NK Trnje,NK Dugo Selo,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,FC Gangneung,Changwon FC,0.3265,0,0
+f177ca2ad167ae960373,2026-05-30,NK Varteks,NK Segesta,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Tokushima Vortis,Sagan Tosu,0.3808,0,0
+200ccfa07f1ddf407a05,2026-05-30,Odds BK,Lyn 1896 FK,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,FC Osaka,Reilac Shiga FC,0.337,0,0
+035f337d6e7aba625045,2026-05-30,Orijent 1919 Rijeka,NK Dugopolje,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Renofa Yamaguchi FC Ladies,Nankatsu SC,0.2971,0,0
+5ae6f3c462c0aa70e638,2026-05-30,Sarpsborg 08 2,Oppsal IF,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Metrostars,West Adelaide,0.3485,0,0
+50ae90be77be7993ef8a,2026-05-30,SC Cham,FC Biel-Bienne,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Cooks Hill United,Valentine FC,0.4265,0,0
+19efeb95f83ec639dae6,2026-05-30,SE Palmeiras SP,SC Corinthians SP,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Nara Club,Oita Trinita,0.3736,0,0
+8eb8cc2c80b7b45a9df1,2026-05-30,Stjarnan,IBV Vestmannaeyjar,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Metrostars,West Adelaide,0.4158,0,0
+65d9b0b442b4ce786071,2026-05-30,SV Lafnitz,SK Treibach,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,FC Osaka,Reilac Shiga FC,0.3942,0,0
+103eda3c300f8be56e99,2026-05-30,Thor/KA,Vikingur Reykjavik,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,FC Osaka,Reilac Shiga FC,0.3833,0,0
+d6e0cb50b019fd299eeb,2026-05-30,FC Trollhattan,Aatvidabergs FF,baseline_league_average_forward_fixture,baseline_unmatched_fixture,30,Metrostars,West Adelaide,0.4167,0,0

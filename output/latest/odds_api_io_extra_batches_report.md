@@ -5,43 +5,47 @@ Only direct home/away/date matches are selected. Swapped matches are not selecte
 
 Existing price rows before extra: 10
 Extra selected event rows: 70
-Extra price rows: 50
-Combined price rows: 60
+Extra price rows: 49
+Combined price rows: 59
 Extra calls used: 5 / 5
 Max total price events: 80
 Minimum direct match confidence: 0.72
-Latest rate-limit remaining: 47
-Errors/status rows: 0
+Latest rate-limit remaining: 45
+Errors/status rows: 1
 
 ## New extra prices
 
-- 2026-05-29 15:30 | KPV Kokkola vs FC Inter Turku 2 | odds_api_io_Bet365_ML | 5.5/4.2/1.444
-- 2026-05-29 15:30 | FC KTP Kotka vs SJK Akatemia | odds_api_io_Bet365_ML | 1.38/4.5/5.75
-- 2026-05-29 15:30 | NK Mladost Zdralovi vs NK Kustosija Zagreb | odds_api_io_Bet365_ML | 2.05/3.3/3.0
-- 2026-05-29 15:30 | NK Opatija vs NK Karlovac 1919 | odds_api_io_Bet365_ML | 1.363/4.1/7.0
-- 2026-05-29 15:30 | NK Rudes Zagreb vs NK Sesvete | odds_api_io_Bet365_ML | 1.666/3.5/4.333
-- 2026-05-29 15:30 | NK Solin vs NK Uskok | odds_api_io_Bet365_ML | 2.05/3.4/2.9
-- 2026-05-29 15:30 | PK Keski-Uusimaa vs KuPS Akatemia | odds_api_io_Bet365_ML | 1.666/4.0/3.7
-- 2026-05-29 15:30 | Pogon Sokol Lubaczow vs Star Starachowice | odds_api_io_Bet365_ML | 1.7/4.0/3.5
-- 2026-05-29 16:00 | Andorra vs Iraq | odds_api_io_Bet365_ML | 8.5/4.333/1.3
-- 2026-05-29 16:00 | Apollon Limassol vs Pafos FC | odds_api_io_Bet365_ML | 2.6/3.2/2.55
-- 2026-05-29 16:00 | Dfk Dainava Alytus vs FK Ekranas | odds_api_io_Bet365_ML | 1.571/3.75/4.75
-- 2026-05-29 16:00 | FK Jezero Plav vs FK Iskra Danilovgrad | odds_api_io_Bet365_ML | 2.1/2.9/3.4
-- 2026-05-29 16:00 | FK Transinvest vs FC Hegelmann Kaunas | odds_api_io_Bet365_ML | 1.7/3.7/4.1
-- 2026-05-29 16:00 | Gerasd. Stammersd. vs SV Dinamo Helfort 15 | odds_api_io_Bet365_ML | 4.75/4.2/1.5
-- 2026-05-29 16:00 | Harju JK Laagri vs Paide Linnameeskond | odds_api_io_Bet365_ML | 17.0/9.5/1.09
-- 2026-05-29 16:00 | Hoenefoss BK vs Stabaek Fotball | odds_api_io_Bet365_ML | 4.75/3.8/1.55
-- 2026-05-29 16:00 | KaPa Kapylan Pallo vs JaPS | odds_api_io_Bet365_ML | 2.45/3.25/2.45
-- 2026-05-29 16:00 | MKS Kluczbork vs KS Sleza Wroclaw | odds_api_io_Bet365_ML | 1.285/4.75/8.5
-- 2026-05-29 16:00 | MPS/Atletico Malmi vs Ppj/Lauttasaari | odds_api_io_Bet365_ML | 2.0/4.1/2.625
-- 2026-05-29 16:00 | PFC Ludogorets 1945 Razgrad vs PFC Lokomotiv Plovdiv | odds_api_io_Bet365_ML | 1.571/3.9/5.5
-- 2026-05-29 16:00 | SC Red Star Penzing vs WAF Vorwarts Brigittenau | odds_api_io_Bet365_ML | 1.48/4.5/4.75
-- 2026-05-29 16:00 | South Africa vs Nicaragua | odds_api_io_Bet365_ML | 1.125/7.0/17.0
-- 2026-05-29 16:00 | SR Donaufeld vs TWL Elektra | odds_api_io_Bet365_ML | 1.1/9.5/17.0
-- 2026-05-29 16:00 | FC Stadlau vs Simmeringer SC | odds_api_io_Bet365_ML | 1.9/3.8/3.1
-- 2026-05-29 16:00 | Tampereen Ilves 2 vs HJS | odds_api_io_Bet365_ML | 1.95/4.0/3.0
-- 2026-05-29 16:00 | Thisted FC vs FC Roskilde | odds_api_io_Bet365_ML | 2.0/3.5/3.0
-- 2026-05-29 16:00 | TPV Tampere vs Tampere United | odds_api_io_Bet365_ML | 3.6/3.8/1.75
-- 2026-05-29 16:15 | Etela-Espoon Pallo vs Sexypoxyt | odds_api_io_Bet365_ML | 1.909/4.2/2.875
-- 2026-05-29 16:20 | Al Shabab Kuwait vs AL Tadhamon | odds_api_io_Bet365_ML | 2.5/3.3/2.5
-- 2026-05-29 16:30 | FK Garliava vs FA Siauliai B | odds_api_io_Bet365_ML | 1.27/5.5/7.5
+- 2026-05-30 05:00 | Canberra Juventus FC vs Tuggeranong Utd | odds_api_io_Bet365_ML | 2.05/4.2/2.55
+- 2026-05-30 07:00 | Metrostars vs West Adelaide | odds_api_io_Bet365_ML | 34.0/13.0/1.05
+- 2026-05-30 05:00 | O'Connor Knights FC vs Queanbeyan City FC | odds_api_io_Bet365_ML | 3.9/4.5/1.571
+- 2026-05-30 05:00 | Gold Coast United FC vs Peninsula Power FC | odds_api_io_Bet365_ML | 4.0/4.2/1.6
+- 2026-05-30 05:00 | University of Nsw vs Wollongong Wolves FC | odds_api_io_Bet365_ML | 2.3/3.4/2.6
+- 2026-05-30 05:30 | Adelaide Cobras vs Adelaide Atletico VSC | odds_api_io_Bet365_ML | 2.05/4.1/2.625
+- 2026-05-30 05:30 | Adelaide Croatia Raiders SC vs Modbury Jets SC | odds_api_io_Bet365_ML | 3.9/4.1/1.615
+- 2026-05-30 05:30 | Cumberland United vs Salisbury United | odds_api_io_Bet365_ML | 1.727/3.9/3.5
+- 2026-05-30 05:30 | Para Hills Knights SC vs Croydon FC | odds_api_io_Bet365_ML | 7.0/5.5/1.285
+- 2026-05-30 05:30 | South Adelaide FC vs Eastern United | odds_api_io_Bet365_ML | 2.15/3.9/2.5
+- 2026-05-30 03:30 | Campbelltown City SC Reserves vs Salisbury Inter Reserve | odds_api_io_Bet365_ML | 1.48/4.75/5.5
+- 2026-05-30 03:45 | Brindabella Blues FC vs Canberra Olympic FC | odds_api_io_Bet365_ML | 5.75/6.0/1.285
+- 2026-05-30 04:00 | Bunnys Gunma FC White Star vs Diavorosso Hiroshima | odds_api_io_Bet365_ML | 3.6/3.0/1.95
+- 2026-05-30 04:00 | Cooks Hill United vs Valentine FC | odds_api_io_Bet365_ML | 1.7/4.2/3.4
+- 2026-05-30 04:00 | Hume City vs South Melbourne FC | odds_api_io_Bet365_ML | 2.15/3.7/2.7
+- 2026-05-30 04:00 | Moreland City FC vs Eastern Lions SC | odds_api_io_Bet365_ML | 2.7/3.6/2.15
+- 2026-05-30 04:00 | Renofa Yamaguchi FC Ladies vs Nankatsu SC | odds_api_io_Bet365_ML | 1.9/3.3/3.5
+- 2026-05-30 04:15 | Belconnen United FC vs Canberra Croatia FC | odds_api_io_Bet365_ML | 1.4/4.75/5.25
+- 2026-05-30 04:30 | Maitland FC Reserve vs Belmont Swansea United FC Reserves | odds_api_io_Bet365_ML | 1.5/5.25/4.0
+- 2026-05-30 04:45 | North Eastern Metrostars SC Reserves vs Campbelltown City SC Reserve | odds_api_io_Bet365_ML | 2.1/4.5/2.4
+- 2026-05-30 05:00 | Alamein FC vs Keilor Park SC | odds_api_io_Bet365_ML | 1.5/4.2/4.75
+- 2026-05-30 05:00 | Albirex Niigata vs Kagoshima United | odds_api_io_Bet365_ML | 2.55/3.2/2.5
+- 2026-05-30 05:00 | Avondale FC vs Bentleigh Greens | odds_api_io_Bet365_ML | 1.3/4.5/8.0
+- 2026-05-30 05:00 | Brunswick City SC vs Manningham United Blues FC | odds_api_io_Bet365_ML | 3.8/5.25/1.5
+- 2026-05-30 05:00 | Curtin University SC Reserves vs Joondalup City FC Reserve | odds_api_io_Bet365_ML | 3.5/3.9/1.727
+- 2026-05-30 05:00 | Fremantle City FC vs Perth Redstar FC | odds_api_io_Bet365_ML | 2.0/3.75/2.875
+- 2026-05-30 05:00 | FC Gangneung vs Changwon FC | odds_api_io_Bet365_ML | 2.8/3.2/2.2
+- 2026-05-30 05:00 | Gwelup Croatia SC Reserves vs Quinns FC Reserve | odds_api_io_Bet365_ML | 2.75/4.0/2.0
+- 2026-05-30 05:00 | Inglewood United Reserves vs Cockburn City SC Reserves | odds_api_io_Bet365_ML | 3.4/4.0/1.75
+- 2026-05-30 05:00 | Jeonbuk FC II vs Busan Transportation Corporation FC | odds_api_io_Bet365_ML | 3.5/3.5/1.8
+
+## Errors / Status
+
+- extra_odds_parse: No 1X2 odds found for event 67807406
