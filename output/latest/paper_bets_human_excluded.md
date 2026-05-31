@@ -1,6 +1,10 @@
 # Skjulte U-/reserve-rækker
 
-Skjulte rækker: 32
+Skjulte rækker: 34
+
+## Aktuelle
+
+- 2026-05-31 kl. 05:00 – West Adelaide SC Reserve vs Adelaide City FC Reserve
 
 ## Log
 
@@ -10,6 +14,7 @@ Skjulte rækker: 32
 - 2026-05-16 kl. 10:00 – FC Famalicao vs SL Benfica
 - 2026-05-29 kl. 08:00 – Blacktown Spartans FC vs Western City Rangers FC
 - 2026-05-12 kl. 14:10 – AL Ittihad Kalba vs AL Nasr
+- 2026-05-31 kl. 05:00 – West Adelaide SC Reserve vs Adelaide City FC Reserve
 - 2026-05-12 kl. 10:30 – Cerro Porteno Asuncion vs Guarani Asuncion
 - 2026-05-16 kl. 05:00 – Curtin University SC Reserves vs Murdoch University Melville FC Reserves
 - 2026-05-23 kl. 02:30 – Eastern United Reserve vs Adelaide Blue Eagles Reserves

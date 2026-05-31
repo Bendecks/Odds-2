@@ -4,87 +4,87 @@ Fixture sources: TheSportsDB, Football-Data fixtures proxy, cautious odds-api.io
 Duplicate fixtures are deduplicated by date and normalized teams, preferring odds-api.io then Football-Data for odds alignment.
 Primary development target: automatic/free market proxy, not manual Bet365.
 
-Fixtures found: 532
-Source counts: {'odds_api_io_events_bookmaker_filtered': 519, 'football_data_fixtures_proxy': 12, 'odds_api_io_events_search': 1}
+Fixtures found: 363
+Source counts: {'odds_api_io_events_bookmaker_filtered': 345, 'football_data_fixtures_proxy': 9, 'odds_api_io_events_search': 9}
 Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 
-- 2026-05-30 14:00 | FC 1980 Wien vs LAC Inter | austria-amateur-wien-wiener-stadtliga | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 20:30 | 22 de Julio vs San Antonio FC | ecuador-serie-b | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 20:30 | 9 de Octubre FC vs Club Deportivo Cuenca Juniors | ecuador-serie-b | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 19:00 | AA Aparecidense GO vs Primavera AC MT | brazil-brasileiro-serie-d | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 22:00 | AA Portuguesa RJ vs America FC RJ | brazil-brasileiro-serie-d | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 18:00 | AB Argir vs NSI Runavik | faroe-islands-premier-league | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 19:00 | Abecat Ouvidorense GO vs Betim Futebol MG | brazil-brasileiro-serie-d | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 22:00 | AC Connecticut vs Boston City FC | usa-usl-league-two | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 19:00 | AC Goianiense GO vs Goias EC GO | brazil-brasileiro-serie-b | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 17:45 | AD Cabofriense RJ vs Audax Rio EC RJ | brazil-carioca-serie-a2 | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 14:15 | AD Ceuta vs Albacete Balompie | spain-laliga-2 | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 20:00 | Aguia de Maraba FC PA vs Tocantinopolis EC TO | brazil-brasileiro-serie-d | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 16:00 | Al Ittihad vs AL Budaiya | bahrain-premier-league | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 16:00 | Al-Najma Manama vs Manama Club | bahrain-premier-league | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 21:00 | Ambassadors FC Ohio vs Flower City Union | usa-national-premier-soccer-league | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 23:30 | Annapolis Blues FC vs Virginia Beach United | usa-usl-league-two | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 20:00 | AO Itabaiana SE vs Volta Redonda FC RJ | brazil-brasileiro-serie-c | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 18:30 | Argentino de Rosario vs Club Estrella Del Sur (Alejandro Korn) | argentina-primera-c | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 14:00 | Ariana FC vs Laholms FK | sweden-ettan-relegation/promotion | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 14:00 | ASKO Kohfidisch vs SV Leithaprodersdorf | austria-amateur-burgenland-burgenlandliga | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 14:00 | ASKO Kottmannsdorf vs SVG Bleiburg | austria-amateur-karnten-karntner-liga | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 16:00 | Asociacion Deportiva Tarma vs Cusco FC | peru-liga-1 | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 21:00 | Athletic Club Sjdr MG vs Fortaleza EC CE | brazil-brasileiro-serie-b | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 19:00 | Avai FC SC vs Criciuma EC SC | brazil-brasileiro-serie-b | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 14:00 | FC Baden vs FC Collina D Oro | switzerland-erste-liga | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 19:30 | Barquisimeto SC vs Deportivo Lara | venezuela-segunda-division | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 18:00 | Bentin Tacna Heroica vs CD Estudiantil Cni | peru-liga-2 | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 18:00 | Betim Futebol MG vs America FC MG | brazil-u20-mineiro-1-divisao | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 23:00 | Bigfoot FC vs Snohomish United | usa-usl-league-two | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 15:00 | Blekitni Stargard vs MKS Flota Swinoujscie | poland-iii-liga-group-2 | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 14:00 | Bollstanas SK vs Sunnersta AIF | sweden-division-2-promotion-playoffs | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 17:45 | Bonsucesso FC RJ vs Perolas Negras RJ | brazil-carioca-serie-a2 | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 23:00 | Boston Bolts vs Black Rock FC | usa-usl-league-two | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 21:00 | Botafogo FC PB vs Maringa FC PR | brazil-brasileiro-serie-c | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 15:00 | Bron Radom vs KS Warta Sieradz | poland-iii-liga-group-1 | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 17:30 | CA Claypole vs CA Central Cordoba Rosario | argentina-primera-c | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 17:30 | CA Lugano vs Deportivo Paraguayo | argentina-primera-c | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 19:00 | CA Paranaense PR vs Mirassol FC SP | brazil-brasileiro-serie-a | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 18:30 | CA Puerto Nuevo vs Club Mercedes | argentina-primera-c | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 20:00 | CA Tembetary Ypane vs Club Dr Benjamin Aceval | paraguay-segunda-division | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 15:00 | Cartusia Kartuzy vs Zawisza Bydgoszcz | poland-iii-liga-group-2 | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 19:00 | CD Concon National FC vs CD Provincial Ovalle FC | chile-segunda-division | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 16:00 | CD Izarra vs CD Pamplona | spain-amateur-tercera-federacion-group-15 | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 18:00 | CE Gramadense RS vs SERC Brasil de Farroupilha RS | brazil-copa-fgf | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 18:00 | CE Juventude de Estancia SE vs R4 CE | brazil-brasileiro-a3-women | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 15:30 | Central Ballester vs CSDC Espanol | argentina-primera-c | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 21:30 | Cerro Porteno vs Sportivo Trinidense | paraguay-camopeonato-femenino-women | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 15:15 | Ceuta vs Albacete | SP2 | football_data_fixtures_proxy
-- 2026-05-30 22:00 | Charleston Battery vs Detroit City FC | usa-usl-championship | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 18:30 | Chattanooga Red Wolves SC vs Asheville City SC | usa-usl-w-league | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 23:00 | Chattanooga Red Wolves SC vs Charlotte Independence | usa-usl-league-one | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 14:00 | Ciudad Nueva Santa Cruz vs Virginia Usc | bolivia-copa-simon-bolivar | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 20:30 | Club Alianza Lima vs Sporting Cristal | peru-liga-femenina | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 17:30 | Club Comunicaciones vs CD Armenio | argentina-primera-b | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 14:30 | Club Deportivo Libertad FC vs Club Deportivo Amanecer | bolivia-copa-simon-bolivar | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 18:30 | Club Deportivo Magallanes vs Deportes Iquique | chile-primera-division-women | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 17:30 | Club El Porvenir vs Deportivo Muniz | argentina-primera-c | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 22:30 | Club General Caballero JLM vs Paraguari AC | paraguay-segunda-division | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 18:30 | Club Lujan vs Leones de Rosario FC | argentina-primera-c | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 22:00 | Colon FC vs Miramar Misiones | uruguay-segunda-division | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 14:00 | FC Concordia Basel vs Grasshopper Club Zurich II | switzerland-erste-liga | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 15:00 | Coquimbo Unido vs Universidad Catolica | chile-primera-division-women | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 18:00 | Coritiba FC PR vs Heips RJ | brazil-brasileiro-a3-women | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 19:00 | CR Flamengo RJ vs Coritiba FC PR | brazil-brasileiro-serie-a | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 17:30 | CS Dock Sud vs CA Brown de Adrogue | argentina-primera-b | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 14:30 | CS Minerul Lupeni vs CSM Unirea Alba Iulia | romania-liga-3 | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 20:30 | Cumbaya FC vs CD Independiente Juniors | ecuador-serie-b | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 18:00 | Danubio FC vs CA Progreso | uruguay-primera-division | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 22:00 | Defensores de Cambaceres vs Centro Espanol | argentina-primera-c | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 19:00 | Deportes La Serena vs Colo-Colo | chile-primera-division | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 16:30 | Deportes Recoleta vs San Luis de Quillota | chile-primera-b | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 20:00 | Deportivo Garcilaso vs Juan Pablo II College | peru-liga-1 | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 14:00 | FC Deutschkreutz vs SV Eberau | austria-amateur-burgenland-burgenlandliga | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 19:00 | EC Agua Santa SP vs Madureira RJ | brazil-brasileiro-serie-d | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 20:30 | EC Bahia BA vs Botafogo FR RJ | brazil-brasileiro-serie-a | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 20:00 | EC XV de Novembro Piracicaba SP vs EC Noroeste SP | brazil-brasileiro-serie-d | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 23:30 | Ecuador vs Saudi Arabia | international-int-friendly-games | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 15:00 | Eff Setubal vs S.C. Rio Tinto | portugal-ii-divisao-women | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 15:00 | Elana Torun vs Gzs Tluchovia Tluchowo | poland-iii-liga-group-2 | odds_api_io_events_bookmaker_filtered
-- 2026-05-30 14:00 | FH Hafnarfjordur vs Fram | iceland-besta-deild-women | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 11:00 | 1. FC Slovacko Uherske Hradiste vs SK Artis Brno | czechia-1-liga | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 19:00 | AA Internacional Limeira SP vs Ypiranga FC RS | brazil-brasileiro-serie-c | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 14:00 | Aalesund FK 2 vs Strindheim TF | norway-3rd-division-group-2 | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 13:00 | AC Horsens vs Kolding IF | denmark-1-division | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 13:00 | AC Oulu vs FF Jaro | finland-veikkausliiga | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 16:00 | AD Cantolao vs CDU San Martin | peru-liga-2 | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 18:00 | AD Sao Caetano SP vs Botafogo FC SP | brazil-u20-paulista | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 18:00 | AE Realidade Jovem SP vs Criciuma EC SC | brazil-brasileiro-a3-women | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 19:15 | Afturelding vs Fylkir Reykjavik | iceland-1-deild | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 10:00 | AGF Aarhus vs HB Koege | denmark-kvindeligaen-women | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 13:00 | Albion FC vs Montevideo City Torque | uruguay-primera-division | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 17:30 | Almeria vs Valladolid | SP2 | football_data_fixtures_proxy
+- 2026-05-31 21:30 | Anapolis FC GO vs Maranhao AC MA | brazil-brasileiro-serie-c | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 23:00 | Angel City FC vs North Carolina Courage | usa-national-womens-soccer-league | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 10:00 | Ansan Greeners FC vs Cheonan City FC | republic-of-korea-k-league-2 | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 17:00 | Arborg vs Hafnir | iceland-4-deild | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 17:00 | Arenas Armilla CD vs CF Motril | spain-amateur-tercera-federacion-group-9 | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 14:00 | Arendal FK vs Sotra SK | norway-2nd-division-group-1 | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 20:00 | Atletico Avila FC vs Bolivar SC | venezuela-segunda-division | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 20:00 | Atletico Balboa vs CD Inca | el-salvador-segunda-division | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 14:00 | Augnablik Kopavogur vs Hottur/Huginn | iceland-3-deild | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 13:00 | Avai FC SC vs Figueirense FC SC | brazil-u20-catarinense-serie-a | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 12:30 | Big Bullets vs Moyale Barracks | malawi-super-league | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 12:00 | BK Hacken vs Hammarby IF | sweden-allsvenskan | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 05:00 | Blaublitz Akita vs Hokkaido Consadole Sapporo | japan-jleague-2 | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 05:00 | Boroondara Eagles vs Essendon Royals SC | australia-victoria-npl-women | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 19:00 | Brasiliense FC DF vs Luverdense EC MT | brazil-brasileiro-serie-d | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 21:30 | Brazil vs Panama | international-int-friendly-games | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 20:00 | Brazil Juniors vs SV River Plate Aruba | aruba-division-honor | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 14:00 | Brighton and Hove Albion WFC vs Manchester City WFC | england-amateur-fa-cup-women | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 03:00 | Broadmeadow Magic FC vs Lambton Jaffas FC | australia-northern-nsw-npl | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 05:00 | Broadmeadow Magic FC Reserve vs Lambton Jaffas FC Reserve | australia-northern-nsw-npl-reserves | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 19:00 | Brujas de Salamanca vs Santiago City FC | chile-segunda-division | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 15:00 | Bryne FK vs Hoedd IL | norway-1st-division | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 04:40 | Bulls FC Academy vs Western City Rangers FC | australia-nsw-premier-league-women | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 17:30 | Burgos vs Andorra | SP2 | football_data_fixtures_proxy
+- 2026-05-31 12:00 | Buriram United vs Prachuap FC | thailand-fa-cup | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 18:30 | CA Defensores Unidos vs CSD Flandria | argentina-primera-b | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 15:30 | CA Fenix Montevideo vs Club Atletico Rentistas | uruguay-segunda-division | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 18:30 | CA General Lamadrid vs Yupanqui | argentina-primera-c | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 18:00 | CA Juventud de Las Piedras vs Montevideo Wanderers | uruguay-primera-division | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 18:30 | CA Paranaense PR vs Araucaria ECR PR | brazil-u20-paranaense-1-divisao | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 18:30 | CA River Plate (URU) vs CA Atenas de San Carlos | uruguay-segunda-division | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 18:30 | CA Villa San Carlos vs CA Excursionistas | argentina-primera-b | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 18:15 | FC Cajamarca vs Alianza Lima | peru-liga-1 | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 05:00 | Canberra Croatia FC vs Belconnen United | australia-capital-npl-women | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 04:30 | Canberra Olympic vs West Canberra Wanderers FC | australia-capital-npl-women | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 15:00 | Cape Verde vs Serbia | international-int-friendly-games | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 17:30 | Castellon vs Eibar | SP2 | football_data_fixtures_proxy
+- 2026-05-31 16:30 | Caudal Deportivo vs CD Covadonga | spain-amateur-tercera-federacion-group-2 | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 17:00 | CD Atletico Baleares vs Real Jaen CF | spain-segunda-federacion | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 16:30 | CD Castellon vs SD Eibar | spain-laliga-2 | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 17:00 | CD Derio vs SD Leioa | spain-amateur-tercera-federacion-group-4 | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 16:00 | CD El Nacional vs LDU Portoviejo | ecuador-serie-b | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 19:00 | CD Leganes vs CD Mirandes | spain-laliga-2 | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 21:30 | CD O´Higgins vs CD Everton Vina del Mar | chile-primera-division | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 11:00 | CD Tenerife vs RC Deportivo De La Coruna | spain-primera-division-women | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 18:30 | CDM Leandro N. Alem vs ASD Justo Jose de Urquiza | argentina-primera-c | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 14:15 | CE Europa vs RC Celta Fortuna | spain-primera-federacion | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 18:00 | Ceara SC CE vs CR Vasco da Gama RJ | brazil-brasileiro-serie-a2-women | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 19:00 | Ceara SC CE vs Operario Ferroviario EC PR | brazil-brasileiro-serie-b | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 22:00 | Chicago Dutch Lions FC vs Edgewater Castle | usa-usl-league-two | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 17:00 | Chicago Stars FC vs San Diego Wave FC | usa-national-womens-soccer-league | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 13:00 | China vs Saudi Arabia | international-youth-toulon-tournament | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 12:30 | Chitipa United vs Mighty Wanderers FC | malawi-super-league | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 19:00 | Cianorte FC PR vs Santa Catarina SC | brazil-brasileiro-serie-d | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 22:00 | Cienciano vs Sporting Cristal | peru-liga-1 | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 04:30 | Clarence Zebras FC vs South East United FC | australia-tasmania-npl | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 11:00 | Clermont Foot vs AS Monaco | france-championnat-national-u19 | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 19:30 | Club Atletico Barinas vs Atletico El Vigia | venezuela-segunda-division | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 19:00 | Club Laguna SAF vs ABC FC RN | brazil-brasileiro-serie-d | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 23:30 | Clube do Remo PA vs Sao Paulo FC SP | brazil-brasileiro-serie-a | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 19:00 | Colo Colo vs Huachipato | chile-primera-division-women | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 11:00 | Cong An Ha Noi FC vs Becamex Ho Chi Minh City | vietnam-v-league-1 | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 11:00 | Cong An TP Ho Chi Minh City FC vs The Cong - Viettel FC | vietnam-v-league-1 | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 16:30 | Congo Dr Youth vs Tunisia Youth | international-youth-toulon-tournament | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 20:00 | Cordoba vs Huesca | SP2 | football_data_fixtures_proxy
+- 2026-05-31 19:00 | Cordoba CF vs SD Huesca | spain-laliga-2 | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 19:00 | CR Vasco da Gama RJ vs Atletico Mineiro MG | brazil-brasileiro-serie-a | odds_api_io_events_bookmaker_filtered
+- 2026-05-31 23:30 | Cruzeiro EC MG vs Fluminense FC RJ | brazil-brasileiro-serie-a | odds_api_io_events_bookmaker_filtered

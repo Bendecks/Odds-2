@@ -3,23 +3,14 @@
 Free delayed market proxy. Not live odds and not real-money ready.
 
 Raw rows: 12
-Upcoming fixture rows: 12
-Proxy price rows: 36
+Upcoming fixture rows: 9
+Proxy price rows: 27
 Sources attempted: 1
 Errors: 0
 
 - 2026-05-31 17:30 | Gent vs Genk | football_data_bet365_proxy | 2.9/3.75/2.2
 - 2026-05-31 17:30 | Gent vs Genk | football_data_max_market_proxy | 3.0/3.75/2.25
 - 2026-05-31 17:30 | Gent vs Genk | football_data_average_market_proxy | 2.89/3.55/2.19
-- 2026-05-30 15:15 | Ceuta vs Albacete | football_data_bet365_proxy | 2.3/3.2/3.1
-- 2026-05-30 15:15 | Ceuta vs Albacete | football_data_max_market_proxy | 2.38/3.4/3.14
-- 2026-05-30 15:15 | Ceuta vs Albacete | football_data_average_market_proxy | 2.29/3.2/2.88
-- 2026-05-30 15:15 | Sociedad B vs Cultural Leonesa | football_data_bet365_proxy | 2.25/3.25/3.1
-- 2026-05-30 15:15 | Sociedad B vs Cultural Leonesa | football_data_max_market_proxy | 2.34/3.4/3.1
-- 2026-05-30 15:15 | Sociedad B vs Cultural Leonesa | football_data_average_market_proxy | 2.25/3.24/2.91
-- 2026-05-30 20:00 | Granada vs Sp Gijon | football_data_bet365_proxy | 2.32/3.4/2.75
-- 2026-05-30 20:00 | Granada vs Sp Gijon | football_data_max_market_proxy | 2.46/3.4/2.95
-- 2026-05-30 20:00 | Granada vs Sp Gijon | football_data_average_market_proxy | 2.34/3.24/2.76
 - 2026-05-31 17:30 | Almeria vs Valladolid | football_data_bet365_proxy | 1.39/5.25/5.75
 - 2026-05-31 17:30 | Almeria vs Valladolid | football_data_max_market_proxy | 1.42/5.25/7.8
 - 2026-05-31 17:30 | Almeria vs Valladolid | football_data_average_market_proxy | 1.38/4.6/6.54
@@ -38,3 +29,9 @@ Errors: 0
 - 2026-05-31 17:30 | Zaragoza vs Malaga | football_data_bet365_proxy | 4.75/3.6/1.71
 - 2026-05-31 17:30 | Zaragoza vs Malaga | football_data_max_market_proxy | 5.0/3.6/1.85
 - 2026-05-31 17:30 | Zaragoza vs Malaga | football_data_average_market_proxy | 4.34/3.34/1.77
+- 2026-05-31 20:00 | Cordoba vs Huesca | football_data_bet365_proxy | 1.71/3.2/5.5
+- 2026-05-31 20:00 | Cordoba vs Huesca | football_data_max_market_proxy | 1.8/3.65/5.5
+- 2026-05-31 20:00 | Cordoba vs Huesca | football_data_average_market_proxy | 1.72/3.35/4.74
+- 2026-05-31 20:00 | Leganes vs Mirandes | football_data_bet365_proxy | 2.05/3.5/3.3
+- 2026-05-31 20:00 | Leganes vs Mirandes | football_data_max_market_proxy | 2.05/3.5/3.5
+- 2026-05-31 20:00 | Leganes vs Mirandes | football_data_average_market_proxy | 2.0/3.39/3.29
