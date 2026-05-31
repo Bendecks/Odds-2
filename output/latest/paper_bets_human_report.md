@@ -5,11 +5,11 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 
 ## Kort status
 
-- Aktuelle viste paper picks: **22**
-- Unikke loggede paper picks: **631**
-- Afventer i loggen: **628**
+- Aktuelle viste paper picks: **23**
+- Unikke loggede paper picks: **646**
+- Afventer i loggen: **643**
 - Afgjorte fundet i settled-filen: **210**
-- Skjulte U-/reserve-rækker: **34**
+- Skjulte U-/reserve-rækker: **33**
 - Vundne: **70**
 - Tabte: **140**
 - Samlet ROI i units: **-3.45**
@@ -32,15 +32,6 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Odds: **5.25**
 - Status: **Afventer**
 - Type: **priority_proxy_observation**
-- Note: **expanded_volume_forward_observation_not_real_money**
-
-### Real Madrid vs Granada CF
-- Dato: **2026-05-31**
-- Kampstart: **10:00**
-- Spil: **Uafgjort**
-- Odds: **6.50**
-- Status: **Afventer**
-- Type: **volume_observation**
 - Note: **expanded_volume_forward_observation_not_real_money**
 
 ### Real Zaragoza vs Malaga CF
@@ -79,27 +70,18 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Mitchelton FC vs SWQ Thunder FC
+### FK Teteks 1953 vs FK Vlaznimi Struga
 - Dato: **2026-05-31**
-- Kampstart: **07:00**
-- Spil: **Hjemmesejr**
-- Odds: **4.50**
+- Kampstart: **14:30**
+- Spil: **Udebanesejr**
+- Odds: **5.00**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Veertien Mie FC vs FC Fujizakura
+### Bryne FK vs Hoedd IL
 - Dato: **2026-05-31**
-- Kampstart: **04:00**
-- Spil: **Hjemmesejr**
-- Odds: **4.50**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### FC Imabari vs FC Ryukyu
-- Dato: **2026-05-31**
-- Kampstart: **05:00**
+- Kampstart: **15:00**
 - Spil: **Udebanesejr**
 - Odds: **5.00**
 - Status: **Afventer**
@@ -124,74 +106,92 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Gil Vicente FC vs Rio Ave FC
+### Tromsdalen UIL vs Skeid Fotball
 - Dato: **2026-05-31**
-- Kampstart: **10:00**
-- Spil: **Hjemmesejr**
-- Odds: **4.20**
+- Kampstart: **14:30**
+- Spil: **Udebanesejr**
+- Odds: **4.50**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Tuggeranong United FC vs Majura FC
+### UMF Njardvik vs Grotta
 - Dato: **2026-05-31**
-- Kampstart: **06:15**
-- Spil: **Uafgjort**
-- Odds: **6.50**
+- Kampstart: **14:00**
+- Spil: **Udebanesejr**
+- Odds: **4.50**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### West Adelaide SC vs Adelaide City FC
+### Pelister Bitola vs KF Shkendija Haracine
 - Dato: **2026-05-31**
-- Kampstart: **07:15**
-- Spil: **Hjemmesejr**
-- Odds: **4.10**
+- Kampstart: **14:30**
+- Spil: **Udebanesejr**
+- Odds: **4.50**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Magic United Tfa vs Lions FC
+### IFK Lidingo FK vs Falu BS FK
 - Dato: **2026-05-31**
-- Kampstart: **04:30**
-- Spil: **Uafgjort**
-- Odds: **6.25**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Moreton City Excelsior vs The Gap FC
-- Dato: **2026-05-31**
-- Kampstart: **07:00**
+- Kampstart: **13:45**
 - Spil: **Hjemmesejr**
 - Odds: **3.90**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Sydney United 58 FC vs Sutherland Sharks
+### Ostersunds FK vs Orebro SK
 - Dato: **2026-05-31**
-- Kampstart: **04:30**
+- Kampstart: **15:00**
 - Spil: **Udebanesejr**
-- Odds: **4.20**
+- Odds: **4.33**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Canberra Croatia FC vs Belconnen United
+### PK-35 Helsinki vs HJK Klubi 04
 - Dato: **2026-05-31**
-- Kampstart: **05:00**
+- Kampstart: **15:00**
+- Spil: **Udebanesejr**
+- Odds: **4.33**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Raufoss IL vs FK Haugesund
+- Dato: **2026-05-31**
+- Kampstart: **15:00**
+- Spil: **Hjemmesejr**
+- Odds: **3.80**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Club Lions Tomina vs Impacto Deportivo de Sopachuy
+- Dato: **2026-05-31**
+- Kampstart: **15:00**
+- Spil: **Hjemmesejr**
+- Odds: **3.80**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Kongsvinger IL Toppfotball vs Aasane Fotball
+- Dato: **2026-05-31**
+- Kampstart: **15:00**
 - Spil: **Uafgjort**
 - Odds: **5.75**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Yeoju FC vs Daejeon Korail FC
+### UMF Selfoss vs Vikingur Olafsvik
 - Dato: **2026-05-31**
-- Kampstart: **08:00**
-- Spil: **Hjemmesejr**
-- Odds: **3.70**
+- Kampstart: **14:00**
+- Spil: **Udebanesejr**
+- Odds: **4.00**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**

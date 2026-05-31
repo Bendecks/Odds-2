@@ -1,10 +1,6 @@
 # Skjulte U-/reserve-rækker
 
-Skjulte rækker: 34
-
-## Aktuelle
-
-- 2026-05-31 kl. 05:00 – West Adelaide SC Reserve vs Adelaide City FC Reserve
+Skjulte rækker: 33
 
 ## Log
 
