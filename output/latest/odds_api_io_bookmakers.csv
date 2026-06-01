@@ -114,7 +114,7 @@ eFortuna PL,True,all_bookmakers
 Epicbet,False,all_bookmakers
 Esportiva Bet,False,all_bookmakers
 Estrela Bet,True,all_bookmakers
-Eurobet IT,True,all_bookmakers
+Eurobet IT,False,all_bookmakers
 Expekt DK,False,all_bookmakers
 Expekt SE,True,all_bookmakers
 Fair999 Exchange,True,all_bookmakers
@@ -209,7 +209,7 @@ Qbet,False,all_bookmakers
 Quickcasino DK,True,all_bookmakers
 Quickcasino SE,True,all_bookmakers
 QuickWin,True,all_bookmakers
-Quigioco IT,False,all_bookmakers
+Quigioco IT,True,all_bookmakers
 QuinnBet,True,all_bookmakers
 Rabona,True,all_bookmakers
 Rainbet,True,all_bookmakers

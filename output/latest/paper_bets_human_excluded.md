@@ -1,6 +1,10 @@
 # Skjulte U-/reserve-rækker
 
-Skjulte rækker: 33
+Skjulte rækker: 35
+
+## Aktuelle
+
+- 2026-06-01 kl. 08:15 – FC Bulleen Lions vs Port Melbourne Sharks SC
 
 ## Log
 
@@ -28,6 +32,7 @@ Skjulte rækker: 33
 - 2026-05-16 kl. 12:00 – SC Wiedenbruck vs Borussia Dortmund II
 - 2026-05-23 kl. 02:45 – Canberra White Eagles FC vs O'Connor Knights SC
 - 2026-05-15 kl. 08:30 – Caboolture Sports FC vs North Star
+- 2026-06-01 kl. 08:15 – FC Bulleen Lions vs Port Melbourne Sharks SC
 - 2026-05-23 kl. 02:45 – Adelaide Atletico Victory Reserves vs South Adelaide Reserve
 - 2026-05-15 kl. 08:15 – Melbourne Knights FC vs Eltham Redbacks FC
 - 2026-05-30 kl. 05:00 – Olympic Kingsway SC vs Dianella White Eagles SC

@@ -2,17 +2,15 @@
 
 Model used: `gemini-2.0-flash`
 
-```markdown
-1. **Current system status:** Proxy paper-testing started, but not mature. Negative CLV trend persists in historical data. Automatic proxy odds ingestion is working, but coverage needs improvement.
-2. **Biggest weakness:** Negative CLV trend and moderate market alignment.
-3. **Best next development step:** Improve probability calibration to address negative CLV and market alignment issues.
-4. **Readiness:** paper-test-ready
-5. **One concrete change to prioritize next:** Implement more aggressive probability calibration, specifically targeting the 0.00-0.35 probability band.
-6. **Current suppression rules:** Reasonable
-7. **Probability calibration layer:** Too weak
-8. **Paper-test pick filter:** Reasonable
-9. **Probability band to monitor next:** 0.35-0.45
-10. **Calibration impact:** Increased
-11. **Blocking true forward paper-testing:** Model matching (due to baseline_unmatched_fixture entries)
-12. **Manual odds instructions:** Sufficient for optional fallback.
-```
+1.  Current system status: `proxy_paper_testing_started`
+2.  Biggest weakness: Negative CLV trend.
+3.  Best next development step: Improve calibration to address negative CLV.
+4.  Readiness: paper-test-ready
+5.  One concrete change to prioritize next: Add team aliases for upcoming fixtures to improve fixture matching.
+6.  Current suppression rules look: reasonable
+7.  Probability calibration layer looks: too aggressive
+8.  Paper-test pick filter is: too loose
+9.  Probability band to protect, suppress, or monitor next: Monitor 0.35-0.45
+10. Calibration impact should be: reduced
+11. Blocking true forward paper-testing right now: fixture model matching
+12. Manual odds instructions are: sufficient

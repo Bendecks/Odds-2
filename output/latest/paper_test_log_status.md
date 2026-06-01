@@ -1,11 +1,11 @@
 # Paper Test Log Status
 
-Raw log rows: 859
-Valid forward/proxy log rows: 856
-Deduped forward/proxy observation rows: 675
+Raw log rows: 884
+Valid forward/proxy log rows: 881
+Deduped forward/proxy observation rows: 700
 Duplicate forward/proxy log rows: 181
-Valid automatic proxy observation rows: 856
-Deduped automatic proxy observation rows: 675
+Valid automatic proxy observation rows: 881
+Deduped automatic proxy observation rows: 700
 Invalid historical/proxy log rows excluded: 3
 Has valid forward log: True
 
@@ -34,26 +34,26 @@ Has valid forward log: True
 
 ## Raw valid rows
 
-- 2026-05-31 | Sydney United 58 FC vs Sutherland Sharks | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-31 | Canberra Croatia FC vs Belconnen United | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-31 | Yeoju FC vs Daejeon Korail FC | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-31 | Ansan Greeners FC vs Cheonan City FC | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-31 | Boroondara Eagles vs Essendon Royals SC | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-31 | FK Teteks 1953 vs FK Vlaznimi Struga | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-31 | Bryne FK vs Hoedd IL | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-31 | Tromsdalen UIL vs Skeid Fotball | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-31 | UMF Njardvik vs Grotta | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-31 | Pelister Bitola vs KF Shkendija Haracine | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-31 | IFK Lidingo FK vs Falu BS FK | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-31 | Ostersunds FK vs Orebro SK | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-31 | PK-35 Helsinki vs HJK Klubi 04 | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-31 | Raufoss IL vs FK Haugesund | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-31 | Club Lions Tomina vs Impacto Deportivo de Sopachuy | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-31 | Kongsvinger IL Toppfotball vs Aasane Fotball | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-31 | UMF Selfoss vs Vikingur Olafsvik | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-31 | Universidad de Concepcion vs Palestino | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-31 | Czechia vs Kosovo | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-05-31 | India vs Bangladesh | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-01 | FC Atletico CE vs Piaui PI | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-01 | Norway vs Sweden | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-01 | Barra FC SC vs Brusque FC SC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-01 | CS Barracas vs CA Atlas | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-01 | KH Hlidarendi vs Arbaer | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-01 | FC Elva vs Tartu JK Welco | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-01 | FC Arlanda vs Gefle IF | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-01 | Guairena FC vs Club 3 De Noviembre | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-01 | Pakistan vs Bangladesh | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-01 | Slovakia vs Malta | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-01 | FC Bulleen Lions vs Port Melbourne Sharks | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-01 | FC Bulleen Lions vs Port Melbourne Sharks SC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-01 | Turkiye vs North Macedonia | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-01 | SC Recife PE vs Paysandu SC PA | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-01 | Chapaquito Nacional Senac vs Club Deportivo San Martin | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-01 | Bulawayo Chiefs FC vs Manica Diamonds FC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-01 | Leones Futbol Club vs CSD Macara | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-01 | CODM Meknes vs Olympique Dcheira | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-01 | KFG Gardabaer vs Fjolnir | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-01 | Vard Haugesund vs Aasane Fotball 2 | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 
 ## Invalid rows excluded
 
