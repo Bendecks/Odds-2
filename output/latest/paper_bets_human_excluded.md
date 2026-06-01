@@ -1,10 +1,6 @@
 # Skjulte U-/reserve-rækker
 
-Skjulte rækker: 35
-
-## Aktuelle
-
-- 2026-06-01 kl. 08:15 – FC Bulleen Lions vs Port Melbourne Sharks SC
+Skjulte rækker: 34
 
 ## Log
 

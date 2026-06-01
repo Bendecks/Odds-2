@@ -5,17 +5,17 @@ This is not real-money ready and does not override suppression rules for candida
 
 Value snapshot rows: 135
 Paper proxy observation rows: 25
-Positive EV value rows: 61
+Positive EV value rows: 60
 Suppressed-band observation rows: 0
-Distinct matches: 24
+Distinct matches: 25
 Distinct sources: 0
-Max EV: 0.7917
-Average EV: 0.417217
-Max probability edge: 0.166674
+Max EV: 0.781
+Average EV: 0.42575
+Max probability edge: 0.140467
 Average match confidence: None
 
 ## By selection
 
-- away: rows=12, avg_ev=0.4141, max_ev=0.744
-- draw: rows=8, avg_ev=0.3529, max_ev=0.37
-- home: rows=5, avg_ev=0.5277, max_ev=0.7917
+- away: rows=14, avg_ev=0.4151, max_ev=0.6742
+- draw: rows=8, avg_ev=0.4556, max_ev=0.781
+- home: rows=3, avg_ev=0.3956, max_ev=0.5088

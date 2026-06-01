@@ -1,3 +1,3 @@
 discovery_source,candidate_rows,selected_rows,best_confidence,avg_confidence
-events_bookmaker_filtered,3976,80,1.0,0.2478377263581489
-events_search_fallback,4,2,1.0,0.7879
+events_bookmaker_filtered,5233,78,1.0,0.23443991974011083
+events_search_fallback,2,2,1.0,1.0

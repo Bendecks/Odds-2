@@ -1,2 +1,2 @@
 proxy_candidate_rows,explained_rows,distinct_blockers,top_blocker,real_money_ready
-12,12,6,market_alignment_penalty_too_high_for_real_candidate,False
+12,12,6,ev_above_real_candidate_cap_possible_overconfidence,False

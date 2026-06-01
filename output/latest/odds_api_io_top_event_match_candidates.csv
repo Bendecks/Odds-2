@@ -1,26 +1,26 @@
 discovery_source,query,target_home_team,target_away_team,target_match_date,candidate_event_id,candidate_home_team,candidate_away_team,candidate_match_date,event_match_confidence,selected,rejection_reason,selected_bool,event_match_confidence_num
-events_bookmaker_filtered,Athletic Club MG,Athletic Club MG,Atletico Mineiro MG,2026-06-01,71633100,Athletic Club MG,Atletico Mineiro MG,2026-06-01,1.0,True,,True,1.0
-events_bookmaker_filtered,CA Boston River,CA Boston River,Liverpool Montevideo,2026-06-01,71737152,CA Boston River,Liverpool Montevideo,2026-06-01,1.0,True,,True,1.0
-events_bookmaker_filtered,Turkiye,Turkiye,North Macedonia,2026-06-01,71301328,Turkiye,North Macedonia,2026-06-01,1.0,True,,True,1.0
-events_bookmaker_filtered,Skovde AIK,Skovde AIK,Jonkopings Sodra IF,2026-06-01,68311638,Skovde AIK,Jonkopings Sodra IF,2026-06-01,1.0,True,,True,1.0
-events_bookmaker_filtered,SC Recife PE,SC Recife PE,Paysandu SC PA,2026-06-01,68971786,SC Recife PE,Paysandu SC PA,2026-06-01,1.0,True,,True,1.0
-events_bookmaker_filtered,Racing Club Montevideo,Racing Club Montevideo,La Luz FC Reserves,2026-06-01,71772920,Racing Club Montevideo,La Luz FC Reserves,2026-06-01,1.0,True,,True,1.0
-events_bookmaker_filtered,Wadi Degla SC,Wadi Degla SC,Enppi Club,2026-06-01,71580516,Wadi Degla SC,Enppi Club,2026-06-01,1.0,True,,True,1.0
+events_bookmaker_filtered,Colon de Santa Fe Reserve,Colon de Santa Fe Reserve,CA Huracan,2026-06-02,68158884,Colon de Santa Fe Reserve,CA Huracan,2026-06-02,1.0,True,,True,1.0
 events_bookmaker_filtered,AL Najaf,AL Najaf,Al Zawraa,2026-06-01,71685300,AL Najaf,Al Zawraa,2026-06-01,1.0,True,,True,1.0
-events_bookmaker_filtered,Wales,Wales,Ghana,2026-06-02,69829662,Wales,Ghana,2026-06-02,1.0,True,,True,1.0
-events_bookmaker_filtered,AL Talaba,AL Talaba,AL Karkh,2026-06-01,71685298,AL Talaba,AL Karkh,2026-06-01,1.0,True,,True,1.0
-events_bookmaker_filtered,Lyn 1896 FK II,Lyn 1896 FK II,FK Gjoevik-Lyn,2026-06-01,67921118,Lyn 1896 FK II,FK Gjoevik-Lyn,2026-06-01,1.0,True,,True,1.0
-events_bookmaker_filtered,EC Sao Jose RS,EC Sao Jose RS,Ypiranga RS,2026-06-01,71718926,EC Sao Jose RS,Ypiranga RS,2026-06-01,1.0,True,,True,1.0
-events_bookmaker_filtered,FC Arlanda,FC Arlanda,Gefle IF,2026-06-01,68310934,FC Arlanda,Gefle IF,2026-06-01,1.0,True,,True,1.0
-events_bookmaker_filtered,FC Jeunesse Canach,FC Jeunesse Canach,Residence Walferdange,2026-06-01,71741536,FC Jeunesse Canach,Residence Walferdange,2026-06-01,1.0,True,,True,1.0
-events_bookmaker_filtered,CA River Plate (URU),CA River Plate (URU),Colon FC Reserve,2026-06-01,71772922,CA River Plate (URU),Colon FC Reserve,2026-06-01,1.0,True,,True,1.0
-events_bookmaker_filtered,SC FC Voluntari,SC FC Voluntari,AFC Hermannstadt,2026-06-01,71604168,SC FC Voluntari,AFC Hermannstadt,2026-06-01,1.0,True,,True,1.0
-events_bookmaker_filtered,Ser Caxias RS,Ser Caxias RS,EC Juventude RS,2026-06-01,71718930,Ser Caxias RS,EC Juventude RS,2026-06-01,1.0,True,,True,1.0
-events_bookmaker_filtered,FC Wurzburger Kickers,FC Wurzburger Kickers,1. FC Lokomotive Leipzig,2026-06-01,71544086,FC Wurzburger Kickers,1. FC Lokomotive Leipzig,2026-06-01,1.0,True,,True,1.0
+events_search_fallback,Feng Y Z / Huang D P,Feng Y Z / Huang D P,Wong J / Cheng S Y,2026-06-02,71863280,Feng Y Z / Huang D P,Wong J / Cheng S Y,2026-06-02,1.0,True,,True,1.0
+events_search_fallback,"Chen, Yu Fei","Chen, Yu Fei","Christophersen, Line",2026-06-02,71863238,"Chen, Yu Fei","Christophersen, Line",2026-06-02,1.0,True,,True,1.0
+events_bookmaker_filtered,FC Fard Alborz,FC Fard Alborz,Sanat Mes Kerman FC,2026-06-02,70946098,FC Fard Alborz,Sanat Mes Kerman FC,2026-06-02,1.0,True,,True,1.0
 events_bookmaker_filtered,Argentino de Quilmes,Argentino de Quilmes,CA Ituzaingo,2026-06-01,67119354,Argentino de Quilmes,CA Ituzaingo,2026-06-01,1.0,True,,True,1.0
-events_bookmaker_filtered,Vard Haugesund,Vard Haugesund,Aasane Fotball 2,2026-06-01,67919956,Vard Haugesund,Aasane Fotball 2,2026-06-01,1.0,True,,True,1.0
 events_bookmaker_filtered,CA Fenix Pilar,CA Fenix Pilar,Canuelas FC,2026-06-01,67125798,CA Fenix Pilar,Canuelas FC,2026-06-01,1.0,True,,True,1.0
-events_bookmaker_filtered,Venezuela,Venezuela,Canada Youth,2026-06-01,70771304,Venezuela,Canada Youth,2026-06-01,1.0,True,,True,1.0
-events_bookmaker_filtered,CS Barracas,CS Barracas,CA Atlas,2026-06-01,67125796,CS Barracas,CA Atlas,2026-06-01,1.0,True,,True,1.0
-events_bookmaker_filtered,Norway,Norway,Sweden,2026-06-01,69829658,Norway,Sweden,2026-06-01,1.0,True,,True,1.0
+events_bookmaker_filtered,Havadar SC,Havadar SC,Navad Urmia FC,2026-06-02,70946102,Havadar SC,Navad Urmia FC,2026-06-02,1.0,True,,True,1.0
+events_bookmaker_filtered,Podbeskidzie Bielsko-Biała,Podbeskidzie Bielsko-Biała,Slask II Wroclaw,2026-06-02,71828240,Podbeskidzie Bielsko-Biała,Slask II Wroclaw,2026-06-02,1.0,True,,True,1.0
+events_bookmaker_filtered,Turkiye,Turkiye,North Macedonia,2026-06-01,71301328,Turkiye,North Macedonia,2026-06-01,1.0,True,,True,1.0
+events_bookmaker_filtered,China,China,Congo Dr Youth,2026-06-02,71826656,China,Congo Dr Youth,2026-06-02,1.0,True,,True,1.0
+events_bookmaker_filtered,Brunei Darussalam,Brunei Darussalam,Timor-Leste,2026-06-02,71770128,Brunei Darussalam,Timor-Leste,2026-06-02,1.0,True,,True,1.0
+events_bookmaker_filtered,Malaysia,Malaysia,Singapore,2026-06-02,71561984,Malaysia,Singapore,2026-06-02,1.0,True,,True,1.0
+events_bookmaker_filtered,FC Rosengaard 1917,FC Rosengaard 1917,Angelholms FF,2026-06-02,68311640,FC Rosengaard 1917,Angelholms FF,2026-06-02,1.0,True,,True,1.0
 events_bookmaker_filtered,Assyriska FF,Assyriska FF,Enkopings SK,2026-06-02,68310936,Assyriska FF,Enkopings SK,2026-06-02,1.0,True,,True,1.0
+events_bookmaker_filtered,CA Banfield,CA Banfield,CA Sarmiento de Junin,2026-06-02,68158876,CA Banfield,CA Sarmiento de Junin,2026-06-02,1.0,True,,True,1.0
+events_bookmaker_filtered,Guairena FC,Guairena FC,Club 3 De Noviembre,2026-06-01,71732910,Guairena FC,Club 3 De Noviembre,2026-06-01,1.0,True,,True,1.0
+events_bookmaker_filtered,Ario Eslamshahr,Ario Eslamshahr,Shahrdari Nowshahr,2026-06-02,70946092,Ario Eslamshahr,Shahrdari Nowshahr,2026-06-02,1.0,True,,True,1.0
+events_bookmaker_filtered,Mes Shahr-e Babak,Mes Shahr-e Babak,Sanat Naft Abadan FC,2026-06-02,70946168,Mes Shahr-e Babak,Sanat Naft Abadan FC,2026-06-02,1.0,True,,True,1.0
+events_bookmaker_filtered,Lyn 1896 FK II,Lyn 1896 FK II,FK Gjoevik-Lyn,2026-06-01,67921118,Lyn 1896 FK II,FK Gjoevik-Lyn,2026-06-01,1.0,True,,True,1.0
+events_bookmaker_filtered,Penarol Montevideo,Penarol Montevideo,Torque,2026-06-02,71772930,Penarol Montevideo,Torque,2026-06-02,1.0,True,,True,1.0
+events_bookmaker_filtered,Grange Thistle,Grange Thistle,Souths United FC,2026-06-02,71800584,Grange Thistle,Souths United FC,2026-06-02,1.0,True,,True,1.0
+events_bookmaker_filtered,Hellenic Athletic Club,Hellenic Athletic Club,Darwin Olympic SC,2026-06-02,71127924,Hellenic Athletic Club,Darwin Olympic SC,2026-06-02,1.0,True,,True,1.0
+events_bookmaker_filtered,Morocco,Morocco,Madagascar,2026-06-02,71590092,Morocco,Madagascar,2026-06-02,1.0,True,,True,1.0
+events_bookmaker_filtered,CS Barracas,CS Barracas,CA Atlas,2026-06-01,67125796,CS Barracas,CA Atlas,2026-06-01,1.0,True,,True,1.0

@@ -2,19 +2,19 @@
 
 This report combines repo-estimated Odds-API.io usage with provider rate-limit headers when available.
 
-Generated UTC: 2026-06-01T02:52:56.336113+00:00
+Generated UTC: 2026-06-01T17:25:46.288536+00:00
 Latest run calls used: 4 / 14
 Latest endpoint mode: multi_event_documented_endpoint
-Latest search queries: Magic United TFA, Central Espanol Reserve
+Latest search queries: Chen, Yu Fei, Feng Y Z / Huang D P
 Latest priced event rows: 10
 Latest errors/status rows: 70
 
 ## Provider rate-limit headers
 
 x-ratelimit-limit: 100
-x-ratelimit-remaining: 61
-remaining ratio: 0.61
-x-ratelimit-reset: 2026-06-01T03:37:04Z
+x-ratelimit-remaining: 62
+remaining ratio: 0.62
+x-ratelimit-reset: 2026-06-01T18:15:22Z
 retry-after: None
 
 ## Estimated repo-driven req/hr
@@ -22,9 +22,9 @@ retry-after: None
 - Last 1h: 4 calls across 1 runs => 4.0 req/hr
 - Last 6h: 4 calls across 1 runs => 0.6667 req/hr
 - Last 12h: 4 calls across 1 runs => 0.3333 req/hr
-- Last 24h: 7 calls across 2 runs => 0.2917 req/hr
-- Last 72h: 24 calls across 6 runs => 0.3333 req/hr
-- Last 168h: 51 calls across 13 runs => 0.3036 req/hr
+- Last 24h: 8 calls across 2 runs => 0.3333 req/hr
+- Last 72h: 23 calls across 6 runs => 0.3194 req/hr
+- Last 168h: 55 calls across 14 runs => 0.3274 req/hr
 
 ## Interpretation
 

@@ -4,66 +4,66 @@ Purpose: inspect the raw Odds-API.io odds responses we already fetch, without ad
 This report does not activate new markets. It only shows what may be available for future model expansion.
 
 Raw files scanned: 22
-Events seen in raw odds: 110
-Market rows seen: 2575
+Events seen in raw odds: 106
+Market rows seen: 2389
 Unique bookmakers: 2
-Unique market names: 60
-Bet365 market rows: 2443
+Unique market names: 59
+Bet365 market rows: 2239
 
 ## Market types found
 
-- Goals total / Over-Under: 773
-- Other / Unknown: 685
-- Handicap / Spread: 495
-- Both teams to score: 141
-- 1X2 / Match result: 133
-- Half-time / Period: 128
-- Double chance: 110
-- Correct score: 110
+- Goals total / Over-Under: 698
+- Other / Unknown: 621
+- Handicap / Spread: 485
+- 1X2 / Match result: 137
+- Half-time / Period: 122
+- Both teams to score: 120
+- Double chance: 103
+- Correct score: 103
 
 ## Bet365 market types found
 
-- Goals total / Over-Under: 717
-- Other / Unknown: 685
-- Handicap / Spread: 442
-- Both teams to score: 141
-- Half-time / Period: 128
-- 1X2 / Match result: 110
-- Double chance: 110
-- Correct score: 110
+- Goals total / Over-Under: 648
+- Other / Unknown: 621
+- Handicap / Spread: 416
+- Half-time / Period: 122
+- Both teams to score: 120
+- 1X2 / Match result: 106
+- Double chance: 103
+- Correct score: 103
 
 ## Most common Bet365 market names
 
-- ML: 110
-- Draw No Bet: 110
-- Double Chance: 110
-- Spread: 110
-- Totals: 110
-- Goals Over/Under: 110
-- Spread HT: 110
-- Correct Score: 110
-- Half Time Result: 110
-- Totals HT: 92
-- Corners Totals: 88
+- ML: 106
+- Spread: 106
+- Totals: 106
+- Spread HT: 106
+- Goals Over/Under: 105
+- Half Time Result: 105
+- Draw No Bet: 103
+- Double Chance: 103
+- Correct Score: 103
+- Totals HT: 88
 - Alternative Goal Line: 84
 - Alternative Asian Handicap: 84
-- Corners Totals HT: 80
-- Corners: 80
-- Corners 2-Way: 80
-- Both Teams To Score: 47
-- European Handicap: 47
-- 1st Half Handicap: 47
-- Exact Total Goals: 47
-- Alternative Corners: 47
-- Both Teams To Score HT: 47
-- Team Total Goals Away: 47
-- Number of Goals In Match: 47
-- Team Total Goals Home: 47
-- Total Corners: 47
-- Alternative Total Goals: 47
-- Both Teams To Score 2H: 47
-- Specials: 47
-- First 10 Minutes (00:00 - 09:59): 24
+- Corners Totals: 76
+- Corners Totals HT: 71
+- Corners: 71
+- Corners 2-Way: 71
+- Both Teams To Score: 40
+- European Handicap: 40
+- 1st Half Handicap: 40
+- Team Total Goals Away: 40
+- Alternative Corners: 40
+- Number of Goals In Match: 40
+- Specials: 40
+- Both Teams To Score 2H: 40
+- Both Teams To Score HT: 40
+- Exact Total Goals: 40
+- Alternative Total Goals: 40
+- Team Total Goals Home: 40
+- Total Corners: 40
+- First 10 Minutes (00:00 - 09:59): 20
 
 ## Expansion assessment
 

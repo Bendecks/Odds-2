@@ -1,11 +1,11 @@
 # Paper Test Log Status
 
-Raw log rows: 884
-Valid forward/proxy log rows: 881
-Deduped forward/proxy observation rows: 700
-Duplicate forward/proxy log rows: 181
-Valid automatic proxy observation rows: 881
-Deduped automatic proxy observation rows: 700
+Raw log rows: 905
+Valid forward/proxy log rows: 902
+Deduped forward/proxy observation rows: 714
+Duplicate forward/proxy log rows: 188
+Valid automatic proxy observation rows: 902
+Deduped automatic proxy observation rows: 714
 Invalid historical/proxy log rows excluded: 3
 Has valid forward log: True
 
@@ -34,26 +34,26 @@ Has valid forward log: True
 
 ## Raw valid rows
 
-- 2026-06-01 | FC Atletico CE vs Piaui PI | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-01 | Norway vs Sweden | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-01 | Barra FC SC vs Brusque FC SC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-01 | CS Barracas vs CA Atlas | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-01 | KH Hlidarendi vs Arbaer | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-01 | FC Elva vs Tartu JK Welco | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-01 | FC Arlanda vs Gefle IF | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-01 | Guairena FC vs Club 3 De Noviembre | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-01 | Pakistan vs Bangladesh | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-01 | Slovakia vs Malta | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-01 | FC Bulleen Lions vs Port Melbourne Sharks | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-01 | FC Bulleen Lions vs Port Melbourne Sharks SC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-01 | Turkiye vs North Macedonia | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-01 | SC Recife PE vs Paysandu SC PA | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-01 | Chapaquito Nacional Senac vs Club Deportivo San Martin | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-01 | Bulawayo Chiefs FC vs Manica Diamonds FC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-01 | Leones Futbol Club vs CSD Macara | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-01 | CODM Meknes vs Olympique Dcheira | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-01 | Colombia vs Costa Rica | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-02 | Wynnum Wolves FC vs Brisbane Roar FC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-01 | CA Fenix Pilar vs Canuelas FC | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-02 | FC Fard Alborz vs Sanat Mes Kerman FC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 - 2026-06-01 | KFG Gardabaer vs Fjolnir | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-01 | Vard Haugesund vs Aasane Fotball 2 | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-01 | FC Jeunesse Canach vs Residence Walferdange | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-01 | Throttur Reykjavik vs UMF Grindavik | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-01 | Barra FC SC vs Brusque FC SC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-02 | Ario Eslamshahr vs Shahrdari Nowshahr | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-01 | CODM Meknes vs Olympique Dcheira | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-02 | Grange Thistle vs Souths United FC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-01 | Turkiye vs North Macedonia | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-01 | Guairena FC vs Club 3 De Noviembre | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-02 | Al Kahrabaa SC vs AL Karma | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-02 | SV Estrella vs Jong Aruba | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-02 | Hellenic Athletic Club vs Darwin Olympic SC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-02 | Mes Shahr-e Babak vs Sanat Naft Abadan FC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-01 | CS Barracas vs CA Atlas | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-01 | KH Hlidarendi vs Arbaer | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-01 | AL Talaba vs AL Karkh | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 
 ## Invalid rows excluded
 

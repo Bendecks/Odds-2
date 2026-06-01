@@ -5,49 +5,40 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 
 ## Kort status
 
-- Aktuelle viste paper picks: **24**
-- Unikke loggede paper picks: **670**
-- Afventer i loggen: **667**
+- Aktuelle viste paper picks: **25**
+- Unikke loggede paper picks: **684**
+- Afventer i loggen: **681**
 - Afgjorte fundet i settled-filen: **210**
-- Skjulte U-/reserve-rækker: **35**
+- Skjulte U-/reserve-rækker: **34**
 - Vundne: **70**
 - Tabte: **140**
 - Samlet ROI i units: **-3.45**
 
 ## Aktuelle paper picks
 
-### Skovde AIK vs Jonkopings Sodra IF
-- Dato: **2026-06-01**
-- Kampstart: **17:00**
-- Spil: **Hjemmesejr**
-- Odds: **4.75**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### KFG Gardabaer vs Fjolnir
-- Dato: **2026-06-01**
-- Kampstart: **19:15**
-- Spil: **Hjemmesejr**
-- Odds: **4.75**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Throttur Reykjavik vs UMF Grindavik
-- Dato: **2026-06-01**
-- Kampstart: **19:15**
+### Al Quwa Al Jawiya vs Zakho FC
+- Dato: **2026-06-02**
+- Kampstart: **15:00**
 - Spil: **Udebanesejr**
-- Odds: **5.00**
+- Odds: **4.80**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Vanraure Hachinohe FC vs Fukushima United FC
+### Colombia vs Costa Rica
 - Dato: **2026-06-01**
-- Kampstart: **10:00**
+- Kampstart: **23:00**
+- Spil: **Uafgjort**
+- Odds: **6.50**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Wynnum Wolves FC vs Brisbane Roar FC
+- Dato: **2026-06-02**
+- Kampstart: **09:30**
 - Spil: **Udebanesejr**
-- Odds: **4.75**
+- Odds: **4.50**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
@@ -70,11 +61,47 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Norway vs Sweden
+### CA Fenix Pilar vs Canuelas FC
 - Dato: **2026-06-01**
-- Kampstart: **17:00**
+- Kampstart: **18:30**
+- Spil: **Hjemmesejr**
+- Odds: **3.80**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### FC Fard Alborz vs Sanat Mes Kerman FC
+- Dato: **2026-06-02**
+- Kampstart: **13:30**
 - Spil: **Udebanesejr**
-- Odds: **4.00**
+- Odds: **4.20**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### KFG Gardabaer vs Fjolnir
+- Dato: **2026-06-01**
+- Kampstart: **19:15**
+- Spil: **Uafgjort**
+- Odds: **5.75**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### FC Jeunesse Canach vs Residence Walferdange
+- Dato: **2026-06-01**
+- Kampstart: **17:30**
+- Spil: **Udebanesejr**
+- Odds: **4.10**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Throttur Reykjavik vs UMF Grindavik
+- Dato: **2026-06-01**
+- Kampstart: **19:15**
+- Spil: **Udebanesejr**
+- Odds: **4.10**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
@@ -83,43 +110,43 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Dato: **2026-06-01**
 - Kampstart: **23:00**
 - Spil: **Udebanesejr**
+- Odds: **4.10**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Ario Eslamshahr vs Shahrdari Nowshahr
+- Dato: **2026-06-02**
+- Kampstart: **14:00**
+- Spil: **Udebanesejr**
+- Odds: **4.10**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### CODM Meknes vs Olympique Dcheira
+- Dato: **2026-06-01**
+- Kampstart: **20:00**
+- Spil: **Udebanesejr**
 - Odds: **4.00**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### CS Barracas vs CA Atlas
-- Dato: **2026-06-01**
-- Kampstart: **18:30**
+### Grange Thistle vs Souths United FC
+- Dato: **2026-06-02**
+- Kampstart: **10:15**
 - Spil: **Udebanesejr**
-- Odds: **3.90**
+- Odds: **4.00**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### KH Hlidarendi vs Arbaer
-- Dato: **2026-06-01**
-- Kampstart: **19:15**
-- Spil: **Udebanesejr**
-- Odds: **3.90**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### FC Elva vs Tartu JK Welco
-- Dato: **2026-06-01**
-- Kampstart: **16:00**
-- Spil: **Hjemmesejr**
-- Odds: **3.50**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### FC Arlanda vs Gefle IF
+### Turkiye vs North Macedonia
 - Dato: **2026-06-01**
 - Kampstart: **17:30**
-- Spil: **Udebanesejr**
-- Odds: **3.80**
+- Spil: **Uafgjort**
+- Odds: **5.50**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
@@ -128,41 +155,23 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Dato: **2026-06-01**
 - Kampstart: **19:00**
 - Spil: **Udebanesejr**
-- Odds: **3.80**
+- Odds: **3.90**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Pakistan vs Bangladesh
-- Dato: **2026-06-01**
-- Kampstart: **11:00**
-- Spil: **Udebanesejr**
-- Odds: **3.80**
+### Al Kahrabaa SC vs AL Karma
+- Dato: **2026-06-02**
+- Kampstart: **15:00**
+- Spil: **Hjemmesejr**
+- Odds: **3.30**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Slovakia vs Malta
-- Dato: **2026-06-01**
-- Kampstart: **16:00**
-- Spil: **Uafgjort**
-- Odds: **5.00**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### FC Bulleen Lions vs Port Melbourne Sharks
-- Dato: **2026-06-01**
-- Kampstart: **10:30**
-- Spil: **Uafgjort**
-- Odds: **5.00**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Turkiye vs North Macedonia
-- Dato: **2026-06-01**
-- Kampstart: **17:30**
+### SV Estrella vs Jong Aruba
+- Dato: **2026-06-02**
+- Kampstart: **00:30**
 - Spil: **Uafgjort**
 - Odds: **5.00**
 - Status: **Afventer**
@@ -183,15 +192,6 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Kampstart: **19:30**
 - Spil: **Uafgjort**
 - Odds: **5.00**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Bulawayo Chiefs FC vs Manica Diamonds FC
-- Dato: **2026-06-01**
-- Kampstart: **13:00**
-- Spil: **Udebanesejr**
-- Odds: **3.60**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
