@@ -4,87 +4,87 @@ Fixture sources: TheSportsDB, Football-Data fixtures proxy, cautious odds-api.io
 Duplicate fixtures are deduplicated by date and normalized teams, preferring odds-api.io then Football-Data for odds alignment.
 Primary development target: automatic/free market proxy, not manual Bet365.
 
-Fixtures found: 150
-Source counts: {'odds_api_io_events_bookmaker_filtered': 108, 'odds_api_io_events_search': 42}
+Fixtures found: 282
+Source counts: {'odds_api_io_events_bookmaker_filtered': 241, 'odds_api_io_events_search': 41}
 Dedupe strategy: date_normalized_home_away_prefer_odds_api_then_football_data
 
-- 2026-06-01 22:00 | AA Ponte Preta SP vs Botafogo FC SP | brazil-brasileiro-serie-b | odds_api_io_events_bookmaker_filtered
-- 2026-06-01 17:30 | AL Najaf vs Al Zawraa | iraq-iraqi-league | odds_api_io_events_bookmaker_filtered
-- 2026-06-01 17:30 | AL Talaba vs AL Karkh | iraq-iraqi-league | odds_api_io_events_bookmaker_filtered
-- 2026-06-01 18:30 | Argentino de Quilmes vs CA Ituzaingo | argentina-primera-b | odds_api_io_events_bookmaker_filtered
-- 2026-06-01 18:00 | Athletic Club MG vs Atletico Mineiro MG | brazil-u20-mineiro-1-divisao | odds_api_io_events_bookmaker_filtered
-- 2026-06-01 19:00 | FC Atletico CE vs Piaui PI | brazil-brasileiro-serie-d | odds_api_io_events_bookmaker_filtered
-- 2026-06-01 18:45 | Austria vs Tunisia | international-int-friendly-games | odds_api_io_events_bookmaker_filtered
-- 2026-06-01 23:00 | Barra FC SC vs Brusque FC SC | brazil-brasileiro-serie-c | odds_api_io_events_bookmaker_filtered
-- 2026-06-01 18:00 | CA Boston River vs Liverpool Montevideo | uruguay-primera-division | odds_api_io_events_bookmaker_filtered
-- 2026-06-01 18:30 | CA Fenix Pilar vs Canuelas FC | argentina-primera-c | odds_api_io_events_bookmaker_filtered
-- 2026-06-01 23:00 | CA Penarol Montevideo vs Central Espanol FC | uruguay-primera-division | odds_api_io_events_bookmaker_filtered
-- 2026-06-01 18:00 | CA River Plate (URU) vs Colon FC Reserve | uruguay-tercera-division-reserves | odds_api_io_events_bookmaker_filtered
-- 2026-06-01 23:00 | CD Santa Cruz vs Deportes Copiapo | chile-primera-b | odds_api_io_events_bookmaker_filtered
-- 2026-06-01 19:30 | Chapaquito Nacional Senac vs Club Deportivo San Martin | bolivia-copa-simon-bolivar | odds_api_io_events_bookmaker_filtered
-- 2026-06-01 23:15 | CN Marcilio Dias SC vs Azuriz FC PR | brazil-brasileiro-serie-d | odds_api_io_events_bookmaker_filtered
-- 2026-06-01 20:00 | CODM Meknes vs Olympique Dcheira | morocco-botola-pro-d1 | odds_api_io_events_bookmaker_filtered
-- 2026-06-01 23:00 | Colombia vs Costa Rica | international-int-friendly-games | odds_api_io_events_bookmaker_filtered
-- 2026-06-01 18:30 | CS Barracas vs CA Atlas | argentina-primera-c | odds_api_io_events_bookmaker_filtered
-- 2026-06-01 23:00 | Curico Unido vs CD Antofagasta | chile-primera-b | odds_api_io_events_bookmaker_filtered
-- 2026-06-01 18:00 | EC Sao Jose RS vs Ypiranga RS | brazil-u20-gaucho-serie-a1 | odds_api_io_events_bookmaker_filtered
-- 2026-06-01 19:00 | Guairena FC vs Club 3 De Noviembre | paraguay-segunda-division | odds_api_io_events_bookmaker_filtered
-- 2026-06-01 17:30 | FC Jeunesse Canach vs Residence Walferdange | luxembourg-division-nationale | odds_api_io_events_bookmaker_filtered
-- 2026-06-01 19:15 | KFG Gardabaer vs Fjolnir | iceland-2-deild | odds_api_io_events_bookmaker_filtered
-- 2026-06-01 19:15 | KH Hlidarendi vs Arbaer | iceland-3-deild | odds_api_io_events_bookmaker_filtered
-- 2026-06-01 22:00 | Leones Futbol Club vs CSD Macara | ecuador-ligapro-primera-a | odds_api_io_events_bookmaker_filtered
-- 2026-06-01 18:00 | Lyn 1896 FK II vs FK Gjoevik-Lyn | norway-3rd-division-group-6 | odds_api_io_events_bookmaker_filtered
-- 2026-06-01 23:00 | Maguary PE vs Sousa EC PB | brazil-brasileiro-serie-d | odds_api_io_events_bookmaker_filtered
-- 2026-06-01 22:30 | Planalto EC GO vs Rolim de Moura RO | brazil-brasileiro-a3-women | odds_api_io_events_bookmaker_filtered
-- 2026-06-01 18:00 | Racing Club Montevideo vs La Luz FC Reserves | uruguay-tercera-division-reserves | odds_api_io_events_bookmaker_filtered
-- 2026-06-01 18:00 | SC Recife PE vs Paysandu SC PA | brazil-brasileiro-serie-a2-women | odds_api_io_events_bookmaker_filtered
-- 2026-06-01 17:30 | SC FC Voluntari vs AFC Hermannstadt | romania-superliga | odds_api_io_events_bookmaker_filtered
-- 2026-06-01 18:00 | Ser Caxias RS vs EC Juventude RS | brazil-u20-gaucho-serie-a1 | odds_api_io_events_bookmaker_filtered
-- 2026-06-01 20:30 | Sport Huancayo Reserve vs Ayacucho FC | peru-liga-2 | odds_api_io_events_bookmaker_filtered
-- 2026-06-01 19:15 | Throttur Reykjavik vs UMF Grindavik | iceland-1-deild | odds_api_io_events_bookmaker_filtered
-- 2026-06-01 17:30 | Turkiye vs North Macedonia | international-int-friendly-games | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 21:00 | 12 de Octubre de Itaugua vs Atlantida SC Asuncion | paraguay-copa-paraguay | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 15:00 | Al Kahrabaa SC vs AL Karma | iraq-iraqi-league | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 15:00 | Al Quwa Al Jawiya vs Zakho FC | iraq-iraqi-league | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 15:00 | Al-Gharraf SC vs AL Naft Maysan | iraq-iraqi-league | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 14:00 | Ario Eslamshahr vs Shahrdari Nowshahr | iran-azadegan-league | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 17:30 | Assyriska FF vs Enkopings SK | sweden-ettan-relegation/promotion | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 17:00 | Boston River vs Defensor Sporting | uruguay-tercera-division-reserves | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 12:15 | Brunei Darussalam vs Timor-Leste | international-asean-championship | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 18:00 | CA Banfield vs CA Sarmiento de Junin | argentina-copa-proyeccion-final-reserves | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 18:30 | CA Colegiales vs General Diaz Luque | paraguay-copa-paraguay | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 18:00 | CA Quilmes Reserve vs Deportivo Riestra Afbc Reserve | argentina-copa-proyeccion-final-reserves | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 18:00 | CA Tigre Reserve vs CA River Plate (Arg) | argentina-copa-proyeccion-final-reserves | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 01:00 | Canada vs Uzbekistan | international-int-friendly-games | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 00:30 | CD Tecnico Universitario vs Barcelona SC | ecuador-ligapro-primera-a | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 17:00 | Central Espanol Reserve vs Club Oriental de Football | uruguay-tercera-division-reserves | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 10:00 | Chen, Yu Fei vs Christophersen, Line | international-indonesia-open-women-singles | odds_api_io_events_search
-- 2026-06-02 13:00 | China vs Congo Dr Youth | international-youth-toulon-tournament | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 20:30 | Club La Union vs CD Cuenca | ecuador-copa-ecuador | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 18:00 | Colon de Santa Fe Reserve vs CA Huracan | argentina-copa-proyeccion-final-reserves | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 16:00 | Croatia vs Belgium | international-int-friendly-games | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 17:00 | Deportivo Maldonado Reserve vs Cerro Largo FC | uruguay-tercera-division-reserves | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 22:00 | Deportivo Merlo vs CSCD Laferrere | argentina-primera-b | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 16:30 | Djoliba AC vs Binga FC | mali-ligue-1 | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 15:00 | Erbil SC vs Amanat Baghdad SC | iraq-iraqi-league | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 13:30 | FC Fard Alborz vs Sanat Mes Kerman FC | iran-azadegan-league | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 10:00 | Feng Y Z / Huang D P vs Wong J / Cheng S Y | international-indonesia-open-mixed-doubles | odds_api_io_events_search
-- 2026-06-02 18:00 | Ferro Carril Oeste vs Estudiantes de Rio Cuarto Reserve | argentina-copa-proyeccion-final-reserves | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 17:00 | Georgia vs Romania | international-int-friendly-games | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 10:15 | Grange Thistle vs Souths United FC | australia-queensland-premier-league-2 | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 13:30 | Havadar SC vs Navad Urmia FC | iran-azadegan-league | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 11:00 | Hellenic Athletic Club vs Darwin Olympic SC | australia-northern-territory-premier-league | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 16:00 | HJS vs FC KTP | finland-ykkonen-women | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 23:00 | Independiente Medellin vs Cucuta Deportivo FC | colombia-copa-colombia | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 18:00 | Independiente Reserve vs Newells Old Boys | argentina-copa-proyeccion-final-reserves | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 15:30 | JJK Jyvaskyla vs VJS | finland-ykkonen | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 10:00 | Lake Macquarie City FC Reserve vs New Lambton FC Reserve | australia-northern-nsw-league-one-reserves-women | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 18:00 | Liverpool Montevideo vs Progreso | uruguay-tercera-division-reserves | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 13:00 | Malaysia vs Singapore | international-youth-u19-aff-championship | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 13:30 | Mes Shahr-e Babak vs Sanat Naft Abadan FC | iran-azadegan-league | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 17:00 | Morocco vs Madagascar | international-int-friendly-games | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 13:30 | Nassaji Mazandaran FC vs Damash Gilan FC | iran-azadegan-league | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 20:00 | New Jersey Copa FC vs Cedar Stars | usa-usl-league-two | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 23:00 | Nona FC vs Brave SC | usa-usl-league-two | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 08:15 | North Star vs Brisbane Strikers | australia-u23-queensland-premier-league-1 | odds_api_io_events_bookmaker_filtered
-- 2026-06-02 14:00 | Olimpia Grudziadz vs Sandecja Nowy Sacz | poland-ii-liga | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 18:00 | ADO 20 Heemskerk vs IJsselmeervogels | netherlands-tweede-divisie | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 18:00 | Albania vs Israel | international-int-friendly-games | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 17:45 | America FC RJ vs Sao Goncalo EC RJ | brazil-carioca-serie-a2 | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 23:00 | Annapolis Blues FC vs Lionsbridge FC | usa-usl-league-two | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 17:45 | Araruama FC RJ vs Marica FC RJ | brazil-carioca-serie-a2 | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 17:00 | Atus Velden vs FC Gleisdorf 09 | austria-amateur-regionalliga-centre | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 23:00 | Avai FC SC vs Chapecoense SC | brazil-copa-sul-sudeste | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 07:30 | Belconnen United FC vs Tuggeranong United FC | australia-u23-capital-npl | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 17:00 | BK Olympic vs Lunds BK | sweden-ettan-relegation/promotion | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 22:00 | Boca Juniors vs Defensa Y Justicia Reserve | argentina-copa-proyeccion-final-reserves | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 23:00 | Brevard SC vs Fort Lauderdale United FC | usa-usl-league-two | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 08:15 | Broadmeadow Magic FC vs Maitland FC | australia-northern-nsw-premier-league-women | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 21:00 | Capo FC vs Socal Reds FC | usa-usl-w-league | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 23:00 | Charlotte Eagles vs Tobacco Road FC | usa-usl-league-two | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 23:00 | Christos FC vs Charlottesville Blues | usa-usl-league-two | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 23:00 | Cleveland SC vs Ambassadors FC Ohio | usa-national-premier-soccer-league | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 15:30 | Croatia vs Qatar | international-youth-u21-friendly-games | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 23:00 | Davis Legacy vs San Francisco Glens SC | usa-usl-league-two | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 18:00 | Denmark vs Congo DR | international-int-friendly-games | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 18:00 | Estudiantes de LP Reserve vs Independiente Rivadavia de Mendoza Reserve | argentina-copa-proyeccion-final-reserves | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 14:30 | FK Gazalkent vs FC Jayxun | uzbekistan-pro-liga | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 20:30 | France vs Japan | international-nations-league-women | odds_api_io_events_search
+- 2026-06-03 17:00 | Gibraltar vs Virgin Islands, British | international-int-friendly-games | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 15:00 | Greece vs Serbia | international-youth-u19-european-championship-qualification | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 23:30 | Greenville Triumph SC vs Forward Madison FC | usa-usl-league-one | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 17:00 | FC Groningen vs de Graafschap | netherlands-u21-divisie-1 | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 20:30 | Gualaceo SC vs Mushuc Runa SC | ecuador-copa-ecuador | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 22:00 | GV Club Deportivo San Jose de Oruro vs CD Real Tomayapo | bolivia-division-profesional | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 16:30 | FC Hard vs SC Rothis | austria-amateur-vorarlberg-eliteliga | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 09:00 | Hawkesbury City SC vs Gladesville Ryde Magic | australia-nsw-league-two | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 17:00 | Helsingin Ponnistus vs Toukolan Teras/Tapio | finland-kolmonen | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 02:50 | Hoo P R / Lai P J vs Faza M / Pranata A S P | international-indonesia-open-mixed-doubles | odds_api_io_events_search
+- 2026-06-03 17:00 | IFK Umea vs Taftea IK | sweden-division-2-promotion-playoffs | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 15:00 | India vs Bhutan | international-saff-championship-women | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 12:00 | Indonesia vs Singapore | international-int-friendly-games-w | odds_api_io_events_search
+- 2026-06-03 18:00 | Instituto AC Cordoba Reserves vs Atletico Tucuman Reserve | argentina-copa-proyeccion-final-reserves | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 16:30 | Ivory Coast vs Venezuela | international-youth-toulon-tournament | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 13:00 | Japan vs Portugal | international-youth-toulon-tournament | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 23:30 | Long Island Rough Riders vs Hudson Valley Hammers | usa-usl-league-two | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 18:45 | Luxembourg vs Italy | international-int-friendly-games | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 17:00 | FC Marchfeld Donauauen vs SR Donaufeld | austria-amateur-regionalliga-ost | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 22:00 | Miami AC vs Weston FC | usa-usl-league-two | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 13:00 | Milford FC vs Magesi FC | south-africa-premiership | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 15:00 | Montenegro vs Georgia | international-youth-u19-european-championship-qualification | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 23:30 | Morris Elite SC vs FC Motown STA | usa-usl-league-two | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 23:30 | FC Naples vs Charlotte Independence | usa-usl-league-one | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 11:00 | Nepal vs Bangladesh | international-saff-championship-women | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 18:45 | Netherlands vs Algeria | international-int-friendly-games | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 23:00 | New England FC vs Connecticut Rush | usa-usl-league-two | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 17:00 | Ntnui vs Fk Kvik Trondheim | norway-3rd-division-group-2 | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 15:00 | Pakistan vs West Indies | international-t20-ireland-tri-series-women | odds_api_io_events_search
+- 2026-06-03 07:00 | Pakistan Panthers vs Asian Stars | international-clubs-t20-asian-legends-league | odds_api_io_events_search
+- 2026-06-03 13:00 | Philippines vs Australia | international-youth-u19-aff-championship | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 11:30 | Philippines vs Guam | international-int-friendly-games | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 18:45 | Poland vs Nigeria | international-int-friendly-games | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 09:00 | Portugal vs Kazakhstan | international-youth-u19-european-championship-qualification | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 18:30 | Portugal vs Northern Ireland | international-youth-u21-friendly-games | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 18:30 | Presidente Hayes vs Deportivo Pinoza | paraguay-copa-paraguay | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 20:00 | Raja Casablanca Athletic vs Rs Berkane | morocco-botola-pro-d1 | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 16:00 | Renaissance Zemamra vs US Yacoub Mansour | morocco-botola-pro-d1 | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 18:00 | FC Rijnvogels vs Excelsior Maassluis | netherlands-tweede-divisie | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 09:30 | Rochedale Rovers vs Magic United Tfa | australia-queensland-npl | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 18:00 | Rosario Central Reserve vs Racing Club Avellaneda | argentina-copa-proyeccion-final-reserves | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 18:30 | Sacachispas FC vs AD Berazategui | argentina-primera-c | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 17:00 | SC Kalsdorf vs SPG Wallern/ASV St. Marienkirchen | austria-amateur-regionalliga-centre | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 17:30 | SC Neusiedl am See 1919 vs SC Wiener Viktoria | austria-amateur-regionalliga-ost | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 17:00 | SK Bischofshofen vs SC Schwaz | austria-amateur-regionalliga-west | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 23:00 | Sporting Jax II vs Brooke House FC | usa-usl-league-two | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 23:30 | SSA Swarm FC vs Chattanooga Red Wolves SC | usa-usl-w-league | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 09:30 | Sunshine Coast Wanderers vs St George Willawong FC | australia-queensland-premier-league-1 | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 16:00 | SV Anthering vs SV Burmoos | austria-amateur-salzburg-salzburger-liga | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 17:30 | SV Donau vs SC/ESV Parndorf 1919 | austria-amateur-regionalliga-ost | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 17:30 | SV Leobendorf vs FCM Traiskirchen | austria-amateur-regionalliga-ost | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 16:30 | SV Spittal/Drau vs KAC 1909 | austria-amateur-karnten-karntner-liga | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 09:00 | Sydney Olympic FC vs University of NSW | australia-u20-nsw-npl | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 23:00 | Tacoma Galaxy vs Salmon Bay FC | usa-usl-w-league | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 17:00 | TSV Grafenstein vs SV Dellach/Gail | austria-amateur-karnten-karntner-liga | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 21:00 | Union FC Macomb vs Midwest United FC | usa-usl-league-two | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 17:30 | Vasalunds IF vs FC Jarfalla | sweden-ettan-relegation/promotion | odds_api_io_events_bookmaker_filtered
+- 2026-06-03 17:00 | Viggbyholms IK FF vs Sollentuna FK | sweden-svenska-cup | odds_api_io_events_bookmaker_filtered

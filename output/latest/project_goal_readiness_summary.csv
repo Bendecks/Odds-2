@@ -1,2 +1,2 @@
 overall_project_stage,forward_predictions,value_snapshots,positive_ev_rows,proxy_observation_rows,valid_forward_log_rows,deduped_forward_log_rows,duplicate_forward_log_rows,settled_forward_rows,fresh_api_match_coverage_rate,matches_with_fresh_api_price,accuracy,avg_brier_score,real_money_ready,next_goal
-proxy_paper_testing_started,150,135,60,25,902,714,188,0,0.3,45,,,False,"Increase fresh API price coverage carefully, use deduped paper-test counts, settle forward rows, and improve model-covered league filtering."
+proxy_paper_testing_started,282,123,63,25,927,739,188,0,0.1454,41,,,False,"Increase fresh API price coverage carefully, use deduped paper-test counts, settle forward rows, and improve model-covered league filtering."

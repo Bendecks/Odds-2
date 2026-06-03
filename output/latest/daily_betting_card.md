@@ -10,112 +10,95 @@ No qualifying candidate bets today.
 
 ## Paper-Test Picks
 
-### Al Quwa Al Jawiya vs Zakho FC
+### SV Donau vs SC/ESV Parndorf 1919
 
-- Date/time: 2026-06-02 15:00
-- League/phase: iraq-iraqi-league / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 4.8
-- Fair odds: 2.87
-- Model probability: 0.3488
-- Probability band: 0.25-0.35
-- EV: 0.6742
-- Probability edge: 0.1405
-- Alignment penalty: 0.6742
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.0696
-- Prediction ID: a9ec179980263b6f2a27
-
-### Colombia vs Costa Rica
-
-- Date/time: 2026-06-01 23:00
-- League/phase: international-int-friendly-games / automatic_forward_price_proxy
-- Selection: DRAW
-- Market odds: 6.5
-- Fair odds: 3.65
-- Model probability: 0.274
-- Probability band: 0.25-0.35
-- EV: 0.781
-- Probability edge: 0.1202
-- Alignment penalty: 0.781
+- Date/time: 2026-06-03 17:30
+- League/phase: austria-amateur-regionalliga-ost / automatic_forward_price_proxy
+- Selection: HOME
+- Market odds: 4.2
+- Fair odds: 2.65
+- Model probability: 0.3772
+- Probability band: 0.35-0.45
+- EV: 0.5842
+- Probability edge: 0.1391
+- Alignment penalty: 0.5842
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
 - Paper score: 0.0687
-- Prediction ID: e7ae474bb0059b088c62
+- Prediction ID: a73ca48ce1f6c1fc8c80
 
-### Wynnum Wolves FC vs Brisbane Roar FC
+### Sunshine Coast Wanderers vs St George Willawong FC
 
-- Date/time: 2026-06-02 09:30
-- League/phase: australia-queensland-npl / automatic_forward_price_proxy
+- Date/time: 2026-06-03 09:30
+- League/phase: australia-queensland-premier-league-1 / automatic_forward_price_proxy
 - Selection: AWAY
-- Market odds: 4.5
+- Market odds: 4.33
 - Fair odds: 2.87
 - Model probability: 0.3488
 - Probability band: 0.25-0.35
-- EV: 0.5696
-- Probability edge: 0.1266
-- Alignment penalty: 0.5696
+- EV: 0.5113
+- Probability edge: 0.118
+- Alignment penalty: 0.5114
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
-- Paper score: 0.0673
-- Prediction ID: 67657a39f2ef6ead109e
+- Paper score: 0.0659
+- Prediction ID: b01cd25e7f17282fa746
 
-### Argentino de Quilmes vs CA Ituzaingo
+### SK Bischofshofen vs SC Schwaz
 
-- Date/time: 2026-06-01 18:30
-- League/phase: argentina-primera-b / automatic_forward_price_proxy
+- Date/time: 2026-06-03 17:00
+- League/phase: austria-amateur-regionalliga-west / automatic_forward_price_proxy
 - Selection: AWAY
-- Market odds: 4.5
+- Market odds: 4.33
 - Fair odds: 2.87
 - Model probability: 0.3488
 - Probability band: 0.25-0.35
-- EV: 0.5696
-- Probability edge: 0.1266
-- Alignment penalty: 0.5696
+- EV: 0.5113
+- Probability edge: 0.118
+- Alignment penalty: 0.5114
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
-- Paper score: 0.0673
-- Prediction ID: bf26b2670fe8ac587310
+- Paper score: 0.0659
+- Prediction ID: 48141869a9ef3cb1a680
 
-### FC Atletico CE vs Piaui PI
+### Vilavelhense FC ES vs Vitoria FC ES
 
-- Date/time: 2026-06-01 19:00
-- League/phase: brazil-brasileiro-serie-d / automatic_forward_price_proxy
-- Selection: HOME
-- Market odds: 4.0
-- Fair odds: 2.65
-- Model probability: 0.3772
-- Probability band: 0.35-0.45
-- EV: 0.5088
-- Probability edge: 0.1272
-- Alignment penalty: 0.5088
+- Date/time: 2026-06-03 18:00
+- League/phase: brazil-copa-espirito-santo / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 4.33
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.5113
+- Probability edge: 0.118
+- Alignment penalty: 0.5114
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
-- Paper score: 0.0669
-- Prediction ID: 2ede6e62b03660e239cb
+- Paper score: 0.0659
+- Prediction ID: 7f633522fcebdb929108
 
-### CA Fenix Pilar vs Canuelas FC
+### Presidente Hayes vs Deportivo Pinoza
 
-- Date/time: 2026-06-01 18:30
-- League/phase: argentina-primera-c / automatic_forward_price_proxy
-- Selection: HOME
-- Market odds: 3.8
-- Fair odds: 2.65
-- Model probability: 0.3772
-- Probability band: 0.35-0.45
-- EV: 0.4334
-- Probability edge: 0.114
-- Alignment penalty: 0.4334
+- Date/time: 2026-06-03 18:30
+- League/phase: paraguay-copa-paraguay / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 4.33
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.5113
+- Probability edge: 0.118
+- Alignment penalty: 0.5114
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
-- Paper score: 0.0651
-- Prediction ID: a888048cf92b55e9f075
+- Paper score: 0.0659
+- Prediction ID: a6e686d6917df186d7b5
 
-### FC Fard Alborz vs Sanat Mes Kerman FC
+### Vasalunds IF vs FC Jarfalla
 
-- Date/time: 2026-06-02 13:30
-- League/phase: iran-azadegan-league / automatic_forward_price_proxy
+- Date/time: 2026-06-03 17:30
+- League/phase: sweden-ettan-relegation/promotion / automatic_forward_price_proxy
 - Selection: AWAY
 - Market odds: 4.2
 - Fair odds: 2.87
@@ -127,29 +110,46 @@ No qualifying candidate bets today.
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
 - Paper score: 0.0648
-- Prediction ID: ac2eccf5356c961aea0a
+- Prediction ID: 9c46cebc5f3aff5a9f3d
 
-### KFG Gardabaer vs Fjolnir
+### SV Anthering vs SV Burmoos
 
-- Date/time: 2026-06-01 19:15
-- League/phase: iceland-2-deild / automatic_forward_price_proxy
-- Selection: DRAW
-- Market odds: 5.75
-- Fair odds: 3.65
-- Model probability: 0.274
-- Probability band: 0.25-0.35
-- EV: 0.5755
-- Probability edge: 0.1001
-- Alignment penalty: 0.5755
+- Date/time: 2026-06-03 16:00
+- League/phase: austria-amateur-salzburg-salzburger-liga / automatic_forward_price_proxy
+- Selection: HOME
+- Market odds: 3.75
+- Fair odds: 2.65
+- Model probability: 0.3772
+- Probability band: 0.35-0.45
+- EV: 0.4145
+- Probability edge: 0.1105
+- Alignment penalty: 0.4145
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
-- Paper score: 0.0645
-- Prediction ID: 0496a44c1e24ce896a08
+- Paper score: 0.0646
+- Prediction ID: 079a15a52ed925876563
 
-### FC Jeunesse Canach vs Residence Walferdange
+### Araruama FC RJ vs Marica FC RJ
 
-- Date/time: 2026-06-01 17:30
-- League/phase: luxembourg-division-nationale / automatic_forward_price_proxy
+- Date/time: 2026-06-03 17:45
+- League/phase: brazil-carioca-serie-a2 / automatic_forward_price_proxy
+- Selection: HOME
+- Market odds: 3.7
+- Fair odds: 2.65
+- Model probability: 0.3772
+- Probability band: 0.35-0.45
+- EV: 0.3956
+- Probability edge: 0.1069
+- Alignment penalty: 0.3956
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0641
+- Prediction ID: df6967926c2c19642b28
+
+### America FC RJ vs Sao Goncalo EC RJ
+
+- Date/time: 2026-06-03 17:45
+- League/phase: brazil-carioca-serie-a2 / automatic_forward_price_proxy
 - Selection: AWAY
 - Market odds: 4.1
 - Fair odds: 2.87
@@ -161,63 +161,12 @@ No qualifying candidate bets today.
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
 - Paper score: 0.064
-- Prediction ID: 92743bcb655e018334cf
+- Prediction ID: 19119d6617cf75b6184d
 
-### Throttur Reykjavik vs UMF Grindavik
+### Nepal vs Bangladesh
 
-- Date/time: 2026-06-01 19:15
-- League/phase: iceland-1-deild / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 4.1
-- Fair odds: 2.87
-- Model probability: 0.3488
-- Probability band: 0.25-0.35
-- EV: 0.4301
-- Probability edge: 0.1049
-- Alignment penalty: 0.4301
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.064
-- Prediction ID: eac0813eb1c9faa07767
-
-### Barra FC SC vs Brusque FC SC
-
-- Date/time: 2026-06-01 23:00
-- League/phase: brazil-brasileiro-serie-c / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 4.1
-- Fair odds: 2.87
-- Model probability: 0.3488
-- Probability band: 0.25-0.35
-- EV: 0.4301
-- Probability edge: 0.1049
-- Alignment penalty: 0.4301
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.064
-- Prediction ID: 6279d454f8a23c4eaddc
-
-### Ario Eslamshahr vs Shahrdari Nowshahr
-
-- Date/time: 2026-06-02 14:00
-- League/phase: iran-azadegan-league / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 4.1
-- Fair odds: 2.87
-- Model probability: 0.3488
-- Probability band: 0.25-0.35
-- EV: 0.4301
-- Probability edge: 0.1049
-- Alignment penalty: 0.4301
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.064
-- Prediction ID: 2d5347b8f8454c5bc54e
-
-### CODM Meknes vs Olympique Dcheira
-
-- Date/time: 2026-06-01 20:00
-- League/phase: morocco-botola-pro-d1 / automatic_forward_price_proxy
+- Date/time: 2026-06-03 11:00
+- League/phase: international-saff-championship-women / automatic_forward_price_proxy
 - Selection: AWAY
 - Market odds: 4.0
 - Fair odds: 2.87
@@ -229,46 +178,12 @@ No qualifying candidate bets today.
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
 - Paper score: 0.0632
-- Prediction ID: 5676b10ecf0988b03ec2
+- Prediction ID: 59f5b1e76f21b7f7f3e4
 
-### Grange Thistle vs Souths United FC
+### Atus Velden vs FC Gleisdorf 09
 
-- Date/time: 2026-06-02 10:15
-- League/phase: australia-queensland-premier-league-2 / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 4.0
-- Fair odds: 2.87
-- Model probability: 0.3488
-- Probability band: 0.25-0.35
-- EV: 0.3952
-- Probability edge: 0.0988
-- Alignment penalty: 0.3952
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.0632
-- Prediction ID: 201058bfe119f7d64732
-
-### Turkiye vs North Macedonia
-
-- Date/time: 2026-06-01 17:30
-- League/phase: international-int-friendly-games / automatic_forward_price_proxy
-- Selection: DRAW
-- Market odds: 5.5
-- Fair odds: 3.65
-- Model probability: 0.274
-- Probability band: 0.25-0.35
-- EV: 0.507
-- Probability edge: 0.0922
-- Alignment penalty: 0.507
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.0631
-- Prediction ID: 492e23de9c13040d6443
-
-### Guairena FC vs Club 3 De Noviembre
-
-- Date/time: 2026-06-01 19:00
-- League/phase: paraguay-segunda-division / automatic_forward_price_proxy
+- Date/time: 2026-06-03 17:00
+- League/phase: austria-amateur-regionalliga-centre / automatic_forward_price_proxy
 - Selection: AWAY
 - Market odds: 3.9
 - Fair odds: 2.87
@@ -280,12 +195,29 @@ No qualifying candidate bets today.
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
 - Paper score: 0.0623
-- Prediction ID: 266072ddfe0c0424d106
+- Prediction ID: 7f90027700f37da7c12c
 
-### Al Kahrabaa SC vs AL Karma
+### Rochedale Rovers vs Magic United Tfa
 
-- Date/time: 2026-06-02 15:00
-- League/phase: iraq-iraqi-league / automatic_forward_price_proxy
+- Date/time: 2026-06-03 09:30
+- League/phase: australia-queensland-npl / automatic_forward_price_proxy
+- Selection: AWAY
+- Market odds: 3.75
+- Fair odds: 2.87
+- Model probability: 0.3488
+- Probability band: 0.25-0.35
+- EV: 0.308
+- Probability edge: 0.0821
+- Alignment penalty: 0.308
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.061
+- Prediction ID: ec3c1efa421fd424a029
+
+### Ntnui vs Fk Kvik Trondheim
+
+- Date/time: 2026-06-03 17:00
+- League/phase: norway-3rd-division-group-2 / automatic_forward_price_proxy
 - Selection: HOME
 - Market odds: 3.3
 - Fair odds: 2.65
@@ -297,12 +229,12 @@ No qualifying candidate bets today.
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
 - Paper score: 0.0601
-- Prediction ID: bca511ae3059452d7c95
+- Prediction ID: c7f13aa872847fe748d0
 
-### SV Estrella vs Jong Aruba
+### FK Gazalkent vs FC Jayxun
 
-- Date/time: 2026-06-02 00:30
-- League/phase: aruba-division-honor / automatic_forward_price_proxy
+- Date/time: 2026-06-03 14:30
+- League/phase: uzbekistan-pro-liga / automatic_forward_price_proxy
 - Selection: DRAW
 - Market odds: 5.0
 - Fair odds: 3.65
@@ -314,12 +246,12 @@ No qualifying candidate bets today.
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
 - Paper score: 0.06
-- Prediction ID: e12d15bdb89c9e5eb49f
+- Prediction ID: cff13b4e7d8ebd187cdc
 
-### SC Recife PE vs Paysandu SC PA
+### Rochedale Rovers vs Magic United Tfa
 
-- Date/time: 2026-06-01 18:00
-- League/phase: brazil-brasileiro-serie-a2-women / automatic_forward_price_proxy
+- Date/time: 2026-06-03 09:30
+- League/phase: australia-queensland-npl / automatic_forward_price_proxy
 - Selection: DRAW
 - Market odds: 5.0
 - Fair odds: 3.65
@@ -331,46 +263,29 @@ No qualifying candidate bets today.
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
 - Paper score: 0.06
-- Prediction ID: d4508de996d69b96bb47
+- Prediction ID: ec3c1efa421fd424a029
 
-### Chapaquito Nacional Senac vs Club Deportivo San Martin
+### SC Neusiedl am See 1919 vs SC Wiener Viktoria
 
-- Date/time: 2026-06-01 19:30
-- League/phase: bolivia-copa-simon-bolivar / automatic_forward_price_proxy
-- Selection: DRAW
-- Market odds: 5.0
-- Fair odds: 3.65
-- Model probability: 0.274
-- Probability band: 0.25-0.35
-- EV: 0.37
-- Probability edge: 0.074
-- Alignment penalty: 0.37
+- Date/time: 2026-06-03 17:30
+- League/phase: austria-amateur-regionalliga-ost / automatic_forward_price_proxy
+- Selection: HOME
+- Market odds: 3.25
+- Fair odds: 2.65
+- Model probability: 0.3772
+- Probability band: 0.35-0.45
+- EV: 0.2259
+- Probability edge: 0.0695
+- Alignment penalty: 0.2259
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
-- Paper score: 0.06
-- Prediction ID: 592d620a1d86422f89e5
+- Paper score: 0.0596
+- Prediction ID: 6523abe5af4458aba0bb
 
-### Hellenic Athletic Club vs Darwin Olympic SC
+### SC Kalsdorf vs SPG Wallern/ASV St. Marienkirchen
 
-- Date/time: 2026-06-02 11:00
-- League/phase: australia-northern-territory-premier-league / automatic_forward_price_proxy
-- Selection: DRAW
-- Market odds: 5.0
-- Fair odds: 3.65
-- Model probability: 0.274
-- Probability band: 0.25-0.35
-- EV: 0.37
-- Probability edge: 0.074
-- Alignment penalty: 0.37
-- Suppression action: baseline_coverage_observe_only
-- Paper tier: baseline_coverage_observation
-- Paper score: 0.06
-- Prediction ID: d6f152ec8a45abd05b4c
-
-### Mes Shahr-e Babak vs Sanat Naft Abadan FC
-
-- Date/time: 2026-06-02 13:30
-- League/phase: iran-azadegan-league / automatic_forward_price_proxy
+- Date/time: 2026-06-03 17:00
+- League/phase: austria-amateur-regionalliga-centre / automatic_forward_price_proxy
 - Selection: AWAY
 - Market odds: 3.6
 - Fair odds: 2.87
@@ -382,29 +297,63 @@ No qualifying candidate bets today.
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
 - Paper score: 0.0596
-- Prediction ID: c1aa0a0c849b7baa4f31
+- Prediction ID: 2e51b7832be43f62d6f9
 
-### CS Barracas vs CA Atlas
+### Poland vs Nigeria
 
-- Date/time: 2026-06-01 18:30
-- League/phase: argentina-primera-c / automatic_forward_price_proxy
+- Date/time: 2026-06-03 18:45
+- League/phase: international-int-friendly-games / automatic_forward_price_proxy
 - Selection: AWAY
-- Market odds: 3.5
+- Market odds: 3.6
 - Fair odds: 2.87
 - Model probability: 0.3488
 - Probability band: 0.25-0.35
-- EV: 0.2208
-- Probability edge: 0.0631
-- Alignment penalty: 0.2208
+- EV: 0.2557
+- Probability edge: 0.071
+- Alignment penalty: 0.2557
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
-- Paper score: 0.0586
-- Prediction ID: 5b9085cac5b24c788680
+- Paper score: 0.0596
+- Prediction ID: 9bf60854257b5d906a7a
 
-### KH Hlidarendi vs Arbaer
+### Sacachispas FC vs AD Berazategui
 
-- Date/time: 2026-06-01 19:15
-- League/phase: iceland-3-deild / automatic_forward_price_proxy
+- Date/time: 2026-06-03 18:30
+- League/phase: argentina-primera-c / automatic_forward_price_proxy
+- Selection: HOME
+- Market odds: 3.25
+- Fair odds: 2.65
+- Model probability: 0.3772
+- Probability band: 0.35-0.45
+- EV: 0.2259
+- Probability edge: 0.0695
+- Alignment penalty: 0.2259
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0596
+- Prediction ID: a6f8d095f04b518850ce
+
+### FC Rijnvogels vs Excelsior Maassluis
+
+- Date/time: 2026-06-03 18:00
+- League/phase: netherlands-tweede-divisie / automatic_forward_price_proxy
+- Selection: HOME
+- Market odds: 3.2
+- Fair odds: 2.65
+- Model probability: 0.3772
+- Probability band: 0.35-0.45
+- EV: 0.207
+- Probability edge: 0.0647
+- Alignment penalty: 0.207
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.059
+- Prediction ID: fa7c5b435b48ea6e199c
+
+### IFK Umea vs Taftea IK
+
+- Date/time: 2026-06-03 17:00
+- League/phase: sweden-division-2-promotion-playoffs / automatic_forward_price_proxy
 - Selection: DRAW
 - Market odds: 4.75
 - Fair odds: 3.65
@@ -416,24 +365,75 @@ No qualifying candidate bets today.
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
 - Paper score: 0.0585
-- Prediction ID: 7177b53bf381819b73e4
+- Prediction ID: d7e605a49cdcaba7de00
 
-### AL Talaba vs AL Karkh
+### Gibraltar vs Virgin Islands, British
 
-- Date/time: 2026-06-01 17:30
-- League/phase: iraq-iraqi-league / automatic_forward_price_proxy
-- Selection: AWAY
-- Market odds: 3.4
-- Fair odds: 2.87
-- Model probability: 0.3488
+- Date/time: 2026-06-03 17:00
+- League/phase: international-int-friendly-games / automatic_forward_price_proxy
+- Selection: DRAW
+- Market odds: 4.75
+- Fair odds: 3.65
+- Model probability: 0.274
 - Probability band: 0.25-0.35
-- EV: 0.1859
-- Probability edge: 0.0547
-- Alignment penalty: 0.1859
+- EV: 0.3015
+- Probability edge: 0.0635
+- Alignment penalty: 0.3015
 - Suppression action: baseline_coverage_observe_only
 - Paper tier: baseline_coverage_observation
-- Paper score: 0.0577
-- Prediction ID: 7bf729c8383989de9a13
+- Paper score: 0.0585
+- Prediction ID: 454939d9067bab4e3168
+
+### Milford FC vs Magesi FC
+
+- Date/time: 2026-06-03 13:00
+- League/phase: south-africa-premiership / automatic_forward_price_proxy
+- Selection: HOME
+- Market odds: 3.1
+- Fair odds: 2.65
+- Model probability: 0.3772
+- Probability band: 0.35-0.45
+- EV: 0.1693
+- Probability edge: 0.0546
+- Alignment penalty: 0.1693
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0579
+- Prediction ID: 23d4ce3e353f3c1814d7
+
+### Helsingin Ponnistus vs Toukolan Teras/Tapio
+
+- Date/time: 2026-06-03 17:00
+- League/phase: finland-kolmonen / automatic_forward_price_proxy
+- Selection: DRAW
+- Market odds: 4.5
+- Fair odds: 3.65
+- Model probability: 0.274
+- Probability band: 0.25-0.35
+- EV: 0.233
+- Probability edge: 0.0518
+- Alignment penalty: 0.233
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0568
+- Prediction ID: 9fd8c032f9fee82adf66
+
+### Netherlands vs Algeria
+
+- Date/time: 2026-06-03 18:45
+- League/phase: international-int-friendly-games / automatic_forward_price_proxy
+- Selection: DRAW
+- Market odds: 4.5
+- Fair odds: 3.65
+- Model probability: 0.274
+- Probability band: 0.25-0.35
+- EV: 0.233
+- Probability edge: 0.0518
+- Alignment penalty: 0.233
+- Suppression action: baseline_coverage_observe_only
+- Paper tier: baseline_coverage_observation
+- Paper score: 0.0568
+- Prediction ID: 46f6e5fc92f793497063
 
 ## Snapshot summary
 

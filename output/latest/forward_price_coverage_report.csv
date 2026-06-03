@@ -1,151 +1,283 @@
 prediction_id,match_date,home_team,away_team,league,has_any_automatic_price,has_fresh_api_price,has_odds_api_io_price,automatic_price_rows,fresh_api_price_rows,odds_api_io_price_rows,source_names
-b220d3c059295920e82d,2026-06-01,AL Najaf,Al Zawraa,iraq-iraqi-league,True,True,True,1,1,1,odds_api_io_Bet365_ML
-7bf729c8383989de9a13,2026-06-01,AL Talaba,AL Karkh,iraq-iraqi-league,True,True,True,1,1,1,odds_api_io_Bet365_ML
-92743bcb655e018334cf,2026-06-01,FC Jeunesse Canach,Residence Walferdange,luxembourg-division-nationale,True,True,True,1,1,1,odds_api_io_Bet365_ML
-69c71aec2d9aee5b1265,2026-06-01,SC FC Voluntari,AFC Hermannstadt,romania-superliga,True,True,True,1,1,1,odds_api_io_Bet365_ML
-492e23de9c13040d6443,2026-06-01,Turkiye,North Macedonia,international-int-friendly-games,True,True,True,1,1,1,odds_api_io_Bet365_ML
-a8628e747a1d41b4636e,2026-06-01,Athletic Club MG,Atletico Mineiro MG,brazil-u20-mineiro-1-divisao,False,False,False,0,0,0,
-dc7d207ef91bbbf6bd52,2026-06-01,CA Boston River,Liverpool Montevideo,uruguay-primera-division,True,True,True,1,1,1,odds_api_io_Bet365_ML
-223eb7993530bb727d78,2026-06-01,CA River Plate (URU),Colon FC Reserve,uruguay-tercera-division-reserves,False,False,False,0,0,0,
-81dfd6bb73c5c81bfeed,2026-06-01,EC Sao Jose RS,Ypiranga RS,brazil-u20-gaucho-serie-a1,False,False,False,0,0,0,
-edeff18c9a39db227ad8,2026-06-01,Lyn 1896 FK II,FK Gjoevik-Lyn,norway-3rd-division-group-6,False,False,False,0,0,0,
-9094fc50a92c16263410,2026-06-01,Racing Club Montevideo,La Luz FC Reserves,uruguay-tercera-division-reserves,False,False,False,0,0,0,
-d4508de996d69b96bb47,2026-06-01,SC Recife PE,Paysandu SC PA,brazil-brasileiro-serie-a2-women,True,True,True,1,1,1,odds_api_io_Bet365_ML
-d3d44655e5de75118d4c,2026-06-01,Ser Caxias RS,EC Juventude RS,brazil-u20-gaucho-serie-a1,False,False,False,0,0,0,
-bf26b2670fe8ac587310,2026-06-01,Argentino de Quilmes,CA Ituzaingo,argentina-primera-b,True,True,True,1,1,1,odds_api_io_Bet365_ML
-a888048cf92b55e9f075,2026-06-01,CA Fenix Pilar,Canuelas FC,argentina-primera-c,True,True,True,1,1,1,odds_api_io_Bet365_ML
-5b9085cac5b24c788680,2026-06-01,CS Barracas,CA Atlas,argentina-primera-c,True,True,True,1,1,1,odds_api_io_Bet365_ML
-32ee7349d074abb9b88b,2026-06-01,Austria,Tunisia,international-int-friendly-games,True,True,True,1,1,1,odds_api_io_Bet365_ML
-2ede6e62b03660e239cb,2026-06-01,FC Atletico CE,Piaui PI,brazil-brasileiro-serie-d,True,True,True,1,1,1,odds_api_io_Bet365_ML
-266072ddfe0c0424d106,2026-06-01,Guairena FC,Club 3 De Noviembre,paraguay-segunda-division,True,True,True,1,1,1,odds_api_io_Bet365_ML
-0496a44c1e24ce896a08,2026-06-01,KFG Gardabaer,Fjolnir,iceland-2-deild,True,True,True,1,1,1,odds_api_io_Bet365_ML
-7177b53bf381819b73e4,2026-06-01,KH Hlidarendi,Arbaer,iceland-3-deild,True,True,True,1,1,1,odds_api_io_Bet365_ML
-eac0813eb1c9faa07767,2026-06-01,Throttur Reykjavik,UMF Grindavik,iceland-1-deild,True,True,True,1,1,1,odds_api_io_Bet365_ML
-592d620a1d86422f89e5,2026-06-01,Chapaquito Nacional Senac,Club Deportivo San Martin,bolivia-copa-simon-bolivar,True,True,True,1,1,1,odds_api_io_Bet365_ML
-5676b10ecf0988b03ec2,2026-06-01,CODM Meknes,Olympique Dcheira,morocco-botola-pro-d1,True,True,True,1,1,1,odds_api_io_Bet365_ML
-6e8ab8368066dcc9b540,2026-06-01,Sport Huancayo Reserve,Ayacucho FC,peru-liga-2,False,False,False,0,0,0,
-6a0f4107f158193a3a76,2026-06-01,AA Ponte Preta SP,Botafogo FC SP,brazil-brasileiro-serie-b,True,True,True,1,1,1,odds_api_io_Bet365_ML
-72c010567101b55ecb87,2026-06-01,Leones Futbol Club,CSD Macara,ecuador-ligapro-primera-a,True,True,True,1,1,1,odds_api_io_Bet365_ML
-647f5bc888ba8c552d2f,2026-06-01,Planalto EC GO,Rolim de Moura RO,brazil-brasileiro-a3-women,True,True,True,1,1,1,odds_api_io_Bet365_ML
-6279d454f8a23c4eaddc,2026-06-01,Barra FC SC,Brusque FC SC,brazil-brasileiro-serie-c,True,True,True,1,1,1,odds_api_io_Bet365_ML
-52c0568ee3fbf26c2aed,2026-06-01,CA Penarol Montevideo,Central Espanol FC,uruguay-primera-division,True,True,True,1,1,1,odds_api_io_Bet365_ML
-10ec1aca1d8a2760511f,2026-06-01,CD Santa Cruz,Deportes Copiapo,chile-primera-b,True,True,True,1,1,1,odds_api_io_Bet365_ML
-e7ae474bb0059b088c62,2026-06-01,Colombia,Costa Rica,international-int-friendly-games,True,True,True,1,1,1,odds_api_io_Bet365_ML
-7774bcb223149d36d5ac,2026-06-01,Curico Unido,CD Antofagasta,chile-primera-b,True,True,True,1,1,1,odds_api_io_Bet365_ML
-35fbb276994e0ba07575,2026-06-01,Maguary PE,Sousa EC PB,brazil-brasileiro-serie-d,True,True,True,1,1,1,odds_api_io_Bet365_ML
-1c55061e18989feeeef8,2026-06-01,CN Marcilio Dias SC,Azuriz FC PR,brazil-brasileiro-serie-d,True,True,True,1,1,1,odds_api_io_Bet365_ML
-d05f1cea6075b4660544,2026-06-02,FC Universitario de Vinto,Club Aurora,bolivia-division-profesional,True,True,True,1,1,1,odds_api_io_Bet365_ML
-3371dcbde2582f69c186,2026-06-02,CD Tecnico Universitario,Barcelona SC,ecuador-ligapro-primera-a,True,True,True,1,1,1,odds_api_io_Bet365_ML
-e12d15bdb89c9e5eb49f,2026-06-02,SV Estrella,Jong Aruba,aruba-division-honor,True,True,True,1,1,1,odds_api_io_Bet365_ML
-3dbd1a8ca2187075405d,2026-06-02,Canada,Uzbekistan,international-int-friendly-games,True,True,True,1,1,1,odds_api_io_Bet365_ML
-e5fa17b180f6bd447539,2026-06-02,Stars FC,Southern California Eagles,usa-usl-league-two,True,True,True,1,1,1,odds_api_io_Bet365_ML
-584eec0ed6e19c87d692,2026-06-02,North Star,Brisbane Strikers,australia-u23-queensland-premier-league-1,False,False,False,0,0,0,
-67657a39f2ef6ead109e,2026-06-02,Wynnum Wolves FC,Brisbane Roar FC,australia-queensland-npl,True,True,True,1,1,1,odds_api_io_Bet365_ML
-b1f47088c1f866d0a3f0,2026-06-02,"Chen, Yu Fei","Christophersen, Line",international-indonesia-open-women-singles,False,False,False,0,0,0,
-8a3b6b1f698f71b7c90c,2026-06-02,Feng Y Z / Huang D P,Wong J / Cheng S Y,international-indonesia-open-mixed-doubles,False,False,False,0,0,0,
-0f04621bef4fe85effb8,2026-06-02,Lake Macquarie City FC Reserve,New Lambton FC Reserve,australia-northern-nsw-league-one-reserves-women,False,False,False,0,0,0,
-201058bfe119f7d64732,2026-06-02,Grange Thistle,Souths United FC,australia-queensland-premier-league-2,True,True,True,1,1,1,odds_api_io_Bet365_ML
-d6f152ec8a45abd05b4c,2026-06-02,Hellenic Athletic Club,Darwin Olympic SC,australia-northern-territory-premier-league,True,True,True,1,1,1,odds_api_io_Bet365_ML
-0042365513a74ece3668,2026-06-02,Podbeskidzie Bielsko-Biała,Slask II Wroclaw,poland-ii-liga,False,False,False,0,0,0,
-5524255cd450c403f077,2026-06-02,Brunei Darussalam,Timor-Leste,international-asean-championship,True,True,True,1,1,1,odds_api_io_Bet365_ML
-80e0e5bd4c7672550728,2026-06-02,China,Congo Dr Youth,international-youth-toulon-tournament,False,False,False,0,0,0,
-ad4a40fea7de2fb0ef77,2026-06-02,Malaysia,Singapore,international-youth-u19-aff-championship,False,False,False,0,0,0,
-ac2eccf5356c961aea0a,2026-06-02,FC Fard Alborz,Sanat Mes Kerman FC,iran-azadegan-league,True,True,True,1,1,1,odds_api_io_Bet365_ML
-40a9f002b8d069b4a7eb,2026-06-02,Havadar SC,Navad Urmia FC,iran-azadegan-league,True,True,True,1,1,1,odds_api_io_Bet365_ML
-c1aa0a0c849b7baa4f31,2026-06-02,Mes Shahr-e Babak,Sanat Naft Abadan FC,iran-azadegan-league,True,True,True,1,1,1,odds_api_io_Bet365_ML
-f84fb42ba079c98da3cd,2026-06-02,Nassaji Mazandaran FC,Damash Gilan FC,iran-azadegan-league,True,True,True,1,1,1,odds_api_io_Bet365_ML
-2d5347b8f8454c5bc54e,2026-06-02,Ario Eslamshahr,Shahrdari Nowshahr,iran-azadegan-league,True,True,True,1,1,1,odds_api_io_Bet365_ML
-3facdf010e5bb6680f56,2026-06-02,Olimpia Grudziadz,Sandecja Nowy Sacz,poland-ii-liga,False,False,False,0,0,0,
-bca511ae3059452d7c95,2026-06-02,Al Kahrabaa SC,AL Karma,iraq-iraqi-league,True,True,True,1,1,1,odds_api_io_Bet365_ML
-a9ec179980263b6f2a27,2026-06-02,Al Quwa Al Jawiya,Zakho FC,iraq-iraqi-league,True,True,True,1,1,1,odds_api_io_Bet365_ML
-12acfbe816a931e773b2,2026-06-02,Al-Gharraf SC,AL Naft Maysan,iraq-iraqi-league,True,True,True,1,1,1,odds_api_io_Bet365_ML
-f94d9de10988d649b1cd,2026-06-02,Erbil SC,Amanat Baghdad SC,iraq-iraqi-league,False,False,False,0,0,0,
-b84a927c1ac123ae239e,2026-06-02,JJK Jyvaskyla,VJS,finland-ykkonen,False,False,False,0,0,0,
-bcc4d38487cba6d55369,2026-06-02,Croatia,Belgium,international-int-friendly-games,False,False,False,0,0,0,
-ae4f38a248f19d9585e2,2026-06-02,HJS,FC KTP,finland-ykkonen-women,False,False,False,0,0,0,
-41f1cf97d8ec7b027198,2026-06-02,Sportivo Iteno,Martin Ledesma,paraguay-copa-paraguay,False,False,False,0,0,0,
-2ad59d148210a1ee4e1f,2026-06-02,Djoliba AC,Binga FC,mali-ligue-1,False,False,False,0,0,0,
-98f0cab6423d935824d9,2026-06-02,Saudi Arabia,Colombia,international-youth-toulon-tournament,False,False,False,0,0,0,
-4c0ac42eac8a954fec23,2026-06-02,SV Grodig,TSV Neumarkt,austria-amateur-salzburg-salzburger-liga,False,False,False,0,0,0,
-e20e310321320b3462aa,2026-06-02,Boston River,Defensor Sporting,uruguay-tercera-division-reserves,False,False,False,0,0,0,
-9ea88acfb6947b9c50cb,2026-06-02,Central Espanol Reserve,Club Oriental de Football,uruguay-tercera-division-reserves,False,False,False,0,0,0,
-eca9b1a99c0bbe6b87ca,2026-06-02,Deportivo Maldonado Reserve,Cerro Largo FC,uruguay-tercera-division-reserves,False,False,False,0,0,0,
-128ef84d1e701ff1b32b,2026-06-02,Georgia,Romania,international-int-friendly-games,False,False,False,0,0,0,
-a9be8d8696a27bb272a9,2026-06-02,Morocco,Madagascar,international-int-friendly-games,False,False,False,0,0,0,
-923f10abd65fc98b9f9c,2026-06-02,Penarol Montevideo,Torque,uruguay-tercera-division-reserves,False,False,False,0,0,0,
-b06d2b416a253841d456,2026-06-02,FC Rosengaard 1917,Angelholms FF,sweden-ettan-relegation/promotion,False,False,False,0,0,0,
-89205b1c91706c2014cb,2026-06-02,Assyriska FF,Enkopings SK,sweden-ettan-relegation/promotion,False,False,False,0,0,0,
-098ba244fa3d21764395,2026-06-02,CA Banfield,CA Sarmiento de Junin,argentina-copa-proyeccion-final-reserves,False,False,False,0,0,0,
-7a98d9b55232c6cf7c78,2026-06-02,CA Quilmes Reserve,Deportivo Riestra Afbc Reserve,argentina-copa-proyeccion-final-reserves,False,False,False,0,0,0,
-4550fb597cccc8deafcf,2026-06-02,CA Tigre Reserve,CA River Plate (Arg),argentina-copa-proyeccion-final-reserves,False,False,False,0,0,0,
-202f5ad798422b0aad66,2026-06-02,Colon de Santa Fe Reserve,CA Huracan,argentina-copa-proyeccion-final-reserves,False,False,False,0,0,0,
-f4265020e993e0d2e20f,2026-06-02,Ferro Carril Oeste,Estudiantes de Rio Cuarto Reserve,argentina-copa-proyeccion-final-reserves,False,False,False,0,0,0,
-977d3d84d271125f775c,2026-06-02,Independiente Reserve,Newells Old Boys,argentina-copa-proyeccion-final-reserves,False,False,False,0,0,0,
-8c4128d1f824fb794d32,2026-06-02,Liverpool Montevideo,Progreso,uruguay-tercera-division-reserves,False,False,False,0,0,0,
-86ede3e944bb88cdb882,2026-06-02,CA Colegiales,General Diaz Luque,paraguay-copa-paraguay,False,False,False,0,0,0,
-64df5025dfda84afced2,2026-06-02,Wales,Ghana,international-int-friendly-games,False,False,False,0,0,0,
-5a231c937d53235affc5,2026-06-02,USM Alger,CR Belouizdad,algeria-ligue-1,False,False,False,0,0,0,
-e1ed0c4f197d25d81bdb,2026-06-02,Union Brescia,Ascoli Calcio 1898,italy-serie-c-promotion-playoffs,False,False,False,0,0,0,
-2730efaf774972b29294,2026-06-02,New Jersey Copa FC,Cedar Stars,usa-usl-league-two,False,False,False,0,0,0,
-a9fe9a57d9e5f4df7f74,2026-06-02,Club La Union,CD Cuenca,ecuador-copa-ecuador,False,False,False,0,0,0,
-a38f610d842cb8c1e9e0,2026-06-02,12 de Octubre de Itaugua,Atlantida SC Asuncion,paraguay-copa-paraguay,False,False,False,0,0,0,
-50feebcc9931c6a984f9,2026-06-02,Deportivo Merlo,CSCD Laferrere,argentina-primera-b,False,False,False,0,0,0,
-4c7a5c6ff3b1187fa064,2026-06-02,Independiente Medellin,Cucuta Deportivo FC,colombia-copa-colombia,False,False,False,0,0,0,
-14b8f8b2f642266328ad,2026-06-02,Nona FC,Brave SC,usa-usl-league-two,False,False,False,0,0,0,
-6a42dc16fefdab872c0f,2026-06-03,Fortaleza EC CE,EC Vitoria BA,brazil-copa-do-nordeste,False,False,False,0,0,0,
-fba01d33a649316b221a,2026-06-03,Haiti,New Zealand,international-int-friendly-games,False,False,False,0,0,0,
-2d50d7a213ad436e1351,2026-06-03,CA Barracas Central,CA Huracan,argentina-copa-argentina,False,False,False,0,0,0,
-e35ad8632ed94171ff60,2026-06-03,CD Junior FC,Atletico Nacional Medellin,colombia-primera-a-apertura,False,False,False,0,0,0,
-e832bc314933d1ea2e83,2026-06-03,Indonesia,Singapore,international-t20-acc-premier-cup-women,False,False,False,0,0,0,
+bb82f468d33334651eff,2026-06-03,Hoo P R / Lai P J,Faza M / Pranata A S P,international-indonesia-open-mixed-doubles,False,False,False,0,0,0,
 4b867d0e242371802951,2026-06-03,Pakistan Panthers,Asian Stars,international-clubs-t20-asian-legends-league,False,False,False,0,0,0,
-0dfc7a45a9a413108631,2026-06-03,Broadmeadow Magic FC,Maitland FC,australia-northern-nsw-premier-league-women,False,False,False,0,0,0,
-4e5042d87c5184209eec,2026-06-03,Hawkesbury City SC,Gladesville Ryde Magic,australia-nsw-league-two,False,False,False,0,0,0,
+09a9a59eb353c5eff667,2026-06-03,Belconnen United FC,Tuggeranong United FC,australia-u23-capital-npl,True,True,True,1,1,1,odds_api_io_Bet365_ML
+0dfc7a45a9a413108631,2026-06-03,Broadmeadow Magic FC,Maitland FC,australia-northern-nsw-premier-league-women,True,True,True,1,1,1,odds_api_io_Bet365_ML
+4e5042d87c5184209eec,2026-06-03,Hawkesbury City SC,Gladesville Ryde Magic,australia-nsw-league-two,True,True,True,1,1,1,odds_api_io_Bet365_ML
+5898e52d4e1cf0560f36,2026-06-03,Portugal,Kazakhstan,international-youth-u19-european-championship-qualification,False,False,False,0,0,0,
+3421fff93bc500371b8c,2026-06-03,Sydney Olympic FC,University of NSW,australia-u20-nsw-npl,False,False,False,0,0,0,
+ec3c1efa421fd424a029,2026-06-03,Rochedale Rovers,Magic United Tfa,australia-queensland-npl,True,True,True,1,1,1,odds_api_io_Bet365_ML
+b01cd25e7f17282fa746,2026-06-03,Sunshine Coast Wanderers,St George Willawong FC,australia-queensland-premier-league-1,True,True,True,1,1,1,odds_api_io_Bet365_ML
+59f5b1e76f21b7f7f3e4,2026-06-03,Nepal,Bangladesh,international-saff-championship-women,True,True,True,1,1,1,odds_api_io_Bet365_ML
+46d290c581cf3aed759a,2026-06-03,Philippines,Guam,international-int-friendly-games,True,True,True,1,1,1,odds_api_io_Bet365_ML
+133efeb653217dc2c561,2026-06-03,Indonesia,Singapore,international-int-friendly-games-w,False,False,False,0,0,0,
 b91fd9811a565add0eba,2026-06-03,Japan,Portugal,international-youth-toulon-tournament,False,False,False,0,0,0,
+23d4ce3e353f3c1814d7,2026-06-03,Milford FC,Magesi FC,south-africa-premiership,True,True,True,1,1,1,odds_api_io_Bet365_ML
+9a5649032e8ba29c6e5f,2026-06-03,Philippines,Australia,international-youth-u19-aff-championship,False,False,False,0,0,0,
+cff13b4e7d8ebd187cdc,2026-06-03,FK Gazalkent,FC Jayxun,uzbekistan-pro-liga,True,True,True,1,1,1,odds_api_io_Bet365_ML
+1a67640f415cfb70642f,2026-06-03,Greece,Serbia,international-youth-u19-european-championship-qualification,False,False,False,0,0,0,
+7ba6c1312059360539f1,2026-06-03,India,Bhutan,international-saff-championship-women,True,True,True,1,1,1,odds_api_io_Bet365_ML
+599492811596c81834e8,2026-06-03,Montenegro,Georgia,international-youth-u19-european-championship-qualification,False,False,False,0,0,0,
 3b22dae69edf456799c3,2026-06-03,Pakistan,West Indies,international-t20-ireland-tri-series-women,False,False,False,0,0,0,
-3e723e7af36eb37efe12,2026-06-03,BK Olympic,Lunds BK,sweden-ettan-relegation/promotion,False,False,False,0,0,0,
-9c46cebc5f3aff5a9f3d,2026-06-03,Vasalunds IF,FC Jarfalla,sweden-ettan-relegation/promotion,False,False,False,0,0,0,
-e2085f961e3ce3537c35,2026-06-03,Luxembourg,Italy,international-int-friendly-games,False,False,False,0,0,0,
-46f6e5fc92f793497063,2026-06-03,Netherlands,Algeria,international-int-friendly-games,False,False,False,0,0,0,
-9bf60854257b5d906a7a,2026-06-03,Poland,Nigeria,international-int-friendly-games,False,False,False,0,0,0,
+eda171d741e9a71feeb1,2026-06-03,Croatia,Qatar,international-youth-u21-friendly-games,False,False,False,0,0,0,
+43f16691d9397ead8bde,2026-06-03,Renaissance Zemamra,US Yacoub Mansour,morocco-botola-pro-d1,True,True,True,1,1,1,odds_api_io_Bet365_ML
+079a15a52ed925876563,2026-06-03,SV Anthering,SV Burmoos,austria-amateur-salzburg-salzburger-liga,True,True,True,1,1,1,odds_api_io_Bet365_ML
+85ce8f1caa58768189f3,2026-06-03,FC Hard,SC Rothis,austria-amateur-vorarlberg-eliteliga,True,True,True,1,1,1,odds_api_io_Bet365_ML
+4789a6157687a29f737e,2026-06-03,Ivory Coast,Venezuela,international-youth-toulon-tournament,False,False,False,0,0,0,
+a1b7656ae40016617cff,2026-06-03,SV Spittal/Drau,KAC 1909,austria-amateur-karnten-karntner-liga,True,True,True,1,1,1,odds_api_io_Bet365_ML
+7f90027700f37da7c12c,2026-06-03,Atus Velden,FC Gleisdorf 09,austria-amateur-regionalliga-centre,True,True,True,1,1,1,odds_api_io_Bet365_ML
+3e723e7af36eb37efe12,2026-06-03,BK Olympic,Lunds BK,sweden-ettan-relegation/promotion,True,True,True,1,1,1,odds_api_io_Bet365_ML
+454939d9067bab4e3168,2026-06-03,Gibraltar,"Virgin Islands, British",international-int-friendly-games,True,True,True,1,1,1,odds_api_io_Bet365_ML
+c74d8e1be5f6eda7c362,2026-06-03,FC Groningen,de Graafschap,netherlands-u21-divisie-1,False,False,False,0,0,0,
+9fd8c032f9fee82adf66,2026-06-03,Helsingin Ponnistus,Toukolan Teras/Tapio,finland-kolmonen,True,True,True,1,1,1,odds_api_io_Bet365_ML
+d7e605a49cdcaba7de00,2026-06-03,IFK Umea,Taftea IK,sweden-division-2-promotion-playoffs,True,True,True,1,1,1,odds_api_io_Bet365_ML
+8d7fa66a73a646bcb03b,2026-06-03,FC Marchfeld Donauauen,SR Donaufeld,austria-amateur-regionalliga-ost,True,True,True,1,1,1,odds_api_io_Bet365_ML
+c7f13aa872847fe748d0,2026-06-03,Ntnui,Fk Kvik Trondheim,norway-3rd-division-group-2,True,True,True,1,1,1,odds_api_io_Bet365_ML
+2e51b7832be43f62d6f9,2026-06-03,SC Kalsdorf,SPG Wallern/ASV St. Marienkirchen,austria-amateur-regionalliga-centre,True,True,True,1,1,1,odds_api_io_Bet365_ML
+48141869a9ef3cb1a680,2026-06-03,SK Bischofshofen,SC Schwaz,austria-amateur-regionalliga-west,True,True,True,1,1,1,odds_api_io_Bet365_ML
+36c57016f8994afe9acd,2026-06-03,TSV Grafenstein,SV Dellach/Gail,austria-amateur-karnten-karntner-liga,True,True,True,1,1,1,odds_api_io_Bet365_ML
+ce822f00cc05a6ff1498,2026-06-03,Viggbyholms IK FF,Sollentuna FK,sweden-svenska-cup,True,True,True,1,1,1,odds_api_io_Bet365_ML
+6523abe5af4458aba0bb,2026-06-03,SC Neusiedl am See 1919,SC Wiener Viktoria,austria-amateur-regionalliga-ost,True,True,True,1,1,1,odds_api_io_Bet365_ML
+a73ca48ce1f6c1fc8c80,2026-06-03,SV Donau,SC/ESV Parndorf 1919,austria-amateur-regionalliga-ost,True,True,True,1,1,1,odds_api_io_Bet365_ML
+f871d74054db299fde1e,2026-06-03,SV Leobendorf,FCM Traiskirchen,austria-amateur-regionalliga-ost,True,True,True,1,1,1,odds_api_io_Bet365_ML
+9c46cebc5f3aff5a9f3d,2026-06-03,Vasalunds IF,FC Jarfalla,sweden-ettan-relegation/promotion,True,True,True,1,1,1,odds_api_io_Bet365_ML
+19119d6617cf75b6184d,2026-06-03,America FC RJ,Sao Goncalo EC RJ,brazil-carioca-serie-a2,True,True,True,1,1,1,odds_api_io_Bet365_ML
+df6967926c2c19642b28,2026-06-03,Araruama FC RJ,Marica FC RJ,brazil-carioca-serie-a2,True,True,True,1,1,1,odds_api_io_Bet365_ML
+abd5cd1ce2a63bb2a6ad,2026-06-03,ADO 20 Heemskerk,IJsselmeervogels,netherlands-tweede-divisie,True,True,True,1,1,1,odds_api_io_Bet365_ML
+5165f8609f609b023db2,2026-06-03,Albania,Israel,international-int-friendly-games,True,True,True,1,1,1,odds_api_io_Bet365_ML
+cc0c6f6d2e03073f57e1,2026-06-03,Denmark,Congo DR,international-int-friendly-games,True,True,True,1,1,1,odds_api_io_Bet365_ML
+0034fb61bc14092a33a6,2026-06-03,Estudiantes de LP Reserve,Independiente Rivadavia de Mendoza Reserve,argentina-copa-proyeccion-final-reserves,False,False,False,0,0,0,
+2d6c6b15b4ca524ce660,2026-06-03,Instituto AC Cordoba Reserves,Atletico Tucuman Reserve,argentina-copa-proyeccion-final-reserves,False,False,False,0,0,0,
+fa7c5b435b48ea6e199c,2026-06-03,FC Rijnvogels,Excelsior Maassluis,netherlands-tweede-divisie,True,True,True,1,1,1,odds_api_io_Bet365_ML
+d5ea9f7f8eb5d75225d2,2026-06-03,Rosario Central Reserve,Racing Club Avellaneda,argentina-copa-proyeccion-final-reserves,False,False,False,0,0,0,
+7f633522fcebdb929108,2026-06-03,Vilavelhense FC ES,Vitoria FC ES,brazil-copa-espirito-santo,True,True,True,1,1,1,odds_api_io_Bet365_ML
+09a1045fa48b5c2eb1b5,2026-06-03,FC Winterthur,FC Lausanne Sport,switzerland-u19-elite,False,False,False,0,0,0,
+bec20d352270dd956d51,2026-06-03,Portugal,Northern Ireland,international-youth-u21-friendly-games,False,False,False,0,0,0,
+a6e686d6917df186d7b5,2026-06-03,Presidente Hayes,Deportivo Pinoza,paraguay-copa-paraguay,True,True,True,1,1,1,odds_api_io_Bet365_ML
+a6f8d095f04b518850ce,2026-06-03,Sacachispas FC,AD Berazategui,argentina-primera-c,True,True,True,1,1,1,odds_api_io_Bet365_ML
+e2085f961e3ce3537c35,2026-06-03,Luxembourg,Italy,international-int-friendly-games,True,True,True,1,1,1,odds_api_io_Bet365_ML
+46f6e5fc92f793497063,2026-06-03,Netherlands,Algeria,international-int-friendly-games,True,True,True,1,1,1,odds_api_io_Bet365_ML
+9bf60854257b5d906a7a,2026-06-03,Poland,Nigeria,international-int-friendly-games,True,True,True,1,1,1,odds_api_io_Bet365_ML
+6091d4c1e62207f9275a,2026-06-03,Raja Casablanca Athletic,Rs Berkane,morocco-botola-pro-d1,False,False,False,0,0,0,
 6e96d03022f956cdb790,2026-06-03,France,Japan,international-nations-league-women,False,False,False,0,0,0,
+0487e640c6b676d3cc01,2026-06-03,Gualaceo SC,Mushuc Runa SC,ecuador-copa-ecuador,False,False,False,0,0,0,
+3dfde74000620f0457a4,2026-06-03,Capo FC,Socal Reds FC,usa-usl-w-league,False,False,False,0,0,0,
+a3f2183434754a6808ed,2026-06-03,Union FC Macomb,Midwest United FC,usa-usl-league-two,False,False,False,0,0,0,
+e9254f26acde3694c10e,2026-06-03,Boca Juniors,Defensa Y Justicia Reserve,argentina-copa-proyeccion-final-reserves,False,False,False,0,0,0,
 ecc62d5101c7bf456fd6,2026-06-03,GV Club Deportivo San Jose de Oruro,CD Real Tomayapo,bolivia-division-profesional,False,False,False,0,0,0,
+8f97336d77f3d16df3d8,2026-06-03,Miami AC,Weston FC,usa-usl-league-two,False,False,False,0,0,0,
+e76c0e05edf4fc874c54,2026-06-03,Annapolis Blues FC,Lionsbridge FC,usa-usl-league-two,False,False,False,0,0,0,
+a6faf24013962c0c0d57,2026-06-03,Avai FC SC,Chapecoense SC,brazil-copa-sul-sudeste,False,False,False,0,0,0,
+b216ad9a8df30265de11,2026-06-03,Brevard SC,Fort Lauderdale United FC,usa-usl-league-two,False,False,False,0,0,0,
+364207a935b0863ea049,2026-06-03,Charlotte Eagles,Tobacco Road FC,usa-usl-league-two,False,False,False,0,0,0,
+ffbb9366b6934787c02b,2026-06-03,Christos FC,Charlottesville Blues,usa-usl-league-two,False,False,False,0,0,0,
+8eb23f2c55098df441ae,2026-06-03,Cleveland SC,Ambassadors FC Ohio,usa-national-premier-soccer-league,False,False,False,0,0,0,
+44003759a712581a1d73,2026-06-03,Davis Legacy,San Francisco Glens SC,usa-usl-league-two,False,False,False,0,0,0,
+4910badd845d771c65e6,2026-06-03,New England FC,Connecticut Rush,usa-usl-league-two,False,False,False,0,0,0,
+b92bbbf4bd7d11c46581,2026-06-03,Sporting Jax II,Brooke House FC,usa-usl-league-two,False,False,False,0,0,0,
+9d92d2af5b9da6d1a4aa,2026-06-03,Tacoma Galaxy,Salmon Bay FC,usa-usl-w-league,False,False,False,0,0,0,
+9328de33f6e61060d2bb,2026-06-03,Wake FC,South Carolina United Bantams,usa-usl-league-two,False,False,False,0,0,0,
+318006341200921c63bd,2026-06-03,Greenville Triumph SC,Forward Madison FC,usa-usl-league-one,False,False,False,0,0,0,
+9a45d97bdcd0dc6c8878,2026-06-03,Long Island Rough Riders,Hudson Valley Hammers,usa-usl-league-two,False,False,False,0,0,0,
+544f69214982c5447e64,2026-06-03,Morris Elite SC,FC Motown STA,usa-usl-league-two,False,False,False,0,0,0,
+20b0304733bea2ceed65,2026-06-03,FC Naples,Charlotte Independence,usa-usl-league-one,False,False,False,0,0,0,
+85c1feb3e088f46797cc,2026-06-03,SSA Swarm FC,Chattanooga Red Wolves SC,usa-usl-w-league,False,False,False,0,0,0,
 f161a389cbf37afe68a5,2026-06-04,Birmingham Legion FC,Louisville City FC,usa-usl-championship,False,False,False,0,0,0,
+1b39a8828b5a7bae9ef4,2026-06-04,Houston FC,Hill Country Lobos,usa-usl-league-two,False,False,False,0,0,0,
+bf2ffc8536ef1d2eb2e8,2026-06-04,Santafe Wanderers FC,Peoria City,usa-usl-league-two,False,False,False,0,0,0,
+c22366e12f6999e6978b,2026-06-04,Virginia Marauders FC,Loudoun United FC 2,usa-usl-league-two,False,False,False,0,0,0,
+56e2046ac1b394da5b08,2026-06-04,Corpus Christi FC,Portland Hearts of Pine,usa-usl-league-one,False,False,False,0,0,0,
+0943aeb999cafdacd8ca,2026-06-04,Panama,Dominican Republic,international-int-friendly-games,False,False,False,0,0,0,
+779f4fda16ba08344d22,2026-06-04,Korea Republic,El Salvador,international-int-friendly-games,False,False,False,0,0,0,
+8d56ad2a85d95d703329,2026-06-04,San Francisco City,Almaden FC,usa-usl-league-two,False,False,False,0,0,0,
+01c489002f3cc7874523,2026-06-04,Tacoma Stars,Ballard FC,usa-usl-league-two,False,False,False,0,0,0,
 a9ec806456f19462d07f,2026-06-04,Indonesia,Kuwait,international-t20-acc-premier-cup-women,False,False,False,0,0,0,
 77733498f663e3280016,2026-06-04,Japan,Mongolia,international-t20-acc-premier-cup-women,False,False,False,0,0,0,
 522f8bd726d88d770546,2026-06-04,DH van Hien,K. Khanh Hoa,vietnam-v-league-2,False,False,False,0,0,0,
+f5a8a2b4bfd53e337bfa,2026-06-04,Dornbirner SV,FC Rotenberg,austria-amateur-vorarlberg-eliteliga,False,False,False,0,0,0,
+1a3617215558fcde223a,2026-06-04,FC Lustenau,VfB Hohenems,austria-amateur-regionalliga-west,False,False,False,0,0,0,
 1abd682ea5c0931865f6,2026-06-04,Myanmar,Vietnam,international-youth-u19-aff-championship,False,False,False,0,0,0,
+c9cf45d92a1e6234712d,2026-06-04,FC Raika Volders,SC Mils,austria-amateur-tirol-regionalliga-tirol,False,False,False,0,0,0,
 7b8ef1c280817906f570,2026-06-04,Maldives,Pakistan,international-int-friendly-games,False,False,False,0,0,0,
-db07a000f86ae320e98f,2026-06-04,Can Tho Catfish,Hanoi Buffaloes,vietnam-vba,False,False,False,0,0,0,
+435a05011c7c8fe0a963,2026-06-04,Belgium,France,international-youth-u17-european-championship,False,False,False,0,0,0,
+d05cbde63d856046733a,2026-06-04,Pakistan,Australia,-,False,False,False,0,0,0,
+40bdb69bf2937fb46781,2026-06-04,FC Lauterach,SV Kuchl,austria-amateur-regionalliga-west,False,False,False,0,0,0,
+4ffb7888193930783d7c,2026-06-04,FC Kitzbuhel,TSV St. Johann,austria-amateur-regionalliga-west,False,False,False,0,0,0,
+61b1465292d72815f01c,2026-06-04,1. Wiener Neustadter SC,UFC Sankt Peter Au,austria-amateur-niederosterreich-1-landesliga,False,False,False,0,0,0,
 8c6f738f66a65db3f138,2026-06-04,Timor-Leste,Indonesia,international-youth-u19-aff-championship,False,False,False,0,0,0,
 a959d4e62f99865e91f3,2026-06-04,Ireland,Pakistan,international-t20-ireland-tri-series-women,False,False,False,0,0,0,
+b804c6ec6565c78fd2e8,2026-06-04,FC Wolfurt,SV Ludesch,austria-amateur-vorarlberg-eliteliga,False,False,False,0,0,0,
+184e5d3aed55bc84c503,2026-06-04,FC Dornbirn,SVG Reichenau,austria-amateur-regionalliga-west,False,False,False,0,0,0,
+236c06b1e5e8062523ff,2026-06-04,Lebanon,Yemen,international-afc-asian-cup-qf,False,False,False,0,0,0,
+10ca876e97ac876280c7,2026-06-04,LTU,Jyty Turku,finland-kolmonen,False,False,False,0,0,0,
 180f376fb6337838a5f5,2026-06-04,Northern Ireland,Guinea,international-int-friendly-games,False,False,False,0,0,0,
+a98282d1f8624974c86e,2026-06-04,Slovenia,Cyprus,international-int-friendly-games,False,False,False,0,0,0,
+399337017f30539e2286,2026-06-04,FC Ylivieska,SIF,finland-kolmonen,False,False,False,0,0,0,
+295c38cc6b2b2a84566d,2026-06-04,Lautp,Peka,finland-kolmonen,False,False,False,0,0,0,
+f245cc15b53409968cf9,2026-06-04,Laholms FK,Hassleholms IF,sweden-ettan-relegation/promotion,False,False,False,0,0,0,
+70503c5274402c49423a,2026-06-04,FC Lasten,Fish United,finland-kolmonen,False,False,False,0,0,0,
 df037296291c8bf6652d,2026-06-04,Sweden,Greece,international-int-friendly-games,False,False,False,0,0,0,
+9c0a68db948f447546c4,2026-06-04,AFC Eskilstuna,Karlbergs BK,sweden-ettan-relegation/promotion,False,False,False,0,0,0,
+f6da153f7b608321784d,2026-06-04,CA Barracas Central Reserve,CA Aldosivi Reserve,argentina-copa-proyeccion-final-reserves,False,False,False,0,0,0,
+140fdaff3d89b4ccd07d,2026-06-04,Paraguari AC,CA Tembetary Ypane,paraguay-segunda-division,False,False,False,0,0,0,
 ceb2c971f635e38f4195,2026-06-04,Spain,Iraq,international-int-friendly-games,False,False,False,0,0,0,
 0c49363160c413ca7fe2,2026-06-04,France,Ivory Coast,international-int-friendly-games,False,False,False,0,0,0,
+9db9d92142ec4bf065dc,2026-06-04,Deportivo Santani,Resistencia SC,paraguay-segunda-division,False,False,False,0,0,0,
+254695c01e4a955d4efc,2026-06-05,San Antonio FC,CD Independiente Juniors,ecuador-serie-b,False,False,False,0,0,0,
+934a29b8bd56b4af5c3c,2026-06-05,Mexico,Serbia,international-int-friendly-games,False,False,False,0,0,0,
 67938b9cdb7ffca3a862,2026-06-05,Pakistan Panthers,Afghanistan Pathans,international-clubs-t20-asian-legends-league,False,False,False,0,0,0,
+fdcdbd13e8b84f5aaf40,2026-06-05,Eastern Suburbs FC,Moreton City Excelsior FC,australia-queensland-npl,False,False,False,0,0,0,
+17da4982649665784f32,2026-06-05,Green Gully SC,Avondale FC,australia-victoria-npl,False,False,False,0,0,0,
+30ff775318609837d6a0,2026-06-05,Dandenong City SC,Heidelberg United FC,australia-victoria-npl,False,False,False,0,0,0,
+319aa3dd5ff1664efb6a,2026-06-05,Adelaide City FC,Sturt Lions,australia-south-australia-npl,False,False,False,0,0,0,
+1df95ba382f4be64d068,2026-06-05,Cooks Hill United,Belmont Swansea United FC,australia-northern-nsw-npl,False,False,False,0,0,0,
+f9262a5a5ad99a4389a2,2026-06-05,Kamatamare Sanuki,AC Nagano Parceiro,japan-jleague-2,False,False,False,0,0,0,
+08be00c3973df2636173,2026-06-05,Modbury Jets SC,Fulham United FC,australia-south-australia-state-league-1,False,False,False,0,0,0,
+6c12a2feccb2a57b97f4,2026-06-05,Japan,Fiji,rugby-union-sevens-svns-women,False,False,False,0,0,0,
+0f2e87039388c354e444,2026-06-05,Eastern United,The Cove FC,australia-south-australia-state-league-1,False,False,False,0,0,0,
+956341ea633191ab9f30,2026-06-05,Oakleigh Cannons,ST Albans Saints Dinamo SC,australia-victoria-npl,False,False,False,0,0,0,
+5a9087ac41804ef93ec6,2026-06-05,Bentleigh Greens,Hume City,australia-victoria-npl,False,False,False,0,0,0,
+ea056759015839925f41,2026-06-05,Busan I Park,Chungnam Asan FC,republic-of-korea-k-league-2,False,False,False,0,0,0,
 00ad50838428bae6d5a0,2026-06-05,Eltham Redbacks FC,FC Bulleen Lions,australia-victoria-premier-league-1,False,False,False,0,0,0,
-88f22c45662443eaa9e5,2026-06-05,Da Nang Dragons,Saigon Heat,vietnam-vba,False,False,False,0,0,0,
-d268a5681413fc627beb,2026-06-05,FC Hunters,Bulawayo Chiefs FC,zimbabwe-premier-soccer-league,False,False,False,0,0,0,
+6374a91fb0bc1f52625d,2026-06-05,Northcote City,Langwarrin SC,australia-victoria-premier-league-1,False,False,False,0,0,0,
+9b33fb0f2917ce0e1f1d,2026-06-05,Seongnam Ilhwa,Gimhae FC,republic-of-korea-k-league-2,False,False,False,0,0,0,
+5675629fdad13d9339e3,2026-06-05,West Torrens Birkalla,Croydon FC,australia-south-australia-npl,False,False,False,0,0,0,
+160b5b1e444a47707f2a,2026-06-05,France,South Africa,rugby-union-sevens-svns-women,False,False,False,0,0,0,
 667b32032b5999e7bb0d,2026-06-05,Indonesia,Oman,international-int-friendly-games,False,False,False,0,0,0,
+9eb4ec1cc719c8eb6b93,2026-06-05,New Zealand,France,rugby-union-sevens-svns,False,False,False,0,0,0,
+c1c6b8da3b4c5656633e,2026-06-05,Japan,Brazil,rugby-union-sevens-svns-women,False,False,False,0,0,0,
+948e36c02fac447ed0be,2026-06-05,FC Haka Valkeakoski,JaPS,finland-ykkosliiga,False,False,False,0,0,0,
+aba33eeed695807ad6d9,2026-06-05,KaPa Kapylan Pallo,FC KTP Kotka,finland-ykkosliiga,False,False,False,0,0,0,
+a6794729c732eccb4a33,2026-06-05,New Zealand,Haiti,international-int-friendly-games-w,False,False,False,0,0,0,
+003ad2d4a9d29de3b488,2026-06-05,Poland,France,international-world-championship-qualification-women-europe,False,False,False,0,0,0,
+9129782f62d4758545a3,2026-06-05,France,Argentina,rugby-union-sevens-svns-women,False,False,False,0,0,0,
+dd4715ba4b706513cb91,2026-06-05,FBK Karlstad,IF Karlstad Fotbol,sweden-ettan-relegation/promotion,False,False,False,0,0,0,
+9c768d1134364a5e0fc7,2026-06-05,CE Sabadell FC,Real Madrid Castilla,spain-primera-federacion,False,False,False,0,0,0,
+58ddabf813b441360f68,2026-06-05,Spain,England,international-world-championship-qualification-women-europe,False,False,False,0,0,0,
+1b68ad2c2516d9f070b1,2026-06-05,HK Kopavogur,Afturelding,iceland-1-deild,False,False,False,0,0,0,
+97733aaaa6fb2568834b,2026-06-05,KF Aegir,Leiknir Reykjavik,iceland-1-deild,False,False,False,0,0,0,
+260067708c5543955c3b,2026-06-05,UMF Njardvik,IR Reykjavik,iceland-1-deild,False,False,False,0,0,0,
+e5a2b68ec050d66be760,2026-06-05,Argentina,France,rugby-union-sevens-svns,False,False,False,0,0,0,
 9deead7b09d3a49787bc,2026-06-05,Ukraine,Japan,international-nations-league-women,False,False,False,0,0,0,
-c34fa70705e9b4117357,2026-06-06,Vietnam,Lebanon,international-avc-cup-women,False,False,False,0,0,0,
+df2a2c2f10050a98f223,2026-06-05,Montevideo Wanderers,Danubio FC,uruguay-primera-division,False,False,False,0,0,0,
+07f2a1a98062cdfab748,2026-06-05,Operario Ferroviario EC PR,EC Juventude RS,brazil-brasileiro-serie-b,False,False,False,0,0,0,
+9a146f672c7714ddb931,2026-06-05,Barracas Central,Independiente,argentina-primera-division,False,False,False,0,0,0,
+e6a01e1bf43dd25d9ee9,2026-06-05,Canada,Ireland,international-int-friendly-games,False,False,False,0,0,0,
+f97089d34433f739143e,2026-06-06,Deportes Concepcion,Coquimbo Unido,chile-copa-de-la-liga,False,False,False,0,0,0,
+82da28c7bfd79a7ad15d,2026-06-06,France,USA,international-nations-league-women,False,False,False,0,0,0,
+8facd15a416d4c5e14a4,2026-06-06,Haiti,Peru,international-int-friendly-games,False,False,False,0,0,0,
 964d6dd8776b2064295e,2026-06-06,Japan,Myanmar,international-t20-acc-premier-cup-women,False,False,False,0,0,0,
 9f524eb63719421ab0d7,2026-06-06,Malaysia,Indonesia,international-t20-acc-premier-cup-women,False,False,False,0,0,0,
-9936fbb13a1505e377aa,2026-06-06,Avondale FC,Melbourne Victory FC,australia-u20-victoria-npl-women,False,False,False,0,0,0,
-95eee70f07bbfa0f3a68,2026-06-06,Keilor Park SC,FC Bulleen Lions U20,australia-u20-victoria-npl-women,False,False,False,0,0,0,
-7927e6f83e4a0ff82d7e,2026-06-06,Avondale FC,Melbourne Victory FC Youth,australia-victoria-npl-women,False,False,False,0,0,0,
+5a22b88f2498c5421863,2026-06-06,Albirex Niigata,Hokkaido Consadole Sapporo,japan-jleague-2,False,False,False,0,0,0,
+5ddf4ea1533d8a9eccf0,2026-06-06,Fujieda MYFC,Ehime FC,japan-jleague-2,False,False,False,0,0,0,
+e4213d0665edc8525af9,2026-06-06,JEF United Chiba,Avispa Fukuoka,japan-jleague,False,False,False,0,0,0,
 119b90163cc4f1b04bba,2026-06-06,Kashima Antlers,Vissel Kobe,japan-jleague,False,False,False,0,0,0,
-7236f89d03718efcc3e3,2026-06-06,Keilor Park SC,FC Bulleen Lions,australia-victoria-npl-women,False,False,False,0,0,0,
+0bb7b0174667d10e0c1a,2026-06-06,Matsumoto Yamaga FC,Nara Club,japan-jleague-2,False,False,False,0,0,0,
+d8b84686c5476d7d7adb,2026-06-06,North Sunshine Eagles FC,Melbourne Knights,australia-victoria-premier-league-1,False,False,False,0,0,0,
+7edffd34fad63cd7734d,2026-06-06,RB Omiya Ardija,Kochi United SC,japan-jleague-2,False,False,False,0,0,0,
+a97d85acf437c5bf1b9d,2026-06-06,SC Sagamihara,Roasso Kumamoto,japan-jleague-2,False,False,False,0,0,0,
+1260a522c174d7748d30,2026-06-06,Tegevajaro Miyazaki,Ventforet Kofu,japan-jleague-2,False,False,False,0,0,0,
+648572e13231a6facc12,2026-06-06,Tochigi City FC,Reilac Shiga FC,japan-jleague-2,False,False,False,0,0,0,
+7e8c641f34e5f37935ed,2026-06-06,FC Tokyo,Cerezo Osaka,japan-jleague,False,False,False,0,0,0,
+ff8ca930f685d4e42e10,2026-06-06,Vegalta Sendai,Kataller Toyama,japan-jleague-2,False,False,False,0,0,0,
+d33b419e2e6a2f534c5c,2026-06-06,Yokohama FC,Renofa Yamaguchi,japan-jleague-2,False,False,False,0,0,0,
+8f10c84b8c855878ce2a,2026-06-06,Adelaide Atletico VSC,Cumberland United,australia-south-australia-state-league-1,False,False,False,0,0,0,
+37de5813440867dbb88a,2026-06-06,Adelaide Blue Eagles,Adelaide Olympic FC,australia-south-australia-state-league-1,False,False,False,0,0,0,
+e1beecb700863894d54c,2026-06-06,Campbelltown City SC,Para Hills Knights SC,australia-south-australia-npl,False,False,False,0,0,0,
+5ebc4908d56e8d9ef681,2026-06-06,Playford City,Adelaide Comets FC,australia-south-australia-npl,False,False,False,0,0,0,
+4638480505cd74144f26,2026-06-06,Salisbury United,Adelaide Croatia Raiders SC,australia-south-australia-state-league-1,False,False,False,0,0,0,
+f0b19d87d204f3d05622,2026-06-06,South Adelaide FC,Adelaide Cobras,australia-south-australia-state-league-1,False,False,False,0,0,0,
+e74b577f299ccac435b6,2026-06-06,FC Gifu,Gainare Tottori,japan-jleague-2,False,False,False,0,0,0,
+6314c8f6ef6a5a06ff48,2026-06-06,Machida Zelvia,Nagoya Grampus,japan-jleague,False,False,False,0,0,0,
+bb1df90734a77525feac,2026-06-06,Mito Hollyhock,V-Varen Nagasaki,japan-jleague,False,False,False,0,0,0,
+4a0266f892eb2bcbadc5,2026-06-06,Armadale SC,Fremantle City,australia-western-australia-npl,False,False,False,0,0,0,
+b82cbddd1d01c351b2aa,2026-06-06,Balcatta,Sorrento FC,australia-western-australia-npl,False,False,False,0,0,0,
+ac689e103aa305af7314,2026-06-06,Bankstown City FC,Northern Tigers,australia-nsw-league-one,False,False,False,0,0,0,
+720e667f90bddb2aa829,2026-06-06,Dandenong Thunder,Caroline Springs George Cross FC,australia-victoria-npl,False,False,False,0,0,0,
+6ef3f3b86113dc2b940f,2026-06-06,Dulwich Hill,Central Coast Mariners Academy,australia-nsw-league-one,False,False,False,0,0,0,
+3dbab9e812a8180b0e8b,2026-06-06,Inter Lions FC,Hurstville FC,australia-nsw-league-one,False,False,False,0,0,0,
+46938eb65d345c654598,2026-06-06,Jubilo Iwata,FC Osaka,japan-jleague-2,False,False,False,0,0,0,
+0e790ca6d1031958c72f,2026-06-06,Perth Glory FC,Olympic Kingsway SC,australia-western-australia-npl,False,False,False,0,0,0,
+77eec2177663021d0701,2026-06-06,Perth Redstar FC,Western Knights SC,australia-western-australia-npl,False,False,False,0,0,0,
+23c4686c37918c3f7b64,2026-06-06,SD Raiders FC,University of Nsw,australia-nsw-npl-1,False,False,False,0,0,0,
+6e47213f2a1c34a1eff9,2026-06-06,Tokyo Verdy,Gamba Osaka,japan-jleague,False,False,False,0,0,0,
 822b314cfe2dc808ab59,2026-06-06,Urawa Red Diamonds,Fagiano Okayama,japan-jleague,False,False,False,0,0,0,
-5a71609e2cc82b2df4a9,2026-06-06,Bac Ninh,PVF Cand B,vietnam-v-league-2,False,False,False,0,0,0,
-dcc43a5b6bfe8d4628ae,2026-06-06,Long An FC,Quy Nhon Binh Dinh,vietnam-v-league-2,False,False,False,0,0,0,
-324023cec38ccfabde28,2026-06-06,Quang Ninh FC,Cong An Tp Ho Chi Minh City FC,vietnam-v-league-2,False,False,False,0,0,0,
-33d8dac9c4a43e7a12b2,2026-06-06,Xuan Thien Phu Tho FC,Truong Tuoi Dong Nai FC,vietnam-v-league-2,False,False,False,0,0,0,
+e8a14b7fe171d36a39eb,2026-06-06,FK Beograd,North Eastern Metrostars SC,australia-south-australia-npl,False,False,False,0,0,0,
+70f1dec0c6d96fa5494a,2026-06-06,Brisbane City FC,Lions FC,australia-queensland-npl,False,False,False,0,0,0,
+f621dae915bdd82efc49,2026-06-06,Yokohama F Marinos,Shimizu S-Pulse,japan-jleague,False,False,False,0,0,0,
+2201497ea5e4d827effc,2026-06-06,St George Saints FC,Sutherland Sharks,australia-nsw-npl-1,False,False,False,0,0,0,
+932ba8b7bed0dfaf7771,2026-06-06,Kashiwa Reysol,Kyoto Sanga FC,japan-jleague,False,False,False,0,0,0,
+3dfa415ecad45396de43,2026-06-06,St George City FA,Sydney Olympic FC,australia-nsw-npl-1,False,False,False,0,0,0,
+b6348d6c13bf1c67110c,2026-06-06,France,Germany,rugby-union-sevens-svns,False,False,False,0,0,0,
 f53a3f84d381c6e555d7,2026-06-06,Indian Royals,Pakistan Panthers,international-clubs-t20-asian-legends-league,False,False,False,0,0,0,
 cbd86993f9a9e3585dc5,2026-06-06,Iran,Indonesia,international-avc-cup-women,False,False,False,0,0,0,
+0410cb3eea0fc9e14b0a,2026-06-06,Kawasaki Frontale,Sanfrecce Hiroshima,japan-jleague,False,False,False,0,0,0,
+3d9c9e620f59398e60fa,2026-06-06,Sagan Tosu,Shonan Bellmare,japan-jleague-2,False,False,False,0,0,0,
+8c267d872ca9eb6c8cee,2026-06-06,Gyeongnam FC,Yongin City FC,republic-of-korea-k-league-2,False,False,False,0,0,0,
+390f0887970b7185a4fe,2026-06-06,Hwaseong FC,Suwon Bluewings,republic-of-korea-k-league-2,False,False,False,0,0,0,
+0b9df55ed8846917fa91,2026-06-06,Australia,Japan,rugby-union-sevens-svns-women,False,False,False,0,0,0,
+90648e7c306a85345a02,2026-06-06,Central Espanol FC,Racing Club Montevideo,uruguay-primera-division,False,False,False,0,0,0,
+436da6b651b6f617f19c,2026-06-06,IF Vestri,Volsungur,iceland-1-deild,False,False,False,0,0,0,
 d501a1100e44013fb0ba,2026-06-06,Japan,Canada Youth,international-youth-toulon-tournament,False,False,False,0,0,0,
+0ebd4048fe7e8e7c8adf,2026-06-06,Criciuma EC SC,Londrina EC PR,brazil-brasileiro-serie-b,False,False,False,0,0,0,
+88677f6d4b2d03dcd074,2026-06-06,Fylkir Reykjavik,Throttur Reykjavik,iceland-1-deild,False,False,False,0,0,0,
+0fba70872caa9b6ffeb4,2026-06-06,Gefle IF,Hammarby Talang FF,sweden-ettan-relegation/promotion,False,False,False,0,0,0,
+2d69637ebe3214a82070,2026-06-06,Grotta,UMF Grindavik,iceland-1-deild,False,False,False,0,0,0,
+9f724c79ceb955ca7557,2026-06-06,Jonkopings Sodra IF,FC Trollhattan,sweden-ettan-relegation/promotion,False,False,False,0,0,0,
+a185cbdd6a6177fabd8d,2026-06-06,Atletico Madrid B,SD Ponferradina,spain-primera-federacion,False,False,False,0,0,0,
+ec69ccfd1ce5969acf79,2026-06-06,Portugal,Chile,international-int-friendly-games,False,False,False,0,0,0,
+5239adb55a3bde6f92b7,2026-06-06,Ceara SC CE,Fortaleza EC CE,brazil-u20-cearense,False,False,False,0,0,0,
+d26edb293d42d5b91e64,2026-06-06,Montevideo City Torque,Deportivo Maldonado,uruguay-primera-division,False,False,False,0,0,0,
+91fb4849db4b682778e8,2026-06-06,USA,Germany,international-int-friendly-games,False,False,False,0,0,0,
+46cb66837c467fe649c3,2026-06-06,CD Castellon,UD Almeria,spain-laliga-2,False,False,False,0,0,0,
+0d02a6ab0abe1bc92d5f,2026-06-06,EC Vitoria BA,Fortaleza EC CE,brazil-copa-do-nordeste,False,False,False,0,0,0,
+b0535028e0c4e725329c,2026-06-06,Switzerland,Australia,international-int-friendly-games,False,False,False,0,0,0,
+c9536f9d2ff27818e47a,2026-06-06,Bolivia,Scotland,international-int-friendly-games,False,False,False,0,0,0,
+e7435e7d270609c7d011,2026-06-06,England,New Zealand,international-int-friendly-games,False,False,False,0,0,0,
 6f4dc4bf803e7114d76e,2026-06-06,Club Nacional de Football,CA Juventud de Las Piedras,uruguay-primera-division,False,False,False,0,0,0,
+1a76612198f48b8a2c50,2026-06-06,Brazil,Egypt,international-int-friendly-games,False,False,False,0,0,0,
+815e618c831473fb3328,2026-06-06,CD Universidad Catolica,Cobresal,chile-copa-de-la-liga,False,False,False,0,0,0,
+81cdb9a42c19873c8c60,2026-06-06,Nublense,Universidad de Concepcion,chile-copa-de-la-liga,False,False,False,0,0,0,
+6876b6bbeae0ec545a23,2026-06-07,Argentina,Honduras,international-int-friendly-games,False,False,False,0,0,0,
 f7ccb20b9f2e96a03c53,2026-06-07,Germany,Japan,international-nations-league-women,False,False,False,0,0,0,
-fdbc6acfce393924011e,2026-06-07,Vietnam,"Hong Kong, China",international-avc-cup-women,False,False,False,0,0,0,
-397d835a2b771ce7c8fc,2026-06-07,Bahrain,Japan,international-t20-acc-premier-cup-women,False,False,False,0,0,0,
+2a5ad0a5373588268267,2026-06-07,Vanraure Hachinohe FC,FC Imabari,japan-jleague-2,False,False,False,0,0,0,
+8c1cc36b366d8fd987cf,2026-06-07,Tokushima Vortis,Iwaki FC,japan-jleague-2,False,False,False,0,0,0,
+2ee42de547ce9ddb4c2a,2026-06-07,Blacktown City FC,Rockdale Ilinden FC,australia-nsw-npl-1,False,False,False,0,0,0,
+dea2db0a204739ab227c,2026-06-07,Blaublitz Akita,Kagoshima United,japan-jleague-2,False,False,False,0,0,0,
+0bcbca2eb5c620d92d39,2026-06-07,Fukushima United FC,FC Ryukyu,japan-jleague-2,False,False,False,0,0,0,
+3f806b2db8399bb13e78,2026-06-07,Marconi Stallions,Wollongong Wolves FC,australia-nsw-npl-1,False,False,False,0,0,0,
+305f6827d315a2d5aca0,2026-06-07,Tochigi SC,Giravanz Kitakyushu,japan-jleague-2,False,False,False,0,0,0,
+56e73e45ba0b7d5be200,2026-06-07,Gold Coast United FC,Wynnum Wolves FC,australia-queensland-npl,False,False,False,0,0,0,
+7435eaad349f9b591995,2026-06-07,South Melbourne FC,Altona Magic SC,australia-victoria-npl,False,False,False,0,0,0,
+c0bcc0f396c279b10be4,2026-06-07,Oita Trinita,Montedio Yamagata,japan-jleague-2,False,False,False,0,0,0,
 aaf53c995eaaaecb30a8,2026-06-07,Kazakhstan,Indonesia,international-avc-cup-women,False,False,False,0,0,0,
+f7e3b625c9f323e77eaf,2026-06-07,Cheonan City FC,Suwon FC,republic-of-korea-k-league-2,False,False,False,0,0,0,
+7383de271a348c19958e,2026-06-07,Gimpo FC,Jeonnam Dragons,republic-of-korea-k-league-2,False,False,False,0,0,0,
+459f13e92263936675ea,2026-06-07,Seoul E-Land FC,Chungbuk Cheongju FC,republic-of-korea-k-league-2,False,False,False,0,0,0,
+c54b92d9eab7bd43b697,2026-06-07,Afghanistan,Pakistan,international-int-friendly-games,False,False,False,0,0,0,
+6963d3f29c1432f29ca1,2026-06-07,Piteaa IF,Enkopings SK,sweden-ettan-relegation/promotion,False,False,False,0,0,0,
+b061ae0c18742228548f,2026-06-07,CA Progreso,Albion FC,uruguay-primera-division,False,False,False,0,0,0,
+3fce2fcd5ad593227ea1,2026-06-07,Indonesia,Vietnam,international-youth-u19-aff-championship,False,False,False,0,0,0,
+13586369ef907e541d96,2026-06-07,Sollentuna FK,Umea FC,sweden-ettan-relegation/promotion,False,False,False,0,0,0,
+6e480f95e944fa706d2c,2026-06-07,FC Arlanda,Assyriska FF,sweden-ettan-relegation/promotion,False,False,False,0,0,0,
+e07e5091d256632ed1db,2026-06-07,RC Celta Fortuna,CE Europa,spain-primera-federacion,False,False,False,0,0,0,
+26e541aeb4044032e811,2026-06-07,Ranheim,Stroemmen IF,norway-1st-division,False,False,False,0,0,0,
+c75b5e26e93ebc0e3091,2026-06-07,Denmark,Ukraine,international-int-friendly-games,False,False,False,0,0,0,
+1ec0d5b7bb199a6d687c,2026-06-07,Deportes La Serena,Deportes Union La Calera,chile-copa-de-la-liga,False,False,False,0,0,0,
+bc8a9b4d53fdf8b62c26,2026-06-07,Universidad de Chile,Audax Italiano,chile-copa-de-la-liga,False,False,False,0,0,0,
+517d466857e05ef92a28,2026-06-07,Zamora CF,Villarreal CF B,spain-primera-federacion,False,False,False,0,0,0,
+119c2ee57138a9ecd129,2026-06-07,CA Cerro,CA Penarol Montevideo,uruguay-primera-division,False,False,False,0,0,0,
+6211eb664a34ed26ada1,2026-06-07,CR Brasil AL,Sao Bernardo FC,brazil-brasileiro-serie-b,False,False,False,0,0,0,
+896fc4715dc551ea91d8,2026-06-07,Greece,Italy,international-int-friendly-games,False,False,False,0,0,0,
+eadd8d21a8390690c0b4,2026-06-07,Huachipato,Colo-Colo,chile-copa-de-la-liga,False,False,False,0,0,0,
+24833b74cf5b4dd30dd6,2026-06-07,Morocco,Norway,international-int-friendly-games,False,False,False,0,0,0,
+f667015e370a2c192030,2026-06-07,UD Las Palmas,Malaga CF,spain-laliga-2,False,False,False,0,0,0,
+cc00494098b7052336bd,2026-06-07,Ecuador,Guatemala,international-int-friendly-games,False,False,False,0,0,0,
+cd9c1b2a2bab6cf6ac8e,2026-06-07,Defensor Sporting,CA Boston River,uruguay-primera-division,False,False,False,0,0,0,
+a8798bbb3fe056227530,2026-06-07,CD O´Higgins,CD Palestino,chile-copa-de-la-liga,False,False,False,0,0,0,
+15d047241d9ddf3b9b1f,2026-06-07,Deportes Limache,CD Everton Vina del Mar,chile-copa-de-la-liga,False,False,False,0,0,0,
+f744c80e0eb6850606d1,2026-06-08,FC Stockholm Internazionale,Vasalunds IF,sweden-ettan-relegation/promotion,False,False,False,0,0,0,
+289b664dcee2b2ea6737,2026-06-08,FC Jarfalla,IFK Stocksund,sweden-ettan-relegation/promotion,False,False,False,0,0,0,
+9475808465bb4a2fea4e,2026-06-08,Liverpool Montevideo,Cerro Largo FC,uruguay-primera-division,False,False,False,0,0,0,
+0ef6f3900580cadec7b8,2026-06-08,America FC MG,AC Goianiense GO,brazil-brasileiro-serie-b,False,False,False,0,0,0,
+f9b5662c9e4bd0748073,2026-06-08,Vila Nova FC GO,Botafogo FC SP,brazil-brasileiro-serie-b,False,False,False,0,0,0,
