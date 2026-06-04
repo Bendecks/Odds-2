@@ -1,13 +1,4 @@
 sport_query,event_id,date_denmark,home,away,league,sport,bookmaker_count,status,reason
-football,71917810,2026-06-04 21:00,FC Juan Aurich de Alcatuyo,CD Rio San Juan Humi,Bolivia - Copa Simon Bolivar,Football,0,pending,not_good_competition_or_low_coverage
-football,71443868,2026-06-04 21:00,Spain,Iraq,International - Int. Friendly Games,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,71228780,2026-06-04 21:10,France,Ivory Coast,International - Int. Friendly Games,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,70844456,2026-06-04 21:15,Vaengir Jupiters,Hamar,Iceland - 4. deild,Football,0,pending,not_good_competition_or_low_coverage
-football,70844458,2026-06-04 21:15,Alafoss,KFR,Iceland - 4. deild,Football,0,pending,not_good_competition_or_low_coverage
-football,70844460,2026-06-04 21:15,Hafnir,Ellidi,Iceland - 4. deild,Football,0,pending,not_good_competition_or_low_coverage
-football,71585584,2026-06-04 22:00,AS Far Rabat,Difaa Hassani d'el-Jadida,Morocco - Botola Pro D1,Football,0,pending,not_good_competition_or_low_coverage
-football,70844462,2026-06-04 22:00,IH Hafnarfjordur,Arborg,Iceland - 4. deild,Football,0,pending,not_good_competition_or_low_coverage
-football,71705042,2026-06-04 22:30,Millonarios FC,Independiente Medellin,Colombia - Liga Femenina,Football,0,pending,not_good_competition_or_low_coverage
 football,68158874,2026-06-05 00:00,CA Talleres de Cordoba Reserve,Argentinos Juniors Reserve,"Argentina - Copa Proyeccion Final, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
 football,68158900,2026-06-05 00:00,CA Central Cordoba SE Reserve,San Martin de San Juan Reserve,"Argentina - Copa Proyeccion Final, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
 football,71508910,2026-06-05 00:00,Osasco Sporting SP,AE Velo Clube SP,Brazil - U20 Paulista,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
@@ -16,16 +7,12 @@ football,71355914,2026-06-05 01:30,Club Deportivo Cuenca Juniors,CSD Macara,Ecua
 football,68989284,2026-06-05 01:30,Manhattan SC,New Jersey Copa FC,USA - USL W League,Football,0,pending,not_good_competition_or_low_coverage
 football,71170360,2026-06-05 02:00,Czechia,Guatemala,International - Int. Friendly Games,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
 football,69829866,2026-06-05 04:00,Mexico,Serbia,International - Int. Friendly Games,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-tennis,559137,2026-06-04 21:00,Gustavo Ribeiro De Almeida,Samuel Heredia,ITF Men - Cuiaba,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,559139,2026-06-04 21:00,Gabriel Schenekenberg,Gonzalo Villanueva,ITF Men - Cuiaba,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,559140,2026-06-04 21:00,Kaue Noatto,Carlos Maria Zarate,ITF Men - Cuiaba,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,559142,2026-06-04 21:00,Salvador Price,Nick Hardt,ITF Men - Cuiaba,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71809170,2026-06-04 21:30,"Sparks, Benjamin","Skrobarcek, Lathan",UTR Men - UTR PTT Newport Beach Men 13,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71809330,2026-06-04 21:30,"Wolf, Alexandra","Grechkina, Anastasia",UTR Women - UTR PTT Newport Beach Women 13,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,559136,2026-06-04 22:30,Mateus Alves,Livas Eduardo De Carvalho Damazio,ITF Men - Cuiaba,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,559141,2026-06-04 22:30,Nicolas Zanellato,Nicolas Oliveira,ITF Men - Cuiaba,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,559143,2026-06-04 22:30,Juan Manuel La Serna,Enzo Kohlmann de Freitas,ITF Men - Cuiaba,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,162357,2026-06-04 22:30,Matheus Pucinelli De Almeida,Victor Hugo Remondy Pagotto,ITF Men - Cuiaba,Tennis,0,pending,not_good_competition_or_low_coverage
+football,71816084,2026-06-05 10:00,Cooks Hill United FC Reserve,Belmont Swansea United FC Reserves,"Australia - Northern NSW NPL, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,68160964,2026-06-05 10:15,Eltham Redbacks FC,FC Bulleen Lions,Australia - U23 Victoria Premier League 1,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,68160966,2026-06-05 10:15,Northcote City FC,Langwarrin SC,Australia - U23 Victoria Premier League 1,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,68161356,2026-06-05 10:15,Oakleigh Cannons FC,ST Albans Saints Dinamo SC,Australia - U23 Victoria NPL,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,68162414,2026-06-05 10:15,Bentleigh Greens SC,Boroondara Eagles,"Australia - Victoria NPL, Women",Football,0,pending,not_good_competition_or_low_coverage
+tennis,162357,2026-06-04 23:30,Matheus Pucinelli De Almeida,Victor Hugo Remondy Pagotto,ITF Men - Cuiaba,Tennis,0,live,not_good_competition_or_low_coverage
 tennis,71902612,2026-06-05 01:00,"Ambler, Casey","Beale, Jeremy",UTR Men - UTR PTT Gold Coast Men 04,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,71802594,2026-06-05 01:00,"Stevens, Zane","Giesen, Jonty",UTR Men - UTR PTT Gold Coast Men 04,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,71802782,2026-06-05 01:00,"Khanloo, Mahta","Dodaj, Christina",UTR Women - UTR PTT Gold Coast Women 04,Tennis,0,pending,not_good_competition_or_low_coverage
@@ -59,19 +46,44 @@ tennis,31662087,2026-06-05 04:15,Yaojie Zeng,Tsung Hao Huang,ITF Men - Luan,Tenn
 tennis,71920008,2026-06-05 05:20,"Shibano, Kosuke","Jokinen, Nuutti",UTR Men - UTR PTT Hyogo Men 02,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,71919284,2026-06-05 05:20,"Hashimoto, Hugo","Mochizuki, Kotaro",UTR Men - UTR PTT Hyogo Men 02,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,71920018,2026-06-05 06:30,"Lee, Winston","Sakamoto, Hiiro",UTR Men - UTR PTT Hyogo Men 02,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,31660550,2026-06-05 08:00,Ivan Marrero Curbelo,Bora Sengul,ITF Men - Kayseri,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,31662149,2026-06-05 08:00,Daniel Phillips,Maxwell Mckennon,ITF Men - Kayseri,Tennis,0,pending,not_good_competition_or_low_coverage
-basketball,71831676,2026-06-04 20:30,Paris Basketball,Cholet Basket,France - Pro A,Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,71769536,2026-06-04 20:30,Brose Bamberg,Alba Berlin,Germany - BBL,Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,71813916,2026-06-04 20:30,Antwerp Giants,BC Oostende,Belgium - BNXT Belgian League,Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,71888814,2026-06-04 21:00,AS Real Bamako,Djoliba AC,Mali - Championnat National D1,Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,71793170,2026-06-04 22:00,EC Pinheiros SP,Sesi/Franca BC SP,Brazil - NBB,Basketball,0,pending,not_good_competition_or_low_coverage
+tennis,31660186,2026-06-05 09:00,Kacper Knitter,Adam Majchrzak,ITF Men - Tsaghkadzor,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,31660555,2026-06-05 09:00,Petr Bar Biryukov,Ruslan Tiukaev,ITF Men - Tsaghkadzor,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,559786,2026-06-05 09:00,Ivan Marrero Curbelo,Bora Sengul,ITF Men - Kayseri,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,559787,2026-06-05 09:00,Daniel Phillips,Maxwell Mckennon,ITF Men - Kayseri,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,31660583,2026-06-05 09:15,Adhithya Ganesan,Dimitris Azoidis,ITF Men - Kayseri,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,31660552,2026-06-05 10:00,Attila Boros,Lorenzo Bocchi,ITF Men - Tsaghkadzor,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,31675838,2026-06-05 10:00,Dylan Dietrich,Calvin Mueller,ITF Men - Ljubljana,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,162192,2026-06-05 10:15,Franco Ribero,Robert Guna,ITF Men - Bistrita,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,162720,2026-06-05 10:15,Radu David Turcanu,Stefan Horia Haita,ITF Men - Bistrita,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,559627,2026-06-05 10:15,Vladyslav Orlov,Dimitris Sakellaridis,ITF Men - Szentendre,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,559628,2026-06-05 10:15,Lorenzo Angelini,Giannicola Misasi,ITF Men - Szentendre,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,31660177,2026-06-05 10:30,Rodrigo Fernandes,Alberto Barroso Campos,ITF Men - Monastir,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,31660179,2026-06-05 10:30,Anton Arzhankin,Sergi Fita Juan,ITF Men - Kursumlijska Banja,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,31662142,2026-06-05 10:45,Yassine Dlimi,Toufik Sahtali,ITF Men - Monastir,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,31660181,2026-06-05 11:05,William Mirarchi,Lorenzo Gagliardo,ITF Men - Kursumlijska Banja,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,31660180,2026-06-05 11:05,Sean Cuenin,Denis Klok,ITF Men - Kursumlijska Banja,Tennis,0,pending,not_good_competition_or_low_coverage
 basketball,71056702,2026-06-05 00:30,Santo Andre/Apaba,Cerrado Basquete,"Brazil - LBF, Women",Basketball,0,pending,not_good_competition_or_low_coverage
+basketball,71894242,2026-06-05 01:00,Raleigh Firebirds,Tri-City Tide,USA - The Basketball League,Basketball,0,pending,not_good_competition_or_low_coverage
+basketball,71894384,2026-06-05 01:00,Lebanon Leprechauns,St. Louis Griffins,USA - The Basketball League,Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,71116902,2026-06-05 02:00,Leones de Ponce,Capitanes de Arecibo,Puerto Rico - BSN,Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,71116904,2026-06-05 02:00,Osos de Manati,Criollos de Caguas,Puerto Rico - BSN,Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,71766838,2026-06-05 02:30,CD Atletico Puerto Varas,CD Espanol Osorno,Chile - Liga Nacional,Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,71232608,2026-06-05 03:15,ITD Santa Tecla BKB,CB Cojute,El Salvador - Liga Mayor de Baloncesto,Basketball,0,pending,not_good_competition_or_low_coverage
+basketball,66647044,2026-06-05 09:30,Otago Nuggets,Franklin Bulls,New Zealand - NBL,Basketball,0,pending,not_good_competition_or_low_coverage
+basketball,67608056,2026-06-05 10:00,Logan Thunder,Rockhampton Cyclones,"Australia - NBL1 North, Women",Basketball,0,pending,not_good_competition_or_low_coverage
+basketball,67619998,2026-06-05 10:30,Casey Cavaliers,Melbourne Tigers,"Australia - NBL1 South, Women",Basketball,0,pending,not_good_competition_or_low_coverage
+basketball,67620000,2026-06-05 10:30,Frankston Blues,Sandringham Sabres,"Australia - NBL1 South, Women",Basketball,0,pending,not_good_competition_or_low_coverage
+basketball,67620002,2026-06-05 10:30,Keilor Thunder,Ballarat Miners,"Australia - NBL1 South, Women",Basketball,0,pending,not_good_competition_or_low_coverage
+baseball,67360970,2026-06-05 02:00,Tecolotes de Los Dos Laredos,Rieleros de Aguascalientes,Mexico - Mexican League,Baseball,0,pending,not_good_competition_or_low_coverage
+baseball,67360976,2026-06-05 02:00,Olmecas de Tabasco,Pericos de Puebla,Mexico - Mexican League,Baseball,0,pending,not_good_competition_or_low_coverage
+baseball,67360978,2026-06-05 02:30,Tigres de Quintana Roo,Guerreros de Oaxaca,Mexico - Mexican League,Baseball,0,pending,not_good_competition_or_low_coverage
+baseball,67360974,2026-06-05 03:00,Diablos Rojos Del Mexico,Bravos de Leon,Mexico - Mexican League,Baseball,0,pending,not_good_competition_or_low_coverage
+baseball,67360980,2026-06-05 03:00,Piratas de Campeche,El Aguila de Veracruz,Mexico - Mexican League,Baseball,0,pending,not_good_competition_or_low_coverage
+baseball,67360964,2026-06-05 03:10,Caliente de Durango,Dorados de Chihuahua,Mexico - Mexican League,Baseball,0,pending,not_good_competition_or_low_coverage
+baseball,67360968,2026-06-05 03:30,Saraperos de Saltillo,Sultanes de Monterrey,Mexico - Mexican League,Baseball,0,pending,not_good_competition_or_low_coverage
+baseball,67360972,2026-06-05 03:30,Leones de Yucatan,Conspiradores de Queretaro,Mexico - Mexican League,Baseball,0,pending,not_good_competition_or_low_coverage
+baseball,67360966,2026-06-05 04:35,Toros de Tijuana,Charros de Jalisco,Mexico - Mexican League,Baseball,0,pending,not_good_competition_or_low_coverage
+cricket,71714824,2026-06-05 03:30,Bahrain,Singapore,"International - T20 Asian Games, Qualifier",Cricket,0,pending,not_good_competition_or_low_coverage
+cricket,71714826,2026-06-05 08:30,Oman,"Hong Kong, China","International - T20 Asian Games, Qualifier",Cricket,0,pending,not_good_competition_or_low_coverage
 rugby-union,,,,,,,,,"HTTP 400: {""error"":""Invalid sport slug""}"
 rugby-league,,,,,,,,,"HTTP 400: {""error"":""Invalid sport slug""}"
-handball,71685144,2026-06-04 20:30,Skanderborg AGF Haandbold,Aalborg Haandbold,Denmark - Handboldligaen,Handball,0,pending,not_good_competition_or_low_coverage
-handball,71844422,2026-06-04 20:30,Caen Handball,US Ivry Handball,France - LNH Proligue,Handball,0,pending,not_good_competition_or_low_coverage
