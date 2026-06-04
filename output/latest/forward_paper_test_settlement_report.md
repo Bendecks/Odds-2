@@ -1,11 +1,11 @@
 # Forward paper-test settlement
 
-Forward log rows: 740
-Parseable kickoffs: 740
+Forward log rows: 765
+Parseable kickoffs: 765
 Eligible to check: 0
 API calls used: 0
 Settled forward picks: 0
-Pending forward picks: 740
+Pending forward picks: 765
 Wins: 0
 Losses: 0
 ROI units: 0.0
@@ -13,33 +13,33 @@ ROI units: 0.0
 
 ## Pending sample
 
-- 2026-05-11 2026-06-03 20:00:00 | parsed=2026-06-03T20:00:00+00:00 | Tottenham vs Leeds | note=not_eligible_yet_or_call_cap
-- 2026-05-13 2026-06-03 20:00:00 | parsed=2026-06-03T20:00:00+00:00 | Motherwell vs Celtic | note=not_eligible_yet_or_call_cap
-- 2026-05-19 2026-06-03 20:15:00 | parsed=2026-06-03T20:15:00+00:00 | Chelsea vs Tottenham | note=not_eligible_yet_or_call_cap
-- 2026-05-11 2026-06-03 20:15:00 | parsed=2026-06-03T20:15:00+00:00 | Estrela vs Famalicao | note=not_eligible_yet_or_call_cap
-- 2026-05-11 2026-06-03 20:15:00 | parsed=2026-06-03T20:15:00+00:00 | Tondela vs Moreirense | note=not_eligible_yet_or_call_cap
-- 2026-05-12 2026-06-03 20:30:00 | parsed=2026-06-03T20:30:00+00:00 | Osasuna vs Ath Madrid | note=not_eligible_yet_or_call_cap
-- 2026-05-14 2026-06-03 20:30:00 | parsed=2026-06-03T20:30:00+00:00 | Vinotinto FC Ecuador vs Club Deportivo Cuenca Juniors | note=not_eligible_yet_or_call_cap
-- 2026-05-13 2026-06-03 20:30:00 | parsed=2026-06-03T20:30:00+00:00 | Getafe vs Mallorca | note=not_eligible_yet_or_call_cap
-- 2026-05-14 2026-06-03 20:30:00 | parsed=2026-06-03T20:30:00+00:00 | Real Madrid vs Oviedo | note=not_eligible_yet_or_call_cap
-- 2026-05-12 2026-06-03 20:30:00 | parsed=2026-06-03T20:30:00+00:00 | Osasuna vs Ath Madrid | note=not_eligible_yet_or_call_cap
-- 2026-05-13 2026-06-03 20:30:00 | parsed=2026-06-03T20:30:00+00:00 | Alaves vs Barcelona | note=not_eligible_yet_or_call_cap
-- 2026-05-28 2026-06-03 21:00:00 | parsed=2026-06-03T21:00:00+00:00 | CR Vasco da Gama RJ vs America FC MG | note=not_eligible_yet_or_call_cap
-- 2026-05-26 2026-06-03 22:00:00 | parsed=2026-06-03T22:00:00+00:00 | LDU Quito vs Always Ready | note=not_eligible_yet_or_call_cap
-- 2026-05-19 2026-06-03 22:00:00 | parsed=2026-06-03T22:00:00+00:00 | Fluminense FC RJ vs Club Bolivar | note=not_eligible_yet_or_call_cap
-- 2026-05-26 2026-06-03 22:00:00 | parsed=2026-06-03T22:00:00+00:00 | Deportivo Merlo vs CSD Liniers | note=not_eligible_yet_or_call_cap
-- 2026-05-19 2026-06-03 22:00:00 | parsed=2026-06-03T22:00:00+00:00 | IF Sao Joseense PR vs Azuriz FC PR | note=not_eligible_yet_or_call_cap
-- 2026-05-14 2026-06-03 22:00:00 | parsed=2026-06-03T22:00:00+00:00 | AD Confianca SE vs Gremio FB Porto Alegrense RS | note=not_eligible_yet_or_call_cap
-- 2026-05-14 2026-06-03 22:00:00 | parsed=2026-06-03T22:00:00+00:00 | Tigres FC vs Envigado FC | note=not_eligible_yet_or_call_cap
-- 2026-05-28 2026-06-03 22:00:00 | parsed=2026-06-03T22:00:00+00:00 | SE Palmeiras SP vs CD Junior FC | note=not_eligible_yet_or_call_cap
-- 2026-06-01 2026-06-03 22:00:00 | parsed=2026-06-03T22:00:00+00:00 | Leones Futbol Club vs CSD Macara | note=not_eligible_yet_or_call_cap
-- 2026-05-26 2026-06-03 22:00:00 | parsed=2026-06-03T22:00:00+00:00 | Club Comunicaciones vs CD UAI Urquiza | note=not_eligible_yet_or_call_cap
-- 2026-05-26 2026-06-03 22:00:00 | parsed=2026-06-03T22:00:00+00:00 | CA Lanus vs Mirassol FC SP | note=not_eligible_yet_or_call_cap
-- 2026-05-14 2026-06-03 22:30:00 | parsed=2026-06-03T22:30:00+00:00 | SC Corinthians SP vs Barra FC SC | note=not_eligible_yet_or_call_cap
-- 2026-05-14 2026-06-03 22:30:00 | parsed=2026-06-03T22:30:00+00:00 | Santos FC SP vs SE Palmeiras SP | note=not_eligible_yet_or_call_cap
-- 2026-05-12 2026-06-03 23:00:00 | parsed=2026-06-03T23:00:00+00:00 | St Andrew Lions vs Ellerton FC | note=not_eligible_yet_or_call_cap
-- 2026-06-01 2026-06-03 23:00:00 | parsed=2026-06-03T23:00:00+00:00 | Barra FC SC vs Brusque FC SC | note=not_eligible_yet_or_call_cap
-- 2026-06-01 2026-06-03 23:00:00 | parsed=2026-06-03T23:00:00+00:00 | Colombia vs Costa Rica | note=not_eligible_yet_or_call_cap
-- 2026-05-19 2026-06-03 23:00:00 | parsed=2026-06-03T23:00:00+00:00 | LVU Rush vs Delaware FC | note=not_eligible_yet_or_call_cap
-- 2026-05-28 2026-06-03 23:00:00 | parsed=2026-06-03T23:00:00+00:00 | CD El Nacional vs CD Universidad Catolica del Ecuador | note=not_eligible_yet_or_call_cap
-- 2026-05-28 2026-06-03 23:30:00 | parsed=2026-06-03T23:30:00+00:00 | Patuxent Football Athletics vs Annapolis Blues FC | note=not_eligible_yet_or_call_cap
+- 2026-06-01 2026-06-04 20:00:00 | parsed=2026-06-04T20:00:00+00:00 | CODM Meknes vs Olympique Dcheira | note=not_eligible_yet_or_call_cap
+- 2026-05-13 2026-06-04 20:00:00 | parsed=2026-06-04T20:00:00+00:00 | Lens vs Paris SG | note=not_eligible_yet_or_call_cap
+- 2026-05-11 2026-06-04 20:15:00 | parsed=2026-06-04T20:15:00+00:00 | Estrela vs Famalicao | note=not_eligible_yet_or_call_cap
+- 2026-05-19 2026-06-04 20:15:00 | parsed=2026-06-04T20:15:00+00:00 | Chelsea vs Tottenham | note=not_eligible_yet_or_call_cap
+- 2026-05-11 2026-06-04 20:15:00 | parsed=2026-06-04T20:15:00+00:00 | Tondela vs Moreirense | note=not_eligible_yet_or_call_cap
+- 2026-05-14 2026-06-04 20:30:00 | parsed=2026-06-04T20:30:00+00:00 | Vinotinto FC Ecuador vs Club Deportivo Cuenca Juniors | note=not_eligible_yet_or_call_cap
+- 2026-05-12 2026-06-04 20:30:00 | parsed=2026-06-04T20:30:00+00:00 | Osasuna vs Ath Madrid | note=not_eligible_yet_or_call_cap
+- 2026-05-14 2026-06-04 20:30:00 | parsed=2026-06-04T20:30:00+00:00 | Real Madrid vs Oviedo | note=not_eligible_yet_or_call_cap
+- 2026-05-13 2026-06-04 20:30:00 | parsed=2026-06-04T20:30:00+00:00 | Getafe vs Mallorca | note=not_eligible_yet_or_call_cap
+- 2026-05-13 2026-06-04 20:30:00 | parsed=2026-06-04T20:30:00+00:00 | Alaves vs Barcelona | note=not_eligible_yet_or_call_cap
+- 2026-05-12 2026-06-04 20:30:00 | parsed=2026-06-04T20:30:00+00:00 | Osasuna vs Ath Madrid | note=not_eligible_yet_or_call_cap
+- 2026-05-28 2026-06-04 21:00:00 | parsed=2026-06-04T21:00:00+00:00 | CR Vasco da Gama RJ vs America FC MG | note=not_eligible_yet_or_call_cap
+- 2026-05-26 2026-06-04 22:00:00 | parsed=2026-06-04T22:00:00+00:00 | Deportivo Merlo vs CSD Liniers | note=not_eligible_yet_or_call_cap
+- 2026-05-28 2026-06-04 22:00:00 | parsed=2026-06-04T22:00:00+00:00 | SE Palmeiras SP vs CD Junior FC | note=not_eligible_yet_or_call_cap
+- 2026-05-14 2026-06-04 22:00:00 | parsed=2026-06-04T22:00:00+00:00 | AD Confianca SE vs Gremio FB Porto Alegrense RS | note=not_eligible_yet_or_call_cap
+- 2026-05-26 2026-06-04 22:00:00 | parsed=2026-06-04T22:00:00+00:00 | Club Comunicaciones vs CD UAI Urquiza | note=not_eligible_yet_or_call_cap
+- 2026-05-26 2026-06-04 22:00:00 | parsed=2026-06-04T22:00:00+00:00 | CA Lanus vs Mirassol FC SP | note=not_eligible_yet_or_call_cap
+- 2026-05-14 2026-06-04 22:00:00 | parsed=2026-06-04T22:00:00+00:00 | Tigres FC vs Envigado FC | note=not_eligible_yet_or_call_cap
+- 2026-05-26 2026-06-04 22:00:00 | parsed=2026-06-04T22:00:00+00:00 | LDU Quito vs Always Ready | note=not_eligible_yet_or_call_cap
+- 2026-06-01 2026-06-04 22:00:00 | parsed=2026-06-04T22:00:00+00:00 | Leones Futbol Club vs CSD Macara | note=not_eligible_yet_or_call_cap
+- 2026-05-19 2026-06-04 22:00:00 | parsed=2026-06-04T22:00:00+00:00 | IF Sao Joseense PR vs Azuriz FC PR | note=not_eligible_yet_or_call_cap
+- 2026-05-19 2026-06-04 22:00:00 | parsed=2026-06-04T22:00:00+00:00 | Fluminense FC RJ vs Club Bolivar | note=not_eligible_yet_or_call_cap
+- 2026-05-14 2026-06-04 22:30:00 | parsed=2026-06-04T22:30:00+00:00 | Santos FC SP vs SE Palmeiras SP | note=not_eligible_yet_or_call_cap
+- 2026-05-14 2026-06-04 22:30:00 | parsed=2026-06-04T22:30:00+00:00 | SC Corinthians SP vs Barra FC SC | note=not_eligible_yet_or_call_cap
+- 2026-05-28 2026-06-04 23:00:00 | parsed=2026-06-04T23:00:00+00:00 | CD El Nacional vs CD Universidad Catolica del Ecuador | note=not_eligible_yet_or_call_cap
+- 2026-05-19 2026-06-04 23:00:00 | parsed=2026-06-04T23:00:00+00:00 | LVU Rush vs Delaware FC | note=not_eligible_yet_or_call_cap
+- 2026-06-01 2026-06-04 23:00:00 | parsed=2026-06-04T23:00:00+00:00 | Colombia vs Costa Rica | note=not_eligible_yet_or_call_cap
+- 2026-05-12 2026-06-04 23:00:00 | parsed=2026-06-04T23:00:00+00:00 | St Andrew Lions vs Ellerton FC | note=not_eligible_yet_or_call_cap
+- 2026-06-01 2026-06-04 23:00:00 | parsed=2026-06-04T23:00:00+00:00 | Barra FC SC vs Brusque FC SC | note=not_eligible_yet_or_call_cap
+- 2026-05-28 2026-06-04 23:30:00 | parsed=2026-06-04T23:30:00+00:00 | Patuxent Football Athletics vs Annapolis Blues FC | note=not_eligible_yet_or_call_cap
