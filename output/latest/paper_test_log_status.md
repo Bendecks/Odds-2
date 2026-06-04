@@ -1,11 +1,11 @@
 # Paper Test Log Status
 
-Raw log rows: 955
-Valid forward/proxy log rows: 952
-Deduped forward/proxy observation rows: 764
-Duplicate forward/proxy log rows: 188
-Valid automatic proxy observation rows: 952
-Deduped automatic proxy observation rows: 764
+Raw log rows: 976
+Valid forward/proxy log rows: 973
+Deduped forward/proxy observation rows: 776
+Duplicate forward/proxy log rows: 197
+Valid automatic proxy observation rows: 973
+Deduped automatic proxy observation rows: 776
 Invalid historical/proxy log rows excluded: 3
 Has valid forward log: True
 
@@ -34,26 +34,26 @@ Has valid forward log: True
 
 ## Raw valid rows
 
-- 2026-06-04 | Lesotho vs Kenya | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-04 | FC Dornbirn vs SVG Reichenau | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-04 | 1. Wiener Neustadter SC vs UFC Sankt Peter Au | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-04 | DH van Hien vs K. Khanh Hoa | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-04 | FC Wolfurt vs SV Ludesch | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-04 | Real de Banjul vs Falcons FC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-04 | FC Lauterach vs SV Kuchl | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-04 | Lebanon vs Yemen | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-04 | IFK Stocksund vs FC Stockholm Internazionale | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-04 | Vinotinto FC Ecuador vs Cumbaya FC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 - 2026-06-04 | Stenungsunds IF vs Vanersborgs IF | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-04 | LTU vs Jyty Turku | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-04 | Tmt vs Bombada | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-05 | Czechia vs Albania | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-05 | Czechia vs Guatemala | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-04 | IH Hafnarfjordur vs Arborg | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-04 | FC Juan Aurich de Alcatuyo vs CD Rio San Juan Humi | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-04 | Ben Aknoun vs USM Alger | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-04 | Lebanon vs Yemen | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-04 | US Goree vs Stade de Mbour | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 - 2026-06-04 | Solvesborgs GIF vs Torns IF | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-04 | FC Kattaqorgon vs Fardu Ferghana | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-04 | IFK Stocksund vs FC Stockholm Internazionale | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-04 | Gambia Ports Authority vs Gambian Dutch Lions | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-04 | Fortune vs Bst Galaxy | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 - 2026-06-04 | France vs Ivory Coast | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-04 | FC Juan Aurich de Alcatuyo vs CD Rio San Juan Humi | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-04 | Hafnir vs Ellidi | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-04 | Laholms FK vs Hassleholms IF | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-04 | Manhattan SC vs New Jersey Copa FC | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-04 | FC Wolfurt vs SV Ludesch | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-04 | Sweden vs Greece | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-05 | Mexico vs Serbia | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 - 2026-06-04 | Generation Foot vs Ajel de Rufisque | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-04 | Sundby BK vs Holbaek B&I | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-04 | Alafoss vs KFR | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 
 ## Invalid rows excluded
 

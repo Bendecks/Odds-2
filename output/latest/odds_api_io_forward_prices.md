@@ -11,7 +11,7 @@ Enabled: True
 Calls used: 5 / 14
 Max discovery calls: 13
 Events bookmaker: Bet365
-Events discovery rows: 289
+Events discovery rows: 392
 Events max pages: 6
 Events lookahead days: 14
 Max events per page/search: 180
@@ -20,16 +20,16 @@ Minimum event match confidence: 0.72
 Discovery mode: bookmaker_filtered_events_then_search_fallback_then_reserved_multi_odds
 Query source: forward_fixture_predictions
 Search fallback used: True
-Search queries used: Indonesia, Japan
-Selected event IDs: 68664088, 61927920, 61541464, 71561890, 61915082, 71782694, 68050334, 71601902, 61541472, 70314476, 61541462, 61909690, 71834376, 70314468, 71561936, 71814506, 71834548, 61927926, 71749276, 71782698, 71652336, 61541460, 71834888, 56319305, 70872820, 71632302, 71443988, 71399594, 69924130, 71859964, 71859970, 71859962, 71859966, 69924696, 71445234, 71814430, 68311644, 69923708, 68320210, 70730796, 71399598, 71814432, 68310940, 71402260, 68344686, 71509102, 71322902, 68158872, 68158894, 68158868, 71508692, 71585582, 68158882, 71917810, 71732912, 71443868, 71228780, 70844458, 70844460, 70844456, 71585584, 70844462, 71705042, 69880386, 71732914, 68158900, 68158874, 71508910, 71813128, 71355914, 68989284, 71170360, 70351024, 69829866, 68162414, 68161356, 68161736, 67878266, 71803506, 71803446
+Search queries used: Japan
+Selected event IDs: 71814506, 71834548, 61927926, 71749276, 71782698, 71652336, 71915906, 61541460, 71834888, 56319305, 70872820, 71632302, 71443988, 71399594, 69924130, 71859964, 71859970, 71859962, 71859966, 69924696, 71445234, 71814430, 68311644, 69923708, 68320210, 70730796, 71399598, 71814432, 68310940, 71402260, 68344686, 71509102, 71877094, 71322902, 68158872, 68158868, 71508692, 71585582, 68158882, 71917810, 71732912, 71443868, 71228780, 70844458, 70844460, 70844456, 71585584, 70844462, 71705042, 69880386, 71732914, 68158900, 68158874, 71508910, 71813128, 71355914, 68989284, 71170360, 70351024, 69829866, 71816084, 68162414, 68160964, 68160966, 68161356, 68161736, 67878266, 68160210, 68160212, 68161738, 68161742, 68048894, 71816092, 67692276, 67691646, 71838798, 68051642, 67692278, 68051636, 71893038
 Multi-odds attempted: True
 Multi-odds skipped reason: 
 Bookmakers requested: Bet365
 Odds endpoint mode: multi_event_documented_endpoint
 Selected bookmakers: Bet365
 Selected markets: ML
-Fixture rows: 307
-Event selection diagnostic rows: 20136
+Fixture rows: 402
+Event selection diagnostic rows: 28211
 Selected event rows: 80
 Priced event rows: 10
 Price rows: 10
@@ -39,53 +39,53 @@ Errors/status rows: 70
 
 Header rows captured: 5
 Latest x-ratelimit-limit: 100
-Latest x-ratelimit-remaining: 64
-Latest x-ratelimit-reset: 2026-06-04T03:37:32Z
+Latest x-ratelimit-remaining: 59
+Latest x-ratelimit-reset: 2026-06-04T15:32:44Z
 Latest retry-after: None
 
-- 2026-06-04 09:00 | DH van Hien vs K. Khanh Hoa | odds_api_io_Bet365_ML | 1.2/5.5/13.0
-- 2026-06-04 09:00 | Dornbirner SV vs FC Rotenberg | odds_api_io_Bet365_ML | 1.833/3.8/3.25
-- 2026-06-04 09:00 | FC Lustenau vs VfB Hohenems | odds_api_io_Bet365_ML | 2.55/3.75/2.3
-- 2026-06-04 09:00 | Myanmar vs Vietnam | odds_api_io_Bet365_ML | 7.0/5.0/1.3
-- 2026-06-04 09:00 | FC Raika Volders vs SC Mils | odds_api_io_Bet365_ML | 2.1/3.75/2.7
-- 2026-06-04 11:00 | Maldives vs Pakistan | odds_api_io_Bet365_ML | 2.0/3.2/3.3
-- 2026-06-04 11:00 | Modbury Jets SC Reserve vs Fulham United FC Reserve | odds_api_io_Bet365_ML | 1.222/6.5/7.5
-- 2026-06-04 12:00 | Cambodia vs Bhutan | odds_api_io_Bet365_ML | 1.142/6.25/15.0
-- 2026-06-04 12:00 | FC Lauterach vs SV Kuchl | odds_api_io_Bet365_ML | 5.0/5.25/1.38
-- 2026-06-04 12:30 | FC Kattaqorgon vs Fardu Ferghana | odds_api_io_Bet365_ML | 1.75/3.6/3.7
+- 2026-06-04 15:00 | Bulgaria vs Albania | odds_api_io_Bet365_ML | 1.42/4.75/4.75
+- 2026-06-04 15:00 | Sweden vs Finland | odds_api_io_Bet365_ML | 1.95/3.9/2.875
+- 2026-06-04 15:00 | FC Wolfurt vs SV Ludesch | odds_api_io_Bet365_ML | 1.3/5.25/6.0
+- 2026-06-04 15:30 | Slovenia vs Bosnia and Herzegovina | odds_api_io_Bet365_ML | 2.6/3.6/2.3
+- 2026-06-04 16:00 | Afghanistan vs Bangladesh | odds_api_io_Bet365_ML | 1.333/4.0/9.0
+- 2026-06-04 16:00 | Ben Aknoun vs USM Alger | odds_api_io_Bet365_ML | 1.8/3.2/4.333
+- 2026-06-04 16:00 | Burundi vs Equatorial Guinea | odds_api_io_Bet365_ML | 4.75/2.9/1.75
+- 2026-06-04 16:00 | FC Dornbirn vs SVG Reichenau | odds_api_io_Bet365_ML | 1.55/4.333/4.2
+- 2026-06-04 16:00 | Germany vs Denmark | odds_api_io_Bet365_ML | 1.533/4.1/4.5
+- 2026-06-04 16:00 | Lebanon vs Yemen | odds_api_io_Bet365_ML | 1.95/2.6/4.333
 
 ## Event selection diagnostics
 
-- src=events_search_fallback | query=Japan | target=Japan vs Mongolia | candidate=Japan vs Mongolia | confidence=1.0 | selected=True | reason=
-- src=events_search_fallback | query=Indonesia | target=Indonesia vs Kuwait | candidate=Indonesia vs Kuwait | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=US Goree | target=US Goree vs Stade de Mbour | candidate=US Goree vs Stade de Mbour | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Osasco Sporting SP | target=Osasco Sporting SP vs AE Velo Clube SP | candidate=Osasco Sporting SP vs AE Velo Clube SP | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Afghanistan | target=Afghanistan vs Bangladesh | candidate=Afghanistan vs Bangladesh | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Sweden | target=Sweden vs Greece | candidate=Sweden vs Greece | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Bentleigh Greens SC | target=Bentleigh Greens SC vs Boroondara Eagles | candidate=Bentleigh Greens SC vs Boroondara Eagles | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=AFC Eskilstuna | target=AFC Eskilstuna vs Karlbergs BK | candidate=AFC Eskilstuna vs Karlbergs BK | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Ben Aknoun | target=Ben Aknoun vs USM Alger | candidate=Ben Aknoun vs USM Alger | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Slovenia | target=Slovenia vs Bosnia and Herzegovina | candidate=Slovenia vs Bosnia and Herzegovina | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Dornbirner SV | target=Dornbirner SV vs FC Rotenberg | candidate=Dornbirner SV vs FC Rotenberg | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Bulgaria | target=Bulgaria vs Albania | candidate=Bulgaria vs Albania | confidence=1.0 | selected=True | reason=
+- src=events_search_fallback | query=Japan | target=Japan vs Fiji | candidate=Japan vs Fiji | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Andorra | target=Andorra vs Liechtenstein | candidate=Andorra vs Liechtenstein | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=San Lorenzo de Almagro Res. | target=San Lorenzo de Almagro Res. vs Velez Sarsfield Reserve | candidate=San Lorenzo de Almagro Res. vs Velez Sarsfield Reserve | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Cooks Hill United FC Reserve | target=Cooks Hill United FC Reserve vs Belmont Swansea United FC Reserves | candidate=Cooks Hill United FC Reserve vs Belmont Swansea United FC Reserves | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Generation Foot | target=Generation Foot vs Ajel de Rufisque | candidate=Generation Foot vs Ajel de Rufisque | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Vinotinto FC Ecuador | target=Vinotinto FC Ecuador vs Cumbaya FC | candidate=Vinotinto FC Ecuador vs Cumbaya FC | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Deportivo Santani | target=Deportivo Santani vs Resistencia SC | candidate=Deportivo Santani vs Resistencia SC | confidence=1.0 | selected=True | reason=
 - src=events_bookmaker_filtered | query=IFK Stocksund | target=IFK Stocksund vs FC Stockholm Internazionale | candidate=IFK Stocksund vs FC Stockholm Internazionale | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Eastern United | target=Eastern United vs The Cove FC | candidate=Eastern United vs The Cove FC | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Lautp | target=Lautp vs Peka | candidate=Lautp vs Peka | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Eltham Redbacks FC | target=Eltham Redbacks FC vs FC Bulleen Lions | candidate=Eltham Redbacks FC vs FC Bulleen Lions | confidence=1.0 | selected=False | reason=
+- src=events_bookmaker_filtered | query=IH Hafnarfjordur | target=IH Hafnarfjordur vs Arborg | candidate=IH Hafnarfjordur vs Arborg | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Bentleigh Greens SC | target=Bentleigh Greens SC vs Boroondara Eagles | candidate=Bentleigh Greens SC vs Boroondara Eagles | confidence=1.0 | selected=True | reason=
 - src=events_bookmaker_filtered | query=Solvesborgs GIF | target=Solvesborgs GIF vs Torns IF | candidate=Solvesborgs GIF vs Torns IF | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Millonarios FC | target=Millonarios FC vs Independiente Medellin | candidate=Millonarios FC vs Independiente Medellin | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Modbury Jets SC | target=Modbury Jets SC vs Fulham United FC | candidate=Modbury Jets SC vs Fulham United FC | confidence=1.0 | selected=True | reason=
 - src=events_bookmaker_filtered | query=Sundby BK | target=Sundby BK vs Holbaek B&I | candidate=Sundby BK vs Holbaek B&I | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=FC Wolfurt | target=FC Wolfurt vs SV Ludesch | candidate=FC Wolfurt vs SV Ludesch | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=America FC SP | target=America FC SP vs CA Juventus SP | candidate=America FC SP vs CA Juventus SP | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=Mexico | target=Mexico vs Serbia | candidate=Mexico vs Serbia | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=DH van Hien | target=DH van Hien vs K. Khanh Hoa | candidate=DH van Hien vs K. Khanh Hoa | confidence=1.0 | selected=True | reason=
+- src=events_bookmaker_filtered | query=Germany | target=Germany vs Denmark | candidate=Germany vs Denmark | confidence=1.0 | selected=True | reason=
 - src=events_bookmaker_filtered | query=FC Dornbirn | target=FC Dornbirn vs SVG Reichenau | candidate=FC Dornbirn vs SVG Reichenau | confidence=1.0 | selected=True | reason=
-- src=events_bookmaker_filtered | query=CA Talleres de Cordoba Reserve | target=CA Talleres de Cordoba Reserve vs Argentinos Juniors Reserve | candidate=CA Talleres de Cordoba Reserve vs Argentinos Juniors Reserve | confidence=1.0 | selected=True | reason=
 
 ## Errors / Status
 
-- multi_odds_match: No multi-odds payload matched event 61541462
-- multi_odds_match: No multi-odds payload matched event 61909690
-- multi_odds_match: No multi-odds payload matched event 71834376
-- multi_odds_match: No multi-odds payload matched event 70314468
-- multi_odds_match: No multi-odds payload matched event 71561936
-- multi_odds_match: No multi-odds payload matched event 71814506
-- multi_odds_match: No multi-odds payload matched event 71834548
-- multi_odds_match: No multi-odds payload matched event 61927926
-- multi_odds_match: No multi-odds payload matched event 71749276
-- multi_odds_match: No multi-odds payload matched event 71782698
+- multi_odds_match: No multi-odds payload matched event 70872820
+- multi_odds_match: No multi-odds payload matched event 71632302
+- multi_odds_match: No multi-odds payload matched event 71443988
+- multi_odds_match: No multi-odds payload matched event 71399594
+- multi_odds_match: No multi-odds payload matched event 69924130
+- multi_odds_match: No multi-odds payload matched event 71859964
+- multi_odds_match: No multi-odds payload matched event 71859970
+- multi_odds_match: No multi-odds payload matched event 71859962
+- multi_odds_match: No multi-odds payload matched event 71859966
+- multi_odds_match: No multi-odds payload matched event 69924696

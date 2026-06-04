@@ -1,26 +1,26 @@
 discovery_source,query,target_home_team,target_away_team,target_match_date,candidate_event_id,candidate_home_team,candidate_away_team,candidate_match_date,event_match_confidence,selected,rejection_reason,selected_bool,event_match_confidence_num
-events_search_fallback,Japan,Japan,Mongolia,2026-06-04,71803446,Japan,Mongolia,2026-06-04,1.0,True,,True,1.0
-events_search_fallback,Indonesia,Indonesia,Kuwait,2026-06-04,71803506,Indonesia,Kuwait,2026-06-04,1.0,True,,True,1.0
-events_bookmaker_filtered,US Goree,US Goree,Stade de Mbour,2026-06-04,71814432,US Goree,Stade de Mbour,2026-06-04,1.0,True,,True,1.0
-events_bookmaker_filtered,Osasco Sporting SP,Osasco Sporting SP,AE Velo Clube SP,2026-06-04,71508910,Osasco Sporting SP,AE Velo Clube SP,2026-06-04,1.0,True,,True,1.0
-events_bookmaker_filtered,Afghanistan,Afghanistan,Bangladesh,2026-06-04,71782698,Afghanistan,Bangladesh,2026-06-04,1.0,True,,True,1.0
-events_bookmaker_filtered,Sweden,Sweden,Greece,2026-06-04,71399598,Sweden,Greece,2026-06-04,1.0,True,,True,1.0
-events_bookmaker_filtered,Bentleigh Greens SC,Bentleigh Greens SC,Boroondara Eagles,2026-06-05,68162414,Bentleigh Greens SC,Boroondara Eagles,2026-06-05,1.0,True,,True,1.0
-events_bookmaker_filtered,AFC Eskilstuna,AFC Eskilstuna,Karlbergs BK,2026-06-04,68310940,AFC Eskilstuna,Karlbergs BK,2026-06-04,1.0,True,,True,1.0
-events_bookmaker_filtered,Ben Aknoun,Ben Aknoun,USM Alger,2026-06-04,71652336,Ben Aknoun,USM Alger,2026-06-04,1.0,True,,True,1.0
-events_bookmaker_filtered,Slovenia,Slovenia,Bosnia and Herzegovina,2026-06-04,71749276,Slovenia,Bosnia and Herzegovina,2026-06-04,1.0,True,,True,1.0
-events_bookmaker_filtered,Dornbirner SV,Dornbirner SV,FC Rotenberg,2026-06-04,61927920,Dornbirner SV,FC Rotenberg,2026-06-04,1.0,True,,True,1.0
+events_bookmaker_filtered,Bulgaria,Bulgaria,Albania,2026-06-04,71814506,Bulgaria,Albania,2026-06-04,1.0,True,,True,1.0
+events_search_fallback,Japan,Japan,Fiji,2026-06-05,71893038,Japan,Fiji,2026-06-05,1.0,True,,True,1.0
+events_bookmaker_filtered,Andorra,Andorra,Liechtenstein,2026-06-04,71445234,Andorra,Liechtenstein,2026-06-04,1.0,True,,True,1.0
+events_bookmaker_filtered,San Lorenzo de Almagro Res.,San Lorenzo de Almagro Res.,Velez Sarsfield Reserve,2026-06-04,68158882,San Lorenzo de Almagro Res.,Velez Sarsfield Reserve,2026-06-04,1.0,True,,True,1.0
+events_bookmaker_filtered,Cooks Hill United FC Reserve,Cooks Hill United FC Reserve,Belmont Swansea United FC Reserves,2026-06-05,71816084,Cooks Hill United FC Reserve,Belmont Swansea United FC Reserves,2026-06-05,1.0,True,,True,1.0
+events_bookmaker_filtered,Generation Foot,Generation Foot,Ajel de Rufisque,2026-06-04,71814430,Generation Foot,Ajel de Rufisque,2026-06-04,1.0,True,,True,1.0
+events_bookmaker_filtered,Vinotinto FC Ecuador,Vinotinto FC Ecuador,Cumbaya FC,2026-06-04,69880386,Vinotinto FC Ecuador,Cumbaya FC,2026-06-04,1.0,True,,True,1.0
+events_bookmaker_filtered,Deportivo Santani,Deportivo Santani,Resistencia SC,2026-06-04,71732914,Deportivo Santani,Resistencia SC,2026-06-04,1.0,True,,True,1.0
 events_bookmaker_filtered,IFK Stocksund,IFK Stocksund,FC Stockholm Internazionale,2026-06-04,71402260,IFK Stocksund,FC Stockholm Internazionale,2026-06-04,1.0,True,,True,1.0
+events_bookmaker_filtered,Eastern United,Eastern United,The Cove FC,2026-06-05,68051636,Eastern United,The Cove FC,2026-06-05,1.0,True,,True,1.0
+events_bookmaker_filtered,Lautp,Lautp,Peka,2026-06-04,69924696,Lautp,Peka,2026-06-04,1.0,True,,True,1.0
+events_bookmaker_filtered,Eltham Redbacks FC,Eltham Redbacks FC,FC Bulleen Lions,2026-06-05,68160592,Eltham Redbacks FC,FC Bulleen Lions,2026-06-05,1.0,False,,False,1.0
+events_bookmaker_filtered,IH Hafnarfjordur,IH Hafnarfjordur,Arborg,2026-06-04,70844462,IH Hafnarfjordur,Arborg,2026-06-04,1.0,True,,True,1.0
+events_bookmaker_filtered,Bentleigh Greens SC,Bentleigh Greens SC,Boroondara Eagles,2026-06-05,68162414,Bentleigh Greens SC,Boroondara Eagles,2026-06-05,1.0,True,,True,1.0
 events_bookmaker_filtered,Solvesborgs GIF,Solvesborgs GIF,Torns IF,2026-06-04,68344686,Solvesborgs GIF,Torns IF,2026-06-04,1.0,True,,True,1.0
+events_bookmaker_filtered,Millonarios FC,Millonarios FC,Independiente Medellin,2026-06-04,71705042,Millonarios FC,Independiente Medellin,2026-06-04,1.0,True,,True,1.0
+events_bookmaker_filtered,Modbury Jets SC,Modbury Jets SC,Fulham United FC,2026-06-05,68051642,Modbury Jets SC,Fulham United FC,2026-06-05,1.0,True,,True,1.0
 events_bookmaker_filtered,Sundby BK,Sundby BK,Holbaek B&I,2026-06-04,70730796,Sundby BK,Holbaek B&I,2026-06-04,1.0,True,,True,1.0
-events_bookmaker_filtered,FC Wolfurt,FC Wolfurt,SV Ludesch,2026-06-04,61927926,FC Wolfurt,SV Ludesch,2026-06-04,1.0,True,,True,1.0
-events_bookmaker_filtered,America FC SP,America FC SP,CA Juventus SP,2026-06-04,71509102,America FC SP,CA Juventus SP,2026-06-04,1.0,True,,True,1.0
-events_bookmaker_filtered,Mexico,Mexico,Serbia,2026-06-05,69829866,Mexico,Serbia,2026-06-05,1.0,True,,True,1.0
-events_bookmaker_filtered,DH van Hien,DH van Hien,K. Khanh Hoa,2026-06-04,68664088,DH van Hien,K. Khanh Hoa,2026-06-04,1.0,True,,True,1.0
+events_bookmaker_filtered,Germany,Germany,Denmark,2026-06-04,71834888,Germany,Denmark,2026-06-04,1.0,True,,True,1.0
 events_bookmaker_filtered,FC Dornbirn,FC Dornbirn,SVG Reichenau,2026-06-04,61541460,FC Dornbirn,SVG Reichenau,2026-06-04,1.0,True,,True,1.0
-events_bookmaker_filtered,CA Talleres de Cordoba Reserve,CA Talleres de Cordoba Reserve,Argentinos Juniors Reserve,2026-06-04,68158874,CA Talleres de Cordoba Reserve,Argentinos Juniors Reserve,2026-06-04,1.0,True,,True,1.0
-events_bookmaker_filtered,Anapolis FC GO,Anapolis FC GO,Paysandu SC PA,2026-06-04,71813128,Anapolis FC GO,Paysandu SC PA,2026-06-04,1.0,True,,True,1.0
+events_bookmaker_filtered,Moldova,Moldova,Malta,2026-06-04,71632302,Moldova,Malta,2026-06-04,1.0,True,,True,1.0
+events_bookmaker_filtered,Eastern Lions SC,Eastern Lions SC,Nunawading City,2026-06-05,68161738,Eastern Lions SC,Nunawading City,2026-06-05,1.0,True,,True,1.0
+events_bookmaker_filtered,Paraguari AC,Paraguari AC,CA Tembetary Ypane,2026-06-04,71732912,Paraguari AC,CA Tembetary Ypane,2026-06-04,1.0,True,,True,1.0
+events_bookmaker_filtered,Keilor Park SC,Keilor Park SC,Moreland City FC,2026-06-05,68161742,Keilor Park SC,Moreland City FC,2026-06-05,1.0,True,,True,1.0
 events_bookmaker_filtered,Stenungsunds IF,Stenungsunds IF,Vanersborgs IF,2026-06-04,68320210,Stenungsunds IF,Vanersborgs IF,2026-06-04,1.0,True,,True,1.0
-events_bookmaker_filtered,Sweden,Sweden,Finland,2026-06-04,71834548,Sweden,Finland,2026-06-04,1.0,True,,True,1.0
-events_bookmaker_filtered,Oakleigh Cannons FC,Oakleigh Cannons FC,ST Albans Saints Dinamo SC,2026-06-05,68161356,Oakleigh Cannons FC,ST Albans Saints Dinamo SC,2026-06-05,1.0,True,,True,1.0
-events_bookmaker_filtered,Avai FC SC,Avai FC SC,Nacao,2026-06-04,71322902,Avai FC SC,Nacao,2026-06-04,1.0,True,,True,1.0

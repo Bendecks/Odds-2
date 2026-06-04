@@ -6,8 +6,8 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 ## Kort status
 
 - Aktuelle viste paper picks: **25**
-- Unikke loggede paper picks: **734**
-- Afventer i loggen: **731**
+- Unikke loggede paper picks: **746**
+- Afventer i loggen: **743**
 - Afgjorte fundet i settled-filen: **210**
 - Skjulte U-/reserve-rækker: **34**
 - Vundne: **70**
@@ -16,29 +16,74 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 
 ## Aktuelle paper picks
 
-### IFK Stocksund vs FC Stockholm Internazionale
+### Burundi vs Equatorial Guinea
 - Dato: **2026-06-04**
-- Kampstart: **17:30**
+- Kampstart: **16:00**
 - Spil: **Hjemmesejr**
 - Odds: **4.75**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Fortune vs Bst Galaxy
+### IFK Stocksund vs FC Stockholm Internazionale
 - Dato: **2026-06-04**
-- Kampstart: **16:30**
-- Spil: **Udebanesejr**
-- Odds: **5.00**
+- Kampstart: **17:30**
+- Spil: **Hjemmesejr**
+- Odds: **4.50**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Laholms FK vs Hassleholms IF
+### Vinotinto FC Ecuador vs Cumbaya FC
+- Dato: **2026-06-04**
+- Kampstart: **20:30**
+- Spil: **Udebanesejr**
+- Odds: **4.75**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Stenungsunds IF vs Vanersborgs IF
 - Dato: **2026-06-04**
 - Kampstart: **17:00**
+- Spil: **Udebanesejr**
+- Odds: **4.50**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Czechia vs Albania
+- Dato: **2026-06-05**
+- Kampstart: **15:30**
+- Spil: **Uafgjort**
+- Odds: **6.25**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Czechia vs Guatemala
+- Dato: **2026-06-05**
+- Kampstart: **00:00**
+- Spil: **Uafgjort**
+- Odds: **6.25**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### IH Hafnarfjordur vs Arborg
+- Dato: **2026-06-04**
+- Kampstart: **20:00**
+- Spil: **Uafgjort**
+- Odds: **6.00**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### FC Juan Aurich de Alcatuyo vs CD Rio San Juan Humi
+- Dato: **2026-06-04**
+- Kampstart: **19:00**
 - Spil: **Hjemmesejr**
-- Odds: **4.33**
+- Odds: **3.90**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
@@ -47,25 +92,25 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Dato: **2026-06-04**
 - Kampstart: **16:00**
 - Spil: **Udebanesejr**
-- Odds: **4.50**
+- Odds: **4.33**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Cambodia vs Bhutan
+### Lebanon vs Yemen
 - Dato: **2026-06-04**
-- Kampstart: **12:00**
-- Spil: **Uafgjort**
-- Odds: **6.25**
+- Kampstart: **16:00**
+- Spil: **Udebanesejr**
+- Odds: **4.33**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Lesotho vs Kenya
+### US Goree vs Stade de Mbour
 - Dato: **2026-06-04**
-- Kampstart: **13:00**
-- Spil: **Hjemmesejr**
-- Odds: **4.00**
+- Kampstart: **17:00**
+- Spil: **Udebanesejr**
+- Odds: **4.20**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
@@ -79,29 +124,38 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### 1. Wiener Neustadter SC vs UFC Sankt Peter Au
+### Solvesborgs GIF vs Torns IF
 - Dato: **2026-06-04**
-- Kampstart: **13:00**
+- Kampstart: **17:30**
+- Spil: **Udebanesejr**
+- Odds: **4.10**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Fortune vs Bst Galaxy
+- Dato: **2026-06-04**
+- Kampstart: **16:30**
 - Spil: **Udebanesejr**
 - Odds: **4.00**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### DH van Hien vs K. Khanh Hoa
+### France vs Ivory Coast
 - Dato: **2026-06-04**
-- Kampstart: **09:00**
+- Kampstart: **19:10**
 - Spil: **Uafgjort**
 - Odds: **5.50**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### FC Wolfurt vs SV Ludesch
+### Hafnir vs Ellidi
 - Dato: **2026-06-04**
-- Kampstart: **15:00**
-- Spil: **Udebanesejr**
-- Odds: **3.90**
+- Kampstart: **19:15**
+- Spil: **Uafgjort**
+- Odds: **5.50**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
@@ -115,83 +169,29 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### FC Lauterach vs SV Kuchl
+### Laholms FK vs Hassleholms IF
 - Dato: **2026-06-04**
-- Kampstart: **12:00**
+- Kampstart: **17:00**
+- Spil: **Hjemmesejr**
+- Odds: **3.50**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Manhattan SC vs New Jersey Copa FC
+- Dato: **2026-06-04**
+- Kampstart: **23:30**
 - Spil: **Uafgjort**
 - Odds: **5.25**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Lebanon vs Yemen
+### FC Wolfurt vs SV Ludesch
 - Dato: **2026-06-04**
-- Kampstart: **16:00**
-- Spil: **Udebanesejr**
-- Odds: **3.80**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Stenungsunds IF vs Vanersborgs IF
-- Dato: **2026-06-04**
-- Kampstart: **17:00**
-- Spil: **Udebanesejr**
-- Odds: **3.80**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### LTU vs Jyty Turku
-- Dato: **2026-06-04**
-- Kampstart: **16:00**
-- Spil: **Udebanesejr**
-- Odds: **3.80**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Tmt vs Bombada
-- Dato: **2026-06-04**
-- Kampstart: **16:30**
-- Spil: **Hjemmesejr**
-- Odds: **3.40**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Solvesborgs GIF vs Torns IF
-- Dato: **2026-06-04**
-- Kampstart: **17:30**
-- Spil: **Udebanesejr**
-- Odds: **3.70**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### FC Kattaqorgon vs Fardu Ferghana
-- Dato: **2026-06-04**
-- Kampstart: **12:30**
-- Spil: **Udebanesejr**
-- Odds: **3.70**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### IFK Stocksund vs FC Stockholm Internazionale
-- Dato: **2026-06-04**
-- Kampstart: **17:30**
+- Kampstart: **15:00**
 - Spil: **Uafgjort**
-- Odds: **5.00**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Gambia Ports Authority vs Gambian Dutch Lions
-- Dato: **2026-06-04**
-- Kampstart: **16:30**
-- Spil: **Udebanesejr**
-- Odds: **3.60**
+- Odds: **5.25**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**

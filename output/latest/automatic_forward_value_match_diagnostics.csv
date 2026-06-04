@@ -1,32 +1,16 @@
 prediction_id,match_date,home_team,away_team,model_source,model_coverage,candidate_rows,best_home_team,best_away_team,best_match_confidence,matched_rows,matched_odds_api_io_rows
-a9ec806456f19462d07f,2026-06-04,Indonesia,Kuwait,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Hassania Union Sport Agadir,FUS Rabat,0.3667,0,0
-77733498f663e3280016,2026-06-04,Japan,Mongolia,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Spain,Iraq,0.4667,0,0
-522f8bd726d88d770546,2026-06-04,DH van Hien,K. Khanh Hoa,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,DH van Hien,K. Khanh Hoa,1.0,1,1
-f5a8a2b4bfd53e337bfa,2026-06-04,Dornbirner SV,FC Rotenberg,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Dornbirner SV,FC Rotenberg,1.0,1,1
-1a3617215558fcde223a,2026-06-04,FC Lustenau,VfB Hohenems,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Lustenau,VfB Hohenems,1.0,1,1
-1abd682ea5c0931865f6,2026-06-04,Myanmar,Vietnam,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Andorra,Liechtenstein,0.4143,0,0
-c9cf45d92a1e6234712d,2026-06-04,FC Raika Volders,SC Mils,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Raika Volders,SC Mils,1.0,1,1
-7b8ef1c280817906f570,2026-06-04,Maldives,Pakistan,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Maldives,Pakistan,1.0,1,1
-958b69e0fb50398257fe,2026-06-04,Modbury Jets SC Reserve,Fulham United FC Reserve,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Dornbirner SV,FC Rotenberg,0.3684,0,0
-9c82eab0513223655163,2026-06-04,Cambodia,Bhutan,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Cambodia,Bhutan,1.0,1,1
-40bdb69bf2937fb46781,2026-06-04,FC Lauterach,SV Kuchl,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Lauterach,SV Kuchl,1.0,1,1
-195fa95d8d4dd555d81a,2026-06-04,FC Kattaqorgon,Fardu Ferghana,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Kattaqorgon,Fardu Ferghana,1.0,1,1
-4ffb7888193930783d7c,2026-06-04,FC Kitzbuhel,TSV St. Johann,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Kitzbuhel,TSV St. Johann,1.0,1,1
-61b1465292d72815f01c,2026-06-04,1. Wiener Neustadter SC,UFC Sankt Peter Au,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,1. Wiener Neustadter SC,UFC Sankt Peter Au,1.0,1,1
-6f73784cdd571ac7a080,2026-06-04,Lesotho,Kenya,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Lesotho,Kenya,1.0,1,1
-30c1c93043600f1621eb,2026-06-04,Respublika Football Academy,PFC Terdu,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,1. Wiener Neustadter SC,UFC Sankt Peter Au,0.3602,0,0
-8c6f738f66a65db3f138,2026-06-04,Timor-Leste,Indonesia,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Lustenau,VfB Hohenems,0.401,0,0
 d7f8090b6a119fdf1dbc,2026-06-04,Bulgaria,Albania,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Afghanistan,Bangladesh,0.4458,0,0
 de84363f9859a3456ec9,2026-06-04,Sweden,Finland,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Sweden,Greece,0.5,0,0
 b804c6ec6565c78fd2e8,2026-06-04,FC Wolfurt,SV Ludesch,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Wolfurt,SV Ludesch,1.0,1,1
 4dff5a8124a0caa5820a,2026-06-04,Slovenia,Bosnia and Herzegovina,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Slovenia,Cyprus,0.5357,0,0
 ac168a70858a28032a31,2026-06-04,Afghanistan,Bangladesh,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Afghanistan,Bangladesh,1.0,1,1
 4cad5ebb23cc8fe2c7fe,2026-06-04,Ben Aknoun,USM Alger,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Ben Aknoun,USM Alger,1.0,1,1
+5c7d77f141cdc0938cf2,2026-06-04,Burundi,Equatorial Guinea,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Burundi,Equatorial Guinea,1.0,1,1
 184e5d3aed55bc84c503,2026-06-04,FC Dornbirn,SVG Reichenau,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Dornbirn,SVG Reichenau,1.0,1,1
 f0f8bd1acfba4d8426c2,2026-06-04,Germany,Denmark,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Lebanon,Yemen,0.381,0,0
 236c06b1e5e8062523ff,2026-06-04,Lebanon,Yemen,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Lebanon,Yemen,1.0,1,1
 10ca876e97ac876280c7,2026-06-04,LTU,Jyty Turku,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,LTU,Jyty Turku,1.0,1,1
-856e5e11c9f35e3adf6e,2026-06-04,Moldova,Malta,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Maldives,Pakistan,0.4974,0,0
+856e5e11c9f35e3adf6e,2026-06-04,Moldova,Malta,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Vinotinto FC Ecuador,Cumbaya FC,0.375,0,0
 180f376fb6337838a5f5,2026-06-04,Northern Ireland,Guinea,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Northern Ireland,Guinea,1.0,1,1
 a98282d1f8624974c86e,2026-06-04,Slovenia,Cyprus,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Slovenia,Cyprus,1.0,1,1
 399337017f30539e2286,2026-06-04,FC Ylivieska,SIF,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Ylivieska,SIF,1.0,1,1
@@ -46,10 +30,10 @@ df037296291c8bf6652d,2026-06-04,Sweden,Greece,baseline_league_average_forward_fi
 9c0a68db948f447546c4,2026-06-04,AFC Eskilstuna,Karlbergs BK,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,AFC Eskilstuna,Karlbergs BK,1.0,1,1
 183428ccdd359e8d591d,2026-06-04,IFK Stocksund,FC Stockholm Internazionale,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,IFK Stocksund,FC Stockholm Internazionale,1.0,1,1
 9b627dfa1c80453dbaf4,2026-06-04,Solvesborgs GIF,Torns IF,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Solvesborgs GIF,Torns IF,1.0,1,1
-23a59a13046f19cb62f4,2026-06-04,America FC SP,CA Juventus SP,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Juan Aurich de Alcatuyo,CD Rio San Juan Humi,0.3574,0,0
-8fb265b17a4650fb080b,2026-06-04,Avai FC SC,Nacao,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Afghanistan,Bangladesh,0.3556,0,0
+23a59a13046f19cb62f4,2026-06-04,America FC SP,CA Juventus SP,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Manhattan SC,New Jersey Copa FC,0.3887,0,0
+8ade131c291f67cadf07,2026-06-04,Araucaria ECR PR,FC Cascavel PR,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Paraguari AC,CA Tembetary Ypane,0.4594,0,0
+8fb265b17a4650fb080b,2026-06-04,Avai FC SC,Nacao,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Vaengir Jupiters,Hamar,0.4174,0,0
 f6da153f7b608321784d,2026-06-04,CA Barracas Central Reserve,CA Aldosivi Reserve,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Real de Banjul,Falcons FC,0.3002,0,0
-39d8fe9b23b17d6ff771,2026-06-04,CA Platense,CA Belgrano,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Kattaqorgon,Fardu Ferghana,0.3764,0,0
 8242aca7c6311cd6353e,2026-06-04,CD Godoy Cruz,CA Union Santa Fe Reserve,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,US Goree,Stade de Mbour,0.3443,0,0
 b1fb8b3e76d8ae0a69ef,2026-06-04,GD Prudente SP,SE Palmeiras SP,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Ben Aknoun,USM Alger,0.375,0,0
 9a28e1f4e0f92c4d782f,2026-06-04,Hassania Union Sport Agadir,FUS Rabat,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Hassania Union Sport Agadir,FUS Rabat,1.0,1,1
@@ -59,243 +43,259 @@ bba2233c232c797d18c7,2026-06-04,San Lorenzo de Almagro Res.,Velez Sarsfield Rese
 ceb2c971f635e38f4195,2026-06-04,Spain,Iraq,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Spain,Iraq,1.0,1,1
 0c49363160c413ca7fe2,2026-06-04,France,Ivory Coast,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,France,Ivory Coast,1.0,1,1
 0a120bcba68707edd81f,2026-06-04,Alafoss,KFR,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Alafoss,KFR,1.0,1,1
-486783b5ee2a776f62a0,2026-06-04,Hafnir,Ellidi,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Andorra,Liechtenstein,0.3887,0,0
-1480a04ab28e06a0cf83,2026-06-04,Vaengir Jupiters,Hamar,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,DH van Hien,K. Khanh Hoa,0.3356,0,0
-653df06c66844d23925b,2026-06-04,AS Far Rabat,Difaa Hassani d'el-Jadida,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Juan Aurich de Alcatuyo,CD Rio San Juan Humi,0.3841,0,0
-71943a58c9c704cc42ca,2026-06-04,IH Hafnarfjordur,Arborg,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,AFC Eskilstuna,Karlbergs BK,0.3849,0,0
-3e9cb0e92c15bb2a358f,2026-06-04,Millonarios FC,Independiente Medellin,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Gambia Ports Authority,Gambian Dutch Lions,0.3769,0,0
-3ecac948b44af985b3d5,2026-06-04,Vinotinto FC Ecuador,Cumbaya FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Tmt,Bombada,0.3857,0,0
-9db9d92142ec4bf065dc,2026-06-04,Deportivo Santani,Resistencia SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Dornbirn,SVG Reichenau,0.4222,0,0
+486783b5ee2a776f62a0,2026-06-04,Hafnir,Ellidi,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Hafnir,Ellidi,1.0,1,1
+1480a04ab28e06a0cf83,2026-06-04,Vaengir Jupiters,Hamar,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Vaengir Jupiters,Hamar,1.0,1,1
+653df06c66844d23925b,2026-06-04,AS Far Rabat,Difaa Hassani d'el-Jadida,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,AS Far Rabat,Difaa Hassani d'el-Jadida,1.0,1,1
+71943a58c9c704cc42ca,2026-06-04,IH Hafnarfjordur,Arborg,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,IH Hafnarfjordur,Arborg,1.0,1,1
+3e9cb0e92c15bb2a358f,2026-06-04,Millonarios FC,Independiente Medellin,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Millonarios FC,Independiente Medellin,1.0,1,1
+3ecac948b44af985b3d5,2026-06-04,Vinotinto FC Ecuador,Cumbaya FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Vinotinto FC Ecuador,Cumbaya FC,1.0,1,1
+9db9d92142ec4bf065dc,2026-06-04,Deportivo Santani,Resistencia SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Deportivo Santani,Resistencia SC,1.0,1,1
 bba5f1fd6bbf979bba7e,2026-06-04,CA Central Cordoba SE Reserve,San Martin de San Juan Reserve,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Juan Aurich de Alcatuyo,CD Rio San Juan Humi,0.3369,0,0
 1ccce2601817a339ac72,2026-06-04,CA Talleres de Cordoba Reserve,Argentinos Juniors Reserve,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Gambia Ports Authority,Gambian Dutch Lions,0.2902,0,0
-5d554b3fd7762a75bb92,2026-06-04,Osasco Sporting SP,AE Velo Clube SP,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,US Goree,Stade de Mbour,0.3205,0,0
-db5e5ea499251397280a,2026-06-04,Anapolis FC GO,Paysandu SC PA,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Maldives,Pakistan,0.4378,0,0
-6b9fba22ab91c9baa2cd,2026-06-04,Club Deportivo Cuenca Juniors,CSD Macara,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Ben Aknoun,USM Alger,0.3644,0,0
-f506e637d9ea270905cd,2026-06-04,Manhattan SC,New Jersey Copa FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,France,Ivory Coast,0.3974,0,0
-07c3a973e941b476b4a6,2026-06-05,Czechia,Guatemala,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Ben Aknoun,USM Alger,0.3399,0,0
-254695c01e4a955d4efc,2026-06-05,San Antonio FC,CD Independiente Juniors,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Juan Aurich de Alcatuyo,CD Rio San Juan Humi,0.4037,0,0
-934a29b8bd56b4af5c3c,2026-06-05,Mexico,Serbia,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Lesotho,Kenya,0.3357,0,0
-8ead66b448eeea9ba3c1,2026-06-05,Bentleigh Greens SC,Boroondara Eagles,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Afghanistan,Bangladesh,0.3556,0,0
-53ca8d2f7c706ecf334a,2026-06-05,Oakleigh Cannons FC,ST Albans Saints Dinamo SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Hassania Union Sport Agadir,FUS Rabat,0.3342,0,0
-24f5b5eda865d450e9aa,2026-06-05,Box Hill United FC,Werribee City FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,AFC Eskilstuna,Karlbergs BK,0.3,0,0
-fdcdbd13e8b84f5aaf40,2026-06-05,Eastern Suburbs FC,Moreton City Excelsior FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Stenungsunds IF,Vanersborgs IF,0.3624,0,0
-17da4982649665784f32,2026-06-05,Green Gully SC,Avondale FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Real de Banjul,Falcons FC,0.4143,0,0
-30ff775318609837d6a0,2026-06-05,Dandenong City SC,Heidelberg United FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Dornbirner SV,FC Rotenberg,0.4632,0,0
-4cce7c9d7aada3d9dd65,2026-06-05,Eastern Lions SC,Nunawading City,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Northern Ireland,Guinea,0.4062,0,0
-154dc366b186c218cf1f,2026-06-05,Keilor Park SC,Moreland City FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Paraguari AC,CA Tembetary Ypane,0.3462,0,0
-319aa3dd5ff1664efb6a,2026-06-05,Adelaide City FC,Sturt Lions,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Real de Banjul,Falcons FC,0.404,0,0
-1df95ba382f4be64d068,2026-06-05,Cooks Hill United,Belmont Swansea United FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Cambodia,Bhutan,0.3571,0,0
-9d1a124220468035608f,2026-06-05,Fraser Park FC,Bonnyrigg W. E.,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,France,Ivory Coast,0.3603,0,0
-8fdf18e2cbcc874692dc,2026-06-05,Hills United FC Brumbies,Bull FC Academy,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Afghanistan,Bangladesh,0.3473,0,0
-f9262a5a5ad99a4389a2,2026-06-05,Kamatamare Sanuki,AC Nagano Parceiro,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Kattaqorgon,Fardu Ferghana,0.3393,0,0
-08be00c3973df2636173,2026-06-05,Modbury Jets SC,Fulham United FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Wolfurt,SV Ludesch,0.3068,0,0
-b7f12fa237cdd848803f,2026-06-05,Mounties Wanderers FC,Central Coast United FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,France,Ivory Coast,0.4167,0,0
-6c12a2feccb2a57b97f4,2026-06-05,Japan,Fiji,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Lasten,Fish United,0.4318,0,0
-0f2e87039388c354e444,2026-06-05,Eastern United,The Cove FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Lasten,Fish United,0.4679,0,0
-5a9087ac41804ef93ec6,2026-06-05,Bentleigh Greens,Hume City,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Ben Aknoun,USM Alger,0.4231,0,0
-ea056759015839925f41,2026-06-05,Busan I Park,Chungnam Asan FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Ben Aknoun,USM Alger,0.4091,0,0
-00ad50838428bae6d5a0,2026-06-05,Eltham Redbacks FC,FC Bulleen Lions,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Real de Banjul,Falcons FC,0.3724,0,0
-1dd9af8f1e4044a9b3aa,2026-06-05,Essendon Royals SC,Springvale White Eagles,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,1. Wiener Neustadter SC,UFC Sankt Peter Au,0.3545,0,0
-597c10f21f93f37e89fa,2026-06-05,Logan Lightning,Capalaba Bulldogs,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Afghanistan,Bangladesh,0.416,0,0
-c2e778d147e4714d61e6,2026-06-05,North Pine,North Lakes United,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Fortune,Bst Galaxy,0.4846,0,0
-6374a91fb0bc1f52625d,2026-06-05,Northcote City,Langwarrin SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Northern Ireland,Guinea,0.3979,0,0
-cf3e5e66647bd5401f98,2026-06-05,Pine Hills,Mitchelton FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Dornbirner SV,FC Rotenberg,0.3753,0,0
-9b33fb0f2917ce0e1f1d,2026-06-05,Seongnam Ilhwa,Gimhae FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Northern Ireland,Guinea,0.45,0,0
-5675629fdad13d9339e3,2026-06-05,West Torrens Birkalla,Croydon FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Real de Banjul,Falcons FC,0.3857,0,0
-1af316fee301938b25b2,2026-06-05,Whittlesea United SC,Malvern City FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Lebanon,Yemen,0.4,0,0
-ad01cc66e5978357944e,2026-06-05,Bayswater City,Dianella White Eagles SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Lasten,Fish United,0.3381,0,0
-bbcdbe6135fb78b89308,2026-06-05,Floreat Athena,Gwelup Croatia SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Real de Banjul,Falcons FC,0.381,0,0
-c2cc1aa13b5e9767e871,2026-06-05,Perth Azzurri,Stirling Macedonia FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Gambia Ports Authority,Gambian Dutch Lions,0.3637,0,0
-a7bfb86d476adf5accdb,2026-06-05,Lanzhou Longyuan Athletic,Dalian Kewei,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Stenungsunds IF,Vanersborgs IF,0.3538,0,0
-a69cfd3ae64d9cd8cf7b,2026-06-05,Singapore,China PR,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,US Goree,Stade de Mbour,0.4305,0,0
-f116ccc91827f79b5462,2026-06-05,Thailand,Kuwait,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Northern Ireland,Guinea,0.4583,0,0
-a172c29ec97951174780,2026-06-05,Colombia,China,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Cambodia,Bhutan,0.4943,0,0
-667b32032b5999e7bb0d,2026-06-05,Indonesia,Oman,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Lebanon,Yemen,0.4097,0,0
-94624778f30c1e8acb4f,2026-06-05,Singapore,Thailand,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,US Goree,Stade de Mbour,0.4305,0,0
-d5bfb334e4a55ecb928a,2026-06-05,Latvia,Estonia,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Ylivieska,SIF,0.4667,0,0
-fcfe340c53566c0a85cc,2026-06-05,Montenegro,Cyprus,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Slovenia,Cyprus,0.6667,0,0
-7488a5892b6a51c6e90d,2026-06-05,Tajikistan,India,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Northern Ireland,Guinea,0.4266,0,0
-c1c6b8da3b4c5656633e,2026-06-05,Japan,Brazil,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Spain,Iraq,0.5,0,0
-948e36c02fac447ed0be,2026-06-05,FC Haka Valkeakoski,JaPS,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Raika Volders,SC Mils,0.3668,0,0
-71692f504b2c9654a636,2026-06-05,FK Ekranas,FC Neptunas Klaipeda,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,AFC Eskilstuna,Karlbergs BK,0.3652,0,0
-aba33eeed695807ad6d9,2026-06-05,KaPa Kapylan Pallo,FC KTP Kotka,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,DH van Hien,K. Khanh Hoa,0.3879,0,0
-4a25b1d0ef87611f658d,2026-06-05,Medina United FC,Hart FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Cambodia,Bhutan,0.4857,0,0
-c2c5b3add3d17889876b,2026-06-05,SAK Celovec/Klagenfurt,Tsu Matrei,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Solvesborgs GIF,Torns IF,0.3844,0,0
-efea72033030d9f73f66,2026-06-05,Saudi Arabia,Tunisia Youth,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,US Goree,Stade de Mbour,0.3352,0,0
-b5d3ca089efddb62e4b0,2026-06-05,Slovakia,Montenegro,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Slovenia,Cyprus,0.4375,0,0
-55cf12fd76a9e41f131d,2026-06-05,ASK Ebreichsdorf,SC Zwettl,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Lauterach,SV Kuchl,0.3765,0,0
-dd4715ba4b706513cb91,2026-06-05,FBK Karlstad,IF Karlstad Fotbol,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,AFC Eskilstuna,Karlbergs BK,0.4417,0,0
-2b6aea09154e8ad02688,2026-06-05,Liechtenstein,Estonia,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Lesotho,Kenya,0.4,0,0
-75885895367bbd8e48ee,2026-06-05,Moldova,Bulgaria,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Cambodia,Bhutan,0.481,0,0
-cdcf82504551b1c7718b,2026-06-05,SC Furstenfeld,Fehring 1947,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Lustenau,VfB Hohenems,0.3523,0,0
-e135ad38484261c4ba47,2026-06-05,SV Lebring,SV Tillmitsch,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Wolfurt,SV Ludesch,0.422,0,0
-6b72ae9b3d172612a562,2026-06-05,TUS Bad Waltersdorf,SV Wildon,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Raika Volders,SC Mils,0.4062,0,0
-7a7075e1cbb53da54d68,2026-06-05,USV St. Anna am Aigen,Wohnbau Dietach,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Afghanistan,Bangladesh,0.329,0,0
-b55fbfe176b90c83d22b,2026-06-05,SV Langenrohr,Scheiblingkirchen-Warth Usv,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Lauterach,SV Kuchl,0.3416,0,0
-d3a1a447104b20c2fe77,2026-06-05,SV Oberwart,Kremser SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Sweden,Greece,0.3676,0,0
-90357101f1413aecb7f8,2026-06-05,Hungary,Finland,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Afghanistan,Bangladesh,0.402,0,0
-9c768d1134364a5e0fc7,2026-06-05,CE Sabadell FC,Real Madrid Castilla,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Real de Banjul,Falcons FC,0.3481,0,0
-58ddabf813b441360f68,2026-06-05,Spain,England,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Spain,Iraq,0.5909,0,0
-1b68ad2c2516d9f070b1,2026-06-05,HK Kopavogur,Afturelding,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Paraguari AC,CA Tembetary Ypane,0.3463,0,0
-97733aaaa6fb2568834b,2026-06-05,KF Aegir,Leiknir Reykjavik,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,France,Ivory Coast,0.3571,0,0
-8c4ade5c6d05e6300a1d,2026-06-05,Kormakur/Hvot,IF Magni Grenivik,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Paraguari AC,CA Tembetary Ypane,0.3029,0,0
-7cef9f872b221cd19367,2026-06-05,Reynir Sandgerdi,Augnablik Kopavogur,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,France,Ivory Coast,0.3152,0,0
-260067708c5543955c3b,2026-06-05,UMF Njardvik,IR Reykjavik,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Maldives,Pakistan,0.3,0,0
-c69285e83976f6e34903,2026-06-05,Hviti Riddarinn,Haukar Hafnarfjordur,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,DH van Hien,K. Khanh Hoa,0.3151,0,0
-a4fd6d7bc7b35ef1b1c0,2026-06-05,Ulfanir,Alftanes,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Afghanistan,Bangladesh,0.4444,0,0
-9deead7b09d3a49787bc,2026-06-05,Ukraine,Japan,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Maldives,Pakistan,0.4308,0,0
-df2a2c2f10050a98f223,2026-06-05,Montevideo Wanderers,Danubio FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Dornbirner SV,FC Rotenberg,0.3371,0,0
-59f5f9820583831804d6,2026-06-05,Plaza Colonia,Huracan FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Cambodia,Bhutan,0.4982,0,0
-b228a43423bea8211c1a,2026-06-05,Argentina,Peru,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Slovenia,Cyprus,0.5353,0,0
-5f72be5c4718b163d282,2026-06-05,Bolivia,Paraguay,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Slovenia,Cyprus,0.481,0,0
-d921709ab4669fdc4722,2026-06-05,CA Talleres de Remedios,Deportivo Merlo,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Raika Volders,SC Mils,0.303,0,0
-e94dc68f249b10f578f5,2026-06-05,Chile,Ecuador,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Lesotho,Kenya,0.3333,0,0
-e18b07e1c9a11c088c72,2026-06-05,Colombia,Uruguay,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Cambodia,Bhutan,0.4663,0,0
-07f2a1a98062cdfab748,2026-06-05,Operario Ferroviario EC PR,EC Juventude RS,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Generation Foot,Ajel de Rufisque,0.4453,0,0
-e6a01e1bf43dd25d9ee9,2026-06-05,Canada,Ireland,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Spain,Iraq,0.4545,0,0
-f97089d34433f739143e,2026-06-06,Deportes Concepcion,Coquimbo Unido,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Northern Ireland,Guinea,0.3214,0,0
-80baae536027a349fc05,2026-06-06,Nomads United AFC,Northern AFC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Andorra,Liechtenstein,0.3739,0,0
-221bfac87c84620fda50,2026-06-06,San Luis de Quillota,San Marcos de Arica,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Juan Aurich de Alcatuyo,CD Rio San Juan Humi,0.4097,0,0
-4c5517d122604ca9209d,2026-06-06,Western Suburbs FC,Napier City Rovers AFC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,1. Wiener Neustadter SC,UFC Sankt Peter Au,0.4098,0,0
-6913f5a0d6c3106b3190,2026-06-06,Dunedin City Royals FC,Christchurch United FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Generation Foot,Ajel de Rufisque,0.3498,0,0
-fe8c0c803c7531f434eb,2026-06-06,Panama,Jamaica,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Spain,Iraq,0.3636,0,0
-964d6dd8776b2064295e,2026-06-06,Japan,Myanmar,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Spain,Iraq,0.3909,0,0
-9f524eb63719421ab0d7,2026-06-06,Malaysia,Indonesia,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Afghanistan,Bangladesh,0.4211,0,0
-2a8e39e7cde1786931b1,2026-06-06,Vancouver FC,Atletico Ottawa,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,France,Ivory Coast,0.4205,0,0
-518b2cfc8c93f3a0e830,2026-06-06,Essendon Royals SC U20,Spring Hills FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Juan Aurich de Alcatuyo,CD Rio San Juan Humi,0.3431,0,0
-95eee70f07bbfa0f3a68,2026-06-06,Keilor Park SC,FC Bulleen Lions U20,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Gambia Ports Authority,Gambian Dutch Lions,0.3889,0,0
-86980ed55d52ff0b81df,2026-06-06,Bentleigh Greens SC,Hume City FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Ben Aknoun,USM Alger,0.4032,0,0
-4cc7b753137906c38e4d,2026-06-06,Dandenong Thunder FC,Caroline Springs George Cross FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Stenungsunds IF,Vanersborgs IF,0.4048,0,0
-a2311eb1806c705a95cf,2026-06-06,South Melbourne FC U20,Heidelberg United FC U20,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Dornbirner SV,FC Rotenberg,0.4049,0,0
-879c460bd8f8e485aefe,2026-06-06,Port Melbourne Sharks,Brunswick City SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Fortune,Bst Galaxy,0.3506,0,0
-ae695d7acacb37cc433f,2026-06-06,Magic United Tfa,Brisbane Roar FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Afghanistan,Bangladesh,0.4239,0,0
-d9330958b70090aa2d13,2026-06-06,Alamein FC,Melbourne City Youth,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Lasten,Fish United,0.3603,0,0
-5a22b88f2498c5421863,2026-06-06,Albirex Niigata,Hokkaido Consadole Sapporo,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Afghanistan,Bangladesh,0.359,0,0
-7927e6f83e4a0ff82d7e,2026-06-06,Avondale FC,Melbourne Victory FC Youth,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,France,Ivory Coast,0.4202,0,0
-7f07d7ac04bd405d686a,2026-06-06,Dandenong City SC,Heidelberg United FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Dornbirner SV,FC Rotenberg,0.4632,0,0
-9e19c5f031fc2ab2b2bc,2026-06-06,Essendon Royals SC,Spring Hills FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Lauterach,SV Kuchl,0.3481,0,0
-5ddf4ea1533d8a9eccf0,2026-06-06,Fujieda MYFC,Ehime FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Lebanon,Yemen,0.4176,0,0
-e4213d0665edc8525af9,2026-06-06,JEF United Chiba,Avispa Fukuoka,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Lauterach,SV Kuchl,0.3485,0,0
-119b90163cc4f1b04bba,2026-06-06,Kashima Antlers,Vissel Kobe,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Raika Volders,SC Mils,0.3611,0,0
-7236f89d03718efcc3e3,2026-06-06,Keilor Park SC,FC Bulleen Lions,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Gambia Ports Authority,Gambian Dutch Lions,0.4167,0,0
-0bb7b0174667d10e0c1a,2026-06-06,Matsumoto Yamaga FC,Nara Club,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Gambia Ports Authority,Gambian Dutch Lions,0.3534,0,0
-f821ecff7790702fb50c,2026-06-06,FC Melbourne Srbija,North Geelong Warriors FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Real de Banjul,Falcons FC,0.3379,0,0
-d8b84686c5476d7d7adb,2026-06-06,North Sunshine Eagles FC,Melbourne Knights,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Stenungsunds IF,Vanersborgs IF,0.3602,0,0
-7edffd34fad63cd7734d,2026-06-06,RB Omiya Ardija,Kochi United SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Maldives,Pakistan,0.3614,0,0
-a97d85acf437c5bf1b9d,2026-06-06,SC Sagamihara,Roasso Kumamoto,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Hassania Union Sport Agadir,FUS Rabat,0.3667,0,0
-1260a522c174d7748d30,2026-06-06,Tegevajaro Miyazaki,Ventforet Kofu,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Stenungsunds IF,Vanersborgs IF,0.3613,0,0
-648572e13231a6facc12,2026-06-06,Tochigi City FC,Reilac Shiga FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Kattaqorgon,Fardu Ferghana,0.3205,0,0
-7e8c641f34e5f37935ed,2026-06-06,FC Tokyo,Cerezo Osaka,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Kattaqorgon,Fardu Ferghana,0.3413,0,0
-ff8ca930f685d4e42e10,2026-06-06,Vegalta Sendai,Kataller Toyama,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,AFC Eskilstuna,Karlbergs BK,0.4145,0,0
-d33b419e2e6a2f534c5c,2026-06-06,Yokohama FC,Renofa Yamaguchi,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Lesotho,Kenya,0.3238,0,0
-8f10c84b8c855878ce2a,2026-06-06,Adelaide Atletico VSC,Cumberland United,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Paraguari AC,CA Tembetary Ypane,0.4318,0,0
-37de5813440867dbb88a,2026-06-06,Adelaide Blue Eagles,Adelaide Olympic FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Real de Banjul,Falcons FC,0.3363,0,0
-e1beecb700863894d54c,2026-06-06,Campbelltown City SC,Para Hills Knights SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,AFC Eskilstuna,Karlbergs BK,0.3557,0,0
-5ebc4908d56e8d9ef681,2026-06-06,Playford City,Adelaide Comets FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,US Goree,Stade de Mbour,0.3664,0,0
-4638480505cd74144f26,2026-06-06,Salisbury United,Adelaide Croatia Raiders SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Real de Banjul,Falcons FC,0.321,0,0
-f0b19d87d204f3d05622,2026-06-06,South Adelaide FC,Adelaide Cobras,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,US Goree,Stade de Mbour,0.4577,0,0
-3ba991347cc82666af8e,2026-06-06,South Melbourne FC,Heidelberg United FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Dornbirner SV,FC Rotenberg,0.4417,0,0
-df975d720e251de13ba1,2026-06-06,Brisbane City FC,Queenland Lions FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Afghanistan,Bangladesh,0.4105,0,0
-e74b577f299ccac435b6,2026-06-06,FC Gifu,Gainare Tottori,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Stenungsunds IF,Vanersborgs IF,0.3648,0,0
-6314c8f6ef6a5a06ff48,2026-06-06,Machida Zelvia,Nagoya Grampus,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Slovenia,Cyprus,0.3364,0,0
-bb1df90734a77525feac,2026-06-06,Mito Hollyhock,V-Varen Nagasaki,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Kitzbuhel,TSV St. Johann,0.3118,0,0
-31c868cb3db3ba3b61cf,2026-06-06,Hakoah,Blacktown Spartans,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Andorra,Liechtenstein,0.416,0,0
-08715929b96fab24b93e,2026-06-06,St George FC,Sutherland Sharks FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,US Goree,Stade de Mbour,0.4497,0,0
-7cfe452581624646479d,2026-06-06,Valentine FC,Broadmeadow Magic FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Afghanistan,Bangladesh,0.3481,0,0
-389283d9ae37a62ad816,2026-06-06,Rochedale Rovers,Peninsula Power,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Dornbirner SV,FC Rotenberg,0.3391,0,0
-4a0266f892eb2bcbadc5,2026-06-06,Armadale SC,Fremantle City,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Paraguari AC,CA Tembetary Ypane,0.4461,0,0
-b82cbddd1d01c351b2aa,2026-06-06,Balcatta,Sorrento FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Kattaqorgon,Fardu Ferghana,0.3469,0,0
-d5600fba1fdb30515b95,2026-06-06,Bankstown United FC,Nepean FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Lautp,Peka,0.4,0,0
-ac689e103aa305af7314,2026-06-06,Bankstown City FC,Northern Tigers,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Ben Aknoun,USM Alger,0.3667,0,0
-12072b30d9776c77054d,2026-06-06,Brisbane Strikers FC,Robina City,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Dornbirner SV,FC Rotenberg,0.4,0,0
-02acdda313bf66b12fa2,2026-06-06,Caloundra FC,Moreton City Excelsior FC 2,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Andorra,Liechtenstein,0.4688,0,0
-4cdec32e05e38bf0210e,2026-06-06,Cockburn City,Subiaco AFC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,IFK Stocksund,FC Stockholm Internazionale,0.3896,0,0
-6ef3f3b86113dc2b940f,2026-06-06,Dulwich Hill,Central Coast Mariners Academy,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Juan Aurich de Alcatuyo,CD Rio San Juan Humi,0.3314,0,0
-638617ab8257c6b4f5fc,2026-06-06,Inglewood United,Curtin University SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Lesotho,Kenya,0.33,0,0
-3dbab9e812a8180b0e8b,2026-06-06,Inter Lions FC,Hurstville FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Northern Ireland,Guinea,0.4468,0,0
-46938eb65d345c654598,2026-06-06,Jubilo Iwata,FC Osaka,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Sundby BK,Holbaek B&I,0.3651,0,0
-81b83a42d96f22c10ea9,2026-06-06,Murdoch University Melville FC,Mandurah City,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Afghanistan,Bangladesh,0.3538,0,0
-0e790ca6d1031958c72f,2026-06-06,Perth Glory FC,Olympic Kingsway SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Lesotho,Kenya,0.3056,0,0
-77eec2177663021d0701,2026-06-06,Perth Redstar FC,Western Knights SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,1. Wiener Neustadter SC,UFC Sankt Peter Au,0.3756,0,0
-ba71b02d4303ec16eb56,2026-06-06,Republic of Korea,Kyrgyzstan,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Lesotho,Kenya,0.325,0,0
-a03518f214df448f7831,2026-06-06,Samford Rangers,Brisbane Knights,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Andorra,Liechtenstein,0.3997,0,0
-23c4686c37918c3f7b64,2026-06-06,SD Raiders FC,University of Nsw,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,France,Ivory Coast,0.4375,0,0
-2e55752997e3bb1f7d0a,2026-06-06,St George City FA,Sydney Olympic FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,US Goree,Stade de Mbour,0.4786,0,0
-01fb8d518d353688f815,2026-06-06,Sydney University SFC,Parramatta FC Eagles,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Gambia Ports Authority,Gambian Dutch Lions,0.3652,0,0
-6e47213f2a1c34a1eff9,2026-06-06,Tokyo Verdy,Gamba Osaka,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Gambia Ports Authority,Gambian Dutch Lions,0.3576,0,0
-822b314cfe2dc808ab59,2026-06-06,Urawa Red Diamonds,Fagiano Okayama,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Maldives,Pakistan,0.3278,0,0
-b25db22163758167776c,2026-06-06,UWA Nedlands FC,Joondalup City,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Northern Ireland,Guinea,0.3476,0,0
-e8a14b7fe171d36a39eb,2026-06-06,FK Beograd,North Eastern Metrostars SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,1. Wiener Neustadter SC,UFC Sankt Peter Au,0.3656,0,0
-3c181a1aa404e9dd15a8,2026-06-06,Gladesville Ryde Magic,Camden Tigers FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Paraguari AC,CA Tembetary Ypane,0.37,0,0
-5bb584cc4e5f72602543,2026-06-06,Bayside Argonauts FC,Kingston City FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Maldives,Pakistan,0.3925,0,0
-70f1dec0c6d96fa5494a,2026-06-06,Brisbane City FC,Lions FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Gambia Ports Authority,Gambian Dutch Lions,0.56,0,0
-2298cd3b51266eccf328,2026-06-06,Broadbeach United,Holland Park Hawks,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,1. Wiener Neustadter SC,UFC Sankt Peter Au,0.3033,0,0
-9ac06c97cc81ec8eac9c,2026-06-06,Caboolture FC,Ipswich FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Lasten,Fish United,0.4602,0,0
-f621dae915bdd82efc49,2026-06-06,Yokohama F Marinos,Shimizu S-Pulse,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Raika Volders,SC Mils,0.3886,0,0
-cc3febce904aa43118ec,2026-06-06,Altona City SC,Goulburn Valley Suns,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,AFC Eskilstuna,Karlbergs BK,0.3631,0,0
-1dde42dacb3c5a49c833,2026-06-06,Rydalmere Lions FC,Macarthur Rams,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Real de Banjul,Falcons FC,0.3498,0,0
-4a3f7bdba397c4b6531f,2026-06-06,Southside Eagles,Grange Thistle,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Gambia Ports Authority,Gambian Dutch Lions,0.374,0,0
-2201497ea5e4d827effc,2026-06-06,St George Saints FC,Sutherland Sharks,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Kattaqorgon,Fardu Ferghana,0.3787,0,0
-f233d792b4b8d0ad0a08,2026-06-06,Dunbar Rovers FC,South Coast Flame FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,France,Ivory Coast,0.3553,0,0
-978dd058437817e8b0db,2026-06-06,Eastern Suburbs FC,Capalaba FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Stenungsunds IF,Vanersborgs IF,0.3242,0,0
-e5dcc4f18560a6fd8632,2026-06-06,Granville Rage,Inner West Hawks FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,France,Ivory Coast,0.3852,0,0
-932ba8b7bed0dfaf7771,2026-06-06,Kashiwa Reysol,Kyoto Sanga FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,DH van Hien,K. Khanh Hoa,0.3873,0,0
-50a95d1ea7be7f6e8e6a,2026-06-06,Western City Rangers FC,Canterbury Bankstown FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Stenungsunds IF,Vanersborgs IF,0.4667,0,0
-3840415c752203c2afd0,2026-06-06,Brisbane City,Queensland Lions FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Afghanistan,Bangladesh,0.4028,0,0
-cbd86993f9a9e3585dc5,2026-06-06,Iran,Indonesia,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Northern Ireland,Guinea,0.4667,0,0
-0410cb3eea0fc9e14b0a,2026-06-06,Kawasaki Frontale,Sanfrecce Hiroshima,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Generation Foot,Ajel de Rufisque,0.3589,0,0
-55bebb77b8daec3fcde8,2026-06-06,Kingsley Westside FC,Quinns FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Lasten,Fish United,0.3739,0,0
-3d9c9e620f59398e60fa,2026-06-06,Sagan Tosu,Shonan Bellmare,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,IFK Stocksund,FC Stockholm Internazionale,0.3712,0,0
-8c267d872ca9eb6c8cee,2026-06-06,Gyeongnam FC,Yongin City FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Northern Ireland,Guinea,0.37,0,0
-390f0887970b7185a4fe,2026-06-06,Hwaseong FC,Suwon Bluewings,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Wolfurt,SV Ludesch,0.3733,0,0
-0b9df55ed8846917fa91,2026-06-06,Australia,Japan,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Paraguari AC,CA Tembetary Ypane,0.412,0,0
-5d752f136de6bf644923,2026-06-06,Belgium,Tunisia,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Ben Aknoun,USM Alger,0.364,0,0
-bb6b1efddb4493b4ef9a,2026-06-06,CA Fenix Montevideo,CA River Plate (URU),baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,1. Wiener Neustadter SC,UFC Sankt Peter Au,0.3652,0,0
-90648e7c306a85345a02,2026-06-06,Central Espanol FC,Racing Club Montevideo,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Real de Banjul,Falcons FC,0.4138,0,0
-436da6b651b6f617f19c,2026-06-06,IF Vestri,Volsungur,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Maldives,Pakistan,0.3529,0,0
-d501a1100e44013fb0ba,2026-06-06,Japan,Canada Youth,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Afghanistan,Bangladesh,0.4148,0,0
-0ebd4048fe7e8e7c8adf,2026-06-06,Criciuma EC SC,Londrina EC PR,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,1. Wiener Neustadter SC,UFC Sankt Peter Au,0.3278,0,0
-88677f6d4b2d03dcd074,2026-06-06,Fylkir Reykjavik,Throttur Reykjavik,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Ylivieska,SIF,0.2876,0,0
-0fba70872caa9b6ffeb4,2026-06-06,Gefle IF,Hammarby Talang FF,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Stenungsunds IF,Vanersborgs IF,0.3302,0,0
-2d69637ebe3214a82070,2026-06-06,Grotta,UMF Grindavik,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Tmt,Bombada,0.3722,0,0
-9f724c79ceb955ca7557,2026-06-06,Jonkopings Sodra IF,FC Trollhattan,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Dornbirner SV,FC Rotenberg,0.3875,0,0
-4f1436310784bc26723a,2026-06-06,Twin City Toucans,Houston FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Cambodia,Bhutan,0.4077,0,0
-a185cbdd6a6177fabd8d,2026-06-06,Atletico Madrid B,SD Ponferradina,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Kattaqorgon,Fardu Ferghana,0.4544,0,0
-20bda567bb686145d49b,2026-06-06,Deportes Copiapo,Santiago Wanderers,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Gambia Ports Authority,Gambian Dutch Lions,0.3997,0,0
-2c50dcf1845f9e6525cb,2026-06-06,Puerto Montt,CD Cobreloa Calama,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Juan Aurich de Alcatuyo,CD Rio San Juan Humi,0.3248,0,0
-fb879e51830a05f4ed1b,2026-06-06,Arsenal de Sarandi,CS Italiano,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Real de Banjul,Falcons FC,0.4792,0,0
-c9778f8b43489b4f82b6,2026-06-06,Centro Espanol,CDM Leandro N. Alem,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Ben Aknoun,USM Alger,0.4352,0,0
-ec69ccfd1ce5969acf79,2026-06-06,Portugal,Chile,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Andorra,Liechtenstein,0.3667,0,0
-9625f29f30bcd1b4f609,2026-06-06,Romania,Wales,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Afghanistan,Bangladesh,0.4889,0,0
-40510665a3e1e0d47999,2026-06-06,CA Brown de Adrogue,Club Comunicaciones,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Real de Banjul,Falcons FC,0.4044,0,0
-0e0c16e900632c42db17,2026-06-06,La Luz FC,Paysandu FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Lautp,Peka,0.4394,0,0
-d26edb293d42d5b91e64,2026-06-06,Montevideo City Torque,Deportivo Maldonado,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Fortune,Bst Galaxy,0.3391,0,0
-84d193b5d24ac83a8b76,2026-06-06,Argentino de Merlo,Deportivo Camioneros,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Juan Aurich de Alcatuyo,CD Rio San Juan Humi,0.4195,0,0
-49764bb1cdaa50552aa8,2026-06-06,Argentino de Rosario,CA Lugano,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Raika Volders,SC Mils,0.3996,0,0
-b05a67d568030ddfde5e,2026-06-06,ASD Justo Jose de Urquiza,CA Puerto Nuevo,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Juan Aurich de Alcatuyo,CD Rio San Juan Humi,0.3667,0,0
-083232091f81e1c41a0d,2026-06-06,CA Atlas,CA Fenix Pilar,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Alafoss,KFR,0.3843,0,0
-c9a1addafd3b788e76b0,2026-06-06,CA Excursionistas,CSD San Martin,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,1. Wiener Neustadter SC,UFC Sankt Peter Au,0.3795,0,0
-5bf11f8aa31e922ca2dc,2026-06-06,CD Armenio,CA Defensores Unidos,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Stenungsunds IF,Vanersborgs IF,0.3553,0,0
-df133fe79fdff17db02a,2026-06-06,Club Estrella Del Sur (Alejandro Korn),Sacachispas FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Raika Volders,SC Mils,0.3399,0,0
-4443c6dda0f15ce3d9e6,2026-06-06,CSD Flandria,Argentino de Quilmes,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Andorra,Liechtenstein,0.4147,0,0
-6574750442e0bc960995,2026-06-06,CSDC Espanol,CA Claypole,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Sweden,Greece,0.3399,0,0
-cf76c46c29c2bac9ea5d,2026-06-06,Leones de Rosario FC,CS Barracas,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Paraguari AC,CA Tembetary Ypane,0.3448,0,0
-91fb4849db4b682778e8,2026-06-06,USA,Germany,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Spain,Iraq,0.4318,0,0
-4084f5f0dcb970517c48,2026-06-06,Villa Dalmine,CA Villa San Carlos,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Raika Volders,SC Mils,0.3846,0,0
-4578d98abc6a2831d888,2026-06-06,Yupanqui,CA Central Cordoba Rosario,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Paraguari AC,CA Tembetary Ypane,0.3591,0,0
-46cb66837c467fe649c3,2026-06-06,CD Castellon,UD Almeria,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Ben Aknoun,USM Alger,0.4976,0,0
-2bb780439940915d6841,2026-06-06,Club Mercedes,Deportivo Paraguayo,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Lauterach,SV Kuchl,0.3384,0,0
-0d02a6ab0abe1bc92d5f,2026-06-06,EC Vitoria BA,Fortaleza EC CE,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Real de Banjul,Falcons FC,0.367,0,0
-4b3d357abce42d4bd5d9,2026-06-06,Panama,Bosnia and Herzegovina,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Spain,Iraq,0.3497,0,0
-b0535028e0c4e725329c,2026-06-06,Switzerland,Australia,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Kitzbuhel,TSV St. Johann,0.3864,0,0
-3acb45b8349bf4b67ecb,2026-06-06,SSA Swarm FC,Birmingham Legion FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Gambia Ports Authority,Gambian Dutch Lions,0.4113,0,0
-c9536f9d2ff27818e47a,2026-06-06,Bolivia,Scotland,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Cambodia,Bhutan,0.481,0,0
-e7435e7d270609c7d011,2026-06-06,England,New Zealand,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Northern Ireland,Guinea,0.4373,0,0
-6f4dc4bf803e7114d76e,2026-06-06,Club Nacional de Football,CA Juventud de Las Piedras,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Generation Foot,Ajel de Rufisque,0.4643,0,0
-1a76612198f48b8a2c50,2026-06-06,Brazil,Egypt,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Paraguari AC,CA Tembetary Ypane,0.2971,0,0
-815e618c831473fb3328,2026-06-06,CD Universidad Catolica,Cobresal,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Dornbirner SV,FC Rotenberg,0.3431,0,0
-81cdb9a42c19873c8c60,2026-06-06,Nublense,Universidad de Concepcion,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,US Goree,Stade de Mbour,0.3926,0,0
-eb977a1e701747af8726,2026-06-06,Venezuela,Turkiye,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Northern Ireland,Guinea,0.4308,0,0
-030753456d68e919021f,2026-06-06,Cavalry FC,HFX Wanderers FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Cambodia,Bhutan,0.3579,0,0
-cfe699523761b2b0db09,2026-06-06,FC Supra Du Quebec,Pacific FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,FC Raika Volders,SC Mils,0.3214,0,0
-4fc417a4579e9cef57ca,2026-06-06,SSA Swarm FC,Birmingham Legion FC 2,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Gambia Ports Authority,Gambian Dutch Lions,0.3981,0,0
+5d554b3fd7762a75bb92,2026-06-04,Osasco Sporting SP,AE Velo Clube SP,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Anapolis FC GO,Paysandu SC PA,0.3391,0,0
+db5e5ea499251397280a,2026-06-04,Anapolis FC GO,Paysandu SC PA,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Anapolis FC GO,Paysandu SC PA,1.0,1,1
+6b9fba22ab91c9baa2cd,2026-06-04,Club Deportivo Cuenca Juniors,CSD Macara,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Club Deportivo Cuenca Juniors,CSD Macara,1.0,1,1
+f506e637d9ea270905cd,2026-06-04,Manhattan SC,New Jersey Copa FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,42,Manhattan SC,New Jersey Copa FC,1.0,1,1
+07c3a973e941b476b4a6,2026-06-05,Czechia,Guatemala,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,1.0,1,1
+254695c01e4a955d4efc,2026-06-05,San Antonio FC,CD Independiente Juniors,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,1.0,1,1
+934a29b8bd56b4af5c3c,2026-06-05,Mexico,Serbia,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Mexico,Serbia,1.0,1,1
+51adf499b4ebe2c47616,2026-06-05,Cooks Hill United FC Reserve,Belmont Swansea United FC Reserves,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.2109,0,0
+8ead66b448eeea9ba3c1,2026-06-05,Bentleigh Greens SC,Boroondara Eagles,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Mexico,Serbia,0.207,0,0
+a2d43fdb93bcbff7d6a4,2026-06-05,Eltham Redbacks FC,FC Bulleen Lions,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.2277,0,0
+ef2ca21e3418fe99aed7,2026-06-05,Northcote City FC,Langwarrin SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.2581,0,0
+53ca8d2f7c706ecf334a,2026-06-05,Oakleigh Cannons FC,ST Albans Saints Dinamo SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.3452,0,0
+24f5b5eda865d450e9aa,2026-06-05,Box Hill United FC,Werribee City FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Mexico,Serbia,0.2857,0,0
+fdcdbd13e8b84f5aaf40,2026-06-05,Eastern Suburbs FC,Moreton City Excelsior FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.2617,0,0
+17da4982649665784f32,2026-06-05,Green Gully SC,Avondale FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.2717,0,0
+30ff775318609837d6a0,2026-06-05,Dandenong City SC,Heidelberg United FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.3645,0,0
+4cce7c9d7aada3d9dd65,2026-06-05,Eastern Lions SC,Nunawading City,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.3028,0,0
+154dc366b186c218cf1f,2026-06-05,Keilor Park SC,Moreland City FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.3193,0,0
+319aa3dd5ff1664efb6a,2026-06-05,Adelaide City FC,Sturt Lions,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Mexico,Serbia,0.3193,0,0
+1df95ba382f4be64d068,2026-06-05,Cooks Hill United,Belmont Swansea United FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.3015,0,0
+9d1a124220468035608f,2026-06-05,Fraser Park FC,Bonnyrigg W. E.,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.1904,0,0
+8fdf18e2cbcc874692dc,2026-06-05,Hills United FC Brumbies,Bull FC Academy,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.2857,0,0
+f9262a5a5ad99a4389a2,2026-06-05,Kamatamare Sanuki,AC Nagano Parceiro,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.2857,0,0
+08be00c3973df2636173,2026-06-05,Modbury Jets SC,Fulham United FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.2909,0,0
+b7f12fa237cdd848803f,2026-06-05,Mounties Wanderers FC,Central Coast United FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.2656,0,0
+6c12a2feccb2a57b97f4,2026-06-05,Japan,Fiji,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.2321,0,0
+0f2e87039388c354e444,2026-06-05,Eastern United,The Cove FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.2917,0,0
+5a9087ac41804ef93ec6,2026-06-05,Bentleigh Greens,Hume City,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.2408,0,0
+ea056759015839925f41,2026-06-05,Busan I Park,Chungnam Asan FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.3255,0,0
+1dd9af8f1e4044a9b3aa,2026-06-05,Essendon Royals SC,Springvale White Eagles,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.3426,0,0
+597c10f21f93f37e89fa,2026-06-05,Logan Lightning,Capalaba Bulldogs,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.3771,0,0
+c2e778d147e4714d61e6,2026-06-05,North Pine,North Lakes United,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.2676,0,0
+cf3e5e66647bd5401f98,2026-06-05,Pine Hills,Mitchelton FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.2817,0,0
+9b33fb0f2917ce0e1f1d,2026-06-05,Seongnam Ilhwa,Gimhae FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.2952,0,0
+5675629fdad13d9339e3,2026-06-05,West Torrens Birkalla,Croydon FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.252,0,0
+1af316fee301938b25b2,2026-06-05,Whittlesea United SC,Malvern City FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.3375,0,0
+ad01cc66e5978357944e,2026-06-05,Bayswater City,Dianella White Eagles SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.2958,0,0
+3c622570a1443a0a9fec,2026-06-05,Diosgyori VTK,Debreceni VSC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.2725,0,0
+bbcdbe6135fb78b89308,2026-06-05,Floreat Athena,Gwelup Croatia SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.2976,0,0
+1725dfa6da01ebbedc92,2026-06-05,Garuda FC,Casuarina FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.2436,0,0
+c2cc1aa13b5e9767e871,2026-06-05,Perth Azzurri,Stirling Macedonia FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.2981,0,0
+a7bfb86d476adf5accdb,2026-06-05,Lanzhou Longyuan Athletic,Dalian Kewei,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.3056,0,0
+a69cfd3ae64d9cd8cf7b,2026-06-05,Singapore,China PR,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.3063,0,0
+83f9a44fdabcaeb27cf6,2026-06-05,Hong Kong,Mongolia,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.239,0,0
+b0b82555b4e640d4e6b0,2026-06-05,Satria Muda Pertamina Jakarta,Borneo Hornbills,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.175,0,0
+82dbffe9adcab423ce32,2026-06-05,FC Oleksandriya,FC Livyi Bereh Kyiv,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.2739,0,0
+f116ccc91827f79b5462,2026-06-05,Thailand,Kuwait,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.3333,0,0
+a172c29ec97951174780,2026-06-05,Colombia,China,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Mexico,Serbia,0.3247,0,0
+d268a5681413fc627beb,2026-06-05,FC Hunters,Bulawayo Chiefs FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.2137,0,0
+667b32032b5999e7bb0d,2026-06-05,Indonesia,Oman,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.3413,0,0
+94624778f30c1e8acb4f,2026-06-05,Singapore,Thailand,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.3603,0,0
+025c84bd7f7639098938,2026-06-05,Georgia,Faroe Islands,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.3961,0,0
+edef4606bb5ceb8a513b,2026-06-05,Azerbaijan,Hungary,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.3015,0,0
+49ef564060975e8b4aa5,2026-06-05,Slovakia,Finland,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.2869,0,0
+3d1158d394ffd828a5cc,2026-06-05,Bosnia and Herzegovina,Lithuania,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.3636,0,0
+c9e9b22847d0eff1995d,2026-06-05,FK Kudrivka,Agrobiznes Volochisk,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.2146,0,0
+d5bfb334e4a55ecb928a,2026-06-05,Latvia,Estonia,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Mexico,Serbia,0.3141,0,0
+7a2ecd7f9c68d86699ea,2026-06-05,Moldova,Romania,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Mexico,Serbia,0.3846,0,0
+fcfe340c53566c0a85cc,2026-06-05,Montenegro,Cyprus,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.2762,0,0
+7488a5892b6a51c6e90d,2026-06-05,Tajikistan,India,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.2808,0,0
+3365b061036e111f0869,2026-06-05,LPS Laajasalon,Atlantis FC/2,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.2743,0,0
+c1c6b8da3b4c5656633e,2026-06-05,Japan,Brazil,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.2167,0,0
+b809a7ddaf3a053f5b7b,2026-06-05,Czechia,Albania,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.6875,1,1
+948e36c02fac447ed0be,2026-06-05,FC Haka Valkeakoski,JaPS,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.2196,0,0
+1d8a2116e1445d466252,2026-06-05,Ips,Mikkelin Pallo-Kissat,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.2333,0,0
+2a74beb5270c0bf3071f,2026-06-05,Keupa,Komeetat,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.2843,0,0
+cdfb704fe41ad11b1a9d,2026-06-05,Kopa,Kultsu FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.2242,0,0
+2f13d01957e660f17bac,2026-06-05,KuPS Akatemia,KPV Kokkola,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.294,0,0
+4f7e321985d4f3d9927b,2026-06-05,TiPS Vantaa,FC Kontu,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.3307,0,0
+14f987b9e69a45852b25,2026-06-05,Vg-62,Eupa,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Mexico,Serbia,0.2,0,0
+4092428099d636ffb6ca,2026-06-05,Austria,Slovenia,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Mexico,Serbia,0.3626,0,0
+76f1ce87fcf61b51e567,2026-06-05,EIF Akademi,Sexypoxyt,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Mexico,Serbia,0.251,0,0
+71692f504b2c9654a636,2026-06-05,FK Ekranas,FC Neptunas Klaipeda,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.3136,0,0
+b2cef12ca85bbdbb9dc3,2026-06-05,Georgia,Bahrain,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.3393,0,0
+699b4ad3712a565a5a66,2026-06-05,Hoogee,Mps,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Mexico,Serbia,0.1944,0,0
+aba33eeed695807ad6d9,2026-06-05,KaPa Kapylan Pallo,FC KTP Kotka,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.2633,0,0
+4a25b1d0ef87611f658d,2026-06-05,Medina United FC,Hart FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.3846,0,0
+93ee60ae47da8668581a,2026-06-05,MK United,Tups,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Mexico,Serbia,0.225,0,0
+72a88b11896ba1f88909,2026-06-05,Montenegro,Wales,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Mexico,Serbia,0.2159,0,0
+6648d6d70d3e3c0cc6e6,2026-06-05,MPS/Atletico Malmi,Toukolan Teras,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Mexico,Serbia,0.3583,0,0
+003ad2d4a9d29de3b488,2026-06-05,Poland,France,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Mexico,Serbia,0.25,0,0
+c2c5b3add3d17889876b,2026-06-05,SAK Celovec/Klagenfurt,Tsu Matrei,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.2958,0,0
+7e53b11feeb2443b21a5,2026-06-05,Scotland,Israel,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.3333,0,0
+38165ae7b67e007cdc22,2026-06-05,Ukraine,Iceland,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.2589,0,0
+8d1c9e54667cee35a49e,2026-06-05,Italy,Serbia,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Mexico,Serbia,0.5909,0,0
+3e892d8f7a6eebe0a5b5,2026-06-05,Naestved IF,Hvidovre IF 2,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.317,0,0
+efea72033030d9f73f66,2026-06-05,Saudi Arabia,Tunisia Youth,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.3525,0,0
+b5d3ca089efddb62e4b0,2026-06-05,Slovakia,Montenegro,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.305,0,0
+81beaf431fa0714fa9d8,2026-06-05,SVG Bleiburg,SV Donau Klagenfurt,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.27,0,0
+f821622392d8067cde98,2026-06-05,Vejgaard BK,IF Lyseng,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Mexico,Serbia,0.1922,0,0
+55cf12fd76a9e41f131d,2026-06-05,ASK Ebreichsdorf,SC Zwettl,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Mexico,Serbia,0.3152,0,0
+dd4715ba4b706513cb91,2026-06-05,FBK Karlstad,IF Karlstad Fotbol,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.2019,0,0
+23ed9fd417dfb83c79e4,2026-06-05,IF Boljan Falkenberg,BK Astrio,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.2825,0,0
+fcb45d9ee75881da47e0,2026-06-05,Jonsereds IF,Galtabacks BK,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.2871,0,0
+5e91a27fd67afb8fb585,2026-06-05,Kosovo,Croatia,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Mexico,Serbia,0.3141,0,0
+4e33c4ce2b43cf2dd3df,2026-06-05,Landvetter IS,Vastra Frolunda IF,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.2857,0,0
+2b6aea09154e8ad02688,2026-06-05,Liechtenstein,Estonia,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Mexico,Serbia,0.336,0,0
+05ecc86f0a81b4271996,2026-06-05,Lindome GIF,IK Kongahalla,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.2828,0,0
+75885895367bbd8e48ee,2026-06-05,Moldova,Bulgaria,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Mexico,Serbia,0.3681,0,0
+ba902fd7582c837dec37,2026-06-05,San Marino,Bangladesh,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.451,0,0
+cdcf82504551b1c7718b,2026-06-05,SC Furstenfeld,Fehring 1947,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.2433,0,0
+e135ad38484261c4ba47,2026-06-05,SV Lebring,SV Tillmitsch,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Mexico,Serbia,0.2303,0,0
+8991a662a2b659f88114,2026-06-05,Turkiye,Northern Ireland,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Mexico,Serbia,0.2587,0,0
+6b72ae9b3d172612a562,2026-06-05,TUS Bad Waltersdorf,SV Wildon,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Mexico,Serbia,0.2133,0,0
+7a7075e1cbb53da54d68,2026-06-05,USV St. Anna am Aigen,Wohnbau Dietach,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.3218,0,0
+9be6bdc9c8664a02f4df,2026-06-05,Denmark,Sweden,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Mexico,Serbia,0.2436,0,0
+88f9a542c35d20b99ddd,2026-06-05,Vanersborgs FK,Skara FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Mexico,Serbia,0.2818,0,0
+1b532f36aad8f55023f3,2026-06-05,Andorra,North Macedonia,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.2436,0,0
+865b12e11992f51b60e9,2026-06-05,Esbjerg FB 2,Vorup FB,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Mexico,Serbia,0.1984,0,0
+b55fbfe176b90c83d22b,2026-06-05,SV Langenrohr,Scheiblingkirchen-Warth Usv,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.3456,0,0
+d3a1a447104b20c2fe77,2026-06-05,SV Oberwart,Kremser SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Mexico,Serbia,0.2463,0,0
+4ddaee58857ab6d54315,2026-06-05,Switzerland,Malta,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.4524,0,0
+90357101f1413aecb7f8,2026-06-05,Hungary,Finland,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.2679,0,0
+d3d8d335c1d5427302de,2026-06-05,AA Portuguesa Santista SP,AA Ponte Preta SP,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.334,0,0
+f621d918d7779bcf97fd,2026-06-05,Azerbaijan,Malta,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.4622,0,0
+7b3a03e6cb97bfd03c72,2026-06-05,Benin,Niger,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Mexico,Serbia,0.3636,0,0
+41025d19039b423fffc2,2026-06-05,Botafogo FC SP,Uniao Sao Joao EC SP,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.2045,0,0
+582d4edcfa66a4e5e09c,2026-06-05,CA Bandeirante SP,AD Sao Caetano SP,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.2517,0,0
+86d5a453502c553af616,2026-06-05,CA Platense,CA Belgrano,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.3416,0,0
+006ade5f08f62859b670,2026-06-05,Capivariano FC SP,Sfera FC SP,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Mexico,Serbia,0.3857,0,0
+9b38cdd51d5bc3d21d77,2026-06-05,Coimbra Sports MG,Minas Boca Futebol MG,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.2583,0,0
+799a1d9d5c8eb7256c7c,2026-06-05,Criciuma EC SC,Joinville EC SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.1938,0,0
+d47fe833025a8911eacb,2026-06-05,EC Santo Andre SP,Sao Paulo FC SP,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.2679,0,0
+4c05044ae779edd14cfd,2026-06-05,EC Sao Bento SP,Uniao Suzano AC SP,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.3498,0,0
+43168b857575030fd52f,2026-06-05,Gremio FB Porto Alegrense RS,EC Novo Hamburgo RS,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.1908,0,0
+848a388e13f95712665d,2026-06-05,Gremio Novorizontino SP,Desportivo Brasil SP,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Mexico,Serbia,0.2573,0,0
+67a7ebfd6f2bd53a6bea,2026-06-05,Horizonte FC CE,FC Atletico Cearense CE,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.2432,0,0
+a19b73576142b61563f9,2026-06-05,Ibrachina FC SP,SC Aguai SP,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.3605,0,0
+2ca30d5eea94aa1bec58,2026-06-05,Ituano FC SP,Gremio Osasco Audax EC SP,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.2721,0,0
+413331ad1ae4115f83d9,2026-06-05,Mirassol FC SP,SC Corinthians SP,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Mexico,Serbia,0.3504,0,0
+df6da704aed32bddeae6,2026-06-05,Referencia FC SP,EC Agua Santa SP,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.4,0,0
+09e5c48d785c4bcad76c,2026-06-05,SC Paulinense SP,EC XV de Novembro Piracicaba SP,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.3118,0,0
+2c17264d8d3c0a3e4e0d,2026-06-05,SE Itapirense SP,Ferroviaria SP,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Mexico,Serbia,0.2909,0,0
+12c162a139bf3374d5f7,2026-06-05,Belgium,Luxembourg,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.3008,0,0
+ca1278f2fd4f9f155588,2026-06-05,Slovenia,Albania,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.3875,0,0
+0d613e33091f3b22d1b7,2026-06-05,Anapolis FC GO,Cerrado EC GO,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.3538,0,0
+0728ae74d706f378247e,2026-06-05,Ireland,Netherlands,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.2929,0,0
+495479765042f43b351b,2026-06-05,Germany,Norway,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Mexico,Serbia,0.2436,0,0
+cbd60a4191c04c559b52,2026-06-05,Angola,Mauritania,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Mexico,Serbia,0.2708,0,0
+9c768d1134364a5e0fc7,2026-06-05,CE Sabadell FC,Real Madrid Castilla,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.3046,0,0
+422c4325df25dabe830e,2026-06-05,Portugal,Latvia,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Mexico,Serbia,0.2381,0,0
+58ddabf813b441360f68,2026-06-05,Spain,England,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.2843,0,0
+1b68ad2c2516d9f070b1,2026-06-05,HK Kopavogur,Afturelding,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.3053,0,0
+97733aaaa6fb2568834b,2026-06-05,KF Aegir,Leiknir Reykjavik,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.2798,0,0
+8c4ade5c6d05e6300a1d,2026-06-05,Kormakur/Hvot,IF Magni Grenivik,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.2053,0,0
+7cef9f872b221cd19367,2026-06-05,Reynir Sandgerdi,Augnablik Kopavogur,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.2644,0,0
+260067708c5543955c3b,2026-06-05,UMF Njardvik,IR Reykjavik,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Mexico,Serbia,0.2222,0,0
+c69285e83976f6e34903,2026-06-05,Hviti Riddarinn,Haukar Hafnarfjordur,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.2398,0,0
+a4fd6d7bc7b35ef1b1c0,2026-06-05,Ulfanir,Alftanes,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.2604,0,0
+9deead7b09d3a49787bc,2026-06-05,Ukraine,Japan,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.2143,0,0
+e208bb230328452559e6,2026-06-05,CA Ituzaingo,Real Pilar FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.3158,0,0
+df2a2c2f10050a98f223,2026-06-05,Montevideo Wanderers,Danubio FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.2903,0,0
+59f5f9820583831804d6,2026-06-05,Plaza Colonia,Huracan FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.3875,0,0
+7e82c9fafdb5cb36ee53,2026-06-05,Paraguay,Nicaragua,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.2333,0,0
+b228a43423bea8211c1a,2026-06-05,Argentina,Peru,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Mexico,Serbia,0.3333,0,0
+5f72be5c4718b163d282,2026-06-05,Bolivia,Paraguay,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.3193,0,0
+d921709ab4669fdc4722,2026-06-05,CA Talleres de Remedios,Deportivo Merlo,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.2753,0,0
+e94dc68f249b10f578f5,2026-06-05,Chile,Ecuador,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.375,0,0
+e18b07e1c9a11c088c72,2026-06-05,Colombia,Uruguay,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.3875,0,0
+e874a4b1acf960f1c960,2026-06-05,Crown Legacy FC,Philadelphia Union II,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.3527,0,0
+07f2a1a98062cdfab748,2026-06-05,Operario Ferroviario EC PR,EC Juventude RS,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.2606,0,0
+af25940dce57325aacdf,2026-06-05,Toronto FC II,Huntsville City FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,San Antonio FC,CD Independiente Juniors,0.2787,0,0
+e6a01e1bf43dd25d9ee9,2026-06-05,Canada,Ireland,baseline_league_average_forward_fixture,baseline_unmatched_fixture,3,Czechia,Guatemala,0.3413,0,0
+f97089d34433f739143e,2026-06-06,Deportes Concepcion,Coquimbo Unido,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Deportivo Santani,Resistencia SC,0.3571,0,0
+686b9c3aeaeb9b31177e,2026-06-06,DSD Santo Domingo,22 de Julio,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,San Antonio FC,CD Independiente Juniors,0.4786,0,0
+8facd15a416d4c5e14a4,2026-06-06,Haiti,Peru,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Lautp,Peka,0.45,0,0
+80baae536027a349fc05,2026-06-06,Nomads United AFC,Northern AFC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Andorra,Liechtenstein,0.3739,0,0
+221bfac87c84620fda50,2026-06-06,San Luis de Quillota,San Marcos de Arica,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Club Deportivo Cuenca Juniors,CSD Macara,0.4595,0,0
+4c5517d122604ca9209d,2026-06-06,Western Suburbs FC,Napier City Rovers AFC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Manhattan SC,New Jersey Copa FC,0.4148,0,0
+6913f5a0d6c3106b3190,2026-06-06,Dunedin City Royals FC,Christchurch United FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Generation Foot,Ajel de Rufisque,0.3498,0,0
+4843c8d0284a977bfc8b,2026-06-06,Snohomish United,Midlakes United,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Afghanistan,Bangladesh,0.3722,0,0
+402c52b9faad217b09e4,2026-06-06,Whitecaps FC 2,Portland Timbers II,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Anapolis FC GO,Paysandu SC PA,0.3939,0,0
+964d6dd8776b2064295e,2026-06-06,Japan,Myanmar,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Vaengir Jupiters,Hamar,0.4286,0,0
+9f524eb63719421ab0d7,2026-06-06,Malaysia,Indonesia,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Afghanistan,Bangladesh,0.4211,0,0
+2a8e39e7cde1786931b1,2026-06-06,Vancouver FC,Atletico Ottawa,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,France,Ivory Coast,0.4205,0,0
+86980ed55d52ff0b81df,2026-06-06,Bentleigh Greens SC,Hume City FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Ben Aknoun,USM Alger,0.4032,0,0
+4cc7b753137906c38e4d,2026-06-06,Dandenong Thunder FC,Caroline Springs George Cross FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Stenungsunds IF,Vanersborgs IF,0.4048,0,0
+9f58a3f298b9721a80b6,2026-06-06,Floreat Athena FC Reserves,Gwelup Croatia SC Reserves,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Deportivo Santani,Resistencia SC,0.325,0,0
+8f89cff3a61fd21d54c0,2026-06-06,Bayswater City SC,Dianella White Eagles SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Manhattan SC,New Jersey Copa FC,0.3269,0,0
+879c460bd8f8e485aefe,2026-06-06,Port Melbourne Sharks,Brunswick City SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Deportivo Santani,Resistencia SC,0.4413,0,0
+ae695d7acacb37cc433f,2026-06-06,Magic United Tfa,Brisbane Roar FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Afghanistan,Bangladesh,0.4239,0,0
+b64c8f81aea0d5abaa0c,2026-06-06,Brisbane Strikers,Robina City,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Deportivo Santani,Resistencia SC,0.4059,0,0
+4086e5a9ed18e4c38c20,2026-06-06,Unsw FC,Western City Rangers FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Ben Aknoun,USM Alger,0.3929,0,0
+d9330958b70090aa2d13,2026-06-06,Alamein FC,Melbourne City Youth,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,FC Lasten,Fish United,0.3603,0,0
+5a22b88f2498c5421863,2026-06-06,Albirex Niigata,Hokkaido Consadole Sapporo,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Anapolis FC GO,Paysandu SC PA,0.3673,0,0
+10fd328e4b2103317157,2026-06-06,Armadale SC,Fremantle City FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Paraguari AC,CA Tembetary Ypane,0.4461,0,0
+7927e6f83e4a0ff82d7e,2026-06-06,Avondale FC,Melbourne Victory FC Youth,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,France,Ivory Coast,0.4202,0,0
+4d9a39f204e73dace2e0,2026-06-06,Balcatta Etna FC,Sorrento FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Manhattan SC,New Jersey Copa FC,0.327,0,0
+0f505b833c8973699544,2026-06-06,Cockburn City SC Reserves,Subiaco AFC Reserve,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,FC Dornbirn,SVG Reichenau,0.3095,0,0
+7f07d7ac04bd405d686a,2026-06-06,Dandenong City SC,Heidelberg United FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Manhattan SC,New Jersey Copa FC,0.37,0,0
+9e19c5f031fc2ab2b2bc,2026-06-06,Essendon Royals SC,Spring Hills FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Deportivo Santani,Resistencia SC,0.3637,0,0
+5ddf4ea1533d8a9eccf0,2026-06-06,Fujieda MYFC,Ehime FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Lebanon,Yemen,0.4176,0,0
+0237436f0d16f5abe179,2026-06-06,Inglewood United Reserves,Curtin University SC Reserves,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Manhattan SC,New Jersey Copa FC,0.2818,0,0
+e4213d0665edc8525af9,2026-06-06,JEF United Chiba,Avispa Fukuoka,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Czechia,Guatemala,0.4429,0,0
+119b90163cc4f1b04bba,2026-06-06,Kashima Antlers,Vissel Kobe,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,AS Far Rabat,Difaa Hassani d'el-Jadida,0.3611,0,0
+7236f89d03718efcc3e3,2026-06-06,Keilor Park SC,FC Bulleen Lions,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Gambia Ports Authority,Gambian Dutch Lions,0.4167,0,0
+0bb7b0174667d10e0c1a,2026-06-06,Matsumoto Yamaga FC,Nara Club,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Gambia Ports Authority,Gambian Dutch Lions,0.3534,0,0
+f821ecff7790702fb50c,2026-06-06,FC Melbourne Srbija,North Geelong Warriors FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Burundi,Equatorial Guinea,0.3712,0,0
+79f11eb4d5606c47fdc8,2026-06-06,Murdoch University Melville FC Reserves,Mandurah City FC Reserves,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Gambia Ports Authority,Gambian Dutch Lions,0.3257,0,0
+d8b84686c5476d7d7adb,2026-06-06,North Sunshine Eagles FC,Melbourne Knights,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Stenungsunds IF,Vanersborgs IF,0.3602,0,0
+c8602a02e44441519ac2,2026-06-06,Perth Redstar FC,Western Knights SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Deportivo Santani,Resistencia SC,0.5146,0,0
+805809a7850d9af02cca,2026-06-06,Perth SC,Stirling Macedonia FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Deportivo Santani,Resistencia SC,0.3875,0,0
+7edffd34fad63cd7734d,2026-06-06,RB Omiya Ardija,Kochi United SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Gambia Ports Authority,Gambian Dutch Lions,0.3373,0,0
+a97d85acf437c5bf1b9d,2026-06-06,SC Sagamihara,Roasso Kumamoto,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Hassania Union Sport Agadir,FUS Rabat,0.3667,0,0
+1260a522c174d7748d30,2026-06-06,Tegevajaro Miyazaki,Ventforet Kofu,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Stenungsunds IF,Vanersborgs IF,0.3613,0,0
+648572e13231a6facc12,2026-06-06,Tochigi City FC,Reilac Shiga FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Czechia,Guatemala,0.3571,0,0
+7e8c641f34e5f37935ed,2026-06-06,FC Tokyo,Cerezo Osaka,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,FC Juan Aurich de Alcatuyo,CD Rio San Juan Humi,0.3259,0,0
+c707eb4a62c54bfec688,2026-06-06,Uwa Nedlands FC Reserves,Joondalup City FC Reserve,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Sweden,Greece,0.3221,0,0
+ff8ca930f685d4e42e10,2026-06-06,Vegalta Sendai,Kataller Toyama,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,AFC Eskilstuna,Karlbergs BK,0.4145,0,0
+d33b419e2e6a2f534c5c,2026-06-06,Yokohama FC,Renofa Yamaguchi,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Deportivo Santani,Resistencia SC,0.36,0,0
+8f10c84b8c855878ce2a,2026-06-06,Adelaide Atletico VSC,Cumberland United,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Paraguari AC,CA Tembetary Ypane,0.4318,0,0
+37de5813440867dbb88a,2026-06-06,Adelaide Blue Eagles,Adelaide Olympic FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Real de Banjul,Falcons FC,0.3363,0,0
+e1beecb700863894d54c,2026-06-06,Campbelltown City SC,Para Hills Knights SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Anapolis FC GO,Paysandu SC PA,0.3818,0,0
+5ebc4908d56e8d9ef681,2026-06-06,Playford City,Adelaide Comets FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Hafnir,Ellidi,0.4048,0,0
+4638480505cd74144f26,2026-06-06,Salisbury United,Adelaide Croatia Raiders SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Hafnir,Ellidi,0.3515,0,0
+f0b19d87d204f3d05622,2026-06-06,South Adelaide FC,Adelaide Cobras,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,US Goree,Stade de Mbour,0.4577,0,0
+3ba991347cc82666af8e,2026-06-06,South Melbourne FC,Heidelberg United FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,IH Hafnarfjordur,Arborg,0.3488,0,0
+df975d720e251de13ba1,2026-06-06,Brisbane City FC,Queenland Lions FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Afghanistan,Bangladesh,0.4105,0,0
+352d99d6fcf49b74e2b3,2026-06-06,Broadbeach United,Holland Park Hawks,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Sundby BK,Holbaek B&I,0.2988,0,0
+ceeb1ed29c2b39171807,2026-06-06,Sunshine Coast Wanderers,North Star,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Vaengir Jupiters,Hamar,0.35,0,0
+3265a284d3412b1e436e,2026-06-06,Caboolture Sports FC,Ipswich FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,LTU,Jyty Turku,0.46,0,0
+e74b577f299ccac435b6,2026-06-06,FC Gifu,Gainare Tottori,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Stenungsunds IF,Vanersborgs IF,0.3648,0,0
+6314c8f6ef6a5a06ff48,2026-06-06,Machida Zelvia,Nagoya Grampus,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Slovenia,Cyprus,0.3364,0,0
+bb1df90734a77525feac,2026-06-06,Mito Hollyhock,V-Varen Nagasaki,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Millonarios FC,Independiente Medellin,0.3053,0,0
+04866f5ff4380e289787,2026-06-06,Port Melbourne Sharks SC,Brunswick City SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Deportivo Santani,Resistencia SC,0.4259,0,0
+31c868cb3db3ba3b61cf,2026-06-06,Hakoah,Blacktown Spartans,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Andorra,Liechtenstein,0.416,0,0
+253a85f571f932ef7ef7,2026-06-06,Rydalmere Lions FC,Macarthur Rams FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Club Deportivo Cuenca Juniors,CSD Macara,0.3864,0,0
+08715929b96fab24b93e,2026-06-06,St George FC,Sutherland Sharks FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,US Goree,Stade de Mbour,0.4497,0,0
+7cfe452581624646479d,2026-06-06,Valentine FC,Broadmeadow Magic FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Vaengir Jupiters,Hamar,0.3764,0,0
+389283d9ae37a62ad816,2026-06-06,Rochedale Rovers,Peninsula Power,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Solvesborgs GIF,Torns IF,0.324,0,0
+2bf585df5a00508f17f7,2026-06-06,Japan,South Africa,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Spain,Iraq,0.3625,0,0
+b82cbddd1d01c351b2aa,2026-06-06,Balcatta,Sorrento FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Manhattan SC,New Jersey Copa FC,0.337,0,0
+d5600fba1fdb30515b95,2026-06-06,Bankstown United FC,Nepean FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Lautp,Peka,0.4,0,0
+ac689e103aa305af7314,2026-06-06,Bankstown City FC,Northern Tigers,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Manhattan SC,New Jersey Copa FC,0.3765,0,0
+02acdda313bf66b12fa2,2026-06-06,Caloundra FC,Moreton City Excelsior FC 2,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Andorra,Liechtenstein,0.4688,0,0
+4cdec32e05e38bf0210e,2026-06-06,Cockburn City,Subiaco AFC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Burundi,Equatorial Guinea,0.459,0,0
+6ef3f3b86113dc2b940f,2026-06-06,Dulwich Hill,Central Coast Mariners Academy,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,FC Juan Aurich de Alcatuyo,CD Rio San Juan Humi,0.3314,0,0
+638617ab8257c6b4f5fc,2026-06-06,Inglewood United,Curtin University SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,France,Ivory Coast,0.3269,0,0
+3dbab9e812a8180b0e8b,2026-06-06,Inter Lions FC,Hurstville FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Northern Ireland,Guinea,0.4468,0,0
+46938eb65d345c654598,2026-06-06,Jubilo Iwata,FC Osaka,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Sundby BK,Holbaek B&I,0.3651,0,0
+81b83a42d96f22c10ea9,2026-06-06,Murdoch University Melville FC,Mandurah City,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Club Deportivo Cuenca Juniors,CSD Macara,0.4008,0,0
+0e790ca6d1031958c72f,2026-06-06,Perth Glory FC,Olympic Kingsway SC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Anapolis FC GO,Paysandu SC PA,0.3636,0,0
+a03518f214df448f7831,2026-06-06,Samford Rangers,Brisbane Knights,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Andorra,Liechtenstein,0.3997,0,0
+23c4686c37918c3f7b64,2026-06-06,SD Raiders FC,University of Nsw,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,France,Ivory Coast,0.4375,0,0
+2e55752997e3bb1f7d0a,2026-06-06,St George City FA,Sydney Olympic FC,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,US Goree,Stade de Mbour,0.4786,0,0
+01fb8d518d353688f815,2026-06-06,Sydney University SFC,Parramatta FC Eagles,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Gambia Ports Authority,Gambian Dutch Lions,0.3652,0,0
+6e47213f2a1c34a1eff9,2026-06-06,Tokyo Verdy,Gamba Osaka,baseline_league_average_forward_fixture,baseline_unmatched_fixture,45,Vinotinto FC Ecuador,Cumbaya FC,0.3651,0,0

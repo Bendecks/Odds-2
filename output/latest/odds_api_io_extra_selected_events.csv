@@ -1,20 +1,4 @@
 raw_event_id,fixture_id,match_date,match_time,home_team,away_team,league,direct_match_confidence
-71803506,odds_api_io_71803506,2026-06-04,06:00,Indonesia,Kuwait,international-t20-acc-premier-cup-women,1.0
-71803446,odds_api_io_71803446,2026-06-04,06:00,Japan,Mongolia,international-t20-acc-premier-cup-women,1.0
-61541462,odds_api_io_61541462,2026-06-04,12:30,FC Kitzbuhel,TSV St. Johann,austria-amateur-regionalliga-west,1.0
-61909690,odds_api_io_61909690,2026-06-04,13:00,1. Wiener Neustadter SC,UFC Sankt Peter Au,austria-amateur-niederosterreich-1-landesliga,1.0
-71834376,odds_api_io_71834376,2026-06-04,13:00,Lesotho,Kenya,international-int-friendly-games,1.0
-70314468,odds_api_io_70314468,2026-06-04,13:00,Respublika Football Academy,PFC Terdu,uzbekistan-pro-liga,1.0
-71561936,odds_api_io_71561936,2026-06-04,13:00,Timor-Leste,Indonesia,international-youth-u19-aff-championship,1.0
-71814506,odds_api_io_71814506,2026-06-04,15:00,Bulgaria,Albania,international-youth-u19-friendly-games,1.0
-71834548,odds_api_io_71834548,2026-06-04,15:00,Sweden,Finland,international-youth-u21-friendly-games,1.0
-61927926,odds_api_io_61927926,2026-06-04,15:00,FC Wolfurt,SV Ludesch,austria-amateur-vorarlberg-eliteliga,1.0
-71749276,odds_api_io_71749276,2026-06-04,15:30,Slovenia,Bosnia and Herzegovina,international-youth-u19-friendly-games-women,1.0
-71782698,odds_api_io_71782698,2026-06-04,16:00,Afghanistan,Bangladesh,international-int-friendly-games,1.0
-71652336,odds_api_io_71652336,2026-06-04,16:00,Ben Aknoun,USM Alger,algeria-ligue-1,1.0
-61541460,odds_api_io_61541460,2026-06-04,16:00,FC Dornbirn,SVG Reichenau,austria-amateur-regionalliga-west,1.0
-71834888,odds_api_io_71834888,2026-06-04,16:00,Germany,Denmark,international-youth-u23-friendly-games-women,1.0
-56319305,odds_api_io_56319305,2026-06-04,16:00,Lebanon,Yemen,international-afc-asian-cup-qf,1.0
 70872820,odds_api_io_70872820,2026-06-04,16:00,LTU,Jyty Turku,finland-kolmonen,1.0
 71632302,odds_api_io_71632302,2026-06-04,16:00,Moldova,Malta,international-youth-u21-friendly-games,1.0
 71443988,odds_api_io_71443988,2026-06-04,16:00,Northern Ireland,Guinea,international-int-friendly-games,1.0
@@ -37,9 +21,9 @@ raw_event_id,fixture_id,match_date,match_time,home_team,away_team,league,direct_
 71402260,odds_api_io_71402260,2026-06-04,17:30,IFK Stocksund,FC Stockholm Internazionale,sweden-svenska-cup,1.0
 68344686,odds_api_io_68344686,2026-06-04,17:30,Solvesborgs GIF,Torns IF,sweden-division-2-promotion-playoffs,1.0
 71509102,odds_api_io_71509102,2026-06-04,18:00,America FC SP,CA Juventus SP,brazil-u20-paulista,1.0
+71877094,odds_api_io_71877094,2026-06-04,18:00,Araucaria ECR PR,FC Cascavel PR,brazil-u20-paranaense-1-divisao,1.0
 71322902,odds_api_io_71322902,2026-06-04,18:00,Avai FC SC,Nacao,brazil-u20-catarinense-serie-a,1.0
 68158872,odds_api_io_68158872,2026-06-04,18:00,CA Barracas Central Reserve,CA Aldosivi Reserve,argentina-copa-proyeccion-final-reserves,1.0
-68158894,odds_api_io_68158894,2026-06-04,18:00,CA Platense,CA Belgrano,argentina-copa-proyeccion-final-reserves,1.0
 68158868,odds_api_io_68158868,2026-06-04,18:00,CD Godoy Cruz,CA Union Santa Fe Reserve,argentina-copa-proyeccion-final-reserves,1.0
 71508692,odds_api_io_71508692,2026-06-04,18:00,GD Prudente SP,SE Palmeiras SP,brazil-u20-paulista,1.0
 71585582,odds_api_io_71585582,2026-06-04,18:00,Hassania Union Sport Agadir,FUS Rabat,morocco-botola-pro-d1,1.0
@@ -65,7 +49,23 @@ raw_event_id,fixture_id,match_date,match_time,home_team,away_team,league,direct_
 71170360,odds_api_io_71170360,2026-06-05,00:00,Czechia,Guatemala,international-int-friendly-games,1.0
 70351024,odds_api_io_70351024,2026-06-05,00:00,San Antonio FC,CD Independiente Juniors,ecuador-serie-b,1.0
 69829866,odds_api_io_69829866,2026-06-05,02:00,Mexico,Serbia,international-int-friendly-games,1.0
+71816084,odds_api_io_71816084,2026-06-05,08:00,Cooks Hill United FC Reserve,Belmont Swansea United FC Reserves,australia-northern-nsw-npl-reserves,1.0
 68162414,odds_api_io_68162414,2026-06-05,08:15,Bentleigh Greens SC,Boroondara Eagles,australia-victoria-npl-women,1.0
+68160964,odds_api_io_68160964,2026-06-05,08:15,Eltham Redbacks FC,FC Bulleen Lions,australia-u23-victoria-premier-league-1,1.0
+68160966,odds_api_io_68160966,2026-06-05,08:15,Northcote City FC,Langwarrin SC,australia-u23-victoria-premier-league-1,1.0
 68161356,odds_api_io_68161356,2026-06-05,08:15,Oakleigh Cannons FC,ST Albans Saints Dinamo SC,australia-u23-victoria-npl,1.0
 68161736,odds_api_io_68161736,2026-06-05,09:30,Box Hill United FC,Werribee City FC,australia-victoria-premier-league-2,1.0
 67878266,odds_api_io_67878266,2026-06-05,09:30,Eastern Suburbs FC,Moreton City Excelsior FC,australia-queensland-npl,1.0
+68160210,odds_api_io_68160210,2026-06-05,09:30,Green Gully SC,Avondale FC,australia-victoria-npl,1.0
+68160212,odds_api_io_68160212,2026-06-05,09:45,Dandenong City SC,Heidelberg United FC,australia-victoria-npl,1.0
+68161738,odds_api_io_68161738,2026-06-05,09:45,Eastern Lions SC,Nunawading City,australia-victoria-premier-league-2,1.0
+68161742,odds_api_io_68161742,2026-06-05,09:45,Keilor Park SC,Moreland City FC,australia-victoria-premier-league-2,1.0
+68048894,odds_api_io_68048894,2026-06-05,10:00,Adelaide City FC,Sturt Lions,australia-south-australia-npl,1.0
+71816092,odds_api_io_71816092,2026-06-05,10:00,Cooks Hill United,Belmont Swansea United FC,australia-northern-nsw-npl,1.0
+67692276,odds_api_io_67692276,2026-06-05,10:00,Fraser Park FC,Bonnyrigg W. E.,australia-nsw-league-two,1.0
+67691646,odds_api_io_67691646,2026-06-05,10:00,Hills United FC Brumbies,Bull FC Academy,australia-nsw-league-one,1.0
+71838798,odds_api_io_71838798,2026-06-05,10:00,Kamatamare Sanuki,AC Nagano Parceiro,japan-jleague-2,1.0
+68051642,odds_api_io_68051642,2026-06-05,10:00,Modbury Jets SC,Fulham United FC,australia-south-australia-state-league-1,1.0
+67692278,odds_api_io_67692278,2026-06-05,10:00,Mounties Wanderers FC,Central Coast United FC,australia-nsw-league-two,1.0
+71893038,odds_api_io_71893038,2026-06-05,10:04,Japan,Fiji,rugby-union-sevens-svns-women,1.0
+68051636,odds_api_io_68051636,2026-06-05,10:15,Eastern United,The Cove FC,australia-south-australia-state-league-1,1.0
