@@ -1,11 +1,11 @@
 # Paper Test Log Status
 
-Raw log rows: 930
-Valid forward/proxy log rows: 927
-Deduped forward/proxy observation rows: 739
+Raw log rows: 955
+Valid forward/proxy log rows: 952
+Deduped forward/proxy observation rows: 764
 Duplicate forward/proxy log rows: 188
-Valid automatic proxy observation rows: 927
-Deduped automatic proxy observation rows: 739
+Valid automatic proxy observation rows: 952
+Deduped automatic proxy observation rows: 764
 Invalid historical/proxy log rows excluded: 3
 Has valid forward log: True
 
@@ -34,26 +34,26 @@ Has valid forward log: True
 
 ## Raw valid rows
 
-- 2026-06-03 | Vasalunds IF vs FC Jarfalla | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-03 | SV Anthering vs SV Burmoos | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-03 | Araruama FC RJ vs Marica FC RJ | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-03 | America FC RJ vs Sao Goncalo EC RJ | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-03 | Nepal vs Bangladesh | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-03 | Atus Velden vs FC Gleisdorf 09 | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-03 | Rochedale Rovers vs Magic United Tfa | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-03 | Ntnui vs Fk Kvik Trondheim | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-03 | FK Gazalkent vs FC Jayxun | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-03 | Rochedale Rovers vs Magic United Tfa | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-03 | SC Neusiedl am See 1919 vs SC Wiener Viktoria | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-03 | SC Kalsdorf vs SPG Wallern/ASV St. Marienkirchen | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-03 | Poland vs Nigeria | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-03 | Sacachispas FC vs AD Berazategui | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-03 | FC Rijnvogels vs Excelsior Maassluis | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-03 | IFK Umea vs Taftea IK | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-03 | Gibraltar vs Virgin Islands, British | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-03 | Milford FC vs Magesi FC | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-03 | Helsingin Ponnistus vs Toukolan Teras/Tapio | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
-- 2026-06-03 | Netherlands vs Algeria | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-04 | Lesotho vs Kenya | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-04 | FC Dornbirn vs SVG Reichenau | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-04 | 1. Wiener Neustadter SC vs UFC Sankt Peter Au | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-04 | DH van Hien vs K. Khanh Hoa | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-04 | FC Wolfurt vs SV Ludesch | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-04 | Real de Banjul vs Falcons FC | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-04 | FC Lauterach vs SV Kuchl | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-04 | Lebanon vs Yemen | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-04 | Stenungsunds IF vs Vanersborgs IF | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-04 | LTU vs Jyty Turku | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-04 | Tmt vs Bombada | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-04 | Solvesborgs GIF vs Torns IF | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-04 | FC Kattaqorgon vs Fardu Ferghana | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-04 | IFK Stocksund vs FC Stockholm Internazionale | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-04 | Gambia Ports Authority vs Gambian Dutch Lions | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-04 | France vs Ivory Coast | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-04 | FC Juan Aurich de Alcatuyo vs CD Rio San Juan Humi | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-04 | Generation Foot vs Ajel de Rufisque | selection=away | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-04 | Sundby BK vs Holbaek B&I | selection=home | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
+- 2026-06-04 | Alafoss vs KFR | selection=draw | phase=automatic_forward_price_proxy | tier=baseline_coverage_observation
 
 ## Invalid rows excluded
 

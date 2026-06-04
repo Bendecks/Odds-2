@@ -6,8 +6,8 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 ## Kort status
 
 - Aktuelle viste paper picks: **25**
-- Unikke loggede paper picks: **709**
-- Afventer i loggen: **706**
+- Unikke loggede paper picks: **734**
+- Afventer i loggen: **731**
 - Afgjorte fundet i settled-filen: **210**
 - Skjulte U-/reserve-rækker: **34**
 - Vundne: **70**
@@ -16,182 +16,182 @@ Ungdoms-, U-hold og reservehold skjules i denne rapport, fordi de giver for mang
 
 ## Aktuelle paper picks
 
-### SV Donau vs SC/ESV Parndorf 1919
-- Dato: **2026-06-03**
+### IFK Stocksund vs FC Stockholm Internazionale
+- Dato: **2026-06-04**
 - Kampstart: **17:30**
 - Spil: **Hjemmesejr**
-- Odds: **4.20**
+- Odds: **4.75**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Sunshine Coast Wanderers vs St George Willawong FC
-- Dato: **2026-06-03**
-- Kampstart: **09:30**
+### Fortune vs Bst Galaxy
+- Dato: **2026-06-04**
+- Kampstart: **16:30**
 - Spil: **Udebanesejr**
-- Odds: **4.33**
+- Odds: **5.00**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### SK Bischofshofen vs SC Schwaz
-- Dato: **2026-06-03**
+### Laholms FK vs Hassleholms IF
+- Dato: **2026-06-04**
 - Kampstart: **17:00**
-- Spil: **Udebanesejr**
+- Spil: **Hjemmesejr**
 - Odds: **4.33**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Vilavelhense FC ES vs Vitoria FC ES
-- Dato: **2026-06-03**
-- Kampstart: **18:00**
+### Ben Aknoun vs USM Alger
+- Dato: **2026-06-04**
+- Kampstart: **16:00**
 - Spil: **Udebanesejr**
-- Odds: **4.33**
+- Odds: **4.50**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Presidente Hayes vs Deportivo Pinoza
-- Dato: **2026-06-03**
-- Kampstart: **18:30**
-- Spil: **Udebanesejr**
-- Odds: **4.33**
+### Cambodia vs Bhutan
+- Dato: **2026-06-04**
+- Kampstart: **12:00**
+- Spil: **Uafgjort**
+- Odds: **6.25**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Vasalunds IF vs FC Jarfalla
-- Dato: **2026-06-03**
-- Kampstart: **17:30**
+### Lesotho vs Kenya
+- Dato: **2026-06-04**
+- Kampstart: **13:00**
+- Spil: **Hjemmesejr**
+- Odds: **4.00**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### FC Dornbirn vs SVG Reichenau
+- Dato: **2026-06-04**
+- Kampstart: **16:00**
 - Spil: **Udebanesejr**
 - Odds: **4.20**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### SV Anthering vs SV Burmoos
-- Dato: **2026-06-03**
-- Kampstart: **16:00**
-- Spil: **Hjemmesejr**
-- Odds: **3.75**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Araruama FC RJ vs Marica FC RJ
-- Dato: **2026-06-03**
-- Kampstart: **17:45**
-- Spil: **Hjemmesejr**
-- Odds: **3.70**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### America FC RJ vs Sao Goncalo EC RJ
-- Dato: **2026-06-03**
-- Kampstart: **17:45**
-- Spil: **Udebanesejr**
-- Odds: **4.10**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Nepal vs Bangladesh
-- Dato: **2026-06-03**
-- Kampstart: **11:00**
+### 1. Wiener Neustadter SC vs UFC Sankt Peter Au
+- Dato: **2026-06-04**
+- Kampstart: **13:00**
 - Spil: **Udebanesejr**
 - Odds: **4.00**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Atus Velden vs FC Gleisdorf 09
-- Dato: **2026-06-03**
-- Kampstart: **17:00**
+### DH van Hien vs K. Khanh Hoa
+- Dato: **2026-06-04**
+- Kampstart: **09:00**
+- Spil: **Uafgjort**
+- Odds: **5.50**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### FC Wolfurt vs SV Ludesch
+- Dato: **2026-06-04**
+- Kampstart: **15:00**
 - Spil: **Udebanesejr**
 - Odds: **3.90**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Rochedale Rovers vs Magic United Tfa
-- Dato: **2026-06-03**
-- Kampstart: **09:30**
+### Real de Banjul vs Falcons FC
+- Dato: **2026-06-04**
+- Kampstart: **16:30**
 - Spil: **Udebanesejr**
-- Odds: **3.75**
+- Odds: **3.90**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### Ntnui vs Fk Kvik Trondheim
-- Dato: **2026-06-03**
+### FC Lauterach vs SV Kuchl
+- Dato: **2026-06-04**
+- Kampstart: **12:00**
+- Spil: **Uafgjort**
+- Odds: **5.25**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Lebanon vs Yemen
+- Dato: **2026-06-04**
+- Kampstart: **16:00**
+- Spil: **Udebanesejr**
+- Odds: **3.80**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Stenungsunds IF vs Vanersborgs IF
+- Dato: **2026-06-04**
 - Kampstart: **17:00**
+- Spil: **Udebanesejr**
+- Odds: **3.80**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### LTU vs Jyty Turku
+- Dato: **2026-06-04**
+- Kampstart: **16:00**
+- Spil: **Udebanesejr**
+- Odds: **3.80**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Tmt vs Bombada
+- Dato: **2026-06-04**
+- Kampstart: **16:30**
 - Spil: **Hjemmesejr**
-- Odds: **3.30**
+- Odds: **3.40**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### FK Gazalkent vs FC Jayxun
-- Dato: **2026-06-03**
-- Kampstart: **14:30**
-- Spil: **Uafgjort**
-- Odds: **5.00**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Rochedale Rovers vs Magic United Tfa
-- Dato: **2026-06-03**
-- Kampstart: **09:30**
-- Spil: **Uafgjort**
-- Odds: **5.00**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### SC Neusiedl am See 1919 vs SC Wiener Viktoria
-- Dato: **2026-06-03**
+### Solvesborgs GIF vs Torns IF
+- Dato: **2026-06-04**
 - Kampstart: **17:30**
-- Spil: **Hjemmesejr**
-- Odds: **3.25**
+- Spil: **Udebanesejr**
+- Odds: **3.70**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**
 
-### SC Kalsdorf vs SPG Wallern/ASV St. Marienkirchen
-- Dato: **2026-06-03**
-- Kampstart: **17:00**
+### FC Kattaqorgon vs Fardu Ferghana
+- Dato: **2026-06-04**
+- Kampstart: **12:30**
+- Spil: **Udebanesejr**
+- Odds: **3.70**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### IFK Stocksund vs FC Stockholm Internazionale
+- Dato: **2026-06-04**
+- Kampstart: **17:30**
+- Spil: **Uafgjort**
+- Odds: **5.00**
+- Status: **Afventer**
+- Type: **baseline_coverage_observation**
+- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
+
+### Gambia Ports Authority vs Gambian Dutch Lions
+- Dato: **2026-06-04**
+- Kampstart: **16:30**
 - Spil: **Udebanesejr**
 - Odds: **3.60**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Poland vs Nigeria
-- Dato: **2026-06-03**
-- Kampstart: **18:45**
-- Spil: **Udebanesejr**
-- Odds: **3.60**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### Sacachispas FC vs AD Berazategui
-- Dato: **2026-06-03**
-- Kampstart: **18:30**
-- Spil: **Hjemmesejr**
-- Odds: **3.25**
-- Status: **Afventer**
-- Type: **baseline_coverage_observation**
-- Note: **baseline_coverage_observation_not_model_signal_not_real_money**
-
-### FC Rijnvogels vs Excelsior Maassluis
-- Dato: **2026-06-03**
-- Kampstart: **18:00**
-- Spil: **Hjemmesejr**
-- Odds: **3.20**
 - Status: **Afventer**
 - Type: **baseline_coverage_observation**
 - Note: **baseline_coverage_observation_not_model_signal_not_real_money**

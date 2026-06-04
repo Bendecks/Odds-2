@@ -3,10 +3,10 @@
 Manual Bet365 odds input is parked as an optional fallback. It is not an active development blocker.
 Current priority: automatic/free-data forward-testing sources and robust fixture/model matching.
 
-Upcoming fixtures: 282
-Manual template rows: 282
+Upcoming fixtures: 319
+Manual template rows: 319
 Rows with complete manual odds: 0
-Rows missing manual odds: 282
+Rows missing manual odds: 319
 Manual forward snapshot rows: 0
 Manual odds mode: optional_fallback_paused
 Manual odds is blocker: False
@@ -19,23 +19,23 @@ Upcoming fixtures exist, but no automatic odds/proxy forward snapshot source is 
 ## Optional manual fallback status
 
 Manual odds are not required in the current phase. These rows are only kept for later fallback use:
-- 2026-06-03 18:00 | ADO 20 Heemskerk vs IJsselmeervogels
-- 2026-06-03 18:00 | Albania vs Israel
-- 2026-06-03 17:45 | America FC RJ vs Sao Goncalo EC RJ
-- 2026-06-03 23:00 | Annapolis Blues FC vs Lionsbridge FC
-- 2026-06-03 17:45 | Araruama FC RJ vs Marica FC RJ
-- 2026-06-03 17:00 | Atus Velden vs FC Gleisdorf 09
-- 2026-06-03 23:00 | Avai FC SC vs Chapecoense SC
-- 2026-06-03 07:30 | Belconnen United FC vs Tuggeranong United FC
-- 2026-06-03 17:00 | BK Olympic vs Lunds BK
-- 2026-06-03 22:00 | Boca Juniors vs Defensa Y Justicia Reserve
-- 2026-06-03 23:00 | Brevard SC vs Fort Lauderdale United FC
-- 2026-06-03 08:15 | Broadmeadow Magic FC vs Maitland FC
-- 2026-06-03 21:00 | Capo FC vs Socal Reds FC
-- 2026-06-03 23:00 | Charlotte Eagles vs Tobacco Road FC
-- 2026-06-03 23:00 | Christos FC vs Charlottesville Blues
-- 2026-06-03 23:00 | Cleveland SC vs Ambassadors FC Ohio
-- 2026-06-03 15:30 | Croatia vs Qatar
-- 2026-06-03 23:00 | Davis Legacy vs San Francisco Glens SC
-- 2026-06-03 18:00 | Denmark vs Congo DR
-- 2026-06-03 18:00 | Estudiantes de LP Reserve vs Independiente Rivadavia de Mendoza Reserve
+- 2026-06-04 13:00 | 1. Wiener Neustadter SC vs UFC Sankt Peter Au
+- 2026-06-04 17:30 | AFC Eskilstuna vs Karlbergs BK
+- 2026-06-04 16:00 | Afghanistan vs Bangladesh
+- 2026-06-04 19:15 | Alafoss vs KFR
+- 2026-06-04 18:00 | America FC SP vs CA Juventus SP
+- 2026-06-04 23:00 | Anapolis FC GO vs Paysandu SC PA
+- 2026-06-04 17:00 | Andorra vs Liechtenstein
+- 2026-06-04 20:00 | AS Far Rabat vs Difaa Hassani d'el-Jadida
+- 2026-06-04 18:00 | Avai FC SC vs Nacao
+- 2026-06-04 16:00 | Ben Aknoun vs USM Alger
+- 2026-06-04 15:00 | Bulgaria vs Albania
+- 2026-06-04 18:00 | CA Barracas Central Reserve vs CA Aldosivi Reserve
+- 2026-06-04 22:00 | CA Central Cordoba SE Reserve vs San Martin de San Juan Reserve
+- 2026-06-04 18:00 | CA Platense vs CA Belgrano
+- 2026-06-04 22:00 | CA Talleres de Cordoba Reserve vs Argentinos Juniors Reserve
+- 2026-06-04 12:00 | Cambodia vs Bhutan
+- 2026-06-04 18:00 | CD Godoy Cruz vs CA Union Santa Fe Reserve
+- 2026-06-04 23:30 | Club Deportivo Cuenca Juniors vs CSD Macara
+- 2026-06-04 21:30 | Deportivo Santani vs Resistencia SC
+- 2026-06-04 09:00 | DH van Hien vs K. Khanh Hoa

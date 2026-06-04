@@ -2,28 +2,28 @@
 
 Probability-only forward prediction log. This is not a betting log and contains no stake or real-money signal.
 
-Current forward fixture predictions: 282
+Current forward fixture predictions: 300
 New forward fixture predictions logged: 0
-Total forward fixture predictions logged: 5392
+Total forward fixture predictions logged: 5555
 Log type: probability_only_no_market_prices
 
-- 2026-06-07 2026-06-03 14:00:00 | FC Arlanda vs Assyriska FF | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-06-07 2026-06-03 14:15:00 | RC Celta Fortuna vs CE Europa | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-06-07 2026-06-03 15:00:00 | Ranheim vs Stroemmen IF | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-06-07 2026-06-03 16:30:00 | Denmark vs Ukraine | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-06-07 2026-06-03 16:30:00 | Deportes La Serena vs Deportes Union La Calera | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-06-07 2026-06-03 16:30:00 | Universidad de Chile vs Audax Italiano | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-06-07 2026-06-03 16:30:00 | Zamora CF vs Villarreal CF B | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-06-07 2026-06-03 19:00:00 | CR Brasil AL vs Sao Bernardo FC | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-06-07 2026-06-03 19:00:00 | Greece vs Italy | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-06-07 2026-06-03 19:00:00 | Huachipato vs Colo-Colo | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-06-07 2026-06-03 19:00:00 | Morocco vs Norway | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-06-07 2026-06-03 19:00:00 | UD Las Palmas vs Malaga CF | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-06-07 2026-06-03 20:00:00 | Ecuador vs Guatemala | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-06-07 2026-06-03 22:00:00 | CD O´Higgins vs CD Palestino | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-06-07 2026-06-03 22:00:00 | Deportes Limache vs CD Everton Vina del Mar | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-06-08 2026-06-03 17:00:00 | FC Stockholm Internazionale vs Vasalunds IF | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-06-08 2026-06-03 17:30:00 | FC Jarfalla vs IFK Stocksund | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-06-08 2026-06-03 22:00:00 | Liverpool Montevideo vs Cerro Largo FC | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-06-08 2026-06-03 23:00:00 | America FC MG vs AC Goianiense GO | H=0.37720000000000004 D=0.274 A=0.3488
-- 2026-06-08 2026-06-03 23:00:00 | Vila Nova FC GO vs Botafogo FC SP | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-06-06 2026-06-04 18:00:00 | La Luz FC vs Paysandu FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-06-06 2026-06-04 18:30:00 | Argentino de Merlo vs Deportivo Camioneros | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-06-06 2026-06-04 18:30:00 | Argentino de Rosario vs CA Lugano | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-06-06 2026-06-04 18:30:00 | ASD Justo Jose de Urquiza vs CA Puerto Nuevo | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-06-06 2026-06-04 18:30:00 | CA Atlas vs CA Fenix Pilar | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-06-06 2026-06-04 18:30:00 | CA Excursionistas vs CSD San Martin | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-06-06 2026-06-04 18:30:00 | CD Armenio vs CA Defensores Unidos | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-06-06 2026-06-04 18:30:00 | Club Estrella Del Sur (Alejandro Korn) vs Sacachispas FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-06-06 2026-06-04 18:30:00 | CSD Flandria vs Argentino de Quilmes | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-06-06 2026-06-04 18:30:00 | CSDC Espanol vs CA Claypole | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-06-06 2026-06-04 18:30:00 | Leones de Rosario FC vs CS Barracas | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-06-06 2026-06-04 18:30:00 | Villa Dalmine vs CA Villa San Carlos | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-06-06 2026-06-04 18:30:00 | Yupanqui vs CA Central Cordoba Rosario | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-06-06 2026-06-04 19:00:00 | Club Mercedes vs Deportivo Paraguayo | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-06-06 2026-06-04 19:00:00 | Panama vs Bosnia and Herzegovina | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-06-06 2026-06-04 19:30:00 | SSA Swarm FC vs Birmingham Legion FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-06-06 2026-06-04 22:00:00 | Venezuela vs Turkiye | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-06-06 2026-06-04 23:00:00 | Cavalry FC vs HFX Wanderers FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-06-06 2026-06-04 23:00:00 | FC Supra Du Quebec vs Pacific FC | H=0.37720000000000004 D=0.274 A=0.3488
+- 2026-06-06 2026-06-04 23:30:00 | SSA Swarm FC vs Birmingham Legion FC 2 | H=0.37720000000000004 D=0.274 A=0.3488

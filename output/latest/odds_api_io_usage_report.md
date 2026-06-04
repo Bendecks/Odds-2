@@ -2,29 +2,29 @@
 
 This report combines repo-estimated Odds-API.io usage with provider rate-limit headers when available.
 
-Generated UTC: 2026-06-03T02:58:55.816012+00:00
-Latest run calls used: 7 / 14
+Generated UTC: 2026-06-04T02:53:55.453882+00:00
+Latest run calls used: 5 / 14
 Latest endpoint mode: multi_event_documented_endpoint
-Latest search queries: Hoo P R / Lai P J, Pakistan Panthers, Indonesia, Pakistan, France
+Latest search queries: Indonesia, Japan
 Latest priced event rows: 10
 Latest errors/status rows: 70
 
 ## Provider rate-limit headers
 
 x-ratelimit-limit: 100
-x-ratelimit-remaining: 57
-remaining ratio: 0.57
-x-ratelimit-reset: 2026-06-03T03:42:26Z
+x-ratelimit-remaining: 64
+remaining ratio: 0.64
+x-ratelimit-reset: 2026-06-04T03:37:32Z
 retry-after: None
 
 ## Estimated repo-driven req/hr
 
-- Last 1h: 7 calls across 1 runs => 7.0 req/hr
-- Last 6h: 7 calls across 1 runs => 1.1667 req/hr
-- Last 12h: 7 calls across 1 runs => 0.5833 req/hr
-- Last 24h: 7 calls across 1 runs => 0.2917 req/hr
-- Last 72h: 18 calls across 4 runs => 0.25 req/hr
-- Last 168h: 51 calls across 12 runs => 0.3036 req/hr
+- Last 1h: 5 calls across 1 runs => 5.0 req/hr
+- Last 6h: 5 calls across 1 runs => 0.8333 req/hr
+- Last 12h: 5 calls across 1 runs => 0.4167 req/hr
+- Last 24h: 12 calls across 2 runs => 0.5 req/hr
+- Last 72h: 16 calls across 3 runs => 0.2222 req/hr
+- Last 168h: 51 calls across 11 runs => 0.3036 req/hr
 
 ## Interpretation
 

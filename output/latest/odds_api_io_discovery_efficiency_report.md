@@ -2,48 +2,48 @@
 
 Purpose: show whether API calls are producing usable direct event matches or mostly noisy fallback candidates.
 
-Candidate rows: 6134
+Candidate rows: 20136
 Selected rows before price quality filter: 82
-Calls used: 7 / 14
+Calls used: 5 / 14
 Max discovery calls: 13
-Events discovery rows: 112
+Events discovery rows: 289
 Search fallback used: True
-Search queries used: Hoo P R / Lai P J, Pakistan Panthers, Indonesia, Pakistan, France
+Search queries used: Indonesia, Japan
 Multi-odds attempted: True
-Raw price rows before quality filter: 56
-Accepted price rows after quality filter: 41
-Rejected price rows after quality filter: 15
-Latest rate-limit remaining: 57
+Raw price rows before quality filter: 58
+Accepted price rows after quality filter: 42
+Rejected price rows after quality filter: 16
+Latest rate-limit remaining: 64
 
 ## By discovery source
 
-- events_bookmaker_filtered: candidates=6104, selected=77, best_confidence=1.0, avg_confidence=0.23507932503276538
-- events_search_fallback: candidates=30, selected=5, best_confidence=1.0, avg_confidence=0.6508733333333334
+- events_bookmaker_filtered: candidates=20117, selected=80, best_confidence=1.0, avg_confidence=0.1962212059452205
+- events_search_fallback: candidates=19, selected=2, best_confidence=1.0, avg_confidence=0.581742105263158
 
 ## Top candidates
 
-- src=events_search_fallback | query=Pakistan | target=Pakistan vs West Indies | candidate=Pakistan vs West Indies | date=2026-06-03 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Gibraltar | target=Gibraltar vs Virgin Islands, British | candidate=Gibraltar vs Virgin Islands, British | date=2026-06-03 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=BK Olympic | target=BK Olympic vs Lunds BK | candidate=BK Olympic vs Lunds BK | date=2026-06-03 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=SV Anthering | target=SV Anthering vs SV Burmoos | candidate=SV Anthering vs SV Burmoos | date=2026-06-03 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Greenville Triumph SC | target=Greenville Triumph SC vs Forward Madison FC | candidate=Greenville Triumph SC vs Forward Madison FC | date=2026-06-03 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Miami AC | target=Miami AC vs Weston FC | candidate=Miami AC vs Weston FC | date=2026-06-03 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=GV Club Deportivo San Jose de Oruro | target=GV Club Deportivo San Jose de Oruro vs CD Real Tomayapo | candidate=GV Club Deportivo San Jose de Oruro vs CD Real Tomayapo | date=2026-06-03 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Hawkesbury City SC | target=Hawkesbury City SC vs Gladesville Ryde Magic | candidate=Hawkesbury City SC vs Gladesville Ryde Magic | date=2026-06-03 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Boca Juniors | target=Boca Juniors vs Defensa Y Justicia Reserve | candidate=Boca Juniors vs Defensa Y Justicia Reserve | date=2026-06-03 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Union FC Macomb | target=Union FC Macomb vs Midwest United FC | candidate=Union FC Macomb vs Midwest United FC | date=2026-06-03 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Annapolis Blues FC | target=Annapolis Blues FC vs Lionsbridge FC | candidate=Annapolis Blues FC vs Lionsbridge FC | date=2026-06-03 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Capo FC | target=Capo FC vs Socal Reds FC | candidate=Capo FC vs Socal Reds FC | date=2026-06-03 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Gualaceo SC | target=Gualaceo SC vs Mushuc Runa SC | candidate=Gualaceo SC vs Mushuc Runa SC | date=2026-06-03 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Broadmeadow Magic FC | target=Broadmeadow Magic FC vs Maitland FC | candidate=Broadmeadow Magic FC vs Maitland FC | date=2026-06-03 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Portugal | target=Portugal vs Kazakhstan | candidate=Portugal vs Kazakhstan | date=2026-06-03 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Raja Casablanca Athletic | target=Raja Casablanca Athletic vs Rs Berkane | candidate=Raja Casablanca Athletic vs Rs Berkane | date=2026-06-03 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Avai FC SC | target=Avai FC SC vs Chapecoense SC | candidate=Avai FC SC vs Chapecoense SC | date=2026-06-03 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=FC Groningen | target=FC Groningen vs de Graafschap | candidate=FC Groningen vs de Graafschap | date=2026-06-03 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Wake FC | target=Wake FC vs South Carolina United Bantams | candidate=Wake FC vs South Carolina United Bantams | date=2026-06-03 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Renaissance Zemamra | target=Renaissance Zemamra vs US Yacoub Mansour | candidate=Renaissance Zemamra vs US Yacoub Mansour | date=2026-06-03 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Poland | target=Poland vs Nigeria | candidate=Poland vs Nigeria | date=2026-06-03 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Sydney Olympic FC | target=Sydney Olympic FC vs University of NSW | candidate=Sydney Olympic FC vs University of NSW | date=2026-06-03 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Netherlands | target=Netherlands vs Algeria | candidate=Netherlands vs Algeria | date=2026-06-03 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Luxembourg | target=Luxembourg vs Italy | candidate=Luxembourg vs Italy | date=2026-06-03 | confidence=1.0 | selected=True
-- src=events_bookmaker_filtered | query=Sacachispas FC | target=Sacachispas FC vs AD Berazategui | candidate=Sacachispas FC vs AD Berazategui | date=2026-06-03 | confidence=1.0 | selected=True
+- src=events_search_fallback | query=Japan | target=Japan vs Mongolia | candidate=Japan vs Mongolia | date=2026-06-04 | confidence=1.0 | selected=True
+- src=events_search_fallback | query=Indonesia | target=Indonesia vs Kuwait | candidate=Indonesia vs Kuwait | date=2026-06-04 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=US Goree | target=US Goree vs Stade de Mbour | candidate=US Goree vs Stade de Mbour | date=2026-06-04 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Osasco Sporting SP | target=Osasco Sporting SP vs AE Velo Clube SP | candidate=Osasco Sporting SP vs AE Velo Clube SP | date=2026-06-04 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Afghanistan | target=Afghanistan vs Bangladesh | candidate=Afghanistan vs Bangladesh | date=2026-06-04 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Sweden | target=Sweden vs Greece | candidate=Sweden vs Greece | date=2026-06-04 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Bentleigh Greens SC | target=Bentleigh Greens SC vs Boroondara Eagles | candidate=Bentleigh Greens SC vs Boroondara Eagles | date=2026-06-05 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=AFC Eskilstuna | target=AFC Eskilstuna vs Karlbergs BK | candidate=AFC Eskilstuna vs Karlbergs BK | date=2026-06-04 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Ben Aknoun | target=Ben Aknoun vs USM Alger | candidate=Ben Aknoun vs USM Alger | date=2026-06-04 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Slovenia | target=Slovenia vs Bosnia and Herzegovina | candidate=Slovenia vs Bosnia and Herzegovina | date=2026-06-04 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Dornbirner SV | target=Dornbirner SV vs FC Rotenberg | candidate=Dornbirner SV vs FC Rotenberg | date=2026-06-04 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=IFK Stocksund | target=IFK Stocksund vs FC Stockholm Internazionale | candidate=IFK Stocksund vs FC Stockholm Internazionale | date=2026-06-04 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Solvesborgs GIF | target=Solvesborgs GIF vs Torns IF | candidate=Solvesborgs GIF vs Torns IF | date=2026-06-04 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Sundby BK | target=Sundby BK vs Holbaek B&I | candidate=Sundby BK vs Holbaek B&I | date=2026-06-04 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=FC Wolfurt | target=FC Wolfurt vs SV Ludesch | candidate=FC Wolfurt vs SV Ludesch | date=2026-06-04 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=America FC SP | target=America FC SP vs CA Juventus SP | candidate=America FC SP vs CA Juventus SP | date=2026-06-04 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Mexico | target=Mexico vs Serbia | candidate=Mexico vs Serbia | date=2026-06-05 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=DH van Hien | target=DH van Hien vs K. Khanh Hoa | candidate=DH van Hien vs K. Khanh Hoa | date=2026-06-04 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=FC Dornbirn | target=FC Dornbirn vs SVG Reichenau | candidate=FC Dornbirn vs SVG Reichenau | date=2026-06-04 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=CA Talleres de Cordoba Reserve | target=CA Talleres de Cordoba Reserve vs Argentinos Juniors Reserve | candidate=CA Talleres de Cordoba Reserve vs Argentinos Juniors Reserve | date=2026-06-04 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Anapolis FC GO | target=Anapolis FC GO vs Paysandu SC PA | candidate=Anapolis FC GO vs Paysandu SC PA | date=2026-06-04 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Stenungsunds IF | target=Stenungsunds IF vs Vanersborgs IF | candidate=Stenungsunds IF vs Vanersborgs IF | date=2026-06-04 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Sweden | target=Sweden vs Finland | candidate=Sweden vs Finland | date=2026-06-04 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Oakleigh Cannons FC | target=Oakleigh Cannons FC vs ST Albans Saints Dinamo SC | candidate=Oakleigh Cannons FC vs ST Albans Saints Dinamo SC | date=2026-06-05 | confidence=1.0 | selected=True
+- src=events_bookmaker_filtered | query=Avai FC SC | target=Avai FC SC vs Nacao | candidate=Avai FC SC vs Nacao | date=2026-06-04 | confidence=1.0 | selected=True
