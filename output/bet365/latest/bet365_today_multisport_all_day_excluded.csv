@@ -1,71 +1,33 @@
 sport_query,event_id,date_denmark,home,away,league,sport,bookmaker_count,status,reason
-football,69091358,2026-06-04 01:00,Christos FC,Charlottesville Blues,USA - USL League Two,Football,0,pending,not_good_competition_or_low_coverage
-football,68989248,2026-06-04 01:00,Tacoma Galaxy,Salmon Bay FC,USA - USL W League,Football,0,pending,not_good_competition_or_low_coverage
-football,69072358,2026-06-04 01:00,Cleveland SC,Ambassadors FC Ohio,USA - National Premier Soccer League,Football,0,pending,not_good_competition_or_low_coverage
-football,69091374,2026-06-04 01:00,Davis Legacy,San Francisco Glens SC,USA - USL League Two,Football,0,pending,not_good_competition_or_low_coverage
-football,69091380,2026-06-04 01:00,Annapolis Blues FC,Lionsbridge FC,USA - USL League Two,Football,0,pending,not_good_competition_or_low_coverage
-football,69091388,2026-06-04 01:00,Brevard SC,Fort Lauderdale United FC,USA - USL League Two,Football,0,pending,not_good_competition_or_low_coverage
-football,71796106,2026-06-04 01:00,Avai FC SC,Chapecoense SC,Brazil - Copa Sul-Sudeste,Football,0,pending,not_good_competition_or_low_coverage
-football,69091390,2026-06-04 01:00,Charlotte Eagles,Tobacco Road FC,USA - USL League Two,Football,0,pending,not_good_competition_or_low_coverage
-football,69091400,2026-06-04 01:00,New England FC,Connecticut Rush,USA - USL League Two,Football,0,pending,not_good_competition_or_low_coverage
-football,69091408,2026-06-04 01:00,Sporting Jax II,Brooke House FC,USA - USL League Two,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,69091410,2026-06-04 01:00,Wake FC,South Carolina United Bantams,USA - USL League Two,Football,0,pending,not_good_competition_or_low_coverage
-football,67171968,2026-06-04 01:30,Greenville Triumph SC,Forward Madison FC,USA - USL League One,Football,0,pending,not_good_competition_or_low_coverage
-football,67171970,2026-06-04 01:30,FC Naples,Charlotte Independence,USA - USL League One,Football,0,pending,not_good_competition_or_low_coverage
-football,68989270,2026-06-04 01:30,SSA Swarm FC,Chattanooga Red Wolves SC,USA - USL W League,Football,0,pending,not_good_competition_or_low_coverage
-football,69091416,2026-06-04 01:30,Long Island Rough Riders,Hudson Valley Hammers,USA - USL League Two,Football,0,pending,not_good_competition_or_low_coverage
-football,69091418,2026-06-04 01:30,Morris Elite SC,FC Motown STA,USA - USL League Two,Football,0,pending,not_good_competition_or_low_coverage
-football,69091424,2026-06-04 02:00,Houston FC,Hill Country Lobos,USA - USL League Two,Football,0,pending,not_good_competition_or_low_coverage
-football,69091436,2026-06-04 02:00,Santafe Wanderers FC,Peoria City,USA - USL League Two,Football,0,pending,not_good_competition_or_low_coverage
-football,69091442,2026-06-04 02:00,Virginia Marauders FC,Loudoun United FC 2,USA - USL League Two,Football,0,pending,not_good_competition_or_low_coverage
-football,67171966,2026-06-04 02:30,Corpus Christi FC,Portland Hearts of Pine,USA - USL League One,Football,0,pending,not_good_competition_or_low_coverage
-football,71399592,2026-06-04 02:45,Panama,Dominican Republic,International - Int. Friendly Games,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,71468540,2026-06-04 03:00,Korea Republic,El Salvador,International - Int. Friendly Games,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,69091446,2026-06-04 04:00,San Francisco City,Almaden FC,USA - USL League Two,Football,0,pending,not_good_competition_or_low_coverage
-football,69091448,2026-06-04 04:00,Tacoma Stars,Ballard FC,USA - USL League Two,Football,0,pending,not_good_competition_or_low_coverage
-football,68989278,2026-06-04 04:30,Southern California Dutch Lions FC,Los Angeles SC,USA - USL W League,Football,0,pending,not_good_competition_or_low_coverage
 football,71561890,2026-06-04 11:00,Myanmar,Vietnam,International Youth - U19 AFF Championship,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
 football,68664088,2026-06-04 11:00,DH van Hien,K. Khanh Hoa,Vietnam - V-League 2,Football,0,pending,not_good_competition_or_low_coverage
 football,61541464,2026-06-04 11:00,FC Lustenau,VfB Hohenems,Austria Amateur - Regionalliga West,Football,0,pending,not_good_competition_or_low_coverage
 football,61915082,2026-06-04 11:00,FC Raika Volders,SC Mils,"Austria Amateur - Tirol, Regionalliga Tirol",Football,0,pending,not_good_competition_or_low_coverage
 football,61927920,2026-06-04 11:00,Dornbirner SV,FC Rotenberg,"Austria Amateur - Vorarlberg, Eliteliga",Football,0,pending,not_good_competition_or_low_coverage
-tennis,71802584,2026-06-04 01:00,"de Pellegrin, Valentino","Beale, Jeremy",UTR Men - UTR PTT Gold Coast Men 04,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,558377,2026-06-04 02:00,Lachlan Vickery,Jesse Delaney,ITF Men - Harmon,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,558376,2026-06-04 02:00,Geun Jun Kim,Evan Zhu,ITF Men - Harmon,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,558370,2026-06-04 02:00,Tai Leonard Sach,Yuya Hirose,ITF Men - Harmon,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,558375,2026-06-04 02:00,Jake Delaney,Ashton McLeod,ITF Men - Harmon,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71802620,2026-06-04 02:10,"Staley, Jera","Giesen, Jonty",UTR Men - UTR PTT Gold Coast Men 04,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71802726,2026-06-04 02:40,"Moon, Whitney","Dodaj, Christina",UTR Women - UTR PTT Gold Coast Women 04,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71906156,2026-06-04 03:00,"Visaya, Azuma","Magadan, Alan",UTR Men - UTR PTT Hyogo Men 02,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71906158,2026-06-04 03:00,"Heck, Hunter","Cham, Elijah",UTR Men - UTR PTT Hyogo Men 02,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71906162,2026-06-04 03:00,"Hashimoto, Hugo","Itsusaki, Shion",UTR Men - UTR PTT Hyogo Men 02,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71906954,2026-06-04 03:00,"Aikawa, Mayuka","Nayuki, Seri",UTR Women - UTR PTT Hyogo Women 01,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71906956,2026-06-04 03:00,"Ishikawa, Kokoro","Namigata, Junri",UTR Women - UTR PTT Hyogo Women 01,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71845990,2026-06-04 03:30,"Hahn, Jonas","Crowther, Corban",UTR Men - UTR PTT Gold Coast Men 04,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71900164,2026-06-04 03:30,"Huang, Rui Ning","Kriznik, Matic",UTR Men - UTR PTT Newport Beach Men 13,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,31629304,2026-06-04 03:30,Yusuke Kusuhara,Kazuki Nishiwaki,ITF Men - Harmon,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71809148,2026-06-04 03:30,"Leote Prata, Vasco","Phillips, Sklar",UTR Men - UTR PTT Newport Beach Men 13,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71809156,2026-06-04 03:30,"Hayduke II, Andrew","Djakouris, Antreas",UTR Men - UTR PTT Newport Beach Men 13,Tennis,0,pending,excluded_youth_reserve_friendly_or_exhibition
-tennis,71809192,2026-06-04 03:30,"Sparks, Benjamin","Hoffmann, Niels",UTR Men - UTR PTT Newport Beach Men 13,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71802586,2026-06-04 03:30,"Newton, James","Brownrigg, Noah",UTR Men - UTR PTT Gold Coast Men 04,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71809306,2026-06-04 03:30,"Shcherbinina, Alina","Salibayeva, Amina",UTR Women - UTR PTT Newport Beach Women 13,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71802746,2026-06-04 03:30,"Weir, Lexie","Baker, Caitlin",UTR Women - UTR PTT Gold Coast Women 04,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,558369,2026-06-04 03:30,Youssef Kadiri Hassani,Yuta Kawahashi,ITF Men - Harmon,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,558372,2026-06-04 03:30,Matt Kleiman,Colin Sinclair,ITF Men - Harmon,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,558373,2026-06-04 03:30,Hoyoung Roh,Hiromasa Koyama,ITF Men - Harmon,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,31640194,2026-06-04 04:00,Matthew Dellavedova,Yan Cheng Chen,ITF Men - Luan,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,31640501,2026-06-04 04:00,Yecong Mo,Xirui Han,ITF Men - Luan,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,31640193,2026-06-04 04:00,Yaojie Zeng,Qian Sun,ITF Men - Luan,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71906160,2026-06-04 04:10,"Snyder, Quinn","Mochizuki, Kotaro",UTR Men - UTR PTT Hyogo Men 02,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71906170,2026-06-04 04:10,"Nakanishi, Kosuke","Sakamoto, Hiiro",UTR Men - UTR PTT Hyogo Men 02,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71906172,2026-06-04 04:10,"Lee, Winston","Fukuhara, Soma",UTR Men - UTR PTT Hyogo Men 02,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,31640502,2026-06-04 04:15,James Van Herzeele,Tsung Hao Huang,ITF Men - Luan,Tennis,0,pending,not_good_competition_or_low_coverage
+football,71782694,2026-06-04 13:00,Maldives,Pakistan,International - Int. Friendly Games,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,68050334,2026-06-04 13:00,Modbury Jets SC Reserve,Fulham United FC Reserve,"Australia - South Australia State League 1, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,71601902,2026-06-04 14:00,Cambodia,Bhutan,International - Int. Friendly Games,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,61541472,2026-06-04 14:00,FC Lauterach,SV Kuchl,Austria Amateur - Regionalliga West,Football,0,pending,not_good_competition_or_low_coverage
+football,61541462,2026-06-04 14:30,FC Kitzbuhel,TSV St. Johann,Austria Amateur - Regionalliga West,Football,0,pending,not_good_competition_or_low_coverage
+football,70314476,2026-06-04 14:30,FC Kattaqorgon,Fardu Ferghana,Uzbekistan - Pro Liga,Football,0,pending,not_good_competition_or_low_coverage
+football,71561936,2026-06-04 15:00,Timor-Leste,Indonesia,International Youth - U19 AFF Championship,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,71834376,2026-06-04 15:00,Lesotho,Kenya,International - Int. Friendly Games,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,61909690,2026-06-04 15:00,1. Wiener Neustadter SC,UFC Sankt Peter Au,"Austria Amateur - Niederosterreich, 1. Landesliga",Football,0,pending,not_good_competition_or_low_coverage
+football,70314468,2026-06-04 15:00,Respublika Football Academy,PFC Terdu,Uzbekistan - Pro Liga,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+tennis,71845990,2026-06-04 04:40,"Hahn, Jonas","Crowther, Corban",UTR Men - UTR PTT Gold Coast Men 04,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71802586,2026-06-04 04:40,"Newton, James","Brownrigg, Noah",UTR Men - UTR PTT Gold Coast Men 04,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71906172,2026-06-04 04:40,"Lee, Winston","Fukuhara, Soma",UTR Men - UTR PTT Hyogo Men 02,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71906170,2026-06-04 04:40,"Nakanishi, Kosuke","Sakamoto, Hiiro",UTR Men - UTR PTT Hyogo Men 02,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71802746,2026-06-04 04:50,"Weir, Lexie","Baker, Caitlin",UTR Women - UTR PTT Gold Coast Women 04,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,31640223,2026-06-04 05:00,Fanming Meng,Tianhui Zhang,ITF Men - Luan,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71906174,2026-06-04 05:20,"Shibano, Kosuke","Maeda, Toa",UTR Men - UTR PTT Hyogo Men 02,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71906958,2026-06-04 05:20,"Goto, Nanami","Sakurada, Shizuka",UTR Women - UTR PTT Hyogo Women 01,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71906960,2026-06-04 05:20,"Inaba, Ran","Nakagawa, Yura",UTR Women - UTR PTT Hyogo Women 01,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71802602,2026-06-04 05:25,"Schoeman, Marcus","Jasika, Omar",UTR Men - UTR PTT Gold Coast Men 04,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,31640317,2026-06-04 06:15,Kaigaoge Kang,Hanyi Liu,ITF Men - Luan,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,31640317,2026-06-04 05:00,Kaigaoge Kang,Hanyi Liu,ITF Men - Luan,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,31640194,2026-06-04 05:00,Matthew Dellavedova,Yan Cheng Chen,ITF Men - Luan,Tennis,0,live,not_good_competition_or_low_coverage
+tennis,31640501,2026-06-04 05:00,Yecong Mo,Xirui Han,ITF Men - Luan,Tennis,0,live,not_good_competition_or_low_coverage
+tennis,31640193,2026-06-04 05:00,Yaojie Zeng,Qian Sun,ITF Men - Luan,Tennis,0,live,not_good_competition_or_low_coverage
+tennis,31640502,2026-06-04 05:00,James Van Herzeele,Tsung Hao Huang,ITF Men - Luan,Tennis,0,live,not_good_competition_or_low_coverage
+tennis,71906174,2026-06-04 05:50,"Shibano, Kosuke","Maeda, Toa",UTR Men - UTR PTT Hyogo Men 02,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71906958,2026-06-04 05:50,"Goto, Nanami","Sakurada, Shizuka",UTR Women - UTR PTT Hyogo Women 01,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71906960,2026-06-04 05:50,"Inaba, Ran","Nakagawa, Yura",UTR Women - UTR PTT Hyogo Women 01,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,31640195,2026-06-04 06:15,Grigoriy Lomakin,Zhao Zhao,ITF Men - Luan,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,31629389,2026-06-04 08:30,Egor Agafonov,Kacper Knitter,ITF Men - Tsaghkadzor,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,31640307,2026-06-04 09:00,Rafael De Alba,Dimitris Azoidis,ITF Men - Kayseri,Tennis,0,pending,not_good_competition_or_low_coverage
@@ -85,6 +47,7 @@ tennis,558755,2026-06-04 10:00,Lorenzo Gagliardo,Samuel Vincent Ruggeri,ITF Men 
 tennis,558976,2026-06-04 10:00,Robert Guna,Gabriel Ghetu,ITF Men - Bistrita,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,558977,2026-06-04 10:00,Dan Alexandru Tomescu,Radu David Turcanu,ITF Men - Bistrita,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,558978,2026-06-04 10:00,Franco Ribero,Nicolas Garcia Longo,ITF Men - Bistrita,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,558981,2026-06-04 10:15,Cezar Stefan Bentzel,Kirill Kivattsev,ITF Men - Bistrita,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,159678,2026-06-04 10:30,Nicola Senn,Mak Mikovic,ITF Men - Ljubljana,Tennis,0,live,not_good_competition_or_low_coverage
 tennis,159680,2026-06-04 10:30,Andrin Casanova,Marko Retelj,ITF Men - Ljubljana,Tennis,0,live,not_good_competition_or_low_coverage
 tennis,558035,2026-06-04 10:30,Jost Pecovnik,Jan Kupcic,ITF Men - Ljubljana,Tennis,0,live,not_good_competition_or_low_coverage
@@ -96,6 +59,7 @@ tennis,31640533,2026-06-04 11:00,Petr Bar Biryukov,Egor Pleshivtsev,ITF Men - Ts
 tennis,31629390,2026-06-04 11:00,Denis Vishenchuk Vishenko,Adam Majchrzak,ITF Men - Tsaghkadzor,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,559020,2026-06-04 11:00,Fausto Tabacco,Rafael Izquierdo Luque,ITF Men - Caltanissetta,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,558698,2026-06-04 11:30,Andrea De Marchi,Peter Fajta,ITF Men - Szentendre,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,31640560,2026-06-04 11:30,Marcello Serafini,Alberto Barroso Campos,ITF Men - Monastir,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,559021,2026-06-04 12:00,Alexandre Reco,Carlos Lopez Montagud,ITF Men - Caltanissetta,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,559002,2026-06-04 12:00,Kai Wehnelt,Theo Papamalamis,ITF Men - Rosbach,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,559003,2026-06-04 12:00,Duje Markovina,Taym Al Azmeh,ITF Men - Rosbach,Tennis,0,pending,not_good_competition_or_low_coverage
@@ -103,35 +67,23 @@ tennis,559005,2026-06-04 12:00,Richard Antoni,Vincent Marysko,ITF Men - Rosbach,
 tennis,31640264,2026-06-04 12:15,Stefan Ilie Bogdan Petre,Lorenzo Comino,ITF Men - Bistrita,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,31640354,2026-06-04 12:15,Stefan Horia Haita,Mihai Alexandru Coman,ITF Men - Bistrita,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,31640559,2026-06-04 12:15,Radu Mihai Papoe,Dragos Nicolae Cazacu,ITF Men - Bistrita,Tennis,0,pending,not_good_competition_or_low_coverage
-basketball,67965288,2026-06-04 01:30,Hamilton Honey Badgers,Edmonton Stingers,Canada - CEBL,Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,71894240,2026-06-04 02:00,4 Bears Roar,Great Falls Electric,USA - The Basketball League,Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,71116896,2026-06-04 02:00,Piratas de Quebradillas,Cangrejeros de Santurce,Puerto Rico - BSN,Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,71116898,2026-06-04 02:00,Gigantes de Carolina,Vaqueros de Bayamon,Puerto Rico - BSN,Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,71116900,2026-06-04 02:00,Aguada Santeros,Atleticos de San German,Puerto Rico - BSN,Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,71827612,2026-06-04 02:15,CA Penarol,Aguada,Uruguay - LUB,Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,71777052,2026-06-04 03:00,Toros Del Valle,Paisas Basketball,Colombia - LBP,Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,71232606,2026-06-04 03:15,Brujos Izalco,Metapan BC,El Salvador - Liga Mayor de Baloncesto,Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,71889884,2026-06-04 04:00,Abogados-Seminario E.L,Roswell,Costa Rica - LSB,Basketball,0,pending,not_good_competition_or_low_coverage
+tennis,559016,2026-06-04 13:00,Jay Clarke,Giorgio Tabacco,ITF Men - Caltanissetta,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,559019,2026-06-04 13:00,Matteo Sciahbasi,Massimo Giunta,ITF Men - Caltanissetta,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,558707,2026-06-04 13:00,Yannik Kelm,Heorhii Shylov,ITF Men - Szentendre,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,559004,2026-06-04 14:00,Marcel Zielinski,Johan Oscar Lien,ITF Men - Rosbach,Tennis,0,pending,not_good_competition_or_low_coverage
 basketball,66647042,2026-06-04 09:00,Hawke's Bay Hawks,Nelson Giants,New Zealand - NBL,Basketball,0,pending,not_good_competition_or_low_coverage
-baseball,71899236,2026-06-04 02:00,Leones de Yucatan,Conspiradores de Queretaro,Mexico - Mexican League,Baseball,0,pending,not_good_competition_or_low_coverage
-baseball,67360958,2026-06-04 02:30,Tigres de Quintana Roo,Guerreros de Oaxaca,Mexico - Mexican League,Baseball,0,pending,not_good_competition_or_low_coverage
-baseball,67360950,2026-06-04 02:30,Tecolotes de Los Dos Laredos,Rieleros de Aguascalientes,Mexico - Mexican League,Baseball,0,pending,not_good_competition_or_low_coverage
-baseball,67360934,2026-06-04 03:00,Diablos Rojos Del Mexico,Bravos de Leon,Mexico - Mexican League,Baseball,0,pending,not_good_competition_or_low_coverage
-baseball,67360940,2026-06-04 03:00,Piratas de Campeche,El Aguila de Veracruz,Mexico - Mexican League,Baseball,0,pending,not_good_competition_or_low_coverage
-baseball,67360924,2026-06-04 03:10,Caliente de Durango,Dorados de Chihuahua,Mexico - Mexican League,Baseball,0,pending,not_good_competition_or_low_coverage
-baseball,67360928,2026-06-04 03:30,Saraperos de Saltillo,Sultanes de Monterrey,Mexico - Mexican League,Baseball,0,pending,not_good_competition_or_low_coverage
-baseball,67360936,2026-06-04 03:30,Olmecas de Tabasco,Pericos de Puebla,Mexico - Mexican League,Baseball,0,pending,not_good_competition_or_low_coverage
-baseball,67360962,2026-06-04 03:45,Acereros de Monclova,Algodoneros de Union Laguna,Mexico - Mexican League,Baseball,0,pending,not_good_competition_or_low_coverage
-baseball,67360932,2026-06-04 04:30,Leones de Yucatan,Conspiradores de Queretaro,Mexico - Mexican League,Baseball,0,pending,not_good_competition_or_low_coverage
-baseball,67360926,2026-06-04 04:35,Toros de Tijuana,Charros de Jalisco,Mexico - Mexican League,Baseball,0,pending,not_good_competition_or_low_coverage
-cricket,71803444,2026-06-04 03:30,Bahrain,Thailand,"International - T20 ACC Premier Cup, Women",Cricket,0,pending,not_good_competition_or_low_coverage
-cricket,71803504,2026-06-04 03:30,Malaysia,Singapore,"International - T20 ACC Premier Cup, Women",Cricket,0,pending,not_good_competition_or_low_coverage
-cricket,71803520,2026-06-04 03:30,Bhutan,Nepal,"International - T20 ACC Premier Cup, Women",Cricket,0,pending,not_good_competition_or_low_coverage
+basketball,71893868,2026-06-04 13:00,New Taipei Kings,Formosa Dreamers,Chinese Taipei - TPBL,Basketball,0,pending,not_good_competition_or_low_coverage
+basketball,71056938,2026-06-04 14:30,Can Tho Catfish,Hanoi Buffaloes,Vietnam - VBA,Basketball,0,pending,not_good_competition_or_low_coverage
+basketball,71888812,2026-06-04 15:00,Stade Malien de Bamako BC,Usfas,Mali - Championnat National D1,Basketball,0,pending,not_good_competition_or_low_coverage
+basketball,71844200,2026-06-04 15:45,AL Riyadi Beirut,Beirut SC,Lebanon - First Division,Basketball,0,pending,not_good_competition_or_low_coverage
+baseball,69461976,2026-06-04 12:35,TSG Hawks,Fubon Guardians,Chinese Taipei - CPBL,Baseball,0,pending,not_good_competition_or_low_coverage
 cricket,71803446,2026-06-04 08:00,Japan,Mongolia,"International - T20 ACC Premier Cup, Women",Cricket,0,pending,not_good_competition_or_low_coverage
 cricket,71803484,2026-06-04 08:00,Philippines,Saudi Arabia,"International - T20 ACC Premier Cup, Women",Cricket,0,pending,not_good_competition_or_low_coverage
 cricket,71803506,2026-06-04 08:00,Indonesia,Kuwait,"International - T20 ACC Premier Cup, Women",Cricket,0,pending,not_good_competition_or_low_coverage
 cricket,71803522,2026-06-04 08:00,"Hong Kong, China",Qatar,"International - T20 ACC Premier Cup, Women",Cricket,0,pending,not_good_competition_or_low_coverage
 cricket,71714822,2026-06-04 08:30,Nepal,Malaysia,"International - T20 Asian Games, Qualifier",Cricket,0,pending,not_good_competition_or_low_coverage
 cricket,68583102,2026-06-04 12:00,England,New Zealand,International - Test Series England vs. New Zealand,Cricket,0,pending,not_good_competition_or_low_coverage
+cricket,71486560,2026-06-04 13:30,Pakistan,Australia,-,Cricket,0,pending,not_good_competition_or_low_coverage
+cricket,70673140,2026-06-04 14:00,Netherlands,Bangladesh,"International - T20 Scotland Tri-Series, Women",Cricket,0,pending,not_good_competition_or_low_coverage
 rugby-union,,,,,,,,,"HTTP 400: {""error"":""Invalid sport slug""}"
 rugby-league,,,,,,,,,"HTTP 400: {""error"":""Invalid sport slug""}"
