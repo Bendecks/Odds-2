@@ -1,91 +1,104 @@
 event_id,sport,league,date_utc,date_denmark,home,away,status
-67119388,Football,Argentina - Primera B,2026-06-05T23:00:00Z,2026-06-06 01:00,CA Talleres de Remedios,Deportivo Merlo,pending
-68822952,Football,Brazil - Brasileiro Serie B,2026-06-05T23:00:00Z,2026-06-06 01:00,Operario Ferroviario EC PR,EC Juventude RS,pending
-69463286,Football,New Zealand - National League,2026-06-06T00:00:00Z,2026-06-06 02:00,Nomads United AFC,Northern AFC,pending
-69462644,Football,New Zealand - National League,2026-06-06T00:30:00Z,2026-06-06 02:30,Western Suburbs FC,Napier City Rovers AFC,pending
-69463284,Football,New Zealand - National League,2026-06-06T00:45:00Z,2026-06-06 02:45,Dunedin City Royals FC,Christchurch United FC,pending
-68686004,Football,Canada - Canadian Premier League,2026-06-06T02:00:00Z,2026-06-06 04:00,Vancouver FC,Atletico Ottawa,pending
-71069094,Football,Chile - Copa de la Liga,2026-06-06T00:00:00Z,2026-06-06 02:00,Deportes Concepcion,Coquimbo Unido,pending
-70351026,Football,Ecuador - Serie B,2026-06-06T00:00:00Z,2026-06-06 02:00,DSD Santo Domingo,22 de Julio,pending
-69462646,Football,New Zealand - National League,2026-06-06T02:30:00Z,2026-06-06 04:30,Waterside Karori,Island Bay United,pending
-71880230,Football,Uruguay - Segunda Division,2026-06-05T22:00:00Z,2026-06-06 00:00,Plaza Colonia,Huracan FC,pending
+67204390,Baseball,Republic of Korea - KBO League,2026-06-06T08:00:00Z,2026-06-06 10:00,Lotte Giants,Hanwha Eagles,pending
+67204392,Baseball,Republic of Korea - KBO League,2026-06-06T08:00:00Z,2026-06-06 10:00,NC Dinos,LG Twins,pending
+66778152,Baseball,Japan - NPB,2026-06-06T05:00:00Z,2026-06-06 07:00,Chunichi Dragons,Saitama Seibu Lions,pending
+66778156,Baseball,Japan - NPB,2026-06-06T05:00:00Z,2026-06-06 07:00,Hiroshima Toyo Carp,Orix Buffaloes,pending
+66778158,Baseball,Japan - NPB,2026-06-06T05:00:00Z,2026-06-06 07:00,Tokyo Yakult Swallows,Hokkaido Nippon-Ham Fighters,pending
+67204386,Baseball,Republic of Korea - KBO League,2026-06-06T08:00:00Z,2026-06-06 10:00,Doosan Bears,Kiwoom Heroes,pending
+69063612,Baseball,USA - Triple-A Pacific Coast League,2026-06-06T02:05:00Z,2026-06-06 04:05,Las Vegas Aviators,Reno Aces,pending
+63301255,Baseball,USA - MLB,2026-06-06T02:10:00Z,2026-06-06 04:10,Los Angeles Dodgers,Los Angeles Angels,pending
+66778154,Baseball,Japan - NPB,2026-06-06T05:00:00Z,2026-06-06 07:00,Hanshin Tigers,Tohoku Rakuten Golden Eagles,pending
+67204388,Baseball,Republic of Korea - KBO League,2026-06-06T05:00:00Z,2026-06-06 07:00,SSG Landers,KT Wiz,pending
+66778162,Baseball,Japan - NPB,2026-06-06T09:00:00Z,2026-06-06 11:00,Yomiuri Giants,Chiba Lotte Marines,pending
+67204394,Baseball,Republic of Korea - KBO League,2026-06-06T08:00:00Z,2026-06-06 10:00,Kia Tigers,Samsung Lions,pending
+69460646,Football,New Zealand - National League,2026-06-06T03:00:00Z,2026-06-06 05:00,Fencibles United FC,Tauranga City AFC,pending
+69462650,Football,New Zealand - National League,2026-06-06T03:45:00Z,2026-06-06 05:45,Wellington Olympic,Miramar Rangers,pending
+69463288,Football,New Zealand - National League,2026-06-06T03:00:00Z,2026-06-06 05:00,Selwyn United FC,Cashmere Technical,pending
+69460638,Football,New Zealand - National League,2026-06-06T03:00:00Z,2026-06-06 05:00,Auckland City FC,Auckland United FC,pending
+69460644,Football,New Zealand - National League,2026-06-06T03:00:00Z,2026-06-06 05:00,Eastern Suburbs AFC,Melville United AFC,pending
+69460642,Football,New Zealand - National League,2026-06-06T03:00:00Z,2026-06-06 05:00,Bay Olympic,Manukau United FC,pending
 69460648,Football,New Zealand - National League,2026-06-06T03:00:00Z,2026-06-06 05:00,East Coast Bays,Western Springs AFC,pending
 69462648,Football,New Zealand - National League,2026-06-06T03:00:00Z,2026-06-06 05:00,Upper Hutt City FC,Petone FC,pending
-69463288,Football,New Zealand - National League,2026-06-06T03:00:00Z,2026-06-06 05:00,Selwyn United FC,Cashmere Technical,pending
-69460642,Football,New Zealand - National League,2026-06-06T03:30:00Z,2026-06-06 05:30,Bay Olympic,Manukau United FC,pending
-69460638,Football,New Zealand - National League,2026-06-06T03:00:00Z,2026-06-06 05:00,Auckland City FC,Auckland United FC,pending
-69462650,Football,New Zealand - National League,2026-06-06T03:45:00Z,2026-06-06 05:45,Wellington Olympic,Miramar Rangers,pending
+69462646,Football,New Zealand - National League,2026-06-06T02:30:00Z,2026-06-06 04:30,Waterside Karori,Island Bay United,pending
 69463290,Football,New Zealand - National League,2026-06-06T02:45:00Z,2026-06-06 04:45,Ferrymead Bays,Wanaka AFC,pending
-68160598,Football,Australia - Victoria Premier League 1,2026-06-06T04:00:00Z,2026-06-06 06:00,Port Melbourne Sharks,Brunswick City SC,pending
-69460644,Football,New Zealand - National League,2026-06-06T03:00:00Z,2026-06-06 05:00,Eastern Suburbs AFC,Melville United AFC,pending
-69460646,Football,New Zealand - National League,2026-06-06T03:00:00Z,2026-06-06 05:00,Fencibles United FC,Tauranga City AFC,pending
-68160596,Football,Australia - Victoria Premier League 1,2026-06-06T05:00:00Z,2026-06-06 07:00,North Sunshine Eagles FC,Melbourne Knights,pending
-67904182,Football,Australia - Queensland Premier League 2,2026-06-06T07:00:00Z,2026-06-06 09:00,Caloundra FC,Moreton City Excelsior FC 2,pending
-67903712,Football,Australia - Queensland Premier League 1,2026-06-06T08:00:00Z,2026-06-06 10:00,Caboolture FC,Ipswich FC,pending
-67903716,Football,Australia - Queensland Premier League 1,2026-06-06T08:00:00Z,2026-06-06 10:00,Broadbeach United,Holland Park Hawks,pending
-67904184,Football,Australia - Queensland Premier League 2,2026-06-06T08:00:00Z,2026-06-06 10:00,Souths United FC,Virginia United,pending
-67904470,Football,Australia - Queensland Premier League 3 Metro,2026-06-06T08:00:00Z,2026-06-06 10:00,MT Gravatt Hawks,Newmarket SFC,pending
-67903710,Football,Australia - Queensland Premier League 1,2026-06-06T07:00:00Z,2026-06-06 09:00,Brisbane Strikers FC,Robina City,pending
-67904180,Football,Australia - Queensland Premier League 2,2026-06-06T07:00:00Z,2026-06-06 09:00,Samford Rangers,Brisbane Knights,pending
-67903714,Football,Australia - Queensland Premier League 1,2026-06-06T08:00:00Z,2026-06-06 10:00,Sunshine Coast Wanderers,North Star FC,pending
 67692640,Football,"Australia - NSW Premier League, Women",2026-06-06T04:45:00Z,2026-06-06 06:45,Unsw FC,Western City Rangers FC,pending
+67903710,Football,Australia - Queensland Premier League 1,2026-06-06T07:00:00Z,2026-06-06 09:00,Brisbane Strikers FC,Robina City,pending
+67904182,Football,Australia - Queensland Premier League 2,2026-06-06T07:00:00Z,2026-06-06 09:00,Caloundra FC,Moreton City Excelsior FC 2,pending
+67903714,Football,Australia - Queensland Premier League 1,2026-06-06T08:00:00Z,2026-06-06 10:00,Sunshine Coast Wanderers,North Star FC,pending
+67904184,Football,Australia - Queensland Premier League 2,2026-06-06T08:00:00Z,2026-06-06 10:00,Souths United FC,Virginia United,pending
+68160598,Football,Australia - Victoria Premier League 1,2026-06-06T04:00:00Z,2026-06-06 06:00,Port Melbourne Sharks,Brunswick City SC,pending
+68160596,Football,Australia - Victoria Premier League 1,2026-06-06T05:00:00Z,2026-06-06 07:00,North Sunshine Eagles FC,Melbourne Knights,pending
+67904180,Football,Australia - Queensland Premier League 2,2026-06-06T07:00:00Z,2026-06-06 09:00,Samford Rangers,Brisbane Knights,pending
+67903716,Football,Australia - Queensland Premier League 1,2026-06-06T08:00:00Z,2026-06-06 10:00,Broadbeach United,Holland Park Hawks,pending
+67903712,Football,Australia - Queensland Premier League 1,2026-06-06T08:00:00Z,2026-06-06 10:00,Caboolture FC,Ipswich FC,pending
+67904470,Football,Australia - Queensland Premier League 3 Metro,2026-06-06T08:00:00Z,2026-06-06 10:00,MT Gravatt Hawks,Newmarket SFC,pending
+67904186,Football,Australia - Queensland Premier League 2,2026-06-06T08:30:00Z,2026-06-06 10:30,Southside Eagles,Grange Thistle,pending
+71732918,Football,Paraguay - Segunda Division,2026-06-06T13:00:00Z,2026-06-06 15:00,Carapegua,Independiente Campo Grande,pending
+71719768,Football,South Africa - Premiership,2026-06-06T13:00:00Z,2026-06-06 15:00,Milford FC,Cape Town City FC,pending
 67904472,Football,Australia - Queensland Premier League 3 Metro,2026-06-06T08:00:00Z,2026-06-06 10:00,Moggill FC,Redcliffe Dolphins,pending
 68161746,Football,Australia - Victoria Premier League 2,2026-06-06T08:00:00Z,2026-06-06 10:00,Bayside Argonauts FC,Kingston City FC,pending
 68161748,Football,Australia - Victoria Premier League 2,2026-06-06T08:15:00Z,2026-06-06 10:15,Altona City SC,Goulburn Valley Suns,pending
-67904186,Football,Australia - Queensland Premier League 2,2026-06-06T08:30:00Z,2026-06-06 10:30,Southside Eagles,Grange Thistle,pending
-69057136,Baseball,USA - Triple-A International League,2026-06-05T23:05:00Z,2026-06-06 01:05,Jacksonville Jumbo Shrimp,Nashville Sounds,pending
-63303331,Baseball,USA - MLB,2026-06-05T23:10:00Z,2026-06-06 01:10,Miami Marlins,Tampa Bay Rays,pending
-69058120,Baseball,USA - Triple-A International League,2026-06-05T22:05:00Z,2026-06-06 00:05,Worcester Red Sox,Buffalo Bisons,pending
-63299231,Baseball,USA - MLB,2026-06-05T22:40:00Z,2026-06-06 00:40,Detroit Tigers,Seattle Mariners,pending
-69057134,Baseball,USA - Triple-A International League,2026-06-05T22:45:00Z,2026-06-06 00:45,Lehigh Valley IronPigs,Rochester Red Wings,pending
-63301407,Baseball,USA - MLB,2026-06-05T23:05:00Z,2026-06-06 01:05,New York Yankees,Boston Red Sox,pending
-63301249,Baseball,USA - MLB,2026-06-05T23:07:00Z,2026-06-06 01:07,Toronto Blue Jays,Baltimore Orioles,pending
-63301997,Baseball,USA - MLB,2026-06-05T22:40:00Z,2026-06-06 00:40,Philadelphia Phillies,Chicago White Sox,pending
-69055994,Baseball,USA - Triple-A International League,2026-06-05T22:45:00Z,2026-06-06 00:45,Durham Bulls,Charlotte Knights,pending
-69056000,Baseball,USA - Triple-A International League,2026-06-05T23:05:00Z,2026-06-06 01:05,Gwinnett Stripers,Norfolk Tides,pending
-69063604,Baseball,USA - Triple-A Pacific Coast League,2026-06-06T00:05:00Z,2026-06-06 02:05,Oklahoma City Comets,Round Rock Express,pending
-69058124,Baseball,USA - Triple-A International League,2026-06-06T00:07:00Z,2026-06-06 02:07,St. Paul Saints,Indianapolis Indians,pending
-63299195,Baseball,USA - MLB,2026-06-06T00:15:00Z,2026-06-06 02:15,Texas Rangers,Cleveland Guardians,pending
-63302623,Baseball,USA - MLB,2026-06-06T00:15:00Z,2026-06-06 02:15,St. Louis Cardinals,Cincinnati Reds,pending
-63301583,Baseball,USA - MLB,2026-06-05T23:15:00Z,2026-06-06 01:15,Atlanta Braves,Pittsburgh Pirates,pending
-69057138,Baseball,USA - Triple-A International League,2026-06-06T00:05:00Z,2026-06-06 02:05,Memphis Redbirds,Louisville Bats,pending
-69056002,Baseball,USA - Triple-A International League,2026-06-06T00:08:00Z,2026-06-06 02:08,Iowa Cubs,Toledo Mud Hens,pending
-63303571,Baseball,USA - MLB,2026-06-06T00:10:00Z,2026-06-06 02:10,Houston Astros,Athletics,pending
-63301389,Baseball,USA - MLB,2026-06-06T00:15:00Z,2026-06-06 02:15,Minnesota Twins,Kansas City Royals,pending
-69063606,Baseball,USA - Triple-A Pacific Coast League,2026-06-06T00:35:00Z,2026-06-06 02:35,El Paso Chihuahuas,Sugar Land Space Cowboys,pending
-63300949,Baseball,USA - MLB,2026-06-06T00:40:00Z,2026-06-06 02:40,Colorado Rockies,Milwaukee Brewers,pending
-69063612,Baseball,USA - Triple-A Pacific Coast League,2026-06-06T02:05:00Z,2026-06-06 04:05,Las Vegas Aviators,Reno Aces,pending
-63301255,Baseball,USA - MLB,2026-06-06T02:10:00Z,2026-06-06 04:10,Los Angeles Dodgers,Los Angeles Angels,pending
-66778152,Baseball,Japan - NPB,2026-06-06T05:00:00Z,2026-06-06 07:00,Chunichi Dragons,Saitama Seibu Lions,pending
-66778156,Baseball,Japan - NPB,2026-06-06T05:00:00Z,2026-06-06 07:00,Hiroshima Toyo Carp,Orix Buffaloes,pending
-63302201,Baseball,USA - MLB,2026-06-06T01:40:00Z,2026-06-06 03:40,San Diego Padres,New York Mets,pending
-69063608,Baseball,USA - Triple-A Pacific Coast League,2026-06-06T00:35:00Z,2026-06-06 02:35,Salt Lake Bees,Albuquerque Isotopes,pending
-69063610,Baseball,USA - Triple-A Pacific Coast League,2026-06-06T01:45:00Z,2026-06-06 03:45,Sacramento River Cats,Tacoma Rainiers,pending
-66778154,Baseball,Japan - NPB,2026-06-06T05:00:00Z,2026-06-06 07:00,Hanshin Tigers,Tohoku Rakuten Golden Eagles,pending
-63303813,Baseball,USA - MLB,2026-06-06T01:40:00Z,2026-06-06 03:40,Arizona Diamondbacks,Washington Nationals,pending
-66778162,Baseball,Japan - NPB,2026-06-06T09:00:00Z,2026-06-06 11:00,Yomiuri Giants,Chiba Lotte Marines,pending
-66778158,Baseball,Japan - NPB,2026-06-06T05:00:00Z,2026-06-06 07:00,Tokyo Yakult Swallows,Hokkaido Nippon-Ham Fighters,pending
-67204388,Baseball,Republic of Korea - KBO League,2026-06-06T05:00:00Z,2026-06-06 07:00,SSG Landers,KT Wiz,pending
-67204386,Baseball,Republic of Korea - KBO League,2026-06-06T08:00:00Z,2026-06-06 10:00,Doosan Bears,Kiwoom Heroes,pending
-67204390,Baseball,Republic of Korea - KBO League,2026-06-06T08:00:00Z,2026-06-06 10:00,Lotte Giants,Hanwha Eagles,pending
-67204392,Baseball,Republic of Korea - KBO League,2026-06-06T08:00:00Z,2026-06-06 10:00,NC Dinos,LG Twins,pending
-67204394,Baseball,Republic of Korea - KBO League,2026-06-06T08:00:00Z,2026-06-06 10:00,Kia Tigers,Samsung Lions,pending
-71832288,Ice Hockey,USA - AHL,2026-06-06T00:00:00Z,2026-06-06 02:00,Chicago Wolves,Colorado Eagles,pending
-71880154,Ice Hockey,USA - AHL,2026-06-05T23:00:00Z,2026-06-06 01:00,Toronto Marlies,Wilkes-Barre/Scranton Penguins,pending
-71844186,Basketball,Dominican Republic - LNB,2026-06-05T23:30:00Z,2026-06-06 01:30,Metros de Santiago,Caneros del Este,pending
-68096016,Basketball,USA - WNBA,2026-06-05T23:30:00Z,2026-06-06 01:30,Chicago Sky,Connecticut Sun,pending
-71844188,Basketball,Dominican Republic - LNB,2026-06-06T00:00:00Z,2026-06-06 02:00,Gigantes San Francisco De Macoris,Heroes de Moca,pending
-71844190,Basketball,Dominican Republic - LNB,2026-06-06T00:30:00Z,2026-06-06 02:30,Reales de la Vega,Titanes del Distrito Nacional,pending
-70505018,Basketball,USA - NBA,2026-06-06T00:30:00Z,2026-06-06 02:30,San Antonio Spurs,New York Knicks,pending
-68095986,Basketball,USA - WNBA,2026-06-06T02:00:00Z,2026-06-06 04:00,Portland Fire,Phoenix Mercury,pending
-68096172,Basketball,USA - WNBA,2026-06-06T02:00:00Z,2026-06-06 04:00,Los Angeles Sparks,Dallas Wings,pending
+71127930,Football,Australia - Northern Territory Premier League,2026-06-06T10:30:00Z,2026-06-06 12:30,Mindil Aces,Darwin Hearts FC,pending
+71880232,Football,Uruguay - Segunda Division,2026-06-06T13:00:00Z,2026-06-06 15:00,CA Fenix Montevideo,CA River Plate (URU),pending
+71732916,Football,Paraguay - Segunda Division,2026-06-06T13:00:00Z,2026-06-06 15:00,Club Dr Benjamin Aceval,Tacuary Asuncion,pending
+68822958,Football,Brazil - Brasileiro Serie B,2026-06-06T14:00:00Z,2026-06-06 16:00,Criciuma EC SC,Londrina EC PR,pending
+71948122,Esports,Dota - European Pro League,2026-06-06T09:00:00Z,2026-06-06 11:00,G-Time,Summer Bear,pending
+71912694,Esports,League of Legends - LPL,2026-06-06T09:00:00Z,2026-06-06 11:00,Bilibili Gaming,JD Gaming,pending
+71947858,Esports,Counter-Strike - Intel Extreme Masters Cologne,2026-06-06T10:30:00Z,2026-06-06 12:30,9Z Team,Flyquest,pending
+71917968,Esports,Counter-Strike - European Pro League Series,2026-06-06T10:30:00Z,2026-06-06 12:30,Rustec,Young Ninjas,pending
+71947860,Esports,Counter-Strike - Intel Extreme Masters Cologne,2026-06-06T11:30:00Z,2026-06-06 13:30,Pain Gaming,Tyloo,pending
 71841878,Esports,League of Legends - LCK,2026-06-06T08:00:00Z,2026-06-06 10:00,Dplus,Brion,pending
 71941854,Esports,League of Legends - LCP,2026-06-06T09:00:00Z,2026-06-06 11:00,Deep Cross Gaming,GAM Esports,pending
-71912694,Esports,League of Legends - LPL,2026-06-06T09:00:00Z,2026-06-06 11:00,Bilibili Gaming,JD Gaming,pending
-71946652,Tennis,"WTA - WTA S-Hertogenbosch, Netherlands Women Singles",2026-06-06T09:00:00Z,2026-06-06 11:00,"Seidel, Ella","Liu, Claire",pending
-71946644,Tennis,"WTA - WTA S-Hertogenbosch, Netherlands Women Singles",2026-06-06T09:00:00Z,2026-06-06 11:00,"Volynets, Katie","Hibino, Nao",pending
+71947876,Esports,Counter-Strike - Intel Extreme Masters Cologne,2026-06-06T10:30:00Z,2026-06-06 12:30,Team Gamerlegion,Astralis,pending
+71941728,Esports,Dota - BLAST Slam,2026-06-06T10:30:00Z,2026-06-06 12:30,Team Yandex,BetBoom Team,pending
+71931266,Esports,Counter-Strike - United21,2026-06-06T10:30:00Z,2026-06-06 12:30,Chaos,Wraith Pcific,pending
+71947864,Esports,Counter-Strike - Intel Extreme Masters Cologne,2026-06-06T12:30:00Z,2026-06-06 14:30,Monte,Big,pending
+71947868,Esports,Counter-Strike - Intel Extreme Masters Cologne,2026-06-06T13:30:00Z,2026-06-06 15:30,Team Spirit,Betboom Team,pending
+71947872,Esports,Counter-Strike - Intel Extreme Masters Cologne,2026-06-06T12:30:00Z,2026-06-06 14:30,G2 Esports,M80,pending
+71947878,Esports,Counter-Strike - Intel Extreme Masters Cologne,2026-06-06T13:30:00Z,2026-06-06 15:30,Legacy,Mibr,pending
+71948022,Esports,Counter-Strike - Intel Extreme Masters Cologne,2026-06-06T11:30:00Z,2026-06-06 13:30,Fut eSports,B8,pending
+71946654,Esports,Counter-Strike - CCT European Series,2026-06-06T14:00:00Z,2026-06-06 16:00,New Vision,Leo Team,pending
+71947006,Esports,Dota - BLAST Slam,2026-06-06T14:00:00Z,2026-06-06 16:00,Aurora,LGD Gaming,pending
+71947394,Esports,Counter-Strike - CCT European Series,2026-06-06T13:00:00Z,2026-06-06 15:00,Ex-Ruby,100 Thieves,pending
+71947366,Tennis,"WTA - WTA London, Great Britain Women Singles",2026-06-06T10:00:00Z,2026-06-06 12:00,"Hunter, Storm","Sasnovich, Aliaksandra",pending
 71944832,Tennis,"ATP - ATP Stuttgart, Germany Men Singles",2026-06-06T09:00:00Z,2026-06-06 11:00,"Gentzsch, Tom","Onclin, Gauthier",pending
-71944834,Tennis,"ATP - ATP Stuttgart, Germany Men Singles",2026-06-06T09:00:00Z,2026-06-06 11:00,"Basilashvili, Nikoloz","Huesler, Marc-Andrea",pending
 71828764,Tennis,"Challenger - ATP Challenger Centurion 2, South Africa Men Doubles",2026-06-06T09:00:00Z,2026-06-06 11:00,Azkara A / Duran T,Badenhorst D / Koenig L,pending
 71750530,Tennis,"Challenger - ATP Challenger Prostejov, Czech Republic Men Singles",2026-06-06T09:00:00Z,2026-06-06 11:00,"Barton, Hynek","Molcan, Alex",pending
 71946650,Tennis,"WTA - WTA S-Hertogenbosch, Netherlands Women Singles",2026-06-06T09:00:00Z,2026-06-06 11:00,"Minnen, Greet","Tomova, Viktoriya",pending
+71946652,Tennis,"WTA - WTA S-Hertogenbosch, Netherlands Women Singles",2026-06-06T09:00:00Z,2026-06-06 11:00,"Seidel, Ella","Liu, Claire",pending
+71750462,Tennis,"Challenger - ATP Challenger Bad Rappenau, Germany Men Singles",2026-06-06T10:00:00Z,2026-06-06 12:00,"Squire, Henri","Nava, Emilio",pending
+71944834,Tennis,"ATP - ATP Stuttgart, Germany Men Singles",2026-06-06T09:00:00Z,2026-06-06 11:00,"Basilashvili, Nikoloz","Huesler, Marc-Andrea",pending
+71947362,Tennis,"WTA - WTA London, Great Britain Women Singles",2026-06-06T09:00:00Z,2026-06-06 11:00,"Inglis, Maddison","Parks, Alycia",pending
+71946644,Tennis,"WTA - WTA S-Hertogenbosch, Netherlands Women Singles",2026-06-06T09:00:00Z,2026-06-06 11:00,"Volynets, Katie","Hibino, Nao",pending
+71947368,Tennis,"WTA - WTA London, Great Britain Women Singles",2026-06-06T10:00:00Z,2026-06-06 12:00,"Ruzic, Antonia","Ito, Aoi",pending
+71947370,Tennis,"WTA - WTA London, Great Britain Women Singles",2026-06-06T10:00:00Z,2026-06-06 12:00,"Watson, Heather","Haddad Maia, Beatriz",pending
+71947372,Tennis,"WTA - WTA London, Great Britain Women Singles",2026-06-06T10:00:00Z,2026-06-06 12:00,"Zhang, Shuai","Klugman, Hannah",pending
+71749986,Tennis,"WTA 125K - WTA 125K Birmingham, Great Britain Women Singles",2026-06-06T10:00:00Z,2026-06-06 12:00,"Eala, Alexandra","Masarova, Rebeka",pending
+71749998,Tennis,"WTA 125K - WTA 125K Birmingham, Great Britain Women Singles",2026-06-06T10:00:00Z,2026-06-06 12:00,"Bartunkova, Nikola","Krueger, Ashlyn",pending
+71946646,Tennis,"WTA - WTA S-Hertogenbosch, Netherlands Women Singles",2026-06-06T10:10:00Z,2026-06-06 12:10,"Vrancken Peeters, Anouck","Koevermans, Anouk",pending
+71828326,Tennis,"Challenger - ATP Challenger Centurion 2, South Africa Men Singles",2026-06-06T10:10:00Z,2026-06-06 12:10,"Montsi, Khololwam","Donski, Alexander",pending
+71750532,Tennis,"Challenger - ATP Challenger Prostejov, Czech Republic Men Singles",2026-06-06T10:10:00Z,2026-06-06 12:10,"Baez, Sebastian","Sanchez Izquierdo, Nikolas",pending
+71946642,Tennis,"WTA - WTA S-Hertogenbosch, Netherlands Women Singles",2026-06-06T10:10:00Z,2026-06-06 12:10,"Lee, Carol Young Suh","Zhu, Lin",pending
+71946648,Tennis,"WTA - WTA S-Hertogenbosch, Netherlands Women Singles",2026-06-06T10:10:00Z,2026-06-06 12:10,"Vandewinkel, Hanne","Barthel, Mona",pending
+71947378,Tennis,"WTA - WTA London, Great Britain Women Singles",2026-06-06T11:10:00Z,2026-06-06 13:10,"Gorgodze, Ekaterine","Rakhimova, Kamilla",pending
+71947380,Tennis,"WTA - WTA London, Great Britain Women Singles",2026-06-06T11:10:00Z,2026-06-06 13:10,"Maria, Tatjana","Miyazaki, Yuriko Lily",pending
+71828328,Tennis,"Challenger - ATP Challenger Centurion 2, South Africa Men Singles",2026-06-06T11:20:00Z,2026-06-06 13:20,"Mayot, Harold","Henning, Philip",pending
+71946640,Tennis,"WTA - WTA S-Hertogenbosch, Netherlands Women Singles",2026-06-06T11:20:00Z,2026-06-06 13:20,"Yuan, Yue","Montgomery, Robin",pending
+71750464,Tennis,"Challenger - ATP Challenger Bad Rappenau, Germany Men Singles",2026-06-06T11:10:00Z,2026-06-06 13:10,"Dedura-Palomero, Diego","Mikrut, Luka",pending
+71944836,Tennis,"ATP - ATP Stuttgart, Germany Men Singles",2026-06-06T10:30:00Z,2026-06-06 12:30,"Castelnuovo, Luca","Rodionov, Jurij",pending
+71944838,Tennis,"ATP - ATP Stuttgart, Germany Men Singles",2026-06-06T10:30:00Z,2026-06-06 12:30,"Shimabukuro, Sho","Sakellaridis, Stefanos",pending
+71947364,Tennis,"WTA - WTA London, Great Britain Women Singles",2026-06-06T11:10:00Z,2026-06-06 13:10,"Jacquemot, Elsa","Guo, Hanyu",pending
+71944828,Tennis,"ATP - ATP Stuttgart, Germany Men Singles",2026-06-06T11:40:00Z,2026-06-06 13:40,"Hsu, Yu Hsiou","Galarneau, Alexis",pending
+71750556,Tennis,"Challenger - ATP Challenger Prostejov, Czech Republic Men Doubles",2026-06-06T11:20:00Z,2026-06-06 13:20,Liutarevich I / Pieczonka F,Karol M / Paulson A,pending
+71946638,Tennis,"WTA - WTA S-Hertogenbosch, Netherlands Women Singles",2026-06-06T12:30:00Z,2026-06-06 14:30,"Du Pree, Britt","Garland, Joanna",pending
+71944830,Tennis,"ATP - ATP Stuttgart, Germany Men Singles",2026-06-06T12:50:00Z,2026-06-06 14:50,"Safiullin, Roman","Bar Biryukov, Petr",pending
+71944842,Tennis,"ATP - ATP Stuttgart, Germany Men Singles",2026-06-06T12:50:00Z,2026-06-06 14:50,"Sonego, Lorenzo","Alkaya, Mert",pending
+71563926,Tennis,WTA - French Open Women Singles,2026-06-06T13:00:00Z,2026-06-06 15:00,"Chwalinska, Maja","Andreeva, Mirra",pending
+71944840,Tennis,"ATP - ATP Stuttgart, Germany Men Singles",2026-06-06T11:40:00Z,2026-06-06 13:40,"Herbert, Pierre-Hugues","Glinka, Daniil",pending
+71749940,Tennis,"Challenger - ATP Challenger Birmingham, Great Britain Men Singles",2026-06-06T12:00:00Z,2026-06-06 14:00,"Virtanen, Otto","Majchrzak, Kamil",pending
+71749942,Tennis,"Challenger - ATP Challenger Birmingham, Great Britain Men Singles",2026-06-06T12:00:00Z,2026-06-06 14:00,"Fery, Arthur","Bu, Yunchaokete",pending
+71750508,Tennis,"Challenger - ATP Challenger Bad Rappenau, Germany Men Doubles",2026-06-06T13:00:00Z,2026-06-06 15:00,Jung J / Uesugi K,Barrena A / Nava E,pending
+71749958,Tennis,"Challenger - ATP Challenger Birmingham, Great Britain Men Doubles",2026-06-06T13:10:00Z,2026-06-06 15:10,Chandrasekar A / Yuzuki T,Jones B / Paris J,pending
+71750256,Tennis,"Challenger - ATP Challenger Perugia, Italy Men Doubles",2026-06-06T12:30:00Z,2026-06-06 14:30,Gille S / Verbeek S,Seggerman R / Winegar T,pending
+71761486,Tennis,"WTA 125K - WTA 125K Foggia, Italy Women Doubles",2026-06-06T13:30:00Z,2026-06-06 15:30,Cascino E / Radisic N,Cho I-H / Cho Y T,pending
+71135870,Handball,International - Champions League Women,2026-06-06T13:00:00Z,2026-06-06 15:00,Metz Handball,CSM Bucuresti,pending
