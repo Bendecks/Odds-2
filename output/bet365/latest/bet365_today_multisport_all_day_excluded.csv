@@ -1,43 +1,41 @@
 sport_query,event_id,date_denmark,home,away,league,sport,bookmaker_count,status,reason
-football,71928694,2026-06-08 14:30,Montevideo Wanderers,Racing Club Montevideo,"Uruguay - Tercera Division, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,70355940,2026-06-08 15:00,FC Pakhtakor Tashkent II,Respublika Football Academy,Uzbekistan - Pro Liga,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,71928688,2026-06-08 15:00,Albion FC,Club Oriental de Football,"Uruguay - Tercera Division, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,71914002,2026-06-08 15:00,Japan,Ukraine,International Youth - U21 Friendly Games,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,71562034,2026-06-08 15:00,Thailand,Malaysia,International Youth - U19 AFF Championship,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,70771314,2026-06-08 15:00,Ivory Coast,Canada Youth,International Youth - Toulon Tournament,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,71928690,2026-06-08 15:30,Defensor Sporting,Nacional de Montevideo,"Uruguay - Tercera Division, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,71928692,2026-06-08 16:00,Progreso,Boston River,"Uruguay - Tercera Division, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,71885946,2026-06-08 16:00,Zed FC,Wadi Degla SC,Egypt - League Cup,Football,0,pending,not_good_competition_or_low_coverage
-football,70314492,2026-06-08 16:00,PFK Metallurg Bekabad,Fardu Ferghana,Uzbekistan - Pro Liga,Football,0,pending,not_good_competition_or_low_coverage
-football,71217910,2026-06-08 18:00,Dfk Dainava Alytus,FK Garliava,Lithuania - 1 Lyga,Football,0,pending,not_good_competition_or_low_coverage
-football,71973814,2026-06-08 18:00,Uzbekistan,USA,International Youth - U23 Friendly Games,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,71943054,2026-06-08 17:30,Tunisia,Algeria,International Youth - U20 Friendly Games,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
 football,71860298,2026-06-08 18:00,Norway,Finland,International Youth - U21 Friendly Games,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,71217910,2026-06-08 18:00,Dfk Dainava Alytus,FK Garliava,Lithuania - 1 Lyga,Football,0,pending,not_good_competition_or_low_coverage
 football,71899596,2026-06-08 18:00,FUS Rabat,Difaa Hassani d'el-Jadida,Morocco - Botola Pro D1,Football,0,pending,not_good_competition_or_low_coverage
+football,71973814,2026-06-08 18:00,Uzbekistan,USA,International Youth - U23 Friendly Games,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
 football,71860296,2026-06-08 18:15,Italy,Albania,International Youth - U21 Friendly Games,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
 football,70771316,2026-06-08 18:30,Venezuela,Portugal,International Youth - Toulon Tournament,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
 football,71866426,2026-06-08 18:30,Sweden,Mexico,"International Youth - U23 Friendly Games, Women",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,69539712,2026-06-08 19:00,Taftea IK,Umeaa FC Akademi,"Sweden - Division 2, Promotion Playoffs",Football,0,pending,not_good_competition_or_low_coverage
 football,68310952,2026-06-08 19:00,FC Stockholm Internazionale,Vasalunds IF,"Sweden - Ettan, Relegation/Promotion",Football,0,pending,not_good_competition_or_low_coverage
 football,68311658,2026-06-08 19:00,Angelholms FF,BK Olympic,"Sweden - Ettan, Relegation/Promotion",Football,0,pending,not_good_competition_or_low_coverage
-football,68311652,2026-06-08 19:30,Utsiktens BK,FC Rosengaard 1917,"Sweden - Ettan, Relegation/Promotion",Football,0,pending,not_good_competition_or_low_coverage
+football,69539712,2026-06-08 19:00,Taftea IK,Umeaa FC Akademi,"Sweden - Division 2, Promotion Playoffs",Football,0,pending,not_good_competition_or_low_coverage
 football,68310954,2026-06-08 19:30,FC Jarfalla,IFK Stocksund,"Sweden - Ettan, Relegation/Promotion",Football,0,pending,not_good_competition_or_low_coverage
+football,68311652,2026-06-08 19:30,Utsiktens BK,FC Rosengaard 1917,"Sweden - Ettan, Relegation/Promotion",Football,0,pending,not_good_competition_or_low_coverage
 football,71885948,2026-06-08 19:30,Enppi Club,Al Masry Club,Egypt - League Cup,Football,0,pending,not_good_competition_or_low_coverage
-football,68158918,2026-06-08 20:00,CA Union Santa Fe Reserve,Atletico Tucuman Reserve,"Argentina - Copa Proyeccion Final, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,68158908,2026-06-08 20:00,Racing Club Avellaneda,CA Banfield,"Argentina - Copa Proyeccion Final, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
 football,68158916,2026-06-08 20:00,Gimnasia de la Plata Reserve,CD Godoy Cruz,"Argentina - Copa Proyeccion Final, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,71943054,2026-06-08 20:00,Tunisia,Algeria,International Youth - U20 Friendly Games,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,71410432,2026-06-08 20:00,Monsoon FC RS,FC Santa Cruz RS,Brazil - Copa FGF,Football,0,pending,not_good_competition_or_low_coverage
-football,71928698,2026-06-08 20:00,Colon FC Reserve,Penarol Montevideo,"Uruguay - Tercera Division, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,71928696,2026-06-08 20:00,La Luz FC Reserves,CA River Plate (URU),"Uruguay - Tercera Division, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,68158918,2026-06-08 20:00,CA Union Santa Fe Reserve,Atletico Tucuman Reserve,"Argentina - Copa Proyeccion Final, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
 football,68158924,2026-06-08 20:00,Independiente Rivadavia de Mendoza Reserve,CA Quilmes Reserve,"Argentina - Copa Proyeccion Final, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
 football,68158934,2026-06-08 20:00,Defensa Y Justicia Reserve,Ferro Carril Oeste,"Argentina - Copa Proyeccion Final, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
 football,71899600,2026-06-08 20:00,Rs Berkane,Ittihad Tanger,Morocco - Botola Pro D1,Football,0,pending,not_good_competition_or_low_coverage
-football,68158908,2026-06-08 20:00,Racing Club Avellaneda,CA Banfield,"Argentina - Copa Proyeccion Final, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,71410432,2026-06-08 20:00,Monsoon FC RS,FC Santa Cruz RS,Brazil - Copa FGF,Football,0,pending,not_good_competition_or_low_coverage
+football,71928696,2026-06-08 20:00,La Luz FC Reserves,CA River Plate (URU),"Uruguay - Tercera Division, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,71928698,2026-06-08 20:00,Colon FC Reserve,Penarol Montevideo,"Uruguay - Tercera Division, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
 football,71834942,2026-06-08 20:15,Germany,Denmark,"International Youth - U23 Friendly Games, Women",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
 football,71601488,2026-06-08 20:45,Netherlands,Uzbekistan,International - Int. Friendly Games,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
 football,71962746,2026-06-08 21:00,Deportivo Shalon,Club Ingenieros,Bolivia - Copa Simon Bolivar,Football,0,pending,not_good_competition_or_low_coverage
 football,71307342,2026-06-08 21:10,France,Northern Ireland,International - Int. Friendly Games,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
 football,71899602,2026-06-08 22:00,Olympique Dcheira,Hassania Union Sport Agadir,Morocco - Botola Pro D1,Football,0,pending,not_good_competition_or_low_coverage
-tennis,71947228,2026-06-08 17:10,"Rowinska, Malwina","Santos, Lillian",UTR Women - UTR Boca Raton W05,Tennis,0,pending,not_good_competition_or_low_coverage
+football,71702730,2026-06-09 00:00,Atletico Nacional,CD Junior FC,"Colombia - Primera A, Apertura",Football,0,pending,not_good_competition_or_low_coverage
+football,71750194,2026-06-09 00:00,Liverpool Montevideo,Cerro Largo FC,Uruguay - Primera Division,Football,0,pending,not_good_competition_or_low_coverage
+football,69091594,2026-06-09 01:00,Brave SC,Sporting Jax II,USA - USL League Two,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,68097952,2026-06-09 01:30,Deportes Temuco,Curico Unido,Chile - Primera B,Football,0,pending,not_good_competition_or_low_coverage
+football,68097958,2026-06-09 01:30,Union Espanola,Union San Felipe,Chile - Primera B,Football,0,pending,not_good_competition_or_low_coverage
+football,68156888,2026-06-09 02:00,Minnesota United FC 2,Sporting Kansas City II,USA - MLS Next Pro,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,68989382,2026-06-09 02:00,RKC Third Coast,Edgewater Castle,USA - USL W League,Football,0,pending,not_good_competition_or_low_coverage
+football,71772750,2026-06-09 02:00,Milwaukee Torrent,Wisconsin Conquerors FC,USA - National Premier Soccer League,Football,0,pending,not_good_competition_or_low_coverage
+football,71270522,2026-06-09 04:00,Spain,Peru,International - Int. Friendly Games,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
 tennis,71947232,2026-06-08 19:00,"Zamburek, Ana Carmen","Jarvis-Tredgett, Cookie",UTR Women - UTR Boca Raton W05,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,71945026,2026-06-08 19:30,"Borruel, Daniela","Manning, Aya",UTR Women - UTR PTT Newport Beach Women 14,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,71947444,2026-06-08 19:30,"Calvelo, Xavier","Yang, Robert",UTR Men - UTR PTT Newport Beach Men 14,Tennis,0,pending,not_good_competition_or_low_coverage
@@ -45,15 +43,17 @@ tennis,71947262,2026-06-08 20:10,"Chennamsetty, Shravani","Nask, Juliette",UTR W
 tennis,71947272,2026-06-08 20:10,"Arant, Avery","Olson, Brooklyn",UTR Women - UTR Boca Raton W05,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,71945036,2026-06-08 21:30,"Gardiner, Kate","Harmon, Alexia",UTR Women - UTR PTT Newport Beach Women 14,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,71947492,2026-06-08 21:30,"Sachdev, Rohan","Fuentes Vasquez, Juan Carlos",UTR Men - UTR PTT Newport Beach Men 14,Tennis,0,pending,not_good_competition_or_low_coverage
-basketball,67608586,2026-06-08 12:00,Waverley Falcons,Diamond Valley Eagles,"Australia - NBL1, South",Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,71828622,2026-06-08 14:00,Pelita Jaya Jakarta,Dewa United Banten,Indonesia - IBL,Basketball,0,pending,not_good_competition_or_low_coverage
+tennis,71945028,2026-06-09 03:30,"Kiss, Camille","Reynoldson, Ellison",UTR Women - UTR PTT Newport Beach Women 14,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71947450,2026-06-09 03:30,"Djakouris, Antreas","Cruz, Cesar",UTR Men - UTR PTT Newport Beach Men 14,Tennis,0,pending,not_good_competition_or_low_coverage
 basketball,71916736,2026-06-08 17:50,BC Lietkabelis Panevezys,BC Neptunas Klaipeda,Lithuania - LKL,Basketball,0,pending,not_good_competition_or_low_coverage
+basketball,71768872,2026-06-08 18:00,BK Pardubice,Basketball Nymburk,Czech Republic - NBL,Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,71828022,2026-06-08 20:00,BC Olympiakos Piraeus,Panathinaikos BC,Greece - Greek Basketball League,Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,71874754,2026-06-08 20:15,Legia Warszawa,Basket Zielona Gora,Poland - PLK,Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,71813934,2026-06-08 20:30,Antwerp Giants,BC Oostende,Belgium - BNXT Belgian League,Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,71917694,2026-06-08 21:00,Nanterre 92,AS Monaco,France - Pro A,Basketball,0,pending,not_good_competition_or_low_coverage
-cricket,70974336,2026-06-08 12:30,Jb Bruges,Liege Red Lions,Belgium - EUT20 Belgium,Cricket,0,pending,not_good_competition_or_low_coverage
-cricket,70974338,2026-06-08 16:30,Antwerp Anchors,Ghent Gladiators,Belgium - EUT20 Belgium,Cricket,0,pending,not_good_competition_or_low_coverage
+basketball,71116920,2026-06-09 02:00,Aguada Santeros,Osos de Manati,Puerto Rico - BSN,Basketball,0,pending,not_good_competition_or_low_coverage
+basketball,71948872,2026-06-09 02:30,CD Espanol Osorno,CD Atletico Puerto Varas,Chile - Liga Nacional,Basketball,0,pending,not_good_competition_or_low_coverage
+basketball,71976172,2026-06-09 03:30,Roswell,AaB Jaguars Santa Ana,Costa Rica - LSB,Basketball,0,pending,not_good_competition_or_low_coverage
 cricket,71260862,2026-06-08 21:30,West Indies,Sri Lanka,International - ODI Series West Indies vs Sri Lanka,Cricket,0,pending,not_good_competition_or_low_coverage
 rugby-union,,,,,,,,,"HTTP 400: {""error"":""Invalid sport slug""}"
 rugby-league,,,,,,,,,"HTTP 400: {""error"":""Invalid sport slug""}"
