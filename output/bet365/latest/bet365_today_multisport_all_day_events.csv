@@ -1,121 +1,97 @@
 event_id,sport,league,date_utc,date_denmark,home,away,status
-71957940,Tennis,"WTA - S-Hertogenbosch, Netherlands",2026-06-09T10:55:00Z,2026-06-09 12:55,"Krejcikova, Barbora","Zarazua, Renata",pending
-71962282,Tennis,"WTA - S-Hertogenbosch, Netherlands, Doubles",2026-06-09T10:55:00Z,2026-06-09 12:55,Alexandrova E / Joint M,Aoyama S / Liang E,pending
-71958006,Tennis,"ATP - S-Hertogenbosch, Netherlands",2026-06-09T11:00:00Z,2026-06-09 13:00,"Zhang, Zhizhen","Brooksby, Jenson",pending
-71975498,Tennis,"WTA - London, Great Britain",2026-06-09T11:00:00Z,2026-06-09 13:00,"Raducanu, Emma","Blinkova, Anna",pending
-71961812,Tennis,"WTA - London, Great Britain, Doubles",2026-06-09T11:00:00Z,2026-06-09 13:00,Guo H / Mladenovic K,Muhammad A / Stollar F,pending
-71974914,Tennis,"WTA 125K - Modena, Italy",2026-06-09T11:00:00Z,2026-06-09 13:00,"Zidansek, Tamara","Urgesi, Federica",pending
-71957938,Tennis,"WTA - S-Hertogenbosch, Netherlands",2026-06-09T10:55:00Z,2026-06-09 12:55,"Korpatsch, Tamara","Ruse, Elena-Gabriela",pending
-71958008,Tennis,"ATP - S-Hertogenbosch, Netherlands",2026-06-09T10:55:00Z,2026-06-09 12:55,"Griekspoor, Tallon","Van de Zandschulp, Botic",pending
-71975496,Tennis,"WTA - London, Great Britain",2026-06-09T11:00:00Z,2026-06-09 13:00,"Jovic, Iva","Ruzic, Antonia",pending
-71974706,Tennis,"WTA - S-Hertogenbosch, Netherlands",2026-06-09T10:55:00Z,2026-06-09 12:55,"Bartunkova, Nikola","Vandewinkel, Hanne",pending
-71998446,Tennis,"WTA 125K - Ilkley, Great Britain",2026-06-09T12:00:00Z,2026-06-09 14:00,"Sun, Lulu","McDonald, Ella",pending
-71958074,Tennis,"ATP - Stuttgart, Germany",2026-06-09T12:10:00Z,2026-06-09 14:10,"Gentzsch, Tom","Hijikata, Rinky",pending
-71974904,Tennis,"WTA 125K - Modena, Italy",2026-06-09T11:00:00Z,2026-06-09 13:00,"Bassols Ribera, Marina","Semenistaja, Darja",pending
-71973824,Tennis,"ATP - Stuttgart, Germany",2026-06-09T11:20:00Z,2026-06-09 13:20,"Struff, Jan-Lennard","Galarneau, Alexis",pending
-71974920,Tennis,"WTA 125K - Modena, Italy",2026-06-09T12:00:00Z,2026-06-09 14:00,"Salkova, Dominika","Tubello, Alice",pending
-71957334,Tennis,"ATP - Stuttgart, Germany, Doubles",2026-06-09T12:05:00Z,2026-06-09 14:05,Kirkov V / Miedler L,Demoliner M / Melo M,pending
-71957944,Tennis,"WTA - S-Hertogenbosch, Netherlands",2026-06-09T12:10:00Z,2026-06-09 14:10,"Bouzas Maneiro, Jessica","Tomljanovic, Ajla",pending
-71958018,Tennis,"ATP - S-Hertogenbosch, Netherlands",2026-06-09T12:10:00Z,2026-06-09 14:10,"Hurkacz, Hubert","Fucsovics, Marton",pending
-71975494,Tennis,"WTA - London, Great Britain",2026-06-09T11:10:00Z,2026-06-09 13:10,"Zhang, Shuai","Eala, Alexandra",pending
-71961796,Tennis,"WTA 125K - Ilkley, Great Britain",2026-06-09T11:50:00Z,2026-06-09 13:50,"Kalieva, Elvina","Krueger, Ashlyn",pending
-71961836,Tennis,"WTA - London, Great Britain",2026-06-09T12:10:00Z,2026-06-09 14:10,"Siegemund, Laura","Jones, Francesca",pending
-71974912,Tennis,"WTA 125K - Modena, Italy",2026-06-09T12:10:00Z,2026-06-09 14:10,"Gao, Xinyu","Bronzetti, Lucia",pending
-71974718,Tennis,"ATP - S-Hertogenbosch, Netherlands",2026-06-09T12:30:00Z,2026-06-09 14:30,"McCabe, James","Bergs, Zizou",pending
-71957948,Tennis,"WTA - S-Hertogenbosch, Netherlands",2026-06-09T12:30:00Z,2026-06-09 14:30,"Navarro, Emma","McNally, Caty",pending
-71961840,Tennis,"WTA - London, Great Britain",2026-06-09T12:35:00Z,2026-06-09 14:35,"Stojsavljevic, Mika","Kostyuk, Marta",pending
-71974932,Tennis,"Challenger - San Miguel de Tucuman, Argentina, Qualifying",2026-06-09T13:00:00Z,2026-06-09 15:00,"Heredia, Samuel","Cundom, Julian",pending
-71975384,Tennis,"WTA 125K - Modena, Italy",2026-06-09T12:10:00Z,2026-06-09 14:10,"Bosio, Victoria","Brancaccio, Nuria",pending
-71975504,Tennis,"WTA - London, Great Britain",2026-06-09T12:20:00Z,2026-06-09 14:20,"Sakkari, Maria","Maria, Tatjana",pending
-71958072,Tennis,"ATP - Stuttgart, Germany",2026-06-09T13:00:00Z,2026-06-09 15:00,"Altmaier, Daniel","Tiafoe, Frances",pending
-71976202,Tennis,"Challenger - San Miguel de Tucuman, Argentina, Qualifying",2026-06-09T13:00:00Z,2026-06-09 15:00,"Chelia, Benjamin","Martinez, Tomas",pending
-71961792,Tennis,"WTA 125K - Ilkley, Great Britain",2026-06-09T13:10:00Z,2026-06-09 15:10,"Xu, Mingge","Mandlik, Elizabeth",pending
-71998442,Tennis,"WTA 125K - Ilkley, Great Britain",2026-06-09T13:10:00Z,2026-06-09 15:10,"Preston, Taylah","Tan, Harmony",pending
-71975502,Tennis,"WTA - London, Great Britain",2026-06-09T13:20:00Z,2026-06-09 15:20,"Bouzkova, Marie","Kudermetova, Polina",pending
-71974910,Tennis,"WTA 125K - Modena, Italy",2026-06-09T13:20:00Z,2026-06-09 15:20,"Lazaro Garcia, Andrea","Grabher, Julia",pending
-71975394,Tennis,"Challenger - San Miguel de Tucuman, Argentina, Qualifying",2026-06-09T13:00:00Z,2026-06-09 15:00,"Rodriguez Rodriguez, Johan Alexander","Leite, Wilson",pending
-71998440,Tennis,"WTA 125K - Ilkley, Great Britain",2026-06-09T12:40:00Z,2026-06-09 14:40,"Shymanovich, Iryna","Tararudee, Lanlana",pending
-71974924,Tennis,"WTA 125K - Modena, Italy",2026-06-09T13:10:00Z,2026-06-09 15:10,"Romero Gormaz, Leyre","You, Xiaodi",pending
-71957946,Tennis,"WTA - S-Hertogenbosch, Netherlands",2026-06-09T13:20:00Z,2026-06-09 15:20,"Boisson, Lois","Sierra, Solana",pending
-71958016,Tennis,"ATP - S-Hertogenbosch, Netherlands",2026-06-09T13:20:00Z,2026-06-09 15:20,"Virtanen, Otto","Majchrzak, Kamil",pending
-71958014,Tennis,"ATP - S-Hertogenbosch, Netherlands",2026-06-09T14:00:00Z,2026-06-09 16:00,"Boogaard, Thijs","Wu, Yibing",pending
-71975230,Tennis,"WTA 125K - Ilkley, Great Britain, Doubles",2026-06-09T14:20:00Z,2026-06-09 16:20,Harrison C / Osborne A,Kuwata H / Sawangkaew M,pending
-71998450,Tennis,"WTA 125K - Ilkley, Great Britain",2026-06-09T14:20:00Z,2026-06-09 16:20,"Martincova, Tereza","Swan, Katie",pending
-71975232,Tennis,"WTA 125K - Ilkley, Great Britain, Doubles",2026-06-09T15:00:00Z,2026-06-09 17:00,Corley I / Ngounoue C,Brooks M / Rajecki A,pending
-71957934,Tennis,"WTA - S-Hertogenbosch, Netherlands",2026-06-09T14:00:00Z,2026-06-09 16:00,"Potapova, Anastasia","Lamens, Suzan",pending
-71974926,Tennis,"WTA 125K - Modena, Italy",2026-06-09T14:30:00Z,2026-06-09 16:30,"Jimenez Kasintseva, Victoria","Pieri, Jessica",pending
-71958078,Tennis,"ATP - Stuttgart, Germany",2026-06-09T15:00:00Z,2026-06-09 17:00,"Kyrgios, Nick","Moutet, Corentin",pending
-71962328,Tennis,"Challenger - San Miguel de Tucuman, Argentina",2026-06-09T15:00:00Z,2026-06-09 17:00,"Justo, Guido Ivan","Aguilar Cardozo, Joaquin",pending
-71961790,Tennis,"WTA 125K - Ilkley, Great Britain",2026-06-09T15:25:00Z,2026-06-09 17:25,"Jones, Emerson","Galfi, Dalma",pending
-71958076,Tennis,"ATP - Stuttgart, Germany",2026-06-09T14:00:00Z,2026-06-09 16:00,"Dedura-Palomero, Diego","Duckworth, James",pending
-71976326,Tennis,"Challenger - San Miguel de Tucuman, Argentina, Qualifying",2026-06-09T14:10:00Z,2026-06-09 16:10,"Giamichelle, Santiago","Cigarran, Thiago",pending
-71974922,Tennis,"WTA 125K - Modena, Italy",2026-06-09T16:00:00Z,2026-06-09 18:00,"Pedone, Giorgia","Sherif Ahmed Abdelaziz, Maiar",pending
-71962318,Tennis,"Challenger - San Miguel de Tucuman, Argentina",2026-06-09T16:10:00Z,2026-06-09 18:10,"Mena, Facundo","Rodriguez, Lorenzo Joaquin",pending
-71962322,Tennis,"Challenger - San Miguel de Tucuman, Argentina",2026-06-09T16:10:00Z,2026-06-09 18:10,"Bennani, Karim","Rodriguez Taverna, Santiago",pending
-71962326,Tennis,"Challenger - San Miguel de Tucuman, Argentina",2026-06-09T17:20:00Z,2026-06-09 19:20,"Estevez, Juan","Soto, Matias",pending
-71975388,Tennis,"WTA 125K - Modena, Italy",2026-06-09T18:30:00Z,2026-06-09 20:30,"Basiletti, Noemi","Lepchenko, Varvara",pending
-71962310,Tennis,"Challenger - San Miguel de Tucuman, Argentina",2026-06-09T22:00:00Z,2026-06-10 00:00,"Goity Zapico, Segundo","Coria, Federico",pending
-4111618462,Esports,League of Legends - EMEA Masters Spring,2026-06-09T15:00:00Z,2026-06-09 17:00,Frites Esports Club,BOMBA Team,pending
-6740049045,Esports,League of Legends - EMEA Masters Spring,2026-06-09T15:00:00Z,2026-06-09 17:00,E WIE EINFACH E-SPORTS,GOAL,pending
-7166827658,Esports,League of Legends - EMEA Masters Spring,2026-06-09T15:00:00Z,2026-06-09 17:00,Karmine Corp Blue,Verdant,pending
 7448399960,Esports,Counter-Strike - Cologne Major,2026-06-09T17:00:00Z,2026-06-09 19:00,BIG,B8,pending
-8025916181,Esports,Counter-Strike - Cologne Major,2026-06-09T12:00:00Z,2026-06-09 14:00,Monte,paiN,pending
-5303437426,Esports,Counter-Strike - Cologne Major,2026-06-09T14:30:00Z,2026-06-09 16:30,TYLOO,Legacy,pending
 4252555008,Esports,Counter-Strike - Series 4,2026-06-09T17:00:00Z,2026-06-09 19:00,PsychoFace,GenOne,pending
 7019430095,Esports,Valorant - Masters London,2026-06-09T17:00:00Z,2026-06-09 19:00,Global Esports,FULL SENSE,pending
-6856808336,Esports,Counter-Strike - Series 4,2026-06-09T11:00:00Z,2026-06-09 13:00,ex-RUBY,RUSTEC,pending
-5574814688,Esports,Counter-Strike - Series 4,2026-06-09T14:00:00Z,2026-06-09 16:00,Virtus.pro,Oxuji Esports,pending
+4111618462,Esports,League of Legends - EMEA Masters Spring,2026-06-09T18:00:00Z,2026-06-09 20:00,Frites Esports Club,BOMBA Team,pending
+7166827658,Esports,League of Legends - EMEA Masters Spring,2026-06-09T18:00:00Z,2026-06-09 20:00,Karmine Corp Blue,Verdant,pending
+5303437426,Esports,Counter-Strike - Cologne Major,2026-06-09T14:30:00Z,2026-06-09 16:30,TYLOO,Legacy,pending
+6740049045,Esports,League of Legends - EMEA Masters Spring,2026-06-09T15:00:00Z,2026-06-09 17:00,E WIE EINFACH E-SPORTS,GOAL,pending
 7811697903,Esports,League of Legends - Split 1,2026-06-09T20:00:00Z,2026-06-09 22:00,Golden Lions,Volticons,pending
-65804894,Football,"International - FIFA World Cup, Women, Qualification, UEFA, Gr. A1",2026-06-09T17:00:00Z,2026-06-09 19:00,Serbia,Denmark,pending
-65454464,Football,"International - FIFA World Cup, Women, Qualification, UEFA, Gr. B1",2026-06-09T17:00:00Z,2026-06-09 19:00,Wales,Czechia,pending
-71889086,Football,"Ukraine - Premier League, Relegation/Promotion Playoffs",2026-06-09T15:00:00Z,2026-06-09 17:00,Volochisk,Kudrivka,pending
+71974718,Tennis,"ATP - S-Hertogenbosch, Netherlands",2026-06-09T14:30:00Z,2026-06-09 16:30,"McCabe, James","Bergs, Zizou",pending
+71958014,Tennis,"ATP - S-Hertogenbosch, Netherlands",2026-06-09T14:30:00Z,2026-06-09 16:30,"Boogaard, Thijs","Wu, Yibing",pending
+71958072,Tennis,"ATP - Stuttgart, Germany",2026-06-09T14:20:00Z,2026-06-09 16:20,"Altmaier, Daniel","Tiafoe, Frances",pending
+71976326,Tennis,"Challenger - San Miguel de Tucuman, Argentina, Qualifying",2026-06-09T14:30:00Z,2026-06-09 16:30,"Giamichelle, Santiago","Cigarran, Thiago",pending
+71957944,Tennis,"WTA - S-Hertogenbosch, Netherlands",2026-06-09T14:30:00Z,2026-06-09 16:30,"Bouzas Maneiro, Jessica","Tomljanovic, Ajla",pending
+71998442,Tennis,"WTA 125K - Ilkley, Great Britain",2026-06-09T14:45:00Z,2026-06-09 16:45,"Preston, Taylah","Tan, Harmony",pending
+71975502,Tennis,"WTA - London, Great Britain",2026-06-09T14:50:00Z,2026-06-09 16:50,"Bouzkova, Marie","Kudermetova, Polina",pending
+71958016,Tennis,"ATP - S-Hertogenbosch, Netherlands",2026-06-09T15:00:00Z,2026-06-09 17:00,"Virtanen, Otto","Majchrzak, Kamil",pending
+71958076,Tennis,"ATP - Stuttgart, Germany",2026-06-09T14:20:00Z,2026-06-09 16:20,"Dedura-Palomero, Diego","Duckworth, James",pending
+71961792,Tennis,"WTA 125K - Ilkley, Great Britain",2026-06-09T14:25:00Z,2026-06-09 16:25,"Xu, Mingge","Mandlik, Elizabeth",pending
+71975230,Tennis,"WTA 125K - Ilkley, Great Britain, Doubles",2026-06-09T15:55:00Z,2026-06-09 17:55,Harrison C / Osborne A,Kuwata H / Sawangkaew M,pending
+71974910,Tennis,"WTA 125K - Modena, Italy",2026-06-09T15:05:00Z,2026-06-09 17:05,"Lazaro Garcia, Andrea","Grabher, Julia",pending
+71975504,Tennis,"WTA - London, Great Britain",2026-06-09T15:30:00Z,2026-06-09 17:30,"Sakkari, Maria","Maria, Tatjana",pending
+71958078,Tennis,"ATP - Stuttgart, Germany",2026-06-09T15:30:00Z,2026-06-09 17:30,"Kyrgios, Nick","Moutet, Corentin",pending
+71974922,Tennis,"WTA 125K - Modena, Italy",2026-06-09T16:00:00Z,2026-06-09 18:00,"Pedone, Giorgia","Sherif Ahmed Abdelaziz, Maiar",pending
+71962322,Tennis,"Challenger - San Miguel de Tucuman, Argentina",2026-06-09T16:10:00Z,2026-06-09 18:10,"Bennani, Karim","Rodriguez Taverna, Santiago",pending
+71962328,Tennis,"Challenger - San Miguel de Tucuman, Argentina",2026-06-09T15:00:00Z,2026-06-09 17:00,"Justo, Guido Ivan","Aguilar Cardozo, Joaquin",pending
+71957576,Tennis,"ATP - S-Hertogenbosch, Netherlands, Doubles",2026-06-09T15:40:00Z,2026-06-09 17:40,Auger-Aliassime F / Shapovalov D,Nouza P / Oberleitner N,pending
+71957934,Tennis,"WTA - S-Hertogenbosch, Netherlands",2026-06-09T15:40:00Z,2026-06-09 17:40,"Potapova, Anastasia","Lamens, Suzan",pending
+71957946,Tennis,"WTA - S-Hertogenbosch, Netherlands",2026-06-09T15:40:00Z,2026-06-09 17:40,"Boisson, Lois","Sierra, Solana",pending
+71961790,Tennis,"WTA 125K - Ilkley, Great Britain",2026-06-09T17:50:00Z,2026-06-09 19:50,"Jones, Emerson","Galfi, Dalma",pending
+71975388,Tennis,"WTA 125K - Modena, Italy",2026-06-09T18:30:00Z,2026-06-09 20:30,"Basiletti, Noemi","Lepchenko, Varvara",pending
+71962310,Tennis,"Challenger - San Miguel de Tucuman, Argentina",2026-06-09T22:00:00Z,2026-06-10 00:00,"Goity Zapico, Segundo","Coria, Federico",pending
+71962326,Tennis,"Challenger - San Miguel de Tucuman, Argentina",2026-06-09T17:20:00Z,2026-06-09 19:20,"Estevez, Juan","Soto, Matias",pending
+71962318,Tennis,"Challenger - San Miguel de Tucuman, Argentina",2026-06-09T16:10:00Z,2026-06-09 18:10,"Mena, Facundo","Rodriguez, Lorenzo Joaquin",pending
+71974926,Tennis,"WTA 125K - Modena, Italy",2026-06-09T16:15:00Z,2026-06-09 18:15,"Jimenez Kasintseva, Victoria","Pieri, Jessica",pending
+71975232,Tennis,"WTA 125K - Ilkley, Great Britain, Doubles",2026-06-09T16:40:00Z,2026-06-09 18:40,Corley I / Ngounoue C,Brooks M / Rajecki A,pending
+71998450,Tennis,"WTA 125K - Ilkley, Great Britain",2026-06-09T16:50:00Z,2026-06-09 18:50,"Martincova, Tereza","Swan, Katie",pending
+65454468,Football,"International - FIFA World Cup, Women, Qualification, UEFA, Gr. B1",2026-06-09T17:00:00Z,2026-06-09 19:00,Albania,Montenegro,pending
 67604846,Football,Finland - Ykkosliiga,2026-06-09T16:00:00Z,2026-06-09 18:00,Akatemia,JIPPO,pending
-71976298,Football,Mali - Ligue 1,2026-06-09T16:30:00Z,2026-06-09 18:30,Stade Malien,Binga FC,pending
-71889066,Football,"Ukraine - Premier League, Relegation/Promotion Playoffs",2026-06-09T12:30:00Z,2026-06-09 14:30,Livyi Bereh Kyiv,Oleksandriya,pending
+65804892,Football,"International - FIFA World Cup, Women, Qualification, UEFA, Gr. A1",2026-06-09T17:00:00Z,2026-06-09 19:00,Sweden,Italy,pending
+65804894,Football,"International - FIFA World Cup, Women, Qualification, UEFA, Gr. A1",2026-06-09T17:00:00Z,2026-06-09 19:00,Serbia,Denmark,pending
+71889086,Football,"Ukraine - Premier League, Relegation/Promotion Playoffs",2026-06-09T15:00:00Z,2026-06-09 17:00,Volochisk,Kudrivka,pending
 65621108,Football,"International - FIFA World Cup, Women, Qualification, UEFA, Gr. A4",2026-06-09T16:00:00Z,2026-06-09 18:00,Norway,Austria,pending
 65621110,Football,"International - FIFA World Cup, Women, Qualification, UEFA, Gr. A4",2026-06-09T16:00:00Z,2026-06-09 18:00,Slovenia,Germany,pending
 71976296,Football,Mali - Ligue 1,2026-06-09T16:30:00Z,2026-06-09 18:30,Djoliba,Real Bamako,pending
-65804892,Football,"International - FIFA World Cup, Women, Qualification, UEFA, Gr. A1",2026-06-09T17:00:00Z,2026-06-09 19:00,Sweden,Italy,pending
+71976298,Football,Mali - Ligue 1,2026-06-09T16:30:00Z,2026-06-09 18:30,Stade Malien,Binga FC,pending
+65454464,Football,"International - FIFA World Cup, Women, Qualification, UEFA, Gr. B1",2026-06-09T17:00:00Z,2026-06-09 19:00,Wales,Czechia,pending
 65805606,Football,"International - FIFA World Cup, Women, Qualification, UEFA, Gr. B2",2026-06-09T17:00:00Z,2026-06-09 19:00,Northern Ireland,Switzerland,pending
 65805608,Football,"International - FIFA World Cup, Women, Qualification, UEFA, Gr. B2",2026-06-09T17:00:00Z,2026-06-09 19:00,Malta,Turkiye,pending
+65805630,Football,"International - FIFA World Cup, Women, Qualification, UEFA, Gr. B3",2026-06-09T17:00:00Z,2026-06-09 19:00,Finland,Portugal,pending
 65805632,Football,"International - FIFA World Cup, Women, Qualification, UEFA, Gr. B3",2026-06-09T17:00:00Z,2026-06-09 19:00,Latvia,Slovakia,pending
+65805854,Football,"International - FIFA World Cup, Women, Qualification, UEFA, Gr. B4",2026-06-09T17:00:00Z,2026-06-09 19:00,Israel,Scotland,pending
+65805814,Football,"International - FIFA World Cup, Women, Qualification, UEFA, Gr. B4",2026-06-09T17:00:00Z,2026-06-09 19:00,Luxembourg,Belgium,pending
 65806138,Football,"International - FIFA World Cup, Women, Qualification, UEFA, Gr. C1",2026-06-09T17:00:00Z,2026-06-09 19:00,Estonia,Bosnia and Herzegovina,pending
 65806140,Football,"International - FIFA World Cup, Women, Qualification, UEFA, Gr. C1",2026-06-09T17:00:00Z,2026-06-09 19:00,Lithuania,Liechtenstein,pending
 65806170,Football,"International - FIFA World Cup, Women, Qualification, UEFA, Gr. C2",2026-06-09T17:00:00Z,2026-06-09 19:00,Croatia,Bulgaria,pending
-65454468,Football,"International - FIFA World Cup, Women, Qualification, UEFA, Gr. B1",2026-06-09T17:00:00Z,2026-06-09 19:00,Albania,Montenegro,pending
-65805630,Football,"International - FIFA World Cup, Women, Qualification, UEFA, Gr. B3",2026-06-09T17:00:00Z,2026-06-09 19:00,Finland,Portugal,pending
-65805814,Football,"International - FIFA World Cup, Women, Qualification, UEFA, Gr. B4",2026-06-09T17:00:00Z,2026-06-09 19:00,Luxembourg,Belgium,pending
-65805854,Football,"International - FIFA World Cup, Women, Qualification, UEFA, Gr. B4",2026-06-09T17:00:00Z,2026-06-09 19:00,Israel,Scotland,pending
+65806172,Football,"International - FIFA World Cup, Women, Qualification, UEFA, Gr. C2",2026-06-09T17:00:00Z,2026-06-09 19:00,Gibraltar,Kosovo,pending
 65806202,Football,"International - FIFA World Cup, Women, Qualification, UEFA, Gr. C3",2026-06-09T17:00:00Z,2026-06-09 19:00,Hungary,Andorra,pending
-65806276,Football,"International - FIFA World Cup, Women, Qualification, UEFA, Gr. C3",2026-06-09T17:00:00Z,2026-06-09 19:00,North Macedonia,Azerbaijan,pending
+65454470,Football,"International - FIFA World Cup, Women, Qualification, UEFA, Gr. C4",2026-06-09T17:00:00Z,2026-06-09 19:00,Georgia,Greece,pending
+67126150,Football,Sweden - Superettan,2026-06-09T17:00:00Z,2026-06-09 19:00,Osters,Varnamo,pending
 67126154,Football,Sweden - Superettan,2026-06-09T17:00:00Z,2026-06-09 19:00,Oddevold,Norrkoping,pending
 67126156,Football,Sweden - Superettan,2026-06-09T17:00:00Z,2026-06-09 19:00,Sandvikens,Falkenbergs,pending
-65454470,Football,"International - FIFA World Cup, Women, Qualification, UEFA, Gr. C4",2026-06-09T17:00:00Z,2026-06-09 19:00,Georgia,Greece,pending
+67126160,Football,Sweden - Superettan,2026-06-09T17:00:00Z,2026-06-09 19:00,Nordic United,Ostersund,pending
+65806276,Football,"International - FIFA World Cup, Women, Qualification, UEFA, Gr. C3",2026-06-09T17:00:00Z,2026-06-09 19:00,North Macedonia,Azerbaijan,pending
 65806444,Football,"International - FIFA World Cup, Women, Qualification, UEFA, Gr. C5",2026-06-09T17:00:00Z,2026-06-09 19:00,Cyprus,Moldova,pending
 65806528,Football,"International - FIFA World Cup, Women, Qualification, UEFA, Gr. C6",2026-06-09T17:00:00Z,2026-06-09 19:00,Belarus,Armenia,pending
-67126150,Football,Sweden - Superettan,2026-06-09T17:00:00Z,2026-06-09 19:00,Osters,Varnamo,pending
-67126160,Football,Sweden - Superettan,2026-06-09T17:00:00Z,2026-06-09 19:00,Nordic United,Ostersund,pending
-65806172,Football,"International - FIFA World Cup, Women, Qualification, UEFA, Gr. C2",2026-06-09T17:00:00Z,2026-06-09 19:00,Gibraltar,Kosovo,pending
-65621332,Football,"International - FIFA World Cup, Women, Qualification, UEFA, Gr. A3",2026-06-09T19:00:00Z,2026-06-09 21:00,Iceland,Spain,pending
+67126162,Football,Sweden - Superettan,2026-06-09T17:00:00Z,2026-06-09 19:00,Brage,Ljungskile,pending
 71853260,Football,"Spain - LaLiga 2, Promotion Playoffs",2026-06-09T19:00:00Z,2026-06-09 21:00,Almeria,Castellon,pending
 68822946,Football,Brazil - Brasileiro Serie B,2026-06-09T22:00:00Z,2026-06-10 00:00,Ponte Preta,Cuiaba,pending
-67126162,Football,Sweden - Superettan,2026-06-09T17:00:00Z,2026-06-09 19:00,Brage,Ljungskile,pending
+68822960,Football,Brazil - Brasileiro Serie B,2026-06-09T22:00:00Z,2026-06-10 00:00,Nautico,Fortaleza,pending
+68686012,Football,Canada - Canadian Premier League,2026-06-09T23:00:00Z,2026-06-10 01:00,Ottawa,FC Supra Du Quebec,pending
 71976300,Football,Mali - Ligue 1,2026-06-09T18:30:00Z,2026-06-09 20:30,Union Sportive Bougouba,FC Diarra,pending
 65805516,Football,"International - FIFA World Cup, Women, Qualification, UEFA, Gr. A2",2026-06-09T19:00:00Z,2026-06-09 21:00,France,Ireland,pending
 65805518,Football,"International - FIFA World Cup, Women, Qualification, UEFA, Gr. A2",2026-06-09T19:00:00Z,2026-06-09 21:00,Netherlands,Poland,pending
 65621330,Football,"International - FIFA World Cup, Women, Qualification, UEFA, Gr. A3",2026-06-09T19:00:00Z,2026-06-09 21:00,England,Ukraine,pending
-68822960,Football,Brazil - Brasileiro Serie B,2026-06-09T22:00:00Z,2026-06-10 00:00,Nautico,Fortaleza,pending
-68858304,Cricket,"England - T20 Blast, Women",2026-06-09T13:30:00Z,2026-06-09 15:30,Durham,Yorkshire,pending
-68858306,Cricket,"England - T20 Blast, Women",2026-06-09T13:30:00Z,2026-06-09 15:30,Lancashire Thunder,Hampshire,pending
-68858918,Cricket,England - T20 Blast,2026-06-09T17:30:00Z,2026-06-09 19:30,Northamptonshire,Worcestershire,pending
-68858914,Cricket,England - T20 Blast,2026-06-09T17:30:00Z,2026-06-09 19:30,Durham,Lancashire,pending
-68858916,Cricket,England - T20 Blast,2026-06-09T18:00:00Z,2026-06-09 20:00,Essex,Kent,pending
+65621332,Football,"International - FIFA World Cup, Women, Qualification, UEFA, Gr. A3",2026-06-09T19:00:00Z,2026-06-09 21:00,Iceland,Spain,pending
 71828170,Basketball,"Israel - Super League, Relegation Round",2026-06-09T15:30:00Z,2026-06-09 17:30,Elitzur Netanya,Ironi Ness Ziona,pending
 71828172,Basketball,"Israel - Super League, Relegation Round",2026-06-09T17:00:00Z,2026-06-09 19:00,Maccabi Raanana,Hapoel Galil Elyon,pending
+71937618,Basketball,"Israel - Super League, Playoffs",2026-06-09T17:50:00Z,2026-06-09 19:50,Hapoel Jerusalem,Hapoel Tel-Aviv,pending
 71961700,Basketball,"France - LNB Elite 2, Playoffs",2026-06-09T18:00:00Z,2026-06-09 20:00,Poitiers,Hermine Nantes Basket,pending
+68096326,Basketball,USA - WNBA,2026-06-09T23:00:00Z,2026-06-10 01:00,Chicago,Atlanta,pending
+71903026,Basketball,"Dominican Republic - Superliga LNB, Main Round",2026-06-10T00:00:00Z,2026-06-10 02:00,Titanes del Distrito,Heroes de Moca,pending
 71797394,Basketball,"Italy - Serie A2 Gold, Playoffs",2026-06-09T18:45:00Z,2026-06-09 20:45,Verona,Rinascita Basket Rimini,pending
-63301687,Baseball,USA - MLB,2026-06-09T22:35:00Z,2026-06-10 00:35,Baltimore,Seattle,pending
+68096314,Basketball,USA - WNBA,2026-06-10T00:00:00Z,2026-06-10 02:00,Minnesota,Dallas,pending
+68858914,Cricket,England - T20 Blast,2026-06-09T17:30:00Z,2026-06-09 19:30,Durham,Lancashire,pending
+68858918,Cricket,England - T20 Blast,2026-06-09T17:30:00Z,2026-06-09 19:30,Northamptonshire,Worcestershire,pending
+68858916,Cricket,England - T20 Blast,2026-06-09T18:00:00Z,2026-06-09 20:00,Essex,Kent,pending
 63301655,Baseball,USA - MLB,2026-06-09T22:40:00Z,2026-06-10 00:40,Detroit,Minnesota,pending
+63302479,Baseball,USA - MLB,2026-06-10T00:40:00Z,2026-06-10 02:40,Colorado,Chicago Cubs,pending
+63301687,Baseball,USA - MLB,2026-06-09T22:35:00Z,2026-06-10 00:35,Baltimore,Seattle,pending
 63302059,Baseball,USA - MLB,2026-06-09T22:40:00Z,2026-06-10 00:40,Cleveland,NY Yankees,pending
 63302797,Baseball,USA - MLB,2026-06-09T22:40:00Z,2026-06-10 00:40,Pittsburgh,LA Dodgers,pending
 63303851,Baseball,USA - MLB,2026-06-09T22:40:00Z,2026-06-10 00:40,Miami,Arizona,pending
+63302839,Baseball,USA - MLB,2026-06-09T23:40:00Z,2026-06-10 01:40,Chicago White Sox,Atlanta,pending
+63303449,Baseball,USA - MLB,2026-06-10T01:38:00Z,2026-06-10 03:38,LA Angels,Houston,pending
+63301141,Baseball,USA - MLB,2026-06-10T02:05:00Z,2026-06-10 04:05,Athletics,Milwaukee,pending
+70558082,Ice Hockey,"USA - NHL, Playoffs",2026-06-10T00:00:00Z,2026-06-10 02:00,Vegas Golden Knights,Carolina Hurricanes,pending
