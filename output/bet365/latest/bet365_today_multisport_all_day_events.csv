@@ -1,60 +1,113 @@
 event_id,sport,league,date_utc,date_denmark,home,away,status
-71799054,Football,Australia - Queensland Premier League 1,2026-06-09T09:30:00Z,2026-06-09 11:30,Ipswich FC,Robina City,pending
-71880166,Football,"Australia - Queensland Premier League 1, Women",2026-06-09T09:00:00Z,2026-06-09 11:00,Peninsula Power FC,North Lakes United,pending
-71732926,Football,Paraguay - Segunda Division,2026-06-08T22:30:00Z,2026-06-09 00:30,Club 3 De Noviembre,Club General Caballero JLM,pending
-68822950,Football,Brazil - Brasileiro Serie B,2026-06-08T23:00:00Z,2026-06-09 01:00,America FC MG,AC Goianiense GO,pending
-68822964,Football,Brazil - Brasileiro Serie B,2026-06-08T23:00:00Z,2026-06-09 01:00,Vila Nova FC GO,Botafogo FC SP,pending
-71770130,Football,International - ASEAN Championship,2026-06-09T09:00:00Z,2026-06-09 11:00,Timor-Leste,Brunei Darussalam,pending
-63302877,Baseball,USA - MLB,2026-06-09T01:45:00Z,2026-06-09 03:45,San Francisco Giants,Washington Nationals,pending
 63299157,Baseball,USA - MLB,2026-06-09T02:05:00Z,2026-06-09 04:05,Athletics,Milwaukee Brewers,pending
 66778180,Baseball,Japan - NPB,2026-06-09T09:00:00Z,2026-06-09 11:00,Hokkaido Nippon-Ham Fighters,Yokohama Dena Baystars,pending
-63302787,Baseball,USA - MLB,2026-06-08T23:07:00Z,2026-06-09 01:07,Toronto Blue Jays,Philadelphia Phillies,pending
-63302861,Baseball,USA - MLB,2026-06-09T01:38:00Z,2026-06-09 03:38,Los Angeles Angels,Houston Astros,pending
-66778176,Baseball,Japan - NPB,2026-06-09T09:00:00Z,2026-06-09 11:00,Chiba Lotte Marines,Chunichi Dragons,pending
-63302359,Baseball,USA - MLB,2026-06-08T22:35:00Z,2026-06-09 00:35,Baltimore Orioles,Seattle Mariners,pending
-63302909,Baseball,USA - MLB,2026-06-08T22:40:00Z,2026-06-09 00:40,Tampa Bay Rays,Boston Red Sox,pending
-63303263,Baseball,USA - MLB,2026-06-08T22:40:00Z,2026-06-09 00:40,Cleveland Guardians,New York Yankees,pending
-63303369,Baseball,USA - MLB,2026-06-09T01:40:00Z,2026-06-09 03:40,San Diego Padres,Cincinnati Reds,pending
-66778182,Baseball,Japan - NPB,2026-06-09T09:00:00Z,2026-06-09 11:00,Orix Buffaloes,Tokyo Yakult Swallows,pending
-66778184,Baseball,Japan - NPB,2026-06-09T09:00:00Z,2026-06-09 11:00,Tohoku Rakuten Golden Eagles,Yomiuri Giants,pending
 66778186,Baseball,Japan - NPB,2026-06-09T09:00:00Z,2026-06-09 11:00,Saitama Seibu Lions,Hiroshima Toyo Carp,pending
-67204406,Baseball,Republic of Korea - KBO League,2026-06-09T09:30:00Z,2026-06-09 11:30,LG Twins,SSG Landers,pending
 67204408,Baseball,Republic of Korea - KBO League,2026-06-09T09:30:00Z,2026-06-09 11:30,Lotte Giants,Doosan Bears,pending
-67204410,Baseball,Republic of Korea - KBO League,2026-06-09T09:30:00Z,2026-06-09 11:30,KT Wiz,Samsung Lions,pending
 67204412,Baseball,Republic of Korea - KBO League,2026-06-09T09:30:00Z,2026-06-09 11:30,Kiwoom Heroes,NC Dinos,pending
+66778184,Baseball,Japan - NPB,2026-06-09T09:00:00Z,2026-06-09 11:00,Tohoku Rakuten Golden Eagles,Yomiuri Giants,pending
+67204406,Baseball,Republic of Korea - KBO League,2026-06-09T09:30:00Z,2026-06-09 11:30,LG Twins,SSG Landers,pending
+67204410,Baseball,Republic of Korea - KBO League,2026-06-09T09:30:00Z,2026-06-09 11:30,KT Wiz,Samsung Lions,pending
+66778176,Baseball,Japan - NPB,2026-06-09T09:00:00Z,2026-06-09 11:00,Chiba Lotte Marines,Chunichi Dragons,pending
+66778182,Baseball,Japan - NPB,2026-06-09T09:00:00Z,2026-06-09 11:00,Orix Buffaloes,Tokyo Yakult Swallows,pending
 67204414,Baseball,Republic of Korea - KBO League,2026-06-09T09:30:00Z,2026-06-09 11:30,Hanwha Eagles,Kia Tigers,pending
-71923000,Basketball,Paraguay - LNB,2026-06-08T23:30:00Z,2026-06-09 01:30,Basket San Alfonso,Deportivo Campoalto,pending
-71900826,Basketball,Argentina - LNB,2026-06-09T00:00:00Z,2026-06-09 02:00,Quimsa Santiogo Del Estero,Gimnasia de Comodoro,pending
-70505016,Basketball,USA - NBA,2026-06-09T00:30:00Z,2026-06-09 02:30,New York Knicks,San Antonio Spurs,pending
-68096012,Basketball,USA - WNBA,2026-06-09T02:00:00Z,2026-06-09 04:00,Las Vegas Aces,Seattle Storm,pending
-68096330,Basketball,USA - WNBA,2026-06-08T23:00:00Z,2026-06-09 01:00,Washington Mystics,Indiana Fever,pending
-68096472,Basketball,USA - WNBA,2026-06-08T23:00:00Z,2026-06-09 01:00,Connecticut Sun,New York Liberty,pending
-71889148,Esports,League of Legends - LRN,2026-06-08T23:00:00Z,2026-06-09 01:00,Fuego,G3V E-Sports,pending
-71976474,Ice Hockey,USA - AHL,2026-06-09T01:05:00Z,2026-06-09 03:05,Colorado Eagles,Chicago Wolves,pending
-71973554,Tennis,"Challenger - ATP Challenger Cattolica, Italy Men Singles",2026-06-09T08:00:00Z,2026-06-09 10:00,"Rehberg, Max Hans","Carballes Baena, Roberto",pending
-71996350,Tennis,"Challenger - ATP Challenger Cattolica, Italy Men Singles",2026-06-09T08:00:00Z,2026-06-09 10:00,"Tobon, Miguel","Vasilev, Alexander",pending
-71996356,Tennis,"Challenger - ATP Challenger Cattolica, Italy Men Singles",2026-06-09T08:00:00Z,2026-06-09 10:00,"Sanchez Jover, Carlos","Dodig, Matej",pending
-71996360,Tennis,"Challenger - ATP Challenger Cattolica, Italy Men Singles",2026-06-09T08:00:00Z,2026-06-09 10:00,"Nesterov, Pyotr","Cecchinato, Marco",pending
-71996362,Tennis,"Challenger - ATP Challenger Cattolica, Italy Men Singles",2026-06-09T08:00:00Z,2026-06-09 10:00,"Bondioli, Federico","Caniato, Carlo Alberto",pending
-71960264,Tennis,"Challenger - ATP Challenger Bratislava, Slovakia Men Singles",2026-06-09T08:30:00Z,2026-06-09 10:30,"Olivieri, Genaro Alberto","Tseng, Chun Hsin",pending
-71960354,Tennis,"Challenger - ATP Challenger Cattolica, Italy Men Singles",2026-06-09T08:30:00Z,2026-06-09 10:30,"Rehberg, Max Hans","Travaglia, Stefano",pending
-71996352,Tennis,"Challenger - ATP Challenger Cattolica, Italy Men Singles",2026-06-09T08:00:00Z,2026-06-09 10:00,"Bueno, Gonzalo","Forti, Francesco",pending
-71996354,Tennis,"Challenger - ATP Challenger Cattolica, Italy Men Singles",2026-06-09T08:00:00Z,2026-06-09 10:00,"Ferrari, Gianmarco","Callejon Hernando, Sergio",pending
-71996358,Tennis,"Challenger - ATP Challenger Cattolica, Italy Men Singles",2026-06-09T08:00:00Z,2026-06-09 10:00,"Pieri, Samuele","Roca Batalla, Oriol",pending
-71960282,Tennis,"Challenger - ATP Challenger Lyon, France Men Singles",2026-06-09T08:30:00Z,2026-06-09 10:30,"Bertrand, Robin","Sanchez Izquierdo, Nikolas",pending
-71958004,Tennis,"ATP - ATP S-Hertogenbosch, Netherlands Men Singles",2026-06-09T09:00:00Z,2026-06-09 11:00,"Diallo, Gabriel","Mannarino, Adrian",pending
-71958080,Tennis,"ATP - ATP Stuttgart, Germany Men Singles",2026-06-09T09:00:00Z,2026-06-09 11:00,"Bautista Agut, Roberto","Giron, Marcos",pending
-71994018,Tennis,"Challenger - ATP Challenger Lyon, France Men Singles",2026-06-09T09:00:00Z,2026-06-09 11:00,"Martinez, Pedro","Gulin, Svyatoslav",pending
-71960358,Tennis,"Challenger - ATP Challenger Cattolica, Italy Men Singles",2026-06-09T08:30:00Z,2026-06-09 10:30,"Mikrut, Luka","Xilas, Ioannis",pending
 71994010,Tennis,"Challenger - ATP Challenger Lyon, France Men Singles",2026-06-09T08:30:00Z,2026-06-09 10:30,"Boyer, Tristan","Perot, Raphael",pending
+71960282,Tennis,"Challenger - ATP Challenger Lyon, France Men Singles",2026-06-09T08:30:00Z,2026-06-09 10:30,"Bertrand, Robin","Sanchez Izquierdo, Nikolas",pending
 71974712,Tennis,"ATP - ATP S-Hertogenbosch, Netherlands Men Singles",2026-06-09T09:00:00Z,2026-06-09 11:00,"Munar, Jaume","Damm Jr, Martin",pending
-71973828,Tennis,"ATP - ATP Stuttgart, Germany Men Singles",2026-06-09T09:00:00Z,2026-06-09 11:00,"Halys, Quentin","Shimabukuro, Sho",pending
 71958066,Tennis,"ATP - ATP Stuttgart, Germany Men Singles",2026-06-09T09:00:00Z,2026-06-09 11:00,"Hanfmann, Yannick","Kovacevic, Aleksandar",pending
+71973554,Tennis,"Challenger - ATP Challenger Cattolica, Italy Men Singles",2026-06-09T08:00:00Z,2026-06-09 10:00,"Rehberg, Max Hans","Carballes Baena, Roberto",pending
+71996354,Tennis,"Challenger - ATP Challenger Cattolica, Italy Men Singles",2026-06-09T08:00:00Z,2026-06-09 10:00,"Ferrari, Gianmarco","Callejon Hernando, Sergio",pending
+71958004,Tennis,"ATP - ATP S-Hertogenbosch, Netherlands Men Singles",2026-06-09T09:00:00Z,2026-06-09 11:00,"Diallo, Gabriel","Mannarino, Adrian",pending
+71973828,Tennis,"ATP - ATP Stuttgart, Germany Men Singles",2026-06-09T09:00:00Z,2026-06-09 11:00,"Halys, Quentin","Shimabukuro, Sho",pending
+71996350,Tennis,"Challenger - ATP Challenger Cattolica, Italy Men Singles",2026-06-09T08:00:00Z,2026-06-09 10:00,"Tobon, Miguel","Vasilev, Alexander",pending
+71960264,Tennis,"Challenger - ATP Challenger Bratislava, Slovakia Men Singles",2026-06-09T08:30:00Z,2026-06-09 10:30,"Olivieri, Genaro Alberto","Tseng, Chun Hsin",pending
+71994018,Tennis,"Challenger - ATP Challenger Lyon, France Men Singles",2026-06-09T09:00:00Z,2026-06-09 11:00,"Martinez, Pedro","Gulin, Svyatoslav",pending
+71974708,Tennis,"WTA - WTA S-Hertogenbosch, Netherlands Women Singles",2026-06-09T09:00:00Z,2026-06-09 11:00,"Minnen, Greet","Tjen, Janice",pending
+71996352,Tennis,"Challenger - ATP Challenger Cattolica, Italy Men Singles",2026-06-09T09:10:00Z,2026-06-09 11:10,"Bueno, Gonzalo","Forti, Francesco",pending
+71996356,Tennis,"Challenger - ATP Challenger Cattolica, Italy Men Singles",2026-06-09T09:10:00Z,2026-06-09 11:10,"Sanchez Jover, Carlos","Dodig, Matej",pending
+71996360,Tennis,"Challenger - ATP Challenger Cattolica, Italy Men Singles",2026-06-09T09:10:00Z,2026-06-09 11:10,"Nesterov, Pyotr","Cecchinato, Marco",pending
+71960254,Tennis,"Challenger - ATP Challenger Bratislava, Slovakia Men Singles",2026-06-09T09:40:00Z,2026-06-09 11:40,"Pokorny, Lukas","Barrena, Alex",pending
+71958080,Tennis,"ATP - ATP Stuttgart, Germany Men Singles",2026-06-09T09:00:00Z,2026-06-09 11:00,"Bautista Agut, Roberto","Giron, Marcos",pending
 71962286,Tennis,"WTA - WTA S-Hertogenbosch, Netherlands Women Doubles",2026-06-09T09:00:00Z,2026-06-09 11:00,Jiang X / Xu Y,Detiuc A / Khromacheva I,pending
 71974704,Tennis,"WTA - WTA S-Hertogenbosch, Netherlands Women Singles",2026-06-09T09:00:00Z,2026-06-09 11:00,"Volynets, Katie","Sonmez, Zeynep",pending
-71974708,Tennis,"WTA - WTA S-Hertogenbosch, Netherlands Women Singles",2026-06-09T09:00:00Z,2026-06-09 11:00,"Minnen, Greet","Tjen, Janice",pending
 71957942,Tennis,"WTA - WTA S-Hertogenbosch, Netherlands Women Singles",2026-06-09T09:00:00Z,2026-06-09 11:00,"Yastremska, Dayana","Bejlek, Sara",pending
-71960254,Tennis,"Challenger - ATP Challenger Bratislava, Slovakia Men Singles",2026-06-09T09:40:00Z,2026-06-09 11:40,"Pokorny, Lukas","Barrena, Alex",pending
 71960256,Tennis,"Challenger - ATP Challenger Bratislava, Slovakia Men Singles",2026-06-09T09:40:00Z,2026-06-09 11:40,"Kolar, Zdenek","Jung, Jason",pending
 71994014,Tennis,"Challenger - ATP Challenger Lyon, France Men Singles",2026-06-09T09:40:00Z,2026-06-09 11:40,"Alcala Gurri, Max","Blanch, Dali",pending
+71961502,Tennis,"Challenger - ATP Challenger Ilkley, Great Britain Men Singles",2026-06-09T10:00:00Z,2026-06-09 12:00,"Maestrelli, Francesco","Gea, Arthur",pending
 71960296,Tennis,"Challenger - ATP Challenger Lyon, France Men Singles",2026-06-09T09:40:00Z,2026-06-09 11:40,"Hemery, Calvin","Moro Canas, Alejandro",pending
+71961508,Tennis,"Challenger - ATP Challenger Ilkley, Great Britain Men Singles",2026-06-09T10:00:00Z,2026-06-09 12:00,"Harris, Billy","Chidekh, Clement",pending
+71961518,Tennis,"Challenger - ATP Challenger Ilkley, Great Britain Men Singles",2026-06-09T10:00:00Z,2026-06-09 12:00,"Blanch, Darwin","O'Connell, Christopher",pending
+71961812,Tennis,"WTA - WTA London, Great Britain Women Doubles",2026-06-09T10:00:00Z,2026-06-09 12:00,Guo H / Mladenovic K,Muhammad A / Stollar F,pending
+71975496,Tennis,"WTA - WTA London, Great Britain Women Singles",2026-06-09T10:00:00Z,2026-06-09 12:00,"Jovic, Iva","Ruzic, Antonia",pending
+71975500,Tennis,"WTA - WTA London, Great Britain Women Singles",2026-06-09T10:00:00Z,2026-06-09 12:00,"Cirstea, Sorana","Inglis, Maddison",pending
+71961788,Tennis,"WTA 125K - WTA 125K Ilkley, Great Britain Women Singles",2026-06-09T10:00:00Z,2026-06-09 12:00,"Day, Kayla","Stoiana, Mary",pending
+71962282,Tennis,"WTA - WTA S-Hertogenbosch, Netherlands Women Doubles",2026-06-09T10:10:00Z,2026-06-09 12:10,Alexandrova E / Joint M,Aoyama S / Liang E,pending
+71974706,Tennis,"WTA - WTA S-Hertogenbosch, Netherlands Women Singles",2026-06-09T10:10:00Z,2026-06-09 12:10,"Bartunkova, Nikola","Vandewinkel, Hanne",pending
+71960364,Tennis,"Challenger - ATP Challenger Cattolica, Italy Men Singles",2026-06-09T10:20:00Z,2026-06-09 12:20,"Guillen Meza, Alvaro","Simakin, Ilia",pending
+71958006,Tennis,"ATP - ATP S-Hertogenbosch, Netherlands Men Singles",2026-06-09T10:10:00Z,2026-06-09 12:10,"Zhang, Zhizhen","Brooksby, Jenson",pending
+71957938,Tennis,"WTA - WTA S-Hertogenbosch, Netherlands Women Singles",2026-06-09T10:10:00Z,2026-06-09 12:10,"Korpatsch, Tamara","Ruse, Elena-Gabriela",pending
+71957940,Tennis,"WTA - WTA S-Hertogenbosch, Netherlands Women Singles",2026-06-09T10:10:00Z,2026-06-09 12:10,"Krejcikova, Barbora","Zarazua, Renata",pending
+71960366,Tennis,"Challenger - ATP Challenger Cattolica, Italy Men Singles",2026-06-09T10:20:00Z,2026-06-09 12:20,"De Jong, Jesper","Milic, Ognjen",pending
+71958008,Tennis,"ATP - ATP S-Hertogenbosch, Netherlands Men Singles",2026-06-09T10:30:00Z,2026-06-09 12:30,"Griekspoor, Tallon","Van de Zandschulp, Botic",pending
+71957332,Tennis,"ATP - ATP Stuttgart, Germany Men Doubles",2026-06-09T10:10:00Z,2026-06-09 12:10,Romboli F / Smith J-P,Luz O / Matos R,pending
+71960300,Tennis,"Challenger - ATP Challenger Lyon, France Men Singles",2026-06-09T10:10:00Z,2026-06-09 12:10,"Trungelliti, Marco","Kotov, Pavel",pending
+71960284,Tennis,"Challenger - ATP Challenger Lyon, France Men Singles",2026-06-09T10:50:00Z,2026-06-09 12:50,"Damas, Miguel","Gaubas, Vilius",pending
+71960290,Tennis,"Challenger - ATP Challenger Lyon, France Men Singles",2026-06-09T10:50:00Z,2026-06-09 12:50,"Gueymard Wayenburg, Sascha","Tabur, Clement",pending
+71975498,Tennis,"WTA - WTA London, Great Britain Women Singles",2026-06-09T11:00:00Z,2026-06-09 13:00,"Raducanu, Emma","Blinkova, Anna",pending
+71974904,Tennis,"WTA 125K - WTA 125K Modena, Italy Women Singles",2026-06-09T11:00:00Z,2026-06-09 13:00,"Bassols Ribera, Marina","Semenistaja, Darja",pending
+71974914,Tennis,"WTA 125K - WTA 125K Modena, Italy Women Singles",2026-06-09T11:00:00Z,2026-06-09 13:00,"Zidansek, Tamara","Urgesi, Federica",pending
+71998076,Tennis,"Challenger - ATP Challenger Ilkley, Great Britain Men Singles",2026-06-09T11:10:00Z,2026-06-09 13:10,"Schoolkate, Tristan","Jubb, Paul",pending
+71973824,Tennis,"ATP - ATP Stuttgart, Germany Men Singles",2026-06-09T10:30:00Z,2026-06-09 12:30,"Struff, Jan-Lennard","Galarneau, Alexis",pending
+71960266,Tennis,"Challenger - ATP Challenger Bratislava, Slovakia Men Singles",2026-06-09T10:50:00Z,2026-06-09 12:50,"Shevchenko, Alexander","Jianu, Filip Cristian",pending
+71998072,Tennis,"Challenger - ATP Challenger Ilkley, Great Britain Men Singles",2026-06-09T11:10:00Z,2026-06-09 13:10,"Sweeny, Dane","Okonkwo, Oliver",pending
+71998074,Tennis,"Challenger - ATP Challenger Ilkley, Great Britain Men Singles",2026-06-09T11:10:00Z,2026-06-09 13:10,"Gill, Felix","Romano, Filippo",pending
+71961796,Tennis,"WTA 125K - WTA 125K Ilkley, Great Britain Women Singles",2026-06-09T11:10:00Z,2026-06-09 13:10,"Kalieva, Elvina","Krueger, Ashlyn",pending
+71957588,Tennis,"ATP - ATP S-Hertogenbosch, Netherlands Men Doubles",2026-06-09T11:20:00Z,2026-06-09 13:20,Arribage T / Olivetti A,Borges N / Polmans M,pending
+71957334,Tennis,"ATP - ATP Stuttgart, Germany Men Doubles",2026-06-09T11:20:00Z,2026-06-09 13:20,Kirkov V / Miedler L,Demoliner M / Melo M,pending
+71958074,Tennis,"ATP - ATP Stuttgart, Germany Men Singles",2026-06-09T11:20:00Z,2026-06-09 13:20,"Gentzsch, Tom","Hijikata, Rinky",pending
+71975494,Tennis,"WTA - WTA London, Great Britain Women Singles",2026-06-09T11:10:00Z,2026-06-09 13:10,"Zhang, Shuai","Eala, Alexandra",pending
+71961836,Tennis,"WTA - WTA London, Great Britain Women Singles",2026-06-09T11:10:00Z,2026-06-09 13:10,"Siegemund, Laura","Jones, Francesca",pending
+71958018,Tennis,"ATP - ATP S-Hertogenbosch, Netherlands Men Singles",2026-06-09T11:20:00Z,2026-06-09 13:20,"Hurkacz, Hubert","Fucsovics, Marton",pending
+71994016,Tennis,"Challenger - ATP Challenger Lyon, France Men Singles",2026-06-09T11:20:00Z,2026-06-09 13:20,"Staeheli, Luca","Balshaw, Felix",pending
+71962284,Tennis,"WTA - WTA S-Hertogenbosch, Netherlands Women Doubles",2026-06-09T11:20:00Z,2026-06-09 13:20,Maleckova J / Skoch M,Chan H-C / Sonmez Z,pending
+71957944,Tennis,"WTA - WTA S-Hertogenbosch, Netherlands Women Singles",2026-06-09T11:20:00Z,2026-06-09 13:20,"Bouzas Maneiro, Jessica","Tomljanovic, Ajla",pending
+71996358,Tennis,"Challenger - ATP Challenger Cattolica, Italy Men Singles",2026-06-09T11:30:00Z,2026-06-09 13:30,"Pieri, Samuele","Roca Batalla, Oriol",pending
+71960246,Tennis,"Challenger - ATP Challenger Bratislava, Slovakia Men Singles",2026-06-09T12:00:00Z,2026-06-09 14:00,"Boscardin Dias, Pedro","Nava, Emilio",pending
+71994012,Tennis,"Challenger - ATP Challenger Lyon, France Men Singles",2026-06-09T12:00:00Z,2026-06-09 14:00,"Jorda Sanchis, David","Sanchez Quilez, Alejo",pending
+71974920,Tennis,"WTA 125K - WTA 125K Modena, Italy Women Singles",2026-06-09T12:00:00Z,2026-06-09 14:00,"Salkova, Dominika","Tubello, Alice",pending
+71998078,Tennis,"Challenger - ATP Challenger Ilkley, Great Britain Men Singles",2026-06-09T12:20:00Z,2026-06-09 14:20,"Bolt, Alex","Smith, Keegan",pending
+71961516,Tennis,"Challenger - ATP Challenger Ilkley, Great Britain Men Singles",2026-06-09T12:20:00Z,2026-06-09 14:20,"Nardi, Luca","Fearnley, Jacob",pending
+71994008,Tennis,"Challenger - ATP Challenger Lyon, France Men Singles",2026-06-09T12:00:00Z,2026-06-09 14:00,"Martineau, Matteo","Kaouk, Mickael",pending
+71974912,Tennis,"WTA 125K - WTA 125K Modena, Italy Women Singles",2026-06-09T12:10:00Z,2026-06-09 14:10,"Gao, Xinyu","Bronzetti, Lucia",pending
+71975384,Tennis,"WTA 125K - WTA 125K Modena, Italy Women Singles",2026-06-09T12:10:00Z,2026-06-09 14:10,"Bosio, Victoria","Brancaccio, Nuria",pending
+71960362,Tennis,"Challenger - ATP Challenger Cattolica, Italy Men Singles",2026-06-09T11:30:00Z,2026-06-09 13:30,"Lajovic, Dusan","Forejtek, Jonas",pending
+71957946,Tennis,"WTA - WTA S-Hertogenbosch, Netherlands Women Singles",2026-06-09T12:30:00Z,2026-06-09 14:30,"Boisson, Lois","Sierra, Solana",pending
+71961840,Tennis,"WTA - WTA London, Great Britain Women Singles",2026-06-09T12:35:00Z,2026-06-09 14:35,"Stojsavljevic, Mika","Kostyuk, Marta",pending
+71975504,Tennis,"WTA - WTA London, Great Britain Women Singles",2026-06-09T12:20:00Z,2026-06-09 14:20,"Sakkari, Maria","Maria, Tatjana",pending
+71974718,Tennis,"ATP - ATP S-Hertogenbosch, Netherlands Men Singles",2026-06-09T12:30:00Z,2026-06-09 14:30,"McCabe, James","Bergs, Zizou",pending
+71958016,Tennis,"ATP - ATP S-Hertogenbosch, Netherlands Men Singles",2026-06-09T12:30:00Z,2026-06-09 14:30,"Virtanen, Otto","Majchrzak, Kamil",pending
+71957948,Tennis,"WTA - WTA S-Hertogenbosch, Netherlands Women Singles",2026-06-09T12:30:00Z,2026-06-09 14:30,"Navarro, Emma","McNally, Caty",pending
+71958072,Tennis,"ATP - ATP Stuttgart, Germany Men Singles",2026-06-09T13:00:00Z,2026-06-09 15:00,"Altmaier, Daniel","Tiafoe, Frances",pending
+71974924,Tennis,"WTA 125K - WTA 125K Modena, Italy Women Singles",2026-06-09T13:10:00Z,2026-06-09 15:10,"Romero Gormaz, Leyre","You, Xiaodi",pending
+71975502,Tennis,"WTA - WTA London, Great Britain Women Singles",2026-06-09T12:20:00Z,2026-06-09 14:20,"Bouzkova, Marie","Kudermetova, Polina",pending
+71961792,Tennis,"WTA 125K - WTA 125K Ilkley, Great Britain Women Singles",2026-06-09T12:20:00Z,2026-06-09 14:20,"Xu, Mingge","Mandlik, Elizabeth",pending
+71974910,Tennis,"WTA 125K - WTA 125K Modena, Italy Women Singles",2026-06-09T13:20:00Z,2026-06-09 15:20,"Lazaro Garcia, Andrea","Grabher, Julia",pending
+71957962,Tennis,"Challenger - ATP Challenger Ilkley, Great Britain Men Doubles",2026-06-09T13:30:00Z,2026-06-09 15:30,Blanchet U / Jacquet K,Barrientos N / Behar A,pending
+71998068,Tennis,"Challenger - ATP Challenger Ilkley, Great Britain Men Singles",2026-06-09T13:30:00Z,2026-06-09 15:30,"Stewart, Hamish","Riedi, Leandro",pending
+71998070,Tennis,"Challenger - ATP Challenger Ilkley, Great Britain Men Singles",2026-06-09T13:30:00Z,2026-06-09 15:30,"Lajal, Mark","Zheng, Michael",pending
+71958014,Tennis,"ATP - ATP S-Hertogenbosch, Netherlands Men Singles",2026-06-09T14:00:00Z,2026-06-09 16:00,"Boogaard, Thijs","Wu, Yibing",pending
+71958076,Tennis,"ATP - ATP Stuttgart, Germany Men Singles",2026-06-09T14:00:00Z,2026-06-09 16:00,"Dedura-Palomero, Diego","Duckworth, James",pending
+71957934,Tennis,"WTA - WTA S-Hertogenbosch, Netherlands Women Singles",2026-06-09T14:00:00Z,2026-06-09 16:00,"Potapova, Anastasia","Lamens, Suzan",pending
+71960360,Tennis,"Challenger - ATP Challenger Cattolica, Italy Men Singles",2026-06-09T13:30:00Z,2026-06-09 15:30,"Kasnikowski, Maks","Dalla Valle, Enrico",pending
+71975230,Tennis,"WTA 125K - WTA 125K Ilkley, Great Britain Women Doubles",2026-06-09T13:30:00Z,2026-06-09 15:30,Harrison C / Osborne A,Kuwata H / Sawangkaew M,pending
+71880166,Football,"Australia - Queensland Premier League 1, Women",2026-06-09T09:00:00Z,2026-06-09 11:00,Peninsula Power FC,North Lakes United,pending
+71770130,Football,International - ASEAN Championship,2026-06-09T09:00:00Z,2026-06-09 11:00,Timor-Leste,Brunei Darussalam,pending
+71799054,Football,Australia - Queensland Premier League 1,2026-06-09T09:30:00Z,2026-06-09 11:30,Ipswich FC,Robina City,pending
+67904478,Football,Australia - Queensland Premier League 3 Metro,2026-06-09T10:00:00Z,2026-06-09 12:00,Ipswich Knights,Logan Roos FC,pending
+71757376,Football,Australia - Queensland Premier League 2,2026-06-09T10:15:00Z,2026-06-09 12:15,Virginia United,Samford Rangers,pending
+67904482,Football,Australia - Queensland Premier League 3 Metro,2026-06-09T10:30:00Z,2026-06-09 12:30,Yeronga Eagles FC,MT Gravatt Hawks,pending
+71889066,Football,Ukraine - Premier League,2026-06-09T12:30:00Z,2026-06-09 14:30,FC Livyi Bereh Kyiv,FC Oleksandriya,pending
+71962486,Esports,Counter-Strike - European Pro League Series,2026-06-09T10:30:00Z,2026-06-09 12:30,Lavked,Misa eSports,pending
+71998846,Esports,Counter-Strike - Intel Extreme Masters Cologne,2026-06-09T12:00:00Z,2026-06-09 14:00,Pain Gaming,Monte,pending
+1510133,Esports,Valorant - Champions Tour: Masters London,2026-06-09T14:00:00Z,2026-06-09 16:00,Dragon Ranger,XLG,pending
+68858306,Cricket,"England - T20 Blast, Women",2026-06-09T13:30:00Z,2026-06-09 15:30,Lancashire Thunder,Hampshire,pending
+68858304,Cricket,"England - T20 Blast, Women",2026-06-09T13:30:00Z,2026-06-09 15:30,Durham,Yorkshire,pending
