@@ -1,18 +1,18 @@
 {
-  "generated_at_dk": "2026-06-10 20:25",
+  "generated_at_dk": "2026-06-10 23:51",
   "window_hours": 12,
-  "window_started_dk": "2026-06-10 20:25",
+  "window_started_dk": "2026-06-10 23:51",
   "bookmaker": "Bet365",
   "statuses_requested": "pending,live,settled",
   "sports_requested": "football,tennis,basketball,ice-hockey,american-football,baseball,cricket,rugby-union,rugby-league,handball,esports",
-  "events_after_filters": 42,
-  "events_requested_for_odds": 42,
-  "events_with_odds": 42,
+  "events_after_filters": 47,
+  "events_requested_for_odds": 47,
+  "events_with_odds": 47,
   "event_status_counts": {
-    "pending": 42
+    "pending": 47
   },
-  "market_rows": 8680,
-  "excluded_events": 73,
+  "market_rows": 7746,
+  "excluded_events": 66,
   "min_bookmaker_count": 10,
   "max_pages": 10,
   "max_price_events_per_sport": 200,
@@ -20,6 +20,6 @@
   "secondary_ai_file": "bet365_today_multisport_all_day_events.json",
   "csv_backup_file": "bet365_today_multisport_all_day_markets.csv",
   "pdf_created": true,
-  "latest_rate_limit_remaining": "36",
+  "latest_rate_limit_remaining": "83",
   "latest_rate_limit_limit": "100"
 }

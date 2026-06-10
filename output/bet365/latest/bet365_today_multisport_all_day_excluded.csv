@@ -1,74 +1,67 @@
 sport_query,event_id,date_denmark,home,away,league,sport,bookmaker_count,status,reason
-football,70688032,2026-06-10 21:15,Haukar,Kormakur/Hvot,Iceland - 2. deild,Football,0,pending,not_good_competition_or_low_coverage
-football,70688038,2026-06-10 21:15,Kari,Selfoss,Iceland - 2. deild,Football,0,pending,not_good_competition_or_low_coverage
-football,70688040,2026-06-10 21:15,Magni Grenivik,Dalvik R,Iceland - 2. deild,Football,0,pending,not_good_competition_or_low_coverage
-football,70688042,2026-06-10 21:15,Throttur V,Vikingur O,Iceland - 2. deild,Football,0,pending,not_good_competition_or_low_coverage
-football,70698940,2026-06-10 21:15,Hlidarendi,Reynir,Iceland - 3 deild,Football,0,pending,not_good_competition_or_low_coverage
-football,70698944,2026-06-10 21:15,Vidir,Arbaer,Iceland - 3 deild,Football,0,pending,not_good_competition_or_low_coverage
-football,70698948,2026-06-10 21:15,Tindastoll,Fjallabyggd,Iceland - 3 deild,Football,0,pending,not_good_competition_or_low_coverage
-football,71648142,2026-06-10 21:30,Afturelding,Stjarnan,Iceland - Bikarinn,Football,0,pending,not_good_competition_or_low_coverage
-football,71325934,2026-06-10 21:45,Portugal,Nigeria,International - International Matches,Football,0,pending,not_good_competition_or_low_coverage
-football,69164886,2026-06-10 22:00,England,Costa Rica,International - International Matches,Football,0,pending,not_good_competition_or_low_coverage
-football,70698938,2026-06-10 22:00,Augnablik,Vesturbaer,Iceland - 3 deild,Football,0,pending,not_good_competition_or_low_coverage
-football,70351032,2026-06-10 22:30,Gualaceo,Cumbaya FC,Ecuador - LigaPro Primera B,Football,0,pending,not_good_competition_or_low_coverage
-football,70351040,2026-06-10 22:30,Independiente,Club Deportivo Cuenca Juniors,Ecuador - LigaPro Primera B,Football,0,pending,not_good_competition_or_low_coverage
-football,69091616,2026-06-10 23:00,Charlotte,Asheville City SC,"USA - USL, League Two",Football,0,pending,not_good_competition_or_low_coverage
 football,69091618,2026-06-11 00:00,Chicago Dutch Lions,St. Croix SC,"USA - USL, League Two",Football,0,pending,not_good_competition_or_low_coverage
+football,69091644,2026-06-11 01:00,New England FC,Seacoast U. Phantoms,"USA - USL, League Two",Football,0,pending,not_good_competition_or_low_coverage
 football,67171976,2026-06-11 01:00,Westchester SC,Fort Wayne FC,"USA - USL, League One",Football,0,pending,not_good_competition_or_low_coverage
+football,69091656,2026-06-11 01:00,South Carolina Utd,Tobacco Road FC,"USA - USL, League Two",Football,0,pending,not_good_competition_or_low_coverage
+football,69091654,2026-06-11 01:00,Reading Utd.,Ocean City,"USA - USL, League Two",Football,0,pending,not_good_competition_or_low_coverage
+football,69091650,2026-06-11 01:00,Northern Indiana FC,Toledo Villa FC,"USA - USL, League Two",Football,0,pending,not_good_competition_or_low_coverage
 football,67843990,2026-06-11 01:00,Greenville Triumph SC,Loudoun United FC,USA - USL Cup,Football,0,pending,not_good_competition_or_low_coverage
 football,67844050,2026-06-11 01:00,One Knoxville SC,Chattanooga Red Wolves SC,USA - USL Cup,Football,0,pending,not_good_competition_or_low_coverage
-football,69091620,2026-06-11 01:00,AC Connecticut,Vermont Green FC,"USA - USL, League Two",Football,0,pending,not_good_competition_or_low_coverage
 football,69091630,2026-06-11 01:00,Black Rock FC,Albany Rush,"USA - USL, League Two",Football,0,pending,not_good_competition_or_low_coverage
 football,69072382,2026-06-11 01:00,Ambassadors FC Ohio,Buffalo Stallions,USA - National Premier Soccer League,Football,0,pending,not_good_competition_or_low_coverage
+football,69091620,2026-06-11 01:00,AC Connecticut,Vermont Green FC,"USA - USL, League Two",Football,0,pending,not_good_competition_or_low_coverage
 football,69091638,2026-06-11 01:00,Dayton,Kings Hammer Columbus,"USA - USL, League Two",Football,0,pending,not_good_competition_or_low_coverage
-football,69091644,2026-06-11 01:00,New England FC,Seacoast U. Phantoms,"USA - USL, League Two",Football,0,pending,not_good_competition_or_low_coverage
-football,69091650,2026-06-11 01:00,Northern Indiana FC,Toledo Villa FC,"USA - USL, League Two",Football,0,pending,not_good_competition_or_low_coverage
-football,69091654,2026-06-11 01:00,Reading Utd.,Ocean City,"USA - USL, League Two",Football,0,pending,not_good_competition_or_low_coverage
-football,69091656,2026-06-11 01:00,South Carolina Utd,Tobacco Road FC,"USA - USL, League Two",Football,0,pending,not_good_competition_or_low_coverage
 football,67171974,2026-06-11 01:30,Charlotte Ind.,Union Omaha SC,"USA - USL, League One",Football,0,pending,not_good_competition_or_low_coverage
 football,69091610,2026-06-11 01:30,Virginia Marauders FC,Patuxent Football Athletics,"USA - USL, League Two",Football,0,pending,not_good_competition_or_low_coverage
+football,71957758,2026-06-11 02:00,Bolivia,Algeria,International - International Matches,Football,0,pending,not_good_competition_or_low_coverage
 football,69091676,2026-06-11 02:00,River Light FC,Edgewater Castle,"USA - USL, League Two",Football,0,pending,not_good_competition_or_low_coverage
 football,70351034,2026-06-11 02:00,El Nacional,Santo Domingo,Ecuador - LigaPro Primera B,Football,0,pending,not_good_competition_or_low_coverage
-football,71957758,2026-06-11 02:00,Bolivia,Algeria,International - International Matches,Football,0,pending,not_good_competition_or_low_coverage
-football,69091686,2026-06-11 02:30,McKinney Chupacabras FC,Lubbock Matadors SC,"USA - USL, League Two",Football,0,pending,not_good_competition_or_low_coverage
 football,69091696,2026-06-11 02:30,Boston City,Western Mass,"USA - USL, League Two",Football,0,pending,not_good_competition_or_low_coverage
+football,69091686,2026-06-11 02:30,McKinney Chupacabras FC,Lubbock Matadors SC,"USA - USL, League Two",Football,0,pending,not_good_competition_or_low_coverage
 football,69091690,2026-06-11 03:00,City SC San Diego,Stars FC,"USA - USL, League Two",Football,0,pending,not_good_competition_or_low_coverage
 football,67171978,2026-06-11 03:30,AC Boise,Richmond,"USA - USL, League One",Football,0,pending,not_good_competition_or_low_coverage
 football,69091692,2026-06-11 04:30,Snohomish United,Ballard FC,"USA - USL, League Two",Football,0,pending,not_good_competition_or_low_coverage
 football,67171972,2026-06-11 05:00,Av Alta FC,Sarasota Paradise,"USA - USL, League One",Football,0,pending,not_good_competition_or_low_coverage
-tennis,71947224,2026-06-10 20:30,"Santos, Lillian","Osuigwe, Victoria","UTR Women - UTR PTT Boca Raton Women 05, Group A",Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71948420,2026-06-10 20:45,"Renfrow, Noble","Hamrouni, Zechariah","UTR Men - UTR PTT Boston Men 01, Group D",Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,12683891823,2026-06-10 21:00,Moritz Kudernatsch,Aryan Lakshmanan,Tennis - ITF Men Vaasa - R1,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,12630008033,2026-06-10 21:15,Philip Sekulic,Blake Ellis,Tennis - ITF Men Wichita - R1,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,14204980831,2026-06-10 21:15,Nicolas Arseneault,Thanaphat Boosarawongse,Tennis - ITF Men Wichita - R1,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,13254268211,2026-06-10 21:30,Kaylan Bigun,Volodymyr Gurenko,Tennis - ITF Men Los Angeles - R1,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,15536605338,2026-06-10 21:30,Noah Zamora,Nathan Cox,Tennis - ITF Men Los Angeles - R1,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,13453208093,2026-06-10 21:30,Jerry Roddick,Evan Bynoe,Tennis - ITF Men Los Angeles - R1,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71948450,2026-06-10 21:40,"Rhazali, Omar","Corwin, Oscar","UTR Men - UTR PTT Boston Men 01, Group A",Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71957962,2026-06-10 21:50,Blanchet U / Jacquet K,Barrientos N / Behar A,"Challenger - Ilkley, Great Britain, Doubles",Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71948408,2026-06-10 21:55,"Aney, Alexander","Iantosca, Nicolas","UTR Men - UTR PTT Boston Men 01, Group C",Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,14190752818,2026-06-10 22:00,Luis Felipe Miguel,Mauricio Echazu,Tennis - ITF Men Brasilia - R1,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71957972,2026-06-10 22:25,Kiger M / Stalder R,Bollipalli R C / Hilderbrand T,"Challenger - Ilkley, Great Britain, Doubles",Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,13893069414,2026-06-10 23:00,Matt Kuhar,Karl Kazuma Lee,Tennis - ITF Men Los Angeles - R1,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,13485024002,2026-06-10 23:00,Jacob Brumm,Marcel Latak,Tennis - ITF Men Los Angeles - R1,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,13806518513,2026-06-10 23:00,Vit Kalina,Theodore Dean,Tennis - ITF Men Los Angeles - R1,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,14082774875,2026-06-10 23:00,Andrew Johnson,Timofey Stepanov,Tennis - ITF Men Los Angeles - R1,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,14424725433,2026-06-10 23:00,Avery Tallakson,Tristan Stringer,Tennis - ITF Men Los Angeles - R1,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,15090142592,2026-06-10 23:00,Matic Kriznik,Miles Jones,Tennis - ITF Men Los Angeles - R1,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,12701611619,2026-06-11 00:00,Louis Larue,Otso Martikainen,Tennis - ITF Men Vaasa - R1,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,14190752818,2026-06-11 00:00,Luis Felipe Miguel,Mauricio Echazu,Tennis - ITF Men Brasilia - R1,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,12695429680,2026-06-11 00:00,Jules Leroux,Leonardo Rossi,Tennis - ITF Men Vaasa - R1,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,12630008033,2026-06-11 00:15,Philip Sekulic,Blake Ellis,Tennis - ITF Men Wichita - R1,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,13903879937,2026-06-11 01:00,Tanishk Konduri,Maxwell Exsted,Tennis - ITF Men Los Angeles - R1,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,14336550187,2026-06-11 03:00,Jangjun Kim,Maximus Jones,Tennis - ITF Men Tokyo - R16,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,12704675264,2026-06-11 03:00,Taisei Ichikawa,Takuya Kumasaka,Tennis - ITF Men Tokyo - R16,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71947486,2026-06-11 03:30,"Sparks, Benjamin","Hall, Donald","UTR Men - UTR PTT Newport Beach Men 14, Group C",Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,71947480,2026-06-11 03:30,"Calvelo, Xavier","Hakopian, George","UTR Men - UTR PTT Newport Beach Men 14, Group B",Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71947486,2026-06-11 03:30,"Sparks, Benjamin","Hall, Donald","UTR Men - UTR PTT Newport Beach Men 14, Group C",Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,71947526,2026-06-11 03:30,"Day, Jp","Bushuev, Pavel","UTR Men - UTR PTT Newport Beach Men 14, Group D",Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,71975604,2026-06-11 03:30,"Harmon, Alexia","Lewis, Bella","UTR Women - UTR PTT Newport Beach Women 14, Group A",Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,13876906083,2026-06-11 04:00,Joshua Charlton,Matthew Dellavedova,Tennis - ITF Men Maanshan - R16,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,14134101054,2026-06-11 04:00,Kasidit Samrej,Pawit Sornlaksup,Tennis - ITF Men Maanshan - R16,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,15353776340,2026-06-11 04:00,Artem Alekseychuk,Hanyi Liu,Tennis - ITF Men Maanshan - R16,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,12324337915,2026-06-11 04:00,Hikaru Shiraishi,Shinji Hazawa,Tennis - ITF Men Tokyo - R16,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,14582872316,2026-06-11 04:00,Shu Matsuoka,Naoya Honda,Tennis - ITF Men Tokyo - R16,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,16219748088,2026-06-11 04:00,Jumpei Yamasaki,Hayden Jones,Tennis - ITF Men Tokyo - R16,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,12206516192,2026-06-11 05:00,Thanapet Chanta,Mitsuki Wei Kang Leong,Tennis - ITF Men Maanshan - R16,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,14376737002,2026-06-11 05:00,Evan Zhu,Kokoro Isomura,Tennis - ITF Men Maanshan - R16,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,15233195622,2026-06-11 06:00,Chan-Yeong Oh,Moerani Bouzige,Tennis - ITF Men Maanshan - R16,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,15604598902,2026-06-11 06:00,Kosuke Ogura,Masamichi Imamura,Tennis - ITF Men Tokyo - R16,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,12529366986,2026-06-11 10:00,Carles Hernandez,Joao Domingues,Tennis - ITF Men Martos - R16,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,13864491209,2026-06-11 10:00,Denis Petak,Daniel Siniakov,Tennis - ITF Men Ceska Lipa - R16,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71901056,2026-06-11 10:30,Cornea V / Cukierman D,Carballes Baena R / Martos Gornes S,"Challenger - Cattolica, Italy, Doubles",Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71900968,2026-06-11 10:30,"Rincon, Daniel","Blanch, Dali","Challenger - Lyon, France",Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71901022,2026-06-11 10:30,"Guillen Meza, Alvaro","Cecchinato, Marco","Challenger - Cattolica, Italy",Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,13376656753,2026-06-11 11:00,Lilian Marmousez,Oleksii Krutykh,Tennis - ITF Men Ceska Lipa - R16,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71900630,2026-06-11 11:00,"Shevchenko, Alexander","Barton, Hynek","Challenger - Bratislava, Slovakia",Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71900658,2026-06-11 11:00,Cervantes I / Molchanov D,Lammons N / Withrow J,"Challenger - Bratislava, Slovakia, Doubles",Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71900584,2026-06-11 11:30,"Samuel, Toby","Holmgren, August","Challenger - Ilkley, Great Britain",Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71901024,2026-06-11 11:40,"De Jong, Jesper","Bondioli, Federico","Challenger - Cattolica, Italy",Tennis,0,pending,not_good_competition_or_low_coverage
 basketball,71056714,2026-06-11 00:30,Salvador Basketball,Cerrado Basquete,"Brazil - LBF, Women",Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,71056716,2026-06-11 00:30,Campinas,Sodie Mesquita,"Brazil - LBF, Women",Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,71807874,2026-06-11 01:15,CD Albatros,CA Marne,Uruguay - Liga de Ascenso,Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,71807876,2026-06-11 01:15,Colon,Verdirrojo BBC,Uruguay - Liga de Ascenso,Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,71116926,2026-06-11 02:00,Gigantes de Carolina,Atleticos de San German,Puerto Rico - BSN,Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,71116928,2026-06-11 02:00,Criollos de Caguas,Mets de Guaynabo,Puerto Rico - BSN,Basketball,0,pending,not_good_competition_or_low_coverage
+ice-hockey,71900792,2026-06-11 01:30,Florida,Kansas City,"USA - ECHL, Playoffs",Ice Hockey,0,pending,not_good_competition_or_low_coverage
 baseball,67361048,2026-06-11 03:00,El Aguila de Veracruz,Toros Tijuana,Mexico - Mexican League,Baseball,0,pending,not_good_competition_or_low_coverage
 cricket,70974322,2026-06-11 07:00,Bangladesh,Australia,International - ODI Series Bangladesh vs Australia,Cricket,0,pending,not_good_competition_or_low_coverage
 rugby-union,,,,,,,,,"HTTP 400: {""error"":""Invalid sport slug""}"
 rugby-league,,,,,,,,,"HTTP 400: {""error"":""Invalid sport slug""}"
-handball,71962446,2026-06-10 20:30,CD Agustinos Alicante,BM Nava,"Spain - Liga Asobal, Releg./Prom. Playoff",Handball,0,pending,not_good_competition_or_low_coverage
+esports,5541519084,2026-06-11 08:00,Top Esports Challenger,CTBC Flying Oyster Academy,League of Legends - Asia Masters,Esports,0,pending,excluded_youth_reserve_friendly_or_exhibition
