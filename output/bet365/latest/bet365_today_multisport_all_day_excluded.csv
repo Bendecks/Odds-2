@@ -1,37 +1,30 @@
 sport_query,event_id,date_denmark,home,away,league,sport,bookmaker_count,status,reason
-football,68049826,2026-06-12 10:45,Comets,West Adelaide,"Australia - South Australia NPL, Women",Football,0,pending,not_good_competition_or_low_coverage
-football,67690932,2026-06-12 11:30,Manly,Sydney Utd,Australia - NSW NPL 1,Football,0,pending,not_good_competition_or_low_coverage
-football,68048902,2026-06-12 12:00,Campbelltown,West Torrens,Australia - South Australia NPL,Football,0,pending,not_good_competition_or_low_coverage
-football,67692292,2026-06-12 12:00,Nepean FC,Dunbar Rovers,Australia - NSW League Two,Football,0,pending,not_good_competition_or_low_coverage
-football,67692290,2026-06-12 12:00,Fraser Park,Mounties Wanderers,Australia - NSW League Two,Football,0,pending,not_good_competition_or_low_coverage
-football,67691658,2026-06-12 12:15,Spartans,Bankstown City,Australia - NSW League One,Football,0,pending,not_good_competition_or_low_coverage
-football,68051648,2026-06-12 12:15,Eastern United,Adelaide Olympic,Australia - South Australia State League 1,Football,0,pending,not_good_competition_or_low_coverage
-football,68048904,2026-06-12 13:00,Comets,West Adelaide,Australia - South Australia NPL,Football,0,pending,not_good_competition_or_low_coverage
-football,72058484,2026-06-12 13:00,PVF Cong An Nhan Dan FC,Bac Ninh,"Vietnam - V-League 1, Relagation / Promotion Playoff",Football,0,pending,not_good_competition_or_low_coverage
-football,68902078,2026-06-12 15:00,Itabirito,Nacional AC Muriae MG,"Brazil - U20 Mineiro, 1. Divisao",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,68902082,2026-06-12 15:00,Atletico Mineiro,AE Uberabinha,"Brazil - U20 Mineiro, 1. Divisao",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,71996544,2026-06-12 17:00,Olympique de Safi,Kawkab Marrakech,Morocco - Botola Pro D1,Football,0,pending,not_good_competition_or_low_coverage
 football,68492560,2026-06-12 17:00,Tukums 2000,Daugavpils,Latvia - Virsliga,Football,0,pending,not_good_competition_or_low_coverage
 football,70906800,2026-06-12 17:00,Iberia,FC Spaeri,Georgia - Erovnuli Liga,Football,0,pending,not_good_competition_or_low_coverage
+football,71996544,2026-06-12 17:00,Olympique de Safi,Kawkab Marrakech,Morocco - Botola Pro D1,Football,0,pending,not_good_competition_or_low_coverage
 football,68538296,2026-06-12 17:30,SalPa,KuPS Akatemia,Finland - Ykkonen,Football,0,pending,not_good_competition_or_low_coverage
 football,68538298,2026-06-12 17:30,Inter Turku 2,Jazz,Finland - Ykkonen,Football,0,pending,not_good_competition_or_low_coverage
-football,69670754,2026-06-12 17:30,Hegelmann Litauen B,Babrungas Plunge,Lithuania - 1 Lyga,Football,0,pending,not_good_competition_or_low_coverage
-football,69921810,2026-06-12 17:30,Toukolan Teras/Tapio,Atlantis FC/Akatemia,"Finland - Kolmonen, Southern, Group 3",Football,0,pending,not_good_competition_or_low_coverage
 football,68954868,2026-06-12 17:30,Panevezys,Transinvest,Lithuania - A Lyga,Football,0,pending,not_good_competition_or_low_coverage
 football,69670752,2026-06-12 17:30,Be1 Nfa,Tauras Taurage,Lithuania - 1 Lyga,Football,0,pending,not_good_competition_or_low_coverage
-football,69923722,2026-06-12 18:00,NOPS,Tampere United 2,"Finland - Kolmonen, Western, Group 2",Football,0,pending,not_good_competition_or_low_coverage
-football,70162094,2026-06-12 18:00,Ukmerge,Banga B,Lithuania - II Lyga,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,68954864,2026-06-12 18:00,Dziugas,Siauliai,Lithuania - A Lyga,Football,0,pending,not_good_competition_or_low_coverage
-football,69670756,2026-06-12 18:00,Jonava,Atmosfera,Lithuania - 1 Lyga,Football,0,pending,not_good_competition_or_low_coverage
+football,69670754,2026-06-12 17:30,Hegelmann Litauen B,Babrungas Plunge,Lithuania - 1 Lyga,Football,0,pending,not_good_competition_or_low_coverage
+football,69921810,2026-06-12 17:30,Toukolan Teras/Tapio,Atlantis FC/Akatemia,"Finland - Kolmonen, Southern, Group 3",Football,0,pending,not_good_competition_or_low_coverage
 football,61911592,2026-06-12 18:00,Vienna Amateure,Red Star Penzing,Austria Amateur - Wiener Stadtliga,Football,0,pending,not_good_competition_or_low_coverage
 football,61911598,2026-06-12 18:00,Gerasdorf,Wienerberg 1921,Austria Amateur - Wiener Stadtliga,Football,0,pending,not_good_competition_or_low_coverage
 football,67915612,2026-06-12 18:00,Follo,Kjelsaas,"Norway - 2nd Division, Group 2",Football,0,pending,not_good_competition_or_low_coverage
 football,68492562,2026-06-12 18:00,Liepaja,Super Nova,Latvia - Virsliga,Football,0,pending,not_good_competition_or_low_coverage
+football,68954864,2026-06-12 18:00,Dziugas,Siauliai,Lithuania - A Lyga,Football,0,pending,not_good_competition_or_low_coverage
+football,69670756,2026-06-12 18:00,Jonava,Atmosfera,Lithuania - 1 Lyga,Football,0,pending,not_good_competition_or_low_coverage
+football,69923722,2026-06-12 18:00,NOPS,Tampere United 2,"Finland - Kolmonen, Western, Group 2",Football,0,pending,not_good_competition_or_low_coverage
+football,70162094,2026-06-12 18:00,Ukmerge,Banga B,Lithuania - II Lyga,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
 football,70684232,2026-06-12 18:00,Atlantis FC/2,Malmi,"Finland - Kolmonen, Southern, Group 2",Football,0,pending,not_good_competition_or_low_coverage
 football,70711940,2026-06-12 18:00,Komeetat,FC Metso,"Finland - Kolmonen, Eastern, Group 1",Football,0,pending,not_good_competition_or_low_coverage
 football,69920686,2026-06-12 18:15,Etela-Espoon,Hoogee,"Finland - Kolmonen, Southern, Group 1",Football,0,pending,not_good_competition_or_low_coverage
+football,61910920,2026-06-12 18:30,Union Mondsee,Union Perg,"Austria Amateur - Oberosterreich, OO Liga",Football,0,pending,not_good_competition_or_low_coverage
 football,70684002,2026-06-12 18:30,Eupa,Masku,"Finland - Kolmonen, Western, Group 1",Football,0,pending,not_good_competition_or_low_coverage
-football,71996548,2026-06-12 19:00,Meknes,Renaissance Zemamra,Morocco - Botola Pro D1,Football,0,pending,not_good_competition_or_low_coverage
+football,61906442,2026-06-12 19:00,Eugendorf,Thalgau,Austria Amateur - Salzburger Liga,Football,0,pending,not_good_competition_or_low_coverage
+football,61911600,2026-06-12 19:00,Schwechat,LAC Inter,Austria Amateur - Wiener Stadtliga,Football,0,pending,not_good_competition_or_low_coverage
+football,67912714,2026-06-12 19:00,Dinamo Batumi,Dila Gori,Georgia - Erovnuli Liga,Football,0,pending,not_good_competition_or_low_coverage
+football,67920392,2026-06-12 19:00,Varhaug,Viking 2,"Norway - 3rd Division, Group 4",Football,0,pending,not_good_competition_or_low_coverage
 football,68310956,2026-06-12 19:00,Umea,Pitea,"Sweden - Ettan, Norra",Football,0,pending,not_good_competition_or_low_coverage
 football,68311660,2026-06-12 19:00,Lunds,Ariana FC,"Sweden - Ettan, Sodra",Football,0,pending,not_good_competition_or_low_coverage
 football,68320224,2026-06-12 19:00,Stenungsunds,Ahlafors,"Sweden - Division 2, Norra Gotaland",Football,0,pending,not_good_competition_or_low_coverage
@@ -39,14 +32,17 @@ football,68344700,2026-06-12 19:00,Karlshamn,Solvesborgs,"Sweden - Division 2, S
 football,68344702,2026-06-12 19:00,Lilla Torg,Staffanstorp,"Sweden - Division 2, Sodra Gotaland",Football,0,pending,not_good_competition_or_low_coverage
 football,68344704,2026-06-12 19:00,Rappe GOIF,Oskarshamn,"Sweden - Division 2, Sodra Gotaland",Football,0,pending,not_good_competition_or_low_coverage
 football,68344706,2026-06-12 19:00,Osterlen,Nosaby,"Sweden - Division 2, Sodra Gotaland",Football,0,pending,not_good_competition_or_low_coverage
-football,70684236,2026-06-12 19:00,Ppj/Lauttasaari,TiPS,"Finland - Kolmonen, Southern, Group 2",Football,0,pending,not_good_competition_or_low_coverage
 football,68954862,2026-06-12 19:00,Zalgiris Vilnius,Riteriai,Lithuania - A Lyga,Football,0,pending,not_good_competition_or_low_coverage
-football,61906442,2026-06-12 19:00,Eugendorf,Thalgau,Austria Amateur - Salzburger Liga,Football,0,pending,not_good_competition_or_low_coverage
-football,61911600,2026-06-12 19:00,Schwechat,LAC Inter,Austria Amateur - Wiener Stadtliga,Football,0,pending,not_good_competition_or_low_coverage
-football,67912714,2026-06-12 19:00,Dinamo Batumi,Dila Gori,Georgia - Erovnuli Liga,Football,0,pending,not_good_competition_or_low_coverage
-football,67920392,2026-06-12 19:00,Varhaug,Viking 2,"Norway - 3rd Division, Group 4",Football,0,pending,not_good_competition_or_low_coverage
-football,68320226,2026-06-12 19:30,IFK Skovde FK,Grebbestads,"Sweden - Division 2, Norra Gotaland",Football,0,pending,not_good_competition_or_low_coverage
+football,70684236,2026-06-12 19:00,Ppj/Lauttasaari,TiPS,"Finland - Kolmonen, Southern, Group 2",Football,0,pending,not_good_competition_or_low_coverage
+football,71996548,2026-06-12 19:00,Meknes,Renaissance Zemamra,Morocco - Botola Pro D1,Football,0,pending,not_good_competition_or_low_coverage
 football,61541500,2026-06-12 19:30,Imst,Kuchl,Austria Amateur - Regionalliga West,Football,0,pending,not_good_competition_or_low_coverage
+football,67993600,2026-06-12 19:30,B71 Sandoy,Vikingur Gota II,Faroe Islands - 1. deild,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,68320226,2026-06-12 19:30,IFK Skovde FK,Grebbestads,"Sweden - Division 2, Norra Gotaland",Football,0,pending,not_good_competition_or_low_coverage
+football,71648146,2026-06-12 19:30,Aegir,Breidablik,Iceland - Bikarinn,Football,0,pending,not_good_competition_or_low_coverage
+football,69688554,2026-06-12 20:00,Nacao,Carlos Renaux SC,"Brazil - U20 Catarinense, Serie A",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,71508704,2026-06-12 20:00,Flamengo,Guarani,"Brazil - U20 Paulista, Group 3",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,71508706,2026-06-12 20:00,XV de Novembro de Jau,Capivariano,"Brazil - U20 Paulista, Group 3",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,71508708,2026-06-12 20:00,Prudente,Tanabi,"Brazil - U20 Paulista, Group 3",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
 football,71508710,2026-06-12 20:00,Ituano,Referencia,"Brazil - U20 Paulista, Group 3",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
 football,71508712,2026-06-12 20:00,Maua FC SP,Agua Santa,"Brazil - U20 Paulista, Group 3",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
 football,71508914,2026-06-12 20:00,Desportivo Brasil,Sao Caetano,"Brazil - U20 Paulista, Group 2",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
@@ -58,111 +54,81 @@ football,71509116,2026-06-12 20:00,Juventus,Mirassol,"Brazil - U20 Paulista, Gro
 football,71509118,2026-06-12 20:00,Ferroviaria,America,"Brazil - U20 Paulista, Group 1",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
 football,71509120,2026-06-12 20:00,Suzano,Sertaozinho FC SP,"Brazil - U20 Paulista, Group 1",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
 football,71509122,2026-06-12 20:00,Santos,Jabaquara AC SP,"Brazil - U20 Paulista, Group 1",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,71508704,2026-06-12 20:00,Flamengo,Guarani,"Brazil - U20 Paulista, Group 3",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,71508708,2026-06-12 20:00,Prudente,Tanabi,"Brazil - U20 Paulista, Group 3",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
 football,71848166,2026-06-12 20:00,Cerrado,Anapolis,"Brazil - U20 Goiano, 1. Divisao, Playoffs",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,71508706,2026-06-12 20:00,XV de Novembro de Jau,Capivariano,"Brazil - U20 Paulista, Group 3",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,69688554,2026-06-12 20:00,Nacao,Carlos Renaux SC,"Brazil - U20 Catarinense, Serie A",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
-football,66854792,2026-06-12 20:45,Wexford,Cork City,Ireland - First Division,Football,0,pending,not_good_competition_or_low_coverage
-football,66854790,2026-06-12 20:45,Treaty United,Bray Wanderers,Ireland - First Division,Football,0,pending,not_good_competition_or_low_coverage
-football,66854788,2026-06-12 20:45,Kerry FC,Athlone Town,Ireland - First Division,Football,0,pending,not_good_competition_or_low_coverage
-football,66854084,2026-06-12 20:45,Waterford,Sligo Rovers,Ireland - Premier Division,Football,0,pending,not_good_competition_or_low_coverage
-football,68307892,2026-06-12 20:45,Haukar,Volsungur,"Iceland - 1. deild, Women",Football,0,pending,not_good_competition_or_low_coverage
-football,66854082,2026-06-12 20:45,St. Patrick´s,Drogheda United,Ireland - Premier Division,Football,0,pending,not_good_competition_or_low_coverage
-football,66854078,2026-06-12 20:45,Galway Utd,Dundalk,Ireland - Premier Division,Football,0,pending,not_good_competition_or_low_coverage
 football,66854076,2026-06-12 20:45,Derry City,Bohemians D.,Ireland - Premier Division,Football,0,pending,not_good_competition_or_low_coverage
+football,66854078,2026-06-12 20:45,Galway Utd,Dundalk,Ireland - Premier Division,Football,0,pending,not_good_competition_or_low_coverage
+football,66854082,2026-06-12 20:45,St. Patrick´s,Drogheda United,Ireland - Premier Division,Football,0,pending,not_good_competition_or_low_coverage
+football,66854084,2026-06-12 20:45,Waterford,Sligo Rovers,Ireland - Premier Division,Football,0,pending,not_good_competition_or_low_coverage
+football,66854788,2026-06-12 20:45,Kerry FC,Athlone Town,Ireland - First Division,Football,0,pending,not_good_competition_or_low_coverage
+football,66854790,2026-06-12 20:45,Treaty United,Bray Wanderers,Ireland - First Division,Football,0,pending,not_good_competition_or_low_coverage
+football,66854792,2026-06-12 20:45,Wexford,Cork City,Ireland - First Division,Football,0,pending,not_good_competition_or_low_coverage
+football,68307892,2026-06-12 20:45,Haukar,Volsungur,"Iceland - 1. deild, Women",Football,0,pending,not_good_competition_or_low_coverage
 football,66854080,2026-06-12 21:00,Shelbourne,Shamrock,Ireland - Premier Division,Football,0,pending,not_good_competition_or_low_coverage
 football,69254692,2026-06-12 21:00,Coquimbo Unido,Deportes Recoleta,"Chile - Primera Division, Women",Football,0,pending,not_good_competition_or_low_coverage
 football,70844474,2026-06-12 21:15,KFR,Ulfanir,Iceland - 4. deild,Football,0,pending,not_good_competition_or_low_coverage
 football,71648144,2026-06-12 22:15,Akranes,Vikingur Reykjavik,Iceland - Bikarinn,Football,0,pending,not_good_competition_or_low_coverage
-tennis,13209029381,2026-06-12 10:16,Andrej Nedic,Yaroslav Demin,Tennis - ITF Men Kiseljak - R16,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,14176040971,2026-06-12 10:16,Gilles Arnaud Bailly,Aristotelis Thanos,Tennis - ITF Men Varnamo - QF,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,13245648959,2026-06-12 10:30,Diego Fernandez Flores,Dominick Mosejczuk,Tennis - ITF Men Monastir - QF,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,14166769108,2026-06-12 10:30,Patrik Meszaros,Oscar Jose Gutierrez,Tennis - ITF Men Nyiregyhaza - QF,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71900988,2026-06-12 10:30,"Blanch, Dali","Jorda Sanchis, David","Challenger - Lyon, France",Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,13761561317,2026-06-12 10:30,Paul Barbier Gazeu,Cesar Bouchelaghem,Tennis - ITF Men Monastir - QF,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,13613998048,2026-06-12 10:30,Sergi Perez Contri,Yanis Ghazouani Durand,Tennis - ITF Men Kiseljak - R16,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,15962944608,2026-06-12 10:30,Roger Pascual Ferra,Ryuki Matsuda,Tennis - ITF Men Monastir - QF,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,14130785984,2026-06-12 11:00,Matias Ponce De Leon Gomila,Kirill Kivattsev,Tennis - ITF Men Kiseljak - R16,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,16126744658,2026-06-12 11:00,Carles Cordoba,Marko Maksimovic,Tennis - ITF Men Kursumlijska Banja - QF,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,15975761016,2026-06-12 11:00,Joaquin Guilleme,Linus Lagerbohm,Tennis - ITF Men Vaasa - QF,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,14434950377,2026-06-12 11:00,Oleksii Krutykh,Pedro Sakamoto,Tennis - ITF Men Ceska Lipa - QF,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,14772027930,2026-06-12 11:00,Marko Knezevic,Viacheslav Bielinskyi,Tennis - ITF Men Kiseljak - R16,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,14828602801,2026-06-12 11:00,Stefano D'agostino,Carlos Giraldi,Tennis - ITF Men Kursumlijska Banja - QF,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,15572692519,2026-06-12 11:00,Marat Sharipov,Drazen Petrovic,Tennis - ITF Men Kiseljak - R16,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71901038,2026-06-12 11:00,"De Jong, Jesper","Cecchinato, Marco","Challenger - Cattolica, Italy",Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,15549869491,2026-06-12 11:00,Georgii Kravchenko,Rudolf Molleker,Tennis - ITF Men Ceska Lipa - QF,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,15346569624,2026-06-12 11:00,Branko Djuric,Nicolas Jadoun,Tennis - ITF Men Kursumlijska Banja - QF,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,12524692810,2026-06-12 11:00,Alan Fernando Rubio Fierros,Fadi Bidan,Tennis - ITF Men Curtea de Arges - QF,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,13845635870,2026-06-12 11:00,Guillaume Dalmasso,Tom Zeuch,Tennis - ITF Men Vaasa - QF,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71900644,2026-06-12 12:00,"Shevchenko, Alexander","Mrva, Maxim","Challenger - Bratislava, Slovakia",Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71900594,2026-06-12 12:00,"Rocha, Henrique","Blanch, Darwin","Challenger - Ilkley, Great Britain",Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,14155547121,2026-06-12 12:00,Peter Makk,Yannik Kelm,Tennis - ITF Men Nyiregyhaza - QF,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,13864477602,2026-06-12 12:00,John Sperle,Nikita Bilozertsev,Tennis - ITF Men Nyiregyhaza - QF,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71900584,2026-06-12 12:00,"Samuel, Toby","Holmgren, August","Challenger - Ilkley, Great Britain",Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71900666,2026-06-12 12:00,Cervantes I / Molchanov D,Drzewiecki K / Matuszewski P,"Challenger - Bratislava, Slovakia, Doubles",Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,15672946542,2026-06-12 12:30,Massimo Pizzigoni,Andrey Chepelev,Tennis - ITF Men Kiseljak - R16,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71900986,2026-06-12 12:30,"Boyer, Tristan","Sanchez Izquierdo, Nikolas","Challenger - Lyon, France",Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71901050,2026-06-12 13:00,Jecan A / Pavel B,Cornea V / Cukierman D,"Challenger - Cattolica, Italy, Doubles",Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71901000,2026-06-12 13:00,Ruehl T / Wehnelt K,Mansouri S / Neuchrist M,"Challenger - Lyon, France, Doubles",Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71900582,2026-06-12 13:10,"Gea, Arthur","Lajal, Mark","Challenger - Ilkley, Great Britain",Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71900640,2026-06-12 13:10,"Kolar, Zdenek","Cina, Federico","Challenger - Bratislava, Slovakia",Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71900642,2026-06-12 13:30,"Brunclik, Petr","Sachko, Vitaliy","Challenger - Bratislava, Slovakia",Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,14870893910,2026-06-12 14:00,Moritz Kudernatsch,Leonardo Rossi,Tennis - ITF Men Vaasa - QF,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71900574,2026-06-12 14:00,"Schoolkate, Tristan","Tarvet, Oliver","Challenger - Ilkley, Great Britain",Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,12718723131,2026-06-12 14:00,Filip Peliwo,Matt Ponchet,Tennis - ITF Men Vaasa - QF,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,12316330119,2026-06-12 14:00,Ivan Biletic,Duje Ajdukovic,Tennis - ITF Men Kiseljak - R16,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71900976,2026-06-12 14:30,"Galan, Daniel Elahi","Coppejans, Kimmer","Challenger - Lyon, France",Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71901002,2026-06-12 14:30,Arias B / Ingildsen J,Isaro P / Kaliyanda Poonacha N,"Challenger - Lyon, France, Doubles",Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71900614,2026-06-12 15:05,Bollipalli R C / Hilderbrand T,Escobar G / Kittay B,"Challenger - Ilkley, Great Britain, Doubles",Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71900572,2026-06-12 15:10,"Romano, Filippo","Pinnington Jones, Jack","Challenger - Ilkley, Great Britain",Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,14705675367,2026-06-12 16:00,Alberto Barroso Campos,Pablo Perez Ramos,Tennis - ITF Men Martos - QF,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71900654,2026-06-12 16:00,"Piros, Zsombor","Daniel, Taro","Challenger - Bratislava, Slovakia",Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,71901034,2026-06-12 16:00,"Brancaccio, Raul","Carballes Baena, Roberto","Challenger - Cattolica, Italy",Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,15173950875,2026-06-12 16:00,Pablo Martinez Gomez,John Echeverria,Tennis - ITF Men Martos - QF,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,16165209841,2026-06-12 17:00,Emile Hudd,Joao Domingues,Tennis - ITF Men Martos - QF,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,15751791598,2026-06-12 17:00,Cooper Woestendick,Lucas Marionneau,Tennis - ITF Men Wichita - R16,Tennis,0,settled,not_good_competition_or_low_coverage
+football,68989454,2026-06-13 00:00,North Carolina Courage,North Carolina Fusion,USA - USL W League,Football,0,pending,not_good_competition_or_low_coverage
+football,68989492,2026-06-13 01:00,Birmingham Legion FC,One Knoxville,USA - USL W League,Football,0,pending,not_good_competition_or_low_coverage
+football,69091714,2026-06-13 01:00,Long Island,FC Motown STA,"USA - USL, League Two",Football,0,pending,not_good_competition_or_low_coverage
+football,69091718,2026-06-13 01:00,Midlakes United,West Seattle Junction FC,"USA - USL, League Two",Football,0,pending,not_good_competition_or_low_coverage
+football,71220710,2026-06-13 01:00,FC Pride Elite,Wisconsin Conquerors FC,USA - National Premier Soccer League,Football,0,pending,not_good_competition_or_low_coverage
+football,67681902,2026-06-13 02:00,Audax,Deportes La Serena,Chile - Primera Division,Football,0,pending,not_good_competition_or_low_coverage
+football,68989466,2026-06-13 02:00,RKC Third Coast,Sioux Falls City FC,USA - USL W League,Football,0,pending,not_good_competition_or_low_coverage
+football,71567404,2026-06-13 03:00,Caroline Springs George Cross,Dandenong Thunder,Australia - U23 Victoria NPL,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,68051008,2026-06-13 03:45,Adelaide Comets FC Reserves,West Adelaide Reserve,"Australia - South Australia NPL, Reserves, Women",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,67808492,2026-06-13 04:00,Adamstown Rosebud FC Reserve,Broadmeadow Magic FC Reserve,"Australia - Northern NSW NPL, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,68160978,2026-06-13 04:15,North Sunshine Eagles,Melbourne Srbija,Australia - U23 Victoria Premier League 1,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,68050340,2026-06-13 04:30,Eastern United Reserve,Adelaide Olympic FC Reserve,"Australia - South Australia State League 1, Reserves",Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,68160980,2026-06-13 04:30,Langwarrin,Manningham United Blues,Australia - U23 Victoria Premier League 1,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,69195856,2026-06-13 04:30,O'Connor Knights SC,Tuggeranong United FC,Australia - U23 Capital NPL,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+football,71952804,2026-06-13 04:30,Robina City,Holland Park Hawks,Australia - U23 Queensland Premier League 1,Football,0,pending,excluded_youth_reserve_friendly_or_exhibition
+tennis,71947246,2026-06-12 16:40,"Jarvis-Tredgett, Cookie","Chennamsetty, Shravani","UTR Women - UTR PTT Boca Raton Women 05, Group B",Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71947208,2026-06-12 16:40,"Allen, Kolie","Nask, Juliette","UTR Women - UTR PTT Boca Raton Women 05, Group B",Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,14912560871,2026-06-12 17:00,Juan Sebastian Osorio,Nicolas Oliveira,Tennis - ITF Men Brasilia - QF,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,15751791598,2026-06-12 17:00,Cooper Woestendick,Lucas Marionneau,Tennis - ITF Men Wichita - R16,Tennis,0,settled,not_good_competition_or_low_coverage
+tennis,12159708056,2026-06-12 17:00,Andrew Fenty,Lucas Marionneau,Tennis - ITF Men Wichita - QF,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,15975761016,2026-06-12 17:00,Joaquin Guilleme,Linus Lagerbohm,Tennis - ITF Men Vaasa - QF,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,16042486936,2026-06-12 17:00,Dan Added,Rafael Izquierdo Luque,Tennis - ITF Men Martos - QF,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,16165209841,2026-06-12 17:00,Emile Hudd,Joao Domingues,Tennis - ITF Men Martos - QF,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,13870534981,2026-06-12 17:00,Pedro Rodrigues,Alex Hernandez,Tennis - ITF Men Brasilia - QF,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,72053526,2026-06-12 17:10,"Iantosca, Nicolas","Rodi, Christopher","UTR Men - UTR PTT Boston Men 01, 9-12 Playoff",Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,72052764,2026-06-12 17:10,"Gullacksen, Nikoline","Gisone, Mayra","UTR Women - UTR PTT Boston Women 01, 9-12 Playoff",Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,72053528,2026-06-12 17:10,"Hedgecoe, Drew","Kotzen, Andrew","UTR Men - UTR PTT Boston Men 01, 9-12 Playoff",Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,13364350076,2026-06-12 17:30,Maxence Rivet,Fausto Tabacco,Tennis - ITF Men Messina - SF,Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,71900990,2026-06-12 17:45,"Balshaw, Felix","Tabur, Clement","Challenger - Lyon, France",Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71900574,2026-06-12 17:50,"Schoolkate, Tristan","Tarvet, Oliver","Challenger - Ilkley, Great Britain",Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71947212,2026-06-12 18:00,"Souhrada, Susana","Osuigwe, Victoria","UTR Women - UTR PTT Boca Raton Women 05, Group A",Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,71901018,2026-06-12 18:00,"Forti, Francesco","Guerrieri, Andrea","Challenger - Cattolica, Italy",Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,15930504460,2026-06-12 19:15,Ozan Baris,Duncan Chan,Tennis - ITF Men Wichita - QF,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,14413605678,2026-06-12 19:15,Gonzalo Villanueva,Joao Victor Couto Loureiro,Tennis - ITF Men Brasilia - QF,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71900572,2026-06-12 19:00,"Romano, Filippo","Pinnington Jones, Jack","Challenger - Ilkley, Great Britain",Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,15930504460,2026-06-12 19:00,Ozan Baris,Duncan Chan,Tennis - ITF Men Wichita - QF,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,16081618068,2026-06-12 19:00,Sebastian Gorzny,Kenta Miyoshi,Tennis - ITF Men Wichita - QF,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71900614,2026-06-12 19:00,Bollipalli R C / Hilderbrand T,Escobar G / Kittay B,"Challenger - Ilkley, Great Britain, Doubles",Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,72052748,2026-06-12 19:00,"Vidal Romero, Daniela","Grigoreva, Anna","UTR Women - UTR PTT Boston Women 01, 5-8 Playoff",Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,72053516,2026-06-12 19:00,"Corwin, Oscar","van Orderlain, Drew","UTR Men - UTR PTT Boston Men 01, 5-8 Playoff",Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,72053532,2026-06-12 19:00,"Sharygin, Evan","Bahl, Garv","UTR Men - UTR PTT Boston Men 01, 13-16 Playoff",Tennis,0,pending,not_good_competition_or_low_coverage
 tennis,14331577479,2026-06-12 19:15,Luis Felipe Miguel,Paulo Andre Saraiva Dos Santos,Tennis - ITF Men Brasilia - QF,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,16081618068,2026-06-12 19:15,Sebastian Gorzny,Kenta Miyoshi,Tennis - ITF Men Wichita - QF,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,15968220719,2026-06-12 20:00,Kaylan Bigun,Gus Grumet,Tennis - ITF Men Los Angeles - QF,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,13511462052,2026-06-12 20:00,Spencer Johnson,Nathan Trouve,Tennis - ITF Men Los Angeles - QF,Tennis,0,pending,not_good_competition_or_low_coverage
-tennis,12661672217,2026-06-12 20:00,Andrew Johnson,Benjamin O'connell,Tennis - ITF Men Los Angeles - QF,Tennis,0,pending,not_good_competition_or_low_coverage
-basketball,67608072,2026-06-12 10:30,Mackay Meteorettes,North Gold Coast Seahawks,"Australia - NBL1 North, Women",Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,67608074,2026-06-12 10:30,Rockhampton Cyclones,Cairns Dolphins,"Australia - NBL1 North, Women",Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,67620006,2026-06-12 10:30,Mount Gambier Pioneers,Northern Force,"Australia - NBL1 South, Women",Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,67607862,2026-06-12 12:00,Gold Coast Rollers,Southern Districts,"Australia - NBL1, North",Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,67621608,2026-06-12 12:20,Cockburn Cougars,Rockingham Flames,"Australia - NBL1 West, Women",Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,67621610,2026-06-12 12:20,Perth Redbacks,Eastern Suns,"Australia - NBL1 West, Women",Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,67621612,2026-06-12 12:20,Willetton Tigers,Lakeside Lightning,"Australia - NBL1 West, Women",Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,67607864,2026-06-12 12:30,Mackay Meteors,North Gold Coast Seahawks,"Australia - NBL1, North",Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,67607866,2026-06-12 12:30,Rockhampton Rockets,Cairns Marlins,"Australia - NBL1, North",Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,71792520,2026-06-12 13:00,Taipei  Fubon Braves,Taoyuan Pilots,"Chinese Taipei - P League, Playoffs",Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,71943762,2026-06-12 13:30,Barangay Ginebra,Tropang Giga,"Philippines - PBA, Commissioner Cup, Playoffs",Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,71975648,2026-06-12 14:00,Borneo Hornbills,Satria Muda,"Indonesia - IBL, Playoffs",Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,67611978,2026-06-12 14:10,Cockburn,Rockingham Flames,"Australia - NBL1, West",Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,67611980,2026-06-12 14:10,Perth Redbacks,Eastern Suns,"Australia - NBL1, West",Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,67611982,2026-06-12 14:10,Willetton Tigers,Lakeside Lightning,"Australia - NBL1, West",Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,71056948,2026-06-12 14:30,Ho Chi Minh City Wings,Hanoi Buffaloes,Vietnam - VBA,Basketball,0,pending,not_good_competition_or_low_coverage
-basketball,72058220,2026-06-12 15:45,Hoops,Central,"Lebanon - First Division, Playoffs",Basketball,0,pending,not_good_competition_or_low_coverage
+tennis,14413605678,2026-06-12 19:15,Gonzalo Villanueva,Joao Victor Couto Loureiro,Tennis - ITF Men Brasilia - QF,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71945086,2026-06-12 19:30,"Manning, Aya","Wolf, Alexandra","UTR Women - UTR PTT Newport Beach Women 14, Group D",Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71947472,2026-06-12 19:30,"Fuentes Vasquez, Juan Carlos","Rajski, Maciej","UTR Men - UTR PTT Newport Beach Men 14, Group A",Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71947518,2026-06-12 19:30,"Snell, Holland","Bushuev, Pavel","UTR Men - UTR PTT Newport Beach Men 14, Group D",Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,72053534,2026-06-12 20:10,"Rhazali, Omar","Fedoryshyn, Nazar","UTR Men - UTR PTT Boston Men 01, 13-16 Playoff",Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,72053518,2026-06-12 20:10,"Sabaliauskas, Ainius","Renfrow, Noble","UTR Men - UTR PTT Boston Men 01, 5-8 Playoff",Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71947490,2026-06-12 21:30,"Yang, Robert","Balthazor, Nolan","UTR Men - UTR PTT Newport Beach Men 14, Group B",Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71945072,2026-06-12 21:30,"Reynoldson, Ellison","Grechkina, Anastasia","UTR Women - UTR PTT Newport Beach Women 14, Group C",Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,12661672217,2026-06-12 22:00,Andrew Johnson,Benjamin O'connell,Tennis - ITF Men Los Angeles - QF,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,15968220719,2026-06-12 22:00,Kaylan Bigun,Gus Grumet,Tennis - ITF Men Los Angeles - QF,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,13511462052,2026-06-12 22:00,Spencer Johnson,Nathan Trouve,Tennis - ITF Men Los Angeles - QF,Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71947502,2026-06-13 03:30,"Hall, Donald","Cruz, Cesar","UTR Men - UTR PTT Newport Beach Men 14, Group C",Tennis,0,pending,not_good_competition_or_low_coverage
+tennis,71947496,2026-06-13 03:30,"Klein, Ilan","Ekpenyong, David","UTR Men - UTR PTT Newport Beach Men 14, Group A",Tennis,0,pending,not_good_competition_or_low_coverage
+basketball,72008082,2026-06-12 18:00,Greece,Denmark,"International - International Friendly Games, Women",Basketball,0,pending,excluded_youth_reserve_friendly_or_exhibition
 basketball,72004504,2026-06-12 20:00,Levallois Basketball,Mulhouse Basket Agglomeration,"France - Nationale 1, Playoffs",Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,72033796,2026-06-12 20:00,Partizan Belgrade,Dubai,"International - Liga ABA, Playoffs",Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,71874764,2026-06-12 20:15,Dziki Warszawa,Gdynia,"Poland - Basket Liga, Playoffs",Basketball,0,pending,not_good_competition_or_low_coverage
 basketball,72015556,2026-06-12 20:30,Munich,Berlin,"Germany - BBL, Playoffs",Basketball,0,pending,not_good_competition_or_low_coverage
-baseball,66778218,2026-06-12 11:00,Orix,Hanshin,"Japan - Professional Baseball, Interleague",Baseball,0,pending,not_good_competition_or_low_coverage
-baseball,69462008,2026-06-12 12:35,Wei Chuan Dragons,CTBC Brothers,Chinese Taipei - CPBL,Baseball,0,pending,not_good_competition_or_low_coverage
-baseball,69462010,2026-06-12 12:35,Fubon Guardians,Uni Lions,Chinese Taipei - CPBL,Baseball,0,pending,not_good_competition_or_low_coverage
-baseball,69462012,2026-06-12 12:35,TSG Hawks,Monkeys,Chinese Taipei - CPBL,Baseball,0,pending,not_good_competition_or_low_coverage
-cricket,71947294,2026-06-12 10:30,Sweden,Finland,International - T20 Viking Cup,Cricket,0,pending,not_good_competition_or_low_coverage
-cricket,72028758,2026-06-12 12:30,Akcel United Brussels,Ghent Gladiators,"Belgium - EUT20 Belgium, Playoff League",Cricket,0,pending,not_good_competition_or_low_coverage
-cricket,71947296,2026-06-12 14:30,Austria,Norway,International - T20 Viking Cup,Cricket,0,pending,not_good_competition_or_low_coverage
-cricket,72028760,2026-06-12 16:30,Antwerp Anchors,Jb Bruges,"Belgium - EUT20 Belgium, Playoff League",Cricket,0,pending,not_good_competition_or_low_coverage
+basketball,71857662,2026-06-13 02:00,Osos de Manati,Vaqueros de Bayamon,Puerto Rico - BSN,Basketball,0,pending,not_good_competition_or_low_coverage
+basketball,71857664,2026-06-13 02:00,Atleticos de San German,Criollos de Caguas,Puerto Rico - BSN,Basketball,0,pending,not_good_competition_or_low_coverage
+basketball,71970156,2026-06-13 02:15,Aguada,Penarol,"Uruguay - LUB, Playoffs",Basketball,0,pending,not_good_competition_or_low_coverage
+basketball,72034006,2026-06-13 03:15,Cojute,San Salvador,"El Salvador - LMB, Apertura, Playoffs",Basketball,0,pending,not_good_competition_or_low_coverage
+basketball,66647056,2026-06-13 03:30,Nelson Giants,Southland Sharks,New Zealand - NBL,Basketball,0,pending,not_good_competition_or_low_coverage
 rugby-union,,,,,,,,,"HTTP 400: {""error"":""Invalid sport slug""}"
 rugby-league,,,,,,,,,"HTTP 400: {""error"":""Invalid sport slug""}"
-handball,71736752,2026-06-12 11:30,Zeekstar Tokyo,Osaki Osol,"Japan - Japan Handball League, Playoffs",Handball,0,pending,not_good_competition_or_low_coverage
