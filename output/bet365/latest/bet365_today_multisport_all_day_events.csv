@@ -1,48 +1,70 @@
 event_id,sport,league,date_utc,date_denmark,home,away,status
-69057178,Baseball,"USA - MiLB, Triple-A International League",2026-06-12T23:05:00Z,2026-06-13 01:05,Jacksonville J. S.,Stripers,pending
-71997534,Baseball,"USA - NCAA Division I, Championship",2026-06-12T18:00:00Z,2026-06-12 20:00,W. Virginia Mount.,Troy,pending
-69057176,Baseball,"USA - MiLB, Triple-A International League",2026-06-12T22:35:00Z,2026-06-13 00:35,Norfolk Tides,Redbirds,pending
-69058166,Baseball,"USA - MiLB, Triple-A International League",2026-06-12T22:45:00Z,2026-06-13 00:45,Rochester Red Wings,Worcester Red Sox,pending
-69058168,Baseball,"USA - MiLB, Triple-A International League",2026-06-12T23:05:00Z,2026-06-13 01:05,Toledo Mud Hens,St. Paul Saints,pending
-63302575,Baseball,USA - MLB,2026-06-12T23:10:00Z,2026-06-13 01:10,Cleveland,Detroit,pending
-69056040,Baseball,"USA - MiLB, Triple-A International League",2026-06-12T22:35:00Z,2026-06-13 00:35,Buffalo Bisons,Syracuse Mets,pending
-63303583,Baseball,USA - MLB,2026-06-12T22:40:00Z,2026-06-13 00:40,Pittsburgh,Miami,pending
-69056042,Baseball,"USA - MiLB, Triple-A International League",2026-06-12T23:04:00Z,2026-06-13 01:04,Charlotte,Oklahoma City,pending
-69056044,Baseball,"USA - MiLB, Triple-A International League",2026-06-12T23:05:00Z,2026-06-13 01:05,Indianapolis Indians,Columbus Clippers,pending
-63299179,Baseball,USA - MLB,2026-06-12T23:15:00Z,2026-06-13 01:15,Cincinnati,Arizona,pending
-69057180,Baseball,"USA - MiLB, Triple-A International League",2026-06-12T23:15:00Z,2026-06-13 01:15,Louisville Bats,Iowa Cubs,pending
-69057182,Baseball,"USA - MiLB, Triple-A International League",2026-06-12T23:35:00Z,2026-06-13 01:35,Nashville Sounds,Durham,pending
-63302273,Baseball,USA - MLB,2026-06-12T23:40:00Z,2026-06-13 01:40,Chicago White Sox,LA Dodgers,pending
-63303195,Baseball,USA - MLB,2026-06-12T23:40:00Z,2026-06-13 01:40,Milwaukee,Philadelphia,pending
-69058170,Baseball,"USA - MiLB, Triple-A International League",2026-06-13T00:05:00Z,2026-06-13 02:05,Omaha Storm Chasers,Las Vegas Aviators,pending
-69063658,Baseball,"USA - MiLB, Triple-A Pacific Coast League",2026-06-13T00:05:00Z,2026-06-13 02:05,Round Rock Express,El Paso Chihuahuas,pending
-63299233,Baseball,USA - MLB,2026-06-12T23:15:00Z,2026-06-13 01:15,NY Mets,Atlanta,pending
-69063662,Baseball,"USA - MiLB, Triple-A Pacific Coast League",2026-06-13T01:35:00Z,2026-06-13 03:35,Reno Aces,Salt Lake Bees,pending
-63302871,Baseball,USA - MLB,2026-06-12T23:37:00Z,2026-06-13 01:37,Toronto,NY Yankees,pending
-69063664,Baseball,"USA - MiLB, Triple-A Pacific Coast League",2026-06-13T02:05:00Z,2026-06-13 04:05,Tacoma Rainiers,Albuquerque Isotopes,pending
-63300881,Baseball,USA - MLB,2026-06-13T02:05:00Z,2026-06-13 04:05,Athletics,Colorado,pending
-7774537431,Esports,League of Legends - EMEA Masters Spring,2026-06-12T18:00:00Z,2026-06-12 20:00,Forsaken,Karmine Corp Blue,pending
-8281495221,Esports,League of Legends - EMEA Masters Spring,2026-06-12T18:00:00Z,2026-06-12 20:00,Eintracht Spandau,Anubis Gaming,live
-5644193184,Esports,Call of Duty - Stage 4 Major Qualifiers,2026-06-12T19:00:00Z,2026-06-12 21:00,OpTic Texas,G2 Minnesota,pending
-6892427855,Esports,Call of Duty - Stage 4 Major Qualifiers,2026-06-12T20:30:00Z,2026-06-12 22:30,Paris Gentle Mates,FaZe Vegas,pending
-6880698057,Esports,Call of Duty - Stage 4 Major Qualifiers,2026-06-12T22:00:00Z,2026-06-13 00:00,Los Angeles Thieves,Boston Breach,pending
-71665008,Football,"Peru - Copa de la Liga, Group E",2026-06-12T18:00:00Z,2026-06-12 20:00,Union Minas,Asociacion Deportiva Tarma,pending
-66456916,Football,International - FIFA World Cup,2026-06-12T19:00:00Z,2026-06-12 21:00,Canada,Bosnia and Herzegovina,pending
 68822976,Football,Brazil - Brasileiro Serie B,2026-06-12T22:00:00Z,2026-06-13 00:00,AC Goianiense,CR Brasil,pending
-67119414,Football,Argentina - Primera B,2026-06-12T23:00:00Z,2026-06-13 01:00,San Martin,Villa Dalmine,pending
-68686944,Football,"Australia - Tasmania Super League, Women",2026-06-13T02:15:00Z,2026-06-13 04:15,Glenorchy Knights,Launceston United,pending
-71724650,Football,Lebanon - Premier League,2026-06-12T18:30:00Z,2026-06-12 20:30,Nejmeh SC,AL Ahed,pending
-71775938,Football,"Peru - Copa de la Liga, Group H",2026-06-12T20:30:00Z,2026-06-12 22:30,Bentin Tacna Heroica,Melgar,pending
-67123022,Football,Argentina - Primera C,2026-06-12T21:30:00Z,2026-06-12 23:30,Cambaceres,Berazategui,pending
 66456940,Football,International - FIFA World Cup,2026-06-13T01:00:00Z,2026-06-13 03:00,USA,Paraguay,pending
-71665002,Football,"Peru - Copa de la Liga, Group D",2026-06-13T01:00:00Z,2026-06-13 03:00,Pirata,Universitario,pending
 71650516,Football,Australia - Queensland Premier League 1,2026-06-13T04:30:00Z,2026-06-13 06:30,Robina City,Holland Park,pending
 67904496,Football,Australia - Queensland Premier League 3,2026-06-13T05:00:00Z,2026-06-13 07:00,Logan Roos FC,North Lakes United,pending
+67123022,Football,Argentina - Primera C,2026-06-12T21:30:00Z,2026-06-12 23:30,Cambaceres,Berazategui,pending
+67119414,Football,Argentina - Primera B,2026-06-12T23:00:00Z,2026-06-13 01:00,San Martin,Villa Dalmine,pending
+71665002,Football,"Peru - Copa de la Liga, Group D",2026-06-13T01:00:00Z,2026-06-13 03:00,Pirata,Universitario,pending
+68686944,Football,"Australia - Tasmania Super League, Women",2026-06-13T02:15:00Z,2026-06-13 04:15,Glenorchy Knights,Launceston United,pending
 68160608,Football,Australia - Victoria Premier League 1,2026-06-13T05:00:00Z,2026-06-13 07:00,Langwarrin,Manningham U. Blues,pending
 68160610,Football,Australia - Victoria Premier League 1,2026-06-13T05:00:00Z,2026-06-13 07:00,N. Sun. Eagles,Melbourne,pending
-71901212,Tennis,"WTA 125K - Modena, Italy",2026-06-12T18:30:00Z,2026-06-12 20:30,"Quevedo, Kaitlin","Samson, Laura",pending
-71900950,Tennis,"Challenger - San Miguel de Tucuman, Argentina, Doubles",2026-06-12T18:20:00Z,2026-06-12 20:20,Del Pino M / Dickerson R,Monzon I / Villalon N,pending
-71797396,Basketball,"Italy - Serie A2 Gold, Playoffs",2026-06-12T18:45:00Z,2026-06-12 20:45,Rinascita Basket Rimini,Verona,pending
+68161762,Football,Australia - Victoria Premier League 2,2026-06-13T07:00:00Z,2026-06-13 09:00,Malvern City,Essendon Royals,pending
+68686948,Football,"Australia - Tasmania Super League, Women",2026-06-13T06:45:00Z,2026-06-13 08:45,Launceston City,Taroona,pending
+67904974,Football,"Australia - Queensland Premier League 1, Women",2026-06-13T07:00:00Z,2026-06-13 09:00,Virginia United,Logan Lightning,pending
+67904492,Football,Australia - Queensland Premier League 3,2026-06-13T07:00:00Z,2026-06-13 09:00,AC Carina,North Brisbane,pending
+67904976,Football,"Australia - Queensland Premier League 1, Women",2026-06-13T06:00:00Z,2026-06-13 08:00,Caboolture FC,The Gap,pending
+68686560,Football,Australia - Tasmania Southern Championship,2026-06-13T06:45:00Z,2026-06-13 08:45,Clarence Zebras FC 2,South Hobart FC 2,pending
+68686946,Football,"Australia - Tasmania Super League, Women",2026-06-13T06:45:00Z,2026-06-13 08:45,Riverside Olympic,Kingborough Lions,pending
+67904190,Football,Australia - Queensland Premier League 2,2026-06-13T07:00:00Z,2026-06-13 09:00,Moreton City Excelsior FC 2,Samford Rangers,pending
+67904490,Football,Australia - Queensland Premier League 3,2026-06-13T07:00:00Z,2026-06-13 09:00,Springfield United,Knights,pending
+68161760,Football,Australia - Victoria Premier League 2,2026-06-13T07:00:00Z,2026-06-13 09:00,Goulburn V. S.,Eastern Lions,pending
+67904194,Football,Australia - Queensland Premier League 2,2026-06-13T08:00:00Z,2026-06-13 10:00,Pine Hills,Caloundra,pending
+67904498,Football,Australia - Queensland Premier League 3,2026-06-13T08:00:00Z,2026-06-13 10:00,North Pine,Yeronga Eagles FC,pending
+71000986,Football,"China - Chinese Super League, Women",2026-06-13T08:00:00Z,2026-06-13 10:00,Jiangsu LFC,Sichuan WFC,pending
+68160614,Football,Australia - Victoria Premier League 1,2026-06-13T08:30:00Z,2026-06-13 10:30,Bulleen Lions,Melbourne Victory,pending
+67904198,Football,Australia - Queensland Premier League 2,2026-06-13T09:00:00Z,2026-06-13 11:00,Virginia United,Southside Eagles,pending
+71880188,Football,Australia - Queensland Premier League 1,2026-06-13T09:15:00Z,2026-06-13 11:15,Broadbeach,St George Willawong,pending
+67904192,Football,Australia - Queensland Premier League 2,2026-06-13T08:00:00Z,2026-06-13 10:00,Taringa Rovers,Mitchelton,pending
+67904494,Football,Australia - Queensland Premier League 3,2026-06-13T08:00:00Z,2026-06-13 10:00,Moggill,MT Gravatt Hawks,pending
+68161758,Football,Australia - Victoria Premier League 2,2026-06-13T08:00:00Z,2026-06-13 10:00,Bayside Argonauts,Box Hill Utd,pending
+67904978,Football,"Australia - Queensland Premier League 1, Women",2026-06-13T09:00:00Z,2026-06-13 11:00,Moreton City Excelsior,Palm Beach SC,pending
+6158058109,Esports,League of Legends - Split 2,2026-06-13T09:00:00Z,2026-06-13 11:00,Team WE,Bilibili Gaming,pending
+6880698057,Esports,Call of Duty - Stage 4 Major Qualifiers,2026-06-12T22:00:00Z,2026-06-13 00:00,Los Angeles Thieves,Boston Breach,pending
+6793734940,Esports,League of Legends - LCK,2026-06-13T06:00:00Z,2026-06-13 08:00,Gen.G,KT Rolster,pending
+4029666388,Esports,Dota 2 - Season 38,2026-06-13T09:00:00Z,2026-06-13 11:00,Nande+4,Noir Esports,pending
+63302575,Baseball,USA - MLB,2026-06-12T23:10:00Z,2026-06-13 01:10,Cleveland,Detroit,pending
+69058168,Baseball,"USA - MiLB, Triple-A International League",2026-06-12T23:05:00Z,2026-06-13 01:05,Toledo Mud Hens,St. Paul Saints,pending
+69057176,Baseball,"USA - MiLB, Triple-A International League",2026-06-12T22:35:00Z,2026-06-13 00:35,Norfolk Tides,Redbirds,pending
+69058166,Baseball,"USA - MiLB, Triple-A International League",2026-06-12T22:45:00Z,2026-06-13 00:45,Rochester Red Wings,Worcester Red Sox,pending
+69056042,Baseball,"USA - MiLB, Triple-A International League",2026-06-12T23:04:00Z,2026-06-13 01:04,Charlotte,Oklahoma City,pending
+63299179,Baseball,USA - MLB,2026-06-12T23:15:00Z,2026-06-13 01:15,Cincinnati,Arizona,pending
+69056040,Baseball,"USA - MiLB, Triple-A International League",2026-06-12T22:35:00Z,2026-06-13 00:35,Buffalo Bisons,Syracuse Mets,pending
+63303583,Baseball,USA - MLB,2026-06-12T22:40:00Z,2026-06-13 00:40,Pittsburgh,Miami,pending
+69056044,Baseball,"USA - MiLB, Triple-A International League",2026-06-12T23:05:00Z,2026-06-13 01:05,Indianapolis Indians,Columbus Clippers,pending
+69057178,Baseball,"USA - MiLB, Triple-A International League",2026-06-12T23:05:00Z,2026-06-13 01:05,Jacksonville J. S.,Stripers,pending
+69063662,Baseball,"USA - MiLB, Triple-A Pacific Coast League",2026-06-13T01:35:00Z,2026-06-13 03:35,Reno Aces,Salt Lake Bees,pending
+63299233,Baseball,USA - MLB,2026-06-12T23:15:00Z,2026-06-13 01:15,NY Mets,Atlanta,pending
+69057180,Baseball,"USA - MiLB, Triple-A International League",2026-06-12T23:15:00Z,2026-06-13 01:15,Louisville Bats,Iowa Cubs,pending
+63302871,Baseball,USA - MLB,2026-06-12T23:37:00Z,2026-06-13 01:37,Toronto,NY Yankees,pending
+69058170,Baseball,"USA - MiLB, Triple-A International League",2026-06-13T00:05:00Z,2026-06-13 02:05,Omaha Storm Chasers,Las Vegas Aviators,pending
+69057182,Baseball,"USA - MiLB, Triple-A International League",2026-06-12T23:35:00Z,2026-06-13 01:35,Nashville Sounds,Durham,pending
+63303195,Baseball,USA - MLB,2026-06-12T23:40:00Z,2026-06-13 01:40,Milwaukee,Philadelphia,pending
+63302273,Baseball,USA - MLB,2026-06-12T23:40:00Z,2026-06-13 01:40,Chicago White Sox,LA Dodgers,pending
+69063658,Baseball,"USA - MiLB, Triple-A Pacific Coast League",2026-06-13T00:05:00Z,2026-06-13 02:05,Round Rock Express,El Paso Chihuahuas,pending
+69063660,Baseball,"USA - MiLB, Triple-A Pacific Coast League",2026-06-13T00:05:00Z,2026-06-13 02:05,Sugar Land Space Cowboys,Sacramento RC,pending
+67204446,Baseball,Republic of Korea - KBO League,2026-06-13T08:00:00Z,2026-06-13 10:00,Twins,Giants,pending
+67204452,Baseball,Republic of Korea - KBO League,2026-06-13T08:00:00Z,2026-06-13 10:00,Tigers,Bears,pending
+63300881,Baseball,USA - MLB,2026-06-13T02:05:00Z,2026-06-13 04:05,Athletics,Colorado,pending
+69063664,Baseball,"USA - MiLB, Triple-A Pacific Coast League",2026-06-13T02:05:00Z,2026-06-13 04:05,Tacoma Rainiers,Albuquerque Isotopes,pending
+67204450,Baseball,Republic of Korea - KBO League,2026-06-13T08:00:00Z,2026-06-13 10:00,Wiz,Dinos,pending
+67204454,Baseball,Republic of Korea - KBO League,2026-06-13T08:00:00Z,2026-06-13 10:00,Heroes,Eagles,pending
+67204448,Baseball,Republic of Korea - KBO League,2026-06-13T08:00:00Z,2026-06-13 10:00,Lions,Landers,pending
 72013224,Basketball,"Venezuela - Superliga, Playoffs",2026-06-12T23:30:00Z,2026-06-13 01:30,Guaiqueries De Margarita,Marinos,pending
 71903034,Basketball,"Dominican Republic - Superliga LNB, Main Round",2026-06-13T00:00:00Z,2026-06-13 02:00,San Francisco De Macoris,Reales de la Vega,pending
 71903036,Basketball,"Dominican Republic - Superliga LNB, Main Round",2026-06-13T00:30:00Z,2026-06-13 02:30,Heroes de Moca,Caneros del Este,pending
+72066382,Tennis,"WTA - Berlin, Germany, Qualifying",2026-06-13T09:00:00Z,2026-06-13 11:00,"Bartunkova, Nikola","Noha Akugue, Noma",pending
+72066394,Tennis,"WTA - Berlin, Germany, Qualifying",2026-06-13T09:00:00Z,2026-06-13 11:00,"Frech, Magdalena","Sasnovich, Aliaksandra",pending
+72066392,Tennis,"WTA - Berlin, Germany, Qualifying",2026-06-13T09:00:00Z,2026-06-13 11:00,"Steinkamp, Milena","Zhang, Shuai",pending
+71900842,Tennis,"WTA - S-Hertogenbosch, Netherlands",2026-06-13T09:00:00Z,2026-06-13 11:00,"Krejcikova, Barbora","Linette, Magda",pending
+71900834,Tennis,"WTA - S-Hertogenbosch, Netherlands",2026-06-13T09:00:00Z,2026-06-13 11:00,"McNally, Caty","Tomljanovic, Ajla",settled
