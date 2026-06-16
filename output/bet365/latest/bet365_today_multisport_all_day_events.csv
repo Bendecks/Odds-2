@@ -1,80 +1,89 @@
 event_id,sport,league,date_utc,date_denmark,home,away,status
-6040754076,Esports,Dota 2 - Season 38,2026-06-16T09:00:00Z,2026-06-16 11:00,G-Time,Hive,pending
-5693701487,Esports,Counter-Strike - Season 51,2026-06-16T10:30:00Z,2026-06-16 12:30,Clutchain,LPH Gaming,pending
-4337535470,Esports,Counter-Strike - Series 7,2026-06-16T08:00:00Z,2026-06-16 10:00,Sashi Esport,HyperSpirit,pending
-4442446563,Esports,Counter-Strike - Open Series #5,2026-06-16T08:30:00Z,2026-06-16 10:30,Ground Zero,Rooster,pending
-4843488057,Esports,Counter-Strike - Season 51,2026-06-16T08:00:00Z,2026-06-16 10:00,MASQ,Xept,pending
-6557525273,Esports,Counter-Strike - Series #4,2026-06-16T11:00:00Z,2026-06-16 13:00,illwill,ex-RUBY,pending
-7651752876,Esports,Counter-Strike - Open Series #5,2026-06-16T08:30:00Z,2026-06-16 10:30,MARKandLARRY,DXA Esports,pending
-7898680300,Esports,Counter-Strike - Series #4,2026-06-16T14:00:00Z,2026-06-16 16:00,PsychoFace,Leo Team,pending
-72128906,Tennis,"WTA 125K - Brescia, Italy",2026-06-16T08:30:00Z,2026-06-16 10:30,"Astakhova, Darya","Basiletti, Noemi",pending
-72128908,Tennis,"WTA 125K - Brescia, Italy",2026-06-16T08:30:00Z,2026-06-16 10:30,"Grabher, Julia","Paquet, Chloe",pending
-72128910,Tennis,"WTA 125K - Brescia, Italy",2026-06-16T09:40:00Z,2026-06-16 11:40,"Ristic, Mia","Chiesa, Deborah",pending
-72097780,Tennis,"WTA 125K - Brescia, Italy, Doubles",2026-06-16T08:30:00Z,2026-06-16 10:30,Bara I M / Karamoko N,Kuwata H / Tran L,pending
-72135540,Tennis,"WTA - Berlin, Germany",2026-06-16T09:00:00Z,2026-06-16 11:00,"Frech, Magdalena","Lys, Eva",pending
-72084818,Tennis,"WTA - Berlin, Germany, Doubles",2026-06-16T09:00:00Z,2026-06-16 11:00,Danilina A / Krunic A,Muhammad A / Stollar F,pending
-72098766,Tennis,"ATP - Halle, Germany",2026-06-16T09:30:00Z,2026-06-16 11:30,"Bellucci, Mattia","Bublik, Alexander",pending
-72082900,Tennis,"ATP - Halle, Germany",2026-06-16T09:30:00Z,2026-06-16 11:30,"Khachanov, Karen","Quinn, Ethan",pending
-72082598,Tennis,"WTA - Berlin, Germany",2026-06-16T09:00:00Z,2026-06-16 11:00,"Keys, Madison","Wang, Xinyu",pending
-72098768,Tennis,"ATP - Halle, Germany",2026-06-16T09:30:00Z,2026-06-16 11:30,"Popyrin, Alexei","Collignon, Raphael",pending
-72097492,Tennis,"WTA 125K - Brescia, Italy",2026-06-16T09:40:00Z,2026-06-16 11:40,"Ortenzi, Jazmin","Pace, Francesca",pending
-72099048,Tennis,"WTA - Nottingham, Great Britain",2026-06-16T10:00:00Z,2026-06-16 12:00,"Li, Ann","Birrell, Kimberly",pending
-72097754,Tennis,"WTA 125K - Figueira Da Foz, Portugal",2026-06-16T10:00:00Z,2026-06-16 12:00,"Jorge, Matilde","Teichmann, Jil",pending
-72099052,Tennis,"WTA - Nottingham, Great Britain",2026-06-16T10:30:00Z,2026-06-16 12:30,"Kessler, McCartney","Volynets, Katie",pending
-72135548,Tennis,"WTA - Berlin, Germany",2026-06-16T10:10:00Z,2026-06-16 12:10,"Zhang, Shuai","Muchova, Karolina",pending
-72082258,Tennis,"ATP - London, Great Britain",2026-06-16T10:30:00Z,2026-06-16 12:30,"Mensik, Jakub","Mannarino, Adrian",pending
-72082262,Tennis,"ATP - London, Great Britain",2026-06-16T10:30:00Z,2026-06-16 12:30,"Nakashima, Brandon","Fucsovics, Marton",pending
-72129166,Tennis,"ATP - London, Great Britain",2026-06-16T10:30:00Z,2026-06-16 12:30,"Buse, Ignacio","Giron, Marcos",pending
-72084814,Tennis,"WTA - Berlin, Germany, Doubles",2026-06-16T10:10:00Z,2026-06-16 12:10,Errani S / Melichar-Martinez N,Jiang X / Xu Y,pending
-72135546,Tennis,"WTA - Berlin, Germany",2026-06-16T10:30:00Z,2026-06-16 12:30,"Noskova, Linda","Zarazua, Renata",pending
-72097758,Tennis,"WTA 125K - Figueira Da Foz, Portugal",2026-06-16T11:10:00Z,2026-06-16 13:10,"Micic, Elena","Jorge, Francisca",pending
-72135550,Tennis,"WTA - Berlin, Germany",2026-06-16T11:20:00Z,2026-06-16 13:20,"Siniakova, Katerina","Masarova, Rebeka",pending
-72084694,Tennis,"ATP - Halle, Germany, Doubles",2026-06-16T11:00:00Z,2026-06-16 13:00,Luz O / Matos R,Arribage T / Olivetti A,pending
-72084024,Tennis,"WTA - Nottingham, Great Britain",2026-06-16T11:10:00Z,2026-06-16 13:10,"Boisson, Lois","Yastremska, Dayana",pending
-72128912,Tennis,"WTA 125K - Brescia, Italy",2026-06-16T10:50:00Z,2026-06-16 12:50,"Ruggeri, Jennifer","Bertea, Elena Ruxandra",pending
-72082888,Tennis,"ATP - Halle, Germany",2026-06-16T10:40:00Z,2026-06-16 12:40,"Griekspoor, Tallon","Shimabukuro, Sho",pending
-72082894,Tennis,"ATP - Halle, Germany",2026-06-16T10:40:00Z,2026-06-16 12:40,"Rublev, Andrey","Hurkacz, Hubert",pending
-72082904,Tennis,"ATP - Halle, Germany",2026-06-16T10:40:00Z,2026-06-16 12:40,"Fonseca, Joao","Hanfmann, Yannick",pending
-72097500,Tennis,"WTA 125K - Brescia, Italy",2026-06-16T10:50:00Z,2026-06-16 12:50,"Kovinic, Danka","Bulgaru, Miriam Bianca",pending
-72097750,Tennis,"WTA 125K - Figueira Da Foz, Portugal",2026-06-16T11:10:00Z,2026-06-16 13:10,"Kuzmova, Katarina","Morvayova, Viktoria",pending
-72118710,Tennis,"WTA - Nottingham, Great Britain",2026-06-16T12:40:00Z,2026-06-16 14:40,"Bejlek, Sara","Pliskova, Karolina",pending
-72098728,Tennis,"ATP - London, Great Britain",2026-06-16T12:50:00Z,2026-06-16 14:50,"Kovacevic, Aleksandar","Cerundolo, Francisco",pending
-72129604,Tennis,"WTA 125K - Figueira Da Foz, Portugal",2026-06-16T12:20:00Z,2026-06-16 14:20,"Kulikova, Anastasia","Hontama, Mai",pending
-72082898,Tennis,"ATP - Halle, Germany",2026-06-16T11:50:00Z,2026-06-16 13:50,"Marozsan, Fabian","Kecmanovic, Miomir",pending
-72099044,Tennis,"WTA - Nottingham, Great Britain",2026-06-16T12:20:00Z,2026-06-16 14:20,"Golubic, Viktorija","Kenin, Sofia",pending
-72099054,Tennis,"WTA - Nottingham, Great Britain",2026-06-16T11:30:00Z,2026-06-16 13:30,"McNally, Caty","Ruzic, Antonia",pending
-72129602,Tennis,"WTA 125K - Figueira Da Foz, Portugal",2026-06-16T12:20:00Z,2026-06-16 14:20,"Vidmanova, Darja","Voloshchuk, Angelina",pending
-72082256,Tennis,"ATP - London, Great Britain",2026-06-16T11:40:00Z,2026-06-16 13:40,"Fery, Arthur","Samuel, Toby",pending
-72099042,Tennis,"WTA - Nottingham, Great Britain",2026-06-16T11:40:00Z,2026-06-16 13:40,"Sonmez, Zeynep","Fernandez, Leylah",pending
-72097510,Tennis,"WTA 125K - Brescia, Italy",2026-06-16T12:00:00Z,2026-06-16 14:00,"Wang, Xiyu","Gao, Xinyu",pending
-72082248,Tennis,"ATP - London, Great Britain",2026-06-16T12:50:00Z,2026-06-16 14:50,"Rinderknech, Arthur","Medjedovic, Hamad",pending
-72082906,Tennis,"ATP - Halle, Germany",2026-06-16T13:00:00Z,2026-06-16 15:00,"Zverev, Alexander","Kopriva, Vit",pending
-72097508,Tennis,"WTA 125K - Brescia, Italy",2026-06-16T13:10:00Z,2026-06-16 15:10,"Monnet, Carole","Trevisan, Martina",pending
-72082596,Tennis,"WTA - Berlin, Germany",2026-06-16T13:30:00Z,2026-06-16 15:30,"Svitolina, Elina","Kalinskaya, Anna",pending
-72084026,Tennis,"WTA - Nottingham, Great Britain",2026-06-16T12:50:00Z,2026-06-16 14:50,"Dart, Harriet","Boulter, Katie",pending
-72084686,Tennis,"ATP - Halle, Germany, Doubles",2026-06-16T13:00:00Z,2026-06-16 15:00,Doumbia S / Polmans M,Cabral F / Miedler L,pending
-72082250,Tennis,"ATP - London, Great Britain",2026-06-16T13:20:00Z,2026-06-16 15:20,"Norrie, Cameron","Davidovich Fokina, Alejandro",pending
-72086142,Tennis,"WTA - Nottingham, Great Britain, Doubles",2026-06-16T13:30:00Z,2026-06-16 15:30,Guarachi A / Rosolska A,Bouzkova M / Panova A,pending
-72097766,Tennis,"WTA 125K - Figueira Da Foz, Portugal",2026-06-16T13:30:00Z,2026-06-16 15:30,"Korneeva, Alina","Tian, Fangran",pending
-72135544,Tennis,"WTA - Berlin, Germany",2026-06-16T13:10:00Z,2026-06-16 15:10,"Tauson, Clara","Parry, Diane",pending
-72082892,Tennis,"ATP - Halle, Germany",2026-06-16T14:10:00Z,2026-06-16 16:10,"Etcheverry, Tomas Martin","Medvedev, Daniil",pending
-72135542,Tennis,"WTA - Berlin, Germany",2026-06-16T14:20:00Z,2026-06-16 16:20,"Lamens, Suzan","Badosa, Paula",pending
-72082244,Tennis,"ATP - London, Great Britain",2026-06-16T14:30:00Z,2026-06-16 16:30,"Majchrzak, Kamil","Lehecka, Jiri",pending
-72129606,Tennis,"WTA 125K - Figueira Da Foz, Portugal",2026-06-16T14:40:00Z,2026-06-16 16:40,"Vandromme, Jeline","Zamarripa, Allura",pending
-72129608,Tennis,"WTA 125K - Figueira Da Foz, Portugal",2026-06-16T13:30:00Z,2026-06-16 15:30,"Mladenovic, Kristina","Ryser, Valentina",pending
-72098734,Tennis,"ATP - London, Great Britain",2026-06-16T14:00:00Z,2026-06-16 16:00,"Hijikata, Rinky","Tabilo, Alejandro",pending
-72082246,Tennis,"ATP - London, Great Britain",2026-06-16T14:00:00Z,2026-06-16 16:00,"Humbert, Ugo","Cilic, Marin",pending
-72097488,Tennis,"WTA 125K - Brescia, Italy",2026-06-16T14:00:00Z,2026-06-16 16:00,"Ferro, Fiona","Rinaldo Persson, Kajsa",pending
-72097764,Tennis,"WTA 125K - Figueira Da Foz, Portugal",2026-06-16T14:40:00Z,2026-06-16 16:40,"Kubka, Martyna","Falei, Aliona",pending
-67204472,Baseball,Republic of Korea - KBO League,2026-06-16T09:30:00Z,2026-06-16 11:30,Dinos,Eagles,pending
-67204474,Baseball,Republic of Korea - KBO League,2026-06-16T09:30:00Z,2026-06-16 11:30,Tigers,Twins,pending
 67204466,Baseball,Republic of Korea - KBO League,2026-06-16T09:30:00Z,2026-06-16 11:30,Bears,Wiz,pending
 67204468,Baseball,Republic of Korea - KBO League,2026-06-16T09:30:00Z,2026-06-16 11:30,Landers,Giants,pending
 67204470,Baseball,Republic of Korea - KBO League,2026-06-16T09:30:00Z,2026-06-16 11:30,Lions,Heroes,pending
-71757094,Football,Australia - Queensland Premier League 1,2026-06-16T09:30:00Z,2026-06-16 11:30,Redlands Utd,Sunshine Coast,pending
+67204472,Baseball,Republic of Korea - KBO League,2026-06-16T09:30:00Z,2026-06-16 11:30,Dinos,Eagles,pending
+67204474,Baseball,Republic of Korea - KBO League,2026-06-16T09:30:00Z,2026-06-16 11:30,Tigers,Twins,pending
+72107572,Baseball,"USA - NCAA Division I, Championship",2026-06-16T18:00:00Z,2026-06-16 20:00,Troy,W. Virginia Mount.,pending
 70926736,Football,Ethiopia - Premier League,2026-06-16T10:00:00Z,2026-06-16 12:00,Ethio Electric,Mekelle Enderta,pending
-70926738,Football,Ethiopia - Premier League,2026-06-16T13:00:00Z,2026-06-16 15:00,Bahir Dar Kenema FC,Wolaita Dicha,pending
 71724714,Football,Lebanon - Premier League,2026-06-16T13:00:00Z,2026-06-16 15:00,AL Ahed,Al Hikma,pending
 71724698,Football,Lebanon - Premier League,2026-06-16T13:00:00Z,2026-06-16 15:00,Shabab AL Sahel,Racing Beirut,pending
+68214688,Football,Estonia - Premium Liiga,2026-06-16T16:00:00Z,2026-06-16 18:00,Parnu Vaprus,Tallinna,pending
+68214690,Football,Estonia - Premium Liiga,2026-06-16T16:00:00Z,2026-06-16 18:00,Kuressaare,Narva,pending
+72105554,Football,"Kuwait - Premier League, Championship Group",2026-06-16T16:05:00Z,2026-06-16 18:05,Kuwait SC,Al-Fahaheel,pending
+70926738,Football,Ethiopia - Premier League,2026-06-16T13:00:00Z,2026-06-16 15:00,Bahir Dar Kenema FC,Wolaita Dicha,pending
 71724718,Football,Lebanon - Premier League,2026-06-16T13:00:00Z,2026-06-16 15:00,AL Tadamon,AL Mabarrah,pending
+70479516,Football,Tanzania - Premier League,2026-06-16T16:00:00Z,2026-06-16 18:00,Azam,Mashujaa FC,pending
+71757094,Football,Australia - Queensland Premier League 1,2026-06-16T09:30:00Z,2026-06-16 11:30,Redlands Utd,Sunshine Coast,pending
+67126164,Football,Sweden - Superettan,2026-06-16T17:00:00Z,2026-06-16 19:00,Landskrona,Nordic United,pending
+67126168,Football,Sweden - Superettan,2026-06-16T17:00:00Z,2026-06-16 19:00,Varnamo,Helsingborgs,pending
+72105556,Football,"Kuwait - Premier League, Championship Group",2026-06-16T17:45:00Z,2026-06-16 19:45,Kazma,Al Arabi,pending
+71724724,Football,Lebanon - Premier League,2026-06-16T18:30:00Z,2026-06-16 20:30,Jwaaya FC,Nejmeh SC,pending
+72105558,Football,"Kuwait - Premier League, Championship Group",2026-06-16T18:45:00Z,2026-06-16 20:45,Qadsia,Al-Salmiya,pending
+66457006,Football,International - FIFA World Cup,2026-06-16T19:00:00Z,2026-06-16 21:00,France,Senegal,pending
+72098768,Tennis,"ATP - Halle, Germany",2026-06-16T09:30:00Z,2026-06-16 11:30,"Popyrin, Alexei","Collignon, Raphael",pending
+72082900,Tennis,"ATP - Halle, Germany",2026-06-16T09:30:00Z,2026-06-16 11:30,"Khachanov, Karen","Quinn, Ethan",pending
+72135548,Tennis,"WTA - Berlin, Germany",2026-06-16T10:10:00Z,2026-06-16 12:10,"Zhang, Shuai","Muchova, Karolina",pending
+72082258,Tennis,"ATP - London, Great Britain",2026-06-16T10:30:00Z,2026-06-16 12:30,"Mensik, Jakub","Mannarino, Adrian",pending
+72098766,Tennis,"ATP - Halle, Germany",2026-06-16T09:30:00Z,2026-06-16 11:30,"Bellucci, Mattia","Bublik, Alexander",pending
+72128910,Tennis,"WTA 125K - Brescia, Italy",2026-06-16T09:40:00Z,2026-06-16 11:40,"Ristic, Mia","Chiesa, Deborah",pending
+72097492,Tennis,"WTA 125K - Brescia, Italy",2026-06-16T09:40:00Z,2026-06-16 11:40,"Ortenzi, Jazmin","Pace, Francesca",pending
+72099048,Tennis,"WTA - Nottingham, Great Britain",2026-06-16T10:00:00Z,2026-06-16 12:00,"Li, Ann","Birrell, Kimberly",pending
+72097754,Tennis,"WTA 125K - Figueira Da Foz, Portugal",2026-06-16T10:00:00Z,2026-06-16 12:00,"Jorge, Matilde","Teichmann, Jil",pending
+72084814,Tennis,"WTA - Berlin, Germany, Doubles",2026-06-16T10:10:00Z,2026-06-16 12:10,Errani S / Melichar-Martinez N,Jiang X / Xu Y,pending
+72082904,Tennis,"ATP - Halle, Germany",2026-06-16T10:40:00Z,2026-06-16 12:40,"Fonseca, Joao","Hanfmann, Yannick",pending
+72097500,Tennis,"WTA 125K - Brescia, Italy",2026-06-16T10:50:00Z,2026-06-16 12:50,"Kovinic, Danka","Bulgaru, Miriam Bianca",pending
+72129166,Tennis,"ATP - London, Great Britain",2026-06-16T10:30:00Z,2026-06-16 12:30,"Buse, Ignacio","Giron, Marcos",pending
+72128912,Tennis,"WTA 125K - Brescia, Italy",2026-06-16T10:50:00Z,2026-06-16 12:50,"Ruggeri, Jennifer","Bertea, Elena Ruxandra",pending
+72084694,Tennis,"ATP - Halle, Germany, Doubles",2026-06-16T11:00:00Z,2026-06-16 13:00,Luz O / Matos R,Arribage T / Olivetti A,pending
+72082262,Tennis,"ATP - London, Great Britain",2026-06-16T10:30:00Z,2026-06-16 12:30,"Nakashima, Brandon","Fucsovics, Marton",pending
+72135546,Tennis,"WTA - Berlin, Germany",2026-06-16T10:30:00Z,2026-06-16 12:30,"Noskova, Linda","Zarazua, Renata",pending
+72099052,Tennis,"WTA - Nottingham, Great Britain",2026-06-16T10:30:00Z,2026-06-16 12:30,"Kessler, McCartney","Volynets, Katie",pending
+72082888,Tennis,"ATP - Halle, Germany",2026-06-16T10:40:00Z,2026-06-16 12:40,"Griekspoor, Tallon","Shimabukuro, Sho",pending
+72082894,Tennis,"ATP - Halle, Germany",2026-06-16T10:40:00Z,2026-06-16 12:40,"Rublev, Andrey","Hurkacz, Hubert",pending
+72097758,Tennis,"WTA 125K - Figueira Da Foz, Portugal",2026-06-16T11:10:00Z,2026-06-16 13:10,"Micic, Elena","Jorge, Francisca",pending
+72135550,Tennis,"WTA - Berlin, Germany",2026-06-16T11:20:00Z,2026-06-16 13:20,"Siniakova, Katerina","Masarova, Rebeka",pending
+72097510,Tennis,"WTA 125K - Brescia, Italy",2026-06-16T12:00:00Z,2026-06-16 14:00,"Wang, Xiyu","Gao, Xinyu",pending
+72084024,Tennis,"WTA - Nottingham, Great Britain",2026-06-16T11:10:00Z,2026-06-16 13:10,"Boisson, Lois","Yastremska, Dayana",pending
+72097750,Tennis,"WTA 125K - Figueira Da Foz, Portugal",2026-06-16T11:10:00Z,2026-06-16 13:10,"Kuzmova, Katarina","Morvayova, Viktoria",pending
+72099054,Tennis,"WTA - Nottingham, Great Britain",2026-06-16T11:30:00Z,2026-06-16 13:30,"McNally, Caty","Ruzic, Antonia",pending
+72082256,Tennis,"ATP - London, Great Britain",2026-06-16T11:40:00Z,2026-06-16 13:40,"Fery, Arthur","Samuel, Toby",pending
+72099042,Tennis,"WTA - Nottingham, Great Britain",2026-06-16T11:40:00Z,2026-06-16 13:40,"Sonmez, Zeynep","Fernandez, Leylah",pending
+72082898,Tennis,"ATP - Halle, Germany",2026-06-16T11:50:00Z,2026-06-16 13:50,"Marozsan, Fabian","Kecmanovic, Miomir",pending
+72099044,Tennis,"WTA - Nottingham, Great Britain",2026-06-16T12:20:00Z,2026-06-16 14:20,"Golubic, Viktorija","Kenin, Sofia",pending
+72129604,Tennis,"WTA 125K - Figueira Da Foz, Portugal",2026-06-16T12:20:00Z,2026-06-16 14:20,"Kulikova, Anastasia","Hontama, Mai",pending
+72098728,Tennis,"ATP - London, Great Britain",2026-06-16T12:50:00Z,2026-06-16 14:50,"Kovacevic, Aleksandar","Cerundolo, Francisco",pending
+72084026,Tennis,"WTA - Nottingham, Great Britain",2026-06-16T12:50:00Z,2026-06-16 14:50,"Dart, Harriet","Boulter, Katie",pending
+72082906,Tennis,"ATP - Halle, Germany",2026-06-16T13:00:00Z,2026-06-16 15:00,"Zverev, Alexander","Kopriva, Vit",pending
+72135544,Tennis,"WTA - Berlin, Germany",2026-06-16T13:10:00Z,2026-06-16 15:10,"Tauson, Clara","Parry, Diane",pending
+72097508,Tennis,"WTA 125K - Brescia, Italy",2026-06-16T13:10:00Z,2026-06-16 15:10,"Monnet, Carole","Trevisan, Martina",pending
+72118710,Tennis,"WTA - Nottingham, Great Britain",2026-06-16T12:40:00Z,2026-06-16 14:40,"Bejlek, Sara","Pliskova, Karolina",pending
+72082248,Tennis,"ATP - London, Great Britain",2026-06-16T12:50:00Z,2026-06-16 14:50,"Rinderknech, Arthur","Medjedovic, Hamad",pending
+72084686,Tennis,"ATP - Halle, Germany, Doubles",2026-06-16T13:00:00Z,2026-06-16 15:00,Doumbia S / Polmans M,Cabral F / Miedler L,pending
+72129602,Tennis,"WTA 125K - Figueira Da Foz, Portugal",2026-06-16T12:20:00Z,2026-06-16 14:20,"Vidmanova, Darja","Voloshchuk, Angelina",pending
+72082250,Tennis,"ATP - London, Great Britain",2026-06-16T13:20:00Z,2026-06-16 15:20,"Norrie, Cameron","Davidovich Fokina, Alejandro",pending
+72129608,Tennis,"WTA 125K - Figueira Da Foz, Portugal",2026-06-16T13:30:00Z,2026-06-16 15:30,"Mladenovic, Kristina","Ryser, Valentina",pending
+72082892,Tennis,"ATP - Halle, Germany",2026-06-16T14:10:00Z,2026-06-16 16:10,"Etcheverry, Tomas Martin","Medvedev, Daniil",pending
+72135542,Tennis,"WTA - Berlin, Germany",2026-06-16T14:20:00Z,2026-06-16 16:20,"Lamens, Suzan","Badosa, Paula",pending
+72082596,Tennis,"WTA - Berlin, Germany",2026-06-16T13:30:00Z,2026-06-16 15:30,"Svitolina, Elina","Kalinskaya, Anna",pending
+72086142,Tennis,"WTA - Nottingham, Great Britain, Doubles",2026-06-16T13:30:00Z,2026-06-16 15:30,Guarachi A / Rosolska A,Bouzkova M / Panova A,pending
+72097766,Tennis,"WTA 125K - Figueira Da Foz, Portugal",2026-06-16T13:30:00Z,2026-06-16 15:30,"Korneeva, Alina","Tian, Fangran",pending
+72098734,Tennis,"ATP - London, Great Britain",2026-06-16T14:00:00Z,2026-06-16 16:00,"Hijikata, Rinky","Tabilo, Alejandro",pending
+72082246,Tennis,"ATP - London, Great Britain",2026-06-16T14:00:00Z,2026-06-16 16:00,"Humbert, Ugo","Cilic, Marin",pending
+72097488,Tennis,"WTA 125K - Brescia, Italy",2026-06-16T14:00:00Z,2026-06-16 16:00,"Ferro, Fiona","Rinaldo Persson, Kajsa",pending
+72082244,Tennis,"ATP - London, Great Britain",2026-06-16T14:30:00Z,2026-06-16 16:30,"Majchrzak, Kamil","Lehecka, Jiri",pending
+72097764,Tennis,"WTA 125K - Figueira Da Foz, Portugal",2026-06-16T14:40:00Z,2026-06-16 16:40,"Kubka, Martyna","Falei, Aliona",pending
+72129606,Tennis,"WTA 125K - Figueira Da Foz, Portugal",2026-06-16T14:40:00Z,2026-06-16 16:40,"Vandromme, Jeline","Zamarripa, Allura",pending
+72097498,Tennis,"WTA 125K - Brescia, Italy",2026-06-16T15:10:00Z,2026-06-16 17:10,"Mintegi Del Olmo, Ane","You, Xiaodi",pending
+72084812,Tennis,"WTA - Berlin, Germany, Doubles",2026-06-16T15:30:00Z,2026-06-16 17:30,Muchova K / Williams S,Olmos G / Routliffe E,pending
+7714607514,Esports,Counter-Strike - Series #4,2026-06-16T17:00:00Z,2026-06-16 19:00,KOLESIE,GenOne,pending
+7462420591,Esports,Valorant - Masters London,2026-06-16T17:00:00Z,2026-06-16 19:00,Team Vitality,FUT Esports,pending
+7707683731,Esports,Dota 2 - Season 38,2026-06-16T18:00:00Z,2026-06-16 20:00,Dandelions,Ilbirs eSports,pending
+5693701487,Esports,Counter-Strike - Season 51,2026-06-16T10:30:00Z,2026-06-16 12:30,Clutchain,LPH Gaming,pending
+6557525273,Esports,Counter-Strike - Series #4,2026-06-16T11:00:00Z,2026-06-16 13:00,illwill,ex-RUBY,pending
+7898680300,Esports,Counter-Strike - Series #4,2026-06-16T14:00:00Z,2026-06-16 16:00,PsychoFace,Leo Team,pending
 69625544,Cricket,"International - ICC T20 World Cup, Women, Group B",2026-06-16T13:30:00Z,2026-06-16 15:30,New Zealand,Sri Lanka,pending
+69625546,Cricket,"International - ICC T20 World Cup, Women, Group B",2026-06-16T17:30:00Z,2026-06-16 19:30,England,Ireland,pending
+71577406,Cricket,International - ICC Cricket World Cup League Two,2026-06-16T15:00:00Z,2026-06-16 17:00,Canada,Netherlands,pending
+72068898,Basketball,"Israel - Super League, Relegation Round",2026-06-16T17:50:00Z,2026-06-16 19:50,Maccabi Tel-Aviv,Hapoel Tel-Aviv,pending
+71961692,Basketball,"Italy - Serie A, Playoffs",2026-06-16T18:00:00Z,2026-06-16 20:00,Venezia,Milan,pending
